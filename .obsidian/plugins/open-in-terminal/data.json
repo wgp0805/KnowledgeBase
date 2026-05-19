@@ -1,0 +1,14 @@
+{
+  "terminalApp": {
+    "win": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+  },
+  "enableClaude": false,
+  "enableCodex": false,
+  "enableCursor": false,
+  "enableGemini": false,
+  "enableOpencode": false,
+  "enableWslOnWindows": false,
+  "enableGitCommitPush": false,
+  "enableGitPull": false,
+  "defaultCommitMessage": "update"
+}
