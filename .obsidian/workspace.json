@@ -11,14 +11,10 @@
             "id": "d0c4696ba15ef5f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/01-articles/Spring Boot 中文文档.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Spring Boot 中文文档"
+              "title": "新标签页"
             }
           }
         ]
@@ -154,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/01-articles/Spring Boot 中文文档.md",
+                "file": "raw/01-articles/Spring Boot 中文文档 1.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Spring Boot 中文文档 的大纲"
+              "title": "Spring Boot 中文文档 1 的大纲"
             }
           }
         ],
@@ -179,14 +175,13 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "realclaudian:Open Claudian": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+      "bases:新建数据库": false
     }
   },
-  "active": "d0c4696ba15ef5f5",
+  "active": "49f718b4e707342b",
   "lastOpenFiles": [
     "raw/01-articles/Spring Boot 中文文档.md",
+    "raw/01-articles/Spring Boot 中文文档 1.md",
     "README.md",
     "wiki/index.md",
     "raw/09-archive/liunx命令总结（600条）.md",
@@ -230,7 +225,6 @@
     "raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md",
     "raw/09-archive/6条Claude Code实践中的经验与思考.md",
     "raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md",
-    "wiki/concepts/AIService.md",
-    "wiki/concepts/ChatMemory.md"
+    "wiki/concepts/AIService.md"
   ]
 }
