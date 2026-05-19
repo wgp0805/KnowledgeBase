@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-elasticsearch-quick-start]] — Elasticsearch 7.11 从零到一入门教程
 - [[摘要-40分钟学会Codex零基础教程]] — Codex 零基础系统教程，八大核心能力全面覆盖
 - [[摘要-60分钟全面掌握Claude-Code]] — Claude Code 四关系统教程，从上手到高级扩展
 - [[摘要-LangChain4j-Java-AI智能体开发]] — LangChain4j 设计理念、核心架构与工程实践
@@ -96,6 +97,10 @@
 - [[Linux]] — 开源操作系统
 - [[Spring]] — Java 企业级应用框架
 - [[IntelliJIDEA]] — Java 集成开发环境
+- [[Elasticsearch]] — 分布式全文检索引擎
+- [[Kibana]] — ES 数据可视化平台
+- [[Lucene]] — 全文检索引擎工具库
+- [[Solr]] — 基于 Lucene 的搜索服务器
 - [[RuoYi]] — 若依快速开发框架
 - [[Nacos]] — 服务注册与配置中心
 - [[JavaScript]] — Web 编程语言
@@ -126,4 +131,7 @@
 - [[transaction-management]] — Spring 声明式事务管理
 - [[incident-severity-classification]] — 事故级别分类标准
 - [[jvm-tuning]] — JVM 性能调优
+- [[inverted-index]] — 倒排索引核心数据结构
+- [[full-text-search]] — 全文搜索引擎概念
+- [[analyzer]] — 分词器与文本分析
 - [[query-optimization]] — 数据库查询优化
