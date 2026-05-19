@@ -192,8 +192,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "40fb5ea40efc8d08",
+  "active": "49f718b4e707342b",
   "lastOpenFiles": [
+    "新建 文本文档.txt",
     "CLAUDE.md",
     "raw/09-archive/用Qoder搭建PaiAgent项目脚手架.md",
     "wiki/index.md",
@@ -219,7 +220,6 @@
     "raw/09-archive/orcale常用的查询资源的方法.md",
     "raw/09-archive/orcale查看索引状态.md",
     "raw/09-archive/Orcale表锁解决方法.md",
-    "raw/09-archive/nginx配置.md",
     "raw/09-archive/_analysis_result.json",
     "raw/01-articles/_analysis_result.json",
     "raw/02-papers/5C Prompt Contracts .pdf",
