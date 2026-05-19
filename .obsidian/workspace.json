@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/01-articles/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签.md",
+                "file": "raw/01-articles/6条Claude Code实践中的经验与思考.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签"
+              "title": "6条Claude Code实践中的经验与思考"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/01-articles/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签.md",
+                "file": "raw/01-articles/6条Claude Code实践中的经验与思考.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签 的大纲"
+              "title": "6条Claude Code实践中的经验与思考 的大纲"
             }
           }
         ],
@@ -185,8 +185,8 @@
   },
   "active": "40fb5ea40efc8d08",
   "lastOpenFiles": [
-    "raw/01-articles/6条Claude Code实践中的经验与思考.md",
     "raw/01-articles/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签.md",
+    "raw/01-articles/6条Claude Code实践中的经验与思考.md",
     "wiki/log.md.tmp.32472.1779174795321",
     "wiki/index.md.tmp.32472.1779174782078",
     "wiki/index.md.tmp.32472.1779174765618",
