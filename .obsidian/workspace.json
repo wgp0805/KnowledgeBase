@@ -185,8 +185,10 @@
   },
   "active": "d0c4696ba15ef5f5",
   "lastOpenFiles": [
-    "wiki/entities/OpenAI.md",
+    "raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md",
     "raw/01-articles/推荐一款DeepSeek V4 编程神器！.md",
+    "assets/推荐一款DeepSeek V4 编程神器！",
+    "wiki/entities/OpenAI.md",
     "raw/09-archive/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md",
     "wiki/sources/摘要-如何在Spring-Boot中无缝集成LangChain4j.md",
     "raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md",
@@ -227,9 +229,7 @@
     "raw/01-articles/assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
     "assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
     "raw/01-articles",
-    "raw/01-articles",
     "raw/未命名.md",
-    "raw/01-articles.md",
-    "raw/01-articles/6条Claude Code实践中的经验与思考.md"
+    "raw/01-articles.md"
   ]
 }
