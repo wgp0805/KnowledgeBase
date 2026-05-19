@@ -184,8 +184,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d0c4696ba15ef5f5",
+  "active": "49f718b4e707342b",
   "lastOpenFiles": [
+    "wiki/syntheses/elasticsearch-disadvantages.md",
     "raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md",
     "raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md",
     "wiki/concepts/analyzer.md",
@@ -230,7 +231,6 @@
     "wiki/concepts/ChatMemory.md",
     "wiki/concepts/FunctionCalling.md",
     "wiki/concepts/AICoding.md",
-    "wiki/concepts/RAG.md",
-    "wiki/concepts/AutoMemory.md"
+    "wiki/concepts/RAG.md"
   ]
 }

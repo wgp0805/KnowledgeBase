@@ -135,3 +135,6 @@
 - [[full-text-search]] — 全文搜索引擎概念
 - [[analyzer]] — 分词器与文本分析
 - [[query-optimization]] — 数据库查询优化
+
+## Syntheses
+- [[elasticsearch-disadvantages]] — Elasticsearch 使用缺点分析
