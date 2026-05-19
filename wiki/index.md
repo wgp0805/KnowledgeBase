@@ -5,6 +5,7 @@
 - [[摘要-40分钟学会Codex零基础教程]] — Codex 零基础系统教程，八大核心能力全面覆盖
 - [[摘要-60分钟全面掌握Claude-Code]] — Claude Code 四关系统教程，从上手到高级扩展
 - [[摘要-LangChain4j-Java-AI智能体开发]] — LangChain4j 设计理念、核心架构与工程实践
+- [[摘要-如何在Spring-Boot中无缝集成LangChain4j]] — Spring Boot 集成 LangChain4j Starter 实践
 - [[摘要-6条Claude-Code实践经验与思考]] — Claude Code 六条实践经验与 AI Coding 范式思考
 - [[摘要-欢迎]] — Obsidian 仓库的入门欢迎笔记
 - [[摘要-域名]] — 阿里云和 CloudFlare 域名解析过程

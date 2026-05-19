@@ -17,6 +17,6 @@
 ## [2026-05-19] query | ES 使用缺点分析
 - **输出**: 已保存至 [[elasticsearch-disadvantages]]
 
-## [2026-05-19] ingest | 摄入 4 篇 AI/Agent 相关文章
-- **变更**: 新增 [[摘要-40分钟学会Codex零基础教程]], [[摘要-60分钟全面掌握Claude-Code]], [[摘要-LangChain4j-Java-AI智能体开发]], [[摘要-6条Claude-Code实践经验与思考]]; 新增实体 [[Codex]], [[ClaudeCode]], [[LangChain4j]], [[OpenAI]], [[Anthropic]]; 新增概念 [[Agent]], [[AgentHarness]], [[Skill]], [[MCP]], [[ContextManagement]], [[CLAUDEmd]], [[AutoMemory]], [[RAG]], [[AICoding]], [[FunctionCalling]], [[ChatMemory]], [[AIService]]; 更新 [[index.md]]
+## [2026-05-19] ingest | 摄入 Spring Boot 集成 LangChain4j 教程
+- **变更**: 新增 [[摘要-如何在Spring-Boot中无缝集成LangChain4j]]; 更新 [[LangChain4j]], [[AIService]]; 更新 [[index.md]]
 - **冲突**: 无
