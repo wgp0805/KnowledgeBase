@@ -1,4 +1,6 @@
 {
-  "attachmentFolderPath": "assets",
-  "promptDelete": false
+  "attachmentFolderPath": "/",
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
 }

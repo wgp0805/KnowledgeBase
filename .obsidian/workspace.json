@@ -166,10 +166,14 @@
             "id": "84cd0f48b0ff3177",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "raw/01-articles/同事：“AI 时代你还在用 Java 的 LangGraph4J 不切到 Python 吗？”我笑了：“Codex+Claude Code 啥语言不行？Agent根本不在乎。”.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "同事：“AI 时代你还在用 Java 的 LangGraph4J 不切到 Python 吗？”我笑了：“Codex+Claude Code 啥语言不行？Agent根本不在乎。”"
             }
           }
         ],
@@ -177,10 +181,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465.5
+    "width": 814.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -188,12 +193,16 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "realclaudian:Open Claudian": false,
-      "terminal:Open terminal": false
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "49f718b4e707342b",
+  "active": "84cd0f48b0ff3177",
   "lastOpenFiles": [
+    "raw/01-articles/用Qoder+SSE实现工作流实时推送.md",
+    "raw/01-articles/同事：“AI 时代你还在用 Java 的 LangGraph4J 不切到 Python 吗？”我笑了：“Codex+Claude Code 啥语言不行？Agent根本不在乎。”.md",
+    "raw/01-articles/用Qoder集成qwen3-tts+MinIO完成超拟人音频节点开发.md",
+    "raw/01-articles/用Qoder完成LLM节点开发（DeepSeek+通义千问）.md",
+    "README.md",
     "新建 文本文档.txt",
     "CLAUDE.md",
     "raw/09-archive/用Qoder搭建PaiAgent项目脚手架.md",
@@ -216,10 +225,6 @@
     "raw/09-archive/spring框架中的事务管理.md",
     "raw/09-archive/sgzj.md",
     "raw/09-archive/pmhub微服务学习.md",
-    "raw/09-archive/Orcale创建用户和表空间授权过程.md",
-    "raw/09-archive/orcale常用的查询资源的方法.md",
-    "raw/09-archive/orcale查看索引状态.md",
-    "raw/09-archive/Orcale表锁解决方法.md",
     "raw/09-archive/_analysis_result.json",
     "raw/01-articles/_analysis_result.json",
     "raw/02-papers/5C Prompt Contracts .pdf",
@@ -230,7 +235,6 @@
     "wiki/entities/Linux.md.tmp.1916.1779153108362",
     "wiki/sources/摘要-linux-mount-disk.md.tmp.1916.1779153103904",
     "wiki/entities/Linux.md.tmp.1916.1779153093243",
-    "wiki/entities/SVN.md.tmp.1916.1779152934234",
     "新建文件夹/ass/服务器部署纯静态网站/image-20230606171823732.png",
     "新建文件夹/ass/wgp-vue管理系统/image-20230621103926018.png",
     "新建文件夹/ass/wgp-vue管理系统/image-20230621103717399.png",
