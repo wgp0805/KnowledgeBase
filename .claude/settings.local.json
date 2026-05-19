@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(python3 -c ' *)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(mkdir -p raw/09-archive)",
+      "Bash(mv \"raw/01-articles/40分钟学会Codex！\"零基础\"终级教程～【附完整文档】.md\" \"raw/09-archive/\")"
     ]
   }
 }
