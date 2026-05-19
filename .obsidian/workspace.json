@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fc105475da1f0be1",
+        "id": "368766db475b1081",
         "type": "tabs",
         "children": [
           {
-            "id": "ec5d8fe5efe6e4bc",
+            "id": "d0c4696ba15ef5f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "raw/01-articles/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "raw/01-articles/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买 的大纲"
             }
           }
         ],
@@ -184,15 +184,17 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "49f718b4e707342b",
+  "active": "d0c4696ba15ef5f5",
   "lastOpenFiles": [
-    "raw/01-articles",
-    "raw/01-articles/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买.md",
-    "raw/01-articles/assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买/fbaa844228913f066b7dcd458c8e3b6c_MD5.webp",
-    "raw/01-articles/assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买/86b7b1470a33633b3f705b7d304006f6_MD5.webp",
     "raw/01-articles/assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
     "raw/01-articles/assets",
+    "assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买/86b7b1470a33633b3f705b7d304006f6_MD5.webp",
+    "assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
+    "raw/01-articles/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买.md",
     "README.md",
+    "raw/01-articles",
+    "raw/01-articles/assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买/fbaa844228913f066b7dcd458c8e3b6c_MD5.webp",
+    "raw/01-articles/assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买/86b7b1470a33633b3f705b7d304006f6_MD5.webp",
     "raw/01-articles",
     "raw/01-articles/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签.md",
     "raw/01-articles/assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/6f5ca42d798076adc678a0e64b73c008_MD5.webp",
@@ -215,8 +217,6 @@
     "raw/09-archive/6条Claude Code实践中的经验与思考.md",
     "raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md",
     "wiki/log.md.tmp.32472.1779174795321",
-    "wiki/index.md.tmp.32472.1779174782078",
-    "wiki/index.md.tmp.32472.1779174765618",
     "wiki/concepts/AIService.md",
     "wiki/concepts/ChatMemory.md",
     "wiki/concepts/FunctionCalling.md",
@@ -230,7 +230,6 @@
     "wiki/concepts/AgentHarness.md",
     "wiki/concepts/Agent.md",
     "wiki/entities/Anthropic.md",
-    "wiki/entities/OpenAI.md",
-    "assets/hq720.jpg"
+    "wiki/entities/OpenAI.md"
   ]
 }
