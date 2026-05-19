@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "raw/01-articles/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "40分钟学会Codex！“零基础”终级教程～【附完整文档】"
             }
           }
         ]
@@ -154,30 +154,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "raw/01-articles/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "84cd0f48b0ff3177",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/01-articles/同事：“AI 时代你还在用 Java 的 LangGraph4J 不切到 Python 吗？”我笑了：“Codex+Claude Code 啥语言不行？Agent根本不在乎。”.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "同事：“AI 时代你还在用 Java 的 LangGraph4J 不切到 Python 吗？”我笑了：“Codex+Claude Code 啥语言不行？Agent根本不在乎。”"
+              "title": "40分钟学会Codex！“零基础”终级教程～【附完整文档】 的大纲"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -196,13 +183,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "84cd0f48b0ff3177",
+  "active": "40fb5ea40efc8d08",
   "lastOpenFiles": [
+    "README.md",
+    "raw/01-articles/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md",
+    "raw/01-articles",
+    "raw/01-articles/用Qoder集成qwen3-tts+MinIO完成超拟人音频节点开发.md",
     "raw/01-articles/用Qoder+SSE实现工作流实时推送.md",
     "raw/01-articles/同事：“AI 时代你还在用 Java 的 LangGraph4J 不切到 Python 吗？”我笑了：“Codex+Claude Code 啥语言不行？Agent根本不在乎。”.md",
-    "raw/01-articles/用Qoder集成qwen3-tts+MinIO完成超拟人音频节点开发.md",
     "raw/01-articles/用Qoder完成LLM节点开发（DeepSeek+通义千问）.md",
-    "README.md",
     "新建 文本文档.txt",
     "CLAUDE.md",
     "raw/09-archive/用Qoder搭建PaiAgent项目脚手架.md",
@@ -224,7 +213,6 @@
     "raw/09-archive/SpringBoot-Aop的使用.md",
     "raw/09-archive/spring框架中的事务管理.md",
     "raw/09-archive/sgzj.md",
-    "raw/09-archive/pmhub微服务学习.md",
     "raw/09-archive/_analysis_result.json",
     "raw/01-articles/_analysis_result.json",
     "raw/02-papers/5C Prompt Contracts .pdf",
@@ -234,7 +222,6 @@
     "wiki/sources/摘要-mysql-explain-analysis.md.tmp.1916.1779153131453",
     "wiki/entities/Linux.md.tmp.1916.1779153108362",
     "wiki/sources/摘要-linux-mount-disk.md.tmp.1916.1779153103904",
-    "wiki/entities/Linux.md.tmp.1916.1779153093243",
     "新建文件夹/ass/服务器部署纯静态网站/image-20230606171823732.png",
     "新建文件夹/ass/wgp-vue管理系统/image-20230621103926018.png",
     "新建文件夹/ass/wgp-vue管理系统/image-20230621103717399.png",
