@@ -11,6 +11,9 @@
 - **变更**: 新增 [[摘要-elasticsearch-quick-start]]; 新增实体 [[Elasticsearch]], [[Kibana]], [[Lucene]], [[Solr]]; 新增概念 [[inverted-index]], [[full-text-search]], [[analyzer]]; 更新 [[index.md]]
 - **冲突**: 无
 
+## [2026-05-19] query | Solr vs ES 对比及技术选型
+- **输出**: 引用 [[Solr]], [[Elasticsearch]], [[elasticsearch-disadvantages]]
+
 ## [2026-05-19] query | ES 使用缺点分析
 - **输出**: 已保存至 [[elasticsearch-disadvantages]]
 

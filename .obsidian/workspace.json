@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "wiki/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "index"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "wiki/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "index 的大纲"
             }
           }
         ],
@@ -184,8 +184,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "49f718b4e707342b",
+  "active": "d0c4696ba15ef5f5",
   "lastOpenFiles": [
+    "README.md",
     "wiki/syntheses/elasticsearch-disadvantages.md",
     "raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md",
     "raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md",
@@ -197,7 +198,6 @@
     "wiki/entities/Kibana.md",
     "wiki/entities/Elasticsearch.md",
     "wiki/sources/摘要-elasticsearch-quick-start.md",
-    "README.md",
     "raw/01-articles/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签.md",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/400306ff292e384cfaa6b3d7305b0e18_MD5.jpg",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/6432125068e18b8f6d30028c31d0a6b9_MD5.jpg",
