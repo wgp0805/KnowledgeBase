@@ -21,7 +21,7 @@ DeepSeek TUI的主要功能如下：
 
 下面是DeepSeek TUI使用过程中的效果图，界面还是挺炫酷的！
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacSs3k3wsE1kaibZ7iaUJXhiaWhETo3iag7I4hVmq6234Bw3yicghKohCwI0KkuwFYMsLAm96Sico4zmD4wSYVo6gCIlo7V4VNL7Vm02Os/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEDeepSeek%20V4%20%E7%BC%96%E7%A8%8B%E7%A5%9E%E5%99%A8%EF%BC%81/10dd439eeb9dd62b70167ca0a2c02f29_MD5.webp)
 
 ## 安装及配置
 
@@ -36,13 +36,13 @@ npm install -g deepseek-tui@0.8.37
 deepseek --model auto
 ```
 - 首次启动将弹出设置界面，会引导用户进行设置；
-![图片](https://mmbiz.qpic.cn/mmbiz_png/ULE52ybiacStSUic8g7riam4doSJUkOd42wHrm8kyVibO1gJ3HcEKJGpGDbdE2bDrdxVYOPuBEibic9P79GFJq3UUBgrVgXObt4fH9tYIujeVBIQo/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEDeepSeek%20V4%20%E7%BC%96%E7%A8%8B%E7%A5%9E%E5%99%A8%EF%BC%81/06f60cd641470ef6d6db337942c50159_MD5.webp)
 
 - 在第二步中可以进行语言设置，这里选择简体中文；
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacSuKErJ6PxWHnaEEB6ibkPQuTiaFicpH2zgLiadX8OZ9ryuMdcgoAQqsqsQCwaxM4OL1U219ROcrHaDbra8XzSibib19aicFpgNzFZ2ZYE/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=2)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEDeepSeek%20V4%20%E7%BC%96%E7%A8%8B%E7%A5%9E%E5%99%A8%EF%BC%81/4fe7eeb22a079c339b43775720bb8a23_MD5.webp)
 
 - 第三步中需要设置Deepseek API密钥，设置完成就可以开始使用了，API密钥可以从Deepseek官网获取： [https://platform.deepseek.com](https://platform.deepseek.com)
-![图片](https://mmbiz.qpic.cn/mmbiz_png/ULE52ybiacSukvXYyKxCO2OPGAX38sHZNibgpjSZyAvV3L1RzP4kjKE7CXddul74Sswicjes4icyAXIpsjAUZ6JutibpibNc4RETmhdFXPy7okF7Q/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=3)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEDeepSeek%20V4%20%E7%BC%96%E7%A8%8B%E7%A5%9E%E5%99%A8%EF%BC%81/0aef31f26cdc442f68153fa091790a6a_MD5.webp)
 
 ## 使用
 
@@ -53,19 +53,19 @@ deepseek --model auto
 用户需求：开发一个Markdown编辑器功能描述：- 左侧为Markdown编辑器编辑器，右侧为Markdown预览区- Markdown文件的列表、编辑、删除、保存功能- Markdown文件的重命名功能- 支持深色和浅色两种主题模式UI设计规范遵循Material Design（谷歌）开发技术栈：Vue3+Element-Plus+TypeScript
 ```
 - 我们可以通过`Tab`键进行模式切换，这里先切换到`plan`模式，让DeepSeek TUI生成一份计划文档到项目的根目录下；
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacStIZgJW2iaFXHQUBh2Ov8UBX0PDkR3xIQWicmFQbGO1cSDoMET26RJMicB09ytnx7ByLQibcFLFaico6vZIdm57YSYjtGibLFq5Gb0dI/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEDeepSeek%20V4%20%E7%BC%96%E7%A8%8B%E7%A5%9E%E5%99%A8%EF%BC%81/63d3aae07ba1d303b542c345972bf887_MD5.webp)
 
 - 我看了下计划文档没啥问题，就让DeepSeek TUI执行了，其中出现了两个小BUG，我把错误提交给它就很快解决了，不得不说DeepSeek的输出速度还是非常快的，最终也页面效果如下：
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacSvVerD9eibsQW2kpTREdyXkukqdr5ibE4EYURQYkPsibJyXxt5Y3YRJNUQVwbv3Ngt3MnLxzGqnb2pvbIicSH10guRh7QIvMsVK2PQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=5)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEDeepSeek%20V4%20%E7%BC%96%E7%A8%8B%E7%A5%9E%E5%99%A8%EF%BC%81/c975c294bf2e03ad5d1520552a1c4911_MD5.webp)
 
 - 全程使用的`deepseek-v4-pro`模型，花费不到2块钱，消耗`200多万token`，这性价比也是很高的；
-![图片](https://mmbiz.qpic.cn/mmbiz_png/ULE52ybiacSuJFHnevNNRj1sOex43FqxZgXptWCnocY1kca0bM04oP4icEKKzx9r7rKGjCs3yibuicJfaHNFbZ8tSwCMwKwVcNPUgzU1uDZrzBk/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEDeepSeek%20V4%20%E7%BC%96%E7%A8%8B%E7%A5%9E%E5%99%A8%EF%BC%81/305e9976b3dbfbcec7925380fbc342ee_MD5.webp)
 
 - 通过`/config`命令可以对DeepSeek TUI进行配置，之前我们配置的语言（locale）和模型（model）都可以在里面进行设置；
-![图片](https://mmbiz.qpic.cn/mmbiz_png/ULE52ybiacSs2ibGSLPfibNqk1T8UBtpOZJeYqlEpdPZaq4m9Rb1rrATPgwaTb1ticp2icn3ZUulpwFVZwlbE3XP7dicp4mJtwj3Q0mDmlEQ2Njibs/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=7)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEDeepSeek%20V4%20%E7%BC%96%E7%A8%8B%E7%A5%9E%E5%99%A8%EF%BC%81/192d3616704473d21a302a77a1da3286_MD5.webp)
 
 - 通过`/theme`命令可以切换DeepSeek TUI的主题，内置了8种主题，选择可以实时预览主题，还是很酷的！
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacSvdn89QYU9vxcBM888MY9VxZVWZwiaJDMibI3qJibjx4AMU9gczIvenfyskxicMAoITLcPwnYCVorRCv0sITDFRvLWH8licGwxwmwzo/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BEDeepSeek%20V4%20%E7%BC%96%E7%A8%8B%E7%A5%9E%E5%99%A8%EF%BC%81/52ff8b299bf5fa57ee097d217b5b0e98_MD5.webp)
 
 ## 总结
 

@@ -172,19 +172,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
       "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
+      "bases:新建数据库": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d0c4696ba15ef5f5",
+  "active": "49f718b4e707342b",
   "lastOpenFiles": [
+    "assets/推荐一款DeepSeek V4 编程神器！/10dd439eeb9dd62b70167ca0a2c02f29_MD5.webp",
+    "assets/推荐一款DeepSeek V4 编程神器！/0aef31f26cdc442f68153fa091790a6a_MD5.webp",
+    "assets/推荐一款DeepSeek V4 编程神器！/06f60cd641470ef6d6db337942c50159_MD5.webp",
+    "assets/推荐一款DeepSeek V4 编程神器！/4fe7eeb22a079c339b43775720bb8a23_MD5.webp",
+    "assets/推荐一款DeepSeek V4 编程神器！/63d3aae07ba1d303b542c345972bf887_MD5.webp",
+    "assets/推荐一款DeepSeek V4 编程神器！/c975c294bf2e03ad5d1520552a1c4911_MD5.webp",
+    "assets/推荐一款DeepSeek V4 编程神器！/192d3616704473d21a302a77a1da3286_MD5.webp",
+    "assets/推荐一款DeepSeek V4 编程神器！/52ff8b299bf5fa57ee097d217b5b0e98_MD5.webp",
+    "assets/推荐一款DeepSeek V4 编程神器！/305e9976b3dbfbcec7925380fbc342ee_MD5.webp",
     "raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md",
     "raw/01-articles/推荐一款DeepSeek V4 编程神器！.md",
     "assets/推荐一款DeepSeek V4 编程神器！",
@@ -211,14 +220,6 @@
     "raw/01-articles/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签.md",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/400306ff292e384cfaa6b3d7305b0e18_MD5.jpg",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/6432125068e18b8f6d30028c31d0a6b9_MD5.jpg",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/10db4f3b7046ed9fef2c51f684a9b1fe_MD5.jpg",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/ed86d34c5cc5e403bd2d416f544f112f_MD5.jpg",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/af6714236f674d9cd4f1cebf2c631cc8_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/20ddecbbc2a406aae20435cc2fb9e836_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/584de91273337d8f027a73d36f5ab4fb_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/6f5ca42d798076adc678a0e64b73c008_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/e53617edb5fa8db5ee906e0373a75321_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/bbd786cdf06f9a9da50a12ae0fbf5c47_MD5.webp",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签",
     "raw/01-articles",
     "raw/01-articles",
@@ -229,7 +230,6 @@
     "raw/01-articles/assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
     "assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
     "raw/01-articles",
-    "raw/未命名.md",
-    "raw/01-articles.md"
+    "raw/未命名.md"
   ]
 }
