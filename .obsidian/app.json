@@ -2,5 +2,7 @@
   "attachmentFolderPath": "assets",
   "promptDelete": true,
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "raw/01-articles"
 }
