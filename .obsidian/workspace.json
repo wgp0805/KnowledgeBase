@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/index.md",
+                "file": "raw/01-articles/Spring Boot 中文文档.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Spring Boot 中文文档"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 424.5
   },
   "right": {
     "id": "0162337b3f36c068",
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/index.md",
+                "file": "raw/01-articles/Spring Boot 中文文档.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "Spring Boot 中文文档 的大纲"
             }
           }
         ],
@@ -186,7 +186,10 @@
   },
   "active": "d0c4696ba15ef5f5",
   "lastOpenFiles": [
+    "raw/01-articles/Spring Boot 中文文档.md",
     "README.md",
+    "wiki/index.md",
+    "raw/09-archive/liunx命令总结（600条）.md",
     "wiki/syntheses/elasticsearch-disadvantages.md",
     "raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md",
     "raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md",
@@ -228,9 +231,6 @@
     "raw/09-archive/6条Claude Code实践中的经验与思考.md",
     "raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md",
     "wiki/concepts/AIService.md",
-    "wiki/concepts/ChatMemory.md",
-    "wiki/concepts/FunctionCalling.md",
-    "wiki/concepts/AICoding.md",
-    "wiki/concepts/RAG.md"
+    "wiki/concepts/ChatMemory.md"
   ]
 }
