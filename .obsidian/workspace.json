@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/01-articles/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签"
+              "title": "README"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/01-articles/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签 的大纲"
+              "title": "README 的大纲"
             }
           }
         ],
@@ -186,15 +186,8 @@
   },
   "active": "49f718b4e707342b",
   "lastOpenFiles": [
-    "raw/01-articles/assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签",
-    "raw/01-articles/assets",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/e53617edb5fa8db5ee906e0373a75321_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/bbd786cdf06f9a9da50a12ae0fbf5c47_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签",
-    "raw/01-articles/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买.md",
+    "raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md",
     "raw/01-articles/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签.md",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/111/bbd786cdf06f9a9da50a12ae0fbf5c47_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/111",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/400306ff292e384cfaa6b3d7305b0e18_MD5.jpg",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/6432125068e18b8f6d30028c31d0a6b9_MD5.jpg",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/10db4f3b7046ed9fef2c51f684a9b1fe_MD5.jpg",
@@ -202,14 +195,22 @@
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/af6714236f674d9cd4f1cebf2c631cc8_MD5.webp",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/20ddecbbc2a406aae20435cc2fb9e836_MD5.webp",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/584de91273337d8f027a73d36f5ab4fb_MD5.webp",
-    "raw/01-articles/assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
-    "assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
+    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/6f5ca42d798076adc678a0e64b73c008_MD5.webp",
+    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/e53617edb5fa8db5ee906e0373a75321_MD5.webp",
+    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/bbd786cdf06f9a9da50a12ae0fbf5c47_MD5.webp",
+    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签",
     "README.md",
     "raw/01-articles",
     "raw/01-articles",
+    "raw/01-articles/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买.md",
+    "raw/01-articles/assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签",
+    "raw/01-articles/assets",
+    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/111",
+    "raw/01-articles/assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
+    "assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
+    "raw/01-articles",
     "raw/01-articles",
     "raw/未命名.md",
-    "raw/01-articles",
     "raw/01-articles.md",
     "raw/01-articles/6条Claude Code实践中的经验与思考.md",
     "raw/09-archive/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md",
