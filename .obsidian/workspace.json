@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/01-articles/推荐一款DeepSeek V4 编程神器！.md",
+                "file": "raw/01-articles/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "推荐一款DeepSeek V4 编程神器！"
+              "title": "OpenClaw vs Hermes：万字深入讲解两大通用 Agent"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.5
+    "width": 329.5
   },
   "right": {
     "id": "0162337b3f36c068",
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/01-articles/推荐一款DeepSeek V4 编程神器！.md",
+                "file": "raw/01-articles/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "推荐一款DeepSeek V4 编程神器！ 的大纲"
+              "title": "OpenClaw vs Hermes：万字深入讲解两大通用 Agent 的大纲"
             }
           }
         ],
@@ -172,21 +172,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d0c4696ba15ef5f5",
+  "active": "49f718b4e707342b",
   "lastOpenFiles": [
-    "wiki/entities/OpenAI.md",
+    "assets/推荐一款DeepSeek V4 编程神器！",
+    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent/47ba417d7473e848c9b600edf9317929_MD5.jpg",
+    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent/4f85e4e78ea6f8360a273ac83d5b657e_MD5.jpg",
+    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent/4e33ef48b2916a9c67efcbaf1601d628_MD5.jpg",
+    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent/6775c35f54900935735ef695b3679389_MD5.jpg",
+    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent/fa252c31ae56bdb2f4a0003fd89ac9df_MD5.jpg",
+    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent/96fc1e389fc8b2f8abe2ea1b32a9e5da_MD5.jpg",
+    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent/1fedbe99392df1ccfd88728b0cd72c34_MD5.jpg",
+    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent",
+    "assets",
     "raw/01-articles/推荐一款DeepSeek V4 编程神器！.md",
+    "raw/01-articles/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md",
+    "wiki/entities/OpenAI.md",
     "raw/09-archive/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md",
     "wiki/sources/摘要-如何在Spring-Boot中无缝集成LangChain4j.md",
     "raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md",
@@ -210,13 +221,6 @@
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/400306ff292e384cfaa6b3d7305b0e18_MD5.jpg",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/6432125068e18b8f6d30028c31d0a6b9_MD5.jpg",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/10db4f3b7046ed9fef2c51f684a9b1fe_MD5.jpg",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/ed86d34c5cc5e403bd2d416f544f112f_MD5.jpg",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/af6714236f674d9cd4f1cebf2c631cc8_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/20ddecbbc2a406aae20435cc2fb9e836_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/584de91273337d8f027a73d36f5ab4fb_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/6f5ca42d798076adc678a0e64b73c008_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/e53617edb5fa8db5ee906e0373a75321_MD5.webp",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/bbd786cdf06f9a9da50a12ae0fbf5c47_MD5.webp",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签",
     "raw/01-articles",
     "raw/01-articles",
@@ -226,10 +230,6 @@
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签/111",
     "raw/01-articles/assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
     "assets/Obsidian把网页内容存进知识库的正确方式 Web Clipper_服务软件_什么值得买",
-    "raw/01-articles",
-    "raw/01-articles",
-    "raw/未命名.md",
-    "raw/01-articles.md",
-    "raw/01-articles/6条Claude Code实践中的经验与思考.md"
+    "raw/未命名.md"
   ]
 }
