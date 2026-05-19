@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779151579948-dseqi0ww0",
+  "providerId": "claude",
+  "title": "Ingest content into LLM wiki",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779151579951,
+  "updatedAt": 1779154201579,
+  "lastResponseAt": 1779153358046,
+  "sessionId": "ac907ade-5e3d-418a-a670-bd75378dd53f",
+  "providerState": {
+    "providerSessionId": "ac907ade-5e3d-418a-a670-bd75378dd53f"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 332,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 98616,
+    "contextWindow": 200000,
+    "contextTokens": 98948,
+    "percentage": 49,
+    "contextWindowIsAuthoritative": true
+  }
+}

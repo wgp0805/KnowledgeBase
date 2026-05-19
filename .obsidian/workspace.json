@@ -1,0 +1,244 @@
+{
+  "main": {
+    "id": "7553fc4d1b5bc42a",
+    "type": "split",
+    "children": [
+      {
+        "id": "aba0c6f4250c000d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40fb5ea40efc8d08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e5d6a7f440d5c04f",
+    "type": "split",
+    "children": [
+      {
+        "id": "cac106ff45446612",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49f718b4e707342b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7cf58cfbd034be50",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "eb3de025bdf2c422",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0162337b3f36c068",
+    "type": "split",
+    "children": [
+      {
+        "id": "88ec4fb77a2c5b99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6de5cb718947409",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "59d4f4813432a836",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "3a5f678519955557",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "50a7dd5c4963b75a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "5cd977acd90d18c5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "84cd0f48b0ff3177",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 465.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "realclaudian:Open Claudian": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "40fb5ea40efc8d08",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "raw/09-archive/用Qoder搭建PaiAgent项目脚手架.md",
+    "wiki/index.md",
+    "wiki/entities/PaiAgent.md",
+    "raw/09-archive/windows系统释放休眠文件和保留空间占用的硬盘空间.md",
+    "raw/09-archive/wgp-vue管理系统.md",
+    "raw/09-archive/VUE3基础-async-await.md",
+    "raw/09-archive/VMware17-安装ubuntu.md",
+    "raw/09-archive/vim命令大全.md",
+    "raw/09-archive/trunc函数用法.md",
+    "raw/09-archive/Steam的简单操作.md",
+    "raw/09-archive/SpringBoot整合SpringSecurity及框架的简单使用.md",
+    "raw/09-archive/springboot整合RocketMq.md",
+    "raw/09-archive/springboot整合redis.md",
+    "raw/09-archive/springboot整合mybatisPlus.md",
+    "raw/09-archive/SpringBoot优雅的加载配置文件的几种方式.md",
+    "raw/09-archive/SpringBoot接收参数的几种常用方式.md",
+    "raw/09-archive/SpringBoot-Aop的使用.md",
+    "raw/09-archive/spring框架中的事务管理.md",
+    "raw/09-archive/sgzj.md",
+    "raw/09-archive/pmhub微服务学习.md",
+    "raw/09-archive/Orcale创建用户和表空间授权过程.md",
+    "raw/09-archive/orcale常用的查询资源的方法.md",
+    "raw/09-archive/orcale查看索引状态.md",
+    "raw/09-archive/Orcale表锁解决方法.md",
+    "raw/09-archive/nginx配置.md",
+    "raw/09-archive/_analysis_result.json",
+    "raw/01-articles/_analysis_result.json",
+    "raw/02-papers/5C Prompt Contracts .pdf",
+    "assets/hq720.jpg",
+    "wiki/entities/MySQL.md.tmp.1916.1779153170859",
+    "wiki/entities/MySQL.md.tmp.1916.1779153167841",
+    "wiki/sources/摘要-mysql-explain-analysis.md.tmp.1916.1779153131453",
+    "wiki/entities/Linux.md.tmp.1916.1779153108362",
+    "wiki/sources/摘要-linux-mount-disk.md.tmp.1916.1779153103904",
+    "wiki/entities/Linux.md.tmp.1916.1779153093243",
+    "wiki/entities/SVN.md.tmp.1916.1779152934234",
+    "新建文件夹/ass/服务器部署纯静态网站/image-20230606171823732.png",
+    "新建文件夹/ass/wgp-vue管理系统/image-20230621103926018.png",
+    "新建文件夹/ass/wgp-vue管理系统/image-20230621103717399.png",
+    "新建文件夹/ass/总结一次线上事故的惨痛教训/image-20230519182959514.png",
+    "新建文件夹/ass/VMware17-安装ubuntu/image-20260403103317151.png",
+    "新建文件夹/ass/VMware17-安装ubuntu/image-20260403103239983.png",
+    "新建文件夹/ass/VMware17-安装ubuntu/image-20260331161008366.png",
+    "新建文件夹/ass/SpringBoot整合SpringSecurity及框架的简单使用/image-20230620140713667.png",
+    "新建文件夹/ass/SpringBoot整合SpringSecurity及框架的简单使用/image-20230620104150263.png"
+  ]
+}

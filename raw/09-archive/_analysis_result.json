@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "jdk8—LocalDateTime时间戳转换",
+    "summary": "汇总MySQL按时间段查询数据的SQL语句，包括今天、昨天、近7天、本月等常用时间范围的查询写法。",
+    "entities": ["MySQL", "Oracle"],
+    "concepts": ["time-range-query", "sql-date-functions"]
+  },
+  {
+    "slug": "jsonpath解析复杂json",
+    "summary": "介绍JSONPath的语法规则及其在Java中使用FastJson库解析复杂JSON的实战示例。",
+    "entities": ["FastJson", "JSONPath", "Hutool"],
+    "concepts": ["json-path", "json-parsing"]
+  },
+  {
+    "slug": "jvm参数解释",
+    "summary": "详细解释JVM的核心参数含义，包括堆内存设置、垃圾收集器选择（G1/CMS/ZGC）、编译优化等相关配置。",
+    "entities": ["JVM", "HotSpot", "G1GC", "ZGC", "CMS", "ParallelGC"],
+    "concepts": ["jvm-tuning", "garbage-collection", "jit-compilation"]
+  },
+  {
+    "slug": "lambda表达式简单解析",
+    "summary": "详解Java 8 Lambda表达式的语法、使用方式、语法精简技巧及方法引用（静态方法/构造方法）。",
+    "entities": ["Java"],
+    "concepts": ["lambda-expressions", "functional-interface", "method-reference"]
+  },
+  {
+    "slug": "liunx查找文件内的关键字",
+    "summary": "介绍Linux中使用vim和grep命令查找文件内关键字的方法，涵盖vim查找替换删除及grep常用选项与正则表达式。",
+    "entities": ["Vim", "Grep"],
+    "concepts": ["text-search", "regex"]
+  },
+  {
+    "slug": "liunx挂载硬盘",
+    "summary": "记录Linux系统下挂载新硬盘的完整步骤：查看硬盘、格式化、创建挂载点、写入fstab及解除挂载。",
+    "entities": ["Linux"],
+    "concepts": ["disk-mounting", "filesystem"]
+  },
+  {
+    "slug": "liunx链接Ftp和Sftp",
+    "summary": "记录Linux下通过sftp和ftp命令远程连接服务器、上传下载文件及常用操作命令。",
+    "entities": ["FTP", "SFTP", "Linux"],
+    "concepts": ["file-transfer", "remote-connection"]
+  },
+  {
+    "slug": "MessageDigest简介及应用",
+    "summary": "介绍Java MessageDigest类实现MD5、SHA-1、SHA-256等消息摘要算法的原理与代码示例。",
+    "entities": ["MessageDigest", "Java", "Spring"],
+    "concepts": ["message-digest", "md5", "sha", "encryption"]
+  },
+  {
+    "slug": "mysql查询时间段数据",
+    "summary": "汇总MySQL中按不同时间段（今天、昨天、本月、本季度、本年等）查询数据的SQL函数和语句。",
+    "entities": ["MySQL", "Oracle"],
+    "concepts": ["time-range-query", "sql-date-functions"]
+  },
+  {
+    "slug": "mysql查询cpu占用过高的方法",
+    "summary": "介绍定位MySQL CPU占用过高问题的排查方法，通过操作系统线程ID查找对应的SQL语句。",
+    "entities": ["MySQL"],
+    "concepts": ["performance-tuning", "sql-profiling"]
+  },
+  {
+    "slug": "mysql关键字explain解析",
+    "summary": "详解MySQL EXPLAIN执行计划的各列含义（id/select_type/type/key等）及SQL优化建议。",
+    "entities": ["MySQL"],
+    "concepts": ["query-optimization", "execution-plan", "database-indexing"]
+  },
+  {
+    "slug": "pmhub微服务学习",
+    "summary": "记录PmHub微服务项目学习路线，涵盖Nacos注册配置中心、Gateway网关、Sentinel限流、RocketMQ消息队列等组件的部署与整合。",
+    "entities": ["PmHub", "Nacos", "SpringCloudGateway", "Sentinel", "RocketMQ", "Docker", "SkyWalking", "Flowable", "Redis", "OpenAI"],
+    "concepts": ["microservices", "service-registry", "configuration-center", "api-gateway", "circuit-breaker", "rate-limiting"]
+  },
+  {
+    "slug": "sgzj",
+    "summary": "个人随笔，记录创建技术博客的初衷、历程感悟以及通过博客记录生活和学习笔记的想法。",
+    "entities": ["CSDN", "GitBook"],
+    "concepts": ["blogging"]
+  },
+  {
+    "slug": "spring框架中的事务管理",
+    "summary": "详解Spring框架中@Transactional声明式事务管理的属性配置、失效场景分析及自调用/多线程事务问题。",
+    "entities": ["Spring", "AOP"],
+    "concepts": ["transaction-management", "declarative-transaction", "transaction-propagation"]
+  },
+  {
+    "slug": "SpringBoot-Aop的使用",
+    "summary": "讲解Spring Boot中AOP面向切面编程的使用方法，包括自定义注解、切入点表达式、五种通知类型及参数获取。",
+    "entities": ["SpringBoot", "AOP", "Hutool", "FastJson", "Lombok"],
+    "concepts": ["aspect-oriented-programming", "custom-annotation", "pointcut-expression"]
+  }
+]
