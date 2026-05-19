@@ -6,3 +6,7 @@
 
 ## [2026-05-19] query | MyBatis-Plus 是否需要 MySQL 驱动包
 - **输出**: 引用 [[摘要-springboot整合mybatisPlus]], [[MyBatisPlus]], [[MySQL]]
+
+## [2026-05-19] ingest | 摄入 4 篇 AI/Agent 相关文章
+- **变更**: 新增 [[摘要-40分钟学会Codex零基础教程]], [[摘要-60分钟全面掌握Claude-Code]], [[摘要-LangChain4j-Java-AI智能体开发]], [[摘要-6条Claude-Code实践经验与思考]]; 新增实体 [[Codex]], [[ClaudeCode]], [[LangChain4j]], [[OpenAI]], [[Anthropic]]; 新增概念 [[Agent]], [[AgentHarness]], [[Skill]], [[MCP]], [[ContextManagement]], [[CLAUDEmd]], [[AutoMemory]], [[RAG]], [[AICoding]], [[FunctionCalling]], [[ChatMemory]], [[AIService]]; 更新 [[index.md]]
+- **冲突**: 无

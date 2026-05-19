@@ -1,6 +1,10 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-40分钟学会Codex零基础教程]] — Codex 零基础系统教程，八大核心能力全面覆盖
+- [[摘要-60分钟全面掌握Claude-Code]] — Claude Code 四关系统教程，从上手到高级扩展
+- [[摘要-LangChain4j-Java-AI智能体开发]] — LangChain4j 设计理念、核心架构与工程实践
+- [[摘要-6条Claude-Code实践经验与思考]] — Claude Code 六条实践经验与 AI Coding 范式思考
 - [[摘要-欢迎]] — Obsidian 仓库的入门欢迎笔记
 - [[摘要-域名]] — 阿里云和 CloudFlare 域名解析过程
 - [[摘要-追番]] — 个人动漫追番记录列表
@@ -74,6 +78,11 @@
 - [[摘要-Orcale创建用户和表空间授权过程]] — Oracle 用户与表空间创建
 
 ## Entities
+- [[Codex]] — OpenAI 桌面端 AI Agent
+- [[ClaudeCode]] — Anthropic 终端 AI Agent
+- [[LangChain4j]] — Java LLM 应用框架
+- [[OpenAI]] — AI 研究公司（Codex/ChatGPT）
+- [[Anthropic]] — AI 安全公司（Claude Code/Claude）
 - [[SpringBoot]] — Spring 自动配置框架
 - [[Docker]] — 应用容器引擎
 - [[Git]] — 分布式版本控制系统
@@ -100,6 +109,18 @@
 - [[Promise]] — JavaScript 异步编程模式
 
 ## Concepts
+- [[Agent]] — 自主做计划调工具的 AI 程序
+- [[AgentHarness]] — Agent harness 设计总称
+- [[Skill]] — Agent 可复用技能包
+- [[MCP]] — Model Context Protocol 外部服务协议
+- [[ContextManagement]] — Agent 上下文窗口管理策略
+- [[CLAUDEmd]] — Claude Code 指令与记忆系统
+- [[AutoMemory]] — Agent 自动记忆机制
+- [[RAG]] — 检索增强生成
+- [[AICoding]] — AI 辅助编程范式
+- [[FunctionCalling]] — LLM 工具调用机制
+- [[ChatMemory]] — 对话记忆机制
+- [[AIService]] — LangChain4j 声明式 AI 接口
 - [[microservices]] — 微服务架构模式
 - [[async-await]] — JavaScript 异步编程语法糖
 - [[transaction-management]] — Spring 声明式事务管理
