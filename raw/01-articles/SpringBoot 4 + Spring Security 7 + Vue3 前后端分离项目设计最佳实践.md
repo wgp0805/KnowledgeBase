@@ -198,11 +198,11 @@ backend/
 </dependencies>
 ```
 
-### 5.2 [application.yml——全局配置](http://application.yml——全局配置)
+### 5.2 application.yml——全局配置
 
 ```yml
 ```
-server:
+
 ```
 ```
 
