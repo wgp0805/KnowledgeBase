@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/01-articles/图文详解Java泛型，写得太好了！.md",
+                "file": "raw/01-articles/高并发下如何防止重复下单？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "图文详解Java泛型，写得太好了！"
+              "title": "高并发下如何防止重复下单？"
             }
           }
         ]
@@ -105,13 +105,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/01-articles/图文详解Java泛型，写得太好了！.md",
+                "file": "raw/01-articles/高并发下如何防止重复下单？.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "图文详解Java泛型，写得太好了！ 的大纲"
+              "title": "高并发下如何防止重复下单？ 的大纲"
             }
           },
           {
@@ -130,7 +130,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "raw/01-articles/图文详解Java泛型，写得太好了！.md"
+                "file": "raw/01-articles/高并发下如何防止重复下单？.md"
               },
               "icon": "lucide-file-signature",
               "title": "脚注"
@@ -159,6 +159,12 @@
   },
   "active": "ffac0bd9b2542109",
   "lastOpenFiles": [
+    "assets/高并发下如何防止重复下单？/5117508b0145779198c2a14f738360fb_MD5.webp",
+    "assets/高并发下如何防止重复下单？/4c5b01abcaf866355fa6d30fe2bd0a99_MD5.webp",
+    "assets/高并发下如何防止重复下单？/8c625af972cce243b3516ea91aab24a2_MD5.png",
+    "assets/高并发下如何防止重复下单？",
+    "raw/01-articles/图文详解Java泛型，写得太好了！.md",
+    "raw/01-articles/高并发下如何防止重复下单？.md",
     "assets/图文详解Java泛型，写得太好了！/7d10af4d8e564bf57e8264fe33742f2a_MD5.jpg",
     "assets/图文详解Java泛型，写得太好了！/file-20260520150731713.png",
     "assets/图文详解Java泛型，写得太好了！/e003737b2df08cab33bbc952fef1d11b_MD5.jpg",
@@ -168,7 +174,6 @@
     "assets/图文详解Java泛型，写得太好了！/a251b3bd73362658ec5ed6a25ffb0308_MD5.png",
     "assets/图文详解Java泛型，写得太好了！/d3bb573d432d28f0ec0e0c904e2c6817_MD5.png",
     "assets/图文详解Java泛型，写得太好了！",
-    "raw/01-articles/图文详解Java泛型，写得太好了！.md",
     "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
     "raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
     "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
@@ -187,10 +192,7 @@
     "wiki/sources/摘要-springboot4-security7-vue3-best-practice.md",
     "wiki/sources/摘要-token-redis-interview.md",
     "raw/01-articles/未命名.base",
-    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/440bab81ddca24135c191cea06ba91e2_MD5.png",
     "未命名.canvas",
-    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/4ceb6f8d6f4a93c9239a013b6692d802_MD5.webp",
-    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/8b987d99f6d7b252e99b6b89271b8d05_MD5.png",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践",
     "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了",
     "README.md",
@@ -201,10 +203,8 @@
     "wiki/index.md.tmp.26000.1779258783000",
     "wiki/concepts/RAG.md.tmp.26000.1779258774312",
     "wiki/entities/ClaudeCode.md.tmp.26000.1779258774244",
-    "wiki/entities/ClaudeCode.md.tmp.26000.1779258774188",
     "wiki/entities/BorisCherny.md",
     "wiki/entities/Cursor.md",
-    "wiki/entities/Ripgrep.md",
-    "wiki/concepts/AgenticSearch.md"
+    "wiki/entities/Ripgrep.md"
   ]
 }
