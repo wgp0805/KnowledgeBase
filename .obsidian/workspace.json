@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
+                "file": "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "面试中被嘲笑Token放在Redis里？这把给我干沉默了"
+              "title": "SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
+                "file": "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面试中被嘲笑Token放在Redis里？这把给我干沉默了 的大纲"
+              "title": "SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践 的大纲"
             }
           },
           {
@@ -195,14 +195,22 @@
   },
   "active": "d0c4696ba15ef5f5",
   "lastOpenFiles": [
+    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/440bab81ddca24135c191cea06ba91e2_MD5.png",
+    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/4ceb6f8d6f4a93c9239a013b6692d802_MD5.webp",
+    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/8b987d99f6d7b252e99b6b89271b8d05_MD5.png",
+    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/31738b287b3c1d46d23df0dec55b8d83_MD5.png",
+    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/3de78613479b758aeeffb3cb92178e7b_MD5.png",
+    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/5c1c3d2a9f09b73e0211c141dd5ec16a_MD5.png",
+    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/72cafa543cddc5ca0cfe9bd9eab84aa4_MD5.webp",
+    "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践",
+    "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
+    "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
     "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/60308b7877688de24084dd23e4002b19_MD5.webp",
     "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/08baa65ee9fde9ec6494f15effdaccf9_MD5.webp",
     "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/7f804162d32cfb84757253d6d3ff74d8_MD5.webp",
     "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/b1ef5c16106c60f6242799f48b7b49bf_MD5.webp",
-    "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/1429049e0607cc0d00d325a7739c5df2_MD5.webp",
     "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了",
     "README.md",
-    "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
     "raw/01-articles/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
     "raw/09-archive/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
     "wiki/log.md.tmp.26000.1779258791113",
@@ -217,15 +225,8 @@
     "wiki/concepts/AgenticSearch.md",
     "wiki/sources/摘要-为什么Claude-Code不用RAG检索代码.md",
     "wiki/sources/摘要-为什么Claude-Code不用RAG检索代码.md.tmp.26000.1779258749805",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/efd0c7401376c17f6f39257ee9684476_MD5.webp",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/f75639fbf6062d41def23f5e5373177b_MD5.webp",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/eee62acd1360f8de31a29bfe16383493_MD5.webp",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/0a61540fa0db415cf52a6b31dd47764c_MD5.webp",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/12e4273f193b4c53d54a52430faf4ca1_MD5.webp",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/3421d1053464771a04162b43af6a2800_MD5.webp",
     "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。",
     "CLAUDE.md",
-    "raw/09-archive/skill-creator使用与优化指南.pdf",
     "wiki/concepts/meta-skill.md",
     "wiki/entities/SkillCreator.md",
     "wiki/sources/摘要-skill-creator-guide.md",
@@ -239,7 +240,6 @@
     "wiki/concepts/sequential-io.md",
     "wiki/concepts/message-queue.md",
     "wiki/entities/BookKeeper.md",
-    "wiki/entities/Pulsar.md",
-    "wiki/entities/RabbitMQ.md"
+    "wiki/entities/Pulsar.md"
   ]
 }
