@@ -1,0 +1,34 @@
+{
+  "title": "字节二面：如何设计一个百亿级消息队列？",
+  "source": "https://mp.weixin.qq.com/s/eKE6a3nDvlyqrAyhlZIV_Q",
+  "summary": "字节二面：如何设计一个百亿级消息队列？：这是一篇系统设计面试题解析文章，讨论如何从零设计一个每日处理百亿级消息、峰值QPS达百万级的分布式消息队列系统。文章从需求分析、核心角色、架构设计（存储模型、分层存储、扩展性、高可用、可观测性）到主流MQ选型对比，最后以真实AI公司的重构案例收尾。",
+  "entities": [
+    "Kafka",
+    "RocketMQ",
+    "RabbitMQ",
+    "Pulsar",
+    "BookKeeper",
+    "MinIO",
+    "Prometheus",
+    "Grafana",
+    "gRPC",
+    "ByteDance"
+  ],
+  "concepts": [
+    "Message Queue",
+    "Producer-Consumer Pattern",
+    "Sequential I/O",
+    "Zero-Copy",
+    "Page Cache",
+    "Tiered Storage",
+    "Consistent Hashing",
+    "ISR",
+    "Partition",
+    "CommitLog",
+    "Prism Proxy",
+    "Cluster Group",
+    "Observability",
+    "Storage-Forward Model",
+    "Storage-Compute Separation"
+  ]
+}
