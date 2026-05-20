@@ -79,6 +79,7 @@
 - [[摘要-orcale常用的查询资源的方法]] — Oracle DBA 运维查询
 - [[摘要-Orcale创建用户和表空间授权过程]] — Oracle 用户与表空间创建
 - [[摘要-推荐deepseek-v4-编程神器]] — 基于 DeepSeek V4 的终端编程智能体 DeepSeek TUI
+- [[摘要-bytedance-mq-design]] — 字节跳动系统设计面试题：从零设计百亿级消息队列
 
 ## Entities
 - [[Codex]] — OpenAI 桌面端 AI Agent
@@ -116,29 +117,4 @@
 - [[Promise]] — JavaScript 异步编程模式
 - [[DeepSeek]] — AI 模型系列与公司
 - [[DeepSeekTUI]] — 基于 DeepSeek V4 的开源终端编程智能体
-
-## Concepts
-- [[Agent]] — 自主做计划调工具的 AI 程序
-- [[AgentHarness]] — Agent harness 设计总称
-- [[Skill]] — Agent 可复用技能包
-- [[MCP]] — Model Context Protocol 外部服务协议
-- [[ContextManagement]] — Agent 上下文窗口管理策略
-- [[CLAUDEmd]] — Claude Code 指令与记忆系统
-- [[AutoMemory]] — Agent 自动记忆机制
-- [[RAG]] — 检索增强生成
-- [[AICoding]] — AI 辅助编程范式
-- [[FunctionCalling]] — LLM 工具调用机制
-- [[ChatMemory]] — 对话记忆机制
-- [[AIService]] — LangChain4j 声明式 AI 接口
-- [[microservices]] — 微服务架构模式
-- [[async-await]] — JavaScript 异步编程语法糖
-- [[transaction-management]] — Spring 声明式事务管理
-- [[incident-severity-classification]] — 事故级别分类标准
-- [[jvm-tuning]] — JVM 性能调优
-- [[inverted-index]] — 倒排索引核心数据结构
-- [[full-text-search]] — 全文搜索引擎概念
-- [[analyzer]] — 分词器与文本分析
-- [[query-optimization]] — 数据库查询优化
-
-## Syntheses
-- [[elasticsearch-disadvantages]] — Elasticsearch 使用缺点分析
+- [[message-queue]] — 消息队列核心概念
