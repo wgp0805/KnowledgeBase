@@ -35,19 +35,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "49f718b4e707342b",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
-          {
             "id": "7cf58cfbd034be50",
             "type": "leaf",
             "state": {
@@ -83,102 +70,10 @@
   "right": {
     "id": "0162337b3f36c068",
     "type": "split",
-    "children": [
-      {
-        "id": "88ec4fb77a2c5b99",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e6de5cb718947409",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "反向链接"
-            }
-          },
-          {
-            "id": "59d4f4813432a836",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "出链"
-            }
-          },
-          {
-            "id": "3a5f678519955557",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "50a7dd5c4963b75a",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "5cd977acd90d18c5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
-                "followCursor": false,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践 的大纲"
-            }
-          },
-          {
-            "id": "b1abc9ded9eec44d",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ],
-        "currentTab": 4
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 412.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,7 +88,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d0c4696ba15ef5f5",
+  "active": "7cf58cfbd034be50",
   "lastOpenFiles": [
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/440bab81ddca24135c191cea06ba91e2_MD5.png",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/4ceb6f8d6f4a93c9239a013b6692d802_MD5.webp",
