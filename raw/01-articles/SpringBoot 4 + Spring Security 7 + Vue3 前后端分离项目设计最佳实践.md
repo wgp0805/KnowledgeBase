@@ -61,96 +61,52 @@ SpringBoot 4 已经正式发布，基于 **Spring Framework 7** 和 **Java 21
 
 ## 四、后端项目结构：规矩不能少
 
+```text
 backend/  
-├── [pom.xml](http://pom.xml)
-            
+├── pom.xml  
 └── src/main/java/com/example/  
-    ├── [
-            Application.java
-          ](http://Application.java)                    # 启动类  
+    ├── Application.java                    # 启动类  
     ├── common/                             # 公共模块  
     │   ├── result/  
-    │   │   ├── [
-            R.java
-          ](http://R.java)                      # 统一响应体  
-    │   │   └── [
-            ResultCode.java
-          ](http://ResultCode.java)             # 响应码枚举  
+    │   │   ├── R.java                      # 统一响应体  
+    │   │   └── ResultCode.java             # 响应码枚举  
     │   ├── exception/  
-    │   │   ├── [
-            BizException.java
-          ](http://BizException.java)           # 业务异常  
-    │   │   └── [
-            GlobalExceptionHandler.java
-          ](http://GlobalExceptionHandler.java) # 全局异常处理  
+    │   │   ├── BizException.java           # 业务异常  
+    │   │   └── GlobalExceptionHandler.java # 全局异常处理  
     │   └── constant/  
-    │       └── [
-            SecurityConstants.java
-          ](http://SecurityConstants.java)      # 安全相关常量  
+    │       └── SecurityConstants.java      # 安全相关常量  
     ├── config/                             # 配置层  
-    │   ├── [
-            SecurityConfig.java
-          ](http://SecurityConfig.java)             # Spring Security 核心配置  
-    │   ├── [
-            RedisConfig.java
-          ](http://RedisConfig.java)                # Redis 配置  
-    │   └── [
-            CorsConfig.java
-          ](http://CorsConfig.java)                 # 跨域配置  
+    │   ├── SecurityConfig.java             # Spring Security 核心配置  
+    │   ├── RedisConfig.java                # Redis 配置  
+    │   └── CorsConfig.java                 # 跨域配置  
     ├── security/                           # 安全模块  
     │   ├── filter/  
-    │   │   └── [JwtAuthenticationFilter.java](http://JwtAuthenticationFilter.java)
-            
+    │   │   └── JwtAuthenticationFilter.java  
     │   ├── handler/  
-    │   │   ├── [LoginSuccessHandler.java](http://LoginSuccessHandler.java)
-            
-    │   │   ├── [LoginFailureHandler.java](http://LoginFailureHandler.java)
-            
-    │   │   ├── [AccessDeniedHandlerImpl.java](http://AccessDeniedHandlerImpl.java)
-            
-    │   │   └── [AuthenticationEntryPointImpl.java](http://AuthenticationEntryPointImpl.java)
-            
+    │   │   ├── LoginSuccessHandler.java  
+    │   │   ├── LoginFailureHandler.java  
+    │   │   ├── AccessDeniedHandlerImpl.java  
+    │   │   └── AuthenticationEntryPointImpl.java  
     │   └── util/  
-    │       └── [JwtUtils.java](http://JwtUtils.java)
-            
+    │       └── JwtUtils.java  
     ├── modules/                            # 业务模块  
     │   ├── auth/  
-    │   │   ├── controller/
-            [AuthController.java](http://AuthController.java)
-            
-    │   │   ├── service/
-            [AuthService.java](http://AuthService.java)
-            
-    │   │   └── dto/
-            [LoginRequest.java](http://LoginRequest.java)
-            
+    │   │   ├── controller/AuthController.java  
+    │   │   ├── service/AuthService.java  
+    │   │   └── dto/LoginRequest.java  
     │   ├── user/  
-    │   │   ├── controller/
-            [UserController.java](http://UserController.java)
-            
-    │   │   ├── service/
-            [UserService.java](http://UserService.java)
-            
-    │   │   ├── mapper/
-            [UserMapper.java](http://UserMapper.java)
-            
-    │   │   └── entity/
-            [User.java](http://User.java)
-            
+    │   │   ├── controller/UserController.java  
+    │   │   ├── service/UserService.java  
+    │   │   ├── mapper/UserMapper.java  
+    │   │   └── entity/User.java  
     │   └── role/  
-    │       ├── controller/
-            [RoleController.java](http://RoleController.java)
-            
-    │       ├── service/
-            [RoleService.java](http://RoleService.java)
-            
-    │       └── entity/
-            [Role.java](http://Role.java)
-            
+    │       ├── controller/RoleController.java  
+    │       ├── service/RoleService.java  
+    │       └── entity/Role.java  
     └── resources/  
-        ├── [application.yml](http://application.yml)
-            
+        ├── application.yml  
         └── mapper/
+```
 
 > **经验之谈**：千万别把所有东西都揉在一个包里。按业务模块分包（`modules`），而不是按技术层分包（controller/service/mapper 各放一堆），这样当你删掉一个业务模块时，直接干掉一个文件夹就行，而不是在三个文件夹里翻找。
 
