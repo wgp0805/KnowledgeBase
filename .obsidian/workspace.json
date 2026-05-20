@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "368766db475b1081",
+        "id": "4bfbafd9114fe906",
         "type": "tabs",
         "children": [
           {
-            "id": "d0c4696ba15ef5f5",
+            "id": "a47df06353d7b01f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践"
+              "title": "新标签页"
             }
           }
         ]
@@ -65,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.5
+    "width": 398.5
   },
   "right": {
     "id": "0162337b3f36c068",
@@ -88,8 +84,10 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "7cf58cfbd034be50",
+  "active": "a47df06353d7b01f",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/440bab81ddca24135c191cea06ba91e2_MD5.png",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/4ceb6f8d6f4a93c9239a013b6692d802_MD5.webp",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/8b987d99f6d7b252e99b6b89271b8d05_MD5.png",
@@ -99,11 +97,9 @@
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/72cafa543cddc5ca0cfe9bd9eab84aa4_MD5.webp",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践",
     "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
-    "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
     "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/60308b7877688de24084dd23e4002b19_MD5.webp",
     "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/08baa65ee9fde9ec6494f15effdaccf9_MD5.webp",
     "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/7f804162d32cfb84757253d6d3ff74d8_MD5.webp",
-    "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/b1ef5c16106c60f6242799f48b7b49bf_MD5.webp",
     "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了",
     "README.md",
     "raw/01-articles/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
