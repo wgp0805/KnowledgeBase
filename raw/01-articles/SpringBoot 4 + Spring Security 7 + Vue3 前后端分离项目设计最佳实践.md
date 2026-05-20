@@ -200,8 +200,10 @@ backend/
 
 ### 5.2 [application.yml——全局配置](http://application.yml——全局配置)
 
+```yml
 ```
 server:
+```
 ```
 
 ### 5.3 统一响应体——别让前端猜你的返回格式
