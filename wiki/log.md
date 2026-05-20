@@ -44,3 +44,11 @@
 ## [2026-05-20] ingest | 摄入 SpringBoot 4 + Spring Security 7 + Vue3 前后端分离最佳实践
 - **变更**: 新增 [[摘要-springboot4-security7-vue3-best-practice]], [[Vue3]], [[Pinia]], [[Axios]], [[ElementPlus]], [[frontend-backend-separation]], [[rbac]], [[cors]]; 更新 [[SpringBoot]], [[SpringSecurity]], [[Redis]], [[index.md]]
 - **冲突**: 无
+
+## [2026-05-20] ingest | 摄入高并发防重复下单文章
+- **变更**: 新增 [[摘要-prevent-duplicate-order]], [[idempotency]], [[distributed-lock]]; 更新 [[Redis]], [[RocketMQ]], [[index.md]]
+- **冲突**: 无
+
+## [2026-05-20] ingest | 摄入 Java 泛型详解文章
+- **变更**: 新增 [[摘要-java-generics-explained]], [[generics]]; 更新 [[Java]], [[index.md]]
+- **冲突**: 无

@@ -84,6 +84,8 @@
 - [[摘要-为什么Claude-Code不用RAG检索代码]] — Claude Code 用 Agentic Search 替代 RAG 的原因与实证
 - [[摘要-token-redis-interview]] — JWT 无状态认证与 Token 存 Redis 的合理性分析
 - [[摘要-springboot4-security7-vue3-best-practice]] — SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目最佳实践
+- [[摘要-prevent-duplicate-order]] — 高并发下防止重复提交订单的多层次防护方案
+- [[摘要-java-generics-explained]] — Java 泛型的概念、好处和使用方法详解
 
 ## Entities
 - [[Codex]] — OpenAI 桌面端 AI Agent
@@ -142,6 +144,9 @@
 - [[frontend-backend-separation]] — 前后端分离架构
 - [[rbac]] — RBAC 权限模型
 - [[cors]] — 跨域资源共享
+- [[idempotency]] — 幂等性设计
+- [[distributed-lock]] — 分布式锁机制
+- [[generics]] — Java 泛型
 
 ## Syntheses
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析
