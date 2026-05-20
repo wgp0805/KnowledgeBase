@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ba88371f2a934597",
+        "id": "368766db475b1081",
         "type": "tabs",
         "children": [
           {
-            "id": "ffac0bd9b2542109",
+            "id": "d0c4696ba15ef5f5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -30,6 +30,19 @@
         "id": "cac106ff45446612",
         "type": "tabs",
         "children": [
+          {
+            "id": "49f718b4e707342b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
           {
             "id": "7cf58cfbd034be50",
             "type": "leaf",
@@ -56,84 +69,98 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "76c36df4b56f19d5",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 398.5
+    "width": 329.5
   },
   "right": {
     "id": "0162337b3f36c068",
     "type": "split",
     "children": [
       {
-        "id": "3193d13aaa99c7a5",
+        "id": "88ec4fb77a2c5b99",
         "type": "tabs",
         "children": [
           {
-            "id": "dea21db932b46898",
+            "id": "e6de5cb718947409",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
             }
           },
           {
-            "id": "476ad0c90dcf20f6",
+            "id": "59d4f4813432a836",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "3a5f678519955557",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "50a7dd5c4963b75a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "5cd977acd90d18c5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas",
+                "file": "raw/01-articles/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
-            }
-          },
-          {
-            "id": "da5a100cf5c3fd4c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
-          },
-          {
-            "id": "83f2304496466b70",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {
-                "file": "未命名.canvas"
-              },
-              "icon": "lucide-file-signature",
-              "title": "脚注"
+              "title": "OpenClaw vs Hermes：万字深入讲解两大通用 Agent 的大纲"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -141,66 +168,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "bases:新建数据库": false,
       "command-palette:打开命令面板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
-      "workspaces:管理工作区布局": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "76c36df4b56f19d5",
+  "active": "49f718b4e707342b",
   "lastOpenFiles": [
-    "raw/01-articles/高并发下如何防止重复下单？.md",
-    "raw/09-archive/图文详解Java泛型，写得太好了！.md",
-    "raw/09-archive/高并发下如何防止重复下单？.md",
-    "wiki/concepts/generics.md",
     "wiki/concepts/distributed-lock.md",
-    "wiki/concepts/idempotency.md",
-    "wiki/sources/摘要-java-generics-explained.md",
-    "wiki/sources/摘要-prevent-duplicate-order.md",
-    "assets/高并发下如何防止重复下单？/5117508b0145779198c2a14f738360fb_MD5.webp",
-    "assets/高并发下如何防止重复下单？/4c5b01abcaf866355fa6d30fe2bd0a99_MD5.webp",
-    "assets/高并发下如何防止重复下单？/8c625af972cce243b3516ea91aab24a2_MD5.png",
-    "assets/高并发下如何防止重复下单？",
-    "raw/01-articles/图文详解Java泛型，写得太好了！.md",
-    "assets/图文详解Java泛型，写得太好了！/7d10af4d8e564bf57e8264fe33742f2a_MD5.jpg",
-    "assets/图文详解Java泛型，写得太好了！/file-20260520150731713.png",
-    "assets/图文详解Java泛型，写得太好了！/e003737b2df08cab33bbc952fef1d11b_MD5.jpg",
-    "assets/图文详解Java泛型，写得太好了！/file-20260520150720970.png",
-    "assets/图文详解Java泛型，写得太好了！/ccba8933c8d96ef9ae20e0d554b8631f_MD5.png",
-    "assets/图文详解Java泛型，写得太好了！/a99c4be3bd7c66c5817b872c6388667d_MD5.png",
-    "assets/图文详解Java泛型，写得太好了！/a251b3bd73362658ec5ed6a25ffb0308_MD5.png",
-    "assets/图文详解Java泛型，写得太好了！",
-    "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
-    "raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
-    "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
-    "raw/09-archive/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
     "wiki/concepts/cors.md",
-    "wiki/concepts/rbac.md",
-    "wiki/concepts/frontend-backend-separation.md",
-    "wiki/concepts/dual-token-mechanism.md",
-    "wiki/concepts/token-blacklist.md",
-    "wiki/concepts/jwt-stateless.md",
-    "wiki/entities/ElementPlus.md",
-    "wiki/entities/Axios.md",
-    "wiki/entities/Pinia.md",
-    "wiki/entities/Vue3.md",
-    "wiki/entities/JWT.md",
-    "wiki/sources/摘要-springboot4-security7-vue3-best-practice.md",
-    "wiki/sources/摘要-token-redis-interview.md",
-    "raw/01-articles/未命名.base",
-    "未命名.canvas",
+    "wiki/concepts/consistent-hashing.md",
+    "wiki/concepts/AgenticSearch.md",
+    "raw/09-archive/高并发下如何防止重复下单？.md",
+    "raw/09-archive/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
+    "raw/09-archive/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
+    "raw/09-archive/推荐一款DeepSeek V4 编程神器！.md",
+    "raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md",
+    "raw/09-archive/图文详解Java泛型，写得太好了！.md",
+    "raw/09-archive/skill-creator使用与优化指南.pdf",
+    "raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
+    "raw/09-archive/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/f75639fbf6062d41def23f5e5373177b_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/efd0c7401376c17f6f39257ee9684476_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/eee62acd1360f8de31a29bfe16383493_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/c5e3ef83cfa2d3c791f07d927de902cc_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/a6fe5d0c91c069df6ddca07e56602dc0_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/a0246150507b70a908d455af5cd8837d_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/6cac207be6c087f73fefbc9a570651d5_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/8c0e283d28607b5e8213cdb2a778b832_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/6be4793fa1f97ede8fb591006e908933_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/4576f85acc7d3be7e4c543a9ac938a03_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。",
+    "assets/字节二面：如何设计一个百亿级消息队列？",
+    "assets/图文详解Java泛型，写得太好了！",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践",
-    "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了",
-    "wiki/log.md.tmp.26000.1779258791113",
-    "wiki/index.md.tmp.26000.1779258783069",
-    "wiki/index.md.tmp.26000.1779258783000",
-    "wiki/concepts/RAG.md.tmp.26000.1779258774312",
-    "wiki/entities/ClaudeCode.md.tmp.26000.1779258774244"
+    "assets/推荐一款DeepSeek V4 编程神器！",
+    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent",
+    "assets",
+    "raw/01-articles/推荐一款DeepSeek V4 编程神器！.md",
+    "raw/01-articles/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md",
+    "wiki/entities/OpenAI.md",
+    "raw/09-archive/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md",
+    "wiki/sources/摘要-如何在Spring-Boot中无缝集成LangChain4j.md",
+    "raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md",
+    "raw/01-articles/Spring Boot 中文文档 1.md",
+    "raw/01-articles/Spring Boot 中文文档.md",
+    "README.md",
+    "wiki/index.md",
+    "raw/09-archive/liunx命令总结（600条）.md",
+    "wiki/syntheses/elasticsearch-disadvantages.md",
+    "raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md",
+    "raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md",
+    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签",
+    "raw/01-articles"
   ]
 }
