@@ -132,3 +132,16 @@
 - [[Pinia]] — Vue 状态管理库
 - [[Axios]] — HTTP 客户端库
 - [[ElementPlus]] — Vue 3 企业级 UI 组件库
+
+## Concepts
+- [[Agent]] — AI Agent 核心概念
+- [[AgenticSearch]] — Agent 动态搜索范式
+- [[jwt-stateless]] — JWT 无状态认证原理
+- [[token-blacklist]] — Token 黑名单机制
+- [[dual-token-mechanism]] — 双 Token 续期方案
+- [[frontend-backend-separation]] — 前后端分离架构
+- [[rbac]] — RBAC 权限模型
+- [[cors]] — 跨域资源共享
+
+## Syntheses
+- [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析

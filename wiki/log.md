@@ -36,3 +36,11 @@
 ## [2026-05-20] ingest | 摄入 Claude Code 不用 RAG 检索代码的分析文章
 - **变更**: 新增 [[摘要-为什么Claude-Code不用RAG检索代码]], [[AgenticSearch]], [[Ripgrep]], [[Cursor]], [[BorisCherny]]; 更新 [[ClaudeCode]], [[RAG]], [[index.md]]
 - **冲突**: 无
+
+## [2026-05-20] ingest | 摄入 JWT+Redis 认证分析文章
+- **变更**: 新增 [[摘要-token-redis-interview]], [[JWT]], [[jwt-stateless]], [[token-blacklist]], [[dual-token-mechanism]]; 更新 [[Redis]], [[index.md]]
+- **冲突**: 无
+
+## [2026-05-20] ingest | 摄入 SpringBoot 4 + Spring Security 7 + Vue3 前后端分离最佳实践
+- **变更**: 新增 [[摘要-springboot4-security7-vue3-best-practice]], [[Vue3]], [[Pinia]], [[Axios]], [[ElementPlus]], [[frontend-backend-separation]], [[rbac]], [[cors]]; 更新 [[SpringBoot]], [[SpringSecurity]], [[Redis]], [[index.md]]
+- **冲突**: 无
