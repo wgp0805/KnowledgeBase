@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4bfbafd9114fe906",
+        "id": "6aba940f0506da1d",
         "type": "tabs",
         "children": [
           {
-            "id": "a47df06353d7b01f",
+            "id": "4b74de3732bfb97f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -68,8 +68,7 @@
     "type": "split",
     "children": [],
     "direction": "horizontal",
-    "width": 412.5,
-    "collapsed": true
+    "width": 412.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -84,8 +83,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "a47df06353d7b01f",
+  "active": "4b74de3732bfb97f",
   "lastOpenFiles": [
+    "raw/01-articles/未命名.base",
     "未命名.canvas",
     "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/440bab81ddca24135c191cea06ba91e2_MD5.png",
