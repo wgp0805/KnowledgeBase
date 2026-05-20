@@ -82,6 +82,8 @@
 - [[摘要-skill-creator-guide]] — Claude Code skill-creator 元技能使用与优化指南
 - [[摘要-bytedance-mq-design]] — 字节跳动系统设计面试题：从零设计百亿级消息队列
 - [[摘要-为什么Claude-Code不用RAG检索代码]] — Claude Code 用 Agentic Search 替代 RAG 的原因与实证
+- [[摘要-token-redis-interview]] — JWT 无状态认证与 Token 存 Redis 的合理性分析
+- [[摘要-springboot4-security7-vue3-best-practice]] — SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目最佳实践
 
 ## Entities
 - [[Codex]] — OpenAI 桌面端 AI Agent
@@ -125,3 +127,8 @@
 - [[Cursor]] — AI 代码编辑器（混合检索）
 - [[BorisCherny]] — Anthropic 首席工程师
 - [[AgenticSearch]] — Agent 动态搜索范式（Glob+Grep+Read）
+- [[JWT]] — JSON Web Token 认证机制
+- [[Vue3]] — 渐进式 JavaScript 前端框架
+- [[Pinia]] — Vue 状态管理库
+- [[Axios]] — HTTP 客户端库
+- [[ElementPlus]] — Vue 3 企业级 UI 组件库
