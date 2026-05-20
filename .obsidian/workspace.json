@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/09-archive/推荐一款DeepSeek V4 编程神器！.md",
+                "file": "raw/01-articles/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "推荐一款DeepSeek V4 编程神器！"
+              "title": "未命名"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/09-archive/推荐一款DeepSeek V4 编程神器！.md",
+                "file": "raw/01-articles/未命名.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "推荐一款DeepSeek V4 编程神器！ 的大纲"
+              "title": "未命名 的大纲"
             }
           }
         ],
@@ -185,8 +185,10 @@
   },
   "active": "d0c4696ba15ef5f5",
   "lastOpenFiles": [
-    "raw/_temp_article.md",
     "raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md",
+    "raw/01-articles/未命名.md",
+    "raw/09-archive/推荐一款DeepSeek V4 编程神器！.md",
+    "raw/_temp_article.md",
     "wiki/concepts/isr.md",
     "wiki/concepts/consistent-hashing.md",
     "wiki/concepts/tiered-storage.md",
@@ -217,7 +219,6 @@
     "assets/字节二面：如何设计一个百亿级消息队列？/881f85efbeb222cbcf7dc2b67e8ba2fc_MD5.webp",
     "assets/字节二面：如何设计一个百亿级消息队列？",
     "raw/01-articles",
-    "raw/09-archive/推荐一款DeepSeek V4 编程神器！.md",
     "assets/conflict-files-obsidian-git",
     "raw/09-archive/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md",
     "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent",
@@ -228,7 +229,6 @@
     "wiki/sources/摘要-推荐deepseek-v4-编程神器.md",
     "assets/推荐一款DeepSeek V4 编程神器！",
     "wiki/entities/OpenAI.md",
-    "raw/09-archive/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md",
     "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签",
     "raw/01-articles/assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签"
   ]
