@@ -202,8 +202,39 @@ backend/
 
 ```yml
 
+server:
+    port: 8080
 
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/db_admin?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: 123456
+        driver-class-name: com.mysql.cj.jdbc.Driver
 
+    data:
+        redis:
+            host: localhost
+            port: 6379
+            database: 0
+            timeout: 10s
+            lettuce:
+                pool:
+                    max-active: 20
+                    max-idle: 10
+
+# JWT 配置
+jwt:
+    secret: "Y29tLmV4YW1wbGUuc2VjdXJpdHkuand0LnNlY3JldC5rZXkuZm9yLmhtYWM1MTIuYWxnb3JpdGht"
+    access-token-expiration: 1800000 # 30分钟
+    refresh-token-expiration: 604800000 # 7天
+
+# MyBatis-Plus 配置
+mybatis-plus:
+    mapper-locations: classpath:mapper/**/*.xml
+    configuration:
+        map-underscore-to-camel-case: true
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 
 ```
@@ -211,12 +242,8 @@ backend/
 
 这是前后端分离项目的**第一条军规**：统一响应格式。前端不应该猜你返回的是啥结构。
 
-```
-/**
-```
+```java
 
-```
-/**
 ```
 
 > **Tips**: 业务错误码从 1000 开始编排，和 HTTP 状态码区分开。前端可以通过 `code < 1000` 判断是系统级错误还是业务级错误。
