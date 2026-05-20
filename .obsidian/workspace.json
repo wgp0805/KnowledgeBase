@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6aba940f0506da1d",
+        "id": "ba88371f2a934597",
         "type": "tabs",
         "children": [
           {
-            "id": "4b74de3732bfb97f",
+            "id": "ffac0bd9b2542109",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "面试中被嘲笑Token放在Redis里？这把给我干沉默了"
             }
           }
         ]
@@ -56,8 +60,22 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "76c36df4b56f19d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -66,7 +84,62 @@
   "right": {
     "id": "0162337b3f36c068",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "3193d13aaa99c7a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dea21db932b46898",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "476ad0c90dcf20f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "面试中被嘲笑Token放在Redis里？这把给我干沉默了 的大纲"
+            }
+          },
+          {
+            "id": "da5a100cf5c3fd4c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          },
+          {
+            "id": "83f2304496466b70",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "脚注"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
     "direction": "horizontal",
     "width": 412.5
   },
@@ -80,15 +153,16 @@
       "templates:插入模板": false,
       "bases:新建数据库": false,
       "command-palette:打开命令面板": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "4b74de3732bfb97f",
+  "active": "ffac0bd9b2542109",
   "lastOpenFiles": [
-    "raw/01-articles/未命名.base",
-    "未命名.canvas",
     "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
+    "raw/01-articles/未命名.base",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/440bab81ddca24135c191cea06ba91e2_MD5.png",
+    "未命名.canvas",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/4ceb6f8d6f4a93c9239a013b6692d802_MD5.webp",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/8b987d99f6d7b252e99b6b89271b8d05_MD5.png",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践/31738b287b3c1d46d23df0dec55b8d83_MD5.png",
@@ -116,7 +190,6 @@
     "wiki/concepts/AgenticSearch.md",
     "wiki/sources/摘要-为什么Claude-Code不用RAG检索代码.md",
     "wiki/sources/摘要-为什么Claude-Code不用RAG检索代码.md.tmp.26000.1779258749805",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。",
     "CLAUDE.md",
     "wiki/concepts/meta-skill.md",
     "wiki/entities/SkillCreator.md",
