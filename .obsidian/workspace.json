@@ -185,6 +185,10 @@
   },
   "active": "49f718b4e707342b",
   "lastOpenFiles": [
+    "raw/09-archive/skill-creator使用与优化指南.pdf",
+    "wiki/concepts/meta-skill.md",
+    "wiki/entities/SkillCreator.md",
+    "wiki/sources/摘要-skill-creator-guide.md",
     "raw/02-papers/skill-creator使用与优化指南.pdf",
     "raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md",
     "raw/01-articles/skill-creator使用与优化指南.md",
@@ -225,11 +229,7 @@
     "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent",
     "raw/01-articles/推荐一款DeepSeek V4 编程神器！.md",
     "raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md",
-    "wiki/entities/DeepSeekTUI.md",
-    "wiki/entities/DeepSeek.md",
-    "wiki/sources/摘要-推荐deepseek-v4-编程神器.md",
     "assets/推荐一款DeepSeek V4 编程神器！",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签",
-    "raw/01-articles/assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签"
+    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签"
   ]
 }

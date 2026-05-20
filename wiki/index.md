@@ -79,6 +79,7 @@
 - [[摘要-orcale常用的查询资源的方法]] — Oracle DBA 运维查询
 - [[摘要-Orcale创建用户和表空间授权过程]] — Oracle 用户与表空间创建
 - [[摘要-推荐deepseek-v4-编程神器]] — 基于 DeepSeek V4 的终端编程智能体 DeepSeek TUI
+- [[摘要-skill-creator-guide]] — Claude Code skill-creator 元技能使用与优化指南
 - [[摘要-bytedance-mq-design]] — 字节跳动系统设计面试题：从零设计百亿级消息队列
 
 ## Entities
@@ -101,6 +102,7 @@
 - [[Spring]] — Java 企业级应用框架
 - [[IntelliJIDEA]] — Java 集成开发环境
 - [[Elasticsearch]] — 分布式全文检索引擎
+- [[SkillCreator]] — Claude Code 元技能创建工具
 - [[Kibana]] — ES 数据可视化平台
 - [[Lucene]] — 全文检索引擎工具库
 - [[Solr]] — 基于 Lucene 的搜索服务器
@@ -118,3 +120,4 @@
 - [[DeepSeek]] — AI 模型系列与公司
 - [[DeepSeekTUI]] — 基于 DeepSeek V4 的开源终端编程智能体
 - [[message-queue]] — 消息队列核心概念
+- [[meta-skill]] — 元技能概念：关于技能的技能

@@ -28,3 +28,7 @@
 ## [2026-05-20] ingest | 引入字节跳动百亿级消息队列设计解析
 - **变更**: 新增 [[摘2要-bytedance-mq-design]], [[Kafka]], [[RabbitMQ]], [[Pulsar]], [[BookKeeper]]; 新增概念 [[message-queue]], [[sequential-io]], [[tiered-storage]], [[consistent-hashing]], [[isr]]; 更新 [[RocketMQ]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-05-20] ingest | 摄入 skill-creator 使用与优化指南
+- **变更**: 新增 [[摘要-skill-creator-guide]], [[SkillCreator]], [[meta-skill]]; 更新 [[ClaudeCode]], [[Skill]], [[index.md]]
+- **冲突**: 无
