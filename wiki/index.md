@@ -78,6 +78,7 @@
 - [[摘要-orcale查看索引状态]] — Oracle 索引状态查看
 - [[摘要-orcale常用的查询资源的方法]] — Oracle DBA 运维查询
 - [[摘要-Orcale创建用户和表空间授权过程]] — Oracle 用户与表空间创建
+- [[摘要-推荐deepseek-v4-编程神器]] — 基于 DeepSeek V4 的终端编程智能体 DeepSeek TUI
 
 ## Entities
 - [[Codex]] — OpenAI 桌面端 AI Agent
@@ -113,6 +114,8 @@
 - [[AOP]] — 面向切面编程
 - [[Vim]] — 命令行文本编辑器
 - [[Promise]] — JavaScript 异步编程模式
+- [[DeepSeek]] — AI 模型系列与公司
+- [[DeepSeekTUI]] — 基于 DeepSeek V4 的开源终端编程智能体
 
 ## Concepts
 - [[Agent]] — 自主做计划调工具的 AI 程序

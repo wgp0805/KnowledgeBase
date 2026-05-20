@@ -15,8 +15,10 @@ Model Context Protocol，解决 AI 与外部工具、外部服务连接的转接
 - 使用时需配置 MCP 服务器地址和认证信息
 - 典型应用：NotebookLM 知识库接入、Figma 设计稿读取
 - Claude Code 率先发明 MCP，Codex 后续跟进支持
+- DeepSeek TUI 也支持通过 MCP 服务器扩展智能体能力
 
 ## 关联连接
 - [[Agent]] — MCP 所属概念
 - [[ClaudeCode]] — MCP 发明者
+- [[DeepSeekTUI]] — MCP 支持者
 - [[Skill]] — 替代/互补方案

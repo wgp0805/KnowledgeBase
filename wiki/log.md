@@ -20,3 +20,7 @@
 ## [2026-05-19] ingest | 摄入 Spring Boot 集成 LangChain4j 教程
 - **变更**: 新增 [[摘要-如何在Spring-Boot中无缝集成LangChain4j]]; 更新 [[LangChain4j]], [[AIService]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-05-19] ingest | 摄入 DeepSeek TUI 编程神器介绍
+- **变更**: 新增 [[摘要-推荐deepseek-v4-编程神器]], [[DeepSeek]], [[DeepSeekTUI]]; 更新 [[Agent]], [[MCP]], [[index.md]]
+- **冲突**: 无
