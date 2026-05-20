@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "raw/01-articles/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。"
             }
           }
         ]
@@ -154,13 +154,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "raw/01-articles/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。 的大纲"
+            }
+          },
+          {
+            "id": "b1abc9ded9eec44d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -183,8 +193,23 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "49f718b4e707342b",
+  "active": "d0c4696ba15ef5f5",
   "lastOpenFiles": [
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/efd0c7401376c17f6f39257ee9684476_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/f75639fbf6062d41def23f5e5373177b_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/eee62acd1360f8de31a29bfe16383493_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/0a61540fa0db415cf52a6b31dd47764c_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/12e4273f193b4c53d54a52430faf4ca1_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/3421d1053464771a04162b43af6a2800_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/a0246150507b70a908d455af5cd8837d_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/4576f85acc7d3be7e4c543a9ac938a03_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/42c08ac61b46ad247c1d7809186898b7_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/14721a78125cf877a039449870251bb0_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/349333a14a305e938dd90da46fa9a47d_MD5.webp",
+    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。",
+    "README.md",
+    "raw/01-articles/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
+    "CLAUDE.md",
     "raw/09-archive/skill-creator使用与优化指南.pdf",
     "wiki/concepts/meta-skill.md",
     "wiki/entities/SkillCreator.md",
@@ -212,24 +237,9 @@
     "raw/_article.json",
     "raw/01-articles/字节二面：如何设计一个百亿级消息队列？.md",
     "conflict-files-obsidian-git.md",
-    "assets/字节二面：如何设计一个百亿级消息队列？/75f3b53fa185bbb328989a8229bf0a9c_MD5.webp",
-    "assets/字节二面：如何设计一个百亿级消息队列？/3e22b3ac10c95189776e94f413843e0c_MD5.webp",
-    "assets/字节二面：如何设计一个百亿级消息队列？/27483e166e1a04954493ac5e2cc5bd2e_MD5.webp",
-    "assets/字节二面：如何设计一个百亿级消息队列？/db71613c4cae570242f129112ec38f2d_MD5.webp",
-    "assets/字节二面：如何设计一个百亿级消息队列？/92c0c8a677ed993d3dce1e3c155885ea_MD5.webp",
-    "assets/字节二面：如何设计一个百亿级消息队列？/bcc459108bcf39b9c1b740e20d79fe57_MD5.webp",
-    "assets/字节二面：如何设计一个百亿级消息队列？/e4c5d13d3fbcbbee3770f49354a2d22e_MD5.webp",
-    "assets/字节二面：如何设计一个百亿级消息队列？/891f4cd2c61f6d803b358aba22c27c33_MD5.webp",
-    "assets/字节二面：如何设计一个百亿级消息队列？/5c208510aa3cfca1703af76813e6fd52_MD5.webp",
-    "assets/字节二面：如何设计一个百亿级消息队列？/881f85efbeb222cbcf7dc2b67e8ba2fc_MD5.webp",
     "assets/字节二面：如何设计一个百亿级消息队列？",
     "raw/01-articles",
     "assets/conflict-files-obsidian-git",
-    "raw/09-archive/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md",
-    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent",
-    "raw/01-articles/推荐一款DeepSeek V4 编程神器！.md",
-    "raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md",
-    "assets/推荐一款DeepSeek V4 编程神器！",
-    "assets/Obsidian 入门43：给剪藏插件加上 AI，剪藏完自动写摘要、打标签"
+    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent"
   ]
 }
