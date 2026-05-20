@@ -81,6 +81,7 @@
 - [[摘要-推荐deepseek-v4-编程神器]] — 基于 DeepSeek V4 的终端编程智能体 DeepSeek TUI
 - [[摘要-skill-creator-guide]] — Claude Code skill-creator 元技能使用与优化指南
 - [[摘要-bytedance-mq-design]] — 字节跳动系统设计面试题：从零设计百亿级消息队列
+- [[摘要-为什么Claude-Code不用RAG检索代码]] — Claude Code 用 Agentic Search 替代 RAG 的原因与实证
 
 ## Entities
 - [[Codex]] — OpenAI 桌面端 AI Agent
@@ -120,4 +121,7 @@
 - [[DeepSeek]] — AI 模型系列与公司
 - [[DeepSeekTUI]] — 基于 DeepSeek V4 的开源终端编程智能体
 - [[message-queue]] — 消息队列核心概念
-- [[meta-skill]] — 元技能概念：关于技能的技能
+- [[Ripgrep]] — Rust 高性能搜索工具（Claude Code Grep 底层）
+- [[Cursor]] — AI 代码编辑器（混合检索）
+- [[BorisCherny]] — Anthropic 首席工程师
+- [[AgenticSearch]] — Agent 动态搜索范式（Glob+Grep+Read）

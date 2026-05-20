@@ -32,3 +32,7 @@
 ## [2026-05-20] ingest | 摄入 skill-creator 使用与优化指南
 - **变更**: 新增 [[摘要-skill-creator-guide]], [[SkillCreator]], [[meta-skill]]; 更新 [[ClaudeCode]], [[Skill]], [[index.md]]
 - **冲突**: 无
+
+## [2026-05-20] ingest | 摄入 Claude Code 不用 RAG 检索代码的分析文章
+- **变更**: 新增 [[摘要-为什么Claude-Code不用RAG检索代码]], [[AgenticSearch]], [[Ripgrep]], [[Cursor]], [[BorisCherny]]; 更新 [[ClaudeCode]], [[RAG]], [[index.md]]
+- **冲突**: 无

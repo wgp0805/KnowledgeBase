@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/01-articles/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
+                "file": "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。"
+              "title": "面试中被嘲笑Token放在Redis里？这把给我干沉默了"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/01-articles/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
+                "file": "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。 的大纲"
+              "title": "面试中被嘲笑Token放在Redis里？这把给我干沉默了 的大纲"
             }
           },
           {
@@ -195,26 +195,40 @@
   },
   "active": "d0c4696ba15ef5f5",
   "lastOpenFiles": [
+    "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/60308b7877688de24084dd23e4002b19_MD5.webp",
+    "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/08baa65ee9fde9ec6494f15effdaccf9_MD5.webp",
+    "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/7f804162d32cfb84757253d6d3ff74d8_MD5.webp",
+    "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/b1ef5c16106c60f6242799f48b7b49bf_MD5.webp",
+    "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了/1429049e0607cc0d00d325a7739c5df2_MD5.webp",
+    "assets/面试中被嘲笑Token放在Redis里？这把给我干沉默了",
+    "README.md",
+    "raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md",
+    "raw/01-articles/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
+    "raw/09-archive/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
+    "wiki/log.md.tmp.26000.1779258791113",
+    "wiki/index.md.tmp.26000.1779258783069",
+    "wiki/index.md.tmp.26000.1779258783000",
+    "wiki/concepts/RAG.md.tmp.26000.1779258774312",
+    "wiki/entities/ClaudeCode.md.tmp.26000.1779258774244",
+    "wiki/entities/ClaudeCode.md.tmp.26000.1779258774188",
+    "wiki/entities/BorisCherny.md",
+    "wiki/entities/Cursor.md",
+    "wiki/entities/Ripgrep.md",
+    "wiki/concepts/AgenticSearch.md",
+    "wiki/sources/摘要-为什么Claude-Code不用RAG检索代码.md",
+    "wiki/sources/摘要-为什么Claude-Code不用RAG检索代码.md.tmp.26000.1779258749805",
     "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/efd0c7401376c17f6f39257ee9684476_MD5.webp",
     "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/f75639fbf6062d41def23f5e5373177b_MD5.webp",
     "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/eee62acd1360f8de31a29bfe16383493_MD5.webp",
     "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/0a61540fa0db415cf52a6b31dd47764c_MD5.webp",
     "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/12e4273f193b4c53d54a52430faf4ca1_MD5.webp",
     "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/3421d1053464771a04162b43af6a2800_MD5.webp",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/a0246150507b70a908d455af5cd8837d_MD5.webp",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/4576f85acc7d3be7e4c543a9ac938a03_MD5.webp",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/42c08ac61b46ad247c1d7809186898b7_MD5.webp",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/14721a78125cf877a039449870251bb0_MD5.webp",
-    "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。/349333a14a305e938dd90da46fa9a47d_MD5.webp",
     "assets/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。",
-    "README.md",
-    "raw/01-articles/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md",
     "CLAUDE.md",
     "raw/09-archive/skill-creator使用与优化指南.pdf",
     "wiki/concepts/meta-skill.md",
     "wiki/entities/SkillCreator.md",
     "wiki/sources/摘要-skill-creator-guide.md",
-    "raw/02-papers/skill-creator使用与优化指南.pdf",
     "raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md",
     "raw/01-articles/skill-creator使用与优化指南.md",
     "raw/09-archive/推荐一款DeepSeek V4 编程神器！.md",
@@ -226,20 +240,6 @@
     "wiki/concepts/message-queue.md",
     "wiki/entities/BookKeeper.md",
     "wiki/entities/Pulsar.md",
-    "wiki/entities/RabbitMQ.md",
-    "wiki/entities/Kafka.md",
-    "wiki/sources/摘要-bytedance-mq-design.md",
-    "wiki/sources/test-write.txt",
-    "raw/_log.md",
-    "raw/_index.md",
-    "raw/_rocketmq.md",
-    "raw/_analysis.json",
-    "raw/_article.json",
-    "raw/01-articles/字节二面：如何设计一个百亿级消息队列？.md",
-    "conflict-files-obsidian-git.md",
-    "assets/字节二面：如何设计一个百亿级消息队列？",
-    "raw/01-articles",
-    "assets/conflict-files-obsidian-git",
-    "assets/OpenClaw vs Hermes：万字深入讲解两大通用 Agent"
+    "wiki/entities/RabbitMQ.md"
   ]
 }
