@@ -101,12 +101,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "未命名.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -124,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {},
+              "state": {
+                "file": "未命名.canvas"
+              },
               "icon": "lucide-file-signature",
               "title": "脚注"
             }
@@ -150,7 +153,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "ffac0bd9b2542109",
+  "active": "76c36df4b56f19d5",
   "lastOpenFiles": [
     "raw/01-articles/高并发下如何防止重复下单？.md",
     "raw/09-archive/图文详解Java泛型，写得太好了！.md",
