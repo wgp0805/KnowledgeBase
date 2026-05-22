@@ -1,6 +1,6 @@
 {
   "terminalApp": {
-    "win": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+    "win": "pwsh.exe"
   },
   "enableClaude": false,
   "enableCodex": false,

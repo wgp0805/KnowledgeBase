@@ -221,7 +221,10 @@
   },
   "active": "ffac0bd9b2542109",
   "lastOpenFiles": [
+    "wiki/index.md",
     "raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md",
+    "assets/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！/855df343263db3abfabe5d525133d711_MD5.webp",
+    "assets/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！",
     "raw/01-articles/高并发下如何防止重复下单？.md",
     "raw/09-archive/图文详解Java泛型，写得太好了！.md",
     "raw/09-archive/高并发下如何防止重复下单？.md",
@@ -241,7 +244,6 @@
     "assets/图文详解Java泛型，写得太好了！/file-20260520150720970.png",
     "assets/图文详解Java泛型，写得太好了！/ccba8933c8d96ef9ae20e0d554b8631f_MD5.png",
     "assets/图文详解Java泛型，写得太好了！/a99c4be3bd7c66c5817b872c6388667d_MD5.png",
-    "assets/图文详解Java泛型，写得太好了！/a251b3bd73362658ec5ed6a25ffb0308_MD5.png",
     "assets/图文详解Java泛型，写得太好了！",
     "raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
     "raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md",
@@ -258,7 +260,6 @@
     "wiki/entities/Pinia.md",
     "wiki/entities/Vue3.md",
     "wiki/entities/JWT.md",
-    "wiki/sources/摘要-springboot4-security7-vue3-best-practice.md",
     "raw/01-articles/未命名.base",
     "未命名.canvas",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践",
@@ -266,7 +267,6 @@
     "wiki/log.md.tmp.26000.1779258791113",
     "wiki/index.md.tmp.26000.1779258783069",
     "wiki/index.md.tmp.26000.1779258783000",
-    "wiki/concepts/RAG.md.tmp.26000.1779258774312",
-    "wiki/entities/ClaudeCode.md.tmp.26000.1779258774244"
+    "wiki/concepts/RAG.md.tmp.26000.1779258774312"
   ]
 }
