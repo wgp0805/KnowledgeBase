@@ -156,3 +156,4 @@
 
 ## Syntheses
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析
+- [[spring-skill-usage-guide]] — 4个Spring Skill使用时机与组合策略

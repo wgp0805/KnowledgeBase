@@ -56,3 +56,10 @@
 ## [2026-05-22] ingest | 摄入 Claude Code Spring Boot Skills 实战文章
 - **变更**: 新增 [[摘要-claude-code-springboot-skills]]; 新增实体 [[dr-jskill]], [[agent-skill-java-spring-framework]], [[sivalabs-agent-skills]], [[spring-testing-skills]]; 新增概念 [[AI Agent Skill]]; 更新 [[ClaudeCode]], [[index.md]]
 - **冲突**: 无
+
+## [2026-05-22] query | 查询4个Spring Skill的使用时机
+- **输出**: 引用 [[dr-jskill]], [[agent-skill-java-spring-framework]], [[sivalabs-agent-skills]], [[spring-testing-skills]], [[摘要-claude-code-springboot-skills]]
+
+## [2026-05-22] ingest | 固化Spring Skill使用指南为synthesis
+- **变更**: 新增 [[spring-skill-usage-guide]]; 更新 [[index.md]]
+- **冲突**: 无
