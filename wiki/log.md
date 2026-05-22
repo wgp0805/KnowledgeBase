@@ -78,3 +78,7 @@
 ## [2026-05-22] ingest | 批量摄入 raw/02-papers/ 全部 46 个 PDF 文件
 - **变更**: 新增 10 篇 source 摘要（[[摘要-mysql-course]], [[摘要-alibaba-product-manual]], [[摘要-frontend-engineering]], [[摘要-microservice-governance]], [[摘要-cherry-studio-knowledge-base]], [[摘要-java-concurrency]], [[摘要-java-mycat]], [[摘要-java-performance-tuning]], [[摘要-spring-cloud-alibaba]], [[摘要-springboot3]]）; 新增实体 [[Mycat]], [[CherryStudio]]; 更新 [[MySQL]], [[SpringBoot]], [[jvm-tuning]], [[microservices]], [[frontend-backend-separation]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-05-22] lint | 知识库健康巡检与自动修复
+- **变更**: 修复 28 处命名不一致断链（Claude Code→ClaudeCode 等 6 类）；修复 log.md 笔误（摘2要→摘要）；注册 30 个未同步文件到 index.md（4 Entities + 26 Concepts）；移动 [[message-queue]] 从 Entities 到 Concepts；移除 Entities 中重复的 [[AgenticSearch]]
+- **冲突**: 无
