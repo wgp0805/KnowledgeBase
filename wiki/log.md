@@ -52,3 +52,7 @@
 ## [2026-05-20] ingest | 摄入 Java 泛型详解文章
 - **变更**: 新增 [[摘要-java-generics-explained]], [[generics]]; 更新 [[Java]], [[index.md]]
 - **冲突**: 无
+
+## [2026-05-22] ingest | 摄入 Claude Code Spring Boot Skills 实战文章
+- **变更**: 新增 [[摘要-claude-code-springboot-skills]]; 新增实体 [[dr-jskill]], [[agent-skill-java-spring-framework]], [[sivalabs-agent-skills]], [[spring-testing-skills]]; 新增概念 [[AI Agent Skill]]; 更新 [[ClaudeCode]], [[index.md]]
+- **冲突**: 无

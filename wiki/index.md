@@ -86,6 +86,7 @@
 - [[摘要-springboot4-security7-vue3-best-practice]] — SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目最佳实践
 - [[摘要-prevent-duplicate-order]] — 高并发下防止重复提交订单的多层次防护方案
 - [[摘要-java-generics-explained]] — Java 泛型的概念、好处和使用方法详解
+- [[摘要-claude-code-springboot-skills]] — 4个Spring生态专属AI Skill开源项目实战解析
 
 ## Entities
 - [[Codex]] — OpenAI 桌面端 AI Agent
@@ -134,6 +135,10 @@
 - [[Pinia]] — Vue 状态管理库
 - [[Axios]] — HTTP 客户端库
 - [[ElementPlus]] — Vue 3 企业级 UI 组件库
+- [[dr-jskill]] — JHipster 作者出品的企业级项目脚手架技能
+- [[agent-skill-java-spring-framework]] — Spring 最新规范约束技能
+- [[sivalabs-agent-skills]] — 企业级业务技能封装库
+- [[spring-testing-skills]] — Spring AI 官方社区测试技能库
 
 ## Concepts
 - [[Agent]] — AI Agent 核心概念
@@ -147,6 +152,7 @@
 - [[idempotency]] — 幂等性设计
 - [[distributed-lock]] — 分布式锁机制
 - [[generics]] — Java 泛型
+- [[AI Agent Skill]] — AI Agent 技能扩展机制
 
 ## Syntheses
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析
