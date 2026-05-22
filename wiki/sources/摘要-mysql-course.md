@@ -1,7 +1,11 @@
 ---
-title: "摘要-mysql-course"
+title: 摘要-mysql-course
 type: source
-tags: [来源, 原始文件, MySQL, 数据库]
+tags:
+  - 来源
+  - 原始文件
+  - MySQL
+  - 数据库
 sources:
   - raw/02-papers/第00章_写在前面.pdf
   - raw/02-papers/第00章_写在最后.pdf
