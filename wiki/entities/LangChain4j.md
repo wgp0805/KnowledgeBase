@@ -2,7 +2,7 @@
 title: "LangChain4j"
 type: entity
 tags: [AI框架, Java, LLM]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md]
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md]
 last_updated: 2026-05-19
 ---
 
@@ -57,6 +57,24 @@ public class ChatController {
 }
 ```
 
+### 护轨（Guardrail）
+LangChain4j 支持输入/输出护轨（InputGuardrail/OutputGuardrail），在调用 AI 前/后执行额外操作：
+- InputGuardrail：检测用户输入，敏感词拦截等
+- OutputGuardrail：检测 AI 响应结果
+- 返回 success() 继续调用，fatal() 拒绝请求
+
+### MCP 集成
+LangChain4j 支持通过 MCP 协议接入外部服务：
+- 支持 SSE 在线调用方式（HttpMcpTransport + DefaultMcpClient）
+- 支持本地 Stdio 调用方式（StdioMcpTransport）
+- 通过 McpToolProvider 将 MCP 工具注入 AI Service
+
+### SSE 流式接口
+推荐使用 Flux 响应式类型实现 SSE 流式输出：
+- AI Service 方法返回 Flux\<String\>，配合 StreamingChatModel
+- @MemoryId 参数支持多用户会话隔离
+- 使用 langchain4j-reactor 依赖实现
+
 ### 工程化建议
 - Prompt 与代码分离
 - 对 LLM 调用做幂等与重试
@@ -72,3 +90,5 @@ public class ChatController {
 - [[FunctionCalling]] — 工具调用
 - [[ChatMemory]] — 对话记忆
 - [[AIService]] — 声明式 AI 接口
+- [[MCP]] — 模型上下文协议
+- [[摘要-java-ai-langchain4j]] — 来源

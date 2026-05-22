@@ -2,8 +2,10 @@
 title: "frontend-backend-separation"
 type: concept
 tags: [架构, 前后端分离, Web开发]
-sources: [raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md]
-last_updated: 2026-05-20
+sources:
+  - raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md
+  - raw/02-papers/前端工程化_4小时速通（语雀同款）.pdf
+last_updated: 2026-05-22
 ---
 
 ## 定义
@@ -52,3 +54,4 @@ last_updated: 2026-05-20
 - [[cors]] — 跨域处理
 - [[Nginx]] — 反向代理
 - [[摘要-springboot4-security7-vue3-best-practice]] — 完整实践
+- [[摘要-frontend-engineering]] — 前端工程化速通

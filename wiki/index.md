@@ -1,6 +1,16 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-mysql-course]] — MySQL 完整教程（37 章，环境搭建到备份恢复）
+- [[摘要-alibaba-product-manual]] — 阿里巴巴产品手册
+- [[摘要-frontend-engineering]] — 前端工程化 4 小时速通
+- [[摘要-microservice-governance]] — 微服务治理技术白皮书
+- [[摘要-cherry-studio-knowledge-base]] — Cherry Studio + DeepSeek 搭建个人知识库
+- [[摘要-java-concurrency]] — Java 并发编程手册
+- [[摘要-java-mycat]] — Java 高级技术之 Mycat 中间件
+- [[摘要-java-performance-tuning]] — Java 性能调优实战
+- [[摘要-spring-cloud-alibaba]] — Spring Cloud Alibaba 笔记
+- [[摘要-springboot3]] — Spring Boot 3 教程
 - [[摘要-elasticsearch-quick-start]] — Elasticsearch 7.11 从零到一入门教程
 - [[摘要-40分钟学会Codex零基础教程]] — Codex 零基础系统教程，八大核心能力全面覆盖
 - [[摘要-60分钟全面掌握Claude-Code]] — Claude Code 四关系统教程，从上手到高级扩展
@@ -87,6 +97,11 @@
 - [[摘要-prevent-duplicate-order]] — 高并发下防止重复提交订单的多层次防护方案
 - [[摘要-java-generics-explained]] — Java 泛型的概念、好处和使用方法详解
 - [[摘要-claude-code-springboot-skills]] — 4个Spring生态专属AI Skill开源项目实战解析
+- [[摘要-jenkins]] — Jenkins + GitLab + Maven 自动化部署配置全流程
+- [[摘要-spring-ai]] — Spring AI 框架完整教程（ChatClient/Function Calling/RAG）
+- [[摘要-spring-security]] — Spring Security 完整教程（OAuth2/前后端分离/授权）
+- [[摘要-maven]] — Maven 项目构建与依赖管理完整教程
+- [[摘要-java-ai-langchain4j]] — LangChain4j 实战项目教程（MCP/Guardrail/SSE）
 
 ## Entities
 - [[Codex]] — OpenAI 桌面端 AI Agent
@@ -139,6 +154,14 @@
 - [[agent-skill-java-spring-framework]] — Spring 最新规范约束技能
 - [[sivalabs-agent-skills]] — 企业级业务技能封装库
 - [[spring-testing-skills]] — Spring AI 官方社区测试技能库
+- [[Jenkins]] — CI/CD 自动化服务器
+- [[GitLab]] — Git 代码托管与 CI/CD 平台
+- [[Maven]] — Java 项目构建与依赖管理工具
+- [[SpringAI]] — Spring 官方 AI 应用开发框架
+- [[Ollama]] — 本地 LLM 部署工具
+- [[Nexus]] — Maven 私服仓库管理器
+- [[Mycat]] — MySQL 分布式数据库中间件
+- [[CherryStudio]] — 桌面端 AI 工具（知识库构建）
 
 ## Concepts
 - [[Agent]] — AI Agent 核心概念
@@ -153,7 +176,10 @@
 - [[distributed-lock]] — 分布式锁机制
 - [[generics]] — Java 泛型
 - [[AI Agent Skill]] — AI Agent 技能扩展机制
+- [[CI-CD]] — 持续集成/持续交付
+- [[ChatClient]] — Spring AI 聊天客户端抽象
 
 ## Syntheses
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析
 - [[spring-skill-usage-guide]] — 4个Spring Skill使用时机与组合策略
+- [[spring-ai-vs-langchain4j]] — Spring AI vs LangChain4J 企业级选型对比

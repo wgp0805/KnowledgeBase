@@ -63,3 +63,18 @@
 ## [2026-05-22] ingest | 固化Spring Skill使用指南为synthesis
 - **变更**: 新增 [[spring-skill-usage-guide]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-05-22] query | Spring AI vs LangChain4J 企业级选型对比
+- **输出**: 引用 [[LangChain4j]], [[摘要-LangChain4j-Java-AI智能体开发]], [[sivalabs-agent-skills]], [[spring-testing-skills]]; 即时回答未保存
+
+## [2026-05-22] ingest | 固化 Spring AI vs LangChain4J 对比为 synthesis
+- **变更**: 新增 [[spring-ai-vs-langchain4j]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-05-22] ingest | 摄入 raw/01-articles/ 全部 5 篇技术资料
+- **变更**: 新增 [[摘要-jenkins]], [[摘要-spring-ai]], [[摘要-spring-security]], [[摘要-maven]], [[摘要-java-ai-langchain4j]]; 新增实体 [[Jenkins]], [[GitLab]], [[Maven]], [[SpringAI]], [[Ollama]], [[Nexus]]; 新增概念 [[CI-CD]], [[ChatClient]]; 更新 [[SpringSecurity]], [[LangChain4j]], [[RAG]], [[FunctionCalling]], [[MCP]], [[index.md]]
+- **冲突**: 无
+
+## [2026-05-22] ingest | 批量摄入 raw/02-papers/ 全部 46 个 PDF 文件
+- **变更**: 新增 10 篇 source 摘要（[[摘要-mysql-course]], [[摘要-alibaba-product-manual]], [[摘要-frontend-engineering]], [[摘要-microservice-governance]], [[摘要-cherry-studio-knowledge-base]], [[摘要-java-concurrency]], [[摘要-java-mycat]], [[摘要-java-performance-tuning]], [[摘要-spring-cloud-alibaba]], [[摘要-springboot3]]）; 新增实体 [[Mycat]], [[CherryStudio]]; 更新 [[MySQL]], [[SpringBoot]], [[jvm-tuning]], [[microservices]], [[frontend-backend-separation]]; 更新 [[index.md]]
+- **冲突**: 无

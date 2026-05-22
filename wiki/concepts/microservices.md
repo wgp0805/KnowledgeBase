@@ -2,8 +2,11 @@
 title: "microservices"
 type: concept
 tags: [架构, 微服务]
-sources: [raw/01-articles/pmhub微服务学习.md]
-last_updated: 2026-05-19
+sources:
+  - raw/01-articles/pmhub微服务学习.md
+  - raw/02-papers/微服务治理技术白皮书.pdf
+  - raw/02-papers/Spring Cloud Alibaba笔记.pdf
+last_updated: 2026-05-22
 ---
 
 ## 定义
@@ -23,3 +26,5 @@ last_updated: 2026-05-19
 - [[SpringCloudGateway]] — API 网关
 - [[Sentinel]] — 限流熔断
 - [[RocketMQ]] — 消息队列
+- [[摘要-microservice-governance]] — 微服务治理白皮书
+- [[摘要-spring-cloud-alibaba]] — Spring Cloud Alibaba 笔记
