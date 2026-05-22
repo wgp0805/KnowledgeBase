@@ -35,9 +35,9 @@ public interface AgentSkill {
 https://github.com/sivaprasadreddy/sivalabs-agent-skills
 
 ## 关联连接
-- [[Claude Code]] — 使用该技能的 AI 工具
-- [[Spring Boot]] — 目标框架
-- [[Spring AI]] — AI 集成框架
+- [[ClaudeCode]] — 使用该技能的 AI 工具
+- [[SpringBoot]] — 目标框架
+- [[SpringAI]] — AI 集成框架
 - [[dr-jskill]] — 配合使用的脚手架技能
 - [[agent-skill-java-spring-framework]] — 配合使用的规范技能
 - [[spring-testing-skills]] — 配合使用的测试技能

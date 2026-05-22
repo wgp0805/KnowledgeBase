@@ -27,8 +27,8 @@ Spring AI 官方社区推出的测试专属技能库，专门赋能 Claude Code 
 https://github.com/spring-ai-community/spring-testing-skills
 
 ## 关联连接
-- [[Claude Code]] — 使用该技能的 AI 工具
-- [[Spring Boot]] — 目标框架
+- [[ClaudeCode]] — 使用该技能的 AI 工具
+- [[SpringBoot]] — 目标框架
 - [[Spring Testing]] — 测试框架
 - [[dr-jskill]] — 配合使用的脚手架技能
 - [[agent-skill-java-spring-framework]] — 配合使用的规范技能

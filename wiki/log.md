@@ -26,7 +26,7 @@
 - **冲突**: 无
 
 ## [2026-05-20] ingest | 引入字节跳动百亿级消息队列设计解析
-- **变更**: 新增 [[摘2要-bytedance-mq-design]], [[Kafka]], [[RabbitMQ]], [[Pulsar]], [[BookKeeper]]; 新增概念 [[message-queue]], [[sequential-io]], [[tiered-storage]], [[consistent-hashing]], [[isr]]; 更新 [[RocketMQ]]; 更新 [[index.md]]
+- **变更**: 新增 [[摘要-bytedance-mq-design]], [[Kafka]], [[RabbitMQ]], [[Pulsar]], [[BookKeeper]]; 新增概念 [[message-queue]], [[sequential-io]], [[tiered-storage]], [[consistent-hashing]], [[isr]]; 更新 [[RocketMQ]]; 更新 [[index.md]]
 - **冲突**: 无
 
 ## [2026-05-20] ingest | 摄入 skill-creator 使用与优化指南
@@ -54,7 +54,7 @@
 - **冲突**: 无
 
 ## [2026-05-22] ingest | 摄入 Claude Code Spring Boot Skills 实战文章
-- **变更**: 新增 [[摘要-claude-code-springboot-skills]]; 新增实体 [[dr-jskill]], [[agent-skill-java-spring-framework]], [[sivalabs-agent-skills]], [[spring-testing-skills]]; 新增概念 [[AI Agent Skill]]; 更新 [[ClaudeCode]], [[index.md]]
+- **变更**: 新增 [[摘要-claude-code-springboot-skills]]; 新增实体 [[dr-jskill]], [[agent-skill-java-spring-framework]], [[sivalabs-agent-skills]], [[spring-testing-skills]]; 新增概念 [[ai-agent-skill]]; 更新 [[ClaudeCode]], [[index.md]]
 - **冲突**: 无
 
 ## [2026-05-22] query | 查询4个Spring Skill的使用时机

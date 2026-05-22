@@ -60,7 +60,7 @@ last_updated: 2026-05-22
 
 ## 知识空白
 
-当前知识库中 [[Spring AI]] 缺少独立实体页面，建议后续摄入官方文档以完善对比分析。
+当前知识库中 [[SpringAI]] 缺少独立实体页面，建议后续摄入官方文档以完善对比分析。
 
 ## 关联连接
 
@@ -68,4 +68,4 @@ last_updated: 2026-05-22
 - [[SpringBoot]] — Spring 自动配置框架
 - [[sivalabs-agent-skills]] — 企业级业务技能封装库
 - [[spring-testing-skills]] — Spring AI 官方社区测试技能库
-- [[AI Agent Skill]] — AI Agent 技能扩展机制
+- [[ai-agent-skill]] — AI Agent 技能扩展机制

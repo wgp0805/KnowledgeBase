@@ -26,9 +26,9 @@ last_updated: 2026-05-22
 https://github.com/AyrtonAldayr/agent-skill-java-spring-framework
 
 ## 关联连接
-- [[Claude Code]] — 使用该技能的 AI 工具
-- [[Spring Framework]] — 目标框架
-- [[Spring Boot]] — 目标框架
+- [[ClaudeCode]] — 使用该技能的 AI 工具
+- [[Spring]] — 目标框架
+- [[SpringBoot]] — 目标框架
 - [[RestClient]] — 推荐 HTTP 客户端
 - [[dr-jskill]] — 配合使用的脚手架技能
 - [[sivalabs-agent-skills]] — 配合使用的业务技能

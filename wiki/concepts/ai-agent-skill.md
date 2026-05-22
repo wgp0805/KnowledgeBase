@@ -36,9 +36,9 @@ AI Agent Skill 是一种可扩展的技能包机制，允许为 AI Agent（如 C
 - 代码重构优化
 
 ## 关联连接
-- [[Claude Code]] — 支持 Skill 的 AI 工具
+- [[ClaudeCode]] — 支持 Skill 的 AI 工具
 - [[Agent]] — 核心概念
-- [[Spring Boot]] — 应用框架领域
+- [[SpringBoot]] — 应用框架领域
 - [[dr-jskill]] — 实例
 - [[agent-skill-java-spring-framework]] — 实例
 - [[sivalabs-agent-skills]] — 实例

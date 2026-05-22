@@ -140,11 +140,9 @@
 - [[Promise]] — JavaScript 异步编程模式
 - [[DeepSeek]] — AI 模型系列与公司
 - [[DeepSeekTUI]] — 基于 DeepSeek V4 的开源终端编程智能体
-- [[message-queue]] — 消息队列核心概念
 - [[Ripgrep]] — Rust 高性能搜索工具（Claude Code Grep 底层）
 - [[Cursor]] — AI 代码编辑器（混合检索）
 - [[BorisCherny]] — Anthropic 首席工程师
-- [[AgenticSearch]] — Agent 动态搜索范式（Glob+Grep+Read）
 - [[JWT]] — JSON Web Token 认证机制
 - [[Vue3]] — 渐进式 JavaScript 前端框架
 - [[Pinia]] — Vue 状态管理库
@@ -162,6 +160,10 @@
 - [[Nexus]] — Maven 私服仓库管理器
 - [[Mycat]] — MySQL 分布式数据库中间件
 - [[CherryStudio]] — 桌面端 AI 工具（知识库构建）
+- [[BookKeeper]] — Apache 分布式预写日志存储系统
+- [[Kafka]] — Apache 分布式消息队列
+- [[Pulsar]] — Apache 云原生消息队列
+- [[RabbitMQ]] — AMQP 消息代理
 
 ## Concepts
 - [[Agent]] — AI Agent 核心概念
@@ -175,9 +177,35 @@
 - [[idempotency]] — 幂等性设计
 - [[distributed-lock]] — 分布式锁机制
 - [[generics]] — Java 泛型
-- [[AI Agent Skill]] — AI Agent 技能扩展机制
+- [[ai-agent-skill]] — AI Agent 技能扩展机制
 - [[CI-CD]] — 持续集成/持续交付
 - [[ChatClient]] — Spring AI 聊天客户端抽象
+- [[AgentHarness]] — AI Agent 运行与测试框架
+- [[AICoding]] — AI 辅助编程范式
+- [[AIService]] — LangChain4j AI 服务接口抽象
+- [[analyzer]] — ES 文本分析器机制
+- [[async-await]] — JavaScript 异步编程语法
+- [[AutoMemory]] — AI Agent 自动记忆管理
+- [[ChatMemory]] — LLM 聊天对话记忆管理
+- [[CLAUDEmd]] — CLAUDE.md 项目指令文件规范
+- [[consistent-hashing]] — 一致性哈希算法
+- [[ContextManagement]] — AI 上下文窗口管理策略
+- [[full-text-search]] — 全文搜索技术
+- [[FunctionCalling]] — LLM 函数调用能力
+- [[incident-severity-classification]] — 事故严重级别分类
+- [[inverted-index]] — 倒排索引数据结构
+- [[isr]] — ISR 副本同步策略
+- [[jvm-tuning]] — JVM 性能调优
+- [[MCP]] — Model Context Protocol 模型上下文协议
+- [[message-queue]] — 消息队列核心概念
+- [[meta-skill]] — 元技能（编写技能的技能）
+- [[microservices]] — 微服务架构
+- [[query-optimization]] — 数据库查询优化
+- [[RAG]] — 检索增强生成
+- [[sequential-io]] — 顺序 IO 性能优化
+- [[Skill]] — Claude Code 技能扩展机制
+- [[tiered-storage]] — 分层存储架构
+- [[transaction-management]] — Spring 事务管理
 
 ## Syntheses
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析

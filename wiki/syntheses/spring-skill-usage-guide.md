@@ -14,7 +14,7 @@ last_updated: 2026-05-22
 
 **时机**：创建新项目时一次性使用
 
-**作用**：生成对标 [[JHipster]] 的生产级 [[Spring Boot]] 完整项目骨架，集成 PostgreSQL、Docker、监控、多前端架构
+**作用**：生成对标 [[JHipster]] 的生产级 [[SpringBoot]] 完整项目骨架，集成 PostgreSQL、Docker、监控、多前端架构
 
 **触发指令**：
 > 基于dr-jskill规范，创建一个生产级SpringBoot4后台项目，集成PostgreSQL、Docker、监控链路、Vue前端
@@ -23,7 +23,7 @@ last_updated: 2026-05-22
 
 ### 2. [[agent-skill-java-spring-framework]] — 日常编码全程
 
-**时机**：写任何 [[Spring Framework]] 代码时持续生效
+**时机**：写任何 [[Spring]] 代码时持续生效
 
 **作用**：强制 AI 遵循 Spring 7 / Boot 4 最新规范，杜绝老旧 API（如 RestTemplate、javax 包）
 
@@ -38,7 +38,7 @@ last_updated: 2026-05-22
 
 **时机**：需要将业务逻辑封装成 AI 可调用的原子技能时
 
-**作用**：提供统一的 AgentSkill 接口规范，让 [[Claude Code]] 通过自然语言直接调用后端业务
+**作用**：提供统一的 AgentSkill 接口规范，让 [[ClaudeCode]] 通过自然语言直接调用后端业务
 
 **适用场景**：手机号脱敏、数据格式化、业务规则校验等原子操作
 
@@ -67,6 +67,6 @@ last_updated: 2026-05-22
 - [[agent-skill-java-spring-framework]] — Spring 最新规范约束技能
 - [[sivalabs-agent-skills]] — 企业级业务技能库
 - [[spring-testing-skills]] — 智能化测试技能
-- [[Claude Code]] — 使用这些技能的 AI 工具
-- [[AI Agent Skill]] — 技能扩展机制
+- [[ClaudeCode]] — 使用这些技能的 AI 工具
+- [[ai-agent-skill]] — 技能扩展机制
 - [[摘要-claude-code-springboot-skills]] — 来源

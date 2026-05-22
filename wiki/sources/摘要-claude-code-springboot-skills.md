@@ -12,12 +12,12 @@ last_updated: 2026-05-22
 
 ## 关联连接
 
-- [[Claude Code]] — AI代码助手工具
-- [[Spring Boot]] — Java企业级框架
-- [[Spring Framework]] — Java应用框架
+- [[ClaudeCode]] — AI代码助手工具
+- [[SpringBoot]] — Java企业级框架
+- [[Spring]] — Java应用框架
 - [[dr-jskill]] — 企业级项目脚手架技能
 - [[agent-skill-java-spring-framework]] — Spring最新规范约束技能
 - [[sivalabs-agent-skills]] — 企业级业务技能库
 - [[spring-testing-skills]] — 智能化测试技能
 - [[JHipster]] — 项目生成工具
-- [[AI Agent Skill]] — AI代理技能概念
+- [[ai-agent-skill]] — AI代理技能概念
