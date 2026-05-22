@@ -11,10 +11,14 @@
             "id": "ffac0bd9b2542109",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！"
             }
           }
         ]
@@ -101,13 +105,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas",
+                "file": "raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！ 的大纲"
             }
           },
           {
@@ -131,6 +135,68 @@
               "icon": "lucide-file-signature",
               "title": "脚注"
             }
+          },
+          {
+            "id": "130a249d11740c19",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！ 的反向链接列表"
+            }
+          },
+          {
+            "id": "66b81aad4d22799c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！ 的出链列表"
+            }
+          },
+          {
+            "id": "1287a6b6e27f4b09",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "0c4342b1bcd3b687",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
           }
         ],
         "currentTab": 1
@@ -153,8 +219,9 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "76c36df4b56f19d5",
+  "active": "ffac0bd9b2542109",
   "lastOpenFiles": [
+    "raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md",
     "raw/01-articles/高并发下如何防止重复下单？.md",
     "raw/09-archive/图文详解Java泛型，写得太好了！.md",
     "raw/09-archive/高并发下如何防止重复下单？.md",
@@ -192,7 +259,6 @@
     "wiki/entities/Vue3.md",
     "wiki/entities/JWT.md",
     "wiki/sources/摘要-springboot4-security7-vue3-best-practice.md",
-    "wiki/sources/摘要-token-redis-interview.md",
     "raw/01-articles/未命名.base",
     "未命名.canvas",
     "assets/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践",
