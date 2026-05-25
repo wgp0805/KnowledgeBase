@@ -18,7 +18,9 @@ RabbitMQ 是使用 Erlang 编写的轻量级开源消息代理软件，实现了
 
 ## 关联连接
 - [[摘要-bytedance-mq-design]] — 来源
+- [[摘要-rabbitmq-idempotency]] — RabbitMQ 防重复消费方案
 - [[Kafka]] — 高吞吐消息系统对比
 - [[RocketMQ]] — 阿里开源消息中间件
 - [[Pulsar]] — 云原生消息流平台
 - [[message-queue]] — 消息队列核心概念
+- [[idempotency]] — 幂等性设计

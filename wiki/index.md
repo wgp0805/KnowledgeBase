@@ -102,6 +102,10 @@
 - [[摘要-spring-security]] — Spring Security 完整教程（OAuth2/前后端分离/授权）
 - [[摘要-maven]] — Maven 项目构建与依赖管理完整教程
 - [[摘要-java-ai-langchain4j]] — LangChain4j 实战项目教程（MCP/Guardrail/SSE）
+- [[摘要-rabbitmq-idempotency]] — RabbitMQ 防重复消费的5种幂等方案
+- [[摘要-springboot-startup-flow]] — Spring Boot 内部启动流程7个核心步骤
+- [[摘要-sharding-database-table]] — 分库分表原理、坑点与落地实践
+- [[摘要-singleton-pattern]] — 单例模式5种写法与线程安全
 
 ## Entities
 - [[Codex]] — OpenAI 桌面端 AI Agent
@@ -164,6 +168,7 @@
 - [[Kafka]] — Apache 分布式消息队列
 - [[Pulsar]] — Apache 云原生消息队列
 - [[RabbitMQ]] — AMQP 消息代理
+- [[ShardingSphere]] — 分布式数据库中间件
 
 ## Concepts
 - [[Agent]] — AI Agent 核心概念
@@ -206,6 +211,8 @@
 - [[Skill]] — Claude Code 技能扩展机制
 - [[tiered-storage]] — 分层存储架构
 - [[transaction-management]] — Spring 事务管理
+- [[sharding]] — 分库分表架构设计
+- [[singleton-pattern]] — 单例模式5种写法
 
 ## Syntheses
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析

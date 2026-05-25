@@ -85,3 +85,7 @@
 
 ## [2026-05-22] query | MySQL 存储引擎对比与底层架构
 - **输出**: 引用 [[MySQL]], [[摘要-mysql-course]]; 知识库中无存储引擎的详细文本内容，基于通用知识回答
+
+## [2026-05-25] ingest | 摄入 raw/01-articles/ 4篇技术文章
+- **变更**: 新增 [[摘要-rabbitmq-idempotency]], [[摘要-springboot-startup-flow]], [[摘要-sharding-database-table]], [[摘要-singleton-pattern]]; 新增实体 [[ShardingSphere]]; 新增概念 [[sharding]], [[singleton-pattern]]; 更新 [[RabbitMQ]], [[idempotency]], [[SpringBoot]]; 更新 [[index.md]]
+- **冲突**: 无

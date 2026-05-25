@@ -2,8 +2,10 @@
 title: "idempotency"
 type: concept
 tags: [并发, 安全, 分布式]
-sources: [raw/01-articles/高并发下如何防止重复下单？.md]
-last_updated: 2026-05-20
+sources:
+  - raw/01-articles/高并发下如何防止重复下单？.md
+  - raw/01-articles/百度面试官：RabbitMQ 如何防止重复消费？5种解决方案，你知道几个？.md
+last_updated: 2026-05-25
 ---
 
 ## 定义
@@ -54,6 +56,8 @@ public ApiResponse submitOrder(@RequestBody OrderSubmitRequest request) { ... }
 
 ## 关联连接
 - [[摘要-prevent-duplicate-order]] — 来源
+- [[摘要-rabbitmq-idempotency]] — RabbitMQ 消息幂等方案
 - [[distributed-lock]] — 分布式锁
-- [[Redis]] — Token 存储
+- [[Redis]] — Token 存储、SETNX 去重
+- [[RabbitMQ]] — 消息队列重复消费
 - [[duplicate-submit]] — 重复提交问题
