@@ -92,3 +92,7 @@
 
 ## [2026-05-25] query | Kubernetes (K8s) 详细介绍
 - **输出**: 知识库无 K8s 相关内容，基于通用知识回答；引用 [[Docker]], [[microservices]]
+
+## [2026-05-25] ingest | 固化 Kubernetes 介绍为 synthesis
+- **变更**: 新增 [[kubernetes-introduction]]; 更新 [[index.md]]
+- **冲突**: 无
