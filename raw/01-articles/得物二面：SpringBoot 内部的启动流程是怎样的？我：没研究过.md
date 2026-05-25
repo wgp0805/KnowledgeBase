@@ -81,7 +81,7 @@ public SpringApplication(ResourceLoader resourceLoader, Class<?>... primarySourc
 
 `@SpringBootApplication` 是个复合注解，拆开来看：
 
-```
+```md
 @SpringBootApplication
   ├── @SpringBootConfiguration    // 本质就是 @Configuration
   ├── @EnableAutoConfiguration    // 核心！开启自动配置
@@ -90,10 +90,8 @@ public SpringApplication(ResourceLoader resourceLoader, Class<?>... primarySourc
 ```
 
 自动配置的关键在 `@EnableAutoConfiguration` ，它导入的 `AutoConfigurationImportSelector` 做了这些事：
-
-![img](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-img
+[Open: file-20260525105813780.png](assets/%E5%BE%97%E7%89%A9%E4%BA%8C%E9%9D%A2%EF%BC%9ASpringBoot%20%E5%86%85%E9%83%A8%E7%9A%84%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%EF%BC%9F%E6%88%91%EF%BC%9A%E6%B2%A1%E7%A0%94%E7%A9%B6%E8%BF%87/cb1d01a0ab35d544e827e6fe04a184d3_MD5.jpg)
+![](assets/%E5%BE%97%E7%89%A9%E4%BA%8C%E9%9D%A2%EF%BC%9ASpringBoot%20%E5%86%85%E9%83%A8%E7%9A%84%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%EF%BC%9F%E6%88%91%EF%BC%9A%E6%B2%A1%E7%A0%94%E7%A9%B6%E8%BF%87/cb1d01a0ab35d544e827e6fe04a184d3_MD5.jpg)
 
 上图展示了自动配置的完整过滤链路。核心逻辑就是：
 
@@ -158,7 +156,7 @@ public void refresh() throws BeansException, IllegalStateException {
 
 面试的时候如果被问到这个注解的含义，直接画出来就行：
 
-```
+```java
 // @SpringBootApplication 等价于以下三个注解的组合
 @SpringBootConfiguration    // 标记当前类是配置类（等同于 @Configuration）
 @EnableAutoConfiguration    // 开启自动配置（核心！）
@@ -207,29 +205,3 @@ public @interface SpringBootApplication { }
 
 Spring Boot 启动流程的核心就是 `              SpringApplication.run()            ` 这一条线： **创建 `SpringApplication` 对象** （推断类型、加载扩展点）→ \*\*创建并准备 `ApplicationContext` \*\*（环境准备、执行 Initializer）→ **`refresh()` 刷新容器** （扫描注册 Bean、自动配置、启动 Tomcat、依赖注入）→ \*\*执行 `Runner` \*\*。面试时抓住 "创建、准备、刷新、执行" 这四个阶段展开就行，其中 `refresh()` 和自动配置是面试官最关注的两个点。
 
-，你将获得: **专属的项目实战（4个项目） / 1v1 提问 / 简历修改 / **Java 学习路线 /** 社群讨论 / **学习打卡 / 每月赠书****
-
-- 《仿小红书（微服务架构）》 已完结，基于 Spring Cloud Alibaba + Spring Boot [3.x](http://3.x/) + JDK 17..., ；演示地址：http://116.62.199.48:7070/
-- 《Spring AI 应用（RAG 智能客服）》已完结, 基于 Spring AI + Spring Boot [3.x](http://3.x/) + JDK 21
-- 《秒杀系统设计》正在更新中，单体到微服务高并发架构演进
-- **《前后端分离博客项目（全栈开发）》** 已完结,演示链接：http://116.62.199.48/
-- 项目阅读地址： [https://quanxiaoha.com/column](https://quanxiaoha.com/column)
-
-截止目前， **累计输出 120w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4500+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
-
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-```
-1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. 美团面试：单例模式的 5 种写法，你会几种？ 我只答上来 3 种...3. 字节二面：Spring 中的 Bean 是线程安全的吗？我：应该是安全的...4. IDEA 里跑 Claude Code 和 Codex 的最佳搭子，CC GUI 开源免费太香辣！
-```
-```
-最近面试BAT，整理一份面试资料《Java面试BATJ通关手册》，覆盖了Java核心技术、JVM、Java并发、SSM、微服务、数据库、数据结构等等。获取方式：点“在看”，关注公众号并回复 Java 领取，更多内容陆续奉上。PS：因公众号平台更改了推送规则，如果不想错过内容，记得读完点一下“在看”，加个“星标”，这样每次新文章推送才会第一时间出现在你的订阅列表里。点“在看”支持小哈呀，谢谢啦
-```
-
-阅读原文
-
-继续滑动看下一个
-
-Java学习者社区
-
-向上滑动看下一个
