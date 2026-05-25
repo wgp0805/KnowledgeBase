@@ -102,3 +102,6 @@
 
 ## [2026-05-25] query | 生成详细 K8s 教程与注意事项
 - **输出**: 已保存至 [[kubernetes-detailed-guide]]; 引用 [[Docker]], [[microservices]], [[SpringBoot]], [[CI-CD]], [[Jenkins]], [[Nginx]]
+
+## [2026-05-25] query | n8n 详细介绍与使用教程
+- **输出**: 引用 [[摘要-使用n8n搭建Agent项目笔记]]; 即时回答未保存
