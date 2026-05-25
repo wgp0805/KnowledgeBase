@@ -106,6 +106,7 @@
 - [[摘要-springboot-startup-flow]] — Spring Boot 内部启动流程7个核心步骤
 - [[摘要-sharding-database-table]] — 分库分表原理、坑点与落地实践
 - [[摘要-singleton-pattern]] — 单例模式5种写法与线程安全
+- [[摘要-spring-design-patterns]] — Spring 框架中使用的9种设计模式详解
 
 ## Entities
 - [[Codex]] — OpenAI 桌面端 AI Agent
@@ -169,6 +170,18 @@
 - [[Pulsar]] — Apache 云原生消息队列
 - [[RabbitMQ]] — AMQP 消息代理
 - [[ShardingSphere]] — 分布式数据库中间件
+- [[BeanFactory]] — Spring 工厂模式的核心实现
+- [[ApplicationContext]] — Spring 工厂模式的高级实现
+- [[JdbcTemplate]] — 模板方法模式的典型应用
+- [[ApplicationEvent]] — 观察者模式的实现基础
+- [[HandlerAdapter]] — 适配器模式在Spring MVC中的应用
+- [[Resource]] — 策略模式的资源加载接口
+- [[Filter]] — Servlet 规范中的责任链实现
+- [[Interceptor]] — Spring MVC 中的责任链实现
+- [[BeanWrapper]] — 装饰器模式在Spring中的应用
+- [[HttpRequestDecorator]] — 装饰器模式在HTTP请求中的应用
+- [[DefaultSingletonBeanRegistry]] — Spring单例模式实现核心类
+- [[DispatcherServlet]] — Spring MVC前端控制器
 
 ## Concepts
 - [[Agent]] — AI Agent 核心概念
@@ -213,6 +226,15 @@
 - [[transaction-management]] — Spring 事务管理
 - [[sharding]] — 分库分表架构设计
 - [[singleton-pattern]] — 单例模式5种写法
+- [[设计模式]] — GoF 23种设计模式总览
+- [[工厂模式]] — 创建型设计模式，封装对象创建过程
+- [[代理模式]] — 结构型设计模式，AOP的基础
+- [[模板方法模式]] — 行为型设计模式，固定骨架可变步骤
+- [[观察者模式]] — 行为型设计模式，事件机制的基础
+- [[适配器模式]] — 结构型设计模式，让不兼容接口协同工作
+- [[策略模式]] — 行为型设计模式，同一接口不同实现策略
+- [[责任链模式]] — 行为型设计模式，请求沿链条依次处理
+- [[装饰器模式]] — 结构型设计模式，动态增强对象功能
 
 ## Syntheses
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析

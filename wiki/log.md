@@ -109,3 +109,7 @@
 ## [2026-05-25] ingest | 固化 n8n 介绍为 synthesis
 - **变更**: 新增 [[n8n-complete-guide]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-05-25] ingest | 摄入 Spring 设计模式详解文章
+- **变更**: 新增 [[摘要-spring-design-patterns]]; 新增实体 [[BeanFactory]], [[ApplicationContext]], [[JdbcTemplate]], [[ApplicationEvent]], [[HandlerAdapter]], [[Resource]], [[Filter]], [[Interceptor]], [[BeanWrapper]], [[HttpRequestDecorator]], [[DefaultSingletonBeanRegistry]], [[DispatcherServlet]]; 新增概念 [[设计模式]], [[工厂模式]], [[代理模式]], [[模板方法模式]], [[观察者模式]], [[适配器模式]], [[策略模式]], [[责任链模式]], [[装饰器模式]]; 更新 [[Spring]], [[singleton-pattern]], [[index.md]]
+- **冲突**: 无
