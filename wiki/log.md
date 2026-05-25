@@ -99,3 +99,6 @@
 
 ## [2026-05-25] query | K8s 与 Docker 的依赖关系澄清
 - **输出**: 纠正 K8s 不依赖 Docker，使用 CRI/containerd；更新 [[kubernetes-introduction]]
+
+## [2026-05-25] query | 生成详细 K8s 教程与注意事项
+- **输出**: 已保存至 [[kubernetes-detailed-guide]]; 引用 [[Docker]], [[microservices]], [[SpringBoot]], [[CI-CD]], [[Jenkins]], [[Nginx]]
