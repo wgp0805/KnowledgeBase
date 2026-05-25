@@ -94,7 +94,7 @@ public void handleOrder(Message message, Channel channel)
 
 去重表结构很简单：
 
-```
+```sql
 CREATE TABLE \`msg_duplicate\` (
     \`message_id\` VARCHAR(64) PRIMARY KEY COMMENT '消息唯一 ID',
     \`create_time\` DATETIME DEFAULT NOW() COMMENT '处理时间'
@@ -102,24 +102,11 @@ CREATE TABLE \`msg_duplicate\` (
 ```
 
 生产环境建议定期清理去重表（比如只保留 7 天），不然会无限膨胀。
-
-，你将获得: **专属的项目实战（4个项目） / 1v1 提问 / 简历修改 / **Java 学习路线 /** 社群讨论 / **学习打卡 / 每月赠书****
-
-- 《仿小红书（微服务架构）》 已完结，基于 Spring Cloud Alibaba + Spring Boot [3.x](http://3.x/) + JDK 17..., ；演示地址：http://116.62.199.48:7070/
-- 《Spring AI 应用（RAG 智能客服）》已完结, 基于 Spring AI + Spring Boot [3.x](http://3.x/) + JDK 21
-- 《秒杀系统设计》正在更新中，单体到微服务高并发架构演进
-- **《前后端分离博客项目（全栈开发）》** 已完结,演示链接：http://116.62.199.48/
-- 项目阅读地址： [https://quanxiaoha.com/column](https://quanxiaoha.com/column)
-
-截止目前， **累计输出 120w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4500+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
-
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
 ### 二、数据库唯一约束（最省事）
 
 如果你的业务本身就是 "新增" 操作（比如下单、注册），那直接用数据库的唯一约束就够了，连去重表都省了。
 
-```
+```java
 @RabbitListener(queues = "
             order.queue"
           )
@@ -155,7 +142,7 @@ public void handleOrder(Message message, Channel channel) {
 
 高并发场景下，每次消费都查数据库去重表可能有性能瓶颈。用 Redis 的 `SETNX` （ `SET if Not eXists` ）可以实现高性能去重。
 
-```
+```java
 @RabbitListener(queues = "
             order.queue"
           )
@@ -200,7 +187,7 @@ public void handleOrder(Message message, Channel channel) {
 
 扣库存、改余额这种 "更新" 操作，用唯一 ID 不太好使，因为同一条消息可能需要重复更新。这时候乐观锁更合适。
 
-```
+```sql
 -- 扣减库存，带上版本号条件
 UPDATE goods_stock
 SET stock = stock - 1, version = version + 1
@@ -235,34 +222,3 @@ WHERE goods_id = 1001
 ## 总结
 
 一句话：RabbitMQ 重复消费不可避免（ACK 机制决定），真正的解法是 **业务层做幂等** 。生产环境最常用的是 "唯一消息 ID + 去重表"，如果业务本身有唯一键（订单号），直接用数据库唯一约束更简洁。高并发场景用 Redis `SETNX` 加速。面试时先说清楚 "为什么会产生重复消费"，再给出 2-3 种方案并分析适用场景，这道题就是满分。
-
-，你将获得: **专属的项目实战（4个项目） / 1v1 提问 / 简历修改 / **Java 学习路线 /** 社群讨论 / **学习打卡 / 每月赠书****
-
-- 《仿小红书（微服务架构）》 已完结，基于 Spring Cloud Alibaba + Spring Boot [3.x](http://3.x/) + JDK 17..., ；演示地址：http://116.62.199.48:7070/
-- 《Spring AI 应用（RAG 智能客服）》已完结, 基于 Spring AI + Spring Boot [3.x](http://3.x/) + JDK 21
-- 《秒杀系统设计》正在更新中，单体到微服务高并发架构演进
-- **《前后端分离博客项目（全栈开发）》** 已完结,演示链接：http://116.62.199.48/
-- 项目阅读地址： [https://quanxiaoha.com/column](https://quanxiaoha.com/column)
-
-截止目前， **累计输出 120w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4500+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
-
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-```
-1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. 面试被拷打：什么是 TCP 的粘包、拆包问题？我：了解这个，有嘛用？3. 美团面试官：MyBatis 中 #{} 和 ${} 的区别是什么？我：不知道，现在都用 MyBatis Plus 了...4. 面试官拷打：RabbitMQ 如何保证消息不丢失？我只回答出消费端 ACK，被拒了...
-```
-```
-最近面试BAT，整理一份面试资料《Java面试BATJ通关手册》，覆盖了Java核心技术、JVM、Java并发、SSM、微服务、数据库、数据结构等等。获取方式：点“在看”，关注公众号并回复 Java 领取，更多内容陆续奉上。PS：因公众号平台更改了推送规则，如果不想错过内容，记得读完点一下“在看”，加个“星标”，这样每次新文章推送才会第一时间出现在你的订阅列表里。点“在看”支持小哈呀，谢谢啦
-```
-
-Java 面试题 | 八股文汇总 · 目录
-
-阅读原文
-
-继续滑动看下一个
-
-小哈学Java
-
-向上滑动看下一个
