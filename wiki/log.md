@@ -96,3 +96,6 @@
 ## [2026-05-25] ingest | 固化 Kubernetes 介绍为 synthesis
 - **变更**: 新增 [[kubernetes-introduction]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-05-25] query | K8s 与 Docker 的依赖关系澄清
+- **输出**: 纠正 K8s 不依赖 Docker，使用 CRI/containerd；更新 [[kubernetes-introduction]]
