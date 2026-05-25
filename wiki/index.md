@@ -221,3 +221,4 @@
 - [[mysql-storage-engine-comparison]] — MySQL 存储引擎对比与底层架构
 - [[kubernetes-introduction]] — Kubernetes 入门介绍与 Docker 对比
 - [[kubernetes-detailed-guide]] — Kubernetes 详细教程与生产实践注意事项
+- [[n8n-complete-guide]] — n8n 工作流自动化平台完整指南
