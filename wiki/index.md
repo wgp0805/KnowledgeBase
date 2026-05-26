@@ -250,6 +250,7 @@
 - [[装饰器模式]] — 结构型设计模式，动态增强对象功能
 
 ## Syntheses
+- [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析
 - [[spring-skill-usage-guide]] — 4个Spring Skill使用时机与组合策略
 - [[spring-ai-vs-langchain4j]] — Spring AI vs LangChain4J 企业级选型对比

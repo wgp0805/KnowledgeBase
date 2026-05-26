@@ -120,3 +120,6 @@
 ## [2026-05-26] ingest | 摄入"AI 正在重新定义程序员"深度分析文章
 - **变更**: 新增 [[摘要-vibe-engineering-era]]; 新增实体 [[AndrejKarpathy]], [[PeterSteinberger]], [[SimonWillison]], [[RomainHuet]], [[AaronFriel]], [[CSDN]], [[Greptile]]; 新增概念 [[VibeCoding]], [[VibeEngineering]], [[cognitive-offloading]], [[silicon-time]], [[ai-schizophrenia]]; 更新 [[OpenAI]], [[Anthropic]], [[BorisCherny]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-05-26] query | AI 时代程序员如何提升核心竞争力
+- **输出**: 引用 [[摘要-vibe-engineering-era]], [[VibeEngineering]], [[VibeCoding]], [[cognitive-offloading]], [[AaronFriel]], [[RomainHuet]]; 已保存至 [[ai-programmer-survival-guide]]
