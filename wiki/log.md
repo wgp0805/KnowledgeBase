@@ -113,3 +113,6 @@
 ## [2026-05-25] ingest | 摄入 Spring 设计模式详解文章
 - **变更**: 新增 [[摘要-spring-design-patterns]]; 新增实体 [[BeanFactory]], [[ApplicationContext]], [[JdbcTemplate]], [[ApplicationEvent]], [[HandlerAdapter]], [[Resource]], [[Filter]], [[Interceptor]], [[BeanWrapper]], [[HttpRequestDecorator]], [[DefaultSingletonBeanRegistry]], [[DispatcherServlet]]; 新增概念 [[设计模式]], [[工厂模式]], [[代理模式]], [[模板方法模式]], [[观察者模式]], [[适配器模式]], [[策略模式]], [[责任链模式]], [[装饰器模式]]; 更新 [[Spring]], [[singleton-pattern]], [[index.md]]
 - **冲突**: 无
+
+## [2026-05-26] query | 查询 Claude Code 执行过程中纠正 AI 的方法
+- **输出**: 即时对话纠正、/rewind 回滚、Git 版本管理、Auto Memory 反馈、CLAUDE.md 永久规则；引用 [[ClaudeCode]], [[摘要-60分钟全面掌握Claude-Code]], [[CLAUDEmd]]
