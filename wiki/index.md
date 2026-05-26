@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-vibe-engineering-era]] — AI 时代程序员焦虑与 Vibe Coding/Engineering 分水岭
 - [[摘要-mysql-course]] — MySQL 完整教程（37 章，环境搭建到备份恢复）
 - [[摘要-alibaba-product-manual]] — 阿里巴巴产品手册
 - [[摘要-frontend-engineering]] — 前端工程化 4 小时速通
@@ -109,6 +110,13 @@
 - [[摘要-spring-design-patterns]] — Spring 框架中使用的9种设计模式详解
 
 ## Entities
+- [[AndrejKarpathy]] — OpenAI 联合创始人，"vibe coding" 一词发明人
+- [[PeterSteinberger]] — "龙虾之父"，OpenClaw 创始人，月烧 940 万 token
+- [[SimonWillison]] — Django 联合创始人，提出 Vibe Engineering 概念
+- [[RomainHuet]] — OpenAI 开发者体验负责人
+- [[AaronFriel]] — OpenAI 工程师，演示 7 小时 500 行 Codex 任务
+- [[CSDN]] — 中国最大开发者社区
+- [[Greptile]] — 开发者工具公司
 - [[Codex]] — OpenAI 桌面端 AI Agent
 - [[ClaudeCode]] — Anthropic 终端 AI Agent
 - [[LangChain4j]] — Java LLM 应用框架
@@ -184,6 +192,11 @@
 - [[DispatcherServlet]] — Spring MVC前端控制器
 
 ## Concepts
+- [[VibeCoding]] — 让 AI 随意编写代码，祈祷测试能过的编程模式
+- [[VibeEngineering]] — 对代码负责 + 重度调度 Agent 的编程模式
+- [[cognitive-offloading]] — 认知卸载，编程肌肉萎缩现象
+- [[silicon-time]] — AI 为程序员创造的额外并行工作时间
+- [[ai-schizophrenia]] — 程序员对 AI 工具的矛盾心态
 - [[Agent]] — AI Agent 核心概念
 - [[AgenticSearch]] — Agent 动态搜索范式
 - [[jwt-stateless]] — JWT 无状态认证原理
