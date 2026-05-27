@@ -291,12 +291,12 @@ public void addUser(UserDTO dto) {
 
 ## 四大Skill项目核心定位总结（新手必看）
 
-| 开源项目 | 核心定位 | 核心作用 |
-| --- | --- | --- |
-| dr-jskill | 顶级项目脚手架技能 | 生成对标JHipster的生产级SpringBoot完整项目 |
+| 开源项目                              | 核心定位         | 核心作用                             |
+| --------------------------------- | ------------ | -------------------------------- |
+| dr-jskill                         | 顶级项目脚手架技能    | 生成对标JHipster的生产级SpringBoot完整项目   |
 | agent-skill-java-spring-framework | Spring最新规范约束 | 强制AI使用Spring7/ Boot4最新API，杜绝老旧代码 |
-| sivalabs-agent-skills | 企业级业务技能库 | 统一AI技能封装规范，快速开发AI驱动后端 |
-| spring-testing-skills | 智能化测试技能 | 全自动生成、执行Spring全套测试用例 |
+| sivalabs-agent-skills             | 企业级业务技能库     | 统一AI技能封装规范，快速开发AI驱动后端            |
+| spring-testing-skills             | 智能化测试技能      | 全自动生成、执行Spring全套测试用例             |
 
 ## 最后总结
 
