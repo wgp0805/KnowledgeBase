@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-PostgreSQL-vs-MySQL]] — PostgreSQL vs MySQL 技术对比与国产数据库选型分析
 - [[摘要-vibe-engineering-era]] — AI 时代程序员焦虑与 Vibe Coding/Engineering 分水岭
 - [[摘要-mysql-course]] — MySQL 完整教程（37 章，环境搭建到备份恢复）
 - [[摘要-alibaba-product-manual]] — 阿里巴巴产品手册
@@ -110,6 +111,14 @@
 - [[摘要-spring-design-patterns]] — Spring 框架中使用的9种设计模式详解
 
 ## Entities
+- [[PostgreSQL]] — 开源关系型数据库，国产数据库技术底座
+- [[TDSQL]] — 腾讯云基于 PostgreSQL 的分布式数据库
+- [[PolarDB]] — 阿里云基于 PostgreSQL 的云原生数据库
+- [[GaussDB]] — 华为云基于 openGauss 的 HTAP 数据库
+- [[openHalo]] — 杭州易景数通开源数据库
+- [[TimescaleDB]] — PostgreSQL 时序数据库扩展
+- [[Citus]] — PostgreSQL 分布式扩展
+- [[PgAdmin]] — PostgreSQL 管理工具
 - [[AndrejKarpathy]] — OpenAI 联合创始人，"vibe coding" 一词发明人
 - [[PeterSteinberger]] — "龙虾之父"，OpenClaw 创始人，月烧 940 万 token
 - [[SimonWillison]] — Django 联合创始人，提出 Vibe Engineering 概念
@@ -192,6 +201,12 @@
 - [[DispatcherServlet]] — Spring MVC前端控制器
 
 ## Concepts
+- [[MVCC]] — 多版本并发控制机制
+- [[WAL]] — 预写日志机制
+- [[流复制]] — PostgreSQL 流复制机制
+- [[逻辑复制]] — PostgreSQL 逻辑复制机制
+- [[Sequence]] — 数据库序列对象
+- [[JSONB]] — PostgreSQL 二进制 JSON 类型
 - [[VibeCoding]] — 让 AI 随意编写代码，祈祷测试能过的编程模式
 - [[VibeEngineering]] — 对代码负责 + 重度调度 Agent 的编程模式
 - [[cognitive-offloading]] — 认知卸载，编程肌肉萎缩现象
