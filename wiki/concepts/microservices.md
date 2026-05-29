@@ -18,7 +18,7 @@ last_updated: 2026-05-22
 - 配置中心：Nacos Config / Apollo
 - 服务调用：OpenFeign（HTTP）或 Dubbo（RPC）
 - 限流熔断：Sentinel / Hystrix / Resilience4j
-- 链路追踪：SkyWalking / Zipkin / Jaeger
+- 链路追踪：SkyWalking（未收录）/ Zipkin / Jaeger
 - 消息驱动：RocketMQ / RabbitMQ / Kafka
 
 ## 关联连接

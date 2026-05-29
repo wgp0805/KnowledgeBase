@@ -12,5 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[SpringBoot]] — Spring 自动配置框架
 - [[RuoYi]] — 若依开发框架
-- [[Vue]] — 前端框架
+- [[Vue3]] — 前端框架
 - [[Gitee]] — 代码托管平台

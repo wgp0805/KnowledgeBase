@@ -11,6 +11,6 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[JVM]] — Java 虚拟机
-- [[HotSpot]] — JVM 实现
-- [[G1GC]] — G1 垃圾收集器
-- [[ZGC]] — ZGC 垃圾收集器
+- HotSpot — JVM 实现
+- G1 GC — G1 垃圾收集器
+- ZGC — ZGC 垃圾收集器

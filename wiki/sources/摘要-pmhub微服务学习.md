@@ -10,11 +10,11 @@ last_updated: 2026-05-19
 记录 PmHub 微服务项目学习路线，涵盖 Nacos 注册配置中心、Spring Cloud Gateway 网关、Sentinel 限流熔断、RocketMQ 消息队列、SkyWalking 链路追踪、Flowable 工作流等组件的部署与整合。
 
 ## 关联连接
-- [[PmHub]] — 微服务项目
+- PmHub — 微服务项目
 - [[Nacos]] — 注册配置中心
 - [[SpringCloudGateway]] — 网关
 - [[Sentinel]] — 限流熔断组件
 - [[RocketMQ]] — 消息队列
-- [[SkyWalking]] — 链路追踪
-- [[Flowable]] — 工作流引擎
+- SkyWalking — 链路追踪
+- Flowable — 工作流引擎
 - [[Redis]] — 键值存储

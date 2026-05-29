@@ -13,6 +13,6 @@ last_updated: 2026-05-19
 - [[Qoder]] — AI 编码工具
 - [[PaiAgent]] — AI Agent 项目
 - [[SpringBoot]] — Spring 自动配置框架
-- [[React]] — 前端 UI 框架
-- [[ReactFlow]] — 流程图组件库
+- React — 前端 UI 框架
+- ReactFlow — 流程图组件库
 - [[MyBatisPlus]] — MyBatis 增强工具

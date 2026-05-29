@@ -21,7 +21,7 @@ last_updated: 2026-05-25
 - [[Resource]] — 策略模式的资源加载接口
 - [[设计模式]] — 文章讨论的核心概念
 - [[工厂模式]] — Spring的基石设计模式
-- [[单例模式]] — Bean的默认作用域
+- [[singleton-pattern]] — Bean的默认作用域（单例模式）
 - [[代理模式]] — AOP的灵魂
 - [[模板方法模式]] — JdbcTemplate等Template类的核心
 - [[观察者模式]] — Spring事件机制的基础

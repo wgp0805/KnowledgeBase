@@ -19,5 +19,5 @@ JVM（Java Virtual Machine）是 Java 程序的运行环境，负责将 Java 字
 
 ## 关联连接
 - [[Java]] — 编程语言
-- [[G1GC]] — G1 垃圾收集器
-- [[ZGC]] — ZGC 垃圾收集器
+- G1 GC — G1 垃圾收集器（JVM 默认）
+- ZGC — 超大堆低延迟垃圾收集器

@@ -20,5 +20,5 @@ PaiAgent 是一个基于 DAG（有向无环图）工作流引擎的 AI Agent 平
 ## 关联连接
 - [[Qoder]] — AI 编码工具
 - [[SpringBoot]] — 后端框架
-- [[React]] — 前端框架
-- [[ReactFlow]] — 流程图组件
+- React — 前端框架
+- ReactFlow — 流程图组件

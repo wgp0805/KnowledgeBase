@@ -11,4 +11,4 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Java]] — 编程语言
-- [[MessageDigest]] — Java 摘要算法类
+- MessageDigest — Java 摘要算法类

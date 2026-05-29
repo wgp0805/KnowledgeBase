@@ -11,5 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[FastJson]] — Java JSON 处理库
-- [[JSONPath]] — JSON 路径查询语法
+- JSONPath — JSON 路径查询语法
 - [[Hutool]] — Java 工具库

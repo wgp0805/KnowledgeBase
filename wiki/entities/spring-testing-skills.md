@@ -29,7 +29,7 @@ https://github.com/spring-ai-community/spring-testing-skills
 ## 关联连接
 - [[ClaudeCode]] — 使用该技能的 AI 工具
 - [[SpringBoot]] — 目标框架
-- [[Spring Testing]] — 测试框架
+- [[SpringTesting]] — 测试框架
 - [[dr-jskill]] — 配合使用的脚手架技能
 - [[agent-skill-java-spring-framework]] — 配合使用的规范技能
 - [[sivalabs-agent-skills]] — 配合使用的业务技能

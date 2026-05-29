@@ -20,5 +20,5 @@ BeanFactory 是 Spring 框架中最顶层的工厂接口，提供了 `getBean()`
 - [[Spring]] — 所属框架
 - [[ApplicationContext]] — BeanFactory 的超集，集成了更多企业级功能
 - [[工厂模式]] — BeanFactory 体现的设计模式
-- [[单例模式]] — BeanFactory 管理的 Bean 默认为单例
+- [[singleton-pattern]] — BeanFactory 管理的 Bean 默认为单例
 - [[摘要-spring-design-patterns]] — 来源文章

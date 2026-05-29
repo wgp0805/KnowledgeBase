@@ -11,4 +11,4 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[CSDN]] — 技术博客平台
-- [[GitBook]] — 文档托管平台
+- GitBook — 文档托管平台

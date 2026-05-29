@@ -88,3 +88,5 @@ AI 时代程序员的命运分叉点在于选择哪种编程模式：
 - [[SimonWillison]] — "Vibe Engineering" 提出者
 - [[OpenAI]] — 内部实践来源
 - [[Anthropic]] — 认知卸载论文来源
+- [[ai-schizophrenia]] — 程序员对 AI 工具的矛盾心态
+- [[silicon-time]] — AI 创造的额外并行工作时间

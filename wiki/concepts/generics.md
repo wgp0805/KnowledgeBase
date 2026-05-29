@@ -65,4 +65,4 @@ class U<X, Y, Z> {
 ## 关联连接
 - [[Java]] — Java 编程语言
 - [[摘要-java-generics-explained]] — 来源
-- [[Java-Collections]] — 集合框架中的泛型应用
+- Java Collections — 集合框架中的泛型应用

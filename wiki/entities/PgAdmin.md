@@ -20,4 +20,4 @@ PgAdmin 是 PostgreSQL 的官方管理工具，提供直观的执行计划、锁
 
 - [[摘要-PostgreSQL-vs-MySQL]] — 来源
 - [[PostgreSQL]] — 管理目标
-- [[DBeaver]] — 通用数据库管理工具
+- DBeaver — 通用数据库管理工具（未收录）

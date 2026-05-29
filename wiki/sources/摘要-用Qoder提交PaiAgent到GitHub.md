@@ -11,6 +11,6 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Qoder]] — AI 编码工具
-- [[QoderCLI]] — Qoder 命令行工具
+- Qoder CLI — Qoder 命令行工具
 - [[PaiAgent]] — AI Agent 项目
 - [[GitHub]] — 代码托管平台
