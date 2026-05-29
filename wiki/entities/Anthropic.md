@@ -21,5 +21,7 @@ last_updated: 2026-05-26
 - [[Codex]] — 竞品
 - [[OpenAI]] — 竞争对手
 - [[BorisCherny]] — 资深工程师
+- [[Thariq]] — 工程师，分享 Skills 使用经验
 - [[cognitive-offloading]] — 认知卸载论文来源
 - [[摘要-vibe-engineering-era]] — 认知卸载研究来源
+- [[摘要-anthropic-engineer-skills]] — Skills 经验分享来源

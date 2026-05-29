@@ -109,6 +109,7 @@
 - [[摘要-sharding-database-table]] — 分库分表原理、坑点与落地实践
 - [[摘要-singleton-pattern]] — 单例模式5种写法与线程安全
 - [[摘要-spring-design-patterns]] — Spring 框架中使用的9种设计模式详解
+- [[摘要-anthropic-engineer-skills]] — Anthropic 工程师分享的 Claude Code Skills 9 类分类法与设计经验
 
 ## Entities
 - [[PostgreSQL]] — 开源关系型数据库，国产数据库技术底座
@@ -131,6 +132,7 @@
 - [[LangChain4j]] — Java LLM 应用框架
 - [[OpenAI]] — AI 研究公司（Codex/ChatGPT）
 - [[Anthropic]] — AI 安全公司（Claude Code/Claude）
+- [[Thariq]] — Anthropic 工程师，分享 Skills 使用经验
 - [[SpringBoot]] — Spring 自动配置框架
 - [[Docker]] — 应用容器引擎
 - [[Git]] — 分布式版本控制系统
@@ -250,6 +252,9 @@
 - [[RAG]] — 检索增强生成
 - [[sequential-io]] — 顺序 IO 性能优化
 - [[Skill]] — Claude Code 技能扩展机制
+- [[渐进式披露]] — Skill 内容组织原则，按需加载信息
+- [[Gotchas]] — Skill 中含金量最高的部分，记录踩坑经验
+- [[Hooks]] — 场景化防护机制，按需激活的自动触发器
 - [[tiered-storage]] — 分层存储架构
 - [[transaction-management]] — Spring 事务管理
 - [[sharding]] — 分库分表架构设计

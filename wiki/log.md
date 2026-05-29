@@ -127,3 +127,7 @@
 ## [2026-05-28] ingest | 摄入 PostgreSQL vs MySQL 技术对比文章
 - **变更**: 新增 [[摘要-PostgreSQL-vs-MySQL]]; 新增实体 [[PostgreSQL]], [[TDSQL]], [[PolarDB]], [[GaussDB]], [[openHalo]], [[TimescaleDB]], [[Citus]], [[PgAdmin]]; 新增概念 [[MVCC]], [[WAL]], [[流复制]], [[逻辑复制]], [[Sequence]], [[JSONB]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-05-28] ingest | 摄入 Anthropic 工程师 Skills 经验分享文章
+- **变更**: 新增 [[摘要-anthropic-engineer-skills]]; 新增实体 [[Thariq]]; 新增概念 [[渐进式披露]], [[Gotchas]], [[Hooks]]; 更新 [[Anthropic]], [[ClaudeCode]], [[Skill]]; 更新 [[index.md]]
+- **冲突**: 无
