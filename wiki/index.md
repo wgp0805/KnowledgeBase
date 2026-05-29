@@ -201,6 +201,34 @@
 - [[HttpRequestDecorator]] — 装饰器模式在HTTP请求中的应用
 - [[DefaultSingletonBeanRegistry]] — Spring单例模式实现核心类
 - [[DispatcherServlet]] — Spring MVC前端控制器
+- [[GitHub]] — 全球最大代码托管平台
+- [[Gitee]] — 国内代码托管平台（码云）
+- [[DockerDesktop]] — Docker 桌面端容器运行环境
+- [[Ubuntu]] — 基于 Debian 的 Linux 发行版
+- [[CentOS]] — 基于 RHEL 的 Linux 发行版
+- [[Tomcat]] — Apache Servlet 容器
+- [[VMware]] — 虚拟化软件
+- [[Windows]] — 微软桌面操作系统
+- [[Hyper-V]] — 微软硬件虚拟化技术
+- [[WSL2]] — Windows Subsystem for Linux 2
+- [[MyBatis]] — 半自动 ORM 持久层框架
+- [[PageHelper]] — MyBatis 物理分页插件
+- [[Lombok]] — Java 编译时注解处理器
+- [[Hikari]] — 高性能数据库连接池（Spring Boot 默认）
+- [[Druid]] — 阿里巴巴开源数据库连接池
+- [[Jackson]] — Java JSON 处理库（Spring Boot 默认）
+- [[FastJson]] — 阿里巴巴 JSON 处理库
+- [[Hutool]] — Java 工具类库
+- [[SpringCloudGateway]] — Spring Cloud API 网关
+- [[Sentinel]] — 阿里巴巴流量治理组件
+- [[Redisson]] — Redis 分布式锁客户端
+- [[RedisTemplate]] — Spring Redis 操作模板
+- [[SpringDataRedis]] — Spring Data Redis 集成
+- [[Jedis]] — Redis Java 客户端
+- [[FreeMarker]] — Java 模板引擎
+- [[CompletableFuture]] — Java 8 异步编程工具
+- [[JHipster]] — 全栈应用生成器
+- [[SpringTesting]] — Spring 测试支持模块
 
 ## Concepts
 - [[MVCC]] — 多版本并发控制机制
@@ -268,6 +296,12 @@
 - [[策略模式]] — 行为型设计模式，同一接口不同实现策略
 - [[责任链模式]] — 行为型设计模式，请求沿链条依次处理
 - [[装饰器模式]] — 结构型设计模式，动态增强对象功能
+- [[IoC]] — 控制反转，Spring 依赖注入的设计原则
+- [[CGLIB代理]] — 基于字节码生成的代理模式实现
+- [[JDK动态代理]] — Java 原生基于接口的代理机制
+- [[duplicate-submit]] — 重复提交问题与防护方案
+- [[code-review]] — 代码审查实践
+- [[api-compatibility]] — API 向后兼容性设计
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

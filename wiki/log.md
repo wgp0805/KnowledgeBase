@@ -131,3 +131,13 @@
 ## [2026-05-28] ingest | 摄入 Anthropic 工程师 Skills 经验分享文章
 - **变更**: 新增 [[摘要-anthropic-engineer-skills]]; 新增实体 [[Thariq]]; 新增概念 [[渐进式披露]], [[Gotchas]], [[Hooks]]; 更新 [[Anthropic]], [[ClaudeCode]], [[Skill]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-05-29] lint | 知识库健康巡检与批量修复
+- **变更**:
+  - 修复 `[[单例模式]]` → `[[singleton-pattern]]` 链接映射（4 个文件）
+  - 为 10 个孤儿页面补充关联链接（ai-schizophrenia, sharding, singleton-pattern, Greptile, 6 个 syntheses）
+  - 新增 28 个实体页面：GitHub, Gitee, DockerDesktop, Ubuntu, CentOS, Tomcat, VMware, Windows, Hyper-V, WSL2, MyBatis, PageHelper, Lombok, Hikari, Druid, Jackson, FastJson, Hutool, SpringCloudGateway, Sentinel, Redisson, RedisTemplate, SpringDataRedis, Jedis, FreeMarker, CompletableFuture, JHipster, SpringTesting
+  - 新增 6 个概念页面：IoC, CGLIB代理, JDK动态代理, duplicate-submit, code-review, api-compatibility
+  - 清理 68 处死链：28 个创建页面解决，40 个去掉双链格式
+  - 更新 [[index.md]] 注册所有新页面
+- **冲突**: 无
