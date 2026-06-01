@@ -312,3 +312,6 @@
 - [[kubernetes-introduction]] — Kubernetes 入门介绍与 Docker 对比
 - [[kubernetes-detailed-guide]] — Kubernetes 详细教程与生产实践注意事项
 - [[n8n-complete-guide]] — n8n 工作流自动化平台完整指南
+- [[摘要-ECC使用教程]] — ECC v1.10.0+ 全方位教程：47+ Agent/Skill/Hook/Continuous Learning
+- [[ECC]] — ECC 增强框架，为 Claude Code 和 OpenCode 提供 47+ Agent
+- [[OpenCode]] — 开源 AI 编程助手，支持事件驱动 Hook 系统和 SubAgent
