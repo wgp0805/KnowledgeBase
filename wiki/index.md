@@ -111,6 +111,7 @@
 - [[摘要-spring-design-patterns]] — Spring 框架中使用的9种设计模式详解
 - [[摘要-anthropic-engineer-skills]] — Anthropic 工程师分享的 Claude Code Skills 9 类分类法与设计经验
 
+- [[摘要-ECC使用教程]] — ECC v1.10.0+ 全方位教程：47+ Agent/Skill/Hook/Continuous Learning
 ## Entities
 - [[PostgreSQL]] — 开源关系型数据库，国产数据库技术底座
 - [[TDSQL]] — 腾讯云基于 PostgreSQL 的分布式数据库
@@ -230,6 +231,8 @@
 - [[JHipster]] — 全栈应用生成器
 - [[SpringTesting]] — Spring 测试支持模块
 
+- [[OpenCode]] — 开源 AI 编程助手，支持事件驱动 Hook 系统和 SubAgent
+- [[ECC]] — ECC 增强框架，为 Claude Code 和 OpenCode 提供 47+ Agent
 ## Concepts
 - [[MVCC]] — 多版本并发控制机制
 - [[WAL]] — 预写日志机制
@@ -312,6 +315,3 @@
 - [[kubernetes-introduction]] — Kubernetes 入门介绍与 Docker 对比
 - [[kubernetes-detailed-guide]] — Kubernetes 详细教程与生产实践注意事项
 - [[n8n-complete-guide]] — n8n 工作流自动化平台完整指南
-- [[摘要-ECC使用教程]] — ECC v1.10.0+ 全方位教程：47+ Agent/Skill/Hook/Continuous Learning
-- [[ECC]] — ECC 增强框架，为 Claude Code 和 OpenCode 提供 47+ Agent
-- [[OpenCode]] — 开源 AI 编程助手，支持事件驱动 Hook 系统和 SubAgent
