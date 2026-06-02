@@ -239,6 +239,8 @@
 - [[Chroma]] — 开源向量数据库，RAG 架构常用向量存储
 - [[LoRA]] — 参数高效微调方法（Low-Rank Adaptation）
 - [[Gemini]] — Google 大模型系列，1M+ Token 超长上下文
+- [[Servlet]] — Java EE/Jakarta EE 服务器端组件规范
+- [[RestClient]] — Spring 6.1+ 现代HTTP客户端
 ## Concepts
 - [[MVCC]] — 多版本并发控制机制
 - [[WAL]] — 预写日志机制

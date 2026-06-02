@@ -11,5 +11,4 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[IntelliJIDEA]] — Java IDE
-- SVN — 版本控制系统
-- Subversion — 版本控制系统
+- [[Git]] — 版本控制系统

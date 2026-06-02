@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Java]] — 编程语言
+- [[摘要-java8新特性详解]] — Java 8 新特性
+- [[摘要-Steam的简单操作]] — Stream API

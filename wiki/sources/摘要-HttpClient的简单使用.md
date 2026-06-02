@@ -10,4 +10,6 @@ last_updated: 2026-05-19
 基于 JDK 原生 HttpURLConnection 封装的 HttpKit 工具类，支持 GET/POST 请求、HTTPS 证书信任、参数拼接和 JSON 参数发送。
 
 ## 关联连接
-- HttpURLConnection — Java HTTP 客户端
+- [[Java]] — 编程语言
+- [[RestClient]] — HTTP 客户端
+- [[SpringBoot]] — Web 开发框架

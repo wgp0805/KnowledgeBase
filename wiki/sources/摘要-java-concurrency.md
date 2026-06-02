@@ -17,3 +17,5 @@ Java 并发编程手册，涵盖线程基础、锁机制、并发容器、线程
 ## 关联连接
 - [[Java]] — 编程语言
 - [[JVM]] — Java 虚拟机
+- [[CompletableFuture]] — 异步编程
+- [[durable-threads]] — 线程持久化

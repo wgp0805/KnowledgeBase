@@ -14,3 +14,5 @@ last_updated: 2026-05-19
 - HotSpot — JVM 实现
 - G1 GC — G1 垃圾收集器
 - ZGC — ZGC 垃圾收集器
+- [[jvm-tuning]] — JVM 调优
+- [[SpringBoot]] — JVM 参数常配置场景

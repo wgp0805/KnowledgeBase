@@ -14,3 +14,5 @@ last_updated: 2026-05-19
 - [[RuoYi]] — 若依开发框架
 - [[Vue3]] — 前端框架
 - [[Gitee]] — 代码托管平台
+- [[ElementPlus]] — Vue UI 组件库
+- [[frontend-backend-separation]] — 前后端分离

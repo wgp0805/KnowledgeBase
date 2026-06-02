@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[Spring]] — Java 应用框架
 - [[SpringBoot]] — Spring 自动配置框架
+- [[ApplicationEvent]] — Spring 事件机制
+- [[IoC]] — 控制反转

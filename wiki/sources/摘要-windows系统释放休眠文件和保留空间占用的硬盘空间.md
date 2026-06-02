@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Windows]] — 操作系统
+- [[WSL2]] — Windows 子系统
+- [[VMware]] — 虚拟化占用空间

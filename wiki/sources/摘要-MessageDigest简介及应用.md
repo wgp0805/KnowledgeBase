@@ -11,4 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Java]] — 编程语言
-- MessageDigest — Java 摘要算法类
+- [[Spring]] — 应用框架
+- [[JWT]] — 基于 HMAC 的令牌认证

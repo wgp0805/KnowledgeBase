@@ -13,3 +13,5 @@ last_updated: 2026-05-19
 - [[FastJson]] — Java JSON 处理库
 - JSONPath — JSON 路径查询语法
 - [[Hutool]] — Java 工具库
+- [[Jackson]] — Java JSON 处理库
+- [[Java]] — 编程语言

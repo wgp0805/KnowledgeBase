@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[IntelliJIDEA]] — Java IDE
 - [[Git]] — 分布式版本控制系统
+- [[GitHub]] — 代码托管平台
+- [[Gitee]] — 国内代码托管平台

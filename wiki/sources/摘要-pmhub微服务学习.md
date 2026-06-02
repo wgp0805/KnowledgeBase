@@ -18,3 +18,5 @@ last_updated: 2026-05-19
 - SkyWalking — 链路追踪
 - Flowable — 工作流引擎
 - [[Redis]] — 键值存储
+- [[microservices]] — 微服务架构
+- [[SpringBoot]] — 基础开发框架

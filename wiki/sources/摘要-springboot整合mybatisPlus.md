@@ -15,3 +15,5 @@ Spring Boot 整合 MyBatis-Plus 的完整流程，包括依赖配置、实体类
 - [[MySQL]] — 关系型数据库
 - [[Druid]] — 数据库连接池
 - [[Hikari]] — 数据库连接池
+- [[MyBatis]] — 持久层框架
+- [[PageHelper]] — 分页插件

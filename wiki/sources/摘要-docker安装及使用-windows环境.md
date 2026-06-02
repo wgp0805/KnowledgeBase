@@ -14,3 +14,5 @@ last_updated: 2026-05-19
 - [[DockerDesktop]] — Docker 桌面版
 - [[Hyper-V]] — 虚拟化平台
 - [[WSL2]] — Windows Linux 子系统
+- [[Windows]] — 操作系统
+- [[DockerDesktop]] — Docker 桌面版

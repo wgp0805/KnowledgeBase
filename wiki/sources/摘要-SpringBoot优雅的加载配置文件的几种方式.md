@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[SpringBoot]] — Spring 自动配置框架
+- [[Spring]] — 核心框架
+- [[Nacos]] — 配置中心

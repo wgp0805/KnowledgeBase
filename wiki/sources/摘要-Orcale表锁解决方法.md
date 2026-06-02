@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Oracle]] — 关系型数据库
+- [[transaction-management]] — 事务管理与锁
+- [[MySQL]] — 另一种常用关系型数据库

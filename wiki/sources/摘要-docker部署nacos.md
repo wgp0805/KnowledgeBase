@@ -13,3 +13,5 @@ last_updated: 2026-05-19
 - [[Docker]] — 容器化平台
 - [[Nacos]] — 注册配置中心
 - [[MySQL]] — 关系型数据库
+- [[microservices]] — 微服务架构
+- [[DockerDesktop]] — Docker 桌面版

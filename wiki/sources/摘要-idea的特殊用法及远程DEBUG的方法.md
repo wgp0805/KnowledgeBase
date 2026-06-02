@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[IntelliJIDEA]] — Java IDE
 - [[SpringBoot]] — Spring 自动配置框架
+- [[JVM]] — 调试参数设置
+- [[Docker]] — 容器化远程调试

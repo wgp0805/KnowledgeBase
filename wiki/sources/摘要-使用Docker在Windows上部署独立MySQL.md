@@ -13,3 +13,5 @@ last_updated: 2026-05-19
 - [[Docker]] — 容器化平台
 - [[MySQL]] — 关系型数据库
 - [[DockerDesktop]] — Docker 桌面版
+- [[Windows]] — 操作系统
+- [[摘要-Docker部署Redis全攻略]] — Docker 部署数据库参考

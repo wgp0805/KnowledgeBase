@@ -11,4 +11,5 @@ Linux 常用命令速查，涵盖目录结构说明、文件操作、压缩解�
 
 ## 关联连接
 - [[Linux]] — 操作系统
-- Zookeeper — 分布式协调服务
+- [[CentOS]] — Linux 发行版
+- [[Ubuntu]] — Linux 发行版

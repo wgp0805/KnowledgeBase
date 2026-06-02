@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Java]] — 编程语言
+- [[lambda表达式简单解析]] — Java 8 特性
+- [[generics]] — Java 泛型

@@ -13,3 +13,5 @@ Spring Boot 整合 RocketMQ 的完整方案，包括基础整合（RocketMQTempl
 - [[SpringBoot]] — Spring 自动配置框架
 - [[RocketMQ]] — 消息队列
 - [[Jackson]] — JSON 处理库
+- [[message-queue]] — 消息队列概念
+- [[摘要-Docker-window环境下部署RocketMq]] — RocketMQ 部署

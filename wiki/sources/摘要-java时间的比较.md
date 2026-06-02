@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Java]] — 编程语言
+- [[MySQL]] — 数据库时间比较
+- [[摘要-jdk8-LocalDateTime时间戳转换]] — Java 8 日期时间

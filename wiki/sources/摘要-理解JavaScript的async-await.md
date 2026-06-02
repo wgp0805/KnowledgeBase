@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[JavaScript]] — 编程语言
 - [[Promise]] — 异步编程模式
+- [[async-await]] — 异步语法
+- [[Vue3]] — 前端框架

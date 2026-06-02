@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[MySQL]] — 关系型数据库
+- [[query-optimization]] — 查询优化
+- [[inverted-index]] — 索引原理

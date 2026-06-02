@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[Spring]] — Java 应用框架
 - [[AOP]] — 面向切面编程
+- [[transaction-management]] — 事务管理概念
+- [[SpringBoot]] — 事务常用框架

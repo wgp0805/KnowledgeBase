@@ -11,3 +11,5 @@ Java 8 新特性的参考链接索引页，作为外部文章的容器页，记�
 
 ## 关联连接
 - [[Java]] — 编程语言
+- [[lambda表达式简单解析]] — Lambda 表达式
+- [[CompletableFuture]] — 异步编程

@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[SpringBoot]] — Spring 自动配置框架
 - [[SpringMVC]] — Web MVC 框架
+- [[DispatcherServlet]] — 请求分发核心
+- [[Jackson]] — JSON 序列化

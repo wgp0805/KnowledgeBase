@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Oracle]] — 关系型数据库
+- [[inverted-index]] — 索引原理
+- [[摘要-orcale常用的查询资源的方法]] — Oracle DBA 查询

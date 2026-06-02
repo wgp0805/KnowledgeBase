@@ -16,4 +16,6 @@ LangChain4j 提供 Spring Boot Starter，可通过属性配置自动创建 ChatL
 - [[FunctionCalling]] — 工具调用（@Tool）
 - [[RAG]] — 检索增强生成
 - [[OpenAI]] — 模型提供商
+- [[DeepSeek]] — 模型提供商
+- [[SpringAI]] — Spring AI 框架
 

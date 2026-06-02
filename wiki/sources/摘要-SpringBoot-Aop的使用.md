@@ -15,3 +15,5 @@ last_updated: 2026-05-19
 - [[Hutool]] — Java 工具库
 - [[FastJson]] — Java JSON 处理库
 - [[Lombok]] — Java 代码简化工具
+- [[CGLIB代理]] — AOP 底层代理机制
+- [[JDK动态代理]] — AOP 代理方式

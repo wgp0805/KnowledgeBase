@@ -13,3 +13,5 @@ last_updated: 2026-05-19
 - [[Docker]] — 容器化平台
 - [[RocketMQ]] — 消息队列
 - [[DockerDesktop]] — Docker 桌面版
+- [[Windows]] — 操作系统环境
+- [[message-queue]] — 消息队列概念

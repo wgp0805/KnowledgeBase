@@ -12,4 +12,6 @@ Spring Boot 整合 Spring Security 的四种用户存储方式（内存用户、
 ## 关联连接
 - [[SpringBoot]] — Spring 自动配置框架
 - [[SpringSecurity]] — 安全框架
-- BCryptPasswordEncoder — 密码编码器
+- [[JWT]] — 令牌认证方案
+- [[rbac]] — 角色权限控制模型
+- [[Filter]] — 过滤器机制

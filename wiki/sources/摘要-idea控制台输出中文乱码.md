@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[IntelliJIDEA]] — Java IDE
+- [[JVM]] — 编码参数配置
+- [[Maven]] — 构建工具编码设置

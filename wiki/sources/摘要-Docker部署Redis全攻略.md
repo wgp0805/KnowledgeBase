@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[Docker]] — 容器化平台
 - [[Redis]] — 键值存储数据库
+- [[DockerDesktop]] — Docker 桌面版
+- [[SpringDataRedis]] — Spring 数据 Redis 集成

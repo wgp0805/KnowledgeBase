@@ -11,3 +11,5 @@ Nginx 配置全面详解，包括 location 匹配规则（= / ^~ ~ ~*）、proxy
 
 ## 关联连接
 - [[Nginx]] — 高性能 Web 服务器
+- [[Docker]] — 容器化部署 Nginx
+- [[SpringCloudGateway]] — API 网关
