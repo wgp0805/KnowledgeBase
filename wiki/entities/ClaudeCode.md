@@ -2,8 +2,8 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md]
-last_updated: 2026-05-20
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md]
+last_updated: 2026-06-02
 ---
 
 ## 定义
@@ -39,7 +39,10 @@ Anthropic 在 2025 年 2 月推出的、原本为编程而生、运行在终端�
 - **CLI 工具**：命令行工具扩展
 - **SubAgent**：子 agent 并行处理
 - **Hook**：条件反射式自动触发器
-- **插件**：Skill + SubAgent + Hook + MCP 打包
+- **插件（Plugin）**：Skill + SubAgent + Hook + MCP 打包
+  - **claude-plugins-official**：Anthropic 官方开源的插件应用商店（GitHub 近 3 万 Star），已内置在 Claude Code 中，通过 `/plugin install` 命令零配置安装
+  - 三类插件：LSP 语言服务（TypeScript/Python/Java/Go/C++ 等）、开发工作流（feature-dev、code-review、commit-commands）、外部工具集成（GitHub、GitLab、Figma、Linear、Playwright、Vercel、Sentry 等）
+  - 插件目录结构：`.claude-plugin/plugin.json`（必填）+ 可选 `mcp.json`、`commands/`、`agents/`、`skills/`
 
 ### Spring 生态专属 Skill
 - **核心理念**：Claude Code 的上限完全取决于装了什么 Skill
@@ -84,6 +87,7 @@ Anthropic 在 2025 年 2 月推出的、原本为编程而生、运行在终端�
 - [[meta-skill]] — 元技能概念
 - [[摘要-为什么Claude-Code不用RAG检索代码]] — 来源
 - [[摘要-claude-code-springboot-skills]] — 来源（Spring Skill 实战）
+- [[摘要-claude-code-plugins-official]] — 来源（官方插件市场开源）
 - [[AgenticSearch]] — 代码搜索范式
 - [[Ripgrep]] — Grep 底层工具
 - [[BorisCherny]] — 首席工程师

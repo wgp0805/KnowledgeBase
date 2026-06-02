@@ -145,3 +145,7 @@
 ## [2026-06-01] ingest | 摄入 ECC 使用教程
 - **变更**: 新增 [[摘要-ECC使用教程]]; 新增实体 [[ECC]], [[OpenCode]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-02] ingest | 摄入 Claude Code 官方插件开源与 Codex 极致用法两篇文章
+- **变更**: 新增 [[摘要-claude-code-plugins-official]], [[摘要-把Codex用到极致]]; 新增概念 [[durable-threads]], [[steering]], [[queuing]], [[automations]], [[goals]]; 更新 [[ClaudeCode]], [[Codex]]; 更新 [[index.md]]
+- **冲突**: 无

@@ -2,12 +2,12 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/如何把Codex用到极致.md]
+last_updated: 2026-06-02
 ---
 
 ## 定义
-OpenAI 推出的桌面端 AI Agent 程序，从编程 Agent 起家逐步走向通用 Agent，需要 ChatGPT 账号使用。
+OpenAI 推出的桌面端 AI Agent 程序，正从编程 Agent 进化为"电脑工作系统"（Computer Work System），覆盖代码、浏览器、邮件、日历、桌面 GUI 等真实工作表面。
 
 ## 关键信息
 
@@ -27,6 +27,26 @@ OpenAI 推出的桌面端 AI Agent 程序，从编程 Agent 起家逐步走向�
 - Codex 额度更友好，产品体验更直观（上下文余量可视、额度状态显示）
 - Claude Code 写作和规划能力更强（Opus 模型）
 
+### 工作系统三大支柱
+Codex 从三个方向从编程 Agent 向工作系统进化：
+1. **上下文**：[[durable-threads]]（长线程）、共享记忆、项目文件，让工作不用每次重来
+2. **工具**：browser（侧边栏浏览器）、Chrome（登录态流程）、Computer Use（桌面 GUI）、[[MCP]]（Slack/Gmail/Calendar 等工作入口）、[[Skill]]（可复用流程封装）
+3. **验证器**：测试、检查矩阵、端到端流程，让长任务知道什么叫"完成"
+
+### 人机交互控制
+- **语音输入**：捕捉未整理好的模糊想法，Codex 可搜索、追问、整理
+- **Steering（转向）**：任务运行中途用户可打断纠偏，不重新开始
+- **Queuing（排队）**：不打断当前任务，将后续步骤排入队列（如"做完后发预览链接给审核人"）
+- 核心哲学：人没有被踢出回路，而是把决策点提前暴露，用最少介入改变方向
+
+### 自动化与目标
+- **Automations**：按计划启动工作（每日报告、定期检查 repo、活跃线程定时唤醒检查 Slack/Gmail/PR）
+- **Goals**：带验证器的长跑任务。强目标有明确验证器（"目录建好、功能对齐、全部测试通过"），弱目标只是愿望
+
+### 侧边栏与移动端
+- Side Panel 解决"人在哪里审"的问题：代码看 diff，网页直接打开，文档表格在同一上下文审阅
+- 手机端可远程监控进度、回答问题、批准下一步，工作线程随人走，执行环境留原地
+
 ### 权限模式
 - 自动审查模式（默认）
 - 建议模式
@@ -40,6 +60,7 @@ OpenAI 推出的桌面端 AI Agent 程序，从编程 Agent 起家逐步走向�
 
 ## 关联连接
 - [[摘要-40分钟学会Codex零基础教程]] — 来源
+- [[摘要-把Codex用到极致]] — 来源（工作系统框架与长线程理念）
 - [[ClaudeCode]] — 对标产品
 - [[OpenAI]] — 所属公司
 - [[Agent]] — 核心概念

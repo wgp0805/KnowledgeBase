@@ -112,6 +112,8 @@
 - [[摘要-anthropic-engineer-skills]] — Anthropic 工程师分享的 Claude Code Skills 9 类分类法与设计经验
 
 - [[摘要-ECC使用教程]] — ECC v1.10.0+ 全方位教程：47+ Agent/Skill/Hook/Continuous Learning
+- [[摘要-claude-code-plugins-official]] — Anthropic 官方 Claude Code 插件应用商店开源详解
+- [[摘要-把Codex用到极致]] — Codex 从编程 Agent 进化为电脑工作系统的三大支柱
 ## Entities
 - [[PostgreSQL]] — 开源关系型数据库，国产数据库技术底座
 - [[TDSQL]] — 腾讯云基于 PostgreSQL 的分布式数据库
@@ -305,6 +307,11 @@
 - [[duplicate-submit]] — 重复提交问题与防护方案
 - [[code-review]] — 代码审查实践
 - [[api-compatibility]] — API 向后兼容性设计
+- [[durable-threads]] — 持久化 AI Agent 工作线程，保持长期上下文
+- [[steering]] — Agent 任务中途纠偏控制机制
+- [[queuing]] — Agent 非阻塞任务排队机制
+- [[automations]] — Agent 定时自动化工作流程
+- [[goals]] — 带验证器的长跑型 Agent 任务
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
