@@ -110,6 +110,7 @@
 - [[摘要-singleton-pattern]] — 单例模式5种写法与线程安全
 - [[摘要-spring-design-patterns]] — Spring 框架中使用的9种设计模式详解
 - [[摘要-anthropic-engineer-skills]] — Anthropic 工程师分享的 Claude Code Skills 9 类分类法与设计经验
+- [[摘要-字节面试官什么是RAG为什么需要RAG]] — 字节面试视角下的 RAG 深度解析：四大硬伤、核心流程、选型对比与前沿演进
 
 - [[摘要-ECC使用教程]] — ECC v1.10.0+ 全方位教程：47+ Agent/Skill/Hook/Continuous Learning
 - [[摘要-claude-code-plugins-official]] — Anthropic 官方 Claude Code 插件应用商店开源详解
@@ -235,6 +236,9 @@
 
 - [[OpenCode]] — 开源 AI 编程助手，支持事件驱动 Hook 系统和 SubAgent
 - [[ECC]] — ECC 增强框架，为 Claude Code 和 OpenCode 提供 47+ Agent
+- [[Chroma]] — 开源向量数据库，RAG 架构常用向量存储
+- [[LoRA]] — 参数高效微调方法（Low-Rank Adaptation）
+- [[Gemini]] — Google 大模型系列，1M+ Token 超长上下文
 ## Concepts
 - [[MVCC]] — 多版本并发控制机制
 - [[WAL]] — 预写日志机制
@@ -312,6 +316,9 @@
 - [[queuing]] — Agent 非阻塞任务排队机制
 - [[automations]] — Agent 定时自动化工作流程
 - [[goals]] — 带验证器的长跑型 Agent 任务
+- [[AgenticRAG]] — 智能体化 RAG，从被动检索到主动决策
+- [[GraphRAG]] — 图检索增强生成，结合知识图谱推理
+- [[ContextEngineering]] — 上下文工程，RAG 的认知升级
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

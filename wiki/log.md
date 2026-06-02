@@ -149,3 +149,7 @@
 ## [2026-06-02] ingest | 摄入 Claude Code 官方插件开源与 Codex 极致用法两篇文章
 - **变更**: 新增 [[摘要-claude-code-plugins-official]], [[摘要-把Codex用到极致]]; 新增概念 [[durable-threads]], [[steering]], [[queuing]], [[automations]], [[goals]]; 更新 [[ClaudeCode]], [[Codex]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-02] ingest | 摄入字节面试官 RAG 解析文章
+- **变更**: 新增 [[摘要-字节面试官什么是RAG为什么需要RAG]]; 新增概念 [[AgenticRAG]], [[GraphRAG]], [[ContextEngineering]]; 新增实体 [[Chroma]], [[LoRA]], [[Gemini]]; 更新 [[RAG]]; 更新 [[index.md]]
+- **冲突**: 无
