@@ -13,4 +13,5 @@ last_updated: 2026-05-20
 ## 关联连接
 - [[Java]] — Java 编程语言
 - [[generics]] — 泛型概念
-- [[Java-Collections]] — Java 集合框架
+- [[Java]] — Java 编程语言
+- [[generics]] — 泛型概念

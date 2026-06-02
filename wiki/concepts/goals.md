@@ -19,4 +19,4 @@ Goals（目标）是 AI Agent 中带验证器的长跑型任务，Agent 持续�
 - [[摘要-把Codex用到极致]] — 来源
 - [[Codex]] — 所属产品
 - [[durable-threads]] — 长线程承载 goals 的持续上下文
-- [[Automations]] — 定期执行的自动化任务
+- [[automations]] — 定期执行的自动化任务

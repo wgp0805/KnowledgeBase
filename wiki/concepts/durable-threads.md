@@ -20,4 +20,4 @@ last_updated: 2026-06-02
 - [[Codex]] — 所属产品
 - [[ContextManagement]] — 上下文管理策略
 - [[AutoMemory]] — 自动记忆
-- [[Automations]] — 长线程与自动化形成闭环
+- [[automations]] — 长线程与自动化形成闭环

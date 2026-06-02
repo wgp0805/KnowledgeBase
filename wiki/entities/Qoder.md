@@ -17,5 +17,5 @@ Qoder 是一款 AI 驱动的编码工具，提供 CLI 交互方式和 Quest Mode
 
 ## 关联连接
 - [[PaiAgent]] — AI Agent 项目
-- [[QoderCLI]] — Qoder 命令行工具
+- [[Qoder]] — Qoder 命令行工具与平台
 - [[GitHub]] — 代码托管

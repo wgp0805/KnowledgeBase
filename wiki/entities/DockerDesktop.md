@@ -20,5 +20,5 @@ Docker Desktop 是 Docker 官方提供的桌面端容器运行环境，支持 Wi
 ## 关联连接
 - [[Docker]] — 容器引擎
 - [[WSL2]] — Windows 上的 Linux 子系统
-- [[Kubernetes]] — 容器编排（可选集成）
-- [[docker安装及使用-windows环境]] — 安装指南来源
+- [[kubernetes-introduction]] — 容器编排（可选集成）
+- [[摘要-docker安装及使用-windows环境]] — 安装指南来源
