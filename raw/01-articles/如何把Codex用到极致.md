@@ -2,12 +2,9 @@
 title: "如何把Codex用到极致"
 source: "https://mp.weixin.qq.com/s/OEqluEOwXAoHoPofjQoeEw"
 ---
-*2026年6月2日 08:22*
 
-![图片](assets/%E5%A6%82%E4%BD%95%E6%8A%8ACodex%E7%94%A8%E5%88%B0%E6%9E%81%E8%87%B4/0ac9f4b95abe75479e3ce07e89c8eca2_MD5.webp)
+**导读：** 很多人第一次用 Codex，还是把它当成「更会写代码的 ChatGPT」：看仓库、改 diff、跑测试、提 PR。
 
-**导读：** 很多人第一次用 Codex，还是把它当成「更会写代码的 ChatGPT」：看仓库、改 diff、跑测试、提 PR。  
-  
 真正有意思的变化，是 Codex 的边界正在往外推：当浏览器、邮件、日程、MCP、桌面 GUI、自动化都接进来之后，Codex 就不再只是 coding agent，而是在变成一个「电脑工作系统」。
 
 ## 先别急着把 Codex 理解成 IDE 插件
@@ -19,8 +16,6 @@ source: "https://mp.weixin.qq.com/s/OEqluEOwXAoHoPofjQoeEw"
 因为电脑上的很多工作，本来就已经被代码、命令、网页、API 和文件系统包了一层。只要这些表面能被 Codex 操作，它就自然会从「写代码」扩展到「把电脑上的工作往前推」。
 
 ![Codex 从代码扩展到电脑工作表面](assets/%E5%A6%82%E4%BD%95%E6%8A%8ACodex%E7%94%A8%E5%88%B0%E6%9E%81%E8%87%B4/59f953936380b8604231a9ce8dc4eacc_MD5.webp)
-
-Codex 从代码扩展到电脑工作表面
 
 这就是这篇长文的核心判断：Codex 的重心仍然是代码，但它的工作边界已经不是代码。
 
@@ -34,9 +29,7 @@ Codex 从代码扩展到电脑工作表面
 
 这些线程的价值，不在于「记得你上次说过什么」这么浅。更重要的是，它能保留一整套工作习惯：哪些来源可信、哪些步骤要先跑、哪些人需要被提醒、哪些检查不能漏。
 
-![长线程和自动化形成工作闭环](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-长线程和自动化形成工作闭环
+![长线程和自动化形成工作闭环](assets/%E5%A6%82%E4%BD%95%E6%8A%8ACodex%E7%94%A8%E5%88%B0%E6%9E%81%E8%87%B4/b6e90860db27c77b65ca19ec347051fa_MD5.webp)
 
 这也是我觉得很多人会低估的一点：AI agent 的生产力，不只来自模型变聪明，也来自上下文不再每次清零。
 
@@ -54,9 +47,7 @@ Codex 从代码扩展到电脑工作表面
 
 Steering 是另一种控制：任务跑到一半时，用户可以打断它，立刻纠偏。Queuing 则是不打断当前任务，只把下一步排到队列里。比如「做完后把预览链接发给审核人」，这就是排队。
 
-![转向、排队和目标三种控制方式](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-转向、排队和目标三种控制方式
+![转向、排队和目标三种控制方式](assets/%E5%A6%82%E4%BD%95%E6%8A%8ACodex%E7%94%A8%E5%88%B0%E6%9E%81%E8%87%B4/ed9207f992e32f20553448f23b1c0340_MD5.webp)
 
 这套控制模型背后的重点是：人没有被踢出回路。
 
@@ -66,19 +57,17 @@ Steering 是另一种控制：任务跑到一半时，用户可以打断它，�
 
 长线程解决的是「上下文能不能留下来」。工具解决的是「它到底能碰到什么」。
 
-![Codex 的工具触达范围](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-Codex 的工具触达范围
+![Codex 的工具触达范围](assets/%E5%A6%82%E4%BD%95%E6%8A%8ACodex%E7%94%A8%E5%88%B0%E6%9E%81%E8%87%B4/f3ab1c724a01ce60a050cf277661e9da_MD5.webp)
 
 Codex 的触达范围大概可以分成几层：
 
-| 层级 | 适合做什么 |
-| --- | --- |
-| browser | 在侧边栏里查看网页、标注、调试页面 |
-| Chrome | 处理依赖登录态的真实网页流程 |
-| computer use | 操作只能通过桌面 GUI 完成的任务 |
-| MCP / connectors | 接入 Slack、Gmail、Calendar 等工作入口 |
-| Skills | 把重复工作流封装成可复用能力 |
+|层级|适合做什么|
+|---|---|
+|browser|在侧边栏里查看网页、标注、调试页面|
+|Chrome|处理依赖登录态的真实网页流程|
+|computer use|操作只能通过桌面 GUI 完成的任务|
+|MCP / connectors|接入 Slack、Gmail、Calendar 等工作入口|
+|Skills|把重复工作流封装成可复用能力|
 
 这个方向很关键。因为很多重要工作并不是从代码仓库开始的。
 
@@ -92,9 +81,7 @@ Codex 的触达范围大概可以分成几层：
 
 文章里还有两个概念值得单独拿出来：Automations 和 Goals。
 
-![Goals 需要明确验证器](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-Goals 需要明确验证器
+![Goals 需要明确验证器](assets/%E5%A6%82%E4%BD%95%E6%8A%8ACodex%E7%94%A8%E5%88%B0%E6%9E%81%E8%87%B4/63efe6abf77f44ef17a252296e1f540f_MD5.webp)
 
 Automations 是让 Codex 按计划启动工作。比如每天生成报告，定期检查 repo，或者让一个活跃线程每隔一段时间醒来，看看 Slack、Gmail、PR 评论有没有新东西需要处理。
 
@@ -118,9 +105,7 @@ Goals 则更像长跑任务：你给它一个明确终点和验证器，让它�
 
 Codex app 的 side panel 也在这套叙事里占了很大位置。
 
-![侧边栏和移动端让用户继续留在工作回路里](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-侧边栏和移动端让用户继续留在工作回路里
+![侧边栏和移动端让用户继续留在工作回路里](assets/%E5%A6%82%E4%BD%95%E6%8A%8ACodex%E7%94%A8%E5%88%B0%E6%9E%81%E8%87%B4/8abf31eb8b333e314759549930b904e6_MD5.webp)
 
 它解决的是另一个老问题：AI 产出一个东西之后，人到底在哪里审。
 
@@ -136,15 +121,16 @@ OpenAI 最近把 Codex 接进 ChatGPT 移动端，也是同一个逻辑：长任
 
 这篇长文最值得记住的，不是某一个功能，而是一个框架。
 
-![Codex 工作系统的三个支柱](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-Codex 工作系统的三个支柱
+![Codex 工作系统的三个支柱](assets/%E5%A6%82%E4%BD%95%E6%8A%8ACodex%E7%94%A8%E5%88%B0%E6%9E%81%E8%87%B4/e72623e3b21b82f9a463b7696100ad37_MD5.webp)
 
 Codex 正在从三个方向变重：
 
 1. 1上下文：长线程、共享记忆、项目文件，让工作不用每次重来。
+    
 2. 2工具：浏览器、Chrome、MCP、连接器、桌面 GUI，让它能碰到真实工作表面。
+    
 3. 3验证器：测试、检查矩阵、端到端流程，让长任务知道什么叫完成。
+    
 
 如果说早期 coding agent 的问题是「能不能写对代码」，下一阶段的问题会变成：「能不能在真实工作流里，带着上下文和验证器，把事情推到完成」。
 
@@ -153,31 +139,3 @@ Codex 正在从三个方向变重：
 它不是要把程序员变成甩手掌柜。相反，它把人的角色往上抬了一层：少做搬运、检索、重复执行，多做目标定义、判断和验收。
 
 总结一下：Codex 仍然从代码出发，但它的产品形态已经在往「工作系统」移动。长线程解决上下文，工具连接真实工作表面，Goals 和验证器让任务有终点。真正能用起来的 agent，不是全自动替你决定，而是在正确的节点让你介入。
-
-参考链接
-
-- Codex App Features： [https://developers.openai.com/codex/app/features/](https://developers.openai.com/codex/app/features/)
-- Codex Automations： [https://developers.openai.com/codex/app/automations](https://developers.openai.com/codex/app/automations)
-- Work with Codex from anywhere： [https://openai.com/index/work-with-codex-from-anywhere/](https://openai.com/index/work-with-codex-from-anywhere/)
-
-**程序汪历史私活项目案例分享**
-
-**[程序汪接私活项目目录，2026年总结](https://mp.weixin.qq.com/s?__biz=MzA4NzQ0Njc4Ng==&mid=2247520080&idx=1&sn=da5201e8b5503122cfb022ea27bcd7ef&scene=21#wechat_redirect)**
-
-[程序汪10万接的无线共享充电宝项目，开发周期3个月](http://mp.weixin.qq.com/s?__biz=MzA4NzQ0Njc4Ng==&mid=2247494546&idx=1&sn=59b54b391b4fbcc76ed1de323624fe8c&chksm=903befffa74c66e9de36e77ab3fa15a90199d1a61d2c505eaef9953f949706db0fcadfaede77&scene=21#wechat_redirect)
-
-[程序汪1万接的企业官网项目，开发周期15天](http://mp.weixin.qq.com/s?__biz=MzA4NzQ0Njc4Ng==&mid=2247497120&idx=1&sn=9cb9928998e75f156f170561ebe5b20d&chksm=903bf1cda74c78db5463c269dc0e4a68f8cc441c6e8268105d80d9a4c91102750184bb3be20c&scene=21#wechat_redirect)
-
-[程序汪8万接的共享口罩项目，开发周期1个月](http://mp.weixin.qq.com/s?__biz=MzA4NzQ0Njc4Ng==&mid=2247500551&idx=1&sn=0339baf133dd89a53c9dfba583a955ca&chksm=903bc76aa74c4e7cc2e7b35c51ed5c0d61cee6dbac742d0fd9207f5da76f5ce8afeb6fe7021f&scene=21#wechat_redirect)
-
-[程序汪8万块的饮水机物联网私活项目经验分享](http://mp.weixin.qq.com/s?__biz=Mzg2ODU0NTA2Mw==&mid=2247484350&idx=1&sn=7a558f297d9c04f87907d32cb71da797&chksm=ceabe4f6f9dc6de0cd1ec5d7c96b35c70c225f60b1edc8c006f5b6a5b75e4c4591c68114d1e0&scene=21#wechat_redirect)
-
-[程序汪接的4万智慧餐饮项目](http://mp.weixin.qq.com/s?__biz=MzA4NzQ0Njc4Ng==&mid=2247493733&idx=1&sn=532807e655d7e6d932a7414acd100aa3&chksm=903bec08a74c651ed06c9be0141de6f432250b60d45255f4ff61d8033058dc803dcdf5e09bcb&scene=21#wechat_redirect)
-
-[程序汪接的酒店在线开房项目，另外一个好听的名字叫智慧酒店](http://mp.weixin.qq.com/s?__biz=MzA4NzQ0Njc4Ng==&mid=2247493071&idx=1&sn=fe6f6059883cb3c10087f36430e19cdf&chksm=903be1a2a74c68b4b16d2520aa197b0d84f1043985e3e590e88e1d2f2968272fbbf0cc5091ad&scene=21#wechat_redirect)
-
-继续滑动看下一个
-
-我是程序汪
-
-向上滑动看下一个
