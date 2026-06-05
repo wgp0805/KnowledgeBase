@@ -2,8 +2,8 @@
 title: "AICoding"
 type: concept
 tags: [AI, 编程, 范式转变]
-sources: [raw/01-articles/6条Claude Code实践中的经验与思考.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md]
+last_updated: 2026-06-05
 ---
 
 ## 定义
@@ -26,6 +26,16 @@ AI 辅助编程范式，工程师角色从代码执行者转变为任务管理�
 ### 口号变迁
 - 旧：`Talk is cheap. Show me the code.`
 - 新：`Code is cheap. Show me the talk(prompt).`
+
+### 高效工作流：别把 AI 当许愿池
+[[摘要-再见吧-codex]] 提出了一套适用于所有 AI Coding 工具的 7 步工作流：
+1. **阅读理解** — 先让 AI 阅读项目结构、架构、启动/测试/部署方式
+2. **写计划** — 复杂任务先输出实现计划（理解什么、影响哪些模块、分几步、怎么验证、风险点）
+3. **确认范围** — 确认影响文件和范围后再开始实现
+4. **小步实现** — 只改当前步骤需要的文件，不顺手改无关代码
+5. **验证** — 执行测试，认真看 diff，不只跑 happy path
+6. **总结** — 回答 5 个问题：改了哪些文件？为什么改？做了什么验证？哪些没覆盖？需要人工确认什么？
+7. **新会话** — 将总结带入新对话避免旧假设污染
 
 ### 注意事项
 - 老旧项目和资金安全相关项目需更慎重

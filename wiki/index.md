@@ -116,6 +116,7 @@
 - [[摘要-claude-code-plugins-official]] — Anthropic 官方 Claude Code 插件应用商店开源详解
 - [[摘要-把Codex用到极致]] — Codex 从编程 Agent 进化为电脑工作系统的三大支柱
 - [[摘要-java-stack-skills-guide]] — Java 全栈开发 Skills 生态综述（Redis/前端/多 Agent 协作）
+- [[摘要-再见吧-codex]] — Codex 高效使用七步工作流与方法论
 ## Entities
 - [[PostgreSQL]] — 开源关系型数据库，国产数据库技术底座
 - [[TDSQL]] — 腾讯云基于 PostgreSQL 的分布式数据库

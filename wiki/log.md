@@ -162,6 +162,10 @@
 - **变更**: 新增 [[摘要-java-stack-skills-guide]]; 新增实体 [[PatternsDev]], [[VercelLabs]]; 新增概念 [[multi-agent-collaboration]]; 更新 [[Skill]], [[ai-agent-skill]], [[index.md]]
 - **冲突**: 无
 
+## [2026-06-05] ingest | 摄入 Codex 高效工作流方法论文章
+- **变更**: 新增 [[摘要-再见吧-codex]]; 更新 [[Codex]], [[AICoding]]; 更新 [[index.md]]
+- **冲突**: 无
+
 ## [2026-06-02] lint | 知识库健康巡检与批量修复
 - **变更**:
   - 修复 9 个死链：大小写修正（[[Goals]]→[[goals]], [[Automations]]→[[automations]]）、前缀修正（[[docker安装及使用-windows环境]]→[[摘要-docker安装及使用-windows环境]]）、重定向（[[Kubernetes]]→[[kubernetes-introduction]]）、移除无效链接（[[QoderCLI]]、[[Java-Collections]]、[[Grep]] 改为有效引用）、创建缺失页面（[[Servlet]], [[RestClient]]）
