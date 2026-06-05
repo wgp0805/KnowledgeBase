@@ -2,8 +2,8 @@
 title: "AI Agent Skill"
 type: concept
 tags: [AI, Agent, 技能封装, Claude Code]
-sources: [raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md]
-last_updated: 2026-05-22
+sources: [raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/Java开发栈Skills全面指南.md]
+last_updated: 2026-06-05
 ---
 
 ## 定义
@@ -35,6 +35,22 @@ AI Agent Skill 是一种可扩展的技能包机制，允许为 AI Agent（如 C
 - 自动化测试生成
 - 代码重构优化
 
+### 多 Agent 协作开发模式
+复杂全栈项目可拆分多个专业化 Agent 角色，每个配备专属 Skill：
+
+| Agent 角色 | 职责 | 推荐 Skill |
+| :---: | :--- | :--- |
+| 数据库架构师 | 数据库设计、迁移规划 | database-designer + migration-architect |
+| 后端开发者 | Spring Boot + MyBatis + Redis | spring-boot-engineer + 自定义 Skill |
+| 前端开发者 | Vue/React + UI 组件库 | Patterns.dev Skills + web-design-guidelines |
+| 安全工程师 | 安全漏洞扫描 | security-hardening |
+| DevOps 工程师 | CI/CD、部署 | ci-cd-pipeline-builder |
+
+### 自定义 Skill 开发
+可以为项目编写自定义 Skill，例如：
+- **MyBatis-Plus Skill**：封装 Mapper 规范、Service 层、分页配置、LambdaQueryWrapper
+- **Redis 项目 Skill**：封装 Key 命名规范、Spring Data Redis + Lettuce 配置、Redisson 分布式锁
+
 ## 关联连接
 - [[ClaudeCode]] — 支持 Skill 的 AI 工具
 - [[Agent]] — 核心概念
@@ -43,4 +59,7 @@ AI Agent Skill 是一种可扩展的技能包机制，允许为 AI Agent（如 C
 - [[agent-skill-java-spring-framework]] — 实例
 - [[sivalabs-agent-skills]] — 实例
 - [[spring-testing-skills]] — 实例
+- [[multi-agent-collaboration]] — 多 Agent 协作模式
+- [[Skill]] — 技能扩展机制
+- [[Summary-java-stack-skills-guide]] — 来源
 - [[摘要-claude-code-springboot-skills]] — 来源

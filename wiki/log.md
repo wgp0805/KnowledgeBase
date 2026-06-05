@@ -158,6 +158,10 @@
 - **变更**: 为 64 个 wiki/sources/ 页面的 `## 关联连接` 区域补充了指向已存在 entity/concept 的双链，每个页面至少 2-3 个关联连接；移除了引用不存在页面的死链
 - **冲突**: 无
 
+## [2026-06-05] ingest | 摄入 Java 开发栈 Skills 全面指南
+- **变更**: 新增 [[摘要-java-stack-skills-guide]]; 新增实体 [[PatternsDev]], [[VercelLabs]]; 新增概念 [[multi-agent-collaboration]]; 更新 [[Skill]], [[ai-agent-skill]], [[index.md]]
+- **冲突**: 无
+
 ## [2026-06-02] lint | 知识库健康巡检与批量修复
 - **变更**:
   - 修复 9 个死链：大小写修正（[[Goals]]→[[goals]], [[Automations]]→[[automations]]）、前缀修正（[[docker安装及使用-windows环境]]→[[摘要-docker安装及使用-windows环境]]）、重定向（[[Kubernetes]]→[[kubernetes-introduction]]）、移除无效链接（[[QoderCLI]]、[[Java-Collections]]、[[Grep]] 改为有效引用）、创建缺失页面（[[Servlet]], [[RestClient]]）

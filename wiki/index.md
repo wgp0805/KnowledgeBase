@@ -115,6 +115,7 @@
 - [[摘要-ECC使用教程]] — ECC v1.10.0+ 全方位教程：47+ Agent/Skill/Hook/Continuous Learning
 - [[摘要-claude-code-plugins-official]] — Anthropic 官方 Claude Code 插件应用商店开源详解
 - [[摘要-把Codex用到极致]] — Codex 从编程 Agent 进化为电脑工作系统的三大支柱
+- [[摘要-java-stack-skills-guide]] — Java 全栈开发 Skills 生态综述（Redis/前端/多 Agent 协作）
 ## Entities
 - [[PostgreSQL]] — 开源关系型数据库，国产数据库技术底座
 - [[TDSQL]] — 腾讯云基于 PostgreSQL 的分布式数据库
@@ -240,6 +241,8 @@
 - [[LoRA]] — 参数高效微调方法（Low-Rank Adaptation）
 - [[Gemini]] — Google 大模型系列，1M+ Token 超长上下文
 - [[Servlet]] — Java EE/Jakarta EE 服务器端组件规范
+- [[PatternsDev]] — 58 个前端设计模式 Skills 维护团队
+- [[VercelLabs]] — Vercel 前端 Skills 发布者
 - [[RestClient]] — Spring 6.1+ 现代HTTP客户端
 ## Concepts
 - [[MVCC]] — 多版本并发控制机制
@@ -321,6 +324,7 @@
 - [[AgenticRAG]] — 智能体化 RAG，从被动检索到主动决策
 - [[GraphRAG]] — 图检索增强生成，结合知识图谱推理
 - [[ContextEngineering]] — 上下文工程，RAG 的认知升级
+- [[multi-agent-collaboration]] — 多 Agent 协作全栈开发模式
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

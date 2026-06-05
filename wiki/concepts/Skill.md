@@ -2,8 +2,8 @@
 title: "Skill"
 type: concept
 tags: [AI, Agent, 技能扩展]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md]
+last_updated: 2026-06-05
 ---
 
 ## 定义
@@ -44,6 +44,26 @@ Agent 的技能包，是人为沉淀的可复用方法、流程和工具组合�
 2. 先跑通流程再沉淀成 Skill（推荐）
 3. 用 skill creator 工具辅助创建
 
+### Skill 生态与资源
+
+#### 基础设施/中间件 Skills
+- **Redis 官方 Agent Skill**：Redis 官方团队编写，确保 Agent 用"正确的方式"写 Redis 代码，涵盖数据结构选型、集群模式、连接池配置等
+- **Antigravity Awesome Skills**（GitHub 38.9k Stars, 1,480+ Skills）：包含 database-designer、migration-architect、postgres-best-practices、mysql-best-practices、kafka-expert、message-queue-patterns、redis 等，安装方式 `npx antigravity-awesome-skills --claude`
+
+#### 前端开发 Skills
+- **[[PatternsDev]]**：58 个前端设计模式 Skills（React 18 个、Vue 3 个、JavaScript 29 个），安装方式 `npx skills add PatternsDev/skills --skill <skill-name>`
+- **[[VercelLabs]]**：高安装量前端 Skills，react-best-practices（148,900+ 安装）、web-design-guidelines（112,700+ 安装）、composition-patterns（48,400+ 安装）等
+- **TailwindCSS/shadcn-ui** 相关：Anthropic 官方 `frontend-design` Skill 包含 Tailwind 设计系统指示，Google Labs 发布 `shadcn-ui` Skill
+
+#### 全栈综合 Skills 仓库
+- **Jeffallan/claude-skills**：66 个全栈 Skills，涵盖 React、Vue、TypeScript、Node.js、Python、数据库、DevOps、AI/ML
+- **alirezarezvani/claude-skills**：129 个 Skills（51 Core + 78 POWERFUL），支持 Cursor、Aider、Kilo Code、OpenCode 等平台
+
+#### 自定义 Skill 开发
+可以为项目编写专属 Skill，示例：
+- **MyBatis-Plus Skill**：封装 Mapper 继承、Service 层、@TableName/@TableLogic、LambdaQueryWrapper、分页配置等规范
+- **Redis 项目 Skill**：封装 Key 命名规范（{module}:{business}:{id}）、Spring Data Redis + Lettuce、Redisson 分布式锁、缓存穿透/雪崩防护等
+
 ## 关联连接
 - [[Agent]] — Skill 所属概念
 - [[ClaudeCode]] — Skill 发明者
@@ -54,3 +74,7 @@ Agent 的技能包，是人为沉淀的可复用方法、流程和工具组合�
 - [[AICoding]] — AI 编程实践
 - [[摘要-anthropic-engineer-skills]] — 9 类分类法来源
 - [[spring-skill-usage-guide]] — Spring Skill 使用时机与组合策略
+- [[摘要-java-stack-skills-guide]] — 来源
+- [[PatternsDev]] — 前端 Skills 合集
+- [[VercelLabs]] — 前端 Skills 发布者
+- [[multi-agent-collaboration]] — 多 Agent 协作模式
