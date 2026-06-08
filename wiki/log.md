@@ -174,3 +174,7 @@
   - 为 64 个孤儿来源页补充双向关联连接
   - 更新 [[index.md]] 注册新页面
 - **冲突**: 无
+
+## [2026-06-08] query | 创建 Hermes Agent 完整教程
+- **变更**: 新增 [[HermesAgent]], [[NousResearch]], [[hermes-agent-tutorial]]; 更新 [[index.md]]; 从 raw/09-archive 提取资料
+- **冲突**: 无

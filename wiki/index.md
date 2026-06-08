@@ -118,6 +118,8 @@
 - [[摘要-java-stack-skills-guide]] — Java 全栈开发 Skills 生态综述（Redis/前端/多 Agent 协作）
 - [[摘要-再见吧-codex]] — Codex 高效使用七步工作流与方法论
 ## Entities
+- [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
+- [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
 - [[PostgreSQL]] — 开源关系型数据库，国产数据库技术底座
 - [[TDSQL]] — 腾讯云基于 PostgreSQL 的分布式数据库
 - [[PolarDB]] — 阿里云基于 PostgreSQL 的云原生数据库
@@ -336,3 +338,4 @@
 - [[kubernetes-introduction]] — Kubernetes 入门介绍与 Docker 对比
 - [[kubernetes-detailed-guide]] — Kubernetes 详细教程与生产实践注意事项
 - [[n8n-complete-guide]] — n8n 工作流自动化平台完整指南
+- [[hermes-agent-tutorial]] — Hermes Agent 完整安装配置与使用教程
