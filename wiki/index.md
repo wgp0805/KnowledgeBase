@@ -121,6 +121,7 @@
 - [[摘要-java-stack-skills-guide]] — Java 全栈开发 Skills 生态综述（Redis/前端/多 Agent 协作）
 - [[摘要-再见吧-codex]] — Codex 高效使用七步工作流与方法论
 - [[摘要-AI-agent工具应该怎么使用]] — Codex 9 条实战使用技巧与 AI Agent 工具最佳实践
+- [[摘要-java-ai框架选型指南-2026]] — 2026年Java AI框架选型指南，六大框架全面对比
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -246,6 +247,11 @@
 - [[OpenCode]] — 开源 AI 编程助手，支持事件驱动 Hook 系统和 SubAgent
 - [[ECC]] — ECC 增强框架，为 Claude Code 和 OpenCode 提供 47+ Agent
 - [[MinIO]] — S3 兼容的高性能开源对象存储系统
+- [[SpringAI_Alibaba]] — 阿里多智能体编排框架，独立项目
+- [[SolonAI]] — 全场景轻量级 Java AI 框架，纯 JDK 运行
+- [[JBoltAI]] — 面向企业的 Java AI 应用开发框架
+- [[AgentScope_Java]] — 阿里通义实验室生产级智能体运行平台
+- [[DashScope]] — 阿里云通义大模型 API 平台
 - [[Chroma]] — 开源向量数据库，RAG 架构常用向量存储
 - [[LoRA]] — 参数高效微调方法（Low-Rank Adaptation）
 - [[Gemini]] — Google 大模型系列，1M+ Token 超长上下文
@@ -335,6 +341,9 @@
 - [[GraphRAG]] — 图检索增强生成，结合知识图谱推理
 - [[ContextEngineering]] — 上下文工程，RAG 的认知升级
 - [[multi-agent-collaboration]] — 多 Agent 协作全栈开发模式
+- [[ReAct_Agent]] — 推理+行动循环的 Agent 模式
+- [[A2A]] — Agent-to-Agent 协议，分布式 Agent 通信
+- [[Skill_Registry]] — 技能注册中心，管理 Agent Skill 生命周期
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

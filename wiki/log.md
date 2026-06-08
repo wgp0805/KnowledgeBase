@@ -191,6 +191,10 @@
 - **变更**: 新增 [[摘要-AI-agent工具应该怎么使用]], [[PaiCLI]]; 更新 [[Codex]], [[AICoding]], [[CLAUDEmd]], [[index.md]]
 - **冲突**: 无
 
+## [2026-06-08] ingest | 摄入 Java AI 框架选型指南
+- **变更**: 新增 [[摘要-java-ai框架选型指南-2026]]; 新增实体 [[SpringAI_Alibaba]], [[SolonAI]], [[JBoltAI]], [[AgentScope_Java]], [[DashScope]]; 新增概念 [[ReAct_Agent]], [[A2A]], [[Skill_Registry]]; 更新 [[SpringAI]], [[LangChain4j]], [[MCP]], [[AgentHarness]], [[ai-agent-skill]], [[Skill]]; 更新 [[index.md]]
+- **冲突**: 标注冲突 [[SpringAI#知识冲突]]（Spring AI Alibaba 定位新旧说法差异，用户选择用新说法覆盖，已移除冲突标注）
+
 ## [2026-06-08] query | Spring Security + JWT + Redis 最佳实践
 - **变更**: 新增 [[spring-security-jwt-redis-best-practice]]; 更新 [[index.md]]
 - **输出**: 引用 [[SpringSecurity]], [[JWT]], [[jwt-stateless]], [[token-blacklist]], [[dual-token-mechanism]], [[摘要-springboot4-security7-vue3-best-practice]], [[摘要-token-redis-interview]], [[SpringBoot]], [[Redis]], [[frontend-backend-separation]]

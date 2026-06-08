@@ -2,8 +2,8 @@
 title: "Skill"
 type: concept
 tags: [AI, Agent, 技能扩展]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md]
-last_updated: 2026-06-05
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md]
+last_updated: 2026-06-08
 ---
 
 ## 定义
@@ -64,6 +64,15 @@ Agent 的技能包，是人为沉淀的可复用方法、流程和工具组合�
 - **MyBatis-Plus Skill**：封装 Mapper 继承、Service 层、@TableName/@TableLogic、LambdaQueryWrapper、分页配置等规范
 - **Redis 项目 Skill**：封装 Key 命名规范（{module}:{business}:{id}）、Spring Data Redis + Lettuce、Redisson 分布式锁、缓存穿透/雪崩防护等
 
+### Java AI 框架中的 Skill 实现
+多个 Java AI 框架原生支持 Skill 机制，均遵循 Agent Skills 规范：
+- **LangChain4j**：FileSystemSkillLoader 加载 Skill 目录，Tool Mode / Shell Mode 双模式
+- **Spring AI Alibaba**：SkillRegistry + SkillsAgentHook，渐进式披露
+- **AgentScope-Java**：SkillRepository 多后端（Git/Nacos/MySQL/文件），自学习闭环
+- **Solon AI**：最完善，20个预置技能 + CliSkill（兼容Claude Skills生态）/RestApiSkill/ToolGatewaySkill/Text2SqlSkill
+
+Tool 与 Skill 的区别：Tool 是功能型（执行原子操作），Skill 是知识型（包含指令/SOP/上下文）。Skill 可以包含多个 Tool 调用和决策逻辑。
+
 ## 关联连接
 - [[Agent]] — Skill 所属概念
 - [[ClaudeCode]] — Skill 发明者
@@ -78,3 +87,6 @@ Agent 的技能包，是人为沉淀的可复用方法、流程和工具组合�
 - [[PatternsDev]] — 前端 Skills 合集
 - [[VercelLabs]] — 前端 Skills 发布者
 - [[multi-agent-collaboration]] — 多 Agent 协作模式
+- [[Skill_Registry]] — 技能注册中心
+- [[SolonAI]] — Skill 系统最完善的框架
+- [[摘要-java-ai框架选型指南-2026]] — 来源

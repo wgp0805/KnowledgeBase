@@ -2,8 +2,8 @@
 title: "MCP"
 type: concept
 tags: [AI, 协议, 外部服务]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md]
+last_updated: 2026-06-08
 ---
 
 ## 定义
@@ -19,9 +19,16 @@ Model Context Protocol，解决 AI 与外部工具、外部服务连接的转接
 - Claude Code 率先发明 MCP，Codex 后续跟进支持
 - DeepSeek TUI 也支持通过 MCP 服务器扩展智能体能力
 
+### A2A 与 MCP 的关系
+- A2A（Agent-to-Agent）与 MCP 互补：MCP 解决 Agent 与外部工具/服务的连接，A2A 解决 Agent 与 Agent 之间的协作
+- Spring AI Alibaba 和 AgentScope-Java 同时支持 MCP 和 A2A 协议
+
 ## 关联连接
 - [[Agent]] — MCP 所属概念
 - [[ClaudeCode]] — MCP 发明者
 - [[DeepSeekTUI]] — MCP 支持者
 - [[Skill]] — 替代/互补方案
 - [[LangChain4j]] — MCP Java 实现
+- [[A2A]] — 互补协议
+- [[SpringAI_Alibaba]] — 双协议支持
+- [[AgentScope_Java]] — 双协议支持

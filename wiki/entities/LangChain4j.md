@@ -2,8 +2,8 @@
 title: "LangChain4j"
 type: entity
 tags: [AI框架, Java, LLM]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md]
+last_updated: 2026-06-08
 ---
 
 ## 定义
@@ -75,7 +75,27 @@ LangChain4j 支持通过 MCP 协议接入外部服务：
 - @MemoryId 参数支持多用户会话隔离
 - 使用 langchain4j-reactor 依赖实现
 
-### 工程化建议
+#### Skill 支持（原生，双模式）
+LangChain4j 通过 `langchain4j-agentic` 模块提供原生 Skill 支持，遵循 Agent Skills 规范。
+
+**两种使用模式：**
+- **Tool Mode（推荐）**：Skill 目录通过 `FileSystemSkillLoader` 加载为 Tool，直接注入 AI Service
+- **Shell Mode（实验性）**：通过 `ShellSkills` 将 Skill 的执行交给 Shell 命令，适合快速原型和第三方技能生态（如 agentskills.io）
+
+**渐进式披露**：先注入元信息（name + description），模型按需按路径加载完整 SKILL.md 内容。
+
+### Agent 支持（完整）
+`langchain4j-agentic` 模块提供两种模式：
+- **Workflow 模式**：预定义编排流程（顺序、并行、条件路由、循环）
+- **Pure Agent 模式**：模型自主决策，动态选择工具
+
+MCP 集成：`langchain4j-agentic-mcp` 模块支持 MCP 工具作为 Agent 节点。
+
+### 最新版本信息
+- 最新版本: 1.15.1 (2026-05) | GitHub Stars: 12,196
+- 社区 Stars 居 Java AI 框架之首
+
+## 工程化建议
 - Prompt 与代码分离
 - 对 LLM 调用做幂等与重试
 - 可观测性（Micrometer + OpenTelemetry）
@@ -91,4 +111,7 @@ LangChain4j 支持通过 MCP 协议接入外部服务：
 - [[ChatMemory]] — 对话记忆
 - [[AIService]] — 声明式 AI 接口
 - [[MCP]] — 模型上下文协议
+- [[Skill]] — 技能扩展机制
+- [[Skill_Registry]] — 技能注册中心
 - [[摘要-java-ai-langchain4j]] — 来源
+- [[摘要-java-ai框架选型指南-2026]] — 来源

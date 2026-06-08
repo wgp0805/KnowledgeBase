@@ -2,8 +2,8 @@
 title: "AI Agent Skill"
 type: concept
 tags: [AI, Agent, 技能封装, Claude Code]
-sources: [raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/Java开发栈Skills全面指南.md]
-last_updated: 2026-06-05
+sources: [raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md]
+last_updated: 2026-06-08
 ---
 
 ## 定义
@@ -63,3 +63,13 @@ AI Agent Skill 是一种可扩展的技能包机制，允许为 AI Agent（如 C
 - [[Skill]] — 技能扩展机制
 - [[Summary-java-stack-skills-guide]] — 来源
 - [[摘要-claude-code-springboot-skills]] — 来源
+- [[摘要-java-ai框架选型指南-2026]] — 来源
+
+### Java AI 框架对比简表
+| 框架 | 原生 Skill | SKILL.md | Skill 后端 | 特色 |
+|:---:|:---:|:---:|:---:|:---|
+| Solon AI | ✅ | ✅ | 本地/Remote | 20个预置技能、CliSkill/RestApiSkill/ToolGatewaySkill/Text2SqlSkill |
+| LangChain4j | ✅ | ✅ | 文件系统 | Tool Mode / Shell Mode 双模式 |
+| Spring AI Alibaba | ✅ | ✅ | 文件系统 | SkillRegistry + SkillsAgentHook |
+| AgentScope-Java | ✅ | ✅ | Git/Nacos/MySQL/文件 | 自学习闭环、多后端切换 |
+| Spring AI | ❌ | — | 仅 Tool Callback | — |
