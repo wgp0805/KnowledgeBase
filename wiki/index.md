@@ -339,3 +339,4 @@
 - [[kubernetes-detailed-guide]] — Kubernetes 详细教程与生产实践注意事项
 - [[n8n-complete-guide]] — n8n 工作流自动化平台完整指南
 - [[hermes-agent-tutorial]] — Hermes Agent 完整安装配置与使用教程
+- [[spring-security-jwt-redis-best-practice]] — Spring Security + JWT + Redis 完整最佳实践
