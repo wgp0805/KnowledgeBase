@@ -183,6 +183,10 @@
 - **变更**: 更新 [[hermes-agent-tutorial]] — 新增"Windows 安全部署方案"章节（WSL2+Docker 分层隔离架构、/mnt/c 控制、浏览器操作安全）
 - **输出**: 即时回答未保存
 
+## [2026-06-08] ingest | 摄入 AI Agent 工具使用技巧文章
+- **变更**: 新增 [[摘要-AI-agent工具应该怎么使用]], [[PaiCLI]]; 更新 [[Codex]], [[AICoding]], [[CLAUDEmd]], [[index.md]]
+- **冲突**: 无
+
 ## [2026-06-08] query | Spring Security + JWT + Redis 最佳实践
 - **变更**: 新增 [[spring-security-jwt-redis-best-practice]]; 更新 [[index.md]]
 - **输出**: 引用 [[SpringSecurity]], [[JWT]], [[jwt-stateless]], [[token-blacklist]], [[dual-token-mechanism]], [[摘要-springboot4-security7-vue3-best-practice]], [[摘要-token-redis-interview]], [[SpringBoot]], [[Redis]], [[frontend-backend-separation]]

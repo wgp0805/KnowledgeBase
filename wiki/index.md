@@ -117,6 +117,7 @@
 - [[摘要-把Codex用到极致]] — Codex 从编程 Agent 进化为电脑工作系统的三大支柱
 - [[摘要-java-stack-skills-guide]] — Java 全栈开发 Skills 生态综述（Redis/前端/多 Agent 协作）
 - [[摘要-再见吧-codex]] — Codex 高效使用七步工作流与方法论
+- [[摘要-AI-agent工具应该怎么使用]] — Codex 9 条实战使用技巧与 AI Agent 工具最佳实践
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -238,6 +239,7 @@
 - [[JHipster]] — 全栈应用生成器
 - [[SpringTesting]] — Spring 测试支持模块
 
+- [[PaiCLI]] — 基于 Codex 开发的 CLI 命令行项目，AI 编程实战案例
 - [[OpenCode]] — 开源 AI 编程助手，支持事件驱动 Hook 系统和 SubAgent
 - [[ECC]] — ECC 增强框架，为 Claude Code 和 OpenCode 提供 47+ Agent
 - [[Chroma]] — 开源向量数据库，RAG 架构常用向量存储
