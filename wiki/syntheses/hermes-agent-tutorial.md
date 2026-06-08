@@ -320,7 +320,122 @@ terminal.backend: local      # 本地直接执行
 - **Daytona / Modal**：Serverless 按需启动，闲时几乎零成本
 - **Singularity**：HPC 环境
 
-## 十二、常见问题
+## 十二、Windows 安全部署方案
+
+在 Windows 上运行 Hermes 的正确分层隔离架构如下：
+
+```
+Windows 本机
+  └─ WSL2（Hyper-V VM 隔离）
+       ├─ Local 后端 → Hermes 在 WSL2 内直接运行
+       │    ├─ 文件系统限制在 WSL2 ext4 分区
+       │    └─ 可通过 /mnt/c 读写 Windows 文件（需注意）
+       └─ Docker 后端（namespace 隔离）
+            ├─ Playwright/Chromium 浏览器正常运作
+            ├─ 无法访问 Windows 本机（除非显式挂载）
+            └─ rm -rf / 只炸容器，不影响 WSL2 和 Windows
+```
+
+### 推荐方案：WSL2 + Docker 后端
+
+1. **安装 WSL2**（如已安装可跳过）：
+   ```powershell
+   # PowerShell（管理员）
+   wsl --install -d Ubuntu
+   ```
+
+2. **在 WSL2 中安装 Hermes**：
+   ```bash
+   curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+   ```
+
+3. **配置 Docker 后端**：
+   ```yaml
+   # ~/.hermes/config.yaml
+   terminal:
+     backend: docker
+     docker_image: "nikolaik/python-nodejs:python3.11-nodejs20"
+     docker_mount_cwd_to_workspace: false  # 不挂载宿主机目录
+     container_persistent: true
+   ```
+
+Playwright/Chromium 在 Docker 容器内完全可用。Hermes 安装脚本会在容器镜像中预装浏览器依赖。唯一注意事项是共享内存大小：
+
+```yaml
+# ~/.hermes/config.yaml
+terminal:
+  backend: docker
+  docker_extra_args:
+    - "--shm-size=2g"  # 加大共享内存，防止 Chromium 崩溃
+```
+
+### 安全层级对比
+
+| 部署方式 | 可损坏 Windows | 可损坏 WSL2 | 浏览器可用 | 推荐场景 |
+|---------|:------------:|:----------:|:---------:|---------|
+| 原生 Windows (local) | ✅ 可能 | N/A | ✅ | 快速试用（不推荐生产） |
+| WSL2 (local) | ❌ VM 隔离 | ✅ 可能 | ✅ | 日常使用 |
+| WSL2 + Docker | ❌ VM 隔离 | ❌ 容器隔离 | ✅ | **生产推荐** |
+| WSL2 + Docker + 无 `/mnt` | ❌ 完全隔离 | ❌ 完全隔离 | ✅ | 最高安全 |
+
+### /mnt/c 文件访问控制
+
+WSL2 默认自动挂载 Windows 的 `C:\` 到 `/mnt/c`。如果担心 Hermes 通过 `/mnt/c` 触及 Windows 文件：
+
+```bash
+# 创建 /etc/wsl.conf 防止自动挂载
+sudo tee /etc/wsl.conf << EOF
+[automount]
+enabled = false
+EOF
+
+# 重启 WSL2
+wsl --shutdown
+```
+
+配合 Docker 后端后，容器内部默认不挂载 `/mnt/c`，即使 WSL2 有访问权限，容器内的 Agent 也接触不到。
+
+### 浏览器操作的容器内安全
+
+```yaml
+# config.yaml
+terminal:
+  backend: docker
+  docker_image: "nikolaik/python-nodejs:python3.11-nodejs20"
+  # 浏览器在容器内运行 — 进程隔离 + 容器 namespace 隔离
+  # 即使浏览器被利用，攻击面仅限于容器内
+  docker_forward_env: []  # 不传环境变量到容器
+  container_cpu: 1
+  container_memory: 5120
+```
+
+浏览器操作流程：
+
+```
+用户请求"打开网页" → Docker 容器 → Playwright 启动 Chromium → 网页渲染在容器内
+                                                                    ↓
+                                                              结果(截图/HTML)返回
+                                                                    ↓
+                                                              容器销毁/重置 → 痕迹全清
+```
+
+### 总结
+
+```bash
+# Windows 安全部署三步走
+# 1. 装 WSL2（VM 隔离）
+wsl --install -d Ubuntu
+
+# 2. 在 WSL2 里装 Hermes
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+
+# 3. 切 Docker 后端（容器隔离）
+hermes config set terminal.backend docker
+```
+
+每一层隔离都独立运作，浏览器在 Docker 内容器正常工作，Windows 本机不受任何影响。
+
+## 十三、常见问题
 
 ### "Model context too small" 错误
 
@@ -356,7 +471,7 @@ hermes config set OPENROUTER_API_KEY sk-or-xxx
 | MiniMax 国内 | 直连 | 推荐 |
 | Anthropic/OpenAI | 需代理 | 有代理可用 |
 
-## 十三、快速参考卡片
+## 十四、快速参考卡片
 
 ### 安装后第一件事
 
@@ -390,7 +505,7 @@ hermes update           # 升级版本
 - 会话存储：`~/.hermes/state/`（SQLite + FTS5）
 - 持久记忆：`~/.hermes/MEMORY.md`、`~/.hermes/USER.md`
 
-## 十四、总结
+## 十五、总结
 
 Hermes Agent 是 2026 年最值得关注的开源 AI Agent 之一。安装只需 60 秒，学习曲线平缓——从 CLI 对话开始，逐步添加消息网关、MCP 服务器和 cron 任务。其自我进化的技能系统意味着你的 Agent 会随着时间积累价值，而不是每个会话都从零开始。
 

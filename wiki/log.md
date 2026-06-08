@@ -178,3 +178,7 @@
 ## [2026-06-08] query | 创建 Hermes Agent 完整教程
 - **变更**: 新增 [[HermesAgent]], [[NousResearch]], [[hermes-agent-tutorial]]; 更新 [[index.md]]; 从 raw/09-archive 提取资料
 - **冲突**: 无
+
+## [2026-06-08] query | 补充 Windows 安全部署章节
+- **变更**: 更新 [[hermes-agent-tutorial]] — 新增"Windows 安全部署方案"章节（WSL2+Docker 分层隔离架构、/mnt/c 控制、浏览器操作安全）
+- **输出**: 即时回答未保存
