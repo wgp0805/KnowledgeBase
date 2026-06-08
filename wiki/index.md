@@ -1,6 +1,9 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-minio-intro]] — MinIO 对象存储介绍与 Docker 部署
+- [[摘要-elasticsearch-8.10-install]] — ES 8.10 安装与安全配置详解
+- [[摘要-elasticsearch-comprehensive-guide]] — ES 全景指南：从入门到原理深度解析
 - [[摘要-PostgreSQL-vs-MySQL]] — PostgreSQL vs MySQL 技术对比与国产数据库选型分析
 - [[摘要-vibe-engineering-era]] — AI 时代程序员焦虑与 Vibe Coding/Engineering 分水岭
 - [[摘要-mysql-course]] — MySQL 完整教程（37 章，环境搭建到备份恢复）
@@ -242,6 +245,7 @@
 - [[PaiCLI]] — 基于 Codex 开发的 CLI 命令行项目，AI 编程实战案例
 - [[OpenCode]] — 开源 AI 编程助手，支持事件驱动 Hook 系统和 SubAgent
 - [[ECC]] — ECC 增强框架，为 Claude Code 和 OpenCode 提供 47+ Agent
+- [[MinIO]] — S3 兼容的高性能开源对象存储系统
 - [[Chroma]] — 开源向量数据库，RAG 架构常用向量存储
 - [[LoRA]] — 参数高效微调方法（Low-Rank Adaptation）
 - [[Gemini]] — Google 大模型系列，1M+ Token 超长上下文
@@ -279,6 +283,7 @@
 - [[AICoding]] — AI 辅助编程范式
 - [[AIService]] — LangChain4j AI 服务接口抽象
 - [[analyzer]] — ES 文本分析器机制
+- [[BM25]] — 相关性评分算法
 - [[async-await]] — JavaScript 异步编程语法
 - [[AutoMemory]] — AI Agent 自动记忆管理
 - [[ChatMemory]] — LLM 聊天对话记忆管理

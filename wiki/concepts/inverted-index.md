@@ -44,3 +44,4 @@ last_updated: 2026-05-19
 - [[Lucene]] — 底层倒排索引实现
 - [[full-text-search]] — 全文搜索引擎概念
 - [[摘要-elasticsearch-quick-start]] — 来源
+- [[摘要-elasticsearch-comprehensive-guide]] — 来源（倒排索引深入示例）

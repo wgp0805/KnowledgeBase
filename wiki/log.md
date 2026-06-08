@@ -1,5 +1,9 @@
 # Wiki 操作日志
 
+## [2026-06-08] ingest | 摄入 MinIO 介绍与 2 篇 ES 深度文章
+- **变更**: 新增 [[摘要-minio-intro]], [[摘要-elasticsearch-8.10-install]], [[摘要-elasticsearch-comprehensive-guide]]; 新增实体 [[MinIO]]; 新增概念 [[BM25]]; 更新 [[Elasticsearch]], [[analyzer]], [[inverted-index]], [[full-text-search]]; 更新 [[index.md]]
+- **冲突**: 无
+
 ## [2026-05-19] ingest | 批量摄入 raw/01-articles/ 全部 71 个文件到知识库
 - **变更**: 新增 71 篇 source 摘要; 新增 24 个实体页面; 新增 6 个概念页面; 更新 [[index.md]]
 - **冲突**: 无（知识库首次构建）
