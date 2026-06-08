@@ -219,6 +219,8 @@ IK 分词插件的 **[GitHub 主页](https://github.com/infinilabs/analysis-ik?t
 
 问了一嘴 Claude，说可以用./bin/elasticsearch-plugin install [https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v版本号/elasticsearch-analysis-ik-版本号.zip](https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v%E7%89%88%E6%9C%AC%E5%8F%B7/elasticsearch-analysis-ik-%E7%89%88%E6%9C%AC%E5%8F%B7.zip) 这个，我没有尝试，大家可以试一下。
 
+**这里需要注意，你的es版本必须要和ik分词器的版本一致，否则就会报错**
+
 那我们就换一种安装方式，先通过这个连接找到匹配的 IK 分词插件连接：
 
 **[http://cdn-us-west-release.infinilabs.com/analysis-ik/stable/](http://cdn-us-west-release.infinilabs.com/analysis-ik/stable/)**
