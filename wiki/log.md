@@ -201,6 +201,10 @@
 - **变更**: 更新 [[Docker]] — 新增 `docker logs -f` 和 `docker rm -f` 参数详解
 - **输出**: 即时回答未保存
 
+## [2026-06-09] query | 创建 Kafka 完整教程
+- **变更**: 新增 [[kafka-complete-tutorial]]; 更新 [[Kafka]], [[index.md]]
+- **输出**: 引用 [[Kafka]], [[message-queue]], [[摘要-bytedance-mq-design]], [[sequential-io]], [[isr]], [[Docker]]
+
 ## [2026-06-09] ingest | 摄入全链路灰度发布8步实战教程
 - **变更**: 新增 [[摘要-全链路灰度发布-8步实战教程]]; 新增实体 [[OpenFeign]], [[Prometheus]], [[Grafana]]; 新增概念 [[grayscale-release]], [[gray-tag-propagation]]; 更新 [[Nacos]], [[SpringCloudGateway]]; 更新 [[index.md]]
 - **冲突**: 无

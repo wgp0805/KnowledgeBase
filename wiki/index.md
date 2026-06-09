@@ -362,3 +362,4 @@
 - [[n8n-complete-guide]] — n8n 工作流自动化平台完整指南
 - [[hermes-agent-tutorial]] — Hermes Agent 完整安装配置与使用教程
 - [[spring-security-jwt-redis-best-practice]] — Spring Security + JWT + Redis 完整最佳实践
+- [[kafka-complete-tutorial]] — Apache Kafka 完整教程：概念、场景、Docker 部署与 Spring Boot 集成
