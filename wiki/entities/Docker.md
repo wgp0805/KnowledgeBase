@@ -2,7 +2,7 @@
 title: "Docker"
 type: entity
 tags: [容器, DevOps]
-sources: [raw/01-articles/Docker-window环境下部署RocketMq.md, raw/01-articles/docker安装及使用-windows环境.md, raw/01-articles/docker部署nacos.md, raw/01-articles/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/01-articles/使用Docker在Windows上部署独立MySQL.md, raw/01-articles/使用n8n搭建Agent项目笔记.md]
+sources: [raw/01-articles/Docker-window环境下部署RocketMq.md, raw/01-articles/docker安装及使用-windows环境.md, raw/01-articles/docker部署nacos.md, raw/01-articles/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/01-articles/使用Docker在Windows上部署独立MySQL.md, raw/01-articles/使用n8n搭建Agent项目笔记.md, raw/01-articles/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md]
 last_updated: 2026-05-19
 ---
 
@@ -25,6 +25,19 @@ Docker 是一个开源的应用容器引擎，让开发者可以打包应用及�
 ### `docker rm -f`
 - `-f` / `--force`：强制删除正在运行的容器（先发 SIGKILL 停止，再删除），不加 `-f` 时只能删除已停止的容器
 - 场景：常用于快速重建容器，如 `docker rm -f nacos && docker run ...`（见 [[摘要-docker部署nacos]]）
+
+## 核心概念关系
+
+```
+Dockerfile (配方) ──docker build──→ Image (镜像/静态快照) ──docker run──→ Container (容器/运行态)
+```
+
+- **镜像（Image）**：静态的、只读的系统快照，包含 OS + 运行时 + 依赖 + 代码，类似一张光盘
+- **容器（Container）**：镜像的运行态，动态、可写，销毁后改动消失（除非挂载外部存储）
+- **Dockerfile**：定义如何构建镜像的配方文件（基于哪个镜像、安装什么依赖、执行什么命令）
+- **docker-compose**：定义如何运行一组容器的编排工具（多服务启动、网络、卷挂载）
+
+一个镜像可以同时跑多个容器，互不影响。
 
 ## 关联连接
 - [[DockerDesktop]] — 桌面版

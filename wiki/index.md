@@ -116,6 +116,7 @@
 - [[摘要-字节面试官什么是RAG为什么需要RAG]] — 字节面试视角下的 RAG 深度解析：四大硬伤、核心流程、选型对比与前沿演进
 
 - [[摘要-ECC使用教程]] — ECC v1.10.0+ 全方位教程：47+ Agent/Skill/Hook/Continuous Learning
+- [[摘要-同事一个比喻，让我搞懂了Docker和k8s的核心概念]] — Docker 镜像/容器/Pod/K8s 核心概念比喻式讲解
 - [[摘要-claude-code-plugins-official]] — Anthropic 官方 Claude Code 插件应用商店开源详解
 - [[摘要-把Codex用到极致]] — Codex 从编程 Agent 进化为电脑工作系统的三大支柱
 - [[摘要-java-stack-skills-guide]] — Java 全栈开发 Skills 生态综述（Redis/前端/多 Agent 协作）
@@ -349,6 +350,7 @@
 - [[A2A]] — Agent-to-Agent 协议，分布式 Agent 通信
 - [[Skill_Registry]] — 技能注册中心，管理 Agent Skill 生命周期
 - [[grayscale-release]] — 全链路灰度发布策略
+- [[Pod]] — K8s 最小调度单元，共享网络与存储
 - [[gray-tag-propagation]] — 灰度标记全链路传递机制
 
 ## Syntheses

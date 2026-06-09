@@ -208,6 +208,10 @@
 ## [2026-06-09] query | Kafka 创建主题方法
 - **输出**: 引用 [[kafka-complete-tutorial]]
 
+## [2026-06-09] ingest | 摄入 Docker 和 K8s 核心概念比喻式讲解
+- **变更**: 新增 [[摘要-同事一个比喻，让我搞懂了Docker和k8s的核心概念]]; 新增概念 [[Pod]]; 更新 [[Docker]]（补充 Dockerfile/docker-compose/镜像容器关系）; 更新 [[index.md]]
+- **冲突**: 无
+
 ## [2026-06-09] ingest | 摄入全链路灰度发布8步实战教程
 - **变更**: 新增 [[摘要-全链路灰度发布-8步实战教程]]; 新增实体 [[OpenFeign]], [[Prometheus]], [[Grafana]]; 新增概念 [[grayscale-release]], [[gray-tag-propagation]]; 更新 [[Nacos]], [[SpringCloudGateway]]; 更新 [[index.md]]
 - **冲突**: 无
