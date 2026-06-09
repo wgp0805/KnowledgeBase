@@ -2,13 +2,7 @@
 title: "Ollama+DeepSeek本地部署（新人必看）"
 source: "https://articles.zsxq.com/id_zlna3n68swco.html"
 ---
-[来自： Java进阶之路&二哥编程星球](https://wx.zsxq.com/group/15522885221412)
 
-章节难度：★☆☆☆☆ - 简单
-
-项目名称：派聪明 RAG 知识库
-
-©版权所有 - 二哥的编程星球&Java 进阶之路专属学习项目，严禁未经本项目原作者明确书面授权擅自分享至 GitHub、Gitee 等任何开放平台。违者将面临法律追究。
 
 DeepSeek 这一趴可以通过 [直接用 DeepSeek 官方的 API](https://t.zsxq.com/7UD9T) ，也可以调用本地的 DeepSeek。这一篇主要来讲本地的 DeepSeek 部署。
 
@@ -99,11 +93,3 @@ application.yml 中我做了说明。注意本地和 DeepSeek 官方的 URL 不�
   
 如果成功配置，可以在聊天助手这里进行测试。后台也不会报错。  
   
-
-![](assets/Ollama+DeepSeek%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%EF%BC%88%E6%96%B0%E4%BA%BA%E5%BF%85%E7%9C%8B%EF%BC%89/8c17bd4a9c7c68f7911b39213ba6f521_MD5.png)
-
-扫码加入星球
-
-查看更多优质内容
-
-https://wx.zsxq.com/mweb/views/joingroup/join\_group.html?group\_id=15522885221412
