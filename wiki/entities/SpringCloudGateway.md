@@ -16,9 +16,12 @@ Spring Cloud Gateway 是 Spring Cloud 生态中的 API 网关组件，基于 Spr
 - 集成服务发现：与 Nacos、Eureka 等注册中心集成
 - 替代 Zuul：Spring Cloud 官方推荐的网关方案
 - 全局过滤器：GlobalFilter 处理跨切面逻辑（鉴权、日志等）
+- 灰度发布：通过自定义 `AbstractGatewayFilterFactory` 识别 `X-Gray` 请求头，实现灰度流量标记与隔离
+- 灰度比例控制：在网关过滤器中使用随机数按比例放行流量（如 10%），支持渐进式灰度
 
 ## 关联连接
 - [[Nacos]] — 服务注册与发现
 - [[SpringBoot]] — 基础框架
 - [[microservices]] — 微服务架构
 - [[Sentinel]] — 限流熔断配合使用
+- [[grayscale-release]] — 全链路灰度发布网关环节

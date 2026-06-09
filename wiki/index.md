@@ -122,6 +122,7 @@
 - [[摘要-再见吧-codex]] — Codex 高效使用七步工作流与方法论
 - [[摘要-AI-agent工具应该怎么使用]] — Codex 9 条实战使用技巧与 AI Agent 工具最佳实践
 - [[摘要-java-ai框架选型指南-2026]] — 2026年Java AI框架选型指南，六大框架全面对比
+- [[摘要-全链路灰度发布-8步实战教程]] — Spring Cloud Alibaba 全链路灰度发布8步实战教程
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -259,6 +260,9 @@
 - [[PatternsDev]] — 58 个前端设计模式 Skills 维护团队
 - [[VercelLabs]] — Vercel 前端 Skills 发布者
 - [[RestClient]] — Spring 6.1+ 现代HTTP客户端
+- [[OpenFeign]] — 声明式 HTTP 客户端
+- [[Prometheus]] — 开源监控系统
+- [[Grafana]] — 开源可视化平台
 ## Concepts
 - [[MVCC]] — 多版本并发控制机制
 - [[WAL]] — 预写日志机制
@@ -344,6 +348,8 @@
 - [[ReAct_Agent]] — 推理+行动循环的 Agent 模式
 - [[A2A]] — Agent-to-Agent 协议，分布式 Agent 通信
 - [[Skill_Registry]] — 技能注册中心，管理 Agent Skill 生命周期
+- [[grayscale-release]] — 全链路灰度发布策略
+- [[gray-tag-propagation]] — 灰度标记全链路传递机制
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

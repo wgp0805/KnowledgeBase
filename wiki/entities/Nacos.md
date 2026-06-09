@@ -15,9 +15,12 @@ Nacos（Dynamic Naming and Configuration Service）是阿里巴巴开源的微�
 - 部署模式：单机（Derby 内嵌数据库）和集群（MySQL 存储）
 - Docker 部署方式：环境变量配置 MySQL 数据源
 - CAP 理论：遵循 AP 原则（可用性 + 分区容错性）
+- 命名空间隔离：通过 namespace 实现环境和配置隔离（如生产/灰度），是全链路灰度发布的第一步
+- 灰度实践：创建独立的 gray-namespace，灰度服务注册在此命名空间，通过 `service.gray.tag` 元数据标记节点身份
 
 ## 关联连接
 - [[Docker]] — 容器化部署
 - [[SpringBoot]] — 客户端集成
 - [[RocketMQ]] — 消息队列
 - [[SpringCloudGateway]] — API 网关
+- [[grayscale-release]] — 全链路灰度发布的命名空间隔离基础

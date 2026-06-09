@@ -196,5 +196,9 @@
 - **冲突**: 标注冲突 [[SpringAI#知识冲突]]（Spring AI Alibaba 定位新旧说法差异，用户选择用新说法覆盖，已移除冲突标注）
 
 ## [2026-06-08] query | Spring Security + JWT + Redis 最佳实践
+
+## [2026-06-09] ingest | 摄入全链路灰度发布8步实战教程
+- **变更**: 新增 [[摘要-全链路灰度发布-8步实战教程]]; 新增实体 [[OpenFeign]], [[Prometheus]], [[Grafana]]; 新增概念 [[grayscale-release]], [[gray-tag-propagation]]; 更新 [[Nacos]], [[SpringCloudGateway]]; 更新 [[index.md]]
+- **冲突**: 无
 - **变更**: 新增 [[spring-security-jwt-redis-best-practice]]; 更新 [[index.md]]
 - **输出**: 引用 [[SpringSecurity]], [[JWT]], [[jwt-stateless]], [[token-blacklist]], [[dual-token-mechanism]], [[摘要-springboot4-security7-vue3-best-practice]], [[摘要-token-redis-interview]], [[SpringBoot]], [[Redis]], [[frontend-backend-separation]]
