@@ -15,7 +15,16 @@ Docker 是一个开源的应用容器引擎，让开发者可以打包应用及�
 - 支持卷挂载（Volume Mounting）实现数据持久化
 - 支持自定义网络配置（bridge/host/overlay）
 - docker-compose 可编排多容器服务
-- 常用操作：pull/run/exec/ps/logs/stop/rm
+
+## 常用命令参数
+
+### `docker logs -f`
+- `-f` / `--follow`：持续跟踪日志输出（类似 `tail -f`），实时查看容器日志流
+- 其他常用参数：`--tail n`（只显示最后 n 行）、`--since`（指定起始时间）、`--until`（指定结束时间）、`-t` / `--timestamps`（显示时间戳）、`--details`（显示额外详情）
+
+### `docker rm -f`
+- `-f` / `--force`：强制删除正在运行的容器（先发 SIGKILL 停止，再删除），不加 `-f` 时只能删除已停止的容器
+- 场景：常用于快速重建容器，如 `docker rm -f nacos && docker run ...`（见 [[摘要-docker部署nacos]]）
 
 ## 关联连接
 - [[DockerDesktop]] — 桌面版
