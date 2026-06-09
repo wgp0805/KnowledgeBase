@@ -117,6 +117,7 @@
 
 - [[摘要-ECC使用教程]] — ECC v1.10.0+ 全方位教程：47+ Agent/Skill/Hook/Continuous Learning
 - [[摘要-同事一个比喻，让我搞懂了Docker和k8s的核心概念]] — Docker 镜像/容器/Pod/K8s 核心概念比喻式讲解
+- [[摘要-Ollama+DeepSeek本地部署]] — Ollama 安装与 DeepSeek-R1 本地部署教程
 - [[摘要-claude-code-plugins-official]] — Anthropic 官方 Claude Code 插件应用商店开源详解
 - [[摘要-把Codex用到极致]] — Codex 从编程 Agent 进化为电脑工作系统的三大支柱
 - [[摘要-java-stack-skills-guide]] — Java 全栈开发 Skills 生态综述（Redis/前端/多 Agent 协作）

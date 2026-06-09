@@ -2,8 +2,8 @@
 title: "DeepSeek"
 type: entity
 tags: [AI, 模型, 公司]
-sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/01-articles/Ollama+DeepSeek本地部署（新人必看）.md]
+last_updated: 2026-06-09
 ---
 
 ## 定义
@@ -14,6 +14,7 @@ last_updated: 2026-05-19
 ### 模型系列
 - **DeepSeek V4**：最新主力模型，支持 Agent 编程场景
 - **deepseek-v4-pro**：Pro 版本，用于 DeepSeek TUI 等工具的高强度推理任务
+- **DeepSeek-R1**：开源 Transformer 大语言模型，128K 长文本上下文，代码生成和数学推理表现出色。支持 1.5B/7B/8B/14B 等全尺寸版本，可通过 [[Ollama]] 本地部署
 
 ### 性能与成本
 - 处理 200 万+ token 仅需不到 2 元人民币，性价比极高
@@ -21,4 +22,6 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[DeepSeekTUI]] — 基于 DeepSeek V4 的终端编程智能体
+- [[Ollama]] — 本地部署 DeepSeek 模型
 - [[AICoding]] — AI 编程范式
+- [[摘要-Ollama+DeepSeek本地部署]] — Ollama 本地部署 R1 教程

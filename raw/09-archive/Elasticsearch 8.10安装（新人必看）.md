@@ -2,13 +2,6 @@
 title: "✅Elasticsearch 8.10安装（新人必看）"
 source: "https://articles.zsxq.com/id_96c811632djp.html"
 ---
-[来自： Java进阶之路&二哥编程星球](https://wx.zsxq.com/group/15522885221412)
-
-章节难度：★★☆☆☆ - 还行
-
-项目名称：派聪明 RAG 知识库
-
-©版权所有 - 二哥的编程星球&Java 进阶之路专属学习项目，严禁未经本项目原作者明确书面授权擅自分享至 GitHub、Gitee 等任何开放平台。违者将面临法律追究。
 
 在 macOS 上使用 Homebrew 安装 Elasticsearch 时，可能会遇到 No available formula with the name "elasticsearch" 的错误。这是因为从 **Elasticsearch 8.x** 开始，官方不再通过 Homebrew 提供安装包。
 
@@ -18,11 +11,11 @@ source: "https://articles.zsxq.com/id_96c811632djp.html"
 
 访问 **[Elasticsearch 官方下载页面](https://www.elastic.co/cn/downloads/elasticsearch)** ，选择 8.10.0 版本并下载（ **请不要下载其他版本，免得出现版本冲突，大家不要在版本上浪费时间** ）。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324092.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635489.png)
 
 如果是 Windows 操作系统就下载第一个，如果是 Apple 芯片的 macOS 就下载第三个，如果是英特尔芯片的话，就下载第二个，二哥本机是 Apple 芯片的 macOS，所以下载的是第三个。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324093.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635488.png)
 
 也可以通过 curl 下载 8.10.0 版本：
 
@@ -32,7 +25,7 @@ curl -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.10.
 
 直接用解压文件解压就行了。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324091.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635484.png)
 
 也可以通过 tar 命令。
 
@@ -44,7 +37,7 @@ cd elasticsearch-8.10.0
 
 可以直接进入到 bin 目录，然后执行./elasticsearch 启动 ES。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324090%201.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635476.png)
 
 默认情况下，ES 默认是自动配置堆大小的，也就是没有设置固定的内存限制，所以 ES 会根据系统可用内存自动分配，我本机有时候能飙到 30 多个 G 的内存。如果你本机没有这么大的内存空间，你可以通过下面的命令运行：
 
@@ -52,13 +45,13 @@ ES\_JAVA\_OPTS="-Xms5g -Xmx5g"./bin/elasticsearch
 
 \-Xms 设置初始堆大小，-Xmx 设置最大堆大小，建议将 -Xms 和 -Xmx 设置为相同值，避免堆动态调整的开销。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324078.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635470.png)
 
 ES 8.10.0 需要 JDK 17 的版本，大家在跑 ES 的时候尽量先配置 JDK17。
 
 可以通过这个连接对比： **[https://www.elastic.co/cn/support/matrix#matrix\_jvm](https://www.elastic.co/cn/support/matrix#matrix_jvm)**
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324090.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635485.png)
 
 也可以直接在上一级目录执行下面的命令启动。
 
@@ -66,13 +59,13 @@ ES 8.10.0 需要 JDK 17 的版本，大家在跑 ES 的时候尽量先配置 JDK
 
 默认情况下，Elasticsearch 会在前台运行，并监听 9200端口。但由于 ES 从 8.x 版本开始，启用了安全功能，所以会有这样一段输出，注意保存一下。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324088.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635486.png)
 
 如果 ES 没有按照要求加载对应的 JDK 版本，我们可以这样执行：
 
 ES\_JAVA\_HOME=$JAVA\_HOME./bin/elasticsearch -d
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324087.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635474.png)
 
 ### Linux 服务器后台运行
 
@@ -104,11 +97,11 @@ received plaintext http traffic on an https channel, closing connection
 
 **①、CA 证书路径** ：通常位于 elasticsearch-8.10.0/config/certs/http\_ca.crt。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324081.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635473.png)
 
 **②、 用户名和密码** ：默认用户是 elastic，密码会在启动时生成。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324086%201.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635487.png)
 
 如果忘记了密码，可以通过以下命令重置：
 
@@ -122,11 +115,11 @@ curl --cacert config/certs/http\_ca.crt -X GET "https://localhost:9200" -u elast
 
 系统会提示输入密码，输入 elastic 用户的密码后即可访问。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324086.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635472.png)
 
 注意⚠️，要记得把 ES 的密码配置到你本地代码的 application.yml 文件，和前面 ES 生成的密码是匹配的。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324085.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635471.png)
 
 ### 方法 2：禁用 HTTPS 和安全功能（仅限本地测试环境）
 
@@ -136,7 +129,7 @@ curl --cacert config/certs/http\_ca.crt -X GET "https://localhost:9200" -u elast
 
 编辑 config/elasticsearch.yml 文件，把这两个配置项修改为 false。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324084.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635475.png)
 
 修改对应的内容为：
 
@@ -150,7 +143,7 @@ xpack.security.http.ssl.enabled: false
 
 ./bin/elasticsearch
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324083.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635437.png)
 
 #### 步骤 3：使用 HTTP 访问
 
@@ -158,7 +151,7 @@ xpack.security.http.ssl.enabled: false
 
 curl -X GET "http://localhost:9200"
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324079.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635464.png)
 
 #### 注意事项
 
@@ -167,29 +160,29 @@ curl -X GET "http://localhost:9200"
 
 这时候，还要确保 application.yml 中的 ES 用的是 HTTP 请求。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324077.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635463.png)
 
 否则会在启动后端的时候报错 初始化索引失败。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324082.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635436.png)
 
 ## ES 安装 IK 分词器插件
 
 IK 分词器是阿里开源的一个中文分词工具，主要用于全文检索和文本分析。据说最初是由林良益开发的，是 Lucene 和 Elasticsearch 中最常用的中文分词插件之一： **[https://github.com/infinilabs/analysis-ik](https://github.com/infinilabs/analysis-ik)**
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324080.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635461.png)
 
 我去搜了一下，居然早在 2012 年就有了，当时还在 ITEYE 上有一篇博文介绍，这头像一看就是远古时期的程序员大佬。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324068.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635439.png)
 
 死去的记忆又开始攻击我了，哈哈哈，我 2015 年之前也活越过这里。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324075.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635460.png)
 
 传统的分词工具往往难以准确处理中文的歧义和复杂语境，而IK分词器可以：识别中文词组、处理专有名词、智能切分复杂句子。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324073.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635467.png)
 
 历小冰：IK 分词器
 
@@ -205,7 +198,7 @@ IK分词器提供了两种主要分词模式：ik\_max\_word，最细粒度的�
 
 IK 分词插件的 **[GitHub 主页](https://github.com/infinilabs/analysis-ik?tab=readme-ov-file)** 里有提供插件的安装方式。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324070.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635465.png)
 
 可以通过命令行直接安装，macOS 的执行命令如下所示：
 
@@ -215,11 +208,9 @@ IK 分词插件的 **[GitHub 主页](https://github.com/infinilabs/analysis-ik?t
 
 球友分享的踩坑经验： [https://t.zsxq.com/ZiZFN](https://t.zsxq.com/ZiZFN) 关于 IK 分词器的。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324071.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635434.png)
 
 问了一嘴 Claude，说可以用./bin/elasticsearch-plugin install [https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v版本号/elasticsearch-analysis-ik-版本号.zip](https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v%E7%89%88%E6%9C%AC%E5%8F%B7/elasticsearch-analysis-ik-%E7%89%88%E6%9C%AC%E5%8F%B7.zip) 这个，我没有尝试，大家可以试一下。
-
-**这里需要注意，你的es版本必须要和ik分词器的版本一致，否则就会报错**
 
 那我们就换一种安装方式，先通过这个连接找到匹配的 IK 分词插件连接：
 
@@ -227,7 +218,7 @@ IK 分词插件的 **[GitHub 主页](https://github.com/infinilabs/analysis-ik?t
 
 比如说 8.10 选这个：
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324065.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635458.png)
 
 直接点击链接，下载到本地。再使用以下命令安装本地插件：
 
@@ -235,11 +226,11 @@ IK 分词插件的 **[GitHub 主页](https://github.com/infinilabs/analysis-ik?t
 
 注意这里的 /Users/itwanger/Downloads/ 替换成你本地的地址，file:// 前缀要保留。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324069.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635469.png)
 
 这次安装成功了，安装的过程中会提示 y/n，输入 y 就好了。
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324064.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635456.png)
 
 Windows 类似，只需要./bin 的./ 删掉就行了。
 
@@ -249,6 +240,8 @@ curl -X GET "http://localhost:9200/\_cat/plugins?v"
 
 输出应包含类似以下内容：
 
-![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260608150324066.png)
+![](../../assets/Elasticsearch%208.10安装（新人必看）/file-20260609153635468.png)
 
 表示已经安装成功了。
+
+为我们自己鼓个掌吧，不错不错😌

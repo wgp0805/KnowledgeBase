@@ -212,6 +212,10 @@
 - **变更**: 新增 [[摘要-同事一个比喻，让我搞懂了Docker和k8s的核心概念]]; 新增概念 [[Pod]]; 更新 [[Docker]]（补充 Dockerfile/docker-compose/镜像容器关系）; 更新 [[index.md]]
 - **冲突**: 无
 
+## [2026-06-09] ingest | 摄入 Ollama+DeepSeek 本地部署教程
+- **变更**: 新增 [[摘要-Ollama+DeepSeek本地部署]]; 更新 [[Ollama]]（补充安装步骤/环境变量/CLI使用）; 更新 [[DeepSeek]]（补充 R1 模型系列）; 归档 [[摘要-elasticsearch-8.10-install]] 对应的原始文件
+- **冲突**: 无
+
 ## [2026-06-09] ingest | 摄入全链路灰度发布8步实战教程
 - **变更**: 新增 [[摘要-全链路灰度发布-8步实战教程]]; 新增实体 [[OpenFeign]], [[Prometheus]], [[Grafana]]; 新增概念 [[grayscale-release]], [[gray-tag-propagation]]; 更新 [[Nacos]], [[SpringCloudGateway]]; 更新 [[index.md]]
 - **冲突**: 无
