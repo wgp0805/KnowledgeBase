@@ -594,3 +594,96 @@ return instance.request(response.config);
 ---
 
 一句话：`async` 的作用是把返回值变成 `Promise`，并允许在函数里 `await`。你现在的 `onRequest` 没有 `await`，写不写 `async` 行为几乎相同；去掉 `async` 更直观，保留 `async` 通常是为了以后可能要加异步逻辑，或和类型定义 `Promise<...>` 保持一致。
+# 登录后端MDC的解释
+深度思考
+```用户问的是一个很好的问题：在这个方法里，MDC.put 设置了值，但日志消息本身已经在第70行手动拼接了 userId 和 operation，那 MDC 在这里到底有什么用？
+
+让我分析一下：
+
+1. 如果 logback.xml 的 pattern 中配置了 `%X{userId}` 和 `%X{operation}`，那么 MDC 中的值会自动出现在日志输出中，即使你在 logger.info 的 message 中没有显式写入。
+
+2. 如果 pattern 中没有配置这些占位符，那么 MDC.put 在这里就完全是多余的——日志已经手动拼接了所有信息，MDC 的值只是被设置后立刻清除，没有产生任何实际效果。
+
+所以用户说得对：在这个特定的代码片段里，如果 logback 的 pattern 没有利用这些 MDC 变量，那 MDC 的使用就是冗余的。
+
+```
+你的观察很敏锐。让我快速确认一下项目的日志配置是否引用了 MDC。
+
+
+
+
+**已检索文件** *`**/logback*.xml`* 1 个结果
+
+**已检索代码** *%X\{* 0 个结果
+深度思考
+```The logback-spring.xml file exists but there are no `%X{` patterns in any XML files. This confirms the user's suspicion - the MDC usage in this method is indeed redundant given the current logback configuration.
+
+Let me read the logback-spring.xml to confirm the patterns used.
+```
+确认了，`%X{}` 在日志配置中完全没有使用。让我看一下实际 pattern 长什么样。
+
+
+
+
+**已查看文件** *logback-spring.xml*
+深度思考
+```确认了，所有的日志 pattern 都是：
+
+```
+%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+```
+
+没有任何 `%X{userId}` 或 `%X{operation}` 这样的 MDC 引用。
+
+所以用户的质疑完全正确：在当前项目中，这些 `MDC.put()` 调用**完全没有实际效果**。数据被放进 MDC 后立刻被 `MDC.clear()` 清除了，而日志 pattern 从未读取过它们。
+
+
+这段代码就是典型的"预留但未启用"——开发者打算在 logback pattern 中配置 `%X{userId}` 来自动注入上下文，但最终没有实现，而第70行的手动字符串拼接已经包含了所有必要信息，所以 MDC 在这里确实毫无作用。
+```
+你说得完全对，**在当前的项目中，这里的 MDC 调用没有任何实际作用**，属于冗余代码。
+
+原因很简单：
+
+### 当前 logback pattern
+
+```
+%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+```
+
+
+所有 appender 的 pattern 里**都没有** `%X{userId}` 或 `%X{operation}`，所以 MDC 放进去的值**从未被日志框架读取过**。
+
+### 实际发生了什么
+
+```
+第68行: MDC.put("userId", userId)     → 放进了 MDC（但没人读）
+第69行: MDC.put("operation", operation) → 放进了 MDC（但没人读）
+第70行: BUSINESS_LOGGER.info(...)      → 消息内容已经手动拼接了 userId 和 operation
+第72行: MDC.clear()                    → 立刻清除了
+```
+
+
+MDC 的值放进去就被清掉了，日志输出完全靠第70行的手动拼接，MDC 全程**空转**。
+
+### 如果要让 MDC 真正有用
+
+应该把 userId 等字段交给 pattern 自动输出，而不是在每条日志里手动拼。比如：
+
+```xml
+<!-- logback-spring.xml 中的 BUSINESS_FILE appender -->
+<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [%X{userId}] [%X{operation}] %-5level %logger{50} - %msg%n</pattern>
+```
+
+
+这样第70行就可以简化为：
+
+```java
+BUSINESS_LOGGER.info("[用户操作] [资源:{}] [结果:{}]", resource, result);
+```
+
+
+userId 和 operation 由 pattern 中的 `%X{}` 自动注入，**不用每条日志都重复写**——这才是 MDC 的正确用法。
+
+### 结论
+
+当前代码是**"预留了 MDC 扩展点但没接上"**的状态。要么补上 logback pattern 让 MDC 生效，要么删掉这些无效的 `MDC.put` / `MDC.clear` 调用，让代码更干净。
