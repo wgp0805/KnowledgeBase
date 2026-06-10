@@ -386,3 +386,211 @@ app.mount('#app') ← Vue 真正挂载，替换 Loading
 ### 4. 一句话总结
 
 `main.ts` 在每次页面加载（或刷新）时，由浏览器解析完 `index.html` 后、通过 ES Module 入口执行一次；`setupApp()` 在模块加载后立即调用，在 `app.mount('#app')` 之前完成 Loading、路由、状态、国际化等初始化。
+## async 和 awite
+这是 JavaScript/TypeScript 里 `async` 关键字 的作用，结合你项目里的 `onRequest` 说明如下。
+
+### 核心区别
+
+||普通函数|`async` 函数|
+|---|---|---|
+|返回值|你 `return` 什么就是什么|永远返回 `Promise`|
+|`return x`|得到 `x`|得到 `Promise.resolve(x)`|
+|`throw err`|直接抛错|变成 `Promise.reject(err)`|
+|能否用 `await`|不能|可以|
+
+---
+
+### 1. 返回值会被包一层 Promise
+```js
+// 普通函数
+
+function fn1() {
+
+return config;
+
+}
+
+fn1(); // → config 对象本身
+
+// async 函数
+
+async function fn2() {
+
+return config;
+
+}
+
+fn2(); // → Promise<config>，不是 config 本身
+```
+// 普通函数
+
+function fn1() {
+
+return config;
+
+}
+
+fn1(); // → config 对象本身
+
+// async 函数
+
+async function fn2() {
+
+return config;
+
+}
+
+fn2(); // → Promise<config>，不是 config 本身
+
+对你这段代码：
+
+async onRequest(config) {
+
+const Authorization = getAuthorization();
+
+Object.assign(config.headers, { Authorization });
+
+return config;
+
+}
+
+等价于：
+
+onRequest(config) {
+
+const Authorization = getAuthorization();
+
+Object.assign(config.headers, { Authorization });
+
+return Promise.resolve(config);
+
+}
+
+---
+
+### 2. 没有 `await` 时，函数体仍是同步执行
+
+很多人以为 `async` = 异步，不对。
+
+`async` 只保证：
+
+- 返回值是 Promise
+- 里面可以用 `await`
+
+函数体里如果没有 `await`，代码还是按顺序同步跑完，和没写 `async` 一样。
+```js
+async function test() {
+
+console.log(1);
+
+console.log(2);
+
+}
+
+test();
+
+console.log(3);
+
+// 输出顺序：1 → 2 → 3（全是同步）
+
+---
+```
+### 3. 调用方感受到的区别
+
+
+// 普通函数
+
+const result = onRequest(config); // result 就是 config
+
+// async 函数
+
+const result = onRequest(config); // result 是 Promise<config>
+
+// 要拿 config 需要：
+
+const config2 = await onRequest(config);
+
+// 或
+
+onRequest(config).then(c => ...);
+
+在你们 `@sa/axios` 里，拦截器这样写：
+
+const handledConfig = opts.onRequest?.(config) || config;
+
+return handledConfig;
+
+axios 支持拦截器返回 config 或 Promise<config>，所以两种写法都能用：
+
+- 普通函数 `return config` → axios 直接继续
+- `async` 函数 → 返回 `Promise<config>` → axios 等 Promise 完成后再发请求
+
+因为这里没有真正的异步操作，实际效果几乎一样，只是多等一个微任务。
+
+---
+
+### 4. 什么时候必须 / 应该用 `async`
+
+必须用（函数里要 `await`）：
+
+async onRequest(config) {
+
+const token = await fetchTokenFromSomewhere(); // 真异步
+
+config.headers.Authorization = token;
+
+return config;
+
+}
+
+可以不用（全是同步逻辑）：
+
+onRequest(config) {
+
+const Authorization = getAuthorization();
+
+Object.assign(config.headers, { Authorization });
+
+return config;
+
+}
+
+当前 `onRequest` 属于第二种：`getAuthorization()` 读 localStorage，是同步的，去掉 `async` 更贴切。
+
+`onTokenRefresh` 也是同步的，所以没写 `async` 是合理的。
+
+---
+
+### 5. 和 `onBackendFail` 对比（真异步）
+
+同文件里这个才是 `async` 有意义的用法：
+
+async onBackendFail(response, instance) {
+
+// ...
+
+const success = await handleExpiredRequest(request.state); // 真等网络请求
+
+if (success) {
+
+return instance.request(response.config);
+
+}
+
+}
+
+这里有 `await` 等刷新 token 的接口，必须用 `async`。
+
+---
+
+### 6. 常见误区
+
+|误区|实际|
+|---|---|
+|`async` = 异步执行|只有 `await` 才会暂停等待；没 `await` 仍是同步|
+|加上 `async` 更安全|没必要时反而多一层 Promise，类型和调用方都要按 Promise 处理|
+|拦截器必须 `async`|只有需要 `await` 时才需要|
+
+---
+
+一句话：`async` 的作用是把返回值变成 `Promise`，并允许在函数里 `await`。你现在的 `onRequest` 没有 `await`，写不写 `async` 行为几乎相同；去掉 `async` 更直观，保留 `async` 通常是为了以后可能要加异步逻辑，或和类型定义 `Promise<...>` 保持一致。
