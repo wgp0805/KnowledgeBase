@@ -221,3 +221,7 @@
 - **冲突**: 无
 - **变更**: 新增 [[spring-security-jwt-redis-best-practice]]; 更新 [[index.md]]
 - **输出**: 引用 [[SpringSecurity]], [[JWT]], [[jwt-stateless]], [[token-blacklist]], [[dual-token-mechanism]], [[摘要-springboot4-security7-vue3-best-practice]], [[摘要-token-redis-interview]], [[SpringBoot]], [[Redis]], [[frontend-backend-separation]]
+
+## [2026-06-10] ingest | 整理 URule 规则引擎文章并补充知识网络
+- **变更**: 增量更新 [[URule]]（补充注解机制、API 用法、Pro 版功能对比）; 增量更新 [[规则引擎]]（补充决策表对比、职级晋升实战案例）; 注册 [[摘要-Spring-Boot-URule-规则引擎]], [[URule]], [[规则引擎]] 到 [[index.md]]
+- **冲突**: 无

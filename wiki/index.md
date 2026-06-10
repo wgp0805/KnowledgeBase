@@ -125,6 +125,7 @@
 - [[摘要-AI-agent工具应该怎么使用]] — Codex 9 条实战使用技巧与 AI Agent 工具最佳实践
 - [[摘要-java-ai框架选型指南-2026]] — 2026年Java AI框架选型指南，六大框架全面对比
 - [[摘要-全链路灰度发布-8步实战教程]] — Spring Cloud Alibaba 全链路灰度发布8步实战教程
+- [[摘要-Spring-Boot-URule-规则引擎]] — Spring Boot 集成 URule 实现可视化规则引擎
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -221,6 +222,7 @@
 - [[Gitee]] — 国内代码托管平台（码云）
 - [[DockerDesktop]] — Docker 桌面端容器运行环境
 - [[Ubuntu]] — 基于 Debian 的 Linux 发行版
+- [[URule]] — 纯浏览器可视化规则引擎，Java 平台
 - [[CentOS]] — 基于 RHEL 的 Linux 发行版
 - [[Tomcat]] — Apache Servlet 容器
 - [[VMware]] — 虚拟化软件
@@ -328,6 +330,7 @@
 - [[代理模式]] — 结构型设计模式，AOP的基础
 - [[模板方法模式]] — 行为型设计模式，固定骨架可变步骤
 - [[观察者模式]] — 行为型设计模式，事件机制的基础
+- [[规则引擎]] — 将复杂判断规则从业务代码剥离的组件
 - [[适配器模式]] — 结构型设计模式，让不兼容接口协同工作
 - [[策略模式]] — 行为型设计模式，同一接口不同实现策略
 - [[责任链模式]] — 行为型设计模式，请求沿链条依次处理
