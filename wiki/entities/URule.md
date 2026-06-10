@@ -1,0 +1,22 @@
+---
+title: "URule"
+type: entity
+tags: [规则引擎, Java, 可视化, Spring Boot]
+sources: [raw/01-articles/Spring Boot + URule 实现可视化规则引擎.md]
+last_updated: 2026-06-10
+---
+
+## 定义
+URule 是一款 Java 平台的可视化规则引擎，支持在浏览器中直接编辑和测试规则，无需额外安装桌面工具。
+
+## 关键信息
+- **部署环境**：兼容 Windows、Linux、Unix 等各类操作系统
+- **编辑模式**：纯浏览器可视化编辑，非开发人员也可参与规则配置
+- **版本区别**：分为开源版和 Pro 版，Pro 版提供交叉决策表、Excel 导入、版本控制、知识包监控等高级功能
+- **使用模式**：嵌入式模式、本地模式、分布式计算模式、独立服务模式
+- **核心组成**：设计器部分（库文件 + 规则文件）+ 规则执行引擎
+
+## 关联连接
+- [[摘要-Spring-Boot-URule-规则引擎]] — 来源文章
+- [[SpringBoot]] — Spring Boot 集成方式
+- [[规则引擎]] — 同类规则引擎：Drools、Aviator、EasyRules
