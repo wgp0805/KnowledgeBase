@@ -79,6 +79,7 @@
 - [[摘要-SpringBoot-Aop的使用]] — Spring Boot AOP 编程
 - [[摘要-SpringBoot接收参数的几种常用方式]] — Spring Boot 参数接收方式
 - [[摘要-SpringBoot优雅的加载配置文件的几种方式]] — Spring Boot 配置加载
+- [[摘要-spring-mybatis-plus-sqlsession-reuse]] — Spring 事务下 MyBatis-Plus SqlSession 复用与缓存机制详解
 - [[摘要-springboot整合mybatisPlus]] — Spring Boot 整合 MyBatis-Plus
 - [[摘要-springboot整合redis]] — Spring Boot 整合 Redis
 - [[摘要-springboot整合RocketMq]] — Spring Boot 整合 RocketMQ

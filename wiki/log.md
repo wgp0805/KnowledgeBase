@@ -225,3 +225,7 @@
 ## [2026-06-10] ingest | 整理 URule 规则引擎文章并补充知识网络
 - **变更**: 增量更新 [[URule]]（补充注解机制、API 用法、Pro 版功能对比）; 增量更新 [[规则引擎]]（补充决策表对比、职级晋升实战案例）; 注册 [[摘要-Spring-Boot-URule-规则引擎]], [[URule]], [[规则引擎]] 到 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-10] ingest | 摄入 MyBatis-Plus SqlSession 复用机制深度解析文章
+- **变更**: 新增 [[摘要-spring-mybatis-plus-sqlsession-reuse]]; 增量更新 [[MyBatisPlus]]（补充缓存机制、SqlSession 复用、JPA 对比）; 增量更新 [[transaction-management]]（补充 SqlSession 与事务绑定）; 更新 [[index.md]]
+- **冲突**: 无

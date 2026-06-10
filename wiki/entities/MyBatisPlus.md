@@ -2,8 +2,8 @@
 title: "MyBatisPlus"
 type: entity
 tags: [ORM, MyBatis]
-sources: [raw/01-articles/springboot整合mybatisPlus.md, raw/01-articles/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/springboot整合mybatisPlus.md, raw/01-articles/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md, raw/01-articles/深度解析：Spring 事务与 MyBatis-Plus SqlSession 复用机制.md]
+last_updated: 2026-06-10
 ---
 
 ## 定义
@@ -18,8 +18,24 @@ MyBatis-Plus（简称 MP）是 MyBatis 的增强工具，在 MyBatis 的基础�
 - 逻辑删除：@TableLogic 自动处理删除标记
 - 乐观锁插件：@Version 处理并发更新
 
+## 缓存机制
+- **一级缓存（L1 Cache）**：默认开启，无法关闭。作用域为 SqlSession 级别（单次数据库会话）。在 Spring 集成环境中，SqlSession 与事务绑定，事务结束后缓存失效，分布式环境下无效。
+- **二级缓存（L2 Cache）**：默认关闭，需手动配置（`cache-enabled: true` + Mapper 中声明 `<cache/>` 或实体类加注解）。作用域为 Mapper 级别（跨 SqlSession 共享）。推荐集成 Redis、Ehcache 等外部存储增强分布式缓存能力。
+- **设计理念**：强调手动控制，开发者自行处理事务边界、缓存策略（LRU 淘汰、刷新间隔等），对 SQL 和缓存状态有 100% 控制权。
+
+## SqlSession 复用机制
+- **核心桥梁**：Spring 通过 SqlSessionTemplate（线程安全代理）和 ThreadLocal 管理 SqlSession 的获取与释放。
+- **未开启事务**：每次 Mapper 查询独立创建 SqlSession，查询完毕立即关闭，一级缓存完全失效。
+- **开启事务（@Transactional）**：Spring 事务拦截器新建 SqlSession，通过 TransactionSynchronizationManager 封装为 SqlSessionHolder 绑定到线程 ThreadLocal。整个事务生命周期内所有查询复用同一 SqlSession，一级缓存生效。
+- **事务传播**：即使内层方法未加 @Transactional，默认 Propagation.REQUIRED 会加入外层事务，继续复用外层绑定的 SqlSession。
+
+## 对比 JPA 缓存
+- **MyBatis-Plus**：手动控制缓存，开发者自行配置 LRU 淘汰、刷新间隔，避免"黑魔法"行为。
+- **JPA（Hibernate）**：自动化透明缓存，内置完善的一/二级缓存和延迟加载，但配置不当易出现 N+1 查询等性能陷阱。
+
 ## 关联连接
 - [[SpringBoot]] — 整合框架
 - [[MySQL]] — 数据库
 - [[MyBatis]] — 基础 ORM 框架
 - [[PageHelper]] — 分页插件
+- [[transaction-management]] — 事务管理与 SqlSession 绑定
