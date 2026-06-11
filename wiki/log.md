@@ -236,3 +236,7 @@
 ## [2026-06-11] query | 生成双 Token 设计完整案例文档
 - **变更**: 新增 [[dual-token-design-complete]]; 更新 [[index.md]]
 - **输出**: 引用 [[dual-token-mechanism]], [[dual-token-security-analysis]], [[token-blacklist]], [[jwt-stateless]], [[JWT]], [[spring-security-jwt-redis-best-practice]]
+
+## [2026-06-11] ingest | 摄入最强AI设计智能体Lovart入门教程
+- **变更**: 新增 [[摘要-最强AI设计智能体Lovart入门教程]]; 新增实体 [[Lovart]]; 新增概念 [[AI设计智能体]], [[五要素法]]; 更新 [[index.md]]
+- **冲突**: 无
