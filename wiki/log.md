@@ -232,3 +232,7 @@
 
 ## [2026-06-11] query | 双 Token 安全设计分析
 - **输出**: 已保存至 [[dual-token-security-analysis]]
+
+## [2026-06-11] query | 生成双 Token 设计完整案例文档
+- **变更**: 新增 [[dual-token-design-complete]]; 更新 [[index.md]]
+- **输出**: 引用 [[dual-token-mechanism]], [[dual-token-security-analysis]], [[token-blacklist]], [[jwt-stateless]], [[JWT]], [[spring-security-jwt-redis-best-practice]]
