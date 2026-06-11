@@ -229,3 +229,6 @@
 ## [2026-06-10] ingest | 摄入 MyBatis-Plus SqlSession 复用机制深度解析文章
 - **变更**: 新增 [[摘要-spring-mybatis-plus-sqlsession-reuse]]; 增量更新 [[MyBatisPlus]]（补充缓存机制、SqlSession 复用、JPA 对比）; 增量更新 [[transaction-management]]（补充 SqlSession 与事务绑定）; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-11] query | 双 Token 安全设计分析
+- **输出**: 已保存至 [[dual-token-security-analysis]]
