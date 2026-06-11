@@ -128,6 +128,7 @@
 - [[摘要-全链路灰度发布-8步实战教程]] — Spring Cloud Alibaba 全链路灰度发布8步实战教程
 - [[摘要-Spring-Boot-URule-规则引擎]] — Spring Boot 集成 URule 实现可视化规则引擎
 - [[摘要-最强AI设计智能体Lovart入门教程]] — Lovart/星流 AI 设计智能体零基础入门教程
+- [[摘要-mimo-code发布]] — 小米 MiMo Code 0.1 发布与 Harness 架构深度解析
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -226,6 +227,8 @@
 - [[Ubuntu]] — 基于 Debian 的 Linux 发行版
 - [[URule]] — 纯浏览器可视化规则引擎，Java 平台
 - [[Lovart]] — LiblibAI 推出的 AI 设计智能体产品
+- [[MiMoCode]] — 小米基于 OpenCode 构建的 AI 编程 Agent 工具
+- [[Xiaomi]] — 中国消费电子与科技公司
 - [[CentOS]] — 基于 RHEL 的 Linux 发行版
 - [[Tomcat]] — Apache Servlet 容器
 - [[VMware]] — 虚拟化软件
@@ -359,6 +362,9 @@
 - [[grayscale-release]] — 全链路灰度发布策略
 - [[AI设计智能体]] — 能完成全流程设计项目的 AI 工具类型
 - [[五要素法]] — 与 AI 设计智能体沟通需求的结构化框架
+- [[max-mode]] — 并行候选方案评估，用算力换可靠性
+- [[dynamic-workflow]] — 用代码替代自然语言编排复杂 Agent 工作流
+- [[checkpoint-rebuild]] — 分段持久化和重建上下文的无限延伸机制
 - [[Pod]] — K8s 最小调度单元，共享网络与存储
 - [[gray-tag-propagation]] — 灰度标记全链路传递机制
 

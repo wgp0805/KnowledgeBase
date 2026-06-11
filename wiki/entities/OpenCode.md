@@ -38,10 +38,15 @@ npm install -g ecc-universal  # 通用包
 - Agent 定义：`AGENTS.md`
 - Agent 引用：`@planner`、`@code-reviewer`
 
+### 衍生项目
+- **[[MiMoCode]]** — 小米基于 OpenCode 构建的 AI 编程 Agent，保留全部核心能力（多 Provider、TUI、LSP、MCP、插件），扩展了持久化记忆、子智能体编排、目标驱动自主循环、Compose 工作流和自进化能力
+
 ## 关联连接
 - [[ECC]] — 增强框架（同时支持 Claude Code 和 OpenCode）
+- [[MiMoCode]] — 基于 OpenCode 的衍生项目
 - [[ClaudeCode]] — 对比平台
 - [[Agent]] — Agent 核心概念
 - [[Hooks]] — 钩子系统（OpenCode 事件更丰富）
 - [[Skill]] — 技能扩展机制
 - [[摘要-ECC使用教程]] — 来源
+- [[摘要-mimo-code发布]] — MiMo Code 来源

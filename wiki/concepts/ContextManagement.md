@@ -33,8 +33,13 @@ last_updated: 2026-05-19
 - 任务间适时 clear
 - 描述越具体 token 越省（指令不足时 Agent 要花更多 token 探索）
 
+### MiMo Code 的 Checkpoint/Rebuild 机制
+- [[checkpoint-rebuild]] 在固定位置派出 writer Sub-agent 持久化结构化状态，接近上限时 rebuild 切换新窗口
+- 逻辑会话是 cycle 的无数量上限链
+
 ## 关联连接
 - [[Agent]] — 上下文管理所属概念
 - [[ClaudeCode]] — 管理工具
 - [[Codex]] — 管理工具
+- [[checkpoint-rebuild]] — MiMo Code 实现方案
 - [[AgentHarness]] — harness 核心组件

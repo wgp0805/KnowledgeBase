@@ -240,3 +240,7 @@
 ## [2026-06-11] ingest | 摄入最强AI设计智能体Lovart入门教程
 - **变更**: 新增 [[摘要-最强AI设计智能体Lovart入门教程]]; 新增实体 [[Lovart]]; 新增概念 [[AI设计智能体]], [[五要素法]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-11] ingest | 摄入小米 MiMo Code 发布与 Harness 架构解析文章
+- **变更**: 新增 [[摘要-mimo-code发布]], [[MiMoCode]], [[Xiaomi]], [[max-mode]], [[dynamic-workflow]], [[checkpoint-rebuild]]; 增量更新 [[goals]], [[AgentHarness]], [[ContextManagement]], [[OpenCode]]; 更新 [[index.md]]
+- **冲突**: 无
