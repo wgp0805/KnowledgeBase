@@ -244,3 +244,59 @@
 ## [2026-06-11] ingest | 摄入小米 MiMo Code 发布与 Harness 架构解析文章
 - **变更**: 新增 [[摘要-mimo-code发布]], [[MiMoCode]], [[Xiaomi]], [[max-mode]], [[dynamic-workflow]], [[checkpoint-rebuild]]; 增量更新 [[goals]], [[AgentHarness]], [[ContextManagement]], [[OpenCode]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-23] ingest | 摄入用Codex制作仙侠塔防游戏全流程文章
+- **变更**: 新增 [[摘要-用Codex制作仙侠塔防游戏]], [[Godot4]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 Codex 必装 skill 推荐文章
+- **变更**: 新增 [[摘要-codex必装skill推荐]], [[Web-access]], [[Agent-Reach]], [[HumanizerZh]], [[GitNexus]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 AI 中转站盈利与风险分析文章
+- **变更**: 新增 [[摘要-AI中转站盈利与风险分析]], [[AI中转站]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入用 Codex 制作中国风文字冒险游戏全流程文章
+- **变更**: 新增 [[摘要-用Codex制作中国风文字冒险游戏]], [[RenPy]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 OpenClaw 小龙虾教程汇总文章
+- **变更**: 新增 [[摘要-OpenClaw小龙虾教程汇总]], [[OpenClaw]], [[WorkBuddy]], [[QoderWork]], [[QClaw]], [[ClawBot]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 GPT-image-2 儿童画风玩法文章
+- **变更**: 新增 [[摘要-GPT-image-2儿童画风玩法]], [[GPT-image-2]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 GPT-image-2 服装设计玩法文章
+- **变更**: 新增 [[摘要-GPT-image-2服装设计玩法]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 Hermes Agent 小白入门指南文章
+- **变更**: 新增 [[摘要-HermesAgent小白入门指南]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 Obsidian 保姆级入门教程文章
+- **变更**: 新增 [[摘要-Obsidian保姆级入门教程]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 Claude Skills 保姆级教程文章
+- **变更**: 新增 [[摘要-ClaudeSkills保姆级教程]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 Claude Code 小白入门教程文章
+- **变更**: 新增 [[摘要-ClaudeCode小白入门教程]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 Codex 保姆级入门教程文章
+- **变更**: 新增 [[摘要-Codex保姆级入门教程]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 Docker 部署 OmnoBox 文章
+- **变更**: 新增 [[摘要-Docker部署OmnoBox]], [[OmnoBox]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-23] ingest | 批量摄入 raw/01-articles/ 全部 13 个文件
+- **变更**: 新增 13 篇 source 摘要; 新增 13 个实体页面; 新增 1 个概念页面; 更新 [[index.md]]
+- **冲突**: 无

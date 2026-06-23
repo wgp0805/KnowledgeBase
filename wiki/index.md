@@ -129,6 +129,19 @@
 - [[摘要-Spring-Boot-URule-规则引擎]] — Spring Boot 集成 URule 实现可视化规则引擎
 - [[摘要-最强AI设计智能体Lovart入门教程]] — Lovart/星流 AI 设计智能体零基础入门教程
 - [[摘要-mimo-code发布]] — 小米 MiMo Code 0.1 发布与 Harness 架构深度解析
+- [[摘要-用Codex制作仙侠塔防游戏]] — 利用 Codex + GPT-image-2 + Godot 4 制作仙侠塔防游戏全流程
+- [[摘要-codex必装skill推荐]] — 8 个推荐的 Codex Skill：浏览器控制、内容读取、去 AI 味、PPT 生成等
+- [[摘要-AI中转站盈利与风险分析]] — AI 中转站运作模式、盈利方式与法律风险分析
+- [[摘要-用Codex制作中国风文字冒险游戏]] — 利用 DeepSeek + GPT-image-2 + Ren'Py 制作中国风文字冒险游戏
+- [[摘要-OpenClaw小龙虾教程汇总]] — OpenClaw（小龙虾）全方位教程合集：部署、微信接入、实战案例
+- [[摘要-GPT-image-2儿童画风玩法]] — GPT-image-2 儿童画风新玩法：万物皆可童画
+- [[摘要-GPT-image-2服装设计玩法]] — GPT-image-2 以万物为灵感设计服装的新玩法
+- [[摘要-HermesAgent小白入门指南]] — Hermes Agent 完整入门指南：安装、配置、使用、进阶
+- [[摘要-Obsidian保姆级入门教程]] — Obsidian 知识管理工具入门教程：安装、插件、同步、图床
+- [[摘要-ClaudeSkills保姆级教程]] — Claude Skills 完整教程：概念、原理、安装、实战、安全
+- [[摘要-ClaudeCode小白入门教程]] — Claude Code 小白入门教程：概念、安装、使用
+- [[摘要-Codex保姆级入门教程]] — Codex 保姆级入门教程：概念、安装、使用、最新版本
+- [[摘要-Docker部署OmnoBox]] — Docker 一键部署 OmnoBox 爬虫管理工具
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -229,6 +242,19 @@
 - [[Lovart]] — LiblibAI 推出的 AI 设计智能体产品
 - [[MiMoCode]] — 小米基于 OpenCode 构建的 AI 编程 Agent 工具
 - [[Xiaomi]] — 中国消费电子与科技公司
+- [[Godot4]] — 开源跨平台游戏引擎
+- [[Web-access]] — Codex 浏览器控制 Skill
+- [[Agent-Reach]] — Codex 社交媒体内容读取 Skill
+- [[HumanizerZh]] — Codex 去 AI 味 Skill
+- [[GitNexus]] — Codex 代码知识图谱 Skill
+- [[RenPy]] — 开源视觉小说/文字冒险游戏引擎
+- [[OpenClaw]] — 开源 AI Agent 项目（小龙虾）
+- [[WorkBuddy]] — OpenClaw 一站式部署平台
+- [[QoderWork]] — 阿里 OpenClaw 部署平台
+- [[QClaw]] — 微信接入 OpenClaw 平台
+- [[ClawBot]] — 腾讯官方微信 ClawBot 插件
+- [[GPT-image-2]] — OpenAI 最新 AI 绘画模型
+- [[OmnoBox]] — 开源爬虫管理工具
 - [[CentOS]] — 基于 RHEL 的 Linux 发行版
 - [[Tomcat]] — Apache Servlet 容器
 - [[VMware]] — 虚拟化软件
@@ -367,6 +393,7 @@
 - [[checkpoint-rebuild]] — 分段持久化和重建上下文的无限延伸机制
 - [[Pod]] — K8s 最小调度单元，共享网络与存储
 - [[gray-tag-propagation]] — 灰度标记全链路传递机制
+- [[AI中转站]] — AI 模型服务中间代理层
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
