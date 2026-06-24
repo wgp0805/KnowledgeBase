@@ -142,6 +142,7 @@
 - [[摘要-ClaudeCode小白入门教程]] — Claude Code 小白入门教程：概念、安装、使用
 - [[摘要-Codex保姆级入门教程]] — Codex 保姆级入门教程：概念、安装、使用、最新版本
 - [[摘要-Docker部署OmnoBox]] — Docker 一键部署 OmnoBox 爬虫管理工具
+- [[摘要-AgentScopeJava2.0发布]] — AgentScope Java 2.0 发布：企业级分布式智能体框架
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -394,6 +395,14 @@
 - [[Pod]] — K8s 最小调度单元，共享网络与存储
 - [[gray-tag-propagation]] — 灰度标记全链路传递机制
 - [[AI中转站]] — AI 模型服务中间代理层
+- [[ReActAgent]] — 核心推理循环 Agent，思考→工具→观察循环
+- [[HarnessAgent]] — 推荐入口 Agent，ReActAgent 的工程化包装
+- [[Middleware]] — 中间件扩展机制，5个钩子位置
+- [[分布式部署]] — 企业级部署能力，任意副本恢复上下文
+- [[多租户隔离]] — 企业级安全能力，RuntimeContext 穿透
+- [[Workspace]] — 文件驱动架构，配置即代码
+- [[事件流]] — 流式响应能力，类型化事件流
+- [[子Agent编排]] — 动态任务委派，声明式配置
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

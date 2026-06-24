@@ -300,3 +300,7 @@
 ## [2026-06-23] ingest | 批量摄入 raw/01-articles/ 全部 13 个文件
 - **变更**: 新增 13 篇 source 摘要; 新增 13 个实体页面; 新增 1 个概念页面; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-23] ingest | 摄入 AgentScope Java 2.0 发布文章
+- **变更**: 新增 [[摘要-AgentScopeJava2.0发布]]; 增量更新 [[AgentScope_Java]]; 新增概念 [[ReActAgent]], [[HarnessAgent]], [[Middleware]], [[分布式部署]], [[多租户隔离]], [[Workspace]], [[事件流]], [[子Agent编排]]; 更新 [[index.md]]
+- **冲突**: 无
