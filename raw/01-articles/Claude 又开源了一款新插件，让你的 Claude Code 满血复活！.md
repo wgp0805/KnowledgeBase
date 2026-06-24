@@ -26,7 +26,7 @@ Claude Code 真正的杀手锏，是背后那一整套自动化能力，也就�
 
 一句话概括下，claude-code-setup 它就是项目的 Claude Code 一键配置工具。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/YpjkibZVj9d6IO6wtgl3ialfqVBrs7lCdqxSQlibicoSvTFgVjswjhENvJYYS7djAWI6wRhonntoRYoezPl0ztMF3oPnNGnvmC4FpzXa9payC28/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
+![图片](assets/Claude%20%E5%8F%88%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E6%AC%BE%E6%96%B0%E6%8F%92%E4%BB%B6%EF%BC%8C%E8%AE%A9%E4%BD%A0%E7%9A%84%20Claude%20Code%20%E6%BB%A1%E8%A1%80%E5%A4%8D%E6%B4%BB%EF%BC%81/485071e4bc063c13e1df4968cdb72c55_MD5.png)
 
 它背后是通过「 **claude-automation-recommender** 」这个 Skill 来完成的。
 
@@ -58,11 +58,11 @@ Claude Code 真正的杀手锏，是背后那一整套自动化能力，也就�
 
 安装好后它就会出现在 **Installed** 下面：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/YpjkibZVj9d7jXIzaquBbibBjoMPwn7OLaNhiao52enia58CgvXbbBHQ9wkslibibGS9XJBLQ0OuTFctKk5VlmnuKhUORrRfv360Hq94qAALznFIg/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=1)
+![图片](assets/Claude%20%E5%8F%88%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E6%AC%BE%E6%96%B0%E6%8F%92%E4%BB%B6%EF%BC%8C%E8%AE%A9%E4%BD%A0%E7%9A%84%20Claude%20Code%20%E6%BB%A1%E8%A1%80%E5%A4%8D%E6%B4%BB%EF%BC%81/de8de19b4b7460bfa1644b0b7c974200_MD5.png)
 
 Claude 桌面版也能安装，进行「 **Code** 」 面板，点击「 **Customize** 」 菜单，然后在「 **Personal plugins** 」中点击「 **Browse plugins** 」，然后再搜索安装即可：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/YpjkibZVj9d4TTibHeuPpOQLACp7LuJ5yQDpLfYABzqlibf2ZENXJq1MfkOvJ8YKlYDwTRxJtVlcXxKFZKZV97XxGJbt3JD8jbqgOUay8nm90k/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=2)
+![图片](assets/Claude%20%E5%8F%88%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E6%AC%BE%E6%96%B0%E6%8F%92%E4%BB%B6%EF%BC%8C%E8%AE%A9%E4%BD%A0%E7%9A%84%20Claude%20Code%20%E6%BB%A1%E8%A1%80%E5%A4%8D%E6%B4%BB%EF%BC%81/aec39f2634bcd822c6a00c0dccab0fc3_MD5.png)
 
 Claude Code 官方桌面端的安装和使用看这篇：
 
@@ -84,9 +84,9 @@ Claude Code 官方桌面端的安装和使用看这篇：
 
 以下是分析结果：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/YpjkibZVj9d4GeUXNZk8npRa4hEc7eeVF1vzGGqZibMKdqjtb0YkzRA2RTJXxFCGccbAfVCdtOIUBQTccibia2HuoBzFHl8Vu67sjvicVzMB6BAQ/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=3)
+![图片](assets/Claude%20%E5%8F%88%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E6%AC%BE%E6%96%B0%E6%8F%92%E4%BB%B6%EF%BC%8C%E8%AE%A9%E4%BD%A0%E7%9A%84%20Claude%20Code%20%E6%BB%A1%E8%A1%80%E5%A4%8D%E6%B4%BB%EF%BC%81/6078aa8ae77dfa7f765c10fcdc735c96_MD5.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/YpjkibZVj9d6yn0Zx3EOyxumCZhdSfUHxEIWM8m4B6MkmogkCW1icJzicP2KVAWlzU7Y8of7vOYuXicDkF9ngemn5XIXN3uZxXG6GWclBibcn3Bc/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=4)
+![图片](assets/Claude%20%E5%8F%88%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E6%AC%BE%E6%96%B0%E6%8F%92%E4%BB%B6%EF%BC%8C%E8%AE%A9%E4%BD%A0%E7%9A%84%20Claude%20Code%20%E6%BB%A1%E8%A1%80%E5%A4%8D%E6%B4%BB%EF%BC%81/6966c48026cf40b287260df82421f6ba_MD5.png)
 
 它只是给出了推荐清单，包括项目文档、MCP、Hooks、Skills、Subagents，全给我一一推荐了，但它并不会帮我直接配好，要实现哪几点你再告诉它，它才会动手配置。
 
