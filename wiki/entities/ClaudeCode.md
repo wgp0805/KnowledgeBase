@@ -40,9 +40,17 @@ Anthropic 在 2025 年 2 月推出的、原本为编程而生、运行在终端�
 - **SubAgent**：子 agent 并行处理
 - **Hook**：条件反射式自动触发器
 - **插件（Plugin）**：Skill + SubAgent + Hook + MCP 打包
-  - **claude-plugins-official**：Anthropic 官方开源的插件应用商店（GitHub 近 3 万 Star），已内置在 Claude Code 中，通过 `/plugin install` 命令零配置安装
+  - **[[claude-plugins-official]]**：Anthropic 官方开源的插件应用商店（GitHub 近 3 万 Star），已内置在 Claude Code 中，通过 `/plugin install` 命令零配置安装
   - 三类插件：LSP 语言服务（TypeScript/Python/Java/Go/C++ 等）、开发工作流（feature-dev、code-review、commit-commands）、外部工具集成（GitHub、GitLab、Figma、Linear、Playwright、Vercel、Sentry 等）
   - 插件目录结构：`.claude-plugin/plugin.json`（必填）+ 可选 `mcp.json`、`commands/`、`agents/`、`skills/`
+  - **[[claude-code-setup]]**：项目级一键自动化配置工具，背后通过 [[claude-automation-recommender]] Skill 扫描项目并产出 MCP/Skill/Hook/Subagent/Slash Command 五大能力的差异化推荐清单，全程只读不动文件
+
+### 社区最佳实践与工作流范式
+- **[[claude-code-best-practice]]**（GitHub 57k+ Star）系统整理 Claude Code 生态：核心能力、热门功能、工作流、Skill/Agent 精选集、83 条实战 Tips
+- **[[Command-Agent-Skill编排]]**：Command 触发 → Agent 扮演角色 → Skill 提供专业能力，系统工程化的核心模式
+- **[[Research-Plan-Execute-Review-Ship]]**：先研究→再计划→再执行→再审查→交付，主流工作流项目（Superpowers/Spec Kit/OpenSpec 等）共用范式
+- **[[跨模型工作流]]**：通过 Plugin/MCP/Router 三种机制与 Codex、Gemini、DeepSeek 等其他模型协同
+- 实战 Tips 经典两条：CLAUDE.md 单文件 ≤ 200 行；`.claude/rules/*.md` 在每个会话自动加载
 
 ### Spring 生态专属 Skill
 - **核心理念**：Claude Code 的上限完全取决于装了什么 Skill
@@ -88,6 +96,15 @@ Anthropic 在 2025 年 2 月推出的、原本为编程而生、运行在终端�
 - [[摘要-为什么Claude-Code不用RAG检索代码]] — 来源
 - [[摘要-claude-code-springboot-skills]] — 来源（Spring Skill 实战）
 - [[摘要-claude-code-plugins-official]] — 来源（官方插件市场开源）
+- [[摘要-claude-code-setup-plugin]] — 来源（一键配置插件）
+- [[摘要-claude-code-best-practice]] — 来源（57k+ Star 最佳实践仓库）
+- [[claude-code-setup]] — 官方一键配置插件
+- [[claude-automation-recommender]] — 配置推荐 Skill
+- [[claude-plugins-official]] — 官方插件市场
+- [[claude-code-best-practice]] — 社区最佳实践仓库
+- [[Command-Agent-Skill编排]] — 工作流核心架构
+- [[Research-Plan-Execute-Review-Ship]] — 五阶段开发范式
+- [[跨模型工作流]] — 多模型协同范式
 - [[AgenticSearch]] — 代码搜索范式
 - [[Ripgrep]] — Grep 底层工具
 - [[BorisCherny]] — 首席工程师

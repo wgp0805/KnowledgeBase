@@ -308,3 +308,11 @@
 ## [2026-06-24] ingest | 摄入 OpenSpec 规范驱动 AI 编程框架文章
 - **变更**: 新增 [[摘要-OpenSpec规范驱动AI编程框架]], [[OpenSpec]]; 增量更新 [[AICoding]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-24] ingest | 摄入 Claude Code 一键配置插件 claude-code-setup
+- **变更**: 新增 [[摘要-claude-code-setup-plugin]], [[claude-code-setup]], [[claude-automation-recommender]], [[claude-plugins-official]]; 增量更新 [[ClaudeCode]]; 更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-06-24] ingest | 摄入 Claude Code 最佳实践开源仓库 claude-code-best-practice (57k+ Star)
+- **变更**: 新增 [[摘要-claude-code-best-practice]], [[claude-code-best-practice]]; 新增概念 [[Command-Agent-Skill编排]], [[Research-Plan-Execute-Review-Ship]], [[跨模型工作流]]; 增量更新 [[ClaudeCode]]; 更新 [[index.md]]
+- **冲突**: 无

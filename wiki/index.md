@@ -144,6 +144,8 @@
 - [[摘要-Docker部署OmnoBox]] — Docker 一键部署 OmnoBox 爬虫管理工具
 - [[摘要-AgentScopeJava2.0发布]] — AgentScope Java 2.0 发布：企业级分布式智能体框架
 - [[摘要-OpenSpec规范驱动AI编程框架]] — OpenSpec 规范驱动 AI 编程框架介绍与使用教程
+- [[摘要-claude-code-setup-plugin]] — Anthropic 官方一键自动化配置插件 claude-code-setup 详解
+- [[摘要-claude-code-best-practice]] — GitHub 57k+ Star 的 Claude Code 最佳实践仓库全景解析
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -302,6 +304,10 @@
 - [[OpenFeign]] — 声明式 HTTP 客户端
 - [[Prometheus]] — 开源监控系统
 - [[Grafana]] — 开源可视化平台
+- [[claude-code-setup]] — Anthropic 官方 Claude Code 一键自动化配置插件
+- [[claude-automation-recommender]] — claude-code-setup 背后的项目扫描与推荐 Skill
+- [[claude-plugins-official]] — Anthropic 官方 Claude Code 插件应用商店
+- [[claude-code-best-practice]] — GitHub 57k+ Star 的 Claude Code 最佳实践开源仓库
 ## Concepts
 - [[MVCC]] — 多版本并发控制机制
 - [[WAL]] — 预写日志机制
@@ -405,6 +411,9 @@
 - [[Workspace]] — 文件驱动架构，配置即代码
 - [[事件流]] — 流式响应能力，类型化事件流
 - [[子Agent编排]] — 动态任务委派，声明式配置
+- [[Command-Agent-Skill编排]] — Claude Code 工作流核心编排架构（Command 触发 / Agent 扮演 / Skill 供能）
+- [[Research-Plan-Execute-Review-Ship]] — Claude Code 主流工作流共用的五阶段开发范式
+- [[跨模型工作流]] — 通过 Plugin/MCP/Router 三种机制在 Claude Code 中协同其他模型
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
