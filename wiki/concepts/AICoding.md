@@ -2,8 +2,8 @@
 title: "AICoding"
 type: concept
 tags: [AI, 编程, 范式转变]
-sources: [raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md]
-last_updated: 2026-06-05
+sources: [raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md]
+last_updated: 2026-06-24
 ---
 
 ## 定义
@@ -66,3 +66,5 @@ AI 辅助编程范式，工程师角色从代码执行者转变为任务管理�
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南
 - [[cognitive-offloading]] — 认知卸载风险
 - [[摘要-AI-agent工具应该怎么使用]] — 来源
+- [[OpenSpec]] — 规范驱动 AI 编程框架
+- [[摘要-OpenSpec规范驱动AI编程框架]] — 来源

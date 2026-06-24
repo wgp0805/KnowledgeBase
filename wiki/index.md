@@ -143,6 +143,7 @@
 - [[摘要-Codex保姆级入门教程]] — Codex 保姆级入门教程：概念、安装、使用、最新版本
 - [[摘要-Docker部署OmnoBox]] — Docker 一键部署 OmnoBox 爬虫管理工具
 - [[摘要-AgentScopeJava2.0发布]] — AgentScope Java 2.0 发布：企业级分布式智能体框架
+- [[摘要-OpenSpec规范驱动AI编程框架]] — OpenSpec 规范驱动 AI 编程框架介绍与使用教程
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -256,6 +257,7 @@
 - [[ClawBot]] — 腾讯官方微信 ClawBot 插件
 - [[GPT-image-2]] — OpenAI 最新 AI 绘画模型
 - [[OmnoBox]] — 开源爬虫管理工具
+- [[OpenSpec]] — 规范驱动 AI 编程框架，核心思想"先对齐需求，再写代码"
 - [[CentOS]] — 基于 RHEL 的 Linux 发行版
 - [[Tomcat]] — Apache Servlet 容器
 - [[VMware]] — 虚拟化软件

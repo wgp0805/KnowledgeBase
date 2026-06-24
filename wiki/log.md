@@ -304,3 +304,7 @@
 ## [2026-06-23] ingest | 摄入 AgentScope Java 2.0 发布文章
 - **变更**: 新增 [[摘要-AgentScopeJava2.0发布]]; 增量更新 [[AgentScope_Java]]; 新增概念 [[ReActAgent]], [[HarnessAgent]], [[Middleware]], [[分布式部署]], [[多租户隔离]], [[Workspace]], [[事件流]], [[子Agent编排]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-24] ingest | 摄入 OpenSpec 规范驱动 AI 编程框架文章
+- **变更**: 新增 [[摘要-OpenSpec规范驱动AI编程框架]], [[OpenSpec]]; 增量更新 [[AICoding]]; 更新 [[index.md]]
+- **冲突**: 无
