@@ -21,6 +21,11 @@ import requests
 import yaml
 from bs4 import BeautifulSoup
 import html2text
+import sys, io
+if sys.stdout.encoding and sys.stdout.encoding.upper() not in ("UTF-8", "UTF8"):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_PATH = BASE_DIR / "scripts" / "sources.yaml"
