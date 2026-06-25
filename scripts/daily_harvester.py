@@ -88,9 +88,26 @@ def html_to_markdown(html: str, url: str = "") -> str:
     converter.protect_links = True
     converter.unicode_snob = True
     md = converter.handle(html)
-    if url:
-        md += f"\n\n---\n> 原文链接: {url}"
-    return md
+   if url:
+       md += f"\n\n---\n> 原文链接: {url}"
+   return md
+
+
+def fetch_full_content(url: str) -> Optional[str]:
+    """尝试抓取文章完整 HTML 内容并转为 Markdown"""
+    try:
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        r = requests.get(url, headers=headers, timeout=15)
+        r.raise_for_status()
+        if r.encoding and r.encoding.upper() != "UTF-8":
+            r.encoding = r.apparent_encoding
+        md = html_to_markdown(r.text, url)
+        if len(md.strip()) < 100:
+            return None
+        return md
+    except Exception as e:
+        print(f"    [WARN] 无法获取完整内容: {e}")
+        return None
 
 
 def relevance_score(text: str, wiki_tags: list, source_tags: list) -> float:
@@ -286,13 +303,10 @@ def process_entries(entries: list, seen: set, wiki_tags: list, config: dict) -> 
     result = []
     filter_cfg = config.get("filter", {})
     min_score = filter_cfg.get("min_score", 0.15)
-    max_total = filter_cfg.get("max_total", 50)
+    max_total = filter_cfg.get("max_total", 10)
 
+    candidates = []
     for entry in entries:
-        if len(result) >= max_total:
-            print(f"  [INFO] 已达当日上限 ({max_total})，停止过滤")
-            break
-
         url = entry.get("link", "")
         if not url:
             continue
@@ -313,8 +327,19 @@ def process_entries(entries: list, seen: set, wiki_tags: list, config: dict) -> 
             print(f"  [SKIP] 相关性不足 ({score}): {entry['title'][:50]}")
             continue
 
-        result.append(entry)
+        candidates.append(entry)
+
+    # 按评分降序排序，取前 max_total 篇
+    candidates.sort(key=lambda e: e["score"], reverse=True)
+    result = candidates[:max_total]
+
+    # 所有候选都标记为已见（避免明天重复抓取）
+    for entry in candidates:
+        url_hash = hashlib.md5(entry["link"].encode()).hexdigest()
         seen.add(url_hash)
+
+    if len(candidates) > max_total:
+        print(f"  [INFO] 候选 {len(candidates)} 篇，取评分前 {max_total} 篇，舍弃 {len(candidates) - max_total} 篇")
 
     return result
 
@@ -332,6 +357,23 @@ def save_article(entry: dict) -> Optional[Path]:
         fname = f"{TODAY}-{safe_name}_{counter}.md"
         fpath = RAW_DIR / fname
         counter += 1
+
+    # 构建内容
+    content_md = None
+    if entry.get("content"):
+        content_md = html_to_markdown(entry["content"], entry["link"])
+    elif entry.get("summary"):
+        content_md = entry["summary"]
+        if entry["link"]:
+            content_md += f"\n\n---\n> 原文链接: {entry['link']}"
+
+    # 如果内容太短（<500字），尝试抓取原文完整内容
+    if content_md and len(content_md.strip()) < 500 and entry.get("link"):
+        print(f"    [FETCH] 内容较短，尝试获取完整内容: {title[:40]}")
+        full = fetch_full_content(entry["link"])
+        if full:
+            content_md = full
+            print(f"    [OK] 成功获取完整内容 ({len(full)} 字符)")
 
     md = f"""---
 title: "{title}"
@@ -352,13 +394,8 @@ auto_captured: true
 
 """
 
-    if entry.get("content"):
-        content_md = html_to_markdown(entry["content"], entry["link"])
+    if content_md:
         md += content_md
-    elif entry.get("summary"):
-        md += entry["summary"]
-        if entry["link"]:
-            md += f"\n\n---\n> 原文链接: {entry['link']}"
     else:
         md += f"*（仅标题，无正文内容）*\n\n原文链接: {entry['link']}"
 
@@ -398,8 +435,17 @@ def generate_digest(saved: list, skipped_count: int, total_checked: int):
     lines.append("---")
     lines.append(f"*自动生成于 {NOW.strftime('%Y-%m-%d %H:%M')}*")
 
-    with open(DIGEST_PATH, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
+   with open(DIGEST_PATH, "w", encoding="utf-8") as f:
+       f.write("\n".join(lines))
+
+
+def cleanup_low_score_articles(saved_paths: list):
+    """删除当天未进入前10的文章文件"""
+    today_prefix = f"{TODAY}-"
+    for f in RAW_DIR.glob(f"{today_prefix}*.md"):
+        if f not in saved_paths:
+            f.unlink()
+            print(f"   [CLEAN] 删除低分文章: {f.name}")
 
 
 def main():
@@ -440,6 +486,7 @@ def main():
             saved_paths.append(fpath)
             print(f"   [SAVED] {fpath.name}")
 
+    cleanup_low_score_articles(saved_paths)
     save_seen(seen)
     generate_digest(saved_entries, skipped, len(all_entries))
     print(f"\n[INFO] 摘要已生成: {DIGEST_PATH}")
