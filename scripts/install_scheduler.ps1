@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
   安装知识库每日自动抓取计划任务
 .DESCRIPTION
