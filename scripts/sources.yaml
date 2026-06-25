@@ -1,171 +1,236 @@
-# ============================================================
-# 知识库自动抓取 - 信息源配置
-# ============================================================
-
 sources:
-  # ─── AI / LLM / Agent ───
-  - name: "Simon Willison"
-    type: atom
-    url: https://simonwillison.net/atom/everything/
-    tags: [AI, LLM, 工具, Python, 数据]
-    enabled: true
-
-  - name: "Hacker News AI"
-    type: rss
-    url: https://hnrss.org/frontpage?q=AI+OR+LLM+OR+Agent+OR+GPT+OR+Claude+OR+RAG
-    tags: [AI, LLM, Agent, 技术]
-    enabled: true
-
-  - name: "TechCrunch AI"
-    type: rss
-    url: https://techcrunch.com/category/artificial-intelligence/feed/
-    tags: [AI, LLM, 创业, 新闻]
-    enabled: true
-
-  - name: "VentureBeat AI"
-    type: rss
-    url: https://venturebeat.com/category/ai/feed/
-    tags: [AI, LLM, 行业, 新闻]
-    enabled: true
-
-  - name: "arXiv AI"
-    type: rss
-    url: http://export.arxiv.org/rss/cs.AI
-    tags: [AI, 论文, 研究]
-    max_per_source: 10
-    enabled: true
-
-  - name: "arXiv CL"
-    type: rss
-    url: http://export.arxiv.org/rss/cs.CL
-    tags: [NLP, 论文, 研究]
-    max_per_source: 10
-    enabled: true
-
-  - name: "arXiv SE"
-    type: rss
-    url: http://export.arxiv.org/rss/cs.SE
-    tags: [软件工程, 论文, 研究]
-    max_per_source: 10
-    enabled: true
-
-  # ─── Java / Spring ───
-  - name: "Spring Blog"
-    type: atom
-    url: https://spring.io/blog.atom
-    tags: [Java, Spring, SpringBoot, SpringCloud]
-    enabled: true
-
-  - name: "Baeldung"
-    type: rss
-    url: https://www.baeldung.com/feed
-    tags: [Java, Spring, 教程, 实践]
-    enabled: true
-
-  - name: "InfoQ Java"
-    type: rss
-    url: https://feed.infoq.com/java
-    tags: [Java, 架构, 新闻]
-    enabled: true
-
-  - name: "JetBrains Blog"
-    type: rss
-    url: https://blog.jetbrains.com/feed/
-    tags: [Java, IDE, 工具, Kotlin]
-    enabled: true
-
-  # ─── 数据库 / 中间件 ───
-  - name: "PostgreSQL Weekly"
-    type: rss
-    url: https://postgresweekly.com/rss/
-    tags: [PostgreSQL, 数据库, SQL]
-    enabled: true
-
-  - name: "Elastic Blog"
-    type: rss
-    url: https://www.elastic.co/blog/feed
-    tags: [Elasticsearch, 搜索, 数据库, 可观测]
-    enabled: true
-
-  # ─── 开发工具 / DevOps ───
-  - name: "GitHub Blog"
-    type: rss
-    url: https://github.blog/feed/
-    tags: [Git, 开源, 开发工具, DevOps]
-    enabled: true
-
-  # ─── 中文技术 ───
-  - name: "博客园"
-    type: rss
-    url: https://www.cnblogs.com/rss.aspx
-    tags: [编程, 中文, 技术]
-    enabled: true
-
-  - name: "掘金-后端"
-    type: api
-    url: https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed
-    method: POST
-    payload: {"before": "0", "limit": 10, "category_id": "6809637769959178254"}
-    data_path: ["data"]
-    item_path: ["item_info", "article_info"]
-    title_field: title
-    link_template: "https://juejin.cn/post/{article_id}"
-    tags: [Java, 后端, 编程, 中文]
-    enabled: true
-
-  - name: "掘金-AI"
-    type: api
-    url: https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed
-    method: POST
-    payload: {"before": "0", "limit": 10, "category_id": "6809637773935378440"}
-    data_path: ["data"]
-    item_path: ["item_info", "article_info"]
-    title_field: title
-    link_template: "https://juejin.cn/post/{article_id}"
-    tags: [AI, LLM, 编程, 中文]
-    enabled: true
-
-  - name: "知乎探索"
-    type: scrape
-    url: https://www.zhihu.com/explore
-    selector: "a[href*='/question/']"
-    link_prefix: "https://www.zhihu.com"
-    tags: [科技, 问答, 中文]
-    enabled: true
-
-  - name: "OSChina"
-    type: rss
-    url: https://www.oschina.net/news/rss
-    tags: [开源, 中文, 编程, 新闻]
-    enabled: true
-
-  - name: "SegmentFault"
-    type: rss
-    url: https://segmentfault.com/feeds
-    tags: [中文, 编程, 问答, 技术]
-    enabled: true
-
-  - name: "Solidot"
-    type: rss
-    url: https://www.solidot.org/index.rss
-    tags: [科技, 新闻, 中文]
-    enabled: true
-
-  # ─── 综合 ───
-  - name: "TLDR AI"
-    type: rss
-    url: https://tldr.tech/api/rss/ai
-    tags: [AI, LLM, 新闻, 摘要]
-    enabled: true
-
-# ─── 过滤设置 ───
+- name: Simon Willison
+  type: atom
+  url: https://simonwillison.net/atom/everything/
+  tags:
+  - AI
+  - LLM
+  - 工具
+  - Python
+  - 数据
+  enabled: false
+- name: Hacker News AI
+  type: rss
+  url: https://hnrss.org/frontpage?q=AI+OR+LLM+OR+Agent+OR+GPT+OR+Claude+OR+RAG
+  tags:
+  - AI
+  - LLM
+  - Agent
+  - 技术
+  enabled: false
+- name: TechCrunch AI
+  type: rss
+  url: https://techcrunch.com/category/artificial-intelligence/feed/
+  tags:
+  - AI
+  - LLM
+  - 创业
+  - 新闻
+  enabled: false
+- name: VentureBeat AI
+  type: rss
+  url: https://venturebeat.com/category/ai/feed/
+  tags:
+  - AI
+  - LLM
+  - 行业
+  - 新闻
+  enabled: false
+- name: arXiv AI
+  type: rss
+  url: http://export.arxiv.org/rss/cs.AI
+  tags:
+  - AI
+  - 论文
+  - 研究
+  max_per_source: 10
+  enabled: false
+- name: arXiv CL
+  type: rss
+  url: http://export.arxiv.org/rss/cs.CL
+  tags:
+  - NLP
+  - 论文
+  - 研究
+  max_per_source: 10
+  enabled: false
+- name: arXiv SE
+  type: rss
+  url: http://export.arxiv.org/rss/cs.SE
+  tags:
+  - 软件工程
+  - 论文
+  - 研究
+  max_per_source: 10
+  enabled: false
+- name: Spring Blog
+  type: atom
+  url: https://spring.io/blog.atom
+  tags:
+  - Java
+  - Spring
+  - SpringBoot
+  - SpringCloud
+  enabled: false
+- name: Baeldung
+  type: rss
+  url: https://www.baeldung.com/feed
+  tags:
+  - Java
+  - Spring
+  - 教程
+  - 实践
+  enabled: false
+- name: InfoQ Java
+  type: rss
+  url: https://feed.infoq.com/java
+  tags:
+  - Java
+  - 架构
+  - 新闻
+  enabled: false
+- name: JetBrains Blog
+  type: rss
+  url: https://blog.jetbrains.com/feed/
+  tags:
+  - Java
+  - IDE
+  - 工具
+  - Kotlin
+  enabled: false
+- name: PostgreSQL Weekly
+  type: rss
+  url: https://postgresweekly.com/rss/
+  tags:
+  - PostgreSQL
+  - 数据库
+  - SQL
+  enabled: false
+- name: Elastic Blog
+  type: rss
+  url: https://www.elastic.co/blog/feed
+  tags:
+  - Elasticsearch
+  - 搜索
+  - 数据库
+  - 可观测
+  enabled: false
+- name: GitHub Blog
+  type: rss
+  url: https://github.blog/feed/
+  tags:
+  - Git
+  - 开源
+  - 开发工具
+  - DevOps
+  enabled: false
+- name: 博客园
+  type: rss
+  url: https://www.cnblogs.com/rss.aspx
+  tags:
+  - 编程
+  - 中文
+  - 技术
+  enabled: true
+  max_per_source: 10
+- name: 掘金-后端
+  type: api
+  url: https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed
+  method: POST
+  payload:
+    before: '0'
+    limit: 10
+    category_id: '6809637769959178254'
+  data_path:
+  - data
+  item_path:
+  - item_info
+  - article_info
+  title_field: title
+  link_template: https://juejin.cn/post/{article_id}
+  tags:
+  - Java
+  - 后端
+  - 编程
+  - 中文
+  enabled: true
+  max_per_source: 10
+- name: 掘金-AI
+  type: api
+  url: https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed
+  method: POST
+  payload:
+    before: '0'
+    limit: 10
+    category_id: '6809637773935378440'
+  data_path:
+  - data
+  item_path:
+  - item_info
+  - article_info
+  title_field: title
+  link_template: https://juejin.cn/post/{article_id}
+  tags:
+  - AI
+  - LLM
+  - 编程
+  - 中文
+  enabled: true
+  max_per_source: 10
+- name: 知乎探索
+  type: scrape
+  url: https://www.zhihu.com/explore
+  selector: a[href*='/question/']
+  link_prefix: https://www.zhihu.com
+  tags:
+  - 科技
+  - 问答
+  - 中文
+  enabled: true
+  max_per_source: 10
+- name: OSChina
+  type: rss
+  url: https://www.oschina.net/news/rss
+  tags:
+  - 开源
+  - 中文
+  - 编程
+  - 新闻
+  enabled: true
+  max_per_source: 10
+- name: SegmentFault
+  type: rss
+  url: https://segmentfault.com/feeds
+  tags:
+  - 中文
+  - 编程
+  - 问答
+  - 技术
+  enabled: true
+  max_per_source: 10
+- name: Solidot
+  type: rss
+  url: https://www.solidot.org/index.rss
+  tags:
+  - 科技
+  - 新闻
+  - 中文
+  enabled: true
+  max_per_source: 10
+- name: TLDR AI
+  type: rss
+  url: https://tldr.tech/api/rss/ai
+  tags:
+  - AI
+  - LLM
+  - 新闻
+  - 摘要
+  enabled: false
 filter:
   min_score: 0.15
   max_per_source: 5
-  max_total: 50
-
-# ─── 存储设置 ───
+  max_total: 10
 storage:
-  raw_dir: "raw/01-articles"
-  digest_file: "raw/_daily_digest.md"
-  seen_file: "scripts/.seen_urls.json"
+  raw_dir: raw/01-articles
+  digest_file: raw/_daily_digest.md
+  seen_file: scripts/.seen_urls.json
