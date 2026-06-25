@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 知识库自动抓取器 (Daily Harvester)
-从配置的信息源抓取文章，过滤后存入 raw/ 目录供后续 /ingest 处理。
+从配置的信息源并发抓取文章，过滤后存入 raw/ 目录供后续 /ingest 处理。
 """
 
 import hashlib
@@ -11,6 +11,7 @@ import os
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Optional
@@ -32,6 +33,10 @@ WIKI_DIR = BASE_DIR / "wiki"
 TZ = timezone(timedelta(hours=8))
 NOW = datetime.now(TZ)
 TODAY = NOW.strftime("%Y-%m-%d")
+
+# 并发控制
+MAX_WORKERS = 8
+FEED_TIMEOUT = 20
 
 
 def load_config() -> dict:
@@ -121,35 +126,31 @@ def sanitize_filename(title: str) -> str:
     return name
 
 
-def fetch_article_content(url: str) -> Optional[str]:
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                          "AppleWebKit/537.36 (KHTML, like Gecko) "
-                          "Chrome/125.0.0.0 Safari/537.36"
-        }
-        resp = requests.get(url, headers=headers, timeout=15)
-        resp.raise_for_status()
-        return resp.text
-    except Exception as e:
-        print(f"  ⚠ 获取全文失败: {e}")
-        return None
-
-
 def fetch_feed(source: dict) -> list:
-    print(f"  [RSS] 正在抓取: {source['name']}")
+    """抓取一个信息源，返回条目列表"""
+    name = source["name"]
+    url = source["url"]
+    max_per = source.get("max_per_source", 5)
+
+    print(f"  [RSS] 正在抓取: {name}")
     try:
-        feed = feedparser.parse(source["url"])
+        feed = feedparser.parse(url)
         entries = []
-        for entry in feed.entries[:source.get("max_per_source", 5)]:
+        for entry in feed.entries[:max_per]:
+            # 提取内容（兼容不同 feed 格式）
+            content_html = ""
+            if entry.get("content"):
+                content_html = entry["content"][0].get("value", "")
+            elif entry.get("description"):
+                content_html = entry["description"]
+
             entries.append({
                 "title": entry.get("title", "无标题"),
                 "link": entry.get("link", ""),
                 "published": entry.get("published", ""),
                 "summary": entry.get("summary", ""),
-                "content": entry.get("content", [{}])[0].get("value", "")
-                if entry.get("content") else "",
-                "source_name": source["name"],
+                "content": content_html,
+                "source_name": name,
                 "source_tags": source.get("tags", []),
             })
         print(f"    -> 获取 {len(entries)} 篇")
@@ -163,8 +164,13 @@ def process_entries(entries: list, seen: set, wiki_tags: list, config: dict) -> 
     result = []
     filter_cfg = config.get("filter", {})
     min_score = filter_cfg.get("min_score", 0.15)
+    max_total = filter_cfg.get("max_total", 50)
 
     for entry in entries:
+        if len(result) >= max_total:
+            print(f"  [INFO] 已达当日上限 ({max_total})，停止过滤")
+            break
+
         url = entry.get("link", "")
         if not url:
             continue
@@ -244,7 +250,7 @@ def generate_digest(saved: list, skipped_count: int, total_checked: int):
     DIGEST_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     lines = [
-        f"# [RSS] 每日抓取摘要 — {TODAY}",
+        f"# 每日抓取摘要 - {TODAY}",
         "",
         f"| 指标 | 数值 |",
         f"|------|------|",
@@ -255,12 +261,12 @@ def generate_digest(saved: list, skipped_count: int, total_checked: int):
     ]
 
     if saved:
-        lines.append("## [OK] 今日新抓取")
+        lines.append("## 今日新抓取")
         lines.append("")
         for s in saved:
             fname = sanitize_filename(s["title"])
             rel_path = f"raw/01-articles/{TODAY}-{fname}.md"
-            lines.append(f"- [[{rel_path}]] — **{s['title']}**")
+            lines.append(f"- [[{rel_path}]] - **{s['title']}**")
             lines.append(f"  - 来源: {s['source_name']} | 评分: {s['score']}")
             lines.append("")
     else:
@@ -276,46 +282,54 @@ def generate_digest(saved: list, skipped_count: int, total_checked: int):
 
 def main():
     print(f"\n{'='*50}")
-    print(f"  知识库自动抓取 — {TODAY}")
+    print(f"  知识库自动抓取 - {TODAY}")
     print(f"{'='*50}\n")
 
     config = load_config()
     sources = [s for s in config["sources"] if s.get("enabled", True)]
-    print(f" 已启用信息源: {len(sources)} 个")
+    print(f"[INFO] 已启用信息源: {len(sources)} 个")
 
     wiki_tags = load_wiki_tags()
-    print(f" 知识库标签: {len(wiki_tags)} 个")
+    print(f"[INFO] 知识库标签: {len(wiki_tags)} 个")
 
     seen = load_seen()
-    print(f" 历史记录: {len(seen)} 条\n")
+    print(f"[INFO] 历史记录: {len(seen)} 条\n")
 
+    # 并发抓取所有源
     all_entries = []
-    for source in sources:
-        entries = fetch_feed(source)
-        all_entries.extend(entries)
-        time.sleep(0.5)
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        fut_map = {executor.submit(fetch_feed, s): s for s in sources}
+        for fut in as_completed(fut_map):
+            entries = fut.result()
+            all_entries.extend(entries)
 
-    print(f"\n 共获取 {len(all_entries)} 篇原始条目")
+    print(f"\n[INFO] 共获取 {len(all_entries)} 篇原始条目")
 
+    # 过滤
     saved_entries = process_entries(all_entries, seen, wiki_tags, config)
     skipped = len(all_entries) - len(saved_entries)
 
-    print(f"\n 过滤结果:")
+    print(f"\n[STATS] 过滤结果:")
     print(f"   [OK] 保存: {len(saved_entries)} 篇")
     print(f"   [SKIP] 跳过: {skipped} 篇（去重/低分）")
 
+    # 保存文章
     saved_paths = []
     for entry in saved_entries:
         fpath = save_article(entry)
         if fpath:
             saved_paths.append(fpath)
-            print(f"   [SAVED] 已保存: {fpath.name}")
+            print(f"   [SAVED] {fpath.name}")
 
+    # 保存去重记录
     save_seen(seen)
+
+    # 生成摘要
     generate_digest(saved_entries, skipped, len(all_entries))
+    print(f"\n[INFO] 摘要已生成: {DIGEST_PATH}")
 
     print(f"\n{'='*50}")
-    print(f"  [OK] 完成！共保存 {len(saved_paths)} 篇新文章")
+    print(f"  [DONE] 完成！共保存 {len(saved_paths)} 篇新文章")
     print(f"{'='*50}\n")
 
     return 0
