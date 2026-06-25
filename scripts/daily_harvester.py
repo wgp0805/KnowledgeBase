@@ -101,8 +101,24 @@ def fetch_full_content(url: str) -> Optional[str]:
         r.raise_for_status()
         if r.encoding and r.encoding.upper() != "UTF-8":
             r.encoding = r.apparent_encoding
-        md = html_to_markdown(r.text, url)
-        if len(md.strip()) < 100:
+        soup = BeautifulSoup(r.text, "html.parser")
+        for tag in soup(["script", "style", "nav", "footer", "header", "aside", "iframe"]):
+            tag.decompose()
+        article = None
+        for selector in ["article", "[role='main']", ".post-content", ".article-content", ".article-detail", ".blogpost-body", "#post_detail", "#cnblogs_post_body", ".content", ".main-content", ".post-body", ".entry-content", ".markdown-body", ".article-body", "#article-content", ".rich-content"]:
+            article = soup.select_one(selector)
+            if article:
+                break
+        if not article:
+            body = soup.find("body")
+            if body:
+                candidates = body.find_all(["div", "article", "section"], recursive=True)
+                if candidates:
+                    article = max(candidates, key=lambda d: len(d.get_text(strip=True)))
+        if not article:
+            article = soup
+        md = html_to_markdown(str(article), url)
+        if len(md.strip()) < 200:
             return None
         return md
     except Exception as e:
