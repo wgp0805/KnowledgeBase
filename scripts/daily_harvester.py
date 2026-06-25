@@ -137,7 +137,6 @@ def _deep_get(obj, path):
 
 
 def fetch_feed_rss(source: dict) -> list:
-    """抓取 RSS/Atom 源"""
     name = source["name"]
     url = source["url"]
     max_per = source.get("max_per_source", 5)
@@ -168,7 +167,6 @@ def fetch_feed_rss(source: dict) -> list:
 
 
 def fetch_feed_api(source: dict) -> list:
-    """抓取 API (JSON) 源"""
     name = source["name"]
     url = source["url"]
     max_per = source.get("max_per_source", 5)
@@ -192,24 +190,30 @@ def fetch_feed_api(source: dict) -> list:
         if not isinstance(items, list):
             items = data.get("data", [])
 
+        item_path = source.get("item_path", [])
         title_field = source.get("title_field", "title")
         link_template = source.get("link_template", "")
-        summary_field = source.get("summary_field", "summary")
+        summary_field = source.get("summary_field", "brief_content")
 
         entries = []
         for item in items[:max_per]:
-            if isinstance(item, dict):
-                title = item.get(title_field, "无标题")
-                summary = item.get(summary_field, "")
+            # 如果配置了 item_path，先提取嵌套的 item
+            raw_item = item
+            if item_path:
+                raw_item = _deep_get(item, item_path)
+
+            if isinstance(raw_item, dict):
+                title = raw_item.get(title_field, "无标题")
+                summary = raw_item.get(summary_field, "")
                 link = ""
                 if link_template:
-                    link = link_template.format(**item)
+                    link = link_template.format(**raw_item)
                 entries.append({
                     "title": title,
                     "link": link,
-                    "published": item.get("published", item.get("date", item.get("time", ""))),
+                    "published": raw_item.get("published", raw_item.get("ctime", raw_item.get("date", ""))),
                     "summary": summary,
-                    "content": item.get("content", item.get("body", "")),
+                    "content": raw_item.get("content", raw_item.get("mark_content", "")),
                     "source_name": name,
                     "source_tags": source.get("tags", []),
                 })
@@ -221,7 +225,6 @@ def fetch_feed_api(source: dict) -> list:
 
 
 def fetch_feed_scrape(source: dict) -> list:
-    """抓取 HTML 页面（scrape）"""
     name = source["name"]
     url = source["url"]
     max_per = source.get("max_per_source", 5)
@@ -265,7 +268,6 @@ def fetch_feed_scrape(source: dict) -> list:
 
 
 def fetch_feed(source: dict) -> list:
-    """根据 type 分发到不同的抓取函数"""
     stype = source.get("type", "rss").lower()
     if stype == "api":
         return fetch_feed_api(source)
