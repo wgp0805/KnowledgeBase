@@ -88,9 +88,9 @@ def html_to_markdown(html: str, url: str = "") -> str:
     converter.protect_links = True
     converter.unicode_snob = True
     md = converter.handle(html)
-   if url:
-       md += f"\n\n---\n> 原文链接: {url}"
-   return md
+    if url:
+        md += f"\n\n---\n> 原文链接: {url}"
+    return md
 
 
 def fetch_full_content(url: str) -> Optional[str]:
@@ -435,8 +435,8 @@ def generate_digest(saved: list, skipped_count: int, total_checked: int):
     lines.append("---")
     lines.append(f"*自动生成于 {NOW.strftime('%Y-%m-%d %H:%M')}*")
 
-   with open(DIGEST_PATH, "w", encoding="utf-8") as f:
-       f.write("\n".join(lines))
+    with open(DIGEST_PATH, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
 
 
 def cleanup_low_score_articles(saved_paths: list):
