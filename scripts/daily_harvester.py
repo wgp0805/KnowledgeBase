@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 知识库自动抓取器 (Daily Harvester)
-从配置的信息源并发抓取文章，过滤后存入 raw/ 目录供后续 /ingest 处理。
+支持 RSS/Atom、API (JSON)、Scrape (HTML) 三种源类型。
 """
 
 import hashlib
@@ -22,7 +22,6 @@ import yaml
 from bs4 import BeautifulSoup
 import html2text
 
-# ─── 路径 ───
 BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_PATH = BASE_DIR / "scripts" / "sources.yaml"
 SEEN_PATH = BASE_DIR / "scripts" / ".seen_urls.json"
@@ -34,7 +33,6 @@ TZ = timezone(timedelta(hours=8))
 NOW = datetime.now(TZ)
 TODAY = NOW.strftime("%Y-%m-%d")
 
-# 并发控制
 MAX_WORKERS = 8
 FEED_TIMEOUT = 20
 
@@ -126,24 +124,33 @@ def sanitize_filename(title: str) -> str:
     return name
 
 
-def fetch_feed(source: dict) -> list:
-    """抓取一个信息源，返回条目列表"""
+def _deep_get(obj, path):
+    """从嵌套 dict 中按路径取值"""
+    for key in path:
+        if isinstance(obj, dict):
+            obj = obj.get(key, {})
+        elif isinstance(obj, list) and len(obj) > 0:
+            obj = obj[0].get(key, {}) if isinstance(obj[0], dict) else {}
+        else:
+            return {}
+    return obj
+
+
+def fetch_feed_rss(source: dict) -> list:
+    """抓取 RSS/Atom 源"""
     name = source["name"]
     url = source["url"]
     max_per = source.get("max_per_source", 5)
-
     print(f"  [RSS] 正在抓取: {name}")
     try:
         feed = feedparser.parse(url)
         entries = []
         for entry in feed.entries[:max_per]:
-            # 提取内容（兼容不同 feed 格式）
             content_html = ""
             if entry.get("content"):
                 content_html = entry["content"][0].get("value", "")
             elif entry.get("description"):
                 content_html = entry["description"]
-
             entries.append({
                 "title": entry.get("title", "无标题"),
                 "link": entry.get("link", ""),
@@ -158,6 +165,114 @@ def fetch_feed(source: dict) -> list:
     except Exception as e:
         print(f"    [ERR] 抓取失败: {e}")
         return []
+
+
+def fetch_feed_api(source: dict) -> list:
+    """抓取 API (JSON) 源"""
+    name = source["name"]
+    url = source["url"]
+    max_per = source.get("max_per_source", 5)
+    print(f"  [API] 正在抓取: {name}")
+
+    try:
+        headers = {"User-Agent": "Mozilla/5.0", "Content-Type": "application/json"}
+        method = source.get("method", "GET").upper()
+        payload = source.get("payload", None)
+
+        if method == "POST":
+            r = requests.post(url, json=payload, headers=headers, timeout=15)
+        else:
+            r = requests.get(url, headers=headers, timeout=15)
+        r.raise_for_status()
+
+        data = r.json()
+        data_path = source.get("data_path", ["data"])
+        items = _deep_get(data, data_path)
+
+        if not isinstance(items, list):
+            items = data.get("data", [])
+
+        title_field = source.get("title_field", "title")
+        link_template = source.get("link_template", "")
+        summary_field = source.get("summary_field", "summary")
+
+        entries = []
+        for item in items[:max_per]:
+            if isinstance(item, dict):
+                title = item.get(title_field, "无标题")
+                summary = item.get(summary_field, "")
+                link = ""
+                if link_template:
+                    link = link_template.format(**item)
+                entries.append({
+                    "title": title,
+                    "link": link,
+                    "published": item.get("published", item.get("date", item.get("time", ""))),
+                    "summary": summary,
+                    "content": item.get("content", item.get("body", "")),
+                    "source_name": name,
+                    "source_tags": source.get("tags", []),
+                })
+        print(f"    -> 获取 {len(entries)} 篇")
+        return entries
+    except Exception as e:
+        print(f"    [ERR] 抓取失败: {e}")
+        return []
+
+
+def fetch_feed_scrape(source: dict) -> list:
+    """抓取 HTML 页面（scrape）"""
+    name = source["name"]
+    url = source["url"]
+    max_per = source.get("max_per_source", 5)
+    print(f"  [SCRAPE] 正在抓取: {name}")
+
+    try:
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        r = requests.get(url, headers=headers, timeout=15)
+        r.raise_for_status()
+
+        soup = BeautifulSoup(r.text, "html.parser")
+        selector = source.get("selector", "a")
+        link_prefix = source.get("link_prefix", "")
+        title_attr = source.get("title_attr", None)
+
+        elements = soup.select(selector)[:max_per]
+        entries = []
+        for el in elements:
+            if title_attr:
+                title = el.get(title_attr, "").strip()
+            else:
+                title = el.get_text(strip=True)
+            href = el.get("href", "")
+            if href and not href.startswith("http"):
+                href = link_prefix + href
+            if title and href:
+                entries.append({
+                    "title": title,
+                    "link": href,
+                    "published": "",
+                    "summary": "",
+                    "content": "",
+                    "source_name": name,
+                    "source_tags": source.get("tags", []),
+                })
+        print(f"    -> 获取 {len(entries)} 篇")
+        return entries
+    except Exception as e:
+        print(f"    [ERR] 抓取失败: {e}")
+        return []
+
+
+def fetch_feed(source: dict) -> list:
+    """根据 type 分发到不同的抓取函数"""
+    stype = source.get("type", "rss").lower()
+    if stype == "api":
+        return fetch_feed_api(source)
+    elif stype == "scrape":
+        return fetch_feed_scrape(source)
+    else:
+        return fetch_feed_rss(source)
 
 
 def process_entries(entries: list, seen: set, wiki_tags: list, config: dict) -> list:
@@ -295,7 +410,6 @@ def main():
     seen = load_seen()
     print(f"[INFO] 历史记录: {len(seen)} 条\n")
 
-    # 并发抓取所有源
     all_entries = []
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         fut_map = {executor.submit(fetch_feed, s): s for s in sources}
@@ -305,7 +419,6 @@ def main():
 
     print(f"\n[INFO] 共获取 {len(all_entries)} 篇原始条目")
 
-    # 过滤
     saved_entries = process_entries(all_entries, seen, wiki_tags, config)
     skipped = len(all_entries) - len(saved_entries)
 
@@ -313,7 +426,6 @@ def main():
     print(f"   [OK] 保存: {len(saved_entries)} 篇")
     print(f"   [SKIP] 跳过: {skipped} 篇（去重/低分）")
 
-    # 保存文章
     saved_paths = []
     for entry in saved_entries:
         fpath = save_article(entry)
@@ -321,10 +433,7 @@ def main():
             saved_paths.append(fpath)
             print(f"   [SAVED] {fpath.name}")
 
-    # 保存去重记录
     save_seen(seen)
-
-    # 生成摘要
     generate_digest(saved_entries, skipped, len(all_entries))
     print(f"\n[INFO] 摘要已生成: {DIGEST_PATH}")
 
