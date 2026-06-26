@@ -3,6 +3,9 @@
 ## [2026-06-26] query | 解答 ECC 是什么、能干什么、怎么用
 - **输出**: 即时回答未保存；引用 [[ECC]], [[摘要-ECC使用教程]]，对比 [[Superpowers]] / [[OpenSpec]] / [[SpecKit]] / [[规范驱动开发]]
 
+## [2026-06-26] synthesis | 横向对比 4 套 Claude Code 增强框架
+- **输出**: 新增 [[claude-code-增强框架对比]]（synthesis 页），覆盖 [[ECC]] / [[Superpowers]] / [[OpenSpec]] / [[SpecKit]] 的定位、关键差异、选型指南、组合实践；更新 [[index.md]] Syntheses 分类
+
 ## [2026-06-26] ingest | 摄入 Spring Boot 4.1 与 AI 编程治理三方对比
 - **变更**:
   - 新增 sources: [[摘要-spring-boot-4.1-发布]], [[摘要-superpowers-openspec-speckit对比]], [[摘要-superpowers到底是什么]], [[摘要-程序员AI画图技巧]], [[摘要-claude-code-best-practice-苏三视角]]

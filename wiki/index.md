@@ -444,3 +444,4 @@
 - [[kafka-complete-tutorial]] — Apache Kafka 完整教程：概念、场景、Docker 部署与 Spring Boot 集成
 - [[dual-token-security-analysis]] — 双 Token（AccessToken+RefreshToken）安全设计分析
 - [[dual-token-design-complete]] — 双 Token 设计完整案例：流程/代码/设计决策/安全分析
+- [[claude-code-增强框架对比]] — ECC / Superpowers / OpenSpec / Spec-Kit 横向对比与选型指南
