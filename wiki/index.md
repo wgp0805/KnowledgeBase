@@ -151,6 +151,7 @@
 - [[摘要-superpowers到底是什么]] — Superpowers 深度解读：14 Skill、五阶段流程、底层机制
 - [[摘要-程序员AI画图技巧]] — 程序员 4 种 AI 文本绘图技巧（文本语言/Canvas/SVG/draw.io）
 - [[摘要-claude-code-best-practice-苏三视角]] — claude-code-best-practice 仓库的实战技巧深读（40% 上下文/Plan-Execute 分离/Hook 强制纪律）
+- [[摘要-ECC-OpenCode-使用指南]] — ECC + OpenCode 完整使用指南：三种安装方式对比与核心工作流
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -429,6 +430,7 @@
 - [[跨模型工作流]] — 通过 Plugin/MCP/Router 三种机制在 Claude Code 中协同其他模型
 - [[文本绘图]] — 用纯文本/DSL/XML 描述图形并由引擎渲染的可视化方法论
 - [[规范驱动开发]] — Spec-Driven Development：先把"做什么/按什么规矩做/怎么做"用规范明确，再让 AI 实现
+- [[TDD]] — 测试驱动开发，Red-Green-Refactor 循环
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
