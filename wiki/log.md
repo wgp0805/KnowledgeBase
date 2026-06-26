@@ -2,12 +2,12 @@
 
 ## [2026-06-26] ingest | 摄入 Spring Boot 4.1 与 AI 编程治理三方对比
 - **变更**:
-  - 新增 sources: [[摘要-spring-boot-4.1-发布]], [[摘要-superpowers-openspec-speckit对比]], [[摘要-superpowers到底是什么]], [[摘要-程序员AI画图技巧]]
+  - 新增 sources: [[摘要-spring-boot-4.1-发布]], [[摘要-superpowers-openspec-speckit对比]], [[摘要-superpowers到底是什么]], [[摘要-程序员AI画图技巧]], [[摘要-claude-code-best-practice-苏三视角]]
   - 新增 entities: [[Superpowers]], [[SpecKit]], [[Mermaid]], [[PlantUML]], [[Graphviz]], [[draw-io]], [[ObsidianCanvas]], [[SVG]]
   - 新增 concepts: [[文本绘图]], [[规范驱动开发]]
-  - 更新 [[SpringBoot]] 加入 4.1.0 章节，更新 [[OpenSpec]] 关联三方对比来源
+  - 更新 [[SpringBoot]] 加入 4.1.0 章节；更新 [[OpenSpec]] 关联三方对比来源；更新 [[claude-code-best-practice]] 补充三条实战技巧与跨模型组合
   - 更新 [[index.md]]
-  - 归档 raw/01-articles/ 全部 8 个待处理文件（含 4 个已处理的二次剪藏副本）
+  - 归档 raw/01-articles/ 全部 9 个待处理文件（含 4 个已处理的二次剪藏副本，以 `.duplicate-2026-06-25.md` 后缀保存）
 - **冲突**: 无
 
 ## [2026-06-08] ingest | 摄入 MinIO 介绍与 2 篇 ES 深度文章

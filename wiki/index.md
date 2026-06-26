@@ -150,6 +150,7 @@
 - [[摘要-superpowers-openspec-speckit对比]] — Superpowers / OpenSpec / Spec-Kit 三方对比与组合实践
 - [[摘要-superpowers到底是什么]] — Superpowers 深度解读：14 Skill、五阶段流程、底层机制
 - [[摘要-程序员AI画图技巧]] — 程序员 4 种 AI 文本绘图技巧（文本语言/Canvas/SVG/draw.io）
+- [[摘要-claude-code-best-practice-苏三视角]] — claude-code-best-practice 仓库的实战技巧深读（40% 上下文/Plan-Execute 分离/Hook 强制纪律）
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
