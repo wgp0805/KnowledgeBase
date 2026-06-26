@@ -45,6 +45,10 @@ openspec-cn view
 ## 关联连接
 
 - [[摘要-OpenSpec规范驱动AI编程框架]] — 来源
+- [[摘要-superpowers-openspec-speckit对比]] — 三方对比来源
+- [[规范驱动开发]] — 上层方法论
+- [[Superpowers]] — 兄弟方案，管"怎么干"
+- [[SpecKit]] — 兄弟方案，让规范可执行
 - [[AICoding]] — AI 辅助编程范式
 - [[OpenCode]] — 支持 OpenSpec 的编程工具
 - [[Skill]] — 技能扩展机制

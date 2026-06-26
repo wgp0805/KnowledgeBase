@@ -146,6 +146,10 @@
 - [[摘要-OpenSpec规范驱动AI编程框架]] — OpenSpec 规范驱动 AI 编程框架介绍与使用教程
 - [[摘要-claude-code-setup-plugin]] — Anthropic 官方一键自动化配置插件 claude-code-setup 详解
 - [[摘要-claude-code-best-practice]] — GitHub 57k+ Star 的 Claude Code 最佳实践仓库全景解析
+- [[摘要-spring-boot-4.1-发布]] — Spring Boot 4.1.0 新特性详解（gRPC/SSRF/懒加载/RedisListener）
+- [[摘要-superpowers-openspec-speckit对比]] — Superpowers / OpenSpec / Spec-Kit 三方对比与组合实践
+- [[摘要-superpowers到底是什么]] — Superpowers 深度解读：14 Skill、五阶段流程、底层机制
+- [[摘要-程序员AI画图技巧]] — 程序员 4 种 AI 文本绘图技巧（文本语言/Canvas/SVG/draw.io）
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -308,6 +312,14 @@
 - [[claude-automation-recommender]] — claude-code-setup 背后的项目扫描与推荐 Skill
 - [[claude-plugins-official]] — Anthropic 官方 Claude Code 插件应用商店
 - [[claude-code-best-practice]] — GitHub 57k+ Star 的 Claude Code 最佳实践开源仓库
+- [[Superpowers]] — Jesse Vincent 打造的 AI 编程 Skill 框架，强制工程纪律
+- [[SpecKit]] — GitHub 官方规范驱动开发工具包，七阶段流水线
+- [[Mermaid]] — Markdown 原生集成的文本绘图语言
+- [[PlantUML]] — 强 UML 与时序图表现力的文本绘图语言
+- [[Graphviz]] — DOT 语言的老牌复杂图布局工具
+- [[draw-io]] — 开源流程图工具，支持 AI 生成 XML 导入
+- [[ObsidianCanvas]] — Obsidian 无限画布，多文档关系图与思维导图
+- [[SVG]] — 可缩放矢量图，AI 画架构图首选载体
 ## Concepts
 - [[MVCC]] — 多版本并发控制机制
 - [[WAL]] — 预写日志机制
@@ -414,6 +426,8 @@
 - [[Command-Agent-Skill编排]] — Claude Code 工作流核心编排架构（Command 触发 / Agent 扮演 / Skill 供能）
 - [[Research-Plan-Execute-Review-Ship]] — Claude Code 主流工作流共用的五阶段开发范式
 - [[跨模型工作流]] — 通过 Plugin/MCP/Router 三种机制在 Claude Code 中协同其他模型
+- [[文本绘图]] — 用纯文本/DSL/XML 描述图形并由引擎渲染的可视化方法论
+- [[规范驱动开发]] — Spec-Driven Development：先把"做什么/按什么规矩做/怎么做"用规范明确，再让 AI 实现
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

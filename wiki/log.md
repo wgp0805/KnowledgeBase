@@ -1,5 +1,15 @@
 # Wiki 操作日志
 
+## [2026-06-26] ingest | 摄入 Spring Boot 4.1 与 AI 编程治理三方对比
+- **变更**:
+  - 新增 sources: [[摘要-spring-boot-4.1-发布]], [[摘要-superpowers-openspec-speckit对比]], [[摘要-superpowers到底是什么]], [[摘要-程序员AI画图技巧]]
+  - 新增 entities: [[Superpowers]], [[SpecKit]], [[Mermaid]], [[PlantUML]], [[Graphviz]], [[draw-io]], [[ObsidianCanvas]], [[SVG]]
+  - 新增 concepts: [[文本绘图]], [[规范驱动开发]]
+  - 更新 [[SpringBoot]] 加入 4.1.0 章节，更新 [[OpenSpec]] 关联三方对比来源
+  - 更新 [[index.md]]
+  - 归档 raw/01-articles/ 全部 8 个待处理文件（含 4 个已处理的二次剪藏副本）
+- **冲突**: 无
+
 ## [2026-06-08] ingest | 摄入 MinIO 介绍与 2 篇 ES 深度文章
 - **变更**: 新增 [[摘要-minio-intro]], [[摘要-elasticsearch-8.10-install]], [[摘要-elasticsearch-comprehensive-guide]]; 新增实体 [[MinIO]]; 新增概念 [[BM25]]; 更新 [[Elasticsearch]], [[analyzer]], [[inverted-index]], [[full-text-search]]; 更新 [[index.md]]
 - **冲突**: 无
