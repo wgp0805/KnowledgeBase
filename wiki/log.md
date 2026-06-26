@@ -336,3 +336,7 @@
 ## [2026-06-26] ingest | 摄入 ECC + OpenCode 使用指南文章
 - **变更**: 新增 [[摘要-ECC-OpenCode-使用指南]]; 新增概念 [[TDD]]; 增量更新 [[ECC]]（补充三种安装方式对比、核心工作流速查表）; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-26] ingest | 摄入 MyBatis Plus 12 个性能优化技巧文章
+- **变更**: 新增 [[摘要-mybatis-plus-12-optimization-tips]]; 新增概念 [[ORM]], [[逻辑删除]], [[乐观锁]]; 增量更新 [[MyBatisPlus]]（补充最佳实践）; 更新 [[index.md]]
+- **冲突**: 无

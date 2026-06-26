@@ -4,7 +4,7 @@ source: "https://mp.weixin.qq.com/s/4y7nDVJs4rR8kG8wUsksXw"
 ---
 小哈学Java *2026年6月26日 16:30*
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smqOn8kbfzKiawicvEd7UBGyLuUzCEZSVwh4CO0yWqojfs1n27CFgIOtK2U0x3DzmLvTbaFmzSfBicKu2eOMs3SGwGzxG8kewCbfjg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/MyBatis%20Plus%20%E5%B0%81%E7%A5%9E%E7%8E%A9%E6%B3%95%EF%BC%9A%E8%BF%9912%E4%B8%AA%E9%AA%9A%E6%93%8D%E4%BD%9C%E8%AE%A9%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9B%B4%E6%8E%A5%E8%B5%B7%E9%A3%9E%EF%BC%81/693c6daddde329cc1422a56b7ea8071e_MD5.webp)
 
 来源： [https://juejin.cn/post/7436567167728812044](https://juejin.cn/post/7436567167728812044)
 
@@ -250,17 +250,6 @@ LambdaQueryWrapper<User> wrapper2 = new LambdaQueryWrapper<>();
 - 代码更易读，语义更清晰
 - 减少重复编写字段名的机会
 
-，你将获得: **专属的项目实战（4个项目） / 1v1 提问 / 简历修改 / **Java 学习路线 /** 社群讨论 / **学习打卡 / 每月赠书****
-
-- 《仿小红书（微服务架构）》 已完结，基于 Spring Cloud Alibaba + Spring Boot [3.x](http://3.x/) + JDK 17..., ；演示地址：http://116.62.199.48:7070/
-- 《Spring AI 应用（RAG 智能客服）》已完结, 基于 Spring AI + Spring Boot [3.x](http://3.x/) + JDK 21
-- 《秒杀系统设计》正在更新中，单体到微服务高并发架构演进
-- **《前后端分离博客项目（全栈开发）》** 已完结,演示链接：http://116.62.199.48/
-- 项目阅读地址： [https://quanxiaoha.com/column](https://quanxiaoha.com/column)
-
-截止目前， **累计输出 120w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4500+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
-
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
 
 ## 排序字段注意索引
 
@@ -601,23 +590,3 @@ public boolean reduceStock(Long productId, Integer count) {
 
 代码，就应该是这个样子 —— 简单而不失优雅，高效而不失温度。
 
-，你将获得: **专属的项目实战（4个项目） / 1v1 提问 / 简历修改 / **Java 学习路线 /** 社群讨论 / **学习打卡 / 每月赠书****
-
-- 《仿小红书（微服务架构）》 已完结，基于 Spring Cloud Alibaba + Spring Boot [3.x](http://3.x/) + JDK 17..., ；演示地址：http://116.62.199.48:7070/
-- 《Spring AI 应用（RAG 智能客服）》已完结, 基于 Spring AI + Spring Boot [3.x](http://3.x/) + JDK 21
-- 《秒杀系统设计》正在更新中，单体到微服务高并发架构演进
-- **《前后端分离博客项目（全栈开发）》** 已完结,演示链接：http://116.62.199.48/
-- 项目阅读地址： [https://quanxiaoha.com/column](https://quanxiaoha.com/column)
-
-截止目前， **累计输出 120w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4500+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
-
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
-
-```
-1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. 一个 Token 就够了，JWT 续签为什么要搞 Access Token + Refresh Token 双 Token？3. 3个完美替代 Navicat 的工具，香~
-```
-```
-最近面试BAT，整理一份面试资料《Java面试BATJ通关手册》，覆盖了Java核心技术、JVM、Java并发、SSM、微服务、数据库、数据结构等等。获取方式：点“在看”，关注公众号并回复 Java 领取，更多内容陆续奉上。PS：因公众号平台更改了推送规则，如果不想错过内容，记得读完点一下“在看”，加个“星标”，这样每次新文章推送才会第一时间出现在你的订阅列表里。点“在看”支持小哈呀，谢谢
-```
-
-阅读原文
