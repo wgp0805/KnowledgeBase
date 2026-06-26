@@ -1,0 +1,584 @@
+  <svg width="606pt" height="1698pt" viewBox="0.00 0.00 605.76 1698.04" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <g class="graph" transform="scale(1 1) rotate(0) translate(4 1694.0431)">
+    <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-1694.0431 601.7572,-1694.0431 601.7572,4 -4,4">
+    </polygon>
+    <g class="node">
+     <ellipse fill="#add8e6" stroke="#000000" cx="207.4212" cy="-1664.0215" rx="86.4339" ry="26.0431">
+     </ellipse>
+     <text text-anchor="middle" x="207.4212" y="-1667.6215" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      用户发起登录请求
+     </text>
+     <text text-anchor="middle" x="207.4212" y="-1653.2215" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      (浏览器/App/小程序)
+     </text>
+    </g>
+    <g class="node">
+     <polygon fill="#fffacd" stroke="#000000" points="207.4212,-1587 134.7872,-1569 207.4212,-1551 280.0552,-1569 207.4212,-1587">
+     </polygon>
+     <text text-anchor="middle" x="207.4212" y="-1565.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      前端加密判断
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M207.4212,-1637.8049C207.4212,-1625.1875 207.4212,-1610.0436 207.4212,-1597.1794">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="210.9213,-1597.0151 207.4212,-1587.0151 203.9213,-1597.0152 210.9213,-1597.0151">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="198.3634,-1484.2 40.479,-1484.2 40.479,-1448.2 198.3634,-1448.2 198.3634,-1484.2">
+     </polygon>
+     <text text-anchor="middle" x="119.4212" y="-1462.6" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      RSA加密密码+HTTPS传输
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M194.4365,-1553.8315C180.4857,-1537.5345 158.0712,-1511.3502 141.3715,-1491.8419">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="143.9934,-1489.5226 134.8314,-1484.202 138.6756,-1494.0748 143.9934,-1489.5226">
+     </polygon>
+     <text text-anchor="middle" x="176.8125" y="-1513.4" font-family="Times,serif" font-size="14.00" fill="#000000">
+      
+      
+      
+      是
+     </text>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="356.918,-1484.2 233.9244,-1484.2 233.9244,-1448.2 356.918,-1448.2 356.918,-1484.2">
+     </polygon>
+     <text text-anchor="middle" x="295.4212" y="-1462.6" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      直接HTTPS明文传输
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M220.4059,-1553.8315C234.3567,-1537.5345 256.7712,-1511.3502 273.4709,-1491.8419">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="276.1668,-1494.0748 280.011,-1484.202 270.849,-1489.5226 276.1668,-1494.0748">
+     </polygon>
+     <text text-anchor="middle" x="263.4212" y="-1513.4" font-family="Times,serif" font-size="14.00" fill="#000000">
+      
+      
+      
+      否
+     </text>
+    </g>
+    <g class="node">
+     <polygon fill="#add8e6" stroke="#000000" points="263.0562,-1397.2 149.7862,-1397.2 149.7862,-1361.2 263.0562,-1361.2 263.0562,-1397.2">
+     </polygon>
+     <text text-anchor="middle" x="206.4212" y="-1375.6" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      后端API接收请求
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M137.4477,-1448.1735C150.046,-1435.5752 167.0457,-1418.5755 181.0157,-1404.6055">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="183.8216,-1406.7493 188.4178,-1397.2034 178.8719,-1401.7996 183.8216,-1406.7493">
+     </polygon>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M276.9803,-1448.1735C263.9731,-1435.4586 246.3794,-1418.2603 232.0146,-1404.2183">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="234.436,-1401.6908 224.8384,-1397.2034 229.5428,-1406.6965 234.436,-1401.6908">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="304.2266,-1310.1005 108.6158,-1310.1005 108.6158,-1273.4995 304.2266,-1273.4995 304.2266,-1310.1005">
+     </polygon>
+     <text text-anchor="middle" x="206.4212" y="-1295.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      参数校验(JSR303/Spring Validation)
+     </text>
+     <text text-anchor="middle" x="206.4212" y="-1281" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      封装DTO，统一异常处理
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M206.4212,-1361.0907C206.4212,-1349.3336 206.4212,-1333.7609 206.4212,-1320.3571">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="209.9213,-1320.1868 206.4212,-1310.1868 202.9213,-1320.1869 209.9213,-1320.1868">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#add8e6" stroke="#000000" points="272.1519,-1222.3005 140.6905,-1222.3005 140.6905,-1185.6995 272.1519,-1185.6995 272.1519,-1222.3005">
+     </polygon>
+     <text text-anchor="middle" x="206.4212" y="-1207.6" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      限流&amp;黑名单校验
+     </text>
+     <text text-anchor="middle" x="206.4212" y="-1193.2" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      (异步线程并发触发)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M206.4212,-1273.1799C206.4212,-1261.4229 206.4212,-1245.9963 206.4212,-1232.6947">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="209.9213,-1232.5932 206.4212,-1222.5933 202.9213,-1232.5933 209.9213,-1232.5932">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="112.7637,-1134.5005 .0787,-1134.5005 .0787,-1097.8995 112.7637,-1097.8995 112.7637,-1134.5005">
+     </polygon>
+     <text text-anchor="middle" x="56.4212" y="-1119.8" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      Sentinel QPS限流
+     </text>
+     <text text-anchor="middle" x="56.4212" y="-1105.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      (用户维度/IP维度)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M174.9763,-1185.5942C152.1758,-1172.2484 121.1567,-1154.0919 96.5663,-1139.6983">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="98.2231,-1136.6126 87.8247,-1134.5815 94.6869,-1142.6538 98.2231,-1136.6126">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="263.7425,-1134.5005 149.0999,-1134.5005 149.0999,-1097.8995 263.7425,-1097.8995 263.7425,-1134.5005">
+     </polygon>
+     <text text-anchor="middle" x="206.4212" y="-1119.8" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      Redis滑动窗口限流
+     </text>
+     <text text-anchor="middle" x="206.4212" y="-1105.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      (Lua实现)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M206.4212,-1185.3799C206.4212,-1173.6229 206.4212,-1158.1963 206.4212,-1144.8947">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="209.9213,-1144.7932 206.4212,-1134.7933 202.9213,-1144.7933 209.9213,-1144.7932">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="423.2677,-1134.5005 299.5747,-1134.5005 299.5747,-1097.8995 423.2677,-1097.8995 423.2677,-1134.5005">
+     </polygon>
+     <text text-anchor="middle" x="361.4212" y="-1119.8" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      黑名单IP/用户名校验
+     </text>
+     <text text-anchor="middle" x="361.4212" y="-1105.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      (Redis Set)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M238.9143,-1185.5942C262.4748,-1172.2484 294.5278,-1154.0919 319.9379,-1139.6983">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="321.9949,-1142.5556 328.9709,-1134.5815 318.5448,-1136.4649 321.9949,-1142.5556">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#fffacd" stroke="#000000" points="206.4212,-1046.8 74.0066,-1028.8 206.4212,-1010.8 338.8358,-1028.8 206.4212,-1046.8">
+     </polygon>
+     <text text-anchor="middle" x="206.4212" y="-1025.2" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      是否开启验证码校验?
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M87.8661,-1097.8781C112.5029,-1083.5231 146.7353,-1063.577 172.0846,-1048.8068">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="174.1094,-1051.6778 180.9877,-1043.6193 170.5853,-1045.6296 174.1094,-1051.6778">
+     </polygon>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M206.4212,-1097.6647C206.4212,-1085.8822 206.4212,-1070.3973 206.4212,-1057.0958">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="209.9213,-1057.0088 206.4212,-1047.0089 202.9213,-1057.0089 209.9213,-1057.0088">
+     </polygon>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M328.9281,-1097.8781C303.1997,-1083.3706 267.3438,-1063.1525 241.0706,-1048.3378">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="242.6391,-1045.2042 232.2093,-1043.3412 239.2009,-1051.3017 242.6391,-1045.2042">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="202.8976,-943.9005 25.9448,-943.9005 25.9448,-907.2995 202.8976,-907.2995 202.8976,-943.9005">
+     </polygon>
+     <text text-anchor="middle" x="114.4212" y="-929.2" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      校验验证码
+     </text>
+     <text text-anchor="middle" x="114.4212" y="-914.8" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      (图形/reCAPTCHA/滑动拼图)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M192.0462,-1012.675C177.4773,-996.3325 154.7054,-970.7884 137.5866,-951.5855">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="140.136,-949.1856 130.869,-944.0501 134.9108,-953.8437 140.136,-949.1856">
+     </polygon>
+     <text text-anchor="middle" x="173.8125" y="-973.2" font-family="Times,serif" font-size="14.00" fill="#000000">
+      
+      
+      
+      是
+     </text>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="358.0841,-943.6 238.7583,-943.6 238.7583,-907.6 358.0841,-907.6 358.0841,-943.6">
+     </polygon>
+     <text text-anchor="middle" x="298.4212" y="-922" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      跳过验证码校验
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M220.7962,-1012.675C235.4539,-996.2328 258.415,-970.4765 275.5684,-951.2349">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="278.2489,-953.4877 282.2907,-943.6942 273.0237,-948.8296 278.2489,-953.4877">
+     </polygon>
+     <text text-anchor="middle" x="264.4212" y="-973.2" font-family="Times,serif" font-size="14.00" fill="#000000">
+      
+      
+      
+      否
+     </text>
+    </g>
+    <g class="node">
+     <polygon fill="#add8e6" stroke="#000000" points="284.5937,-856.2 126.2487,-856.2 126.2487,-820.2 284.5937,-820.2 284.5937,-856.2">
+     </polygon>
+     <text text-anchor="middle" x="205.4212" y="-834.6" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      Redis查询用户缓存(Hash)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M133.72,-907.0647C146.9595,-894.3489 164.6888,-877.321 179.205,-863.3791">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="181.6744,-865.8602 186.4623,-856.4089 176.8255,-860.8116 181.6744,-865.8602">
+     </polygon>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M279.1515,-907.4907C265.5597,-894.7172 247.1753,-877.4399 232.1649,-863.3333">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="234.3502,-860.584 224.6662,-856.2861 229.5564,-865.6849 234.3502,-860.584">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="161.9056,-768.8 88.9368,-768.8 88.9368,-732.8 161.9056,-732.8 161.9056,-768.8">
+     </polygon>
+     <text text-anchor="middle" x="125.4212" y="-747.2" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      命中缓存
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M188.8451,-820.0907C177.2605,-807.4344 161.6285,-790.3565 148.7826,-776.3223">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="151.3097,-773.8994 141.976,-768.8861 146.1462,-778.6258 151.3097,-773.8994">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="377.0036,-769.1005 197.8388,-769.1005 197.8388,-732.4995 377.0036,-732.4995 377.0036,-769.1005">
+     </polygon>
+     <text text-anchor="middle" x="287.4212" y="-754.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      未命中→查询数据库
+     </text>
+     <text text-anchor="middle" x="287.4212" y="-740" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      (MyBatis-Plus+TiDB)→回写缓存
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M222.4117,-820.0907C234.2068,-807.5188 250.0952,-790.584 263.212,-776.6034">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="265.8807,-778.8744 270.1704,-769.1868 260.7757,-774.0849 265.8807,-778.8744">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#fffacd" stroke="#000000" points="205.4212,-681.2011 73.4384,-644.6 205.4212,-607.9989 337.404,-644.6 205.4212,-681.2011">
+     </polygon>
+     <text text-anchor="middle" x="205.4212" y="-648.2" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      账号是否被锁定?
+     </text>
+     <text text-anchor="middle" x="205.4212" y="-633.8" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      (登录失败次数超限)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M138.9921,-732.7846C149.1825,-719.2568 163.5153,-700.2301 176.2602,-683.3113">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="179.1428,-685.3016 182.3641,-675.2083 173.5516,-681.0898 179.1428,-685.3016">
+     </polygon>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M273.1379,-732.3014C262.6487,-718.7166 248.0273,-699.7801 235.0544,-682.9786">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="237.7255,-680.7111 228.8436,-674.9349 232.1849,-684.9891 237.7255,-680.7111">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#ffcccc" stroke="#000000" points="273.2528,-244.9005 121.5896,-244.9005 121.5896,-208.2995 273.2528,-208.2995 273.2528,-244.9005">
+     </polygon>
+     <text text-anchor="middle" x="197.4212" y="-230.2" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      拒绝登录，提示稍后再试
+     </text>
+     <text text-anchor="middle" x="197.4212" y="-215.8" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      (Redis控制状态+TTL锁)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M192.6115,-611.3341C184.4576,-587.1944 175.4212,-553.5505 175.4212,-523 175.4212,-523 175.4212,-523 175.4212,-332.8 175.4212,-305.9393 182.2528,-276.0368 188.3022,-254.8235">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="191.6805,-255.742 191.1757,-245.1592 184.9708,-253.747 191.6805,-255.742">
+     </polygon>
+     <text text-anchor="middle" x="182.8125" y="-431.8" font-family="Times,serif" font-size="14.00" fill="#000000">
+      
+      
+      
+      是
+     </text>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="368.242,-541 246.6004,-541 246.6004,-505 368.242,-505 368.242,-541">
+     </polygon>
+     <text text-anchor="middle" x="307.4212" y="-519.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      继续执行登录流程
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M230.3732,-614.8533C247.3,-594.6739 269.4598,-568.256 285.6672,-548.9342">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="288.4711,-551.0376 292.2162,-541.1267 283.108,-546.539 288.4711,-551.0376">
+     </polygon>
+     <text text-anchor="middle" x="275.4212" y="-570.2" font-family="Times,serif" font-size="14.00" fill="#000000">
+      
+      
+      
+      否
+     </text>
+    </g>
+    <g class="node">
+     <polygon fill="#fffacd" stroke="#000000" points="323.4212,-454 225.8537,-436 323.4212,-418 420.9887,-436 323.4212,-454">
+     </polygon>
+     <text text-anchor="middle" x="323.4212" y="-432.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      密码校验(BCrypt)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M310.7364,-504.9735C312.9321,-493.0347 315.8546,-477.1431 318.3411,-463.6232">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="321.8529,-463.8778 320.2194,-453.4097 314.9683,-462.6117 321.8529,-463.8778">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="496.7533,-350.8 432.0891,-350.8 432.0891,-314.8 496.7533,-314.8 496.7533,-350.8">
+     </polygon>
+     <text text-anchor="middle" x="464.4212" y="-329.2" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      密码正确
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M343.324,-421.4328C366.1639,-404.716 403.9785,-377.0389 431.2809,-357.0559">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="433.386,-359.8525 439.3884,-351.1219 429.2517,-354.2038 433.386,-359.8525">
+     </polygon>
+     <text text-anchor="middle" x="416.9731" y="-380.4" font-family="Times,serif" font-size="14.00" fill="#000000">
+      
+      
+      
+      正确
+     </text>
+    </g>
+    <g class="node">
+     <polygon fill="#ffcccc" stroke="#000000" points="396.7575,-351.1005 230.0849,-351.1005 230.0849,-314.4995 396.7575,-314.4995 396.7575,-351.1005">
+     </polygon>
+     <text text-anchor="middle" x="313.4212" y="-336.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      密码错误→登录失败计数
+     </text>
+     <text text-anchor="middle" x="313.4212" y="-322" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      +锁定判断(Redis计数器)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M321.6793,-418.0239C320.1637,-402.383 317.9407,-379.4415 316.1828,-361.3002">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="319.6587,-360.8808 315.2104,-351.265 312.6913,-361.556 319.6587,-360.8808">
+     </polygon>
+     <text text-anchor="middle" x="339.0334" y="-380.4" font-family="Times,serif" font-size="14.00" fill="#000000">
+      
+      
+      
+      错误
+     </text>
+    </g>
+    <g class="node">
+     <polygon fill="#fffacd" stroke="#000000" points="464.4212,-263.2011 331.249,-226.6 464.4212,-189.9989 597.5934,-226.6 464.4212,-263.2011">
+     </polygon>
+     <text text-anchor="middle" x="464.4212" y="-230.2" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      校验用户状态
+     </text>
+     <text text-anchor="middle" x="464.4212" y="-215.8" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      (冻结/禁用/实名认证)
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M464.4212,-314.7846C464.4212,-303.341 464.4212,-287.9623 464.4212,-273.2535">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="467.9213,-273.2339 464.4212,-263.234 460.9213,-273.234 467.9213,-273.2339">
+     </polygon>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M293.2155,-314.3014C274.4515,-297.1226 246.3398,-271.3858 225.417,-252.2306">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="227.5237,-249.4141 217.7845,-245.243 222.7969,-254.5772 227.5237,-249.4141">
+     </polygon>
+    </g>
+    <g class="node">
+     <polygon fill="#ffcccc" stroke="#000000" points="476.3463,-123 350.4961,-123 350.4961,-87 476.3463,-87 476.3463,-123">
+     </polygon>
+     <text text-anchor="middle" x="413.4212" y="-101.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      状态异常→拒绝登录
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M449.3673,-194.0275C445.1344,-184.6388 440.5977,-174.3514 436.6,-164.8 432.2473,-154.4004 427.7119,-142.8728 423.8192,-132.7361">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="427.0009,-131.2563 420.1712,-123.1565 420.4591,-133.7474 427.0009,-131.2563">
+     </polygon>
+     <text text-anchor="middle" x="453.3318" y="-152.2" font-family="Times,serif" font-size="14.00" fill="#000000">
+      
+      
+      
+      异常
+     </text>
+    </g>
+    <g class="node">
+     <polygon fill="#e6e6fa" stroke="#000000" points="572.8419,-123 512.0005,-123 512.0005,-87 572.8419,-87 572.8419,-123">
+     </polygon>
+     <text text-anchor="middle" x="542.4212" y="-101.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      状态正常
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M484.5081,-195.285C497.1539,-175.5705 513.3002,-150.3989 525.3299,-131.6449">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="528.4182,-133.3128 530.8714,-123.0059 522.5261,-129.5333 528.4182,-133.3128">
+     </polygon>
+     <text text-anchor="middle" x="526.4121" y="-152.2" font-family="Times,serif" font-size="14.00" fill="#000000">
+      
+      
+      
+      正常
+     </text>
+    </g>
+    <g class="node">
+     <ellipse fill="#90ee90" stroke="#000000" cx="542.4212" cy="-18" rx="40.7539" ry="18">
+     </ellipse>
+     <text text-anchor="middle" x="542.4212" y="-14.4" font-family="微软雅黑" font-size="12.00" fill="#000000">
+      
+      
+      
+      登录成功
+     </text>
+    </g>
+    <g class="edge">
+     <path fill="none" stroke="#000000" d="M542.4212,-86.9735C542.4212,-75.1918 542.4212,-59.5607 542.4212,-46.1581">
+     </path>
+     <polygon fill="#000000" stroke="#000000" points="545.9213,-46.0033 542.4212,-36.0034 538.9213,-46.0034 545.9213,-46.0033">
+     </polygon>
+    </g>
+   </g>
+  </svg>
