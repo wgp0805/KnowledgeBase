@@ -473,3 +473,5 @@
 - [[claude-code-增强框架对比]] — ECC / Superpowers / OpenSpec / Spec-Kit 横向对比与选型指南
 
 - [[摘要-vibe-coding-实战篇总结-上]] — 抖音创作者敲代码的小虾米总结的 Vibe Coding 开发全流程（上篇）：立项/选技术栈/搭架构/写 Agent 宪法
+
+- [[摘要-vibe-coding-实战篇总结-下]] — 抖音创作者敲代码的小虾米总结的 Vibe Coding 开发全流程（下篇）：立真源/落文档/敲代码/阶段验收

@@ -373,3 +373,16 @@
 - **冲突**: 无
 - **归档**: 4 篇原始文章移动到 raw/09-archive/
 
+## [2026-06-29] ingest | 摄入抖音视频《Vibe Coding实战篇总结：开发全流程（上）》
+- **变更**:
+  - 新增 source [[摘要-vibe-coding-实战篇总结-上]]（抖音创作者敲代码的小虾米的 Vibe Coding 实战工作流上篇）
+  - 新增 entity [[敲代码的小虾米]]（抖音 Vibe Coding 实战教学创作者）
+  - 增量更新 concept [[VibeCoding]]（补充实战工作流四步法：立项/选技术栈/搭架构/写 Agent 宪法）
+  - 更新 [[index.md]] 加入 2 个新条目（1 source + 1 entity）
+- **冲突**: 无（[[VibeCoding]] 原页面仅含 Karpathy 定义和 Vibe Engineering 对比，实战工作流为互补视角）
+## [2026-06-29] ingest | 摄入抖音视频《Vibe Coding实战篇总结：开发全流程（下）》
+- **变更**:
+  - 新增 source [[摘要-vibe-coding-实战篇总结-下]]（敲代码的小虾米的 Vibe Coding 实战工作流下篇：立真源/落文档/敲代码/阶段验收）
+  - 增量更新 concept [[VibeCoding]]（补充执行方法论：拆真源文档、分阶段推进、逐阶段验收；合并上下篇为完整工作流）
+  - 更新 [[index.md]] 加入 1 个新 source 条目
+- **冲突**: 无（与上篇互补，合在一起构成完整开发全流程）
