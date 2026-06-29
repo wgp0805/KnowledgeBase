@@ -52,6 +52,22 @@ Anthropic 在 2025 年 2 月推出的、原本为编程而生、运行在终端�
 - **[[跨模型工作流]]**：通过 Plugin/MCP/Router 三种机制与 Codex、Gemini、DeepSeek 等其他模型协同
 - 实战 Tips 经典两条：CLAUDE.md 单文件 ≤ 200 行；`.claude/rules/*.md` 在每个会话自动加载
 
+### Dynamic Workflows（动态工作流）
+Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在会话内动态驱动多 Agent 协作：
+
+- **设计范式**：代码即编排（Code-as-Orchestration），编排逻辑是图灵完备的 JavaScript 代码
+- **运行环境**：Claude Code CLI 会话内，Node.js 沙箱（无文件系统/网络访问）
+- **触发方式**：用户调用 `/workflow` 或使用 Workflow 工具
+- **核心 API**：
+  - `agent(prompt, {schema})` — 生成子 Agent 执行特定任务，支持 JSON Schema 输出校验
+  - `pipeline(items, stage1, stage2, ...)` — 流式多阶段处理，无同步屏障
+  - `parallel(thunks)` — 并行执行多个任务，有同步屏障
+  - `phase('Verify')` — 进度分组显示
+  - `budget.remaining()` — Token 预算感知
+  - 支持 `isolation: 'worktree'` 隔离并行修改
+- **适用场景**：快速审查 PR、多维度研究分析、一次性探索性分析
+- **与 OpenClaw.NET MetaSKILL 对比**：Workflows 灵活度高适合探索，MetaSKILL 安全审计完善适合生产
+
 ### Spring 生态专属 Skill
 - **核心理念**：Claude Code 的上限完全取决于装了什么 Skill
 - **搭载专属 Spring Skill 后**：变身「资深Spring架构师」，懂 Spring Boot 4.x、Spring Framework 7.x 最新规范、企业级工程最佳实践、测试闭环、AI Agent 调度
@@ -104,6 +120,7 @@ Anthropic 在 2025 年 2 月推出的、原本为编程而生、运行在终端�
 - [[claude-code-best-practice]] — 社区最佳实践仓库
 - [[Command-Agent-Skill编排]] — 工作流核心架构
 - [[Research-Plan-Execute-Review-Ship]] — 五阶段开发范式
+- [[dynamic-workflow]] — 动态工作流概念
 - [[跨模型工作流]] — 多模型协同范式
 - [[AgenticSearch]] — 代码搜索范式
 - [[Ripgrep]] — Grep 底层工具
@@ -114,3 +131,4 @@ Anthropic 在 2025 年 2 月推出的、原本为编程而生、运行在终端�
 - [[AICoding]] — AI 编程范式
 - [[Greptile]] — 开发者工具公司
 - [[spring-skill-usage-guide]] — Spring Skill 使用时机与组合策略
+- [[摘要-Claude-Code-Workflows-vs-MetaSKILL]] — 来源

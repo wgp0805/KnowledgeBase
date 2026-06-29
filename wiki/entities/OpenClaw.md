@@ -15,6 +15,28 @@ OpenClaw（小龙虾）是一个开源的 AI Agent 项目，由 Peter Steinberge
   - 终端 AI Agent，类似 Claude Code
   - 支持 Skill 扩展机制
   - 开源免费，社区活跃
+
+### OpenClaw.NET MetaSKILL 编排引擎
+OpenClaw.NET 提供基于 YAML 声明式 DAG 的 MetaSKILL 编排引擎，用于生产级 AI 工作流编排：
+
+- **设计范式**：声明即编排（Declaration-as-Orchestration），编排逻辑是 YAML 声明的 DAG
+- **运行环境**：OpenClaw.NET Gateway 服务器进程内
+- **触发方式**：自然语言触发器匹配 + `meta_invoke` 工具
+- **7 种步骤类型**：覆盖不同执行需求（llm_chat、agent、fan_out、skill_exec、user_input、route 等）
+- **核心特性**：
+  - `depends_on` 声明 DAG 依赖
+  - `fan_out` 动态展开并行子步骤，wave-based 调度
+  - `routes` / `when` 条件路由分支
+  - `on_failure` 声明式失败替换步骤
+  - `user_input` 人机交互暂停点（审批检查点）
+  - `output_contract` 每步 JSON Schema 输出校验
+  - `tool_allowlist` + `capabilities` + `MetaSkill.Enabled` 三步安全门禁
+- **安全体系**：4 层超时保护（step / retry / session contract / agent loop）
+- **审计能力**：持久化审计记录 + CLI replay/reconstruct
+- **双运行时**：AgentRuntime + MafAgentRuntime
+- **适用场景**：生产环境 CI/CD 工作流、需要人机交互审批、多人长期维护的重复任务
+- **与 Claude Code Workflows 对比**：MetaSKILL 安全审计完善适合生产，Workflows 灵活度高适合探索
+
 - **生态系统**：
   - 一站式部署平台：WorkBuddy、QoderWork、QClaw
   - 微信接入：ClawBot（腾讯官方插件）
@@ -30,3 +52,6 @@ OpenClaw（小龙虾）是一个开源的 AI Agent 项目，由 Peter Steinberge
 - [[Skill]] — 技能扩展机制
 - [[WorkBuddy]] — 部署平台
 - [[ClawBot]] — 微信接入插件
+- [[meta-skill]] — 元技能概念
+- [[dynamic-workflow]] — 动态工作流对比概念
+- [[摘要-Claude-Code-Workflows-vs-MetaSKILL]] — 来源

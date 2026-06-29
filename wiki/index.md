@@ -153,6 +153,10 @@
 - [[摘要-claude-code-best-practice-苏三视角]] — claude-code-best-practice 仓库的实战技巧深读（40% 上下文/Plan-Execute 分离/Hook 强制纪律）
 - [[摘要-ECC-OpenCode-使用指南]] — ECC + OpenCode 完整使用指南：三种安装方式对比与核心工作流
 - [[摘要-mybatis-plus-12-optimization-tips]] — MyBatis Plus 12 个性能优化技巧
+- [[摘要-ai-agent-抓包协作]] — AI Agent 逆向破解场景下的抓包软件协作提问
+- [[摘要-Spring-Cloud-Gateway-War-Tomcat]] — Spring Cloud Gateway War 包部署外置 Tomcat 改造方案与评估
+- [[摘要-Claude-Code-Workflows-vs-MetaSKILL]] — Claude Code Dynamic Workflows 与 OpenClaw.NET MetaSKILL 编排范式对比
+- [[摘要-Spring-Boot-to-Solon-注解迁移]] — Spring Boot 到 Solon 框架注解迁移实战指南
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者

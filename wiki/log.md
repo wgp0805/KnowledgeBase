@@ -340,3 +340,11 @@
 ## [2026-06-26] ingest | 摄入 MyBatis Plus 12 个性能优化技巧文章
 - **变更**: 新增 [[摘要-mybatis-plus-12-optimization-tips]]; 新增概念 [[ORM]], [[逻辑删除]], [[乐观锁]]; 增量更新 [[MyBatisPlus]]（补充最佳实践）; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-29] ingest | 摄入 4 篇 raw/01-articles 技术资料
+- **变更**:
+  - 新增 sources: [[摘要-ai-agent-抓包协作]], [[摘要-Spring-Cloud-Gateway-War-Tomcat]], [[摘要-Claude-Code-Workflows-vs-MetaSKILL]], [[摘要-Spring-Boot-to-Solon-注解迁移]]
+  - 增量更新 entities: [[SpringCloudGateway]]（补充 War 包部署外置 Tomcat 方案）, [[ClaudeCode]]（补充 Dynamic Workflows 章节）, [[OpenClaw]]（补充 MetaSKILL 编排引擎章节）, [[SolonAI]]（补充 Spring Boot → Solon 注解迁移章节）
+  - 增量更新 concepts: [[dynamic-workflow]]（补充 Claude Code Workflows 实现与 MetaSKILL 对比）, [[meta-skill]]（补充 OpenClaw.NET MetaSKILL 声明式 DAG 编排）
+  - 更新 [[index.md]]
+- **冲突**: 无

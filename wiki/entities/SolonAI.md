@@ -15,6 +15,9 @@ last_updated: 2026-06-08
 - 框架依赖: 无（纯 JDK）
 - 模型支持: 5+
 
+### Spring Boot → Solon 注解迁移
+Solon 不是 Spring 的分支或封装，而是独立发展的全栈应用开发框架。在设计哲学上遵循 Java 主流的 IoC、AOP、MVC 范式——概念相同，注解名不同。对于正在做技术选型或迁移调研的 Java 开发者，如果会 Spring Boot，则已会了一大半 Solon。
+
 ### AI 模块体系
 - `solon-ai` — LLM 基础（模型、Prompt、Tool、Skill、方言）
 - `solon-ai-skills` — 技能开发（独立模块，v3.9.0+）
@@ -45,3 +48,8 @@ SimpleAgent（简单对话）、ReActAgent（推理+行动循环）、TeamAgent�
 - [[AgentHarness]] — 马具框架
 - [[MCP]] — 模型上下文协议
 - [[摘要-java-ai框架选型指南-2026]] — 来源
+- [[SpringBoot]] — 注解迁移对比基准
+- [[IoC]] — 控制反转原则
+- [[AOP]] — 面向切面编程
+- [[SpringMVC]] — MVC 框架对比
+- [[摘要-Spring-Boot-to-Solon-注解迁移]] — 来源
