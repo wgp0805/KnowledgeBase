@@ -163,6 +163,7 @@
 - [[摘要-国产大模型实战横评]] — DeepSeek V4 Pro/Kimi 2.7/MiniMax M3 真实场景横评
 - [[摘要-二维码扫码登录原理]] — 抖音/阿里大厂面试题：QR 码扫码登录完整流程
 ## Entities
+- [[敲代码的小虾米]] — 抖音 Vibe Coding 实战教学创作者，强调先立规矩再让 AI 写代码
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
 - [[PostgreSQL]] — 开源关系型数据库，国产数据库技术底座
@@ -470,3 +471,5 @@
 - [[dual-token-security-analysis]] — 双 Token（AccessToken+RefreshToken）安全设计分析
 - [[dual-token-design-complete]] — 双 Token 设计完整案例：流程/代码/设计决策/安全分析
 - [[claude-code-增强框架对比]] — ECC / Superpowers / OpenSpec / Spec-Kit 横向对比与选型指南
+
+- [[摘要-vibe-coding-实战篇总结-上]] — 抖音创作者敲代码的小虾米总结的 Vibe Coding 开发全流程（上篇）：立项/选技术栈/搭架构/写 Agent 宪法
