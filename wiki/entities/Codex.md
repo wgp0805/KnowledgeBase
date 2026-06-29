@@ -2,8 +2,8 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md]
-last_updated: 2026-06-05
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md]
+last_updated: 2026-06-29
 ---
 
 ## 定义
@@ -75,13 +75,53 @@ Codex 从三个方向从编程 Agent 向工作系统进化：
 **Bug 修复原则：**
 不预设立场猜测根因，提供日志和复现步骤让 Codex 定位。如果一顿操作没解决，开新会话重来。
 
-### 独有特性
-- 手机远程操控（ChatGPT 手机端→电脑端 Codex）
-- 内置预览浏览器（可批注元素给修改意见）
-- Fork 分叉（从历史节点重新开对话）
-- 桌面宠物
+### Harness 架构（云端沙箱 + 并行子 Agent）
+来自 [[摘要-codex-vs-claude-code-对比]]。Codex 的 Harness 围绕"隔离"和"并行"两个关键词设计：
 
-### 二师兄 9 条使用技巧
+1. 在云端创建**隔离的沙箱容器**，把代码库克隆进去
+2. 根据任务复杂度启动多个**并行子 Agent**（最多 8 个），互不干扰
+3. 子 Agent 完成后汇总结果返回
+
+这种架构让 Codex 在**可并行化的批量任务**上效率极高（如同时开发 5 个独立 feature）。
+
+### 与 Claude Code 对比（2026-06 苏三视角）
+完整对比详见 [[摘要-codex-vs-claude-code-对比]]。补充关键数据：
+
+- **GitHub Star（2026-06）**：Codex 8.3 万 vs Claude Code 12.4 万
+- **基准测试**：
+  - SWE-bench Pro（复杂任务）：Codex 58.6% 落后 Claude Code 64.3%
+  - SWE-bench Verified：Codex **88.7% 微弱领先** Claude Code 87.6%
+  - Terminal-Bench 2.0：Codex **82.7% 大幅领先** Claude Code 69.4%（13.3 个百分点）
+  - 至顶 AI 实验室综合评测：**Codex 91.6 分（第一）** > Manus 86.4 > Claude Code 82.5 > [[OpenClaw]] 79.9
+- **上下文窗口**：Codex 200K vs Claude Code 1M tokens
+- **Token 效率**：Codex 约为 Claude Code 的 **1/3**；构建 Figma 插件 Codex 用 150 万 vs Claude Code 620 万
+- **功能先发**：24 项共有功能中 18 项 Claude Code 先发，**4 项 Codex 先发**：内置沙箱、云端异步智能体、多智能体并行团队、目标模式（Goal mode）
+- **执行环境**：Codex **云端沙箱**（更安全，不碰本地环境）vs Claude Code 本地机器
+- **开源**：**Codex Apache-2.0**（可 Fork 定制）vs Claude Code CLI 非开源
+- **总分第一**：在 PPT 生成、前后端开发、论文解读三类真实长流程任务中综合得分第一
+
+### 安装方式
+```bash
+# Mac/Linux 一键安装
+curl -fsSL https://chatgpt.com/codex/install.sh | sh
+
+# npm 全局
+npm install -g @openai/codex
+
+# Homebrew (macOS)
+brew install openai-codex
+```
+**前置条件**：Node.js ≥ 18 + ChatGPT Plus/Pro 订阅（$20/月起）
+
+### 适用场景
+- ✅ 批量并行任务（原生 8 个子 Agent）
+- ✅ Token 预算有限（3 倍效率）
+- ✅ 追求安全隔离（云端沙箱）
+- ✅ 需要开源可审计（Apache-2.0）
+- ✅ 已有 ChatGPT 订阅
+- ✅ 终端自动化任务（Terminal-Bench 领先 13.3 个百分点）
+
+### 独有特性
 来自[[摘要-AI-agent工具应该怎么使用]]，作者基于 Codex 日常开发的实战经验：
 
 1. **先建 AGENTS.md** — 进入项目先 /init，编写项目说明书。控制在 200 行以内，只写最核心约束（最高优先级限制、技术栈、编码规范、开发流程）。踩坑后动态更新，每次 AI 犯错后补入新约束
@@ -104,8 +144,11 @@ Codex 从三个方向从编程 Agent 向工作系统进化：
 - [[摘要-40分钟学会Codex零基础教程]] — 来源
 - [[摘要-把Codex用到极致]] — 来源（工作系统框架与长线程理念）
 - [[摘要-AI-agent工具应该怎么使用]] — 来源（二师兄 9 条使用技巧）
+- [[摘要-codex-vs-claude-code-对比]] — 来源（2026-06 vs Claude Code 对比）
 - [[ClaudeCode]] — 对标产品
 - [[OpenAI]] — 所属公司
 - [[Agent]] — 核心概念
 - [[Skill]] — 技能扩展
 - [[MCP]] — 外部服务协议
+- [[HarnessAgent]] — Harness 架构
+- [[AICoding]] — AI 编程范式

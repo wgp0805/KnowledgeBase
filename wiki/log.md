@@ -348,3 +348,14 @@
   - 增量更新 concepts: [[dynamic-workflow]]（补充 Claude Code Workflows 实现与 MetaSKILL 对比）, [[meta-skill]]（补充 OpenClaw.NET MetaSKILL 声明式 DAG 编排）
   - 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-06-29] ingest | 摄入 4 篇 raw/01-articles 文章（Codex/FastAPI/国产模型/QR登录）
+- **变更**:
+  - 新增 sources: [[摘要-codex-vs-claude-code-对比]], [[摘要-fastapi-入门教程]], [[摘要-国产大模型实战横评]], [[摘要-二维码扫码登录原理]]
+  - 新增 entities: [[FastAPI]], [[Pydantic]], [[Uvicorn]], [[Kimi]], [[MiniMax]], [[GLM]]
+  - 新增 concepts: [[ASGI]], [[QR码登录]], [[Token认证机制]]
+  - 增量更新 entities: [[ClaudeCode]]（补充与 Codex 2026-06 对比小节）, [[Codex]]（补充 Harness 架构与对比小节）, [[DeepSeek]]（补充 V4 Pro 2026-06 实战横评表现）
+  - 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: 4 篇原始文章移动到 raw/09-archive/
+

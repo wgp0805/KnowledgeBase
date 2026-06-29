@@ -2,8 +2,8 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md]
-last_updated: 2026-06-02
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md]
+last_updated: 2026-06-29
 ---
 
 ## 定义
@@ -77,7 +77,32 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
   - [[sivalabs-agent-skills]]：统一 AI 技能封装规范
   - [[spring-testing-skills]]：自动生成全套测试用例
 
-### 交互方式
+### 与 Codex 对比（2026-06 苏三视角）
+完整对比详见 [[摘要-codex-vs-claude-code-对比]]。核心结论：
+
+- **Harness 哲学**：Claude Code = 本地执行 + 协作子 Agent（"并肩作战"），透明输出每一步，敏感操作要确认；Codex = 云端沙箱 + 并行子 Agent（"派任务等结果"）
+- **GitHub Star（2026-06）**：Claude Code 12.4 万 vs Codex 8.3 万
+- **基准测试**：
+  - SWE-bench Pro（复杂任务）：Claude Code 64.3% **领先** Codex 58.6%
+  - SWE-bench Verified：Codex 88.7% 微弱领先 Claude Code 87.6%
+  - Terminal-Bench 2.0：Codex 82.7% 大幅领先 Claude Code 69.4%
+  - 至顶 AI 实验室综合评测：Codex 91.6 > Manus 86.4 > Claude Code 82.5 > [[OpenClaw]] 79.9
+- **上下文窗口**：Claude Code **1M tokens** vs Codex 200K tokens
+- **Token 效率**：Codex 约为 Claude Code 的 3 倍；构建 Figma 插件 Codex 用 150 万 vs Claude Code 620 万
+- **功能先发**：24 项共有功能中 **18 项 Claude Code 先发**（headless、MCP、斜杠命令、上下文压缩、subagents、hooks、skills 等），4 项 Codex 先发
+- **执行环境**：Claude Code 本地机器（更灵活但有 `git push --force`、降级 Spring Boot 版本等误操作风险）vs Codex 云端沙箱（更安全）
+- **额度问题**：3 分钟用掉 5 小时配额 60% 的反馈；2026-04 曾因配置 Bug 思考深度骤降 67%
+- **开源**：Claude Code CLI **非开源** vs Codex Apache-2.0
+- **最佳实践**：复杂重构 → Claude Code；批量并行 → Codex；组合拳互补使用
+
+### 适用场景
+- ✅ 大型代码库深度重构（SWE-bench Pro 领先）
+- ✅ 需要超长上下文（1M tokens）
+- ✅ 喜欢协作式体验（每一步都输出）
+- ✅ 追求最新功能（迭代节奏快）
+- ✅ 需要 Agent Teams 间通信
+- ✅ 团队已有 Anthropic 生态
+
 - @文件引用、图片拖拽、斜杠命令（/help /model /btw /simplify 等）
 - `!` 前缀进入 bash 模式
 - Ctrl+B 后台运行命令
@@ -132,3 +157,4 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 - [[Greptile]] — 开发者工具公司
 - [[spring-skill-usage-guide]] — Spring Skill 使用时机与组合策略
 - [[摘要-Claude-Code-Workflows-vs-MetaSKILL]] — 来源
+- [[摘要-codex-vs-claude-code-对比]] — 来源（2026-06 苏三视角对比）

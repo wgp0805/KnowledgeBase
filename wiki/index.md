@@ -157,6 +157,10 @@
 - [[摘要-Spring-Cloud-Gateway-War-Tomcat]] — Spring Cloud Gateway War 包部署外置 Tomcat 改造方案与评估
 - [[摘要-Claude-Code-Workflows-vs-MetaSKILL]] — Claude Code Dynamic Workflows 与 OpenClaw.NET MetaSKILL 编排范式对比
 - [[摘要-Spring-Boot-to-Solon-注解迁移]] — Spring Boot 到 Solon 框架注解迁移实战指南
+- [[摘要-codex-vs-claude-code-对比]] — 2026-06 Codex vs Claude Code 全面对比（Harness/基准/Token/功能）
+- [[摘要-fastapi-入门教程]] — FastAPI 高性能 Python Web 框架入门（Java 开发者视角）
+- [[摘要-国产大模型实战横评]] — DeepSeek V4 Pro/Kimi 2.7/MiniMax M3 真实场景横评
+- [[摘要-二维码扫码登录原理]] — 抖音/阿里大厂面试题：QR 码扫码登录完整流程
 ## Entities
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -327,6 +331,12 @@
 - [[draw-io]] — 开源流程图工具，支持 AI 生成 XML 导入
 - [[ObsidianCanvas]] — Obsidian 无限画布，多文档关系图与思维导图
 - [[SVG]] — 可缩放矢量图，AI 画架构图首选载体
+- [[FastAPI]] — Python 高性能 Web 框架，基于 ASGI/Pydantic，80K+ Star
+- [[Pydantic]] — Python 数据校验库，FastAPI 数据验证引擎
+- [[Uvicorn]] — Python ASGI 服务器（uvloop + httptools）
+- [[Kimi]] — 月之暗面国产大模型，2026-06 实战中规中矩
+- [[MiniMax]] — MiniMax M3 长上下文/逻辑严谨/办公场景领先
+- [[GLM]] — 智谱 AI GLM 5.2，Coding Plan 抢手
 ## Concepts
 - [[MVCC]] — 多版本并发控制机制
 - [[WAL]] — 预写日志机制
@@ -439,6 +449,9 @@
 - [[ORM]] — 对象关系映射，将程序对象与数据库表映射的技术
 - [[逻辑删除]] — 数据删除策略，通过标记字段标识删除状态
 - [[乐观锁]] — 并发控制机制，基于版本号检查数据一致性
+- [[ASGI]] — Python 异步 Web 接口规范，WSGI 的异步升级版
+- [[QR码登录]] — 二维码扫码登录原理（三阶段流程 + 临时 Token）
+- [[Token认证机制]] — 基于 Token + 设备绑定的移动端认证范式
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
