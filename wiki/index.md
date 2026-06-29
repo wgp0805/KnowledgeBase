@@ -99,6 +99,7 @@
 - [[摘要-bytedance-mq-design]] — 字节跳动系统设计面试题：从零设计百亿级消息队列
 - [[摘要-为什么Claude-Code不用RAG检索代码]] — Claude Code 用 Agentic Search 替代 RAG 的原因与实证
 - [[摘要-token-redis-interview]] — JWT 无状态认证与 Token 存 Redis 的合理性分析
+- [[摘要-jwt-双token续签设计]] — 从根本矛盾讲清双 Token、Refresh Token Rotation 与并发刷新坑
 - [[摘要-springboot4-security7-vue3-best-practice]] — SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目最佳实践
 - [[摘要-prevent-duplicate-order]] — 高并发下防止重复提交订单的多层次防护方案
 - [[摘要-java-generics-explained]] — Java 泛型的概念、好处和使用方法详解
@@ -354,6 +355,7 @@
 - [[jwt-stateless]] — JWT 无状态认证原理
 - [[token-blacklist]] — Token 黑名单机制
 - [[dual-token-mechanism]] — 双 Token 续期方案
+- [[refresh-token-rotation]] — Refresh Token 轮换 + Token Family 重放检测 + 并发刷新
 - [[frontend-backend-separation]] — 前后端分离架构
 - [[rbac]] — RBAC 权限模型
 - [[cors]] — 跨域资源共享

@@ -1,5 +1,15 @@
 # Wiki 操作日志
 
+## [2026-06-29] ingest | 摄入双 Token 续签设计文章 + 补归档 Token-Redis 面试文
+- **变更**:
+  - 新增 source [[摘要-jwt-双token续签设计]]（胖虎《一个 Token 就够了，JWT 续签为什么要搞 Access Token + Refresh Token 双 Token？》）
+  - 新增 concept [[refresh-token-rotation]]（轮换 + Token Family 重放检测 + 前端 401 并发刷新坑 + 退出/改密/封禁场景）
+  - 增量合并 [[dual-token-mechanism]]：补充"单 Token 根本矛盾"、"Refresh Token 不应做成 JWT 的可撤销登录态"、"存储位置建议"、"不适合双 Token 的场景"四节
+  - 已存在的 [[摘要-token-redis-interview]] 对应源文件 `面试中被嘲笑Token放在Redis里？.md` 此次仅归档
+  - 更新 [[index.md]] 加入 2 个新条目（1 source + 1 concept）
+  - 归档 raw/01-articles/ 2 个文件至 raw/09-archive/
+- **冲突**: 无（两篇文章为互补视角，token-redis-interview 偏"是什么/怎么做"，本次新文偏"为什么/工程边界"）
+
 ## [2026-06-29] ingest | 补归档 4 个已编译源文件
 - **变更**: 将 raw/01-articles/ 下 4 个文件移入 raw/09-archive/，对应 sources [[摘要-codex-vs-claude-code-对比]]、[[摘要-fastapi-入门教程]]、[[摘要-国产大模型实战横评]]、[[摘要-二维码扫码登录原理]] 此前已创建并注册到 [[index.md]]，仅遗漏归档步骤本次补齐
 - **冲突**: 无
