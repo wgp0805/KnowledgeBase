@@ -2,8 +2,8 @@
 title: "multi-agent-collaboration"
 type: concept
 tags: [AI, Agent, 协作模式, 全栈开发]
-sources: [raw/01-articles/Java开发栈Skills全面指南.md]
-last_updated: 2026-06-05
+sources: [raw/01-articles/Java开发栈Skills全面指南.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md]
+last_updated: 2026-06-30
 ---
 
 ## 定义
@@ -39,3 +39,6 @@ last_updated: 2026-06-05
 - [[ai-agent-skill]] — 技能封装机制
 - [[Skill]] — Agent 技能定义
 - [[ClaudeCode]] — 多 Agent 调度平台
+- [[LangGraph4j]] — Java 多 Agent 工作流编排框架
+- [[Agent工作流编排]] — 状态图与多 Agent 流程编排方法论
+- [[摘要-langchain4j-langgraph4j-comparison]] — LangGraph4j 多 Agent 模式来源

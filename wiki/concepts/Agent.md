@@ -2,8 +2,8 @@
 title: "Agent"
 type: concept
 tags: [AI, Agent, 自主系统]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md]
+last_updated: 2026-06-30
 ---
 
 ## 定义
@@ -41,3 +41,7 @@ Harness 是大模型之外让 Agent 表现更好的设计总称。同样一个�
 - [[Skill]] — 技能扩展
 - [[MCP]] — 外部服务协议
 - [[n8n-complete-guide]] — n8n 工作流自动化平台指南
+- [[Casebook]] — AI Agent 维护测试用例资产的案例
+- [[LangGraph4j]] — 多 Agent 工作流编排框架
+- [[Step3Flash]] — Agent 执行层模型案例
+- [[摘要-claude-code-learning-roadmap]] — Claude Code Agent 学习路线

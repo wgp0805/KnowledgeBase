@@ -1,4 +1,15 @@
-## [2026-06-30] ingest | 摄入抖音视频《豆包能正经干活了？Seed2.1 Pro 实测》
+## [2026-06-30] ingest | 摄入 5 篇 raw/01-articles 技术资料
+- **变更**:
+  - 新增 sources: [[摘要-reader-filterreader-pushbackreader源码]], [[摘要-casebook-ai-native-testcase-workflow]], [[摘要-langchain4j-langgraph4j-comparison]], [[摘要-step-3-7-flash-agent横评]], [[摘要-claude-code-learning-roadmap]]
+  - 新增 entities: [[Reader]], [[FilterReader]], [[PushbackReader]], [[Casebook]], [[LangGraph4j]], [[Step3Flash]], [[Qwen]]
+  - 新增 concepts: [[AI原生测试用例工程化]], [[Agent工作流编排]]
+  - 增量更新 entities: [[ClaudeCode]], [[LangChain4j]], [[DeepSeek]], [[Gemini]], [[Java]]
+  - 增量更新 concepts: [[AICoding]], [[Agent]], [[Skill]], [[MCP]], [[RAG]], [[FunctionCalling]], [[multi-agent-collaboration]], [[装饰器模式]]
+  - 更新 [[index.md]]
+  - 归档 raw/01-articles/ 5 个源文件至 raw/09-archive/
+- **冲突**: [[LangChain4j]] 最新版本信息存在差异（旧知识 1.15.1/2026-05，新资料 1.11.0/2026-02-04），已按用户选择保留两种说法并标注在“知识冲突”区块
+
+
 - **变更**: 新增 source [[摘要-doubao-seed2-1-pro-douyin]]（秋芝2046 对豆包 Seed2.1 Pro 的办公 Agent、前端生成、视频转文字与多工具调用实测）；更新 [[index.md]] Sources 分类
 - **冲突**: 无
 

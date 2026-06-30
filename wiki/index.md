@@ -163,6 +163,11 @@
 - [[摘要-国产大模型实战横评]] — DeepSeek V4 Pro/Kimi 2.7/MiniMax M3 真实场景横评
 - [[摘要-二维码扫码登录原理]] — 抖音/阿里大厂面试题：QR 码扫码登录完整流程
 - [[摘要-doubao-seed2-1-pro-douyin]] — 秋芝2046 对豆包 Seed2.1 Pro 的办公 Agent、前端生成与多工具调用实测
+- [[摘要-reader-filterreader-pushbackreader源码]] — JDK8 Reader/FilterReader/PushbackReader 字符流源码解读
+- [[摘要-casebook-ai-native-testcase-workflow]] — Casebook 面向 AI Agent 的测试用例工程化工作流
+- [[摘要-langchain4j-langgraph4j-comparison]] — LangChain4j 与 LangGraph4j 的能力接入层/流程编排层对比
+- [[摘要-step-3-7-flash-agent横评]] — Step 3.7 Flash、DeepSeek、Gemini、Qwen 在真实 Agent 任务中的横评
+- [[摘要-claude-code-learning-roadmap]] — Claude Code 从日常使用到 Subagents/MCP 自动化流水线的学习路线
 ## Entities
 - [[敲代码的小虾米]] — 抖音 Vibe Coding 实战教学创作者，强调先立规矩再让 AI 写代码
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
@@ -340,6 +345,13 @@
 - [[Kimi]] — 月之暗面国产大模型，2026-06 实战中规中矩
 - [[MiniMax]] — MiniMax M3 长上下文/逻辑严谨/办公场景领先
 - [[GLM]] — 智谱 AI GLM 5.2，Coding Plan 抢手
+- [[Reader]] — Java 字符输入流抽象基类
+- [[FilterReader]] — Java 字符流装饰器基类
+- [[PushbackReader]] — 支持字符回退的 Java 字符流装饰器
+- [[Casebook]] — 面向 AI Agent 的测试用例工程化工作台
+- [[LangGraph4j]] — Java 有状态多 Agent 工作流图式编排框架
+- [[Step3Flash]] — 面向高频多轮 Agent 执行场景的 Flash 档模型
+- [[Qwen]] — 阿里通义千问大模型系列
 ## Concepts
 - [[MVCC]] — 多版本并发控制机制
 - [[WAL]] — 预写日志机制
@@ -456,6 +468,8 @@
 - [[ASGI]] — Python 异步 Web 接口规范，WSGI 的异步升级版
 - [[QR码登录]] — 二维码扫码登录原理（三阶段流程 + 临时 Token）
 - [[Token认证机制]] — 基于 Token + 设备绑定的移动端认证范式
+- [[AI原生测试用例工程化]] — AI Agent 生成和维护 YAML 测试用例、Git 管理、人类评审验收的方法论
+- [[Agent工作流编排]] — 用状态图、条件分支、循环、检查点和多 Agent 协作组织复杂任务流程
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

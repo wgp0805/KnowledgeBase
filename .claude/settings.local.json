@@ -26,7 +26,13 @@
       "Bash(python *)",
       "Bash(node *)",
       "Bash(curl *)",
-      "Bash(powershell.exe *)"
+      "Bash(powershell.exe *)",
+      "Bash(git -C /d/java/KnowledgeBase status --short)",
+      "Bash(git -C /d/java/KnowledgeBase ls-files .agents/skills/web-access/SKILL.md .agents/skills/web-access/scripts/check-deps.mjs .agents/skills/web-access/scripts/cdp-proxy.mjs .agents/skills/web-access/scripts/find-url.mjs)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git *)",
+      "WebFetch(domain:api.github.com)"
     ]
   }
 }

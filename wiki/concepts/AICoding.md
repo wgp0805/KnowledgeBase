@@ -2,8 +2,8 @@
 title: "AICoding"
 type: concept
 tags: [AI, 编程, 范式转变]
-sources: [raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md]
-last_updated: 2026-06-24
+sources: [raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md]
+last_updated: 2026-06-30
 ---
 
 ## 定义
@@ -52,6 +52,12 @@ AI 辅助编程范式，工程师角色从代码执行者转变为任务管理�
 - **AI 负责**：在定好的框架内填充具体实现
 - 警惕 AI 过度封装倾向（如把两个业务共同点封装成统一调度器）
 
+### 模型选择：执行稳定性也是成本
+[[摘要-step-3-7-flash-agent横评]] 提醒，Coding Agent 场景不能只看单次 Token 单价或 benchmark，而要把工具调用失败、代码错误返工、页面/报告二次整理和人工介入一起纳入总成本。文章将总成本拆成：`Token 成本 + 失败重试成本 + 人工介入成本`。因此，像 [[Step3Flash]] 这类单次价格不是最低、但工具调用稳定性较好的模型，在高频多轮任务中可能拥有更低的综合成本。
+
+### Claude Code 学习路线
+[[摘要-claude-code-learning-roadmap]] 将 AI Coding 能力成长拆成三步：先会用 [[ClaudeCode]] 完成日常开发和 Debug，再用 [[CLAUDEmd]]、计划模式、Thinking Mode 与 [[Skill]] 做深度定制，最后通过 Subagents、[[MCP]] 和自动化流水线进入“指挥 AI 完成完整开发流程”的阶段。
+
 ## 注意事项
 - 老旧项目和资金安全相关项目需更慎重
 - 清晰有逻辑的表达能力成为竞争优势
@@ -68,3 +74,6 @@ AI 辅助编程范式，工程师角色从代码执行者转变为任务管理�
 - [[摘要-AI-agent工具应该怎么使用]] — 来源
 - [[OpenSpec]] — 规范驱动 AI 编程框架
 - [[摘要-OpenSpec规范驱动AI编程框架]] — 来源
+- [[摘要-step-3-7-flash-agent横评]] — 来源（Flash 模型在真实 Coding Agent 任务中的横评）
+- [[摘要-claude-code-learning-roadmap]] — 来源（Claude Code 分阶段学习路线）
+- [[Step3Flash]] — Agent 执行层模型案例

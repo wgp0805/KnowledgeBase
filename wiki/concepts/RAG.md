@@ -2,8 +2,8 @@
 title: "RAG"
 type: concept
 tags: [AI, RAG, 检索增强, 知识库, 面试]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/01-articles/SpringAI.md, raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md]
-last_updated: 2026-06-02
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/01-articles/SpringAI.md, raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md]
+last_updated: 2026-06-30
 ---
 
 ## 定义
@@ -112,3 +112,4 @@ Spring AI 通过 VectorStore + QuestionAnswerAdvisor 实现 RAG：
 - [[Gemini]] — 长上下文模型代表
 - [[摘要-为什么Claude-Code不用RAG检索代码]] — 来源
 - [[摘要-字节面试官什么是RAG为什么需要RAG]] — 来源
+- [[摘要-langchain4j-langgraph4j-comparison]] — LangChain4j 与 LangGraph4j 对比中的 RAG 能力来源

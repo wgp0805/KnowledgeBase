@@ -2,8 +2,8 @@
 title: "LangChain4j"
 type: entity
 tags: [AI框架, Java, LLM]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md]
-last_updated: 2026-06-08
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md]
+last_updated: 2026-06-30
 ---
 
 ## 定义
@@ -95,6 +95,20 @@ MCP 集成：`langchain4j-agentic-mcp` 模块支持 MCP 工具作为 Agent 节�
 - 最新版本: 1.15.1 (2026-05) | GitHub Stars: 12,196
 - 社区 Stars 居 Java AI 框架之首
 
+### 与 LangGraph4j 的关系
+[[摘要-langchain4j-langgraph4j-comparison]] 强调，LangChain4j 与 [[LangGraph4j]] 不是竞品，而是不同层级的互补关系：
+- LangChain4j 是 AI 能力接入层，解决模型调用、Embedding、RAG、Tool Calling、AiServices 等“能不能用”的问题。
+- LangGraph4j 是 Agent 工作流编排层，解决状态图、条件分支、循环、多智能体协作、检查点等“怎么编排复杂流程”的问题。
+- 轻量场景（单次调用、RAG 问答、单 Agent + 工具）优先用 LangChain4j；复杂场景（多步分支、循环、Human-in-the-Loop、断点恢复）引入 LangGraph4j。
+- 企业项目常见组合：LangChain4j 负责模型/RAG/Tool，LangGraph4j 负责状态图编排、流程路由和恢复能力。
+
+## 知识冲突
+
+### 最新版本信息差异
+- 旧知识：[[摘要-java-ai框架选型指南-2026]] 记录 LangChain4j 最新版本为 1.15.1（2026-05），GitHub Stars 12,196。
+- 新资料：[[摘要-langchain4j-langgraph4j-comparison]] 记录 LangChain4j 最新版本为 1.11.0（2026-02-04）。
+- 处理：按用户选择保留两种说法并标注冲突；后续以官方 Maven Central / GitHub Release 为准再统一。
+
 ## 工程化建议
 - Prompt 与代码分离
 - 对 LLM 调用做幂等与重试
@@ -115,3 +129,6 @@ MCP 集成：`langchain4j-agentic-mcp` 模块支持 MCP 工具作为 Agent 节�
 - [[Skill_Registry]] — 技能注册中心
 - [[摘要-java-ai-langchain4j]] — 来源
 - [[摘要-java-ai框架选型指南-2026]] — 来源
+- [[摘要-langchain4j-langgraph4j-comparison]] — 来源（与 LangGraph4j 的互补选型）
+- [[LangGraph4j]] — Agent 工作流编排层
+- [[Agent工作流编排]] — 复杂多 Agent 流程编排方法论

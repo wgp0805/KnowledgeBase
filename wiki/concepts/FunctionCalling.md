@@ -2,8 +2,8 @@
 title: "FunctionCalling"
 type: concept
 tags: [AI, 工具调用, LLM]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/SpringAI.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/SpringAI.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md]
+last_updated: 2026-06-30
 ---
 
 ## 定义
@@ -32,3 +32,4 @@ Function Calling 是 Agent 工具调用的底层机制，LangChain4j 的 Tools�
 - [[SpringAI]] — Spring AI 函数调用
 - [[Agent]] — Agent 工具调用
 - [[Skill]] — 上层技能封装
+- [[摘要-langchain4j-langgraph4j-comparison]] — LangChain4j Tool Calling 对比来源

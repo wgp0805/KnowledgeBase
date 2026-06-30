@@ -2,8 +2,8 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md]
-last_updated: 2026-06-29
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md]
+last_updated: 2026-06-30
 ---
 
 ## 定义
@@ -95,6 +95,14 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 - **开源**：Claude Code CLI **非开源** vs Codex Apache-2.0
 - **最佳实践**：复杂重构 → Claude Code；批量并行 → Codex；组合拳互补使用
 
+### 学习路线（三阶段）
+[[摘要-claude-code-learning-roadmap]] 将 Claude Code 学习拆成三层：
+- **青铜级**：完成安装、启动、项目理解、代码生成、Bug 修复等日常任务，目标是“一天上手”。
+- **白银级**：通过 [[CLAUDEmd]]、Thinking Mode、计划模式、提示词四要素和 [[Skill]] 定制 Claude Code，使其遵守个人和项目工作方式。
+- **王者级**：使用 Subagents、[[MCP]] 和自动化流水线，让 AI 参与需求分析、方案设计、实现、测试、代码审查和部署。
+
+该路线强调开发者角色从“手敲代码”转向“定义目标、拆分任务、审查验证和指挥 Agent”。
+
 ### 适用场景
 - ✅ 大型代码库深度重构（SWE-bench Pro 领先）
 - ✅ 需要超长上下文（1M tokens）
@@ -158,3 +166,4 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 - [[spring-skill-usage-guide]] — Spring Skill 使用时机与组合策略
 - [[摘要-Claude-Code-Workflows-vs-MetaSKILL]] — 来源
 - [[摘要-codex-vs-claude-code-对比]] — 来源（2026-06 苏三视角对比）
+- [[摘要-claude-code-learning-roadmap]] — 来源（三阶段学习路线）

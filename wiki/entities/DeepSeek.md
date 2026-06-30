@@ -2,8 +2,8 @@
 title: "DeepSeek"
 type: entity
 tags: [AI, 模型, 公司]
-sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/01-articles/Ollama+DeepSeek本地部署（新人必看）.md, raw/01-articles/国产大模型跑分一个比一个高，到底谁能真的干活？.md]
-last_updated: 2026-06-29
+sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/01-articles/Ollama+DeepSeek本地部署（新人必看）.md, raw/01-articles/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md]
+last_updated: 2026-06-30
 ---
 
 ## 定义
@@ -31,12 +31,18 @@ last_updated: 2026-06-29
 ### 综合定位
 代码"写得快、写得老道"，3D 游戏视觉呈现最佳；在 Bug 定位精度上略弱于 [[MiniMax]] M3。
 
+### Flash 模型 Agent 任务横评
+[[摘要-step-3-7-flash-agent横评]] 中，DeepSeek V4 Flash 在从零搭建开发者日志站任务中成本最低、可一轮交付可用成品，但编译过程中出现 3 次错误并自行修复。文章认为 DeepSeek 的单次 Token 成本优势明显，但在 Agent 场景下还需要把工具调用失败、代码错误返工和人工介入一起计入综合成本。
+
 ## 关联连接
 - [[DeepSeekTUI]] — 基于 DeepSeek V4 的终端编程智能体
 - [[Ollama]] — 本地部署 DeepSeek 模型
 - [[AICoding]] — AI 编程范式
 - [[摘要-Ollama+DeepSeek本地部署]] — Ollama 本地部署 R1 教程
 - [[摘要-国产大模型实战横评]] — 来源（2026-06 横评）
+- [[摘要-step-3-7-flash-agent横评]] — 来源（Flash 模型 Agent 任务横评）
+- [[Step3Flash]] — 横评对比模型
+- [[Qwen]] — 横评对比模型
 - [[Kimi]] — 同期国产对手
 - [[MiniMax]] — 同期国产对手
 - [[GLM]] — 同期国产对手
