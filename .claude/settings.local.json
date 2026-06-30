@@ -25,7 +25,8 @@
       "Bash(npx skills *)",
       "Bash(python *)",
       "Bash(node *)",
-      "Bash(curl *)"
+      "Bash(curl *)",
+      "Bash(powershell.exe *)"
     ]
   }
 }

@@ -1,3 +1,7 @@
+## [2026-06-30] ingest | 摄入抖音视频《豆包能正经干活了？Seed2.1 Pro 实测》
+- **变更**: 新增 source [[摘要-doubao-seed2-1-pro-douyin]]（秋芝2046 对豆包 Seed2.1 Pro 的办公 Agent、前端生成、视频转文字与多工具调用实测）；更新 [[index.md]] Sources 分类
+- **冲突**: 无
+
 # Wiki 操作日志
 
 ## [2026-06-29] ingest | 摄入双 Token 续签设计文章 + 补归档 Token-Redis 面试文

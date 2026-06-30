@@ -162,6 +162,7 @@
 - [[摘要-fastapi-入门教程]] — FastAPI 高性能 Python Web 框架入门（Java 开发者视角）
 - [[摘要-国产大模型实战横评]] — DeepSeek V4 Pro/Kimi 2.7/MiniMax M3 真实场景横评
 - [[摘要-二维码扫码登录原理]] — 抖音/阿里大厂面试题：QR 码扫码登录完整流程
+- [[摘要-doubao-seed2-1-pro-douyin]] — 秋芝2046 对豆包 Seed2.1 Pro 的办公 Agent、前端生成与多工具调用实测
 ## Entities
 - [[敲代码的小虾米]] — 抖音 Vibe Coding 实战教学创作者，强调先立规矩再让 AI 写代码
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
