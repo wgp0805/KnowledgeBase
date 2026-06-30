@@ -16,7 +16,16 @@
       "Bash(mv \"raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md\" \"raw/09-archive/\")",
       "Bash(mv \"raw/01-articles/FastAPI 入门教程.md\" \"raw/09-archive/\")",
       "Bash(mv \"raw/01-articles/国产大模型跑分一个比一个高，到底谁能真的干活？.md\" \"raw/09-archive/\")",
-      "Bash(mv \"raw/01-articles/抖音一面：二维码扫码登录原理.md\" \"raw/09-archive/\")"
+      "Bash(mv \"raw/01-articles/抖音一面：二维码扫码登录原理.md\" \"raw/09-archive/\")",
+      "Bash(defuddle parse *)",
+      "WebFetch(domain:v.douyin.com)",
+      "WebFetch(domain:www.iesdouyin.com)",
+      "WebFetch(domain:www.douyin.com)",
+      "WebSearch",
+      "Bash(npx skills *)",
+      "Bash(python *)",
+      "Bash(node *)",
+      "Bash(curl *)"
     ]
   }
 }
