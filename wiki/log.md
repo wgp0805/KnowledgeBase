@@ -409,3 +409,12 @@
   - 新增 entity [[胖虎]]（公众号作者，同时关联既有 [[摘要-jwt-双token续签设计]]）
   - 更新 [[index.md]] 加入 3 个新条目（1 source + 1 entity + 1 concept）
 - **冲突**: 无（[[transaction-management]] 已有事务回滚/REQUIRES_NEW/自调用失效知识，本文从异常边界视角互补引用，未覆盖）
+
+## [2026-07-01] ingest | 摄入《RocketMQ 已正式接入 AI ！》
+- **变更**:
+  - 新增 source [[摘要-rocketmq-接入ai]]（苏三说技术，RocketMQ 5.5.0 面向 AI 的升级）
+  - 新增 concept [[LiteTopic]]（轻量主题：百万级/自动创建/TTL/断点续传，支撑 Multi-Agent 异步通信）
+  - 新增 entity [[苏三]]（公众号作者，连接既有 6+ 篇 source 引用，消除孤岛）
+  - 增量更新 entity [[RocketMQ]]（补充 RocketMQ for AI 章节：LiteTopic/异步通信/会话管理/智能调度/MCP+A2A 生态）
+  - 更新 [[index.md]] 加入 3 个新条目（1 source + 1 entity + 1 concept）
+- **冲突**: 无（[[RocketMQ]] 原页面为传统消息队列能力，AI 能力为新增章节互补）
