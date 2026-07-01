@@ -16,7 +16,7 @@ source: "https://mp.weixin.qq.com/s/DvRMRtKz2K981FfQuhHbmQ"
 
 不能继续， `try catch` 多半放外面。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/tlQDl6Yy66y65cRG6BB38jPadIX78EFOQvU4Gds0M34mRnLls6fATaLiavrqefiaxZEe1HNBcIQz4kpl8Aice5EVINw7DiaFuYVdGUvFUamicU80/640?from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/%E8%B0%81%E5%86%8D%E8%AF%B4%20try%20catch%20%E5%BF%85%E9%A1%BB%E6%94%BE%20for%20%E5%BE%AA%E7%8E%AF%E5%A4%96%E9%9D%A2%EF%BC%8C%E7%9B%B4%E6%8E%A5%E8%B5%B0%E4%BA%BA%EF%BC%81/3d2c4dea6c7f3fbd80f74da87f24737e_MD5.webp)
 
 这个问题看着小，其实挺能看出一个人有没有写过真实业务。
 
@@ -122,7 +122,7 @@ public void wrongTransferBatch(List<TransferCommand> commands) {
 
 这一类问题， `try catch` 放外面没毛病。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/tlQDl6Yy66wG8JRsEva1PczluibMoNAjuYUmUsRurHDjkYXHniaDVlvz8XkBKOFibVR8OXjfBmEhXEbUv3vRV33ToZ597TQDUHMVWlds4zGaicU/640?from=appmsg#imgIndex=1)
+![图片](assets/%E8%B0%81%E5%86%8D%E8%AF%B4%20try%20catch%20%E5%BF%85%E9%A1%BB%E6%94%BE%20for%20%E5%BE%AA%E7%8E%AF%E5%A4%96%E9%9D%A2%EF%BC%8C%E7%9B%B4%E6%8E%A5%E8%B5%B0%E4%BA%BA%EF%BC%81/b641cd48acd8341633430b20e1e991cc_MD5.jpg)
 
 ## 放在 for 里面，一条失败，后面继续
 
@@ -299,7 +299,7 @@ for (UserDTO user : users) {
 
 不是机械地放里面，也不是机械地放外面。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/tlQDl6Yy66yds3ZGEDcYdaLGQMjibIKFGqC5iaK8Ol6Fy8SsJEkcZnCQdwZLhHE6G4GKmiahBib7Pib1JyLF8AsYwqcq5cDA1AVgvwqlxG50HeO8/640?from=appmsg#imgIndex=2)
+![图片](assets/%E8%B0%81%E5%86%8D%E8%AF%B4%20try%20catch%20%E5%BF%85%E9%A1%BB%E6%94%BE%20for%20%E5%BE%AA%E7%8E%AF%E5%A4%96%E9%9D%A2%EF%BC%8C%E7%9B%B4%E6%8E%A5%E8%B5%B0%E4%BA%BA%EF%BC%81/7da070e369886b7e92b2425c59d71c91_MD5.jpg)
 
 ## 事务场景里，放里面反而更容易踩坑
 
@@ -395,7 +395,7 @@ public void importOne(UserDTO user) {
 
 面试能说到这一步，基本就不只是会背题了。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/tlQDl6Yy66w875b3sxFDDKqshU6QHIFLmfvKTqspBYENhTsNE4UmmLAXFjqrp0GuNmPB6PpRKuE81rvUibHDtNdOicEaoJgylevC0RMTRcbJQ/640?from=appmsg#imgIndex=3)
+![图片](assets/%E8%B0%81%E5%86%8D%E8%AF%B4%20try%20catch%20%E5%BF%85%E9%A1%BB%E6%94%BE%20for%20%E5%BE%AA%E7%8E%AF%E5%A4%96%E9%9D%A2%EF%BC%8C%E7%9B%B4%E6%8E%A5%E8%B5%B0%E4%BA%BA%EF%BC%81/1d4b785202f542e70e6a7d6684661047_MD5.png)
 
 ## 性能差距，别把重点带偏了
 
@@ -504,7 +504,7 @@ private boolean isPositiveInteger(String value) {
 
 性能优化最怕的就是这样，嘴上很专业，手上很玄学。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/tlQDl6Yy66xU3Vc62hjdIjcXs1icmAHn1BeDKwUbHgsoiaGNGWTibGBotvOwBGmTKlZiccusmI2ibRYiaz2Rce8SSTonulQa9FdYvbDvcGFuiciaTSQ/640?from=appmsg#imgIndex=4)
+![图片](assets/%E8%B0%81%E5%86%8D%E8%AF%B4%20try%20catch%20%E5%BF%85%E9%A1%BB%E6%94%BE%20for%20%E5%BE%AA%E7%8E%AF%E5%A4%96%E9%9D%A2%EF%BC%8C%E7%9B%B4%E6%8E%A5%E8%B5%B0%E4%BA%BA%EF%BC%81/accacfc464093092da54cdd7e2125c19_MD5.jpg)
 
 ## catch 太大，也是在埋雷
 
