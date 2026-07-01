@@ -12,7 +12,7 @@ Hermes Agent 是由 [[NousResearch]] 开发的开源通用 AI Agent 系统，定
 
 ## 核心定位
 
-> Hermes 的核心资产是**学习型执行循环**。它强调 self-improving agent、closed learning loop、自动创建和修补 skills、FTS5 会话搜索、Honcho 用户建模，以及六种执行后端。——《[[OpenClaw vs Hermes 对比]]》
+> Hermes 的核心资产是**学习型执行循环**。它强调 self-improving agent、closed learning loop、自动创建和修补 skills、FTS5 会话搜索、Honcho 用户建模，以及六种执行后端。——《OpenClaw vs Hermes 对比》
 
 与 [[OpenClaw]] 的对比：
 - OpenClaw 管**入口和秩序**（多渠道 Gateway、控制面）

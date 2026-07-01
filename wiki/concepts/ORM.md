@@ -18,6 +18,6 @@ ORM（Object-Relational Mapping）即对象关系映射，是一种将程序中�
 - 劣势：可能带来性能损耗、复杂查询灵活性较低
 
 ## 关联连接
-- [[MyBatis Plus]] — 基于 MyBatis 的 ORM 增强工具
+- [[MyBatisPlus|MyBatis Plus]] — 基于 MyBatis 的 ORM 增强工具
 - [[MyBatis]] — 基础 ORM 框架
 - [[query-optimization]] — 查询优化

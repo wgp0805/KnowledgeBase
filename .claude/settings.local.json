@@ -32,7 +32,12 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(git *)",
-      "WebFetch(domain:api.github.com)"
+      "WebFetch(domain:api.github.com)",
+      "Bash(git config *)",
+      "Bash(npm config *)",
+      "Skill(claude-hud:configure)",
+      "Bash(awk -F' -> ' '{print $1 \"\\\\t\" $2}')",
+      "Bash(python3 *)"
     ]
   }
 }

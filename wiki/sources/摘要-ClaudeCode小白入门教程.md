@@ -13,5 +13,5 @@ last_updated: 2026-06-23
 - [[ClaudeCode]] — Anthropic 终端 AI Agent
 - [[Anthropic]] — 开发公司
 - [[AICoding]] — AI 辅助编程范式
-- [[Node.js]] — JavaScript 运行环境
+- Node.js — JavaScript 运行环境
 - [[Git]] — 版本控制系统

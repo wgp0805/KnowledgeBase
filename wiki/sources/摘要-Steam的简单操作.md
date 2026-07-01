@@ -11,5 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Java]] — 编程语言
-- [[lambda表达式简单解析]] — Java 8 Lambda 表达式
+- [[摘要-lambda表达式简单解析]] — Java 8 Lambda 表达式
 - [[CompletableFuture]] — Java 异步编程

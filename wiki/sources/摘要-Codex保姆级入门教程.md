@@ -14,4 +14,4 @@ last_updated: 2026-06-23
 - [[OpenAI]] — 开发公司
 - [[AICoding]] — AI 辅助编程范式
 - [[ClaudeCode]] — 对比 AI 工具
-- [[GPT-5.5]] — OpenAI 最新模型
+- GPT-5.5 — OpenAI 最新模型

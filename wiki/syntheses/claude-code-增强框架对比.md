@@ -31,7 +31,7 @@ last_updated: 2026-06-26
 
 - **定位**：安装在 Claude Code / [[OpenCode]] 之上的增强框架，把工程能力打包成完整生态
 - **基线**：v1.10.0+，仓库 `affaan-m/ECC`
-- **六层架构**：[[Rules]] → [[Skill|Skills]] → [[Agent|Agents]] → [[Hooks]] → [[MCP|MCPs]] → Continuous Learning（见 [[AutoMemory]]）
+- **六层架构**：Rules → [[Skill|Skills]] → [[Agent|Agents]] → [[Hooks]] → [[MCP|MCPs]] → Continuous Learning（见 [[AutoMemory]]）
 - **特色资产**：
   - **47+ 专业 Agent**：planner / architect / code-reviewer / security-reviewer / tdd-guide ……
   - **AgentShield 三阶段安全扫描**：红队（对抗攻击）→ 蓝队（验证防御）→ 审计（出报告）

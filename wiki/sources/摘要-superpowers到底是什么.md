@@ -17,6 +17,6 @@ last_updated: 2026-06-26
 - [[Skill]] — 核心机制
 - [[ClaudeCode]] — 首发载体
 - [[子Agent编排]] — 子代理隔离机制
-- [[test-driven-development]] — 强制 TDD
+- [[TDD|test-driven-development]] — 强制 TDD
 - [[code-review]] — 强制代码审查
 - [[摘要-superpowers-openspec-speckit对比]] — 对比视角

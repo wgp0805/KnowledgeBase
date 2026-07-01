@@ -18,9 +18,9 @@ AgentScope Java 2.0 是阿里巴巴通义实验室开源的多智能体开发框
 
 ## 关联连接
 
-- [[AgentScopeJava]] — 阿里巴巴通义实验室开源的多智能体开发框架 Java 版本
+- [[AgentScope_Java|AgentScopeJava]] — 阿里巴巴通义实验室开源的多智能体开发框架 Java 版本
 - [[AgentScope_Java]] — AgentScope Java 框架
-- [[Alibaba]] — 阿里巴巴集团
+- Alibaba — 阿里巴巴集团
 - [[LangChain4j]] — 对比框架：全能型 LLM 框架
 - [[SpringAI]] — 对比框架：Spring 官方 AI 集成框架
 - [[ReActAgent]] — 核心推理循环 Agent

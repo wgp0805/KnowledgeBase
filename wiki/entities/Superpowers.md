@@ -71,7 +71,7 @@ last_updated: 2026-06-26
 - [[Cursor]] — 兼容平台
 - [[Codex]] — 兼容平台
 - [[子Agent编排]] — 核心机制
-- [[test-driven-development]] — 强制 TDD
+- [[TDD|test-driven-development]] — 强制 TDD
 - [[code-review]] — 自动代码审查
 - [[摘要-superpowers到底是什么]] — 来源
 - [[摘要-superpowers-openspec-speckit对比]] — 来源

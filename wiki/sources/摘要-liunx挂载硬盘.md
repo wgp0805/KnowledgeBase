@@ -12,4 +12,4 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[Linux]] — 操作系统
 - [[CentOS]] — Linux 发行版
-- [[摘要-liunx常用命令]] — Linux 命令参考
+- [[摘要-Liunx常用命令]] — Linux 命令参考

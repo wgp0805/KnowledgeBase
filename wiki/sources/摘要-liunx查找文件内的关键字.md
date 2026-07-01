@@ -14,4 +14,4 @@ Linux 中使用 Vim 和 Grep 命令查找文件内关键字的方法，涵盖 Vi
 - Grep — 文本搜索工具
 - [[Linux]] — 操作系统
 - [[Ripgrep]] — 高效文本搜索工具
-- [[摘要-liunx常用命令]] — Linux 命令参考
+- [[摘要-Liunx常用命令]] — Linux 命令参考

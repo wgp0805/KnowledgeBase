@@ -61,7 +61,7 @@ AI Agent Skill 是一种可扩展的技能包机制，允许为 AI Agent（如 C
 - [[spring-testing-skills]] — 实例
 - [[multi-agent-collaboration]] — 多 Agent 协作模式
 - [[Skill]] — 技能扩展机制
-- [[Summary-java-stack-skills-guide]] — 来源
+- [[摘要-java-stack-skills-guide]] — 来源
 - [[摘要-claude-code-springboot-skills]] — 来源
 - [[摘要-java-ai框架选型指南-2026]] — 来源
 
