@@ -37,7 +37,10 @@
       "Bash(npm config *)",
       "Skill(claude-hud:configure)",
       "Bash(awk -F' -> ' '{print $1 \"\\\\t\" $2}')",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(head -30 wiki/concepts/transaction-management.md)",
+      "Bash(grep -rl \"胖虎\" wiki/)",
+      "Bash(mv \"raw/01-articles/谁再说 try catch 必须放 for 循环外面，直接走人！.md\" \"raw/09-archive/谁再说 try catch 必须放 for 循环外面，直接走人！.md\")"
     ]
   }
 }

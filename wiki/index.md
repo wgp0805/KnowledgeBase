@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-try-catch-异常边界]] — try catch 放 for 内外的本质是异常边界，兼谈事务/性能三坑
 - [[摘要-minio-intro]] — MinIO 对象存储介绍与 Docker 部署
 - [[摘要-elasticsearch-8.10-install]] — ES 8.10 安装与安全配置详解
 - [[摘要-elasticsearch-comprehensive-guide]] — ES 全景指南：从入门到原理深度解析
@@ -169,6 +170,7 @@
 - [[摘要-step-3-7-flash-agent横评]] — Step 3.7 Flash、DeepSeek、Gemini、Qwen 在真实 Agent 任务中的横评
 - [[摘要-claude-code-learning-roadmap]] — Claude Code 从日常使用到 Subagents/MCP 自动化流水线的学习路线
 ## Entities
+- [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
 - [[敲代码的小虾米]] — 抖音 Vibe Coding 实战教学创作者，强调先立规矩再让 AI 写代码
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
 - [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
@@ -353,6 +355,7 @@
 - [[Step3Flash]] — 面向高频多轮 Agent 执行场景的 Flash 档模型
 - [[Qwen]] — 阿里通义千问大模型系列
 ## Concepts
+- [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
 - [[MVCC]] — 多版本并发控制机制
 - [[WAL]] — 预写日志机制
 - [[流复制]] — PostgreSQL 流复制机制

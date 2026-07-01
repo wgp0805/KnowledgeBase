@@ -401,3 +401,11 @@
   - 增量更新 concept [[VibeCoding]]（补充执行方法论：拆真源文档、分阶段推进、逐阶段验收；合并上下篇为完整工作流）
   - 更新 [[index.md]] 加入 1 个新 source 条目
 - **冲突**: 无（与上篇互补，合在一起构成完整开发全流程）
+
+## [2026-07-01] ingest | 摄入《谁再说 try catch 必须放 for 循环外面，直接走人！》
+- **变更**:
+  - 新增 source [[摘要-try-catch-异常边界]]（胖虎 Java专栏，try catch 内外之争的本质）
+  - 新增 concept [[异常边界]]（Exception Boundary：失败停在哪里 + 事务/性能/catch 纪律三坑）
+  - 新增 entity [[胖虎]]（公众号作者，同时关联既有 [[摘要-jwt-双token续签设计]]）
+  - 更新 [[index.md]] 加入 3 个新条目（1 source + 1 entity + 1 concept）
+- **冲突**: 无（[[transaction-management]] 已有事务回滚/REQUIRES_NEW/自调用失效知识，本文从异常边界视角互补引用，未覆盖）
