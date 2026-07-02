@@ -170,6 +170,7 @@
 - [[摘要-langchain4j-langgraph4j-comparison]] — LangChain4j 与 LangGraph4j 的能力接入层/流程编排层对比
 - [[摘要-step-3-7-flash-agent横评]] — Step 3.7 Flash、DeepSeek、Gemini、Qwen 在真实 Agent 任务中的横评
 - [[摘要-claude-code-learning-roadmap]] — Claude Code 从日常使用到 Subagents/MCP 自动化流水线的学习路线
+- [[摘要-多模态大模型横评-苏三]] — Step 3.7 Flash / MiniMax M3 / Qwen3.6-flash 在流程图与发票场景下的多模态横评
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
@@ -476,6 +477,7 @@
 - [[Token认证机制]] — 基于 Token + 设备绑定的移动端认证范式
 - [[AI原生测试用例工程化]] — AI Agent 生成和维护 YAML 测试用例、Git 管理、人类评审验收的方法论
 - [[Agent工作流编排]] — 用状态图、条件分支、循环、检查点和多 Agent 协作组织复杂任务流程
+- [[多模态大模型]] — 支持图像等非文本输入的 LLM，通用于视觉理解、结构化字段抽取、流程图逻辑还原
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

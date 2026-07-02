@@ -418,3 +418,15 @@
   - 增量更新 entity [[RocketMQ]]（补充 RocketMQ for AI 章节：LiteTopic/异步通信/会话管理/智能调度/MCP+A2A 生态）
   - 更新 [[index.md]] 加入 3 个新条目（1 source + 1 entity + 1 concept）
 - **冲突**: 无（[[RocketMQ]] 原页面为传统消息队列能力，AI 能力为新增章节互补）
+
+## [2026-07-02] ingest | 摄入《测评国内多模态大模型，到底哪个更省事？》
+- **变更**:
+  - 新增 source [[摘要-多模态大模型横评-苏三]]（Step 3.7 Flash / MiniMax M3 / Qwen3.6-flash 在流程图与发票两个生产场景下的三维度横评）
+  - 新增 concept [[多模态大模型]]（Multimodal LLM 定义 + 生产可用性三维评估：质量/速度/成本）
+  - 增量更新 entity [[Step3Flash]]（补充多模态横评综合胜出的两场景实测数据）
+  - 增量更新 entity [[MiniMax]]（补充 M3 多模态实测：质量达标但 Token 消耗与耗时偏高）
+  - 增量更新 entity [[Qwen]]（补充 3.6-flash 多模态实测：稳定但速度和 Token 居中偏后，流程图少 1 步）
+  - 增量更新 entity [[苏三]]（补充横评方法论与新收录 source/concept）
+  - 更新 [[index.md]] 加入 2 个新条目（1 source + 1 concept）
+- **冲突**: 无（既有 Step3Flash / MiniMax / Qwen 页面此前只覆盖 Coding Agent 或长上下文视角，多模态视角为互补新增）
+- **归档**: raw/01-articles/测评国内多模态大模型，到底哪个更省事？.md → raw/09-archive/
