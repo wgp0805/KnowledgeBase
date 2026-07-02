@@ -188,16 +188,6 @@ sources:
   - 中文
   enabled: true
   max_per_source: 10
-- name: OSChina
-  type: rss
-  url: https://www.oschina.net/news/rss
-  tags:
-  - 开源
-  - 中文
-  - 编程
-  - 新闻
-  enabled: true
-  max_per_source: 10
 - name: SegmentFault
   type: rss
   url: https://segmentfault.com/feeds
