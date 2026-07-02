@@ -164,7 +164,7 @@ Easy Rules有以下几个核心特点：
 
 Easy Rules围绕 **四个核心抽象** 构建：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/3SCLUkuu2IFTJNPGafBjr5quGb06Ja6HibMPsZXib9pRJ6Jrp2b4dBvAb4Z6NeVgDwSTqWQbKGwENXW96T21QNvMolIL6g71GG4mpIcNlFl64/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![图片](assets/%E5%B9%B2%E6%8E%89if...else%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E5%B0%8F%E8%80%8C%E7%BE%8E%E7%9A%84%E8%A7%84%E5%88%99%E5%BC%95%E6%93%8E/8701c375eefaf2f88c4b749c9928e19e_MD5.png)
 
 ### 3.1 Rule（规则）
 
@@ -382,13 +382,13 @@ Rule rule =
 
 Easy Rules的架构可以分为四个层次：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3SCLUkuu2IGeuzXXMQuxxTcQw0iaSbHk9M6QeJzC8ibHgrpWiarEPzGPpY8QGjRJ0x5MzZf551faWPTj2rx8GsghjuUdkoU1fwLQA9gTmnZj7k/640?wx_fmt=jpeg&from=appmsg#imgIndex=1)
+![图片](assets/%E5%B9%B2%E6%8E%89if...else%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E5%B0%8F%E8%80%8C%E7%BE%8E%E7%9A%84%E8%A7%84%E5%88%99%E5%BC%95%E6%93%8E/760fcb7c8748c8e1a9bc0734c44bbccd_MD5.jpg)
 
 ### 5.2 DefaultRulesEngine：执行流程
 
 `DefaultRulesEngine` 是最常用的引擎实现，它的执行流程如下：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/3SCLUkuu2IFKumHZQrg11po0pXuJsKORtZcaianBxWjx6Zp8535iaIuJXdq2pYJ4tWKeaxyFFKFsp61jlCBdhIVrfoQv04icyYSnj7CzwVNla0/640?wx_fmt=jpeg&from=appmsg#imgIndex=2)
+![图片](assets/%E5%B9%B2%E6%8E%89if...else%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E5%B0%8F%E8%80%8C%E7%BE%8E%E7%9A%84%E8%A7%84%E5%88%99%E5%BC%95%E6%93%8E/fa7fd8c9589bd723ffe0fd0430a26e3f_MD5.jpg)
 
 ### 5.3 InferenceRulesEngine：前向链推理
 
@@ -399,7 +399,7 @@ Easy Rules的架构可以分为四个层次：
 3. 如果没有候选规则，退出循环
 4. 否则，执行所有候选规则（可能修改 `Facts` ）
 5. 回到步骤2，继续循环
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/3SCLUkuu2IGndfwHnia1w8KFq7rDeAdbh21TbUmJQkNWWT5gzFb87dIq4QAia8nfvibQvdnSpxAkay7f6Bg47cGUn0eRpKCpm0vEdkIaSlrCck/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![图片](assets/%E5%B9%B2%E6%8E%89if...else%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E5%B0%8F%E8%80%8C%E7%BE%8E%E7%9A%84%E8%A7%84%E5%88%99%E5%BC%95%E6%93%8E/86b52d5ad9145ea33a2d810c7389bbca_MD5.png)
 
 这种模式特别适合 **规则之间存在依赖关系** 的场景——一个规则的执行结果可能成为另一个规则的触发条件。
 
@@ -477,7 +477,7 @@ Easy Rules提供了 **复合规则** 机制，可以把多个简单规则组合�
 
 **“所有规则都满足，才执行”**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/3SCLUkuu2IHorQOYZyFX1BCCWzI9RUF5X9sibuyFcjXc64fEibvhAloVnQodicDicx7kRvcE9iaaQQzbOEGmXQicTwGWFwsOrwSBy1fokWG0wE5IY/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![图片](assets/%E5%B9%B2%E6%8E%89if...else%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E5%B0%8F%E8%80%8C%E7%BE%8E%E7%9A%84%E8%A7%84%E5%88%99%E5%BC%95%E6%93%8E/802f895f3e043c121f5656f4d3e1de56_MD5.png)
 
 **使用场景** ：需要多个前置条件全部满足才能执行某个操作。比如“用户是VIP且订单金额超过1000且商品有库存”，三个条件缺一不可。
 
@@ -499,7 +499,7 @@ UnitRuleGroup unitGroup = new UnitRuleGroup("全部满足规则组");
 
 **“只要有一个满足，就执行第一个”**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/3SCLUkuu2IFTrSwoiaaib4riaq5xyxKJzEbwoxtO53WdJoaOXBWuGQ7Ll0CpxtlZmPWVvEia9zVoGPgrhIoM6frgiaKO8NPzxYHuDj9zAFgPOaZI/640?wx_fmt=png&from=appmsg#imgIndex=5)
+![图片](assets/%E5%B9%B2%E6%8E%89if...else%EF%BC%8C%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E5%B0%8F%E8%80%8C%E7%BE%8E%E7%9A%84%E8%A7%84%E5%88%99%E5%BC%95%E6%93%8E/8c12da70ce357c8a9337df2f0838d80b_MD5.png)
 
 **使用场景** ：多个互斥的折扣规则，只能选一个生效。比如“新用户首单8折”和“VIP用户9折”同时满足时，只执行优先级高的那个。
 
