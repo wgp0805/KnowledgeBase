@@ -171,6 +171,7 @@
 - [[摘要-step-3-7-flash-agent横评]] — Step 3.7 Flash、DeepSeek、Gemini、Qwen 在真实 Agent 任务中的横评
 - [[摘要-claude-code-learning-roadmap]] — Claude Code 从日常使用到 Subagents/MCP 自动化流水线的学习路线
 - [[摘要-多模态大模型横评-苏三]] — Step 3.7 Flash / MiniMax M3 / Qwen3.6-flash 在流程图与发票场景下的多模态横评
+- [[摘要-easy-rules-规则引擎]] — 用轻量级 Java 规则引擎 Easy Rules 干掉 if...else 的完整讲解
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
@@ -357,6 +358,8 @@
 - [[LangGraph4j]] — Java 有状态多 Agent 工作流图式编排框架
 - [[Step3Flash]] — 面向高频多轮 Agent 执行场景的 Flash 档模型
 - [[Qwen]] — 阿里通义千问大模型系列
+- [[EasyRules]] — j-easy 开源的轻量级 Java 规则引擎（POJO/注解，JAR 约 100KB）
+- [[MartinFowler]] — 软件架构师，规则引擎朴素定义的提出者
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
 - [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外

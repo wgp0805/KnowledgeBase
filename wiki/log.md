@@ -430,3 +430,14 @@
   - 更新 [[index.md]] 加入 2 个新条目（1 source + 1 concept）
 - **冲突**: 无（既有 Step3Flash / MiniMax / Qwen 页面此前只覆盖 Coding Agent 或长上下文视角，多模态视角为互补新增）
 - **归档**: raw/01-articles/测评国内多模态大模型，到底哪个更省事？.md → raw/09-archive/
+
+## [2026-07-02] ingest | 摄入《干掉 if...else，推荐一个小而美的规则引擎》
+- **变更**:
+  - 新增 source [[摘要-easy-rules-规则引擎]]（苏三说技术，用规则对象干掉 if...else）
+  - 新增 entity [[EasyRules]]（j-easy 轻量级 Java 规则引擎：四大抽象/四种定义方式/两种引擎/三种复合规则/优缺点/选型）
+  - 新增 entity [[MartinFowler]]（规则引擎朴素定义提出者，Easy Rules 设计灵感来源）
+  - 增量更新 concept [[规则引擎]]（把 EasyRules 从列表一句话扩展为双链实体条目，补充 Drools/Easy Rules/URule 三者选型路径与关联连接）
+  - 增量更新 entity [[苏三]]（新增本文 source 与提炼实体，补充 sources frontmatter）
+  - 更新 [[index.md]] 加入 3 个新条目（1 source + 2 entity）
+- **冲突**: 无（[[规则引擎]] 原页面以 URule 可视化路线为主，Easy Rules 为代码/注解路线的互补新增）
+- **归档**: raw/01-articles/干掉if...else，推荐一个小而美的规则引擎.md → raw/09-archive/
