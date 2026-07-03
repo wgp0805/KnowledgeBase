@@ -2,7 +2,7 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md]
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md]
 last_updated: 2026-06-30
 ---
 
@@ -15,11 +15,70 @@ Anthropic 在 2025 年 2 月推出的、原本为编程而生、运行在终端�
 - **本地运行**：直接读写本地文件、使用终端、执行命令
 - **Harness 工程**：业界领先的 Agent harness 设计，同样大模型效果差别极大
 
+### 底层架构
+
+#### Query Loop（Agent 循环核心）
+
+Claude Code 的 Agent 循环本质是一个 **异步生成器（async generator）**，而非传统 callback 模式：
+
+```
+for await (const event of query(input)) {
+  render(event)
+}
+```
+
+**三大优势：**
+1. **背压控制**：UI 渲染跟不上模型输出时，generator 自动暂停；callback 模式下消息堆积无法控制
+2. **安全取消**：Ctrl+C 或 token 耗尽只需调用 `.return()`，callback 需逐一解绑
+3. **精确终止原因**：返回 6 种终止原因（end_turn/user abort/budget exhaustion/hook intervention/max turns/unrecoverable error），调用方可直接模式匹配
+
+**请求路径示例**（"给登录函数加上错误处理"）：
+1. 用户输入 → Query Loop
+2. 调用模型 API
+3. 模型流式返回内容和工具调用
+4. 模型指示 Read 工具读取登录函数
+5. 执行结果追加历史消息 → 下一轮迭代
+6. 模型指示 Edit 工具修改代码
+7. 模型判断任务完成，generator 返回 Terminal
+
+#### StreamingToolExecutor（推测执行）
+
+Claude Code 不等待模型完整输出，只要一个工具调用的参数生成完毕且声明为并发安全，就**立即执行**。模型还在生成后续 token，文件可能已经读完。代价是极少数情况下工具调用可能白跑，但整体延迟大幅降低。
+
+#### 自声明工具系统
+
+每个 Tool 实现 5 个维度的接口：
+- **Identity** — 名称与功能描述
+- **Schema** — 参数定义（JSON Schema）
+- **Execution** — 执行逻辑
+- **Permissions** — 所需授权级别
+- **Rendering** — 终端展示方式
+
+类比 Spring 的 `@Component` + 自定义注解，组件自声明能力，容器只负责扫描调度。工具批处理时，并发安全的放并发组，其余的串行执行。
+
+#### 子 Agent 机制
+
+每个 Task 遵循状态机：`pending → running → completed | failed | killed`。AgentTool 生成 **新的 Query Loop 实例**，拥有独立消息历史、工具集和权限模式。主 Agent 和 Sub-agent 是同一个 Agent 循环的多个实例。Sub-agent 权限默认 `bubble` 模式，危险操作像气泡上浮一样上报给用户决定（类似 Java 双亲委派模型）。
+
 ### 权限模式
-1. **Plan Mode（计划模式）**：不直接动手，先给计划等确认
-2. **默认模式**：智能判断哪些操作需要确认
-3. **Accept Edits**：改文件不问，跑命令会问
-4. **危险模式**：`--dangerously-skip` 参数，一路绿灯（Anthropic 发现 97% 用户直接同意）
+
+Claude Code 的权限系统基于**模式路由**而非条件判断。从源码来看共有 7 级模式（从宽松到严格）：
+
+| 模式 | 行为 |
+|------|------|
+| `bypassPermissions` | 一切放行，不做检查（仅限内部测试） |
+| `dontAsk` | 所有操作放行但记录日志 |
+| `auto` | 轻量级 LLM 分类器基于上下文判断放行或拒绝 |
+| `acceptEdits` | 文件编辑自动批准，其他变更需用户确认 |
+| `default` | 标准交互模式，变更操作需用户确认 |
+| `plan` | 只读模式，所有写操作被阻止 |
+| `bubble` | 决策上报给父 Agent |
+
+用户视角的常用模式映射：**默认模式 → default**、**Plan Mode → plan**、**Accept Edits → acceptEdits**
+
+**auto 模式**的实现是额外跑一个轻量级 LLM 分类器，输入当前对话完整上下文，输出二元判断：当前操作是否和用户原始意图一致。比硬编码规则灵活得多。
+
+**优先级设计**：系统先检查 Hooks 是否配置了匹配当前操作的规则，命中则直接执行，不进入权限模式。Hook 覆盖不到的操作依然受权限模式兜底。
 
 ### 上下文管理
 - `/compact`：压缩上下文，保留关键信息释放空间
@@ -167,3 +226,5 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 - [[摘要-Claude-Code-Workflows-vs-MetaSKILL]] — 来源
 - [[摘要-codex-vs-claude-code-对比]] — 来源（2026-06 苏三视角对比）
 - [[摘要-claude-code-learning-roadmap]] — 来源（三阶段学习路线）
+- [[摘要-沉默王二-claude-code-底层深扒]] — 来源（源码架构深扒）
+- [[沉默王二]] — 作者

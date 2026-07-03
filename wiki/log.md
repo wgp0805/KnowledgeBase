@@ -441,3 +441,12 @@
   - 更新 [[index.md]] 加入 3 个新条目（1 source + 2 entity）
 - **冲突**: 无（[[规则引擎]] 原页面以 URule 可视化路线为主，Easy Rules 为代码/注解路线的互补新增）
 - **归档**: raw/01-articles/干掉if...else，推荐一个小而美的规则引擎.md → raw/09-archive/
+
+## [2026-07-03] ingest | 摄入 Claude Code 底层深扒文章与 Codex+Obsidian 自生长知识库教程
+- **变更**:
+  - 新增 sources: [[摘要-沉默王二-claude-code-底层深扒]], [[摘要-codex-obsidian-自生长知识库]]
+  - 新增 entities: [[沉默王二]], [[Obsidian]], [[Xuan_酱]]
+  - 新增 concept: [[自生长知识库]]
+  - 增量更新 entity [[ClaudeCode]]（补充底层架构：Query Loop 异步生成器/StreamingToolExecutor 推测执行/自声明工具系统/7 级权限模式含 auto LLM 分类器/子 Agent 作为独立 Query Loop 实例/Hook 优先级覆盖）
+  - 更新 [[index.md]]
+- **冲突**: 无（ClaudeCode 权限模式新旧为用户视角与源码视角的互补，非冲突）

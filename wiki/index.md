@@ -172,6 +172,8 @@
 - [[摘要-claude-code-learning-roadmap]] — Claude Code 从日常使用到 Subagents/MCP 自动化流水线的学习路线
 - [[摘要-多模态大模型横评-苏三]] — Step 3.7 Flash / MiniMax M3 / Qwen3.6-flash 在流程图与发票场景下的多模态横评
 - [[摘要-easy-rules-规则引擎]] — 用轻量级 Java 规则引擎 Easy Rules 干掉 if...else 的完整讲解
+- [[摘要-沉默王二-claude-code-底层深扒]] — 沉默王二从源码层面深扒 Claude Code 底层架构（Query Loop / StreamingToolExecutor / 7 级权限模式）
+- [[摘要-codex-obsidian-自生长知识库]] — Xuan_酱 用 Codex + Obsidian 搭建 Karpathy 同款自生长知识库教程
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
@@ -360,6 +362,9 @@
 - [[Qwen]] — 阿里通义千问大模型系列
 - [[EasyRules]] — j-easy 开源的轻量级 Java 规则引擎（POJO/注解，JAR 约 100KB）
 - [[MartinFowler]] — 软件架构师，规则引擎朴素定义的提出者
+- [[沉默王二]] — 微信公众号「沉默王二」作者，Claude Code 底层技术深度分析
+- [[Obsidian]] — 基于本地 Markdown 文件的笔记软件，双向链接知识图谱
+- [[Xuan_酱]] — B站 UP 主，Codex + Obsidian 自生长知识库教程创作者
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
 - [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
@@ -481,6 +486,7 @@
 - [[AI原生测试用例工程化]] — AI Agent 生成和维护 YAML 测试用例、Git 管理、人类评审验收的方法论
 - [[Agent工作流编排]] — 用状态图、条件分支、循环、检查点和多 Agent 协作组织复杂任务流程
 - [[多模态大模型]] — 支持图像等非文本输入的 LLM，通用于视觉理解、结构化字段抽取、流程图逻辑还原
+- [[自生长知识库]] — 让知识体系自我迭代的架构模式，AI 自动采集/整理/关联/输出
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
