@@ -2,15 +2,15 @@
 title: "SpringAI"
 type: entity
 tags: [AI框架, Spring, Java, LLM]
-sources: [raw/01-articles/SpringAI.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md]
-last_updated: 2026-06-08
+sources: [raw/01-articles/SpringAI.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md]
+last_updated: 2026-07-06
 ---
 
 ## 定义
 Spring AI 是 Spring 官方推出的 AI 应用开发框架，提供统一的 API 抽象接入各类 AI 模型（OpenAI、通义千问、Ollama 等），遵循 Spring 模块化与可互换设计原则。
 
 ## 关键信息
-- 版本要求：JDK 17+、Spring Boot 3.x（最新版 2.0.0-M8，2026-05）
+- 版本要求：JDK 17+、Spring Boot 3.x+（Spring AI 2.0 起）
 - 核心接口：ChatClient（高级聊天客户端）、ChatModel（底层模型接口）
 - 通过 OpenAI API 协议兼容模式接入 DeepSeek、通义千问等模型
 - 函数调用（Function Calling）：声明 @Bean 定义 java.util.Function，注册到 ChatClient 后由模型自动调用
@@ -26,6 +26,18 @@ Spring AI 是 Spring 官方推出的 AI 应用开发框架，提供统一的 API
 
 ### Skill 与 Agent 支持
 Spring AI 无原生 Skill 抽象，其等价能力通过 Tool Calling 实现（@Tool 注解、FunctionToolCallback、ToolContext）。但 Tool 不具备渐进式披露能力，也没有标准化 SKILL.md 目录结构。Agent 能力相对基础，基于 ChatClient Advisors 链模式。
+
+### Spring AI 2.0 Agent 最佳实践
+Spring AI 2.0 将"工具调用循环"从各个 ChatModel 内部抽出来，统一交给 `ChatClient` + `ToolCallingAdvisor` 管理：
+
+1. **ChatClient 是入口**：自带 Advisor 链、工具注册、流式封装，无需直接调 ChatModel
+2. **@Tool 注解定义工具**：`@Tool(description = "工具描述")` 声明 Java 方法，框架自动生成 JSON Schema
+3. **Advisor 链拆分职责**：MessageChatMemoryAdvisor（记忆）、QuestionAnswerAdvisor（RAG）、ToolCallingAdvisor（工具循环）、自定义 Advisor（审计/权限）
+4. **ChatMemory 管理会话**：`MessageWindowChatMemory` 滑动窗口策略，配合 `MessageChatMemoryAdvisor` 自动注入
+5. **System Prompt 优先**：写好角色/边界/工具规则比换模型更管用
+6. **流式输出（SSE）**：`chatClient.prompt().stream().content()` 返回 Flux
+7. **工具宁少勿滥**：单 Agent 控制在 5~8 个内，按场景分组注册
+8. **可观测性前置**：实现 `CallAdvisor` 接口，集成 Micrometer + Prometheus + Grafana
 
 ### 模型与向量库支持
 - 支持模型：OpenAI、Anthropic、DeepSeek、Google Gemini、Ollama、Amazon Bedrock、Azure OpenAI、阿里通义等 10+
