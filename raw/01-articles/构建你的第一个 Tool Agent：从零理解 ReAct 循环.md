@@ -79,7 +79,7 @@ source: "https://zyfcodes.blog.csdn.net/article/details/162310384"
 这是「LangGraph Agent Engineering Mastery」系列 Stage 2 的第二篇。  
 读完本文，你会理解：ReAct 循环每一步在做什么、 `create_react_agent` 一行代码背后封装了什么，以及为什么 **2 个节点 + 1 条条件边** 就能撑起绝大多数 Tool Agent。
 
-![](https://i-blog.csdnimg.cn/direct/0a0dfcd7cb5b4c83b8ad0441af03714f.png)
+![](assets/%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%20Tool%20Agent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E7%90%86%E8%A7%A3%20ReAct%20%E5%BE%AA%E7%8E%AF/139449185187cebd6c74341807d4f231_MD5.png)
 
 ## 一、为什么“一次工具调用”还不够？
 
@@ -207,7 +207,7 @@ LangGraph 最擅长表达这种“带状态的循环流程”。一个最小可�
 
 结构如下：
 
-![](https://i-blog.csdnimg.cn/direct/b0ef5070e49e4eaf9922165f0122746f.png)
+![](assets/%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%20Tool%20Agent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E7%90%86%E8%A7%A3%20ReAct%20%E5%BE%AA%E7%8E%AF/1b847663551de6925391b979f06851ec_MD5.png)
 
 这张图要重点看三件事：
 
@@ -1469,7 +1469,7 @@ python
 
 ### （八）运行效果：看懂 ReAct 的“心电图”
 
-![](https://i-blog.csdnimg.cn/direct/6f2e009e97e8486a8fd4c23e3f52dc0b.png)
+![](assets/%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%20Tool%20Agent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E7%90%86%E8%A7%A3%20ReAct%20%E5%BE%AA%E7%8E%AF/184fc1ae6184c2ae1f03a99d2487ec6c_MD5.png)
 
 #### 演示 1: ReAct Agent 完整调用链
 
@@ -1746,7 +1746,7 @@ tool_call_count: int
 
 Demo 主要用于理解 ReAct 结构。真实生产环境中，还要额外考虑几类问题。
 
-![](https://i-blog.csdnimg.cn/direct/009896a7a31e4bbf86be0a76815d84c7.png)
+![](assets/%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%20Tool%20Agent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E7%90%86%E8%A7%A3%20ReAct%20%E5%BE%AA%E7%8E%AF/0b02b27aa0cbc86fade33d92d295a36c_MD5.png)
 
 ### （一） 流式输出：不要让用户干等
 
