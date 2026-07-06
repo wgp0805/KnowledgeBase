@@ -442,6 +442,16 @@
 - **冲突**: 无（[[规则引擎]] 原页面以 URule 可视化路线为主，Easy Rules 为代码/注解路线的互补新增）
 - **归档**: raw/01-articles/干掉if...else，推荐一个小而美的规则引擎.md → raw/09-archive/
 
+## [2026-07-06] ingest | 批量摄入 4 篇 raw/01-articles 技术资料
+- **变更**:
+  - 新增 sources: [[摘要-solon-chatmodel-java-llm]], [[摘要-ai-agent-day10-tool-pipeline]], [[摘要-loop-engineering-guide]], [[摘要-spring-ai-2-agent-tips]]
+  - 新增 concepts: [[ChatSession]], [[DialectPattern]], [[ToolPipeline]], [[LoopEngineering]], [[AdvisorChain]]
+  - 增量更新 entities: [[SolonAI]]（补充 ChatModel API、方言模式、ChatSession 三种实现、Providers 表）, [[SpringAI]]（补充 Spring AI 2.0 Agent 最佳实践：@Tool/AdvisorChain/ToolCallingAdvisor/流式/可观测性）, [[ClaudeCode]]（补充 Loop Engineering 引用）, [[Codex]]（补充 Loop Engineering 引用）
+  - 增量更新 concepts: [[ChatClient]]（补充 Spring AI 2.0 @Tool/ToolCallingAdvisor/Advisor 链/记忆集成）, [[ChatMemory]]（补充 Spring AI 2.0 MessageChatMemoryAdvisor）, [[FunctionCalling]]（补充 Spring AI 2.0 @Tool 注解）, [[distributed-lock]]（补充 Agent 会话锁场景）, [[ReAct_Agent]]（补充 ToolPipeline 对比）
+  - 更新 [[index.md]]
+  - 归档 raw/01-articles/ 4 个源文件至 raw/09-archive/
+- **冲突**: 无（所有内容为互补新增，未与现有知识冲突）
+
 ## [2026-07-03] ingest | 摄入 Claude Code 底层深扒文章与 Codex+Obsidian 自生长知识库教程
 - **变更**:
   - 新增 sources: [[摘要-沉默王二-claude-code-底层深扒]], [[摘要-codex-obsidian-自生长知识库]]

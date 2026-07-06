@@ -2,8 +2,8 @@
 title: "distributed-lock"
 type: concept
 tags: [并发, 分布式, Redis]
-sources: [raw/01-articles/高并发下如何防止重复下单？.md]
-last_updated: 2026-05-20
+sources: [raw/01-articles/高并发下如何防止重复下单？.md, raw/01-articles/2026-07-05-AI Agent 30天速成｜Day10 笔记 - 云淡风轻YangG.md]
+last_updated: 2026-07-06
 ---
 
 ## 定义
@@ -46,8 +46,18 @@ String lockKey = String.format("order:submit:lock:%s:%s", userId, submitToken);
 RLock lock = tryLock(lockKey, 100, 5000); // 等待 100ms，锁持有 5s
 ```
 
+### Agent 会话锁场景
+多实例 Agent 部署时，同一用户并发对话导致 Redis 会话消息错乱。基于 Redis SETNX 实现会话互斥锁：
+```
+SETNX agent:session:lock:{sessionId} "locked" EX 30
+```
+- 单会话同一时间仅允许一条对话执行
+- 锁过期时间 30s，对话结束主动释放锁
+- 同会话新请求检测锁存在直接返回"对话处理中"
+
 ## 关联连接
 - [[摘要-prevent-duplicate-order]] — 来源
 - [[idempotency]] — 幂等性
 - [[Redis]] — Redisson 底层依赖
 - [[Redisson]] — Redis 分布式锁实现
+- [[摘要-ai-agent-day10-tool-pipeline]] — 来源

@@ -53,3 +53,5 @@ Spring AI 2.0 将"工具调用循环"从各个 ChatModel 内部抽出来，统�
 - [[SpringAI_Alibaba]] — 阿里多智能体编排框架
 - [[摘要-spring-ai]] — 来源
 - [[摘要-java-ai框架选型指南-2026]] — 来源
+- [[摘要-spring-ai-2-agent-tips]] — 来源
+- [[AdvisorChain]] — Advisor 链模式

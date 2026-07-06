@@ -2,8 +2,8 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md]
-last_updated: 2026-06-29
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md]
+last_updated: 2026-07-06
 ---
 
 ## 定义
@@ -152,3 +152,5 @@ brew install openai-codex
 - [[MCP]] — 外部服务协议
 - [[HarnessAgent]] — Harness 架构
 - [[AICoding]] — AI 编程范式
+- [[LoopEngineering]] — 循环工程方法论
+- [[摘要-loop-engineering-guide]] — 来源

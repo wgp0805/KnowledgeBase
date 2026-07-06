@@ -174,6 +174,10 @@
 - [[摘要-easy-rules-规则引擎]] — 用轻量级 Java 规则引擎 Easy Rules 干掉 if...else 的完整讲解
 - [[摘要-沉默王二-claude-code-底层深扒]] — 沉默王二从源码层面深扒 Claude Code 底层架构（Query Loop / StreamingToolExecutor / 7 级权限模式）
 - [[摘要-codex-obsidian-自生长知识库]] — Xuan_酱 用 Codex + Obsidian 搭建 Karpathy 同款自生长知识库教程
+- [[摘要-solon-chatmodel-java-llm]] — Solon 4.0 ChatModel 统一 LLM 客户端，方言模式与对话记忆
+- [[摘要-ai-agent-day10-tool-pipeline]] — AI Agent 工具流水线编排、异步任务队列与分布式配套
+- [[摘要-loop-engineering-guide]] — Loop 循环工程三文件驱动 AI Agent 自动化循环方法论
+- [[摘要-spring-ai-2-agent-tips]] — Spring AI 2.0 开发 Agent 的九条实战经验
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
@@ -487,6 +491,11 @@
 - [[Agent工作流编排]] — 用状态图、条件分支、循环、检查点和多 Agent 协作组织复杂任务流程
 - [[多模态大模型]] — 支持图像等非文本输入的 LLM，通用于视觉理解、结构化字段抽取、流程图逻辑还原
 - [[自生长知识库]] — 让知识体系自我迭代的架构模式，AI 自动采集/整理/关联/输出
+- [[ChatSession]] — 对话记忆会话管理，Solon/Spring AI 等多框架统一概念
+- [[DialectPattern]] — 方言模式，Solon AI 多模型协议适配策略
+- [[ToolPipeline]] — 工具流水线编排，串行/并行批量工具执行替代 ReAct 多轮循环
+- [[LoopEngineering]] — 循环工程方法论，AGENTS.md/STATE.md/SKILL.md 三文件驱动 AI 自动化
+- [[AdvisorChain]] — Advisor 链模式，Spring AI 2.0 职责链拆分 Agent 关注点
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
