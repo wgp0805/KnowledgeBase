@@ -4,73 +4,73 @@ source: "https://zyfcodes.blog.csdn.net/article/details/162310384"
 ---
 **目录**
 
-[一、为什么“一次工具调用”还不够？](#t0)
+[一、为什么“一次工具调用”还不够？](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t0)
 
-[（一）ReAct 模式要解决的问题](#t1)
+[（一）ReAct 模式要解决的问题](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t1)
 
-[（二）本文要解决什么问题？](#t2)
+[（二）本文要解决什么问题？](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t2)
 
-[二、ReAct 是什么？](#t3)
+[二、ReAct 是什么？](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t3)
 
-[（一）简化版工作流引擎](#t4)
+[（一）简化版工作流引擎](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t4)
 
-[（二）在 LangGraph 中，ReAct 怎么表示？](#t5)
+[（二）在 LangGraph 中，ReAct 怎么表示？](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t5)
 
-[（三）create\_react\_agent 一行代码背后做了什么？](#t6)
+[（三）create\_react\_agent 一行代码背后做了什么？](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t6)
 
-[三、Demo：手写一个等价的 ReAct 循环](#t7)
+[三、Demo：手写一个等价的 ReAct 循环](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t7)
 
-[（一）关键代码演练](#t8)
+[（一）关键代码演练](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t8)
 
-[（二）工具定义：Agent 能使用哪些能力？](#t9)
+[（二）工具定义：Agent 能使用哪些能力？](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t9)
 
-[1\. 第一个是模拟搜索工具](#t10)
+[1\. 第一个是模拟搜索工具](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t10)
 
-[2\. 第二个是计算工具](#t11)
+[2\. 第二个是计算工具](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t11)
 
-[3\. 第三个是当前时间工具](#t12)
+[3\. 第三个是当前时间工具](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t12)
 
-[（三）State：为什么 messages 是核心？](#t13)
+[（三）State：为什么 messages 是核心？](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t13)
 
-[（四）agent 节点：同一个节点里完成“决策”和“收尾”](#t14)
+[（四）agent 节点：同一个节点里完成“决策”和“收尾”](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t14)
 
-[（五）tools 节点：执行工具，并把结果写回消息链](#t15)
+[（五）tools 节点：执行工具，并把结果写回消息链](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t15)
 
-[（六）条件边：如何判断继续还是结束？](#t16)
+[（六）条件边：如何判断继续还是结束？](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t16)
 
-[（七）防止无限循环：必须有安全阀](#t17)
+[（七）防止无限循环：必须有安全阀](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t17)
 
-[（八）运行效果：看懂 ReAct 的“心电图”](#t18)
+[（八）运行效果：看懂 ReAct 的“心电图”](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t18)
 
-[演示 1: ReAct Agent 完整调用链](#t19)
+[演示 1: ReAct Agent 完整调用链](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t19)
 
-[演示 2：工具自动选择](#t20)
+[演示 2：工具自动选择](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t20)
 
-[演示 3：最大迭代限制](#t21)
+[演示 3：最大迭代限制](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t21)
 
-[四、常见坑与排查](#t22)
+[四、常见坑与排查](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t22)
 
-[（一）坑 1：Agent 陷入无限工具调用循环](#t23)
+[（一）坑 1：Agent 陷入无限工具调用循环](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t23)
 
-[（二）坑 2：工具描述重叠，Agent 选错工具](#t24)
+[（二）坑 2：工具描述重叠，Agent 选错工具](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t24)
 
-[（三）坑 3：忘了把 ToolMessage 加回消息链](#t25)
+[（三）坑 3：忘了把 ToolMessage 加回消息链](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t25)
 
-[（四）坑 4：把 recursion\_limit 当成工具调用次数](#t26)
+[（四）坑 4：把 recursion\_limit 当成工具调用次数](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t26)
 
-[五、工程化问题：从 Demo 到生产还差什么？](#t27)
+[五、工程化问题：从 Demo 到生产还差什么？](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t27)
 
-[（一） 流式输出：不要让用户干等](#t28)
+[（一） 流式输出：不要让用户干等](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t28)
 
-[（二）超时兜底：不要让一个工具拖死整个 Agent](#t29)
+[（二）超时兜底：不要让一个工具拖死整个 Agent](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t29)
 
-[（三）可观测性：必须记录完整调用链](#t30)
+[（三）可观测性：必须记录完整调用链](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t30)
 
-[（四）最小心智模型：记住这四句话](#t31)
+[（四）最小心智模型：记住这四句话](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t31)
 
-[六、总结](#t32)
+[六、总结](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t32)
 
-[下一篇预告](#t33)
+[下一篇预告](构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环.md#t33)
 
 ---
 
@@ -79,7 +79,7 @@ source: "https://zyfcodes.blog.csdn.net/article/details/162310384"
 这是「LangGraph Agent Engineering Mastery」系列 Stage 2 的第二篇。  
 读完本文，你会理解：ReAct 循环每一步在做什么、 `create_react_agent` 一行代码背后封装了什么，以及为什么 **2 个节点 + 1 条条件边** 就能撑起绝大多数 Tool Agent。
 
-![](assets/%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%20Tool%20Agent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E7%90%86%E8%A7%A3%20ReAct%20%E5%BE%AA%E7%8E%AF/139449185187cebd6c74341807d4f231_MD5.png)
+![](../../assets/构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环/file-20260706154721152.png)
 
 ## 一、为什么“一次工具调用”还不够？
 
@@ -207,7 +207,7 @@ LangGraph 最擅长表达这种“带状态的循环流程”。一个最小可�
 
 结构如下：
 
-![](assets/%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%20Tool%20Agent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E7%90%86%E8%A7%A3%20ReAct%20%E5%BE%AA%E7%8E%AF/1b847663551de6925391b979f06851ec_MD5.png)
+![](../../assets/构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环/file-20260706154721150.png)
 
 这张图要重点看三件事：
 
@@ -1469,7 +1469,7 @@ python
 
 ### （八）运行效果：看懂 ReAct 的“心电图”
 
-![](assets/%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%20Tool%20Agent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E7%90%86%E8%A7%A3%20ReAct%20%E5%BE%AA%E7%8E%AF/184fc1ae6184c2ae1f03a99d2487ec6c_MD5.png)
+![](../../assets/构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环/file-20260706154721148.png)
 
 #### 演示 1: ReAct Agent 完整调用链
 
@@ -1746,7 +1746,7 @@ tool_call_count: int
 
 Demo 主要用于理解 ReAct 结构。真实生产环境中，还要额外考虑几类问题。
 
-![](assets/%E6%9E%84%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%20Tool%20Agent%EF%BC%9A%E4%BB%8E%E9%9B%B6%E7%90%86%E8%A7%A3%20ReAct%20%E5%BE%AA%E7%8E%AF/0b02b27aa0cbc86fade33d92d295a36c_MD5.png)
+![](../../assets/构建你的第一个%20Tool%20Agent：从零理解%20ReAct%20循环/file-20260706154721144.png)
 
 ### （一） 流式输出：不要让用户干等
 
