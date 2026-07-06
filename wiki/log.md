@@ -13,6 +13,14 @@
 - **变更**: 新增 source [[摘要-doubao-seed2-1-pro-douyin]]（秋芝2046 对豆包 Seed2.1 Pro 的办公 Agent、前端生成、视频转文字与多工具调用实测）；更新 [[index.md]] Sources 分类
 - **冲突**: 无
 
+## [2026-07-06] query | 讲解 ReAct 循环的概念与工作原理
+- **输出**: 即时回答 + 已保存为 [[react-loop-explanation]]
+- **引用**: [[ReAct_Agent]], [[ReActAgent]], [[Agent]], [[ToolPipeline]], [[HarnessAgent]], [[SpringAI_Alibaba]], [[SolonAI]], [[AgentScope_Java]]
+
+## [2026-07-06] query | 对比 ReAct 与 Plan-and-Execute 的区别
+- **输出**: 即时回答 + 已保存为 [[react-vs-plan-execute]]
+- **引用**: [[ReAct_Agent]], [[Research-Plan-Execute-Review-Ship]], [[Agent]], [[AICoding]], [[VibeEngineering]], [[claude-code-best-practice]]
+
 # Wiki 操作日志
 
 ## [2026-06-29] ingest | 摄入双 Token 续签设计文章 + 补归档 Token-Redis 面试文
