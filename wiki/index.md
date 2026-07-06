@@ -178,6 +178,8 @@
 - [[摘要-ai-agent-day10-tool-pipeline]] — AI Agent 工具流水线编排、异步任务队列与分布式配套
 - [[摘要-loop-engineering-guide]] — Loop 循环工程三文件驱动 AI Agent 自动化循环方法论
 - [[摘要-spring-ai-2-agent-tips]] — Spring AI 2.0 开发 Agent 的九条实战经验
+- [[摘要-构建你的第一个Tool-Agent-从零理解ReAct循环]] — LangGraph ReAct 循环手写实现与 create_react_agent 内部原理
+
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
@@ -201,6 +203,7 @@
 - [[Greptile]] — 开发者工具公司
 - [[Codex]] — OpenAI 桌面端 AI Agent
 - [[ClaudeCode]] — Anthropic 终端 AI Agent
+- [[LangChain]] — Python LLM 应用开发框架，LangChain4j/LangGraph 的灵感源头
 - [[LangChain4j]] — Java LLM 应用框架
 - [[OpenAI]] — AI 研究公司（Codex/ChatGPT）
 - [[Anthropic]] — AI 安全公司（Claude Code/Claude）
@@ -361,6 +364,7 @@
 - [[FilterReader]] — Java 字符流装饰器基类
 - [[PushbackReader]] — 支持字符回退的 Java 字符流装饰器
 - [[Casebook]] — 面向 AI Agent 的测试用例工程化工作台
+- [[LangGraph]] — LangChain 团队推出的 Python AI Agent 编排框架
 - [[LangGraph4j]] — Java 有状态多 Agent 工作流图式编排框架
 - [[Step3Flash]] — 面向高频多轮 Agent 执行场景的 Flash 档模型
 - [[Qwen]] — 阿里通义千问大模型系列
@@ -456,6 +460,7 @@
 - [[ContextEngineering]] — 上下文工程，RAG 的认知升级
 - [[multi-agent-collaboration]] — 多 Agent 协作全栈开发模式
 - [[ReAct_Agent]] — 推理+行动循环的 Agent 模式
+- [[StateGraph]] — LangGraph 的核心状态图抽象
 - [[A2A]] — Agent-to-Agent 协议，分布式 Agent 通信
 - [[Skill_Registry]] — 技能注册中心，管理 Agent Skill 生命周期
 - [[grayscale-release]] — 全链路灰度发布策略

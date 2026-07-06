@@ -1,3 +1,8 @@
+## [2026-07-06] ingest | 摄入 LangGraph ReAct 循环手写实现文章
+- **变更**: 新增 [[摘要-构建你的第一个Tool-Agent-从零理解ReAct循环]]; 新增实体 [[LangGraph]], [[LangChain]]; 新增概念 [[StateGraph]]; 增量更新 [[ReAct_Agent]]（补充实现结构：2节点+1条件边、add_messages reducer、双重安全阀、ToolMessage 失忆 Bug）; 更新 [[index.md]]
+- **冲突**: 无（本文从 Python LangGraph 实现角度补充 ReAct 细节，与现有 Java 框架视角为互补）
+- **归档**: raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md → raw/09-archive/
+
 ## [2026-06-30] ingest | 摄入 5 篇 raw/01-articles 技术资料
 - **变更**:
   - 新增 sources: [[摘要-reader-filterreader-pushbackreader源码]], [[摘要-casebook-ai-native-testcase-workflow]], [[摘要-langchain4j-langgraph4j-comparison]], [[摘要-step-3-7-flash-agent横评]], [[摘要-claude-code-learning-roadmap]]
