@@ -540,3 +540,4 @@
 - [[react-loop-explanation]] — ReAct 循环概念、工作原理与框架实现详解
 - [[react-vs-plan-execute]] — ReAct vs Plan-and-Execute 对比分析
 - [[maven-lastUpdated-file]] — Maven `*.lastUpdated` 失败缓存文件的作用、副作用及清理方法
+- [[sa-token-vs-jwt-spring-security]] — Sa-Token vs JWT + Spring Security 全面对比与选型分析
