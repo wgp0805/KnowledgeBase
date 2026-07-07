@@ -71,4 +71,4 @@ Spring Boot 是 Spring 框架的自动配置扩展，简化了 Spring 应用的�
 - [[摘要-springboot-startup-flow]] — Spring Boot 启动流程源码解析
 - [[摘要-spring-boot-4.1-发布]] — Spring Boot 4.1.0 新特性详解
 
-- [[摘要-总结一次线上事故的惨痛教训]] — 核心摘要
+- [[摘要-总结一次线上事故的惨痛教训]] — 接口类型变更导致P0事故教训
