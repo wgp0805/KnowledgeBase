@@ -182,6 +182,7 @@
 - [[摘要-ai大模型学习路线]] — 冰河撰写的 AI 五关递进学习路线（提示词→RAG→Function Call→Agent→微调）
 - [[摘要-maven-4-重构]] — Maven 4 核心架构变化与 POM 4.1.0 新特性详解
 - [[摘要-codex-97percent-技巧]] — 苏三整理 Codex 从基础到进阶的 10 条实用技巧
+- [[摘要-4种消息队列如何选型]] — Kafka/RabbitMQ/RocketMQ/ActiveMQ 四种消息队列全面对比与选型指南
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -266,6 +267,7 @@
 - [[Kafka]] — Apache 分布式消息队列
 - [[Pulsar]] — Apache 云原生消息队列
 - [[RabbitMQ]] — AMQP 消息代理
+- [[ActiveMQ]] — Apache JMS 消息中间件（已边缘化）
 - [[ShardingSphere]] — 分布式数据库中间件
 - [[BeanFactory]] — Spring 工厂模式的核心实现
 - [[ApplicationContext]] — Spring 工厂模式的高级实现

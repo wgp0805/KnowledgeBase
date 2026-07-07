@@ -1,3 +1,15 @@
+## [2026-07-07] ingest | 摄入 4 种消息队列选型对比文章
+- **变更**:
+  - 新增 source [[摘要-4种消息队列如何选型]]（Kafka/RabbitMQ/RocketMQ/ActiveMQ 全面对比）
+  - 新增 entity [[ActiveMQ]]（Apache JMS 消息中间件，已边缘化）
+  - 增量更新 entity [[Kafka]]（补充重要概念/分区策略/优缺点/选型建议）
+  - 增量更新 entity [[RabbitMQ]]（补充 AMQP 模型/交换器类型/优缺点/选型建议）
+  - 增量更新 entity [[RocketMQ]]（补充架构细节/优缺点/选型建议）
+  - 增量更新 concept [[message-queue]]（补充两大模式：点对点/发布订阅，六大应用场景：解耦/异步/削锋/日志/通信/广播）
+  - 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: raw/01-articles/4 种消息队列，如何选型？.md → raw/09-archive/
+
 ## [2026-07-07] ingest | 摄入 3 篇 raw/01-articles 技术资料 + 1 篇每日摘要归档
 - **变更**:
   - 新增 sources: [[摘要-ai大模型学习路线]], [[摘要-maven-4-重构]], [[摘要-codex-97percent-技巧]]
