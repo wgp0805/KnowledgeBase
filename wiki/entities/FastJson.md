@@ -20,3 +20,5 @@ FastJson 是阿里巴巴开源的高性能 JSON 处理库，以解析速度快�
 - [[Jackson]] — 竞品（推荐替代）
 - [[Java]] — 所属语言生态
 - [[SpringBoot]] — 默认使用 Jackson
+
+- [[摘要-jsonpath解析复杂json]] — 核心摘要

@@ -22,3 +22,6 @@ MyBatis 是一款优秀的半自动 ORM（对象关系映射）持久层框架�
 - [[SpringBoot]] — 整合框架
 - [[MySQL]] — 常配合使用
 - [[PageHelper]] — 分页插件
+
+- [[摘要-若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题]] — 核心摘要
+- [[摘要-spring-mybatis-plus-sqlsession-reuse]] — 核心摘要

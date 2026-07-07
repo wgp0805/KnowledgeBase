@@ -20,3 +20,5 @@ CompletableFuture 是 Java 8 引入的异步编程工具，实现了 Future 和 
 ## 关联连接
 - [[Java]] — 所属语言
 - [[摘要-CompletableFuture的使用]] — 来源
+
+- [[摘要-java-concurrency]] — 核心摘要

@@ -73,3 +73,5 @@ Hermes 的系统分为五大模块：
 - [[Ollama]] — 本地模型运行方案
 - [[Agent]] — AI Agent 核心概念
 - [[hermes-agent-tutorial]] — 完整安装使用教程
+
+- [[摘要-HermesAgent小白入门指南]] — 核心摘要

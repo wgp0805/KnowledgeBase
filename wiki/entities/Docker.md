@@ -47,3 +47,7 @@ Dockerfile (配方) ──docker build──→ Image (镜像/静态快照) ─�
 - [[Nacos]] — 注册中心容器化
 - [[kubernetes-detailed-guide]] — Kubernetes 详细教程与 Docker 对比
 - [[kubernetes-introduction]] — Kubernetes 入门介绍
+
+- [[摘要-使用Docker在Windows上部署独立MySQL]] — 核心摘要
+- [[摘要-idea的特殊用法及远程DEBUG的方法]] — 核心摘要
+- [[kafka-complete-tutorial]] — Apache Kafka 完整教程

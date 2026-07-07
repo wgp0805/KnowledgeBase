@@ -66,3 +66,5 @@ last_updated: 2026-06-26
 - [[Hooks]] — 仓库整理的核心能力
 - [[MCP]] — 仓库整理的核心能力
 - [[ContextManagement]] — 40% 阈值技巧涉及
+
+- [[claude-code-增强框架对比]] — Claude Code 四大增强框架横向对比

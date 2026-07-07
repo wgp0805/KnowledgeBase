@@ -20,3 +20,5 @@ IntelliJ IDEA 是 JetBrains 公司开发的 Java 集成开发环境，被广泛�
 - [[Git]] — 版本控制集成
 - SVN — 版本控制集成
 - [[SpringBoot]] — 常用项目框架
+
+- [[摘要-idea控制台输出中文乱码]] — 核心摘要

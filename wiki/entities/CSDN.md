@@ -22,3 +22,5 @@ CSDN（Chinese Software Developer Network）是中国最大的开发者社区和
 - [[AndrejKarpathy]] — 文章讨论的核心人物
 - [[VibeCoding]] — 文章核心概念
 - [[VibeEngineering]] — 文章提出的解药
+
+- [[摘要-sgzj]] — 核心摘要

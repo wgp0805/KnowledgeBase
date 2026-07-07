@@ -21,3 +21,8 @@ CentOS 是基于 Red Hat Enterprise Linux（RHEL）源代码重新编译的开�
 - [[Ubuntu]] — 同类发行版
 - [[Nginx]] — 常部署于 CentOS
 - [[Docker]] — 容器化部署
+
+- [[摘要-服务器上搭建git]] — 核心摘要
+- [[摘要-liunx挂载硬盘]] — 核心摘要
+- [[摘要-liunx链接Ftp和Sftp]] — 核心摘要
+- [[摘要-vim命令大全]] — 核心摘要

@@ -23,3 +23,5 @@ Filter（过滤器）是 Java Servlet 规范中的组件，用于在请求到达
 - [[Interceptor]] — Spring MVC 中的类似概念
 - [[摘要-spring-design-patterns]] — 来源文章
 - [[摘要-过滤器Filter与拦截器Interceptor的区别]] — 详细对比
+
+- [[摘要-SpringBoot整合SpringSecurity及框架的简单使用]] — 核心摘要

@@ -56,3 +56,5 @@ service.interceptors.response.use(
 - [[Vue3]] — 前端框架
 - [[JWT]] — Token 认证机制
 - [[dual-token-mechanism]] — 双 Token 续期机制
+
+- [[dual-token-design-complete]] — 双 Token（AccessToken + RefreshT…

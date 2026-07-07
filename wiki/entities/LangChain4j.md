@@ -132,3 +132,5 @@ MCP 集成：`langchain4j-agentic-mcp` 模块支持 MCP 工具作为 Agent 节�
 - [[摘要-langchain4j-langgraph4j-comparison]] — 来源（与 LangGraph4j 的互补选型）
 - [[LangGraph4j]] — Agent 工作流编排层
 - [[Agent工作流编排]] — 复杂多 Agent 流程编排方法论
+
+- [[spring-ai-vs-langchain4j]] — 概述

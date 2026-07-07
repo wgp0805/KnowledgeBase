@@ -20,3 +20,5 @@ Jackson 是 Java 生态中最流行的 JSON 处理库，Spring Boot 默认的 JS
 - [[SpringBoot]] — 默认 JSON 处理器
 - [[FastJson]] — 竞品（阿里开源）
 - [[Java]] — 所属语言生态
+
+- [[摘要-springboot整合RocketMq]] — 核心摘要
