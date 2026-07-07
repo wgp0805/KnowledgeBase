@@ -1,3 +1,7 @@
+## [2026-07-07] query | 解析 CC + 国产模型组合的泄露风险
+- **输出**: 引用 [[ClaudeCode]], [[AI中转站]], [[摘要-AI中转站盈利与风险分析]], [[摘要-AI-agent工具应该怎么使用]], [[摘要-沉默王二-claude-code-底层深扒]], [[摘要-codex-vs-claude-code-对比]], [[OpenCode]], [[Codex]], [[Ollama]], [[DeepSeek]], [[摘要-Ollama+DeepSeek本地部署]]; 即时回答未保存（待用户确认是否固化为 synthesis）
+- **结论**: 风险分三层——CC 必然把上下文发给 Provider / 国产厂商收到全部上下文 / 中转站叠加明文泄露与模型偷换风险；CC 非开源不可审计，建议敏感场景用开源 Harness 或离线模型
+
 ## [2026-07-07] query | 解析 OpenCode vs ClaudeCode 能力差距、隐写术风险与 IDEA 迁移方案
 - **输出**: 引用 [[OpenCode]], [[ClaudeCode]], [[摘要-codex-vs-claude-code-对比]], [[摘要-沉默王二-claude-code-底层深扒]], [[沉默王二]], [[摘要-claude-code-learning-roadmap]], [[摘要-ECC-OpenCode-使用指南]], [[ECC]], [[MiMoCode]], [[AI中转站]], [[摘要-AI-agent工具应该怎么使用]]; 即时回答未保存（待用户确认是否固化为 synthesis）
 - **降级**: 知识库无"隐写术/水印"专门页面，仅 [[摘要-沉默王二-claude-code-底层深扒]] 记录"阿里 7 月 10 日全面禁用 Claude"事件未明原因；该部分已按降级策略声明并以通用知识补充
