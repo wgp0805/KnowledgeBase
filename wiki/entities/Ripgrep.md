@@ -31,3 +31,5 @@ last_updated: 2026-05-20
 - [[摘要-为什么Claude-Code不用RAG检索代码]] — 来源
 - [[ClaudeCode]] — 使用 ripgrep 的产品
 - [[AgenticSearch]] — ripgrep 赋能的搜索范式
+
+- [[摘要-欢迎]] — 核心摘要

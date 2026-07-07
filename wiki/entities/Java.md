@@ -39,3 +39,5 @@ Java 是一种广泛使用的面向对象编程语言，基于 JVM（Java 虚拟
 - [[摘要-httpUtils]] — 核心摘要
 - [[摘要-MessageDigest简介及应用]] — 核心摘要
 - [[摘要-mybatis-plus-12-optimization-tips]] — 核心摘要
+
+- [[摘要-Java接口中的Default方法及其意义]] — 核心摘要

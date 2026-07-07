@@ -19,3 +19,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[code-review]] — 代码审查
 - [[api-compatibility]] — API 兼容性
+
+- [[摘要-软件开发事故级别分类]] — 核心摘要
