@@ -2,12 +2,12 @@
 title: "Maven"
 type: entity
 tags: [构建工具, 项目管理, Java]
-sources: [raw/01-articles/Maven依赖管理项目构建工具.md]
-last_updated: 2026-05-22
+sources: [raw/01-articles/Maven依赖管理项目构建工具.md, raw/01-articles/Maven 4 要来了：15 年后，Java 构建工具迎来"彻底重构".md]
+last_updated: 2026-07-07
 ---
 
 ## 定义
-Maven 是 Apache 旗下的 Java 项目构建和依赖管理工具，通过 POM（Project Object Model）统一管理项目的构建、依赖、文档和报告。
+Maven 是 Apache 旗下的 Java 项目构建和依赖管理工具，通过 POM（Project Object Model）统一管理项目的构建、依赖、文档和报告。历经 15 年发展，Maven 4 正在进行"彻底重构"。
 
 ## 关键信息
 - GAVP 坐标：GroupId、ArtifactId、Version、Packaging（jar/war/pom）
@@ -25,8 +25,45 @@ Maven 是 Apache 旗下的 Java 项目构建和依赖管理工具，通过 POM�
 - 自动：短路优先（路径短优先）、先声明优先
 - 手动：exclusions 标签排除特定依赖
 
+## Maven 4（截至 2026-07）
+
+### 版本现状
+- 最新版本：**4.0.0-rc-5**（2025-11-13），仍为 RC，生产环境建议等 GA
+- 核心变化详见 [[摘要-maven-4-重构]]
+
+### 硬性变化
+| 项目 | Maven 3.x | Maven 4 |
+|------|-----------|---------|
+| 运行 Maven | Java 8+ | **Java 17+** |
+| POM 模型 | 4.0.0 | **4.1.0** |
+| 依赖解析 | Resolver 1.x | **Resolver 2.0** |
+
+### 核心架构调整
+- [[Build POM 与 Consumer POM 分离]] — 构建 POM 与发布 POM 分离，是"彻底重构"的真正含义
+
+### POM 4.1.0 新特性
+1. 父 POM 版本自动推断（子模块不必再写 `<version>`）
+2. 子模块自动发现（pom 打包时自动扫描子目录）
+3. CI 友好版本号（内置 `${revision}` 支持，不再需要 flatten 插件）
+4. 新的 BOM 打包类型（`<packaging>bom</packaging>`）
+5. 多源码目录（告别 Build Helper 插件）
+
+### 新工具
+- **mvnup**：迁移助手（`mvnup check` 检查兼容性，`mvnup apply` 自动修复）
+- **mvnsh**：交互式 Shell（类似 REPL）
+- **-r / --resume**：构建失败后从失败模块续跑
+
+### Consumer POM 开启
+```properties
+maven.consumer.pom.flatten=true
+```
+
 ## 关联连接
 - [[Jenkins]] — CI/CD 构建集成
 - [[Nexus]] — Maven 私服仓库
 - [[SpringBoot]] — Maven 管理的 Spring 项目
 - [[摘要-maven]] — 来源
+- [[摘要-maven-4-重构]] — Maven 4 前瞻解析来源
+- [[Build POM 与 Consumer POM 分离]] — Maven 4 核心架构概念
+- [[小锋]] — Maven 4 文章作者
+- [[maven-lastUpdated-file]] — Maven 3 *.lastUpdated 缓存问题

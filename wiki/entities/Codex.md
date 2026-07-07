@@ -2,8 +2,8 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md]
-last_updated: 2026-07-06
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md]
+last_updated: 2026-07-07
 ---
 
 ## 定义
@@ -140,11 +140,31 @@ brew install openai-codex
 - Fork 分叉（从历史节点重新开对话）
 - 桌面宠物
 
+### 10 条实用技巧（苏三视角）
+来自[[摘要-codex-97percent-技巧]]，从基础三步到进阶工作流：
+
+**基础三步：**
+1. **创建项目工作空间** — 把相关文件放同一工作空间，项目边界越清楚越不容易跑偏
+2. **写 AGENTS.md** — 四块关键内容：构建/测试命令、编码规范、红线规则（用"禁止/Never"）、代码定位策略
+3. **[[计划模式]]必须用** — 任务超过两三步就先开计划模式，先讲清目标/范围/风险再执行
+
+**扩展能力：**
+4. **连接手机** — 随时接想法、看进度
+5. **用 Skill** — 把反复流程固定下来（superpowers/guizang-ppt-skill/html-anything），跨平台标准
+6. **装插件** — 按场景装（Chrome/Documents/GitHub/Remotion），不要一口气全装
+
+**进阶工作流：**
+7. **[[MCP]] 是进阶分水岭** — 先稳定跑通一个外部系统比堆十个半成品强
+8. **[[automations|自动化任务]]** — 定时收集/检查/生成报告；注意不继承对话模型设置
+9. **学会看 Git** — 至少知道改了哪些文件、会看 diff
+10. **[[Worktree]] 隔离** — 小修补 Local、重要构建 Worktree、长时间自动化 Cloud
+
 ## 关联连接
 - [[摘要-40分钟学会Codex零基础教程]] — 来源
 - [[摘要-把Codex用到极致]] — 来源（工作系统框架与长线程理念）
 - [[摘要-AI-agent工具应该怎么使用]] — 来源（二师兄 9 条使用技巧）
 - [[摘要-codex-vs-claude-code-对比]] — 来源（2026-06 vs Claude Code 对比）
+- [[摘要-codex-97percent-技巧]] — 来源（苏三 10 条实用技巧）
 - [[ClaudeCode]] — 对标产品
 - [[OpenAI]] — 所属公司
 - [[Agent]] — 核心概念
@@ -154,3 +174,5 @@ brew install openai-codex
 - [[AICoding]] — AI 编程范式
 - [[LoopEngineering]] — 循环工程方法论
 - [[摘要-loop-engineering-guide]] — 来源
+- [[计划模式]] — Codex 核心工作模式
+- [[Worktree]] — 隔离工作区机制

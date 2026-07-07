@@ -2,7 +2,7 @@
 title: "CLAUDEmd"
 type: concept
 tags: [AI, 记忆, 指令系统]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md]
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md]
 last_updated: 2026-05-19
 ---
 
@@ -36,9 +36,17 @@ Codex 使用 `agents.md` 作为手动持久记忆文件，分全局级和项目�
 - **动态优化**：第一版不可能完美，每次 AI 犯错后把新约束补进去
 - 内容至少包括：最高优先级限制（如不要每次改代码就 build）、项目技术栈和目录结构、编码规范、开发流程
 
+### AGENTS.md 四块关键内容（苏三视角）
+来自 [[摘要-codex-97percent-技巧]]，新对话开始后 Codex 优先读此文件：
+1. **构建和测试命令** — Agent 最常用的信息，写清多种测试方式（快速回归/全量/单个），Agent 按场景选择
+2. **项目特有的编码规范** — 只写和行业默认不一样的部分（如请求对象用 Params 后缀、响应用 Response）
+3. **红线规则** — 用明确的否定句式（"禁止""不要""Never"），如"禁止提交 .env 文件""不要往 codex-core 添加新功能"
+4. **代码定位策略** — 告诉 Agent 用什么方式找代码最高效，明确优先级减少无效操作
+
 ## 关联连接
 - [[ClaudeCode]] — CLAUDE.md 所属产品
 - [[AutoMemory]] — 第二优先级记忆
 - [[Codex]] — 对应 agents.md
 - [[AICoding]] — AI 编程实践
 - [[摘要-AI-agent工具应该怎么使用]] — 来源
+- [[摘要-codex-97percent-技巧]] — 来源（AGENTS.md 四块关键内容）
