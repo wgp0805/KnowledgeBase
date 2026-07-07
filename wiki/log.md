@@ -1,3 +1,7 @@
+## [2026-07-07] query | 解析 Maven *.lastUpdated 文件用途
+- **变更**: 新增 synthesis [[maven-lastUpdated-file]]；更新 [[index.md]] Syntheses 分类
+- **输出**: 引用 [[摘要-maven]]，固化 synthesis 页面，包含失败缓存机制、副作用分析与清理脚本
+
 ## [2026-07-06] ingest | 摄入 LangGraph ReAct 循环手写实现文章
 - **变更**: 新增 [[摘要-构建你的第一个Tool-Agent-从零理解ReAct循环]]; 新增实体 [[LangGraph]], [[LangChain]]; 新增概念 [[StateGraph]]; 增量更新 [[ReAct_Agent]]（补充实现结构：2节点+1条件边、add_messages reducer、双重安全阀、ToolMessage 失忆 Bug）; 更新 [[index.md]]
 - **冲突**: 无（本文从 Python LangGraph 实现角度补充 ReAct 细节，与现有 Java 框架视角为互补）

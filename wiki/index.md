@@ -523,3 +523,4 @@
 - [[摘要-vibe-coding-实战篇总结-下]] — 抖音创作者敲代码的小虾米总结的 Vibe Coding 开发全流程（下篇）：立真源/落文档/敲代码/阶段验收
 - [[react-loop-explanation]] — ReAct 循环概念、工作原理与框架实现详解
 - [[react-vs-plan-execute]] — ReAct vs Plan-and-Execute 对比分析
+- [[maven-lastUpdated-file]] — Maven `*.lastUpdated` 失败缓存文件的作用、副作用及清理方法
