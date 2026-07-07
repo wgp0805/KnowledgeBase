@@ -179,6 +179,9 @@
 - [[摘要-loop-engineering-guide]] — Loop 循环工程三文件驱动 AI Agent 自动化循环方法论
 - [[摘要-spring-ai-2-agent-tips]] — Spring AI 2.0 开发 Agent 的九条实战经验
 - [[摘要-构建你的第一个Tool-Agent-从零理解ReAct循环]] — LangGraph ReAct 循环手写实现与 create_react_agent 内部原理
+- [[摘要-ai大模型学习路线]] — 冰河撰写的 AI 五关递进学习路线（提示词→RAG→Function Call→Agent→微调）
+- [[摘要-maven-4-重构]] — Maven 4 核心架构变化与 POM 4.1.0 新特性详解
+- [[摘要-codex-97percent-技巧]] — 苏三整理 Codex 从基础到进阶的 10 条实用技巧
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -373,6 +376,10 @@
 - [[沉默王二]] — 微信公众号「沉默王二」作者，Claude Code 底层技术深度分析
 - [[Obsidian]] — 基于本地 Markdown 文件的笔记软件，双向链接知识图谱
 - [[Xuan_酱]] — B站 UP 主，Codex + Obsidian 自生长知识库教程创作者
+- [[冰河]] — 微信公众号「冰河技术」作者，Java 后端与 AI 大模型实战教学
+- [[小锋]] — 微信公众号「java1234」作者，Java 与构建工具实践分享
+- [[Coze]] — 字节跳动零代码 AI Agent 搭建平台
+- [[Dify]] — 开源 LLMOps 平台，可视化搭建知识库和 Agent
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
 - [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
@@ -501,6 +508,13 @@
 - [[ToolPipeline]] — 工具流水线编排，串行/并行批量工具执行替代 ReAct 多轮循环
 - [[LoopEngineering]] — 循环工程方法论，AGENTS.md/STATE.md/SKILL.md 三文件驱动 AI 自动化
 - [[AdvisorChain]] — Advisor 链模式，Spring AI 2.0 职责链拆分 Agent 关注点
+- [[提示词工程]] — 与大模型高效沟通的方法论，四大核心技巧
+- [[思维链]] — 分步推理的提示词技巧
+- [[幻觉]] — LLM 固有缺陷，编造不存在事实
+- [[微调]] — 用专属数据再训练通用模型
+- [[Build POM 与 Consumer POM 分离]] — Maven 4 核心架构调整
+- [[计划模式]] — AI Agent 执行前先输出计划并确认
+- [[Worktree]] — Git 工作树隔离 Agent 工作区
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

@@ -1,3 +1,14 @@
+## [2026-07-07] ingest | 摄入 3 篇 raw/01-articles 技术资料 + 1 篇每日摘要归档
+- **变更**:
+  - 新增 sources: [[摘要-ai大模型学习路线]], [[摘要-maven-4-重构]], [[摘要-codex-97percent-技巧]]
+  - 新增 entities: [[冰河]], [[小锋]], [[Coze]], [[Dify]]
+  - 新增 concepts: [[提示词工程]], [[思维链]], [[幻觉]], [[微调]], [[Build POM 与 Consumer POM 分离]], [[计划模式]], [[Worktree]]
+  - 增量更新 entities: [[Maven]]（补充 Maven 4 变化）, [[Codex]]（补充 10 条技巧）, [[苏三]]（补充新来源）
+  - 增量更新 concept: [[CLAUDEmd]]（补充 AGENTS.md 四块关键内容写作方法）
+  - 更新 [[index.md]]
+  - 归档 raw/01-articles/ 3 个源文件 + raw/_daily_digest.md 至 raw/09-archive/
+- **冲突**: 无
+
 ## [2026-07-07] query | 解析 Maven *.lastUpdated 文件用途
 - **变更**: 新增 synthesis [[maven-lastUpdated-file]]；更新 [[index.md]] Syntheses 分类
 - **输出**: 引用 [[摘要-maven]]，固化 synthesis 页面，包含失败缓存机制、副作用分析与清理脚本
