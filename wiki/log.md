@@ -1,3 +1,7 @@
+## [2026-07-07] query | 解析 OpenCode vs ClaudeCode 能力差距、隐写术风险与 IDEA 迁移方案
+- **输出**: 引用 [[OpenCode]], [[ClaudeCode]], [[摘要-codex-vs-claude-code-对比]], [[摘要-沉默王二-claude-code-底层深扒]], [[沉默王二]], [[摘要-claude-code-learning-roadmap]], [[摘要-ECC-OpenCode-使用指南]], [[ECC]], [[MiMoCode]], [[AI中转站]], [[摘要-AI-agent工具应该怎么使用]]; 即时回答未保存（待用户确认是否固化为 synthesis）
+- **降级**: 知识库无"隐写术/水印"专门页面，仅 [[摘要-沉默王二-claude-code-底层深扒]] 记录"阿里 7 月 10 日全面禁用 Claude"事件未明原因；该部分已按降级策略声明并以通用知识补充
+
 ## [2026-07-07] query | 解析 Redis/MySQL 双写一致性问题
 - **输出**: 引用 [[Redis]], [[MySQL]], [[transaction-management]], [[idempotency]], [[distributed-lock]], [[Redisson]], [[RocketMQ]], [[RabbitMQ]], [[摘要-rabbitmq-idempotency]]; 即时回答未保存（待用户确认是否固化为 synthesis）
 - **降级**: 知识库无专门讨论"Redis/MySQL 双写一致性"的页面，已按降级策略声明并基于通用知识 + 本库相关概念综合回答
