@@ -22,5 +22,4 @@ DispatcherServlet 是 Spring MVC 的前端控制器，负责接收所有 HTTP �
 - [[HandlerAdapter]] — DispatcherServlet 使用的适配器
 - [[适配器模式]] — DispatcherServlet 中 HandlerAdapter 的应用
 - [[摘要-spring-design-patterns]] — 来源文章
-
-- [[摘要-SpringBoot接收参数的几种常用方式]] — 核心摘要
+- [[摘要-SpringBoot接收参数的几种常用方式]] — 介绍 Spring Boot 中接收 HTTP 请求参数的多…

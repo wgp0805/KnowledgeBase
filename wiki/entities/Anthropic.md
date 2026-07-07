@@ -25,6 +25,5 @@ last_updated: 2026-05-26
 - [[cognitive-offloading]] — 认知卸载论文来源
 - [[摘要-vibe-engineering-era]] — 认知卸载研究来源
 - [[摘要-anthropic-engineer-skills]] — Skills 经验分享来源
-
-- [[摘要-ClaudeCode小白入门教程]] — 核心摘要
-- [[摘要-ClaudeSkills保姆级教程]] — 核心摘要
+- [[摘要-ClaudeCode小白入门教程]] — 本文是 Claude Code 的小白入门教程，详细介绍了这…
+- [[摘要-ClaudeSkills保姆级教程]] — 本文是 Claude Skills 的保姆级教程，全面讲解了…

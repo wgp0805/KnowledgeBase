@@ -59,5 +59,4 @@ MyBatis-Plus（简称 MP）是 MyBatis 的增强工具，在 MyBatis 的基础�
 - [[逻辑删除]] — 数据删除策略
 - [[乐观锁]] — 并发控制机制
 - [[query-optimization]] — 查询优化
-
-- [[摘要-用Qoder搭建PaiAgent项目脚手架]] — 核心摘要
+- [[摘要-用Qoder搭建PaiAgent项目脚手架]] — 使用 Qoder 的 Quest Mode 从零搭建 Pai…

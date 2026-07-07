@@ -46,5 +46,4 @@ last_updated: 2026-06-30
 - [[Kimi]] — 同期国产对手
 - [[MiniMax]] — 同期国产对手
 - [[GLM]] — 同期国产对手
-
-- [[摘要-如何在Spring-Boot中无缝集成LangChain4j]] — 核心摘要
+- [[摘要-如何在Spring-Boot中无缝集成LangChain4j]] — LangChain4j 提供 Spring Boot Sta…

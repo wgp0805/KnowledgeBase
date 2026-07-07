@@ -19,5 +19,4 @@ Jedis 是一个简洁的 Redis Java 客户端，提供同步的 Redis 命令实�
 - [[Redis]] — 底层存储
 - [[SpringDataRedis]] — Spring 集成
 - [[RedisTemplate]] — Spring 操作模板
-
-- [[摘要-springboot整合redis]] — 核心摘要
+- [[摘要-springboot整合redis]] — Spring Boot 整合 Redis 及 RedisTe…

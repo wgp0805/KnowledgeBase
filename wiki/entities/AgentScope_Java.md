@@ -63,6 +63,5 @@ Spring AI Alibaba 是阿里巴巴基于 Spring AI 打造的企业级 AI 应用�
 - [[子Agent编排]] — 动态任务委派能力
 - [[摘要-java-ai框架选型指南-2026]] — 来源
 - [[摘要-AgentScopeJava2.0发布]] — 来源
-
 - [[react-loop-explanation]] — ReAct 循环详解
 - [[react-vs-plan-execute]] — ReAct vs Plan-and-Execute 对比分析

@@ -46,5 +46,4 @@ JWT 由点号分隔的三部分组成：
 - [[dual-token-mechanism]] — 双 Token 续期方案
 - [[Redis]] — Token 存储方案
 - [[SpringSecurity]] — JWT 集成安全框架
-
 - [[sa-token-vs-jwt-spring-security]] — Sa-Token vs JWT + Spring Secur…

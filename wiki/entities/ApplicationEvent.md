@@ -22,5 +22,4 @@ ApplicationEvent 是 Spring 事件机制的基础类，用于定义应用程序�
 - [[观察者模式]] — ApplicationEvent 体现的设计模式
 - [[ApplicationContext]] — ApplicationEventPublisher 的实现
 - [[摘要-spring-design-patterns]] — 来源文章
-
-- [[摘要-理解Spring中的ApplicationListener与ApplicationRunner区别]] — 核心摘要
+- [[摘要-理解Spring中的ApplicationListener与ApplicationRunner区别]] — 对比 Spring 中 ApplicationListene…

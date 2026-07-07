@@ -20,5 +20,4 @@ Druid 是阿里巴巴开源的 Java 数据库连接池，内置强大的监控�
 - [[Hikari]] — 竞品连接池（性能优先）
 - [[SpringBoot]] — 整合框架
 - [[MySQL]] — 常配合使用
-
-- [[摘要-springboot整合mybatisPlus]] — 核心摘要
+- [[摘要-springboot整合mybatisPlus]] — Spring Boot 整合 MyBatis-Plus 的完…

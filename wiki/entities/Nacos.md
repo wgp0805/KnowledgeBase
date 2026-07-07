@@ -24,7 +24,6 @@ Nacos（Dynamic Naming and Configuration Service）是阿里巴巴开源的微�
 - [[RocketMQ]] — 消息队列
 - [[SpringCloudGateway]] — API 网关
 - [[grayscale-release]] — 全链路灰度发布的命名空间隔离基础
-
-- [[摘要-alibaba-product-manual]] — 核心摘要
-- [[摘要-pmhub微服务学习]] — 核心摘要
-- [[摘要-SpringBoot优雅的加载配置文件的几种方式]] — 核心摘要
+- [[摘要-alibaba-product-manual]] — 阿里巴巴产品手册，介绍阿里巴巴集团旗下各产品线、服务体系及平…
+- [[摘要-pmhub微服务学习]] — 记录 PmHub 微服务项目学习路线，涵盖 Nacos 注册…
+- [[摘要-SpringBoot优雅的加载配置文件的几种方式]] — 介绍 Spring Boot 加载配置文件的多种方式：@Va…

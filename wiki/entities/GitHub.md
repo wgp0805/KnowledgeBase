@@ -24,6 +24,5 @@ GitHub 是全球最大的代码托管和协作开发平台，基于 Git 版本�
 - [[GitLab]] — 自托管竞品
 - [[CI-CD]] — GitHub Actions 实现
 - [[ClaudeCode]] — 可集成 GitHub
-
-- [[摘要-用Qoder提交PaiAgent到GitHub]] — 核心摘要
-- [[摘要-域名]] — 核心摘要
+- [[摘要-用Qoder提交PaiAgent到GitHub]] — 记录使用 Qoder CLI 为 PaiAgent 项目添加…
+- [[摘要-域名]] — 记录在阿里云国际版和 CloudFlare 上对白嫖域名进行…

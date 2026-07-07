@@ -19,6 +19,5 @@ JavaScript 是一种轻量级的解释型编程语言，主要运行在浏览器
 ## 关联连接
 - [[Promise]] — 异步编程模式
 - [[Vue3]] — 前端框架
-
-- [[摘要-理解JavaScript的async-await]] — 核心摘要
-- [[摘要-VUE3基础-async-await]] — 核心摘要
+- [[摘要-理解JavaScript的async-await]] — 深入讲解 JavaScript 中 async/await …
+- [[摘要-VUE3基础-async-await]] — 深入讲解 JavaScript 中 async/await …

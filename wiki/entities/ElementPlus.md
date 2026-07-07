@@ -39,5 +39,4 @@ Element Plus 是基于 Vue 3 的企业级 UI 组件库，是 Element UI 的 Vue 
 - [[摘要-springboot4-security7-vue3-best-practice]] — Element Plus 在项目中的应用
 - [[Vue3]] — 前端框架
 - [[frontend-backend-separation]] — 前后端分离架构
-
-- [[摘要-wgp-vue管理系统]] — 核心摘要
+- [[摘要-wgp-vue管理系统]] — 记录从零搭建 wgp-vue 管理系统的开发过程，包括父子工…

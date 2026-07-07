@@ -22,4 +22,4 @@ JVM（Java Virtual Machine）是 Java 程序的运行环境，负责将 Java 字
 - G1 GC — G1 垃圾收集器（JVM 默认）
 - ZGC — 超大堆低延迟垃圾收集器
 
-- [[摘要-jvm参数解释]] — 核心摘要
+- [[摘要-jvm参数解释]] — 全面解释 JVM 核心参数含义，包括堆内存设置（-Xms/-…
