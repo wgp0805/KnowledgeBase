@@ -1,3 +1,7 @@
+## [2026-07-07] query | 解析 Redis/MySQL 双写一致性问题
+- **输出**: 引用 [[Redis]], [[MySQL]], [[transaction-management]], [[idempotency]], [[distributed-lock]], [[Redisson]], [[RocketMQ]], [[RabbitMQ]], [[摘要-rabbitmq-idempotency]]; 即时回答未保存（待用户确认是否固化为 synthesis）
+- **降级**: 知识库无专门讨论"Redis/MySQL 双写一致性"的页面，已按降级策略声明并基于通用知识 + 本库相关概念综合回答
+
 ## [2026-07-07] lint | 死链修复 + 索引同步 + 知识冲突解决
 - **变更**:
   - 修复 2 个死链：[[Obsidian]] 中 `[[wikilink]]` → `` `[[wikilink]]` ``；[[自生长知识库]] 中 `[[ingest]]` → `` `ingest` ``
