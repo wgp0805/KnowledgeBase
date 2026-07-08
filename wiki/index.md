@@ -30,6 +30,7 @@
 - [[摘要-curl详解]] — curl 命令行工具全面使用指南
 - [[摘要-git常用命令]] — Git 版本控制常用命令总结
 - [[摘要-git推送远程方法]] — Git 远程仓库操作及多仓库推送
+- [[摘要-git-撤回已push代码]] - Git 撤回已 Push 代码的四种方法对比（revert/新建分支/reset+force push）
 - [[摘要-nginx配置]] — Nginx 配置全面详解
 - [[摘要-Liunx常用命令]] — Linux 常用命令速查
 - [[摘要-liunx命令总结]] — Linux 600 条命令分类总结

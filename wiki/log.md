@@ -1,3 +1,11 @@
+## [2026-07-08] ingest | 摄入 Git 撤回已 Push 代码文章
+- **变更**:
+  - 新增 source [[摘要-git-撤回已push代码]]（小哈学Java，Git 撤回已 push 代码的四种方法对比）
+  - 增量更新 entity [[Git]]（补充"撤回已 Push 代码的四种方法"章节：手动恢复/git revert/新建分支/git reset+force push，含四种 reset 模式 Soft/Mixed/Hard/Keep 对比表）
+  - 更新 [[index.md]] 加入 1 个新 source 条目
+- **冲突**: 无
+- **归档**: raw/01-articles/面试官：Git 如何撤回已 Push 的代码？问倒一大片。。。.md -> raw/09-archive/
+
 ## [2026-07-08] ingest | 摄入 Gateway 网关、Agent/Tools/Workflow 区别、无人图书柜 3 篇文章
 - **变更**:
   - 新增 sources: [[摘要-gateway网关]], [[摘要-agent-tools-workflow区别]], [[摘要-无人图书柜项目]]
