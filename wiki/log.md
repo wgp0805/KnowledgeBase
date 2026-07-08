@@ -563,3 +563,6 @@
   - 增量更新 entity [[ClaudeCode]]（补充底层架构：Query Loop 异步生成器/StreamingToolExecutor 推测执行/自声明工具系统/7 级权限模式含 auto LLM 分类器/子 Agent 作为独立 Query Loop 实例/Hook 优先级覆盖）
   - 更新 [[index.md]]
 - **冲突**: 无（ClaudeCode 权限模式新旧为用户视角与源码视角的互补，非冲突）
+
+## [2026-07-08] query | 解析 IntelliJ IDEA 中 AI agents 选项的 Junie
+- **输出**: 即时回答未保存（本地知识库无 Junie 条目，引用 JetBrains/junie GitHub 仓库与 IDEA 2026.1 官方文档）
