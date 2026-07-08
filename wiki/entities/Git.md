@@ -24,9 +24,9 @@ Git 是一个分布式版本控制系统，用于追踪文件变更、协作开�
 | 方案 | 安全性 | 适用场景 | 关键操作 |
 |------|--------|----------|----------|
 | 手动对比恢复 | 低（易遗漏） | 改动简单 | IDEA Compare Versions 手动删除差异代码 |
-| `git revert` | 高（保留记录） | 回退少量提交 | 右键错误提交 → Revert Commit → 自动生成反向提交 → push |
-| 新建分支 | 高（保留原版本） | 回退大量提交 | 在目标 commit 右键 → New Branch |
-| `git reset --hard` + Force Push | 低（重写历史） | 需彻底清除提交记录 | Reset Current Branch → Hard → Force Push |
+| `git revert` | 高（保留记录） | 回退少量提交 | 右键错误提交 -> Revert Commit -> 自动生成反向提交 -> push |
+| 新建分支 | 高（保留原版本） | 回退大量提交 | 在目标 commit 右键 -> New Branch |
+| `git reset --hard` + Force Push | 低（重写历史） | 需彻底清除提交记录 | Reset Current Branch -> Hard -> Force Push |
 
 ### git revert（推荐）
 - 自动产生一个 Revert 记录，将指定提交的代码变更反向应用
@@ -42,10 +42,11 @@ Git 是一个分布式版本控制系统，用于追踪文件变更、协作开�
 > **注意**：受保护分支（如 master）无法执行 Force Push 操作，需检查分支保护配置。
 
 ## 关联连接
-- [[GitHub]] — 代码托管平台
-- [[Gitee]] — 代码托管平台
-- [[IntelliJIDEA]] — IDE 集成
-- [[摘要-git常用命令]] — Git 版本控制的常用命令总结，涵盖初始化、克隆、分支管理、…
-- [[摘要-git推送远程方法]] — Git 远程仓库操作指南，包括推送代码、设置上游分支、版本回…
-- [[摘要-idea链接svn报错]] — 解决 IntelliJ IDEA 连接 SVN 时 SSL …
-- [[摘要-IDEA使用Git提交报错]] — 解决 IntelliJ IDEA 使用 Git 提交时 "u…
+- [[GitHub]] - 代码托管平台
+- [[Gitee]] - 代码托管平台
+- [[IntelliJIDEA]] - IDE 集成
+- [[摘要-git常用命令]] - Git 版本控制的常用命令总结，涵盖初始化、克隆、分支管理、…
+- [[摘要-git推送远程方法]] - Git 远程仓库操作指南，包括推送代码、设置上游分支、版本回…
+- [[摘要-git-撤回已push代码]] - 撤回已 push 代码的四种方法对比（revert/新建分支/reset+force push）
+- [[摘要-idea链接svn报错]] - 解决 IntelliJ IDEA 连接 SVN 时 SSL …
+- [[摘要-IDEA使用Git提交报错]] - 解决 IntelliJ IDEA 使用 Git 提交时 "u…
