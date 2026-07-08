@@ -572,3 +572,7 @@
 
 ## [2026-07-08] query | 查询 OpenCode 使用教程
 - **输出**: 引用 [[OpenCode]]、[[ECC]]、[[摘要-ECC-OpenCode-使用指南]]；知识库主要为 ECC+OpenCode 配合教程，OpenCode 本体安装需补官方文档
+
+## [2026-07-08] ingest | 整理 Junie 及国产模型配置指南
+- **变更**: 新增 [[Junie]]、[[junie-国产模型配置指南]]；更新 [[index.md]]、[[IntelliJIDEA]]
+- **冲突**: 无

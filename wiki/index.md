@@ -418,6 +418,7 @@
 - [[SLF4J]] — Java 日志门面接口，Logback/Log4j2 的统一抽象
 - [[Ponytail]] — 开源 AI Agent 技能项目（20.9k Star），减法思维让 AI 少写废代码
 - [[GSDCore]] — 开源 AI 编码工作流项目（2.3k Star），元提示/上下文工程/规格驱动开发
+- [[Junie]] — JetBrains 出品的 AI coding agent，LLM 无关，运行于终端/IDE/CI 三通道
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
 - [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
@@ -598,3 +599,4 @@
 - [[react-vs-plan-execute]] — ReAct vs Plan-and-Execute 对比分析
 - [[maven-lastUpdated-file]] — Maven `*.lastUpdated` 失败缓存文件的作用、副作用及清理方法
 - [[sa-token-vs-jwt-spring-security]] — Sa-Token vs JWT + Spring Security 全面对比与选型分析
+- [[junie-国产模型配置指南]] — 在 IntelliJ IDEA / Junie 中配置国产模型（Qwen Code / GLM Agent / 手动 ACP）操作步骤
