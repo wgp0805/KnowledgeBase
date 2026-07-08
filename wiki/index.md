@@ -184,6 +184,9 @@
 - [[摘要-codex-97percent-技巧]] — 苏三整理 Codex 从基础到进阶的 10 条实用技巧
 - [[摘要-4种消息队列如何选型]] — Kafka/RabbitMQ/RocketMQ/ActiveMQ 四种消息队列全面对比与选型指南
 - [[摘要-transformer-训练微调范式]] — Transformer 架构与训练-微调范式（自注意力/QKV/SFT/RLHF/PEFT/LoRA）系统讲解
+- [[摘要-gateway网关]] — Gateway 网关五大作用与 Spring Cloud Gateway 实战
+- [[摘要-agent-tools-workflow区别]] — Tools/Workflow/Agent 三者层级递进关系与选型
+- [[摘要-无人图书柜项目]] — 程序汪 6 万无人图书柜项目（RFID+MQTT+Codex）
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -390,6 +393,9 @@
 - [[FigureAI]] — 具身智能机器人公司，分层 Transformer 架构
 - [[Tesla]] — 电动车与自动驾驶公司，FSD 基于 Transformer 端到端架构
 - [[LlamaFactory]] — 一站式大模型微调框架
+- [[Zuul]] — Netflix 开源的 API 网关，同步阻塞模型，已被 Spring Cloud Gateway 替代
+- [[程序汪]] — 微信公众号「我是程序汪」作者，分享私活项目和真实商业案例
+- [[UniApp]] — 跨平台前端框架，基于 Vue 语法，支持小程序/H5/App 多端部署
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
 - [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
@@ -535,6 +541,9 @@
 - [[合成数据]] — 用顶级大模型生成训练数据替代人工标注
 - [[CNN]] — 卷积神经网络（1989），专注图像空间特征提取
 - [[RNN]] — 循环神经网络（1986），专注序列时序依赖建模
+- [[网关]] — 微服务统一入口，承担路由转发/鉴权/限流/日志/协议转换五大职责
+- [[AI工作流]] — 开发者预先编排固定路径的多步流程，LLM 只执行单步任务不决定走向
+- [[MQTT协议]] — 轻量级物联网通信协议，发布/订阅模式，适合云端与设备间毫秒级通信
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

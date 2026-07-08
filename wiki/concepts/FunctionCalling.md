@@ -2,8 +2,8 @@
 title: "FunctionCalling"
 type: concept
 tags: [AI, 工具调用, LLM]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/SpringAI.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md]
-last_updated: 2026-07-06
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/SpringAI.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/01-articles/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md]
+last_updated: 2026-07-08
 ---
 
 ## 定义
@@ -34,6 +34,13 @@ Spring AI 2.0 引入 `@Tool` 注解定义工具：
 ### 与 Agent 工具的关系
 Function Calling 是 Agent 工具调用的底层机制，LangChain4j 的 Tools、Claude Code 的 Skill、Codex 的插件系统都基于此模式。
 
+### Tools 概念：LLM 可调用的离散函数
+Tool 是 LLM 可调用的离散函数，是构建 Workflow 和 Agent 的最小能力单元。它本身没有"智能"，就是一个被动的能力插件——查数据库、调 API、读文件。至于"什么时候调、调几次、调用结果怎么处理"，那是上层 Workflow 或 Agent 的事。
+
+**description 字段决定 LLM 能否选对工具**：Spring AI 中用 `@Tool(description = "...")` 注解描述工具用途，这个字段直接决定 LLM 能不能选对工具。写得模糊或重复，模型就会乱调。
+
+Tool 既不是 Agent 也不是 Workflow。只有"LLM 自主决策 + 循环执行"同时成立时才叫 Agent；路径是开发者写死的 Function Calling 仍然只是 Workflow 的一部分。
+
 ## 关联连接
 - [[LangChain4j]] — Function Calling 框架
 - [[SpringAI]] — Spring AI 函数调用
@@ -41,3 +48,5 @@ Function Calling 是 Agent 工具调用的底层机制，LangChain4j 的 Tools�
 - [[Skill]] — 上层技能封装
 - [[摘要-langchain4j-langgraph4j-comparison]] — LangChain4j Tool Calling 对比来源
 - [[摘要-spring-ai-2-agent-tips]] — 来源
+- [[AI工作流]] — Tools 是 Workflow 和 Agent 的构建基础
+- [[摘要-agent-tools-workflow区别]] — Tools 概念与三者关系来源

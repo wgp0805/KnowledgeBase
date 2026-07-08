@@ -1,3 +1,14 @@
+## [2026-07-08] ingest | 摄入 Gateway 网关、Agent/Tools/Workflow 区别、无人图书柜 3 篇文章
+- **变更**:
+  - 新增 sources: [[摘要-gateway网关]], [[摘要-agent-tools-workflow区别]], [[摘要-无人图书柜项目]]
+  - 新增 entities: [[Zuul]], [[程序汪]], [[UniApp]]
+  - 新增 concepts: [[网关]], [[AI工作流]], [[MQTT协议]]
+  - 增量更新 entity [[SpringCloudGateway]]（补充网关五大核心作用、Route/Predicate/Filter 三核心概念、Gateway vs Zuul 对比、自定义鉴权过滤器）
+  - 增量更新 concept [[Agent]]（补充 Tools/Workflow/Agent 层级递进关系与 Anthropic "简单胜于复杂"选型原则）
+  - 增量更新 concept [[FunctionCalling]]（补充 Tools 概念：离散函数、description 字段决定工具选择）
+  - 更新 [[index.md]] 加入 9 个新条目（3 source + 3 entity + 3 concept）
+- **冲突**: 无（[[AI工作流]] 与已有 [[dynamic-workflow]] 为不同概念，已在页面中明确区分标注）
+
 ## [2026-07-08] ingest | 摄入 Transformer 与训练-微调范式科普文章
 - **变更**:
   - 新增 source [[摘要-transformer-训练微调范式]]（博客园橙子家，Transformer 架构 + 训练-微调范式系统讲解）
