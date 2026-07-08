@@ -591,3 +591,6 @@
 ## [2026-07-08] query | 整理 IDEA AI Assistant 三次提问（能力/ACP/补全/免费方案）
 - **输出**: 已固化为 synthesis [[idea-ai-assistant-guide]]；更新 [[index.md]] Syntheses 分类
 - **冲突**: 无（代码补全部分为通用知识，已在页面中标注）
+
+## [2026-07-08] query | IDEA 自带热更新报错 schema change not implemented
+- **输出**: 即时回答未保存；知识库无 HotSwap 专门条目（现有"热更新"均指 K8s/OSGi），引用 [[IntelliJIDEA]]、[[JVM]]、[[HotSpot]] 作为关联实体；回答内容为通用知识（JVM 标准 HotSwap 仅支持方法体替换，schema change 需 DCEVM/JRebel/DevTools）
