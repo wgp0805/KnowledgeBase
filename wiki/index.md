@@ -183,6 +183,7 @@
 - [[摘要-maven-4-重构]] — Maven 4 核心架构变化与 POM 4.1.0 新特性详解
 - [[摘要-codex-97percent-技巧]] — 苏三整理 Codex 从基础到进阶的 10 条实用技巧
 - [[摘要-4种消息队列如何选型]] — Kafka/RabbitMQ/RocketMQ/ActiveMQ 四种消息队列全面对比与选型指南
+- [[摘要-transformer-训练微调范式]] — Transformer 架构与训练-微调范式（自注意力/QKV/SFT/RLHF/PEFT/LoRA）系统讲解
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -382,6 +383,13 @@
 - [[小锋]] — 微信公众号「java1234」作者，Java 与构建工具实践分享
 - [[Coze]] — 字节跳动零代码 AI Agent 搭建平台
 - [[Dify]] — 开源 LLMOps 平台，可视化搭建知识库和 Agent
+- [[Transformer]] — Google 2017 年提出的 AI 架构，自注意力机制实现全局并行化
+- [[Google]] — 全球最大搜索引擎公司，Transformer 论文发布者
+- [[Sora]] — OpenAI 基于 Transformer 的视频生成模型
+- [[AlphaFold2]] — 基于 Transformer 的蛋白质结构预测模型
+- [[FigureAI]] — 具身智能机器人公司，分层 Transformer 架构
+- [[Tesla]] — 电动车与自动驾驶公司，FSD 基于 Transformer 端到端架构
+- [[LlamaFactory]] — 一站式大模型微调框架
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
 - [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
@@ -517,6 +525,16 @@
 - [[Build POM 与 Consumer POM 分离]] — Maven 4 核心架构调整
 - [[计划模式]] — AI Agent 执行前先输出计划并确认
 - [[Worktree]] — Git 工作树隔离 Agent 工作区
+- [[自注意力机制]] — Transformer 核心机制，全局上下文建模与并行化
+- [[QKV]] — Query-Key-Value，实现自注意力的三个核心向量
+- [[预训练]] — 从白纸到通才的自监督学习过程，产出基座模型
+- [[基座模型]] — 预训练产物，有知识但无指令跟随能力
+- [[SFT]] — 监督微调，用人工精标数据让基座模型学会专业技能与对话格式
+- [[RLHF]] — 人类反馈强化学习，微调第二阶段价值观对齐（含 DPO/RLVR 演进）
+- [[PEFT]] — 参数高效微调技术族，仅训练 0.1%~1% 参数
+- [[合成数据]] — 用顶级大模型生成训练数据替代人工标注
+- [[CNN]] — 卷积神经网络（1989），专注图像空间特征提取
+- [[RNN]] — 循环神经网络（1986），专注序列时序依赖建模
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

@@ -1,3 +1,14 @@
+## [2026-07-08] ingest | 摄入 Transformer 与训练-微调范式科普文章
+- **变更**:
+  - 新增 source [[摘要-transformer-训练微调范式]]（博客园橙子家，Transformer 架构 + 训练-微调范式系统讲解）
+  - 新增 entities: [[Transformer]], [[Google]], [[Sora]], [[AlphaFold2]], [[FigureAI]], [[Tesla]], [[LlamaFactory]]
+  - 新增 concepts: [[自注意力机制]], [[QKV]], [[预训练]], [[基座模型]], [[SFT]], [[RLHF]], [[PEFT]], [[合成数据]], [[CNN]], [[RNN]]
+  - 增量更新 entity [[LoRA]]（补充行业占比 95%+、参数占比 0.1%~1%、消费级显卡 RTX 4090 支持、成本骤降数据）
+  - 增量更新 concept [[微调]]（补充微调三阶段分类体系 SFT→RLHF→PEFT、行业趋势、合成数据与端侧微调）
+  - 更新 [[index.md]] 加入 18 个新条目（1 source + 7 entity + 10 concept）
+- **冲突**: 无
+- **归档**: raw/01-articles/2026-07-07-Transformer...md + raw/_daily_digest.md → raw/09-archive/
+
 ## [2026-07-07] query | 解析 CC + 国产模型组合的泄露风险
 - **输出**: 引用 [[ClaudeCode]], [[AI中转站]], [[摘要-AI中转站盈利与风险分析]], [[摘要-AI-agent工具应该怎么使用]], [[摘要-沉默王二-claude-code-底层深扒]], [[摘要-codex-vs-claude-code-对比]], [[OpenCode]], [[Codex]], [[Ollama]], [[DeepSeek]], [[摘要-Ollama+DeepSeek本地部署]]; 即时回答未保存（待用户确认是否固化为 synthesis）
 - **结论**: 风险分三层——CC 必然把上下文发给 Provider / 国产厂商收到全部上下文 / 中转站叠加明文泄露与模型偷换风险；CC 非开源不可审计，建议敏感场景用开源 Harness 或离线模型
