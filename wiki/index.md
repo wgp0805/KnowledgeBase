@@ -187,6 +187,14 @@
 - [[摘要-gateway网关]] — Gateway 网关五大作用与 Spring Cloud Gateway 实战
 - [[摘要-agent-tools-workflow区别]] — Tools/Workflow/Agent 三者层级递进关系与选型
 - [[摘要-无人图书柜项目]] — 程序汪 6 万无人图书柜项目（RFID+MQTT+Codex）
+- [[摘要-powerjob-分布式任务调度]] — PowerJob 分布式任务调度框架：无锁化设计/DAG工作流/四种执行模式
+- [[摘要-双亲委派模型]] — Java 双亲委派模型：类加载器层次/委派流程/三次破坏（SPI/Tomcat/OSGi）
+- [[摘要-aot-vs-jit编译]] — AOT 与 JIT 编译对比：构建时 vs 运行时/启动速度 vs 峰值性能
+- [[摘要-springboot脚手架搭建]] — SpringBoot 脚手架搭建：全局异常处理/日志AOP/跨域/Swagger/统一响应体
+- [[摘要-springboot3.2-graalvm上手]] — SpringBoot 3.2+JDK 21+GraalVM Native Image 性能对比（vs Golang/Rust）
+- [[摘要-logback-vs-log4j2]] — logback vs log4j2 性能对比：log4j2 性能是 logback 的两倍
+- [[摘要-ponytail-ai减代码]] — Ponytail 开源 AI Agent 技能，让 AI 少写废代码（20.9k Star）
+- [[摘要-gsd-core-ai工作流]] — GSD Core 开源 AI 编码工作流项目，规格驱动开发（2.3k Star）
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -396,6 +404,20 @@
 - [[Zuul]] — Netflix 开源的 API 网关，同步阻塞模型，已被 Spring Cloud Gateway 替代
 - [[程序汪]] — 微信公众号「我是程序汪」作者，分享私活项目和真实商业案例
 - [[UniApp]] — 跨平台前端框架，基于 Vue 语法，支持小程序/H5/App 多端部署
+- [[PowerJob]] — 企业级分布式任务调度平台，无锁化设计，支持 DAG 工作流
+- [[XXL-JOB]] — 大众点评开源的分布式任务调度平台，基于数据库锁
+- [[Quartz]] — Java 定时任务框架，基于数据库锁，无分布式任务治理
+- [[GraalVM]] — Oracle 多语言运行时，支持 AOT 原生镜像编译
+- [[HotSpot]] — Oracle 主流 JVM 实现，支持 JIT 编译（C1/C2 编译器）
+- [[MapStruct]] — Java 对象映射代码生成库，编译时自动生成 DTO 转换代码
+- [[Golang]] — Google 开发的编译型语言，内存占用极低，启动快
+- [[Rust]] — 系统编程语言，零成本抽象，内存安全
+- [[ActixWeb]] — Rust 生态高性能 Web 框架，空闲内存约 3MB
+- [[Logback]] — Spring Boot 默认日志框架，基于 SLF4J 接口实现
+- [[Log4j2]] — Apache 高性能日志框架，性能是 Logback 的两倍
+- [[SLF4J]] — Java 日志门面接口，Logback/Log4j2 的统一抽象
+- [[Ponytail]] — 开源 AI Agent 技能项目（20.9k Star），减法思维让 AI 少写废代码
+- [[GSDCore]] — 开源 AI 编码工作流项目（2.3k Star），元提示/上下文工程/规格驱动开发
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
 - [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
@@ -544,6 +566,14 @@
 - [[网关]] — 微服务统一入口，承担路由转发/鉴权/限流/日志/协议转换五大职责
 - [[AI工作流]] — 开发者预先编排固定路径的多步流程，LLM 只执行单步任务不决定走向
 - [[MQTT协议]] — 轻量级物联网通信协议，发布/订阅模式，适合云端与设备间毫秒级通信
+- [[双亲委派模型]] — Java 类加载器核心机制，向上委派向下兜底
+- [[类加载器]] — JVM 加载类的组件，Bootstrap/Extension/Application/自定义层次结构
+- [[SPI机制]] — Service Provider Interface，服务发现机制，线程上下文类加载器破坏双亲委派
+- [[AOT编译]] — Ahead-Of-Time 提前编译，构建时编译为机器码，启动快
+- [[JIT编译]] — Just-In-Time 即时编译，运行时热点代码编译，峰值性能高
+- [[任务调度]] — 定时任务调度机制，支持 CRON/固定频率/固定延迟/API/工作流
+- [[日志框架]] — Java 日志体系：SLF4J 接口 + Logback/Log4j2 实现
+- [[过度工程化]] — AI 生成代码中过度设计问题，Ponytail 减法思维应对
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

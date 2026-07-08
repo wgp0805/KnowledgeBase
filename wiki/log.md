@@ -9,6 +9,15 @@
   - 更新 [[index.md]] 加入 9 个新条目（3 source + 3 entity + 3 concept）
 - **冲突**: 无（[[AI工作流]] 与已有 [[dynamic-workflow]] 为不同概念，已在页面中明确区分标注）
 
+## [2026-07-08] ingest | 批量摄入 8 篇 raw/01-articles 技术资料 + 2 篇补归档
+- **变更**:
+  - 新增 sources: [[摘要-powerjob-分布式任务调度]], [[摘要-双亲委派模型]], [[摘要-aot-vs-jit编译]], [[摘要-springboot脚手架搭建]], [[摘要-springboot3.2-graalvm上手]], [[摘要-logback-vs-log4j2]], [[摘要-ponytail-ai减代码]], [[摘要-gsd-core-ai工作流]]
+  - 新增 entities: [[PowerJob]], [[XXL-JOB]], [[Quartz]], [[GraalVM]], [[HotSpot]], [[MapStruct]], [[Golang]], [[Rust]], [[ActixWeb]], [[Logback]], [[Log4j2]], [[SLF4J]], [[Ponytail]], [[GSDCore]]
+  - 新增 concepts: [[双亲委派模型]], [[类加载器]], [[SPI机制]], [[AOT编译]], [[JIT编译]], [[任务调度]], [[日志框架]], [[过度工程化]]
+  - 更新 [[index.md]] 加入 30 个新条目（8 source + 14 entity + 8 concept）
+- **冲突**: 无
+- **归档**: raw/01-articles/ 11 个源文件至 raw/09-archive/；补归档 2 个已有 source 对应的文件
+
 ## [2026-07-08] ingest | 摄入 Transformer 与训练-微调范式科普文章
 - **变更**:
   - 新增 source [[摘要-transformer-训练微调范式]]（博客园橙子家，Transformer 架构 + 训练-微调范式系统讲解）
