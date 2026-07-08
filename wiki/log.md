@@ -566,3 +566,6 @@
 
 ## [2026-07-08] query | 解析 IntelliJ IDEA 中 AI agents 选项的 Junie
 - **输出**: 即时回答未保存（本地知识库无 Junie 条目，引用 JetBrains/junie GitHub 仓库与 IDEA 2026.1 官方文档）
+
+## [2026-07-08] query | 追问 Junie 是否支持国产模型 API
+- **输出**: 即时回答未保存（引用 JetBrains/junie registry-staging.json ACP 注册表与 README BYOK 说明）
