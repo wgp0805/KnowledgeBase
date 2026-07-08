@@ -579,3 +579,7 @@
 
 ## [2026-07-08] query | 查询 IDEA 的 AI Assistant 能做什么
 - **输出**: 引用 [[IntelliJIDEA]]、[[Junie]]、[[junie-国产模型配置指南]]；即时回答未保存（待用户决定是否固化为 synthesis）
+
+## [2026-07-08] query | 整理 IDEA AI Assistant 三次提问（能力/ACP/补全/免费方案）
+- **输出**: 已固化为 synthesis [[idea-ai-assistant-guide]]；更新 [[index.md]] Syntheses 分类
+- **冲突**: 无（代码补全部分为通用知识，已在页面中标注）
