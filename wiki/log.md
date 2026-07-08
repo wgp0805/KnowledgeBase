@@ -576,3 +576,6 @@
 ## [2026-07-08] ingest | 整理 Junie 及国产模型配置指南
 - **变更**: 新增 [[Junie]]、[[junie-国产模型配置指南]]；更新 [[index.md]]、[[IntelliJIDEA]]
 - **冲突**: 无
+
+## [2026-07-08] query | 查询 IDEA 的 AI Assistant 能做什么
+- **输出**: 引用 [[IntelliJIDEA]]、[[Junie]]、[[junie-国产模型配置指南]]；即时回答未保存（待用户决定是否固化为 synthesis）
