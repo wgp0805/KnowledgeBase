@@ -569,3 +569,6 @@
 
 ## [2026-07-08] query | 追问 Junie 是否支持国产模型 API
 - **输出**: 即时回答未保存（引用 JetBrains/junie registry-staging.json ACP 注册表与 README BYOK 说明）
+
+## [2026-07-08] query | 查询 OpenCode 使用教程
+- **输出**: 引用 [[OpenCode]]、[[ECC]]、[[摘要-ECC-OpenCode-使用指南]]；知识库主要为 ECC+OpenCode 配合教程，OpenCode 本体安装需补官方文档
