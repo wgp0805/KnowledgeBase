@@ -201,6 +201,9 @@
 - [[摘要-spring-ai-2-对话记忆实战]] — Spring AI 2.0 三步搭建带 Redis 对话记忆的 AI 聊天服务
 - [[摘要-spring-ai-2-vs-alibaba选型]] — Spring AI 2.0 vs Spring AI Alibaba 全面对比与组合选型
 
+- [[摘要-architecture-diagram-generator]] — Cocoon AI 团队开源的 Claude AI 架构图生成 Skill，用人话描述系统架构生成 HTML 架构图
+- [[摘要-claude-code-实战防搞炸]] — 程序汪分享的 Claude Code 实战经验，CLAUDE.md/权限/验证三位一体防项目搞炸
+
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
