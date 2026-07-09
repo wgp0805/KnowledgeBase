@@ -24,7 +24,7 @@ Transformer 是 Google 于 2017 年在论文《Attention Is All You Need》中�
 ### 应用领域
 - **NLP**：GPT-4/Claude/Qwen 等大语言模型，金融价格预测
 - **CV**：ViT 图像分类、DETR 端到端目标检测、工业质检（13 亿参数视觉大模型）
-- **自动驾驶**：特斯拉 FSD 端到端架构（99.8% 场景识别率，决策速度提升 3 倍）
+- **自动驾驶**：[[Tesla]] FSD 端到端架构（99.8% 场景识别率，决策速度提升 3 倍）
 - **生物医药**：AlphaFold2 蛋白质结构预测（接近原子级精度，解决生物学 50 年难题）
 - **多模态生成**：Sora 视频生成、BlockNeRF 3D 场景重建
 - **其他**：农业病害识别（93.59%）、情绪识别（93.2%）
@@ -44,3 +44,4 @@ Transformer 是 Google 于 2017 年在论文《Attention Is All You Need》中�
 - [[Sora]] — 基于 Transformer 的视频生成模型
 - [[AlphaFold2]] — 基于 Transformer 的蛋白质预测
 - [[摘要-transformer-训练微调范式]] — 来源
+- [[FigureAI]] — 具身智能机器人，分层 Transformer 架构

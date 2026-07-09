@@ -47,5 +47,5 @@ last_updated: 2026-07-09
 - [[FunctionCalling]] - Tool Calling
 - [[ChatClient]] - 聊天客户端
 - [[AdvisorChain]] - Advisor 链
-- [[摘要-spring-ai-vs-langchain4j]] - 相关框架对比
+- [[spring-ai-vs-langchain4j]] - 相关框架对比
 - [[摘要-java-ai框架选型指南-2026]] - 相关选型指南

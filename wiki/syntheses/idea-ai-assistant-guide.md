@@ -12,7 +12,7 @@ last_updated: 2026-07-08
 
 [[IntelliJIDEA]] 的 AI 生态分两大块，二者互不干扰：
 
-1. **AI Chat / Agent mode** —— 多步任务（修 bug、实现功能、重构、审查 PR、写测试），走 [[ACP]]
+1. **AI Chat / Agent mode** —— 多步任务（修 bug、实现功能、重构、审查 PR、写测试），走 ACP
 2. **代码补全 inline completion** —— 单行/多行提示，走 JetBrains AI 服务或第三方插件
 
 ## 二、AI Chat / Agent mode（走 ACP）

@@ -57,3 +57,4 @@ agent 内执行 `/install-github-action`，可让 Junie 自动响应 issue、PR 
 - [[Qwen]] — ACP 注册表收录的国产模型
 - [[Kimi]] — ACP 注册表收录的国产模型
 - [[junie-国产模型配置指南]] — 在 IDEA 中配置国产模型操作步骤
+- [[idea-ai-assistant-guide]] — IDEA AI Assistant 能力全貌与配置指南

@@ -598,3 +598,7 @@
 ## [2026-07-09] ingest | 摄入 3 篇 AI 编程工作流与 Spring AI 文章
 - **变更**: 新增来源 [[摘要-spec-superflow-融合工作流]]、[[摘要-spring-ai-2-对话记忆实战]]、[[摘要-spring-ai-2-vs-alibaba选型]]；新建实体 [[SpecSuperflow]]、[[FissionAI]]、[[MageByte-Zero]]、[[程序员追风]]；新建概念 [[execution-contract]]、[[seven-state-machine]]、[[delta-spec]]、[[review-gate]]、[[subagent-driven-development]]；增量更新 [[OpenSpec]]、[[Superpowers]]、[[SpringAI]]、[[SpringAI_Alibaba]]、[[苏三]]、[[ChatMemory]]；同步 [[index.md]]
 - **冲突**: [[SpringAI]] 版本基线更新——旧记「Spring Boot 3.x+」，新文（2026-07-09）明确 Spring AI 2.0 GA 基于 Spring Boot 4.1 + Spring Framework 7.0，已据更权威的新来源纠正
+
+## [2026-07-09] lint | 修复 7 个问题（4 死链 + 3 孤儿）
+- **变更**: 修复死链 4 个--[[Obsidian]] 去除示例文本 [[wikilink]] 双链模式；[[SpringAI_Alibaba]] 与 [[摘要-spring-ai-2-vs-alibaba选型]] 的 [[摘要-spring-ai-vs-langchain4j]] 前缀笔误纠正为 [[spring-ai-vs-langchain4j]]；[[idea-ai-assistant-guide]] 的 [[ACP]] 改为普通文本。修复孤儿 3 个--[[Transformer]] 补 [[Tesla]]（inline 双链）与 [[FigureAI]]（关联连接）；[[Junie]] 补 [[idea-ai-assistant-guide]] 引用。[[摘要-追番]] 作为个人记录保留原样。
+- **冲突**: 无

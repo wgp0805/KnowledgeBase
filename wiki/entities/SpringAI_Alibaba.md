@@ -45,4 +45,4 @@ last_updated: 2026-07-09
 - [[摘要-java-ai框架选型指南-2026]] — 来源
 - [[摘要-spring-ai-2-vs-alibaba选型]] — Spring AI 2.0 vs Alibaba 选型
 - [[LangGraph]] — 类比框架
-- [[摘要-spring-ai-vs-langchain4j]] — 相关框架对比
+- [[spring-ai-vs-langchain4j]] — 相关框架对比
