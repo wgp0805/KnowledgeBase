@@ -2,8 +2,8 @@
 title: "CLAUDEmd"
 type: concept
 tags: [AI, 记忆, 指令系统]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md]
+last_updated: 2026-07-09
 ---
 
 ## 定义
@@ -15,6 +15,15 @@ Claude Code 的核心指令与记忆系统，以 CLAUDE.md 文件为载体，三
 1. **全局级** (`~/.claude/CLAUDE.md`)：对所有项目生效，写个人习惯相关规则
 2. **项目级** (项目根目录)：团队共享可提交 Git，写技术架构/文件结构/开发规范
 3. **文件夹级** (子文件夹)：仅对该文件夹的修改生效
+
+### 四层层级与加载顺序（程序汪实战视角）
+- 组织级（/etc/claude-code/CLAUDE.md 或 C:\Program Files\ClaudeCode\CLAUDE.md）：IT/DevOps 统一下发
+- 用户级（~/.claude/CLAUDE.md）：个人通用偏好
+- 项目级（./CLAUDE.md 或 ./.claude/CLAUDE.md）：团队共享，提交 Git
+- 本地级（./CLAUDE.local.md）：个人配置，加进 .gitignore
+- 加载从全局到局部，后加载的更具体规则更易被采纳；子目录 CLAUDE.md 按需加载非开局全塞
+- 官方建议控制在 200 行内，膨胀时拆到带 paths 的 .claude/rules/，低频参考放 Skills
+- 删规则判断标准：删掉后 Claude 会不会更易犯错；/memory 验证当前加载了哪些规则文件
 
 ### 设计原则
 - 第一优先级，每次对话自动注入上下文
@@ -50,3 +59,5 @@ Codex 使用 `agents.md` 作为手动持久记忆文件，分全局级和项目�
 - [[AICoding]] — AI 编程实践
 - [[摘要-AI-agent工具应该怎么使用]] — 来源
 - [[摘要-codex-97percent-技巧]] — 来源（AGENTS.md 四块关键内容）
+- [[摘要-claude-code-实战防搞炸]] — 来源（程序汪实战视角）
+- [[auto-mode]] — 配合的权限模式
