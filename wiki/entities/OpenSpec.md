@@ -2,8 +2,10 @@
 title: "OpenSpec"
 type: entity
 tags: [AI编程, 规范驱动, 开源工具]
-sources: [raw/01-articles/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md]
-last_updated: 2026-06-24
+sources:
+  - raw/01-articles/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md
+  - raw/01-articles/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
+last_updated: 2026-07-09
 ---
 
 ## 定义
@@ -12,10 +14,14 @@ OpenSpec 是一个面向 AI 编程的规范驱动框架，核心思想是"先对
 
 ## 关键信息
 
-- **GitHub Star**: 53k+
-- **核心理念**: 先对齐需求，再写代码
-- **中文版**: https://github.com/studyzy/OpenSpec-cn
-- **原版**: https://github.com/Fission-AI/OpenSpec
+- **开源方**：[[FissionAI]]，MIT 协议
+- **GitHub Star**：57k+（5.7 万星，截至 2026-07）
+- **版本**：v1.4.1
+- **核心理念**：先对齐需求，再写代码
+- **中文版**：https://github.com/studyzy/OpenSpec-cn
+- **原版**：https://github.com/Fission-AI/OpenSpec
+- **支持平台**：25+ 个 AI 编码平台（Claude Code、Cursor、Codex、Gemini CLI 全覆盖）
+- **定位边界**：规划引擎，把规划做到极致，有意不碰从规划到落地这段路
 
 ### 核心工作流
 
@@ -27,6 +33,14 @@ OpenSpec 是一个面向 AI 编程的规范驱动框架，核心思想是"先对
    - tasks.md：任务清单，列出实现步骤
 3. **应用模式** (`/opsx:apply`): 按清单逐项实现，生成实际代码+tasks进度更新
 4. **归档模式** (`/opsx:archive`): 完成后归档存档，将规划文档移入archive目录
+
+### 工件依赖图
+
+工件依赖链：proposal（变更意图）-> specs（具体需求，用 SHALL/MUST 确定性词汇 + Given/When/Then 场景）-> design（技术方案）-> tasks（可执行步骤）-> implement。每个工件有 schema 定义，靠 YAML 引擎做拓扑排序。依赖关系是"使能"而非"卡死"--随时可回去修改前面工件。
+
+### Delta Spec 增量变更
+
+详见 [[delta-spec]]。用 ADDED/MODIFIED/REMOVED 三标记描述变更差异，不动已有 spec，只描述差异。棕地项目改一处不必重写整份 spec。通过 `/opsx:sync` 同步 delta spec 到主 spec。
 
 ### 安装与初始化
 
