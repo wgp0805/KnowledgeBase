@@ -61,6 +61,10 @@ openspec-cn view
 - [[摘要-OpenSpec规范驱动AI编程框架]] — 来源
 - [[摘要-superpowers-openspec-speckit对比]] — 三方对比来源
 - [[规范驱动开发]] — 上层方法论
+- [[FissionAI]] — 开源方
+- [[delta-spec]] — 增量变更机制
+- [[SpecSuperflow]] — 与 Superpowers 的融合插件
+- [[摘要-spec-superflow-融合工作流]] — 融合方案来源
 - [[Superpowers]] — 兄弟方案，管"怎么干"
 - [[SpecKit]] — 兄弟方案，让规范可执行
 - [[AICoding]] — AI 辅助编程范式

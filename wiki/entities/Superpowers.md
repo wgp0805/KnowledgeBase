@@ -5,7 +5,8 @@ tags: [AI编程, Skill框架, 工程纪律, 开源]
 sources:
   - raw/01-articles/全网爆火的Superpowers到底是什么.md
   - raw/01-articles/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md
-last_updated: 2026-06-26
+  - raw/01-articles/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
+last_updated: 2026-07-09
 ---
 
 ## 定义
@@ -45,6 +46,13 @@ last_updated: 2026-06-26
 
 任何代码产出必须依次走完：**头脑风暴 → 方案设计 → 编写计划 → 执行开发 → 代码审查**，一步都不能跳。
 
+### 质量门禁四件套
+
+1. **TDD 铁律**：没有失败测试就不准写生产代码，不是建议是强制。AI 若违反，规则要求把写的代码全部删掉，从 failing test 重新开始，把"先写个大概能跑的版本再补测试"这扇门焊死
+2. **[[review-gate|Review Gate]]**：四层层层设卡——spec 写完先自审、每个任务完成后审查、整个分支完成后审查、交付前最终验证，任何一层没通过都不能往下走
+3. **Red Flags 表**：列出 AI 可能用来跳过流程的借口（"改动太小不需要测试""用户赶时间先跳过 review"），逐条说明为何这些借口不成立
+4. **[[subagent-driven-development|SDD]]**：子代理上下文隔离 + 双裁决审查。v6.0 评测显示 token 消耗砍约 50%，速度翻倍。
+
 ### 安装
 
 ```bash
@@ -66,6 +74,10 @@ last_updated: 2026-06-26
 - [[OpenSpec]] — 兄弟方案，管"改了什么"
 - [[SpecKit]] — 兄弟方案，让规范可执行
 - [[Skill]] — 实现机制
+- [[review-gate]] — 审查门禁机制
+- [[subagent-driven-development]] — 子代理驱动开发
+- [[SpecSuperflow]] — 与 OpenSpec 的融合插件
+- [[摘要-spec-superflow-融合工作流]] — 融合方案来源
 - [[VibeCoding]] — 它要消灭的现象
 - [[ClaudeCode]] — 首发载体
 - [[Cursor]] — 兼容平台

@@ -2,8 +2,8 @@
 title: "ChatMemory"
 type: concept
 tags: [AI, 对话记忆, 上下文]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md]
-last_updated: 2026-07-06
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/01-articles/Spring AI 2.0真香！.md]
+last_updated: 2026-07-09
 ---
 
 ## 定义
@@ -20,7 +20,9 @@ last_updated: 2026-07-06
 ### Spring AI 2.0 实现
 - `MessageChatMemoryAdvisor` Advisor 自动读写会话历史，通过 `ChatMemory.CONVERSATION_ID` 参数区分用户
 - `MessageWindowChatMemory` 滑动窗口策略，保留最近 N 条消息
-- 无需手动维护 `List<Message>`，Advisor 自动注入历史
+- 无需手动维护
+- Redis 对话记忆实战（Spring AI 2.0）：需 redis-stack（非普通 redis），用 RedisChatMemoryRepository + MessageWindowChatMemory（maxMessages 配置）；ChatMemory 的 add/get/clear 均绑定 conversationId，流式输出完成后通过 doOnComplete 保存助手回复
+ `List<Message>`，Advisor 自动注入历史
 
 ### 与 Agent 记忆的关系
 ChatMemory 是对话级短期记忆（一次会话内），CLAUDE.md/Auto Memory 是跨会话的长期记忆。
@@ -32,3 +34,4 @@ ChatMemory 是对话级短期记忆（一次会话内），CLAUDE.md/Auto Memory
 - [[ContextManagement]] — 上下文管理策略
 - [[AdvisorChain]] — Advisor 链模式
 - [[摘要-spring-ai-2-agent-tips]] — 来源
+- [[摘要-spring-ai-2-对话记忆实战]] — Spring AI 2.0 对话记忆实战

@@ -197,6 +197,10 @@
 - [[摘要-ponytail-ai减代码]] — Ponytail 开源 AI Agent 技能，让 AI 少写废代码（20.9k Star）
 - [[摘要-gsd-core-ai工作流]] — GSD Core 开源 AI 编码工作流项目，规格驱动开发（2.3k Star）
 
+- [[摘要-spec-superflow-融合工作流]] — spec-superflow：融合 OpenSpec 与 Superpowers 的自动化工作流插件
+- [[摘要-spring-ai-2-对话记忆实战]] — Spring AI 2.0 三步搭建带 Redis 对话记忆的 AI 聊天服务
+- [[摘要-spring-ai-2-vs-alibaba选型]] — Spring AI 2.0 vs Spring AI Alibaba 全面对比与组合选型
+
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
@@ -420,6 +424,11 @@
 - [[Ponytail]] — 开源 AI Agent 技能项目（20.9k Star），减法思维让 AI 少写废代码
 - [[GSDCore]] — 开源 AI 编码工作流项目（2.3k Star），元提示/上下文工程/规格驱动开发
 - [[Junie]] — JetBrains 出品的 AI coding agent，LLM 无关，运行于终端/IDE/CI 三通道
+- [[SpecSuperflow]] — 融合 OpenSpec 与 Superpowers 的自动化工作流 Claude Code 插件
+- [[FissionAI]] — OpenSpec 的开源方，AI-native 规划引擎缔造者
+- [[MageByte-Zero]] — SpecSuperflow 开发者
+- [[程序员追风]] — 微信公众号作者，AI 编程工作流与开源工具介绍
+
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
 - [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
@@ -576,6 +585,12 @@
 - [[任务调度]] — 定时任务调度机制，支持 CRON/固定频率/固定延迟/API/工作流
 - [[日志框架]] — Java 日志体系：SLF4J 接口 + Logback/Log4j2 实现
 - [[过度工程化]] — AI 生成代码中过度设计问题，Ponytail 减法思维应对
+
+- [[execution-contract]] — 执行契约，规划与执行之间的可验证锚点
+- [[seven-state-machine]] — spec-superflow 七状态工作流状态机
+- [[delta-spec]] — OpenSpec 增量变更机制（ADDED/MODIFIED/REMOVED）
+- [[review-gate]] — 审查门禁，层层设卡的质量管控机制
+- [[subagent-driven-development]] — 子代理隔离执行 + 双裁决审查的 Agent 开发模式
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
