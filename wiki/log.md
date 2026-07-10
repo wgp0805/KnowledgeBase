@@ -607,6 +607,12 @@
   - 归档: raw/_daily_digest.md → raw/09-archive/_daily_digest_2026-07-09.md
 - **冲突**: 无
 
+- **冲突**: 无
+
+## [2026-07-10] query | AI Agent 运行出错后的纠正方法
+- **输出**: 引用 [[steering]], [[摘要-claude-code-实战防搞炸]], [[摘要-6条Claude-Code实践经验与思考]], [[摘要-claude-code-best-practice-苏三视角]], [[摘要-AI-agent工具应该怎么使用]], [[摘要-codex-97percent-技巧]]；即时回答未保存（待用户确认是否固化为 synthesis）
+- **结论**: 纠正手段分即时（Steering 增量纠偏）+ 流程（Plan 模式先行/Plan-Execute 分 Session）+ 自动（Hooks 拦截/测试）+ 回退（小步 Git commit + diff）+ 协作（多模型交叉验证）五层
+
 ## [2026-07-09] lint | 修复 7 个问题（4 死链 + 3 孤儿）
 - **变更**: 修复死链 4 个--[[Obsidian]] 去除示例文本 [[wikilink]] 双链模式；[[SpringAI_Alibaba]] 与 [[摘要-spring-ai-2-vs-alibaba选型]] 的 [[摘要-spring-ai-vs-langchain4j]] 前缀笔误纠正为 [[spring-ai-vs-langchain4j]]；[[idea-ai-assistant-guide]] 的 [[ACP]] 改为普通文本。修复孤儿 3 个--[[Transformer]] 补 [[Tesla]]（inline 双链）与 [[FigureAI]]（关联连接）；[[Junie]] 补 [[idea-ai-assistant-guide]] 引用。[[摘要-追番]] 作为个人记录保留原样。
 - **冲突**: 无
