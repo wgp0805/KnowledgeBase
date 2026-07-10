@@ -610,6 +610,7 @@
 - [[dual-token-security-analysis]] — 双 Token（AccessToken+RefreshToken）安全设计分析
 - [[dual-token-design-complete]] — 双 Token 设计完整案例：流程/代码/设计决策/安全分析
 - [[claude-code-增强框架对比]] — ECC / Superpowers / OpenSpec / Spec-Kit 横向对比与选型指南
+- [[agent-error-correction-strategies]] — AI Agent 运行出错后的五层纠正策略：即时纠偏/流程防线/上下文隔离/自动防护/事后回退
 
 - [[摘要-vibe-coding-实战篇总结-上]] — 抖音创作者敲代码的小虾米总结的 Vibe Coding 开发全流程（上篇）：立项/选技术栈/搭架构/写 Agent 宪法
 
