@@ -200,6 +200,7 @@
 - [[摘要-spec-superflow-融合工作流]] — spec-superflow：融合 OpenSpec 与 Superpowers 的自动化工作流插件
 - [[摘要-spring-ai-2-对话记忆实战]] — Spring AI 2.0 三步搭建带 Redis 对话记忆的 AI 聊天服务
 - [[摘要-spring-ai-2-vs-alibaba选型]] — Spring AI 2.0 vs Spring AI Alibaba 全面对比与组合选型
+- [[摘要-开源诗词数据集poetry_dataset]] — poetry_dataset 开源诗词训练数据集与 Mac 本地 LoRA 微调全方案（Qwen2.5 + MLX + shi-ci.cn）
 
 - [[摘要-architecture-diagram-generator]] — Cocoon AI 团队开源的 Claude AI 架构图生成 Skill，用人话描述系统架构生成 HTML 架构图
 - [[摘要-claude-code-实战防搞炸]] — 程序汪分享的 Claude Code 实战经验，CLAUDE.md/权限/验证三位一体防项目搞炸
@@ -360,6 +361,8 @@
 - [[Chroma]] — 开源向量数据库，RAG 架构常用向量存储
 - [[LoRA]] — 参数高效微调方法（Low-Rank Adaptation）
 - [[Gemini]] — Google 大模型系列，1M+ Token 超长上下文
+- [[poetry_dataset]] — 开源诗词训练数据集与 Mac 本地 LoRA 微调工具集（MLX + Qwen2.5）
+- [[shi-ci.cn]] — 配套诗词资源站（无广告、数十万诗词、支持平仄标注与标准化文本导出）
 - [[Servlet]] — Java EE/Jakarta EE 服务器端组件规范
 - [[PatternsDev]] — 58 个前端设计模式 Skills 维护团队
 - [[VercelLabs]] — Vercel 前端 Skills 发布者

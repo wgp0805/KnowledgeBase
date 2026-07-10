@@ -1,8 +1,8 @@
 ---
 title: "Qwen"
 type: entity
-tags: [AI模型, 阿里云, 通义千问, 多模态]
-sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/测评国内多模态大模型，到底哪个更省事？.md]
+tags: [AI模型, 阿里云, 通义千问, 多模态, 本地微调]
+sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/测评国内多模态大模型，到底哪个更省事？.md, raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md]
 last_updated: 2026-07-02
 ---
 
@@ -32,3 +32,6 @@ Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Fla
 - [[DeepSeek]] — 横评对比模型
 - [[Gemini]] — 横评对比模型
 - [[AICoding]] — Coding Agent 应用场景
+- [[LoRA]] — 微调方法
+- [[摘要-开源诗词数据集poetry_dataset]] — 来源
+- [[poetry_dataset]] — 支持 Qwen2.5 本地微调

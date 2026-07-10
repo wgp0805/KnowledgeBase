@@ -2,7 +2,7 @@
 title: "LoRA"
 type: entity
 tags: [微调, AI, 参数高效微调, 深度学习]
-sources: [raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md]
+sources: [raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md, raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md]
 last_updated: 2026-07-08
 ---
 
@@ -27,3 +27,5 @@ LoRA（Low-Rank Adaptation）是参数高效微调方法，通过在预训练模
 - [[LlamaFactory]] — 支持 LoRA 的一站式微调框架
 - [[摘要-字节面试官什么是RAG为什么需要RAG]] — 来源
 - [[摘要-transformer-训练微调范式]] — 来源
+- [[摘要-开源诗词数据集poetry_dataset]] — 来源
+- [[poetry_dataset]] — MLX 框架下 Qwen2.5 诗词 LoRA 微调实战案例

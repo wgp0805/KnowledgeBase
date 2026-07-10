@@ -617,6 +617,17 @@
 - **变更**: 新增 [[agent-error-correction-strategies]]（五层纠正体系：即时/流程/隔离/自动/回退），更新 [[index.md]] Syntheses 分类
 - **引用**: [[steering]], [[Hooks]], [[计划模式]], [[CLAUDEmd]], [[Worktree]], [[ContextManagement]], [[code-review]], [[auto-mode]], [[ClaudeCode]], [[Codex]]
 
+- **冲突**: 无
+
+## [2026-07-10] ingest | 摄入诗词大模型本地微调全方案文章
+- **变更**:
+  - 新增 source [[摘要-开源诗词数据集poetry_dataset]]（poetry_dataset 开源项目 + shi-ci.cn 配套站点的诗词大模型本地微调全方案）
+  - 新增 entities: [[poetry_dataset]], [[shi-ci.cn]]
+  - 增量更新 entities: [[Qwen]]（新增本地微调章节，支持 Qwen2.5 系列底座模型）、[[LoRA]]（新增 MLX + poetry_dataset 实战案例）
+  - 更新 [[index.md]]（1 source + 2 entities）
+- **冲突**: 无
+- **归档**: raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md → raw/09-archive/
+
 ## [2026-07-09] lint | 修复 7 个问题（4 死链 + 3 孤儿）
 - **变更**: 修复死链 4 个--[[Obsidian]] 去除示例文本 [[wikilink]] 双链模式；[[SpringAI_Alibaba]] 与 [[摘要-spring-ai-2-vs-alibaba选型]] 的 [[摘要-spring-ai-vs-langchain4j]] 前缀笔误纠正为 [[spring-ai-vs-langchain4j]]；[[idea-ai-assistant-guide]] 的 [[ACP]] 改为普通文本。修复孤儿 3 个--[[Transformer]] 补 [[Tesla]]（inline 双链）与 [[FigureAI]]（关联连接）；[[Junie]] 补 [[idea-ai-assistant-guide]] 引用。[[摘要-追番]] 作为个人记录保留原样。
 - **冲突**: 无
