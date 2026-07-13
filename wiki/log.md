@@ -631,3 +631,13 @@
 ## [2026-07-09] lint | 修复 7 个问题（4 死链 + 3 孤儿）
 - **变更**: 修复死链 4 个--[[Obsidian]] 去除示例文本 [[wikilink]] 双链模式；[[SpringAI_Alibaba]] 与 [[摘要-spring-ai-2-vs-alibaba选型]] 的 [[摘要-spring-ai-vs-langchain4j]] 前缀笔误纠正为 [[spring-ai-vs-langchain4j]]；[[idea-ai-assistant-guide]] 的 [[ACP]] 改为普通文本。修复孤儿 3 个--[[Transformer]] 补 [[Tesla]]（inline 双链）与 [[FigureAI]]（关联连接）；[[Junie]] 补 [[idea-ai-assistant-guide]] 引用。[[摘要-追番]] 作为个人记录保留原样。
 - **冲突**: 无
+
+## [2026-07-13] ingest | 批量摄入 7 篇 raw/01-articles 技术资料
+- **变更**:
+  - 新增 sources: [[摘要-shadcn-ui介绍]], [[摘要-LangChain与LangGraph对比]], [[摘要-SolonAI-ReActAgent智能客服]], [[摘要-ShadcnUI构建Java桌面应用]], [[摘要-RAG-KAG双引擎知识库系统]]
+  - 新增 entities: [[shadcn_ui]], [[JxBrowser]], [[Neo4j]]
+  - 新增 concepts: [[KAG]], [[HITL]]
+  - 增量更新 entities: [[FastAPI]], [[LangChain]], [[LangGraph]], [[SolonAI]]
+  - 更新 [[index.md]] 加入 10 个新条目（5 source + 3 entity + 2 concept）
+- **冲突**: 无
+- **归档**: raw/01-articles/ 5 个源文件至 raw/09-archive/（2 篇已有摘要的 FastAPI/LangChain 文章仅增量更新，未重复创建 source）

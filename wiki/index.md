@@ -390,6 +390,9 @@
 - [[FastAPI]] — Python 高性能 Web 框架，基于 ASGI/Pydantic，80K+ Star
 - [[Pydantic]] — Python 数据校验库，FastAPI 数据验证引擎
 - [[Uvicorn]] — Python ASGI 服务器（uvloop + httptools）
+- [[shadcn_ui]] — 新一代 UI 库，开放代码、源码级可控、AI 友好
+- [[JxBrowser]] — Chromium 内核 Java Web 视图组件
+- [[Neo4j]] — 基于图论的 NoSQL 图数据库，知识图谱存储
 - [[Kimi]] — 月之暗面国产大模型，2026-06 实战中规中矩
 - [[MiniMax]] — MiniMax M3 长上下文/逻辑严谨/办公场景领先
 - [[GLM]] — 智谱 AI GLM 5.2，Coding Plan 抢手
@@ -596,6 +599,8 @@
 - [[任务调度]] — 定时任务调度机制，支持 CRON/固定频率/固定延迟/API/工作流
 - [[日志框架]] — Java 日志体系：SLF4J 接口 + Logback/Log4j2 实现
 - [[过度工程化]] — AI 生成代码中过度设计问题，Ponytail 减法思维应对
+- [[KAG]] — 知识增强生成，结合知识图谱增强 LLM 上下文
+- [[HITL]] — Human-in-the-Loop，AI Agent 关键决策点人工审批机制
 
 - [[execution-contract]] — 执行契约，规划与执行之间的可验证锚点
 - [[seven-state-machine]] — spec-superflow 七状态工作流状态机
