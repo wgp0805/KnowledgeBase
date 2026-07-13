@@ -204,6 +204,11 @@
 
 - [[摘要-architecture-diagram-generator]] — Cocoon AI 团队开源的 Claude AI 架构图生成 Skill，用人话描述系统架构生成 HTML 架构图
 - [[摘要-claude-code-实战防搞炸]] — 程序汪分享的 Claude Code 实战经验，CLAUDE.md/权限/验证三位一体防项目搞炸
+- [[摘要-shadcn-ui介绍]] — shadcn/ui 新一代 UI 库介绍：开放代码、源码级可控、AI 友好
+- [[摘要-LangChain与LangGraph对比]] — LangChain 与 LangGraph 核心差异与落地选型全解析
+- [[摘要-SolonAI-ReActAgent智能客服]] — Solon AI ReActAgent 落地智能客服工单处理实战
+- [[摘要-ShadcnUI构建Java桌面应用]] — JxBrowser + React + shadcn/ui 构建 Java 桌面应用
+- [[摘要-RAG-KAG双引擎知识库系统]] — RAG + KAG 双引擎企业级知识库系统完整方案
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
