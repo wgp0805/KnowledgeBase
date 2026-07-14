@@ -198,6 +198,8 @@
 - [[摘要-gsd-core-ai工作流]] — GSD Core 开源 AI 编码工作流项目，规格驱动开发（2.3k Star）
 
 - [[摘要-spec-superflow-融合工作流]] — spec-superflow：融合 OpenSpec 与 Superpowers 的自动化工作流插件
+- [[摘要-spec-superflow-融合工作流-源码级详解]] — spec-superflow 源码级融合详解：8 状态机 + contract-builder 桥接层 + 17 平台分发
+- [[摘要-claude-code-best-practice-最新版]] — Claude Code 最佳实践最新整理：CLAUDE.md/工作流/调试/上下文/Subagents/Skills 等 13 模块
 - [[摘要-spring-ai-2-对话记忆实战]] — Spring AI 2.0 三步搭建带 Redis 对话记忆的 AI 聊天服务
 - [[摘要-spring-ai-2-vs-alibaba选型]] — Spring AI 2.0 vs Spring AI Alibaba 全面对比与组合选型
 - [[摘要-开源诗词数据集poetry_dataset]] — poetry_dataset 开源诗词训练数据集与 Mac 本地 LoRA 微调全方案（Qwen2.5 + MLX + shi-ci.cn）
@@ -603,10 +605,12 @@
 - [[HITL]] — Human-in-the-Loop，AI Agent 关键决策点人工审批机制
 
 - [[execution-contract]] — 执行契约，规划与执行之间的可验证锚点
-- [[seven-state-machine]] — spec-superflow 七状态工作流状态机
+- [[eight-state-machine]] — spec-superflow 八状态工作流状态机（hotfix/tweak 快速路径）
 - [[delta-spec]] — OpenSpec 增量变更机制（ADDED/MODIFIED/REMOVED）
 - [[review-gate]] — 审查门禁，层层设卡的质量管控机制
 - [[subagent-driven-development]] — 子代理隔离执行 + 双裁决审查的 Agent 开发模式
+- [[DP-3]] — spec-superflow 人工审批检查点，规划到实现的硬墙
+- [[计划模式]] — Claude Code 计划模式，只研究不写代码
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

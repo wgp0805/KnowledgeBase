@@ -154,7 +154,39 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 - **开源**：Claude Code CLI **非开源** vs Codex Apache-2.0
 - **最佳实践**：复杂重构 → Claude Code；批量并行 → Codex；组合拳互补使用
 
-### 学习路线（三阶段）
+### 最佳实践要点（2026-07 最新版）
+
+- **CLAUDE.md 保持简短**：控制在 60 行以内，硬上限 300 行；只放 Claude 可能忽略的信息（构建命令、测试命令、分支规范）；能从代码推断的不要写进去；关键规则用标签包裹；运行 `/doctor` 检查冗余指令
+- **分阶段工作流**：理解代码库 → 修改；先规划 → 再实现；生成 → 验证；不要把所有步骤压缩到一个大提示词里
+- **3-5 分钟能完成的小任务，直接用原生 Claude Code**，复杂工作流适用于多文件多步骤的大任务
+- **模型选择策略**：日常编码用 Sonnet 5（默认，1M 上下文，性价比最高）；复杂架构设计切 Opus 4.8；极限推理切 Fable 5；`/model claude-fable-5` 临时切换；配置 `fallbackModel` 防主模型不可用
+- **重复性监控用 /loop**：`/loop 5m 检查 staging 部署是否完成`，间隔支持 `5m`/`30s`/`1h`；`/proactive` 是别名；按 `Esc` 取消；远程会话不受持续唤醒
+- **输出复杂结果用 Artifacts**：依赖 `project-artifact` 插件，发布到 claude.ai 私有链接，适用 PR 走查、数据仪表盘、文档输出；Team/Enterprise 计划 beta 可用
+- **调试：粘贴 bug，说"fix"**：不要指导怎么修，不要猜测原因，管得越多越容易带偏
+- **两次失败 = /clear 重启**：同一个问题修正超过两次就重启，上下文污染会降低性能；用 `/rewind` 回退到 /clear 之前
+- **走偏了按 Esc Esc 或 /rewind 回滚**：不要在同一上下文中纠正偏差
+- **要求重写平庸方案**：说"知道你现在知道的一切，抛弃这个，实现优雅的解决方案"
+- **上下文 50% 时手动 /compact**：60-70% 时性能明显下降，不要等自动压缩；`/compact focusing on API changes` 指定压缩策略；Sonnet 5 拥有 100 万 token 窗口
+- **切换目录用 /cd 不要用 /clear**：不会破坏提示缓存，上下文窗口不受影响
+- **Checkpoints**：每次操作自动创建，可独立回滚对话或代码，跨会话持久化，不是 git 替代品
+- **子智能体**：专用子智能体 > 通用 mega-agent；子智能体有独立上下文窗口，防止污染和偏见；可嵌套最多 5 层；后台子智能体可重启后自动恢复
+- **Skills 管理**：技能是文件夹结构（SKILL.md + references/ + scripts/ + examples/）；渐进式披露，Claude 只在需要时读取子目录；一行可调用最多 5 个技能；嵌套 Skills 自动按路径加载
+- **Gotchas（坑点记录）**：每次 Claude 犯错时记录失败模式；包含问题/表现/修复/预防四要素；出现 3 次以上转化为正式规则；超 30 天未出现移到归档区
+- **权限与安全**：`deny` 比 Hooks 更安全（deny 后文件对 Claude"不可见"）；权限评估顺序 deny → ask → allow；`--dangerously-skip-permissions` 仅限封闭无网络环境；`disableBypassPermissionsMode: true` 全局禁用
+- **三重栈组合**：OpenSpec 管 WHAT，Superpowers 管 HOW，Claude Code 负责执行；CLAUDE.md 中路由规则避免重复
+
+### 8 大常见陷阱
+
+| 陷阱 | 缓解方法 |
+| --- | --- |
+| 过早放弃 | 拆分为更小更隔离的单元 |
+| 上下文压缩后变笨 | 50% 手动 /compact，必要时 /clear |
+| 初始测试质量差 | TDD 模式，仔细审查测试 |
+| 修改测试而非代码 | 严格审查测试变更 |
+| 忘记编译 | CLAUDE.md 中明确编译步骤 |
+| 工作目录混乱 | git status 检查，手动清理 |
+| Git 操作危险 | 人工执行 Git 操作 |
+| 重写但不删除旧代码 | 审查 diff 确认删除 |
 [[摘要-claude-code-learning-roadmap]] 将 Claude Code 学习拆成三层：
 - **青铜级**：完成安装、启动、项目理解、代码生成、Bug 修复等日常任务，目标是“一天上手”。
 - **白银级**：通过 [[CLAUDEmd]]、Thinking Mode、计划模式、提示词四要素和 [[Skill]] 定制 Claude Code，使其遵守个人和项目工作方式。
