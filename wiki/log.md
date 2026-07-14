@@ -572,6 +572,11 @@
   - 更新 [[index.md]]
 - **冲突**: 无（ClaudeCode 权限模式新旧为用户视角与源码视角的互补，非冲突）
 
+## [2026-07-14] ingest | 归档 Kaku 终端文章（已处理）
+- **变更**: 源文件 `又一个神级终端诞生了！让 Claude Code和Codex 用得更爽！.md` 此前已完整编译到 [[Kaku]]（实体）和 [[摘要-kaku-ai-terminal]]（来源），但遗漏归档步骤，本次补齐
+- **冲突**: 无
+- **归档**: raw/01-articles/又一个神级终端诞生了！让 Claude Code和Codex 用得更爽！.md → raw/09-archive/；raw/_daily_digest.md → raw/09-archive/_daily_digest_2026-07-13.md
+
 ## [2026-07-08] query | 解析 IntelliJ IDEA 中 AI agents 选项的 Junie
 - **输出**: 即时回答未保存（本地知识库无 Junie 条目，引用 JetBrains/junie GitHub 仓库与 IDEA 2026.1 官方文档）
 
