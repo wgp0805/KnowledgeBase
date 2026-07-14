@@ -9,7 +9,7 @@ last_updated: 2026-07-09
 
 ## 定义
 
-MageByte-Zero 是 [[SpecSuperflow]] 的开发者，GitHub 用户名为 MageByte-Zero。出于"手动在 [[OpenSpec]] 与 [[Superpowers]] 间切换太累"的痛点，开发了将两者融合的 Claude Code 插件，核心是用 [[execution-contract|执行契约]] 与 [[seven-state-machine|七状态机]] 自动驱动流转。
+MageByte-Zero 是 [[SpecSuperflow]] 的开发者，GitHub 用户名为 MageByte-Zero。出于"手动在 [[OpenSpec]] 与 [[Superpowers]] 间切换太累"的痛点，开发了将两者融合的 Claude Code 插件，核心是用 [[execution-contract|执行契约]] 与 [[eight-state-machine|八状态机]] 自动驱动流转。
 
 ## 关键信息
 

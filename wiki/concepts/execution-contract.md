@@ -43,7 +43,7 @@ execution-governor 拿契约逐条比对：Scope Fence 之外的文件不许碰�
 - [[OpenSpec]] - 规划工件来源
 - [[Superpowers]] - 执行层框架
 - [[review-gate]] - 审查门禁机制
-- [[seven-state-machine]] - 契约所处的 bridging 状态
+- [[eight-state-machine]] - 契约所处的 bridging 状态
 - [[规范驱动开发]] - 上层方法论
 - [[摘要-spec-superflow-融合工作流]] - 来源
 - [[摘要-spec-superflow-融合工作流-源码级详解]] - 来源
