@@ -641,3 +641,6 @@
   - 更新 [[index.md]] 加入 10 个新条目（5 source + 3 entity + 2 concept）
 - **冲突**: 无
 - **归档**: raw/01-articles/ 5 个源文件至 raw/09-archive/（2 篇已有摘要的 FastAPI/LangChain 文章仅增量更新，未重复创建 source）
+## [2026-07-14] ingest | Claude Code 最佳实践最新版 + spec-superflow 源码级详解
+- **变更**: 新增 [[摘要-claude-code-best-practice-最新版]], [[摘要-spec-superflow-融合工作流-源码级详解]]; 新增 [[计划模式]], [[DP-3]] concepts; 更新 [[ClaudeCode]], [[SpecSuperflow]], [[eight-state-machine]] entities; 更新 [[index.md]]
+- **冲突**: 无（spec-superflow 七状态机 vs 八状态机为版本演化，已标注在 eight-state-machine 页面）

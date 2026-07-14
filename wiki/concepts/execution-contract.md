@@ -4,7 +4,8 @@ type: concept
 tags: [AI编程, 规范驱动, 执行验证, 契约]
 sources:
   - raw/01-articles/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
-last_updated: 2026-07-09
+  - raw/01-articles/253k Superpowers 和 60k OpenSpec 被融合了！spec-superflow 工作流登上热榜.md
+last_updated: 2026-07-14
 ---
 
 ## 定义
@@ -45,3 +46,4 @@ execution-governor 拿契约逐条比对：Scope Fence 之外的文件不许碰�
 - [[seven-state-machine]] - 契约所处的 bridging 状态
 - [[规范驱动开发]] - 上层方法论
 - [[摘要-spec-superflow-融合工作流]] - 来源
+- [[摘要-spec-superflow-融合工作流-源码级详解]] - 来源
