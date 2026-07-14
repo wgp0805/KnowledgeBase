@@ -212,6 +212,7 @@
 - [[摘要-ShadcnUI构建Java桌面应用]] — JxBrowser + React + shadcn/ui 构建 Java 桌面应用
 - [[摘要-RAG-KAG双引擎知识库系统]] — RAG + KAG 双引擎企业级知识库系统完整方案
 - [[摘要-kaku-ai-terminal]] — Kaku AI 终端：Rust+WezTerm 定制，Claude Code+Codex 双面板对决
+- [[摘要-springboot-电子文件签字盖章系统]] — SpringBoot 实现电子文件在线签字盖章系统，基于 PageOffice + MobOffice 的 OA 文档流转
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -446,6 +447,9 @@
 - [[FissionAI]] — OpenSpec 的开源方，AI-native 规划引擎缔造者
 - [[MageByte-Zero]] — SpecSuperflow 开发者
 - [[程序员追风]] — 微信公众号作者，AI 编程工作流与开源工具介绍
+- [[PageOffice]] — 卓正软件 PC 端 Word 在线处理产品，支持编辑/留痕/盖章
+- [[MobOffice]] — 卓正软件移动端在线 Office 处理产品，支持审批和盖章
+- [[ZhuozhengSoft]] — 卓正软件，在线办公与电子签章软件公司（PageOffice/MobOffice 出品方）
 
 - [[WezTerm]] — Rust 编写的现代终端模拟器，Kaku 的底层引擎
 - [[Lazygit]] — 终端 Git 可视化操作工具，Go 语言编写
@@ -609,6 +613,9 @@
 - [[过度工程化]] — AI 生成代码中过度设计问题，Ponytail 减法思维应对
 - [[KAG]] — 知识增强生成，结合知识图谱增强 LLM 上下文
 - [[HITL]] — Human-in-the-Loop，AI Agent 关键决策点人工审批机制
+- [[在线文档处理]] — 浏览器中打开/编辑/审批/盖章 Office 文档的技术方案
+- [[电子签名]] — 数字信息的身份验证与完整性确认，具法律效力
+- [[数字签名]] — 使用加密算法（如RSA）对数字信息签名和验证的底层技术
 
 - [[execution-contract]] — 执行契约，规划与执行之间的可验证锚点
 - [[eight-state-machine]] — spec-superflow 八状态工作流状态机（hotfix/tweak 快速路径）

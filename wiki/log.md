@@ -658,3 +658,12 @@
   - 更新 [[index.md]] 加入 5 个新条目（1 source + 4 entity）
 - **冲突**: 无
 - **归档**: ⚠️ 待手动归档 — raw/01-articles/又一个神级终端诞生了！让 Claude Code和Codex 用得更爽！.md → raw/09-archive/（checkpoint writer 无文件移动权限）
+
+## [2026-07-14] ingest | 摄入 SpringBoot 电子文件签字盖章系统文章
+- **变更**:
+  - 新增 source [[摘要-springboot-电子文件签字盖章系统]]（小哈学Java，SpringBoot+Thymeleaf 实现电子文件在线签字盖章系统）
+  - 新增 entities: [[PageOffice]], [[MobOffice]], [[ZhuozhengSoft]]
+  - 新增 concepts: [[在线文档处理]], [[电子签名]], [[数字签名]]
+  - 更新 [[index.md]] 加入 7 个新条目（1 source + 3 entity + 3 concept）
+- **冲突**: 无
+- **归档**: raw/01-articles/SpringBoot 实现电子文件签字+合同系统！.md → raw/09-archive/
