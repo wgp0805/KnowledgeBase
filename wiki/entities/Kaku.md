@@ -24,7 +24,7 @@ Kaku 是一款基于 WezTerm 深度定制的 AI 终端工具，用 Rust 编写�
 - **GitHub 星标**：5.6k+ star
 
 ## 关联连接
-- [[摘要-又一个神级终端诞生了让-codex-用得更爽]] — 来源
+- [[摘要-kaku-ai-terminal]] — 来源
 - [[ClaudeCode]] — 内置的 AI 编码助手
 - [[Codex]] — 内置的 AI 编码助手
 - [[WezTerm]] — 基于的终端模拟器

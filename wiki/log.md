@@ -644,3 +644,12 @@
 ## [2026-07-14] ingest | Claude Code 最佳实践最新版 + spec-superflow 源码级详解
 - **变更**: 新增 [[摘要-claude-code-best-practice-最新版]], [[摘要-spec-superflow-融合工作流-源码级详解]]; 新增 [[计划模式]], [[DP-3]] concepts; 更新 [[ClaudeCode]], [[SpecSuperflow]], [[eight-state-machine]] entities; 更新 [[index.md]]
 - **冲突**: 无（spec-superflow 七状态机 vs 八状态机为版本演化，已标注在 eight-state-machine 页面）
+
+## [2026-07-14] ingest | 摄入 Kaku AI 终端介绍文章
+- **变更**:
+  - 新增 source [[摘要-kaku-ai-terminal]]（沉默王二，Kaku AI 终端：Rust+WezTerm 定制，Claude Code+Codex 双面板对决）
+  - 新增 entities: [[Kaku]], [[WezTerm]], [[Lazygit]], [[Yazi]]
+  - 增量更新 entity [[沉默王二]]（补充 2026-07-14 推荐 Kaku 新来源）
+  - 更新 [[index.md]] 加入 5 个新条目（1 source + 4 entity）
+- **冲突**: 无
+- **归档**: ⚠️ 待手动归档 — raw/01-articles/又一个神级终端诞生了！让 Claude Code和Codex 用得更爽！.md → raw/09-archive/（checkpoint writer 无文件移动权限）

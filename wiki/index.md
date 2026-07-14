@@ -447,6 +447,10 @@
 - [[MageByte-Zero]] — SpecSuperflow 开发者
 - [[程序员追风]] — 微信公众号作者，AI 编程工作流与开源工具介绍
 
+- [[WezTerm]] — Rust 编写的现代终端模拟器，Kaku 的底层引擎
+- [[Lazygit]] — 终端 Git 可视化操作工具，Go 语言编写
+- [[Yazi]] — Rust 编写的极速终端文件管理器
+
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
 - [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
