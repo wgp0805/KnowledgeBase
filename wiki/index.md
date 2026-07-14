@@ -211,6 +211,7 @@
 - [[摘要-SolonAI-ReActAgent智能客服]] — Solon AI ReActAgent 落地智能客服工单处理实战
 - [[摘要-ShadcnUI构建Java桌面应用]] — JxBrowser + React + shadcn/ui 构建 Java 桌面应用
 - [[摘要-RAG-KAG双引擎知识库系统]] — RAG + KAG 双引擎企业级知识库系统完整方案
+- [[摘要-kaku-ai-terminal]] — Kaku AI 终端：Rust+WezTerm 定制，Claude Code+Codex 双面板对决
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -234,6 +235,7 @@
 - [[CSDN]] — 中国最大开发者社区
 - [[Greptile]] — 开发者工具公司
 - [[Codex]] — OpenAI 桌面端 AI Agent
+- [[Kaku]] — 基于 WezTerm 的 AI 终端，支持 Claude Code + Codex 双面板
 - [[ClaudeCode]] — Anthropic 终端 AI Agent
 - [[LangChain]] — Python LLM 应用开发框架，LangChain4j/LangGraph 的灵感源头
 - [[LangChain4j]] — Java LLM 应用框架
