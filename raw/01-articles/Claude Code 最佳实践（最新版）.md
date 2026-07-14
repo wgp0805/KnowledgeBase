@@ -2,15 +2,6 @@
 title: "Claude Code 最佳实践（最新版）"
 source: "https://mp.weixin.qq.com/s/ak73u7IsU5Be390mNUuPZw"
 ---
-苏三说技术 *2026年7月14日 08:22*
-
-最近缺项目经历想快速提升项目实战能力（包含多个AI项目），或者最近找工作，或者想学习AI的小伙伴，可以看看下面👇🏻的这个链接（或许真的能够帮到你）:
-
-[推荐一个牛逼的企业智能知识库系统](https://mp.weixin.qq.com/s?__biz=MzkwNjMwMTgzMQ==&mid=2247539571&idx=1&sn=58c091f5f488a3c7e82bb18641f8db9a&scene=21#wechat_redirect)
-
-**最近建了几个AI技术交流群，扫描加我微信，备注：AI，即可进群交流和学习，获取AI最新咨询。**
-
-![图片](assets/Claude%20Code%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%EF%BC%88%E6%9C%80%E6%96%B0%E7%89%88%EF%BC%89/120fc0032d790118e773ec1a67b88378_MD5.webp)
 
 ## 一、 CLAUDE.md 配置原则
 
