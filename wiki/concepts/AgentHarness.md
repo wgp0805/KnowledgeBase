@@ -2,8 +2,8 @@
 title: "AgentHarness"
 type: concept
 tags: [AI, Agent设计, Harness, MiMo Code]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md]
-last_updated: 2026-06-11
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md, raw/01-articles/Trellis使用手册.md, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md]
+last_updated: 2026-07-15
 ---
 
 ## 定义
@@ -23,6 +23,7 @@ Harness 是大模型之外让 Agent 表现更好的设计总称，包括上下�
   - **计算**：[[max-mode]]（并行候选评估）、[[goals]]（目标验证器）、[[dynamic-workflow]]（代码化流程编排）
   - **记忆**：[[checkpoint-rebuild]]（上下文窗口管理）和四层记忆体系（Session/Project/Global/History）
   - **进化**：通过 dream/distill 实现自我进化
+- **[[Trellis]]**：将 Harness 外延到项目资产，借助 Spec、Task、Workflow 与 Journal 解决跨会话恢复、跨平台共享和经验回流；详见 [[项目级AI工作流]]。
 
 ## 关联连接
 - [[Agent]] — harness 所属概念
@@ -35,4 +36,7 @@ Harness 是大模型之外让 Agent 表现更好的设计总称，包括上下�
 - [[ContextManagement]] — harness 核心组件
 - [[AgentScope_Java]] — HarnessAgent 实现
 - [[SolonAI]] — solon-ai-harness 模块
+- [[Trellis]] — 项目级工作流 Harness
+- [[项目级AI工作流]] — Spec/Task/Journal 闭环
 - [[摘要-mimo-code发布]] — MiMo Code Harness 来源
+- [[摘要-trellis使用手册]] — Trellis 工作流来源

@@ -667,3 +667,8 @@
   - 更新 [[index.md]] 加入 7 个新条目（1 source + 3 entity + 3 concept）
 - **冲突**: 无
 - **归档**: raw/01-articles/SpringBoot 实现电子文件签字+合同系统！.md → raw/09-archive/
+
+## [2026-07-15] ingest | 摄入 Trellis 实践、Trellis 手册与 Codex Java 落地文章
+- **变更**: 新增 [[摘要-从-vibe-coding-到-spec-coding]]、[[摘要-codex-从原理到-java落地]]、[[摘要-trellis使用手册]]；新增 [[Trellis]]、[[项目级AI工作流]]；增量更新 [[Codex]]、[[苏三]]、[[AgentHarness]]、[[规范驱动开发]]、[[VibeCoding]]；更新 [[index.md]]。
+- **冲突**: 无。Codex 文章中的具体模型、基准、效率、资源与成本数据已保留为来源作者观点，未作为未经核验的通用事实合并。
+- **原始资料**: 遵循 raw 不可变契约，未移动、修改或删除任何 `raw/` 文件；`raw/_daily_digest.md` 仅记录“无新增文章”，未生成知识页。

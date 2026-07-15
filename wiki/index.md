@@ -213,9 +213,13 @@
 - [[摘要-RAG-KAG双引擎知识库系统]] — RAG + KAG 双引擎企业级知识库系统完整方案
 - [[摘要-kaku-ai-terminal]] — Kaku AI 终端：Rust+WezTerm 定制，Claude Code+Codex 双面板对决
 - [[摘要-springboot-电子文件签字盖章系统]] — SpringBoot 实现电子文件在线签字盖章系统，基于 PageOffice + MobOffice 的 OA 文档流转
+- [[摘要-从-vibe-coding-到-spec-coding]] — Trellis 将规范、任务、会话记忆串为项目级 AI 工作流的实践总结
+- [[摘要-codex-从原理到-java落地]] — Codex 在 Java 项目的任务拆分、验证与质量边界实践
+- [[摘要-trellis使用手册]] — Trellis 的安装、结构、任务生命周期与 Codex 接入说明
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
+- [[Trellis]] — 跨平台的 AI 编码项目级工作流框架
 - [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
 - [[敲代码的小虾米]] — 抖音 Vibe Coding 实战教学创作者，强调先立规矩再让 AI 写代码
 - [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
@@ -567,6 +571,7 @@
 - [[跨模型工作流]] — 通过 Plugin/MCP/Router 三种机制在 Claude Code 中协同其他模型
 - [[文本绘图]] — 用纯文本/DSL/XML 描述图形并由引擎渲染的可视化方法论
 - [[规范驱动开发]] — Spec-Driven Development：先把"做什么/按什么规矩做/怎么做"用规范明确，再让 AI 实现
+- [[项目级AI工作流]] — 将 Spec、Task、状态与 Journal 组织为可追溯项目资产的方法
 - [[TDD]] — 测试驱动开发，Red-Green-Refactor 循环
 - [[ORM]] — 对象关系映射，将程序对象与数据库表映射的技术
 - [[逻辑删除]] — 数据删除策略，通过标记字段标识删除状态

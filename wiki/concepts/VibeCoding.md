@@ -2,8 +2,8 @@
 title: "VibeCoding"
 type: concept
 tags: [AI编程, 编程范式, 认知卸载, 开发流程]
-sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, https://v.douyin.com/U8iw9gPpXE0/, https://v.douyin.com/RC50ybDPZoY/]
-last_updated: 2026-06-29
+sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, https://v.douyin.com/U8iw9gPpXE0/, https://v.douyin.com/RC50ybDPZoY/, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md]
+last_updated: 2026-07-15
 ---
 
 ## 定义
@@ -64,6 +64,10 @@ last_updated: 2026-06-29
 > 多跟 AI 沟通，把它当成协作伙伴而非黑盒工具。
 > 拆分微服务，每个封装成 API，这样最不容易翻车。
 
+### 向规范化工作流过渡的阈值
+
+短期、低风险且一轮可验证的项目可保留直接对话式开发；当项目需要长期维护、跨会话接续、多人协作或跨工具共享上下文时，应将关键约束和当前任务外化为可追溯资产，转向 [[规范驱动开发]] 或 [[项目级AI工作流]]。这一转变并不否定快速探索，而是为复杂度增长设置工程护栏。
+
 ### 评论区实践反馈
 
 - 非专业背景开发者常见困境：不是从顶端规划，而是从解决具体场景开始，功能越做越多后需要集成——作者建议多跟 AI 沟通，问 AI 有没有破坏当前架构
@@ -94,7 +98,10 @@ last_updated: 2026-06-29
 - [[OpenSpec]] — 规范驱动 AI 编程框架（评论区提及）
 - [[Superpowers]] — AI 编程 Skill 框架（评论区提及）
 - [[规范驱动开发]] — Spec-Driven Development 理念
+- [[Trellis]] — 项目级工作流框架
+- [[项目级AI工作流]] — 从临时对话走向可追溯闭环
 - [[摘要-vibe-engineering-era]] — 来源
 - [[摘要-vibe-coding-实战篇总结-上]] — 实战工作流上篇
 - [[摘要-vibe-coding-实战篇总结-下]] — 实战工作流下篇
+- [[摘要-从-vibe-coding-到-spec-coding]] — 规范化实践视角
 - [[AICoding]] — AI 辅助编程范式

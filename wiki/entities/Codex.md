@@ -2,8 +2,8 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md]
-last_updated: 2026-07-07
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md]
+last_updated: 2026-07-15
 ---
 
 ## 定义
@@ -159,12 +159,17 @@ brew install openai-codex
 9. **学会看 Git** — 至少知道改了哪些文件、会看 diff
 10. **[[Worktree]] 隔离** — 小修补 Local、重要构建 Worktree、长时间自动化 Cloud
 
+### Java 工程化协作要点（苏三视角）
+
+来自 [[摘要-codex-从原理到-java落地]] 的实践建议：将任务描述组织为**目标、约束、输出位置和验证标准**，并明确构建或目标测试命令；复杂重构先只做分析和方案确认，再分解为小任务实施。多文件改动、重构、测试骨架和常规排错适合作为 Agent 执行任务；架构取舍、核心业务规则、安全敏感代码仍由人决策并终审。作者建议以自动检查、交叉 AI 审查和人工审查构成三层质量门禁。
+
 ## 关联连接
 - [[摘要-40分钟学会Codex零基础教程]] — 来源
 - [[摘要-把Codex用到极致]] — 来源（工作系统框架与长线程理念）
 - [[摘要-AI-agent工具应该怎么使用]] — 来源（二师兄 9 条使用技巧）
 - [[摘要-codex-vs-claude-code-对比]] — 来源（2026-06 vs Claude Code 对比）
 - [[摘要-codex-97percent-技巧]] — 来源（苏三 10 条实用技巧）
+- [[摘要-codex-从原理到-java落地]] — 来源（Java 工程化实践与质量边界）
 - [[ClaudeCode]] — 对标产品
 - [[OpenAI]] — 所属公司
 - [[Agent]] — 核心概念
