@@ -672,3 +672,9 @@
 - **变更**: 新增 [[摘要-从-vibe-coding-到-spec-coding]]、[[摘要-codex-从原理到-java落地]]、[[摘要-trellis使用手册]]；新增 [[Trellis]]、[[项目级AI工作流]]；增量更新 [[Codex]]、[[苏三]]、[[AgentHarness]]、[[规范驱动开发]]、[[VibeCoding]]；更新 [[index.md]]。
 - **冲突**: 无。Codex 文章中的具体模型、基准、效率、资源与成本数据已保留为来源作者观点，未作为未经核验的通用事实合并。
 - **原始资料**: 遵循 raw 不可变契约，未移动、修改或删除任何 `raw/` 文件；`raw/_daily_digest.md` 仅记录“无新增文章”，未生成知识页。
+
+## [2026-07-15] archive | 补归档 3 篇已编译源文件 + 每日摘要
+- **变更**:
+  - 归档 raw/01-articles/ 3 个源文件至 raw/09-archive/（补全 2026-07-15 ingest 遗漏的归档步骤）
+  - 归档 raw/_daily_digest.md → raw/09-archive/_daily_digest_2026-07-14.md（无新增文章）
+- **冲突**: 无
