@@ -4,7 +4,7 @@ source: "https://mp.weixin.qq.com/s/qAWRMJ-NYiaGUO9aw7Bgcw"
 ---
 CSDN程序人生 *2026年7月9日 17:26*
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/1hReHaqafad4H57UlgDZZl7lILyDiaAWDsRcksUcCYeT76ibEllhuHJU9PxRtFgAQC7QPgW6qicToOuMjnSsmsErQ/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/Prompt%20%E5%B7%B2%E6%AD%BB%EF%BC%8CLoop%E5%BD%93%E7%AB%8B%EF%BC%9F%E5%85%88%E7%9C%8B%E5%AE%8C%E8%BF%995%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%E5%9D%91%E5%86%8D%E5%86%B3%E5%AE%9A/521df67bfd87ad9c4ae20a17e49d6b58_MD5.gif)
 
 责编 | 梦依丹
 
@@ -20,7 +20,7 @@ CSDN程序人生 *2026年7月9日 17:26*
 
 7 月 17-18 日，由 CSDN 与奇点智能研究院联合举办的 2026 奇点智能产品大会诚邀阶跃星辰开放平台的产品负责人陶炳哲带来《Loop 工程在阶跃的最佳实践》主题分享。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/S1iaf4GgGjExbGRWcYPEiczfwQBHcsezEH6pbnmEvMrygVFo0l9ic8Jib7Dr45aOLDlBsH9DwtibtbYMPN9lgicV0OuVDFD80py55ibA0cbusmsEdY/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=1)
+![图片](assets/Prompt%20%E5%B7%B2%E6%AD%BB%EF%BC%8CLoop%E5%BD%93%E7%AB%8B%EF%BC%9F%E5%85%88%E7%9C%8B%E5%AE%8C%E8%BF%995%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%E5%9D%91%E5%86%8D%E5%86%B3%E5%AE%9A/a8d841c11beeb0de2d12ff31dca229b9_MD5.webp)
 
 2026 奇点智能产品大会最新最全日程正式发布，距离报名通道关闭仅剩 8 天，请大家抓紧报名。
 
@@ -58,6 +58,6 @@ CSDN程序人生 *2026年7月9日 17:26*
 
 7月17-18日，北京金隅喜来登大酒店，40+位来自字节、百度、阿里、腾讯、宇树、360、京东、蚂蚁、科大讯飞等一线产品技术领袖，围绕 Agent 智能体、企业级 AI、AI Coding、具身智能、AI 原生组织等 12 大专题，全链路拆解AI原生落地闭环。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/0WDtulD6cGaxdzHUrqXHic3VM1dwbmHcxNaGWFKlUzEKN9GZU4zNW6ESNBIz4l0SibthOZXBS5icX5wYdibmIAkfR8Boz8cB3Vu836XCN1oZlYs/640?wx_fmt=jpeg&from=appmsg#imgIndex=2)
+![图片](assets/Prompt%20%E5%B7%B2%E6%AD%BB%EF%BC%8CLoop%E5%BD%93%E7%AB%8B%EF%BC%9F%E5%85%88%E7%9C%8B%E5%AE%8C%E8%BF%995%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%E5%9D%91%E5%86%8D%E5%86%B3%E5%AE%9A/710ec3586dcb1ef7488352abd72f252b_MD5.jpg)
 
 阅读原文

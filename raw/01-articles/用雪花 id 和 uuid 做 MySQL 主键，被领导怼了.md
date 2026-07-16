@@ -4,7 +4,7 @@ source: "https://mp.weixin.qq.com/s/lF6_pTeT3ybiGs36HzhLRQ"
 ---
 小哈学Java *2026年7月15日 16:41*
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smrNo8xcgLRXErt9L3vHiaPxdEJ1CFZN5hnEgqqJ3P1lY1ZO3eUHxSSgzsVVpvW9SFkDNSWeojQLibRLL9KoNreKVia3XsVyCv0VAM/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/8e449cc33311f237a2a9e40c97694468_MD5.webp)
 
 来源： [https://www.cnblogs.com/wyq178/p/12548864.html](https://www.cnblogs.com/wyq178/p/12548864.html)
 
@@ -44,19 +44,19 @@ source: "https://mp.weixin.qq.com/s/lF6_pTeT3ybiGs36HzhLRQ"
 
 id 自动生成表：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smotEj6GPibkPEgSZyLFibVe6P63RuDVw6QkjFBTDII8RbSibxEYuDK4fre2ygZZ5l8uia3RbXaoAzkKYddpBkFPticS6rhFNNSDWVWg/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/953849071701c8501dfd5e8228fbc943_MD5.png)
 
 id 自动生成表
 
 用户 uuid 表：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smrCg1TMV0icic0t9WFhIibl2pIV7j7sXOhCSzgh0JuvaEf9vqIyCFkH09c38ZPzkJfFekicPbxtHzWJjbqtKYNd13TicMWYSkCIho9c/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/10a9475a9a11e4116cc35bbd7368c696_MD5.png)
 
 用户 uuid 表
 
 随机主键表：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smos9Z0FK2o3RzGrE5d9AZJGzlkDEtU97HzvGsfKAqfvxsVgo2QTLK2ibxdPrjT4kibiaibu6heRVlVQFsTiaUfcWnqDhvwFzqzGqnSU/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/5cf106334fe07548f0f8ffe8868a063c_MD5.png)
 
 随机主键表
 
@@ -245,31 +245,31 @@ class MysqlDemoApplicationTests {
 
 user\_key\_auto 写入结果：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smrwaw9vKV44tlRYl9S4NEjEgMefTlMhS4E7jv1YsWplkAJ5kwiaibt8GdAbG6dToYY5SIAgrNdffviawYI51KANcJa3p77quOFgLA/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/a3bd3034b14c6c41287caa1fab010544_MD5.png)
 
 user\_key\_auto 写入结果
 
 user\_random\_key 写入结果：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smorxKem1OKOdGPPwsKfD1IlA0F3b56M36H8Rc2UoBNAOduNYWI5nPiapHiaSv2KflUqVneWvEWWJ3szHMD5MlRPrJeN1mkacxV9Y/640?wx_fmt=png&from=appmsg#imgIndex=5)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/64ba79fb9c0ce772e4a59c3d3bfe8a57_MD5.png)
 
 user\_random\_key 写入结果
 
 user\_uuid 表写入结果：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smrqHV6LMjrRpyTBCbic2D5YicLAIIs75v0VuawIaqB9kQ3QBtibdtqZsS9yObOx3vT2wrN0kLF9vDhtQ1uSJzO4pLcicDJvGJnemyM/640?wx_fmt=png&from=appmsg#imgIndex=6)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/33990dac6aa3364c5693053d5c91945a_MD5.png)
 
 user\_uuid 表写入结果
 
 ### 1.4.效率测试结果
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smr7jH9DnsDZxvdDBAXjZwo4AQle0JTP6QTzls1k2W70cVm5NSyiblpBnAAs4qUOPY9tjichfeFo27bqG66xOWv04aicdJXUQcT0fM/640?wx_fmt=png&from=appmsg#imgIndex=7)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/d9ba12c18239c6200d7a0f5ff2a42adf_MD5.png)
 
 效率测试结果
 
 在已有数据量为 130W 的时候：我们再来测试一下插入 10w 数据，看看会有什么结果：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smpTjibwUpBfZ69mZDlFy9ibb75icrcromDLL63pVMmEkM7z5v8WEQWzS1AlqJjkcC7tGsYrRlgpqfjlkpDuNQGJsia3B8cQTuAfKgw/640?wx_fmt=png&from=appmsg#imgIndex=8)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/4c140a938a92fff31bb2c6b670ec6006_MD5.png)
 
 插入 10w 数据测试结果
 
@@ -281,7 +281,7 @@ user\_uuid 表写入结果
 
 ### 2.1.使用自增 id 的内部结构
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smqgaaGr0ibCwLakaPia0FsymdXynJRrX6bP2FbhoB9cYSZBg17b62Y4525YICEVTLayqC4dJzfEGiczibk1kdT64LSjCjRMjs2bNUY/640?wx_fmt=png&from=appmsg#imgIndex=9)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/c3f193a578edd23a4d9c896d5b02aa79_MD5.png)
 
 自增 id 的内部结构
 
@@ -295,7 +295,7 @@ user\_uuid 表写入结果
 
 ### 2.2.使用 uuid 的索引内部结构
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smpG4p0Etycr2QBEc5aDtqbEdMpxWufLlP6bJr7mzvsA3rKTkgA0Hq0RwrgOHZcUvpx4IVF66xO85R1uM6EW74vPTtyJmic9KC3o/640?wx_fmt=png&from=appmsg#imgIndex=10)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/5e7bc94aa784fb7b6e8d6ef26f209815_MD5.png)
 
 uuid 的索引内部结构
 
@@ -341,7 +341,7 @@ uuid 的索引内部结构
 
 截止目前， **累计输出 120w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4500+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
+![图片](assets/%E7%94%A8%E9%9B%AA%E8%8A%B1%20id%20%E5%92%8C%20uuid%20%E5%81%9A%20MySQL%20%E4%B8%BB%E9%94%AE%EF%BC%8C%E8%A2%AB%E9%A2%86%E5%AF%BC%E6%80%BC%E4%BA%86/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. SpringBoot 实现电子文件签字+合同系统！3. 面试官：BeanFactory 和 FactroyBean 的关系？4. 使用 Shadcn UI 构建 Java 桌面应用
