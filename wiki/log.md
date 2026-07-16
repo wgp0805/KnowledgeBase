@@ -678,3 +678,13 @@
   - 归档 raw/01-articles/ 3 个源文件至 raw/09-archive/（补全 2026-07-15 ingest 遗漏的归档步骤）
   - 归档 raw/_daily_digest.md → raw/09-archive/_daily_digest_2026-07-14.md（无新增文章）
 - **冲突**: 无
+
+## [2026-07-16] ingest | 批量摄入 5 篇 raw/01-articles 技术资料
+- **变更**:
+  - 新增 sources: [[摘要-aliyun-llms-txt]], [[摘要-sso-single-sign-on]], [[摘要-mysql-primary-key-strategy]], [[摘要-loop-engineering-pitfalls]]
+  - 新增 entities: [[AlibabaCloud]], [[阶跃星辰]]
+  - 新增 concepts: [[llms-txt协议]], [[两级索引架构]], [[CAS协议]], [[SSO]], [[Session]], [[Cookie]], [[OAuth2]], [[聚簇索引]], [[页分裂]], [[B+树]], [[可观测性]]
+  - 增量更新 concept [[LoopEngineering]]（补充生产环境五大坑：硬隔离/原样转发/停止规则/状态落地/目标可验证）
+  - 更新 [[index.md]] 加入 15 个新条目（4 source + 2 entity + 11 concept）
+- **冲突**: 无（[[Session]] 与既有 [[ChatSession]] 为不同概念：前者是 Web 会话管理，后者是 AI 对话记忆）
+- **归档**: raw/01-articles/ 5 个源文件 + raw/_daily_digest.md → raw/09-archive/

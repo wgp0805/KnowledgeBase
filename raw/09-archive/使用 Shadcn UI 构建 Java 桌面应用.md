@@ -1,8 +1,8 @@
 ---
 title: "使用 Shadcn UI 构建 Java 桌面应用"
-source: "https://mp.weixin.qq.com/s/PVSmywJ5VZiJSN5mvgTZrA"
+source: "https://mp.weixin.qq.com/s/f7EU39udkekMEPPUA7oGkw"
 ---
-小哈学Java *2026年7月12日 20:52*
+Java学习者社区 *2026年7月15日 16:42*
 
 ![图片](assets/%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/97b8cf2c51df5bf576263e2dfbc47dc1_MD5.webp)
 
@@ -44,7 +44,7 @@ Web UI 恰好是反面： **组件库多到选不过来、高 DPI / 触屏 / 响
 
 我们要构建的是一个偏好设置对话框，用户选好设置后保存到本地文件系统，重启后依然保留。
 
-![基于 Web UI 的桌面应用界面截图](assets/%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/ec5d3f9e4030c556cd4e2b2a991b40e2_MD5.jpg)
+![图片](assets/%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/ec5d3f9e4030c556cd4e2b2a991b40e2_MD5.jpg)
 
 基于 Web UI 的桌面应用界面截图
 
@@ -216,7 +216,7 @@ const prefsClient = createClient(PrefsService, transport);
 
             prefsClient.setFontSize(FontSize.SMALL);
 ```
-![通信示意图](assets/%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/144b50c1b773f8fbe9660bd9536ffc52_MD5.png)
+![图片](assets/%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/144b50c1b773f8fbe9660bd9536ffc52_MD5.png)
 
 通信示意图
 
@@ -241,7 +241,7 @@ GitHub：
 ![图片](assets/%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
 ```
-1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. 大模型时代最讽刺的职业出现了：“大模型善后工程师”3. 公司系统太多，能不能实现账号互通？4. 面试官：Dubbo 如何实现像本地方法一样调用远程方法的？
+1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. 大模型时代最讽刺的职业出现了：“大模型善后工程师”3. 公司系统太多，能不能实现账号互通？4. 面试官：Git 如何撤回已 Push 的代码？问倒一大片。。。
 ```
 ```
 最近面试BAT，整理一份面试资料《Java面试BATJ通关手册》，覆盖了Java核心技术、JVM、Java并发、SSM、微服务、数据库、数据结构等等。获取方式：点“在看”，关注公众号并回复 Java 领取，更多内容陆续奉上。PS：因公众号平台更改了推送规则，如果不想错过内容，记得读完点一下“在看”，加个“星标”，这样每次新文章推送才会第一时间出现在你的订阅列表里。点“在看”支持小哈呀，谢谢

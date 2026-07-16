@@ -216,6 +216,10 @@
 - [[摘要-从-vibe-coding-到-spec-coding]] — Trellis 将规范、任务、会话记忆串为项目级 AI 工作流的实践总结
 - [[摘要-codex-从原理到-java落地]] — Codex 在 Java 项目的任务拆分、验证与质量边界实践
 - [[摘要-trellis使用手册]] — Trellis 的安装、结构、任务生命周期与 Codex 接入说明
+- [[摘要-aliyun-llms-txt]] — 阿里云全面上线 llms.txt 结构化索引，AI Agent 三步导航消费 300+ 云产品文档
+- [[摘要-sso-single-sign-on]] — 企业多系统身份认证演进：从 Session 到 SSO（CAS 协议）实现原理
+- [[摘要-mysql-primary-key-strategy]] — MySQL 主键策略对比：自增 ID、UUID、雪花算法的 InnoDB 索引效率分析
+- [[摘要-loop-engineering-pitfalls]] — Loop Engineering 生产环境五大坑：硬隔离/原样转发/停止规则/状态落地/目标可验证
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -458,6 +462,8 @@
 - [[WezTerm]] — Rust 编写的现代终端模拟器，Kaku 的底层引擎
 - [[Lazygit]] — 终端 Git 可视化操作工具，Go 语言编写
 - [[Yazi]] — Rust 编写的极速终端文件管理器
+- [[AlibabaCloud]] — 阿里云，全球领先的云计算及人工智能科技公司
+- [[阶跃星辰]] — AI 大模型公司，Step 3.7 Flash 400 Tokens/s 推理速度
 
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
@@ -629,6 +635,17 @@
 - [[subagent-driven-development]] — 子代理隔离执行 + 双裁决审查的 Agent 开发模式
 - [[DP-3]] — spec-superflow 人工审批检查点，规划到实现的硬墙
 - [[计划模式]] — Claude Code 计划模式，只研究不写代码
+- [[llms-txt协议]] — 面向 LLM 的结构化文档索引协议，AI Agent 三步定位按需加载
+- [[两级索引架构]] — 阿里云 llms.txt 的目录组织方式：根索引→产品索引两级结构
+- [[CAS协议]] — 中央认证服务框架，基于 Kerberos 票据实现 SSO 单点登录
+- [[SSO]] — 单点登录，一次登录进入多个相互信任的系统
+- [[Session]] — Web 会话管理机制，通过 SessionID 标识用户保存上下文
+- [[Cookie]] — 客户端状态存储，SessionID 的默认传递载体
+- [[OAuth2]] — 三方授权协议，允许用户不提供密码通过信任应用授权访问资源
+- [[聚簇索引]] — InnoDB 默认索引结构，数据行与索引存储在一起
+- [[页分裂]] — B+树节点分裂机制，无序主键写入的性能陷阱
+- [[B+树]] — MySQL InnoDB 索引底层数据结构，支持高效范围查询
+- [[可观测性]] — 通过日志/指标/追踪链路定位分布式系统问题的系统工程能力
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
