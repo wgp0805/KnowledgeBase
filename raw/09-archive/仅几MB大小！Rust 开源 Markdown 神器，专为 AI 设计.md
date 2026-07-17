@@ -8,7 +8,7 @@ java1234 *2026年7月16日 09:06*
 
 今天分享一个非常火爆的开源项目 - markamd
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/D5Gro8iabY9m2fBnuZ3bpXgjF1DKkeic9SccIGRgCG4nhWSmibDMf5u4ia7WAGXFM5UcQKbqKCRRic17umgTicc1KaVsB7mqDB0mM7oYAGNj7nL7U/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/%E4%BB%85%E5%87%A0MB%E5%A4%A7%E5%B0%8F%EF%BC%81Rust%20%E5%BC%80%E6%BA%90%20Markdown%20%E7%A5%9E%E5%99%A8%EF%BC%8C%E4%B8%93%E4%B8%BA%20AI%20%E8%AE%BE%E8%AE%A1/25b6ae80bce8f1a93f632e1643bf75b5_MD5.webp)
 
 ---
 
@@ -64,7 +64,7 @@ java1234 *2026年7月16日 09:06*
 
 Claude、ChatGPT、Gemini、Cursor、本地 Agent……只要接受纯文本 Markdown，都能直接用。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/D5Gro8iabY9kyibWCSZXkKg88ZJ1eMcZzsNj3DbRBlHHornR2yL4E87NXh96CRCSbiasmp9sBaf5QnZZnrTBIm7lk4mQoQh4ZpM9pf0T69Y3DQ/640?wx_fmt=jpeg&from=appmsg#imgIndex=1)
+![图片](assets/%E4%BB%85%E5%87%A0MB%E5%A4%A7%E5%B0%8F%EF%BC%81Rust%20%E5%BC%80%E6%BA%90%20Markdown%20%E7%A5%9E%E5%99%A8%EF%BC%8C%E4%B8%93%E4%B8%BA%20AI%20%E8%AE%BE%E8%AE%A1/329f78f5e04fd8839ad91a9b55314917_MD5.jpg)
 
 ---
 
@@ -72,7 +72,7 @@ Claude、ChatGPT、Gemini、Cursor、本地 Agent……只要接受纯文本 Mar
 
 [marka.md](http://marka.md/) 的整个使用逻辑可以用下面这张图概括：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/D5Gro8iabY9kicSjCZvWZcgfWib1fNnjPB3tmT7m6wNJib1W3Zn3GLDscXatzUkTTAImwv2rneiaWZnZMcp6tKtOSJhAO9SgutdksesniaibFImazQ/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![图片](assets/%E4%BB%85%E5%87%A0MB%E5%A4%A7%E5%B0%8F%EF%BC%81Rust%20%E5%BC%80%E6%BA%90%20Markdown%20%E7%A5%9E%E5%99%A8%EF%BC%8C%E4%B8%93%E4%B8%BA%20AI%20%E8%AE%BE%E8%AE%A1/f2827f6549e4ba17d27c501dbf6d886e_MD5.png)
 
 三步走： **收集 → 编写 → 分享** 。没有多余步骤，也没有学习曲线。
 
@@ -96,7 +96,7 @@ Claude、ChatGPT、Gemini、Cursor、本地 Agent……只要接受纯文本 Mar
 
 [marka.md](http://marka.md/) 的架构是典型的 Tauri 应用模式——Rust 负责桌面壳和系统能力，Web 技术负责界面和编辑体验。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/D5Gro8iabY9nETEgiazCedseoJHvj0mfpw6j7nxbDN9GBcSOkNGiboXXZKXbPJjGVNu7O4bPdJaiaXGQFAljHcCOHl09OvSu7hr1OlwwYzB6tfI/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![图片](assets/%E4%BB%85%E5%87%A0MB%E5%A4%A7%E5%B0%8F%EF%BC%81Rust%20%E5%BC%80%E6%BA%90%20Markdown%20%E7%A5%9E%E5%99%A8%EF%BC%8C%E4%B8%93%E4%B8%BA%20AI%20%E8%AE%BE%E8%AE%A1/129f3b79502d8b2bc76eaf383e0f3b19_MD5.png)
 
 | 层级 | 技术选型 |
 | --- | --- |
@@ -142,7 +142,7 @@ Claude、ChatGPT、Gemini、Cursor、本地 Agent……只要接受纯文本 Mar
 
 最近锋哥录制了一些AI编程视频教程
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/D5Gro8iabY9lD93w2lxPKP82zhxPZqr3Kdm5uKmdibn5q1x7SahlRL4xbKcIupt8Y1jEO6X6hyf2KcLSiaiaph8ldAA02kia6qAeh2vw8hKje7DE/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](assets/%E4%BB%85%E5%87%A0MB%E5%A4%A7%E5%B0%8F%EF%BC%81Rust%20%E5%BC%80%E6%BA%90%20Markdown%20%E7%A5%9E%E5%99%A8%EF%BC%8C%E4%B8%93%E4%B8%BA%20AI%20%E8%AE%BE%E8%AE%A1/dc637afc5701a580aa932b71f5a5aa35_MD5.webp)
 
 高清视频+源码+领取。
 

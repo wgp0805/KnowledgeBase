@@ -62,8 +62,8 @@ AI 辅助编程范式，工程师角色从代码执行者转变为任务管理�
 - 老旧项目和资金安全相关项目需更慎重
 - 清晰有逻辑的表达能力成为竞争优势
 - 版本管理是安全网（每步 commit + clear）
-
 ## 关联连接
+
 - [[ClaudeCode]] — 核心实践工具
 - [[Codex]] — 核心实践工具
 - [[Agent]] — AI Agent 概念
@@ -77,3 +77,4 @@ AI 辅助编程范式，工程师角色从代码执行者转变为任务管理�
 - [[摘要-step-3-7-flash-agent横评]] — 来源（Flash 模型在真实 Coding Agent 任务中的横评）
 - [[摘要-claude-code-learning-roadmap]] — 来源（Claude Code 分阶段学习路线）
 - [[Step3Flash]] — Agent 执行层模型案例
+- [[AI就绪上下文包]] — AI 编程工作流中的上下文管理方式

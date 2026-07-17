@@ -24,3 +24,4 @@ last_updated: 2026-06-26
 - [[PlantUML]] — 同类，定制性更高
 - [[Graphviz]] — 同类，适合复杂图
 - [[摘要-程序员AI画图技巧]] — 来源
+- [[marka.md]] — 支持 Mermaid 图表渲染的 Markdown 编辑器

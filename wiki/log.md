@@ -688,3 +688,13 @@
   - 更新 [[index.md]] 加入 15 个新条目（4 source + 2 entity + 11 concept）
 - **冲突**: 无（[[Session]] 与既有 [[ChatSession]] 为不同概念：前者是 Web 会话管理，后者是 AI 对话记忆）
 - **归档**: raw/01-articles/ 5 个源文件 + raw/_daily_digest.md → raw/09-archive/
+
+## [2026-07-16] ingest | 摄入 marka.md Rust Markdown 编辑器文章
+- **变更**:
+  - 新增 source [[摘要-markamd-rust-markdown-ai]]（小锋，marka.md 专为 AI 设计的轻量 Markdown 编辑器）
+  - 新增 entities: [[marka.md]], [[Tauri]], [[CodeMirror]], [[Shiki]]
+  - 新增 concepts: [[ContextTray]], [[本地优先]], [[AI就绪上下文包]]
+  - 增量更新 entities: [[Rust]]（补充 marka.md 应用案例）、[[小锋]]（补充新来源）、[[Mermaid]]（补充 marka.md 使用场景）、[[Obsidian]]（补充同类工具对比）
+  - 增量更新 concept [[AICoding]]（补充 AI 就绪上下文包概念）
+  - 更新 [[index.md]] 加入 8 个新条目（1 source + 4 entity + 3 concept）
+- **冲突**: 无

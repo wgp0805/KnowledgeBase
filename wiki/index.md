@@ -220,6 +220,7 @@
 - [[摘要-sso-single-sign-on]] — 企业多系统身份认证演进：从 Session 到 SSO（CAS 协议）实现原理
 - [[摘要-mysql-primary-key-strategy]] — MySQL 主键策略对比：自增 ID、UUID、雪花算法的 InnoDB 索引效率分析
 - [[摘要-loop-engineering-pitfalls]] — Loop Engineering 生产环境五大坑：硬隔离/原样转发/停止规则/状态落地/目标可验证
+- [[摘要-markamd-rust-markdown-ai]] — marka.md：Rust+Tauri 轻量 Markdown 编辑器，专为 AI 上下文打包设计
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -464,6 +465,10 @@
 - [[Yazi]] — Rust 编写的极速终端文件管理器
 - [[AlibabaCloud]] — 阿里云，全球领先的云计算及人工智能科技公司
 - [[阶跃星辰]] — AI 大模型公司，Step 3.7 Flash 400 Tokens/s 推理速度
+- [[marka.md]] — 基于 Rust+Tauri 的轻量 Markdown 编辑器，专为 AI 上下文打包设计
+- [[Tauri]] — Rust+Web 技术的桌面应用框架
+- [[CodeMirror]] — 浏览器代码编辑器组件，支持语法高亮和 Vim 模式
+- [[Shiki]] — 基于 TextMate 语法的代码高亮库，与 VS Code 一致
 
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
@@ -646,6 +651,9 @@
 - [[页分裂]] — B+树节点分裂机制，无序主键写入的性能陷阱
 - [[B+树]] — MySQL InnoDB 索引底层数据结构，支持高效范围查询
 - [[可观测性]] — 通过日志/指标/追踪链路定位分布式系统问题的系统工程能力
+- [[ContextTray]] — marka.md 核心功能，暂存多文件并一键复制为 AI 就绪上下文包
+- [[本地优先]] — 数据始终保存在本地设备，用户完全掌控数据所有权的架构理念
+- [[AI就绪上下文包]] — 将多个文件打包成结构化文本块供 AI 直接读取的格式
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
