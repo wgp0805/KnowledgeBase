@@ -4,7 +4,8 @@ type: entity
 tags: [公司, AI工具, 开源, 画图]
 sources:
   - raw/01-articles/又一个神级画图 Skill 开源，再见 draw.io！.md
-last_updated: 2026-07-09
+  - raw/01-articles/推荐一个神级画图Skill.md
+last_updated: 2026-07-20
 ---
 
 ## 定义
@@ -20,7 +21,9 @@ Cocoon AI 是开源 Claude AI Skill 的开发团队，主打"用对话生成可�
 
 ## 关联连接
 
-- [[ArchitectureDiagramGenerator]] - 代表项目
+- [[ArchitectureDiagramGenerator]] - 代表项目（架构图）
+- [[ProcessFlowDiagramGenerator]] - 代表项目（流程图）
 - [[文本绘图]] - 所属方法论
 - [[Skill]] - 技能机制
+- [[苏三]] - 文章作者
 - [[摘要-architecture-diagram-generator]] - 来源

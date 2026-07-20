@@ -4,7 +4,8 @@ type: entity
 tags: [AI画图, Skill, 架构图, 开源, HTML]
 sources:
   - raw/01-articles/又一个神级画图 Skill 开源，再见 draw.io！.md
-last_updated: 2026-07-09
+  - raw/01-articles/推荐一个神级画图Skill.md
+last_updated: 2026-07-20
 ---
 
 ## 定义
@@ -21,6 +22,9 @@ Architecture Diagram Generator 是 [[CocoonAI]] 团队开源的 [[Skill|Claude A
 - **安装**：下载 zip -> claude.ai Customize -> Skills 上传，需开启 Code Execution；Claude Code 用户可解压到 ~/.claude/skills/
 - **姐妹 Skill**：process-flow-diagram-generator（流程图/审批流/流水线），设计语言一致
 - **对比 [[draw-io]]**：描述代替拖拽、聊天改图、单文件分发、免安装
+- **GitHub Star**：6.3k+（截至 2026-07）
+- **安装（Claude Desktop）**：下载 zip → 自定义 → 技能 → 上传技能
+- **调用方式**：`/architecture-diagram` 命令触发
 
 ## 关联连接
 
@@ -30,4 +34,6 @@ Architecture Diagram Generator 是 [[CocoonAI]] 团队开源的 [[Skill|Claude A
 - [[Skill]] - 技能机制
 - [[ClaudeCode]] - 兼容工具
 - [[SVG]] - 输出格式
+- [[ProcessFlowDiagramGenerator]] - 姐妹 Skill（流程图）
+- [[苏三]] - 文章作者
 - [[摘要-architecture-diagram-generator]] - 来源

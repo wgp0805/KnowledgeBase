@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-fastcode-hkuds-codebase-understanding]] — 港大 HKUDS 开源 FastCode 代码库理解框架，Scouting-First 策略
 - [[摘要-rocketmq-接入ai]] — RocketMQ 5.5.0 接入 AI：LiteTopic 支撑 Multi-Agent 异步通信与会话管理
 - [[摘要-try-catch-异常边界]] — try catch 放 for 内外的本质是异常边界，兼谈事务/性能三坑
 - [[摘要-minio-intro]] — MinIO 对象存储介绍与 Docker 部署
@@ -225,6 +226,7 @@
 - [[摘要-loop-engineering-pitfalls]] — Loop Engineering 生产环境五大坑：硬隔离/原样转发/停止规则/状态落地/目标可验证
 - [[摘要-markamd-rust-markdown-ai]] — marka.md：Rust+Tauri 轻量 Markdown 编辑器，专为 AI 上下文打包设计
 - [[摘要-codegraph-mcp-gateway]] — Docker 部署 CodeGraph 多项目统一 MCP 网关，一个容器一个端口访问多个代码仓库
+- [[摘要-codegraph-deep-dive]] — 苏三全面介绍 CodeGraph：tree-sitter 构建代码知识图谱，工具调用直降 71%
 - [[摘要-claude-code-statusline]] — ccstatusline 与 claude-hud 两款开源 Claude Code 状态栏工具介绍
 
 ## Entities
@@ -478,6 +480,10 @@
 - [[ccstatusline]] — 开源 Claude Code 状态栏工具，交互式 TUI 配置
 - [[claude-hud]] — 开源 Claude Code 状态栏插件，自然语言配置
 - [[FAISS]] — Facebook AI 开源向量相似度搜索库
+- [[FastCode]] — 港大 HKUDS 开源代码库理解框架，Scouting-First 策略
+- [[HKUDS]] — 香港大学数据科学团队，FastCode 开发者
+- [[ProcessFlowDiagramGenerator]] — CocoonAI 开源流程图生成 Skill，ArchitectureDiagramGenerator 的姐妹项目
+- [[TreeSitter]] — 高性能增量 AST 解析库，CodeGraph 底层引擎
 
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
@@ -665,6 +671,7 @@
 - [[AI就绪上下文包]] — 将多个文件打包成结构化文本块供 AI 直接读取的格式
 - [[HttpExchange]] — Spring Framework 6 原生声明式 HTTP 客户端
 - [[CognitiveNavigation]] — Agent 运行时认知导航健康诊断框架
+- [[Scouting-First]] — FastCode 侦察优先策略，先建索引再按需读取
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

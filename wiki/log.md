@@ -715,3 +715,27 @@
   - 增量更新 concept: [[Agent]]（补充 CognitiveNavigation 运行时健康诊断引用）
   - 更新 [[index.md]] 加入 8 个新条目（3 source + 1 entity + 2 concept + 2 关联更新）
 - **冲突**: 无
+
+## [2026-07-20] ingest | 摄入 FastCode 代码库理解框架文章
+- **变更**:
+  - 新增 source [[摘要-fastcode-hkuds-codebase-understanding]]（港大 HKUDS 开源的代码库理解神器，Scouting-First 策略）
+  - 新增 entities: [[FastCode]], [[HKUDS]]
+  - 新增 concept: [[Scouting-First]]
+  - 更新 [[index.md]] 加入 4 个新条目（1 source + 2 entity + 1 concept）
+- **冲突**: 无
+
+## [2026-07-20] ingest | 摄入画图 Skill 推荐文章（苏三）
+- **变更**:
+  - 增量更新 source [[摘要-architecture-diagram-generator]]（补充苏三来源，6.3k Star 数据，Claude Desktop 安装方式）
+  - 增量更新 entities: [[ArchitectureDiagramGenerator]]（补充 6.3k Star、Claude Desktop 安装方式）、[[CocoonAI]]（补充新来源）
+  - 新增 entity [[ProcessFlowDiagramGenerator]]（CocoonAI 流程图生成 Skill）
+  - 更新 [[index.md]] 加入 1 个新 entity 条目
+- **冲突**: 无
+
+## [2026-07-20] ingest | 摄入 CodeGraph 深度解析文章（苏三）
+- **变更**:
+  - 新增 source [[摘要-codegraph-deep-dive]]（苏三全面介绍 CodeGraph：tree-sitter 构建代码知识图谱）
+  - 新增 entity [[TreeSitter]]（高性能增量 AST 解析库）
+  - 增量更新 entity [[CodeGraph]]（补充完整架构/性能数据/CLI 命令/MCP 工具/安装方式）
+  - 更新 [[index.md]] 加入 3 个新条目（1 source + 2 entity）
+- **冲突**: 无

@@ -4,7 +4,8 @@ type: source
 tags: [来源, AI画图, Skill, 架构图]
 sources:
   - raw/01-articles/又一个神级画图 Skill 开源，再见 draw.io！.md
-last_updated: 2026-07-09
+  - raw/01-articles/推荐一个神级画图Skill.md
+last_updated: 2026-07-20
 ---
 
 ## 核心摘要
@@ -19,14 +20,20 @@ last_updated: 2026-07-09
 - 安装：下载 zip -> claude.ai Customize -> Skills 上传；需开启 Code Execution；Claude Code 用户可解压到 ~/.claude/skills/
 - 姐妹 Skill：process-flow-diagram-generator（流程图/审批流/流水线），设计语言一致
 - 对比 draw.io：描述代替拖拽、聊天改图、单文件分发、免安装
+- **GitHub Star**：6.3k+（截至 2026-07，苏三文章补充）
+- **安装（Claude Desktop）**：下载 zip → 自定义 → 技能 → 上传技能
+- **调用方式**：`/architecture-diagram` 命令触发
+- **姐妹 Skill (流程画)**：[[ProcessFlowDiagramGenerator]]（process-flow-diagram-generator），专用于流程图/审批流/流水线，GitHub：https://github.com/Cocoon-AI/process-flow-diagram-generator
 
 ## 关联连接
 
 - [[ArchitectureDiagramGenerator]] - 核心实体
 - [[CocoonAI]] - 开发团队
-- [[小锋]] - 文章作者
+- [[小锋]] - 文章作者（第一篇）
+- [[苏三]] - 文章作者（第二篇）
 - [[draw-io]] - 对比对象
 - [[文本绘图]] - 所属方法论
 - [[Skill]] - 技能扩展机制
 - [[ClaudeCode]] - 兼容工具
+- [[ProcessFlowDiagramGenerator]] - 姐妹 Skill
 - [[摘要-程序员AI画图技巧]] - 相关画图技巧
