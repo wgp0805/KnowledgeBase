@@ -217,6 +217,9 @@
 - [[摘要-codex-从原理到-java落地]] — Codex 在 Java 项目的任务拆分、验证与质量边界实践
 - [[摘要-trellis使用手册]] — Trellis 的安装、结构、任务生命周期与 Codex 接入说明
 - [[摘要-aliyun-llms-txt]] — 阿里云全面上线 llms.txt 结构化索引，AI Agent 三步导航消费 300+ 云产品文档
+- [[摘要-spring-why-abandon-feign]] — Spring Framework 6 @HttpExchange 与 Feign 深度对比
+- [[摘要-rag-api-call]] — 通义千问 API 调用与 RAG 问答链完整搭建
+- [[摘要-ai-agent-cognitive-navigation]] — Agent 运行时认知导航健康诊断框架
 - [[摘要-sso-single-sign-on]] — 企业多系统身份认证演进：从 Session 到 SSO（CAS 协议）实现原理
 - [[摘要-mysql-primary-key-strategy]] — MySQL 主键策略对比：自增 ID、UUID、雪花算法的 InnoDB 索引效率分析
 - [[摘要-loop-engineering-pitfalls]] — Loop Engineering 生产环境五大坑：硬隔离/原样转发/停止规则/状态落地/目标可验证
@@ -474,6 +477,7 @@
 - [[CodeGraph]] — 代码语义分析工具，为代码仓库构建 MCP 知识库索引
 - [[ccstatusline]] — 开源 Claude Code 状态栏工具，交互式 TUI 配置
 - [[claude-hud]] — 开源 Claude Code 状态栏插件，自然语言配置
+- [[FAISS]] — Facebook AI 开源向量相似度搜索库
 
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
@@ -659,6 +663,8 @@
 - [[ContextTray]] — marka.md 核心功能，暂存多文件并一键复制为 AI 就绪上下文包
 - [[本地优先]] — 数据始终保存在本地设备，用户完全掌控数据所有权的架构理念
 - [[AI就绪上下文包]] — 将多个文件打包成结构化文本块供 AI 直接读取的格式
+- [[HttpExchange]] — Spring Framework 6 原生声明式 HTTP 客户端
+- [[CognitiveNavigation]] — Agent 运行时认知导航健康诊断框架
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

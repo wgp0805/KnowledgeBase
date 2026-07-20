@@ -230,9 +230,9 @@ Spring官方在博客里提到，HTTP service client support经过了大量反�
 
 ## 五、一张图看懂两者的架构差异
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/3SCLUkuu2IEzNRUH3znlnWX3MjdhcFVhuUWFrcGBxgaXEWTTp2PIkckicreVv8jqZKhjf15lcdLOMxf7bzzM6wBw42ia7Jvo9U3JRrNbJtxs4/640?wx_fmt=webp&from=appmsg#imgIndex=0)
+![图片](assets/Spring%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E2%80%9C%E6%8A%9B%E5%BC%83%E2%80%9DFeign%EF%BC%9F/7eef6561f45b75176deb65173e433519_MD5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/3SCLUkuu2IHhvogxUjziakaDCQZ1eAtTPFrfTt0dl7joGrShGY2klfD0QtyWCcS5Qp0TibibssE1F5IUCkhFd6DMldlHBSg0n3v0mPVJrHmqW0/640?wx_fmt=webp&from=appmsg#imgIndex=1)
+![图片](assets/Spring%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E2%80%9C%E6%8A%9B%E5%BC%83%E2%80%9DFeign%EF%BC%9F/7d74bbf919758842bca6bde93eb91234_MD5.jpg)
 
 从这张图可以看得很清楚：Feign是一条路走到黑——无论什么场景都是阻塞式IO。
 

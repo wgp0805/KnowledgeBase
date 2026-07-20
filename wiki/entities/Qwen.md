@@ -2,14 +2,16 @@
 title: "Qwen"
 type: entity
 tags: [AI模型, 阿里云, 通义千问, 多模态, 本地微调]
-sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/测评国内多模态大模型，到底哪个更省事？.md, raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md]
-last_updated: 2026-07-02
+sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/测评国内多模态大模型，到底哪个更省事？.md, raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md, raw/01-articles/2026-07-19-【RAG扫盲系列·3】从零开始构建你的RAG项目第二弹：API 调用大模型问答 - Alkaid2077.md]
+last_updated: 2026-07-20
 ---
 
 ## 定义
 Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Flash 在 Coding Agent、源码解读和多模态视觉理解任务中的表现。
 
 ## 关键信息
+- 面向 API 调用场景提供三层模型选型（详见 [[摘要-rag-api-call]]）：qwen-turbo（快速成本低，适合测试）、qwen-plus（平衡性能与成本，适合通用应用）、qwen-max（精度最高，适合复杂推理）
+- 通过 DashScope OpenAI 兼容模式，可直接复用 LangChain、OpenAI SDK 等生态工具
 - Qwen3.6 Flash 被用于"源码解读并生成 HTML 架构分析报告"的多轮工具调用任务。
 - 文章认为 Qwen3.6 Flash 能一次对话完成任务，源码总结质量可用，但执行过程中出现多次工具调用失败，需要模型自修复。
 - 与 Step 3.7 Flash 对比时，Qwen3.6 Flash 的输出 token 更多、API 时间更长、估算成本略高。
@@ -35,3 +37,5 @@ Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Fla
 - [[LoRA]] — 微调方法
 - [[摘要-开源诗词数据集poetry_dataset]] — 来源
 - [[poetry_dataset]] — 支持 Qwen2.5 本地微调
+- [[摘要-rag-api-call]] — API 调用与 RAG 实践
+- [[DashScope]] — API 平台

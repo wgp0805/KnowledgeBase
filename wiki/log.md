@@ -705,3 +705,13 @@
   - 新增 entities: [[CodeGraph]], [[ccstatusline]], [[claude-hud]]
   - 更新 [[index.md]] 加入 5 个新条目（2 source + 3 entity）
 - **冲突**: 无
+
+## [2026-07-20] ingest | 批量摄入 3 篇 raw/01-articles 技术资料
+- **变更**:
+  - 新增 sources: [[摘要-spring-why-abandon-feign]], [[摘要-rag-api-call]], [[摘要-ai-agent-cognitive-navigation]]
+  - 新增 entities: [[FAISS]]
+  - 新增 concepts: [[HttpExchange]], [[CognitiveNavigation]]
+  - 增量更新 entities: [[苏三]]（补充 Spring Feign 来源）、[[OpenFeign]]（补充 @HttpExchange 对比章节）、[[DashScope]]（补充 API 兼容模式与 RAG 实践）、[[Qwen]]（补充三层模型选型）
+  - 增量更新 concept: [[Agent]]（补充 CognitiveNavigation 运行时健康诊断引用）
+  - 更新 [[index.md]] 加入 8 个新条目（3 source + 1 entity + 2 concept + 2 关联更新）
+- **冲突**: 无
