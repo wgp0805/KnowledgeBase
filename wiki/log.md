@@ -698,3 +698,10 @@
   - 增量更新 concept [[AICoding]]（补充 AI 就绪上下文包概念）
   - 更新 [[index.md]] 加入 8 个新条目（1 source + 4 entity + 3 concept）
 - **冲突**: 无
+
+## [2026-07-17] ingest | 摄入 CodeGraph MCP 网关部署与 Claude Code 状态栏工具 2 篇文章
+- **变更**:
+  - 新增 sources: [[摘要-codegraph-mcp-gateway]], [[摘要-claude-code-statusline]]
+  - 新增 entities: [[CodeGraph]], [[ccstatusline]], [[claude-hud]]
+  - 更新 [[index.md]] 加入 5 个新条目（2 source + 3 entity）
+- **冲突**: 无

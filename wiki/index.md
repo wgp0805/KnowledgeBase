@@ -221,6 +221,8 @@
 - [[摘要-mysql-primary-key-strategy]] — MySQL 主键策略对比：自增 ID、UUID、雪花算法的 InnoDB 索引效率分析
 - [[摘要-loop-engineering-pitfalls]] — Loop Engineering 生产环境五大坑：硬隔离/原样转发/停止规则/状态落地/目标可验证
 - [[摘要-markamd-rust-markdown-ai]] — marka.md：Rust+Tauri 轻量 Markdown 编辑器，专为 AI 上下文打包设计
+- [[摘要-codegraph-mcp-gateway]] — Docker 部署 CodeGraph 多项目统一 MCP 网关，一个容器一个端口访问多个代码仓库
+- [[摘要-claude-code-statusline]] — ccstatusline 与 claude-hud 两款开源 Claude Code 状态栏工具介绍
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -469,6 +471,9 @@
 - [[Tauri]] — Rust+Web 技术的桌面应用框架
 - [[CodeMirror]] — 浏览器代码编辑器组件，支持语法高亮和 Vim 模式
 - [[Shiki]] — 基于 TextMate 语法的代码高亮库，与 VS Code 一致
+- [[CodeGraph]] — 代码语义分析工具，为代码仓库构建 MCP 知识库索引
+- [[ccstatusline]] — 开源 Claude Code 状态栏工具，交互式 TUI 配置
+- [[claude-hud]] — 开源 Claude Code 状态栏插件，自然语言配置
 
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
