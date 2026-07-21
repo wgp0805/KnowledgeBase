@@ -2,12 +2,28 @@
 title: "RocketMQ"
 type: entity
 tags: [消息队列, 中间件]
-sources: [raw/01-articles/字节二面：如何设计一个百亿级消息队列？.md, raw/01-articles/Docker-window环境下部署RocketMq.md, raw/01-articles/springboot整合RocketMq.md, raw/01-articles/高并发下如何防止重复下单？.md, raw/01-articles/RocketMQ 已正式接入 AI ！.md]
+sources: [raw/01-articles/字节二面：如何设计一个百亿级消息队列？.md, raw/01-articles/Docker-window环境下部署RocketMq.md, raw/01-articles/springboot整合RocketMq.md, raw/01-articles/高并发下如何防止重复下单？.md, raw/01-articles/RocketMQ 已正式接入 AI ！.md, raw/01-articles/Spring Cloud Stream 整合 RocketMQ 完全指南.md]
 last_updated: 2026-07-01
 ---
 
 ## 定义
 RocketMQ 是阿里巴巴开源的分布式消息中间件，具有高吞吐量、高可用性、低延迟和强大的消息回溯能力。
+
+## Spring Cloud Stream 集成
+- **Binder 依赖**：`spring-cloud-starter-stream-rocketmq`（SCA 生态组件）
+- **函数式编程模型**：通过 Supplier（生产者）/ Consumer（消费者）/ Function（处理器）声明消息端点
+- **StreamBridge**：推荐的生产者 API，支持 REST 触发按需发送，比 Supplier 模式更灵活
+- **Binding 命名**：`{函数名}-{方向}-{索引}`（如 `sendMessage-out-0`），Bean 名必须与 yml 配置一致
+- **高级特性支持**：通过消息头设置 Tag/Key/DelayLevel/Transactional 等 RocketMQ 特有属性
+- **生产实践**：预创建 Topic、Tag 过滤减少无效消费、消费幂等、死信队列兜底、版本严格对齐
+
+### 版本兼容对照
+| Spring Cloud Alibaba | Spring Cloud | Spring Boot |
+|---------------------|--------------|-------------|
+| 2023.0.x | 2023.0.x | 3.2.x |
+| 2022.0.x | 2022.0.x | 3.0.x/3.1.x |
+| 2021.0.x | 2021.0.x | 2.6.x/2.7.x |
+| 2.2.x | Hoxton | 2.2.x/2.3.x |
 
 ## 关键信息
 - 核心组件：NameServer（命名服务）、Broker（消息存储）、Producer（生产者）、Consumer（消费者）
@@ -66,3 +82,7 @@ RocketMQ 是阿里巴巴开源的分布式消息中间件，具有高吞吐量�
 - [[摘要-prevent-duplicate-order]] — 异步订单处理
 - [[LiteTopic]] — RocketMQ for AI 的核心新特性
 - [[摘要-rocketmq-接入ai]] — RocketMQ 5.5.0 接入 AI 解析
+- [[摘要-spring-cloud-stream-rocketmq]] — Spring Cloud Stream 整合指南
+- [[SpringCloudStream]] — 事件驱动微服务抽象层
+- [[SpringCloudAlibaba]] — 版本兼容依赖
+- [[死信队列]] — DLQ 死信队列机制

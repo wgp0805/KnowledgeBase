@@ -230,6 +230,7 @@
 - [[摘要-codegraph-deep-dive]] — 苏三全面介绍 CodeGraph：tree-sitter 构建代码知识图谱，工具调用直降 71%
 - [[摘要-claude-code-statusline]] — ccstatusline 与 claude-hud 两款开源 Claude Code 状态栏工具介绍
 - [[摘要-apache-pdfbox]] — Apache PDFBox 开源 Java PDF 处理库全解析（Apache 2.0 协议/双层架构/核心操作）
+- [[摘要-spring-cloud-stream-rocketmq]] — Spring Cloud Stream 与 RocketMQ 整合完全指南（函数式模型/事务消息/顺序消息/死信队列）
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -487,6 +488,8 @@
 - [[ProcessFlowDiagramGenerator]] — CocoonAI 开源流程图生成 Skill，ArchitectureDiagramGenerator 的姐妹项目
 - [[TreeSitter]] — 高性能增量 AST 解析库，CodeGraph 底层引擎
 - [[Apache_PDFBox]] — Apache 基金会维护的 Java PDF 处理库
+- [[SpringCloudStream]] — Spring 官方事件驱动微服务抽象层，Binder 机制屏蔽消息中间件差异
+- [[SpringCloudAlibaba]] — 阿里巴巴 Spring Cloud 微服务解决方案，Nacos/Sentinel/RocketMQ/Seata 生态
 
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
@@ -677,6 +680,7 @@
 - [[Scouting-First]] — FastCode 侦察优先策略，先建索引再按需读取
 - [[PDFBox-双层架构]] — PDFBox 的 COS 层与 PD 层设计
 - [[Apache-2.0协议]] — 对商业友好的开源协议
+- [[死信队列]] — 消息消费失败超重试次数后的最终兜底队列，DLQ 机制
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

@@ -633,6 +633,11 @@
 - **冲突**: 无
 - **归档**: raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md → raw/09-archive/
 
+## [2026-07-21] ingest | 摄入 Spring Cloud Stream 整合 RocketMQ 完全指南
+- **变更**: 新增 [[摘要-spring-cloud-stream-rocketmq]]; 新增实体 [[SpringCloudStream]], [[SpringCloudAlibaba]]; 新增概念 [[死信队列]]; 增量更新 [[RocketMQ]]（补充 Spring Cloud Stream 集成章节、版本兼容对照表、函数式编程模型）
+- **冲突**: 无
+- **归档**: raw/01-articles/Spring Cloud Stream 整合 RocketMQ 完全指南.md → raw/09-archive/；raw/_daily_digest.md → raw/09-archive/_daily_digest_2026-07-21.md
+
 ## [2026-07-09] lint | 修复 7 个问题（4 死链 + 3 孤儿）
 - **变更**: 修复死链 4 个--[[Obsidian]] 去除示例文本 [[wikilink]] 双链模式；[[SpringAI_Alibaba]] 与 [[摘要-spring-ai-2-vs-alibaba选型]] 的 [[摘要-spring-ai-vs-langchain4j]] 前缀笔误纠正为 [[spring-ai-vs-langchain4j]]；[[idea-ai-assistant-guide]] 的 [[ACP]] 改为普通文本。修复孤儿 3 个--[[Transformer]] 补 [[Tesla]]（inline 双链）与 [[FigureAI]]（关联连接）；[[Junie]] 补 [[idea-ai-assistant-guide]] 引用。[[摘要-追番]] 作为个人记录保留原样。
 - **冲突**: 无
