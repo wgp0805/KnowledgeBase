@@ -739,3 +739,13 @@
   - 增量更新 entity [[CodeGraph]]（补充完整架构/性能数据/CLI 命令/MCP 工具/安装方式）
   - 更新 [[index.md]] 加入 3 个新条目（1 source + 2 entity）
 - **冲突**: 无
+
+## [2026-07-21] ingest | 摄入 Apache PDFBox 全面解析文章
+- **变更**:
+  - 新增 source [[摘要-apache-pdfbox]]（苏三说技术，Apache PDFBox 开源 Java PDF 处理库全解析）
+  - 新增 entity [[Apache_PDFBox]]（Apache 基金会维护的 Java PDF 处理库）
+  - 新增 concepts: [[PDFBox-双层架构]]（COS 层与 PD 层设计）、[[Apache-2.0协议]]（对商业友好的开源协议）
+  - 增量更新 entity [[苏三]]（补充 PDFBox 来源与提炼的实体/概念）
+  - 更新 [[index.md]] 加入 5 个新条目（1 source + 1 entity + 2 concept + 1 关联更新）
+- **冲突**: 无
+- **归档**: raw/01-articles/为什么越来越多人使用PDFBox？.md → raw/09-archive/

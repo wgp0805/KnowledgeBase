@@ -227,7 +227,9 @@
 - [[摘要-markamd-rust-markdown-ai]] — marka.md：Rust+Tauri 轻量 Markdown 编辑器，专为 AI 上下文打包设计
 - [[摘要-codegraph-mcp-gateway]] — Docker 部署 CodeGraph 多项目统一 MCP 网关，一个容器一个端口访问多个代码仓库
 - [[摘要-codegraph-deep-dive]] — 苏三全面介绍 CodeGraph：tree-sitter 构建代码知识图谱，工具调用直降 71%
+- [[摘要-codegraph-deep-dive]] — 苏三全面介绍 CodeGraph：tree-sitter 构建代码知识图谱，工具调用直降 71%
 - [[摘要-claude-code-statusline]] — ccstatusline 与 claude-hud 两款开源 Claude Code 状态栏工具介绍
+- [[摘要-apache-pdfbox]] — Apache PDFBox 开源 Java PDF 处理库全解析（Apache 2.0 协议/双层架构/核心操作）
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -484,6 +486,7 @@
 - [[HKUDS]] — 香港大学数据科学团队，FastCode 开发者
 - [[ProcessFlowDiagramGenerator]] — CocoonAI 开源流程图生成 Skill，ArchitectureDiagramGenerator 的姐妹项目
 - [[TreeSitter]] — 高性能增量 AST 解析库，CodeGraph 底层引擎
+- [[Apache_PDFBox]] — Apache 基金会维护的 Java PDF 处理库
 
 ## Concepts
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
@@ -672,6 +675,8 @@
 - [[HttpExchange]] — Spring Framework 6 原生声明式 HTTP 客户端
 - [[CognitiveNavigation]] — Agent 运行时认知导航健康诊断框架
 - [[Scouting-First]] — FastCode 侦察优先策略，先建索引再按需读取
+- [[PDFBox-双层架构]] — PDFBox 的 COS 层与 PD 层设计
+- [[Apache-2.0协议]] — 对商业友好的开源协议
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
