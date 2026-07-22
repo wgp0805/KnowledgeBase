@@ -2,8 +2,8 @@
 title: "Workspace"
 type: concept
 tags: [AI概念, 文件驱动, 架构设计]
-sources: [raw/01-articles/AgentScopeJava2.0正式发布了！.md]
-last_updated: 2026-06-23
+sources: [raw/01-articles/AgentScopeJava2.0正式发布了！.md, raw/01-articles/AgentScope入门指南.md]
+last_updated: 2026-07-22
 ---
 
 ## 定义
@@ -26,3 +26,4 @@ Workspace 是 AgentScope Java 2.0 的核心设计哲学：所有需要持久化�
 - [[HarnessAgent]] — 使用 Workspace 的 Agent
 - [[多租户隔离]] — 配套安全能力
 - [[摘要-AgentScopeJava2.0发布]] — 来源
+- [[摘要-AgentScope入门指南]] — 来源（苏三入门实战指南）

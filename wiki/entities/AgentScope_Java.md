@@ -2,8 +2,8 @@
 title: "AgentScope_Java"
 type: entity
 tags: [AI框架, 阿里, 通义, 生产级, 智能体, 分布式, 多租户]
-sources: [raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/AgentScopeJava2.0正式发布了！.md]
-last_updated: 2026-06-23
+sources: [raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/AgentScopeJava2.0正式发布了！.md, raw/01-articles/AgentScope入门指南.md]
+last_updated: 2026-07-22
 ---
 
 ## 定义
@@ -45,7 +45,32 @@ last_updated: 2026-06-23
 HarnessAgent 提供 Middleware + Toolkit 两个扩展通道；子智能体支持同步阻塞与后台委派；多 Agent 协作支持 Pipeline、Broadcast、Sequential 等模式；A2A + MCP 跨进程编排与工具集成。
 
 ### 与 Spring AI Alibaba 的关系
-Spring AI Alibaba 是阿里巴巴基于 Spring AI 打造的企业级 AI 应用开发框架，专为 Spring 技术栈设计。从发展趋势来看，Spring AI Alibaba 在后续版本中会将内核逐步升级为 AgentScope，两者生态打通后 Java 开发者将获得统一的体验。
+Spring AI Alibaba 偏重"AI 能力接入"（RAG、聊天机器人），AgentScope 偏重"Agent 工程化"（自主推理、工具调用、多 Agent 协作）。两者可以配合使用：AgentScope 负责 Agent 的"大脑"（推理/决策/行动），Spring AI Alibaba 负责"感官"（接入各种 AI 能力）。
+
+从发展趋势来看，Spring AI Alibaba 在后续版本中会将内核逐步升级为 AgentScope，两者生态打通后 Java 开发者将获得统一的体验。
+
+### 入门开发要点（苏三指南）
+**最低配置**：JDK 17+、Maven 3.9+，添加 `agentscope-harness` 核心依赖和对应模型扩展（如 `agentscope-extensions-model-dashscope`）。
+
+**Hello World 三步骤**：
+1. 创建 `OpenAIChatModel`（或 DashScopeChatModel），配置 API Key、模型名称、流式/思考模式
+2. 用 `HarnessAgent.builder()` 创建 Agent，指定名称、系统提示词、模型、工作区路径
+3. 构造 `UserMessage`，调用 `agent.call()` 获取回复
+
+**@Tool 注解工具系统**：
+- `@Tool(name, description)` — 将 Java 方法注册为 Agent 工具
+- `@ToolParam(name, description)` — 标注参数含义
+- `Toolkit` 实例注册工具后传入 `HarnessAgent.builder().toolkit(toolkit)`，Agent 在 ReAct 循环中自主决定何时调用
+
+**MCP 集成（文件驱动）**：
+- 在 `workspace/tools.json` 中声明 MCP Server（支持 stdio/sse/ws 三种传输协议）
+- Agent 启动时自动发现并注册 MCP Server 暴露的工具
+- 也支持 Java 代码中用 `McpServerConfig` 直接配置
+
+**子 Agent 文件驱动**：
+- 在 `workspace/subagents/*.md` 中用 YAML frontmatter 定义子 Agent
+- 主 Agent（HarnessAgent）在推理中自主决定是否需要调用子 Agent
+- Java 端可用 `SubagentDeclaration.builder()` 补强，支持注入 toolkit
 
 ## 关联连接
 - [[AgentHarness]] — 工程化框架
@@ -63,5 +88,6 @@ Spring AI Alibaba 是阿里巴巴基于 Spring AI 打造的企业级 AI 应用�
 - [[子Agent编排]] — 动态任务委派能力
 - [[摘要-java-ai框架选型指南-2026]] — 来源
 - [[摘要-AgentScopeJava2.0发布]] — 来源
+- [[摘要-AgentScope入门指南]] — 来源（苏三入门实战指南）
 - [[react-loop-explanation]] — ReAct 循环详解
 - [[react-vs-plan-execute]] — ReAct vs Plan-and-Execute 对比分析

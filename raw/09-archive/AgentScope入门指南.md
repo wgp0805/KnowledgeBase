@@ -34,7 +34,7 @@ CrewAI？还是Python的。
 
 **最近建了几个AI技术交流群，扫描加我微信，备注：AI，即可进群交流和学习，获取AI最新咨询。**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibJZVicC7nz5jN7lz3xCSbNeNj4yNXMvNX12Fgwkvnuibx4wj2uF89ehibUGMOT4DPHibO5dg44kXwBickPvORaQ8JGA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=0)
+![图片](assets/AgentScope%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/120fc0032d790118e773ec1a67b88378_MD5.webp)
 
 ## 一、AgentScope-Java到底是什么？
 
@@ -79,7 +79,7 @@ AgentScope-Java 2.0的核心设计思路非常清晰—— **提供两种Agent�
 
 所谓ReAct，就是让LLM在“ **思考→行动→观察→再思考** ”的循环中自主完成任务：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3SCLUkuu2IGL7Vaa62rytic7mhNN1SP6ZbAHv3sfWk7q8wPA1GWJMhGyF7eYhdY2pNRzXVE4FsUwjSzZsic4icxX5BDrJfqyeXRPQCMEpVgNGk/640?wx_fmt=webp&from=appmsg#imgIndex=1)
+![图片](assets/AgentScope%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/d72540e074910f83528e18e0d32b1b8f_MD5.jpg)
 
 ReActAgent适合 **轻量级、单次对话、不需要持久化状态** 的场景。
 
@@ -100,7 +100,7 @@ ReActAgent适合 **轻量级、单次对话、不需要持久化状态** 的场�
 
 **核心区别** ：ReActAgent解决的是“这一次对话怎么跑”，HarnessAgent解决的是“长期运行的Agent怎么稳定、安全、可扩展”。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3SCLUkuu2IHLia8uWeXJjAd09icD2EFNMQCHgicOTvz6T4TUo4zWuuicRGL6DAMMibzusD736bb7AbvIFYspic1VNBtebib2ulw7vuoeicxxM24sicnU/640?wx_fmt=webp&from=appmsg#imgIndex=2)
+![图片](assets/AgentScope%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/9be8f5d187e9ec10f4d45195afba09fc_MD5.jpg)
 
 **我的建议** ： **大部分场景直接用HarnessAgent** 。
 
@@ -390,7 +390,7 @@ AgentScope 2.0提供了 **orchestrator + workers** 模式来实现多Agent协作
 
 主Agent负责接收用户任务、拆解任务、委派给子Agent、汇总结果。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3SCLUkuu2IFbLMezp7icuRXrZVx8yibxWCFAvZmrTT81KxGHKFGaAibrrgayREsYbM5RRPWtygjgvL2FUfaJ43WYwQ2dCgnROPaN4t1tfAjpZs/640?wx_fmt=webp&from=appmsg#imgIndex=3)
+![图片](assets/AgentScope%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/3f9f311587d05685363b7c9e80575c76_MD5.jpg)
 
 ### 5.2 定义子Agent
 
@@ -457,7 +457,7 @@ HarnessAgent agent =
 
 AgentScope-Java采用 **经典的分层架构设计** ：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3SCLUkuu2IEicjeNOs5CWYFweNqA5h4TE0IYdEFKLzGAB4MvT6TljQ1iauy4u3pVXowVkiaiaIpnCu0lDdqw1B3MRMQia5pAf4c0UCEia2qsoVVTo/640?wx_fmt=webp&from=appmsg#imgIndex=4)
+![图片](assets/AgentScope%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/591b3da68b05c38dbf85b5e51ccdf26f_MD5.jpg)
 
 AgentScope的整体架构可以清晰分为四层：
 
@@ -470,7 +470,7 @@ AgentScope的整体架构可以清晰分为四层：
 
 当一个用户消息进入Agent时，ReAct循环的执行流程如下：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/3SCLUkuu2IG5KhbEagHGRKQZQjWpTSiaYfAD86tDuFia0Qm0wKlDXicJQ8HrY4ibicpNnzZEXmumdQaZNxcxx7dZtBFslB3ZCTiceyVGNqcVwWu4w/640?wx_fmt=webp&from=appmsg#imgIndex=5)
+![图片](assets/AgentScope%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/9bd5927f83acdee5c6566dd3ae744792_MD5.jpg)
 
 HarnessAgent在ReAct循环的 **关键时机插入了Hook** ，实现了工作区加载、记忆读写、会话持久化等功能。
 
@@ -482,7 +482,7 @@ AgentScope 2.0最核心的升级之一，就是 **原生支持分布式部署** 
 
 进入生产部署后，只需把状态后端切换为分布式存储：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/3SCLUkuu2IHTWlRQ6Ga1Mic0KdofPIbf65zJOblXfCPFhB8foMN84bq69D5dRqccRZZorYIupkqfqWJMLHBicjAgx1rJV1KQx9SEZlWRNIdJY/640?wx_fmt=webp&from=appmsg#imgIndex=6)
+![图片](assets/AgentScope%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/177a3494999ea095d3c640361b30b796_MD5.jpg)
 
 同一份业务代码，只需切换存储后端，就能从单机模式切换到分布式模式。
 

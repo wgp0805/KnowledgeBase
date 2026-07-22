@@ -772,3 +772,16 @@
 ## [2026-07-22] query | RocketMQ 重复消费问题
 - **输出**: 引用 [[摘要-rabbitmq-idempotency]], [[idempotency]], [[摘要-spring-cloud-stream-rocketmq]], [[摘要-prevent-duplicate-order]]; 已保存为 [[重复消费解决方案]]
 - **变更**: 新增 synthesis [[重复消费解决方案]]；更新 [[index.md]] Syntheses 分类
+
+## [2026-07-22] ingest | 摄入 AgentScope 入门指南（苏三）
+- **变更**: 
+  - 新增 source [[摘要-AgentScope入门指南]]（苏三撰写的 AgentScope-Java 2.0 入门实战指南）
+  - 增量更新 entity [[AgentScope_Java]]（新增入门开发要点：@Tool 注解系统/Hello World 三步骤/MCP 集成/子Agent 文件驱动/与 Spring AI Alibaba 定位对比）
+  - 增量更新 entity [[苏三]]（补充 AgentScope 入门指南新来源）
+  - 增量更新 concept [[HarnessAgent]]（补充工程能力一览表/MCP 自动集成/子Agent 两种定义方式）
+  - 增量更新 concept [[ReActAgent]]（补充适用场景与实践建议）
+  - 增量更新 concept [[MCP]]（补充 AgentScope 集成方式：tools.json/三种传输协议/常用 Server）
+  - 增量更新 concept [[子Agent编排]]（补充两种定义方式/orchestrator+workers 模式/实战示例）
+  - 增量更新 concept [[Workspace]]（补充新来源引用）
+  - 更新 [[index.md]] 加入 1 个新 source 条目
+- **冲突**: 无（所有内容为互补新增，未与现有知识冲突）

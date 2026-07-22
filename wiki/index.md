@@ -148,6 +148,7 @@
 - [[摘要-Codex保姆级入门教程]] — Codex 保姆级入门教程：概念、安装、使用、最新版本
 - [[摘要-Docker部署OmnoBox]] — Docker 一键部署 OmnoBox 爬虫管理工具
 - [[摘要-AgentScopeJava2.0发布]] — AgentScope Java 2.0 发布：企业级分布式智能体框架
+- [[摘要-AgentScope入门指南]] — 苏三撰写的 AgentScope-Java 入门实战指南
 - [[摘要-OpenSpec规范驱动AI编程框架]] — OpenSpec 规范驱动 AI 编程框架介绍与使用教程
 - [[摘要-claude-code-setup-plugin]] — Anthropic 官方一键自动化配置插件 claude-code-setup 详解
 - [[摘要-claude-code-best-practice]] — GitHub 57k+ Star 的 Claude Code 最佳实践仓库全景解析
