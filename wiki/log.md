@@ -754,3 +754,7 @@
   - 更新 [[index.md]] 加入 5 个新条目（1 source + 1 entity + 2 concept + 1 关联更新）
 - **冲突**: 无
 - **归档**: raw/01-articles/为什么越来越多人使用PDFBox？.md → raw/09-archive/
+
+## [2026-07-22] query | 手搓 Agent 完整指南
+- **输出**: 引用 [[Agent]], [[ReAct_Agent]], [[构建你的第一个Tool-Agent-从零理解ReAct循环]], [[摘要-agent-tools-workflow区别]], [[LangGraph]], [[ToolPipeline]]; 已保存为 [[hand-craft-agent-guide]]
+- **变更**: 新增 synthesis [[hand-craft-agent-guide]]；更新 [[index.md]] Syntheses 分类

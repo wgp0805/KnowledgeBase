@@ -708,3 +708,4 @@
 - [[sa-token-vs-jwt-spring-security]] — Sa-Token vs JWT + Spring Security 全面对比与选型分析
 - [[junie-国产模型配置指南]] — 在 IntelliJ IDEA / Junie 中配置国产模型（Qwen Code / GLM Agent / 手动 ACP）操作步骤
 - [[idea-ai-assistant-guide]] — IntelliJ IDEA AI Assistant 能力全貌：ACP agent / 代码补全 / 免费插件选型
+- [[hand-craft-agent-guide]] — 手搓 Agent 完整指南：ReAct 循环原理、最小实现与选型建议
