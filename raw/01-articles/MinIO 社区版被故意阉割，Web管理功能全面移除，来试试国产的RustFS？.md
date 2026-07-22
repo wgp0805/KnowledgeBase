@@ -4,7 +4,7 @@ source: "https://mp.weixin.qq.com/s/vUXDPCiSxO700-zDYOr97g"
 ---
 Java学习者社区 *2026年7月21日 13:52*
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smoMIBhuJhxGCfz4b5facHDyjIsA2C2tKiaIyAibpDXoR9MpZfpxzEgPctgJgqB4YruPicZI3IkbmicTiaqfcZfR3TkxECu8Nz8kX8d0/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/MinIO%20%E7%A4%BE%E5%8C%BA%E7%89%88%E8%A2%AB%E6%95%85%E6%84%8F%E9%98%89%E5%89%B2%EF%BC%8CWeb%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E5%85%A8%E9%9D%A2%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9D%A5%E8%AF%95%E8%AF%95%E5%9B%BD%E4%BA%A7%E7%9A%84RustFS%EF%BC%9F/e38c157f93d62c6de2e7a80babd7ee85_MD5.webp)
 
 来源： [juejin.cn/post/7523256725127987226](http://juejin.cn/post/7523256725127987226)
 
@@ -27,7 +27,7 @@ Java学习者社区 *2026年7月21日 13:52*
 
 今天部署好 minio 后打开 web 界面发现只剩下纯对象存储：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/pUq1tpL9smoOOdr5ORzDJH1fNgClpowlobvb5q04zlME8ngpU7nqNJoEiak3VEE5mczvObP96O5KB6lRYnHBQdVbyZy0vstib4lZNPuQQtsiaA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](assets/MinIO%20%E7%A4%BE%E5%8C%BA%E7%89%88%E8%A2%AB%E6%95%85%E6%84%8F%E9%98%89%E5%89%B2%EF%BC%8CWeb%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E5%85%A8%E9%9D%A2%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9D%A5%E8%AF%95%E8%AF%95%E5%9B%BD%E4%BA%A7%E7%9A%84RustFS%EF%BC%9F/65c8ff382dea0246c1f61e82166221c2_MD5.webp)
 
 MinIO Web 界面只剩纯对象存储
 
@@ -35,7 +35,7 @@ MinIO Web 界面只剩纯对象存储
 
 原因是 2 月 26 号的一个 PR 以"精简控制台"为由删了 114736 行代码：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smqJHFOweZicgflrQplsEQMKgTPTGu7Xa8icqI63II47HD471LM9AR5HH8mZVeEhxSWS86kYJib1aXtvHfnMRUrIqibCNZsa59DicDdQ/640?wx_fmt=other&from=appmsg#imgIndex=2)
+![图片](assets/MinIO%20%E7%A4%BE%E5%8C%BA%E7%89%88%E8%A2%AB%E6%95%85%E6%84%8F%E9%98%89%E5%89%B2%EF%BC%8CWeb%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E5%85%A8%E9%9D%A2%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9D%A5%E8%AF%95%E8%AF%95%E5%9B%BD%E4%BA%A7%E7%9A%84RustFS%EF%BC%9F/116ac52f89cddfe48fc1feb79d4de318_MD5.jpg)
 
 精简控制台 PR 删除 114736 行代码
 
@@ -86,13 +86,13 @@ services:
 
 `docker-compose up -d` 启动容器：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/pUq1tpL9smq3CjYcGstxFAGZ82kvhEBuz36Z0DeDo5oQ377q7KZES9OB2c8mEyiadGvO0vVDA3lEWsia1FgMqR9LNwMuUozkZibibdLtlbnkhMY/640?wx_fmt=other&from=appmsg#imgIndex=3)
+![图片](assets/MinIO%20%E7%A4%BE%E5%8C%BA%E7%89%88%E8%A2%AB%E6%95%85%E6%84%8F%E9%98%89%E5%89%B2%EF%BC%8CWeb%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E5%85%A8%E9%9D%A2%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9D%A5%E8%AF%95%E8%AF%95%E5%9B%BD%E4%BA%A7%E7%9A%84RustFS%EF%BC%9F/60ee139e8e105728ef11f30c3c23ef11_MD5.jpg)
 
 docker-compose 启动容器
 
 `docker compose ps` 查看状态：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/pUq1tpL9smr4icIrvUGsjxDTF0JxA9NjBbnia6q7Uc9a9MBrQ6Z51dYmo5CLjhp5pAhnkJPUEA9XYCr2AXE5teK6rDibakKLlmPcGq2YXTK320/640?wx_fmt=other&from=appmsg#imgIndex=4)
+![图片](assets/MinIO%20%E7%A4%BE%E5%8C%BA%E7%89%88%E8%A2%AB%E6%95%85%E6%84%8F%E9%98%89%E5%89%B2%EF%BC%8CWeb%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E5%85%A8%E9%9D%A2%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9D%A5%E8%AF%95%E8%AF%95%E5%9B%BD%E4%BA%A7%E7%9A%84RustFS%EF%BC%9F/6d537b030ec215a66a64d8f251bd25ec_MD5.jpg)
 
 docker compose ps 查看状态
 
@@ -100,7 +100,7 @@ docker compose ps 查看状态
 
 如果访问不了记得新增安全组，开放 `9000/9001` 的端口：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smr13KTqRSUAb2zaRibD5qcaRdIKaib08kHQMR5PpaL0tFtODXdJzoTucpPk0cC4ctte0sHzeBteqibnUpmo7vzZ4AUXB69sM8Tt8I/640?wx_fmt=other&from=appmsg#imgIndex=5)
+![图片](assets/MinIO%20%E7%A4%BE%E5%8C%BA%E7%89%88%E8%A2%AB%E6%95%85%E6%84%8F%E9%98%89%E5%89%B2%EF%BC%8CWeb%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E5%85%A8%E9%9D%A2%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9D%A5%E8%AF%95%E8%AF%95%E5%9B%BD%E4%BA%A7%E7%9A%84RustFS%EF%BC%9F/9fcf5094e7660db77cd127a911e3fa40_MD5.jpg)
 
 开放安全组端口
 
@@ -110,11 +110,11 @@ docker compose ps 查看状态
 
 默认的账号密码： `rustfsadmin/rustfsadmin`
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smomMM8yhpnITeMBicRy45sDrEBlVKvSWgOhoFoYhBjbntKNvktdKuiaFQPSrjb89ibiaoxRtY8NmS8EU9pb92lGIYQ0hdUoqQfwtZY/640?wx_fmt=other&from=appmsg#imgIndex=6)
+![图片](assets/MinIO%20%E7%A4%BE%E5%8C%BA%E7%89%88%E8%A2%AB%E6%95%85%E6%84%8F%E9%98%89%E5%89%B2%EF%BC%8CWeb%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E5%85%A8%E9%9D%A2%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9D%A5%E8%AF%95%E8%AF%95%E5%9B%BD%E4%BA%A7%E7%9A%84RustFS%EF%BC%9F/4c2a79de0868ec7fddc27256aeea80ec_MD5.jpg)
 
 RustFS 登录页
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/pUq1tpL9smorcn6Ib05ibbdZnHqkXPFsn8BXK3YmfQ083X3ibbaUuRwhWZc0ICkVpQnOSEDFRl1icp2mjWiafFRcq426BtRNUMza9rBK66PZZbg/640?wx_fmt=other&from=appmsg#imgIndex=7)
+![图片](assets/MinIO%20%E7%A4%BE%E5%8C%BA%E7%89%88%E8%A2%AB%E6%95%85%E6%84%8F%E9%98%89%E5%89%B2%EF%BC%8CWeb%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E5%85%A8%E9%9D%A2%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9D%A5%E8%AF%95%E8%AF%95%E5%9B%BD%E4%BA%A7%E7%9A%84RustFS%EF%BC%9F/7c96173ef7d7097dad8f655edebfc617_MD5.jpg)
 
 RustFS 控制台界面
 
@@ -222,7 +222,7 @@ server {
 
 测试 https 访问：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smokfw8Rxib0iboO82ODcdA6qUWyVh96sCDzicEBUgHL1icCIXMc9iaA0lUYZh0qvk5068qDotUegtzIJdKOCgR9ic46I6naibZSfbibichY/640?wx_fmt=other&from=appmsg#imgIndex=8)
+![图片](assets/MinIO%20%E7%A4%BE%E5%8C%BA%E7%89%88%E8%A2%AB%E6%95%85%E6%84%8F%E9%98%89%E5%89%B2%EF%BC%8CWeb%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E5%85%A8%E9%9D%A2%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9D%A5%E8%AF%95%E8%AF%95%E5%9B%BD%E4%BA%A7%E7%9A%84RustFS%EF%BC%9F/e7d9e2f11147da53dec36af409c4ebe3_MD5.jpg)
 
 测试 https 访问
 
@@ -255,7 +255,7 @@ server {
 
 截止目前， **累计输出 120w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4500+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
+![图片](assets/MinIO%20%E7%A4%BE%E5%8C%BA%E7%89%88%E8%A2%AB%E6%95%85%E6%84%8F%E9%98%89%E5%89%B2%EF%BC%8CWeb%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD%E5%85%A8%E9%9D%A2%E7%A7%BB%E9%99%A4%EF%BC%8C%E6%9D%A5%E8%AF%95%E8%AF%95%E5%9B%BD%E4%BA%A7%E7%9A%84RustFS%EF%BC%9F/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. 面试官：一台服务器最大能支持多少条 TCP 连接？问倒一大片。。。3. 用雪花 id 和 uuid 做 MySQL 主键，被领导怼了4. SpringBoot 实现电子文件签字+合同系统！
