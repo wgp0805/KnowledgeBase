@@ -755,6 +755,16 @@
 - **冲突**: 无
 - **归档**: raw/01-articles/为什么越来越多人使用PDFBox？.md → raw/09-archive/
 
+## [2026-07-22] ingest | 批量摄入 5 篇 raw/01-articles 技术资料
+- **变更**:
+  - 新增 sources: [[摘要-dataway-dataql]], [[摘要-minio-rustfs]], [[摘要-skywalking-install]], [[摘要-agent-engineering]], [[摘要-hermes-agent-complete-guide]]
+  - 新增 entities: [[Dataway]], [[DataQL]], [[Hasor]], [[IT码徒]], [[RustFS]], [[AiStor]], [[SkyWalking]], [[OpenJDK]], [[Rivet]], [[Vellum]], [[OpenAIAgentsSDK]]
+  - 新增 concepts: [[distributed-object-storage]], [[open-source-commercialization]], [[distributed-tracing]], [[augmented-llm]], [[prompt-chaining]], [[routing-workflow]], [[parallelization-workflow]], [[orchestrator-workers]], [[evaluator-optimizer]], [[autonomous-agent]], [[guardrails]], [[context-compression]], [[persistent-memory]], [[mixture-of-agents]], [[kanban-swarm]], [[gateway-messaging]], [[task-delegation]]
+  - 增量更新 entities: [[MinIO]]（覆盖社区版已移除 Web 界面 + 商业化信息）、[[HermesAgent]]（大幅扩展：上下文文件/持久记忆/技能系统/Kanban 多 Agent 协作/MoA 等）、[[NousResearch]]（补充 Skills Hub 生态建设）
+  - 更新 [[index.md]] 加入 33 个新条目（5 source + 11 entity + 17 concept）
+- **冲突**: [[MinIO]] Web 控制台信息冲突（旧文称有控制台/2024 年后社区版已移除），用户选择用新知识覆盖
+- **归档**: raw/01-articles/ 5 个源文件至 raw/09-archive/
+
 ## [2026-07-22] query | 手搓 Agent 完整指南
 - **输出**: 引用 [[Agent]], [[ReAct_Agent]], [[构建你的第一个Tool-Agent-从零理解ReAct循环]], [[摘要-agent-tools-workflow区别]], [[LangGraph]], [[ToolPipeline]]; 已保存为 [[hand-craft-agent-guide]]
 - **变更**: 新增 synthesis [[hand-craft-agent-guide]]；更新 [[index.md]] Syntheses 分类
