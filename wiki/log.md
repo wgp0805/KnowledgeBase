@@ -768,3 +768,7 @@
 ## [2026-07-22] query | 手搓 Agent 完整指南
 - **输出**: 引用 [[Agent]], [[ReAct_Agent]], [[构建你的第一个Tool-Agent-从零理解ReAct循环]], [[摘要-agent-tools-workflow区别]], [[LangGraph]], [[ToolPipeline]]; 已保存为 [[hand-craft-agent-guide]]
 - **变更**: 新增 synthesis [[hand-craft-agent-guide]]；更新 [[index.md]] Syntheses 分类
+
+## [2026-07-22] query | RocketMQ 重复消费问题
+- **输出**: 引用 [[摘要-rabbitmq-idempotency]], [[idempotency]], [[摘要-spring-cloud-stream-rocketmq]], [[摘要-prevent-duplicate-order]]; 已保存为 [[重复消费解决方案]]
+- **变更**: 新增 synthesis [[重复消费解决方案]]；更新 [[index.md]] Syntheses 分类
