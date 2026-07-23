@@ -238,6 +238,13 @@
 - [[摘要-agent-engineering]] — Agent 工程选型、五大工作流与自主智能体架构完整论证
 - [[摘要-hermes-agent-complete-guide]] — Hermes Agent 从安装配置到多 Agent 协作完全指南
 
+- [[摘要-从winforms到vue-ds-ui-gui框架]] — 从 WinForms 到 Vue：ds-ui 专业 GUI 框架的理念与实践
+- [[摘要-skywalking-docker-compose-install]] — Docker Compose 部署 SkyWalking 9.3.0 + ES 8.4.2
+- [[摘要-dyad-ai全栈构建器]] — Dyad 本地 AI 全栈应用构建器介绍（21k Star）
+- [[摘要-胖虎-skill教程]] — 胖虎 Skill 编写实战教程，最接地气的 Skill 入门指南
+- [[摘要-jeandle-llvm-jit编译器]] — 蚂蚁集团开源 Jeandle，基于 LLVM 的 JVM JIT 编译器
+- [[摘要-分库分表六大痛点]] — 分库分表六大痛点与主流解法详解
+
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[Trellis]] — 跨平台的 AI 编码项目级工作流框架
@@ -452,6 +459,15 @@
 - [[LlamaFactory]] — 一站式大模型微调框架
 - [[Zuul]] — Netflix 开源的 API 网关，同步阻塞模型，已被 Spring Cloud Gateway 替代
 - [[程序汪]] — 微信公众号「我是程序汪」作者，分享私活项目和真实商业案例
+
+- [[ds-ui]] — Canvas 专业 GUI 框架，对象式控件模型
+- [[Dyad]] — 开源本地 AI 全栈应用构建器（21k Star）
+- [[Supabase]] — 开源 Firebase 替代，BaaS 平台
+- [[LM_Studio]] — 本地 LLM 运行工具
+- [[Jeandle]] — 蚂蚁集团开源的基于 LLVM 的 JVM JIT 编译器
+- [[蚂蚁集团]] — 蚂蚁集团（Ant Group），Java 开源贡献者
+- [[小哈]] — 微信公众号「小哈学Java」作者
+- [[Seata]] — 阿里巴巴开源分布式事务框架
 - [[UniApp]] — 跨平台前端框架，基于 Vue 语法，支持小程序/H5/App 多端部署
 - [[PowerJob]] — 企业级分布式任务调度平台，无锁化设计，支持 DAG 工作流
 - [[XXL-JOB]] — 大众点评开源的分布式任务调度平台，基于数据库锁
@@ -701,6 +717,7 @@
 - [[distributed-object-storage]] — 分布式对象存储架构
 - [[open-source-commercialization]] — 开源商业化模式
 - [[distributed-tracing]] — 分布式链路追踪
+- [[LLVM]] — 开源编译器基础设施
 - [[augmented-llm]] — 增强型 LLM，叠加检索/工具/记忆三大能力
 - [[prompt-chaining]] — 提示链工作流，固定串行步骤
 - [[routing-workflow]] — 路由工作流，分类分发至专属流程

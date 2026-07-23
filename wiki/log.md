@@ -773,6 +773,19 @@
 - **输出**: 引用 [[摘要-rabbitmq-idempotency]], [[idempotency]], [[摘要-spring-cloud-stream-rocketmq]], [[摘要-prevent-duplicate-order]]; 已保存为 [[重复消费解决方案]]
 - **变更**: 新增 synthesis [[重复消费解决方案]]；更新 [[index.md]] Syntheses 分类
 
+## [2026-07-23] ingest | 批量摄入 6 篇 raw/01-articles 技术资料
+- **变更**:
+  - 新增 sources: [[摘要-从winforms到vue-ds-ui-gui框架]], [[摘要-skywalking-docker-compose-install]], [[摘要-dyad-ai全栈构建器]], [[摘要-胖虎-skill教程]], [[摘要-jeandle-llvm-jit编译器]], [[摘要-分库分表六大痛点]]
+  - 新增 entities: [[ds-ui]], [[Dyad]], [[Supabase]], [[LM_Studio]], [[Jeandle]], [[蚂蚁集团]], [[小哈]], [[Seata]]
+  - 新增 concept: [[LLVM]]
+  - 增量更新 entity [[SkyWalking]]（补充 Docker Compose 部署方式与健康检查配置）
+  - 增量更新 entity [[胖虎]]（补充 Skill 教程新文章）
+  - 增量更新 concept [[sharding]]（补充六大痛点详解：跨库 Join/分页排序/分布式事务/全局ID/数据迁移/聚合统计）
+  - 增量更新 concept [[JIT编译]]（补充 Jeandle 基于 LLVM 的 JIT 编译器新发展）
+  - 更新 [[index.md]] 加入 15 个新条目（6 source + 8 entity + 1 concept）
+- **冲突**: 无
+- **归档**: raw/01-articles/ 6 个源文件 + raw/_daily_digest.md → raw/09-archive/
+
 ## [2026-07-22] ingest | 摄入 AgentScope 入门指南（苏三）
 - **变更**: 
   - 新增 source [[摘要-AgentScope入门指南]]（苏三撰写的 AgentScope-Java 2.0 入门实战指南）

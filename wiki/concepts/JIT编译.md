@@ -2,8 +2,8 @@
 title: "JIT编译"
 type: concept
 tags: [Java, JVM, 编译器, 性能优化]
-sources: [raw/01-articles/面试官：什么是 AOT 编译？和 JIT 有什么区别？.md]
-last_updated: 2026-07-08
+sources: [raw/01-articles/面试官：什么是 AOT 编译？和 JIT 有什么区别？.md, raw/01-articles/蚂蚁又开源了一个顶级Java项目！.md]
+last_updated: 2026-07-23
 ---
 
 ## 定义
@@ -22,6 +22,7 @@ JIT（Just-In-Time，即时编译）是在程序运行过程中，[[JVM]] 监控
 - **预热问题**：应用启动初始为解释执行，性能差，需运行一段时间达到峰值
 - **内存开销**：需维护编译线程、CodeCache 等
 - **适用场景**：长期运行服务端应用（如 [[SpringBoot]] 长驻服务）、高性能计算、低延迟交易
+- **新发展**：蚂蚁集团（[[蚂蚁集团]]）开源了基于 [[LLVM]] 的 JVM JIT 编译器 [[Jeandle]]，将 LLVM 的模块化设计与优化能力引入 HotSpot JVM，目标是实现锁优化、逃逸分析、OSR（On-Stack Replacement）等高级优化
 
 ## 关联连接
 - [[摘要-aot-vs-jit编译]] — 来源
@@ -29,4 +30,6 @@ JIT（Just-In-Time，即时编译）是在程序运行过程中，[[JVM]] 监控
 - [[HotSpot]] — 代表实现
 - [[GraalVM]] — 对比的 AOT 技术
 - [[JVM]] — 运行环境
-- [[Java]] — 所属语言
+- [[摘要-jeandle-llvm-jit编译器]] — Jeandle 来源
+- [[LLVM]] — 编译基础设施
+- [[Jeandle]] — LLVM 基的 JVM JIT 编译器
