@@ -790,6 +790,10 @@
 - **输出**: 引用 [[LoopEngineering]], [[Skill]], [[提示词工程]], [[ClaudeCode]], [[Codex]], [[ECC]], [[Superpowers]], [[摘要-loop-engineering-guide]], [[摘要-loop-engineering-pitfalls]], [[摘要-胖虎-skill教程]]; 已保存为 [[loop-prompt-skill-guide]]
 - **变更**: 新增 synthesis [[loop-prompt-skill-guide]]；更新 [[index.md]] Syntheses 分类
 
+## [2026-07-23] synthesis | 固化 Loop 最佳实践（Java 全栈版）
+- **变更**: 新增 synthesis [[loop-best-practice-java-fullstack]]（7 个场景模板：读文章落地/编译检查/测试循环/TDD/前后端联编/动态循环 + CLAUDE.md 配置片段 + 常见坑）
+- **冲突**: 无（与现有 [[LoopEngineering]] 和 [[loop-prompt-skill-guide]] 互补，不冲突）
+
 ## [2026-07-22] ingest | 摄入 AgentScope 入门指南（苏三）
 - **变更**: 
   - 新增 source [[摘要-AgentScope入门指南]]（苏三撰写的 AgentScope-Java 2.0 入门实战指南）

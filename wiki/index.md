@@ -751,6 +751,7 @@
 - [[agent-error-correction-strategies]] — AI Agent 运行出错后的五层纠正策略：即时纠偏/流程防线/上下文隔离/自动防护/事后回退
 
 - [[loop-prompt-skill-guide]] — Loop / Prompt / Skill 三者区别、选型指南与最小可用最佳实践
+- [[loop-best-practice-java-fullstack]] — Loop 最佳实践（Java 全栈版）：Spring Boot + Maven + Vue 3 场景模板
 - [[摘要-vibe-coding-实战篇总结-上]] — 抖音创作者敲代码的小虾米总结的 Vibe Coding 开发全流程（上篇）：立项/选技术栈/搭架构/写 Agent 宪法
 
 - [[摘要-vibe-coding-实战篇总结-下]] — 抖音创作者敲代码的小虾米总结的 Vibe Coding 开发全流程（下篇）：立真源/落文档/敲代码/阶段验收
