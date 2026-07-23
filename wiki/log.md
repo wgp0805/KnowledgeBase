@@ -786,6 +786,10 @@
 - **冲突**: 无
 - **归档**: raw/01-articles/ 6 个源文件 + raw/_daily_digest.md → raw/09-archive/
 
+## [2026-07-23] query | Loop/Prompt/Skill 区别与最佳实践
+- **输出**: 引用 [[LoopEngineering]], [[Skill]], [[提示词工程]], [[ClaudeCode]], [[Codex]], [[ECC]], [[Superpowers]], [[摘要-loop-engineering-guide]], [[摘要-loop-engineering-pitfalls]], [[摘要-胖虎-skill教程]]; 已保存为 [[loop-prompt-skill-guide]]
+- **变更**: 新增 synthesis [[loop-prompt-skill-guide]]；更新 [[index.md]] Syntheses 分类
+
 ## [2026-07-22] ingest | 摄入 AgentScope 入门指南（苏三）
 - **变更**: 
   - 新增 source [[摘要-AgentScope入门指南]]（苏三撰写的 AgentScope-Java 2.0 入门实战指南）
