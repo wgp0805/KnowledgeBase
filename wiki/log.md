@@ -791,7 +791,8 @@
 - **变更**: 新增 synthesis [[loop-prompt-skill-guide]]；更新 [[index.md]] Syntheses 分类
 
 ## [2026-07-23] synthesis | 固化 Loop 最佳实践（Java 全栈版）
-- **变更**: 新增 synthesis [[loop-best-practice-java-fullstack]]（7 个场景模板：读文章落地/编译检查/测试循环/TDD/前后端联编/动态循环 + CLAUDE.md 配置片段 + 常见坑）
+- **变更**: 新增 synthesis [[loop-best-practice-java-fullstack]]（16 章：三种循环机制对比/五大设计原则源自生产坑/STATE.md 六段规范/CLAUDE.md 配置/8 个场景模板含分诊与迁移/Java 测试金字塔分层/四种编排模式含 builder-checker 隔离/L1-L3 渐进信任/停止规则与中断恢复/Token 预算/12 坑对策/反模式/2 端到端实战案例）
+- **关联**: 补充 [[LoopEngineering]] 五大坑的工程落地、[[ClaudeCode]] 权限与子Agent隔离、[[TDD]] 嵌套循环、[[计划模式]] 先对齐后执行
 - **冲突**: 无（与现有 [[LoopEngineering]] 和 [[loop-prompt-skill-guide]] 互补，不冲突）
 
 ## [2026-07-22] ingest | 摄入 AgentScope 入门指南（苏三）
