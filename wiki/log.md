@@ -1,4 +1,31 @@
-## [2026-07-08] ingest | 摄入 Git 撤回已 Push 代码文章
+## [2026-07-23] synthesis | 固化 Agent 与 RAG 通信方式对比
+- **变更**: 新增 [[agent-rag-communication-comparison]]；更新 [[index.md]] Syntheses 分类
+- **引用**: [[MCP]], [[FunctionCalling]], [[RAG]], [[Agent]], [[Skill]], [[知识库-skill-solutions]], [[摘要-RAG-KAG双引擎知识库系统]], [[摘要-rag-api-call]], [[摘要-codegraph-mcp-gateway]], [[LangChain4j]], [[SpringAI]]
+- **冲突**: 无
+
+## [2026-07-23] query | Agent 与 RAG 通信方式对比
+- **输出**: 引用 [[MCP]], [[FunctionCalling]], [[知识库-skill-solutions]], [[RAG]], [[Agent]], [[摘要-RAG-KAG双引擎知识库系统]], [[摘要-rag-api-call]], [[摘要-codegraph-mcp-gateway]]; 即时回答未保存（待用户确认是否固化为 synthesis）
+- **结论**: 通信方式不止 MCP，至少四种——Function Calling/@Tool（进程内）、MCP（标准化跨进程）、HTTP API（独立服务）、Skill（轻量文件检索）
+
+## [2026-07-23] query | 解释 RAG 概念
+- **输出**: 引用 [[RAG]], [[摘要-为什么Claude-Code不用RAG检索代码]], [[AgenticSearch]]; 即时回答未保存
+- **引用**: [[RAG]], [[AgenticSearch]], [[AgenticRAG]], [[GraphRAG]], [[ContextEngineering]]
+
+## [2026-07-23] query | 对比 Trae 智能体与 Claude Code 智能体功能
+- **输出**: 即时回答未保存
+- **引用**: [[ClaudeCode]], [[动态工作流]], [[Command-Agent-Skill编排]], [[子Agent编排]], [[Skill]]
+
+## [2026-07-23] synthesis | 保存 Trae vs Claude Code 智能体对比
+- **变更**: 新增 [[trae-vs-claude-code-agent-comparison]]；更新 [[index.md]]
+- **冲突**: 无
+
+## [2026-07-23] query | 知识库优先检索的 Skill 实现方案
+- **输出**: 即时回答未保存
+- **引用**: [[Skill]], [[CLAUDEmd]], [[AutoMemory]], [[RAG]], [[Hooks]]
+
+## [2026-07-23] synthesis | 保存知识库优先检索方案
+- **变更**: 新增 [[knowledge-base-skill-solutions]]；更新 [[index.md]]
+- **冲突**: 无
 - **变更**:
   - 新增 source [[摘要-git-撤回已push代码]]（小哈学Java，Git 撤回已 push 代码的四种方法对比）
   - 增量更新 entity [[Git]]（补充"撤回已 Push 代码的四种方法"章节：手动恢复/git revert/新建分支/git reset+force push，含四种 reset 模式 Soft/Mixed/Hard/Keep 对比表）

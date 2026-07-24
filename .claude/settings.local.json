@@ -43,7 +43,8 @@
       "Bash(mv \"raw/01-articles/谁再说 try catch 必须放 for 循环外面，直接走人！.md\" \"raw/09-archive/谁再说 try catch 必须放 for 循环外面，直接走人！.md\")",
       "Bash(cat)",
       "Bash(mv \"raw/01-articles/RocketMQ 已正式接入 AI ！.md\" \"raw/09-archive/RocketMQ 已正式接入 AI ！.md\")",
-      "Bash(ls \"raw/01-articles/\")"
+      "Bash(ls \"raw/01-articles/\")",
+      "Bash(PYTHONUTF8=1 python)"
     ]
   }
 }
