@@ -1,3 +1,7 @@
+## [2026-07-24] ingest | 摄入 Maven 4 重构文章与生产级 Agent 设计面试文章
+- **变更**: 更新 [[摘要-maven-4-重构]]（补充 Artifact 类型、Tree-based Lifecycle、条件表达式等）；更新 [[Maven]]（补充核心架构调整细节）；新增 [[摘要-生产级Agent设计]]；更新 [[PaiCLI]]（补充三种运行模式、记忆系统、上下文压缩等）；更新 [[context-compression]]（补充 Map-Reduce 分片摘要）；更新 [[渐进式披露]]（补充三阶段实现）；更新 [[沉默王二]]（补充来源）；新增 [[指数退避重试]]；新增 [[记忆系统-时间衰减加权]]；新增 [[智能客服Agent设计]]；新增 [[电商流量尖峰处理]]；更新 [[index.md]]
+- **冲突**: 无
+
 ## [2026-07-23] synthesis | 固化 Agent 与 RAG 通信方式对比
 - **变更**: 新增 [[agent-rag-communication-comparison]]；更新 [[index.md]] Syntheses 分类
 - **引用**: [[MCP]], [[FunctionCalling]], [[RAG]], [[Agent]], [[Skill]], [[知识库-skill-solutions]], [[摘要-RAG-KAG双引擎知识库系统]], [[摘要-rag-api-call]], [[摘要-codegraph-mcp-gateway]], [[LangChain4j]], [[SpringAI]]

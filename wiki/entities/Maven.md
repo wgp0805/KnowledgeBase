@@ -40,6 +40,11 @@ Maven 是 Apache 旗下的 Java 项目构建和依赖管理工具，通过 POM�
 
 ### 核心架构调整
 - [[Build POM 与 Consumer POM 分离]] — 构建 POM 与发布 POM 分离，是"彻底重构"的真正含义
+- **modules → subprojects**：`<modules>` 标记为 deprecated，改用 `<subprojects>`，支持子项目自动发现和安全发布（子项目失败 → 全部不发布）
+- **树形生命周期（Tree-based Lifecycle）**：每个子项目独立推进生命周期，依赖就绪即可启动，`mvn -b concurrent verify` 开启并行构建
+- **新增 Artifact 类型**：`classpath-jar` / `module-jar` 显式声明 classpath 或 module path；`processor` / `classpath-processor` / `modular-processor` 专门用于注解处理器
+- **条件表达式 Profile**：支持 `exists()` / `length()` 等函数，不再限于 os.name、jdk 等基础判断
+- **统一 Sources 模型**：`<sources>` 标签替代零散的 `<sourceDirectory>` 等配置，支持多目录和模块化项目
 
 ### POM 4.1.0 新特性
 1. 父 POM 版本自动推断（子模块不必再写 `<version>`）

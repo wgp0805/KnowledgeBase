@@ -1,245 +1,303 @@
 ---
-title: "Maven 4 要来了：15 年后，Java 构建工具迎来“彻底重构”"
-source: "https://mp.weixin.qq.com/s/sq4LWmo7Bmnkg_6R6Acc2Q"
+title: "Maven 4 要来了：15 年后，Java 构建工具迎来“彻底重构”"
+source: "https://mp.weixin.qq.com/s/gYseZJSE7UpzqIjPtgHKfw"
 ---
-小锋 java1234 *2026年7月7日 09:06*
+点击关注 👉 Java技术指北 *2026年7月24日 08:15*
 
-大家好，我是锋哥。
+自2010 年 Maven 3 发布以来，Maven 对 Java 构建生态的整体支持方式，几乎没有发生过颠覆性的变化。  
+然而在这 15 年里，Java 世界早已天翻地覆：  
+•模块化成为标配  
+•并行构建成为刚需  
+•云原生与容器化成为主流  
+•JDK 以一年两个大版本的节奏持续快速演进  
+  
+相比之下，Maven 本身却显得有些“老态”。
 
-> Maven作为基于POM（项目对象模型）强大的Java项目自动化构建工具，历经15年，当前最新版本：Apache Maven 4.0.0-rc-5（候选发布版），正式GA版本也快了。
+Maven 4 的出现，正是为了解决这些长期积累的历史包袱。
 
-![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/d62c1d517e75f68e877a2d9317d7d7e0_MD5.webp)
+虽然 Maven 4 仍未公布正式 GA 发布日期，但目前已经迭代到第五个发布候选版本（RC5），从项目成熟度和变更稳定性来看，距离正式发布已相当接近。
 
----
+现在正是提前了解、评估和准备升级的合适时机。
 
-## 目录
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/cbcaaf22f406380157c49da576b866f9_MD5.webp)
 
-- 一、为什么 Maven 4 等了这么久？
-- 二、Maven 4 现在走到哪一步了？
-- 三、核心变化：Build POM 与 Consumer POM 分离
-- 四、POM 4.1.0：少写重复配置
-- 五、新工具与日常体验升级
-- 六、从 Maven 3 迁移，可以怎么做？
+01
 
----
+到 4.1.0
 
-## 一、为什么 Maven 4 等了这么久？
-
-如果你用 Java 做项目，Maven 大概率不陌生。
-
-2004 年 Maven 2 发布，2010 年 Maven 3 上线——之后十多年，社区一直在 [3.x](http://3.x/) 小版本上迭代。不是团队偷懒，而是 **POM 文件背负了太多东西** ：既要描述"怎么构建"，又要告诉下游"怎么依赖我"。
-
-一旦改 POM 格式，Maven Central、IDE、Gradle 互操作、各类插件都要跟着动。于是 POM 4.0.0 的语法几乎被"冻住"了，很多 2005 年就提过的改进（比如自动推断父 POM 版本）一直拖到现在。
-
-Maven 4 的思路很直白： **把"构建用的 POM"和"给别人用的 POM"分开** 。构建时可以大胆进化，发布到仓库时仍保持兼容。这才是标题里"彻底重构"的真正含义——不是换皮，而是把底层架构理顺了。
-
----
-
-## 二、Maven 4 现在走到哪一步了？
-
-截至 2026 年 7 月，Maven 4 已发布多个 RC（Release Candidate）版本，最新为 **4.0.0-rc-5** （2025-11-13）。官方仍标注为测试用途，生产环境建议等 GA 正式版。
-
-几个硬性变化需要提前知道：
-
-| 项目 | Maven [3.x](http://3.x/) | Maven 4 |
-| --- | --- | --- |
-| 运行 Maven 本身 | Java 8+ | **Java 17+** |
-| 编译项目代码 | 自行配置 | 仍可编译 Java 8/11/17 等 |
-| POM 模型 | 4.0.0 | 构建可用 **4.1.0** |
-| 依赖解析 | Resolver [1.x](http://1.x/) | **Resolver 2.0** |
-
-> 注意：Java 17 只是运行 Maven 的要求，不代表你的项目必须升到 Java 17。老项目照样可以用 Toolchains 指定编译 JDK。
-
-![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/efac66f2f7e557a63ccbe36196292f3b_MD5.jpg)
-
----
-
-## 三、核心变化：Build POM 与 Consumer POM 分离
-
-这是 Maven 4 最重要的架构调整。
-
-- **Build POM** ：存在 Git 仓库里，包含插件配置、属性、父 POM 引用等完整信息。
-- **Consumer POM** ：发布到 Maven Central 的精简版，只保留下游真正需要的依赖信息。
-
-构建完成后，Maven 4 会自动从 Build POM 生成 Consumer POM。Consumer POM 会去掉 parent 引用（继承内容已内联）、去掉插件配置、只保留实际用到的依赖。
-
-![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e8ef9bef60273a70e5c291f8bca39506_MD5.png)
-
-### 构建与发布流程
-
-![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/96149cad917ae55e6adf54ecc494bd22_MD5.png)
-
-### 如何开启 Consumer POM 发布？
-
-在 rc-5 中，Consumer POM 扁平化 **默认关闭** ，需要显式开启：
+Maven 4 将 POM 的模型版本升级为4.1.0：
 
 ```
-maven.consumer.pom.flatten=true
-```
-
-或在命令行传递：
-
-```
-mvn deploy -Dmaven.
-            consumer.pom
-          .flatten=true
-```
-
----
-
-## 四、POM 4.1.0：少写重复配置
-
-升级到 POM 模型 4.1.0 后，很多"复制粘贴式"的配置可以删掉了。Maven 3 的 4.0.0 POM 仍然能正常构建，不升级也不影响。
-
-### 1\. 父 POM 版本自动推断
-
-2005 年的老需求，Maven 4 终于内置了。子模块不必再写 `<version>` ：
-
-```xml
-<project xmlns="
+<project
+    xmlns="
             http://maven.apache.org/POM/4.1.0"
-                   xmlns:xsi="
+          
+    xmlns:xsi="
             http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="
+          
+    xsi:schemaLocation="
             http://maven.apache.org/POM/4.1.0
-                   " 
-             target="_blank" 
-             style="color: #576b95; text-decoration: none;">
-            https://maven.apache.org/xsd/maven-4.1.0.xsd">
           
-  <!-- 省略 version，Maven 自动从父目录推断 -->  <parent>    <groupId>
-            com.example
-          </groupId>    <artifactId>my-app-parent</artifactId>  </parent>
-  <artifactId>my-service</artifactId>
-  <dependencies>    <!-- 同仓库子模块依赖也可省略 version -->    <dependency>      <groupId>
-            com.example
-          </groupId>      <artifactId>my-common</artifactId>    </dependency>  </dependencies></project>
+                        
+            http://maven.apache.org/xsd/maven-4.1.0.xsd"
+          >
+  <modelVersion>4.1.0</modelVersion>
+</project>
 ```
 
-### 2\. 子模块自动发现
+- 向后兼容：Maven 4 仍然可以构建 4.0.0 的 POM
+- 新能力只对 4.1.0 生效
+- modelVersion理论上可以省略，Maven 会从 schema 推导
 
-父 POM 使用 `pom` 打包，且没有手动写 `<subprojects>` 时，Maven 4 会自动扫描子目录里的 `              pom.xml            ` ：
+也就是说：
 
-```xml
-<project xmlns="
-            http://maven.apache.org/POM/4.1.0"
-          >  <modelVersion>4.1.0</modelVersion>  <groupId>
-            com.example
-          </groupId>  <artifactId>my-app-parent</artifactId>  <version>1.0.0-SNAPSHOT</version>  <packaging>pom</packaging>
-  </project>
+不升级 POM 也能用 Maven 4，但升级后才能真正“吃到红利”。
+
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e3415148a9018e581714e7cf7e6c0289_MD5.png)
+
+02
+
+Build POM / Consumer POM 分离：终于解决“POM 污染”
+
+这是 Maven 4最重要、也是最颠覆性的变化之一。
+
+在 Maven 3 中，发布到仓库的 POM 同时包含：
+
+- 插件配置
+- 构建细节
+- 父 POM 引用
+- 各种属性
+
+依赖使用者会被迫解析大量“与我无关”的信息。
+
+Maven 4 的解决方法是POM 扁平化（Flattening）。
+
+Maven 4 正式区分：
+
+| 类型 | 用途 |
+| --- | --- |
+| Build POM | 项目自身构建 |
+| Consumer POM | 提供给依赖方 |
+
+Consumer POM 具备以下特征：
+
+- 不包含插件配置
+- 不包含父 POM
+- 不包含未使用依赖
+- 只保留真实传递依赖
+- 属性已被解析为具体值
+
+开启方式：
+
+```
+mvn clean install -
+            Dmaven.consumer.pom.flatten=
+          true
 ```
 
-### 3\. CI 友好版本号，不再需要 Flatten 插件
+Maven 3 时代需要额外的 Flatten Maven Plugin，Maven 4 中已成为原生能力。
 
-Maven 3 时代常用 `${revision}` 配合 flatten-maven-plugin。Maven 4 内置完整支持：
+这一步，直接让依赖解析更快、更干净、更可预测。
+
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e3415148a9018e581714e7cf7e6c0289_MD5.png)
+
+03
+
+新 Artifact Type：显式控制 classpath / module path
+
+在 Maven 3 中：
+
+- 普通 JAR → classpath
+- 含 [module-info.class](http://module-info.class/) → module path（自动推断）
+
+这种“隐式规则”在 Java 模块化时代并不够清晰。
+
+Maven 4 新增类型：
 
 ```
-<groupId>
-            com.example
+<type>classpath-jar</type>
+<type>module-jar</type>
+```
+
+开发者终于可以显式声明依赖放在哪里。
+
+Maven 4 还新增了专门的注解处理器类型：
+
+- processor
+- classpath-processor
+- modular-processor
+
+以 Lombok 为例：
+
+```
+<dependencies>
+  <dependency>
+    <groupId>
+            org.projectlombok
           </groupId>
-<artifactId>my-app</artifactId>
-<version>${revision}</version>
-```
-```
-# 在 CI 流水线中指定版本
-mvn verify -Drevision=1.2.0
-```
+    <artifactId>lombok</artifactId>
+    <version>${
+            lombok.version}
+          </version>
+    <type>classpath-processor</type>
+</dependency>
 
-或在 `.mvn/             maven.config           ` 中固定：
-
-```
--Drevision=1.0.0-SNAPSHOT
-```
-
-### 4\. 新的 BOM 打包类型
-
-BOM（Bill of Materials）有了专属 `packaging` 类型，和 parent POM 职责分得更清楚：
-
-```xml
-<project xmlns="
-            http://maven.apache.org/POM/4.1.0"
-          >  <modelVersion>4.1.0</modelVersion>  <groupId>
-            com.example
-          </groupId>  <artifactId>my-app-bom</artifactId>  <version>1.0.0</version>  <packaging>bom</packaging>
-  <dependencyManagement>    <dependencies>      <dependency>        <groupId>
-            org.springframework.boot
-          </groupId>        <artifactId>spring-boot-dependencies</artifactId>        <version>3.4.0</version>        <type>pom</type>        <scope>import</scope>      </dependency>    </dependencies>  </dependencyManagement></project>
+<dependency>
+    <groupId>
+            org.projectlombok
+          </groupId>
+    <artifactId>lombok</artifactId>
+    <version>${
+            lombok.version}
+          </version>
+    <scope>provided</scope>
+</dependency>
+</dependencies>
 ```
 
-### 5\. 多源码目录，告别 Build Helper 插件
+Maven 4明确区分了 API classpath 与 processor classpath，构建语义更清晰，也更利于工具链优化。
 
-```xml
-<build>  <sources>    <source>      <scope>main</scope>      <directory>src/main/java</directory>    </source>    <source>      <scope>main</scope>      <directory>src/main/kotlin</directory>    </source>    <source>      <scope>test</scope>      <directory>src/test/java</directory>    </source>  </sources></build>
-```
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
----
+04
 
-## 五、新工具与日常体验升级
+“让路”
 
-### Maven Upgrade Tool（mvnup）
+Java 9 引入模块系统后：
 
-官方提供的迁移助手，先检查、再自动修复：
+- Maven Modules
+- Java Modules
 
-```
-# 检查项目与 Maven 4 的兼容问题
-mvnup check
+长期让新手和工具“集体懵逼”。
 
-# 自动应用推荐的 POM 修复
-mvnup apply
-```
+Maven 4 的选择是：
 
-### Maven Shell（mvnsh）
-
-类似 REPL 的交互式 Shell，改完代码不用反复敲完整命令：
+- modules → subprojects
+- modules 标记为 deprecated
 
 ```
-mvnsh
-# 进入交互模式后
-mvn> compile
-mvn> test -pl my-service
-mvn> exit
+<subprojects>
+  <subproject>project-a</subproject>
+  <subproject>project-b</subproject>
+</subprojects>
 ```
 
-### 构建失败后一键续跑
+同时还支持：
 
-多模块项目构建失败后，Maven 4 的 `-r` （ `--resume` ）更聪明——会自动从失败模块续跑，并跳过已成功构建的模块：
+- Parent 推断：空\<parent />自动识别
+- 子项目自动发现：无需显式声明
+- 统一构建时间戳
+- 安全发布：子项目失败 → 全部不发布
+
+这是一次语义层面 + 工程实践层面的双重升级。
+
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e3415148a9018e581714e7cf7e6c0289_MD5.png)
+
+05
+
+树形生命周期：并行构建终于“名正言顺”
+
+Maven 3 的生命周期是线性的，即使多模块，也很难高效并行。
+
+Maven 4 引入Tree-based Lifecycle：
+
+- 每个子项目独立推进生命周期
+- 依赖就绪即可启动
+- 大型多模块构建速度显著提升
+
+开启方式：
 
 ```
-# 首次全量构建
-mvn verify
-
-# 修复代码后，从失败处继续
-mvn verify -r
+mvn -b concurrent verify
 ```
 
-### 迁移决策流程
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
-![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/456ad1ab0661e8e6f048fadded39a5c8_MD5.png)
+06
 
-## 六、从 Maven 3 迁移，可以怎么做？
+配置能力显著增强的“小变化”
 
-不必一步到位。比较稳妥的路径：
+1\. 条件表达式 Profile
 
-1. **本地先试** ：装 Maven 4 RC + JDK 17，跑 `mvnup check` 。
-2. **升级插件** ：enforcer、shade、remote-resources 等插件升到最新版。
-3. **固定插件版本** ：Maven 4 的 Super POM 默认插件版本有变化，建议在 POM 里显式写死版本，避免"没改代码构建行为却变了"。
-4. **CI 并行验证** ：保留 Maven 3 流水线，新增一条 Maven 4 试验线。
-5. **等 GA 再全面切换** ：RC 阶段适合尝鲜和反馈，生产环境建议等正式版。
-
-一个最小验证示例：
-
-```bash
-# 下载并解压 Maven 4curl -L -O 
-            https://archive.apache.org/dist/maven/maven-4/4.0.0-rc-5/binaries/apache-maven-4.0.0-rc-5-bin.tar.gz
-          tar -xzf 
-            apache-maven-4.0.0-rc-5-bin.tar.gz
-          
-# 指定 Maven 4 运行（不影响系统默认 Maven 3）/path/to/
-            apache-maven-4.0.0-rc-5/bin/mvn
-           -version
-# 在项目目录检查兼容性/path/to/
-            apache-maven-4.0.0-rc-5/bin/mvnup
-           check
+```
+<condition>
+  exists('${
+            project.basedir}/src/**/*.xsd'
+          )
+  && length(${
+            user.name}
+          ) > 5
+</condition>
 ```
 
-[最近，锋哥又开始收Java+AI大模型编程学员了！](https://mp.weixin.qq.com/s?__biz=MzIxNTAwNjA4OQ==&mid=2247571719&idx=1&sn=8a19d877e40d49d46ce3637575bb7403&scene=21#wechat_redirect)
+不再只是 [os.name、jdk这种基础判断，而是真正的表达式系统。](http://os.xn--namejdk,-im3gq721asonx6tfvtbub4y3bow4bifcrwhqxipxrolj9ugo59c11yb6sa./)
+
+2\. 统一的 Sources 模型
+
+Maven 3：
+
+```
+<sourceDirectory>...</sourceDirectory>
+<testSourceDirectory>...</testSourceDirectory>
+```
+
+Maven 4：
+
+```
+<sources>
+  <source>
+    <scope>main</scope>
+    <directory>my-custom-dir/foo</directory>
+  </source>
+  <source>
+    <scope>test</scope>
+    <directory>my-custom-dir/bar</directory>
+  </source>
+</sources>
+```
+
+更适合：
+
+- 多目录
+- 多版本
+- 模块化项目
+- 无插件配置场景
+
+Maven 4 还提供了官方升级工具：
+
+```
+mvnup check   # 只生成报告
+mvnup apply   # 自动修改
+```
+
+它会分析：
+
+- POM
+- 插件
+- 项目结构
+
+并给出可执行的升级建议。
+
+—END—
+
+写在最后
+
+2019年，因自己做副业走向创业以后，我应该是全网最早一批呼吁大家，一定要有第二职业的自媒体博主了。
+
+因为我从上班的第一天起，人一定要把命运仅仅的握在自己手上，而不是依赖于外部的环境。
+
+所以，我上班永远都是给自己干，拼命的干只是为了积累经验，从上班的第一天起我就没有停止过折腾。
+
+大家见过的没见过的项目或者副业，我基本都干过还干的不错，包括什么炒域名、线下创业融资、给海外做支付等等。
+
+失败过无数次，最终才走到今天。
+
+但其实最重要的是走出的那第一步，在职场外赚到的第一元钱，会让你对这个世界有完全不一样的了解。
+
+那就是世界很大一切皆有可能。
+
+如果你对副业或者第二职业感兴趣，可以加我微信会自动给你发一份资料，也是我实践十几个项目后选到最佳的。
+
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/4cd303044be1a492fb161e5b9b0ae37b_MD5.webp)
+
+**加上面微信，备注：微笑，发一份项目资料。**
