@@ -246,6 +246,7 @@
 - [[摘要-分库分表六大痛点]] — 分库分表六大痛点与主流解法详解
 
 - [[摘要-生产级Agent设计]] — 生产级 Agent 设计的 11 个核心工程问题，涵盖上下文压缩、记忆系统、指数退避重试、渐进式披露等
+- [[摘要-程序汪-肉鸽小游戏二期]] — 程序汪分享的街机H5肉鸽小游戏二期项目案例（4万/20天/2人/Cocos Creator）
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -461,6 +462,8 @@
 - [[LlamaFactory]] — 一站式大模型微调框架
 - [[Zuul]] — Netflix 开源的 API 网关，同步阻塞模型，已被 Spring Cloud Gateway 替代
 - [[程序汪]] — 微信公众号「我是程序汪」作者，分享私活项目和真实商业案例
+- [[CocosCreator]] — 开源跨平台H5游戏引擎，Cocos Creator 3.x系列
+- [[Netty]] — Java高性能异步事件驱动网络通信框架
 
 - [[ds-ui]] — Canvas 专业 GUI 框架，对象式控件模型
 - [[Dyad]] — 开源本地 AI 全栈应用构建器（21k Star）
@@ -527,6 +530,8 @@
 - [[OpenAIAgentsSDK]] — OpenAI 代码优先 Agent 开发 SDK
 
 ## Concepts
+- [[roguelike-game]] — 以随机生成和永久死亡为特色的游戏类型
+- [[jsbridge]] — H5与原生APP之间双向通信的桥梁模式
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
 - [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
 - [[MVCC]] — 多版本并发控制机制
