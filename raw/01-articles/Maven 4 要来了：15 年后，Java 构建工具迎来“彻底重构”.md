@@ -19,7 +19,7 @@ Maven 4 的出现，正是为了解决这些长期积累的历史包袱。
 
 现在正是提前了解、评估和准备升级的合适时机。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/cbcaaf22f406380157c49da576b866f9_MD5.webp)
 
 01
 
@@ -53,7 +53,7 @@ Maven 4 将 POM 的模型版本升级为4.1.0：
 
 不升级 POM 也能用 Maven 4，但升级后才能真正“吃到红利”。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=3)
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 02
 
@@ -99,7 +99,7 @@ Maven 3 时代需要额外的 Flatten Maven Plugin，Maven 4 中已成为原生�
 
 这一步，直接让依赖解析更快、更干净、更可预测。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=5)
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 03
 
@@ -157,7 +157,7 @@ Maven 4 还新增了专门的注解处理器类型：
 
 Maven 4明确区分了 API classpath 与 processor classpath，构建语义更清晰，也更利于工具链优化。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=7)
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 04
 
@@ -191,7 +191,7 @@ Maven 4 的选择是：
 
 这是一次语义层面 + 工程实践层面的双重升级。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=9)
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 05
 
@@ -211,7 +211,7 @@ Maven 4 引入Tree-based Lifecycle：
 mvn -b concurrent verify
 ```
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=11)
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 06
 
@@ -298,6 +298,6 @@ mvnup apply   # 自动修改
 
 如果你对副业或者第二职业感兴趣，可以加我微信会自动给你发一份资料，也是我实践十几个项目后选到最佳的。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/kiaNs19uFIvwg7CNXEgic9K2APKKd836v4yKXmTdlmJYHicY2g9gNFNYDG5Ph9ngib5DibUVEBEfiaCY6lyZzwjIDQA8CUJOaYzSNqtT7x11n6Wics/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=1)
+![图片](assets/Maven%204%20%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%9A15%20%E5%B9%B4%E5%90%8E%EF%BC%8CJava%20%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7%E8%BF%8E%E6%9D%A5%E2%80%9C%E5%BD%BB%E5%BA%95%E9%87%8D%E6%9E%84%E2%80%9D/4cd303044be1a492fb161e5b9b0ae37b_MD5.webp)
 
 **加上面微信，备注：微笑，发一份项目资料。**
