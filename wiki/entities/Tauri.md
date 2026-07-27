@@ -28,5 +28,5 @@ Tauri 是一个用于构建小型、快速且安全的桌面应用程序的框�
 ## 关联连接
 
 - [[Rust]] — 后端语言
-- [[marka.md]] — 使用 Tauri 的应用案例
+- [[marka]] — 使用 Tauri 的应用案例
 - [[Tauri]] — 官网：https://tauri.app

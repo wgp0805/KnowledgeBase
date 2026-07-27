@@ -27,6 +27,6 @@ CodeMirror 是一个用于浏览器的代码编辑器组件，提供丰富的 AP
 
 ## 关联连接
 
-- [[marka.md]] — 使用 CodeMirror 的应用
+- [[marka]] — 使用 CodeMirror 的应用
 - [[Shiki]] — 常配合使用的代码高亮库
 - [[Vim]] — CodeMirror 支持的键绑定模式

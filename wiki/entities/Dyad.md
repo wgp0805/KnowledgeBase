@@ -24,6 +24,6 @@ Dyad 是一款开源的本地 AI 全栈应用构建器（21k Star），类似于
 ## 关联连接
 - [[摘要-dyad-ai全栈构建器]] — 来源
 - [[Supabase]] — 深度集成的 BaaS 平台
-- [[LM Studio]] — 本地 LLM 运行工具
+- [[LM_Studio]] — 本地 LLM 运行工具
 - [[MCP]] — 模型上下文协议扩展
 - [[AICoding]] — AI 辅助编程范式

@@ -26,4 +26,4 @@ Rust 是一门系统编程语言，以零成本抽象和内存安全（所有权
 - [[Java]]
 - [[GraalVM]]
 - [[摘要-springboot3.2-graalvm上手]]
-- [[marka.md]] — 使用 Rust 构建的 Markdown 编辑器
+- [[marka]] — 使用 Rust 构建的 Markdown 编辑器

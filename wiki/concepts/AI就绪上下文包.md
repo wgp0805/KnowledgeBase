@@ -28,7 +28,7 @@ AI 就绪上下文包（AI-ready Context Bundle）是将多个相关文件打包
 
 ## 关联连接
 
-- [[marka.md]] — 生成 AI 就绪上下文包的工具
-- [[Context Tray]] — 生成上下文包的功能组件
+- [[marka]] — 生成 AI 就绪上下文包的工具
+- [[ContextTray]] — 生成上下文包的功能组件
 - [[Token估算]] — 控制上下文长度的辅助功能
 - [[AICoding]] — AI 辅助编程的工作流

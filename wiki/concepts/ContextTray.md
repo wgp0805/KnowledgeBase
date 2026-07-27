@@ -28,6 +28,6 @@ Context Tray（上下文托盘）是 marka.md 的核心功能，允许用户将�
 
 ## 关联连接
 
-- [[marka.md]] — 实现 Context Tray 的应用
+- [[marka]] — 实现 Context Tray 的应用
 - [[AI就绪上下文包]] — Context Tray 的输出格式
 - [[Token估算]] — Context Tray 的辅助功能

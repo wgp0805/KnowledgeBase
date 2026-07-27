@@ -506,7 +506,7 @@
 - [[Yazi]] — Rust 编写的极速终端文件管理器
 - [[AlibabaCloud]] — 阿里云，全球领先的云计算及人工智能科技公司
 - [[阶跃星辰]] — AI 大模型公司，Step 3.7 Flash 400 Tokens/s 推理速度
-- [[marka.md]] — 基于 Rust+Tauri 的轻量 Markdown 编辑器，专为 AI 上下文打包设计
+- [[marka]] — 基于 Rust+Tauri 的轻量 Markdown 编辑器，专为 AI 上下文打包设计
 - [[Tauri]] — Rust+Web 技术的桌面应用框架
 - [[CodeMirror]] — 浏览器代码编辑器组件，支持语法高亮和 Vim 模式
 - [[Shiki]] — 基于 TextMate 语法的代码高亮库，与 VS Code 一致
@@ -534,6 +534,12 @@
 - [[Rivet]] — 可视化 AI Agent 开发框架
 - [[Vellum]] — AI Agent 开发框架
 - [[OpenAIAgentsSDK]] — OpenAI 代码优先 Agent 开发 SDK
+- [[ArchitectureDiagramGenerator]] — Cocoon AI 开源的架构图生成 Skill
+- [[CocoonAI]] — 架构图生成 Skill 与流程图生成 Skill 的开发团队
+- [[JetBrainsMono]] — JetBrains 出品的开发者字体
+- [[RadixUI]] — 无样式 React UI 组件库
+- [[React]] — Meta 出品的 JavaScript UI 库
+- [[TailwindCSS]] — 实用优先的 CSS 框架
 
 ## Concepts
 - [[Apdex]] — 应用性能指数，量化用户体验满意度的 APM 核心指标
@@ -750,6 +756,13 @@
 - [[记忆系统-时间衰减加权]] — Agent 记忆检索策略，最新记忆优先的时间衰减排序
 - [[智能客服Agent设计]] — 智能客服 Agent 四层架构设计（意图识别→知识检索→工具执行→兜底升级）
 - [[电商流量尖峰处理]] — 电商大促场景五道防线（异步队列/模型分层/热点缓存/限流/熔断降级）
+- [[AI终端]] — 集成 AI 能力的终端模拟器
+- [[Checkpoint]] — AI Agent 工作流持久化检查点机制
+- [[Protobuf]] — Google 高效结构化数据序列化协议
+- [[ToolCalling]] — LLM 工具调用能力（与 Function Calling 同义）
+- [[auto-mode]] — Claude Code 无需确认直接执行命令的权限模式
+- [[gRPC]] — Google 高性能 RPC 框架
+- [[知识图谱]] — 以图结构组织知识的数据模型
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

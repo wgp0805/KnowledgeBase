@@ -24,6 +24,6 @@ Shiki 是一个基于 TextMate 语法的代码高亮库，使用 VS Code 的语�
 
 ## 关联连接
 
-- [[marka.md]] — 使用 Shiki 的应用
+- [[marka]] — 使用 Shiki 的应用
 - [[CodeMirror]] — 常配合使用的编辑器组件
 - [[markdown-it]] — marka.md 使用的 Markdown 渲染器

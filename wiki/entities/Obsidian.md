@@ -22,4 +22,4 @@ last_updated: 2026-07-03
 - [[自生长知识库]] — 关联概念
 - [[ObsidianCanvas]] — 相关功能
 - [[Codex]] — 联动 AI Agent
-- [[marka.md]] — 同类本地优先 Markdown 编辑器
+- [[marka]] — 同类本地优先 Markdown 编辑器

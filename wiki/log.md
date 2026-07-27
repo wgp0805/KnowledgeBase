@@ -6,6 +6,12 @@
 - **变更**: 新增 [[摘要-skywalking-java-agent-使用]]、[[摘要-druid-连接池极致优化]]、[[摘要-springboot-onlyoffice-在线编辑]]、[[摘要-推荐5个AI-Agent项目]]；新增 [[Halo]]、[[OnlyOffice]]、[[Apdex]]；更新 [[SkyWalking]]（补充 Java Agent 配置与 Web 界面功能）；更新 [[Druid]]（补充参数调优/监控/安全/泄漏检测）；更新 [[在线文档处理]]（补充 OnlyOffice 方案）；更新 [[index.md]]
 - **冲突**: 无
 
+## [2026-07-27] lint | 自动修复死链和未同步索引
+- **变更**: 修复 `[[marka.md]]`→`[[marka]]`（3 处概念页面 + index.md）；修复大小写 `[[Claude-code-best-practice]]`→`[[claude-code-best-practice]]`、`[[LM Studio]]`→`[[LM_Studio]]`、`[[Context Tray]]`→`[[ContextTray]]`；注册 13 个未同步索引文件到 [[index.md]]（Entities: ArchitectureDiagramGenerator, CocoonAI, JetBrainsMono, RadixUI, React, TailwindCSS; Concepts: AI终端, Checkpoint, Protobuf, ToolCalling, auto-mode, gRPC, 知识图谱）
+- **冲突**: 无
+- **变更**: 新增 [[摘要-skywalking-java-agent-使用]]、[[摘要-druid-连接池极致优化]]、[[摘要-springboot-onlyoffice-在线编辑]]、[[摘要-推荐5个AI-Agent项目]]；新增 [[Halo]]、[[OnlyOffice]]、[[Apdex]]；更新 [[SkyWalking]]（补充 Java Agent 配置与 Web 界面功能）；更新 [[Druid]]（补充参数调优/监控/安全/泄漏检测）；更新 [[在线文档处理]]（补充 OnlyOffice 方案）；更新 [[index.md]]
+- **冲突**: 无
+
 ## [2026-07-23] synthesis | 固化 Agent 与 RAG 通信方式对比
 - **变更**: 新增 [[agent-rag-communication-comparison]]；更新 [[index.md]] Syntheses 分类
 - **引用**: [[MCP]], [[FunctionCalling]], [[RAG]], [[Agent]], [[Skill]], [[知识库-skill-solutions]], [[摘要-RAG-KAG双引擎知识库系统]], [[摘要-rag-api-call]], [[摘要-codegraph-mcp-gateway]], [[LangChain4j]], [[SpringAI]]

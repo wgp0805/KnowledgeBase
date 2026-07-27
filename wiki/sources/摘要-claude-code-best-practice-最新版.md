@@ -21,4 +21,4 @@ last_updated: 2026-07-14
 - [[Gotchas]] — 踩坑经验记录
 - [[ContextManagement]] — 上下文管理
 - [[子Agent编排]] — 子智能体机制
-- [[Claude-code-best-practice]] — 社区最佳实践仓库
+- [[claude-code-best-practice]] — 社区最佳实践仓库
