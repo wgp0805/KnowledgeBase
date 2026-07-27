@@ -21,7 +21,7 @@ user-invocable: true
 
 ## 触发逻辑
 
-1. **用户执行 `/ingest`**：扫描 `raw/` 所有子目录（排除 `09-archive/`），找出待处理文件。
+1. **用户执行 `/ingest`**：扫描 `raw/` 所有子目录（排除 `09-archive/`和 _daily_digest.md ），找出待处理文件。
 2. **用户执行 `/ingest <path>`**：仅处理指定文件。
 3. **隐式触发**：用户说"把这个资料摄入知识库"、"导入这篇文章"时，自动执行 ingest。
 
