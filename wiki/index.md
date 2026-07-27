@@ -248,6 +248,10 @@
 - [[摘要-生产级Agent设计]] — 生产级 Agent 设计的 11 个核心工程问题，涵盖上下文压缩、记忆系统、指数退避重试、渐进式披露等
 - [[摘要-程序汪-肉鸽小游戏二期]] — 程序汪分享的街机H5肉鸽小游戏二期项目案例（4万/20天/2人/Cocos Creator）
 
+- [[摘要-skywalking-java-agent-使用]] — SkyWalking Java Agent 安装配置与 Web 界面详解
+- [[摘要-druid-连接池极致优化]] — Druid 连接池极致优化策略（参数调优/监控/安全/泄漏检测）
+- [[摘要-springboot-onlyoffice-在线编辑]] — Spring Boot 集成 OnlyOffice 实现在线 Word 编辑
+
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[Trellis]] — 跨平台的 AI 编码项目级工作流框架
@@ -524,12 +528,15 @@
 - [[RustFS]] — 国产 Rust 编写的高性能分布式对象存储系统
 - [[AiStor]] — MinIO 商业化对象存储产品
 - [[SkyWalking]] — Apache 开源分布式链路追踪系统
+- [[Halo]] — 现代化个人独立博客系统，基于 Java
+- [[OnlyOffice]] — 开源免费在线 Office 文档编辑套件
 - [[OpenJDK]] — Java 平台开源参考实现
 - [[Rivet]] — 可视化 AI Agent 开发框架
 - [[Vellum]] — AI Agent 开发框架
 - [[OpenAIAgentsSDK]] — OpenAI 代码优先 Agent 开发 SDK
 
 ## Concepts
+- [[Apdex]] — 应用性能指数，量化用户体验满意度的 APM 核心指标
 - [[roguelike-game]] — 以随机生成和永久死亡为特色的游戏类型
 - [[jsbridge]] — H5与原生APP之间双向通信的桥梁模式
 - [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期

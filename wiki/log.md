@@ -2,6 +2,10 @@
 - **变更**: 更新 [[摘要-maven-4-重构]]（补充 Artifact 类型、Tree-based Lifecycle、条件表达式等）；更新 [[Maven]]（补充核心架构调整细节）；新增 [[摘要-生产级Agent设计]]；更新 [[PaiCLI]]（补充三种运行模式、记忆系统、上下文压缩等）；更新 [[context-compression]]（补充 Map-Reduce 分片摘要）；更新 [[渐进式披露]]（补充三阶段实现）；更新 [[沉默王二]]（补充来源）；新增 [[指数退避重试]]；新增 [[记忆系统-时间衰减加权]]；新增 [[智能客服Agent设计]]；新增 [[电商流量尖峰处理]]；更新 [[index.md]]
 - **冲突**: 无
 
+## [2026-07-27] ingest | 批量摄入 4 篇技术文章（SkyWalking Agent/Druid 优化/OnlyOffice 集成/AI Agent 项目推荐）
+- **变更**: 新增 [[摘要-skywalking-java-agent-使用]]、[[摘要-druid-连接池极致优化]]、[[摘要-springboot-onlyoffice-在线编辑]]、[[摘要-推荐5个AI-Agent项目]]；新增 [[Halo]]、[[OnlyOffice]]、[[Apdex]]；更新 [[SkyWalking]]（补充 Java Agent 配置与 Web 界面功能）；更新 [[Druid]]（补充参数调优/监控/安全/泄漏检测）；更新 [[在线文档处理]]（补充 OnlyOffice 方案）；更新 [[index.md]]
+- **冲突**: 无
+
 ## [2026-07-23] synthesis | 固化 Agent 与 RAG 通信方式对比
 - **变更**: 新增 [[agent-rag-communication-comparison]]；更新 [[index.md]] Syntheses 分类
 - **引用**: [[MCP]], [[FunctionCalling]], [[RAG]], [[Agent]], [[Skill]], [[知识库-skill-solutions]], [[摘要-RAG-KAG双引擎知识库系统]], [[摘要-rag-api-call]], [[摘要-codegraph-mcp-gateway]], [[LangChain4j]], [[SpringAI]]
