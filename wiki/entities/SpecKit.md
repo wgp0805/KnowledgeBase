@@ -3,7 +3,7 @@ title: "SpecKit"
 type: entity
 tags: [AI编程, 规范驱动, GitHub官方, 七阶段]
 sources: [raw/01-articles/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md]
-last_updated: 2026-06-26
+last_updated: 2026-07-27
 ---
 
 ## 定义
@@ -58,3 +58,6 @@ uv tool install specify-cli --from
 - [[VibeCoding]] — 共同要解决的现象
 - [[ClaudeCode]] — 主要承载平台
 - [[摘要-superpowers-openspec-speckit对比]] — 来源
+
+### 对比视角：mattpocock/skills 的批评
+[[MattPocock]] 的 `mattpocock/skills` 仓库将 Spec-Kit 归类为"接管流程"的重量级框架，与 GSD、BMAD 一同批评。其核心论点是：Spec-Kit 尝试通过"拥有流程"来帮助用户，但代价是用户失去控制权，且流程本身出现 bug 时难以排查。Matt 主张的替代方案是"小、可改、可组合、跨模型"的 skill 集合，用户保留控制权，skill 作为纪律而非框架。

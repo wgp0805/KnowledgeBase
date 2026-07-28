@@ -3,7 +3,7 @@ title: "Skill"
 type: concept
 tags: [AI, Agent, 技能扩展]
 sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md]
-last_updated: 2026-06-30
+last_updated: 2026-07-27
 ---
 
 ## 定义
@@ -99,3 +99,5 @@ Tool 与 Skill 的区别：Tool 是功能型（执行原子操作），Skill 是
 - [[Casebook]] — 将测试设计方法沉淀为 Agent 技能包的案例
 - [[摘要-casebook-ai-native-testcase-workflow]] — 来源（Casebook 中的 .agents/skills 用法）
 - [[摘要-claude-code-learning-roadmap]] — 来源（Claude Code 白银级定制能力）
+- [[MattPocock]] — User-invoked vs Model-invoked 两层架构提出者
+- [[摘要-mattpocock-skills]] — 来源（Skill 作为纪律而非框架的设计哲学）

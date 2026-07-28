@@ -251,6 +251,7 @@
 - [[摘要-skywalking-java-agent-使用]] — SkyWalking Java Agent 安装配置与 Web 界面详解
 - [[摘要-druid-连接池极致优化]] — Druid 连接池极致优化策略（参数调优/监控/安全/泄漏检测）
 - [[摘要-springboot-onlyoffice-在线编辑]] — Spring Boot 集成 OnlyOffice 实现在线 Word 编辑
+- [[摘要-mattpocock-skills]] — Matt Pocock 的 AI 编码 skill 集合设计哲学：把 skill 当纪律，不当框架
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享

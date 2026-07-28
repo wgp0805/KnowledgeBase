@@ -2,8 +2,8 @@
 title: "TDD"
 type: concept
 tags: [测试, 开发方法论, 质量保证]
-sources: [raw/01-articles/ECC-OpenCode-使用指南.md]
-last_updated: 2026-06-26
+sources: [raw/01-articles/ECC-OpenCode-使用指南.md, raw/01-articles/Matt Pocock 那个 5 个月冲到 17 万 star 的 grill-me，作者自己却不用了，原因是这几个.md]
+last_updated: 2026-07-27
 ---
 
 ## 定义
@@ -22,6 +22,9 @@ TDD（Test-Driven Development，测试驱动开发）是一种软件开发方法
 - 与其他命令（如 `/plan`、`/code-review`）协同工作
 - 帮助开发者养成良好的测试习惯
 
+### 在 AI 编码中的定位（Matt Pocock 视角）
+在 [[MattPocock]] 的 `mattpocock/skills` 两层架构中，`/tdd` 被归类为 **Model-invoked（纪律层）** skill——模型可自动调用，承载可复用的纪律。它作为"反馈回路"的核心组件，与 `/diagnosing-bugs` 配合解决 AI 编码的"跑不起来"失败模式。Matt 引用 The Pragmatic Programmer 的名言——"反馈的速度就是你的速度上限"——来强调 TDD 在 AI 编码中的价值：先写失败测试再修，比让 AI 直接写代码然后反复调试效率高得多。
+
 ### 优势
 1. **代码质量**：测试覆盖确保代码正确性
 2. **设计改善**：测试先行迫使思考接口设计
@@ -33,3 +36,5 @@ TDD（Test-Driven Development，测试驱动开发）是一种软件开发方法
 - [[ECC]] — 提供 TDD 工作流支持
 - [[code-review]] — 代码审查实践
 - [[AICoding]] — AI 辅助编程中的 TDD 应用
+- [[MattPocock]] — 将 TDD 作为纪律层 skill 的实践者
+- [[摘要-mattpocock-skills]] — 来源（TDD 作为 AI 编码反馈回路）
