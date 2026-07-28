@@ -161,6 +161,11 @@
 - **输出**: 即时回答 + 已保存为 [[react-loop-explanation]]
 - **引用**: [[ReAct_Agent]], [[ReActAgent]], [[Agent]], [[ToolPipeline]], [[HarnessAgent]], [[SpringAI_Alibaba]], [[SolonAI]], [[AgentScope_Java]]
 
+## [2026-07-28] ingest | 补充归档 Matt Pocock 文章
+- **变更**: 源文件 `Matt Pocock...grill-me...这几个.md` 此前已完整编译为 [[摘要-mattpocock-skills]] 和 [[MattPocock]]，仅遗漏归档步骤，本次补齐
+- **冲突**: 无
+- **归档**: raw/01-articles/Matt Pocock... → raw/09-archive/
+
 ## [2026-07-06] query | 对比 ReAct 与 Plan-and-Execute 的区别
 - **输出**: 即时回答 + 已保存为 [[react-vs-plan-execute]]
 - **引用**: [[ReAct_Agent]], [[Research-Plan-Execute-Review-Ship]], [[Agent]], [[AICoding]], [[VibeEngineering]], [[claude-code-best-practice]]
