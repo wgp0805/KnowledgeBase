@@ -161,6 +161,10 @@
 - **输出**: 即时回答 + 已保存为 [[react-loop-explanation]]
 - **引用**: [[ReAct_Agent]], [[ReActAgent]], [[Agent]], [[ToolPipeline]], [[HarnessAgent]], [[SpringAI_Alibaba]], [[SolonAI]], [[AgentScope_Java]]
 
+## [2026-07-28] ingest | 摄入分库分表分页查询面试文章
+- **变更**: 新增 [[摘要-分库分表分页查询]]; 新增实体 [[得物]], [[Canal]]; 新增概念 [[游标分页]], [[异构索引]], [[CQRS]]; 增量更新 [[小哈]]（补充新来源）; 增量更新 [[sharding]]（展开分页查询四大方案详解）; 更新 [[index.md]]
+- **冲突**: 无
+
 ## [2026-07-28] ingest | 补充归档 Matt Pocock 文章
 - **变更**: 源文件 `Matt Pocock...grill-me...这几个.md` 此前已完整编译为 [[摘要-mattpocock-skills]] 和 [[MattPocock]]，仅遗漏归档步骤，本次补齐
 - **冲突**: 无
