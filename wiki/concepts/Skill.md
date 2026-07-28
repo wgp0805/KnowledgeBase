@@ -39,10 +39,16 @@ Agent 的技能包，是人为沉淀的可复用方法、流程和工具组合�
 - 工业标准化规避模型幻觉，优秀 Skill 集成大量开发者经验
 - 能用 Skill 尽量用，比自己用模糊语言描述效果好得多
 
+### Matt Pocock 的两层调用架构（User-invoked vs Model-invoked）
+[[MattPocock]] 的 `mattpocock/skills` 仓库提出了一种重要的 Skill 设计层次划分：
+
+- **User-invoked（编排层）**：只能由用户亲手打出 /xxx 触发，职责是"编排 orchestrate"。包括 ask-matt、grill-with-docs、triage、implement、wayfinder 等
+- **Model-invoked（纪律层）**：模型可自动调用，承载"可复用的纪律 discipline"。包括 prototype、diagnosing-bugs、tdd、domain-modeling、code-review 等
+- **铁律**：User-invoked skill 可向下调用 Model-invoked skill，但 **User-invoked 之间互不调用**。这条单向边确保整条链永远从用户手里发起，不会让 agent 在编排层之间乱窜
+
+这一架构的核心哲学是"**把 skill 当纪律，不当框架**"——skill 不该被供着，而是随时可替换、可组合、可 hack 的一次性纪律，与 GSD、BMAD、Spec-Kit 等"接管流程"的重量级框架形成根本分野。
+
 ### 创建方式
-1. 直接跟 Agent 讨论打磨
-2. 先跑通流程再沉淀成 Skill（推荐）
-3. 用 skill creator 工具辅助创建
 
 ### Skill 生态与资源
 
