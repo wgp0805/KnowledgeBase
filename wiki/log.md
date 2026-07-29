@@ -1,3 +1,10 @@
+## [2026-07-29] lint | 修正 OpenSpec synthesis 页面中 explore 自动比对的错误表述
+- **变更**: 更新 [[openspec-archive-modify-and-token-tradeoff]]（"explore 阶段先做差异核对"->"手动要求差异核对"，明确 explore 是纯对话工具不会自动扫描代码；修正实践建议中"必做 explore 差异核对"->"主动要求 AI 做差异核对"）
+- **冲突**: 无（纠正本会话之前的表述不精确）
+
+## [2026-07-29] query | 澄清 explore 命令不会自动比对代码与 spec
+- **输出**: 引用 [[OpenSpec]]; 即时回答未保存（等待用户确认是否修正已有 synthesis）
+
 ## [2026-07-29] synthesis | 更新 OpenSpec 权衡分析，补充 spec rot 风险与补录机制
 - **变更**: 更新 [[openspec-archive-modify-and-token-tradeoff]]（新增"三、跳过流程的代价：未记录小改动与 spec rot"章节，补全"小活儿别用"结论的边界条件）；补充 tags 增加 SpecRot
 - **引用**: [[OpenSpec]], [[delta-spec]], [[openspec-brownfield-usage-guide]], [[摘要-spec-superflow-融合工作流]], [[SpecSuperflow]]

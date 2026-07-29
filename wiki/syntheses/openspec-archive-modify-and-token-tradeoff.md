@@ -115,15 +115,17 @@ last_updated: 2026-07-29
 
 OpenSpec 的 spec 是**静态文档**，不会自动扫描代码变更。小改动绕过 OpenSpec 直接改了代码，spec 和实际代码就会脱节，这就是规范腐烂。[[摘要-spec-superflow-融合工作流]] 中提到 spec-merger 组件正是为了"防规范腐烂"，但它的前提是改动走了 delta spec 流程；**绕过流程的改动，spec-merger 也救不了**。
 
-### 后续大改动时的补救：靠 explore + delta 补录
+### 后续大改动时的补救：靠手动引导 + delta 补录
 
-虽然不能自动感知，但有手动对齐机制（见 [[openspec-brownfield-usage-guide]] 的补录策略）：
+虽然不能自动感知，但有手动对齐机制（见 [[openspec-brownfield-usage-guide]] 的补录策略）。
 
-1. **explore 阶段先做差异核对**：大改动开始走 `/opsx:explore` 时，让 AI 对比当前代码和 `opsx/specs/` 主规范，找出"代码已改但 spec 没记录"的差异。
+**重要前提**：`/opsx:explore` 本身是**纯对话式探索工具**（见 [[OpenSpec]] 的定义），它**不会自动扫描代码**去对比 spec 和实际实现的差异。OpenSpec 没有内置"代码-spec 一致性校验"能力。以下补录流程需要你主动引导：
+
+1. **explore 阶段手动要求差异核对**：大改动开始走 `/opsx:explore` 时，**你主动在对话中要求** AI 对比当前代码和 `opsx/specs/` 主规范，找出"代码已改但 spec 没记录"的差异。例如："先读 `opsx/specs/order/spec.md`，再扫 `src/order/` 实际代码，告诉我哪里不一致。"是**你发起的指令**让 AI 去比对，不是 explore 命令自带的功能。
 2. **用 delta spec 的 MODIFIED 补录**：把这些未记录的小改动作为 delta 的 MODIFIED 条目写进去，相当于"补作业"。
 3. **sync 合并回主 spec**：`/opsx:sync` 把补录内容合并回主规范，消除脱节。
 
-> 本质上，OpenSpec 依赖"人工诚实"--你跳过了流程，就得在大改动时主动补录，否则 spec 就是假的。
+> 本质上，OpenSpec 依赖"人工诚实"--你跳过了流程，就得在大改动时主动引导 AI 补录，否则 spec 就是假的。
 
 ### 跳过 vs 走流程的真实权衡
 
@@ -136,7 +138,7 @@ OpenSpec 的 spec 是**静态文档**，不会自动扫描代码变更。小改�
 
 - **真正琐碎的改动**（改个文案、调个常量）：绕过无妨，影响极小。
 - **改变了行为的改动**（哪怕只改一行逻辑）：建议至少在 `opsx/specs/` 里留个 MODIFIED 痕迹，或用 [[SpecSuperflow]] 的 tweak 快速路径（≤4 文件纯配置），轻量记录而非完全跳过。
-- **定期对齐**：大改动前必做 explore 差异核对，把积累的脱节一次性补录。
+- **定期对齐**：大改动前在 explore 中**主动要求** AI 做差异核对，把积累的脱节一次性补录。
 
 ⚠️ OpenSpec 本身没有"代码 spec 一致性自动校验"功能，这依赖人工纪律。知识库中关于自动检测 spec rot 的能力记录有限，以上补录流程是基于 [[delta-spec]] 和 [[openspec-brownfield-usage-guide]] 补录策略的推导。
 
