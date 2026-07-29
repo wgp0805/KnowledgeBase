@@ -880,3 +880,6 @@
 - **变更**: 新增 [[摘要-程序汪-肉鸽小游戏二期]]; 新增 [[CocosCreator]], [[Netty]]; 新增 [[roguelike-game]], [[jsbridge]]; 增量更新 [[程序汪]]（新增代表项目与来源）
 - **冲突**: 无
 - **归档**: raw/01-articles/程序汪4万20天接的肉鸽类小游戏，二期项目.md → raw/09-archive/
+
+## [2026-07-29] query | 解答 ECC 是什么、类似框架对比及使用方式
+- **输出**: 引用 [[ECC]], [[ClaudeCode]], [[摘要-ECC-OpenCode-使用指南]], [[claude-code-增强框架对比]], [[Superpowers]], [[OpenSpec]], [[SpecKit]], [[规范驱动开发]], [[VibeCoding]]; 知识库已有完整合成页面 [[claude-code-增强框架对比]]，未另存 synthesis
