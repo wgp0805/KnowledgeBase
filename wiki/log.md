@@ -886,3 +886,6 @@
 
 ## [2026-07-29] query | 棕地项目选型及 AI 遗忘原始决策的解决方法
 - **输出**: 引用 [[OpenSpec]], [[claude-code-增强框架对比]], [[delta-spec]], [[规范驱动开发]], [[ContextManagement]], [[persistent-memory]]; 未另存 synthesis
+
+## [2026-07-29] query | 棕地项目 OpenSpec 详细使用方案
+- **输出**: 引用 [[OpenSpec]], [[delta-spec]], [[SpecSuperflow]], [[规范驱动开发]], [[摘要-OpenSpec规范驱动AI编程框架]], [[摘要-spec-superflow-融合工作流-源码级详解]], [[摘要-claude-code-best-practice-最新版]], [[ClaudeCode]], [[Superpowers]]; 即时回答未保存（待用户确认是否固化为 synthesis）
