@@ -253,6 +253,7 @@
 - [[摘要-druid-连接池极致优化]] — Druid 连接池极致优化策略（参数调优/监控/安全/泄漏检测）
 - [[摘要-springboot-onlyoffice-在线编辑]] — Spring Boot 集成 OnlyOffice 实现在线 Word 编辑
 - [[摘要-mattpocock-skills]] — Matt Pocock 的 AI 编码 skill 集合设计哲学：把 skill 当纪律，不当框架
+- [[摘要-agentbro-skill-management]] — AgentBro 多 Agent Skill 治理工具，中心库唯一事实源 + 技能包开关 + 扫描接管存量 + 远程管理完整闭环
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -544,6 +545,10 @@
 - [[RadixUI]] — 无样式 React UI 组件库
 - [[React]] — Meta 出品的 JavaScript UI 库
 - [[TailwindCSS]] — 实用优先的 CSS 框架
+- [[AgentBro]] — macOS 多 Agent Skill 治理工具，中心库唯一事实源 + 技能包开关机制 + 扫描接管 + 远程管理
+- [[AgentBroRemote]] — AgentBro 远程管理组件，SSH 隧道统一管理远程服务器 Agent
+- [[AgentBroMarket]] — AgentBro 内置技能市场，按创作者直接组成技能包
+- [[ShirenChuang]] — 程序员追风，AgentBro 作者，微信公众号作者
 
 ## Concepts
 - [[Apdex]] — 应用性能指数，量化用户体验满意度的 APM 核心指标
@@ -770,6 +775,14 @@
 - [[auto-mode]] — Claude Code 无需确认直接执行命令的权限模式
 - [[gRPC]] — Google 高性能 RPC 框架
 - [[知识图谱]] — 以图结构组织知识的数据模型
+- [[SkillCentralLibrary]] — AgentBro 中心库，Skill 治理的唯一事实源
+- [[SkillPackage]] — 技能包开关机制，库存与生效分离，多维组织技能
+- [[SkillSoftLink]] — 软链接分发机制，源码修改即时同步各 Agent
+- [[SkillScanTakeover]] — 扫描接管存量技能，无冲突批量收、冲突人工审
+- [[SkillConflictResolution]] — 同名冲突处理，默认中心库优先，例外可重命名或反向覆盖
+- [[SkillTestPackage]] — 测试包观察期，新 Skill 先试用再晋升，调试与生产隔离
+- [[AgentSpecificSkillPackages]] — Agent 维度技能包隔离，公司/个人/场景独立管理
+- [[RemoteAgentManagement]] — 远程 Agent 管理，SSH 隧道统一管理本地与远程服务器
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

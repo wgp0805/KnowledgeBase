@@ -161,6 +161,24 @@
 - **输出**: 即时回答 + 已保存为 [[react-loop-explanation]]
 - **引用**: [[ReAct_Agent]], [[ReActAgent]], [[Agent]], [[ToolPipeline]], [[HarnessAgent]], [[SpringAI_Alibaba]], [[SolonAI]], [[AgentScope_Java]]
 
+## [2026-07-29] ingest | 摄入 AgentBro 多 Agent Skill 治理工具文章
+- **变更**:
+  - 新增 source [[摘要-agentbro-skill-management]]（程序员追风/石人闯的 AgentBro macOS 多 Agent Skill 治理工具详解）
+  - 新增 entity [[AgentBro]]（macOS 多 Agent Skill 治理工具，中心库唯一事实源 + 技能包开关 + 扫描接管 + 远程管理）
+  - 新增 entity [[AgentBroRemote]]（远程管理组件，SSH 隧道远程服务器 Agent 统一管理）
+  - 新增 entity [[AgentBroMarket]]（内置技能市场，按创作者分组）
+  - 新增 entity [[ShirenChuang]]（程序员追风，AgentBro 作者）
+  - 新增 concept [[SkillCentralLibrary]]（中心库唯一事实源）
+  - 新增 concept [[SkillPackage]]（技能包开关机制）
+  - 新增 concept [[SkillSoftLink]]（软链接分发机制）
+  - 新增 concept [[SkillScanTakeover]]（扫描接管存量机制）
+  - 新增 concept [[SkillConflictResolution]]（同名冲突解决）
+  - 新增 concept [[SkillTestPackage]]（测试包观察期）
+  - 新增 concept [[AgentSpecificSkillPackages]]（Agent 维度技能包隔离）
+  - 新增 concept [[RemoteAgentManagement]]（远程 Agent 管理）
+  - 更新 [[index.md]]
+- **冲突**: 无
+
 ## [2026-07-28] ingest | 摄入分库分表分页查询面试文章
 - **变更**: 新增 [[摘要-分库分表分页查询]]; 新增实体 [[得物]], [[Canal]]; 新增概念 [[游标分页]], [[异构索引]], [[CQRS]]; 增量更新 [[小哈]]（补充新来源）; 增量更新 [[sharding]]（展开分页查询四大方案详解）; 更新 [[index.md]]
 - **冲突**: 无
