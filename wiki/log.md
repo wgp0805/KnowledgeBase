@@ -1,3 +1,8 @@
+## [2026-07-29] synthesis | 更新 OpenSpec 权衡分析，补充 spec rot 风险与补录机制
+- **变更**: 更新 [[openspec-archive-modify-and-token-tradeoff]]（新增"三、跳过流程的代价：未记录小改动与 spec rot"章节，补全"小活儿别用"结论的边界条件）；补充 tags 增加 SpecRot
+- **引用**: [[OpenSpec]], [[delta-spec]], [[openspec-brownfield-usage-guide]], [[摘要-spec-superflow-融合工作流]], [[SpecSuperflow]]
+- **冲突**: 无
+
 ## [2026-07-29] query | 解析 OpenSpec 未记录小改动的 spec rot 风险与补录机制
 - **输出**: 引用 [[OpenSpec]], [[delta-spec]], [[openspec-brownfield-usage-guide]], [[摘要-spec-superflow-融合工作流]], [[SpecSuperflow]]; 即时回答未保存（等待用户确认是否更新已有 synthesis）
 

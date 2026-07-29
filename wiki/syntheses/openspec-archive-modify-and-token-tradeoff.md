@@ -1,7 +1,7 @@
 ---
 title: "OpenSpec 归档需求修改流程与 Token 成本权衡"
 type: synthesis
-tags: [OpenSpec, 规范驱动, Token消耗, 成本权衡, 决策指南]
+tags: [OpenSpec, 规范驱动, Token消耗, 成本权衡, 决策指南, SpecRot]
 sources:
   - raw/09-archive/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md
   - raw/09-archive/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
@@ -106,6 +106,39 @@ last_updated: 2026-07-29
 **中大型项目、需求会反复变更的场景，OpenSpec 的额外 token 是"保险费"**--它买的不是文档，是"减少返工"和"上下文质量可控"。一次返工省下来的 token，够做好几轮规划。
 
 用 [[SpecSuperflow]] 的话还有 hotfix/tweak 快速路径，让小改动不必走完整流程，进一步降低不必要的 token 开销。
+
+## 三、跳过流程的代价：未记录小改动与 spec rot
+
+上面的结论"小活儿别用 OpenSpec"有一个重要前提必须说清--**跳过流程的改动，OpenSpec 不会自动知道**。
+
+### spec rot（规范腐烂）风险
+
+OpenSpec 的 spec 是**静态文档**，不会自动扫描代码变更。小改动绕过 OpenSpec 直接改了代码，spec 和实际代码就会脱节，这就是规范腐烂。[[摘要-spec-superflow-融合工作流]] 中提到 spec-merger 组件正是为了"防规范腐烂"，但它的前提是改动走了 delta spec 流程；**绕过流程的改动，spec-merger 也救不了**。
+
+### 后续大改动时的补救：靠 explore + delta 补录
+
+虽然不能自动感知，但有手动对齐机制（见 [[openspec-brownfield-usage-guide]] 的补录策略）：
+
+1. **explore 阶段先做差异核对**：大改动开始走 `/opsx:explore` 时，让 AI 对比当前代码和 `opsx/specs/` 主规范，找出"代码已改但 spec 没记录"的差异。
+2. **用 delta spec 的 MODIFIED 补录**：把这些未记录的小改动作为 delta 的 MODIFIED 条目写进去，相当于"补作业"。
+3. **sync 合并回主 spec**：`/opsx:sync` 把补录内容合并回主规范，消除脱节。
+
+> 本质上，OpenSpec 依赖"人工诚实"--你跳过了流程，就得在大改动时主动补录，否则 spec 就是假的。
+
+### 跳过 vs 走流程的真实权衡
+
+| 做法 | 风险 |
+|------|------|
+| 小改动绕过 OpenSpec | 省了当下 token，但积累 spec rot，大改动时 AI 读到的是过期规范，可能基于错误前提实现 |
+| 小改动也走流程 | token 开销大，但 spec 始终可信 |
+
+### 实践建议
+
+- **真正琐碎的改动**（改个文案、调个常量）：绕过无妨，影响极小。
+- **改变了行为的改动**（哪怕只改一行逻辑）：建议至少在 `opsx/specs/` 里留个 MODIFIED 痕迹，或用 [[SpecSuperflow]] 的 tweak 快速路径（≤4 文件纯配置），轻量记录而非完全跳过。
+- **定期对齐**：大改动前必做 explore 差异核对，把积累的脱节一次性补录。
+
+⚠️ OpenSpec 本身没有"代码 spec 一致性自动校验"功能，这依赖人工纪律。知识库中关于自动检测 spec rot 的能力记录有限，以上补录流程是基于 [[delta-spec]] 和 [[openspec-brownfield-usage-guide]] 补录策略的推导。
 
 ## 关联连接
 
