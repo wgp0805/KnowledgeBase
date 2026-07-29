@@ -817,3 +817,4 @@
 - [[trae-vs-claude-code-agent-comparison]] — Trae 智能体 vs Claude Code 智能体能力对比
 - [[knowledge-base-skill-solutions]] — 用 Skill 实现知识库优先检索的四种方案
 - [[agent-rag-communication-comparison]] — Agent 与 RAG 通信方式对比（MCP/Tool/HTTP API/Skill 四种路径选型）
+- [[openspec-brownfield-usage-guide]] - 棕地项目 OpenSpec 详细使用方案：安装初始化/Delta Spec 补录/四步工作流/AI 遗忘三层防护/SpecSuperflow 升级
