@@ -48,13 +48,23 @@ OpenSpec 是一个面向 AI 编程的规范驱动框架，核心思想是"先对
 # 安装
 npm install -g @studyzy/openspec-cn@latest
 
-# 初始化
+# 初始化（交互式，会提示选择工具）
 cd your-project
-openspec-cn init --tools opencode
+openspec-cn init
+
+# 非交互式：--tools 支持逗号分隔多工具、all、none
+openspec-cn init --tools claude,cursor,codex   # 指定多个
+openspec-cn init --tools all                     # 全部 31 个工具
+openspec-cn init --tools none                    # 跳过工具配置
+openspec-cn init --tools opencode                # 单个工具
 
 # 查看仪表盘
 openspec-cn view
 ```
+
+**支持的工具 ID（31 个）**：`amazon-q`, `antigravity`, `auggie`, `bob`, `claude`, `cline`, `codex`, `forgecode`, `codebuddy`, `continue`, `costrict`, `crush`, `cursor`, `factory`, `gemini`, `github-copilot`, `iflow`, `junie`, `kilocode`, `kimi`, `kiro`, `lingma`, `vibe`, `oh-my-pi`, `opencode`, `pi`, `qoder`, `qwen`, `roocode`, `trae`, `windsurf`
+
+每个工具按各自目录约定生成 Skills（`.../skills/openspec-*/SKILL.md`）和 Commands（`.../commands/opsx-<id>.md`）。
 
 ## 关联连接
 

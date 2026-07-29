@@ -889,3 +889,6 @@
 
 ## [2026-07-29] query | 棕地项目 OpenSpec 详细使用方案
 - **输出**: 引用 [[OpenSpec]], [[delta-spec]], [[SpecSuperflow]], [[规范驱动开发]], [[摘要-OpenSpec规范驱动AI编程框架]], [[摘要-spec-superflow-融合工作流-源码级详解]], [[摘要-claude-code-best-practice-最新版]], [[ClaudeCode]], [[Superpowers]]; 已固化 synthesis [[openspec-brownfield-usage-guide]]
+
+## [2026-07-29] query | OpenSpec init --tools 是否支持多工具
+- **输出**: 引用 [[OpenSpec]]; 联网查证官方 CLI 文档确认 --tools 支持逗号分隔多工具/all/none，共 31 个工具 ID；增量更新 [[OpenSpec]] 安装与初始化章节
