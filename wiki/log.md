@@ -883,3 +883,6 @@
 
 ## [2026-07-29] query | 解答 ECC 是什么、类似框架对比及使用方式
 - **输出**: 引用 [[ECC]], [[ClaudeCode]], [[摘要-ECC-OpenCode-使用指南]], [[claude-code-增强框架对比]], [[Superpowers]], [[OpenSpec]], [[SpecKit]], [[规范驱动开发]], [[VibeCoding]]; 知识库已有完整合成页面 [[claude-code-增强框架对比]]，未另存 synthesis
+
+## [2026-07-29] query | 棕地项目选型及 AI 遗忘原始决策的解决方法
+- **输出**: 引用 [[OpenSpec]], [[claude-code-增强框架对比]], [[delta-spec]], [[规范驱动开发]], [[ContextManagement]], [[persistent-memory]]; 未另存 synthesis
