@@ -1,5 +1,5 @@
-## [2026-07-29] query | 解析 OpenSpec 已归档需求的修改流程
-- **输出**: 引用 [[OpenSpec]], [[delta-spec]], [[摘要-OpenSpec规范驱动AI编程框架]], [[摘要-spec-superflow-融合工作流]], [[SpecSuperflow]]; 即时回答未保存（等待用户确认是否固化为 synthesis）
+## [2026-07-29] query | 解析 OpenSpec 已归档需求的修改流程及 token 消耗权衡分析
+- **输出**: 引用 [[OpenSpec]], [[delta-spec]], [[摘要-OpenSpec规范驱动AI编程框架]], [[摘要-spec-superflow-融合工作流]], [[规范驱动开发]], [[摘要-claude-code-best-practice-苏三视角]], [[ContextEngineering]], [[VibeCoding]], [[SpecSuperflow]]; 即时回答未保存（等待用户确认是否固化为 synthesis）
 
 ## [2026-07-24] ingest | 摄入 Maven 4 重构文章与生产级 Agent 设计面试文章
 - **变更**: 更新 [[摘要-maven-4-重构]]（补充 Artifact 类型、Tree-based Lifecycle、条件表达式等）；更新 [[Maven]]（补充核心架构调整细节）；新增 [[摘要-生产级Agent设计]]；更新 [[PaiCLI]]（补充三种运行模式、记忆系统、上下文压缩等）；更新 [[context-compression]]（补充 Map-Reduce 分片摘要）；更新 [[渐进式披露]]（补充三阶段实现）；更新 [[沉默王二]]（补充来源）；新增 [[指数退避重试]]；新增 [[记忆系统-时间衰减加权]]；新增 [[智能客服Agent设计]]；新增 [[电商流量尖峰处理]]；更新 [[index.md]]
