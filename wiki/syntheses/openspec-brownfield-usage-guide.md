@@ -227,3 +227,4 @@ your-existing-project/
 - [[ECC]] - 全家桶增强框架
 - [[ContextManagement]] - 上下文管理（互补方案）
 - [[persistent-memory]] - 持久记忆（互补方案）
+- [[openspec-archive-modify-and-token-tradeoff]] - 配套：归档后修改流程与 Token 成本权衡分析

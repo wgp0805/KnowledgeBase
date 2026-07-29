@@ -1,3 +1,8 @@
+## [2026-07-29] synthesis | 固化 OpenSpec 归档修改流程与 Token 成本权衡分析
+- **变更**: 新增 [[openspec-archive-modify-and-token-tradeoff]]；更新 [[index.md]] Syntheses 分类；更新 [[openspec-brownfield-usage-guide]]（补充反向关联链接）
+- **引用**: [[OpenSpec]], [[delta-spec]], [[规范驱动开发]], [[摘要-claude-code-best-practice-苏三视角]], [[ContextEngineering]], [[VibeCoding]], [[SpecSuperflow]], [[摘要-OpenSpec规范驱动AI编程框架]], [[摘要-spec-superflow-融合工作流]]
+- **冲突**: 无
+
 ## [2026-07-29] query | 解析 OpenSpec 已归档需求的修改流程及 token 消耗权衡分析
 - **输出**: 引用 [[OpenSpec]], [[delta-spec]], [[摘要-OpenSpec规范驱动AI编程框架]], [[摘要-spec-superflow-融合工作流]], [[规范驱动开发]], [[摘要-claude-code-best-practice-苏三视角]], [[ContextEngineering]], [[VibeCoding]], [[SpecSuperflow]]; 即时回答未保存（等待用户确认是否固化为 synthesis）
 
