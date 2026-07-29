@@ -253,6 +253,7 @@
 - [[摘要-druid-连接池极致优化]] — Druid 连接池极致优化策略（参数调优/监控/安全/泄漏检测）
 - [[摘要-springboot-onlyoffice-在线编辑]] — Spring Boot 集成 OnlyOffice 实现在线 Word 编辑
 - [[摘要-mattpocock-skills]] — Matt Pocock 的 AI 编码 skill 集合设计哲学：把 skill 当纪律，不当框架
+- [[摘要-spring-boot-4-0-removes-undertow]] — Spring Boot 4.0 因 Servlet 6.1 不兼容移除 Undertow 支持的原因与迁移方案
 - [[摘要-agentbro-skill-management]] — AgentBro 多 Agent Skill 治理工具，中心库唯一事实源 + 技能包开关 + 扫描接管存量 + 远程管理完整闭环
 
 ## Entities
@@ -542,6 +543,10 @@
 - [[ArchitectureDiagramGenerator]] — Cocoon AI 开源的架构图生成 Skill
 - [[CocoonAI]] — 架构图生成 Skill 与流程图生成 Skill 的开发团队
 - [[JetBrainsMono]] — JetBrains 出品的开发者字体
+- [[Undertow]] — Red Hat 出品的嵌入式 Web 容器，Spring Boot 4.0 已移除支持
+- [[Jetty]] — Eclipse 基金会轻量嵌入式 Web 容器，Spring Boot 4.0 仍支持
+- [[RedHat]] — 开源解决方案提供商，Undertow 主要维护方
+- [[JakartaEE]] — 企业级 Java 平台规范集合（原名 Java EE）
 - [[RadixUI]] — 无样式 React UI 组件库
 - [[React]] — Meta 出品的 JavaScript UI 库
 - [[TailwindCSS]] — 实用优先的 CSS 框架
@@ -617,6 +622,7 @@
 - [[异构索引]] — ES 异构索引查询层架构
 - [[CQRS]] — 命令查询职责分离，读写分离架构模式
 - [[singleton-pattern]] — 单例模式5种写法
+- [[servlet-6-1]] — Jakarta EE 11 核心子规范，Spring Boot 4.0 强制依赖
 - [[设计模式]] — GoF 23种设计模式总览
 - [[工厂模式]] — 创建型设计模式，封装对象创建过程
 - [[代理模式]] — 结构型设计模式，AOP的基础

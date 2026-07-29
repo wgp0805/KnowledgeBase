@@ -1,3 +1,7 @@
+## [2026-07-29] ingest | 摄入 Spring Boot 4.0 弃用 Undertow 文章
+- **变更**: 新增 [[摘要-spring-boot-4-0-removes-undertow]]; 新增实体 [[Undertow]], [[Jetty]], [[RedHat]], [[JakartaEE]]; 新增概念 [[servlet-6-1]]; 增量更新 [[SpringBoot]]（补充 Spring Boot 4.0 Servlet 6.1 强制依赖与 Undertow 移除）、[[Servlet]]（补充 Servlet 6.1 章节）、[[Tomcat]]（补充 Tomcat 11 Servlet 6.1 支持）；更新 [[index.md]]
+- **冲突**: 无
+
 ## [2026-07-29] lint | 修正 OpenSpec synthesis 页面中 explore 自动比对的错误表述
 - **变更**: 更新 [[openspec-archive-modify-and-token-tradeoff]]（"explore 阶段先做差异核对"->"手动要求差异核对"，明确 explore 是纯对话工具不会自动扫描代码；修正实践建议中"必做 explore 差异核对"->"主动要求 AI 做差异核对"）
 - **冲突**: 无（纠正本会话之前的表述不精确）

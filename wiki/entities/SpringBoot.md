@@ -33,6 +33,9 @@ Spring Boot 是 Spring 框架的自动配置扩展，简化了 Spring 应用的�
 
 ### SpringBoot 4 新特性
 - 基于 Spring Framework 7 和 Java 21+
+- 强制依赖 **Servlet 6.1 规范**
+- **移除 Undertow 嵌入式容器支持**（Undertow 未适配 Servlet 6.1）
+- 嵌入式容器仅保留 Tomcat 11（Servlet 6.1）和 Jetty 12.1（Servlet 6.1）
 - 声明式 HTTP 客户端（@HttpExchange）
 - 结构化并发支持
 - 虚拟线程支持（I/O 密集型场景性能提升）

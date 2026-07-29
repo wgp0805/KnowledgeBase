@@ -16,6 +16,11 @@ Java Servlet 是 Java EE/Jakarta EE 规范中的服务器端组件，用于处�
 - Tomcat 是最常用的 Servlet 容器实现
 - Spring MVC 的 DispatcherServlet 基于 Servlet 规范构建
 
+### Servlet 6.1（Jakarta EE 11）
+- 于 2024 年 4 月作为 Jakarta EE 11 核心子规范发布
+- Spring Boot 4.0 强制依赖 Servlet 6.1，导致 Undertow 被移除
+- 主要改进：ByteBuffer 非阻塞 I/O、HTTP/2 推送废弃、SecurityManager 移除、HTTP 会话增强、重定向控制增强、敏感请求头识别
+
 ## 关联连接
 - [[Tomcat]] — Servlet 容器实现
 - [[SpringMVC]] — 基于 Servlet 的 Web 框架

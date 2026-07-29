@@ -14,7 +14,8 @@ Apache Tomcat 是 Apache 软件基金会的开源 Servlet 容器和 Web 服务�
 - 嵌入式支持：Spring Boot 内嵌 Tomcat 作为默认 Web 服务器
 - 连接器：Coyote（HTTP/HTTPS/AJP）
 - 部署方式：WAR 包部署或嵌入式运行
-- 版本与 Servlet 规范对应：Tomcat 10 → Servlet 6.0（Jakarta EE）
+- 版本与 Servlet 规范对应：Tomcat 10 → Servlet 6.0、Tomcat 11.x → Servlet 6.1（Jakarta EE 11）
+- Spring Boot 4.0 默认使用 Tomcat 11，全面适配 Servlet 6.1
 
 ## 关联连接
 - [[SpringBoot]] — 内嵌 Tomcat
