@@ -919,3 +919,7 @@
 
 ## [2026-07-29] query | OpenSpec init --tools 是否支持多工具
 - **输出**: 引用 [[OpenSpec]]; 联网查证官方 CLI 文档确认 --tools 支持逗号分隔多工具/all/none，共 31 个工具 ID；增量更新 [[OpenSpec]] 安装与初始化章节
+
+## [2026-07-30] ingest | Hutool Sftp.upload 不会自动创建目录踩坑
+- **变更**: 增量更新 [[Hutool]]（新增「踩坑记录」章节，记录 Sftp.upload 与 Ftp.upload 差异及解决方式）
+- **冲突**: 无
