@@ -256,6 +256,11 @@
 - [[摘要-spring-boot-4-0-removes-undertow]] — Spring Boot 4.0 因 Servlet 6.1 不兼容移除 Undertow 支持的原因与迁移方案
 - [[摘要-agentbro-skill-management]] — AgentBro 多 Agent Skill 治理工具，中心库唯一事实源 + 技能包开关 + 扫描接管存量 + 远程管理完整闭环
 
+- [[摘要-写好提示词的三大原则]] — 高质量提示词三大原则：简洁、框架、迭代
+- [[摘要-前端转全栈-36行规则]] — 前端用 36 行规则文件约束 AI，成功交付 Java 后端模块
+- [[摘要-Docker部署Keycloak]] — Docker 部署 Keycloak 企业级身份认证平台完整指南
+- [[摘要-HermesAgent-0基础教程]] — 秋芝2046 的 Hermes Agent 零基础新手教程
+
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[Trellis]] — 跨平台的 AI 编码项目级工作流框架
@@ -297,6 +302,7 @@
 - [[RocketMQ]] — 分布式消息中间件
 - [[MyBatisPlus]] — MyBatis 增强工具
 - [[Linux]] — 开源操作系统
+- [[Let's Encrypt]] — 免费自动化 SSL/TLS 证书颁发机构
 - [[Spring]] — Java 企业级应用框架
 - [[IntelliJIDEA]] — Java 集成开发环境
 - [[Elasticsearch]] — 分布式全文检索引擎
@@ -310,6 +316,7 @@
 - [[Qoder]] — AI 编码工具
 - [[PaiAgent]] — AI Agent 平台
 - [[JVM]] — Java 虚拟机
+- [[JeecgBoot]] — 基于 Spring Boot + MyBatis-Plus 的低代码开发平台
 - [[SpringSecurity]] — 认证授权安全框架
 - [[SpringMVC]] — Web MVC 框架
 - [[AOP]] — 面向切面编程
@@ -340,6 +347,7 @@
 - [[CherryStudio]] — 桌面端 AI 工具（知识库构建）
 - [[BookKeeper]] — Apache 分布式预写日志存储系统
 - [[Kafka]] — Apache 分布式消息队列
+- [[Keycloak]] — Red Hat 企业级身份认证和访问管理平台
 - [[Pulsar]] — Apache 云原生消息队列
 - [[RabbitMQ]] — AMQP 消息代理
 - [[ActiveMQ]] — Apache JMS 消息中间件（已边缘化）
@@ -531,7 +539,9 @@
 - [[DataQL]] — Dataway 核心脚本引擎，Data Query Language
 - [[Hasor]] — Java 框架生态，Dataway/DataQL 的父级框架
 - [[IT码徒]] — 微信公众号技术作者
+- [[秋芝2046]] — 微信公众号 AI Agent 教程创作者
 - [[RustFS]] — 国产 Rust 编写的高性能分布式对象存储系统
+- [[舒克无良]] — 博客园技术作者，SuperProgramming 开发流程提出者
 - [[AiStor]] — MinIO 商业化对象存储产品
 - [[SkyWalking]] — Apache 开源分布式链路追踪系统
 - [[Halo]] — 现代化个人独立博客系统，基于 Java
@@ -568,6 +578,7 @@
 - [[Sequence]] — 数据库序列对象
 - [[JSONB]] — PostgreSQL 二进制 JSON 类型
 - [[VibeCoding]] — 让 AI 随意编写代码，祈祷测试能过的编程模式
+- [[SuperProgramming开发流程]] — 四步 AI 协作开发流程（Brainstorming→Writing Plans→Implementing→Closing the Loop）
 - [[VibeEngineering]] — 对代码负责 + 重度调度 Agent 的编程模式
 - [[cognitive-offloading]] — 认知卸载，编程肌肉萎缩现象
 - [[silicon-time]] — AI 为程序员创造的额外并行工作时间
@@ -648,6 +659,7 @@
 - [[GraphRAG]] — 图检索增强生成，结合知识图谱推理
 - [[ContextEngineering]] — 上下文工程，RAG 的认知升级
 - [[multi-agent-collaboration]] — 多 Agent 协作全栈开发模式
+- [[辅助模型]] — 本地小模型代理主模型处理基础任务，节省 Token 提升隐私
 - [[ReAct_Agent]] — 推理+行动循环的 Agent 模式
 - [[StateGraph]] — LangGraph 的核心状态图抽象
 - [[A2A]] — Agent-to-Agent 协议，分布式 Agent 通信
@@ -735,10 +747,12 @@
 - [[llms-txt协议]] — 面向 LLM 的结构化文档索引协议，AI Agent 三步定位按需加载
 - [[两级索引架构]] — 阿里云 llms.txt 的目录组织方式：根索引→产品索引两级结构
 - [[CAS协议]] — 中央认证服务框架，基于 Kerberos 票据实现 SSO 单点登录
+- [[SAML]] — 基于 XML 的企业级 SSO 协议（Security Assertion Markup Language）
 - [[SSO]] — 单点登录，一次登录进入多个相互信任的系统
 - [[Session]] — Web 会话管理机制，通过 SessionID 标识用户保存上下文
 - [[Cookie]] — 客户端状态存储，SessionID 的默认传递载体
 - [[OAuth2]] — 三方授权协议，允许用户不提供密码通过信任应用授权访问资源
+- [[OIDC]] — 基于 OAuth 2.0 的身份认证协议（OpenID Connect）
 - [[聚簇索引]] — InnoDB 默认索引结构，数据行与索引存储在一起
 - [[页分裂]] — B+树节点分裂机制，无序主键写入的性能陷阱
 - [[B+树]] — MySQL InnoDB 索引底层数据结构，支持高效范围查询

@@ -2,8 +2,8 @@
 title: "HermesAgent"
 type: entity
 tags: [AI, Agent, 开源, 自学, NousResearch]
-sources: [raw/09-archive/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md, raw/01-articles/2026-07-21-Hermes Agent 完全指南：比 Claude Code 更自由的开源 AI Agent，从安装配置到多 Agent 协作 - 不吃紫菜.md]
-last_updated: 2026-07-22
+sources: [raw/09-archive/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md, raw/01-articles/2026-07-21-Hermes Agent 完全指南：比 Claude Code 更自由的开源 AI Agent，从安装配置到多 Agent 协作 - 不吃紫菜.md, raw/01-articles/0基础带你上手 Hermes Agent！【新手教程】.md]
+last_updated: 2026-07-30
 ---
 
 ## 定义
@@ -88,3 +88,6 @@ Hermes Agent 是由 [[NousResearch]] 开发的开源通用 AI Agent 系统，定
 - [[task-delegation]] — 任务委派机制
 - [[摘要-hermes-agent-complete-guide]] — Hermes Agent 完全指南来源
 - [[摘要-HermesAgent小白入门指南]] — 小白入门指南来源
+- [[摘要-HermesAgent-0基础教程]] — 秋芝2046 零基础教程来源
+- [[秋芝2046]] — 零基础教程作者
+- [[辅助模型]] — 本地小模型辅助机制

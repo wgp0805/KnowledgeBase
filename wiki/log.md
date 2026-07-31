@@ -188,6 +188,9 @@
 - **输出**: 即时回答 + 已保存为 [[react-loop-explanation]]
 - **引用**: [[ReAct_Agent]], [[ReActAgent]], [[Agent]], [[ToolPipeline]], [[HarnessAgent]], [[SpringAI_Alibaba]], [[SolonAI]], [[AgentScope_Java]]
 
+## [2026-07-30] query | OpenSpec 在已有项目的安装步骤
+- **输出**: 引用 [[OpenSpec]], [[openspec-brownfield-usage-guide]], [[openspec-archive-modify-and-token-tradeoff]], [[摘要-OpenSpec规范驱动AI编程框架]]; 即时回答未保存
+
 ## [2026-07-29] ingest | 摄入 AgentBro 多 Agent Skill 治理工具文章
 - **变更**:
   - 新增 source [[摘要-agentbro-skill-management]]（程序员追风/石人闯的 AgentBro macOS 多 Agent Skill 治理工具详解）
@@ -923,3 +926,15 @@
 ## [2026-07-30] ingest | Hutool Sftp.upload 不会自动创建目录踩坑
 - **变更**: 增量更新 [[Hutool]]（新增「踩坑记录」章节，记录 Sftp.upload 与 Ftp.upload 差异及解决方式）
 - **冲突**: 无
+
+## [2026-07-30] ingest | 批量摄入 4 篇 raw/01-articles 文章
+- **变更**:
+  - 新增 sources: [[摘要-写好提示词的三大原则]], [[摘要-前端转全栈-36行规则]], [[摘要-Docker部署Keycloak]], [[摘要-HermesAgent-0基础教程]]
+  - 新增 entities: [[舒克无良]], [[JeecgBoot]], [[Keycloak]], [[Let's Encrypt]], [[秋芝2046]]
+  - 新增 concepts: [[SuperProgramming开发流程]], [[OIDC]], [[SAML]], [[辅助模型]]
+  - 增量更新 [[提示词工程]]（补充三大原则：简洁/框架/迭代）
+  - 增量更新 [[SSO]]（补充 OIDC/SAML/Keycloak 关联连接）
+  - 增量更新 [[HermesAgent]]（补充秋芝2046零基础教程来源、辅助模型关联）
+  - 更新 [[index.md]] 加入 13 个新条目（4 source + 5 entity + 4 concept）
+- **冲突**: 无
+- **归档**: raw/01-articles/ 4 个源文件至 raw/09-archive/

@@ -2,8 +2,8 @@
 title: "SSO"
 type: concept
 tags: [认证, 单点登录, 安全]
-sources: [raw/01-articles/公司系统太多，能不能实现账号互通？.md]
-last_updated: 2026-07-16
+sources: [raw/01-articles/公司系统太多，能不能实现账号互通？.md, raw/01-articles/2026-07-29-Docker部署Keycloak：企业级身份认证平台搭建 - 暮色之狐.md]
+last_updated: 2026-07-30
 ---
 
 ## 定义
@@ -22,4 +22,8 @@ SSO（Single Sign-On）即单点登录，是一种身份认证机制，允许用
 - [[Session]] — 单系统内会话管理
 - [[Cookie]] — 客户端状态存储（受域名限制）
 - [[OAuth2]] — 三方授权协议，与 SSO 互补
+- [[OIDC]] — 基于 OAuth2 的身份认证协议
+- [[SAML]] — 基于 XML 的企业级 SSO 协议
+- [[Keycloak]] — Red Hat 企业身份认证平台（SSO/IdP）
 - [[摘要-sso-single-sign-on]] — 来源
+- [[摘要-Docker部署Keycloak]] — 来源（Keycloak 企业部署）
