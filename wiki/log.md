@@ -1,3 +1,8 @@
+## [2026-07-31] ingest | 摄入 Spring Boot 4 模块化架构文章
+- **变更**: 新增 [[摘要-springboot4-模块化架构]]; 增量更新 [[SpringBoot]]（补充"SpringBoot 4 模块化架构"章节：模块拆分、测试 Starter 模块化、迁移指南、Classic Starters 过渡方案）; 更新 [[index.md]]
+- **冲突**: 无（本文模块化架构与已有 Undertow 移除/4.1.0 特性为互补视角）
+- **归档**: raw/01-articles/SpringBoot4 新特性：模块化架构.md → raw/09-archive/
+
 ## [2026-07-29] ingest | 摄入 Spring Boot 4.0 弃用 Undertow 文章
 - **变更**: 新增 [[摘要-spring-boot-4-0-removes-undertow]]; 新增实体 [[Undertow]], [[Jetty]], [[RedHat]], [[JakartaEE]]; 新增概念 [[servlet-6-1]]; 增量更新 [[SpringBoot]]（补充 Spring Boot 4.0 Servlet 6.1 强制依赖与 Undertow 移除）、[[Servlet]]（补充 Servlet 6.1 章节）、[[Tomcat]]（补充 Tomcat 11 Servlet 6.1 支持）；更新 [[index.md]]
 - **冲突**: 无

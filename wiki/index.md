@@ -253,6 +253,7 @@
 - [[摘要-druid-连接池极致优化]] — Druid 连接池极致优化策略（参数调优/监控/安全/泄漏检测）
 - [[摘要-springboot-onlyoffice-在线编辑]] — Spring Boot 集成 OnlyOffice 实现在线 Word 编辑
 - [[摘要-mattpocock-skills]] — Matt Pocock 的 AI 编码 skill 集合设计哲学：把 skill 当纪律，不当框架
+- [[摘要-springboot4-模块化架构]] — Spring Boot 4 模块化架构，将单体自动配置包拆分为独立模块
 - [[摘要-spring-boot-4-0-removes-undertow]] — Spring Boot 4.0 因 Servlet 6.1 不兼容移除 Undertow 支持的原因与迁移方案
 - [[摘要-agentbro-skill-management]] — AgentBro 多 Agent Skill 治理工具，中心库唯一事实源 + 技能包开关 + 扫描接管存量 + 远程管理完整闭环
 

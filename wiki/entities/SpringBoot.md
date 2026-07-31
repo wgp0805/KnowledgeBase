@@ -16,7 +16,8 @@ sources:
   - raw/02-papers/Spring Cloud Alibaba笔记.pdf
   - raw/01-articles/得物二面：SpringBoot 内部的启动流程是怎样的？我：没研究过.md
   - raw/01-articles/Spring Boot 4.1.0 震撼发布！新特性，惊爆了！.md
-last_updated: 2026-06-26
+  - raw/01-articles/SpringBoot4 新特性：模块化架构.md
+last_updated: 2026-07-31
 ---
 
 ## 定义
@@ -40,6 +41,29 @@ Spring Boot 是 Spring 框架的自动配置扩展，简化了 Spring 应用的�
 - 结构化并发支持
 - 虚拟线程支持（I/O 密集型场景性能提升）
 - 启动速度提升 30%
+
+### SpringBoot 4 模块化架构
+Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个独立模块，每个模块职责单一、依赖明确：
+
+**核心模块拆分示例：**
+| 模块名称 | 功能描述 |
+| --- | --- |
+| `spring-boot-webmvc` | 传统 Servlet Web 应用 |
+| `spring-boot-webflux` | 响应式 Web 应用 |
+| `spring-boot-data-jdbc` | JDBC 数据访问 |
+| `spring-boot-flyway` | 数据库迁移管理 |
+| `spring-boot-webclient` | 独立 WebClient 支持 |
+
+**测试 Starter 模块化：**
+`spring-boot-data-jdbc-test`、`spring-boot-starter-webmvc-test`、`spring-boot-starter-security-test`、`spring-boot-starter-flyway-test` 等，确保测试依赖与生产依赖一致且精简。
+
+**模块化带来的好处：**
+1. 可维护性更高：模块边界清晰，IDE 提供更精准的代码提示
+2. 启动更快、内存占用更小：只加载所需模块，减少类路径扫描
+3. 配置更精准：例如只想用 WebClient 时引入 `spring-boot-webclient` 即可，无需关闭 Web 服务器自动配置
+4. 支持灵活用例：Micrometer 监控模块可独立使用，无需引入完整 Actuator 依赖链
+
+**迁移指南：** 从 Spring Boot 3 迁移时，可先用 `spring-boot-starter-classic`（自动引入所有模块自动配置）过渡，再逐步精简为独立模块。包路径调整为 `org.springframework.boot.`。
 
 ### SpringBoot 4.1.0（2026-06-10 发布）
 口号"更好写、更安全、更好观测"，关键特性：
