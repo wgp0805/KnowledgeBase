@@ -12,7 +12,7 @@ source: "https://mp.weixin.qq.com/s/ugbPFPIW0YpLSZ6QoXkyHg"
 
 在即将到来的 Spring Boot 4 中，Spring 官方团队对这一现状进行了彻底重构，正式引入 模块化（Modularization） 架构。这一改变不仅影响了项目结构和依赖关系，更为开发者带来了更轻量、更清晰、更高效的使用体验。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/SpringBoot4%20%E6%96%B0%E7%89%B9%E6%80%A7%EF%BC%9A%E6%A8%A1%E5%9D%97%E5%8C%96%E6%9E%B6%E6%9E%84/cbcaaf22f406380157c49da576b866f9_MD5.webp)
 
 01
 
@@ -26,7 +26,7 @@ Spring Boot 的最大优点之一，是它能自动配置大量技术组件，�
 
 Spring 团队意识到：要保持 Spring Boot 的“轻量”和“易用”，就必须重新设计其架构边界，这正是 Spring Boot 4 模块化的出发点。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=2)
+![图片](assets/SpringBoot4%20%E6%96%B0%E7%89%B9%E6%80%A7%EF%BC%9A%E6%A8%A1%E5%9D%97%E5%8C%96%E6%9E%B6%E6%9E%84/cbcaaf22f406380157c49da576b866f9_MD5.webp)
 
 02
 
@@ -52,7 +52,7 @@ Spring Boot 4 将原先的单体式自动配置包 拆分为多个独立模块 �
 2. 启动更快、内存占用更小：应用只引入所需模块，不再加载冗余功能，减少类路径扫描，优化启动时间与内存占用。
 3. 配置更精准：Spring Boot 4 能更准确地识别依赖意图。例如，只想使用 WebClient 时，引入 spring-boot-webclient 模块即可，无需再关闭 Web 服务器自动配置。
 4. 支持更多灵活用例：例如，Micrometer 监控模块可以独立使用，无需引入完整的 Actuator 依赖链。
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=4)
+![图片](assets/SpringBoot4%20%E6%96%B0%E7%89%B9%E6%80%A7%EF%BC%9A%E6%A8%A1%E5%9D%97%E5%8C%96%E6%9E%B6%E6%9E%84/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 03
 
@@ -67,7 +67,7 @@ Spring Boot 4 将原先的单体式自动配置包 拆分为多个独立模块 �
 
 每个功能模块都有对应的测试 Starter，确保测试依赖和生产依赖保持一致且精简。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=6)
+![图片](assets/SpringBoot4%20%E6%96%B0%E7%89%B9%E6%80%A7%EF%BC%9A%E6%A8%A1%E5%9D%97%E5%8C%96%E6%9E%B6%E6%9E%84/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 04
 
@@ -94,7 +94,7 @@ Spring Boot 4 将原先的单体式自动配置包 拆分为多个独立模块 �
 
 该模式会自动引入所有模块的自动配置，但不包含新的依赖结构，适合过渡阶段。 开发者可先迁移到 Spring Boot 4 的 Classic 模式，再逐步精简为独立模块。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=8)
+![图片](assets/SpringBoot4%20%E6%96%B0%E7%89%B9%E6%80%A7%EF%BC%9A%E6%A8%A1%E5%9D%97%E5%8C%96%E6%9E%B6%E6%9E%84/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 05
 
