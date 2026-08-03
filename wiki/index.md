@@ -261,6 +261,7 @@
 - [[摘要-前端转全栈-36行规则]] — 前端用 36 行规则文件约束 AI，成功交付 Java 后端模块
 - [[摘要-Docker部署Keycloak]] — Docker 部署 Keycloak 企业级身份认证平台完整指南
 - [[摘要-HermesAgent-0基础教程]] — 秋芝2046 的 Hermes Agent 零基础新手教程
+- [[摘要-spring-boot-json-security]] — Spring Boot 中 JSON 库安全性排行与选型推荐
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -399,7 +400,10 @@
 - [[Hikari]] — 高性能数据库连接池（Spring Boot 默认）
 - [[Druid]] — 阿里巴巴开源数据库连接池
 - [[Jackson]] — Java JSON 处理库（Spring Boot 默认）
-- [[FastJson]] — 阿里巴巴 JSON 处理库
+- [[FastJson]] — 阿里巴巴 JSON 处理库（1.x 版，建议退出）
+- [[FastJson2]] — 阿里巴巴新一代 JSON 处理库
+- [[Gson]] — Google 开源 Java JSON 处理库
+- [[JSON-B]] — Jakarta EE 标准 JSON 绑定方案
 - [[Hutool]] — Java 工具类库
 - [[SpringCloudGateway]] — Spring Cloud API 网关
 - [[Sentinel]] — 阿里巴巴流量治理组件
@@ -804,6 +808,10 @@
 - [[SkillTestPackage]] — 测试包观察期，新 Skill 先试用再晋升，调试与生产隔离
 - [[AgentSpecificSkillPackages]] — Agent 维度技能包隔离，公司/个人/场景独立管理
 - [[RemoteAgentManagement]] — 远程 Agent 管理，SSH 隧道统一管理本地与远程服务器
+
+- [[AutoType]] — JSON 反序列化自动类型解析，RCE 漏洞核心根源
+- [[SafeMode]] — FastJson 安全对抗模式
+- [[多态反序列化]] — Jackson 多态类型反序列化，20+ 高危 CVE 核心原因
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

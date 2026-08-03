@@ -1,3 +1,8 @@
+## [2026-07-31] ingest | 摄入 Spring Boot JSON 安全性排行文章
+- **变更**: 新增 [[摘要-spring-boot-json-security]]; 新增实体 [[Gson]], [[FastJson2]], [[JSON-B]]; 新增概念 [[AutoType]], [[SafeMode]], [[多态反序列化]]; 增量更新 [[Jackson]]（补充 Jackson 3/2026 CVE）, [[FastJson]]（补充 FastJson2 分代/多轮 CVE）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: raw/01-articles/Spring Boot 中使用 JSON：安全性排行推荐.md → raw/09-archive/
+
 ## [2026-07-31] ingest | 摄入 Spring Boot 4 模块化架构文章
 - **变更**: 新增 [[摘要-springboot4-模块化架构]]; 增量更新 [[SpringBoot]]（补充"SpringBoot 4 模块化架构"章节：模块拆分、测试 Starter 模块化、迁移指南、Classic Starters 过渡方案）; 更新 [[index.md]]
 - **冲突**: 无（本文模块化架构与已有 Undertow 移除/4.1.0 特性为互补视角）

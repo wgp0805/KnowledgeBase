@@ -2,8 +2,8 @@
 title: "Jackson"
 type: entity
 tags: [JSON, Java, 序列化]
-sources: []
-last_updated: 2026-05-29
+sources: [raw/01-articles/Spring Boot 中使用 JSON：安全性排行推荐.md]
+last_updated: 2026-07-31
 ---
 
 ## 定义
@@ -15,9 +15,16 @@ Jackson 是 Java 生态中最流行的 JSON 处理库，Spring Boot 默认的 JS
 - 常用注解：@JsonProperty、@JsonIgnore、@JsonFormat、@JsonInclude
 - Spring Boot 默认使用：自动配置 ObjectMapper Bean
 - 性能：比 FastJson 更安全，比 Gson 更快
+- Spring Boot 4 已将 Jackson 3 作为首选默认库
+- 2026 年又披露两项类型校验绕过漏洞（需主动开启多态反序列化才会进入危险路径）
 
 ## 关联连接
 - [[SpringBoot]] — 默认 JSON 处理器
 - [[FastJson]] — 竞品（阿里开源）
 - [[Java]] — 所属语言生态
 - [[摘要-springboot整合RocketMq]] — Spring Boot 整合 RocketMQ 的完整方案，…
+- [[摘要-spring-boot-json-security]] — JSON 库安全性排行
+- [[Gson]] — 竞品（Google）
+- [[JSON-B]] — Jakarta 标准方案
+- [[AutoType]] — 反序列化安全风险
+- [[多态反序列化]] — 历史漏洞核心原因
