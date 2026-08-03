@@ -262,6 +262,11 @@
 - [[摘要-Docker部署Keycloak]] — Docker 部署 Keycloak 企业级身份认证平台完整指南
 - [[摘要-HermesAgent-0基础教程]] — 秋芝2046 的 Hermes Agent 零基础新手教程
 - [[摘要-spring-boot-json-security]] — Spring Boot 中 JSON 库安全性排行与选型推荐
+- [[摘要-book-to-skill]] — book-to-skill 把整本书「预编译」成按需加载的结构化 Skill
+- [[摘要-deepseek-v4-flash发布]] — DeepSeek V4-Flash 正式版仅重训后训练即以下克上，Agent 能力反超 Pro 预览
+- [[摘要-embabel]] — Spring 之父 Rod Johnson 发布企业 AI Agent 框架 Embabel，GOAP 确定性规划
+- [[摘要-okf]] — Google OKF 知识标准：Agent 时代的知识格式与可信度治理
+- [[摘要-mcp-v5-openclaw-net]] — MCP 第五版无状态化与 OpenClaw.NET 的 MCP 生态编排层
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -569,6 +574,14 @@
 - [[AgentBroRemote]] — AgentBro 远程管理组件，SSH 隧道统一管理远程服务器 Agent
 - [[AgentBroMarket]] — AgentBro 内置技能市场，按创作者直接组成技能包
 - [[ShirenChuang]] — 程序员追风，AgentBro 作者，微信公众号作者
+- [[BookToSkill]] — 把书籍/文档「编译」成可安装结构化 Skill 的开源项目
+- [[DeepSeekHarness]] — DeepSeek 自研 Agent 评测框架，为模型提供终端/代码/工具/验证环境
+- [[崔添翼]] — DeepSeek Agent Harness 团队负责人，前 Jane Street 量化工程师
+- [[Embabel]] — Rod Johnson（Spring 之父）面向企业 AI Agent 的 JVM 框架，GOAP 确定性规划
+- [[RodJohnson]] — Spring Framework 之父，Embabel 创始人
+- [[OKF]] — Google Cloud 发布的知识格式标准，把 LLM Wiki 模式正式化
+- [[OpenWiki]] — 快速采用 OKF 的上层应用，Agent 生成并维护相互链接的 Wiki
+- [[OpenClawNET]] — OpenClaw 的 .NET 版本，MCP 第五版生态编排层
 
 ## Concepts
 - [[Apdex]] — 应用性能指数，量化用户体验满意度的 APM 核心指标
@@ -812,6 +825,12 @@
 - [[AutoType]] — JSON 反序列化自动类型解析，RCE 漏洞核心根源
 - [[SafeMode]] — FastJson 安全对抗模式
 - [[多态反序列化]] — Jackson 多态类型反序列化，20+ 高危 CVE 核心原因
+- [[DiscoveryLoopTax]] — 发现循环税，反复翻找文档的上下文消耗成本
+- [[后训练]] — 预训练之后的训练阶段，决定模型能摸到多高
+- [[GOAP]] — 面向目标的行动规划，确定性 Agent 规划算法（Embabel 核心）
+- [[UtilityAI]] — 效用 AI，按效用函数打分选最优 Action 的决策模式
+- [[LLMWiki]] — Karpathy 提出的结构化互链知识库模式，OKF 的前身
+- [[MRTR]] — 多轮往返请求，MCP 第五版替代服务端反向请求的机制
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

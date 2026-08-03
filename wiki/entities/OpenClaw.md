@@ -2,8 +2,8 @@
 title: "OpenClaw"
 type: entity
 tags: [实体, AI Agent, 开源项目]
-sources: [raw/01-articles/小龙虾（OpenClaw）教程汇总.md]
-last_updated: 2026-06-23
+sources: [raw/01-articles/小龙虾（OpenClaw）教程汇总.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md]
+last_updated: 2026-08-03
 ---
 
 ## 定义
@@ -55,3 +55,6 @@ OpenClaw.NET 提供基于 YAML 声明式 DAG 的 MetaSKILL 编排引擎，用于
 - [[meta-skill]] — 元技能概念
 - [[dynamic-workflow]] — 动态工作流对比概念
 - [[摘要-Claude-Code-Workflows-vs-MetaSKILL]] — 来源
+- [[OpenClawNET]] — .NET 生态版本（MCP 编排层）
+- [[MCP]] — 核心协议
+- [[摘要-mcp-v5-openclaw-net]] — 来源（MCP 第五版 × OpenClaw.NET）

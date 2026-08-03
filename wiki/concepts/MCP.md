@@ -2,8 +2,8 @@
 title: "MCP"
 type: concept
 tags: [AI, 协议, 外部服务]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/AgentScope入门指南.md]
-last_updated: 2026-07-22
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/AgentScope入门指南.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md]
+last_updated: 2026-08-03
 ---
 
 ## 定义
@@ -52,6 +52,15 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 
 **常用 MCP Server**：server-github（GitHub 操作）、server-filesystem（文件系统读写）、server-postgres（数据库查询）、server-slack（消息发送）、server-puppeteer（浏览器自动化）
 
+### MCP 第五版（2026-07-28）无状态化
+- **核心变革**：会话从协议层被彻底删除，MCP 从有状态的双向协议变成无状态的请求-响应协议
+- 旧握手 `initialize/initialized` 简化为每请求自包含协议版本与能力；移除 `Mcp-Session-Id` 粘性会话；状态外置到数据库/缓存；HTTP+SSE 长连接改为 Streamable HTTP
+- **收益**：远程 MCP Server 可像普通 HTTP 服务一样部署到 Serverless、边缘节点或 Kubernetes；支持轮询负载均衡，天然适配 K8s；网关可直接通过 `Mcp-Method`/`Mcp-Name` 请求头路由，无需解析 JSON body，降低网关 CPU 开销
+- **显式业务句柄**：跨调用状态（浏览器实例、购物车、审批流程）通过显式句柄传递（如 create_browser 返回 browser_id），状态属于业务而不属于连接
+- **MRTR**：替代服务端反向请求客户端能力，客户端携带 inputResponses+requestState 重新发起原始请求，任意服务端实例可继续任务（见 [[MRTR]]）
+- **扩展框架**：MCP Apps（提供交互式 HTML 界面）、Tasks（标准创建-查询-更新-取消任务接口）、JSON Schema 2020-12（$ref/oneOf/anyOf/allOf）
+- 核心协议做小、扩展能力做标准（Unix 哲学）：核心只管「如何调用工具」，Apps 管「如何渲染界面」，Tasks 管「如何管理长任务」
+
 ## 关联连接
 - [[Agent]] — MCP 所属概念
 - [[ClaudeCode]] — MCP 发明者
@@ -62,5 +71,8 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 - [[SpringAI_Alibaba]] — 双协议支持
 - [[AgentScope_Java]] — 双协议支持
 - [[HarnessAgent]] — AgentScope MCP 自动集成
+- [[MRTR]] — 第五版多轮往返机制
+- [[OpenClawNET]] — 第五版编排层实践
 - [[摘要-claude-code-learning-roadmap]] — 来源（Claude Code 王者级外部连接能力）
 - [[摘要-AgentScope入门指南]] — 来源（AgentScope MCP 集成实战）
+- [[摘要-mcp-v5-openclaw-net]] — 来源（MCP 第五版 × OpenClaw.NET）

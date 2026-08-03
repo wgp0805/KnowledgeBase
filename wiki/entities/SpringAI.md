@@ -2,8 +2,8 @@
 title: "SpringAI"
 type: entity
 tags: [AI框架, Spring, Java, LLM]
-sources: [raw/01-articles/SpringAI.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/01-articles/Spring AI 2.0真香！.md, raw/01-articles/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md]
-last_updated: 2026-07-09
+sources: [raw/01-articles/SpringAI.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/01-articles/Spring AI 2.0真香！.md, raw/01-articles/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md, raw/01-articles/2026-08-01-Spring之父再次出山，开发了新的AI框架！ - 苏三说技术.md]
+last_updated: 2026-08-03
 ---
 
 ## 定义
@@ -51,6 +51,12 @@ Spring AI 2.0 将"工具调用循环"从各个 ChatModel 内部抽出来，统�
 - 支持模型：OpenAI、Anthropic、DeepSeek、Google Gemini、Ollama、Amazon Bedrock、Azure OpenAI、阿里通义等 10+
 - 支持向量库：PGVector、Chroma、Pinecone、Redis、Milvus、Weaviate、Elasticsearch、MongoDB Atlas、Cassandra、Qdrant、Oracle 等 15+
 
+### 与 Embabel 的分层关系（Rod Johnson 观点）
+- 比喻：**Spring AI ≈ Servlet API，Embabel ≈ Spring MVC**；「Spring AI 是零件箱，Embabel 是装配图纸+流水线」
+- Spring AI 解决「怎么接入 AI 模型」（统一 ChatModel 接口、向量存储抽象、工具调用机制），但 Agent 逻辑组织、多步任务规划、流程可控需自己写代码
+- Embabel 解决「怎么让 AI Agent 在企业系统里稳定工作」，提供 Action/Goal/Condition 等完整 Agent 编程模型
+- 决策方式差异：Spring AI 命令式（开发者手动编排 ReAct 循环，每次决策都调 LLM）；Embabel 声明式（GOAP 引擎运行时动态计算最优路径，规划 0 Token，省 40-60% LLM 调用）
+
 ## 关联连接
 - [[SpringBoot]] — 基础框架
 - [[Ollama]] — 本地 LLM 部署
@@ -65,3 +71,5 @@ Spring AI 2.0 将"工具调用循环"从各个 ChatModel 内部抽出来，统�
 - [[AdvisorChain]] — Advisor 链模式
 - [[摘要-spring-ai-2-对话记忆实战]] — Spring AI 2.0 对话记忆实战
 - [[摘要-spring-ai-2-vs-alibaba选型]] — Spring AI 2.0 vs Alibaba 选型
+- [[Embabel]] — 上层 Agent 编程模型（Rod Johnson）
+- [[摘要-embabel]] — 来源（Embabel 对比）

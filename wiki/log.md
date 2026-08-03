@@ -1,3 +1,8 @@
+## [2026-08-03] ingest | 批量摄入 5 篇新文章（book-to-skill / DeepSeek V4-Flash / Embabel / OKF / MCP 第五版）
+- **变更**: 新增摘要 [[摘要-book-to-skill]], [[摘要-deepseek-v4-flash发布]], [[摘要-embabel]], [[摘要-okf]], [[摘要-mcp-v5-openclaw-net]]; 新增实体 [[BookToSkill]], [[DeepSeekHarness]], [[崔添翼]], [[Embabel]], [[RodJohnson]], [[OKF]], [[OpenWiki]], [[OpenClawNET]]; 新增概念 [[DiscoveryLoopTax]], [[后训练]], [[GOAP]], [[UtilityAI]], [[LLMWiki]], [[MRTR]]; 增量更新 [[DeepSeek]]（补充 V4-Flash 正式版/后训练案例）, [[SpringAI]]（补充与 Embabel 分层关系）, [[MCP]]（补充第五版无状态化/MRTR/扩展）, [[OpenClaw]]（补充 OpenClaw.NET 关联）, [[程序员追风]]（补充 book-to-skill 来源）; 更新 [[index.md]]
+- **冲突**: 无（注意到 4 个 raw 文件内容完全重复为同一篇 book-to-skill 文章，合并为单一摘要）
+- **归档**: raw/01-articles 下 8 个文件 → raw/09-archive/
+
 ## [2026-07-31] ingest | 摄入 Spring Boot JSON 安全性排行文章
 - **变更**: 新增 [[摘要-spring-boot-json-security]]; 新增实体 [[Gson]], [[FastJson2]], [[JSON-B]]; 新增概念 [[AutoType]], [[SafeMode]], [[多态反序列化]]; 增量更新 [[Jackson]]（补充 Jackson 3/2026 CVE）, [[FastJson]]（补充 FastJson2 分代/多轮 CVE）; 更新 [[index.md]]
 - **冲突**: 无

@@ -2,8 +2,8 @@
 title: "DeepSeek"
 type: entity
 tags: [AI, 模型, 公司]
-sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/01-articles/Ollama+DeepSeek本地部署（新人必看）.md, raw/01-articles/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md]
-last_updated: 2026-06-30
+sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/01-articles/Ollama+DeepSeek本地部署（新人必看）.md, raw/01-articles/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/2026-07-31-倒反天罡！DeepSeek V4-Flash 正式版悄然上线：130亿激活参数，把自家1.6万亿旗舰「以下克上」 - 小白跃升坊.md]
+last_updated: 2026-08-03
 ---
 
 ## 定义
@@ -34,6 +34,16 @@ last_updated: 2026-06-30
 ### Flash 模型 Agent 任务横评
 [[摘要-step-3-7-flash-agent横评]] 中，DeepSeek V4 Flash 在从零搭建开发者日志站任务中成本最低、可一轮交付可用成品，但编译过程中出现 3 次错误并自行修复。文章认为 DeepSeek 的单次 Token 成本优势明显，但在 Agent 场景下还需要把工具调用失败、代码错误返工和人工介入一起计入综合成本。
 
+### V4-Flash 正式版（0731，2026-07-31 上线）
+- 结构/尺寸与 4 月预览版一致（总参数 284B / 激活参数 13B，MoE，1M tokens 原生上下文，最大输出 384K），**仅重新进行后训练**，后台自动切换，仅限 API
+- 与 V4-Pro（总 1.6T / 激活 49B）对比：在 Agent 能力多项基准上反超 Pro 预览版
+  - Terminal Bench 2.1 达 82.7（预览 61.8）；DeepSWE 54.4（预览 7.3）；Toolathlon Verified 70.3；Cybergym 76.7；NL2Repo 54.2；DSBench-FullStack 68.7；DSBench-Hard 59.6；Agent Last Exam 25.2；Automation Bench 25.1
+  - 逼近 Claude Opus 4.8（Terminal Bench 85.0），反超 GLM-5.2（81.0）
+- 价格约为 V4-Pro 的三分之一（输入未命中 1 元/百万 tokens、输出 2 元），并发上限 2500（Pro 仅 500）；预告峰谷定价（高峰 2 倍）
+- 生态：原生支持 OpenAI Responses API（Flash 独占），Codex CLI/桌面端/IDE 可接入；预览版已适配 Claude Code、OpenClaw、OpenCode、CodeBuddy
+- 技术基础（V4 系列共通）：CSA+HCA 混合稀疏注意力、mHC 流形约束超连接、Muon 优化器、FP4 QAT
+- 待解问题：权重未开源、基准均为官方 Harness 自测、高推理强度依赖会放大 Token 消耗、无原生多模态
+
 ## 关联连接
 - [[DeepSeekTUI]] — 基于 DeepSeek V4 的终端编程智能体
 - [[Ollama]] — 本地部署 DeepSeek 模型
@@ -47,3 +57,8 @@ last_updated: 2026-06-30
 - [[MiniMax]] — 同期国产对手
 - [[GLM]] — 同期国产对手
 - [[摘要-如何在Spring-Boot中无缝集成LangChain4j]] — LangChain4j 提供 Spring Boot Sta…
+- [[DeepSeekHarness]] — Agent 评测框架
+- [[崔添翼]] — Harness 团队负责人
+- [[后训练]] — 正式版核心方法
+- [[Codex]] — 被适配的生态
+- [[摘要-deepseek-v4-flash发布]] — 来源（V4-Flash 正式版）
