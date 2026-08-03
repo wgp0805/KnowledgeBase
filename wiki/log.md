@@ -953,3 +953,29 @@
   - 更新 [[index.md]] 加入 13 个新条目（4 source + 5 entity + 4 concept）
 - **冲突**: 无
 - **归档**: raw/01-articles/ 4 个源文件至 raw/09-archive/
+
+## [2026-08-03] lint | 修复全库健康检查问题
+- **变更**: 修复 34 处正文死链，注册 2 个未同步索引页，新增 14 个缺失概念/实体页
+  - 改写 11 处指向错名页面: [[CentralLibrary]]->[[SkillCentralLibrary]], [[SoftLinkDistribution]]->[[SkillSoftLink]], [[CAS]]->[[CAS协议]], [[知识库-skill-solutions]]->[[knowledge-base-skill-solutions]], [[构建你的第一个Tool-Agent-从零理解ReAct循环]]->[[摘要-构建你的第一个Tool-Agent-从零理解ReAct循环]], [[多Agent协作]]->[[multi-agent-collaboration]], [[multi-agent-orchestration]]->[[multi-agent-collaboration]], [[zero-code-api-configuration]]->[[Dataway]], [[dataql-query-language]]->[[DataQL]]
+  - 改写 5 处 [[摘要-又一个神级终端诞生了让-codex-用得更爽]]->[[摘要-kaku-ai-terminal]]（AI终端/JetBrainsMono/Lazygit/WezTerm/Yazi）
+  - 新增 concepts: [[UUID]], [[雪花算法]], [[Token估算]], [[重试机制]], [[数据隐私]], [[EventSourcing]], [[spec-merger]], [[wikilink]], [[SSHTunnel]], [[code-first-orchestration]], [[binary-installation]]
+  - 新增 entities: [[Node.js]], [[JetBrains]], [[markdown-it]]
+  - 注册 2 个未同步页面: [[摘要-推荐5个AI-Agent项目]], [[MattPocock]]
+  - 更新 [[index.md]] 共 16 个新条目
+- **结果**: 正文死链 34 -> 0，未同步索引 2 -> 0，孤儿页面 0
+- **保留**: log.md 中 20 处历史死链按 append-only 原则保留
+
+## [2026-08-03] query | 查询 Agent 工具生成视频方案
+- **输出**: 引用 [[Codex]], [[ClaudeCode]], [[Sora]], [[Lovart]], [[摘要-codex必装skill推荐]], [[摘要-codex-97percent-技巧]], [[摘要-最强AI设计智能体Lovart入门教程]]; 即时回答未保存（已询问是否固化 synthesis）
+
+## [2026-08-03] query | 解析 opencode 生成视频的实现路径
+- **输出**: 引用 [[OpenCode]], [[HyperFrames]], [[Remotion]], [[Sora]], [[Lovart]], [[摘要-codex必装skill推荐]], [[摘要-codex-97percent-技巧]], [[摘要-最强AI设计智能体Lovart入门教程]], opencode 官方 docs（tools/skills/mcp）; 提出三种途径（Skill 扩展 / bash+Remotion / MCP 接入视频模型），即时回答未保存（待用户确认是否固化 synthesis）
+
+## [2026-08-03] ingest | 固化 synthesis 页面 opencode 生成视频三种途径
+- **变更**: 新增 [[opencode-video-generation-paths]]（三途径对比表 + 选型建议）; 更新 [[index.md]] Syntheses 分类; 更新 [[log.md]]
+
+## [2026-08-03] query | 查询 Gemini 2.5 Flash 编码水平
+- **输出**: 引用 [[Gemini]], [[摘要-step-3-7-flash-agent横评]], [[Step3Flash]]; 知识库无专门评测，已声明降级并补充网络检索（混合推理/可控 Thinking/LiveCodeBench 超上一代 Flash/Flash Lite 428 tokens/s）; 即时回答未保存（待用户确认是否固化 synthesis）
+
+## [2026-08-03] query | Gradle 与 Maven 的区别及为何不用 Gradle
+- **输出**: 引用 [[Maven]], [[摘要-maven]], [[摘要-maven-4-重构]], [[Jenkins]], [[Nexus]]; 知识库无 Gradle 专门条目，Gradle vs Maven 对比基于通用知识回答；即时回答未保存

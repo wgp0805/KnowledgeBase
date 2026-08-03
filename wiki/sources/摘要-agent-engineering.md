@@ -18,5 +18,5 @@ last_updated: 2026-07-22
 - [[orchestrator-workers]] — 协调器-工作者工作流
 - [[evaluator-optimizer]] — 评估器-优化器工作流
 - [[autonomous-agent]] — 自主智能体概念
-- [[multi-agent-orchestration]] — 多智能体编排
+- [[multi-agent-collaboration]] — 多智能体编排
 - [[guardrails]] — 安全护栏体系

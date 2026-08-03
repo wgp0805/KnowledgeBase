@@ -267,6 +267,7 @@
 - [[摘要-embabel]] — Spring 之父 Rod Johnson 发布企业 AI Agent 框架 Embabel，GOAP 确定性规划
 - [[摘要-okf]] — Google OKF 知识标准：Agent 时代的知识格式与可信度治理
 - [[摘要-mcp-v5-openclaw-net]] — MCP 第五版无状态化与 OpenClaw.NET 的 MCP 生态编排层
+- [[摘要-推荐5个AI-Agent项目]] — 苏三推荐的 5 个 Java 技术栈 AI Agent 实战项目（RAG/KAG/Function Calling/MCP）
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -582,6 +583,10 @@
 - [[OKF]] — Google Cloud 发布的知识格式标准，把 LLM Wiki 模式正式化
 - [[OpenWiki]] — 快速采用 OKF 的上层应用，Agent 生成并维护相互链接的 Wiki
 - [[OpenClawNET]] — OpenClaw 的 .NET 版本，MCP 第五版生态编排层
+- [[MattPocock]] — TypeScript 教育作者，17 万 star 的 AI 编码 skill 集合创建者
+- [[Node.js]] — 基于 V8 的 JavaScript 服务器端运行时，Claude Code/Codex 等工具的运行基础
+- [[JetBrains]] — 知名开发工具公司（IntelliJ IDEA/Junie/JetBrains Mono）
+- [[markdown-it]] — JavaScript 生态流行的 Markdown 解析渲染器
 
 ## Concepts
 - [[Apdex]] — 应用性能指数，量化用户体验满意度的 APM 核心指标
@@ -831,6 +836,17 @@
 - [[UtilityAI]] — 效用 AI，按效用函数打分选最优 Action 的决策模式
 - [[LLMWiki]] — Karpathy 提出的结构化互链知识库模式，OKF 的前身
 - [[MRTR]] — 多轮往返请求，MCP 第五版替代服务端反向请求的机制
+- [[UUID]] — 通用唯一识别码，随机无序主键性能陷阱
+- [[雪花算法]] — 分布式 ID 生成方案，64 位 Long 趋势递增
+- [[Token估算]] — 预估文本 Token 数量，控制上下文长度的辅助功能
+- [[重试机制]] — 操作失败后按策略重新尝试的可靠性设计
+- [[数据隐私]] — 数据收集、使用、存储、传输的控制权与保护措施
+- [[EventSourcing]] — 事件溯源，以不可变事件流作为状态唯一事实源
+- [[spec-merger]] — spec-superflow archiving 阶段组件，delta spec 合并回主规范
+- [[wikilink]] — Obsidian 双链语法，构建知识图谱的基础单元
+- [[SSHTunnel]] — SSH 隧道，远程 Agent 管理与加密端口转发
+- [[code-first-orchestration]] — 代码优先编排，用常规代码显式控制 Agent 流程
+- [[binary-installation]] — 二进制包直接部署，跳过源码编译的方式
 
 ## Syntheses
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
@@ -867,3 +883,4 @@
 - [[agent-rag-communication-comparison]] — Agent 与 RAG 通信方式对比（MCP/Tool/HTTP API/Skill 四种路径选型）
 - [[openspec-brownfield-usage-guide]] - 棕地项目 OpenSpec 详细使用方案：安装初始化/Delta Spec 补录/四步工作流/AI 遗忘三层防护/SpecSuperflow 升级
 - [[openspec-archive-modify-and-token-tradeoff]] - OpenSpec 归档需求修改流程与 Token 成本权衡：delta 修改闭环/返工与上下文腐烂的隐性成本/适用场景决策
+- [[opencode-video-generation-paths]] — opencode 生成视频的三种途径对比与选型：Skill 扩展 / bash+Remotion / MCP 接入视频模型

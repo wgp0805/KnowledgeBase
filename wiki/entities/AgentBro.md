@@ -49,8 +49,8 @@ AgentBro 是由程序员追风（石人闯，GitHub: shirenchuang）自研并每
 - [[Codex]] — 支持的 Agent
 - [[Skill]] — AI Agent 技能扩展机制
 - [[SkillPackage]] — 技能包概念
-- [[CentralLibrary]] — 中心库概念
-- [[SoftLinkDistribution]] — 软链接分发机制
+- [[SkillCentralLibrary]] — 中心库概念
+- [[SkillSoftLink]] — 软链接分发机制
 - [[SkillScanTakeover]] — 扫描接管机制
 - [[SkillConflictResolution]] — 同名冲突解决
 - [[SkillTestPackage]] — 测试包观察期

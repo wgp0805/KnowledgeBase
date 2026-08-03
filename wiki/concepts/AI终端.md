@@ -18,8 +18,8 @@ AI 终端是指集成了人工智能能力的终端工具，能够直接在命�
 - **发展趋势**：随着 AI Agent 的进化，终端正在成为替代 IDE 的编程工具
 
 ## 关联连接
-- [[摘要-又一个神级终端诞生了让-codex-用得更爽]] — 来源
+- [[摘要-kaku-ai-terminal]] — 来源
 - [[Kaku]] — AI 终端的代表产品
 - [[ClaudeCode]] — AI 终端集成的 AI 助手
 - [[Codex]] — AI 终端集成的 AI 助手
-- [[多Agent协作]] — AI 终端支持多 Agent 同时工作
+- [[multi-agent-collaboration]] — AI 终端支持多 Agent 同时工作

@@ -17,6 +17,6 @@ JetBrains Mono 是 JetBrains 公司开发的免费开源编程字体，专为开
 - **集成**：被 Kaku 终端工具预设为默认字体，配合 macOS 原生渲染
 
 ## 关联连接
-- [[摘要-又一个神级终端诞生了让-codex-用得更爽]] — 来源
+- [[摘要-kaku-ai-terminal]] — 来源
 - [[Kaku]] — 预设 JetBrains Mono 的 AI 终端
 - [[JetBrains]] — 字体开发者

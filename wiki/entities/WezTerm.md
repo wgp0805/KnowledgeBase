@@ -16,6 +16,6 @@ WezTerm 是一款用 Rust 编写的跨平台终端模拟器，以其高性能、
 - **相关项目**：Kaku（基于 WezTerm 深度定制的 AI 终端）
 
 ## 关联连接
-- [[摘要-又一个神级终端诞生了让-codex-用得更爽]] — 来源
+- [[摘要-kaku-ai-terminal]] — 来源
 - [[Kaku]] — 基于 WezTerm 定制的 AI 终端
 - [[Rust]] — 编程语言

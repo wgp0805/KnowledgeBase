@@ -19,8 +19,8 @@ AgentBro 是作者（程序员追风/石人闯）自研的 macOS 端 AI Agent �
 - [[Codex]] — 支持的 Agent 之一
 - [[Skill]] — AI Agent 技能扩展机制
 - [[SkillPackage]] — 技能包概念
-- [[CentralLibrary]] — 中心库概念
-- [[SoftLinkDistribution]] — 软链接分发机制
+- [[SkillCentralLibrary]] — 中心库概念
+- [[SkillSoftLink]] — 软链接分发机制
 - [[SkillScanTakeover]] — 扫描接管机制
 - [[SkillConflictResolution]] — 同名冲突解决
 - [[SkillTestPackage]] — 测试包观察期

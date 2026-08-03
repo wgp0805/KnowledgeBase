@@ -12,7 +12,7 @@ last_updated: 2026-07-23
 当知识库规模变大（几百+文件）需要搭建真正的 RAG 系统时，Agent 与 RAG 之间的通信是否只能依赖 MCP？有无其他解决办法。
 
 ## 结论
-**不是只有 MCP。** [[知识库-skill-solutions]] 方案四已明确指出 RAG 系统"通过 MCP 或 Tool 连接"。综合本库资料，Agent 访问 RAG 至少有四种主流路径，区别在于集成方式（进程内 / 跨进程）与通用性（标准化协议 / 私有调用）。
+**不是只有 MCP。** [[knowledge-base-skill-solutions]] 方案四已明确指出 RAG 系统"通过 MCP 或 Tool 连接"。综合本库资料，Agent 访问 RAG 至少有四种主流路径，区别在于集成方式（进程内 / 跨进程）与通用性（标准化协议 / 私有调用）。
 
 ## 四种通信方式
 
@@ -46,7 +46,7 @@ public String searchKnowledge(String query) {
 - **适用**：RAG 已独立部署，Agent 是另一个独立系统（微服务架构）
 
 ### 方式四：Skill（轻量文件检索，非真 RAG）
-[[知识库-skill-solutions]] 方案一推荐用 Skill + Grep/Read 检索。它不是真正的语义 RAG，但能解决 80% 问题，复杂度最低。
+[[knowledge-base-skill-solutions]] 方案一推荐用 Skill + Grep/Read 检索。它不是真正的语义 RAG，但能解决 80% 问题，复杂度最低。
 
 - **适用**：知识库尚未大到必须向量化的阶段，作为 RAG 的前置替代
 
@@ -74,7 +74,7 @@ public String searchKnowledge(String query) {
 - [[RAG]] - 检索增强生成
 - [[Agent]] - Agent 核心概念与扩展能力
 - [[Skill]] - 轻量技能扩展
-- [[知识库-skill-solutions]] - 知识库优先检索四种方案（方案四提出 MCP/Tool 连接）
+- [[knowledge-base-skill-solutions]] - 知识库优先检索四种方案（方案四提出 MCP/Tool 连接）
 - [[摘要-RAG-KAG双引擎知识库系统]] - RAG 独立服务 + API 端点实例
 - [[摘要-rag-api-call]] - RAG 问答链独立服务化
 - [[摘要-codegraph-mcp-gateway]] - MCP 网关包装知识库实践

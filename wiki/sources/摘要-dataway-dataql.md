@@ -13,5 +13,5 @@ Dataway 是基于 DataQL 的接口配置工具，允许开发者在 Spring Boot 
 - [[Dataway]] — Hasor 生态下的接口配置工具
 - [[DataQL]] — Dataway 的核心脚本引擎
 - [[Hasor]] — Java 框架生态，Dataway 和 DataQL 的父级框架
-- [[zero-code-api-configuration]] — 零代码接口配置概念
-- [[dataql-query-language]] — DataQL 查询语言
+- [[Dataway]] — 零代码接口配置工具
+- [[DataQL]] — DataQL 查询语言

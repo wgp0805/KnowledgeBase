@@ -44,7 +44,7 @@ while True:
 
 ## 两个必踩的坑
 
-1. **Agent "失忆"**：`ToolMessage` 未追加到 `messages` → LLM 不知道工具执行结果 → 无限次重复调用同一工具。[[构建你的第一个Tool-Agent-从零理解ReAct循环]]
+1. **Agent "失忆"**：`ToolMessage` 未追加到 `messages` → LLM 不知道工具执行结果 → 无限次重复调用同一工具。[[摘要-构建你的第一个Tool-Agent-从零理解ReAct循环]]
 2. **无限循环**：缺少安全阀。必须设置：
    - 业务层：`MAX_ITERATIONS`（如 10 次）
    - 框架层：`recursion_limit`（LangGraph 内置）
