@@ -1,3 +1,8 @@
+## [2026-08-03] ingest | 摄入 LangChain4j 入门指南（苏三）
+- **变更**: 新增摘要 [[摘要-LangChain4j入门指南-苏三]]; 增量更新 [[LangChain4j]]（补充 ChatMessage 五种类型、优缺点总结、与 Spring AI 对比表、生产避坑指南6条）; 增量更新 [[ChatMemory]]（补充"记忆 vs 历史记录"关键区分）; 增量更新 [[AIService]]（补充支持的能力列表：静态/动态系统消息/共享记忆/多用户记忆/RAG检索增强）; 增量更新 [[RAG]]（补充进阶版 RAG 流水线化特性）; 更新 [[index.md]]
+- **冲突**: 无（LangChain4j 版本 1.15.1 为过时快照，已有统一版本 1.17.2，未产生冲突）
+- **归档**: raw/01-articles/LangChain4j 入门指南.md → raw/09-archive/
+
 ## [2026-08-03] ingest | 批量摄入 5 篇新文章（book-to-skill / DeepSeek V4-Flash / Embabel / OKF / MCP 第五版）
 - **变更**: 新增摘要 [[摘要-book-to-skill]], [[摘要-deepseek-v4-flash发布]], [[摘要-embabel]], [[摘要-okf]], [[摘要-mcp-v5-openclaw-net]]; 新增实体 [[BookToSkill]], [[DeepSeekHarness]], [[崔添翼]], [[Embabel]], [[RodJohnson]], [[OKF]], [[OpenWiki]], [[OpenClawNET]]; 新增概念 [[DiscoveryLoopTax]], [[后训练]], [[GOAP]], [[UtilityAI]], [[LLMWiki]], [[MRTR]]; 增量更新 [[DeepSeek]]（补充 V4-Flash 正式版/后训练案例）, [[SpringAI]]（补充与 Embabel 分层关系）, [[MCP]]（补充第五版无状态化/MRTR/扩展）, [[OpenClaw]]（补充 OpenClaw.NET 关联）, [[程序员追风]]（补充 book-to-skill 来源）; 更新 [[index.md]]
 - **冲突**: 无（注意到 4 个 raw 文件内容完全重复为同一篇 book-to-skill 文章，合并为单一摘要）

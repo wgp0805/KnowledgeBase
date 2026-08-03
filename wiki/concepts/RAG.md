@@ -23,6 +23,9 @@ Retrieval-Augmented Generation（检索增强生成），把资料切块向量�
 2. **Retrieval & Generation Pipeline（在线）**：用户问题→向量化→相似度检索→Top-K→拼入 Prompt→LLM→答案
 3. 两条流水线共享同一个 Embedding 模型和向量库（一致性是关键）
 
+### 进阶版 RAG 流水线化
+进阶版 RAG 支持查询转换器、查询路由、内容聚合器、内容注入器等特性，将整个 RAG 流程流水线化（RAG Pipeline），实现更灵活的检索增强策略。
+
 ### 关键实践
 - RAG 关键不在框架，而在切分策略（段落完整性、块大小、重叠设置）
 - 换向量库的影响往往不如调切分策略大
