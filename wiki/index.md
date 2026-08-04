@@ -270,6 +270,12 @@
 - [[摘要-okf]] — Google OKF 知识标准：Agent 时代的知识格式与可信度治理
 - [[摘要-mcp-v5-openclaw-net]] — MCP 第五版无状态化与 OpenClaw.NET 的 MCP 生态编排层
 - [[摘要-推荐5个AI-Agent项目]] — 苏三推荐的 5 个 Java 技术栈 AI Agent 实战项目（RAG/KAG/Function Calling/MCP）
+- [[摘要-通用万能Prompt模板]] — 基于定角色/明任务/给素材三大原则的 4 种场景通用 Prompt 模板
+- [[摘要-提示词三大原则-定角色明任务给素材]] — 高质量 Prompt 结构化三大原则：定角色、明任务、给素材
+- [[摘要-java-boolean-is-naming-pitfall]] — Java 布尔属性 is 命名序列化大坑：DBA 规范与 JavaBean 规范冲突
+- [[摘要-java-boolean-is-serialization-pitfall]] — Java 布尔类型 is 命名导致序列化字段丢失 is 前缀的陷阱
+- [[摘要-pi-agent-core-principles]] — pi-agent 智能体核心原理：Agent = 大模型 + 工具集 + 执行循环
+- [[摘要-pi-agent-production-guide]] — pi-agent 从 Demo 到生产落地三大核心难题与解决方案
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享

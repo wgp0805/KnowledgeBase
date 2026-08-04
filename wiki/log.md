@@ -1,3 +1,8 @@
+## [2026-08-04] ingest | 批量摄入 5 篇已处理文章（补充索引同步）
+- **变更**: 补充注册 6 个已存在但未同步索引的摘要到 [[index.md]]：[[摘要-通用万能Prompt模板]], [[摘要-提示词三大原则-定角色明任务给素材]], [[摘要-java-boolean-is-naming-pitfall]], [[摘要-java-boolean-is-serialization-pitfall]], [[摘要-pi-agent-core-principles]], [[摘要-pi-agent-production-guide]]
+- **冲突**: 无（所有摘要、实体、概念页面此前已创建，本次仅同步索引）
+- **归档**: raw/01-articles/ 下 5 个文件 → raw/09-archive/
+
 ## [2026-08-04] ingest | 摄入 Sa-Token 权限认证框架深度解析文章
 - **变更**: 新增摘要 [[摘要-为什么越来越多人用Sa-Token]]; 新增实体 [[Sa-Token]]; 新增概念 [[权限认证框架]], [[分布式会话]], [[核心-插件-适配器模型]]; 增量更新 [[SpringSecurity]]（补充与 Sa-Token 对比表）; 增量更新 [[sa-token-vs-jwt-spring-security]]（补充来源）; 更新 [[index.md]]
 - **冲突**: 无
