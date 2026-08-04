@@ -3,6 +3,10 @@
 - **冲突**: 无（所有摘要、实体、概念页面此前已创建，本次仅同步索引）
 - **归档**: raw/01-articles/ 下 5 个文件 → raw/09-archive/
 
+## [2026-08-04] query | mvnd 完全讲解教程
+- **输出**: 已保存至 [[mvnd-complete-guide]]（web 搜索 + 综合整理）
+- **冲突**: 无（知识库此前无 mvnd 相关内容）
+
 ## [2026-08-04] ingest | 摄入 Sa-Token 权限认证框架深度解析文章
 - **变更**: 新增摘要 [[摘要-为什么越来越多人用Sa-Token]]; 新增实体 [[Sa-Token]]; 新增概念 [[权限认证框架]], [[分布式会话]], [[核心-插件-适配器模型]]; 增量更新 [[SpringSecurity]]（补充与 Sa-Token 对比表）; 增量更新 [[sa-token-vs-jwt-spring-security]]（补充来源）; 更新 [[index.md]]
 - **冲突**: 无
