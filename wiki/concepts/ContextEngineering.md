@@ -40,3 +40,6 @@ last_updated: 2026-08-04
 - [[GraphRAG]] — 同为 RAG 前沿演进方向
 - [[ContextManagement]] — AI 上下文窗口管理策略
 - [[摘要-字节面试官什么是RAG为什么需要RAG]] — 来源
+- [[PiAgent]] - 上下文工程实践来源
+- [[context-compression]] - 阈值驱动压缩机制
+- [[摘要-pi-agent-production-guide]] - 来源

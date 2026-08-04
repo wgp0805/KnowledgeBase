@@ -49,6 +49,11 @@ Harness 是大模型之外让 Agent 表现更好的设计总称。同样一个�
 - Agent 的循环会带来不可控的 Token 消耗，对稳定性/成本/延迟敏感的场景优先用 Workflow
 - 生产环境主流：外层 Workflow 编排 + 关键决策点交给 Agent（Agent with Guardrails）
 
+### Agent 本质公式与循环终止标准
+- **本质公式**：Agent = 大模型 + 工具集 + 执行循环（源自 [[PiAgent]]）。任何复杂 Agent 框架都只是在基础循环上叠加工程防护。
+- **循环终止标准**：模型判定无需调用工具时循环必须终止，否则无限消耗 Token 甚至死循环（详见 [[trace-turn]]）。
+- **极简模型**：200 行代码即可实现（read_file + write_file + while True），生产级框架在此基础上增加轮次限制、上下文压缩、参数校验、安全拦截、错误自愈、生命周期钩子。
+
 ## 关联连接
 - [[Codex]] — OpenAI 的 Agent
 - [[ClaudeCode]] — Anthropic 的 Agent
@@ -70,3 +75,7 @@ Harness 是大模型之外让 Agent 表现更好的设计总称。同样一个�
 - [[摘要-agent-tools-workflow区别]] — 三者关系与选型来源
 - [[CognitiveNavigation]] — Agent 运行时健康诊断
 - [[摘要-ai-agent-cognitive-navigation]] — 认知导航来源
+- [[PiAgent]] - 开源 Agent 框架，工程化实现
+- [[trace-turn]] - Agent 运行单位与生命周期钩子
+- [[摘要-pi-agent-core-principles]] - 本质公式来源
+- [[摘要-pi-agent-production-guide]] - 生产级落地来源

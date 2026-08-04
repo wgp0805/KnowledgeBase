@@ -22,3 +22,4 @@ PaiAgent 是一个基于 DAG（有向无环图）工作流引擎的 AI Agent 平
 - [[SpringBoot]] — 后端框架
 - React — 前端框架
 - ReactFlow — 流程图组件
+- [[PiAgent]] - 名字相近但不同的开源 Agent 框架（70K Star），勿混淆

@@ -39,3 +39,6 @@ PaiCLI 采用的上下文压缩策略，分三步：
 - [[ContextManagement]] — AI 上下文窗口管理策略
 - [[摘要-hermes-agent-complete-guide]] — 来源
 - [[摘要-生产级Agent设计]] — 来源
+- [[PiAgent]] - 阈值压缩与结构化模板来源
+- [[ContextEngineering]] - 上下文工程
+- [[摘要-pi-agent-production-guide]] - 来源
