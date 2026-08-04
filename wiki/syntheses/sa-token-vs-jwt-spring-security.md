@@ -2,8 +2,8 @@
 title: "sa-token-vs-jwt-spring-security"
 type: synthesis
 tags: [Sa-Token, JWT, SpringSecurity, 认证, 选型对比]
-sources: []
-last_updated: 2026-07-01
+sources: [raw/01-articles/为什么越来越多人用Sa-Token？.md]
+last_updated: 2026-08-04
 ---
 
 # Sa-Token vs JWT + Spring Security 全面对比

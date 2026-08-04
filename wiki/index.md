@@ -186,6 +186,7 @@
 - [[摘要-ai大模型学习路线]] — 冰河撰写的 AI 五关递进学习路线（提示词→RAG→Function Call→Agent→微调）
 - [[摘要-maven-4-重构]] — Maven 4 核心架构变化与 POM 4.1.0 新特性详解
 - [[摘要-codex-97percent-技巧]] — 苏三整理 Codex 从基础到进阶的 10 条实用技巧
+- [[摘要-为什么越来越多人用Sa-Token]] — Sa-Token 权限认证框架深度解析，对比 Spring Security
 - [[摘要-4种消息队列如何选型]] — Kafka/RabbitMQ/RocketMQ/ActiveMQ 四种消息队列全面对比与选型指南
 - [[摘要-transformer-训练微调范式]] — Transformer 架构与训练-微调范式（自注意力/QKV/SFT/RLHF/PEFT/LoRA）系统讲解
 - [[摘要-gateway网关]] — Gateway 网关五大作用与 Spring Cloud Gateway 实战
@@ -526,6 +527,7 @@
 - [[PageOffice]] — 卓正软件 PC 端 Word 在线处理产品，支持编辑/留痕/盖章
 - [[MobOffice]] — 卓正软件移动端在线 Office 处理产品，支持审批和盖章
 - [[ZhuozhengSoft]] — 卓正软件，在线办公与电子签章软件公司（PageOffice/MobOffice 出品方）
+- [[Sa-Token]] — 轻量级 Java 权限认证框架，学习曲线极低，核心-插件-适配器模型
 
 - [[WezTerm]] — Rust 编写的现代终端模拟器，Kaku 的底层引擎
 - [[Lazygit]] — 终端 Git 可视化操作工具，Go 语言编写
@@ -760,6 +762,9 @@
 - [[在线文档处理]] — 浏览器中打开/编辑/审批/盖章 Office 文档的技术方案
 - [[电子签名]] — 数字信息的身份验证与完整性确认，具法律效力
 - [[数字签名]] — 使用加密算法（如RSA）对数字信息签名和验证的底层技术
+- [[权限认证框架]] — 将登录认证、权限授权、会话管理等安全逻辑抽象化、标准化、自动化的框架
+- [[分布式会话]] — 将会话数据存储在外部共享存储中的会话管理方案
+- [[核心-插件-适配器模型]] — 分层架构设计模式，将系统划分为核心层、插件层和适配层
 
 - [[execution-contract]] — 执行契约，规划与执行之间的可验证锚点
 - [[eight-state-machine]] — spec-superflow 八状态工作流状态机（hotfix/tweak 快速路径）

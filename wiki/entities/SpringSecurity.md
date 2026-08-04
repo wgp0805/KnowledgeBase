@@ -33,11 +33,25 @@ Spring Security 是一个功能强大的 Java 认证和授权框架，提供全�
 - JWT 过滤器在 UsernamePasswordAuthenticationFilter 之前
 - CORS 配置必须在 Security 之前执行
 
+### 与 Sa-Token 对比
+| 维度 | Spring Security | Sa-Token |
+|------|-----------------|----------|
+| **定位** | 企业级全面安全解决方案 | 轻量级权限认证框架 |
+| **学习曲线** | 高，需理解过滤器链和 SecurityContextHolder | 极低，`StpUtil.login()` 一行完成 |
+| **配置方式** | 大量配置类 | 零配置启动 |
+| **功能边界** | 瑞士军刀，功能全面 | 聚焦高频认证场景 |
+| **生态深度** | 全球最广泛的安全框架，文档极其丰富 | 6k+ GitHub Stars，社区较小 |
+
+**一句话总结**：Spring Security 是"安全领域的瑞士军刀"，功能全面但复杂；Sa-Token 是"安全领域的美工刀"，简单实用且灵活。
+
 ## 关联连接
 - [[SpringBoot]] — 整合框架
 - [[Spring]] — 基础框架
 - [[JWT]] — 认证方案
 - [[rbac]] — 权限模型
 - [[cors]] — 跨域处理
+- [[Sa-Token]] — 轻量级替代方案
+- [[权限认证框架]] — 核心概念
 - [[摘要-springboot4-security7-vue3-best-practice]] — Security 7 最佳实践
 - [[摘要-spring-security]] — 完整教程
+- [[摘要-为什么越来越多人用Sa-Token]] — Sa-Token 对比来源

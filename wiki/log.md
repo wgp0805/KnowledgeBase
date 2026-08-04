@@ -1,3 +1,8 @@
+## [2026-08-04] ingest | 摄入 Sa-Token 权限认证框架深度解析文章
+- **变更**: 新增摘要 [[摘要-为什么越来越多人用Sa-Token]]; 新增实体 [[Sa-Token]]; 新增概念 [[权限认证框架]], [[分布式会话]], [[核心-插件-适配器模型]]; 增量更新 [[SpringSecurity]]（补充与 Sa-Token 对比表）; 增量更新 [[sa-token-vs-jwt-spring-security]]（补充来源）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: raw/01-articles/为什么越来越多人用Sa-Token？.md → raw/09-archive/
+
 ## [2026-08-03] ingest | 摄入 LangChain4j 入门指南（苏三）
 - **变更**: 新增摘要 [[摘要-LangChain4j入门指南-苏三]]; 增量更新 [[LangChain4j]]（补充 ChatMessage 五种类型、优缺点总结、与 Spring AI 对比表、生产避坑指南6条）; 增量更新 [[ChatMemory]]（补充"记忆 vs 历史记录"关键区分）; 增量更新 [[AIService]]（补充支持的能力列表：静态/动态系统消息/共享记忆/多用户记忆/RAG检索增强）; 增量更新 [[RAG]]（补充进阶版 RAG 流水线化特性）; 更新 [[index.md]]
 - **冲突**: 无（LangChain4j 版本 1.15.1 为过时快照，已有统一版本 1.17.2，未产生冲突）
