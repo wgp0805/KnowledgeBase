@@ -1037,3 +1037,7 @@
 - **输出**: 引用 [[codex-desktop-多模型与插件支持现状]], [[Codex]]; 百度/Bing 联网核实用户五条说法：①cc-switch 桌面模型门控 ✅（issue #3922 + 多篇排障文）②API Key 模式插件入口灰色锁定 ✅（知乎问题 + Codex++ 解锁文档）③"不能用 GitHub 插件市场" ⚠️ 不准确（CLI marketplace add 可用，桌面版为配置/目录 bug）④Codex++ 展示模型列表更稳 ✅（CDP 注入机制 + 无需路由）⑤官方订阅基本无问题 ✅（但接不了国产模型）
 - **待确认**: Codex++ 仓库名存疑（知识库记 BigPizzaV3/CodexPlusPlus，百度检索见 hkxiaoyao/CodexPlusPlus）；GitHub 本次不可达，issue 编号与 v3.16.5 修复细节未能逐条直连核实
 - **输出**: 即时回答未保存（已存在 synthesis 页面，待用户确认是否并入新证据）
+
+## [2026-08-05] query | GitHub 上 oh-my-* 与 kick-* 系列项目命名差异
+- **输出**: 知识库无相关页面，降级为通用知识回答（oh-my-* = 全家桶增强配置框架，kick-* = 极简起步模板，如 oh-my-zsh vs kickstart.nvim）；即时回答未保存
+- **冲突**: 无
