@@ -31,7 +31,7 @@ source: "https://mp.weixin.qq.com/s/S_aHaKALoOMukPaE3KFRFQ"
 
 ## 最近建了几个AI技术交流群，扫描加我微信，备注：AI，即可进群交流和学习，获取AI最新咨询。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibJZVicC7nz5jN7lz3xCSbNeNj4yNXMvNX12Fgwkvnuibx4wj2uF89ehibUGMOT4DPHibO5dg44kXwBickPvORaQ8JGA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=0)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/120fc0032d790118e773ec1a67b88378_MD5.webp)
 
 ## grill-me 简介
 
@@ -98,38 +98,38 @@ For each question, provide your recommended answer.
 npx skills@latest add mattpocock/skills
 ```
 - 由于 `mattpocock/skills` 是一个技能合集，运行命令后可以选择你需要的技能进行安装，我这里只选择了 grill-me 相关的 skill；
-![图片](https://mmbiz.qpic.cn/mmbiz_png/ULE52ybiacSsHkhYySDmYEVQfwZpkS5Ql3DtWojViaZ85hrtJ6KSk7YYmYvuJTGclHicLN7q9vqNwYZsZTEqic1z81wia3ribL7Et3gapJYRjBlVo/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/90e6abf3aae0ce91cc3c2ae25ab190f2_MD5.png)
 
 - 选择完成后，还需要选择安装到哪个 AI 代理编程工具中，我这里选择的是 Claude Code；
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacStD2VQzr60K2x2oTqWuFB88vZjso6qNFEpT1IQEcMc80Ssx7Mz6f4QPYzEriaD7GGWNyBicTLYR4Uv0IXBHjZDgrVk2TaxdRZia9E/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/d8b587aac4ab12363b184b7ca041d8dd_MD5.png)
 
 - 之后选择技能的安装范围，是项目范围还是全局范围；
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacSs8gRvRJwiaoxdmUEDJPt6s4WsDVDTD6ElNsu1TgwaqsVE4quoXjOtUCA15RzaibHJsIyobuPas9CF8ag5GGZOPWPCgMuDYAJibuE/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/990c0603e5fe21e61346fbdf42dbe836_MD5.png)
 
 - 安装完成后，输入 `/grill-me` 就可以找到对应的命令了。
-![图片](https://mmbiz.qpic.cn/mmbiz_png/ULE52ybiacSsibNnsqTDdkOY4T5bkbe1AbxYza7jsicrYP6KEbYnxpAvPTDWyXGS6yIOOICdx7HrJzEEW4FJyplLQibDFo5DafS6icpUsO0OBS1w/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/b5f9dc1572c7a2b2488add12b743d25e_MD5.png)
 
 ## 使用
 
 > 这里以开发一个 Markdown 编辑器为例，演示 grill-me 的追问过程。
 
 - 在 Claude Code 中输入 `/grill-me 我想开发一个 Markdown 编辑器。` ，接下来，AI 就会化身"面试官"，开始对你的计划进行灵魂拷问；
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacSvTHcfRIReicAwoiazLNXicMYpzxGGuLZVMraJvJSTSpFYJHUhoFr5fpVXXckrLw679VibkiaYxwM0swSK2f1fVz6RxfVhuuHnh3sUM/640?wx_fmt=png&from=appmsg#imgIndex=5)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/81c9ea4315e7118ad088f77a5b04b67f_MD5.png)
 
 - 例如第 5 个问题：你喜欢哪种编辑形态？不仅提供了 4 种不同的编辑形态，还对每个形态的优缺点做了介绍；
-![图片](https://mmbiz.qpic.cn/mmbiz_png/ULE52ybiacSsicniaHEPPz0HhyKB8ywpIhNWDYnE8M8icaQTkzbldvaA36hMtGpqiac3TtXmpy5dxfpWhmVC4YzjgrLQNaveCOAlcfzwcUONbNH0/640?wx_fmt=png&from=appmsg#imgIndex=6)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/769d5303d4a6f58036706404053a62e1_MD5.png)
 
 - 还有第 10 个问题：用什么前端框架和构建工具？同样提供了 4 种解决方案，还对最适合的方案添加了推荐；
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacSu0iaKvaTCr6LXB1p0MJqktWfuHozafqQYg93ZFkAuPYlwd4YHYb0LOiacpCVo9j3wTaezVKJibpyLvajEoichpcdPurian2MMh5Kia8/640?wx_fmt=png&from=appmsg#imgIndex=7)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/8f5d8be1cb82b33c66788e7a47971b81_MD5.png)
 
 - 使用 grill-me 之后，Claude Code 将反复追问你的需求，我这里它提出了一共 14 个问题，涵盖了项目开发的方方面面，整个过程大概花了 10 分钟；
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacStL86qreBzseFU6slxfAhKFsyokiazzM3rtCPqCpMudOGLTLEgEK5DTr8Itw942HQzMY057SvFozdRRhworXRSoZI1icYFFPQ2o8/640?wx_fmt=png&from=appmsg#imgIndex=8)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/fa12790fb73a5765cc5af5de0a122fd3_MD5.png)
 
 - 最终 Claude Code 和我达成了完整的共识，就可以进入项目的实施阶段了；
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacSvx7qibIqNwJmnibicnPp4WkyicUTxLcvY7Aolpbor1tdicxtelSUlQoD5ALnS7R3WOviaibjxlmSO7W3UeG4wVvTyibXEL5mQepibiczYP4/640?wx_fmt=png&from=appmsg#imgIndex=9)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/be32af8f1f5a0564ab4740205f6b7a2a_MD5.png)
 
 - 最终生成的编辑器支持实时预览、代码高亮、双栏滚动同步，完全覆盖了追问阶段确定的需求。
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/ULE52ybiacSuGmYjtjfF0HNS1D34G4EQIxlsOKicKdfRzK9KpJiaIKicC30ziaTpZS5zO6xJH8yjXibzWW1X6lqicFYsxfLSI50f3nlfyaCicTcXs3s/640?wx_fmt=png&from=appmsg#imgIndex=10)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E4%BD%A0%E6%87%82%20Vibe%20Coding%EF%BC%8C%E9%82%A3%E4%BD%A0%E8%AF%B4superpowers%E5%92%8Cgrill-me%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F%EF%BC%8C%E6%88%91%EF%BC%9A%E5%B0%8F%E5%AD%A9%E6%89%8D%E5%81%9A%E9%80%89%E6%8B%A9%EF%BC%8C%E6%88%91%E5%85%A8%E9%83%BD%E8%A6%81%EF%BC%81/6231b01a38071ae54335c9fc7d2aadc1_MD5.png)
 
 ## 效果对比
 
