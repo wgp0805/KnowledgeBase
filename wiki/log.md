@@ -1,3 +1,8 @@
+## [2026-08-05] ingest | 摄入「面试经典：高并发短链接系统设计」
+- **变更**: 新增 source [[摘要-高并发短链接系统设计]]; 新增 concepts [[短链接系统]], [[分布式发号器]], [[Base62编码]], [[布隆过滤器]], [[哈希碰撞]], [[HTTP重定向]], [[缓存雪崩]]; 新增 entities [[Caffeine]], [[Leaf]]; 增量更新 [[雪花算法]]（补充发号器场景与 Leaf 关联）、[[sharding]]（补充短链分库分表场景关联）; 更新 [[index.md]]（1 source + 7 concepts + 2 entities）
+- **冲突**: 无
+- **归档**: raw/01-articles/面试经典：如何设计高并发短链接系统.md -> raw/09-archive/
+
 ## [2026-08-05] ingest | 摄入「携程二面：什么是熔断」面试文章
 - **变更**: 新增 source [[摘要-携程二面-熔断]]; 新增 concepts [[熔断]], [[雪崩效应]], [[限流]], [[降级]]; 新增 entities [[Hystrix]], [[Resilience4j]]; 增量更新 [[Sentinel]]（补充熔断三态、关键参数、与 Hystrix 差异）; 更新 [[index.md]]（1 source + 4 concepts + 2 entities）
 - **冲突**: 无
