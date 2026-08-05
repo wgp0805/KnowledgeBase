@@ -6,7 +6,8 @@ sources:
   - raw/01-articles/全网爆火的Superpowers到底是什么.md
   - raw/01-articles/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md
   - raw/01-articles/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
-last_updated: 2026-07-09
+  - raw/01-articles/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md
+last_updated: 2026-08-05
 ---
 
 ## 定义
@@ -53,6 +54,16 @@ last_updated: 2026-07-09
 3. **Red Flags 表**：列出 AI 可能用来跳过流程的借口（"改动太小不需要测试""用户赶时间先跳过 review"），逐条说明为何这些借口不成立
 4. **[[subagent-driven-development|SDD]]**：子代理上下文隔离 + 双裁决审查。v6.0 评测显示 token 消耗砍约 50%，速度翻倍。
 
+### 与 grill-me 的配合
+
+Superpowers 是 **编码中** 的全流程开发方法论；[[GrillMe]] 是 **编码前** 的需求澄清与设计追问 skill。两者不是竞品，可组成完整 AI 编程工作流：
+
+```
+grill-me（想清楚）→ superpowers brainstorming（补充细节）→ writing-plans（拆任务）→ tdd / subagent（执行）
+```
+
+其中 superpowers 的 `brainstorming` 是全流程头脑风暴（生成视觉伴侣/架构图/数据模型等完整产物），与 grill-me 的轻量面试式追问互补而非冲突。
+
 ### 安装
 
 ```bash
@@ -80,6 +91,7 @@ last_updated: 2026-07-09
 - [[摘要-spec-superflow-融合工作流]] — 融合方案来源
 - [[VibeCoding]] — 它要消灭的现象
 - [[ClaudeCode]] — 首发载体
+- [[GrillMe]] — 编码前的需求澄清互补 skill
 - [[Cursor]] — 兼容平台
 - [[Codex]] — 兼容平台
 - [[子Agent编排]] — 核心机制

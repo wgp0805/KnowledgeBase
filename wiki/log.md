@@ -1,3 +1,8 @@
+## [2026-08-05] ingest | 摄入「面试官皱眉：superpowers 和 grill-me 怎么选」苏三文章
+- **变更**: 新增 source [[摘要-superpowers-grill-me怎么选]]; 新增 entity [[GrillMe]]（编码前需求澄清 skill，追问设计分支至共识）; 增量更新 [[superpowers]]（补充"与 grill-me 的配合"章节、组合工作流、关联连接）、[[MattPocock]]（补充新来源与 GrillMe 关联）、[[苏三]]（补充新来源与提炼实体）; 更新 [[index.md]]（1 source + 1 entity）
+- **冲突**: [[GrillMe]] 与 [[MattPocock]] 记载的"作者已撤下 /grill-me 从默认推荐位"表述并存——前者讲作者对自家 skill 编排的调整，后者讲 grill-me 相对 superpowers 的定位差异，已在 [[GrillMe#知识冲突]] 区块标注，非覆盖性冲突
+- **归档**: raw/01-articles/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md → raw/09-archive/
+
 ## [2026-08-04] ingest | 批量摄入 5 篇已处理文章（补充索引同步）
 - **变更**: 补充注册 6 个已存在但未同步索引的摘要到 [[index.md]]：[[摘要-通用万能Prompt模板]], [[摘要-提示词三大原则-定角色明任务给素材]], [[摘要-java-boolean-is-naming-pitfall]], [[摘要-java-boolean-is-serialization-pitfall]], [[摘要-pi-agent-core-principles]], [[摘要-pi-agent-production-guide]]
 - **冲突**: 无（所有摘要、实体、概念页面此前已创建，本次仅同步索引）
