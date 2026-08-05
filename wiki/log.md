@@ -1,3 +1,24 @@
+## [2026-08-05] query | 推荐 pi 工作开发的扩展安装清单
+- **输出**: 引用 [[pi-扩展生态与开发指南]], [[PiAgent]], [[MCP]]; 按三档给出推荐（必装安全类/工作流类/按需类）；已补充进 [[pi-扩展生态与开发指南]] 新增"六、工作开发推荐安装清单"章节
+- **冲突**: 无
+
+## [2026-08-05] query | Pi 现成扩展查找渠道与扩展开发规范
+- **输出**: 引用 [[PiAgent]], [[Skill]], [[Agent]], [[MCP]], [[OpenCode]]; 知识库无扩展生态内容，经 web 综合（官方 docs/extensions.md、examples 目录、pi.dev、npm registry）；已固化为 [[pi-扩展生态与开发指南]]（更新 index.md）
+- **冲突**: 无
+
+## [2026-08-05] query | 解释"个人高手/要掌控一切/省钱/多模型适合 Pi"的画像含义
+- **输出**: 引用 [[PiAgent]], [[OpenCode]], [[ClaudeCode]]; 展开四特质含义（原语组合哲学/控制权/零订阅+低token/多模型按任务分配），并给出反例画像（开箱即用党不适合）; 即时回答未保存
+
+## [2026-08-05] query | 确认 pi 是否适合非高手用于工作开发（选型确认）
+- **输出**: 引用 [[PiAgent]], [[OpenCode]], [[ClaudeCode]], [[Codex]]; 确认"求稳用成熟工具"成立，并补充 pi 是"毛坯房非危房"、OpenCode 为务实折中选择；即时回答未保存
+
+## [2026-08-05] query | pi-agent 对 Node.js 的最低版本要求
+- **输出**: 引用 [[PiAgent]]; 知识库无版本要求记录，降级声明后经 web 验证（earendil-works/pi changelog + npm EBADENGINE + Pi Agent Platform 发布文档）——最低 Node.js >= 22.19.0; 即时回答未保存
+
+## [2026-08-05] query | 验证 cc-switch / Codex++ 对 Codex 桌面版多模型与插件支持的说法
+- **输出**: 引用 [[Codex]]; 知识库无 cc-switch/Codex++/插件市场 专门页面，经 web 验证（cc-switch issue #3340/#3605、openai/codex issue #21959/#16903、CodexPlusPlus GitHub、Codex 官方插件文档）；已固化为 [[codex-desktop-多模型与插件支持现状]]（更新 index.md）
+- **冲突**: 无
+
 ## [2026-08-05] ingest | 摄入「面试官皱眉：superpowers 和 grill-me 怎么选」苏三文章
 - **变更**: 新增 source [[摘要-superpowers-grill-me怎么选]]; 新增 entity [[GrillMe]]（编码前需求澄清 skill，追问设计分支至共识）; 增量更新 [[superpowers]]（补充"与 grill-me 的配合"章节、组合工作流、关联连接）、[[MattPocock]]（补充新来源与 GrillMe 关联）、[[苏三]]（补充新来源与提炼实体）; 更新 [[index.md]]（1 source + 1 entity）
 - **冲突**: [[GrillMe]] 与 [[MattPocock]] 记载的"作者已撤下 /grill-me 从默认推荐位"表述并存——前者讲作者对自家 skill 编排的调整，后者讲 grill-me 相对 superpowers 的定位差异，已在 [[GrillMe#知识冲突]] 区块标注，非覆盖性冲突
@@ -262,6 +283,10 @@
 - **引用**: [[ReAct_Agent]], [[Research-Plan-Execute-Review-Ship]], [[Agent]], [[AICoding]], [[VibeEngineering]], [[claude-code-best-practice]]
 
 # Wiki 操作日志
+
+## [2026-08-05] query | 汇总 Pi Agent 完全教程
+- **输出**: 引用 [[PiAgent]], [[摘要-pi-agent-core-principles]], [[摘要-pi-agent-production-guide]], [[pi-扩展生态与开发指南]], [[CLAUDEmd]], [[ContextEngineering]]; 知识库无完整教程，经 web 补充（官方 docs quickstart/usage）后综合成十八章节教程；已固化为 [[pi-agent-complete-guide]]（更新 index.md）
+- **冲突**: 无
 
 ## [2026-06-29] ingest | 摄入双 Token 续签设计文章 + 补归档 Token-Redis 面试文
 - **变更**:
@@ -1007,3 +1032,8 @@
 ## [2026-08-05] ingest | 摄入苏三《为什么越来越多人用Nacos？》
 - **变更**: 新增 [[摘要-为什么越来越多人用Nacos]]; 新增实体 [[Eureka]]; 新增概念 [[Distro协议]], [[AI Registry]], [[长轮询]]; 增量更新 [[Nacos]]（AP/CP 双模、JRaft、Distro、长轮询、2.0 gRPC 性能、3.0 AI Registry、四中心对比、优缺点、实战接入）; 更新 [[index.md]]; 归档源文件至 raw/09-archive/
 - **冲突**: 无（Nacos 原"遵循 AP 原则"描述已被"AP/CP 双模按场景切换"补充细化）
+
+## [2026-08-05] query | 联网复核 Codex 桌面版第三方模型与插件支持现状
+- **输出**: 引用 [[codex-desktop-多模型与插件支持现状]], [[Codex]]; 百度/Bing 联网核实用户五条说法：①cc-switch 桌面模型门控 ✅（issue #3922 + 多篇排障文）②API Key 模式插件入口灰色锁定 ✅（知乎问题 + Codex++ 解锁文档）③"不能用 GitHub 插件市场" ⚠️ 不准确（CLI marketplace add 可用，桌面版为配置/目录 bug）④Codex++ 展示模型列表更稳 ✅（CDP 注入机制 + 无需路由）⑤官方订阅基本无问题 ✅（但接不了国产模型）
+- **待确认**: Codex++ 仓库名存疑（知识库记 BigPizzaV3/CodexPlusPlus，百度检索见 hkxiaoyao/CodexPlusPlus）；GitHub 本次不可达，issue 编号与 v3.16.5 修复细节未能逐条直连核实
+- **输出**: 即时回答未保存（已存在 synthesis 页面，待用户确认是否并入新证据）
