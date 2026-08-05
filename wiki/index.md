@@ -343,6 +343,7 @@
 - [[Promise]] — JavaScript 异步编程模式
 - [[DeepSeek]] — AI 模型系列与公司
 - [[DeepSeekTUI]] — 基于 DeepSeek V4 的开源终端编程智能体
+- [[RobbyRussell]] — oh-my-zsh 创建者，oh-my-* 命名风格的开创者，自称"curator"
 - [[Ripgrep]] — Rust 高性能搜索工具（Claude Code Grep 底层）
 - [[Cursor]] — AI 代码编辑器（混合检索）
 - [[BorisCherny]] — Anthropic 首席工程师
@@ -868,7 +869,7 @@
 - [[binary-installation]] — 二进制包直接部署，跳过源码编译的方式
 
 ## Syntheses
-- [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板的命名差异
+- [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析
 - [[spring-skill-usage-guide]] — 4个Spring Skill使用时机与组合策略

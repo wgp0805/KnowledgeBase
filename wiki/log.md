@@ -1,3 +1,10 @@
+## [2026-08-06] query | oh-my-* 项目与 kickstart.* 项目的区别
+- **输出**: 引用 [[oh-my-vs-kick-开源项目命名差异]]; 知识库已有直接对应的 synthesis 页面，直接引用回答（全家桶配置 vs 极简起步模板）；即时回答未保存
+
+## [2026-08-06] query | oh-my-* 项目与 kickstart.* 项目的区别
+- **输出**: 引用 [[oh-my-vs-kick-开源项目命名差异]]; 用户反馈原总结不完整，经 exa 联网搜索（oh-my-zsh 命名起源/Robby Russell 访谈、oh-my-posh 历史、oh-my-bash/oh-my-fish/oh-my-tmux 家族、kickstart.nvim 官方定位、kickstart vs LazyVim/NvChad distribution 对比）后，重写 synthesis 页面：新增命名起源章节、家族成员图谱、"反 distribution"路线、distribution 生态对照表；新增实体 [[RobbyRussell]]（oh-my-zsh 创建者/curator）；更新 [[index.md]]（1 entity + 1 synthesis 描述）
+- **冲突**: 无
+
 ## [2026-08-05] query | 推荐 pi 工作开发的扩展安装清单
 - **输出**: 引用 [[pi-扩展生态与开发指南]], [[PiAgent]], [[MCP]]; 按三档给出推荐（必装安全类/工作流类/按需类）；已补充进 [[pi-扩展生态与开发指南]] 新增"六、工作开发推荐安装清单"章节
 - **冲突**: 无
