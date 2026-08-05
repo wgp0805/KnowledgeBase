@@ -242,6 +242,7 @@
 
 - [[摘要-从winforms到vue-ds-ui-gui框架]] — 从 WinForms 到 Vue：ds-ui 专业 GUI 框架的理念与实践
 - [[摘要-skywalking-docker-compose-install]] — Docker Compose 部署 SkyWalking 9.3.0 + ES 8.4.2
+- [[摘要-为什么越来越多人用Nacos]] — 从 Eureka 到 Nacos：注册中心+配置中心一体化、AP/CP 双模、Distro 协议、长轮询、2.0 性能 10 倍、3.0 AI Registry
 - [[摘要-dyad-ai全栈构建器]] — Dyad 本地 AI 全栈应用构建器介绍（21k Star）
 - [[摘要-胖虎-skill教程]] — 胖虎 Skill 编写实战教程，最接地气的 Skill 入门指南
 - [[摘要-jeandle-llvm-jit编译器]] — 蚂蚁集团开源 Jeandle，基于 LLVM 的 JVM JIT 编译器
@@ -889,7 +890,6 @@
 - [[maven-lastUpdated-file]] — Maven `*.lastUpdated` 失败缓存文件的作用、副作用及清理方法
 - [[sa-token-vs-jwt-spring-security]] — Sa-Token vs JWT + Spring Security 全面对比与选型分析
 - [[junie-国产模型配置指南]] — 在 IntelliJ IDEA / Junie 中配置国产模型（Qwen Code / GLM Agent / 手动 ACP）操作步骤
-- [[codex-国产模型配置指南]] — 在 Codex CLI 中配置国产模型：model_providers + requires_openai_auth=false + env_key 接入 OpenAI 兼容端点
 - [[idea-ai-assistant-guide]] — IntelliJ IDEA AI Assistant 能力全貌：ACP agent / 代码补全 / 免费插件选型
 - [[hand-craft-agent-guide]] — 手搓 Agent 完整指南：ReAct 循环原理、最小实现与选型建议
 - [[重复消费解决方案]] — RocketMQ/Spring Cloud Stream 重复消费根因与六种幂等方案详解
