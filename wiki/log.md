@@ -737,6 +737,9 @@
 ## [2026-07-08] query | IDEA 自带热更新报错 schema change not implemented
 - **输出**: 即时回答未保存；知识库无 HotSwap 专门条目（现有"热更新"均指 K8s/OSGi），引用 [[IntelliJIDEA]]、[[JVM]]、[[HotSpot]] 作为关联实体；回答内容为通用知识（JVM 标准 HotSwap 仅支持方法体替换，schema change 需 DCEVM/JRebel/DevTools）
 
+## [2026-08-05] query | Codex 接入国产模型的 config.toml 配置
+- **输出**: 知识库原无此配置细节；用户提供 `requires_openai_auth = false` + `env_key` 关键配置，已固化为 synthesis [[codex-国产模型配置指南]]；更新 [[index.md]]、[[log.md]]
+
 ## [2026-07-09] ingest | 摄入 3 篇 AI 编程工作流与 Spring AI 文章
 - **变更**: 新增来源 [[摘要-spec-superflow-融合工作流]]、[[摘要-spring-ai-2-对话记忆实战]]、[[摘要-spring-ai-2-vs-alibaba选型]]；新建实体 [[SpecSuperflow]]、[[FissionAI]]、[[MageByte-Zero]]、[[程序员追风]]；新建概念 [[execution-contract]]、[[seven-state-machine]]、[[delta-spec]]、[[review-gate]]、[[subagent-driven-development]]；增量更新 [[OpenSpec]]、[[Superpowers]]、[[SpringAI]]、[[SpringAI_Alibaba]]、[[苏三]]、[[ChatMemory]]；同步 [[index.md]]
 - **冲突**: [[SpringAI]] 版本基线更新——旧记「Spring Boot 3.x+」，新文（2026-07-09）明确 Spring AI 2.0 GA 基于 Spring Boot 4.1 + Spring Framework 7.0，已据更权威的新来源纠正
