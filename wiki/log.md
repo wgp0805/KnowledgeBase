@@ -1003,3 +1003,7 @@
 
 ## [2026-08-03] query | Gradle 与 Maven 的区别及为何不用 Gradle
 - **输出**: 引用 [[Maven]], [[摘要-maven]], [[摘要-maven-4-重构]], [[Jenkins]], [[Nexus]]; 知识库无 Gradle 专门条目，Gradle vs Maven 对比基于通用知识回答；即时回答未保存
+
+## [2026-08-05] ingest | 摄入苏三《为什么越来越多人用Nacos？》
+- **变更**: 新增 [[摘要-为什么越来越多人用Nacos]]; 新增实体 [[Eureka]]; 新增概念 [[Distro协议]], [[AI Registry]], [[长轮询]]; 增量更新 [[Nacos]]（AP/CP 双模、JRaft、Distro、长轮询、2.0 gRPC 性能、3.0 AI Registry、四中心对比、优缺点、实战接入）; 更新 [[index.md]]; 归档源文件至 raw/09-archive/
+- **冲突**: 无（Nacos 原"遵循 AP 原则"描述已被"AP/CP 双模按场景切换"补充细化）

@@ -330,6 +330,7 @@
 - [[Solr]] — 基于 Lucene 的搜索服务器
 - [[RuoYi]] — 若依快速开发框架
 - [[Nacos]] — 服务注册与配置中心
+- [[Eureka]] — Spring Cloud Netflix 注册中心（2.x 已停止维护）
 - [[JavaScript]] — Web 编程语言
 - [[Qoder]] — AI 编码工具
 - [[PaiAgent]] — AI Agent 平台
@@ -654,6 +655,9 @@
 - [[message-queue]] — 消息队列核心概念
 - [[meta-skill]] — 元技能（编写技能的技能）
 - [[microservices]] — 微服务架构
+- [[Distro协议]] — Nacos 自研的 AP 最终一致性协议（责任分片+读写分离，用于服务发现）
+- [[AI Registry]] — Nacos 3.0 面向 AI Agent 的模块（模型层/工具层=MCP Registry/智能体层）
+- [[长轮询]] — HTTP 半推送机制，Nacos 配置推送的底层实现
 - [[query-optimization]] — 数据库查询优化
 - [[RAG]] — 检索增强生成
 - [[sequential-io]] — 顺序 IO 性能优化
