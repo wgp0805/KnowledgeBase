@@ -1,3 +1,7 @@
+## [2026-08-05] ingest | 摄入「携程二面：什么是熔断」面试文章
+- **变更**: 新增 source [[摘要-携程二面-熔断]]; 新增 concepts [[熔断]], [[雪崩效应]], [[限流]], [[降级]]; 新增 entities [[Hystrix]], [[Resilience4j]]; 增量更新 [[Sentinel]]（补充熔断三态、关键参数、与 Hystrix 差异）; 更新 [[index.md]]（1 source + 4 concepts + 2 entities）
+- **冲突**: 无
+
 ## [2026-08-06] query | oh-my-* 项目与 kickstart.* 项目的区别
 - **输出**: 引用 [[oh-my-vs-kick-开源项目命名差异]]; 知识库已有直接对应的 synthesis 页面，直接引用回答（全家桶配置 vs 极简起步模板）；即时回答未保存
 

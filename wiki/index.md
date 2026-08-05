@@ -272,6 +272,7 @@
 - [[摘要-okf]] — Google OKF 知识标准：Agent 时代的知识格式与可信度治理
 - [[摘要-mcp-v5-openclaw-net]] — MCP 第五版无状态化与 OpenClaw.NET 的 MCP 生态编排层
 - [[摘要-推荐5个AI-Agent项目]] — 苏三推荐的 5 个 Java 技术栈 AI Agent 实战项目（RAG/KAG/Function Calling/MCP）
+- [[摘要-携程二面-熔断]] — 携程面试题：熔断机制、三态状态机、Sentinel/Hystrix/Resilience4j 对比与雪崩效应
 - [[摘要-通用万能Prompt模板]] — 基于定角色/明任务/给素材三大原则的 4 种场景通用 Prompt 模板
 - [[摘要-提示词三大原则-定角色明任务给素材]] — 高质量 Prompt 结构化三大原则：定角色、明任务、给素材
 - [[摘要-java-boolean-is-naming-pitfall]] — Java 布尔属性 is 命名序列化大坑：DBA 规范与 JavaBean 规范冲突
@@ -425,6 +426,8 @@
 - [[Hutool]] — Java 工具类库
 - [[SpringCloudGateway]] — Spring Cloud API 网关
 - [[Sentinel]] — 阿里巴巴流量治理组件
+- [[Hystrix]] — Netflix 开源的熔断框架（已停止维护，滑动窗口桶统计）
+- [[Resilience4j]] — 轻量函数式熔断降级框架，Hystrix 推荐替代品
 - [[Redisson]] — Redis 分布式锁客户端
 - [[RedisTemplate]] — Spring Redis 操作模板
 - [[SpringDataRedis]] — Spring Data Redis 集成
@@ -867,6 +870,10 @@
 - [[SSHTunnel]] — SSH 隧道，远程 Agent 管理与加密端口转发
 - [[code-first-orchestration]] — 代码优先编排，用常规代码显式控制 Agent 流程
 - [[binary-installation]] — 二进制包直接部署，跳过源码编译的方式
+- [[熔断]] — 分布式系统自我保护机制，三态状态机（Closed/Open/Half-Open）防雪崩
+- [[雪崩效应]] — 分布式系统故障沿调用链指数级扩散的现象
+- [[限流]] — 控制请求量防止系统被压垮的流量保护机制
+- [[降级]] — 主流程不通时走兜底逻辑的容错手段
 
 ## Syntheses
 - [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照
