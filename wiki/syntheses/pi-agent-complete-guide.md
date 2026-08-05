@@ -78,12 +78,12 @@ Pi 在**当前工作目录**运行，可以读写文件、执行命令。建议�
 ## 五、项目上下文文件（AGENTS.md 体系）
 Pi 启动时分层加载上下文文件（修改后 `/reload` 生效）：
 
-| 文件 | 位置 | 作用 |
-| --- | --- | --- |
-| `AGENTS.md` | 项目根目录 + 父目录逐级向上 + `~/.pi/agent/AGENTS.md` | 项目规范/命令/安全规则，注入 system prompt |
-| `CLAUDE.md` | 同上 | 兼容 Claude Code 的项目文件，同样加载 |
-| `SYSTEM.md` | `.pi/SYSTEM.md`（项目）/ `~/.pi/agent/SYSTEM.md`（全局） | **整份替换**默认系统提示词 |
-| `APPEND_SYSTEM.md` | `.pi/` 或 `~/.pi/agent/` | 追加到系统提示词末尾，优先级高于 AGENTS.md |
+| 文件                 | 位置                                               | 作用                            |
+| ------------------ | ------------------------------------------------ | ----------------------------- |
+| `AGENTS.md`        | 项目根目录 + 父目录逐级向上 + `~/.pi/agent/AGENTS.md`        | 项目规范/命令/安全规则，注入 system prompt |
+| `CLAUDE.md`        | 同上                                               | 兼容 Claude Code 的项目文件，同样加载     |
+| `SYSTEM.md`        | `.pi/SYSTEM.md`（项目）/ `~/.pi/agent/SYSTEM.md`（全局） | **整份替换**默认系统提示词               |
+| `APPEND_SYSTEM.md` | `.pi/` 或 `~/.pi/agent/`                          | 追加到系统提示词末尾，优先级高于 AGENTS.md    |
 
 AGENTS.md 写法建议（对应 [[CLAUDEmd]] 方法论）：
 ```markdown
