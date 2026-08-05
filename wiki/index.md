@@ -279,6 +279,8 @@
 - [[摘要-java-boolean-is-serialization-pitfall]] — Java 布尔类型 is 命名导致序列化字段丢失 is 前缀的陷阱
 - [[摘要-pi-agent-core-principles]] — pi-agent 智能体核心原理：Agent = 大模型 + 工具集 + 执行循环
 - [[摘要-pi-agent-production-guide]] — pi-agent 从 Demo 到生产落地三大核心难题与解决方案
+- [[摘要-高并发短链接系统设计]] - 高并发短链接系统设计面试题：发号器+Base62、读多写少缓存架构、301/302 重定向
+- [[摘要-高并发短链接系统设计]] - 高并发短链接系统设计面试题：发号器+Base62、读多写少缓存架构、301/302 重定向
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -604,6 +606,10 @@
 - [[Node.js]] — 基于 V8 的 JavaScript 服务器端运行时，Claude Code/Codex 等工具的运行基础
 - [[JetBrains]] — 知名开发工具公司（IntelliJ IDEA/Junie/JetBrains Mono）
 - [[markdown-it]] — JavaScript 生态流行的 Markdown 解析渲染器
+- [[Caffeine]] - Java 高性能本地缓存库，W-TinyLFU 算法
+- [[Leaf]] - 百度开源分布式 ID 生成组件，号段+雪花双模式
+- [[Caffeine]] - Java 高性能本地缓存库，W-TinyLFU 算法
+- [[Leaf]] - 百度开源分布式 ID 生成组件，号段+雪花双模式
 
 ## Concepts
 - [[Apdex]] — 应用性能指数，量化用户体验满意度的 APM 核心指标

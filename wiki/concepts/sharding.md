@@ -78,3 +78,5 @@ last_updated: 2026-07-23
 - [[consistent-hashing]] — 一致性哈希算法
 - [[distributed-lock]] — 分布式锁机制
 - [[idempotency]] — 幂等性设计
+- [[短链接系统]] - 短链按短码哈希分库分表的应用场景
+- [[短链接系统]] - 短链按短码哈希分库分表的应用场景
