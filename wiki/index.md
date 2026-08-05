@@ -868,6 +868,7 @@
 - [[binary-installation]] — 二进制包直接部署，跳过源码编译的方式
 
 ## Syntheses
+- [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板的命名差异
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析
 - [[spring-skill-usage-guide]] — 4个Spring Skill使用时机与组合策略
