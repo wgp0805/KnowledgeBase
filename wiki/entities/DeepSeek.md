@@ -2,7 +2,7 @@
 title: "DeepSeek"
 type: entity
 tags: [AI, 模型, 公司]
-sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/01-articles/Ollama+DeepSeek本地部署（新人必看）.md, raw/01-articles/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/2026-07-31-倒反天罡！DeepSeek V4-Flash 正式版悄然上线：130亿激活参数，把自家1.6万亿旗舰「以下克上」 - 小白跃升坊.md]
+sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/01-articles/Ollama+DeepSeek本地部署（新人必看）.md, raw/01-articles/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/2026-07-31-倒反天罡！DeepSeek V4-Flash 正式版悄然上线：130亿激活参数，把自家1.6万亿旗舰「以下克上」 - 小白跃升坊.md, raw/01-articles/DeepSeek员工：Harness开始内测，有plugin、skill、MCP、Agent开源项目者优先，并赠送API额度（附Agent面试题）.md]
 last_updated: 2026-08-03
 ---
 
@@ -41,6 +41,7 @@ last_updated: 2026-08-03
   - 逼近 Claude Opus 4.8（Terminal Bench 85.0），反超 GLM-5.2（81.0）
 - 价格约为 V4-Pro 的三分之一（输入未命中 1 元/百万 tokens、输出 2 元），并发上限 2500（Pro 仅 500）；预告峰谷定价（高峰 2 倍）
 - 生态：原生支持 OpenAI Responses API（Flash 独占），Codex CLI/桌面端/IDE 可接入；预览版已适配 Claude Code、OpenClaw、OpenCode、CodeBuddy
+- **Harness 内测（2026-08-06）**：DeepSeek Harness（DSH）开始内测，优先招募有 plugin、skill、MCP、Agent 开源项目经验的开发者，赠送 API 额度。支持 Sub-agent、KV Cache 智能复用、跨会话记忆持久化，对 Codex 和 Claude Code 已做深度兼容
 - 技术基础（V4 系列共通）：CSA+HCA 混合稀疏注意力、mHC 流形约束超连接、Muon 优化器、FP4 QAT
 - 待解问题：权重未开源、基准均为官方 Harness 自测、高推理强度依赖会放大 Token 消耗、无原生多模态
 

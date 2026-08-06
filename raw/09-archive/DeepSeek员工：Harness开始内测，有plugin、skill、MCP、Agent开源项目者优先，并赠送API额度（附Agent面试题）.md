@@ -8,7 +8,7 @@ source: "https://mp.weixin.qq.com/s/cMuchRMEw8_FR5XvwQNqXg"
 
 虽然 DeepSeek 对 Codex 和 Claude Code 都做了深度兼容，但官方原生的肯定更好用，毕竟 API 的入参、出参，每家大模型都不太一样。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu08EkNuOoIZ72pKxXvptPMREBURPeAQDuQQhfa1Gxgs51Xqxh1vCNeMnNQRxcpVMKEEwopAOFxtbickwPjqyBeQic7iaKfNibHcI0I/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/625192a5e64a2c3b9b98b241e887f371_MD5.webp)
 
 **Model + Harness = Agent** ，已经是人尽皆知的一个公式。
 
@@ -24,7 +24,7 @@ source: "https://mp.weixin.qq.com/s/cMuchRMEw8_FR5XvwQNqXg"
 
 当然了，这些也都是一个 Agent 必备的。我自己做的 PaiCLI 终端 Agent 也都集成了。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu0cZk4Ib4njFqibUEHJFibyNQfEXHTP0gBGqeib1fbLAtSOH6pjPY67cYuZ6tWsbhIDYjvePom1Bj1XvaOglNGjVL9wQvsRYxZbus/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/0e067f6cc7bffc50c9bf8df79032bbf9_MD5.png)
 
 > 代码已开源在 GitHub，Java/Go/Python/TypeScript 版本都已实现： [https://github.com/itwanger/PaiCLI-Python](https://github.com/itwanger/PaiCLI-Python)
 
@@ -32,7 +32,7 @@ source: "https://mp.weixin.qq.com/s/cMuchRMEw8_FR5XvwQNqXg"
 
 如果你是一位愿意相信努力、相信过程、相信一步一个脚印、相信自己能在 AI 时代分一杯羹的人，那接下来的硬核内容，希望你能认真读一读。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3wgQlR1ztSpX7IJ2DjFPITCtosKFF9sqibNKPiciaDC25ib6k4wx19ALW6RoewQzmpXyWnUZEWKsKrG3WgJU5Rdt5eU7SeDvaRdmw/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/09fbaed436e13c8ea8012a3506176ed3_MD5.png)
 
 （全文比较肝，保证大家能学到很多很多，系好安全带，我们粗粗粗发～）
 
@@ -42,7 +42,7 @@ source: "https://mp.weixin.qq.com/s/cMuchRMEw8_FR5XvwQNqXg"
 
 “做了两个项目，一个终端 Agent，一个 RAG 知识库。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu1v0RVRDDJKxxAYVlZoXKrjrqhXsNpKGQUKnSQPomnbniaUmWKrr5ql1mqFicibeFAaBPlOUZbibqlyXkA24jmhOuNR1FvLUnZpicD8/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/83de1d143557b477c9a489576acaa232_MD5.png)
 
 “终端 Agent 叫 PaiCLI，对标 Claude Code。其中 ReAct 模式用于实时交互的短任务，Plan-and-Execute 模式用于需要分步规划的复杂任务，Multi-Agent Team 模式用于多角色协作。”
 
@@ -54,7 +54,7 @@ source: "https://mp.weixin.qq.com/s/cMuchRMEw8_FR5XvwQNqXg"
 
 “因为不同的任务需要不同的模式来适配。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3rgIhw27kBvzM83EPaDnGSTflLuhjF36gOWYml42nSUm4rWWVtkNXddUsaXvribxnnWdKkKJcPpQUsrKtdJEPpM6jibxiaRTjHAM/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/cd8b875b67ef99c85f9e4c60e0d78836_MD5.png)
 
 “举个例子，用户问‘这个方法是干什么用的’，ReAct 模式就搞定了。但如果用户的指令是‘帮我重构这个模块，改完测试一下’，ReAct 就不够用了，需要用 Plan-and-Execute 先拆解任务、编排依赖、然后再分步执行。更复杂的场景，比如需要多 Agent 协作，就可以上 Team 模式。”
 
@@ -62,7 +62,7 @@ source: "https://mp.weixin.qq.com/s/cMuchRMEw8_FR5XvwQNqXg"
 
 “以 ReAct 模式为例。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu1su2f56RjmUxU2n4nQictg42a7lOIgnF9LltNpkSJ8x3YIXaHqnZyw9zhxPwqrhUuZ93qknm4T2SqBvqTichdLotjCZ8g2JPHic0/640?wx_fmt=png&from=appmsg#imgIndex=5)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/95bcb68f6083138bf639672dc2dca6b9_MD5.png)
 
 “用户输入进来后，第一步做输入预处理，比如说本地路径的展开、图片引用的解析等。第二步检索长期记忆，把和当前输入相关的记忆找出来注入系统提示词。第三步组装 Prompt，分层拼接，静态的放在动态层的前面，充分利用大模型的缓存命中，降低 API 的调用成本。”
 
@@ -72,7 +72,7 @@ source: "https://mp.weixin.qq.com/s/cMuchRMEw8_FR5XvwQNqXg"
 
 #### 审批机制怎么设计的？
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu35OyOy783Rh0k3rnGt6Kv7WdicseL4BmJySqkpHWic5ibU1jDXgpbwdUzaPTOiaAeIYBSFLgHrXsPQtx2myvy6knrX6Cpflj4QU40/640?wx_fmt=png&from=appmsg#imgIndex=6)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/9b0ead5deb5ba9010258f0997ba26d17_MD5.png)
 
 “write\_file、execute\_command 这些工具在执行前会走 HITL（Human-in-the-Loop，人机协作）审批。路径检查器会判断文件路径是否在允许范围内，命令检查器会判断命令是否安全等。审批策略分三档：auto（自动通过）、suggest（建议确认）、never（必须手动确认）。”
 
@@ -84,7 +84,7 @@ source: "https://mp.weixin.qq.com/s/cMuchRMEw8_FR5XvwQNqXg"
 
 “第一点，通过 Prompt Caching，也就是缓存命中来提高 Token 的利用率，最大程度减少 API 的调用成本。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3Caeqhz5Wribt0tSias6m4SrhiayAMyxUnWQYVssiaf0Jic6wVrYb7McK7BZA8AjMTuy1IqBOvIr1cGwTvL9KKNqLvr1e6IlLPdI0c/640?wx_fmt=png&from=appmsg#imgIndex=7)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/5f0b9d667200bf1ecdbc4bd5288f38e0_MD5.png)
 
 比如说，PaiCLI 的 Prompt 一共有 9 层，前四层是静态的，像身份定义、人格定义、模式指令、审批策略这些，整个会话期间都不变，就把他们放在提示词的最前面，Prompt Caching 是按最长公共前缀命中的，所以前缀越稳定，缓存命中率就越高。
 
@@ -94,7 +94,7 @@ source: "https://mp.weixin.qq.com/s/cMuchRMEw8_FR5XvwQNqXg"
 
 因为 LLM 的窗口都是有上限的，DeepSeek V4 是 1M，已经很大了，但一个长任务很容易就会把窗口撑爆，摘要压缩是目前主流 Agent 的一个解决方案。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu0brhJJIeOgic39v6xesAZQ4aoaJneRCXibicNWfVcfOKYfjch7ibQ7w8PapXqX1Scicd3YYeOicARUBE5IxzBzFVqicFe8Qyf6xYXop4/640?wx_fmt=png&from=appmsg#imgIndex=8)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/ee6b2a927ab5a39408c9895216f42e70_MD5.png)
 
 当然了，为了避免摘要压缩的时候把一些关键信息丢失，我们会沉淀一些事实信息到长期记忆。
 
@@ -106,7 +106,7 @@ source: "https://mp.weixin.qq.com/s/cMuchRMEw8_FR5XvwQNqXg"
 
 比如说意图识别，判断用户是要读文件还是执行命令，这种分类任务用小尺寸模型就够了，速度快、成本低。复杂推理像任务规划和代码生成才需要大尺寸模型。平场我用 Claude Code 也是这么做的，日常用 Sonnet，复杂任务就切到 Opus。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu2m71FIJhKtOZibbRfHERnaumf4EagACyahOEdhOop7bGxsPCpJNqw8Fxrbb2GVn8aupicaIx8VLWlWIoPm8cLSt2BAsuHNrzQYg/640?wx_fmt=png&from=appmsg#imgIndex=9)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/518621c13b486dd765358e62babb2e6f_MD5.png)
 
 “第二，工具并行。”
 
@@ -120,7 +120,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 拿 DeepSeek V4 来说，缓存命中的情况下，百万 Token 的输入价格只有 0.02 元，未命中需要 1 元，差了 50 倍。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu0XAuTpz6s5Dv24VlrC8icicicRicnusuqmA2gCGo8JrAgdDkg1EAKnNVSEYNtpibQVjLloDRzzNURJyCcVRiaNvkLmGaeiakVC2kkE9I/640?wx_fmt=png&from=appmsg#imgIndex=10)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/52cb23958b34f422e8273da28c6e855e_MD5.png)
 
 ### 05、基于项目设计一个场景，如果遇到类似问题应该怎么解决？
 
@@ -128,7 +128,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 “就不能只用 ReAct。ReAct 的一个流程是观察、思考、行动。它改了文件 A，中间跑一次测试，测试挂了。但这个‘挂’不是因为 A 改错了，是因为 B、C、D 还没改。Agent 看到报错，可能会尝试修复一个根本不该修的问题，越改越乱。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu2dRN1b0n1007mYLTpfLXbBcs3iaJLKtd5EmEPzJTNUEuKG6EknaKrucFrP9Q4GXe8Uo192E73ev1Cy1FTNanria8LIrd8lMNgOk/640?wx_fmt=png&from=appmsg#imgIndex=11)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/07fd1b9e7212d13ce0f30fa38942903e_MD5.png)
 
 “这种任务就要切到 Plan 模式。规划器先读完所有文件，理解模块内部的依赖关系，然后生成一个任务图。”
 
@@ -138,7 +138,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 执行按拓扑排序来，每一轮找出所有入度为 0 的节点——就是没有前置依赖的任务——这一批并行执行。这批完成后更新依赖图，再找下一批。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu3BkygQ5JfFFs0pXTvNsIicFDbXHtiaAXRIkrCuOxNhibCRl0oqIflPoGZZIUBxuTibYW62Hz0pjBerSiaSJn58q354cWUHbCYY6KAc/640?wx_fmt=png&from=appmsg#imgIndex=12)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/af05f8064df42dfb0eab780f2803d771_MD5.png)
 
 #### 改到一半发现计划有问题怎么办？
 
@@ -150,13 +150,13 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 如果进度过半，已完成的工作量太大，推倒重来不划算，保留已完成的部分，追加 E 的修改任务，调整后续依赖关系，接着执行。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu0QjTQhxM49Zic8JMUMvXNJvibYLFTzyW7d1gIic7mecZQIExfr1IH7DFOSkicbibcewSiahjRVHrSjibtOaJt6viaEeAwYBPGB1DgyOYE/640?wx_fmt=png&from=appmsg#imgIndex=13)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/ddc20297c9ef9f041fd399b41fcc01f1_MD5.png)
 
 ### 06、语义检索是如何实现的？
 
 “派聪明用的是混合检索。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu0hbdC1k953RgiaJkKVeTvYlIcoIaQx1KomfVfVoF35My8FZ1VibUa6Sj8EiaoRAWicInic8v9JVJYgicK1D0aJP1oib1rIAzRk8IgzyU/640?wx_fmt=png&from=appmsg#imgIndex=14)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/ca6c650a3a64f6c8541bc511fa06b895_MD5.png)
 
 “先说向量检索。用户的查询文本通过 text-embedding-v4 模型转成 2048 维的向量，然后在 Elasticsearch 里做 KNN 搜索。为了保证召回率，召回窗口设的比较大，是最终返回数量的 30 倍，如果最终要 5 条结果，KNN 先召回 150 条候选。”
 
@@ -166,7 +166,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 #### 为什么用 BM25 做重排序？
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu1rl3e0uNMk8miaxLMmY066bwZ4LkO5E3icJv5FUOZ3ynn8YJ96ltbtPM8Jw6Waj4BiclqK9l8xsdwXbwy9R5pIiacf4SM8QuRkk98/640?wx_fmt=png&from=appmsg#imgIndex=15)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/113dd5d5d64567c215d98d1902218ce5_MD5.png)
 
 “向量检索对专有名词和缩写的匹配不够精确。用户搜‘MCP 协议’，向量可能会把‘RPC 协议’也召回来，因为语义上它们确实相近。但用户要的就是 MCP。BM25 能把关键词完全匹配的结果排到最前面，弥补向量检索在精确匹配上的不足。”
 
@@ -176,13 +176,13 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 “ES 里每条文档有两个核心字段。vector 字段存 2048 维的 Embedding 向量，ES 用 HNSW（Hierarchical Navigable Small World，分层可导航小世界图）算法建索引，做近似最近邻搜索。textContent 字段存原始文本，走 ES 自带的倒排索引做 BM25 关键词检索。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu07uy8dcU2vd5ej4qk9UC7LM8VqGcp5rdOQwCkVq1B4mslCic0PXTaRgwr8S8N07SMYm2B72iamuR9iciahSyk0IJAoGV9iad5d7icOw/640?wx_fmt=png&from=appmsg#imgIndex=16)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/017511bf7989b57ef9974cddc3c868bc_MD5.png)
 
 “文档入库前做分块，分块策略直接决定检索质量。分块大小 512 字符，相邻块重叠 100 字符。因为一个完整的概念可能正好跨在两个块的边界上，重叠保证边界处的语义不被截断。”
 
 “分块逻辑分三级。先按双换行符切段落，每段独立。某段超过 512 字符，再按句子切分。切完如果某块不足 100 字符，就和前一块合并，太碎的块 Embedding 质量差，检索出来没什么用。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3GnGUpWicfF4yC4PSjxEyFureYafXrLbs7xqChD0tOibfu46nWeVloG0NOAStiaeSkibK1z3XR33EYnehFOf2yvyaTWkjutEP4eC8/640?wx_fmt=png&from=appmsg#imgIndex=17)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/f0f2fbe5a73cec75d7229c67a1253482_MD5.png)
 
 “文档还有一层父子结构。子块就是 512 字符的检索单元，用来做精确匹配。父块最大 1MB，差不多是整篇文档的全文。检索命中子块后，可以回溯到父块拿完整上下文，让 LLM 看到更多信息再回答。大文件用流式解析，防止一次加载撑爆内存。”
 
@@ -190,7 +190,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 “看数据规模和检索 QPS。派聪明的知识库在几万到几十万文档这个量级，ES 的 HNSW 完全撑得住。多部署一个 Milvus 或者 Qdrant，要多维护一套集群、多做一份数据同步，收益不大。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu0MFBryZOXTT5NXJbbqSzOJWicVtQaWIGASRzt8vH0GkT32G6G4S4kwATpuHgKz7ddKFX8NBvhHbiaJLVOTcchko4ibibhnHV3bl8Y/640?wx_fmt=png&from=appmsg#imgIndex=18)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/a0fa330fcc88ebe3e00738f421e9e664_MD5.png)
 
 “但如果数据量到了千万级，或者检索 QPS 要求很高，ES 的 KNN 会成为瓶颈。HNSW 的内存开销随数据量线性增长，2048 维的向量每条占 8KB 左右，一千万条就是差不多 80GB 纯向量数据。到这个阶段，专用向量数据库的分布式检索和量化压缩能力就有价值了。”
 
@@ -198,7 +198,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 “PaiCLI 没有用任何 AI 框架，全部自研。HTTP 层用的 OkHttp 直连各家大模型的 API。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu0Pkt1KKEqTsViaaXc8lqGQnv9YrFFPSkvxcIyZdFIjcEeTRia6Ph2Tv5bMx3PwErKib7LgkibKYNGkqZbtmCGenMFAe424Ao0siczU/640?wx_fmt=png&from=appmsg#imgIndex=19)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/d51a197f399b4a29d4a40e1a9c92104c_MD5.png)
 
 #### 为什么不用框架？
 
@@ -212,7 +212,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 #### 什么场景下你会选框架？
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu25tiaPibj4AL5YLtkjhtJZ33UKgjFKzUOJXoumicKlCDatxXuapGgQNvQ8zXUMic5bEr0mN58OSgBVLo2SLWYXc4lM52sUAtDribcY/640?wx_fmt=png&from=appmsg#imgIndex=20)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/e6c5e877a27ad047af8fd665aeea48a1_MD5.png)
 
 “如果是快速验证一个想法，用框架跑通原型比较快。但如果项目要上生产、要做多模型适配和精细化控制，自研更合适。现在 AI Coding 能力很强，自研的开发成本已经很低了。”
 
@@ -224,11 +224,11 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 “工具 Schema 是第一层约束。每个工具注册时带一个 JSON Schema，定义参数类型、必填项、取值范围。模型生成的工具调用参数必须通过 Schema 校验，不合规就拒绝执行，把错误消息返回给模型让它重新生成。比如说 write\_file 的 file\_path 必须是字符串、content 不能为空，这些约束模型绕不过去。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu3u6IHMzWAZUYg6AhTgE9WjQ0fMgiaFDpYJSWh3uatsrDAtBbQptn0PQD75gZ0rIudPvb0wkDjgajP8spGp6e2HibKX9DYIdxLVY/640?wx_fmt=png&from=appmsg#imgIndex=21)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/fd5198784d0ec4af3e559bc9195fd0e2_MD5.png)
 
 “MCP 工具的 Schema 需要额外做一步清洗。MCP Server 返回的 Schema 经常带 ref 展开、anyOf 拍平成最常用的类型，确保模型看到的是一个干净的参数定义。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu2VqLwqVCia02FAOP26c94d7RGOwXrLric2BaZnJK1Ra5XlVP1yhU4CAHFYojkqXujH33AxTdc6Ku2mPhCqVQO5ybvxCRhqw4slE/640?wx_fmt=png&from=appmsg#imgIndex=22)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/fbd2918814c7e43716fa834de5516a74_MD5.png)
 
 “审批是最后一层。”
 
@@ -236,7 +236,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 #### 审批被用户拒绝后 Agent 怎么反应？
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu1dKVEENbkDqXibmsmbILr1emykCoLib7dGiandy8I7tpb5jCX9A6qNXdUmxLr4rEemCtZboXK9BWKn8hheHxqFicvX3GiczTHk6Dt0/640?wx_fmt=png&from=appmsg#imgIndex=23)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/d670b446dc52457891bc7011639b6c45_MD5.png)
 
 “拒绝结果作为 tool\_result 返回给模型，消息里写明‘这个操作被用户拒绝了’。”
 
@@ -246,7 +246,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 “PaiCLI 的记忆分了三层。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu1dQynAkBkRQCWCtrHLs56iaxmTMq1zfibvYVjfDwoL8VZSyyic2QPLvrc0fZjyXeQd1UkyB2lpWUsL3jfnicjicxiaOZfrs4g7f7rvo/640?wx_fmt=png&from=appmsg#imgIndex=24)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/3bde58071ca4c515c5213f0d294d79c3_MD5.png)
 
 “短期记忆是会话级别的，只在当前会话内有效。底层是一个 LinkedHashMap，先进来的排前面。token 预算是上下文窗口的 45%，超了就淘汰最旧的条目。”
 
@@ -260,19 +260,19 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 “多轮场景还有一个容易忽略的点，短期记忆的 token 预算。预算上限是上下文窗口的 45%，超了就从最旧的条目开始淘汰。淘汰不是直接删除，被淘汰的条目先用 LLM 做一次压缩摘要再替换，关键信息不会完全丢掉。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu2VD8iaibibRbsMiaDVWt38KTk4LagwbByt57ROaKeB3QADdoA28yNhbslzGtVtfianhTuXQAU7F1VQI4uuibwmkfpf2C4TJCuGNp6xQ/640?wx_fmt=png&from=appmsg#imgIndex=25)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/b9b3aa2194d1c0028d27d2df320dd72a_MD5.png)
 
 “多会话场景靠长期记忆的持久化。PaiCLI 的长期记忆存在 SQLite 里，按类型和作用域分类。新会话启动时从磁盘加载，Agent 还记得之前存过的偏好和规则。新存入的条目会做去重检测，同一条偏好不会存两份。”
 
 “/clear 命令只清短期记忆和对话历史，长期记忆不受影响。用户说‘清一下上下文’通常是想换个话题重新开始，不是想让 Agent 忘掉所有偏好。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu335mWFoHxibV3F6uTBloQUaRTy5YGRmNQiay4AIqVXIgJG7PSytwnEnD0ia9DrHMibClLWP9AHCr6A4Wcjob0HnkXRic4mZpF8ZDC0/640?wx_fmt=png&from=appmsg#imgIndex=26)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/48326d3cce3c7be2f653b7cbe6e737da_MD5.png)
 
 ### 12、如果系统出现异常，整体的容错和异常处理机制怎么设计？
 
 “LLM 调 API 可能报错，工具执行可能出错，Agent 自身可能跑进死循环。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3YkWQjQvlurlfexuJI0J63QF4pO7iaL4iad0YCk8icgx1gTibdiaVYg0go8K8nBSkiceib7t6UHIsicvBtQVuZMstBzKl4TPaSCU4vHzA/640?wx_fmt=png&from=appmsg#imgIndex=27)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/926f5425fff631f6e27632a3c97c18ec_MD5.png)
 
 “LLM 层，重试 3 次，指数退避加随机抖动。退避基数 500 毫秒，上限 30 秒。”
 
@@ -292,7 +292,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 两个预留加起来大约 33K，200K 减掉就是 167K。预留空间的目的是防止压缩完马上又溢出。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu3YyNTvOQzoGgVly8iaWKL0emVAq7k55fKqpzFdau26rrJgNryUyC5ImLq6sEVBNoVkpv9ibiaQWrzOAa7pTl5iaDjnkEkWwBXPPAA/640?wx_fmt=png&from=appmsg#imgIndex=28)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/bac0e5cd091bb8cdb969abbc1e8b32b9_MD5.png)
 
 “触发压缩后第一步扫描对话历史，找到所有 user 消息的位置索引。”
 
@@ -300,7 +300,7 @@ Agent 经常要调好几个工具，比如同时读 3 个文件。如果前后�
 
 第三步把保留区之前的所有消息发给 LLM 生成摘要，摘要替换掉原始消息。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3xcXPyUvibjGPh2fglPbBXaCehXE0BYo9PYDbJgMD004EICO57dFGX7VoterkrzKbNOArGhkrk3mzktD38mAurVwSMePFUjQQE/640?wx_fmt=png&from=appmsg#imgIndex=29)
+![图片](assets/DeepSeek%E5%91%98%E5%B7%A5%EF%BC%9AHarness%E5%BC%80%E5%A7%8B%E5%86%85%E6%B5%8B%EF%BC%8C%E6%9C%89plugin%E3%80%81skill%E3%80%81MCP%E3%80%81Agent%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E8%80%85%E4%BC%98%E5%85%88%EF%BC%8C%E5%B9%B6%E8%B5%A0%E9%80%81API%E9%A2%9D%E5%BA%A6%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/40fd715cf943a7a824a21d881a88b8b7_MD5.png)
 
 “摘要必须保留四类信息，用户的关键诉求、已完成的操作、双方达成的共识、待办事项。”
 

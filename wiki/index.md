@@ -273,6 +273,7 @@
 - [[摘要-okf]] — Google OKF 知识标准：Agent 时代的知识格式与可信度治理
 - [[摘要-mcp-v5-openclaw-net]] — MCP 第五版无状态化与 OpenClaw.NET 的 MCP 生态编排层
 - [[摘要-推荐5个AI-Agent项目]] — 苏三推荐的 5 个 Java 技术栈 AI Agent 实战项目（RAG/KAG/Function Calling/MCP）
+- [[摘要-deepseek-harness内测]] — DeepSeek Harness 内测与 Agent 工程化面试题深度解析
 - [[摘要-携程二面-熔断]] — 携程面试题：熔断机制、三态状态机、Sentinel/Hystrix/Resilience4j 对比与雪崩效应
 - [[摘要-通用万能Prompt模板]] — 基于定角色/明任务/给素材三大原则的 4 种场景通用 Prompt 模板
 - [[摘要-提示词三大原则-定角色明任务给素材]] — 高质量 Prompt 结构化三大原则：定角色、明任务、给素材
@@ -522,6 +523,7 @@
 - [[Seata]] — 阿里巴巴开源分布式事务框架
 - [[UniApp]] — 跨平台前端框架，基于 Vue 语法，支持小程序/H5/App 多端部署
 - [[PowerJob]] — 企业级分布式任务调度平台，无锁化设计，支持 DAG 工作流
+- [[Harness]] — Model + Harness = Agent 核心概念
 - [[XXL-JOB]] — 大众点评开源的分布式任务调度平台，基于数据库锁
 - [[Quartz]] — Java 定时任务框架，基于数据库锁，无分布式任务治理
 - [[GraalVM]] — Oracle 多语言运行时，支持 AOT 原生镜像编译
@@ -610,6 +612,7 @@
 - [[Caffeine]] - Java 高性能本地缓存库，W-TinyLFU 算法
 - [[Leaf]] - 百度开源分布式 ID 生成组件，号段+雪花双模式
 - [[Flowable]] — 开源 Java 工作流引擎，基于 Activiti 分叉，支持 BPMN/CMMN/DMN
+- [[DeepSeekHarness]] — DeepSeek 原生 Agent 框架，内测中，支持 Sub-agent/KV Cache/跨会话记忆
 - [[Activiti]] — Flowable 的前身，维护活跃度相对较低
 - [[Camunda]] — 竞品工作流引擎，Camunda 8 走云原生事件流架构
 - [[jBPM]] — 与 Drools 规则引擎集成的工作流引擎，适合复杂规则场景
@@ -787,6 +790,7 @@
 - [[过度工程化]] — AI 生成代码中过度设计问题，Ponytail 减法思维应对
 - [[KAG]] — 知识增强生成，结合知识图谱增强 LLM 上下文
 - [[HITL]] — Human-in-the-Loop，AI Agent 关键决策点人工审批机制
+- [[混合检索]] — KNN + BM25 混合检索技术
 - [[在线文档处理]] — 浏览器中打开/编辑/审批/盖章 Office 文档的技术方案
 - [[电子签名]] — 数字信息的身份验证与完整性确认，具法律效力
 - [[数字签名]] — 使用加密算法（如RSA）对数字信息签名和验证的底层技术

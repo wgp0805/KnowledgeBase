@@ -7,7 +7,10 @@
 - **变更**: 新增 source [[摘要-携程二面-熔断]]; 新增 concepts [[熔断]], [[雪崩效应]], [[限流]], [[降级]]; 新增 entities [[Hystrix]], [[Resilience4j]]; 增量更新 [[Sentinel]]（补充熔断三态、关键参数、与 Hystrix 差异）; 更新 [[index.md]]（1 source + 4 concepts + 2 entities）
 - **冲突**: 无
 
-## [2026-08-06] ingest | 摄入「多 Agent 协作开发框架」方法论文档
+## [2026-08-06] ingest | 摄入 DeepSeek Harness 内测与 Agent 工程化面试题深度解析
+- **变更**: 新增 source [[摘要-deepseek-harness内测]]; 新增 concepts [[Harness]]（Model + Harness = Agent 核心概念）, [[混合检索]]（KNN + BM25 混合检索技术）; 增量更新 [[DeepSeekHarness]]（覆盖旧定义，重新定义为用户端 Agent 产品，评测框架降级为次要用途）, [[PaiCLI]]（补充 Agent 完整流程/审批机制/工具 Schema 约束/容错等）, [[ReAct_Agent]]（补充完整 ReAct 流程 5 步骤与局限性）, [[context-compression]]（补充 200K 窗口触发阈值公式与三步压缩流程）, [[DeepSeek]]（补充 DSH 内测信息）, [[沉默王二]]（补充新来源）; 更新 [[index.md]]（1 source + 2 concepts + 6 updates）
+- **冲突**: [[DeepSeekHarness]] 定义冲突（评测框架 vs 用户端 Agent 产品），用户选择 B) 用新知识覆盖，已更新定义并标注处理记录
+- **归档**: raw/01-articles/DeepSeek员工：Harness开始内测...md → raw/09-archive/
 - **变更**: 新增 source [[摘要-多Agent协作开发框架]]; 新增 concepts [[role-isolation]], [[adversarial-review]]; 增量更新 [[multi-agent-collaboration]]（新增模式 B：Planner/Coder/Reviewer 三角色框架 + 文件交接 + 防包容机制，与既有 Skill 驱动分工模式并列）; 更新 [[index.md]]（1 source + 2 concepts + 1 update）
 - **冲突**: 无（新内容与既有页面互补，无冲突）
 - **归档**: raw/01-articles/multi-agent-collaboration.md -> raw/09-archive/
