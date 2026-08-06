@@ -7,7 +7,10 @@
 - **变更**: 新增 source [[摘要-携程二面-熔断]]; 新增 concepts [[熔断]], [[雪崩效应]], [[限流]], [[降级]]; 新增 entities [[Hystrix]], [[Resilience4j]]; 增量更新 [[Sentinel]]（补充熔断三态、关键参数、与 Hystrix 差异）; 更新 [[index.md]]（1 source + 4 concepts + 2 entities）
 - **冲突**: 无
 
-## [2026-08-06] query | oh-my-* 项目与 kickstart.* 项目的区别
+## [2026-08-06] ingest | 摄入「多 Agent 协作开发框架」方法论文档
+- **变更**: 新增 source [[摘要-多Agent协作开发框架]]; 新增 concepts [[role-isolation]], [[adversarial-review]]; 增量更新 [[multi-agent-collaboration]]（新增模式 B：Planner/Coder/Reviewer 三角色框架 + 文件交接 + 防包容机制，与既有 Skill 驱动分工模式并列）; 更新 [[index.md]]（1 source + 2 concepts + 1 update）
+- **冲突**: 无（新内容与既有页面互补，无冲突）
+- **归档**: raw/01-articles/multi-agent-collaboration.md -> raw/09-archive/
 - **输出**: 引用 [[oh-my-vs-kick-开源项目命名差异]]; 知识库已有直接对应的 synthesis 页面，直接引用回答（全家桶配置 vs 极简起步模板）；即时回答未保存
 
 ## [2026-08-06] query | oh-my-* 项目与 kickstart.* 项目的区别

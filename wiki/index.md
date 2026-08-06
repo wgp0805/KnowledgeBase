@@ -208,7 +208,8 @@
 - [[摘要-spring-ai-2-vs-alibaba选型]] — Spring AI 2.0 vs Spring AI Alibaba 全面对比与组合选型
 - [[摘要-开源诗词数据集poetry_dataset]] — poetry_dataset 开源诗词训练数据集与 Mac 本地 LoRA 微调全方案（Qwen2.5 + MLX + shi-ci.cn）
 
-- [[摘要-architecture-diagram-generator]] — Cocoon AI 团队开源的 Claude AI 架构图生成 Skill，用人话描述系统架构生成 HTML 架构图
+- [[摘要-多Agent协作开发框架]] — 多 Agent 协作框架方法论：Planner/Coder/Reviewer 三角色 + 文件交接 + 防包容
+	- [[摘要-architecture-diagram-generator]] — Cocoon AI 团队开源的 Claude AI 架构图生成 Skill，用人话描述系统架构生成 HTML 架构图
 - [[摘要-claude-code-实战防搞炸]] — 程序汪分享的 Claude Code 实战经验，CLAUDE.md/权限/验证三位一体防项目搞炸
 - [[摘要-shadcn-ui介绍]] — shadcn/ui 新一代 UI 库介绍：开放代码、源码级可控、AI 友好
 - [[摘要-LangChain与LangGraph对比]] — LangChain 与 LangGraph 核心差异与落地选型全解析
@@ -709,7 +710,9 @@
 - [[AgenticRAG]] — 智能体化 RAG，从被动检索到主动决策
 - [[GraphRAG]] — 图检索增强生成，结合知识图谱推理
 - [[ContextEngineering]] — 上下文工程，RAG 的认知升级
-- [[multi-agent-collaboration]] — 多 Agent 协作全栈开发模式
+- [[multi-agent-collaboration]] — 多 Agent 协作全栈开发模式（Skill 驱动分工 + Planner/Coder/Reviewer 三角色框架）
+- [[role-isolation]] — 角色隔离机制（工具白名单 + 硬约束物理闸门）
+- [[adversarial-review]] — 对抗性评审（防同源模型互相包容）
 - [[辅助模型]] — 本地小模型代理主模型处理基础任务，节省 Token 提升隐私
 - [[ReAct_Agent]] — 推理+行动循环的 Agent 模式
 - [[StateGraph]] — LangGraph 的核心状态图抽象
