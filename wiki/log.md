@@ -1075,3 +1075,8 @@
 - **变更**: [[摘要-codex-vs-claude-code-对比]] 新增"最佳实践(组合拳)"区块,补充 Claude Code 复杂重构 + Codex 批量并行的互补用法,新增双链至 [[摘要-AI-agent工具应该怎么使用]],并标注异步串行接力特性
 - **冲突**: 无
 - **备注**: 该摘要页已于 2026-06-29 完成 ingest(index.md 已登记,Codex/ClaudeCode entity 已双链),本次为内容完善。另:sources frontmatter 路径仍为 raw/01-articles/,实际文件已归档至 raw/09-archive/,留待后续 lint 统一修正
+
+## [2026-08-06] ingest | 摄入「为什么越来越多人使用 Flowable」工作流引擎文章
+- **变更**: 新增 source [[摘要-为什么越来越多人使用Flowable]]; 新增 entities [[Flowable]], [[Activiti]], [[Camunda]], [[jBPM]]; 新增 concepts [[工作流引擎]], [[流程实例]], [[任务服务]], [[运行时服务]], [[嵌入式设计]], [[异步执行器]], [[BPMN 2.0]], [[CMMN]], [[DMN]]; 更新 [[index.md]]（1 source + 4 entities + 9 concepts）
+- **冲突**: 无
+- **归档**: raw/01-articles/为什么越来越多人使用 Flowable  ？.md → raw/09-archive/
