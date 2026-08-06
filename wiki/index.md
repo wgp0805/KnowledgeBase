@@ -925,3 +925,4 @@
 - [[codex-desktop-多模型与插件支持现状]] — Codex 桌面版第三方模型与插件的支持现状：cc-switch vs Codex++、插件受限根因、GitHub 插件市场真相
 - [[pi-扩展生态与开发指南]] — Pi 扩展生态指南：四层扩展系统、现成扩展查找渠道（pi.dev/npm/examples）、Extension 开发规范与 Package 发布规范
 - [[pi-agent-complete-guide]] — Pi Agent 完全教程：安装/认证/AGENTS.md/配置/命令/快捷键/扩展/安全/工程化最佳实践
+- [[codex-operation-manual]] — Codex 从安装配置到精通的操作手册，涵盖核心能力、工作流、Skill、Java 实战

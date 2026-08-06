@@ -1061,3 +1061,7 @@
 ## [2026-08-05] query | GitHub 上 oh-my-* 与 kick-* 系列项目命名差异（固化）
 - **输出**: 已保存至 [[oh-my-vs-kick-开源项目命名差异]]（通用知识总结，含核心对比表与一句话记忆）；更新 [[index.md]] Syntheses 分类
 - **冲突**: 无
+
+## [2026-08-06] query | 生成 Codex 操作手册并保存
+- **输出**: 新增 synthesis [[codex-operation-manual]]; 更新 [[index.md]]（1 synthesis）
+- **冲突**: 无
