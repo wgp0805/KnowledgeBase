@@ -1070,3 +1070,8 @@
 - **变更**: 归档两个已完整摄取的源文件至 raw/09-archive/ — [[摘要-LangChain4j入门指南-苏三]]（源: LangChain4j 入门指南.md）、[[摘要-40分钟学会Codex零基础教程]]（源: 40分钟学会Codex零基础终级教程.md）
 - **冲突**: 无
 - **备注**: 两文件此前已分别于 2026-08-03、2026-05-19 完成知识摄取（sources/entity/concept 页面已创建，index.md 已注册），本次仅补完步骤6归档操作
+
+## [2026-08-06] sync | 补充苏三对比文章摘要的组合拳实践
+- **变更**: [[摘要-codex-vs-claude-code-对比]] 新增"最佳实践(组合拳)"区块,补充 Claude Code 复杂重构 + Codex 批量并行的互补用法,新增双链至 [[摘要-AI-agent工具应该怎么使用]],并标注异步串行接力特性
+- **冲突**: 无
+- **备注**: 该摘要页已于 2026-06-29 完成 ingest(index.md 已登记,Codex/ClaudeCode entity 已双链),本次为内容完善。另:sources frontmatter 路径仍为 raw/01-articles/,实际文件已归档至 raw/09-archive/,留待后续 lint 统一修正
