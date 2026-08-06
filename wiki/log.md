@@ -1065,3 +1065,8 @@
 ## [2026-08-06] query | 生成 Codex 操作手册并保存
 - **输出**: 新增 synthesis [[codex-operation-manual]]; 更新 [[index.md]]（1 synthesis）
 - **冲突**: 无
+
+## [2026-08-06] ingest | 归档已摄取源文件
+- **变更**: 归档两个已完整摄取的源文件至 raw/09-archive/ — [[摘要-LangChain4j入门指南-苏三]]（源: LangChain4j 入门指南.md）、[[摘要-40分钟学会Codex零基础教程]]（源: 40分钟学会Codex零基础终级教程.md）
+- **冲突**: 无
+- **备注**: 两文件此前已分别于 2026-08-03、2026-05-19 完成知识摄取（sources/entity/concept 页面已创建，index.md 已注册），本次仅补完步骤6归档操作

@@ -1,14 +1,8 @@
 ---
 title: "LangChain4j 入门指南"
-source: "https://mp.weixin.qq.com/s/_UL_18bqiM0D56Ju7StopQ"
+source: "https://mp.weixin.qq.com/s/8woM4jqrooRDmqGLeGowLg"
 ---
-苏三 苏三说技术 *2026年8月3日 16:33*
-
-大家好，我是苏三，又跟大家见面了。
-
-最近缺项目经历想快速提升项目实战能力（包含多个AI项目），或者最近找工作，或者想学习AI的小伙伴，可以看看下面👇🏻的这个链接（或许真的能够帮到你）:
-
-[推荐一个牛逼的企业智能知识库系统](https://mp.weixin.qq.com/s?__biz=MzkwNjMwMTgzMQ==&mid=2247539571&idx=1&sn=58c091f5f488a3c7e82bb18641f8db9a&scene=21#wechat_redirect)
+Java技术指北 *2026年8月6日 08:15*
 
 ## 前言
 
@@ -56,7 +50,7 @@ LangChain4j从名字上看确实跟Python的LangChain有关系，但它 **不是
 
 在写代码之前，我们先建立一个整体认知。
 
-![图片](assets/LangChain4j%20%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/9a93ac2fbc45da174180abd7fceab7bf_MD5.webp)
+![图片](assets/LangChain4j%20%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/06c7bba991bc6e8061bdb560ca1487b8_MD5.jpg)
 
 LangChain4j的整体架构分层清晰，五大核心模块支撑所有AI业务能力：
 
@@ -752,14 +746,14 @@ StreamingChatLanguageModel model =
 
 它提供 **统一的API、声明式的AiServices、丰富的组件库、与Spring生态的无缝集成** 。
 
-## 十、开源地址
+### 写在最后
 
-- **GitHub** ： [https://github.com/langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)
-- **官方文档** ： [https://docs.langchain4j.dev](https://docs.langchain4j.dev/)
-- **示例代码** ： [https://github.com/langchain4j/langchain4j-examples](https://github.com/langchain4j/langchain4j-examples)
+这3天，相当于我们正式课的一个提炼版，内容非常干，海报是我们3天课程的规划。
 
-最近缺项目经历想快速提升项目实战能力（包含多个AI项目），或者最近找工作，或者想学习AI的小伙伴，可以看看下面👇🏻的这个链接（或许真的能够帮到你）:
+![图片](assets/LangChain4j%20%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/1501384bcb2fe181bcbf32c525eec8d1_MD5.webp)
 
-[推荐一个牛逼的企业智能知识库系统](https://mp.weixin.qq.com/s?__biz=MzkwNjMwMTgzMQ==&mid=2247539571&idx=1&sn=58c091f5f488a3c7e82bb18641f8db9a&scene=21#wechat_redirect)
+重点不是听课，而是： **带你亲手跑一遍闭环。**
 
-我的企业智能知识库系统就是用LangChain4j开发的，感兴趣的小伙伴，可以加入星球学习。
+【注意】
+
+这个训练营，对外正常收费99元的，报名备注“Java技术指北”，可免费听取一次。
