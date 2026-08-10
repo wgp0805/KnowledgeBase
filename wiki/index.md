@@ -273,6 +273,9 @@
 - [[摘要-okf]] — Google OKF 知识标准：Agent 时代的知识格式与可信度治理
 - [[摘要-mcp-v5-openclaw-net]] — MCP 第五版无状态化与 OpenClaw.NET 的 MCP 生态编排层
 - [[摘要-推荐5个AI-Agent项目]] — 苏三推荐的 5 个 Java 技术栈 AI Agent 实战项目（RAG/KAG/Function Calling/MCP）
+- [[摘要-一线大厂Git规范]] — 大厂 Git 规范全景：三种分支模型、Conventional Commits、Commitlint+Husky、Tag 管理
+- [[摘要-用好Agent四招]] — 秋芝2046 的 Agent 四类任务分类法（检查/梳理/执行/观察），以 DuMate 为例落地
+- [[摘要-opencode-架构演进剖析]] — OpenCode 2.0 渐进式重构（v1.17→v1.18）：插件 API、Skill 系统、Desktop v1→v2
 - [[摘要-deepseek-harness内测]] — DeepSeek Harness 内测与 Agent 工程化面试题深度解析
 - [[摘要-携程二面-熔断]] — 携程面试题：熔断机制、三态状态机、Sentinel/Hystrix/Resilience4j 对比与雪崩效应
 - [[摘要-通用万能Prompt模板]] — 基于定角色/明任务/给素材三大原则的 4 种场景通用 Prompt 模板
@@ -283,6 +286,8 @@
 - [[摘要-pi-agent-production-guide]] — pi-agent 从 Demo 到生产落地三大核心难题与解决方案
 - [[摘要-高并发短链接系统设计]] - 高并发短链接系统设计面试题：发号器+Base62、读多写少缓存架构、301/302 重定向
 - [[摘要-为什么越来越多人使用Flowable]] — Flowable 开源 Java 工作流引擎深度解析，对比 Activiti/Camunda/jBPM
+- [[摘要-微服务架构-进程间通信]] — 《微服务架构设计模式》第三章：IPC 同步 RPC 与异步消息、API 治理、事务性发件箱
+- [[摘要-langchain-rag构建知识库-理论]] — LangChain RAG 构建知识库理论篇：Loader/Splitter/Embeddings/VectorStore/Retriever 五件套，MinerU 解析 PDF
 
 ## Entities
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
@@ -564,6 +569,9 @@
 - [[HKUDS]] — 香港大学数据科学团队，FastCode 开发者
 - [[ProcessFlowDiagramGenerator]] — CocoonAI 开源流程图生成 Skill，ArchitectureDiagramGenerator 的姐妹项目
 - [[TreeSitter]] — 高性能增量 AST 解析库，CodeGraph 底层引擎
+- [[MinerU]] — 上海 AI Lab 开源 PDF/文档解析工具，LangChain RAG 文档加载利器
+- [[Commitlint]] — commit message 规范校验工具，配合 Husky 前置拦截
+- [[Husky]] — Git 钩子管理工具，让 commitlint/其他脚本自动触发
 - [[Apache_PDFBox]] — Apache 基金会维护的 Java PDF 处理库
 - [[SpringCloudStream]] — Spring 官方事件驱动微服务抽象层，Binder 机制屏蔽消息中间件差异
 - [[SpringCloudAlibaba]] — 阿里巴巴 Spring Cloud 微服务解决方案，Nacos/Sentinel/RocketMQ/Seata 生态
@@ -572,6 +580,7 @@
 - [[Hasor]] — Java 框架生态，Dataway/DataQL 的父级框架
 - [[IT码徒]] — 微信公众号技术作者
 - [[秋芝2046]] — 微信公众号 AI Agent 教程创作者
+- [[DuMate]] — 百度推出的办公专用 Agent（办公搭子），内置国产 APP 插件与 Skill，长期记忆
 - [[RustFS]] — 国产 Rust 编写的高性能分布式对象存储系统
 - [[舒克无良]] — 博客园技术作者，SuperProgramming 开发流程提出者
 - [[AiStor]] — MinIO 商业化对象存储产品
@@ -649,6 +658,14 @@
 - [[generics]] — Java 泛型
 - [[ai-agent-skill]] — AI Agent 技能扩展机制
 - [[CI-CD]] — 持续集成/持续交付
+- [[GitFlow]] — 经典 Git 分支模型：main/develop/feature/release/hotfix 五类分支
+- [[GitHubFlow]] — 轻量 Git 分支模型：单主干 + 短命特性分支 + PR 合并
+- [[TrunkBasedDevelopment]] — 主干开发模型：小批量提交、短命分支、Feature Toggle
+- [[ConventionalCommits]] — 约定式提交规范：<type>(<scope>): <subject>
+- [[语义化版本]] — SemVer 三段式版本号规范（主.次.修）
+- [[FeatureToggle]] — 功能开关/特性开关，主干开发与渐进式重构的关键支撑
+- [[Agent四类任务]] — 检查/梳理/执行/观察四类任务分类法，Agent 入门框架
+- [[渐进式重构]] — 渐进式架构升级策略，小版本平滑替换核心架构，优于大爆炸式升级
 - [[ChatClient]] — Spring AI 聊天客户端抽象
 - [[AgentHarness]] — AI Agent 运行与测试框架
 - [[AICoding]] — AI 辅助编程范式
@@ -669,6 +686,11 @@
 - [[jvm-tuning]] — JVM 性能调优
 - [[MCP]] — Model Context Protocol 模型上下文协议
 - [[message-queue]] — 消息队列核心概念
+- [[进程间通信]] — 微服务进程间通信（IPC）核心概念：同步 RPC 与异步消息
+- [[同步RPC]] — IPC 同步请求/响应模式：REST/gRPC/Thrift 等
+- [[异步消息]] — IPC 异步消息模式：消息队列、事件驱动
+- [[服务发现]] — 服务提供者动态注册与消费者感知，客户端/服务端发现两种模式
+- [[事务性发件箱]] — 原子化发布消息模式，解决本地事务与消息发送的一致性
 - [[meta-skill]] — 元技能（编写技能的技能）
 - [[microservices]] — 微服务架构
 - [[Distro协议]] — Nacos 自研的 AP 最终一致性协议（责任分片+读写分离，用于服务发现）
@@ -676,6 +698,11 @@
 - [[长轮询]] — HTTP 半推送机制，Nacos 配置推送的底层实现
 - [[query-optimization]] — 数据库查询优化
 - [[RAG]] — 检索增强生成
+- [[DocumentLoader]] — RAG 文档加载器，统一接入各类文档格式/数据源
+- [[TextSplitter]] — RAG 文本切分器，控制 chunk 粒度与重叠
+- [[Embeddings]] — 文本向量化嵌入模型，语义检索的基础
+- [[VectorStore]] — 向量数据库，RAG 语义检索的存储与召回层
+- [[Retriever]] — 检索器，从向量库召回与查询最相关的文档块
 - [[sequential-io]] — 顺序 IO 性能优化
 - [[Skill]] — Claude Code 技能扩展机制
 - [[渐进式披露]] — Skill 内容组织原则，按需加载信息

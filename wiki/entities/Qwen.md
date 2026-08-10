@@ -25,6 +25,11 @@ Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Fla
 
 **综合评价**：稳定性达标（结构化任务无错误），但在两个场景下**速度和 Token 消耗都居中偏后**，属于"可用但不最优"档位。
 
+### Embedding 模型
+- **Qwen3-Embedding-0.6B**：0.6B 参数，1024 维，32K 长度，MTEB 多语言榜 64.34 分，支持 MRL 维度压缩，多语言能力强
+- 可通过 Ollama（OllamaEmbeddings）本地部署或阿里云 API 使用（见 [[Embeddings]]）
+- 文本向量化服务还有 text-embedding-v3/v4 系列（见 [[DashScope]]）
+
 ## 关联连接
 - [[摘要-step-3-7-flash-agent横评]] — Coding Agent 横评来源
 - [[摘要-多模态大模型横评-苏三]] — 多模态横评来源
@@ -34,8 +39,10 @@ Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Fla
 - [[DeepSeek]] — 横评对比模型
 - [[Gemini]] — 横评对比模型
 - [[AICoding]] — Coding Agent 应用场景
+- [[Embeddings]] — Qwen3-Embedding 向量化模型
 - [[LoRA]] — 微调方法
 - [[摘要-开源诗词数据集poetry_dataset]] — 来源
 - [[poetry_dataset]] — 支持 Qwen2.5 本地微调
 - [[摘要-rag-api-call]] — API 调用与 RAG 实践
+- [[摘要-langchain-rag构建知识库-理论]] — Embedding 模型来源
 - [[DashScope]] — API 平台

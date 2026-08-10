@@ -37,6 +37,13 @@ Spring AI 通过 VectorStore + QuestionAnswerAdvisor 实现 RAG：
 - QuestionAnswerAdvisor 自动检索相关文档并拼入 Prompt
 - Spring AI Alibaba 集成 DashScope 通义模型实现 RAG
 
+### LangChain 知识库构建组件（理论）
+LangChain 实现 RAG 的两大阶段与五大组件：
+- **知识库构建**：DocumentLoader 加载 → TextSplitter 切分 → Embeddings 向量化 → 存入 VectorStore
+- **检索生成**：用户提问 → Embeddings 向量化 → VectorStore 检索 → 拼接上下文 → LLM 生成回答
+- 五大组件：[[DocumentLoader]]、[[TextSplitter]]、[[Embeddings]]、[[VectorStore]]、[[Retriever]]（详见各概念页）
+- 关键参数建议：chunk_size 200~1000、chunk_overlap 为 chunk_size 的 10%~20%、k 检索 3~10
+
 ## 代码搜索场景的局限性
 
 ### 为什么 Claude Code 放弃了 RAG
@@ -110,9 +117,17 @@ Spring AI 通过 VectorStore + QuestionAnswerAdvisor 实现 RAG：
 - [[AgenticRAG]] — 智能体化 RAG 前沿趋势
 - [[GraphRAG]] — 图检索增强生成
 - [[ContextEngineering]] — 上下文工程
+- [[DocumentLoader]] — 文档加载组件
+- [[TextSplitter]] — 文本切分组件
+- [[Embeddings]] — 向量化组件
+- [[VectorStore]] — 向量库组件
+- [[Retriever]] — 检索器组件
 - [[Chroma]] — 向量数据库
+- [[混合检索]] — KNN + BM25 混合检索
 - [[LoRA]] — 微调方法
 - [[Gemini]] — 长上下文模型代表
+- [[MinerU]] — 推荐的 PDF 加载工具
 - [[摘要-为什么Claude-Code不用RAG检索代码]] — 来源
 - [[摘要-字节面试官什么是RAG为什么需要RAG]] — 来源
+- [[摘要-langchain-rag构建知识库-理论]] — LangChain RAG 构建理论来源
 - [[摘要-langchain4j-langgraph4j-comparison]] — LangChain4j 与 LangGraph4j 对比中的 RAG 能力来源

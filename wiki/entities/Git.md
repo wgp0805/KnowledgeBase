@@ -41,12 +41,39 @@ Git 是一个分布式版本控制系统，用于追踪文件变更、协作开�
 
 > **注意**：受保护分支（如 master）无法执行 Force Push 操作，需检查分支保护配置。
 
+## Git 工程规范（大厂实践）
+大厂将 Git 规范视为团队协作基石，核心价值四点：规模化协作、问题可追溯、CI/CD 自动化、规范即"省事"。
+
+### 分支模型与命名
+- **三种主流分支模型**：[[GitFlow]]（经典）、[[GitHubFlow]]（轻量）、[[TrunkBasedDevelopment]]（主干开发）
+- **分支命名规范**：`<类型>/<内容>`（feature/、bugfix/、hotfix/、release/、chore/），可追加工单号 `feature/PROJ-123-user-login`，release/hotfix 带版本号 `release/v2.1.0`
+
+### 提交与版本
+- **[[ConventionalCommits]]**：`<type>(<scope>): <subject>` 约定式提交，支持自动生成 changelog
+- **[[语义化版本]]**：`主.次.修` 三段式版本号 + Tag 管理（`git tag -a v2.1.0`）
+- **[[Commitlint]] + [[Husky]]**：自动校验 commit message，不符合直接拒绝
+
+### 代码审查与门禁
+- 分支保护规则：禁止直接 push main/master、合并前必须 Code Review + CI 检查、至少 2 名审批人
+- 标准 PR 模板 + 审查清单（测试覆盖率 ≥80% 等）
+- CI/CD 多层质量门禁：编译 → 测试 → Lint → 安全扫描
+
 ## 关联连接
 - [[GitHub]] - 代码托管平台
 - [[Gitee]] - 代码托管平台
 - [[IntelliJIDEA]] - IDE 集成
+- [[GitFlow]] - 分支模型
+- [[GitHubFlow]] - 分支模型
+- [[TrunkBasedDevelopment]] - 分支模型
+- [[ConventionalCommits]] - 提交规范
+- [[语义化版本]] - 版本规范
+- [[Commitlint]] - 提交校验工具
+- [[Husky]] - Git 钩子工具
+- [[code-review]] - 代码审查
+- [[CI-CD]] - 持续集成/交付
 - [[摘要-git常用命令]] - Git 版本控制的常用命令总结，涵盖初始化、克隆、分支管理、…
 - [[摘要-git推送远程方法]] - Git 远程仓库操作指南，包括推送代码、设置上游分支、版本回…
 - [[摘要-git-撤回已push代码]] - 撤回已 push 代码的四种方法对比（revert/新建分支/reset+force push）
+- [[摘要-一线大厂Git规范]] - 大厂 Git 规范全景
 - [[摘要-idea链接svn报错]] - 解决 IntelliJ IDEA 连接 SVN 时 SSL …
 - [[摘要-IDEA使用Git提交报错]] - 解决 IntelliJ IDEA 使用 Git 提交时 "u…

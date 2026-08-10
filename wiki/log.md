@@ -1086,3 +1086,28 @@
 - **变更**: 新增 source [[摘要-为什么越来越多人使用Flowable]]; 新增 entities [[Flowable]], [[Activiti]], [[Camunda]], [[jBPM]]; 新增 concepts [[工作流引擎]], [[流程实例]], [[任务服务]], [[运行时服务]], [[嵌入式设计]], [[异步执行器]], [[BPMN 2.0]], [[CMMN]], [[DMN]]; 更新 [[index.md]]（1 source + 4 entities + 9 concepts）
 - **冲突**: 无
 - **归档**: raw/01-articles/为什么越来越多人使用 Flowable  ？.md → raw/09-archive/
+
+## [2026-08-10] ingest | 摄入《微服务架构设计模式》第三章读书笔记（进程间通信）
+- **变更**: 新增 source [[摘要-微服务架构-进程间通信]]; 新增 concepts [[进程间通信]], [[同步RPC]], [[异步消息]], [[服务发现]], [[事务性发件箱]]; 增量更新 [[idempotency]]（补消息幂等两方案）, [[api-compatibility]]（补语义化版本+API优先设计）, [[gRPC]]（补 REST vs gRPC 对比）, [[microservices]]（补通信选型原则）, [[message-queue]]（补三大难题与选型）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: raw/01-articles/2026-08-06-《微服务架构设计模式》第三章读书笔记：微服务架构中的进程间通信 - LY双土.md → raw/09-archive/
+
+## [2026-08-10] ingest | 摄入 LangChain RAG 构建知识库（理论）
+- **变更**: 新增 source [[摘要-langchain-rag构建知识库-理论]]; 新增 concepts [[DocumentLoader]], [[TextSplitter]], [[Embeddings]], [[VectorStore]], [[Retriever]]; 新增 entity [[MinerU]]; 增量更新 [[LangChain]]（补 RAG 组件集）, [[Chroma]]（补集成与 search 类型）, [[Ollama]]（补 OllamaEmbeddings）, [[DashScope]]（补 text-embedding 系列）, [[Qwen]]（补 Qwen3-Embedding）, [[RAG]]（补 LangChain 组件流程段）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md → raw/09-archive/
+
+## [2026-08-10] ingest | 摄入一线大厂的 Git 规范
+- **变更**: 新增 source [[摘要-一线大厂Git规范]]; 新增 concepts [[GitFlow]], [[GitHubFlow]], [[TrunkBasedDevelopment]], [[ConventionalCommits]], [[语义化版本]], [[FeatureToggle]]; 新增 entities [[Commitlint]], [[Husky]]; 增量更新 [[Git]]（补分支模型/提交规范/审查门禁）; 增量更新 [[code-review]]（补分支保护/PR模板/审查清单）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: raw/01-articles/一线大厂的Git规范.md → raw/09-archive/
+
+## [2026-08-10] ingest | 摄入《用好 Agent，先从这4招开始！》
+- **变更**: 新增 source [[摘要-用好Agent四招]]; 新增 concept [[Agent四类任务]]; 新增 entity [[DuMate]]; 增量更新 [[秋芝2046]]（补来源与 DuMate 测评）, [[persistent-memory]]（关联 DuMate 长期记忆）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: raw/01-articles/用好Agent，先从这4招开始！【小白教程】.md → raw/09-archive/
+
+## [2026-08-10] ingest | 摄入 OpenCode 架构演进剖析
+- **变更**: 新增 source [[摘要-opencode-架构演进剖析]]; 新增 concept [[渐进式重构]], [[FeatureToggle]]（关联支撑）; 增量更新 [[OpenCode]]（补 2.0 插件 API/Skill/SDK、Desktop v1→v2 演进、MCP 深度集成、兼容迁移策略）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: raw/01-articles/OpenCode架构演进剖析.md → raw/09-archive/

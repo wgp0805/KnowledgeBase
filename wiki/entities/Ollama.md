@@ -27,8 +27,16 @@ Ollama 是一款用于本地化部署和管理大型语言模型的工具，支�
 - 默认服务地址：http://localhost:11434
 - Spring AI 集成：spring-ai-ollama-spring-boot-starter
 
+### Embeddings（RAG 向量化）
+- Ollama 也是 Embedding 模型的本地部署工具，关键在基于它部署的模型
+- LangChain 集成：`OllamaEmbeddings(model="qwen3-embedding:0.6b", dimensions=1024)`，可选维度压缩节省存储
+- qwen3-embedding:0.6b 是小模型中效果较好的一个，HuggingFace/Ollama 均支持部署（见 [[Embeddings]]）
+
 ## 关联连接
 - [[SpringAI]] — Spring AI 集成
 - [[DeepSeek]] — 支持的模型
+- [[Embeddings]] — 向量化模型部署
+- [[RAG]] — 知识库构建场景
 - [[摘要-spring-ai]] — 来源
 - [[摘要-Ollama+DeepSeek本地部署]] — 来源
+- [[摘要-langchain-rag构建知识库-理论]] — Embeddings 来源
