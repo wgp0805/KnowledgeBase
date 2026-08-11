@@ -1,3 +1,8 @@
+## [2026-08-11] ingest | 摄入京东 JoyCoder Agent 面试题与AI产品线文章
+- **变更**: 新增 source [[摘要-京东-agent面试题]]; 新增 entities [[京东]], [[JoyCoder]], [[JoyAgent]]; 新增 concept [[提示词注入防御]]; 增量更新 [[沉默王二]]（补充新来源）; 更新 [[index.md]]（1 source + 3 entities + 1 concept）
+- **冲突**: 无
+- **归档**: raw/01-articles/京东员工...md, raw/01-articles/终于找到一个好用的Nginx日志分析工具了.md, raw/01-articles/coze工作流学习-Day1笔记.md.md, raw/01-articles/coze-workflow-learning-notes.md → raw/09-archive/
+
 ## [2026-08-05] ingest | 摄入「面试经典：高并发短链接系统设计」
 - **变更**: 新增 source [[摘要-高并发短链接系统设计]]; 新增 concepts [[短链接系统]], [[分布式发号器]], [[Base62编码]], [[布隆过滤器]], [[哈希碰撞]], [[HTTP重定向]], [[缓存雪崩]]; 新增 entities [[Caffeine]], [[Leaf]]; 增量更新 [[雪花算法]]（补充发号器场景与 Leaf 关联）、[[sharding]]（补充短链分库分表场景关联）; 更新 [[index.md]]（1 source + 7 concepts + 2 entities）
 - **冲突**: 无

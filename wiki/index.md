@@ -627,6 +627,9 @@
 - [[Activiti]] — Flowable 的前身，维护活跃度相对较低
 - [[Camunda]] — 竞品工作流引擎，Camunda 8 走云原生事件流架构
 - [[jBPM]] — 与 Drools 规则引擎集成的工作流引擎，适合复杂规则场景
+- [[京东]] — 京东（JD.com），自营电商平台，核心护城河为零售数据+仓储物流+供应链履约，正在演进为供应链智能体
+- [[JoyCoder]] — 京东 AI 编程工具，降低编码门槛但不降低质量门槛
+- [[JoyAgent]] — 京东云 AI Agent 平台，开源 JoyAgent-JDGenie，支持 ReAct 与 Plan-and-Execute
 
 ## Concepts
 - [[Apdex]] — 应用性能指数，量化用户体验满意度的 APM 核心指标
@@ -935,11 +938,14 @@
 - [[BPMN 2.0]] — 业界通用的业务流程建模规范，用于定义可视化业务流程
 - [[CMMN]] — 案例管理模型和表示法标准，用于处理非结构化或半结构化业务流程
 - [[DMN]] — 决策模型和表示法标准，用于定义和执行业务规则决策表
+- [[提示词注入防御]] — AI Agent 四层安全防护：入口净化/上下文角色隔离/工具权限分级/出口内容过滤
 
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
 - [[摘要-coze-workflow-day1]] — Coze Day1 笔记：Text-to-Workflow 一句话生成工作流，AI 拆分 vs 人合并的设计洞察与三条编排设计模式
 - [[摘要-nginxpulse]] — NginxPulse 轻量级 Nginx 日志分析面板：Go+Vue3+SQLite，PV/UV/IP归属地/多站点/自定义格式
+- [[摘要-京东-agent面试题]] — 京东 AI 产品线与电商 Agent 面试题：ReAct/Plan-and-Execute 选型、MCP 工具设计、幂等防重复、提示词注入四层防御
+
 ## Syntheses
 - [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
