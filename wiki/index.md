@@ -325,6 +325,7 @@
 - [[Git]] — 分布式版本控制系统
 - [[Java]] — 面向对象编程语言
 - [[Nginx]] — 高性能 Web 服务器
+- [[NginxPulse]] — 轻量级 Nginx 日志分析面板，Go+Vue3+SQLite，实时 PV/UV 与 IP 归属地分析
 - [[Redis]] — 内存数据结构存储
 - [[MySQL]] — 关系型数据库
 - [[Oracle]] — 企业级关系型数据库
@@ -935,6 +936,10 @@
 - [[CMMN]] — 案例管理模型和表示法标准，用于处理非结构化或半结构化业务流程
 - [[DMN]] — 决策模型和表示法标准，用于定义和执行业务规则决策表
 
+## Sources
+- [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
+- [[摘要-coze-workflow-day1]] — Coze Day1 笔记：Text-to-Workflow 一句话生成工作流，AI 拆分 vs 人合并的设计洞察与三条编排设计模式
+- [[摘要-nginxpulse]] — NginxPulse 轻量级 Nginx 日志分析面板：Go+Vue3+SQLite，PV/UV/IP归属地/多站点/自定义格式
 ## Syntheses
 - [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单

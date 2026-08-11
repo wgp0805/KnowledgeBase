@@ -45,7 +45,9 @@
       "Bash(mv \"raw/01-articles/RocketMQ 已正式接入 AI ！.md\" \"raw/09-archive/RocketMQ 已正式接入 AI ！.md\")",
       "Bash(ls \"raw/01-articles/\")",
       "Bash(PYTHONUTF8=1 python)",
-      "Bash(py _tmp_wiki_update.py)"
+      "Bash(py _tmp_wiki_update.py)",
+      "Bash(grep -rl \"NginxPulse\\\\|nginxpulse\" . --include=\"*.md\")",
+      "Bash(grep -rl \"Text-to-Workflow\\\\|变量聚合\" . --include=\"*.md\")"
     ]
   }
 }

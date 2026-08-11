@@ -1116,3 +1116,8 @@
 - **变更**: 新增 source [[摘要-为什么Skill才是未来的资产]]（Agent/Skill/Prompt 三角色定位 + Skill 是未来资产论点）; 新增 concept [[四层架构]]; 增量更新 [[Agent]]（补充闭环执行系统与项目经理类比）、[[Skill]]（补充行业专家角色/四类注入/三角色对比表/未来资产结论）; 更新 [[index.md]]（1 source + 1 concept + 2 updates）
 - **冲突**: 无（新内容补充代理关系，与既有 Skill 定义互补）
 - **归档**: raw/01-articles/为什么Skill才是未来的资产.md -> raw/09-archive/
+
+## [2026-08-11] ingest | 摄入 Coze 工作流学习双笔记 + NginxPulse 日志分析工具
+- **变更**: 新增 sources [[摘要-coze-workflow-learning]], [[摘要-coze-workflow-day1]], [[摘要-nginxpulse]]; 新增 entity [[NginxPulse]]; 增量更新 [[Coze]]（补工作流能力/Text-to-Workflow/手动搭建经验/设计哲学）; 更新 [[index.md]]（3 sources + 1 entity）
+- **冲突**: 无
+- **归档**: raw/01-articles/coze-workflow-learning-notes.md, raw/01-articles/coze工作流学习-Day1笔记.md.md, raw/01-articles/终于找到一个好用的 Nginx 日志分析工具了.md → raw/09-archive/
