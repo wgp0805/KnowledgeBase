@@ -2,8 +2,8 @@
 title: "Skill"
 type: concept
 tags: [AI, Agent, 技能扩展]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md]
-last_updated: 2026-07-27
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/为什么Skill才是未来的资产.md]
+last_updated: 2026-08-11
 ---
 
 ## 定义
@@ -38,6 +38,35 @@ Agent 的技能包，是人为沉淀的可复用方法、流程和工具组合�
 - Skill 把专业知识变成 Agent 按需调用的"外接大脑"
 - 工业标准化规避模型幻觉，优秀 Skill 集成大量开发者经验
 - 能用 Skill 尽量用，比自己用模糊语言描述效果好得多
+
+### Skill 的角色定位：行业专家与专业知识层
+从 Agent 生态价值视角（[[摘要-为什么Skill才是未来的资产]]），Agent 是项目经理，Skill 是**行业专家**——不关心任务流程怎么排，只关心"如何把这一件事做得更专业"。它向 Agent 注入四类内容：
+
+1. **领域经验**：这个行业踩过哪些坑、有哪些门道
+2. **标准模板**：交付物长什么样才算合格
+3. **最佳实践（Best Practice）**：高手是怎么做的
+4. **检查清单**：交差前逐项核对，别漏掉关键项
+
+有了 Skill，Agent 的每次输出更稳定、更符合专业标准——不再是"看运气"，而是"有章法"。
+
+### Skill 与 Agent、Prompt 的三角色对比
+
+| 维度 | Agent | Skill | Prompt |
+| --- | --- | --- | --- |
+| 本质 | 控制器 / 闭环执行系统 | 专业知识层 | 一次性指令 |
+| 负责什么 | "做事" | "做好事" | "这次怎么干" |
+| 类比 | 项目经理 | 行业专家 | 菜谱 |
+| 复用性 | 框架级，可通用 | 可复用、可迭代沉淀 | 写完即弃，难沉淀 |
+
+一句话区分：Agent 是控制器负责"做事"；Skill 是专业知识层负责"做好事"；Prompt 是一次性指令（菜谱），而 Skill 是可复用、可迭代的"预制菜包"。
+
+### 为什么 Agent 需要 Skill：把能力"稳定"下来
+Agent 天生的短板是**不知道所在行业的专业标准与团队认可的工作方式**。没有 Skill 约束时，同一个 Agent 面对同一问题，今天和明天的答案可能不一样。Skill 通过"约束 + 指导"把 AI 能力稳定下来：减少随机偏差让输出可预期、对齐行业标准和团队规范、把"个人经验"变成可反复调用持续迭代的"组织资产"。
+
+### 核心结论：未来的资产是 Skill
+> Agent 会成为基础设施，而真正能形成核心竞争力、可以不断复用和增值的，是沉淀了行业经验和最佳实践的 Skill。
+
+Agent 是"通用的执行引擎"，会越来越便宜、普及；Skill 是"专属的专业资产"，会随使用和迭代增值。今天为某个业务场景写下的 Skill，明天就可能成为别人抄不走的壁垒。因此与其追逐更聪明的 Agent 框架，不如把团队专业经验一条条沉淀成 Skill。
 
 ### Matt Pocock 的两层调用架构（User-invoked vs Model-invoked）
 [[MattPocock]] 的 `mattpocock/skills` 仓库提出了一种重要的 Skill 设计层次划分：
@@ -101,3 +130,5 @@ Tool 与 Skill 的区别：Tool 是功能型（执行原子操作），Skill 是
 - [[摘要-claude-code-learning-roadmap]] — 来源（Claude Code 白银级定制能力）
 - [[MattPocock]] — User-invoked vs Model-invoked 两层架构提出者
 - [[摘要-mattpocock-skills]] — 来源（Skill 作为纪律而非框架的设计哲学）
+- [[四层架构]] — Skill 在 LLM/Tool/Runtime 中的位置
+- [[摘要-为什么Skill才是未来的资产]] — 行业专家角色定位与"Skill 是未来资产"论点的来源

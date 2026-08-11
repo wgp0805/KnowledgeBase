@@ -2,8 +2,8 @@
 title: "Agent"
 type: concept
 tags: [AI, Agent, 自主系统]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/Claude Code 最佳学习路线：从"手敲代码"到"指挥AI打工"，强的离谱！！.md, raw/01-articles/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md, raw/01-articles/2026-07-17-当AI Agent开始"自己拿主意"，你怎么知道它没在犯错？.md]！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md]
-last_updated: 2026-08-04
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/Claude Code 最佳学习路线：从"手敲代码"到"指挥AI打工"，强的离谱！！.md, raw/01-articles/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md, raw/01-articles/2026-07-17-当AI Agent开始"自己拿主意"，你怎么知道它没在犯错？.md]！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md, raw/01-articles/为什么Skill才是未来的资产.md]
+last_updated: 2026-08-11
 ---
 
 ## 定义
@@ -13,6 +13,16 @@ last_updated: 2026-08-04
 
 ### LLM Loop 机制
 Agent 的核心运行机制是 LLM Loop：接收指令→制定计划→调用工具→观察结果→决定下一步→循环直到完成。
+
+### 闭环执行系统与"项目经理"类比
+面向 Agent 生态的价值视角（[[摘要-为什么Skill才是未来的资产]]）认为，Agent 的真正核心是"感知 → 推理 → 行动 → 观察 → 反思"的闭环执行系统：
+- **感知**：理解用户目标和当前环境
+- **推理**：拆解任务、规划步骤
+- **行动**：调度工具执行
+- **观察**：检查执行结果
+- **反思**：发现问题重新规划，直到交付
+
+类比项目经理：不一定要亲自动手做每件事，但必须清楚目标、先后顺序、派哪个工具去干、干得不对如何纠偏。Agent 的职责是"把事做完"，而非"把某件事做得最专业"—后者的专业度由 Skill 层负责（见 [[四层架构]]）。
 
 ### Harness 工程
 Harness 是大模型之外让 Agent 表现更好的设计总称。同样一个大模型，harness 不同效果差别极大。Claude Code 和 Codex 都是 harness 集大成者。
@@ -79,3 +89,5 @@ Harness 是大模型之外让 Agent 表现更好的设计总称。同样一个�
 - [[trace-turn]] - Agent 运行单位与生命周期钩子
 - [[摘要-pi-agent-core-principles]] - 本质公式来源
 - [[摘要-pi-agent-production-guide]] - 生产级落地来源
+- [[四层架构]] — LLM/Skill/Tool/Agent Runtime 协同框架
+- [[摘要-为什么Skill才是未来的资产]] — 闭环执行系统与项目经理类比来源

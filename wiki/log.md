@@ -1111,3 +1111,8 @@
 - **变更**: 新增 source [[摘要-opencode-架构演进剖析]]; 新增 concept [[渐进式重构]], [[FeatureToggle]]（关联支撑）; 增量更新 [[OpenCode]]（补 2.0 插件 API/Skill/SDK、Desktop v1→v2 演进、MCP 深度集成、兼容迁移策略）; 更新 [[index.md]]
 - **冲突**: 无
 - **归档**: raw/01-articles/OpenCode架构演进剖析.md → raw/09-archive/
+
+## [2026-08-11] ingest | 摄入「为什么Skill才是未来的资产」
+- **变更**: 新增 source [[摘要-为什么Skill才是未来的资产]]（Agent/Skill/Prompt 三角色定位 + Skill 是未来资产论点）; 新增 concept [[四层架构]]; 增量更新 [[Agent]]（补充闭环执行系统与项目经理类比）、[[Skill]]（补充行业专家角色/四类注入/三角色对比表/未来资产结论）; 更新 [[index.md]]（1 source + 1 concept + 2 updates）
+- **冲突**: 无（新内容补充代理关系，与既有 Skill 定义互补）
+- **归档**: raw/01-articles/为什么Skill才是未来的资产.md -> raw/09-archive/

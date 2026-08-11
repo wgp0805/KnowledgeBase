@@ -278,6 +278,7 @@
 - [[摘要-opencode-架构演进剖析]] — OpenCode 2.0 渐进式重构（v1.17→v1.18）：插件 API、Skill 系统、Desktop v1→v2
 - [[摘要-deepseek-harness内测]] — DeepSeek Harness 内测与 Agent 工程化面试题深度解析
 - [[摘要-携程二面-熔断]] — 携程面试题：熔断机制、三态状态机、Sentinel/Hystrix/Resilience4j 对比与雪崩效应
+- [[摘要-为什么Skill才是未来的资产]] — Agent（执行系统）/Skill（专业知识层）/Prompt（一次性指令）三角色定位，Skill 才是未来可增值的资产
 - [[摘要-通用万能Prompt模板]] — 基于定角色/明任务/给素材三大原则的 4 种场景通用 Prompt 模板
 - [[摘要-提示词三大原则-定角色明任务给素材]] — 高质量 Prompt 结构化三大原则：定角色、明任务、给素材
 - [[摘要-java-boolean-is-naming-pitfall]] — Java 布尔属性 is 命名序列化大坑：DBA 规范与 JavaBean 规范冲突
@@ -726,6 +727,7 @@
 - [[策略模式]] — 行为型设计模式，同一接口不同实现策略
 - [[责任链模式]] — 行为型设计模式，请求沿链条依次处理
 - [[装饰器模式]] — 结构型设计模式，动态增强对象功能
+- [[四层架构]] — LLM 层/Skill 层/Tool 层/Agent Runtime 层协同框架，"能闭环"的系统架构
 - [[IoC]] — 控制反转，Spring 依赖注入的设计原则
 - [[CGLIB代理]] — 基于字节码生成的代理模式实现
 - [[JDK动态代理]] — Java 原生基于接口的代理机制
