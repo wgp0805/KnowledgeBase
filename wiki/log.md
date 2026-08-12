@@ -1134,3 +1134,6 @@
 - **变更**: 新增 synthesis [[java-skills-openspec-integration]]（Java 开发 Skills 列表、OpenSpec 工作流、集成方式与应用场景）; 更新 [[index.md]] Syntheses 分类
 - **引用**: [[OpenSpec]], [[java-dev]], [[java-spring-framework]], [[dr-jskill]], [[spring-boot-skill]], [[jspecify-skill]], [[规范驱动开发]], [[Superpowers]], [[SpecKit]]
 - **冲突**: 无
+
+## [2026-08-12] query | 解析 Agent 工具是否放弃 RAG
+- **输出**: 引用 [[摘要-为什么Claude-Code不用RAG检索代码]], [[摘要-字节面试官什么是RAG为什么需要RAG]], [[摘要-agent-tools-workflow区别]], [[摘要-RAG-KAG双引擎知识库系统]], [[摘要-langchain-rag构建知识库-理论]], [[摘要-codegraph-deep-dive]], [[摘要-ai-agent-cognitive-navigation]], [[摘要-agent-engineering]], [[摘要-AI-agent工具应该怎么使用]]; 即时回答未保存
