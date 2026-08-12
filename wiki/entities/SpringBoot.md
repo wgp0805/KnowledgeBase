@@ -17,7 +17,8 @@ sources:
   - raw/01-articles/得物二面：SpringBoot 内部的启动流程是怎样的？我：没研究过.md
   - raw/01-articles/Spring Boot 4.1.0 震撼发布！新特性，惊爆了！.md
   - raw/01-articles/SpringBoot4 新特性：模块化架构.md
-last_updated: 2026-07-31
+  - raw/01-articles/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md
+last_updated: 2026-08-12
 ---
 
 ## 定义
@@ -97,4 +98,5 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 - [[摘要-spring-cloud-alibaba]] — Spring Cloud Alibaba 笔记
 - [[摘要-springboot-startup-flow]] — Spring Boot 启动流程源码解析
 - [[摘要-spring-boot-4.1-发布]] — Spring Boot 4.1.0 新特性详解
+- [[摘要-springboot获取真实客户端ip]] — SpringBoot 获取真实客户端 IP 方案
 - [[摘要-总结一次线上事故的惨痛教训]] — 接口类型变更导致P0事故教训
