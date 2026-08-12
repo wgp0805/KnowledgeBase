@@ -12,6 +12,8 @@ PiAgent（pi-agent）是一个 70K Star 的开源 Agent 框架，提供从 Demo 
 > 注意：本实体指 70K Star 的开源 Agent 框架 pi-agent，与 [[PaiAgent]]（基于 DAG 工作流引擎、用 Qoder 搭建的 AI Agent 平台项目）是两个不同项目，勿混淆。
 >
 > 另注意：与 Mario Zechner 开发的 Pi（87.3k Stars 极简终端编码代理，系统提示词仅 ~1000 token）也是不同项目。Pi 侧重 token 极简主义和终端编码，pi-agent 侧重 Agent 工程化框架。详见 [[摘要-推荐一个节省token的AI编程神器]]。
+>
+> 另另注意：与 Armin Ronacher 开发的 Pi Agent（pi-mono，4 个原语工具 read/write/edit/bash，~300 词 System Prompt，YOLO 模式）也是不同项目。Armin 的 Pi Agent 侧重"少即是多"的极简工具哲学，是 OpenClaw 的 Agent 运行时。详见 [[摘要-pi-agent-4工具极简主义]]。
 
 ## 关键信息
 

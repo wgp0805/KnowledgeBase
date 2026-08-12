@@ -45,9 +45,12 @@ OpenClaw.NET 提供基于 YAML 声明式 DAG 的 MetaSKILL 编排引擎，用于
   - Token 消耗较大
   - 需要从正规渠道安装，避免安全隐患
 
+- **Pi Agent 作为运行时**：Pi Agent（Armin Ronacher 创建）是 OpenClaw 的 Agent 运行时。OpenClaw 不把 Pi 当子进程或 RPC 服务调用，而是直接嵌入 Pi SDK——会话状态、工具执行、消息历史都在 OpenClaw 进程内运行，无序列化/反序列化开销。详见 [[摘要-pi-agent-4工具极简主义]]。
+
 ## 关联连接
 - [[摘要-OpenClaw小龙虾教程汇总]] — 来源
 - [[PeterSteinberger]] — 创始人
+- [[ArminRonacher]] — Pi Agent 创建者（Pi 是 OpenClaw 的 Agent 运行时）
 - [[ClaudeCode]] — 类似 AI Agent
 - [[Skill]] — 技能扩展机制
 - [[WorkBuddy]] — 部署平台
