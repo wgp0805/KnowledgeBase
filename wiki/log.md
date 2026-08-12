@@ -1,3 +1,8 @@
+## [2026-08-12] ingest | 摄入「SpringBoot 中获取真实客户端 IP 的终极方案」
+- **变更**: 新增 source [[摘要-springboot获取真实客户端ip]]; 新增 concepts [[X-Forwarded-For]], [[代理链路]], [[IP伪造防护]], [[IP限流]]; 增量更新 [[小哈]]（补充第 4 篇已收录文章与新 source）、[[SpringBoot]]（追加新 source 路径）、[[Tomcat]]（补充 RemoteIpValve 代理信任配置章节与 4 条新关联连接）; 更新 [[index.md]]（1 source + 4 concepts）
+- **冲突**: 无
+- **归档**: raw/01-articles/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md → raw/09-archive/
+
 ## [2026-08-11] ingest | 摄入京东 JoyCoder Agent 面试题与AI产品线文章
 - **变更**: 新增 source [[摘要-京东-agent面试题]]; 新增 entities [[京东]], [[JoyCoder]], [[JoyAgent]]; 新增 concept [[提示词注入防御]]; 增量更新 [[沉默王二]]（补充新来源）; 更新 [[index.md]]（1 source + 3 entities + 1 concept）
 - **冲突**: 无

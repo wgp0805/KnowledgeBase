@@ -939,12 +939,17 @@
 - [[CMMN]] — 案例管理模型和表示法标准，用于处理非结构化或半结构化业务流程
 - [[DMN]] — 决策模型和表示法标准，用于定义和执行业务规则决策表
 - [[提示词注入防御]] — AI Agent 四层安全防护：入口净化/上下文角色隔离/工具权限分级/出口内容过滤
+- [[X-Forwarded-For]] — HTTP 代理链 IP 传递标准头字段，客户端可伪造需配合代理信任配置
+- [[代理链路]] — 多层代理（CDN/负载均衡/反向代理）下客户端 IP 的传递与解析机制
+- [[IP伪造防护]] — 通过代理信任配置（internal-proxies）和头字段可信度排序防止 XFF 伪造
+- [[IP限流]] — 基于 IP 的频率限制、黑名单和可疑请求检测的安全防护机制
 
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
 - [[摘要-coze-workflow-day1]] — Coze Day1 笔记：Text-to-Workflow 一句话生成工作流，AI 拆分 vs 人合并的设计洞察与三条编排设计模式
 - [[摘要-nginxpulse]] — NginxPulse 轻量级 Nginx 日志分析面板：Go+Vue3+SQLite，PV/UV/IP归属地/多站点/自定义格式
 - [[摘要-京东-agent面试题]] — 京东 AI 产品线与电商 Agent 面试题：ReAct/Plan-and-Execute 选型、MCP 工具设计、幂等防重复、提示词注入四层防御
+- [[摘要-springboot获取真实客户端ip]] — SpringBoot 获取真实客户端 IP 终极方案：XFF 头可信度排序、IpUtils 工具类、Tomcat RemoteIpValve 代理信任、IP 安全过滤器
 
 ## Syntheses
 - [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照
