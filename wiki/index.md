@@ -987,3 +987,4 @@
 - [[pi-扩展生态与开发指南]] — Pi 扩展生态指南：四层扩展系统、现成扩展查找渠道（pi.dev/npm/examples）、Extension 开发规范与 Package 发布规范
 - [[pi-agent-complete-guide]] — Pi Agent 完全教程：安装/认证/AGENTS.md/配置/命令/快捷键/扩展/安全/工程化最佳实践
 - [[codex-operation-manual]] — Codex 从安装配置到精通的操作手册，涵盖核心能力、工作流、Skill、Java 实战
+- [[java-skills-openspec-integration]] — Java 开发 Skills 与 OpenSpec 配合使用指南：Skills 列表、OpenSpec 工作流、集成方式与应用场景

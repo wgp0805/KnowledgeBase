@@ -1126,3 +1126,11 @@
 - **变更**: 新增 sources [[摘要-coze-workflow-learning]], [[摘要-coze-workflow-day1]], [[摘要-nginxpulse]]; 新增 entity [[NginxPulse]]; 增量更新 [[Coze]]（补工作流能力/Text-to-Workflow/手动搭建经验/设计哲学）; 更新 [[index.md]]（3 sources + 1 entity）
 - **冲突**: 无
 - **归档**: raw/01-articles/coze-workflow-learning-notes.md, raw/01-articles/coze工作流学习-Day1笔记.md.md, raw/01-articles/终于找到一个好用的 Nginx 日志分析工具了.md → raw/09-archive/
+
+## [2026-08-12] query | Java 开发 Skills 与 OpenSpec 配合使用查询
+- **输出**: 引用 [[OpenSpec]]、[[java-dev]] 等多个 Skills，即时回答未保存
+
+## [2026-08-12] synthesis | 固化 Java 开发 Skills 与 OpenSpec 配合使用指南
+- **变更**: 新增 synthesis [[java-skills-openspec-integration]]（Java 开发 Skills 列表、OpenSpec 工作流、集成方式与应用场景）; 更新 [[index.md]] Syntheses 分类
+- **引用**: [[OpenSpec]], [[java-dev]], [[java-spring-framework]], [[dr-jskill]], [[spring-boot-skill]], [[jspecify-skill]], [[规范驱动开发]], [[Superpowers]], [[SpecKit]]
+- **冲突**: 无
