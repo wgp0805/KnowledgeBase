@@ -10,6 +10,8 @@ last_updated: 2026-08-04
 PiAgent（pi-agent）是一个 70K Star 的开源 Agent 框架，提供从 Demo 到生产环境落地的完整工程化能力，原生 TypeScript 版本，并提供 Python 复刻版。其核心价值在于封装了循环管控、上下文工程、工具调用容错等生产级稳定性与安全机制，让开发者无需从零踩坑。
 
 > 注意：本实体指 70K Star 的开源 Agent 框架 pi-agent，与 [[PaiAgent]]（基于 DAG 工作流引擎、用 Qoder 搭建的 AI Agent 平台项目）是两个不同项目，勿混淆。
+>
+> 另注意：与 Mario Zechner 开发的 Pi（87.3k Stars 极简终端编码代理，系统提示词仅 ~1000 token）也是不同项目。Pi 侧重 token 极简主义和终端编码，pi-agent 侧重 Agent 工程化框架。详见 [[摘要-推荐一个节省token的AI编程神器]]。
 
 ## 关键信息
 

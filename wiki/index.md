@@ -630,6 +630,12 @@
 - [[京东]] — 京东（JD.com），自营电商平台，核心护城河为零售数据+仓储物流+供应链履约，正在演进为供应链智能体
 - [[JoyCoder]] — 京东 AI 编程工具，降低编码门槛但不降低质量门槛
 - [[JoyAgent]] — 京东云 AI Agent 平台，开源 JoyAgent-JDGenie，支持 ReAct 与 Plan-and-Execute
+- [[MarioZechner]] — libGDX 与 Pi 极简终端编码代理作者
+- [[libGDX]] — Java 跨平台游戏开发框架，Mario Zechner 创建
+- [[Nps]] — Go 语言内网穿透工具，Web 管理面板，支持 TCP/UDP/HTTP/HTTPS/SOCKS5
+- [[Frp]] — Go 语言高性能反向代理内网穿透工具，配置极简，GitHub 80k+ Stars
+- [[Ngrok]] — SaaS 模式内网穿透工具，一行命令暴露本地服务
+- [[EarthWorm]] — Go 语言多级代理链内网穿透工具，支持正向/反向/SOCKS5 代理
 
 ## Concepts
 - [[Apdex]] — 应用性能指数，量化用户体验满意度的 APM 核心指标
@@ -943,6 +949,9 @@
 - [[代理链路]] — 多层代理（CDN/负载均衡/反向代理）下客户端 IP 的传递与解析机制
 - [[IP伪造防护]] — 通过代理信任配置（internal-proxies）和头字段可信度排序防止 XFF 伪造
 - [[IP限流]] — 基于 IP 的频率限制、黑名单和可疑请求检测的安全防护机制
+- [[内网穿透]] — 将内网服务通过公网中转暴露给外部访问的技术，解决 NAT 环境下不可达问题
+- [[端口转发]] — 将网络流量从一个端口重定向到另一个端口的机制
+- [[反向代理]] — 代理服务器接收请求并转发到内网真实服务器，内网穿透的底层机制
 
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
@@ -950,6 +959,8 @@
 - [[摘要-nginxpulse]] — NginxPulse 轻量级 Nginx 日志分析面板：Go+Vue3+SQLite，PV/UV/IP归属地/多站点/自定义格式
 - [[摘要-京东-agent面试题]] — 京东 AI 产品线与电商 Agent 面试题：ReAct/Plan-and-Execute 选型、MCP 工具设计、幂等防重复、提示词注入四层防御
 - [[摘要-springboot获取真实客户端ip]] — SpringBoot 获取真实客户端 IP 终极方案：XFF 头可信度排序、IpUtils 工具类、Tomcat RemoteIpValve 代理信任、IP 安全过滤器
+- [[摘要-推荐一个节省token的AI编程神器]] — Pi 极简终端编码代理：系统提示词仅 ~1000 token，核心工具 6 个，TypeScript 扩展按需补齐，支持 15+ Provider
+- [[摘要-常见内网穿透工具]] — 四种内网穿透工具对比：nps-npc（Web 管理）、frp（轻量高性能）、ew（多级代理链）、ngrok（SaaS 零配置）
 
 ## Syntheses
 - [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照

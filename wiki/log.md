@@ -1,3 +1,8 @@
+## [2026-08-12] ingest | 摄入「推荐一个节省token的AI编程神器」与「常见内网穿透工具」
+- **变更**: 新增 sources [[摘要-推荐一个节省token的AI编程神器]], [[摘要-常见内网穿透工具]]; 新增 entities [[MarioZechner]], [[libGDX]], [[Nps]], [[Frp]], [[Ngrok]], [[EarthWorm]]; 新增 concepts [[内网穿透]], [[端口转发]], [[反向代理]]; 增量更新 [[PiAgent]]（补充与 Pi 终端编码代理的区分说明）; 更新 [[index.md]]（2 sources + 6 entities + 3 concepts）
+- **冲突**: [[PiAgent]] 已存在但指向不同的 pi-agent 框架（70K Star），文章1的 Pi（87.3k Stars 极简终端编码代理）为独立项目，已在 PiAgent.md 中添加三方区分说明
+- **归档**: raw/01-articles/推荐一个节省token的AI编程神器！.md, raw/01-articles/常见内网穿透工具，收好了！.md → raw/09-archive/
+
 ## [2026-08-12] ingest | 摄入「SpringBoot 中获取真实客户端 IP 的终极方案」
 - **变更**: 新增 source [[摘要-springboot获取真实客户端ip]]; 新增 concepts [[X-Forwarded-For]], [[代理链路]], [[IP伪造防护]], [[IP限流]]; 增量更新 [[小哈]]（补充第 4 篇已收录文章与新 source）、[[SpringBoot]]（追加新 source 路径）、[[Tomcat]]（补充 RemoteIpValve 代理信任配置章节与 4 条新关联连接）; 更新 [[index.md]]（1 source + 4 concepts）
 - **冲突**: 无
