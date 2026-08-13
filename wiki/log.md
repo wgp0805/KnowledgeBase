@@ -1,3 +1,13 @@
+## [2026-08-13] lint | 全量健康巡检
+- **结果**: 1015 个文件，1009 个 index 注册条目
+  - 未同步索引: 6 个（Dubbo, error-feedback-self-healing, javabean-boolean-is-pitfall, openspec-archive-modify-and-token-tradeoff, PiAgent, trace-turn）
+  - 死链（index→文件）: 0 个
+  - 文件内死链: 9 个（摘要-通用万能prompt模板, 摘要-spring-ai-vs-langchain4j, OpenSpec#安装与初始化, OpenSpec#工件依赖图, OpenSpec#核心工作流, OpenSpec#Delta Spec 增量变更, SpecSuperflow#八状态机, SpecSuperflow#适用边界, superpowers）
+  - 孤儿页面: 0 个
+  - 知识冲突: 2 个（[[DeepSeekHarness]] 已解决, [[GrillMe]] 未解决-需用户决策）
+- **健康度**: 1015/1015 页面有引用（0 孤岛），死链率 9/1015 ≈ 0.9%
+- **待处理**: 等待用户确认是否执行修复（补注册 6 个索引、修复 9 个死链、决策 GrillMe 冲突）
+
 ## [2026-08-13] ingest | 清理 raw/01-articles 重复剪藏副本
 - **变更**: 无新增内容（两篇文章均已在历史 ingest 中编译入 wiki）
 - **归档**: 2 篇重复剪藏副本处理完毕
