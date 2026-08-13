@@ -1,3 +1,7 @@
+## [2026-08-13] query | 解析「Loop Engineering 与 Harness Engineering 区别」
+- **输出**: 综合回答 + 嵌套关系图（Harness 大框含八组件，Loop 高亮流程编排+安全护栏两块），点明 Loop ⊂ Harness：Loop 是方法论（窄）、Harness 是基础设施层（宽），公式 Model+Harness=Agent
+- **引用**: [[LoopEngineering]], [[摘要-loop-engineering-guide]], [[Harness]], [[AgentHarness]], [[摘要-deepseek-harness内测]], [[ClaudeCode]], [[DeepSeekHarness]], [[ReAct_Agent]]
+
 ## [2026-08-13] query | 解析「Loop 与 Hermes 区别」
 - **输出**: 综合回答 + 六维对比图（性质/载体/循环/驱动/技能/护栏），点明 Loop=方法论理念层、Hermes=开源产品实现层，二者是"理念→产品化"关系
 - **引用**: [[LoopEngineering]], [[摘要-loop-engineering-guide]], [[摘要-loop-engineering-pitfalls]], [[HermesAgent]], [[摘要-hermes-agent-complete-guide]], [[hermes-agent-tutorial]], [[ClaudeCode]], [[Codex]], [[NousResearch]]
