@@ -1,3 +1,8 @@
+## [2026-08-13] lint | 全局 wiki 健康扫描
+- **工具**: 新增 scripts/lint_wiki.py（可复用 lint 脚本，扫描孤岛/死链/sources缺失/stem冲突）
+- **结果**: 998 页；孤岛 0；死链 43（log 噪音 ~25 + 内容页真死链 ~15）；同名 stem 冲突 0；frontmatter sources 缺失 208（根因：ingest 归档 raw/01-articles→raw/09-archive 后未回写路径，已抽查验证）；健康度 95.7%
+- **待修**: 内容页真死链（Drools/HNSW/JavaBean规范/Remotion/Shiro/Zeebe/分布式锁等需补建）；sources 路径批量回写 archive
+
 ## [2026-08-13] ingest | 整理「Agent 架构辨析三连问」入 wiki
 - **变更**: 新增 syntheses [[agent-architecture-landscape]]（五层全景）、[[loop-vs-hermes]]（方法论vs产品）、[[loop-vs-harness]]（Loop⊂Harness）；更新 [[index.md]]（Syntheses 段 +3）；三页互链并回链相关概念页
 - **冲突**: 无
