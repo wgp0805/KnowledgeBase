@@ -1,3 +1,8 @@
+## [2026-08-13] ingest | 整理「Agent 架构辨析三连问」入 wiki
+- **变更**: 新增 syntheses [[agent-architecture-landscape]]（五层全景）、[[loop-vs-hermes]]（方法论vs产品）、[[loop-vs-harness]]（Loop⊂Harness）；更新 [[index.md]]（Syntheses 段 +3）；三页互链并回链相关概念页
+- **冲突**: 无
+- **来源**: 本次会话三问沉淀——①当下 Agent 架构与区别 ②Loop vs Hermes ③Loop vs Harness
+
 ## [2026-08-13] query | 解析「Loop Engineering 与 Harness Engineering 区别」
 - **输出**: 综合回答 + 嵌套关系图（Harness 大框含八组件，Loop 高亮流程编排+安全护栏两块），点明 Loop ⊂ Harness：Loop 是方法论（窄）、Harness 是基础设施层（宽），公式 Model+Harness=Agent
 - **引用**: [[LoopEngineering]], [[摘要-loop-engineering-guide]], [[Harness]], [[AgentHarness]], [[摘要-deepseek-harness内测]], [[ClaudeCode]], [[DeepSeekHarness]], [[ReAct_Agent]]
