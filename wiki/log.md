@@ -1,3 +1,8 @@
+## [2026-08-13] ingest | DeepSeek V4 Pro 正式版发布 + Harness 最后内测 + 12 道 Agent 面试题
+- **变更**: 新增 [[摘要-deepseek-v4-pro-发布-harness-内测]]; 新增概念 [[ResponsesApi]], [[BetterHarness]]; 增量更新 [[DeepSeek]]（V4 Pro 正式版区块）, [[PaiCLI]]（Better Harness 审计工具 + 模型路由模块 + 简历写法）; 更新 [[index.md]]
+- **冲突**: 无（与 [[摘要-deepseek-harness内测]] 2026-08-06 为同系列不同文章，前者讲 Harness 内测消息 + ReAct/Plan-Execute/混合检索/记忆/HITL 面试题，本文讲 V4 Pro 正式版发布 + Pro/Flash 路由/Responses API/版本管理/Better Harness 审计面试题，内容互补无冲突）
+- **归档**: 源文件已移动至 raw/09-archive/
+
 ## [2026-08-13] lint | 执行全部修复
 - **补注册索引**: 6 个
   - Entities: [[Dubbo]], [[PiAgent]]

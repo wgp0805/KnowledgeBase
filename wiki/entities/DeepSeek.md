@@ -2,8 +2,8 @@
 title: "DeepSeek"
 type: entity
 tags: [AI, 模型, 公司]
-sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/09-archive/Ollama+DeepSeek本地部署（新人必看）.md, raw/09-archive/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/2026-07-31-倒反天罡！DeepSeek V4-Flash 正式版悄然上线：130亿激活参数，把自家1.6万亿旗舰「以下克上」 - 小白跃升坊.md, raw/01-articles/DeepSeek员工：Harness开始内测，有plugin、skill、MCP、Agent开源项目者优先，并赠送API额度（附Agent面试题）.md]
-last_updated: 2026-08-03
+sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/09-archive/Ollama+DeepSeek本地部署（新人必看）.md, raw/09-archive/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/2026-07-31-倒反天罡！DeepSeek V4-Flash 正式版悄然上线：130亿激活参数，把自家1.6万亿旗舰「以下克上」 - 小白跃升坊.md, raw/09-archive/DeepSeek员工：Harness开始内测，有plugin、skill、MCP、Agent开源项目者优先，并赠送API额度（附Agent面试题）.md, raw/09-archive/DeepSeek 员工：DeepSeek V4 Pro 正式发布，Harness 也进入最后一个内测版本（附Agent面试题）.md]
+last_updated: 2026-08-13
 ---
 
 ## 定义
@@ -34,6 +34,15 @@ last_updated: 2026-08-03
 ### Flash 模型 Agent 任务横评
 [[摘要-step-3-7-flash-agent横评]] 中，DeepSeek V4 Flash 在从零搭建开发者日志站任务中成本最低、可一轮交付可用成品，但编译过程中出现 3 次错误并自行修复。文章认为 DeepSeek 的单次 Token 成本优势明显，但在 Agent 场景下还需要把工具调用失败、代码错误返工和人工介入一起计入综合成本。
 
+### V4 Pro 正式版（0813，2026-08-13 上线）
+- 总参数 1.6T / 激活参数 49B（MoE），与 Flash（284B / 13B）均支持 100 万上下文，但激活参数差近 4 倍，直接影响推理深度与 Agent 工具调用准确率
+- 正式版支持 [[ResponsesApi]]（与 Flash 一致），可完美适配 [[Codex]]；Preview 版本不支持
+- 正式版有 SLA 保障，行为变更提前通知；后训练做得更好，Agent 特定场景表现力更强
+- 价格约为 Flash 的 3 倍（缓存未命中输入价），但**缓存命中价格差距很小**——这决定了 Agent 上下文布局策略：不变内容放前面以命中前缀缓存
+- 版本管理建议：锁定具体版本号（如 `deepseek-v4-pro-0813`）替代通用名，配合离线回归测试集保证线上可复现
+- **Harness 进入最后内测**：DeepSeek Harness 团队公众号已开通（34 人关注，未发文），即将公测，对标 [[ClaudeCode]] 和 [[Codex]]，自家模型配自家 Harness 可做最深层次适配
+- 详见 [[摘要-deepseek-v4-pro-发布-harness-内测]]
+
 ### V4-Flash 正式版（0731，2026-07-31 上线）
 - 结构/尺寸与 4 月预览版一致（总参数 284B / 激活参数 13B，MoE，1M tokens 原生上下文，最大输出 384K），**仅重新进行后训练**，后台自动切换，仅限 API
 - 与 V4-Pro（总 1.6T / 激活 49B）对比：在 Agent 能力多项基准上反超 Pro 预览版
@@ -63,3 +72,6 @@ last_updated: 2026-08-03
 - [[后训练]] — 正式版核心方法
 - [[Codex]] — 被适配的生态
 - [[摘要-deepseek-v4-flash发布]] — 来源（V4-Flash 正式版）
+- [[摘要-deepseek-v4-pro-发布-harness-内测]] — 来源（V4 Pro 正式版 + Harness 最后内测）
+- [[ResponsesApi]] — V4 Pro/Flash 正式版支持的有状态 API
+- [[BetterHarness]] — PaiCLI 的 Agent 质量审计工具（非 DeepSeek Harness）

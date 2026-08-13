@@ -984,6 +984,8 @@
 - [[javabean-boolean-is-pitfall]] — JavaBean 布尔属性 is 命名陷阱：getter 错位导致序列化字段名丢失 is 前缀
 - [[error-feedback-self-healing]] — Agent 工具执行错误回灌自愈机制：不终止循环，由模型自主纠错重试
 - [[trace-turn]] — Agent 运行基本单位：Trace（完整任务链路）与 Turn（单次模型调用轮次）
+- [[ResponsesApi]] — 有状态的大模型调用接口，引用前一轮 response ID 避免重传历史，tool_calls 结构化返回，更适合 Agent 且降低 Token 成本
+- [[BetterHarness]] — PaiCLI 的 Agent 质量审计工具，三通道并行取证 + 五维度打分，与 DeepSeek Harness（Agent 产品）是不同概念
 
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
@@ -994,6 +996,7 @@
 - [[摘要-推荐一个节省token的AI编程神器]] — Pi 极简终端编码代理：系统提示词仅 ~1000 token，核心工具 6 个，TypeScript 扩展按需补齐，支持 15+ Provider
 - [[摘要-常见内网穿透工具]] — 四种内网穿透工具对比：nps-npc（Web 管理）、frp（轻量高性能）、ew（多级代理链）、ngrok（SaaS 零配置）
 - [[摘要-pi-agent-4工具极简主义]] — Pi Agent（Armin Ronacher）源码剖析：4 个原语工具、~300 词 Prompt、YOLO 模式、自扩展哲学、多模型混合会话
+- [[摘要-deepseek-v4-pro-发布-harness-内测]] — DeepSeek V4 Pro 正式版发布 + Harness 最后内测 + 12 道 Agent 工程面试题（Pro/Flash 路由/Responses API/版本管理/Better Harness 审计）
 
 ## Syntheses
 - [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照
