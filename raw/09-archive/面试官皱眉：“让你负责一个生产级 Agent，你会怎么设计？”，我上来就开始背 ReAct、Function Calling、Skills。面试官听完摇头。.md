@@ -16,7 +16,7 @@ source: "https://mp.weixin.qq.com/s/L6KUFCwlNGh8vJFLFMkLYg"
 
 以下是读者真实的面试题目，有需要的小伙伴可以收藏一波慢慢背，哦不，慢慢理解、慢慢学，😄
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/bb9382cc4419add0fc2d0be73729d4df_MD5.webp)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714352.webp)
 
 （全文比较肝，保证大家能学到很多很多，系好安全带，我们粗粗粗粗发～）
 
@@ -24,7 +24,7 @@ source: "https://mp.weixin.qq.com/s/L6KUFCwlNGh8vJFLFMkLYg"
 
 PS：项目用的 PaiCLI，已在 GitHub 上开源，这是一个类 Claude Code 的终端 Agent，有需要的小伙伴可以学习。
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/a9394ce0642ab6bbffc0463858405cd2_MD5.webp)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714379.webp)
 
 > [https://github.com/itwanger/PaiCLI-Python](https://github.com/itwanger/PaiCLI-Python)
 
@@ -36,7 +36,7 @@ PS：项目用的 PaiCLI，已在 GitHub 上开源，这是一个类 Claude Code
 
 老王开门见山。“PaiCLI 项目中遇到的最大挑战是什么？”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/91ed4e5f571e6d743005e8ee9cfe43e5_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714382.png)
 
 “PaiCLI 有三种运行模式——ReAct 主循环、Plan-and-Execute 先规划后执行、Multi-Agent 多角色协作。三个模式要共用一套工具注册表、记忆系统、安全审批、审计日志等。”
 
@@ -48,7 +48,7 @@ PS：项目用的 PaiCLI，已在 GitHub 上开源，这是一个类 Claude Code
 
 “不需要了。压缩完成后，原始的旧消息会被清空，只保留摘要和最近几轮的完整记录。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/8817c107f56633d0e5552d19f5777f14_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714386.png)
 
 PaiCLI 的压缩策略是 Map-Reduce 分片摘要，分三步走。
 
@@ -66,7 +66,7 @@ PaiCLI 的压缩策略是 Map-Reduce 分片摘要，分三步走。
 
 “PaiCLI 的衰减曲线是 24 小时从满分衰减到半分。一周前的'不能吃辣'在检索排序里天然排在一个月前的'喜欢吃辣'前面，模型拿到的第一条就是最新的状态。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/b1b40b73a945f875f164a2283d0621f6_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714377.png)
 
 “不直接删旧记录，是因为删除不可逆。万一'不能吃辣'是临时过敏，过两周又恢复了呢？保留旧记录，模型能看到变化轨迹，做出更准确的判断。”
 
@@ -76,7 +76,7 @@ PaiCLI 的压缩策略是 Map-Reduce 分片摘要，分三步走。
 
 “PaiCLI 的记忆系统没用向量数据库。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/c0a032fccc5ffb646a9ed38685af6f64_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714349.png)
 
 “记忆库里存的都是用户偏好、项目信息这类事实信息，总量可能也就几百上千条。这个量级用关键词匹配就够了——毫秒级出结果，可解释、可调试，哪条被召回、为什么被召回一眼就能看懂。”
 
@@ -90,7 +90,7 @@ PaiCLI 的压缩策略是 Map-Reduce 分片摘要，分三步走。
 
 “但可以做三层防护，把丢失控制在可接受范围内。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/7e828e65909c9cd9122668d9990c6eac_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714414.png)
 
 “第一层，事实提取。压缩之前，先从旧对话里把跨会话仍然有价值的稳定事实提取出来，存进长期记忆。”
 
@@ -110,7 +110,7 @@ PaiCLI 的压缩策略是 Map-Reduce 分片摘要，分三步走。
 
 “回到第一层，事实提取。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/ce583ab3eeaf0a92a7497317a8ddbc47_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714341.png)
 
 “压缩之前，系统会从对话中提取稳定事实。'用户花了 500 元购买了某商品'这种包含金额的交易信息，会被识别为持久事实，写入长期记忆。”
 
@@ -124,7 +124,7 @@ PaiCLI 的压缩策略是 Map-Reduce 分片摘要，分三步走。
 
 PaiCLI 用三层过滤来落地这个定义。
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/8395a1c1099130311315fb358ae0eb98_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714389.png)
 
 - 排除临时任务。句子开头是“用户想”“帮我”“创建”“删除”“本次任务”这类前缀的内容，属于当前会话的一次性指令，过滤掉
 - 排除推测。包含“可能”“应该”“猜测”“推测”这类词的内容，不是确定事实，过滤掉
@@ -140,7 +140,7 @@ PaiCLI 用三层过滤来落地这个定义。
 
 “重试有适用范围，要区分可重试和不可重试的错误类型。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/f678183926881d46fbed80a4e82208c6_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714338.png)
 
 可重试的情况：
 
@@ -161,7 +161,7 @@ PaiCLI 用三层过滤来落地这个定义。
 
 “先看数据。PaiCLI 每轮调用结束后会输出一份 Token 统计，包含调用次数、总输入 token、总输出 token、缓存命中 token、平均每次输入 token 和可用预算。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/8ce156223f9ec931a35c4d1b56785db5_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714384.png)
 
 “排查思路就是从统计里找异常峰值。常见原因有三个。”
 
@@ -175,7 +175,7 @@ PaiCLI 用三层过滤来落地这个定义。
 
 具体分三个阶段。
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/c19e1ca48fcef8cf94b3686c021747e0_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714343.png)
 
 - 启动时索引注入。Agent 启动时，把所有启用 Skill 的名称和一句话描述注入 system prompt。只放名称和简介，单条描述控制在 500 字符以内，最多 20 个 Skill
 - 按需加载。模型在对话过程中判断当前任务匹配哪个 Skill，主动调用 load\_skill 工具加载完整指引
@@ -185,7 +185,7 @@ PaiCLI 用三层过滤来落地这个定义。
 
 “假设有 20 个 Skill，每个完整指引平均 2000 token，全部常驻 system prompt 就是 4 万 token。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/4643345688061d50103703ac57dd1b95_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714419.png)
 
 “每轮对话都要加载这 4 万 token，但实际用到的可能也就 1 到 2 个。渐进式披露只加载用到的 Skill。”
 
@@ -195,7 +195,7 @@ PaiCLI 用三层过滤来落地这个定义。
 
 “分四层来设计。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/4c439f03ef1d4f22c1ca11bd64175b35_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714417.png)
 
 “第一层，意图识别。用户进来的第一句话，先分清是产品咨询、售后投诉、退换货还是物流查询。”
 
@@ -215,7 +215,7 @@ PaiCLI 用三层过滤来落地这个定义。
 
 “四个方面。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/7099c408db763d572c28a964397123c2_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714391.png)
 
 ①、准确性。分块（chunk）切分策略要合理，太大的语义模糊检索会不准确，太小会丢失上下文。一般按 512 到 1024 token 一个 chunk，带 20% 重叠。再加一层重排模型（Reranker）做二次排序，向量检索的结果不一定是最优的，语义相似不等于问题相关
 
@@ -231,7 +231,7 @@ PaiCLI 用三层过滤来落地这个定义。
 
 “核心思路是削峰、分流、兜底，五道防线。”
 
-![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%E7%9A%B1%E7%9C%89%EF%BC%9A%E2%80%9C%E8%AE%A9%E4%BD%A0%E8%B4%9F%E8%B4%A3%E4%B8%80%E4%B8%AA%E7%94%9F%E4%BA%A7%E7%BA%A7%20Agent%EF%BC%8C%E4%BD%A0%E4%BC%9A%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1%EF%BC%9F%E2%80%9D%EF%BC%8C%E6%88%91%E4%B8%8A%E6%9D%A5%E5%B0%B1%E5%BC%80%E5%A7%8B%E8%83%8C%20ReAct%E3%80%81Function%20Calling%E3%80%81Skills%E3%80%82%E9%9D%A2%E8%AF%95%E5%AE%98%E5%90%AC%E5%AE%8C%E6%91%87%E5%A4%B4%E3%80%82/0c7baba5296cc030ea2cdc3410393e5a_MD5.png)
+![图片](../../assets/ReAct、Function%20Calling、Skills/file-20260813135714421.png)
 
 ①、请求队列异步化。用户请求先进消息队列，Worker 按容量消费。LLM 调用本身就慢，同步处理扛不住尖峰。队列解耦后，前端秒级响应“正在处理中”，后端按节奏调模型
 
