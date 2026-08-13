@@ -1,3 +1,7 @@
+## [2026-08-13] query | 解析「当下 Agent 架构都有什么，区别是什么」
+- **输出**: 综合回答 + 全景分层图（基础单元→执行循环→工作流编排→多Agent协作→自主智能体五层），区分 Workflow 直线 vs Agent 圆环两大阵营
+- **引用**: [[augmented-llm]], [[四层架构]], [[ReAct_Agent]], [[react-vs-plan-execute]], [[ToolPipeline]], [[摘要-agent-tools-workflow区别]], [[摘要-agent-engineering]], [[prompt-chaining]], [[routing-workflow]], [[parallelization-workflow]], [[orchestrator-workers]], [[evaluator-optimizer]], [[multi-agent-collaboration]], [[mixture-of-agents]], [[kanban-swarm]], [[autonomous-agent]], [[摘要-生产级Agent设计]]
+
 ## [2026-08-12] ingest | 摄入「【Pi Agent】源码剖析：4 个工具的极简主义」
 - **变更**: 新增 source [[摘要-pi-agent-4工具极简主义]]; 新增 entities [[ArminRonacher]], [[Flask]]; 新增 concepts [[极简工具集]], [[YOLO模式]], [[安全剧场]], [[自扩展]], [[多模型混合会话]], [[会话树]]; 增量更新 [[PiAgent]]（补充与 Armin Ronacher 的 Pi Agent 的区分说明，现已有三方区分）、[[OpenClaw]]（补充 Pi Agent 作为其 Agent 运行时的关系）; 更新 [[index.md]]（1 source + 2 entities + 6 concepts）
 - **冲突**: [[PiAgent]] 已存在且已区分 Mario Zechner 的 Pi，本次新增 Armin Ronacher 的 Pi Agent（pi-mono）为第三个同名项目，已在 PiAgent.md 中补充三方区分说明
