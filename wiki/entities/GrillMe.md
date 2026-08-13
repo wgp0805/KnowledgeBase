@@ -54,8 +54,9 @@ npx skills@latest add mattpocock/skills
 - **grill-me**（轻量压力测试）≠ **superpowers brainstorming**（全流程头脑风暴，生成视觉伴侣/架构图/数据模型等完整产物）
 - 两者可串联：先用 grill-me 快速收敛核心决策，再用 superpowers 展开详细设计
 
-## 知识冲突
-- [[MattPocock]] 页面（2026-07 来源）记载作者已把 `/grill-me` 从默认推荐位移除，转而推荐 `/domain-model` 作为规划起点；2026-08 本文仍将 grill-me 作为编码前需求澄清的首选 skill 进行推荐。两者不矛盾——前者讲作者对自家 skill 编排的调整，后者讲 grill-me 相对 superpowers 的定位差异，但用户在选取规划起点时需注意作者的最新推荐。
+## 知识冲突（已记录-待决策）
+> **状态**：两种说法并存，用户选取规划起点时需注意作者最新推荐。如需统一，可将本文推荐降级为"备选 skill"。
+- [[MattPocock]] 页面（2026-07 来源）记载作者已把 `/grill-me` 从默认推荐位移除，转而推荐 `/domain-model` 作为规划起点；2026-08 本文仍将 grill-me 作为编码前需求澄清的首选 skill 进行推荐。两者不矛盾——前者讲作者对自家 skill 编排的调整，后者讲 grill-me 相对 [[Superpowers]] 的定位差异，但用户在选取规划起点时需注意作者的最新推荐。
 
 ## 关联连接
 - [[摘要-superpowers-grill-me怎么选]] — 来源

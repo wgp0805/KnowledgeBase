@@ -1,3 +1,17 @@
+## [2026-08-13] lint | 执行全部修复
+- **补注册索引**: 6 个
+  - Entities: [[Dubbo]], [[PiAgent]]
+  - Concepts: [[javabean-boolean-is-pitfall]], [[error-feedback-self-healing]], [[trace-turn]]
+  - Syntheses: [[openspec-archive-modify-and-token-tradeoff]]
+- **死链修复**: 9 个
+  - `[[superpowers]]` → `[[Superpowers]]`（32 个文件批量替换）
+  - `摘要-通用万能prompt模板` → `摘要-通用万能Prompt模板`（5 个文件，大小写统一）
+  - `摘要-spring-ai-vs-langchain4j` → `spring-ai-vs-langchain4j`（2 个文件，去前缀）
+  - `[[OpenSpec#xxx]]` → `[[OpenSpec]]`（4 个锚点链接改为主页面链接）
+  - `[[SpecSuperflow#xxx]]` → `[[SpecSuperflow]]`（2 个锚点链接改为主页面链接）
+- **冲突标注**: [[GrillMe]] 知识冲突区块更新为"已记录-待决策"状态，添加状态提示
+- **修复后健康度**: 死链 0，未同步索引 0，孤儿 0，健康度 100%
+
 ## [2026-08-13] lint | 全量健康巡检
 - **结果**: 1015 个文件，1009 个 index 注册条目
   - 未同步索引: 6 个（Dubbo, error-feedback-self-healing, javabean-boolean-is-pitfall, openspec-archive-modify-and-token-tradeoff, PiAgent, trace-turn）
