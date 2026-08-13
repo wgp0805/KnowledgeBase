@@ -653,6 +653,8 @@
 - [[EarthWorm]] — Go 语言多级代理链内网穿透工具，支持正向/反向/SOCKS5 代理
 - [[ArminRonacher]] — Flask/Sphinx/Jinja2 创建者，Pi Agent 极简编码代理设计者
 - [[Flask]] — Python 微框架，5000 行核心代码 + 扩展系统，极简主义代表作
+- [[Dubbo]] — 阿里巴巴开源高性能 Java RPC 框架，依赖 JavaBean 反射序列化
+- [[PiAgent]] — 70K Star 开源 Agent 框架，封装循环管控/上下文工程/工具调用容错等生产级能力
 
 ## Concepts
 - [[HNSW]] — 分层可导航小世界图，向量近似最近邻检索算法，主流向量库默认索引
@@ -979,6 +981,9 @@
 - [[自扩展]] — Agent 缺功能时自己写扩展，不下载别人的，对 LLM 代码生成能力的极致信任
 - [[多模型混合会话]] — 同一会话中不同消息来自不同模型提供商，按任务选模型
 - [[会话树]] — 树结构会话管理，支持分支探索和回退重试
+- [[javabean-boolean-is-pitfall]] — JavaBean 布尔属性 is 命名陷阱：getter 错位导致序列化字段名丢失 is 前缀
+- [[error-feedback-self-healing]] — Agent 工具执行错误回灌自愈机制：不终止循环，由模型自主纠错重试
+- [[trace-turn]] — Agent 运行基本单位：Trace（完整任务链路）与 Turn（单次模型调用轮次）
 
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
@@ -1035,3 +1040,4 @@
 - [[loop-vs-harness]] — Loop Engineering 与 Harness 工程区别：Loop ⊂ Harness，Model+Harness=Agent，流程编排+安全护栏的方法论
 - [[codex-operation-manual]] — Codex 从安装配置到精通的操作手册，涵盖核心能力、工作流、Skill、Java 实战
 - [[java-skills-openspec-integration]] — Java 开发 Skills 与 OpenSpec 配合使用指南：Skills 列表、OpenSpec 工作流、集成方式与应用场景
+- [[openspec-archive-modify-and-token-tradeoff]] — OpenSpec 归档需求修改流程与 Token 成本权衡：Delta Spec 增量变更 vs 全量重写决策指南
