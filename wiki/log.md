@@ -1,3 +1,7 @@
+## [2026-08-13] query | 解析「Loop 与 Hermes 区别」
+- **输出**: 综合回答 + 六维对比图（性质/载体/循环/驱动/技能/护栏），点明 Loop=方法论理念层、Hermes=开源产品实现层，二者是"理念→产品化"关系
+- **引用**: [[LoopEngineering]], [[摘要-loop-engineering-guide]], [[摘要-loop-engineering-pitfalls]], [[HermesAgent]], [[摘要-hermes-agent-complete-guide]], [[hermes-agent-tutorial]], [[ClaudeCode]], [[Codex]], [[NousResearch]]
+
 ## [2026-08-13] query | 解析「当下 Agent 架构都有什么，区别是什么」
 - **输出**: 综合回答 + 全景分层图（基础单元→执行循环→工作流编排→多Agent协作→自主智能体五层），区分 Workflow 直线 vs Agent 圆环两大阵营
 - **引用**: [[augmented-llm]], [[四层架构]], [[ReAct_Agent]], [[react-vs-plan-execute]], [[ToolPipeline]], [[摘要-agent-tools-workflow区别]], [[摘要-agent-engineering]], [[prompt-chaining]], [[routing-workflow]], [[parallelization-workflow]], [[orchestrator-workers]], [[evaluator-optimizer]], [[multi-agent-collaboration]], [[mixture-of-agents]], [[kanban-swarm]], [[autonomous-agent]], [[摘要-生产级Agent设计]]
