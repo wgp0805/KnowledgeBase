@@ -3,7 +3,7 @@ title: "摘要-embabel"
 type: source
 tags: [来源, AI框架, Agent, Java]
 sources:
-  - raw/01-articles/2026-08-01-Spring之父再次出山，开发了新的AI框架！ - 苏三说技术.md
+  - raw/09-archive/2026-08-01-Spring之父再次出山，开发了新的AI框架！ - 苏三说技术.md
 last_updated: 2026-08-03
 ---
 

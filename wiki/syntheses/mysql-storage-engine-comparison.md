@@ -3,7 +3,7 @@ title: "mysql-storage-engine-comparison"
 type: synthesis
 tags: [MySQL, 存储引擎, InnoDB, MyISAM, 数据库架构]
 sources:
-  - raw/02-papers/第05章_存储引擎.pdf
+  - raw/09-archive/第05章_存储引擎.pdf
 last_updated: 2026-05-22
 ---
 

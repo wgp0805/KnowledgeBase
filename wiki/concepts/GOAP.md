@@ -3,7 +3,7 @@ title: "GOAP"
 type: concept
 tags: [概念, 规划算法, Agent, 确定性]
 sources:
-  - raw/01-articles/2026-08-01-Spring之父再次出山，开发了新的AI框架！ - 苏三说技术.md
+  - raw/09-archive/2026-08-01-Spring之父再次出山，开发了新的AI框架！ - 苏三说技术.md
 last_updated: 2026-08-03
 ---
 

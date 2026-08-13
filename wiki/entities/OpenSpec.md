@@ -4,7 +4,7 @@ type: entity
 tags: [AI编程, 规范驱动, 开源工具]
 sources:
   - raw/01-articles/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md
-  - raw/01-articles/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
+  - raw/09-archive/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
 last_updated: 2026-07-09
 ---
 

@@ -3,7 +3,7 @@ title: "摘要-okf"
 type: source
 tags: [来源, OKF, 知识标准, 知识库]
 sources:
-  - raw/01-articles/2026-08-02-AI 时代的“HTML 时刻”：一个被严重低估的知识标准 OKF - 贾克斯的平行世界.md
+  - raw/09-archive/2026-08-02-AI 时代的“HTML 时刻”：一个被严重低估的知识标准 OKF - 贾克斯的平行世界.md
 last_updated: 2026-08-03
 ---
 

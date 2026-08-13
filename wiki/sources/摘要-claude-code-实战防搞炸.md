@@ -3,7 +3,7 @@ title: "摘要-claude-code-实战防搞炸"
 type: source
 tags: [来源, Claude Code, 实战, 权限, CLAUDE.md]
 sources:
-  - raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md
+  - raw/09-archive/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md
 last_updated: 2026-07-09
 ---
 

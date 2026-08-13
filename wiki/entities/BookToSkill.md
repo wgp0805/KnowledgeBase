@@ -3,7 +3,7 @@ title: "BookToSkill"
 type: entity
 tags: [开源项目, Skill, 知识库, 工具]
 sources:
-  - raw/01-articles/12.7K Star，这个开源项目把整本书炼成 Skill.md
+  - raw/09-archive/12.7K Star，这个开源项目把整本书炼成 Skill.md
 last_updated: 2026-08-03
 ---
 

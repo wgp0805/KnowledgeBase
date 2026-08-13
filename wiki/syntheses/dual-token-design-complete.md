@@ -3,9 +3,9 @@ title: "双 Token 设计完整案例"
 type: synthesis
 tags: [认证, JWT, Token, 安全, 架构设计]
 sources:
-  - raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md
-  - raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md
-  - raw/01-articles/SpringSecurity.md
+  - raw/09-archive/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md
+  - raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md
+  - raw/09-archive/SpringSecurity.md
 last_updated: 2026-06-11
 ---
 

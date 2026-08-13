@@ -3,7 +3,7 @@ title: "ProcessFlowDiagramGenerator"
 type: entity
 tags: [AI画图, Skill, 流程图, 开源, HTML]
 sources:
-  - raw/01-articles/推荐一个神级画图Skill.md
+  - raw/09-archive/推荐一个神级画图Skill.md
 last_updated: 2026-07-20
 ---
 

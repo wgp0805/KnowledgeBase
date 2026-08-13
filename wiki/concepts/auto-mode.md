@@ -3,7 +3,7 @@ title: "auto-mode"
 type: concept
 tags: [AI编程, 权限, Claude Code, 安全]
 sources:
-  - raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md
+  - raw/09-archive/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md
 last_updated: 2026-07-09
 ---
 

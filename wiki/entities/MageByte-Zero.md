@@ -3,7 +3,7 @@ title: "MageByte-Zero"
 type: entity
 tags: [人物, 开源, AI编程]
 sources:
-  - raw/01-articles/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
+  - raw/09-archive/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
 last_updated: 2026-07-09
 ---
 

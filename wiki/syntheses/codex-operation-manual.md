@@ -3,14 +3,14 @@ title: "Codex 操作手册"
 type: synthesis
 tags: [Codex, AI编程, 工作流, 操作手册]
 sources:
-  - raw/01-articles/Codex 保姆级入门教程（6000字长文）.md
+  - raw/09-archive/Codex 保姆级入门教程（6000字长文）.md
   - raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md
   - raw/01-articles/再见吧 Codex 你到底还是输了！.md
-  - raw/01-articles/AI agent工具应该怎么使用.md
-  - raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md
-  - raw/01-articles/如何把Codex用到极致.md
-  - raw/01-articles/分享8个codex必装的skill，让你的AI能力起飞！.md
-  - raw/01-articles/Codex 从原理到 Java落地.md
+  - raw/09-archive/AI agent工具应该怎么使用.md
+  - raw/09-archive/3 分钟掌握 Codex 97% 的功能，超实用教程！.md
+  - raw/09-archive/如何把Codex用到极致.md
+  - raw/09-archive/分享8个codex必装的skill，让你的AI能力起飞！.md
+  - raw/09-archive/Codex 从原理到 Java落地.md
 last_updated: 2026-08-06
 ---
 

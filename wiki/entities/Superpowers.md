@@ -3,10 +3,10 @@ title: "Superpowers"
 type: entity
 tags: [AI编程, Skill框架, 工程纪律, 开源]
 sources:
-  - raw/01-articles/全网爆火的Superpowers到底是什么.md
-  - raw/01-articles/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md
-  - raw/01-articles/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
-  - raw/01-articles/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md
+  - raw/09-archive/全网爆火的Superpowers到底是什么.md
+  - raw/09-archive/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md
+  - raw/09-archive/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
+  - raw/09-archive/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md
 last_updated: 2026-08-05
 ---
 

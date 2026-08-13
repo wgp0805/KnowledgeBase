@@ -3,8 +3,8 @@ title: "jvm-tuning"
 type: concept
 tags: [JVM, 性能优化]
 sources:
-  - raw/01-articles/jvm参数解释.md
-  - raw/02-papers/java性能调优实战.pdf
+  - raw/09-archive/jvm参数解释.md
+  - raw/09-archive/java性能调优实战.pdf
 last_updated: 2026-05-22
 ---
 

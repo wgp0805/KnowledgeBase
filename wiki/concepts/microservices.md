@@ -3,9 +3,9 @@ title: "microservices"
 type: concept
 tags: [架构, 微服务]
 sources:
-  - raw/01-articles/pmhub微服务学习.md
-  - raw/02-papers/微服务治理技术白皮书.pdf
-  - raw/02-papers/Spring Cloud Alibaba笔记.pdf
+  - raw/09-archive/pmhub微服务学习.md
+  - raw/09-archive/微服务治理技术白皮书.pdf
+  - raw/09-archive/Spring Cloud Alibaba笔记.pdf
 last_updated: 2026-05-22
 ---
 

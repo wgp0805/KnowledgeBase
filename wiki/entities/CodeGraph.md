@@ -3,8 +3,8 @@ title: "CodeGraph"
 type: entity
 tags: [工具, 代码分析, MCP, 语义搜索]
 sources:
-  - raw/01-articles/2026-07-16-企业级落地方案：Docker 部署 CodeGraph 多项目统一 MCP 网关，附源码 - AI-Frontiers.md
-  - raw/01-articles/CodeGraph为什么突然这么火？.md
+  - raw/09-archive/2026-07-16-企业级落地方案：Docker 部署 CodeGraph 多项目统一 MCP 网关，附源码 - AI-Frontiers.md
+  - raw/09-archive/CodeGraph为什么突然这么火？.md
 last_updated: 2026-07-20
 ---
 

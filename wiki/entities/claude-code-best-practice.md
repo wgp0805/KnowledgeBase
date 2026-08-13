@@ -3,8 +3,8 @@ title: "claude-code-best-practice"
 type: entity
 tags: [GitHub, ClaudeCode, 最佳实践, 开源仓库]
 sources:
-  - "raw/01-articles/夯爆了！Claude Code 最佳实践开源了， 狂斩 57k+ Star，核心玩法、工作流、Agent 等一网打尽！！.md"
-  - "raw/01-articles/开源了！Claude Code 最佳实践 60 天斩获 54k Star，前后端开发直接起飞了！.md"
+  - raw/09-archive/夯爆了！Claude Code 最佳实践开源了， 狂斩 57k+ Star，核心玩法、工作流、Agent 等一网打尽！！.md
+  - raw/09-archive/开源了！Claude Code 最佳实践 60 天斩获 54k Star，前后端开发直接起飞了！.md
 last_updated: 2026-06-26
 ---
 

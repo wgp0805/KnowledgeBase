@@ -3,7 +3,7 @@ title: "摘要-spring-ai-2-vs-alibaba选型"
 type: source
 tags: [来源, Spring AI, 框架对比, 选型]
 sources:
-  - raw/01-articles/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md
+  - raw/09-archive/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md
 last_updated: 2026-07-09
 ---
 

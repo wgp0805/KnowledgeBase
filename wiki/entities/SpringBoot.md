@@ -3,21 +3,21 @@ title: "SpringBoot"
 type: entity
 tags: [框架, Java, Spring]
 sources:
-  - raw/01-articles/springboot整合mybatisPlus.md
-  - raw/01-articles/springboot整合redis.md
-  - raw/01-articles/springboot整合RocketMq.md
-  - raw/01-articles/SpringBoot-Aop的使用.md
-  - raw/01-articles/SpringBoot接收参数的几种常用方式.md
-  - raw/01-articles/SpringBoot优雅的加载配置文件的几种方式.md
-  - raw/01-articles/SpringBoot整合SpringSecurity及框架的简单使用.md
-  - raw/01-articles/理解Spring中的ApplicationListener与ApplicationRunner区别及使用场景.md
-  - raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md
-  - raw/02-papers/springboot3.pdf
-  - raw/02-papers/Spring Cloud Alibaba笔记.pdf
-  - raw/01-articles/得物二面：SpringBoot 内部的启动流程是怎样的？我：没研究过.md
-  - raw/01-articles/Spring Boot 4.1.0 震撼发布！新特性，惊爆了！.md
-  - raw/01-articles/SpringBoot4 新特性：模块化架构.md
-  - raw/01-articles/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md
+  - raw/09-archive/springboot整合mybatisPlus.md
+  - raw/09-archive/springboot整合redis.md
+  - raw/09-archive/springboot整合RocketMq.md
+  - raw/09-archive/SpringBoot-Aop的使用.md
+  - raw/09-archive/SpringBoot接收参数的几种常用方式.md
+  - raw/09-archive/SpringBoot优雅的加载配置文件的几种方式.md
+  - raw/09-archive/SpringBoot整合SpringSecurity及框架的简单使用.md
+  - raw/09-archive/理解Spring中的ApplicationListener与ApplicationRunner区别及使用场景.md
+  - raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md
+  - raw/09-archive/springboot3.pdf
+  - raw/09-archive/Spring Cloud Alibaba笔记.pdf
+  - raw/09-archive/得物二面：SpringBoot 内部的启动流程是怎样的？我：没研究过.md
+  - raw/09-archive/Spring Boot 4.1.0 震撼发布！新特性，惊爆了！.md
+  - raw/09-archive/SpringBoot4 新特性：模块化架构.md
+  - raw/09-archive/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md
 last_updated: 2026-08-12
 ---
 

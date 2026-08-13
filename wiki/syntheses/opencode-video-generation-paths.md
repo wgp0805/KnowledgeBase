@@ -3,9 +3,9 @@ title: "opencode-生成视频的三种途径"
 type: synthesis
 tags: [OpenCode, 视频生成, Skill, MCP, Remotion, AI编程]
 sources:
-  - raw/01-articles/分享8个codex必装的skill，让你的AI能力起飞！.md
+  - raw/09-archive/分享8个codex必装的skill，让你的AI能力起飞！.md
   - raw/09-archive/Codex 从基础到进阶的10条实用技巧.md
-  - raw/01-articles/最强AI设计智能体Lovart，保姆级入门教程（4000字长文）.md
+  - raw/09-archive/最强AI设计智能体Lovart，保姆级入门教程（4000字长文）.md
 last_updated: 2026-08-03
 ---
 

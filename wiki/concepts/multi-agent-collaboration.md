@@ -4,8 +4,8 @@ type: concept
 tags: [AI, Agent, 协作模式, 全栈开发, 角色隔离, 代码评审]
 sources:
   - raw/01-articles/Java开发栈Skills全面指南.md
-  - raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md
-  - raw/01-articles/multi-agent-collaboration.md
+  - raw/09-archive/LangChain4j 和 LangGraph4j，哪个更好？.md
+  - raw/09-archive/multi-agent-collaboration.md
 last_updated: 2026-08-06
 ---
 

@@ -3,10 +3,10 @@ title: "摘要-book-to-skill"
 type: source
 tags: [来源, Skill, 知识库]
 sources:
-  - raw/01-articles/12.7K Star，这个开源项目把整本书炼成 Skill.md
-  - raw/01-articles/就一个skill，凭啥6wstar？.md
-  - raw/01-articles/为什么越来越多人用MapStruct.md
-  - raw/01-articles/面试官：SpringBoot 在打包部署的时候打包成 jar 和 war 有什么不同.md
+  - raw/09-archive/12.7K Star，这个开源项目把整本书炼成 Skill.md
+  - raw/09-archive/就一个skill，凭啥6wstar？.md
+  - raw/09-archive/为什么越来越多人用MapStruct.md
+  - raw/09-archive/面试官：SpringBoot 在打包部署的时候打包成 jar 和 war 有什么不同.md
 last_updated: 2026-08-03
 ---
 

@@ -3,8 +3,8 @@ title: "frontend-backend-separation"
 type: concept
 tags: [架构, 前后端分离, Web开发]
 sources:
-  - raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md
-  - raw/02-papers/前端工程化_4小时速通（语雀同款）.pdf
+  - raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md
+  - raw/09-archive/前端工程化_4小时速通（语雀同款）.pdf
 last_updated: 2026-05-22
 ---
 

@@ -3,10 +3,10 @@ title: "spring-security-jwt-redis-best-practice"
 type: synthesis
 tags: [SpringSecurity, JWT, Redis, 认证, 最佳实践]
 sources:
-  - raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md
-  - raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md
-  - raw/01-articles/SpringSecurity.md
-  - raw/01-articles/SpringBoot整合SpringSecurity及框架的简单使用.md
+  - raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md
+  - raw/09-archive/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md
+  - raw/09-archive/SpringSecurity.md
+  - raw/09-archive/SpringBoot整合SpringSecurity及框架的简单使用.md
 last_updated: 2026-06-08
 ---
 

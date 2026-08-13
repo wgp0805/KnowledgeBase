@@ -3,7 +3,7 @@ title: "Harness"
 type: concept
 tags: [概念, Agent, 架构, 框架]
 sources:
-  - raw/01-articles/DeepSeek员工：Harness开始内测，有plugin、skill、MCP、Agent开源项目者优先，并赠送API额度（附Agent面试题）.md
+  - raw/09-archive/DeepSeek员工：Harness开始内测，有plugin、skill、MCP、Agent开源项目者优先，并赠送API额度（附Agent面试题）.md
 last_updated: 2026-08-06
 ---
 

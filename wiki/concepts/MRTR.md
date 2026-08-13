@@ -3,7 +3,7 @@ title: "MRTR"
 type: concept
 tags: [概念, MCP, 协议, 异步]
 sources:
-  - raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md
+  - raw/09-archive/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md
 last_updated: 2026-08-03
 ---
 

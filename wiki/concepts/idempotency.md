@@ -3,8 +3,8 @@ title: "idempotency"
 type: concept
 tags: [并发, 安全, 分布式]
 sources:
-  - raw/01-articles/高并发下如何防止重复下单？.md
-  - raw/01-articles/百度面试官：RabbitMQ 如何防止重复消费？5种解决方案，你知道几个？.md
+  - raw/09-archive/高并发下如何防止重复下单？.md
+  - raw/09-archive/百度面试官：RabbitMQ 如何防止重复消费？5种解决方案，你知道几个？.md
 last_updated: 2026-05-25
 ---
 

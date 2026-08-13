@@ -3,7 +3,7 @@ title: "DiscoveryLoopTax"
 type: concept
 tags: [概念, Token, Skill, 上下文]
 sources:
-  - raw/01-articles/12.7K Star，这个开源项目把整本书炼成 Skill.md
+  - raw/09-archive/12.7K Star，这个开源项目把整本书炼成 Skill.md
 last_updated: 2026-08-03
 ---
 

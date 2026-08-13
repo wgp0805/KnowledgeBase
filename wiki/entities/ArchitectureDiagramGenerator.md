@@ -3,8 +3,8 @@ title: "ArchitectureDiagramGenerator"
 type: entity
 tags: [AI画图, Skill, 架构图, 开源, HTML]
 sources:
-  - raw/01-articles/又一个神级画图 Skill 开源，再见 draw.io！.md
-  - raw/01-articles/推荐一个神级画图Skill.md
+  - raw/09-archive/又一个神级画图 Skill 开源，再见 draw.io！.md
+  - raw/09-archive/推荐一个神级画图Skill.md
 last_updated: 2026-07-20
 ---
 

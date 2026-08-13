@@ -3,7 +3,7 @@ title: "摘要-spring-ai-2-对话记忆实战"
 type: source
 tags: [来源, Spring AI, 实战教程, 对话记忆]
 sources:
-  - raw/01-articles/Spring AI 2.0真香！.md
+  - raw/09-archive/Spring AI 2.0真香！.md
 last_updated: 2026-07-09
 ---
 

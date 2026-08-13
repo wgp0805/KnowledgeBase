@@ -3,9 +3,9 @@ title: "Elasticsearch"
 type: entity
 tags: [搜索引擎, 全文检索, 分布式, 大数据]
 sources:
-  - raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md
-  - raw/01-articles/Elasticsearch 8.10安装（新人必看）.md
-  - raw/01-articles/Elasticsearch 全景指南：从入门到原理深度解析.md
+  - raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md
+  - raw/09-archive/Elasticsearch 8.10安装（新人必看）.md
+  - raw/09-archive/Elasticsearch 全景指南：从入门到原理深度解析.md
 last_updated: 2026-06-08
 ---
 
