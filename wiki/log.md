@@ -2,7 +2,7 @@
 - **结果**: 1015 个文件，1009 个 index 注册条目
   - 未同步索引: 6 个（Dubbo, error-feedback-self-healing, javabean-boolean-is-pitfall, openspec-archive-modify-and-token-tradeoff, PiAgent, trace-turn）
   - 死链（index→文件）: 0 个
-  - 文件内死链: 9 个（摘要-通用万能prompt模板, 摘要-spring-ai-vs-langchain4j, OpenSpec#安装与初始化, OpenSpec#工件依赖图, OpenSpec#核心工作流, OpenSpec#Delta Spec 增量变更, SpecSuperflow#八状态机, SpecSuperflow#适用边界, superpowers）
+  - 文件内死链: 9 个（摘要-通用万能Prompt模板, spring-ai-vs-langchain4j, OpenSpec#安装与初始化, OpenSpec#工件依赖图, OpenSpec#核心工作流, OpenSpec#Delta Spec 增量变更, SpecSuperflow#八状态机, SpecSuperflow#适用边界, superpowers）
   - 孤儿页面: 0 个
   - 知识冲突: 2 个（[[DeepSeekHarness]] 已解决, [[GrillMe]] 未解决-需用户决策）
 - **健康度**: 1015/1015 页面有引用（0 孤岛），死链率 9/1015 ≈ 0.9%
@@ -114,7 +114,7 @@
 - **冲突**: 无
 
 ## [2026-08-05] ingest | 摄入「面试官皱眉：superpowers 和 grill-me 怎么选」苏三文章
-- **变更**: 新增 source [[摘要-superpowers-grill-me怎么选]]; 新增 entity [[GrillMe]]（编码前需求澄清 skill，追问设计分支至共识）; 增量更新 [[superpowers]]（补充"与 grill-me 的配合"章节、组合工作流、关联连接）、[[MattPocock]]（补充新来源与 GrillMe 关联）、[[苏三]]（补充新来源与提炼实体）; 更新 [[index.md]]（1 source + 1 entity）
+- **变更**: 新增 source [[摘要-superpowers-grill-me怎么选]]; 新增 entity [[GrillMe]]（编码前需求澄清 skill，追问设计分支至共识）; 增量更新 [[Superpowers]]（补充"与 grill-me 的配合"章节、组合工作流、关联连接）、[[MattPocock]]（补充新来源与 GrillMe 关联）、[[苏三]]（补充新来源与提炼实体）; 更新 [[index.md]]（1 source + 1 entity）
 - **冲突**: [[GrillMe]] 与 [[MattPocock]] 记载的"作者已撤下 /grill-me 从默认推荐位"表述并存——前者讲作者对自家 skill 编排的调整，后者讲 grill-me 相对 superpowers 的定位差异，已在 [[GrillMe#知识冲突]] 区块标注，非覆盖性冲突
 - **归档**: raw/01-articles/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md → raw/09-archive/
 
@@ -895,7 +895,7 @@
 - **归档**: raw/01-articles/Spring Cloud Stream 整合 RocketMQ 完全指南.md → raw/09-archive/；raw/_daily_digest.md → raw/09-archive/_daily_digest_2026-07-21.md
 
 ## [2026-07-09] lint | 修复 7 个问题（4 死链 + 3 孤儿）
-- **变更**: 修复死链 4 个--[[Obsidian]] 去除示例文本 [[wikilink]] 双链模式；[[SpringAI_Alibaba]] 与 [[摘要-spring-ai-2-vs-alibaba选型]] 的 [[摘要-spring-ai-vs-langchain4j]] 前缀笔误纠正为 [[spring-ai-vs-langchain4j]]；[[idea-ai-assistant-guide]] 的 [[ACP]] 改为普通文本。修复孤儿 3 个--[[Transformer]] 补 [[Tesla]]（inline 双链）与 [[FigureAI]]（关联连接）；[[Junie]] 补 [[idea-ai-assistant-guide]] 引用。[[摘要-追番]] 作为个人记录保留原样。
+- **变更**: 修复死链 4 个--[[Obsidian]] 去除示例文本 [[wikilink]] 双链模式；[[SpringAI_Alibaba]] 与 [[摘要-spring-ai-2-vs-alibaba选型]] 的 [[spring-ai-vs-langchain4j]] 前缀笔误纠正为 [[spring-ai-vs-langchain4j]]；[[idea-ai-assistant-guide]] 的 [[ACP]] 改为普通文本。修复孤儿 3 个--[[Transformer]] 补 [[Tesla]]（inline 双链）与 [[FigureAI]]（关联连接）；[[Junie]] 补 [[idea-ai-assistant-guide]] 引用。[[摘要-追番]] 作为个人记录保留原样。
 - **冲突**: 无
 
 ## [2026-07-13] ingest | 批量摄入 7 篇 raw/01-articles 技术资料

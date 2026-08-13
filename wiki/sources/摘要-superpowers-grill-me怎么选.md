@@ -44,7 +44,7 @@ grill-me（想清楚）→ superpowers brainstorming（补充细节）→ writin
 
 ## 关联连接
 - [[GrillMe]] — 编码前的需求澄清 skill
-- [[superpowers]] — 编码中的全流程方法论
+- [[Superpowers]] — 编码中的全流程方法论
 - [[MattPocock]] — grill-me 作者，mattpocock/skills 创建者
 - [[ClaudeCode]] — grill-me 的载体平台
 - [[AICoding]] — AI 编码范式

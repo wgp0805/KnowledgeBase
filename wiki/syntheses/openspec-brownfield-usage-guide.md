@@ -30,7 +30,7 @@ openspec-cn init --tools opencode      # 或 claude-code / cursor / codex
 openspec-cn view
 ```
 
-初始化后项目根目录会出现 `opsx/` 工作区，这是 OpenSpec 的所有规划文档存放地。[[OpenSpec#安装与初始化]]
+初始化后项目根目录会出现 `opsx/` 工作区，这是 OpenSpec 的所有规划文档存放地。[[OpenSpec]]
 
 ## 二、棕地项目首次补录（关键步骤）
 
@@ -81,7 +81,7 @@ opsx/
 - 无
 ```
 
-核心原则：**不动已有 spec，只描述差异**。通过 `/opsx:sync` 将 delta 合并回主 spec。[[OpenSpec#Delta Spec 增量变更]]
+核心原则：**不动已有 spec，只描述差异**。通过 `/opsx:sync` 将 delta 合并回主 spec。[[OpenSpec]]
 
 ## 三、日常开发完整工作流（每次新功能）
 
@@ -117,7 +117,7 @@ AI 自动生成四份文档，放在 `opsx/changes/export-order-excel/` 下：
 | `design.md` | 技术方案（用什么库、改哪些类、数据流） | - |
 | `tasks.md` | 可执行步骤清单 | - |
 
-**工件依赖链**：proposal（意图）-> specs（需求）-> design（方案）-> tasks（步骤）-> implement。靠 YAML 引擎做拓扑排序，依赖关系是"使能"而非"卡死"--随时可回去改前面的工件。[[OpenSpec#工件依赖图]]
+**工件依赖链**：proposal（意图）-> specs（需求）-> design（方案）-> tasks（步骤）-> implement。靠 YAML 引擎做拓扑排序，依赖关系是"使能"而非"卡死"--随时可回去改前面的工件。[[OpenSpec]]
 
 ### 步骤 3：人工确认
 
@@ -156,7 +156,7 @@ AI 按 `tasks.md` 逐项实现：
 | **L2 归档层** | `opsx/archive/` 变更历史 | 所有历史决策的"为什么"，AI 按需检索 |
 | **L3 增量层** | [[delta-spec]] `/opsx:sync` | 只描述差异，不重写整份 spec，防止文档腐烂 |
 
-将来 AI 新会话问你"订单模块为什么用状态机而不是枚举"--你让它读 `opsx/archive/redesign-order-status/` 下的 proposal.md 和 design.md 即可。[[OpenSpec#核心工作流]]
+将来 AI 新会话问你"订单模块为什么用状态机而不是枚举"--你让它读 `opsx/archive/redesign-order-status/` 下的 proposal.md 和 design.md 即可。[[OpenSpec]]
 
 ## 五、项目目录最终结构
 
@@ -197,9 +197,9 @@ your-existing-project/
 /plugin install spec-superflow@spec-superflow
 ```
 
-它的完整流程是八状态机：`workflow-start -> need-explorer -> spec-writer -> contract-builder -> DP-3（人工审批）-> build-executor（TDD+SDD）-> release-archivist -> spec-merger`。核心创新是 `contract-builder` 把四份规划工件自动压缩成一份 execution-contract.md，没有契约或没被批准就不准进入实现。[[SpecSuperflow#八状态机]]
+它的完整流程是八状态机：`workflow-start -> need-explorer -> spec-writer -> contract-builder -> DP-3（人工审批）-> build-executor（TDD+SDD）-> release-archivist -> spec-merger`。核心创新是 `contract-builder` 把四份规划工件自动压缩成一份 execution-contract.md，没有契约或没被批准就不准进入实现。[[SpecSuperflow]]
 
-**但注意**：SpecSuperflow 适合"大型功能开发、多人协作、长期维护"的棕地项目。如果是快速原型或一次性脚本，太重了。经验法则--不需要写 proposal 和 design doc 就能想清楚的事，不要用。[[SpecSuperflow#适用边界]]
+**但注意**：SpecSuperflow 适合"大型功能开发、多人协作、长期维护"的棕地项目。如果是快速原型或一次性脚本，太重了。经验法则--不需要写 proposal 和 design doc 就能想清楚的事，不要用。[[SpecSuperflow]]
 
 ## 七、选型建议
 

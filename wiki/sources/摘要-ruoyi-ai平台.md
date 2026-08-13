@@ -26,4 +26,4 @@ last_updated: 2026-08-13
 - [[Skill]] — Agent Skills 机制
 - [[渐进式披露]] — Skills 按需加载原则
 - [[PaiCLI]] — 文中提及的 Agent 项目
-- [[摘要-spring-ai-vs-langchain4j]] — 框架选型对比
+- [[spring-ai-vs-langchain4j]] — 框架选型对比

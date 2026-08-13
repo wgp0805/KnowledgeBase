@@ -60,7 +60,7 @@ npx skills@latest add mattpocock/skills
 ## 关联连接
 - [[摘要-superpowers-grill-me怎么选]] — 来源
 - [[MattPocock]] — 作者
-- [[superpowers]] — 编码中的互补工具
+- [[Superpowers]] — 编码中的互补工具
 - [[ClaudeCode]] — 常用载体平台
 - [[AICoding]] — AI 编码范式
 - [[brainstorming]] — superpowers 中的同类但更重量的 skill
