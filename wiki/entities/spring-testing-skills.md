@@ -2,7 +2,7 @@
 title: "spring-testing-skills"
 type: entity
 tags: [AI Skill, 自动化测试, Spring Boot, 测试用例]
-sources: [raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md]
+sources: [raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md]
 last_updated: 2026-05-22
 ---
 

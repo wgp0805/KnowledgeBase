@@ -2,7 +2,7 @@
 title: "transaction-management"
 type: concept
 tags: [Spring, 数据库]
-sources: [raw/01-articles/spring框架中的事务管理.md, raw/01-articles/深度解析：Spring 事务与 MyBatis-Plus SqlSession 复用机制.md]
+sources: [raw/09-archive/spring框架中的事务管理.md, raw/01-articles/深度解析：Spring 事务与 MyBatis-Plus SqlSession 复用机制.md]
 last_updated: 2026-06-10
 ---
 

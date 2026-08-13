@@ -2,7 +2,7 @@
 title: "摘要-ECC-OpenCode-使用指南"
 type: source
 tags: [ECC, OpenCode, ClaudeCode, Cursor, Codex, Gemini, AI编码]
-sources: [raw/01-articles/ECC-OpenCode-使用指南.md]
+sources: [raw/09-archive/ECC-OpenCode-使用指南.md]
 last_updated: 2026-06-26
 ---
 

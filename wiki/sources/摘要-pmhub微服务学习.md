@@ -2,7 +2,7 @@
 title: "摘要-pmhub微服务学习"
 type: source
 tags: [来源, 微服务]
-sources: [raw/01-articles/pmhub微服务学习.md]
+sources: [raw/09-archive/pmhub微服务学习.md]
 last_updated: 2026-05-19
 ---
 

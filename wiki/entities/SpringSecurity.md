@@ -2,7 +2,7 @@
 title: "SpringSecurity"
 type: entity
 tags: [安全框架, Spring]
-sources: [raw/01-articles/SpringBoot整合SpringSecurity及框架的简单使用.md, raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md, raw/01-articles/SpringSecurity.md]
+sources: [raw/09-archive/SpringBoot整合SpringSecurity及框架的简单使用.md, raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md, raw/09-archive/SpringSecurity.md]
 last_updated: 2026-05-20
 ---
 

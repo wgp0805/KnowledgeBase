@@ -2,7 +2,7 @@
 title: "摘要-springboot3"
 type: source
 tags: [来源, 原始文件, Spring Boot 3]
-sources: [raw/02-papers/springboot3.pdf]
+sources: [raw/09-archive/springboot3.pdf]
 last_updated: 2026-05-22
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-liunx链接Ftp和Sftp"
 type: source
 tags: [来源, Linux, FTP]
-sources: [raw/01-articles/liunx链接Ftp和Sftp.md]
+sources: [raw/09-archive/liunx链接Ftp和Sftp.md]
 last_updated: 2026-05-19
 ---
 

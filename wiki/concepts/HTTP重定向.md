@@ -2,7 +2,7 @@
 title: "HTTP重定向"
 type: concept
 tags: [概念, HTTP, 重定向, 状态码]
-sources: [raw/01-articles/面试经典：如何设计高并发短链接系统.md]
+sources: [raw/09-archive/面试经典：如何设计高并发短链接系统.md]
 last_updated: 2026-08-05
 ---
 

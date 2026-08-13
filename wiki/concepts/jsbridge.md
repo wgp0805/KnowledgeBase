@@ -2,7 +2,7 @@
 title: "jsbridge"
 type: concept
 tags: [架构模式, H5, 原生通信]
-sources: [raw/01-articles/程序汪4万20天接的肉鸽类小游戏，二期项目.md]
+sources: [raw/09-archive/程序汪4万20天接的肉鸽类小游戏，二期项目.md]
 last_updated: 2026-07-24
 ---
 

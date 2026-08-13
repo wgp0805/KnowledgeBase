@@ -2,7 +2,7 @@
 title: "摘要-java-performance-tuning"
 type: source
 tags: [来源, 原始文件, Java, 性能调优]
-sources: [raw/02-papers/java性能调优实战.pdf]
+sources: [raw/09-archive/java性能调优实战.pdf]
 last_updated: 2026-05-22
 ---
 

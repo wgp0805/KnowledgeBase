@@ -2,7 +2,7 @@
 title: "MiniMax"
 type: entity
 tags: [AI, 模型, 公司, 多模态]
-sources: [raw/01-articles/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/测评国内多模态大模型，到底哪个更省事？.md]
+sources: [raw/09-archive/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/09-archive/测评国内多模态大模型，到底哪个更省事？.md]
 last_updated: 2026-07-02
 ---
 

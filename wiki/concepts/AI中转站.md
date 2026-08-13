@@ -2,7 +2,7 @@
 title: "AI中转站"
 type: concept
 tags: [概念, AI服务, API网关]
-sources: [raw/01-articles/第一批做AI中转站的人，已经。。。.md]
+sources: [raw/09-archive/第一批做AI中转站的人，已经。。。.md]
 last_updated: 2026-06-23
 ---
 

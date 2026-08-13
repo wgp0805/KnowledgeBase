@@ -2,7 +2,7 @@
 title: "摘要-docker安装及使用-windows环境"
 type: source
 tags: [来源, Docker]
-sources: [raw/01-articles/docker安装及使用-windows环境.md]
+sources: [raw/09-archive/docker安装及使用-windows环境.md]
 last_updated: 2026-05-19
 ---
 

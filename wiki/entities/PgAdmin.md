@@ -2,7 +2,7 @@
 title: "PgAdmin"
 type: entity
 tags: [工具, 数据库管理, PostgreSQL]
-sources: [raw/01-articles/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
+sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
 last_updated: 2026-05-28
 ---
 

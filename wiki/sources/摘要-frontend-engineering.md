@@ -2,7 +2,7 @@
 title: "摘要-frontend-engineering"
 type: source
 tags: [来源, 原始文件, 前端工程化]
-sources: [raw/02-papers/前端工程化_4小时速通（语雀同款）.pdf]
+sources: [raw/09-archive/前端工程化_4小时速通（语雀同款）.pdf]
 last_updated: 2026-05-22
 ---
 

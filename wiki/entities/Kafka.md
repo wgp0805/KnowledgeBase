@@ -2,7 +2,7 @@
 title: "Kafka"
 type: entity
 tags: [消息队列, 分布式系统, 流处理]
-sources: [raw/01-articles/字节二面：如何设计一个百亿级消息队列？.md, raw/01-articles/4 种消息队列，如何选型？.md]
+sources: [raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md, raw/01-articles/4 种消息队列，如何选型？.md]
 last_updated: 2026-07-07
 ---
 

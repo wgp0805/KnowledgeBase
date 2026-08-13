@@ -2,7 +2,7 @@
 title: "Java"
 type: entity
 tags: [编程语言, JVM]
-sources: [raw/01-articles/CompletableFuture的使用.md, raw/01-articles/java8新特性详解.md, raw/01-articles/Java接口中的Default方法及其意义.md, raw/01-articles/java时间的比较.md, raw/01-articles/lambda表达式简单解析.md, raw/01-articles/jvm参数解释.md, raw/01-articles/Steam的简单操作.md, raw/01-articles/MessageDigest简介及应用.md, raw/01-articles/图文详解Java泛型，写得太好了！.md, raw/01-articles/2026-06-29-14、Reader的源码、FilterReader源码、PushbackReader源码（windows操作系统，JDK8） - Carey_ccl.md]
+sources: [raw/09-archive/CompletableFuture的使用.md, raw/09-archive/java8新特性详解.md, raw/09-archive/Java接口中的Default方法及其意义.md, raw/09-archive/java时间的比较.md, raw/09-archive/lambda表达式简单解析.md, raw/09-archive/jvm参数解释.md, raw/09-archive/Steam的简单操作.md, raw/09-archive/MessageDigest简介及应用.md, raw/09-archive/图文详解Java泛型，写得太好了！.md, raw/01-articles/2026-06-29-14、Reader的源码、FilterReader源码、PushbackReader源码（windows操作系统，JDK8） - Carey_ccl.md]
 last_updated: 2026-06-30
 ---
 

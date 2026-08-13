@@ -2,7 +2,7 @@
 title: "JSONB"
 type: concept
 tags: [数据库, JSON, 数据类型]
-sources: [raw/01-articles/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
+sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
 last_updated: 2026-05-28
 ---
 

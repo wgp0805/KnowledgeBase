@@ -2,7 +2,7 @@
 title: "摘要-alibaba-product-manual"
 type: source
 tags: [来源, 原始文件, 阿里巴巴, 产品手册]
-sources: [raw/02-papers/阿里巴巴产品手册.pdf]
+sources: [raw/09-archive/阿里巴巴产品手册.pdf]
 last_updated: 2026-05-22
 ---
 

@@ -2,7 +2,7 @@
 title: "Docker"
 type: entity
 tags: [容器, DevOps]
-sources: [raw/01-articles/Docker-window环境下部署RocketMq.md, raw/01-articles/docker安装及使用-windows环境.md, raw/01-articles/docker部署nacos.md, raw/01-articles/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/01-articles/使用Docker在Windows上部署独立MySQL.md, raw/01-articles/使用n8n搭建Agent项目笔记.md, raw/01-articles/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md]
+sources: [raw/09-archive/Docker-window环境下部署RocketMq.md, raw/09-archive/docker安装及使用-windows环境.md, raw/09-archive/docker部署nacos.md, raw/09-archive/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/09-archive/使用Docker在Windows上部署独立MySQL.md, raw/09-archive/使用n8n搭建Agent项目笔记.md, raw/09-archive/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md]
 last_updated: 2026-05-19
 ---
 

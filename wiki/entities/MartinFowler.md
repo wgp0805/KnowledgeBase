@@ -2,7 +2,7 @@
 title: "MartinFowler"
 type: entity
 tags: [人物, 软件架构, 规则引擎]
-sources: [raw/01-articles/干掉if...else，推荐一个小而美的规则引擎.md]
+sources: [raw/09-archive/干掉if...else，推荐一个小而美的规则引擎.md]
 last_updated: 2026-07-02
 ---
 

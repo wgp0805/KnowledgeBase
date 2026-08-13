@@ -2,7 +2,7 @@
 title: "Apache 2.0 协议"
 type: concept
 tags: [开源协议, 法律, 许可, Apache]
-sources: [raw/01-articles/为什么越来越多人使用PDFBox？.md]
+sources: [raw/09-archive/为什么越来越多人使用PDFBox？.md]
 last_updated: 2026-07-21
 ---
 

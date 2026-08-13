@@ -2,7 +2,7 @@
 title: "Mermaid"
 type: entity
 tags: [文本绘图, 流程图, Markdown]
-sources: [raw/01-articles/程序员必备的4种AI画图技巧.md]
+sources: [raw/09-archive/程序员必备的4种AI画图技巧.md]
 last_updated: 2026-06-26
 ---
 

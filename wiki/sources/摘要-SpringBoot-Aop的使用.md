@@ -2,7 +2,7 @@
 title: "摘要-SpringBoot-Aop的使用"
 type: source
 tags: [来源, SpringBoot, AOP]
-sources: [raw/01-articles/SpringBoot-Aop的使用.md]
+sources: [raw/09-archive/SpringBoot-Aop的使用.md]
 last_updated: 2026-05-19
 ---
 

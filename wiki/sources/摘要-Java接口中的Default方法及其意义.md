@@ -2,7 +2,7 @@
 title: "摘要-Java接口中的Default方法及其意义"
 type: source
 tags: [来源, Java]
-sources: [raw/01-articles/Java接口中的Default方法及其意义.md]
+sources: [raw/09-archive/Java接口中的Default方法及其意义.md]
 last_updated: 2026-05-19
 ---
 

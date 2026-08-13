@@ -2,7 +2,7 @@
 title: "CI-CD"
 type: concept
 tags: [DevOps, 自动化, 持续集成]
-sources: [raw/01-articles/Jenkins.md]
+sources: [raw/09-archive/Jenkins.md]
 last_updated: 2026-05-22
 ---
 

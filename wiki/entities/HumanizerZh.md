@@ -2,7 +2,7 @@
 title: "HumanizerZh"
 type: entity
 tags: [实体, Skill, 文本处理]
-sources: [raw/01-articles/分享8个codex必装的skill，让你的AI能力起飞！.md]
+sources: [raw/09-archive/分享8个codex必装的skill，让你的AI能力起飞！.md]
 last_updated: 2026-06-23
 ---
 

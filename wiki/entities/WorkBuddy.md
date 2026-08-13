@@ -2,7 +2,7 @@
 title: "WorkBuddy"
 type: entity
 tags: [实体, 部署平台, OpenClaw]
-sources: [raw/01-articles/小龙虾（OpenClaw）教程汇总.md]
+sources: [raw/09-archive/小龙虾（OpenClaw）教程汇总.md]
 last_updated: 2026-06-23
 ---
 

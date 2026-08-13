@@ -2,7 +2,7 @@
 title: "Resilience4j"
 type: entity
 tags: [熔断, 微服务, Java, 函数式编程]
-sources: [raw/01-articles/携程二面：什么是熔断？你之前项目怎么处理的？.md]
+sources: [raw/09-archive/携程二面：什么是熔断？你之前项目怎么处理的？.md]
 last_updated: 2026-08-05
 ---
 

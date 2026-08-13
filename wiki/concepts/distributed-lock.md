@@ -2,7 +2,7 @@
 title: "distributed-lock"
 type: concept
 tags: [并发, 分布式, Redis]
-sources: [raw/01-articles/高并发下如何防止重复下单？.md, raw/01-articles/2026-07-05-AI Agent 30天速成｜Day10 笔记 - 云淡风轻YangG.md]
+sources: [raw/09-archive/高并发下如何防止重复下单？.md, raw/01-articles/2026-07-05-AI Agent 30天速成｜Day10 笔记 - 云淡风轻YangG.md]
 last_updated: 2026-07-06
 ---
 

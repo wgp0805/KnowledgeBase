@@ -2,7 +2,7 @@
 title: "摘要-coze-workflow-learning"
 type: source
 tags: [Coze, 工作流, 学习笔记]
-sources: [raw/01-articles/coze-workflow-learning-notes.md]
+sources: [raw/09-archive/coze-workflow-learning-notes.md]
 last_updated: 2026-08-11
 ---
 

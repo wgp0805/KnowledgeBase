@@ -2,7 +2,7 @@
 title: "摘要-docker部署nacos"
 type: source
 tags: [来源, Docker, Nacos]
-sources: [raw/01-articles/docker部署nacos.md]
+sources: [raw/09-archive/docker部署nacos.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "Maven"
 type: entity
 tags: [构建工具, 项目管理, Java]
-sources: [raw/01-articles/Maven依赖管理项目构建工具.md, raw/01-articles/Maven 4 要来了：15 年后，Java 构建工具迎来"彻底重构".md]
+sources: [raw/09-archive/Maven依赖管理项目构建工具.md, raw/01-articles/Maven 4 要来了：15 年后，Java 构建工具迎来"彻底重构".md]
 last_updated: 2026-07-07
 ---
 

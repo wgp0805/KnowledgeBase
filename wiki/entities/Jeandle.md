@@ -2,7 +2,7 @@
 title: "Jeandle"
 type: entity
 tags: [Java, JVM, JIT, LLVM, 蚂蚁集团, 编译器]
-sources: [raw/01-articles/蚂蚁又开源了一个顶级Java项目！.md]
+sources: [raw/09-archive/蚂蚁又开源了一个顶级Java项目！.md]
 last_updated: 2026-07-23
 ---
 

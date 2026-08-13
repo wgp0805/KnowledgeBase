@@ -2,7 +2,7 @@
 title: "摘要-sso-single-sign-on"
 type: source
 tags: [来源, 原始文件, SSO, 身份认证, CAS]
-sources: [raw/01-articles/公司系统太多，能不能实现账号互通？.md]
+sources: [raw/09-archive/公司系统太多，能不能实现账号互通？.md]
 last_updated: 2026-07-16
 ---
 

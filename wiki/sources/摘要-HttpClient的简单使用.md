@@ -2,7 +2,7 @@
 title: "摘要-HttpClient的简单使用"
 type: source
 tags: [来源, HTTP]
-sources: [raw/01-articles/HttpClient的简单使用.md]
+sources: [raw/09-archive/HttpClient的简单使用.md]
 last_updated: 2026-05-19
 ---
 

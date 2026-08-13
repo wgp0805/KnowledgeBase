@@ -2,7 +2,7 @@
 title: "Dify"
 type: entity
 tags: [AI平台, LLMOps, 开源, RAG, Agent]
-sources: [raw/01-articles/竟然还有小伙伴不知道这个AI学习路线！！.md]
+sources: [raw/09-archive/竟然还有小伙伴不知道这个AI学习路线！！.md]
 last_updated: 2026-07-07
 ---
 

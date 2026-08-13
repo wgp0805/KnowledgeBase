@@ -2,7 +2,7 @@
 title: "libGDX"
 type: entity
 tags: [游戏引擎, Java, 跨平台, 开源框架]
-sources: [raw/01-articles/推荐一个节省token的AI编程神器！.md]
+sources: [raw/09-archive/推荐一个节省token的AI编程神器！.md]
 last_updated: 2026-08-12
 ---
 

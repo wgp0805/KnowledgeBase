@@ -2,7 +2,7 @@
 title: "摘要-理解Spring中的ApplicationListener与ApplicationRunner区别"
 type: source
 tags: [来源, Spring]
-sources: [raw/01-articles/理解Spring中的ApplicationListener与ApplicationRunner区别及使用场景.md]
+sources: [raw/09-archive/理解Spring中的ApplicationListener与ApplicationRunner区别及使用场景.md]
 last_updated: 2026-05-19
 ---
 

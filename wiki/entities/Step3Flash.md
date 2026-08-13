@@ -2,7 +2,7 @@
 title: "Step3Flash"
 type: entity
 tags: [AI模型, Flash模型, Agent, 多模态]
-sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/测评国内多模态大模型，到底哪个更省事？.md]
+sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/09-archive/测评国内多模态大模型，到底哪个更省事？.md]
 last_updated: 2026-07-02
 ---
 

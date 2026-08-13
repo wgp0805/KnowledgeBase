@@ -2,7 +2,7 @@
 title: "UniApp"
 type: entity
 tags: [前端框架, 跨平台, Vue, 小程序]
-sources: [raw/01-articles/程序汪6万接的无人图书柜项目，开发周期30天.md]
+sources: [raw/09-archive/程序汪6万接的无人图书柜项目，开发周期30天.md]
 last_updated: 2026-07-08
 ---
 

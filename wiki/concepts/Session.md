@@ -2,7 +2,7 @@
 title: "Session"
 type: concept
 tags: [会话, Web, 认证, 机制]
-sources: [raw/01-articles/公司系统太多，能不能实现账号互通？.md]
+sources: [raw/09-archive/公司系统太多，能不能实现账号互通？.md]
 last_updated: 2026-07-16
 ---
 

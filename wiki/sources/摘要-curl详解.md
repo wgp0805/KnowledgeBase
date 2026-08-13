@@ -2,7 +2,7 @@
 title: "摘要-curl详解"
 type: source
 tags: [来源, curl, Linux]
-sources: [raw/01-articles/curl详解.md]
+sources: [raw/09-archive/curl详解.md]
 last_updated: 2026-05-19
 ---
 

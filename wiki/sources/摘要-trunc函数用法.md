@@ -2,7 +2,7 @@
 title: "摘要-trunc函数用法"
 type: source
 tags: [来源, Oracle]
-sources: [raw/01-articles/trunc函数用法.md]
+sources: [raw/09-archive/trunc函数用法.md]
 last_updated: 2026-05-19
 ---
 

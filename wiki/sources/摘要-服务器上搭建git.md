@@ -2,7 +2,7 @@
 title: "摘要-服务器上搭建git"
 type: source
 tags: [来源, Git]
-sources: [raw/01-articles/服务器上搭建git.md]
+sources: [raw/09-archive/服务器上搭建git.md]
 last_updated: 2026-05-19
 ---
 

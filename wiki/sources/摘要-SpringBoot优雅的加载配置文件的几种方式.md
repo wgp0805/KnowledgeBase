@@ -2,7 +2,7 @@
 title: "摘要-SpringBoot优雅的加载配置文件的几种方式"
 type: source
 tags: [来源, SpringBoot]
-sources: [raw/01-articles/SpringBoot优雅的加载配置文件的几种方式.md]
+sources: [raw/09-archive/SpringBoot优雅的加载配置文件的几种方式.md]
 last_updated: 2026-05-19
 ---
 

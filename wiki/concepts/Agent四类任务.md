@@ -2,7 +2,7 @@
 title: "Agent四类任务"
 type: concept
 tags: [Agent, 任务分类, AI办公, 方法论]
-sources: [raw/01-articles/用好Agent，先从这4招开始！【小白教程】.md]
+sources: [raw/09-archive/用好Agent，先从这4招开始！【小白教程】.md]
 last_updated: 2026-08-10
 ---
 

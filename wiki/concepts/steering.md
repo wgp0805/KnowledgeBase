@@ -2,7 +2,7 @@
 title: "steering"
 type: concept
 tags: [AI Agent, 人机交互, 控制机制, Codex]
-sources: [raw/01-articles/如何把Codex用到极致.md]
+sources: [raw/09-archive/如何把Codex用到极致.md]
 last_updated: 2026-06-02
 ---
 

@@ -2,7 +2,7 @@
 title: "OmnoBox"
 type: entity
 tags: [实体, 爬虫工具, 开源项目]
-sources: [raw/01-articles/Docker部署OmnoBox.md]
+sources: [raw/09-archive/Docker部署OmnoBox.md]
 last_updated: 2026-06-23
 ---
 

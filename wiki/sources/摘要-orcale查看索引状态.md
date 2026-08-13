@@ -2,7 +2,7 @@
 title: "摘要-orcale查看索引状态"
 type: source
 tags: [来源, Oracle]
-sources: [raw/01-articles/orcale查看索引状态.md]
+sources: [raw/09-archive/orcale查看索引状态.md]
 last_updated: 2026-05-19
 ---
 

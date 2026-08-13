@@ -2,7 +2,7 @@
 title: "摘要-java8新特性详解"
 type: source
 tags: [来源, Java]
-sources: [raw/01-articles/java8新特性详解.md]
+sources: [raw/09-archive/java8新特性详解.md]
 last_updated: 2026-05-19
 ---
 

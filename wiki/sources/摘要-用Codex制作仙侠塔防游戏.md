@@ -2,7 +2,7 @@
 title: "摘要-用Codex制作仙侠塔防游戏"
 type: source
 tags: [来源, 原始文件, AI编程, 游戏开发]
-sources: [raw/01-articles/利用AI编程工具Codex，我制作了一款仙侠风格塔防游戏.md]
+sources: [raw/09-archive/利用AI编程工具Codex，我制作了一款仙侠风格塔防游戏.md]
 last_updated: 2026-06-23
 ---
 

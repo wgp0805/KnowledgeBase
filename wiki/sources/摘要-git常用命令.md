@@ -2,7 +2,7 @@
 title: "摘要-git常用命令"
 type: source
 tags: [来源, Git]
-sources: [raw/01-articles/git常用命令.md]
+sources: [raw/09-archive/git常用命令.md]
 last_updated: 2026-05-19
 ---
 

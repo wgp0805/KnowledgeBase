@@ -2,7 +2,7 @@
 title: "Godot4"
 type: entity
 tags: [实体, 游戏引擎]
-sources: [raw/01-articles/利用AI编程工具Codex，我制作了一款仙侠风格塔防游戏.md]
+sources: [raw/09-archive/利用AI编程工具Codex，我制作了一款仙侠风格塔防游戏.md]
 last_updated: 2026-06-23
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-jenkins"
 type: source
 tags: [来源, CI/CD, Jenkins]
-sources: [raw/01-articles/Jenkins.md]
+sources: [raw/09-archive/Jenkins.md]
 last_updated: 2026-05-22
 ---
 

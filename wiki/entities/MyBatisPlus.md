@@ -2,7 +2,7 @@
 title: "MyBatisPlus"
 type: entity
 tags: [ORM, MyBatis]
-sources: [raw/01-articles/springboot整合mybatisPlus.md, raw/01-articles/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md, raw/01-articles/深度解析：Spring 事务与 MyBatis-Plus SqlSession 复用机制.md, raw/01-articles/MyBatis Plus 封神玩法：这12个骚操作让开发效率直接起飞！.md]
+sources: [raw/09-archive/springboot整合mybatisPlus.md, raw/09-archive/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md, raw/01-articles/深度解析：Spring 事务与 MyBatis-Plus SqlSession 复用机制.md, raw/01-articles/MyBatis Plus 封神玩法：这12个骚操作让开发效率直接起飞！.md]
 last_updated: 2026-06-10
 ---
 

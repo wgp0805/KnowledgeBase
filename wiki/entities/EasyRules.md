@@ -2,7 +2,7 @@
 title: "EasyRules"
 type: entity
 tags: [规则引擎, Java, 开源工具, j-easy]
-sources: [raw/01-articles/干掉if...else，推荐一个小而美的规则引擎.md]
+sources: [raw/09-archive/干掉if...else，推荐一个小而美的规则引擎.md]
 last_updated: 2026-07-02
 ---
 

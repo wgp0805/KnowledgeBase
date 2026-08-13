@@ -2,7 +2,7 @@
 title: "项目级AI工作流"
 type: concept
 tags: [AI编程, 工作流, 规范驱动开发, 会话记忆]
-sources: [raw/01-articles/Trellis使用手册.md, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md]
+sources: [raw/09-archive/Trellis使用手册.md, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md]
 last_updated: 2026-07-15
 ---
 

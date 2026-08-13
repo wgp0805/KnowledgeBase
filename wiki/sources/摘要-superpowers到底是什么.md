@@ -2,7 +2,7 @@
 title: "摘要-superpowers到底是什么"
 type: source
 tags: [Superpowers, AI编程, 工程纪律, Skill框架]
-sources: [raw/01-articles/全网爆火的Superpowers到底是什么.md]
+sources: [raw/09-archive/全网爆火的Superpowers到底是什么.md]
 last_updated: 2026-06-26
 ---
 

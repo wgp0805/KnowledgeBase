@@ -2,7 +2,7 @@
 title: "WAL"
 type: concept
 tags: [数据库, 日志, 持久性]
-sources: [raw/01-articles/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
+sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
 last_updated: 2026-05-28
 ---
 

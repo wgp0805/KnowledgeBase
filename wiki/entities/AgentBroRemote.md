@@ -2,7 +2,7 @@
 title: "AgentBroRemote"
 type: entity
 tags: [AgentBro组件, 远程管理, SSH隧道, agentbro-remote]
-sources: [raw/01-articles/别再乱装skill了，这个开源项目教你如何有效管理Skill.md]
+sources: [raw/09-archive/别再乱装skill了，这个开源项目教你如何有效管理Skill.md]
 last_updated: 2026-07-29
 ---
 

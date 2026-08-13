@@ -2,7 +2,7 @@
 title: "Apache PDFBox"
 type: entity
 tags: [开源库, Java, PDF, Apache]
-sources: [raw/01-articles/为什么越来越多人使用PDFBox？.md]
+sources: [raw/09-archive/为什么越来越多人使用PDFBox？.md]
 last_updated: 2026-07-21
 ---
 

@@ -2,7 +2,7 @@
 title: "GitLab"
 type: entity
 tags: [Git, 代码托管, CI/CD]
-sources: [raw/01-articles/Jenkins.md]
+sources: [raw/09-archive/Jenkins.md]
 last_updated: 2026-05-22
 ---
 

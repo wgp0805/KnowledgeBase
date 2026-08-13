@@ -2,7 +2,7 @@
 title: "摘要-CompletableFuture的使用"
 type: source
 tags: [来源, Java]
-sources: [raw/01-articles/CompletableFuture的使用.md]
+sources: [raw/09-archive/CompletableFuture的使用.md]
 last_updated: 2026-05-19
 ---
 

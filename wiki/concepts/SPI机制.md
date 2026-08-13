@@ -2,7 +2,7 @@
 title: "SPI机制"
 type: concept
 tags: [Java, 类加载, 服务发现, 双亲委派破坏]
-sources: [raw/01-articles/面试官：什么是双亲委派模型？怎么破坏？.md]
+sources: [raw/09-archive/面试官：什么是双亲委派模型？怎么破坏？.md]
 last_updated: 2026-07-08
 ---
 

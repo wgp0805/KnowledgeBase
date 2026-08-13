@@ -2,7 +2,7 @@
 title: "摘要-spring框架中的事务管理"
 type: source
 tags: [来源, Spring]
-sources: [raw/01-articles/spring框架中的事务管理.md]
+sources: [raw/09-archive/spring框架中的事务管理.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-java-generics-explained"
 type: source
 tags: [Java, 泛型, 编程基础]
-sources: [raw/01-articles/图文详解Java泛型，写得太好了！.md]
+sources: [raw/09-archive/图文详解Java泛型，写得太好了！.md]
 last_updated: 2026-05-20
 ---
 

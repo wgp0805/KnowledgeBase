@@ -2,7 +2,7 @@
 title: "AgentScope_Java"
 type: entity
 tags: [AI框架, 阿里, 通义, 生产级, 智能体, 分布式, 多租户]
-sources: [raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/AgentScopeJava2.0正式发布了！.md, raw/01-articles/AgentScope入门指南.md]
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/AgentScopeJava2.0正式发布了！.md, raw/09-archive/AgentScope入门指南.md]
 last_updated: 2026-07-22
 ---
 

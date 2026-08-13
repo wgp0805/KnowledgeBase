@@ -2,7 +2,7 @@
 title: "摘要-hexo博客部署到自己的服务器"
 type: source
 tags: [来源, Hexo, Nginx]
-sources: [raw/01-articles/hexo博客部署到自己的服务器.md]
+sources: [raw/09-archive/hexo博客部署到自己的服务器.md]
 last_updated: 2026-05-19
 ---
 

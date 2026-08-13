@@ -2,7 +2,7 @@
 title: "摘要-opencode-架构演进剖析"
 type: source
 tags: [OpenCode, 架构演进, 桌面应用, 渐进式重构]
-sources: [raw/01-articles/OpenCode架构演进剖析.md]
+sources: [raw/09-archive/OpenCode架构演进剖析.md]
 last_updated: 2026-08-10
 ---
 

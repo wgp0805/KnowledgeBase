@@ -2,7 +2,7 @@
 title: "摘要-httpUtils"
 type: source
 tags: [来源, HTTP]
-sources: [raw/01-articles/httpUtils.md]
+sources: [raw/09-archive/httpUtils.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "Neo4j"
 type: entity
 tags: [图数据库, 知识图谱, NoSQL]
-sources: ["raw/01-articles/推荐一个牛逼的RAG+KAG双引擎系统.md"]
+sources: ["raw/09-archive/推荐一个牛逼的RAG+KAG双引擎系统.md"]
 last_updated: 2026-07-13
 ---
 

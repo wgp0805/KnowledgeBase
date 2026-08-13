@@ -2,7 +2,7 @@
 title: "RuoYi"
 type: entity
 tags: [框架, Java, 管理系统]
-sources: [raw/01-articles/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md, raw/01-articles/wgp-vue管理系统.md]
+sources: [raw/09-archive/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md, raw/09-archive/wgp-vue管理系统.md]
 last_updated: 2026-05-19
 ---
 

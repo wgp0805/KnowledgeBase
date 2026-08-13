@@ -2,7 +2,7 @@
 title: "摘要-FTPClient上传和下载"
 type: source
 tags: [来源, FTP]
-sources: [raw/01-articles/FTPClient上传和下载.md]
+sources: [raw/09-archive/FTPClient上传和下载.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-AgentScopeJava2.0发布"
 type: source
 tags: [来源, 原始文件, AI框架, Java, 企业级]
-sources: [raw/01-articles/AgentScopeJava2.0正式发布了！.md]
+sources: [raw/09-archive/AgentScopeJava2.0正式发布了！.md]
 last_updated: 2026-06-23
 ---
 

@@ -2,7 +2,7 @@
 title: "Vim"
 type: entity
 tags: [编辑器, Linux]
-sources: [raw/01-articles/vim命令大全.md, raw/01-articles/liunx查找文件内的关键字.md]
+sources: [raw/09-archive/vim命令大全.md, raw/09-archive/liunx查找文件内的关键字.md]
 last_updated: 2026-05-19
 ---
 

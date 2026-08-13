@@ -2,7 +2,7 @@
 title: "Canal"
 type: entity
 tags: [数据同步, MySQL, binlog, 中间件]
-sources: [raw/01-articles/得物二面：分库分表后，怎么进行分页查询？我被问懵了.md]
+sources: [raw/09-archive/得物二面：分库分表后，怎么进行分页查询？我被问懵了.md]
 last_updated: 2026-07-28
 ---
 

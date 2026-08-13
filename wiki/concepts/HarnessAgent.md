@@ -2,7 +2,7 @@
 title: "HarnessAgent"
 type: concept
 tags: [AI概念, Agent模式, 工程化]
-sources: [raw/01-articles/AgentScopeJava2.0正式发布了！.md, raw/01-articles/AgentScope入门指南.md]
+sources: [raw/09-archive/AgentScopeJava2.0正式发布了！.md, raw/09-archive/AgentScope入门指南.md]
 last_updated: 2026-07-22
 ---
 

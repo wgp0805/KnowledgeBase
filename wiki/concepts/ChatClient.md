@@ -2,7 +2,7 @@
 title: "ChatClient"
 type: concept
 tags: [Spring AI, 聊天, API抽象]
-sources: [raw/01-articles/SpringAI.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md]
+sources: [raw/09-archive/SpringAI.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md]
 last_updated: 2026-07-06
 ---
 

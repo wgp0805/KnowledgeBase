@@ -2,7 +2,7 @@
 title: "摘要-为什么越来越多人用Sa-Token"
 type: source
 tags: [来源, Sa-Token, 权限认证, Spring Security]
-sources: [raw/01-articles/为什么越来越多人用Sa-Token？.md]
+sources: [raw/09-archive/为什么越来越多人用Sa-Token？.md]
 last_updated: 2026-08-04
 ---
 

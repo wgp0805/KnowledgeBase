@@ -2,7 +2,7 @@
 title: "摘要-spring-ai"
 type: source
 tags: [来源, Spring AI, AI框架]
-sources: [raw/01-articles/SpringAI.md]
+sources: [raw/09-archive/SpringAI.md]
 last_updated: 2026-05-22
 ---
 

@@ -2,7 +2,7 @@
 title: "Middleware"
 type: concept
 tags: [AI概念, 扩展机制, 钩子]
-sources: [raw/01-articles/AgentScopeJava2.0正式发布了！.md]
+sources: [raw/09-archive/AgentScopeJava2.0正式发布了！.md]
 last_updated: 2026-06-23
 ---
 

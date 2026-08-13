@@ -2,7 +2,7 @@
 title: "摘要-skill-creator-guide"
 type: source
 tags: [来源, 原始文件, Claude Code, 技能]
-sources: [raw/02-papers/skill-creator使用与优化指南.pdf]
+sources: [raw/09-archive/skill-creator使用与优化指南.pdf]
 last_updated: 2026-05-20
 ---
 

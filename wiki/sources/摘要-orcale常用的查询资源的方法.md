@@ -2,7 +2,7 @@
 title: "摘要-orcale常用的查询资源的方法"
 type: source
 tags: [来源, Oracle]
-sources: [raw/01-articles/orcale常用的查询资源的方法.md]
+sources: [raw/09-archive/orcale常用的查询资源的方法.md]
 last_updated: 2026-05-19
 ---
 

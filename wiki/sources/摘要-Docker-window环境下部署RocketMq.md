@@ -2,7 +2,7 @@
 title: "摘要-Docker-window环境下部署RocketMq"
 type: source
 tags: [来源, Docker, RocketMQ]
-sources: [raw/01-articles/Docker-window环境下部署RocketMq.md]
+sources: [raw/09-archive/Docker-window环境下部署RocketMq.md]
 last_updated: 2026-05-19
 ---
 

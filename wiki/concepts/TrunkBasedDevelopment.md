@@ -2,7 +2,7 @@
 title: "TrunkBasedDevelopment"
 type: concept
 tags: [Git, 分支模型, 主干开发, 持续交付]
-sources: [raw/01-articles/一线大厂的Git规范.md]
+sources: [raw/09-archive/一线大厂的Git规范.md]
 last_updated: 2026-08-10
 ---
 

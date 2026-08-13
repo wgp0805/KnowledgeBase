@@ -2,7 +2,7 @@
 title: "摘要-git推送远程方法"
 type: source
 tags: [来源, Git]
-sources: [raw/01-articles/git推送远程方法.md]
+sources: [raw/09-archive/git推送远程方法.md]
 last_updated: 2026-05-19
 ---
 

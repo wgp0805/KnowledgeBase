@@ -2,7 +2,7 @@
 title: "摘要-spring-security"
 type: source
 tags: [来源, Spring Security, 安全框架]
-sources: [raw/01-articles/SpringSecurity.md]
+sources: [raw/09-archive/SpringSecurity.md]
 last_updated: 2026-05-22
 ---
 

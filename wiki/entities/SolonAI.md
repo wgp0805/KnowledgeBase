@@ -2,7 +2,7 @@
 title: "SolonAI"
 type: entity
 tags: [AI框架, 轻量, Java, 全场景]
-sources: [raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-07-04-用 ChatModel 构建 LLM 驱动的 Java 应用 - 带刺的坐椅.md]
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-07-04-用 ChatModel 构建 LLM 驱动的 Java 应用 - 带刺的坐椅.md]
 last_updated: 2026-07-06
 ---
 

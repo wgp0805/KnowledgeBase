@@ -2,7 +2,7 @@
 title: "摘要-freemaker常用语法"
 type: source
 tags: [来源, FreeMarker]
-sources: [raw/01-articles/freemaker常用语法.md]
+sources: [raw/09-archive/freemaker常用语法.md]
 last_updated: 2026-05-19
 ---
 

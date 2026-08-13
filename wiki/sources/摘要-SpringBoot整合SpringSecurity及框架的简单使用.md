@@ -2,7 +2,7 @@
 title: "摘要-SpringBoot整合SpringSecurity及框架的简单使用"
 type: source
 tags: [来源, SpringBoot, 安全]
-sources: [raw/01-articles/SpringBoot整合SpringSecurity及框架的简单使用.md]
+sources: [raw/09-archive/SpringBoot整合SpringSecurity及框架的简单使用.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "goals"
 type: concept
 tags: [AI Agent, 任务管理, 验证, Codex, MiMo Code]
-sources: [raw/01-articles/如何把Codex用到极致.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md]
+sources: [raw/09-archive/如何把Codex用到极致.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md]
 last_updated: 2026-06-11
 ---
 

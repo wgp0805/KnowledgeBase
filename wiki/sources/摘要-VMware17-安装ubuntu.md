@@ -2,7 +2,7 @@
 title: "摘要-VMware17-安装ubuntu"
 type: source
 tags: [来源, VMware, Linux]
-sources: [raw/01-articles/VMware17-安装ubuntu.md]
+sources: [raw/09-archive/VMware17-安装ubuntu.md]
 last_updated: 2026-05-19
 ---
 

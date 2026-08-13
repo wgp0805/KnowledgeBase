@@ -2,7 +2,7 @@
 title: "Ollama"
 type: entity
 tags: [LLM, 本地部署, AI工具]
-sources: [raw/01-articles/SpringAI.md, raw/01-articles/Ollama+DeepSeek本地部署（新人必看）.md]
+sources: [raw/09-archive/SpringAI.md, raw/09-archive/Ollama+DeepSeek本地部署（新人必看）.md]
 last_updated: 2026-06-09
 ---
 

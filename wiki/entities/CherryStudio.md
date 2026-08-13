@@ -2,7 +2,7 @@
 title: "CherryStudio"
 type: entity
 tags: [AI工具, 桌面应用, 知识库]
-sources: [raw/02-papers/Cherry-Studio+硅基流动+DeepSeek搭建并使用个人知识库.pdf]
+sources: [raw/09-archive/Cherry-Studio+硅基流动+DeepSeek搭建并使用个人知识库.pdf]
 last_updated: 2026-05-22
 ---
 

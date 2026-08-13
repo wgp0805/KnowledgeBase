@@ -2,7 +2,7 @@
 title: "摘要-easy-rules-规则引擎"
 type: source
 tags: [来源, 原始文件, 规则引擎, Java]
-sources: [raw/01-articles/干掉if...else，推荐一个小而美的规则引擎.md]
+sources: [raw/09-archive/干掉if...else，推荐一个小而美的规则引擎.md]
 last_updated: 2026-07-02
 ---
 

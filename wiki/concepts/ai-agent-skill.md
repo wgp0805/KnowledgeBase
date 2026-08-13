@@ -2,7 +2,7 @@
 title: "AI Agent Skill"
 type: concept
 tags: [AI, Agent, 技能封装, Claude Code]
-sources: [raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md]
+sources: [raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md]
 last_updated: 2026-06-08
 ---
 

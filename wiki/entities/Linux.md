@@ -2,7 +2,7 @@
 title: "Linux"
 type: entity
 tags: [操作系统, 服务器]
-sources: [raw/01-articles/Liunx常用命令.md, raw/01-articles/liunx命令总结（600条）.md, raw/01-articles/liunx查找文件内的关键字.md, raw/01-articles/liunx挂载硬盘.md, raw/01-articles/liunx链接Ftp和Sftp.md]
+sources: [raw/09-archive/Liunx常用命令.md, raw/09-archive/liunx命令总结（600条）.md, raw/09-archive/liunx查找文件内的关键字.md, raw/09-archive/liunx挂载硬盘.md, raw/09-archive/liunx链接Ftp和Sftp.md]
 last_updated: 2026-05-19
 ---
 

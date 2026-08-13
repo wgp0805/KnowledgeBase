@@ -2,7 +2,7 @@
 title: "adversarial-review"
 type: concept
 tags: [AI, Agent, 代码评审, 质量保障]
-sources: [raw/01-articles/multi-agent-collaboration.md]
+sources: [raw/09-archive/multi-agent-collaboration.md]
 last_updated: 2026-08-06
 ---
 

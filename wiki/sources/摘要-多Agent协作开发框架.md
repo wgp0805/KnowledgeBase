@@ -2,7 +2,7 @@
 title: "摘要-多Agent协作开发框架"
 type: source
 tags: [AI, Agent, 协作模式, 角色隔离, 代码评审]
-sources: [raw/01-articles/multi-agent-collaboration.md]
+sources: [raw/09-archive/multi-agent-collaboration.md]
 last_updated: 2026-08-06
 ---
 

@@ -2,7 +2,7 @@
 title: "PaiAgent"
 type: entity
 tags: [AI, Agent]
-sources: [raw/01-articles/用Qoder 提交PaiAgent到 GitHub，使用 Qoder CLI 完成节点配置和页面美化.md, raw/01-articles/用Qoder搭建PaiAgent项目脚手架.md]
+sources: [raw/01-articles/用Qoder 提交PaiAgent到 GitHub，使用 Qoder CLI 完成节点配置和页面美化.md, raw/09-archive/用Qoder搭建PaiAgent项目脚手架.md]
 last_updated: 2026-08-04
 ---
 

@@ -2,7 +2,7 @@
 title: "AI Registry"
 type: concept
 tags: [AI Agent, Nacos, MCP, 服务发现]
-sources: [raw/01-articles/为什么越来越多人用Nacos？.md]
+sources: [raw/09-archive/为什么越来越多人用Nacos？.md]
 last_updated: 2026-08-05
 ---
 

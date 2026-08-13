@@ -2,7 +2,7 @@
 title: "JVM"
 type: entity
 tags: [Java, 虚拟机]
-sources: [raw/01-articles/jvm参数解释.md]
+sources: [raw/09-archive/jvm参数解释.md]
 last_updated: 2026-05-19
 ---
 

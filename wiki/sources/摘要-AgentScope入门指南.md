@@ -2,7 +2,7 @@
 title: "摘要-AgentScope入门指南"
 type: source
 tags: [来源, 原始文件, AI框架, Java, Agent, 初学者]
-sources: [raw/01-articles/AgentScope入门指南.md]
+sources: [raw/09-archive/AgentScope入门指南.md]
 last_updated: 2026-07-22
 ---
 

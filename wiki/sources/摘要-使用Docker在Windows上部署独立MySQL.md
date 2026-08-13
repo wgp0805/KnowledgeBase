@@ -2,7 +2,7 @@
 title: "摘要-使用Docker在Windows上部署独立MySQL"
 type: source
 tags: [来源, Docker, MySQL]
-sources: [raw/01-articles/使用Docker在Windows上部署独立MySQL.md]
+sources: [raw/09-archive/使用Docker在Windows上部署独立MySQL.md]
 last_updated: 2026-05-19
 ---
 

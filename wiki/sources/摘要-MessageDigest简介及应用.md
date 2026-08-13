@@ -2,7 +2,7 @@
 title: "摘要-MessageDigest简介及应用"
 type: source
 tags: [来源, Java, 加密]
-sources: [raw/01-articles/MessageDigest简介及应用.md]
+sources: [raw/09-archive/MessageDigest简介及应用.md]
 last_updated: 2026-05-19
 ---
 

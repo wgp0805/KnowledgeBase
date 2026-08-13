@@ -2,7 +2,7 @@
 title: "Git"
 type: entity
 tags: [版本控制]
-sources: [raw/01-articles/git常用命令.md, raw/01-articles/git推送远程方法.md, raw/01-articles/服务器上搭建git.md, raw/01-articles/面试官：Git 如何撤回已 Push 的代码？问倒一大片。。。.md]
+sources: [raw/09-archive/git常用命令.md, raw/09-archive/git推送远程方法.md, raw/09-archive/服务器上搭建git.md, raw/01-articles/面试官：Git 如何撤回已 Push 的代码？问倒一大片。。。.md]
 last_updated: 2026-07-08
 ---
 

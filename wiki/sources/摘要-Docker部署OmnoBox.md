@@ -2,7 +2,7 @@
 title: "摘要-Docker部署OmnoBox"
 type: source
 tags: [来源, 原始文件, Docker, 部署]
-sources: [raw/01-articles/Docker部署OmnoBox.md]
+sources: [raw/09-archive/Docker部署OmnoBox.md]
 last_updated: 2026-06-23
 ---
 

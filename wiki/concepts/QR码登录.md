@@ -2,7 +2,7 @@
 title: "QR码登录"
 type: concept
 tags: [认证, 登录, 跨端]
-sources: [raw/01-articles/抖音一面：二维码扫码登录原理.md]
+sources: [raw/09-archive/抖音一面：二维码扫码登录原理.md]
 last_updated: 2026-06-29
 ---
 

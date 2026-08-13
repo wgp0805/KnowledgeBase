@@ -2,7 +2,7 @@
 title: "OAuth2"
 type: concept
 tags: [认证, 授权, 协议, 安全]
-sources: [raw/01-articles/公司系统太多，能不能实现账号互通？.md]
+sources: [raw/09-archive/公司系统太多，能不能实现账号互通？.md]
 last_updated: 2026-07-16
 ---
 

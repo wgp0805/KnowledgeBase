@@ -2,7 +2,7 @@
 title: "TreeSitter"
 type: entity
 tags: [解析库, AST, 增量解析, 开源]
-sources: ["raw/01-articles/CodeGraph为什么突然这么火？.md"]
+sources: ["raw/09-archive/CodeGraph为什么突然这么火？.md"]
 last_updated: 2026-07-20
 ---
 

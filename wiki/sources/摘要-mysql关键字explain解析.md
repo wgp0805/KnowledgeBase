@@ -2,7 +2,7 @@
 title: "摘要-mysql关键字explain解析"
 type: source
 tags: [来源, MySQL]
-sources: [raw/01-articles/mysql关键字explain解析.md]
+sources: [raw/09-archive/mysql关键字explain解析.md]
 last_updated: 2026-05-19
 ---
 

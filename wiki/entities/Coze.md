@@ -2,7 +2,7 @@
 title: "Coze"
 type: entity
 tags: [AI平台, Agent, 字节跳动, 低代码]
-sources: [raw/01-articles/竟然还有小伙伴不知道这个AI学习路线！！.md, raw/01-articles/coze-workflow-learning-notes.md, raw/01-articles/coze工作流学习-Day1笔记.md.md]
+sources: [raw/09-archive/竟然还有小伙伴不知道这个AI学习路线！！.md, raw/09-archive/coze-workflow-learning-notes.md, raw/01-articles/coze工作流学习-Day1笔记.md.md]
 last_updated: 2026-08-11
 ---
 

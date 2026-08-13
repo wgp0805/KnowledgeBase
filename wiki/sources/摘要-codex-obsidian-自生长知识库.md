@@ -2,7 +2,7 @@
 title: "摘要-codex-obsidian-自生长知识库"
 type: source
 tags: [Codex, Obsidian, 知识库, Karpathy, 教程]
-sources: [raw/03-transcripts/Codex联动Obsidian搭建卡帕西同款知识库教程.md]
+sources: [raw/09-archive/Codex联动Obsidian搭建卡帕西同款知识库教程.md]
 last_updated: 2026-07-03
 ---
 

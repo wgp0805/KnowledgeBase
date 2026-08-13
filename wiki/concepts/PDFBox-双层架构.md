@@ -2,7 +2,7 @@
 title: "PDFBox 双层架构"
 type: concept
 tags: [架构, PDF, PDFBox, 软件设计]
-sources: [raw/01-articles/为什么越来越多人使用PDFBox？.md]
+sources: [raw/09-archive/为什么越来越多人使用PDFBox？.md]
 last_updated: 2026-07-21
 ---
 

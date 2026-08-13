@@ -2,7 +2,7 @@
 title: "Oracle"
 type: entity
 tags: [数据库, 关系型]
-sources: [raw/01-articles/Orcale表锁解决方法.md, raw/01-articles/orcale查看索引状态.md, raw/01-articles/orcale常用的查询资源的方法.md, raw/01-articles/Orcale创建用户和表空间授权过程.md, raw/01-articles/trunc函数用法.md]
+sources: [raw/09-archive/Orcale表锁解决方法.md, raw/09-archive/orcale查看索引状态.md, raw/09-archive/orcale常用的查询资源的方法.md, raw/09-archive/Orcale创建用户和表空间授权过程.md, raw/09-archive/trunc函数用法.md]
 last_updated: 2026-05-19
 ---
 

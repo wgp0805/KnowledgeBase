@@ -2,7 +2,7 @@
 title: "摘要-用Qoder搭建PaiAgent项目脚手架"
 type: source
 tags: [来源, Qoder, PaiAgent]
-sources: [raw/01-articles/用Qoder搭建PaiAgent项目脚手架.md]
+sources: [raw/09-archive/用Qoder搭建PaiAgent项目脚手架.md]
 last_updated: 2026-05-19
 ---
 

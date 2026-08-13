@@ -2,7 +2,7 @@
 title: "Nacos"
 type: entity
 tags: [微服务, 注册中心, 配置中心]
-sources: [raw/01-articles/docker部署nacos.md, raw/01-articles/pmhub微服务学习.md, raw/01-articles/为什么越来越多人用Nacos？.md]
+sources: [raw/09-archive/docker部署nacos.md, raw/09-archive/pmhub微服务学习.md, raw/09-archive/为什么越来越多人用Nacos？.md]
 last_updated: 2026-08-05
 ---
 

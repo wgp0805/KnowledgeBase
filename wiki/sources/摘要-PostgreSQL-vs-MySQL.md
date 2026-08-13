@@ -2,7 +2,7 @@
 title: "摘要-PostgreSQL-vs-MySQL"
 type: source
 tags: [数据库, PostgreSQL, MySQL, 对比分析]
-sources: [raw/01-articles/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
+sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
 last_updated: 2026-05-28
 ---
 

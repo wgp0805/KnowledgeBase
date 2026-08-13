@@ -2,7 +2,7 @@
 title: "摘要-trellis使用手册"
 type: source
 tags: [来源, Trellis, Codex, 工作流, 规范驱动开发]
-sources: [raw/01-articles/Trellis使用手册.md]
+sources: [raw/09-archive/Trellis使用手册.md]
 last_updated: 2026-07-15
 ---
 

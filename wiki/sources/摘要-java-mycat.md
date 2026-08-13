@@ -2,7 +2,7 @@
 title: "摘要-java-mycat"
 type: source
 tags: [来源, 原始文件, Mycat, 分库分表]
-sources: [raw/02-papers/Java高级技术之Mycat.pdf]
+sources: [raw/09-archive/Java高级技术之Mycat.pdf]
 last_updated: 2026-05-22
 ---
 

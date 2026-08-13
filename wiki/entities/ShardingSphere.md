@@ -2,7 +2,7 @@
 title: "ShardingSphere"
 type: entity
 tags: [数据库, 中间件, 分库分表, Java]
-sources: [raw/01-articles/从40分钟到1秒：我用分库分表彻底解决了上亿数据的大表性能问题！！.md]
+sources: [raw/09-archive/从40分钟到1秒：我用分库分表彻底解决了上亿数据的大表性能问题！！.md]
 last_updated: 2026-05-25
 ---
 

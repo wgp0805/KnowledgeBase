@@ -2,7 +2,7 @@
 title: "摘要-java时间的比较"
 type: source
 tags: [来源, Java]
-sources: [raw/01-articles/java时间的比较.md]
+sources: [raw/09-archive/java时间的比较.md]
 last_updated: 2026-05-19
 ---
 

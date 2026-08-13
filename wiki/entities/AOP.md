@@ -2,7 +2,7 @@
 title: "AOP"
 type: entity
 tags: [Spring, 编程范式]
-sources: [raw/01-articles/SpringBoot-Aop的使用.md, raw/01-articles/spring框架中的事务管理.md]
+sources: [raw/09-archive/SpringBoot-Aop的使用.md, raw/09-archive/spring框架中的事务管理.md]
 last_updated: 2026-05-19
 ---
 

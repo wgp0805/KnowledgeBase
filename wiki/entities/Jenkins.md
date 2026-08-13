@@ -2,7 +2,7 @@
 title: "Jenkins"
 type: entity
 tags: [CI/CD, 自动化部署, DevOps]
-sources: [raw/01-articles/Jenkins.md]
+sources: [raw/09-archive/Jenkins.md]
 last_updated: 2026-05-22
 ---
 

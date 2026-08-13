@@ -2,7 +2,7 @@
 title: "MQTT协议"
 type: concept
 tags: [物联网, 通信协议, 发布订阅, 轻量级]
-sources: [raw/01-articles/程序汪6万接的无人图书柜项目，开发周期30天.md]
+sources: [raw/09-archive/程序汪6万接的无人图书柜项目，开发周期30天.md]
 last_updated: 2026-07-08
 ---
 

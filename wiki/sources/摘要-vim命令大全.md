@@ -2,7 +2,7 @@
 title: "摘要-vim命令大全"
 type: source
 tags: [来源, Vim]
-sources: [raw/01-articles/vim命令大全.md]
+sources: [raw/09-archive/vim命令大全.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "Hasor"
 type: entity
 tags: [框架, Java, 生态]
-sources: [raw/01-articles/让SpringBoot不需要Controller、Service、DAO、Mapper，卧槽！这款工具绝了！.md]
+sources: [raw/09-archive/让SpringBoot不需要Controller、Service、DAO、Mapper，卧槽！这款工具绝了！.md]
 last_updated: 2026-07-22
 ---
 

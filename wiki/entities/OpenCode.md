@@ -2,7 +2,7 @@
 title: "OpenCode"
 type: entity
 tags: [AI, 开源, 编码助手, Agent]
-sources: [raw/09-archive/ECC使用教程.md, raw/01-articles/OpenCode架构演进剖析.md]
+sources: [raw/09-archive/ECC使用教程.md, raw/09-archive/OpenCode架构演进剖析.md]
 last_updated: 2026-08-10
 ---
 

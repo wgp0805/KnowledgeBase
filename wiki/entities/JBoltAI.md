@@ -2,7 +2,7 @@
 title: "JBoltAI"
 type: entity
 tags: [AI框架, 企业, Java, 私有化]
-sources: [raw/01-articles/JAVA中AI框架选型指南（2026）.md]
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md]
 last_updated: 2026-06-08
 ---
 

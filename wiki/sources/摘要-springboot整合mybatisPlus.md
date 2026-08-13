@@ -2,7 +2,7 @@
 title: "摘要-springboot整合mybatisPlus"
 type: source
 tags: [来源, SpringBoot, MyBatis]
-sources: [raw/01-articles/springboot整合mybatisPlus.md]
+sources: [raw/09-archive/springboot整合mybatisPlus.md]
 last_updated: 2026-05-19
 ---
 

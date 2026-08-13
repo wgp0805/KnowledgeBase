@@ -2,7 +2,7 @@
 title: "摘要-Ollama+DeepSeek本地部署"
 type: source
 tags: [来源, Ollama, DeepSeek, 本地部署, LLM]
-sources: [raw/01-articles/Ollama+DeepSeek本地部署（新人必看）.md]
+sources: [raw/09-archive/Ollama+DeepSeek本地部署（新人必看）.md]
 last_updated: 2026-06-09
 ---
 

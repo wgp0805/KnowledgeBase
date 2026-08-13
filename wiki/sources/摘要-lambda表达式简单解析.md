@@ -2,7 +2,7 @@
 title: "摘要-lambda表达式简单解析"
 type: source
 tags: [来源, Java]
-sources: [raw/01-articles/lambda表达式简单解析.md]
+sources: [raw/09-archive/lambda表达式简单解析.md]
 last_updated: 2026-05-19
 ---
 

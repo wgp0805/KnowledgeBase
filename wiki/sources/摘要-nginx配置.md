@@ -2,7 +2,7 @@
 title: "摘要-nginx配置"
 type: source
 tags: [来源, Nginx]
-sources: [raw/01-articles/nginx配置.md]
+sources: [raw/09-archive/nginx配置.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "incident-severity-classification"
 type: concept
 tags: [工程实践, 运维]
-sources: [raw/01-articles/软件开发事故级别分类.md]
+sources: [raw/09-archive/软件开发事故级别分类.md]
 last_updated: 2026-05-19
 ---
 

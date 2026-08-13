@@ -2,7 +2,7 @@
 title: "Nginx"
 type: entity
 tags: [Web服务器, 反向代理]
-sources: [raw/01-articles/nginx配置.md, raw/01-articles/服务器部署纯静态网站.md, raw/01-articles/hexo博客部署到自己的服务器.md]
+sources: [raw/09-archive/nginx配置.md, raw/09-archive/服务器部署纯静态网站.md, raw/09-archive/hexo博客部署到自己的服务器.md]
 last_updated: 2026-05-19
 ---
 

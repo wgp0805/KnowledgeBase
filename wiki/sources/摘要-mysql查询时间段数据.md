@@ -2,7 +2,7 @@
 title: "摘要-mysql查询时间段数据"
 type: source
 tags: [来源, MySQL]
-sources: [raw/01-articles/mysql查询时间段数据.md]
+sources: [raw/09-archive/mysql查询时间段数据.md]
 last_updated: 2026-05-19
 ---
 

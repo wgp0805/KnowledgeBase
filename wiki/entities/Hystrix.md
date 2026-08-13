@@ -2,7 +2,7 @@
 title: "Hystrix"
 type: entity
 tags: [熔断, 微服务, Netflix, Java]
-sources: [raw/01-articles/携程二面：什么是熔断？你之前项目怎么处理的？.md]
+sources: [raw/09-archive/携程二面：什么是熔断？你之前项目怎么处理的？.md]
 last_updated: 2026-08-05
 ---
 

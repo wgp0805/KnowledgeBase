@@ -2,7 +2,7 @@
 title: "Lovart"
 type: entity
 tags: [AI设计, 设计工具, AI Agent]
-sources: [raw/01-articles/最强AI设计智能体Lovart，保姆级入门教程（4000字长文）.md]
+sources: [raw/09-archive/最强AI设计智能体Lovart，保姆级入门教程（4000字长文）.md]
 last_updated: 2026-06-11
 ---
 

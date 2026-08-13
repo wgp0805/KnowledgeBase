@@ -2,7 +2,7 @@
 title: "sequential-io"
 type: concept
 tags: [IO, 存储, 性能优化]
-sources: [raw/01-articles/字节二面：如何设计一个百亿级消息队列？.md]
+sources: [raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md]
 last_updated: 2026-05-20
 ---
 

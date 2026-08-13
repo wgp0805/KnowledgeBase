@@ -2,7 +2,7 @@
 title: "Leaf"
 type: entity
 tags: [实体, 分布式ID, 中间件, 百度]
-sources: [raw/01-articles/面试经典：如何设计高并发短链接系统.md]
+sources: [raw/09-archive/面试经典：如何设计高并发短链接系统.md]
 last_updated: 2026-08-05
 ---
 

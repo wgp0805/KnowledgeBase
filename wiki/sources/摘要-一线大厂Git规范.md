@@ -2,7 +2,7 @@
 title: "摘要-一线大厂Git规范"
 type: source
 tags: [Git, 分支模型, 提交规范, Code Review, 团队协作]
-sources: [raw/01-articles/一线大厂的Git规范.md]
+sources: [raw/09-archive/一线大厂的Git规范.md]
 last_updated: 2026-08-10
 ---
 

@@ -2,7 +2,7 @@
 title: "AgentHarness"
 type: concept
 tags: [AI, Agent设计, Harness, MiMo Code]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md, raw/01-articles/Trellis使用手册.md, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md]
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md, raw/09-archive/Trellis使用手册.md, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md]
 last_updated: 2026-07-15
 ---
 

@@ -2,7 +2,7 @@
 title: "RocketMQ"
 type: entity
 tags: [消息队列, 中间件]
-sources: [raw/01-articles/字节二面：如何设计一个百亿级消息队列？.md, raw/01-articles/Docker-window环境下部署RocketMq.md, raw/01-articles/springboot整合RocketMq.md, raw/01-articles/高并发下如何防止重复下单？.md, raw/01-articles/RocketMQ 已正式接入 AI ！.md, raw/01-articles/Spring Cloud Stream 整合 RocketMQ 完全指南.md]
+sources: [raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md, raw/09-archive/Docker-window环境下部署RocketMq.md, raw/09-archive/springboot整合RocketMq.md, raw/09-archive/高并发下如何防止重复下单？.md, raw/01-articles/RocketMQ 已正式接入 AI ！.md, raw/01-articles/Spring Cloud Stream 整合 RocketMQ 完全指南.md]
 last_updated: 2026-07-01
 ---
 

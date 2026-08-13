@@ -2,7 +2,7 @@
 title: "CQRS"
 type: concept
 tags: [架构, 读写分离, 设计模式, DDD]
-sources: [raw/01-articles/得物二面：分库分表后，怎么进行分页查询？我被问懵了.md]
+sources: [raw/09-archive/得物二面：分库分表后，怎么进行分页查询？我被问懵了.md]
 last_updated: 2026-07-28
 ---
 

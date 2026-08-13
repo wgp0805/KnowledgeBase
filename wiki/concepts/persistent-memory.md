@@ -2,7 +2,7 @@
 title: "persistent-memory"
 type: concept
 tags: [AI, Agent, 记忆, 架构]
-sources: [raw/01-articles/2026-07-21-Hermes Agent 完全指南：比 Claude Code 更自由的开源 AI Agent，从安装配置到多 Agent 协作 - 不吃紫菜.md, raw/01-articles/用好Agent，先从这4招开始！【小白教程】.md]
+sources: [raw/01-articles/2026-07-21-Hermes Agent 完全指南：比 Claude Code 更自由的开源 AI Agent，从安装配置到多 Agent 协作 - 不吃紫菜.md, raw/09-archive/用好Agent，先从这4招开始！【小白教程】.md]
 last_updated: 2026-08-10
 ---
 

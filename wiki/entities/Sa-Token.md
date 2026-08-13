@@ -2,7 +2,7 @@
 title: "Sa-Token"
 type: entity
 tags: [权限认证, Java框架, 开源]
-sources: [raw/01-articles/为什么越来越多人用Sa-Token？.md]
+sources: [raw/09-archive/为什么越来越多人用Sa-Token？.md]
 last_updated: 2026-08-04
 ---
 

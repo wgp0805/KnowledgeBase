@@ -2,7 +2,7 @@
 title: "摘要-AI中转站盈利与风险分析"
 type: source
 tags: [来源, 原始文件, AI中转站, API网关]
-sources: [raw/01-articles/第一批做AI中转站的人，已经。。。.md]
+sources: [raw/09-archive/第一批做AI中转站的人，已经。。。.md]
 last_updated: 2026-06-23
 ---
 

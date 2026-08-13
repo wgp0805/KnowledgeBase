@@ -2,7 +2,7 @@
 title: "摘要-codegraph-deep-dive"
 type: source
 tags: [来源, CodeGraph, 代码分析, MCP]
-sources: ["raw/01-articles/CodeGraph为什么突然这么火？.md"]
+sources: ["raw/09-archive/CodeGraph为什么突然这么火？.md"]
 last_updated: 2026-07-20
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-windows系统释放休眠文件和保留空间占用的硬盘空间"
 type: source
 tags: [来源, Windows]
-sources: [raw/01-articles/windows系统释放休眠文件和保留空间占用的硬盘空间.md]
+sources: [raw/09-archive/windows系统释放休眠文件和保留空间占用的硬盘空间.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "SSO"
 type: concept
 tags: [认证, 单点登录, 安全]
-sources: [raw/01-articles/公司系统太多，能不能实现账号互通？.md, raw/01-articles/2026-07-29-Docker部署Keycloak：企业级身份认证平台搭建 - 暮色之狐.md]
+sources: [raw/09-archive/公司系统太多，能不能实现账号互通？.md, raw/01-articles/2026-07-29-Docker部署Keycloak：企业级身份认证平台搭建 - 暮色之狐.md]
 last_updated: 2026-07-30
 ---
 

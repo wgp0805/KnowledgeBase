@@ -2,7 +2,7 @@
 title: "ReAct Agent"
 type: concept
 tags: [AI, Agent, 推理, 行动循环]
-sources: [raw/01-articles/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-07-05-AI Agent 30天速成｜Day10 笔记 - 云淡风轻YangG.md, raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md]
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-07-05-AI Agent 30天速成｜Day10 笔记 - 云淡风轻YangG.md, raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md]
 last_updated: 2026-07-06
 ---
 

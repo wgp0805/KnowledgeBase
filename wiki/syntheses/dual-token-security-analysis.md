@@ -2,7 +2,7 @@
 title: "双 Token（AccessToken + RefreshToken）安全设计分析"
 type: synthesis
 tags: [认证, JWT, 安全, Token]
-sources: [raw/01-articles/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md]
+sources: [raw/09-archive/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md]
 last_updated: 2026-06-11
 ---
 

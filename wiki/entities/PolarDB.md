@@ -2,7 +2,7 @@
 title: "PolarDB"
 type: entity
 tags: [数据库, 阿里云, 云原生, PostgreSQL]
-sources: [raw/01-articles/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
+sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
 last_updated: 2026-05-28
 ---
 

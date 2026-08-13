@@ -2,7 +2,7 @@
 title: "FeatureToggle"
 type: concept
 tags: [软件工程, 分支策略, 持续交付, 功能开关]
-sources: [raw/01-articles/一线大厂的Git规范.md]
+sources: [raw/09-archive/一线大厂的Git规范.md]
 last_updated: 2026-08-10
 ---
 

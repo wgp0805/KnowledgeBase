@@ -2,7 +2,7 @@
 title: "摘要-liunx命令总结"
 type: source
 tags: [来源, Linux]
-sources: [raw/01-articles/liunx命令总结（600条）.md]
+sources: [raw/09-archive/liunx命令总结（600条）.md]
 last_updated: 2026-05-19
 ---
 

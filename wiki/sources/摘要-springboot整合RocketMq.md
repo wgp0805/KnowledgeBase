@@ -2,7 +2,7 @@
 title: "摘要-springboot整合RocketMq"
 type: source
 tags: [来源, SpringBoot, RocketMQ]
-sources: [raw/01-articles/springboot整合RocketMq.md]
+sources: [raw/09-archive/springboot整合RocketMq.md]
 last_updated: 2026-05-19
 ---
 

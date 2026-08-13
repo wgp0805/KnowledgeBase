@@ -2,7 +2,7 @@
 title: "A2A"
 type: concept
 tags: [AI, Agent, 协议, 通信]
-sources: [raw/01-articles/JAVA中AI框架选型指南（2026）.md]
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md]
 last_updated: 2026-06-08
 ---
 

@@ -2,7 +2,7 @@
 title: "推荐一个节省token的AI编程神器"
 type: source
 tags: [AI, Agent, Pi, token优化, 终端编程, TypeScript扩展]
-sources: [raw/01-articles/推荐一个节省token的AI编程神器！.md]
+sources: [raw/09-archive/推荐一个节省token的AI编程神器！.md]
 last_updated: 2026-08-12
 ---
 

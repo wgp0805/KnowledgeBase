@@ -2,7 +2,7 @@
 title: "摘要-理解JavaScript的async-await"
 type: source
 tags: [来源, JavaScript]
-sources: [raw/01-articles/理解JavaScript的async-await.md]
+sources: [raw/09-archive/理解JavaScript的async-await.md]
 last_updated: 2026-05-19
 ---
 

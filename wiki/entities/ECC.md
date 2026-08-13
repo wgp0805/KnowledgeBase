@@ -2,7 +2,7 @@
 title: "ECC"
 type: entity
 tags: [AI, Claude-Code, OpenCode, Agent, 增强框架]
-sources: [raw/09-archive/ECC使用教程.md, raw/01-articles/ECC-OpenCode-使用指南.md]
+sources: [raw/09-archive/ECC使用教程.md, raw/09-archive/ECC-OpenCode-使用指南.md]
 last_updated: 2026-06-26
 ---
 

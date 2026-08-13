@@ -2,7 +2,7 @@
 title: "Ngrok"
 type: entity
 tags: [网络, 内网穿透, SaaS, 开发工具]
-sources: [raw/01-articles/常见内网穿透工具，收好了！.md]
+sources: [raw/09-archive/常见内网穿透工具，收好了！.md]
 last_updated: 2026-08-12
 ---
 

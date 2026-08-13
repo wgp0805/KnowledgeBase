@@ -2,7 +2,7 @@
 title: "Husky"
 type: entity
 tags: [Git, 工具, Git钩子, 工程化]
-sources: [raw/01-articles/一线大厂的Git规范.md]
+sources: [raw/09-archive/一线大厂的Git规范.md]
 last_updated: 2026-08-10
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-idea控制台输出中文乱码"
 type: source
 tags: [来源, IntelliJIDEA]
-sources: [raw/01-articles/idea控制台输出中文乱码.md]
+sources: [raw/09-archive/idea控制台输出中文乱码.md]
 last_updated: 2026-05-19
 ---
 

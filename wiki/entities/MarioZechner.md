@@ -2,7 +2,7 @@
 title: "MarioZechner"
 type: entity
 tags: [人物, 开发者, Pi, libGDX, 游戏引擎]
-sources: [raw/01-articles/推荐一个节省token的AI编程神器！.md]
+sources: [raw/09-archive/推荐一个节省token的AI编程神器！.md]
 last_updated: 2026-08-12
 ---
 

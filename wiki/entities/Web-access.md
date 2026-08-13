@@ -2,7 +2,7 @@
 title: "Web-access"
 type: entity
 tags: [实体, Skill, 浏览器控制]
-sources: [raw/01-articles/分享8个codex必装的skill，让你的AI能力起飞！.md]
+sources: [raw/09-archive/分享8个codex必装的skill，让你的AI能力起飞！.md]
 last_updated: 2026-06-23
 ---
 

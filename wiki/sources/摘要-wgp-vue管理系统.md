@@ -2,7 +2,7 @@
 title: "摘要-wgp-vue管理系统"
 type: source
 tags: [来源, Vue]
-sources: [raw/01-articles/wgp-vue管理系统.md]
+sources: [raw/09-archive/wgp-vue管理系统.md]
 last_updated: 2026-05-19
 ---
 

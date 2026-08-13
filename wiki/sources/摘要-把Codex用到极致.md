@@ -2,7 +2,7 @@
 title: "摘要-把Codex用到极致"
 type: source
 tags: [Codex, AI Agent, OpenAI, 工作系统]
-sources: [raw/01-articles/如何把Codex用到极致.md]
+sources: [raw/09-archive/如何把Codex用到极致.md]
 last_updated: 2026-06-02
 ---
 

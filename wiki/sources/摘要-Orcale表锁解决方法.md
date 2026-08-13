@@ -2,7 +2,7 @@
 title: "摘要-Orcale表锁解决方法"
 type: source
 tags: [来源, Oracle]
-sources: [raw/01-articles/Orcale表锁解决方法.md]
+sources: [raw/09-archive/Orcale表锁解决方法.md]
 last_updated: 2026-05-19
 ---
 

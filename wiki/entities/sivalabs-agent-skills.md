@@ -2,7 +2,7 @@
 title: "sivalabs-agent-skills"
 type: entity
 tags: [AI Skill, 业务技能封装, Spring AI, 企业级]
-sources: [raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md]
+sources: [raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md]
 last_updated: 2026-05-22
 ---
 

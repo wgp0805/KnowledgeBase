@@ -2,7 +2,7 @@
 title: "摘要-claude-code-springboot-skills"
 type: source
 tags: [来源, Claude Code, Spring Boot, AI Skill]
-sources: [raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md]
+sources: [raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md]
 last_updated: 2026-05-22
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-为什么Skill才是未来的资产"
 type: source
 tags: [来源, 原始文件, AI, Agent, Skill, Prompt]
-sources: [raw/01-articles/为什么Skill才是未来的资产.md]
+sources: [raw/09-archive/为什么Skill才是未来的资产.md]
 last_updated: 2026-08-11
 ---
 

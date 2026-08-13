@@ -2,7 +2,7 @@
 title: "Seata"
 type: entity
 tags: [分布式事务, 阿里巴巴, Java, 中间件]
-sources: [raw/01-articles/面试官：分库分表后会带来哪些问题？你能答上来几个？.md]
+sources: [raw/09-archive/面试官：分库分表后会带来哪些问题？你能答上来几个？.md]
 last_updated: 2026-07-23
 ---
 

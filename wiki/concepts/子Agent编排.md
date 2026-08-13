@@ -2,7 +2,7 @@
 title: "子Agent编排"
 type: concept
 tags: [AI概念, 多智能体, 任务委派]
-sources: [raw/01-articles/AgentScopeJava2.0正式发布了！.md, raw/01-articles/AgentScope入门指南.md]
+sources: [raw/09-archive/AgentScopeJava2.0正式发布了！.md, raw/09-archive/AgentScope入门指南.md]
 last_updated: 2026-07-22
 ---
 

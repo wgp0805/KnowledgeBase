@@ -2,7 +2,7 @@
 title: "摘要-jsonpath解析复杂json"
 type: source
 tags: [来源, JSON]
-sources: [raw/01-articles/jsonpath解析复杂json.md]
+sources: [raw/09-archive/jsonpath解析复杂json.md]
 last_updated: 2026-05-19
 ---
 

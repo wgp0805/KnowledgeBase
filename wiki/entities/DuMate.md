@@ -2,7 +2,7 @@
 title: "DuMate"
 type: entity
 tags: [AI工具, Agent, 百度, 办公]
-sources: [raw/01-articles/用好Agent，先从这4招开始！【小白教程】.md]
+sources: [raw/09-archive/用好Agent，先从这4招开始！【小白教程】.md]
 last_updated: 2026-08-10
 ---
 

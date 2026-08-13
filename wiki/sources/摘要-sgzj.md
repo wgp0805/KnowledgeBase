@@ -2,7 +2,7 @@
 title: "摘要-sgzj"
 type: source
 tags: [来源, 个人]
-sources: [raw/01-articles/sgzj.md]
+sources: [raw/09-archive/sgzj.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-用好Agent四招"
 type: source
 tags: [Agent, AI办公, 任务分类, 入门教程]
-sources: [raw/01-articles/用好Agent，先从这4招开始！【小白教程】.md]
+sources: [raw/09-archive/用好Agent，先从这4招开始！【小白教程】.md]
 last_updated: 2026-08-10
 ---
 

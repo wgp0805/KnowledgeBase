@@ -2,7 +2,7 @@
 title: "Pod"
 type: concept
 tags: [Kubernetes, 容器编排, 调度]
-sources: [raw/01-articles/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md]
+sources: [raw/09-archive/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md]
 last_updated: 2026-06-09
 ---
 

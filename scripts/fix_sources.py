@@ -30,20 +30,19 @@ def fix_file(path, apply):
     rest = content[end:]
     changes = []
     new_lines = []
+    path_re = re.compile(r'raw/[^\s\]"\'\)\|,\]]+?\.(?:md|pdf|json)')
+    def repl(m):
+        src = m.group(0)
+        full = os.path.join(KB, src)
+        if not os.path.exists(full):
+            basename = os.path.basename(src)
+            if basename in archive_index:
+                new_src = "raw/" + archive_index[basename]
+                changes.append((src, new_src))
+                return new_src
+        return src
     for line in fm.split("\n"):
-        m = re.match(r'^(\s*-\s+)(.+)$', line)
-        if m and ("/" in m.group(2) or m.group(2).endswith((".md", ".pdf", ".json"))):
-            prefix, src = m.group(1), m.group(2).strip().strip('"\'')
-            full = os.path.join(KB, src)
-            if not os.path.exists(full):
-                basename = os.path.basename(src)
-                if basename in archive_index:
-                    new_src = "raw/" + archive_index[basename]
-                    new_line = f'{prefix}{new_src}'
-                    changes.append((src, new_src))
-                    new_lines.append(new_line)
-                    continue
-        new_lines.append(line)
+        new_lines.append(path_re.sub(repl, line))
     if changes and apply:
         new_fm = "\n".join(new_lines)
         open(path, "w", encoding="utf-8").write("---" + new_fm + rest)

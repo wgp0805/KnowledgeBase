@@ -2,7 +2,7 @@
 title: "摘要-maven"
 type: source
 tags: [来源, Maven, 构建工具]
-sources: [raw/01-articles/Maven依赖管理项目构建工具.md]
+sources: [raw/09-archive/Maven依赖管理项目构建工具.md]
 last_updated: 2026-05-22
 ---
 

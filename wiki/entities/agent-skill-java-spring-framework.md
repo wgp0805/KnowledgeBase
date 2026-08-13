@@ -2,7 +2,7 @@
 title: "agent-skill-java-spring-framework"
 type: entity
 tags: [AI Skill, Spring Framework, 编码规范, Spring 7]
-sources: [raw/01-articles/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md]
+sources: [raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md]
 last_updated: 2026-05-22
 ---
 

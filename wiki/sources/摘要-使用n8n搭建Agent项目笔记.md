@@ -2,7 +2,7 @@
 title: "摘要-使用n8n搭建Agent项目笔记"
 type: source
 tags: [来源, AI, n8n]
-sources: [raw/01-articles/使用n8n搭建Agent项目笔记.md]
+sources: [raw/09-archive/使用n8n搭建Agent项目笔记.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-microservice-governance"
 type: source
 tags: [来源, 原始文件, 微服务治理]
-sources: [raw/02-papers/微服务治理技术白皮书.pdf]
+sources: [raw/09-archive/微服务治理技术白皮书.pdf]
 last_updated: 2026-05-22
 ---
 

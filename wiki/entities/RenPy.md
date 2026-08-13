@@ -2,7 +2,7 @@
 title: "RenPy"
 type: entity
 tags: [实体, 游戏引擎, 文字冒险]
-sources: [raw/01-articles/利用AI编程工具Codex，我制作了一款中国风文字冒险游戏.md]
+sources: [raw/09-archive/利用AI编程工具Codex，我制作了一款中国风文字冒险游戏.md]
 last_updated: 2026-06-23
 ---
 

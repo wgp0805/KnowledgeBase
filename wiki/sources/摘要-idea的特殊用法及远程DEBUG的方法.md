@@ -2,7 +2,7 @@
 title: "摘要-idea的特殊用法及远程DEBUG的方法"
 type: source
 tags: [来源, IntelliJIDEA]
-sources: [raw/01-articles/idea的特殊用法及远程DEBUG的方法.md]
+sources: [raw/09-archive/idea的特殊用法及远程DEBUG的方法.md]
 last_updated: 2026-05-19
 ---
 

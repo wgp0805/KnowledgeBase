@@ -2,7 +2,7 @@
 title: "GLM"
 type: entity
 tags: [AI, 模型, 智谱]
-sources: [raw/01-articles/国产大模型跑分一个比一个高，到底谁能真的干活？.md]
+sources: [raw/09-archive/国产大模型跑分一个比一个高，到底谁能真的干活？.md]
 last_updated: 2026-06-29
 ---
 

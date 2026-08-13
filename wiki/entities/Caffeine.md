@@ -2,7 +2,7 @@
 title: "Caffeine"
 type: entity
 tags: [实体, 缓存, Java, 本地缓存]
-sources: [raw/01-articles/面试经典：如何设计高并发短链接系统.md]
+sources: [raw/09-archive/面试经典：如何设计高并发短链接系统.md]
 last_updated: 2026-08-05
 ---
 

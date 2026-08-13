@@ -2,7 +2,7 @@
 title: "Distro协议"
 type: concept
 tags: [一致性协议, 微服务, 服务发现, Nacos]
-sources: [raw/01-articles/为什么越来越多人用Nacos？.md]
+sources: [raw/09-archive/为什么越来越多人用Nacos？.md]
 last_updated: 2026-08-05
 ---
 

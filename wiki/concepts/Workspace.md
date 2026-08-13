@@ -2,7 +2,7 @@
 title: "Workspace"
 type: concept
 tags: [AI概念, 文件驱动, 架构设计]
-sources: [raw/01-articles/AgentScopeJava2.0正式发布了！.md, raw/01-articles/AgentScope入门指南.md]
+sources: [raw/09-archive/AgentScopeJava2.0正式发布了！.md, raw/09-archive/AgentScope入门指南.md]
 last_updated: 2026-07-22
 ---
 

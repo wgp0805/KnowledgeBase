@@ -2,7 +2,7 @@
 title: "Xuan_酱"
 type: entity
 tags: [B站, UP主, 知识库, Codex]
-sources: [raw/03-transcripts/Codex联动Obsidian搭建卡帕西同款知识库教程.md]
+sources: [raw/09-archive/Codex联动Obsidian搭建卡帕西同款知识库教程.md]
 last_updated: 2026-07-03
 ---
 

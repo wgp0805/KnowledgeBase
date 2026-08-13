@@ -2,7 +2,7 @@
 title: "meta-skill"
 type: concept
 tags: [AI, Agent, 元技能, 技能扩展]
-sources: [raw/02-papers/skill-creator使用与优化指南.pdf]
+sources: [raw/09-archive/skill-creator使用与优化指南.pdf]
 last_updated: 2026-05-20
 ---
 
