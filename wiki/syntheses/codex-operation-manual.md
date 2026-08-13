@@ -20,7 +20,7 @@ last_updated: 2026-08-06
 
 [[Codex]] 是 **OpenAI 官方出品的桌面端 AI Agent**，它不是简单的"聊天窗口"，而是能理解项目、操作文件系统、运行命令行、调用浏览器、连接外部服务的"AI 干活系统"。
 
-**核心定位**：从编程 Agent 进化为[[把Codex用到极致|电脑工作系统]]（Computer Work System），三大支柱：
+**核心定位**：从编程 Agent 进化为电脑工作系统（Computer Work System），三大支柱：
 - **长线程（durable threads）**：持久上下文，工作不必每次重来
 - **工具接入**：浏览器/Chrome/Computer Use/MCP/Skills 扩展操作范围
 - **验证器（validators）**：长任务有可度量的完成标准
@@ -281,11 +281,11 @@ my-project/
 - [[Skill]] — 可复用流程封装
 - [[MCP]] — 外部服务连接协议
 - [[Worktree]] — 隔离工作区
-- [[automations]] — 自动化任务
+- automations — 自动化任务（功能名，非 wiki 页）
 - [[苏三]] — 多位技巧来源作者
 - [[ClaudeCode]] — 多模型协作的审查工具
 - [[OpenAI]] — Codex 所属公司
-- [[把Codex用到极致]] — 三大支柱深度解读
+- 把Codex用到极致 — 三大支柱深度解读（外部资料，非 wiki 页）
 - [[摘要-再见吧-codex]] — 7 步工作流来源
 - [[摘要-AI-agent工具应该怎么使用]] — 9 条最佳实践来源
 - [[摘要-codex-97percent-技巧]] — 10 条技巧来源

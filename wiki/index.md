@@ -291,6 +291,11 @@
 - [[摘要-langchain-rag构建知识库-理论]] — LangChain RAG 构建知识库理论篇：Loader/Splitter/Embeddings/VectorStore/Retriever 五件套，MinerU 解析 PDF
 
 ## Entities
+- [[Drools]] — 开源业务规则引擎（BRMS），基于 ReteOO/PHREAK，与 jBPM 同属 KIE
+- [[Shiro]] — Apache Java 安全框架，认证/授权/会话/加密，轻量对标 Spring Security
+- [[Zeebe]] — Camunda 8 分布式流程引擎，事件溯源+日志复制，云原生高吞吐
+- [[Remotion]] — 用 React+TS 代码化生成视频的开源框架，组件即帧
+- [[HyperFrames]] — 代码化视频生成框架，与 Remotion 同类
 - [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
 - [[Trellis]] — 跨平台的 AI 编码项目级工作流框架
 - [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
@@ -640,6 +645,10 @@
 - [[Flask]] — Python 微框架，5000 行核心代码 + 扩展系统，极简主义代表作
 
 ## Concepts
+- [[HNSW]] — 分层可导航小世界图，向量近似最近邻检索算法，主流向量库默认索引
+- [[分布式锁]] — 分布式环境跨进程互斥机制，Redis/Zookeeper/数据库三路线
+- [[JavaBean规范]] — Java 可重用组件编码约定，无参构造/getter-setter/Serializable
+- [[brainstorming]] — Superpowers 工作流的发散-收敛环节，动手前探索方案空间
 - [[Apdex]] — 应用性能指数，量化用户体验满意度的 APM 核心指标
 - [[roguelike-game]] — 以随机生成和永久死亡为特色的游戏类型
 - [[jsbridge]] — H5与原生APP之间双向通信的桥梁模式

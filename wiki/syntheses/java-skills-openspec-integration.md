@@ -86,9 +86,9 @@ OpenSpec 与 Java 开发 Skills 的配合，实现了 **"规划先行，规范�
 ## 关联连接
 
 - [[OpenSpec]] — 规范驱动 AI 编程框架
-- [[java-dev]] — Java 开发规范 Skill
-- [[java-spring-framework]] — Spring 框架架构师技能
-- [[spring-boot-skill]] — Spring Boot 应用构建技能
+- java-dev — Java 开发规范 Skill（skill 名，非 wiki 页）
+- java-spring-framework — Spring 框架架构师技能（skill 名）
+- spring-boot-skill — Spring Boot 应用构建技能（skill 名）
 - [[规范驱动开发]] — 上层方法论
 - [[Superpowers]] — 兄弟方案，管"怎么干"
 - [[SpecKit]] — 兄弟方案，让规范可执行

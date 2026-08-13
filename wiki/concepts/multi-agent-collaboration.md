@@ -128,7 +128,7 @@ Reviewer ──> review.md
 - [[role-isolation]] — 角色隔离机制（工具白名单 + 硬约束）
 - [[adversarial-review]] — 对抗性评审（防"互相包容"）
 - [[subagent-driven-development]] — 子代理驱动开发
-- [[skill-creator]] — 技能创建与封装机制
+- skill-creator — 技能创建与封装机制（skill 名，非 wiki 页）
 - [[Agent工作流编排]] — 状态图与多 Agent 流程编排方法论
 
 ## 关联连接
