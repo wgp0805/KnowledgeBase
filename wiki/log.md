@@ -1,3 +1,9 @@
+## [2026-08-13] lint | 修复 lint 报告全部问题
+- **sources 回写**: 脚本 scripts/fix_sources.py，65 文件 195 处 raw/01-articles→raw/09-archive（前缀修正后批量回写）
+- **误链去双链**: 7 处（multi-agent-collaboration 的 skill-creator；java-skills-openspec-integration 的 java-dev/java-spring-framework/spring-boot-skill；codex-operation-manual 的 把Codex用到极致/automations×2）
+- **补建概念/实体页**: 9 个 [[Drools]] [[Shiro]] [[Zeebe]] [[HNSW]] [[分布式锁]] [[JavaBean规范]] [[Remotion]] [[HyperFrames]] [[brainstorming]]，已收录 [[index.md]]（Entities +5 / Concepts +4）
+- **结果**: 死链 43→31（剩余全为 log.md 历史噪音，保留）；sources 缺失 208→13（剩余 archive 真无同名文件，待确认原文件去向）；健康度 95.7%→96.9%
+
 ## [2026-08-13] lint | 全局 wiki 健康扫描
 - **工具**: 新增 scripts/lint_wiki.py（可复用 lint 脚本，扫描孤岛/死链/sources缺失/stem冲突）
 - **结果**: 998 页；孤岛 0；死链 43（log 噪音 ~25 + 内容页真死链 ~15）；同名 stem 冲突 0；frontmatter sources 缺失 208（根因：ingest 归档 raw/01-articles→raw/09-archive 后未回写路径，已抽查验证）；健康度 95.7%

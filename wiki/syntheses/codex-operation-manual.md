@@ -120,7 +120,7 @@ my-project/
 | ⑤ 插件系统 | Browser Use / Computer Use / Chrome 插件 |
 | ⑥ [[Skill]] 流程沉淀 | 把反复做的流程固定为 Skill |
 | ⑦ [[MCP]] 外部服务 | 连接 GitHub / Notion / Linear / 数据库 |
-| ⑧ [[automations\|自动化任务]] | 定时收集信息、检查项目、生成报告 |
+| ⑧ 自动化任务 | 定时收集信息、检查项目、生成报告 |
 
 ## 六、必装 Skill 推荐
 

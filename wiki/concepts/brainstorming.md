@@ -3,7 +3,7 @@ title: "brainstorming"
 type: concept
 tags: [Superpowers, 工作流, 发散收敛, AI编程]
 sources:
-  - wiki/concepts/GrillMe.md
+  - wiki/entities/GrillMe.md
   - wiki/sources/摘要-superpowers-grill-me怎么选.md
 last_updated: 2026-08-13
 ---
