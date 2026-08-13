@@ -1,3 +1,9 @@
+## [2026-08-13] ingest | 整理 6 篇待摄取文档入 wiki
+- **变更**: 新增 sources [[摘要-ruoyi-ai平台]] [[摘要-多agent统一UI工具]] [[摘要-多模型横评-evox]] [[摘要-手搓claude-code-面试]] [[摘要-loop-vs-prompt-engineering]] [[摘要-skills-vs-prompt-辨析]]; 新增 entities [[RuoYiAI]] [[AionUi]] [[EvoX]] [[RuoYi-Vue-Plus]]; 更新 [[index.md]]（Sources +6 / Entities +4）
+- **归档**: 6 篇 raw/01-articles → raw/09-archive（RuoYi AI / AionUi 多Agent UI / EvoX 多模型横评 / 手搓Claude Code / Loop vs Prompt / Skills vs Prompt）
+- **附带修复**: fix_sources.py 升级正则版（支持单行 sources 格式），回写 sources 路径 462 处（旧版仅回写 195 处，漏单行格式 267 处）；补建 [[RuoYi-Vue-Plus]] 消除 RuoYiAI 引入的死链
+- **冲突**: 无
+
 ## [2026-08-13] lint | 修复 lint 报告全部问题
 - **sources 回写**: 脚本 scripts/fix_sources.py，65 文件 195 处 raw/01-articles→raw/09-archive（前缀修正后批量回写）
 - **误链去双链**: 7 处（multi-agent-collaboration 的 skill-creator；java-skills-openspec-integration 的 java-dev/java-spring-framework/spring-boot-skill；codex-operation-manual 的 把Codex用到极致/automations×2）

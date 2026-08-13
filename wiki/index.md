@@ -1,6 +1,12 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-ruoyi-ai平台]] — 若依扩展的全栈 AI 平台，Spring Boot 3.4 + Spring AI + Langchain4j，本地 RAG/Agent Skills/流程编排
+- [[摘要-多agent统一UI工具]] — AionUi 开源多 Agent 桌面应用，统一 UI 整合 OpenClaw/Claude Code/Codex 等 CLI
+- [[摘要-多模型横评-evox]] — EvoX 蜂群模式 + DeepSeek V4 Flash/GLM-5.2/GPT-5.6 Sol 多模型横评
+- [[摘要-手搓claude-code-面试]] — 面试视角拆解 learn-claude-code 架构，手搓类 Claude Code Agent
+- [[摘要-loop-vs-prompt-engineering]] — 面试辨析 Prompt/Context/Harness/Loop Engineering 范式演进
+- [[摘要-skills-vs-prompt-辨析]] — 面试辨析 Skills 与 Prompt 本质差异：沉淀/复用/进化三能力
 - [[摘要-fastcode-hkuds-codebase-understanding]] — 港大 HKUDS 开源 FastCode 代码库理解框架，Scouting-First 策略
 - [[摘要-rocketmq-接入ai]] — RocketMQ 5.5.0 接入 AI：LiteTopic 支撑 Multi-Agent 异步通信与会话管理
 - [[摘要-try-catch-异常边界]] — try catch 放 for 内外的本质是异常边界，兼谈事务/性能三坑
@@ -291,6 +297,10 @@
 - [[摘要-langchain-rag构建知识库-理论]] — LangChain RAG 构建知识库理论篇：Loader/Splitter/Embeddings/VectorStore/Retriever 五件套，MinerU 解析 PDF
 
 ## Entities
+- [[RuoYi-Vue-Plus]] — 若依增强版开源脚手架，多租户/数据权限/SaaS，Java 二开常用基座
+- [[RuoYiAI]] — 若依扩展的开源全栈 AI 平台，Spring Boot 3.4 + Spring AI + Langchain4j
+- [[AionUi]] — iOfficeAI 开源多 Agent 桌面应用，统一 UI 整合 OpenClaw/Claude Code/Codex 等 CLI
+- [[EvoX]] — EvoMap 蜂群模式 Agent 工具，多模型热切与联网自进化
 - [[Drools]] — 开源业务规则引擎（BRMS），基于 ReteOO/PHREAK，与 jBPM 同属 KIE
 - [[Shiro]] — Apache Java 安全框架，认证/授权/会话/加密，轻量对标 Spring Security
 - [[Zeebe]] — Camunda 8 分布式流程引擎，事件溯源+日志复制，云原生高吞吐
