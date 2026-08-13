@@ -1,3 +1,11 @@
+## [2026-08-13] ingest | 清理 raw/01-articles 重复剪藏副本
+- **变更**: 无新增内容（两篇文章均已在历史 ingest 中编译入 wiki）
+- **归档**: 2 篇重复剪藏副本处理完毕
+  - `DeepSeek员工：Harness开始内测...md` — archive 中已存在同名文件，直接删除 01-articles 中的副本（原摄取记录见 2026-08-06，source [[摘要-deepseek-harness内测]]）
+  - `ReAct、Function Calling、Skills.md` — 为 `面试官皱眉："让你负责一个生产级 Agent，你会怎么设计？"...md` 的短文件名副本，内容完全相同，已移动至 archive（原摄取记录见 2026-07-24，source [[摘要-生产级Agent设计]]）
+- **冲突**: 无
+- **结果**: raw/01-articles/ 已清空，raw/02-papers/ 和 raw/03-transcripts/ 无待处理文件
+
 ## [2026-08-13] ingest | 整理 6 篇待摄取文档入 wiki
 - **变更**: 新增 sources [[摘要-ruoyi-ai平台]] [[摘要-多agent统一UI工具]] [[摘要-多模型横评-evox]] [[摘要-手搓claude-code-面试]] [[摘要-loop-vs-prompt-engineering]] [[摘要-skills-vs-prompt-辨析]]; 新增 entities [[RuoYiAI]] [[AionUi]] [[EvoX]] [[RuoYi-Vue-Plus]]; 更新 [[index.md]]（Sources +6 / Entities +4）
 - **归档**: 6 篇 raw/01-articles → raw/09-archive（RuoYi AI / AionUi 多Agent UI / EvoX 多模型横评 / 手搓Claude Code / Loop vs Prompt / Skills vs Prompt）
