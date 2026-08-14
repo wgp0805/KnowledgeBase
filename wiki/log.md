@@ -1,3 +1,7 @@
+## [2026-08-14] query | opencode 是否有 /loop 命令
+- **输出**: 即时回答未保存
+- **引用**: [[OpenCode]], [[ClaudeCode]], [[摘要-loop-vs-prompt-engineering]], [[摘要-opencode-架构演进剖析]]
+
 ## [2026-08-14] ingest | 千万级大表新增字段方案 + 企业智能招聘系统
 - **变更**: 新增 [[摘要-千万级大表新增字段方案]], [[摘要-企业智能招聘系统]]; 新增概念 [[OnlineDDL]], [[PT-OSC]], [[GhOst]], [[双写迁移]], [[多智能体编排]], [[LLM网关]], [[电子签章]], [[虚拟线程]]; 增量更新 [[MySQL]]（千万级大表 DDL 6 方案）, [[AgentScope_Java]]（企业招聘系统实战）, [[SpringBoot]]（4.1+Java25 虚拟线程实战）; 更新 [[index.md]]
 - **冲突**: 无
