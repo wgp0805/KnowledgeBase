@@ -57,6 +57,7 @@ MySQL 是最流行的开源关系型数据库管理系统之一，以高性能�
 - 时间段查询：CURDATE()、DATE_FORMAT()、YEAR()/MONTH() 等日期函数
 - CPU 过高排查：通过 performance_schema 关联 SQL 语句
 - Docker 容器化部署支持数据持久化
+- **千万级大表 DDL**：6 种方案应对锁表风险——原生 Online DDL（<1亿行）、停机维护（<100GB）、PT-OSC（触发器）、双写迁移（金融级10亿+）、gh-ost（无触发器TB级）、分区滑动窗口（日志表）。加字段前优先用 JSON 字段预扩展，万亿级表应分库分表
 
 ## 关联连接
 - [[MyBatisPlus]] — ORM 框架
@@ -74,3 +75,8 @@ MySQL 是最流行的开源关系型数据库管理系统之一，以高性能�
 - [[摘要-Orcale创建用户和表空间授权过程]] — 记录 Oracle 数据库中创建表空间、创建用户及授权（CO…
 - [[摘要-trunc函数用法]] — 介绍 Oracle 数据库中 TRUNC 函数的两种用法：截…
 - [[摘要-mysql查询cpu占用过高的方法]] — 介绍定位 MySQL CPU 占用过高问题的排查方法，通过操…
+- [[摘要-千万级大表新增字段方案]] — 千万级大表新增字段 6 种方案对比（Online DDL/停机/PT-OSC/双写/gh-ost/分区）
+- [[OnlineDDL]] — MySQL 在线表结构变更机制
+- [[PT-OSC]] — Percona 在线表结构变更工具
+- [[GhOst]] — GitHub 无触发器在线表结构变更工具
+- [[双写迁移]] — 金融级零停机数据迁移方案

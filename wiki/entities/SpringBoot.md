@@ -100,3 +100,5 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 - [[摘要-spring-boot-4.1-发布]] — Spring Boot 4.1.0 新特性详解
 - [[摘要-springboot获取真实客户端ip]] — SpringBoot 获取真实客户端 IP 方案
 - [[摘要-总结一次线上事故的惨痛教训]] — 接口类型变更导致P0事故教训
+- [[摘要-企业智能招聘系统]] — 来源（Spring Boot 4.1 + Java 25 虚拟线程微服务实战）
+- [[虚拟线程]] — Java 25 高并发 IO 利器

@@ -1,3 +1,8 @@
+## [2026-08-14] ingest | 千万级大表新增字段方案 + 企业智能招聘系统
+- **变更**: 新增 [[摘要-千万级大表新增字段方案]], [[摘要-企业智能招聘系统]]; 新增概念 [[OnlineDDL]], [[PT-OSC]], [[GhOst]], [[双写迁移]], [[多智能体编排]], [[LLM网关]], [[电子签章]], [[虚拟线程]]; 增量更新 [[MySQL]]（千万级大表 DDL 6 方案）, [[AgentScope_Java]]（企业招聘系统实战）, [[SpringBoot]]（4.1+Java25 虚拟线程实战）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: 源文件已移动至 raw/09-archive/
+
 ## [2026-08-13] ingest | DeepSeek V4 Pro 正式版发布 + Harness 最后内测 + 12 道 Agent 面试题
 - **变更**: 新增 [[摘要-deepseek-v4-pro-发布-harness-内测]]; 新增概念 [[ResponsesApi]], [[BetterHarness]]; 增量更新 [[DeepSeek]]（V4 Pro 正式版区块）, [[PaiCLI]]（Better Harness 审计工具 + 模型路由模块 + 简历写法）; 更新 [[index.md]]
 - **冲突**: 无（与 [[摘要-deepseek-harness内测]] 2026-08-06 为同系列不同文章，前者讲 Harness 内测消息 + ReAct/Plan-Execute/混合检索/记忆/HITL 面试题，本文讲 V4 Pro 正式版发布 + Pro/Flash 路由/Responses API/版本管理/Better Harness 审计面试题，内容互补无冲突）

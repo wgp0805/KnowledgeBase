@@ -295,6 +295,8 @@
 - [[摘要-为什么越来越多人使用Flowable]] — Flowable 开源 Java 工作流引擎深度解析，对比 Activiti/Camunda/jBPM
 - [[摘要-微服务架构-进程间通信]] — 《微服务架构设计模式》第三章：IPC 同步 RPC 与异步消息、API 治理、事务性发件箱
 - [[摘要-langchain-rag构建知识库-理论]] — LangChain RAG 构建知识库理论篇：Loader/Splitter/Embeddings/VectorStore/Retriever 五件套，MinerU 解析 PDF
+- [[摘要-千万级大表新增字段方案]] — 千万级 MySQL 大表新增字段 6 种方案对比（Online DDL/停机/PT-OSC/双写/gh-ost/分区滑动窗口）
+- [[摘要-企业智能招聘系统]] — 苏三企业级 AI 智能招聘系统（7微服务+11AI Agent+AgentScope 2.0 多智能体编排+Spring Boot 4.1+Java 25 虚拟线程）
 
 ## Entities
 - [[RuoYi-Vue-Plus]] — 若依增强版开源脚手架，多租户/数据权限/SaaS，Java 二开常用基座
@@ -657,6 +659,14 @@
 - [[PiAgent]] — 70K Star 开源 Agent 框架，封装循环管控/上下文工程/工具调用容错等生产级能力
 
 ## Concepts
+- [[OnlineDDL]] — MySQL 5.6+ 在线表结构变更机制（INSTANT/INPLACE/COPY + NONE/SHARED/EXCLUSIVE）
+- [[PT-OSC]] — Percona pt-online-schema-change 触发器式在线表结构变更工具
+- [[GhOst]] — GitHub 无触发器 MySQL 在线表结构变更工具，异步解析 binlog
+- [[双写迁移]] — 金融级零停机数据迁移方案，双写+分批迁移+灰度切换
+- [[多智能体编排]] — 主控 Agent 调度多子 Agent 协作的 AI 架构模式（agent_spawn）
+- [[LLM网关]] — 统一管理多模型调用的中间层（路由/降级/计费/监控）
+- [[电子签章]] — 数字化合同签署流程（手写画板+邮件链接+双签闭环）
+- [[虚拟线程]] — Java 21+/25 轻量级线程，JVM 调度，高 IO 并发利器
 - [[HNSW]] — 分层可导航小世界图，向量近似最近邻检索算法，主流向量库默认索引
 - [[分布式锁]] — 分布式环境跨进程互斥机制，Redis/Zookeeper/数据库三路线
 - [[JavaBean规范]] — Java 可重用组件编码约定，无参构造/getter-setter/Serializable

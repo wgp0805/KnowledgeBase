@@ -89,5 +89,8 @@ Spring AI Alibaba 偏重"AI 能力接入"（RAG、聊天机器人），AgentScop
 - [[摘要-java-ai框架选型指南-2026]] — 来源
 - [[摘要-AgentScopeJava2.0发布]] — 来源
 - [[摘要-AgentScope入门指南]] — 来源（苏三入门实战指南）
+- [[摘要-企业智能招聘系统]] — 来源（企业智能招聘系统实战：HarnessAgent 六维面试评估 + 简历→Offer 五阶段流水线 + agent_spawn 4 子 Agent 协作）
+- [[多智能体编排]] — 多 Agent 协作架构模式
+- [[LLM网关]] — 编排层与模型层解耦基础
 - [[react-loop-explanation]] — ReAct 循环详解
 - [[react-vs-plan-execute]] — ReAct vs Plan-and-Execute 对比分析
