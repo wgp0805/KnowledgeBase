@@ -297,6 +297,7 @@
 - [[摘要-langchain-rag构建知识库-理论]] — LangChain RAG 构建知识库理论篇：Loader/Splitter/Embeddings/VectorStore/Retriever 五件套，MinerU 解析 PDF
 - [[摘要-千万级大表新增字段方案]] — 千万级 MySQL 大表新增字段 6 种方案对比（Online DDL/停机/PT-OSC/双写/gh-ost/分区滑动窗口）
 - [[摘要-企业智能招聘系统]] — 苏三企业级 AI 智能招聘系统（7微服务+11AI Agent+AgentScope 2.0 多智能体编排+Spring Boot 4.1+Java 25 虚拟线程）
+- [[摘要-阿里开源qianwen-ai-skill项目]] — 阿里开源 qianwen-ai Agent 原生多模态 Skill 项目，8 技能一行命令接入 Claude Code
 
 ## Entities
 - [[RuoYi-Vue-Plus]] — 若依增强版开源脚手架，多租户/数据权限/SaaS，Java 二开常用基座
@@ -657,6 +658,7 @@
 - [[Flask]] — Python 微框架，5000 行核心代码 + 扩展系统，极简主义代表作
 - [[Dubbo]] — 阿里巴巴开源高性能 Java RPC 框架，依赖 JavaBean 反射序列化
 - [[PiAgent]] — 70K Star 开源 Agent 框架，封装循环管控/上下文工程/工具调用容错等生产级能力
+- [[QianWen-AI]] — 阿里开源 Agent 原生多模态 AI 技能包，8 技能一行命令接入 Claude Code
 
 ## Concepts
 - [[OnlineDDL]] — MySQL 5.6+ 在线表结构变更机制（INSTANT/INPLACE/COPY + NONE/SHARED/EXCLUSIVE）
@@ -869,6 +871,7 @@
 - [[权限认证框架]] — 将登录认证、权限授权、会话管理等安全逻辑抽象化、标准化、自动化的框架
 - [[分布式会话]] — 将会话数据存储在外部共享存储中的会话管理方案
 - [[核心-插件-适配器模型]] — 分层架构设计模式，将系统划分为核心层、插件层和适配层
+- [[Agent原生多模态]] — Agent 原生多模态设计理念：Agent 自动选模型/调参数/处理报错，用户只管提需求
 
 - [[execution-contract]] — 执行契约，规划与执行之间的可验证锚点
 - [[eight-state-machine]] — spec-superflow 八状态工作流状态机（hotfix/tweak 快速路径）

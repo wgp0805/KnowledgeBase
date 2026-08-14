@@ -2,8 +2,8 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md]
-last_updated: 2026-07-09
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md]
+last_updated: 2026-08-14
 ---
 
 ## 定义
@@ -126,6 +126,11 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
   - 支持 `isolation: 'worktree'` 隔离并行修改
 - **适用场景**：快速审查 PR、多维度研究分析、一次性探索性分析
 - **与 OpenClaw.NET MetaSKILL 对比**：Workflows 灵活度高适合探索，MetaSKILL 安全审计完善适合生产
+
+### 多模态能力扩展 Skill
+- **[[QianWen-AI]]**：阿里开源的 Agent 原生多模态技能包，一行命令 `npx skills add QianWen-AI/qianwen-ai` 接入 Claude Code，补齐图片生成/识别、语音合成、视频生成等多模态短板
+- 8 个技能：认证（/qianwen-ops-auth）、图片生成、视觉理解（/qianwen-vision）、语音合成、视频生成、文本、模型选择、用量查询
+- 详见 [[摘要-阿里开源qianwen-ai-skill项目]]
 
 ### Spring 生态专属 Skill
 - **核心理念**：Claude Code 的上限完全取决于装了什么 Skill
@@ -272,3 +277,5 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 - [[摘要-doubao-seed2-1-pro-douyin]] — 摘要-doubao-seed2-1-pro-douyin
 - [[摘要-claude-code-实战防搞炸]] — 来源（程序汪实战经验）
 - [[auto-mode]] — 权限自动模式
+- [[QianWen-AI]] — 多模态能力扩展 Skill
+- [[摘要-阿里开源qianwen-ai-skill项目]] — 来源

@@ -1,3 +1,8 @@
+## [2026-08-14] ingest | 阿里开源 qianwen-ai 多模态 Skill 项目
+- **变更**: 新增 [[摘要-阿里开源qianwen-ai-skill项目]], [[QianWen-AI]], [[Agent原生多模态]]; 增量更新 [[程序汪]]（qianwen-ai 实测）, [[Qwen]]（多模态生成模型 wan2.6-t2i/t2v、qwen3-tts）, [[DashScope]]（API Key 格式与 .env 配置）, [[ClaudeCode]]（多模态能力扩展 Skill）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: 源文件已移动至 raw/09-archive/
+
 ## [2026-08-14] query | opencode 是否有 /loop 命令
 - **输出**: 即时回答未保存
 - **引用**: [[OpenCode]], [[ClaudeCode]], [[摘要-loop-vs-prompt-engineering]], [[摘要-opencode-架构演进剖析]]
