@@ -1,21 +1,15 @@
-# 每日抓取摘要 - 2026-08-15
+# 每日抓取摘要 - 2026-08-16
 
 | 指标 | 数值 |
 |------|------|
 | 检查条目 | 60 |
-| 新保存 | 3 |
-| 跳过（去重/低分） | 57 |
+| 新保存 | 1 |
+| 跳过（去重/低分） | 59 |
 
 ## 今日新抓取
 
-- [[raw/01-articles/2026-08-15-为什么越来越多人用 Pi ？ - 苏三说技术.md]] - **为什么越来越多人用 Pi ？ - 苏三说技术**
-  - 来源: 博客园 | 评分: 1.0
-
-- [[raw/01-articles/2026-08-15-Deepseek Harness 接glmminimax等其他模型 - 九里九里.md]] - **Deepseek Harness 接glm/minimax等其他模型 - 九里九里**
-  - 来源: 博客园 | 评分: 0.9
-
-- [[raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md]] - **DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实**
-  - 来源: 博客园 | 评分: 0.8
+- [[raw/01-articles/2026-08-16-如何深入学习使用 claude 和codex、qwen 、deepseek harness这类的编辑器？.md]] - **如何深入学习使用 claude 和codex、qwen 、deepseek harness这类的编辑器？**
+  - 来源: SegmentFault | 评分: 0.7
 
 ---
-*自动生成于 2026-08-15 23:00*
+*自动生成于 2026-08-16 23:00*
