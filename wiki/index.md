@@ -659,6 +659,14 @@
 - [[Dubbo]] — 阿里巴巴开源高性能 Java RPC 框架，依赖 JavaBean 反射序列化
 - [[PiAgent]] — 70K Star 开源 Agent 框架，封装循环管控/上下文工程/工具调用容错等生产级能力
 - [[QianWen-AI]] — 阿里开源 Agent 原生多模态 AI 技能包，8 技能一行命令接入 Claude Code
+- [[Pi]] — Mario Zechner 创建的极简开源终端 AI 编程 Agent，系统提示词仅 200 Token，GitHub 8.6 万 Star
+- [[Composio]] — AI Agent 工具集成与基准测试平台，Pi 速度比其他 Coding Agent 快 1.5-2 倍
+- [[Databricks]] — 数据与 AI 平台公司，百万行代码仓库 Agent 测试方
+- [[SOFAStack]] — 蚂蚁集团开源金融级分布式架构，单元化部署（RZone/GZone/CZone）
+- [[MSHA]] — 阿里云异地多活商业产品，基于 SOFAStack 经验
+- [[掉落的果实]] — 技术公众号作者，DeepSeek Harness 完整教程创作者
+- [[ModLens]] — DeepSeek Harness 推荐插件，Token 用量/工具调用/上下文占用可视化
+- [[技术爬爬虾]] — 技术公众号作者，Pi Agent 保姆级全攻略教程创作者
 
 ## Concepts
 - [[OnlineDDL]] — MySQL 5.6+ 在线表结构变更机制（INSTANT/INPLACE/COPY + NONE/SHARED/EXCLUSIVE）
@@ -999,6 +1007,11 @@
 - [[trace-turn]] — Agent 运行基本单位：Trace（完整任务链路）与 Turn（单次模型调用轮次）
 - [[ResponsesApi]] — 有状态的大模型调用接口，引用前一轮 response ID 避免重传历史，tool_calls 结构化返回，更适合 Agent 且降低 Token 成本
 - [[BetterHarness]] — PaiCLI 的 Agent 质量审计工具，三通道并行取证 + 五维度打分，与 DeepSeek Harness（Agent 产品）是不同概念
+- [[异地多活]] — 异地多活架构：异地/多活/业务可用三关键词，CAP 选 AP，单元化核心解法
+- [[单元化架构]] — Cell-based 架构，按用户 ID 哈希划分部署单元，SOFAStack RZone/GZone/CZone
+- [[AgentSkills]] — AI Agent 可复用行为模块标准协议，项目级/全局级存放，跨框架复用
+- [[AGENTS-md]] — AI Agent 跨 Session 记忆机制标准文件，项目级/全局级，Claude Code 积累无缝迁移
+- [[CAP理论]] — 分布式系统基础权衡定理：一致性/可用性/分区容错三者不可兼得，异地多活选 AP
 
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
@@ -1010,6 +1023,14 @@
 - [[摘要-常见内网穿透工具]] — 四种内网穿透工具对比：nps-npc（Web 管理）、frp（轻量高性能）、ew（多级代理链）、ngrok（SaaS 零配置）
 - [[摘要-pi-agent-4工具极简主义]] — Pi Agent（Armin Ronacher）源码剖析：4 个原语工具、~300 词 Prompt、YOLO 模式、自扩展哲学、多模型混合会话
 - [[摘要-deepseek-v4-pro-发布-harness-内测]] — DeepSeek V4 Pro 正式版发布 + Harness 最后内测 + 12 道 Agent 工程面试题（Pro/Flash 路由/Responses API/版本管理/Better Harness 审计）
+- [[摘要-异地多活架构]] — 异地多活架构面试题：CAP 权衡、单元化路由、SOFAStack RZone/GZone/CZone、DTS 数据同步
+- [[摘要-pi-agent-保姆级全攻略]] — Pi Agent 保姆级全攻略（11 章节）：安装/模型配置/指令追加/会话管理/对话树/工具插件/Skills/Web UI/跨 Session 记忆/安全/DIY 插件/源码架构
+- [[摘要-GitHub狂揽8.6万Star-Pi]] — Pi 为何成为 Claude Code 最强平替：200 Token 系统提示词、4 工具极简、不锁模型、兼容已有积累、可扩展
+- [[摘要-为什么越来越多人用Pi-苏三]] — 苏三视角解析 Pi：极简设计哲学、四大原因、毛坯房比喻
+- [[摘要-deepseek-v4-pro-正式版实测]] — DeepSeek V4 Pro 0813 正式版深度实测：跑分提升、编程实测、API 峰谷定价
+- [[摘要-deepseek-harness必装10个插件]] — DeepSeek Harness 必装 10 个插件：ModLens/Code Review/Test Generator/Doc Generator 等
+- [[摘要-deepseek-harness教程-掉落的果实]] — DeepSeek Harness 完整教程：四种运行模式（TUI/Headless/Web UI/SDK）、插件协议、配置文件
+- [[摘要-虚拟线程vs传统线程池]] — 10000 并发任务实测：虚拟线程 1 秒 vs 传统线程池 50 秒，原理/最佳实践/Spring Boot 集成
 
 ## Syntheses
 - [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照

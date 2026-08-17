@@ -2,8 +2,11 @@
 title: "libGDX"
 type: entity
 tags: [游戏引擎, Java, 跨平台, 开源框架]
-sources: [raw/09-archive/推荐一个节省token的AI编程神器！.md]
-last_updated: 2026-08-12
+sources:
+  - raw/09-archive/推荐一个节省token的AI编程神器！.md
+  - raw/01-articles/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md
+  - raw/01-articles/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
+last_updated: 2026-08-17
 ---
 
 ## 定义
@@ -17,3 +20,6 @@ libGDX 是一个基于 Java 的跨平台游戏开发框架，由 Mario Zechner �
 ## 关联连接
 - [[MarioZechner]] — libGDX 作者
 - [[Java]] — libGDX 基于 Java
+- [[Pi]] — Mario Zechner 后续创建的 AI Agent
+- [[摘要-pi-agent-保姆级全攻略]] — 来源
+- [[摘要-GitHub狂揽8.6万Star-Pi]] — 来源
