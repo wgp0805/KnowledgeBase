@@ -3,7 +3,7 @@
   "apiBaseUrl": "https://ob.agentok.top",
   "token": "obs_HZrRQicpGq-R1AraZUJ9wGtTRL5nU1jm5b9EuNSc4bo",
   "userId": "usr_0d0db16fe19a4b06babfa7061407f968",
-  "syncFolder": "微信公众号文章",
+  "syncFolder": "raw/01-articles",
   "deviceName": "Obsidian",
   "syncIntervalMinutes": 1,
   "localizeImages": true,
