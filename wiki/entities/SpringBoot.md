@@ -18,7 +18,8 @@ sources:
   - raw/09-archive/Spring Boot 4.1.0 震撼发布！新特性，惊爆了！.md
   - raw/09-archive/SpringBoot4 新特性：模块化架构.md
   - raw/09-archive/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md
-last_updated: 2026-08-12
+  - raw/01-articles/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
+last_updated: 2026-08-17
 ---
 
 ## 定义
@@ -30,7 +31,7 @@ Spring Boot 是 Spring 框架的自动配置扩展，简化了 Spring 应用的�
 - 自动配置（Auto-Configuration）机制根据 classpath 依赖自动配置 Bean
 - 提供 @SpringBootApplication 组合注解
 - 支持 application.yml/properties 多层次配置
-- 通过 @ConfigurationProperties 绑定配置到 POJO
+- 通过 @ConfigurationProperties 绑定配置到 POJO（支持 Enum/Map/List/嵌套类型，见 [[ConfigurationProperties]]）
 - 支持 profile 多环境切换
 
 ### SpringBoot 4 新特性
@@ -102,3 +103,5 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 - [[摘要-总结一次线上事故的惨痛教训]] — 接口类型变更导致P0事故教训
 - [[摘要-企业智能招聘系统]] — 来源（Spring Boot 4.1 + Java 25 虚拟线程微服务实战）
 - [[虚拟线程]] — Java 25 高并发 IO 利器
+- [[ConfigurationProperties]] — 配置绑定注解（支持 Enum 类型字段）
+- [[摘要-优雅使用Enum提升SpringBoot配置管理效率]] — Enum + @ConfigurationProperties 配置管理实战

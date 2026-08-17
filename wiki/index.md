@@ -298,6 +298,7 @@
 - [[摘要-千万级大表新增字段方案]] — 千万级 MySQL 大表新增字段 6 种方案对比（Online DDL/停机/PT-OSC/双写/gh-ost/分区滑动窗口）
 - [[摘要-企业智能招聘系统]] — 苏三企业级 AI 智能招聘系统（7微服务+11AI Agent+AgentScope 2.0 多智能体编排+Spring Boot 4.1+Java 25 虚拟线程）
 - [[摘要-阿里开源qianwen-ai-skill项目]] — 阿里开源 qianwen-ai Agent 原生多模态 Skill 项目，8 技能一行命令接入 Claude Code
+- [[摘要-优雅使用Enum提升SpringBoot配置管理效率]] — Spring Boot 中 Enum + @ConfigurationProperties 实现类型安全的配置管理实战
 
 ## Entities
 - [[RuoYi-Vue-Plus]] — 若依增强版开源脚手架，多租户/数据权限/SaaS，Java 二开常用基座
@@ -615,6 +616,7 @@
 - [[CocoonAI]] — 架构图生成 Skill 与流程图生成 Skill 的开发团队
 - [[JetBrainsMono]] — JetBrains 出品的开发者字体
 - [[Undertow]] — Red Hat 出品的嵌入式 Web 容器，Spring Boot 4.0 已移除支持
+- [[Thymeleaf]] — Spring Boot 官方推荐的现代服务端模板引擎，自然模板 + th: 指令
 - [[Jetty]] — Eclipse 基金会轻量嵌入式 Web 容器，Spring Boot 4.0 仍支持
 - [[RedHat]] — 开源解决方案提供商，Undertow 主要维护方
 - [[JakartaEE]] — 企业级 Java 平台规范集合（原名 Java EE）
@@ -669,6 +671,8 @@
 - [[技术爬爬虾]] — 技术公众号作者，Pi Agent 保姆级全攻略教程创作者
 
 ## Concepts
+- [[ConfigurationProperties]] — Spring Boot 配置绑定注解，将 yml 属性批量映射到 POJO，支持 Enum/嵌套/校验
+- [[Enum]] — Java 枚举类型，有限常量集合的类型安全表达，配置管理中替代魔法字符串
 - [[OnlineDDL]] — MySQL 5.6+ 在线表结构变更机制（INSTANT/INPLACE/COPY + NONE/SHARED/EXCLUSIVE）
 - [[PT-OSC]] — Percona pt-online-schema-change 触发器式在线表结构变更工具
 - [[GhOst]] — GitHub 无触发器 MySQL 在线表结构变更工具，异步解析 binlog

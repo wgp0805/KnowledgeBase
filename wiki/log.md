@@ -1,3 +1,8 @@
+## [2026-08-17] ingest | Enum + ConfigurationProperties 配置管理
+- **变更**: 新增 [[摘要-优雅使用Enum提升SpringBoot配置管理效率]]; 新增概念 [[ConfigurationProperties]]、[[Enum]]; 新增实体 [[Thymeleaf]]; 增量更新 [[SpringBoot]]（@ConfigurationProperties 支持 Enum 类型字段 + 双链）, [[小哈]]（Enum 配置管理文章）, [[Lombok]]（@Data 配合 @ConfigurationProperties 用法 + 首个 source）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: 源文件已移动至 raw/09-archive/
+
 ## [2026-08-17] ingest | Spring Event 生产环境使用陷阱
 - **变更**: 新增 [[摘要-spring-event-使用陷阱]]; 新增概念 [[SpringEvent]]; 增量更新 [[ApplicationEvent]]（生产环境六大陷阱 + 三种重试方案）, [[Spring]]（Spring Event 生产陷阱摘要）, [[小哈]]（Spring Event 文章）; 更新 [[index.md]]
 - **冲突**: 无

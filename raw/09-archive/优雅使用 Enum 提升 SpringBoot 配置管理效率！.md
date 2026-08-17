@@ -4,7 +4,7 @@ source: "https://mp.weixin.qq.com/s/TM8o96cbBDcKZevS5-qSMw"
 ---
 小哈学Java *2026年8月17日 15:07*
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smpU1waEh7oe7u3T8RkEicJ9pTXDbMj8NwKaZhM36a17ITsvoXoLhUASibXvjReEfWQ9ribjs1taOVqnAlSoc08eh0ElNfp93SndEc/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/%E4%BC%98%E9%9B%85%E4%BD%BF%E7%94%A8%20Enum%20%E6%8F%90%E5%8D%87%20SpringBoot%20%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E6%95%88%E7%8E%87%EF%BC%81/42dc8bcbda19d95edadd38fd505cd90f_MD5.webp)
 
 来源： [https://juejin.cn/post/7459363593475326002](https://juejin.cn/post/7459363593475326002)
 
@@ -23,7 +23,7 @@ source: "https://mp.weixin.qq.com/s/TM8o96cbBDcKZevS5-qSMw"
 
 ---
 
-![优雅使用 Enum](https://mmbiz.qpic.cn/sz_mmbiz_jpg/knmrNHnmCLHicgQQk0sgwiaklLrNv9bFDvthfu8cP040REm1c5AOYc8oaPiczg2VAxxmk2rtqJicztlVnKAtssXj3Q/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![优雅使用 Enum](assets/%E4%BC%98%E9%9B%85%E4%BD%BF%E7%94%A8%20Enum%20%E6%8F%90%E5%8D%87%20SpringBoot%20%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E6%95%88%E7%8E%87%EF%BC%81/26b7f9bf25fc6df583ddcfcb39a36fce_MD5.webp)
 
 优雅使用 Enum
 
@@ -55,7 +55,7 @@ Enum 在 Java 中是一种特殊的数据类型，它允许开发者定义一组
 
 这使得配置管理更加灵活、易于维护，特别是对于较为复杂的配置结构，如枚举值的配置管理。
 
-![配置管理与 Java Enum 应用示意图](https://mmbiz.qpic.cn/sz_mmbiz_jpg/knmrNHnmCLHicgQQk0sgwiaklLrNv9bFDvXhqRb3ZRI8Ft7r7mZ6nsa6zoa8UwoJvXibIZeUkFsm2nuJY3Sf9C13w/640?wx_fmt=other&from=appmsg#imgIndex=2)
+![配置管理与 Java Enum 应用示意图](assets/%E4%BC%98%E9%9B%85%E4%BD%BF%E7%94%A8%20Enum%20%E6%8F%90%E5%8D%87%20SpringBoot%20%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E6%95%88%E7%8E%87%EF%BC%81/370db696a5db62730bdf0ae7a1468e89_MD5.jpg)
 
 配置管理与 Java Enum 应用示意图
 
@@ -377,7 +377,7 @@ public class UserController {
 
 截止目前， **累计输出 150w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4900+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
+![图片](assets/%E4%BC%98%E9%9B%85%E4%BD%BF%E7%94%A8%20Enum%20%E6%8F%90%E5%8D%87%20SpringBoot%20%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E6%95%88%E7%8E%87%EF%BC%81/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. Spring Event 别瞎用！被它坑的绩效都没了！3. 面试官：什么是异地多活？4. 懵了！面试官问我：什么是 IO 密集，什么是 CPU 密集？
