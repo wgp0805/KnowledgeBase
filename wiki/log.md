@@ -1,3 +1,8 @@
+## [2026-08-17] ingest | Spring Event 生产环境使用陷阱
+- **变更**: 新增 [[摘要-spring-event-使用陷阱]]; 新增概念 [[SpringEvent]]; 增量更新 [[ApplicationEvent]]（生产环境六大陷阱 + 三种重试方案）, [[Spring]]（Spring Event 生产陷阱摘要）, [[小哈]]（Spring Event 文章）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: 源文件已移动至 raw/09-archive/
+
 ## [2026-08-17] ingest | 异地多活 + Pi Agent + DeepSeek V4 Pro 实测 + DSH 教程 + 虚拟线程
 - **变更**: 新增 8 个 sources: [[摘要-异地多活架构]], [[摘要-pi-agent-保姆级全攻略]], [[摘要-GitHub狂揽8.6万Star-Pi]], [[摘要-为什么越来越多人用Pi-苏三]], [[摘要-deepseek-v4-pro-正式版实测]], [[摘要-deepseek-harness必装10个插件]], [[摘要-deepseek-harness教程-掉落的果实]], [[摘要-虚拟线程vs传统线程池]]; 新增 9 个 entities: [[Pi]], [[Composio]], [[Databricks]], [[SOFAStack]], [[MSHA]], [[掉落的果实]], [[ModLens]], [[技术爬爬虾]]; 新增 5 个 concepts: [[异地多活]], [[单元化架构]], [[AgentSkills]], [[AGENTS-md]], [[CAP理论]]; 增量更新 [[DeepSeek]]（V4 Pro 实测 + DSH 教程/插件生态）, [[DeepSeekHarness]]（四种运行模式 + 插件协议 + 必装 10 插件）, [[小哈]]（异地多活/V4 Pro 实测/DSH 插件/虚拟线程）, [[程序员追风]]（Pi 解析）, [[苏三]]（Pi 解析）, [[MarioZechner]]（Pi 200 Token/4 工具修正 + 双链修正）, [[libGDX]]（Pi 关联）, [[虚拟线程]]（10000 并发实测 + 最佳实践）, [[Harness]]（DSH 四种运行模式 + 插件协议）; 更新 [[index.md]]
 - **冲突**: 无（文件 3《GitHub狂揽8.6万Star》与文件 6《为什么越来越多人用Pi-苏三》内容高度重复，为同一主题不同来源/详略，已分别建摘要并互相双链标注，无知识冲突）

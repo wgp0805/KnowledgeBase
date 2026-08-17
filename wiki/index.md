@@ -1012,6 +1012,7 @@
 - [[AgentSkills]] — AI Agent 可复用行为模块标准协议，项目级/全局级存放，跨框架复用
 - [[AGENTS-md]] — AI Agent 跨 Session 记忆机制标准文件，项目级/全局级，Claude Code 积累无缝迁移
 - [[CAP理论]] — 分布式系统基础权衡定理：一致性/可用性/分区容错三者不可兼得，异地多活选 AP
+- [[SpringEvent]] — Spring Event 发布订阅机制：应用内解耦，最终一致性场景，生产六大陷阱与三种重试方案
 
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
@@ -1031,6 +1032,7 @@
 - [[摘要-deepseek-harness必装10个插件]] — DeepSeek Harness 必装 10 个插件：ModLens/Code Review/Test Generator/Doc Generator 等
 - [[摘要-deepseek-harness教程-掉落的果实]] — DeepSeek Harness 完整教程：四种运行模式（TUI/Headless/Web UI/SDK）、插件协议、配置文件
 - [[摘要-虚拟线程vs传统线程池]] — 10000 并发任务实测：虚拟线程 1 秒 vs 传统线程池 50 秒，原理/最佳实践/Spring Boot 集成
+- [[摘要-spring-event-使用陷阱]] — Spring Event 生产环境六大陷阱：优雅关闭/启动事件丢失/强一致性不适合/最终一致性适合/三种重试/幂等性
 
 ## Syntheses
 - [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照
