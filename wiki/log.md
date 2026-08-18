@@ -1278,3 +1278,6 @@
 - **变更**: 新增 sources [[摘要-为什么越来越多人用kkFileView]], [[摘要-deepseek-harness命令大全]]; 新增 entities [[kkFileView]], [[LibreOffice]]; 更新 entity [[DeepSeekHarness]]（追加命令速查表与参数顺序铁律）; 更新 [[index.md]]（2 sources + 2 entities）
 - **冲突**: 无。DeepSeek Harness 命令大全与 [[DeepSeekHarness]] 实体中"官方 Entry modes（2026-08-18 核对）"完全一致，相互印证
 - **归档**: raw/01-articles/2026-08-17 - 为什么越来越多人用 kkFileView？.md, raw/01-articles/2026-08-18 - DeepSeek Harness 命令大全.md -> raw/09-archive/
+
+## [2026-08-18] query | 解答 Harness 概念、架构分类与适用场景
+- **输出**: 引用 [[Harness]]、[[AgentHarness]]、[[DeepSeekHarness]]、[[HarnessAgent]]、[[BetterHarness]]、[[MiMoCode]]、[[max-mode]]、[[dynamic-workflow]]、[[loop-vs-harness]]
