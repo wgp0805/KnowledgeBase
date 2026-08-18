@@ -29,19 +29,38 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - 新信息（2026-08-06）：DeepSeek Harness 是用户端 Agent 产品，评测是其中一项用途而非本质
 - **处理结果**：2026-08-06 以新信息覆盖，将评测框架定位降级为次要用途
 
-## 知识冲突（待确认）
-- 旧信息（2026-08-15 教程）：四种运行模式为 TUI / Headless / Web UI / SDK
-- 新信息（2026-08-18 抖音视频）：四种运行模式为 标准模式 / PTC 模式 / 极简模式 / 创造模式
-- **分析**：两组模式命名维度不同——前者按"交互形态"分类（终端/无界面/Web/库），后者按"工具集与行为"分类（完整工具集/TypeScript 批量组合/极简基准/插件实验）。可能同时存在，是不同维度的切面，但需用户确认是否为同一版本的不同表述或版本差异。
+## 知识冲突（已解决，2026-08-18 核对官方文档）
+- 旧信息 A（2026-08-15 教程）：四种运行模式为 TUI / Headless / Web UI / SDK
+- 旧信息 B（2026-08-18 抖音视频）：四种运行模式为 标准模式 / PTC 模式 / 极简模式 / 创造模式
+- **官方文档核对**（2026-08-18，https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/cli/README.md）：
+  - 官方 **Entry modes** 按 profile（配置文件）划分：`dsh --profile <name>`、`dsh --profile headless "job"`、`dsh web`（= `--profile web` 别名）、`dsh plugin --profile <name>`
+  - 官方**没有**"TUI/Headless/Web UI/SDK"四分法，也**没有**"标准/PTC/极简/创造"四分法
+- **处理结果**：两组分类均为第三方归纳，非官方术语
+  - 教程的 TUI/Headless/Web UI 对应官方 profile 概念（web 和 headless 是官方明确 entry mode，TUI 是文档示例中提到的 `--profile tui`，SDK 指独立的 Python SDK 指南）
+  - 抖音视频的标准/PTC/极简/创造更像是**工具集预设（preset）或 profile 配置**，描述的是工具集与行为，而非 entry mode
+  - 两者是**不同维度的切面**：前者按交互形态，后者按工具集配置。已将两组并存并标注来源，以官方 Entry modes 为权威基准
 
-## 四种运行模式（按交互形态，2026-08-15 教程，详见 [[摘要-deepseek-harness教程-掉落的果实]]）
+## 官方 Entry modes（2026-08-18 核对，权威基准）
+| 命令 | 用途 |
+|------|------|
+| `dsh --profile <name>` | 启动命名 profile（位于 `$DSH_HOME/profiles/<name>`） |
+| `dsh --profile headless "job"` | 无界面运行一次性任务，打印最终答案后退出 |
+| `dsh web` | `--profile web` 的别名，启动 Web UI（默认 `http://127.0.0.1:3080`） |
+| `dsh plugin --profile <name> <pnpm args>` | 管理 profile 的插件（转发给 pnpm） |
+
+- 调用目录是默认工作区根目录
+- `web` 和 `headless` profile 首次使用时从内置模板自动初始化
+- 其他 profile 必须通过 `dsh plugin` 创建
+- Profile 目录包含 `package.json`（out-of-tree 插件依赖 + `dsh.profile` 清单）、`cordis.patch.yml`（用户补丁层）
+
+## 第三方归纳：按交互形态（2026-08-15 教程，详见 [[摘要-deepseek-harness教程-掉落的果实]]）
 1. **TUI 模式**：终端交互（默认），`dsh` 启动
 2. **Headless 模式**：无界面自动化，`dsh --headless -p "任务"`，适合 CI/CD
 3. **Web UI 模式**：`dsh --web`，浏览器访问，支持可视化调试
 4. **SDK 模式**：作为库嵌入，`import { DSH } from '@deepseek/harness'`
 
-## 四种运行模式（按工具集，2026-08-18 抖音视频，详见 [[摘要-人类智力基线与2张显卡]]）
-| 模式 | 特点 | 适用场景 |
+## 第三方归纳：按工具集预设（2026-08-18 抖音视频，详见 [[摘要-人类智力基线与2张显卡]]）
+| 预设 | 特点 | 适用场景 |
 |------|------|----------|
 | 标准模式 | 完整工具集：文件编辑、Shell、搜索、Skills、子 Agent、工作流 | 日常开发 |
 | PTC 模式 | 模型写 TypeScript 代码一次性组合多步工具调用，大幅省 Token | 批量自动化 |
