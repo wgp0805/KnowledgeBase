@@ -8,6 +8,7 @@ sources:
   - raw/01-articles/DeepSeek Harness必装的10个插件.md
   - raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md
   - raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md
+  - raw/01-articles/2026-08-18 - DeepSeek Harness 命令大全.md
 last_updated: 2026-08-18
 ---
 
@@ -84,6 +85,25 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - 接入本地 [[LlamaCpp]] / [[Ollama]]：Settings → Models → 添加自定义模型 → 填本地地址（如 `http://127.0.0.1:8080/v1`）→ API 协议选 `openai-completions` → 保存即时生效
 - 配合 [[Qwen3.8-27B]] + 2× [[RTX5090]] 构成完全本地 Agent 工作站，详见 [[本地Agent工作站]]
 - 注意：DSH 仍是开发者预览版，会有破坏性变更，不适合直接上生产；Agent 有读写文件/执行 shell 权限，工作区选空测试文件夹
+
+## 命令速查（2026-08-18，详见 [[摘要-deepseek-harness命令大全]]）
+| 命令 | 作用 |
+|------|------|
+| `npx -y @deepseek-ai/dsh web` | 一键启动 Web UI（尝鲜） |
+| `dsh web` | 启动 Web UI（全局安装后） |
+| `dsh --profile <name>` | 启动指定 profile |
+| `dsh --profile headless "任务"` | 一次性任务，跑完退出（适合 CI/CD） |
+| `dsh plugin --profile <name> <pnpm args>` | 管理 profile 插件 |
+| `dsh --help` | 启动器帮助 |
+| `dsh --profile <name> --help` | 该应用参数帮助 |
+| `dsh --dump-default-config` | 打印内置默认配置 |
+| `dsh --dump-config` | 打印叠加后最终配置 |
+| `dsh --patch <file> --profile <name>` | 一次性覆盖层启动 |
+
+- **参数顺序铁律**：启动器参数在前，应用参数在后；从第一个无法识别的 token 起全部归属应用参数
+- **前置条件**：Node.js ≥ 22
+- **版本**：0.1.0-rc.6（开发者预览版，生产谨慎）
+- **Python SDK**：`pip install deepseek-harness` / `deepseek-harness-cli`；MCP 服务器 `npx -y @deepseek-harness/mcp`
 
 ## 关联连接
 - [[DeepSeek]] — 所属公司

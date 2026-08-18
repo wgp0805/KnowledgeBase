@@ -1,0 +1,10 @@
+{
+  "wechat-obsync:obsync-sync-now": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ]
+}

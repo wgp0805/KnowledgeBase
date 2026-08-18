@@ -301,6 +301,8 @@
 - [[摘要-优雅使用Enum提升SpringBoot配置管理效率]] — Spring Boot 中 Enum + @ConfigurationProperties 实现类型安全的配置管理实战
 - [[摘要-人类智力基线与2张显卡]] — 2× RTX 5090 + Qwen3.8-27B + DeepSeek Harness = 完全本地、完全私有、完全免费的 AI Agent 工作站
 - [[摘要-冷备暖备热备]] — 面试视角拆解冷备/暖备/热备：备机状态/数据同步/RTO/RPO/成本五维对比与选型
+- [[摘要-为什么越来越多人用kkFileView]] — kkFileView 文件在线预览方案解析：SpringBoot+LibreOffice+100+格式+Docker 部署
+- [[摘要-deepseek-harness命令大全]] — DeepSeek Harness 的 dsh 命令完整速查：profile/插件/配置/参数顺序铁律
 
 ## Entities
 - [[RuoYi-Vue-Plus]] — 若依增强版开源脚手架，多租户/数据权限/SaaS，Java 二开常用基座
@@ -676,6 +678,8 @@
 - [[Qwen3.8-27B]] — 阿里通义千问 27B 稠密模型，256K 上下文，本地 Agent 部署"甜品点"模型
 - [[RTX5090]] — NVIDIA Blackwell 架构消费级 AI 显卡新标杆，32GB GDDR7，双卡构成本地 Agent 工作站门槛
 - [[LlamaCpp]] — 开源 C++ LLM 推理引擎，提供 OpenAI 兼容 HTTP API，本地部署大模型最常用后端
+- [[kkFileView]] — 基于 Spring Boot 的文件在线预览开源方案，LibreOffice 转换 + 100+ 格式 + Docker 部署，GitHub 9.9k+ Star
+- [[LibreOffice]] — 开源办公套件，kkFileView 底层文档转换引擎
 
 ## Concepts
 - [[冷备暖备热备]] — 高可用容灾三种备份就绪状态，恢复速度 vs 成本的权衡
