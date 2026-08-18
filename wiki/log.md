@@ -1,3 +1,8 @@
+## [2026-08-18] lint | 解决 DeepSeekHarness 运行模式知识冲突
+- **动作**: 核对官方文档（https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/cli/README.md）
+- **结果**: [[DeepSeekHarness]] 知识冲突已解决。官方 Entry modes 按 profile 划分（`dsh --profile <name>` / `dsh --profile headless "job"` / `dsh web` / `dsh plugin --profile <name>`），无"TUI/Headless/Web UI/SDK"四分法，也无"标准/PTC/极简/创造"四分法。两组均为第三方归纳，前者按交互形态（部分对应官方 profile 概念），后者按工具集预设。已将两组并存并标注来源，以官方 Entry modes 为权威基准，新增"官方 Entry modes"段落
+- **冲突**: 1 处已解决（原"待确认"→"已解决"）
+
 ## [2026-08-18] ingest | 人类智力基线与2张显卡（本地 Agent 工作站）
 - **变更**: 新增 [[摘要-人类智力基线与2张显卡]]; 新增实体 [[Qwen3.8-27B]], [[RTX5090]], [[LlamaCpp]]; 新增概念 [[TensorSplit]], [[GGUF量化]], [[本地Agent工作站]]; 增量更新 [[Qwen]]（Qwen3.8-27B 本地部署旗舰 + 双链）, [[DeepSeekHarness]]（2026-08-13 正式开源 + GitHub 涨星记录 + 四种运行模式按工具集分类 + 插件生态 1400+ + 本地部署接入 + 知识冲突待确认）, [[DeepSeek]]（DSH 正式开源 + 本地部署生态）, [[AgentHarness]]（DSH 作为新案例 + 双链）; 更新 [[index.md]]
 - **冲突**: 1 处待确认 — [[DeepSeekHarness]] 四种运行模式存在两组分类：2026-08-15 教程按交互形态（TUI/Headless/Web UI/SDK），2026-08-18 抖音视频按工具集（标准/PTC/极简/创造）。已将两组并存并标注"知识冲突（待确认）"，分析可能为不同维度切面，需用户确认是否为版本差异或不同表述
