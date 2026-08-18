@@ -2,8 +2,8 @@
 title: "Qwen"
 type: entity
 tags: [AI模型, 阿里云, 通义千问, 多模态, 本地微调]
-sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/09-archive/测评国内多模态大模型，到底哪个更省事？.md, raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md, raw/01-articles/2026-07-19-【RAG扫盲系列·3】从零开始构建你的RAG项目第二弹：API 调用大模型问答 - Alkaid2077.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md]
-last_updated: 2026-08-14
+sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/09-archive/测评国内多模态大模型，到底哪个更省事？.md, raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md, raw/01-articles/2026-07-19-【RAG扫盲系列·3】从零开始构建你的RAG项目第二弹：API 调用大模型问答 - Alkaid2077.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md]
+last_updated: 2026-08-18
 ---
 
 ## 定义
@@ -36,6 +36,13 @@ Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Fla
 - 可通过 Ollama（OllamaEmbeddings）本地部署或阿里云 API 使用（见 [[Embeddings]]）
 - 文本向量化服务还有 text-embedding-v3/v4 系列（见 [[DashScope]]）
 
+### 本地 Agent 部署旗舰：Qwen3.8-27B（2026-08-18，详见 [[摘要-人类智力基线与2张显卡]]）
+- 27B 稠密模型，256K 上下文，混合注意力架构（64 层中 48 层线性注意力 Gated DeltaNet + 16 层全注意力），KV cache 大幅缩小
+- Q4 GGUF 约 16.69GB（unsloth UD-Q4_K_XL 动态量化），是本地 Agent 部署的"甜品点"模型
+- 两张 24GB+ 显卡（如 2× RTX 5090）通过 [[TensorSplit]] 即可跑满 256K 上下文
+- 实测：2× RTX 5090 + DSH + llama.cpp，66 tokens/sec，38 步 23 分钟交付完整 3D 体素游戏
+- 详见 [[Qwen3.8-27B]]
+
 ## 关联连接
 - [[摘要-step-3-7-flash-agent横评]] — Coding Agent 横评来源
 - [[摘要-多模态大模型横评-苏三]] — 多模态横评来源
@@ -54,3 +61,9 @@ Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Fla
 - [[DashScope]] — API 平台
 - [[QianWen-AI]] — 通义千问多模态能力打包的 Agent Skill 项目
 - [[摘要-阿里开源qianwen-ai-skill项目]] — 来源
+- [[Qwen3.8-27B]] — 本地 Agent 部署旗舰模型
+- [[摘要-人类智力基线与2张显卡]] — 本地部署实战来源
+- [[本地Agent工作站]] — 应用场景
+- [[RTX5090]] — 配套硬件
+- [[LlamaCpp]] — 推理引擎
+- [[GGUF量化]] — 量化技术

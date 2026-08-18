@@ -2,8 +2,8 @@
 title: "DeepSeek"
 type: entity
 tags: [AI, 模型, 公司]
-sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/09-archive/Ollama+DeepSeek本地部署（新人必看）.md, raw/09-archive/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/2026-07-31-倒反天罡！DeepSeek V4-Flash 正式版悄然上线：130亿激活参数，把自家1.6万亿旗舰「以下克上」 - 小白跃升坊.md, raw/09-archive/DeepSeek员工：Harness开始内测，有plugin、skill、MCP、Agent开源项目者优先，并赠送API额度（附Agent面试题）.md, raw/09-archive/DeepSeek 员工：DeepSeek V4 Pro 正式发布，Harness 也进入最后一个内测版本（附Agent面试题）.md, raw/01-articles/DeepSeek V4 Pro 正式版是夯还是拉？深度实测来了！.md, raw/01-articles/DeepSeek Harness必装的10个插件.md, raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md]
-last_updated: 2026-08-17
+sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md, raw/09-archive/Ollama+DeepSeek本地部署（新人必看）.md, raw/09-archive/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/2026-07-31-倒反天罡！DeepSeek V4-Flash 正式版悄然上线：130亿激活参数，把自家1.6万亿旗舰「以下克上」 - 小白跃升坊.md, raw/09-archive/DeepSeek员工：Harness开始内测，有plugin、skill、MCP、Agent开源项目者优先，并赠送API额度（附Agent面试题）.md, raw/09-archive/DeepSeek 员工：DeepSeek V4 Pro 正式发布，Harness 也进入最后一个内测版本（附Agent面试题）.md, raw/01-articles/DeepSeek V4 Pro 正式版是夯还是拉？深度实测来了！.md, raw/01-articles/DeepSeek Harness必装的10个插件.md, raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md, raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md]
+last_updated: 2026-08-18
 ---
 
 ## 定义
@@ -65,6 +65,12 @@ last_updated: 2026-08-17
 - 必装 10 插件推荐（详见 [[摘要-deepseek-harness必装10个插件]]）：[[ModLens]]、Code Review、Test Generator 等
 - 设计理念："一切皆插件"，工具/技能/MCP/记忆全部通过插件实现
 
+### Harness 正式开源与本地部署生态（2026-08-13 开源，2026-08-18 本地部署实战）
+- **2026-08-13 正式开源**：MIT 协议，TypeScript，基于 Cordis 插件内核，GitHub 史上涨星最快项目（42 小时约 10 万 Star）
+- **不绑定 DeepSeek API**：DSH 认 OpenAI 兼容端点，可接入本地 [[LlamaCpp]] / [[Ollama]] + 任意开源模型（如 [[Qwen3.8-27B]]）
+- **本地 Agent 工作站方案**：2× [[RTX5090]] + Qwen3.8-27B + DSH + llama.cpp = 完全本地、完全私有、完全免费的 AI Agent 工作站，详见 [[本地Agent工作站]]
+- **社区插件爆发**：上线 5 天社区插件已超 1400+，详见 [[摘要-人类智力基线与2张显卡]]
+
 ## 关联连接
 - [[DeepSeekTUI]] — 基于 DeepSeek V4 的终端编程智能体
 - [[Ollama]] — 本地部署 DeepSeek 模型
@@ -91,3 +97,10 @@ last_updated: 2026-08-17
 - [[摘要-deepseek-harness教程-掉落的果实]] — 来源（DSH 完整教程）
 - [[ModLens]] — DSH 推荐插件
 - [[掉落的果实]] — DSH 教程作者
+- [[摘要-人类智力基线与2张显卡]] — 来源（DSH 开源 + 本地部署生态）
+- [[Qwen3.8-27B]] — 本地部署配套模型
+- [[RTX5090]] — 配套硬件
+- [[LlamaCpp]] — 本地推理引擎
+- [[本地Agent工作站]] — 完整本地方案
+- [[TensorSplit]] — 多卡分摊技术
+- [[GGUF量化]] — 模型量化技术

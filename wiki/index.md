@@ -299,6 +299,7 @@
 - [[摘要-企业智能招聘系统]] — 苏三企业级 AI 智能招聘系统（7微服务+11AI Agent+AgentScope 2.0 多智能体编排+Spring Boot 4.1+Java 25 虚拟线程）
 - [[摘要-阿里开源qianwen-ai-skill项目]] — 阿里开源 qianwen-ai Agent 原生多模态 Skill 项目，8 技能一行命令接入 Claude Code
 - [[摘要-优雅使用Enum提升SpringBoot配置管理效率]] — Spring Boot 中 Enum + @ConfigurationProperties 实现类型安全的配置管理实战
+- [[摘要-人类智力基线与2张显卡]] — 2× RTX 5090 + Qwen3.8-27B + DeepSeek Harness = 完全本地、完全私有、完全免费的 AI Agent 工作站
 
 ## Entities
 - [[RuoYi-Vue-Plus]] — 若依增强版开源脚手架，多租户/数据权限/SaaS，Java 二开常用基座
@@ -671,6 +672,9 @@
 - [[技术爬爬虾]] — 技术公众号作者，Pi Agent 保姆级全攻略教程创作者
 - [[CCGUI]] — 开源 JetBrains 插件，把 Claude Code/Codex CLI 接入 IDEA 工具窗口（5.4k Star，MIT）
 - [[ACP]] — JetBrains 官方 Agent Client Protocol，Agent 接入层协议
+- [[Qwen3.8-27B]] — 阿里通义千问 27B 稠密模型，256K 上下文，本地 Agent 部署"甜品点"模型
+- [[RTX5090]] — NVIDIA Blackwell 架构消费级 AI 显卡新标杆，32GB GDDR7，双卡构成本地 Agent 工作站门槛
+- [[LlamaCpp]] — 开源 C++ LLM 推理引擎，提供 OpenAI 兼容 HTTP API，本地部署大模型最常用后端
 
 ## Concepts
 - [[ConfigurationProperties]] — Spring Boot 配置绑定注解，将 yml 属性批量映射到 POJO，支持 Enum/嵌套/校验
@@ -1019,6 +1023,9 @@
 - [[AGENTS-md]] — AI Agent 跨 Session 记忆机制标准文件，项目级/全局级，Claude Code 积累无缝迁移
 - [[CAP理论]] — 分布式系统基础权衡定理：一致性/可用性/分区容错三者不可兼得，异地多活选 AP
 - [[SpringEvent]] — Spring Event 发布订阅机制：应用内解耦，最终一致性场景，生产六大陷阱与三种重试方案
+- [[TensorSplit]] — llama.cpp 多卡分摊技术，按比例切分权重和 KV cache 到多张 GPU，突破单卡显存上限
+- [[GGUF量化]] — 大模型权重压缩到低比特位宽的技术，4bit 是 Agent 长链路任务甜品点，配合 KV cache 量化与多卡分摊
+- [[本地Agent工作站]] — 完全本地运行 AI Agent 工作流的方案，2× RTX 5090 + Qwen3.8-27B + DSH + llama.cpp，数据不出本机无 API 费
 
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验

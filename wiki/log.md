@@ -1,4 +1,9 @@
-## [2026-08-18] ingest | CC GUI JetBrains 插件接入 Claude Code/Codex
+## [2026-08-18] ingest | 人类智力基线与2张显卡（本地 Agent 工作站）
+- **变更**: 新增 [[摘要-人类智力基线与2张显卡]]; 新增实体 [[Qwen3.8-27B]], [[RTX5090]], [[LlamaCpp]]; 新增概念 [[TensorSplit]], [[GGUF量化]], [[本地Agent工作站]]; 增量更新 [[Qwen]]（Qwen3.8-27B 本地部署旗舰 + 双链）, [[DeepSeekHarness]]（2026-08-13 正式开源 + GitHub 涨星记录 + 四种运行模式按工具集分类 + 插件生态 1400+ + 本地部署接入 + 知识冲突待确认）, [[DeepSeek]]（DSH 正式开源 + 本地部署生态）, [[AgentHarness]]（DSH 作为新案例 + 双链）; 更新 [[index.md]]
+- **冲突**: 1 处待确认 — [[DeepSeekHarness]] 四种运行模式存在两组分类：2026-08-15 教程按交互形态（TUI/Headless/Web UI/SDK），2026-08-18 抖音视频按工具集（标准/PTC/极简/创造）。已将两组并存并标注"知识冲突（待确认）"，分析可能为不同维度切面，需用户确认是否为版本差异或不同表述
+- **归档**: 源文件已移动至 raw/09-archive/
+
+
 - **变更**: 新增 [[摘要-cc-gui-jetbrains插件]]; 新增实体 [[CCGUI]], [[ACP]]; 增量更新 [[JetBrains]]（2026.2 AI Assistant 原生接入 Claude Agent/Codex/ACP + Skills/MCP/项目指令/变更回滚）, [[程序汪]]（CC GUI 插件介绍）; 更新 [[index.md]]
 - **冲突**: 无
 - **归档**: 源文件已移动至 raw/09-archive/
