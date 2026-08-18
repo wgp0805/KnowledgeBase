@@ -2,8 +2,8 @@
 title: "JetBrains"
 type: entity
 tags: [实体, 公司, IDE]
-sources: []
-last_updated: 2026-08-03
+sources: [raw/01-articles/IDEA 里跑 Claude Code 和 Codex 的最佳搭子，5.4k Star 开源免费太爽了！.md]
+last_updated: 2026-08-18
 ---
 
 ## 定义
@@ -14,9 +14,12 @@ JetBrains 是知名的软件开发工具公司，出品 IntelliJ IDEA、PyCharm�
 - **AI 产品**：Junie——JetBrains 出品的 AI coding agent（LLM 无关），集成于 IntelliJ IDEA 等 IDE 的 AI Assistant agent mode
 - **其他产品**：JetBrains Mono 编程字体（Kaku AI 终端默认字体）、JetBrains Runtime
 - **账号体系**：JetBrains 账号 OAuth 用于 Junie 登录
+- **AI Assistant 2026.2**：原生接入 Claude Agent、Codex 和 ACP Agent，支持 Skills、MCP、项目指令以及修改保留或回滚；ACP 已成为官方支持的 Agent 接入层
 
 ## 关联连接
 - [[IntelliJIDEA]] — 旗舰 IDE
 - [[Junie]] — AI coding agent
 - [[JetBrainsMono]] — 字体产品
-- [[JetBrainsMono]] — 字体开发者
+- [[ACP]] — 官方 Agent 接入层协议
+- [[CCGUI]] — 社区 JetBrains 插件（接入 Claude Code/Codex CLI）
+- [[摘要-cc-gui-jetbrains插件]] — CC GUI 介绍资料

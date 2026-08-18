@@ -669,6 +669,8 @@
 - [[掉落的果实]] — 技术公众号作者，DeepSeek Harness 完整教程创作者
 - [[ModLens]] — DeepSeek Harness 推荐插件，Token 用量/工具调用/上下文占用可视化
 - [[技术爬爬虾]] — 技术公众号作者，Pi Agent 保姆级全攻略教程创作者
+- [[CCGUI]] — 开源 JetBrains 插件，把 Claude Code/Codex CLI 接入 IDEA 工具窗口（5.4k Star，MIT）
+- [[ACP]] — JetBrains 官方 Agent Client Protocol，Agent 接入层协议
 
 ## Concepts
 - [[ConfigurationProperties]] — Spring Boot 配置绑定注解，将 yml 属性批量映射到 POJO，支持 Enum/嵌套/校验
@@ -1024,6 +1026,7 @@
 - [[摘要-nginxpulse]] — NginxPulse 轻量级 Nginx 日志分析面板：Go+Vue3+SQLite，PV/UV/IP归属地/多站点/自定义格式
 - [[摘要-京东-agent面试题]] — 京东 AI 产品线与电商 Agent 面试题：ReAct/Plan-and-Execute 选型、MCP 工具设计、幂等防重复、提示词注入四层防御
 - [[摘要-springboot获取真实客户端ip]] — SpringBoot 获取真实客户端 IP 终极方案：XFF 头可信度排序、IpUtils 工具类、Tomcat RemoteIpValve 代理信任、IP 安全过滤器
+- [[摘要-cc-gui-jetbrains插件]] — CC GUI 开源 JetBrains 插件，把 Claude Code/Codex CLI 接入 IDEA 工具窗口（5.4k Star，Java+React+Node 三层架构）
 - [[摘要-推荐一个节省token的AI编程神器]] — Pi 极简终端编码代理：系统提示词仅 ~1000 token，核心工具 6 个，TypeScript 扩展按需补齐，支持 15+ Provider
 - [[摘要-常见内网穿透工具]] — 四种内网穿透工具对比：nps-npc（Web 管理）、frp（轻量高性能）、ew（多级代理链）、ngrok（SaaS 零配置）
 - [[摘要-pi-agent-4工具极简主义]] — Pi Agent（Armin Ronacher）源码剖析：4 个原语工具、~300 词 Prompt、YOLO 模式、自扩展哲学、多模型混合会话

@@ -1,3 +1,8 @@
+## [2026-08-18] ingest | CC GUI JetBrains 插件接入 Claude Code/Codex
+- **变更**: 新增 [[摘要-cc-gui-jetbrains插件]]; 新增实体 [[CCGUI]], [[ACP]]; 增量更新 [[JetBrains]]（2026.2 AI Assistant 原生接入 Claude Agent/Codex/ACP + Skills/MCP/项目指令/变更回滚）, [[程序汪]]（CC GUI 插件介绍）; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: 源文件已移动至 raw/09-archive/
+
 ## [2026-08-17] ingest | Enum + ConfigurationProperties 配置管理
 - **变更**: 新增 [[摘要-优雅使用Enum提升SpringBoot配置管理效率]]; 新增概念 [[ConfigurationProperties]]、[[Enum]]; 新增实体 [[Thymeleaf]]; 增量更新 [[SpringBoot]]（@ConfigurationProperties 支持 Enum 类型字段 + 双链）, [[小哈]]（Enum 配置管理文章）, [[Lombok]]（@Data 配合 @ConfigurationProperties 用法 + 首个 source）; 更新 [[index.md]]
 - **冲突**: 无
