@@ -1059,6 +1059,7 @@
 - [[摘要-spring-event-使用陷阱]] — Spring Event 生产环境六大陷阱：优雅关闭/启动事件丢失/强一致性不适合/最终一致性适合/三种重试/幂等性
 
 ## Syntheses
+- [[harness-architecture-comparison]] — Harness 架构四类分类（插件型/三主题型/薄包装型/项目级型）与 Agent 选型
 - [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照
 - [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析

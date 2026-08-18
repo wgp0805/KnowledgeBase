@@ -1281,3 +1281,7 @@
 
 ## [2026-08-18] query | 解答 Harness 概念、架构分类与适用场景
 - **输出**: 引用 [[Harness]]、[[AgentHarness]]、[[DeepSeekHarness]]、[[HarnessAgent]]、[[BetterHarness]]、[[MiMoCode]]、[[max-mode]]、[[dynamic-workflow]]、[[loop-vs-harness]]
+
+## [2026-08-18] ingest | 固化 Harness 架构综合页
+- **变更**: 新增 [[harness-architecture-comparison]]；更新 [[index.md]] Syntheses 分类
+- **冲突**: 无
