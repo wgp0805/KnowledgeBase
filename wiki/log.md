@@ -1267,3 +1267,9 @@
 
 ## [2026-08-12] query | 解析 Agent 工具是否放弃 RAG
 - **输出**: 引用 [[摘要-为什么Claude-Code不用RAG检索代码]], [[摘要-字节面试官什么是RAG为什么需要RAG]], [[摘要-agent-tools-workflow区别]], [[摘要-RAG-KAG双引擎知识库系统]], [[摘要-langchain-rag构建知识库-理论]], [[摘要-codegraph-deep-dive]], [[摘要-ai-agent-cognitive-navigation]], [[摘要-agent-engineering]], [[摘要-AI-agent工具应该怎么使用]]; 即时回答未保存
+
+## [2026-08-18] ingest | 摄入《面试官：什么是冷备、热备，暖备？》
+- **变更**: 新增 source [[摘要-冷备暖备热备]]（三备对比表+RTO/RPO+选型原则+记忆口诀）; 新增 concepts [[冷备暖备热备]]、[[RTO]]、[[RPO]]、[[高可用]]、[[脑裂]]; 增量更新 [[小哈]]（补来源与提炼概念）; 更新 [[index.md]]（1 source + 5 concepts）
+- **冲突**: 无
+- **归档**: raw/01-articles/面试官：什么是冷备、热备，暖备？.md → raw/09-archive/
+

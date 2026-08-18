@@ -300,6 +300,7 @@
 - [[摘要-阿里开源qianwen-ai-skill项目]] — 阿里开源 qianwen-ai Agent 原生多模态 Skill 项目，8 技能一行命令接入 Claude Code
 - [[摘要-优雅使用Enum提升SpringBoot配置管理效率]] — Spring Boot 中 Enum + @ConfigurationProperties 实现类型安全的配置管理实战
 - [[摘要-人类智力基线与2张显卡]] — 2× RTX 5090 + Qwen3.8-27B + DeepSeek Harness = 完全本地、完全私有、完全免费的 AI Agent 工作站
+- [[摘要-冷备暖备热备]] — 面试视角拆解冷备/暖备/热备：备机状态/数据同步/RTO/RPO/成本五维对比与选型
 
 ## Entities
 - [[RuoYi-Vue-Plus]] — 若依增强版开源脚手架，多租户/数据权限/SaaS，Java 二开常用基座
@@ -677,6 +678,11 @@
 - [[LlamaCpp]] — 开源 C++ LLM 推理引擎，提供 OpenAI 兼容 HTTP API，本地部署大模型最常用后端
 
 ## Concepts
+- [[冷备暖备热备]] — 高可用容灾三种备份就绪状态，恢复速度 vs 成本的权衡
+- [[RTO]] — 恢复时间目标，"能停多久"
+- [[RPO]] — 恢复点目标，"能丢多少"
+- [[高可用]] — 系统故障下持续服务能力，由 RTO/RPO 度量
+- [[脑裂]] — 主备网络断开后双主同时写的数据分裂风险，需仲裁/fencing 防护
 - [[ConfigurationProperties]] — Spring Boot 配置绑定注解，将 yml 属性批量映射到 POJO，支持 Enum/嵌套/校验
 - [[Enum]] — Java 枚举类型，有限常量集合的类型安全表达，配置管理中替代魔法字符串
 - [[OnlineDDL]] — MySQL 5.6+ 在线表结构变更机制（INSTANT/INPLACE/COPY + NONE/SHARED/EXCLUSIVE）
