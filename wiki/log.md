@@ -1,3 +1,12 @@
+## [2026-08-19] query | Java 项目实现读取邮件功能
+- **输出**: 本地知识库无专门记录，通用知识回答；已固化 synthesis [[java-mail-read-implementation]]
+- **引用**: [[SpringBoot]], [[FreeMarker]], [[CompletableFuture]], [[虚拟线程]], [[PowerJob]], [[XXL-JOB]], [[ApplicationEvent]], [[SolonAI-ReActAgent智能客服]]
+
+## [2026-08-19] synthesis | 固化 OpenSpec apply 后发现 bug 的修复流程
+- **变更**: 新增 [[openspec-bugfix-workflow]]；更新 [[index.md]] Syntheses 分类
+- **引用**: [[OpenSpec]], [[delta-spec]], [[openspec-archive-modify-and-token-tradeoff]], [[openspec-brownfield-usage-guide]], [[SpecSuperflow]], [[规范驱动开发]], [[摘要-OpenSpec规范驱动AI编程框架]], [[摘要-spec-superflow-融合工作流]], [[摘要-superpowers-openspec-speckit对比]], [[ClaudeCode]]
+- **冲突**: 无
+
 ## [2026-08-18] lint | 解决 DeepSeekHarness 运行模式知识冲突
 - **动作**: 核对官方文档（https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/cli/README.md）
 - **结果**: [[DeepSeekHarness]] 知识冲突已解决。官方 Entry modes 按 profile 划分（`dsh --profile <name>` / `dsh --profile headless "job"` / `dsh web` / `dsh plugin --profile <name>`），无"TUI/Headless/Web UI/SDK"四分法，也无"标准/PTC/极简/创造"四分法。两组均为第三方归纳，前者按交互形态（部分对应官方 profile 概念），后者按工具集预设。已将两组并存并标注来源，以官方 Entry modes 为权威基准，新增"官方 Entry modes"段落
@@ -1285,3 +1294,5 @@
 ## [2026-08-18] ingest | 固化 Harness 架构综合页
 - **变更**: 新增 [[harness-architecture-comparison]]；更新 [[index.md]] Syntheses 分类
 - **冲突**: 无
+## [2026-08-19] query | 安卓项目测试是否必须连接手机
+- **输出**: 即时回答未保存（本地知识库无相关内容，使用通用知识回答）

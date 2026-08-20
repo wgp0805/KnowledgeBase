@@ -1105,3 +1105,5 @@
 - [[codex-operation-manual]] — Codex 从安装配置到精通的操作手册，涵盖核心能力、工作流、Skill、Java 实战
 - [[java-skills-openspec-integration]] — Java 开发 Skills 与 OpenSpec 配合使用指南：Skills 列表、OpenSpec 工作流、集成方式与应用场景
 - [[openspec-archive-modify-and-token-tradeoff]] — OpenSpec 归档需求修改流程与 Token 成本权衡：Delta Spec 增量变更 vs 全量重写决策指南
+- [[openspec-bugfix-workflow]] — OpenSpec apply 后发现 bug 的修复流程：实现 bug 直接改代码 vs 需求 bug 走 delta spec + /opsx:sync
+- [[java-mail-read-implementation]] — Java 项目实现读取邮件功能：IMAP 协议选型、Spring Boot 配置、Jakarta Mail 代码示例、生产环境注意事项
