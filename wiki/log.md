@@ -1,3 +1,8 @@
+## [2026-08-20] ingest | 用户态/内核态切换面试题
+- **变更**: 新增 sources [[摘要-用户态内核态切换]]; 新增 concepts [[用户态]], [[内核态]], [[系统调用]], [[特权级]], [[上下文切换]]; 增量更新 [[小哈]]（新增文章来源 + 5 个提炼概念双链 + sources 路径）; 更新 [[index.md]]（Sources +1 / Concepts +5）
+- **冲突**: 无
+- **归档**: 源文件已移动至 raw/09-archive/
+
 ## [2026-08-20] ingest | FastMCP 事实标准 + AMH ams3 s3cmd 报错
 - **变更**: 新增 sources [[摘要-为什么越来越多人用FastMCP]], [[摘要-AMH-ams3-s3cmd报错]]; 新增 entities [[FastMCP]], [[PrefectHorizon]], [[AMH]], [[s3cmd]]; 增量更新 [[MCP]]（新增"FastMCP：MCP 生态事实标准"章节 + FastMCP 双链 + sources 路径）, [[苏三]]（FastMCP 文章来源 + 双链）; 更新 [[index.md]]（Sources +2 / Entities +4）
 - **冲突**: 无
