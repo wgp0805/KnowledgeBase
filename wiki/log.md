@@ -1,3 +1,8 @@
+## [2026-08-20] ingest | FastMCP 事实标准 + AMH ams3 s3cmd 报错
+- **变更**: 新增 sources [[摘要-为什么越来越多人用FastMCP]], [[摘要-AMH-ams3-s3cmd报错]]; 新增 entities [[FastMCP]], [[PrefectHorizon]], [[AMH]], [[s3cmd]]; 增量更新 [[MCP]]（新增"FastMCP：MCP 生态事实标准"章节 + FastMCP 双链 + sources 路径）, [[苏三]]（FastMCP 文章来源 + 双链）; 更新 [[index.md]]（Sources +2 / Entities +4）
+- **冲突**: 无
+- **归档**: 2 个源文件已移动至 raw/09-archive/
+
 ## [2026-08-19] query | Java 项目实现读取邮件功能
 - **输出**: 本地知识库无专门记录，通用知识回答；已固化 synthesis [[java-mail-read-implementation]]
 - **引用**: [[SpringBoot]], [[FreeMarker]], [[CompletableFuture]], [[虚拟线程]], [[PowerJob]], [[XXL-JOB]], [[ApplicationEvent]], [[SolonAI-ReActAgent智能客服]]

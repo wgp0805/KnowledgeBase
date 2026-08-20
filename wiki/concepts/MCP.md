@@ -2,8 +2,8 @@
 title: "MCP"
 type: concept
 tags: [AI, 协议, 外部服务]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/AgentScope入门指南.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md]
-last_updated: 2026-08-03
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/AgentScope入门指南.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/01-articles/为什么越来越多人用FastMCP？.md]
+last_updated: 2026-08-20
 ---
 
 ## 定义
@@ -61,6 +61,13 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 - **扩展框架**：MCP Apps（提供交互式 HTML 界面）、Tasks（标准创建-查询-更新-取消任务接口）、JSON Schema 2020-12（$ref/oneOf/anyOf/allOf）
 - 核心协议做小、扩展能力做标准（Unix 哲学）：核心只管「如何调用工具」，Apps 管「如何渲染界面」，Tasks 管「如何管理长任务」
 
+### FastMCP：MCP 生态事实标准
+- FastMCP 是建立在 MCP 协议之上的 Python 框架，占所有语言 70% 的 MCP 服务器份额，GitHub 25.5k Star（vs 原生 SDK 405 Star），2024 年 1.0 并入官方 MCP Python SDK
+- 用 `@mcp.tool`/`@mcp.resource`/`@mcp.dependency` 装饰器把协议底层细节封装成 Pythonic API，Schema/验证/文档自动生成
+- 三大支柱：Servers（包装 Python 函数为 MCP 工具/资源/提示词）、Clients（连接任意 MCP 服务器）、Apps（交互式 UI）
+- 企业级方案 Prefect Horizon 提供 SSO/RBAC/审计/可观测性
+- 详见 [[FastMCP]]、[[摘要-为什么越来越多人用FastMCP]]
+
 ## 关联连接
 - [[Agent]] — MCP 所属概念
 - [[ClaudeCode]] — MCP 发明者
@@ -73,6 +80,8 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 - [[HarnessAgent]] — AgentScope MCP 自动集成
 - [[MRTR]] — 第五版多轮往返机制
 - [[OpenClawNET]] — 第五版编排层实践
+- [[FastMCP]] — MCP 生态事实标准 Python 框架
 - [[摘要-claude-code-learning-roadmap]] — 来源（Claude Code 王者级外部连接能力）
 - [[摘要-AgentScope入门指南]] — 来源（AgentScope MCP 集成实战）
 - [[摘要-mcp-v5-openclaw-net]] — 来源（MCP 第五版 × OpenClaw.NET）
+- [[摘要-为什么越来越多人用FastMCP]] — 来源（FastMCP 占 70% MCP 服务器份额）

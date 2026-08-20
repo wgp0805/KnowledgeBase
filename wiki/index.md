@@ -303,8 +303,14 @@
 - [[摘要-冷备暖备热备]] — 面试视角拆解冷备/暖备/热备：备机状态/数据同步/RTO/RPO/成本五维对比与选型
 - [[摘要-为什么越来越多人用kkFileView]] — kkFileView 文件在线预览方案解析：SpringBoot+LibreOffice+100+格式+Docker 部署
 - [[摘要-deepseek-harness命令大全]] — DeepSeek Harness 的 dsh 命令完整速查：profile/插件/配置/参数顺序铁律
+- [[摘要-为什么越来越多人用FastMCP]] — FastMCP 占 MCP 服务器 70% 份额，Python 装饰器封装 MCP 协议，从原型到生产全覆盖
+- [[摘要-AMH-ams3-s3cmd报错]] — AMH ams3 + s3cmd 2.2.0 在 Python 3.13 报错排查记录
 
 ## Entities
+- [[FastMCP]] — MCP 生态事实标准 Python 框架，占 70% MCP 服务器份额，装饰器封装协议底层
+- [[PrefectHorizon]] — FastMCP 企业级 MCP 网关，SSO/RBAC/审计/可观测性
+- [[AMH]] — 国内 Linux 服务器运维管理面板，ams3 为 S3 备份模块
+- [[s3cmd]] — 基于 Python 的 S3 兼容对象存储命令行工具
 - [[RuoYi-Vue-Plus]] — 若依增强版开源脚手架，多租户/数据权限/SaaS，Java 二开常用基座
 - [[RuoYiAI]] — 若依扩展的开源全栈 AI 平台，Spring Boot 3.4 + Spring AI + Langchain4j
 - [[AionUi]] — iOfficeAI 开源多 Agent 桌面应用，统一 UI 整合 OpenClaw/Claude Code/Codex 等 CLI
