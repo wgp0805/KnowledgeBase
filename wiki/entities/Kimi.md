@@ -2,8 +2,8 @@
 title: "Kimi"
 type: entity
 tags: [AI, 模型, 月之暗面]
-sources: [raw/09-archive/国产大模型跑分一个比一个高，到底谁能真的干活？.md]
-last_updated: 2026-06-29
+sources: [raw/09-archive/国产大模型跑分一个比一个高，到底谁能真的干活？.md, raw/01-articles/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md]
+last_updated: 2026-08-21
 ---
 
 ## 定义
@@ -13,6 +13,7 @@ last_updated: 2026-06-29
 
 ### 主力版本
 - **Kimi 2.7**（2026 年）：当前主力版本，对标 [[DeepSeek]] V4 Pro、[[MiniMax]] M3，配备 1M 级上下文
+- **Kimi K3**：被 [[摘要-强模型时代删掉Superpowers该怎么选]] 列为"强模型"代表之一（与 GPT-5.6、Fable-5 并列），原生能力已具备规划/子 Agent/Review/测试，适合搭配轻量 Skill 工作流（详见 [[强模型时代工作流选型]]）
 
 ### 实战表现（liuxin 2026-06 横评，详见 [[摘要-国产大模型实战横评]]）
 

@@ -2,8 +2,8 @@
 title: "MattPocock"
 type: entity
 tags: [TypeScript, 教育, Skill, 开源]
-sources: [raw/01-articles/Matt Pocock 那个 5 个月冲到 17 万 star 的 grill-me，作者自己却不用了，原因是这几个.md, raw/01-articles/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md]
-last_updated: 2026-08-05
+sources: [raw/01-articles/Matt Pocock 那个 5 个月冲到 17 万 star 的 grill-me，作者自己却不用了，原因是这几个.md, raw/01-articles/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md, raw/01-articles/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md]
+last_updated: 2026-08-21
 ---
 
 ## 定义
@@ -31,6 +31,17 @@ Matt Pocock 是 Total TypeScript 的作者，TypeScript 教育领域的知名人
 4. **跨模型（Work with any model）**：不绑定特定 AI 模型
 5. **基于工程基础（Based on decades of engineering experience）**：引用 The Pragmatic Programmer、DDD（Eric Evans）、XP（Kent Beck）、软件设计哲学（Ousterhout）等经典
 
+### 强模型时代的优势
+
+[[摘要-强模型时代删掉Superpowers该怎么选]] 指出，在 GPT-5.6、Kimi K3、Fable-5 等强模型时代，Matt Skills 的轻量可组合特性使其成为大多数日常开发场景的优选：
+
+- **避免流程税**：不强制全套流程，简单任务可直接用模型原生能力，按需调用 grill-with-docs / to-spec / to-tickets / implement
+- **保留人的主导权**：开发者自掌流程控制权，需要时才启用对应模块
+- **适配强模型**：利用模型原生规划/自测/评审能力，Skills 当工具零件按需调用而非强制流水线
+- **典型用法**：需求模糊调用 `grill-with-docs`；要写规格调用 `to-spec`；简单改动直接让模型原生执行
+
+详见 [[强模型时代工作流选型]]。
+
 ## 关联连接
 - [[摘要-mattpocock-skills]] — 来源
 - [[GrillMe]] — mattpocock/skills 中的经典需求澄清 skill
@@ -39,3 +50,6 @@ Matt Pocock 是 Total TypeScript 的作者，TypeScript 教育领域的知名人
 - [[GSDCore]] — GSD 框架（对比对象）
 - [[SpecKit]] — Spec-Kit 框架（对比对象）
 - [[TDD]] — 测试驱动开发实践
+- [[摘要-强模型时代删掉Superpowers该怎么选]] — 来源（强模型时代定位）
+- [[流程税]] — Matt Skills 规避的成本概念
+- [[强模型时代工作流选型]] — 选型方法论

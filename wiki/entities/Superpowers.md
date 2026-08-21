@@ -7,7 +7,8 @@ sources:
   - raw/09-archive/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md
   - raw/09-archive/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
   - raw/09-archive/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md
-last_updated: 2026-08-05
+  - raw/01-articles/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md
+last_updated: 2026-08-21
 ---
 
 ## 定义
@@ -80,6 +81,17 @@ grill-me（想清楚）→ superpowers brainstorming（补充细节）→ writin
 - **强制流程 vs 灵活性**：对简单任务有"杀鸡用牛刀"嫌疑
 - **子 Agent 上下文继承不完整**：SubagentStart Hook 偶尔失败，需手动触发 `using-superpowers` 恢复，官方预计 v5.2.0 修复
 
+### 强模型时代的定位修正
+
+[[摘要-强模型时代删掉Superpowers该怎么选]] 提出，在 GPT-5.6、Kimi K3、Fable-5 等强模型原生能力已具备规划/子 Agent/Review/测试的时代，Superpowers **不再适合作为默认常驻配置**：
+
+- **流程税问题**：强模型本身就会做需求分析、任务拆解、自测、评审，外层再套完整强制流程会产生重复调度、重复规划的冗余开销（详见 [[流程税]]）
+- **推荐用法**：按需加载，遇到高风险任务（支付/权限/数据迁移/核心业务重构）启用，任务结束关闭
+- **不适合的场景**：快速原型验证、简单小修改、小 bug 修复、遗留老代码局部改动（老项目测试不全强制 TDD 易卡住）
+- **适合的场景**：全新复杂项目、高风险模块、核心业务重构、AI 编程新手、需完整可追溯工程留痕
+
+详见 [[强模型时代工作流选型]]。
+
 ## 关联连接
 
 - [[OpenSpec]] — 兄弟方案，管"改了什么"
@@ -99,3 +111,6 @@ grill-me（想清楚）→ superpowers brainstorming（补充细节）→ writin
 - [[code-review]] — 自动代码审查
 - [[摘要-superpowers到底是什么]] — 来源
 - [[摘要-superpowers-openspec-speckit对比]] — 来源
+- [[摘要-强模型时代删掉Superpowers该怎么选]] — 来源（强模型时代定位修正）
+- [[流程税]] — 强模型时代的成本概念
+- [[强模型时代工作流选型]] — 选型方法论
