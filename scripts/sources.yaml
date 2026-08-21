@@ -92,6 +92,16 @@ sources:
   - 中文
   enabled: true
   max_per_source: 10
+- name: HelloGitHub
+  type: rss
+  url: https://hellogithub.com/rss
+  tags:
+  - 开源
+  - GitHub
+  - 技术
+  - 中文
+  enabled: true
+  max_per_source: 5
 - name: CSDN-Java
   type: scrape
   url: https://blog.csdn.net/nav/java
