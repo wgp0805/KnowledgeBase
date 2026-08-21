@@ -1311,3 +1311,8 @@
 - **冲突**: 无
 ## [2026-08-19] query | 安卓项目测试是否必须连接手机
 - **输出**: 即时回答未保存（本地知识库无相关内容，使用通用知识回答）
+
+## [2026-08-21] ingest | 引入 RenoPit 运行层 + LangGraph 会话记忆持久化
+- **变更**: 新增 sources [[摘要-renopit-demo-healthcheck-docker]]、[[摘要-langgraph-postgresql-会话记忆持久化]]; 新增 entities [[RenoPit]]、[[fthux]]、[[lyshark]]、[[PostgresSaver]]、[[PostgresStore]]、[[pgvector]]、[[InMemoryStore]]、[[InMemorySaver]]、[[Celery]]、[[Vite]]、[[SSE]]; 新增 concepts [[Checkpointer]]、[[AgentMemory]]、[[DemoMode]]、[[HealthCheck]]; 更新 [[LangGraph]]（新增记忆持久化体系段落）、[[PostgreSQL]]（新增 AI Agent 记忆载体段落）; 更新 [[index.md]]（2 sources + 11 entities + 4 concepts）
+- **冲突**: 无
+- **归档**: raw/01-articles/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md, raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md -> raw/09-archive/

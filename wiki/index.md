@@ -693,6 +693,17 @@
 - [[Turnstile]] — Cloudflare 风险驱动验证码产品，低风险自动放行，可疑流量才挑战
 - [[Guava]] — Google 开源 Java 核心工具库，RateLimiter 为单机限流常用实现
 - [[Postman]] — 流行 API 调试工具，秒杀防刷语境中为散户黄牛脚本典型工具
+- [[RenoPit]] — fthux 开源的 AI 装修报告项目，React + FastAPI + Celery + PostgreSQL/Redis + Docker
+- [[fthux]] — 博客园博主，装闭 RenoPit 项目作者，14 篇源码解析系列
+- [[lyshark]] — 博客园博主，LangGraph 会话记忆持久化等 AI 工程化教程创作者
+- [[PostgresSaver]] — LangGraph Checkpointer 的 PostgreSQL 持久化实现，单会话短期记忆
+- [[PostgresStore]] — LangGraph Store 的 PostgreSQL 实现，跨会话长期用户记忆
+- [[pgvector]] — PostgreSQL 向量检索扩展，PostgresStore 语义检索的生产依赖
+- [[InMemoryStore]] — LangGraph Store 内存测试版，内置简易向量检索，无需 pgvector
+- [[InMemorySaver]] — LangGraph Checkpointer 内存临时版，仅本地测试，重启丢失
+- [[Celery]] — Python 分布式异步任务队列框架，RenoPit 的异步 Worker
+- [[Vite]] — 新一代前端构建工具与开发服务器，RenoPit 开发环境 5173 端口代理
+- [[SSE]] — Server-Sent Events 服务器发送事件，单向服务器推送机制
 
 ## Concepts
 - [[冷备暖备热备]] — 高可用容灾三种备份就绪状态，恢复速度 vs 成本的权衡
@@ -1054,6 +1065,10 @@
 - [[TensorSplit]] — llama.cpp 多卡分摊技术，按比例切分权重和 KV cache 到多张 GPU，突破单卡显存上限
 - [[GGUF量化]] — 大模型权重压缩到低比特位宽的技术，4bit 是 Agent 长链路任务甜品点，配合 KV cache 量化与多卡分摊
 - [[本地Agent工作站]] — 完全本地运行 AI Agent 工作流的方案，2× RTX 5090 + Qwen3.8-27B + DSH + llama.cpp，数据不出本机无 API 费
+- [[Checkpointer]] — LangGraph 检查点存储概念，自动写入 + thread_id 隔离的会话短期记忆
+- [[AgentMemory]] — 智能体记忆系统，短期会话记忆 + 长期用户记忆两层划分
+- [[DemoMode]] — 前端演示模式，劫持 window.fetch 拦截 API 返回 Mock 数据，无后端运行
+- [[HealthCheck]] — 后端健康检查机制，三组分级（核心/业务/信息）判定 unhealthy/degraded/healthy
 
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
@@ -1086,6 +1101,8 @@
 - [[履约拦截]] — 防刷第 6 层：订单产生后重批量分析，支付前/发货前拦截，召回率比下单瞬间高一个数量级，打现金流
 - [[热点Key]] — Redis 集群中承受远超平均访问量的单 Key，秒杀峰值下烤糊所在节点（如 Redisson RRateLimiter Key）
 - [[重放攻击]] — 攻击者截获合法凭证在有效期内重复发送，前端校验串不一次性失效的漏洞本质
+- [[摘要-renopit-demo-healthcheck-docker]] — 装闭 RenoPit 源码解析（14）：Demo 模式 fetch 劫持、三组分级健康检查、Docker Compose 五服务部署
+- [[摘要-langgraph-postgresql-会话记忆持久化]] — LangGraph + PostgreSQL 会话记忆持久化：PostgresSaver（Checkpointer）与 PostgresStore（Store）两大存储体系实战
 
 ## Syntheses
 - [[harness-architecture-comparison]] — Harness 架构四类分类（插件型/三主题型/薄包装型/项目级型）与 Agent 选型

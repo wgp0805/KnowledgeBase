@@ -2,8 +2,8 @@
 title: "PostgreSQL"
 type: entity
 tags: [数据库, 开源, 关系型数据库]
-sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md]
-last_updated: 2026-05-28
+sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md, raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/01-articles/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md]
+last_updated: 2026-08-21
 ---
 
 ## 定义
@@ -27,9 +27,20 @@ PostgreSQL 是一个功能强大的开源对象-关系型数据库系统，以�
 - 华为云 GaussDB（openGauss）
 - 杭州易景数通 openHalo
 
+**作为 AI Agent 记忆持久化载体：**
+- LangGraph 官方推荐的会话记忆数据库，配合 [[PostgresSaver]]（Checkpointer）与 [[PostgresStore]]（Store）实现企业级记忆体系
+- `checkpointer.setup()` 自动创建 checkpoints/checkpoint_blobs/checkpoint_writes/checkpoint_migrations 四张表
+- 长期记忆存储在 langgraph_store 表，支持语义检索（依赖 [[pgvector]] 扩展）
+- 在 [[RenoPit]] 项目中作为核心依赖，健康检查执行 `SELECT 1` + 连接池状态
+
 ## 关联连接
 
 - [[摘要-PostgreSQL-vs-MySQL]] — 来源
+- [[摘要-langgraph-postgresql-会话记忆持久化]] — 来源（LangGraph 记忆持久化）
+- [[摘要-renopit-demo-healthcheck-docker]] — 来源（RenoPit 核心依赖）
+- [[PostgresSaver]] — LangGraph Checkpointer 实现
+- [[PostgresStore]] — LangGraph Store 实现
+- [[pgvector]] — 向量检索扩展
 - [[MySQL]] — 对比数据库
 - [[TDSQL]] — 腾讯云 PostgreSQL 分支
 - [[PolarDB]] — 阿里云 PostgreSQL 分支

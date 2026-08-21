@@ -2,8 +2,8 @@
 title: "LangGraph"
 type: entity
 tags: [AI框架, Agent, 工作流编排, Python]
-sources: [raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md]
-last_updated: 2026-07-06
+sources: [raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md, raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md]
+last_updated: 2026-08-21
 ---
 
 ## 定义
@@ -24,6 +24,12 @@ LangChain 团队推出的 AI Agent 编排框架，支持有状态图执行（Gra
 - **[[LangGraph4j]]** — Java 移植版，概念一致但版本和生态不同
 - **[[LangChain4j]]** — Java LLM 应用框架，常与 LangGraph4j 配合使用
 
+### 记忆持久化体系
+LangGraph 将记忆存储划分为两套独立体系（详见 [[AgentMemory]]）：
+- **[[Checkpointer]]**（短期会话记忆）：自动写入、thread_id 隔离，实现 [[PostgresSaver]] 持久化，支持中断恢复与历史回溯
+- **Store**（长期用户记忆）：手动写入、namespace+key 隔离，实现 [[PostgresStore]] 跨会话共享，支持语义检索（依赖 [[pgvector]]）
+- 两套机制相互独立、数据隔离、能力互补，共同构成企业级记忆体系
+
 ### 常见陷阱
 1. **无限循环**：工具返回内容模糊或 prompt 未提醒停止，需设 `MAX_ITERATIONS` + `recursion_limit` 双保险
 2. **工具选错**：工具 description 重叠导致 LLM 误选，需在 docstring 中明确适用/不适用场景
@@ -32,6 +38,11 @@ LangChain 团队推出的 AI Agent 编排框架，支持有状态图执行（Gra
 
 ## 关联连接
 - [[摘要-构建你的第一个Tool-Agent-从零理解ReAct循环]] — 来源
+- [[摘要-langgraph-postgresql-会话记忆持久化]] — 来源（记忆持久化）
+- [[PostgresSaver]] — Checkpointer 持久化实现
+- [[PostgresStore]] — Store 长期记忆实现
+- [[Checkpointer]] — 检查点存储概念
+- [[AgentMemory]] — 记忆系统概念
 - [[LangGraph4j]] — Java 移植版
 - [[LangChain]] — 所属生态
 - [[ReAct_Agent]] — 核心推理模式
