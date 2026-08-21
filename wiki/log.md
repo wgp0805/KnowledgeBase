@@ -1319,3 +1319,7 @@
 
 ## [2026-08-21] query | 解析 OpenSpec 工作原理
 - **输出**: 引用 [[OpenSpec]], [[delta-spec]], [[摘要-OpenSpec规范驱动AI编程框架]], [[摘要-superpowers-openspec-speckit对比]], [[摘要-spec-superflow-融合工作流]], [[摘要-spec-superflow-融合工作流-源码级详解]]
+
+## [2026-08-21] query | 保存 OpenSpec 工作原理综合页
+- **变更**: 新增 synthesis [[openspec-working-principle]]; 更新 [[index.md]]（新增 Syntheses 分类 + 1 条目）
+- **冲突**: 无

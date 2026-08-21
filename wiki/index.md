@@ -308,6 +308,9 @@
 - [[摘要-用户态内核态切换]] — 用户态/内核态面试题：Ring 0/Ring 3 特权级、三种切换方式、切换成本与减少系统调用实践
 - [[摘要-秒杀系统防刷分层体系]] — 秒杀防刷七层分层体系：目标"让黄牛这一单不赚钱"，反直觉的是技术含量最低的几层效果最好
 
+## Syntheses
+- [[openspec-working-principle]] — OpenSpec 工作原理综合分析：四阶段循环×四份 DAG 工件×Delta Spec 增量×31 平台分发
+
 ## Entities
 - [[FastMCP]] — MCP 生态事实标准 Python 框架，占 70% MCP 服务器份额，装饰器封装协议底层
 - [[PrefectHorizon]] — FastMCP 企业级 MCP 网关，SSO/RBAC/审计/可观测性
