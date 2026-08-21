@@ -9,7 +9,8 @@ sources:
   - raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md
   - raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md
   - raw/01-articles/2026-08-18 - DeepSeek Harness 命令大全.md
-last_updated: 2026-08-18
+  - raw/01-articles/2026-08-21 - DeepSeekHarness必装的10个插件.md
+last_updated: 2026-08-21
 ---
 
 ## 定义
@@ -80,6 +81,29 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - GitHub 搜索话题 `dsh-plugin`
 - 代表插件：dsh-web-ui 全家桶（任务看板/Git 图谱/右侧面板/桌宠/Token 统计/皮肤中心）、[[ModLens]]（给纯文本模型补视觉）、dsh-genui（交互式 UI 渲染）、dsh-at-file（@ 引用文件）、dsh-tool-git（模型侧 Git）、dsh-browser-bridge（浏览器自动化）、dsh-memory-evolve（跨会话长期记忆+自我进化）、梁神模式（V4 Pro 调优预设，两阶段锚定 trick）
 
+## 插件生态（2026-08-21，[[程序汪]] 盘点必装 10 插件，详见 [[摘要-deepseek-harness必装10个插件-程序汪]]）
+- **生态数据（2026-08-15）**：Oh-My-DSH 目录收录精选插件 **1117** 个、监测生态仓库 **1521** 个、累计 Star **301295** 颗
+- **安装命令**：`dsh plugin --profile web add "github:owner/repo#ref"`
+- **重要坑**：启动 Web UI 必须加 `--patch` 参数，否则很多插件和技能不生效：`npx @deepseek-ai/dsh web --patch`
+- **三层分类**：
+  - 第一层（核心体验层）：dsh-web-ui、dsh-better-sidebar——界面从"毛坯"变"精装"
+  - 第二层（交互方式层）：dsh-TUI（终端）、deepseek-harness-desktop（桌面 App）、dsh-at-file（@引用）
+  - 第三层（能力扩展层）：ModLens（看图）、dsh-agent-teams（多 Agent）、dsh-plan-execute（双模型）、dsh-context-doctor（上下文审计）、dsh-reverse-skill（安全技能）
+
+### 必装 10 插件清单（2026-08-21）
+| 序号 | 插件名 | 仓库 | Star | 核心价值 |
+|------|--------|------|------|----------|
+| 1 | [[ModLens]] | liustack/modlens | 905+ | 给纯文本模型装"眼睛"，图片转结构化文本（锁版本 `@3.17.2`） |
+| 2 | dsh-web-ui | zhu1090093659/dsh-web-ui | 1013+ | 全家桶：任务看板/Git 图谱/右侧面板/桌宠/Token 统计/皮肤中心 |
+| 3 | dsh-better-sidebar | omdsh-dev/DSH-better-sidebar | 684+ | Codex 风格侧边栏工作台：文件树/终端/Git/子代理 |
+| 4 | dsh-TUI | ccch1mneyyy/dsh-TUI | 793+ | 全屏终端界面，`dsh --profile cc-tui` |
+| 5 | deepseek-harness-desktop | anywhere-labs/deepseek-harness-desktop | 4745+ | Electron 桌面应用，无需 Node.js，双击即跑 |
+| 6 | dsh-at-file | omdsh-dev/dsh-at-file | - | `@` 引用文件，对标 Codex |
+| 7 | dsh-agent-teams | NanmiCoder/dsh-agent-teams | - | 多智能体团队协作，邮箱直达+唤醒无队长中转 |
+| 8 | dsh-plan-execute | dsh-external/dsh-plan-execute | - | 双模型路由：规划用推理模型，执行用经济模型 |
+| 9 | dsh-context-doctor | Zhenyu98/dsh-context-doctor | - | 量化上下文 Token 账单，检测重复冲突，只读 |
+| 10 | dsh-reverse-skill | dhicoc/dsh-reverse-skill | - | 85 个安全研究 SKILL.md（逆向/渗透/安全研究） |
+
 ## 本地部署接入（2026-08-18）
 - DSH 认 OpenAI 兼容端点，不绑定 DeepSeek API
 - 接入本地 [[LlamaCpp]] / [[Ollama]]：Settings → Models → 添加自定义模型 → 填本地地址（如 `http://127.0.0.1:8080/v1`）→ API 协议选 `openai-completions` → 保存即时生效
@@ -112,6 +136,8 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - [[摘要-deepseek-harness内测]] — 来源
 - [[摘要-deepseek-v4-flash发布]] — 来源
 - [[摘要-deepseek-harness必装10个插件]] — 来源（插件推荐）
+- [[摘要-deepseek-harness必装10个插件-程序汪]] — 来源（2026-08-21 程序汪盘点 10 插件）
+- [[程序汪]] — 10 插件盘点文章作者
 - [[摘要-deepseek-harness教程-掉落的果实]] — 来源（完整教程）
 - [[ModLens]] — 推荐插件
 - [[掉落的果实]] — 教程作者

@@ -1,4 +1,9 @@
-## [2026-08-20] ingest | 秒杀系统防刷分层体系
+## [2026-08-21] ingest | DeepSeek Harness 必装 10 插件 + WorkBuddy 保姆级入门教程
+- **变更**: 新增 sources [[摘要-deepseek-harness必装10个插件-程序汪]], [[摘要-workbuddy保姆级入门教程-苏三]]; 增量更新 [[DeepSeekHarness]]（新增"插件生态（2026-08-21）"章节 + 必装 10 插件清单表 + 3 个双链 + sources 路径）, [[程序汪]]（+1 source 路径 + 2 个双链）, [[苏三]]（+1 source 路径 + 2 个双链）; **覆盖更新** [[WorkBuddy]]（用新知识覆盖旧定义：从"OpenClaw 部署平台"改为"国产桌面 AI 应用"，保留知识冲突区块标注历史）; 更新 [[index.md]]（Sources +2）
+- **冲突**: [[WorkBuddy]] 定义冲突——旧定义"OpenClaw 一站式部署平台"（2026-06-23）vs 新定义"国产桌面 AI 应用"（2026-08-21）。经用户确认选择"用新知识覆盖旧知识"，已在页面中保留「知识冲突（已解决）」区块记录历史
+- **归档**: 源文件已移动至 raw/09-archive/（2026-08-21 - DeepSeekHarness必装的10个插件.md, 2026-08-21 - WorkBuddy 保姆级入门教程.md）
+
+
 - **变更**: 新增 sources [[摘要-秒杀系统防刷分层体系]]; 新增 concepts [[防刷分层体系]], [[秒杀系统]], [[准入门槛]], [[前端校验串]], [[行为信号打分]], [[两级限流]], [[风险驱动验证]], [[影子封禁]], [[履约拦截]], [[热点Key]], [[重放攻击]]; 新增 entities [[胖虎]], [[Cloudflare]], [[Turnstile]], [[Guava]], [[Postman]]; 增量更新 [[限流]]（新增"秒杀场景的两级限流"+"限流维度选择"章节 + 4 个双链 + sources 路径）, [[Redis]]（新增"秒杀防刷场景"章节：前端校验串存储/GETDEL 原子操作/Lua 脚本/热点 Key 风险 + 4 个双链 + sources 路径）, [[Redisson]]（新增"RRateLimiter 与热点 Key 陷阱"章节 + 5 个双链 + sources 路径）; 更新 [[index.md]]（Sources +1 / Entities +5 / Concepts +11）
 - **冲突**: 无
 - **归档**: 源文件已移动至 raw/09-archive/
