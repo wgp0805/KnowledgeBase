@@ -1316,3 +1316,6 @@
 - **变更**: 新增 sources [[摘要-renopit-demo-healthcheck-docker]]、[[摘要-langgraph-postgresql-会话记忆持久化]]; 新增 entities [[RenoPit]]、[[fthux]]、[[lyshark]]、[[PostgresSaver]]、[[PostgresStore]]、[[pgvector]]、[[InMemoryStore]]、[[InMemorySaver]]、[[Celery]]、[[Vite]]、[[SSE]]; 新增 concepts [[Checkpointer]]、[[AgentMemory]]、[[DemoMode]]、[[HealthCheck]]; 更新 [[LangGraph]]（新增记忆持久化体系段落）、[[PostgreSQL]]（新增 AI Agent 记忆载体段落）; 更新 [[index.md]]（2 sources + 11 entities + 4 concepts）
 - **冲突**: 无
 - **归档**: raw/01-articles/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md, raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md -> raw/09-archive/
+
+## [2026-08-21] query | 解析 OpenSpec 工作原理
+- **输出**: 引用 [[OpenSpec]], [[delta-spec]], [[摘要-OpenSpec规范驱动AI编程框架]], [[摘要-superpowers-openspec-speckit对比]], [[摘要-spec-superflow-融合工作流]], [[摘要-spec-superflow-融合工作流-源码级详解]]
