@@ -1074,6 +1074,8 @@
 - [[AgentMemory]] — 智能体记忆系统，短期会话记忆 + 长期用户记忆两层划分
 - [[DemoMode]] — 前端演示模式，劫持 window.fetch 拦截 API 返回 Mock 数据，无后端运行
 - [[HealthCheck]] — 后端健康检查机制，三组分级（核心/业务/信息）判定 unhealthy/degraded/healthy
+- [[流程税]] — 强模型时代无脑常驻全套重流程所产生的额外成本（Token 开销/重复调度/约束推理空间）
+- [[强模型时代工作流选型]] — 强模型时代按任务风险分层选择 AI 编程工作流的方法论，从约束 AI 转向给定目标 AI 自主推理
 
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
@@ -1108,6 +1110,7 @@
 - [[重放攻击]] — 攻击者截获合法凭证在有效期内重复发送，前端校验串不一次性失效的漏洞本质
 - [[摘要-renopit-demo-healthcheck-docker]] — 装闭 RenoPit 源码解析（14）：Demo 模式 fetch 劫持、三组分级健康检查、Docker Compose 五服务部署
 - [[摘要-langgraph-postgresql-会话记忆持久化]] — LangGraph + PostgreSQL 会话记忆持久化：PostgresSaver（Checkpointer）与 PostgresStore（Store）两大存储体系实战
+- [[摘要-强模型时代删掉Superpowers该怎么选]] — 强模型时代 Superpowers vs Matt Skills 选型：流程税问题、分层工作流、从约束 AI 每一步转向给定目标 AI 自主推理
 
 ## Syntheses
 - [[harness-architecture-comparison]] — Harness 架构四类分类（插件型/三主题型/薄包装型/项目级型）与 Agent 选型
