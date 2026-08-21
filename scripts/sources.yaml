@@ -102,6 +102,16 @@ sources:
   - 中文
   enabled: true
   max_per_source: 5
+- name: 人人都是产品经理
+  type: rss
+  url: https://www.woshipm.com/feed
+  tags:
+  - 产品经理
+  - AI产品
+  - Agent
+  - 中文
+  enabled: true
+  max_per_source: 10
 - name: CSDN-Java
   type: scrape
   url: https://blog.csdn.net/nav/java
