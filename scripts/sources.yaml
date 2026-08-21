@@ -82,6 +82,30 @@ sources:
   - 中文
   enabled: true
   max_per_source: 10
+- name: CSDN-Java
+  type: scrape
+  url: https://blog.csdn.net/nav/java
+  selector: a[href*='/article/details/']
+  link_prefix: https://blog.csdn.net
+  tags:
+  - Java
+  - 后端
+  - 编程
+  - 中文
+  enabled: true
+  max_per_source: 10
+- name: CSDN-AI
+  type: scrape
+  url: https://blog.csdn.net/nav/ai
+  selector: a[href*='/article/details/']
+  link_prefix: https://blog.csdn.net
+  tags:
+  - AI
+  - LLM
+  - 编程
+  - 中文
+  enabled: true
+  max_per_source: 10
 filter:
   min_score: 0.6
   max_per_source: 5
