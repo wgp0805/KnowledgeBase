@@ -82,6 +82,16 @@ sources:
   - 中文
   enabled: true
   max_per_source: 10
+- name: 36氪
+  type: rss
+  url: https://36kr.com/feed
+  tags:
+  - 科技
+  - 创投
+  - 新闻
+  - 中文
+  enabled: true
+  max_per_source: 10
 - name: CSDN-Java
   type: scrape
   url: https://blog.csdn.net/nav/java
