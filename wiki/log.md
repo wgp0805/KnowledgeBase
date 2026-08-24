@@ -1338,3 +1338,10 @@
 ## [2026-08-21] query | 保存 OpenSpec 工作原理综合页
 - **变更**: 新增 synthesis [[openspec-working-principle]]; 更新 [[index.md]]（新增 Syntheses 分类 + 1 条目）
 - **冲突**: 无
+
+## [2026-08-24] query | 大模型部署框架对比与企业/个人选型
+- **输出**: 引用 [[Ollama]], [[LlamaCpp]], [[LM_Studio]], [[Dify]], [[Coze]], [[CherryStudio]], [[LlamaFactory]], [[Dyad]], [[本地Agent工作站]], [[摘要-Ollama+DeepSeek本地部署]], [[摘要-人类智力基线与2张显卡]]; 即时回答未保存
+
+## [2026-08-24] query | 保存大模型部署框架对比综合页
+- **变更**: 新增 synthesis [[大模型部署框架对比与选型]]; 更新 [[index.md]]（Syntheses +1）
+- **冲突**: 无
