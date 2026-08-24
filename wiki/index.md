@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-ox-alpha模型与agent面试题]] — 沉默王二介绍免费预览模型 Ox Alpha（1M 上下文/多模态），并以模型指纹、Provider 差异、降级策略等 10 道 Agent 面试题展开
 - [[摘要-ruoyi-ai平台]] — 若依扩展的全栈 AI 平台，Spring Boot 3.4 + Spring AI + Langchain4j，本地 RAG/Agent Skills/流程编排
 - [[摘要-多agent统一UI工具]] — AionUi 开源多 Agent 桌面应用，统一 UI 整合 OpenClaw/Claude Code/Codex 等 CLI
 - [[摘要-多模型横评-evox]] — EvoX 蜂群模式 + DeepSeek V4 Flash/GLM-5.2/GPT-5.6 Sol 多模型横评
@@ -333,6 +334,8 @@
 - [[openspec-working-principle]] — OpenSpec 工作原理综合分析：四阶段循环×四份 DAG 工件×Delta Spec 增量×31 平台分发
 
 ## Entities
+- [[OxAlpha]] — 免费预览大模型，1M Token 上下文，支持文本/图片/视频输入，为 Coding 和长周期 Agent 任务优化
+- [[OpenRouter]] — 大模型聚合路由平台，统一 API 访问数百个模型，Ox Alpha 接入入口之一
 - [[FastMCP]] — MCP 生态事实标准 Python 框架，占 70% MCP 服务器份额，装饰器封装协议底层
 - [[PrefectHorizon]] — FastMCP 企业级 MCP 网关，SSO/RBAC/审计/可观测性
 - [[AMH]] — 国内 Linux 服务器运维管理面板，ams3 为 S3 备份模块
@@ -731,6 +734,7 @@
 - [[AlphaEvolve]] — Google DeepMind 自动化研究系统，让模型不断提出程序并自动评估筛选演化
 
 ## Concepts
+- [[模型指纹]] — 通过 Tokenizer 词表/logprob 分布/特殊 token/知识截止/格式偏好五个维度识别匿名大模型的真实来源
 - [[冷备暖备热备]] — 高可用容灾三种备份就绪状态，恢复速度 vs 成本的权衡
 - [[RTO]] — 恢复时间目标，"能停多久"
 - [[RPO]] — 恢复点目标，"能丢多少"

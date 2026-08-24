@@ -2,8 +2,8 @@
 title: "OpenCode"
 type: entity
 tags: [AI, 开源, 编码助手, Agent]
-sources: [raw/09-archive/ECC使用教程.md, raw/09-archive/OpenCode架构演进剖析.md]
-last_updated: 2026-08-10
+sources: [raw/09-archive/ECC使用教程.md, raw/09-archive/OpenCode架构演进剖析.md, raw/01-articles/“牛来”员工：你们可以在 OpenCode 爽用 Ox Alpha 模型了，1M上下文并支持视频输入（附Agent面试题）.md]
+last_updated: 2026-08-24
 ---
 
 ## 定义
@@ -58,6 +58,9 @@ npm install -g ecc-universal  # 通用包
 ### 衍生项目
 - **[[MiMoCode]]** — 小米基于 OpenCode 构建的 AI 编程 Agent，保留全部核心能力（多 Provider、TUI、LSP、MCP、插件），扩展了持久化记忆、子智能体编排、目标驱动自主循环、Compose 工作流和自进化能力
 
+### 模型生态（2026-08-24 增补）
+- **OpenCode Zen**：[[OxAlpha]] 免费预览模型的接入入口之一（另一入口为 [[OpenRouter]]）
+
 ## 关联连接
 - [[ECC]] — 增强框架（同时支持 Claude Code 和 OpenCode）
 - [[MiMoCode]] — 基于 OpenCode 的衍生项目
@@ -73,3 +76,5 @@ npm install -g ecc-universal  # 通用包
 - [[摘要-ECC使用教程]] — 来源
 - [[摘要-mimo-code发布]] — MiMo Code 来源
 - [[摘要-opencode-架构演进剖析]] — 2.0 架构演进来源
+- [[摘要-ox-alpha模型与agent面试题]] — 来源（OpenCode Zen 接入 Ox Alpha）
+- [[OxAlpha]] — 通过 OpenCode Zen 可用的免费预览模型

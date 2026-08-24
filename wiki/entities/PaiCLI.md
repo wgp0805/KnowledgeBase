@@ -101,6 +101,11 @@ PaiCLI 的 Better Harness **不是 Agent 产品**，而是评估 Agent 干活质
 - 短期/长期记忆，Map-Reduce 摘要压缩，SQLite 持久化 + BM25 + 向量检索
 - SWE-bench Multilingual + Harbor 构建 43 个真实 Issue 测试集，Pass@1 达 62.8%（修复 27 个）
 
+### 模型工厂与 Provider 降级（2026-08-24 增补）
+- 请求先发给默认 Provider，失败后按顺序尝试下一个（GLM、DeepSeek、Step、Kimi 等），每个 Provider 对应一个客户端实例，统一实现同一套模型调用接口
+- 模型抽象层已封装 OpenAI 协议的 HTTP 调用、SSE 解析、错误处理、重试逻辑；接入新模型（如 [[OxAlpha]]）只需新增一个 Provider 实现，声明"与标准协议的差异"
+- 针对免费预览模型下线的系统性降级：①换同模型的其他 Provider；②换同能力级别模型；③降能力保可用（切小尺寸模型并限制任务复杂度）——每级切换都记录日志、发告警，不让用户在不知情时被降级
+
 ## 关联连接
 - [[Codex]] — 核心开发工具
 - [[ClaudeCode]] — 代码审查工具
@@ -114,3 +119,6 @@ PaiCLI 的 Better Harness **不是 Agent 产品**，而是评估 Agent 干活质
 - [[指数退避重试]] — API 重试机制
 - [[渐进式披露]] — Skill 按需加载机制
 - [[沉默王二]] — 项目作者
+- [[摘要-ox-alpha模型与agent面试题]] — 来源（模型工厂降级与评测体系）
+- [[OxAlpha]] — 面试题中演示接入的免费预览模型
+- [[降级]] — Provider 级降级策略的概念基础
