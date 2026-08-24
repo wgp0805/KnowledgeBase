@@ -309,6 +309,25 @@
 - [[摘要-秒杀系统防刷分层体系]] — 秒杀防刷七层分层体系：目标"让黄牛这一单不赚钱"，反直觉的是技术含量最低的几层效果最好
 - [[摘要-deepseek-harness必装10个插件-程序汪]] — 程序汪盘点 DeepSeek Harness 必装 10 插件（ModLens/web-ui/better-sidebar/TUI/desktop/at-file/agent-teams/plan-execute/context-doctor/reverse-skill）
 - [[摘要-workbuddy保姆级入门教程-苏三]] — 苏三撰写的 WorkBuddy 国产桌面 AI 应用保姆级入门教程（安装/设置/实战/进阶四步）
+- [[摘要-大厂争相开源harness背后的商业阳谋]] — OpenAI/DeepSeek 开源 Harness，AI 竞争从模型层转向框架层
+- [[摘要-对抗ai讨好型人格的双向钢人论证]] — 钢人论证对抗 AI 谄媚偏差（Sycophancy），双向对称对抗迫使模型中立
+- [[摘要-手把手搭建ai报价工作台]] — 用 AI 搭建无代码产品报价工作台，替代手工查表算价
+- [[摘要-deepseek多模态模型上线]] — DeepSeek-V4-Flash-Vision-Exp 多模态模型上线，补齐视觉短板
+- [[摘要-chatgpt青少年版的产品难题]] — ChatGPT for Teens 年龄验证与策略路由的产品难题
+- [[摘要-宠物照护agent的记忆设计]] — AI Agent 分层记忆模型设计，宠物照护场景的短期/长期/情景记忆
+- [[摘要-ai视频工具出海潮]] — 腾讯/字节/来画 AI 视频工具出海竞争（OiiOii/小云雀/OnSolo）
+- [[摘要-劝退客户做知识库的案例]] — FDE 需求诊断，20万份文档知识库项目劝退案例
+- [[摘要-可回滚的数据清洗规则]] — AI 项目数据清洗规则应版本化、可回滚、可审计
+- [[摘要-langchain实现naiverag]] — LangChain + ChromaDB 实现 NaiveRAG 朴素向量检索生成教程
+- [[摘要-阿里开源agent项目]] — 阿里开源 Open Code Review Agent 项目，自动化代码审查
+- [[摘要-复杂agent的四大体系]] — 复杂 Agent 的执行/反馈/协作/记忆四大体系设计
+- [[摘要-动物医院的rag落地路径]] — RAG 在动物医院的落地路径，垂直场景的知识工程
+- [[摘要-对话claude-code之父boris-cherny]] — Boris Cherny YC 对谈：Product Overhang、Unhobbling、删除80% System Prompt
+- [[摘要-代码能力争夺的本质]] — 前沿大模型拼代码的本质是争夺自动化研发能力和下一代模型创造权
+- [[摘要-socks5代理认证兼容性问题]] — SOCKS5 代理在 requests 可用但 aiohttp/httpx 报 407 的兼容性问题
+- [[摘要-ai时代的cms设计]] — AI 时代 CMS 设计：内容身份、版本、审核与数据回流（AI短剧+教育）
+- [[摘要-agent产品的执行责任表]] — DeepSeek Harness 执行责任表：审批设计、权限策略、可追溯性
+- [[摘要-codex-windows沙箱机制]] — Codex Windows 平台 elevated sandbox 机制：write-restricted token + 防火墙
 
 ## Syntheses
 - [[openspec-working-principle]] — OpenSpec 工作原理综合分析：四阶段循环×四份 DAG 工件×Delta Spec 增量×31 平台分发
@@ -709,6 +728,7 @@
 - [[Celery]] — Python 分布式异步任务队列框架，RenoPit 的异步 Worker
 - [[Vite]] — 新一代前端构建工具与开发服务器，RenoPit 开发环境 5173 端口代理
 - [[SSE]] — Server-Sent Events 服务器发送事件，单向服务器推送机制
+- [[AlphaEvolve]] — Google DeepMind 自动化研究系统，让模型不断提出程序并自动评估筛选演化
 
 ## Concepts
 - [[冷备暖备热备]] — 高可用容灾三种备份就绪状态，恢复速度 vs 成本的权衡
@@ -1111,6 +1131,23 @@
 - [[摘要-renopit-demo-healthcheck-docker]] — 装闭 RenoPit 源码解析（14）：Demo 模式 fetch 劫持、三组分级健康检查、Docker Compose 五服务部署
 - [[摘要-langgraph-postgresql-会话记忆持久化]] — LangGraph + PostgreSQL 会话记忆持久化：PostgresSaver（Checkpointer）与 PostgresStore（Store）两大存储体系实战
 - [[摘要-强模型时代删掉Superpowers该怎么选]] — 强模型时代 Superpowers vs Matt Skills 选型：流程税问题、分层工作流、从约束 AI 每一步转向给定目标 AI 自主推理
+- [[ProductOverhang]] — 模型已具备但未被产品释放的能力积压，机会在于拿掉妨碍模型发挥的设计
+- [[Unhobbling]] — 拿掉阻碍模型发挥的产品设计，与 Product Overhang 是同一件事的两个方面
+- [[AblationStudy]] — 消融实验：删除组件观察影响，Claude Code 每次新模型删除 80% System Prompt
+- [[自动化研发]] — AI 从知识使用者向知识生产者移动，代码是最早形成闭环的领域
+- [[AI递归]] — AI 参与创造下一代 AI 的能力，研发流程逐步交给 AI 的现实路径
+- [[评价系统]] — AI 产品下一轮竞争不是提示词而是评价系统：任务环境/评价标准/反馈数据/安全机制
+- [[Sycophancy]] — AI 谄媚偏差，倾向于附和用户而非给出真实判断
+- [[钢人论证]] — 构建对手观点最强版本再反驳，双向钢人论证对抗 AI 谄媚
+- [[CMS]] — 内容管理系统，AI 时代需管理生成过程：内容身份/版本/状态/审核/发布/数据回流
+- [[write-restricted-token]] — Windows 派生的低权限令牌，Codex 利用其实现文件系统隔离
+- [[elevated-sandbox]] — Codex Windows 提权沙箱，通过专门用户和防火墙规则控制网络访问
+- [[NaiveRAG]] — 最基础的 RAG 实现：文档加载→分割→向量化→存储→检索→生成
+- [[PromptInjection]] — 提示词注入，Opus 5 通过模型对齐+注入检测器+Auto Mode classifier 三层防护
+- [[审批设计]] — Agent 敏感动作审批机制，审批按钮必须提供足够信息让用户判断后果
+- [[权限策略]] — Agent 动作执行范围控制，与沙箱和审批共同构成安全边界
+- [[Traceability]] — Agent 执行过程可追溯能力，追加式会话日志记录当时发生的事实
+- [[SOCKS5]] — 传输层代理协议，认证发生在协议级别（RFC 1929），非 HTTP 头部
 
 ## Syntheses
 - [[harness-architecture-comparison]] — Harness 架构四类分类（插件型/三主题型/薄包装型/项目级型）与 Agent 选型

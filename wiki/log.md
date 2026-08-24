@@ -1,4 +1,9 @@
-## [2026-08-21] ingest | 强模型时代删掉 Superpowers 该怎么选
+## [2026-08-24] ingest | 批量摄入 18 篇文章（2026-08-21 至 2026-08-23）
+- **变更**: 新增 18 个 sources：[[摘要-大厂争相开源harness背后的商业阳谋]], [[摘要-对抗ai讨好型人格的双向钢人论证]], [[摘要-手把手搭建ai报价工作台]], [[摘要-deepseek多模态模型上线]], [[摘要-chatgpt青少年版的产品难题]], [[摘要-宠物照护agent的记忆设计]], [[摘要-ai视频工具出海潮]], [[摘要-劝退客户做知识库的案例]], [[摘要-可回滚的数据清洗规则]], [[摘要-langchain实现naiverag]], [[摘要-阿里开源agent项目]], [[摘要-复杂agent的四大体系]], [[摘要-动物医院的rag落地路径]], [[摘要-对话claude-code之父boris-cherny]], [[摘要-代码能力争夺的本质]], [[摘要-socks5代理认证兼容性问题]], [[摘要-ai时代的cms设计]], [[摘要-agent产品的执行责任表]], [[摘要-codex-windows沙箱机制]]; 新增 1 个 entity [[AlphaEvolve]]; 新增 18 个 concepts [[ProductOverhang]], [[Unhobbling]], [[AblationStudy]], [[自动化研发]], [[AI递归]], [[评价系统]], [[Sycophancy]], [[钢人论证]], [[CMS]], [[write-restricted-token]], [[elevated-sandbox]], [[NaiveRAG]], [[PromptInjection]], [[审批设计]], [[权限策略]], [[Traceability]], [[SOCKS5]]; 增量更新 [[BorisCherny]]（新增 YC 对谈核心观点 + 7 个双链 + sources 路径 + last_updated）; 更新 [[index.md]]（Sources +19 / Entities +1 / Concepts +18）
+- **冲突**: 无
+- **归档**: 18 个源文件待移动至 raw/09-archive/
+
+
 - **变更**: 新增 sources [[摘要-强模型时代删掉Superpowers该怎么选]]; 新增 concepts [[流程税]], [[强模型时代工作流选型]]; 增量更新 [[Superpowers]]（新增"强模型时代的定位修正"章节 + 3 个双链 + sources 路径 + last_updated）, [[MattPocock]]（新增"强模型时代的优势"章节 + 3 个双链 + sources 路径 + last_updated）, [[Kimi]]（新增 Kimi K3 强模型代表信息 + 2 个双链 + sources 路径 + last_updated）; 更新 [[index.md]]（Sources +1 / Concepts +2）
 - **冲突**: 无（与现有 [[摘要-superpowers-grill-me怎么选]] 的"grill-me + superpowers 组合"视角不冲突，本文为强模型时代的修正视角，已通过双链互引）
 - **归档**: 源文件已移动至 raw/09-archive/（强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md）
