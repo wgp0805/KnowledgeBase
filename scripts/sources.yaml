@@ -73,15 +73,6 @@ sources:
   - 技术
   enabled: true
   max_per_source: 10
-- name: Solidot
-  type: rss
-  url: https://www.solidot.org/index.rss
-  tags:
-  - 科技
-  - 新闻
-  - 中文
-  enabled: true
-  max_per_source: 10
 - name: 36氪
   type: rss
   url: https://36kr.com/feed
@@ -92,16 +83,6 @@ sources:
   - 中文
   enabled: true
   max_per_source: 10
-- name: HelloGitHub
-  type: rss
-  url: https://hellogithub.com/rss
-  tags:
-  - 开源
-  - GitHub
-  - 技术
-  - 中文
-  enabled: true
-  max_per_source: 5
 - name: 人人都是产品经理
   type: rss
   url: https://www.woshipm.com/feed
@@ -120,18 +101,6 @@ sources:
   tags:
   - Java
   - 后端
-  - 编程
-  - 中文
-  enabled: true
-  max_per_source: 10
-- name: CSDN-AI
-  type: scrape
-  url: https://blog.csdn.net/nav/ai
-  selector: a[href*='/article/details/']
-  link_prefix: https://blog.csdn.net
-  tags:
-  - AI
-  - LLM
   - 编程
   - 中文
   enabled: true
