@@ -14,7 +14,7 @@ parse_status: "ok"
 
 > 最近刷 GitHub 的时候，又看到一个阿里项目冲上热门。名字不花哨，就叫 **Open Code Review**，仓库在 alibaba/open-code-review。点进去一看，star 已经两万出头了，评论区里全是“终于等到官方开源”这种话。它不是又一个会聊天的 Coding Agent。它更像一个专门给人看代码的同事：你改完一堆 diff，它先把该看的文件筛出来，再让模型去翻上下文，最后把意见钉到具体某一行上。今天锋哥和大家好好聊聊这个开源项目。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/N3iaBf9dM5ibHBbRmX0lUzPfBpLyzaTVJG4z4sYtQNSiaCCrO4HVVnYcR8ITiaHfiaNricw1YicdcvxHnoAGz9JibhskRCBgYl77Lz3fqeSbws5AytI/640?wx_fmt=jpeg&from=appmsg)
+![](assets/2026-08-23%20-%20%E9%98%BF%E9%87%8C%E5%BC%80%E6%BA%90%E7%9A%84%20Agent%20%E9%A1%B9%E7%9B%AE%E5%9C%A8%20Github%20%E5%8F%88%E7%88%86%E4%BA%86%20%EF%BC%81/030445c8e5541bd982e3ef95291aa134_MD5.jpg)
 
 ## 目录
 
@@ -28,7 +28,7 @@ parse_status: "ok"
 
 Open Code Review 不是实验室里刚做出来的 Demo。过去两年，它一直是阿里内部的官方 AI 代码评审助手，服务过上万名开发，扫过上百万个真实缺陷。2026 年开源之后，社区反应很直接：终于有一个“专门干 Code Review”的 Agent，而不是把通用聊天机器人硬塞进 PR 里。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/N3iaBf9dM5ibESfJlAQIlAkR97ibCr9L7lN7JVkA7le8QSxibJ7ApYziaCVARDZroe4IT8ic7eRbiasYavFcicjwUhiacmg4ugxSPSvwKhpvasHcqW3M/640?wx_fmt=jpeg&from=appmsg)
+![](assets/2026-08-23%20-%20%E9%98%BF%E9%87%8C%E5%BC%80%E6%BA%90%E7%9A%84%20Agent%20%E9%A1%B9%E7%9B%AE%E5%9C%A8%20Github%20%E5%8F%88%E7%88%86%E4%BA%86%20%EF%BC%81/537cd6fbd0515276e564c6a67009761a_MD5.jpg)
 
 官方介绍写得很硬核：混合架构、行级评论、内置多语言规则，还兼容 OpenAI 和 Anthropic 协议。翻译成人话就是——工程流程负责不跑偏，模型负责看懂代码。
 
@@ -48,7 +48,7 @@ ocr review
 
 内置规则覆盖 Java、TypeScript、Go、Python、Kotlin、Rust、C++ 等十几种语言，常见坑它都认：空指针、线程安全、XSS、SQL 注入。评论不是“这段写得不太好”这种空话，而是尽量钉到某一行。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/N3iaBf9dM5ibGnvzywfGqnQTzsTBkvicnMgVZCQt23nmw7lhavbVdnHKzYpRBvPgarvnulvRcJAE8CjtHG7dPJME7uKnzxHu6oI4NjtoIUrxwI/640?wx_fmt=jpeg&from=appmsg)
+![](assets/2026-08-23%20-%20%E9%98%BF%E9%87%8C%E5%BC%80%E6%BA%90%E7%9A%84%20Agent%20%E9%A1%B9%E7%9B%AE%E5%9C%A8%20Github%20%E5%8F%88%E7%88%86%E4%BA%86%20%EF%BC%81/8a59720093181a4e2ead6a0d3f60f8f3_MD5.jpg)
 
 ## 和普通 AI Review 有啥不一样
 
@@ -68,7 +68,7 @@ Open Code Review 的思路很朴素：**不该交给模型的事情，就别交�
 
 流程大概是这样：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/N3iaBf9dM5ibEBQQ9AlLjqsBtSkZmSOY4hMiaVUSNXVCp1hKZOg3iaviaJWGSxjNPXE49dVOoCyNGsvGQQeRVS3ZzMOB4PWUQTrKoKDHtwUAR9bY/640?wx_fmt=png&from=appmsg)
+![](assets/2026-08-23%20-%20%E9%98%BF%E9%87%8C%E5%BC%80%E6%BA%90%E7%9A%84%20Agent%20%E9%A1%B9%E7%9B%AE%E5%9C%A8%20Github%20%E5%8F%88%E7%88%86%E4%BA%86%20%EF%BC%81/ce72cc890fa5b7c8bf2aaa883f10bc52_MD5.png)
 
 左边保证不漏、不乱、不跑偏，右边负责把代码看明白。两边各干各擅长的事，这就是它和“把整个仓库丢给聊天框”最大的差别。
 
@@ -264,7 +264,7 @@ jobs:  code-review:    runs-on: ubuntu-latest    timeout-minutes: 30    steps:  
 
 仓库 Secrets 里填模型地址和 Key，Variables 里填模型名。之后每次开 PR，它都会先看一遍。官方示例还支持在评论区发  `/open-code-review`  手动重审。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/N3iaBf9dM5ibFLLwFUeSu1606ibQYT8kV0bzMGzpiaHdOuIZX8k6kUjSFOulZy93yHAibx1ic3U35TdhzWg1ibiacScFmDFKYicdloXKOfe3dT0Rk0hs/640?wx_fmt=jpeg&from=appmsg)
+![](assets/2026-08-23%20-%20%E9%98%BF%E9%87%8C%E5%BC%80%E6%BA%90%E7%9A%84%20Agent%20%E9%A1%B9%E7%9B%AE%E5%9C%A8%20Github%20%E5%8F%88%E7%88%86%E4%BA%86%20%EF%BC%81/841e0a2daf85bec2e717b3043217be6d_MD5.jpg)
 
 如果你已经在用 Cursor、Claude Code、Codex，也不用换工具。仓库里带了插件和 Skill，可以让这些 Agent 直接调用 OCR 的评审能力。还有一种委托模式：文件筛选和规则匹配仍由 OCR 做，真正调用模型的事情交给你手头那个 Agent，这样就不用再给 OCR 单独配一把 Key。
 
@@ -272,7 +272,7 @@ jobs:  code-review:    runs-on: ubuntu-latest    timeout-minutes: 30    steps:  
 
 [2026年，锋哥又开始收Java+AI大模型编程学员了！目前活动，送AI编程+Python+AI大模型VIP。。](https://mp.weixin.qq.com/s?__biz=MzIxNTAwNjA4OQ==&mid=2247571915&idx=1&sn=6deb7659b60dc4dc3647a22babe9aad3&scene=21#wechat_redirect)
 
-#### 最近锋哥录制了一些AI编程视频教程 ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/N3iaBf9dM5ibEIVBvuR0zTd8w0Rfib2V4zaxr8KFuibraGlh4ReWBGTIIzW814cpV89PBhZuaqvQhPtyx9FyMxbicxZkWpRQeVmFktWyILKok174/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=4) 高清视频+源码+领取。
+#### 最近锋哥录制了一些AI编程视频教程 ![图片](assets/2026-08-23%20-%20%E9%98%BF%E9%87%8C%E5%BC%80%E6%BA%90%E7%9A%84%20Agent%20%E9%A1%B9%E7%9B%AE%E5%9C%A8%20Github%20%E5%8F%88%E7%88%86%E4%BA%86%20%EF%BC%81/32db8ca1001ea523bd320baf4620b279_MD5.webp)高清视频+源码+领取。
 
 ```
 扫描下方公众号【小锋学AI 】回复：888，
