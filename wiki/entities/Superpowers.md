@@ -8,7 +8,8 @@ sources:
   - raw/09-archive/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
   - raw/09-archive/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md
   - raw/01-articles/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md
-last_updated: 2026-08-21
+  - raw/01-articles/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md
+last_updated: 2026-08-25
 ---
 
 ## 定义
@@ -114,3 +115,4 @@ grill-me（想清楚）→ superpowers brainstorming（补充细节）→ writin
 - [[摘要-强模型时代删掉Superpowers该怎么选]] — 来源（强模型时代定位修正）
 - [[流程税]] — 强模型时代的成本概念
 - [[强模型时代工作流选型]] — 选型方法论
+- [[摘要-vibe-coding-文档管理]] — 来源（Vibe Coding 文档管理提及）

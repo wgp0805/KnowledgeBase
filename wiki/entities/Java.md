@@ -23,12 +23,18 @@ Java 是一种广泛使用的面向对象编程语言，基于 JVM（Java 虚拟
 - 编译时类型检查，避免 ClassCastException
 - 类型擦除机制：运行时泛型信息被擦除
 
+### Java 21 虚拟线程（2026-08，详见 [[摘要-java21-虚拟线程生产落地]]）
+- Java 21 引入虚拟线程，适合高 IO 并发场景
+- 生产环境三大坑：synchronized pin 线程、ThreadLocal 内存泄漏、池化陷阱
+- 详见 [[虚拟线程]]
+
 ## 关联连接
 - [[JVM]] — Java 虚拟机
 - [[Spring]] — 应用框架
 - [[SpringBoot]] — 自动配置框架
 - [[IntelliJIDEA]] — Java IDE
 - [[generics]] — 泛型概念
+- [[虚拟线程]] — Java 21 轻量级线程
 - [[摘要-java-generics-explained]] — 泛型详解
 - [[摘要-reader-filterreader-pushbackreader源码]] — Reader/FilterReader/PushbackReader 源码解读
 - [[Reader]] — 字符输入流抽象基类
@@ -39,3 +45,4 @@ Java 是一种广泛使用的面向对象编程语言，基于 JVM（Java 虚拟
 - [[摘要-MessageDigest简介及应用]] — 介绍 Java MessageDigest 类实现 MD5、…
 - [[摘要-mybatis-plus-12-optimization-tips]] — 本文介绍了 12 个 MyBatis Plus 性能优化技巧…
 - [[摘要-Java接口中的Default方法及其意义]] — 讲解 Java 8 接口 Default 方法的意义：向后兼…
+- [[摘要-java21-虚拟线程生产落地]] — 来源（Java 21 虚拟线程生产坑）

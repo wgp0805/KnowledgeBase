@@ -733,6 +733,15 @@
 - [[SSE]] — Server-Sent Events 服务器发送事件，单向服务器推送机制
 - [[AlphaEvolve]] — Google DeepMind 自动化研究系统，让模型不断提出程序并自动评估筛选演化
 
+### Entities (2026-08-25 新增)
+- [[FRP]] — 开源内网穿透工具，反向代理技术暴露内网服务，fatedier/frp
+- [[声网]] — 实时互动与 AI 产品提供商，对话式智能体实践
+- [[姚光华]] — 声网 AI 产品线负责人，企业级 Agent 可控方法论提出者
+- [[AI产品零度]] — 公众号作者，产品 Owner 转型管理者的管理思考者
+- [[花叔]] — 前某团运营负责人，huashu-excel skill 创作者
+- [[llama.cpp]] — 本地 GGUF 量化模型推理引擎，OpenAI 兼容 API
+- [[mattpocock-skills]] — Matt Pocock 的通用代码自检技能包仓库，月增 5 万星
+
 ## Concepts
 - [[模型指纹]] — 通过 Tokenizer 词表/logprob 分布/特殊 token/知识截止/格式偏好五个维度识别匿名大模型的真实来源
 - [[冷备暖备热备]] — 高可用容灾三种备份就绪状态，恢复速度 vs 成本的权衡
@@ -1101,6 +1110,24 @@
 - [[流程税]] — 强模型时代无脑常驻全套重流程所产生的额外成本（Token 开销/重复调度/约束推理空间）
 - [[强模型时代工作流选型]] — 强模型时代按任务风险分层选择 AI 编程工作流的方法论，从约束 AI 转向给定目标 AI 自主推理
 
+### Concepts (2026-08-25 新增)
+- [[时间片]] — OS 分时调度中分配给进程/线程的 CPU 时间配额，典型几毫秒到几十毫秒
+- [[CFS调度器]] — Linux 完全公平调度器，按进程权重动态分配时间片，6.6 被 EEVDF 替代
+- [[AgentEngineering]] — 企业级 Agent 工程化方法论：托付梯度、自治分级 L1-L5、围栏原则、可控四要素
+- [[EvaluationAsPRD]] — 评测即新 PRD，Agent 时代 PM 交付物范式转移，全生命周期四阶段
+- [[Agent自治分级]] — L1-L5 用「人还在不在环里」描述 Agent 自治程度，每级之间隔着责任边界
+- [[设计生产力]] — 管理本质定义：从自己作为生产力到设计系统让一群人持续做成
+- [[赫茨伯格双因素理论]] — 保健因素减少不满，激励因素真正激活，减少不满≠激活
+- [[教练型管理]] — 为明天的自己训练团队：成员先判断→管理者补充→行动→复盘
+- [[上下文工程]] — Vibe coding 上下文工程化：文档是载体，AI 是短期协作者，文档质量决定工作质量
+- [[文档即生产系统]] — 文档不是附属品是生产系统一部分，代码不再是唯一稀缺资源
+- [[Agent工作流]] — 企业 Agent 五大工作流：内容/销售/客服/知识库/管理，为工作流结果买单
+- [[企业Agent落地]] — 企业 Agent 商业价值三问：进入哪个工作流/减少哪类重复/让哪个结果变好
+- [[Twyman定律]] — 看起来异常的数字通常是错的，先当 bug 查排除了才当发现
+- [[HTTP2]] — HTTP 第二版，多路复用是核心，gRPC 高性能的基础
+- [[REST]] — 基于 HTTP/1.1 的 API 设计风格，JSON 文本传输，gRPC 的主要对比对象
+- [[RAG架构]] — 检索增强生成，企业 Agent 知识库工作流底层技术
+
 ## Sources
 - [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
 - [[摘要-coze-workflow-day1]] — Coze Day1 笔记：Text-to-Workflow 一句话生成工作流，AI 拆分 vs 人合并的设计洞察与三条编排设计模式
@@ -1203,3 +1230,17 @@
 - [[openspec-archive-modify-and-token-tradeoff]] — OpenSpec 归档需求修改流程与 Token 成本权衡：Delta Spec 增量变更 vs 全量重写决策指南
 - [[openspec-bugfix-workflow]] — OpenSpec apply 后发现 bug 的修复流程：实现 bug 直接改代码 vs 需求 bug 走 delta spec + /opsx:sync
 - [[java-mail-read-implementation]] — Java 项目实现读取邮件功能：IMAP 协议选型、Spring Boot 配置、Jakarta Mail 代码示例、生产环境注意事项
+
+## Sources (2026-08-25 新增)
+- [[摘要-docker-frp-内网穿透]] — Docker + FRP 内网穿透实操：frps/frpc 架构、token 认证、--network host、五大优势与工具对比
+- [[摘要-时间片-调度]] — OS 时间片与 CFS/EEVDF 调度：时间片大小权衡、sched_latency、上下文切换开销
+- [[摘要-java21-虚拟线程生产落地]] — Java 21 虚拟线程生产环境三大坑（仅标题无正文，结合实践补充常见坑点）
+- [[摘要-agent-skills-普通人教程-龙叔]] — Agent Skills 普通人构建教程：三步法、SKILL.md 三要素、会说话就会写 Skill
+- [[摘要-声网姚光华-企业级Agent可控]] — 企业级 Agent 可控与结果付费：托付梯度、自治分级 L1-L5、Evals as PRD、围栏原则
+- [[摘要-管理理解-设计生产力]] — 管理本质：设计生产力，从自己拿结果到设计系统让一群人持续做成
+- [[摘要-vibe-coding-文档管理]] — Vibe coding 文档管理：上下文工程化、五类关键文档、文档即生产系统
+- [[摘要-ai智能体企业5大工作流]] — 企业 Agent 5 大工作流：内容/销售/客服/知识库/管理，商业价值三问
+- [[摘要-agent-skills-经济学-月增5万星]] — Agent Skills 经济学：模型能力是租的技能是自己的，mattpocock/skills 月增 5 万星
+- [[摘要-huashu-excel-skill]] — 花叔 huashu-excel skill：test-time scaling、抗差统计、Twyman's Law、十份真实数据压测
+- [[摘要-langgraph-server-本地部署]] — LangGraph Server 本地离线部署：llama.cpp + Qwen GGUF 量化模型 + OpenAI 兼容 API
+- [[摘要-为什么越来越多人用gRPC]] — gRPC vs REST：HTTP/2 多路复用、Protobuf 二进制、四大慢点、Spring Boot 4.1 官方支持

@@ -2,8 +2,8 @@
 title: "Nginx"
 type: entity
 tags: [Web服务器, 反向代理]
-sources: [raw/09-archive/nginx配置.md, raw/09-archive/服务器部署纯静态网站.md, raw/09-archive/hexo博客部署到自己的服务器.md]
-last_updated: 2026-05-19
+sources: [raw/09-archive/nginx配置.md, raw/09-archive/服务器部署纯静态网站.md, raw/09-archive/hexo博客部署到自己的服务器.md, raw/01-articles/2026-08-24 - 拒绝再买服务器！我用 Docker + FRP 实现内网穿透，舒服~.md]
+last_updated: 2026-08-25
 ---
 
 ## 定义
@@ -20,3 +20,5 @@ Nginx 是一个高性能的 HTTP 和反向代理 Web 服务器，以高并发、
 ## 关联连接
 - [[SpringBoot]] — 后端代理目标
 - [[Linux]] — 运行环境
+- [[FRP]] — 内网穿透场景中内网常见服务
+- [[摘要-docker-frp-内网穿透]] — 来源（内网穿透场景）

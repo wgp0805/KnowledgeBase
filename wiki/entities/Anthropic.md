@@ -2,8 +2,8 @@
 title: "Anthropic"
 type: entity
 tags: [AI公司, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md]
-last_updated: 2026-05-26
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-08-24-Huashu-Excel正式发布！可能、也许、大概是最好用的Excel数据处理和分析skill.md]
+last_updated: 2026-08-25
 ---
 
 ## 定义
@@ -15,6 +15,7 @@ last_updated: 2026-05-26
 - Claude Opus 4.6 的写作和规划能力极强
 - 提供 Claude 订阅会员模式
 - **认知卸载研究**：2026 年 1 月发表随机对照试验论文，发现 AI 辅助组成绩比纯手写组低 17%，提出"认知卸载"概念
+- **AI 心理学研究**：用词汇激发让 agent 进入特定角色状态（如「百万美元项目组」），被 [[花叔]] huashu-excel skill 借鉴用于能力激发
 
 ## 关联连接
 - [[ClaudeCode]] — Anthropic 的 Agent 产品
@@ -27,3 +28,5 @@ last_updated: 2026-05-26
 - [[摘要-anthropic-engineer-skills]] — Skills 经验分享来源
 - [[摘要-ClaudeCode小白入门教程]] — 本文是 Claude Code 的小白入门教程，详细介绍了这…
 - [[摘要-ClaudeSkills保姆级教程]] — 本文是 Claude Skills 的保姆级教程，全面讲解了…
+- [[花叔]] — 借鉴 Anthropic AI 心理学研究
+- [[摘要-huashu-excel-skill]] — 来源（AI 心理学研究被借鉴）

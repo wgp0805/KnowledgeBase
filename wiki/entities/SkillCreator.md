@@ -2,8 +2,8 @@
 title: "SkillCreator"
 type: entity
 tags: [Claude Code, Anthropic, 元技能, 工具]
-sources: [raw/09-archive/skill-creator使用与优化指南.pdf]
-last_updated: 2026-05-20
+sources: [raw/09-archive/skill-creator使用与优化指南.pdf, raw/01-articles/2026-08-24-GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗.md]
+last_updated: 2026-08-25
 ---
 
 ## 定义
@@ -55,3 +55,6 @@ skill-creator 是 Anthropic 为 Claude Code 官方提供的 Meta-Skill（元技�
 - [[meta-skill]] — 元技能概念
 - [[Skill]] — 技能体系
 - [[摘要-skill-creator-guide]] — 来源摘要
+- [[AgentSkills]] — 技能生态
+- [[mattpocock-skills]] — 通用代码自检技能包
+- [[摘要-agent-skills-经济学-月增5万星]] — 来源（Skills 经济学）

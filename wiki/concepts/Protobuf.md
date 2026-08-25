@@ -2,8 +2,8 @@
 title: "Protobuf"
 type: concept
 tags: [序列化, Google, 高性能]
-sources: ["raw/01-articles/使用 Shadcn UI 构建 Java 桌面应用.md"]
-last_updated: 2026-07-13
+sources: ["raw/01-articles/使用 Shadcn UI 构建 Java 桌面应用.md", "raw/01-articles/2026-08-25 - 为什么越来越多人用gRPC？.md"]
+last_updated: 2026-08-25
 ---
 
 ## 定义
@@ -22,3 +22,5 @@ Protocol Buffers（Protobuf）是 Google 开发的语言无关、平台无关的
 - [[gRPC]] — 基于 Protobuf 的 RPC 框架
 - [[JxBrowser]] — Java ↔ Web 通信场景
 - [[摘要-ShadcnUI构建Java桌面应用]] — 来源
+- [[摘要-为什么越来越多人用gRPC]] — 来源（性能对比）
+- [[HTTP2]] — gRPC 底层协议

@@ -19,7 +19,8 @@ sources:
   - raw/09-archive/SpringBoot4 新特性：模块化架构.md
   - raw/09-archive/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md
   - raw/01-articles/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
-last_updated: 2026-08-17
+  - raw/01-articles/2026-08-25 - 为什么越来越多人用gRPC？.md
+last_updated: 2026-08-25
 ---
 
 ## 定义
@@ -84,6 +85,12 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 
 升级提醒：4.0 已废弃 API 被移除；Apache Derby 集成被废弃；Maven `-DskipTests` 不再跳过 AOT，需改用 `-Dmaven.test.skip=true`。
 
+### SpringBoot 4.1 gRPC 官方支持（2026-08，详见 [[摘要-为什么越来越多人用gRPC]]）
+- 内置 `spring-boot-starter-grpc-server`，gRPC 服务端/客户端自动配置（默认 9090 端口）
+- 标志着 gRPC 在 Java/Spring 生态从「第三方集成」走向「官方一等公民」
+- 配合 [[Protobuf]] 强类型契约和 [[HTTP2]] 多路复用，适合微服务间高频通信
+- 详见 [[gRPC]] 性能基准与选型
+
 ## 关联连接
 - [[Spring]] — 基础框架
 - [[SpringMVC]] — Web MVC 框架
@@ -92,6 +99,7 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 - [[RocketMQ]] — 消息队列整合
 - [[SpringSecurity]] — 安全框架整合
 - [[AOP]] — 面向切面编程
+- [[gRPC]] — 4.1 官方支持
 - [[frontend-backend-separation]] — 前后端分离架构
 - [[microservices]] — 微服务架构
 - [[摘要-springboot4-security7-vue3-best-practice]] — SpringBoot 4 最佳实践
@@ -105,3 +113,4 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 - [[虚拟线程]] — Java 25 高并发 IO 利器
 - [[ConfigurationProperties]] — 配置绑定注解（支持 Enum 类型字段）
 - [[摘要-优雅使用Enum提升SpringBoot配置管理效率]] — Enum + @ConfigurationProperties 配置管理实战
+- [[摘要-为什么越来越多人用gRPC]] — 来源（gRPC 官方支持）

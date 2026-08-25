@@ -2,8 +2,8 @@
 title: "Qwen"
 type: entity
 tags: [AI模型, 阿里云, 通义千问, 多模态, 本地微调]
-sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/09-archive/测评国内多模态大模型，到底哪个更省事？.md, raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md, raw/01-articles/2026-07-19-【RAG扫盲系列·3】从零开始构建你的RAG项目第二弹：API 调用大模型问答 - Alkaid2077.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md]
-last_updated: 2026-08-18
+sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/09-archive/测评国内多模态大模型，到底哪个更省事？.md, raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md, raw/01-articles/2026-07-19-【RAG扫盲系列·3】从零开始构建你的RAG项目第二弹：API 调用大模型问答 - Alkaid2077.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md, raw/01-articles/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md]
+last_updated: 2026-08-25
 ---
 
 ## 定义
@@ -42,6 +42,13 @@ Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Fla
 - 两张 24GB+ 显卡（如 2× RTX 5090）通过 [[TensorSplit]] 即可跑满 256K 上下文
 - 实测：2× RTX 5090 + DSH + llama.cpp，66 tokens/sec，38 步 23 分钟交付完整 3D 体素游戏
 - 详见 [[Qwen3.8-27B]]
+
+### 本地 GGUF 量化部署（2026-08，详见 [[摘要-langgraph-server-本地部署]]）
+- **模型**：qwen2.5-1.5b-instruct-q4_k_m.gguf（Q4 量化，1.5B 参数）
+- **推理引擎**：[[llama.cpp]] 的 llama-server
+- **启动命令**：`llama-server.exe -m qwen2.5-1.5b-instruct-q4_k_m.gguf --host 127.0.0.1 --port 11433 -c 4096 --jinja`
+- **OpenAI 兼容**：暴露 `/v1` 接口，可被 LangGraph、ChatOpenAI 客户端直接调用
+- **适用场景**：本地离线 AI Agent、私有化部署、功能调试、轻量化 AI 场景
 
 ## 关联连接
 - [[摘要-step-3-7-flash-agent横评]] — Coding Agent 横评来源

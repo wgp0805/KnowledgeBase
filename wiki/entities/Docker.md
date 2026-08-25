@@ -2,8 +2,8 @@
 title: "Docker"
 type: entity
 tags: [容器, DevOps]
-sources: [raw/09-archive/Docker-window环境下部署RocketMq.md, raw/09-archive/docker安装及使用-windows环境.md, raw/09-archive/docker部署nacos.md, raw/09-archive/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/09-archive/使用Docker在Windows上部署独立MySQL.md, raw/09-archive/使用n8n搭建Agent项目笔记.md, raw/09-archive/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md]
-last_updated: 2026-05-19
+sources: [raw/09-archive/Docker-window环境下部署RocketMq.md, raw/09-archive/docker安装及使用-windows环境.md, raw/09-archive/docker部署nacos.md, raw/09-archive/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/09-archive/使用Docker在Windows上部署独立MySQL.md, raw/09-archive/使用n8n搭建Agent项目笔记.md, raw/09-archive/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md, raw/01-articles/2026-08-24 - 拒绝再买服务器！我用 Docker + FRP 实现内网穿透，舒服~.md]
+last_updated: 2026-08-25
 ---
 
 ## 定义
@@ -39,14 +39,23 @@ Dockerfile (配方) ──docker build──→ Image (镜像/静态快照) ─�
 
 一个镜像可以同时跑多个容器，互不影响。
 
+## Docker + FRP 内网穿透（2026-08，详见 [[摘要-docker-frp-内网穿透]]）
+- 使用 `fatedier/frps:v0.61.2` 和 `fatedier/frpc:v0.61.2` 镜像
+- `--network host` 复用主机端口，避免端口映射复杂性
+- 配置文件通过卷挂载（`-v`）注入容器
+- frps（服务端）部署在公网云服务器，frpc（客户端）部署在内网本地电脑
+- token 密钥验证，客户端与服务端必须一致
+
 ## 关联连接
 - [[DockerDesktop]] — 桌面版
 - [[MySQL]] — 数据库容器化
 - [[Redis]] — 缓存容器化
 - [[RocketMQ]] — 消息队列容器化
 - [[Nacos]] — 注册中心容器化
+- [[FRP]] — 内网穿透工具（Docker 部署）
 - [[kubernetes-detailed-guide]] — Kubernetes 详细教程与 Docker 对比
 - [[kubernetes-introduction]] — Kubernetes 入门介绍
 - [[摘要-使用Docker在Windows上部署独立MySQL]] — 在 Windows 上使用 Docker 部署 MySQL …
 - [[摘要-idea的特殊用法及远程DEBUG的方法]] — 介绍 IntelliJ IDEA 远程调试 Java 应用的…
+- [[摘要-docker-frp-内网穿透]] — 来源（Docker + FRP 内网穿透）
 - [[kafka-complete-tutorial]] — Apache Kafka 完整教程

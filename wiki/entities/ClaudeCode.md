@@ -279,3 +279,6 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 - [[auto-mode]] — 权限自动模式
 - [[QianWen-AI]] — 多模态能力扩展 Skill
 - [[摘要-阿里开源qianwen-ai-skill项目]] — 来源
+- [[摘要-agent-skills-经济学-月增5万星]] — 来源（Skills 经济学）
+- [[摘要-agent-skills-普通人教程-龙叔]] — 来源（普通人 Skill 教程）
+- [[mattpocock-skills]] — 月增 5 万星的技能包仓库
