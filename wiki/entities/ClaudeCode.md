@@ -2,8 +2,8 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md]
-last_updated: 2026-08-14
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md]
+last_updated: 2026-08-28
 ---
 
 ## 定义
@@ -98,6 +98,10 @@ Claude Code 的权限系统基于**模式路由**而非条件判断。从源码�
 - **CLI 工具**：命令行工具扩展
 - **SubAgent**：子 agent 并行处理
 - **Hook**：条件反射式自动触发器
+  - 生命周期事件驱动：SessionStart/UserPromptSubmit/PreToolUse/PostToolUse/PermissionRequest/Stop/PreCompact 等
+  - 五类 handler：command（优先）/http/mcp_tool/prompt/agent（experimental）
+  - 三个最小示例：Notification 通知、PostToolUse 自动格式化、PreToolUse 拦截危险命令和敏感文件
+  - 详见 [[Hooks]] 和 [[摘要-claude-code-hooks-防危险命令]]
 - **插件（Plugin）**：Skill + SubAgent + Hook + MCP 打包
   - **[[claude-plugins-official]]**：Anthropic 官方开源的插件应用商店（GitHub 近 3 万 Star），已内置在 Claude Code 中，通过 `/plugin install` 命令零配置安装
   - 三类插件：LSP 语言服务（TypeScript/Python/Java/Go/C++ 等）、开发工作流（feature-dev、code-review、commit-commands）、外部工具集成（GitHub、GitLab、Figma、Linear、Playwright、Vercel、Sentry 等）
@@ -276,6 +280,7 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 - [[摘要-Codex保姆级入门教程]] — 本文是 Codex 的保姆级入门教程，系统讲解了这款由 Op…
 - [[摘要-doubao-seed2-1-pro-douyin]] — 摘要-doubao-seed2-1-pro-douyin
 - [[摘要-claude-code-实战防搞炸]] — 来源（程序汪实战经验）
+- [[摘要-claude-code-hooks-防危险命令]] — 来源（程序汪 Hooks 实战教程）
 - [[auto-mode]] — 权限自动模式
 - [[QianWen-AI]] — 多模态能力扩展 Skill
 - [[摘要-阿里开源qianwen-ai-skill项目]] — 来源

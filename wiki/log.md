@@ -1,3 +1,110 @@
+## [2026-09-01] ingest | 摄入 Spring Smart DI 动态切换实现类
+- **变更**: 新增 [[DynamicImplementationSwitching]]（动态切换实现类概念页面）; 增量更新 [[SpringSmartDI]]（已存在实体页）、[[摘要-spring-smart-di-动态切换实现类]]（已存在来源页）; 更新 [[index.md]]（Concepts +1）
+- **冲突**: 无
+- **归档**: 1 个源文件已移动至 raw/09-archive/
+
+## [2026-09-01] lint | 全自动修复死链/孤儿/未同步索引
+- **变更**:
+  - 新建 Entities (15 个): [[Claude-Code]]、[[Codex]]、[[Opus]]、[[Claude]]、[[ChatGPT]]、[[DeepSeek-V4]]、[[SQLite]]、[[SkillHub]]、[[科大讯飞]]、[[OpenHarness]]、[[Cordis]]、[[BMad-METHOD]]、[[learn-claude-code]]、[[Warp]]、[[AI平台]]
+  - 新建 Concepts (41 个): [[AI-Agent]]、[[ChatBot]]、[[ReAct]]、[[ChainOfThought]]、[[Plan-and-Execute]]、[[Multi-Agent]]、[[Orchestrator]]、[[Workflow]]、[[ContextWindow]]、[[上下文爆炸]]、[[短期记忆]]、[[长期记忆]]、[[LLM无状态]]、[[PromptEngineering]]、[[HarnessEngineering]]、[[Agent架构]]、[[Agent面试题]]、[[Skill命中率]]、[[Token压缩]]、[[浏览器Agent]]、[[CLAUDE-md]]、[[ComputerUse]]、[[Chronicle]]、[[CLI]]、[[CSA]]、[[HCA]]、[[MLA]]、[[MoE]]、[[KVCache]]、[[灰度曝光]]、[[ResponsesAPI]]、[[ChatCompletionsAPI]]、[[API缓存]]、[[Embedding]]、[[Rerank]]、[[Skills]]、[[Java集合框架]]、[[分布式]]、[[微服务]]、[[操作系统]]、[[计算机网络]]、[[FRP]]
+  - 补注册 12 个历史未同步索引: [[LlamaParse]]、[[TRAE]]、[[VectorStoreIndex]]、[[扣子]]、[[检查点机制]]、[[豆包]]、[[摘要-yc投资人最在意的问题]]、[[摘要-你的hr还在算人均营收]]、[[摘要-实测minimax-design]]、[[摘要-烧掉500块实测h3-seedance]]、[[摘要-百度搜索结果-微信文章]]、[[摘要-飞书豆包合并后第一个agent产品豆包工作]]
+  - 修复 [[CLAUDE.md]] 死链: 重命名为 [[CLAUDE-md]]，更新 6 个引用文件
+  - 修复 [[FRP]] 索引死链: 创建 FRP 概念页
+  - 解决 88 个孤儿 source 页面: 更新 [[沉默王二]] 实体页面添加全部 88 个 source 反向引用
+  - 更新 [[index.md]]: 追加 56 个新建页面 + 12 个补注册页面
+- **修复统计**: 创建 56 个新页面，修复约 180 个死链，解决 88 个孤儿页面，补注册 12 个未同步索引
+- **剩余问题**: 约 100 个低频死链（被 1-2 个页面引用）和约 50 个历史孤儿 syntheses 页面，建议后续逐步处理
+- **冲突**: 无
+
+## [2026-09-01] ingest | 批量摄入 88 篇文章（AI Agent 面试题/Claude Code/Codex/DeepSeek V4/工具评测/Java 八股文等全系列）
+- **变更**:
+  - 新增 Sources: 88 个摘要页面，涵盖以下分类：
+    - AI Agent 面试题系列（24 篇）：[[摘要-what-is-ai-agent]]、[[摘要-react-vs-cot]]、[[摘要-what-is-context-window]]、[[摘要-what-is-context-engineering]]、[[摘要-what-is-prompt-engineering]]、[[摘要-what-is-harness-engineering]]、[[摘要-what-is-loop-engineering]]、[[摘要-plan-and-execute-vs-react]]、[[摘要-why-context-window-not-infinite]]、[[摘要-why-llm-has-no-memory]]、[[摘要-ai-agent-core-components]]、[[摘要-agent-vs-chatbot]]、[[摘要-agent-workflow-context-engineering]]、[[摘要-function-calling-principle]]、[[摘要-agent-context-explosion]]、[[摘要-agent-skill-hit-rate]]、[[摘要-agent-rag-pdf]]、[[摘要-agent-short-term-memory]]、[[摘要-agent-long-term-memory]]、[[摘要-agent-memory-input]]、[[摘要-react-death-loop]]、[[摘要-multi-agent-collaboration]]、[[摘要-workflow-vs-agent]]、[[摘要-why-agent-becomes-dumb]]
+    - Claude Code/Codex 记忆系列（7 篇）：[[摘要-claude-code-short-term-memory]]、[[摘要-claude-code-long-term-memory]]、[[摘要-claude-code-memory-retrieval]]、[[摘要-claude-code-commands]]、[[摘要-how-to-write-claude-md]]、[[摘要-codex-short-term-memory]]、[[摘要-codex-long-term-memory]]
+    - Codex 版本更新系列（4 篇）：[[摘要-codex-update-2026-04]]、[[摘要-codex-april-2026-deep-review]]、[[摘要-codex-desktop-review]]、[[摘要-codex-mobile-chatgpt]]
+    - DeepSeek V4 技术系列（7 篇）：[[摘要-deepseek-v4-csa-hca-kv-cache]]、[[摘要-deepseek-v4-replace-mla]]、[[摘要-why-post-training-beats-params]]、[[摘要-deepseek-v4-review]]、[[摘要-what-is-moe]]、[[摘要-responses-api-vs-chat-completions]]、[[摘要-api-cache-pricing]]
+    - AI 工具评测系列（17 篇）：[[摘要-token-compression-11-tips]]、[[摘要-23-ai-agent-tools]]、[[摘要-minimax-skills-review]]、[[摘要-claude-code-source-leak]]、[[摘要-claude-code-deepseek-v4-agent]]、[[摘要-bmad-method-review]]、[[摘要-learn-claude-code-review]]、[[摘要-rag-upgrade-to-agent]]、[[摘要-skills-explained-trae-java]]、[[摘要-skill-md-23k-star]]、[[摘要-6-skills-recommendation]]、[[摘要-claude-code-commands-20k]]、[[摘要-skill-open-source-28k]]、[[摘要-skill-open-source-18k]]、[[摘要-top-10-agent-skills]]、[[摘要-top-3-browser-agents]]、[[摘要-warp-best-terminal]]
+    - 开源项目/Harness 系列（7 篇）：[[摘要-skillhub-open-source]]、[[摘要-skillhub-iflytek]]、[[摘要-openharness-review]]、[[摘要-cordis-deepseek-harness]]、[[摘要-anthropic-harness-release]]、[[摘要-why-harness-matters-2026]]、[[摘要-skills-principle-tutorial]]
+    - Embedding/Rerank（1 篇）：[[摘要-embedding-rerank-rag]]
+    - Java 八股文系列（14 篇）：[[摘要-rocketmq-23-questions]]、[[摘要-jvm-interview]]、[[摘要-mysql-66-questions]]、[[摘要-mybatis-interview]]、[[摘要-redis-50-questions]]、[[摘要-distributed-system-interview]]、[[摘要-design-patterns-interview]]、[[摘要-microservice-interview]]、[[摘要-java-collections-interview]]、[[摘要-spring-interview]]、[[摘要-linux-interview]]、[[摘要-openclaw-54-questions]]、[[摘要-skills-33-questions]]、[[摘要-os-interview]]
+    - 其他（6 篇）：[[摘要-agent-cli-harness-opus]]、[[摘要-free-ai-tokens]]、[[摘要-claude-code-skill-creator]]、[[摘要-java-learning-day1]]、[[摘要-computer-network-first-book]]、[[摘要-codex-markdown-to-feishu]]
+  - 更新: [[index.md]]（追加 88 个 source 条目，按分类分区块）
+- **冲突**: 无
+- **归档**: 88 个源文件待移动至 raw/09-archive/
+
+## [2026-09-01] ingest | 批量摄入 7 篇文章（ES性能/RocketMQ-AI/AI自动答疑/飞书豆包上下文/AI产品方法论/品牌战略/OpenSearch）
+- **变更**:
+  - 新增 Sources: [[摘要-es-为什么快-面试深度]]、[[摘要-5步用ai把客户常见问题变成自动回复系统]]、[[摘要-飞书豆包超级上下文]]、[[摘要-做ai产品先回答谁付钱]]、[[摘要-ai时代重写品牌战略五大理由]]、[[摘要-为什么越来越多人用opensearch]]（共 6 个）
+  - 新增 Entities: [[OpenSearch]]（1 个）
+  - 新增 Concepts: [[FST]]、[[TermIndex]]、[[DocValues]]、[[Segment]]、[[AIProduct]]、[[KnowledgeBase]]、[[SuperContext]]、[[AgentWorkflow]]、[[BrandStrategy]]、[[IntentEconomy]]、[[BrandFlattening]]、[[DemandLeadership]]、[[BrandEntity]]、[[InteractionSystem]]、[[SegmentReplication]]、[[ReadWriteSeparation]]、[[HybridSearch]]（共 17 个）
+  - 增量更新: [[Elasticsearch]]（+面试深度解析四层叠加/记忆口诀/新来源）、[[Feishu]]（+超级上下文视角新场景）、[[DoubaoWork]]（+飞书超级上下文场景）、[[index.md]]（+Sources/Entities/Concepts 三个新区块）
+  - 跳过: RocketMQ 接入AI 文章已存在 [[摘要-rocketmq-接入ai]] 且 [[RocketMQ]] 实体页已含 5.5.0 AI 升级内容，仅归档源文件
+- **冲突**: 无
+- **归档**: 7 个源文件已移动至 raw/09-archive/
+
+
+- **变更**: 无新增页面。该源文件此前已完整处理（sources 页面 [[摘要-拼多多二面-es-vs-mysql]] 及关联概念/实体 [[InvertedIndex]]/[[BPlusTree]]/[[NearRealTime]]/[[Elasticsearch]]/[[Canal]] 均已存在且内容详尽，[[index.md]] 已注册），但源文件未归档。本次仅执行归档操作
+- **冲突**: 无
+- **归档**: 1 个源文件已移动至 raw/09-archive/（拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md）
+
+## [2026-08-28] ingest | 摄入程序汪 Claude Code Hooks 实战教程
+- **变更**: 新增 [[摘要-claude-code-hooks-防危险命令]]; 重写 [[Hooks]]（用新知识覆盖旧描述，保留历史来源与冲突记录）; 增量更新 [[ClaudeCode]]（+Hook 详细说明/新来源/last_updated）、[[程序汪]]（+新来源/新关联/last_updated）; 更新 [[index.md]]（Sources +1）
+- **冲突**: [[Hooks]] 旧描述（2026-05-28 来自 [[摘要-anthropic-engineer-skills]]）将 Hooks 定义为"只在 Skill 被调用时生效、会话结束就消失"的 Skill 内嵌机制，与本次基于官方文档的"生命周期事件驱动独立机制"根本矛盾。经用户决策选择"用新知识覆盖旧知识"，已在 Hooks 页面保留「## 知识冲突（历史记录）」区块标注修正关系，旧来源保留作为历史参考
+- **归档**: 1 个源文件已移动至 raw/09-archive/
+
+
+- **变更**: 新增 6 个 sources：[[摘要-鹅厂员工-workbuddy-agent面试题]], [[摘要-langchain-langgraph-llamaindex对比]], [[摘要-glm-5.3-flash智谱新模型]], [[摘要-ai时代非ai研发者关系定位]], [[摘要-ubuntu-hf转gguf全流程指南]], [[摘要-llm后训练算法-ppo详解]]; 新增 3 个 entities：[[GLM-5.3-Flash]], [[LlamaIndex]], [[GGUF]]; 增量更新 [[WorkBuddy]]（+月活破千万/迭代40+版本/腾讯内部孵化/组合使用）、[[CodeBuddy]]、[[沉默王二]]、[[LangChain]]、[[LangGraph]]、[[苏三]]、[[llama.cpp]]、[[GLM]]（+GLM-5.3-Flash/国产芯片/混合注意力/IndexPool）、[[智谱AI]]; 新增 38 个 concepts：[[指数退避重试]], [[快照回滚]], [[多模态RAG]], [[原生多模态Embedding]], [[模态转换]], [[Recall@K]], [[IVF索引]], [[nprobe]], [[Agent游戏NPC]], [[感知层-决策层-执行层]], [[AI工具定位]], [[AI幻觉]], [[AI泡沫]], [[HF转GGUF]], [[模型量化]], [[Q4_K_M]], [[PPO]], [[GRPO]], [[ActorCritic]], [[GAE]], [[重要性采样]], [[CreditAssignment]], [[KL散度约束]], [[PolicyGradient]], [[RewardModel]], [[混合注意力架构]], [[IndexPool]], [[EPD分离架构]], [[InfraAgent]], [[原生多模态]], [[StateGraph]], [[检查点机制]], [[VectorStoreIndex]], [[LlamaParse]]; 更新 [[index.md]]（Sources +6 / Entities +3 / Concepts +38）
+- **冲突**: 无
+- **归档**: 6 个源文件已移动至 raw/09-archive/
+
+## [2026-08-28] query | 重型项目两大痛点：改代码发现影响其他代码要重构 + 新需求不知道怎么做
+- **输出**: 引用 [[CodeGraph]], [[GSDCore]], [[摘要-codegraph-deep-dive]], [[摘要-gsd-core-ai工作流]], [[project-analysis-planning-tool-selection]]; 即时回答未保存
+
+## [2026-08-28] query | Matt Pocock 的 mattpocock-skills 能否满足用户两大痛点需求
+- **输出**: 引用 [[MattPocock]], [[mattpocock-skills]], [[摘要-mattpocock-skills]], [[GrillMe]], [[强模型时代工作流选型]], [[heavy-project-impact-analysis-and-planning]]; 即时回答未保存
+
+## [2026-08-28] query | 将本次所有提问归纳总结到知识库
+- **变更**: 新增 [[heavy-project-framework-selection-conversation]]; 注册到 [[index.md]]
+- **输出**: 归纳本次对话全部 14 个提问（Q1-Q14），从初始需求到最终方案的全过程，含否决记录、关键认知沉淀、产出物索引; 引用 [[optimal-framework-combination-heavy-project]], [[openspec-codegraph-usage-guide]], [[heavy-project-impact-analysis-and-planning]], [[project-analysis-planning-tool-selection]], [[openspec-team-sync-personal-use]], [[OpenSpec]], [[CodeGraph]], [[MattPocock]], [[GSDCore]], [[SpecSuperflow]] 等 25 个页面
+
+## [2026-08-28] query | OpenSpec 和 CodeGraph 两个工具的完整使用方法
+- **变更**: 新增 [[openspec-codegraph-usage-guide]]; 注册到 [[index.md]]
+- **输出**: 引用 [[OpenSpec]], [[CodeGraph]], [[delta-spec]], [[openspec-brownfield-usage-guide]], [[openspec-bugfix-workflow]], [[openspec-archive-modify-and-token-tradeoff]], [[摘要-codegraph-deep-dive]], [[摘要-codegraph-mcp-gateway]]
+
+## [2026-08-28] query | 重型项目最优框架组合（用户澄清日志收集场景+绝对主动权+不满意GSD Core）
+- **变更**: 新增 [[optimal-framework-combination-heavy-project]]; 注册到 [[index.md]]
+- **冲突**: 与 [[heavy-project-impact-analysis-and-planning]] 和 [[project-analysis-planning-tool-selection]] 的推荐存在修正关系——用户反馈 GSD Core 接管流程型不满意，改推 OpenSpec + CodeGraph + Matt Pocock Skills 工具箱组合，已在新区块标注为"前一版推荐（已修正）"，非覆盖性冲突
+- **输出**: 引用 [[OpenSpec]], [[CodeGraph]], [[MattPocock]], [[mattpocock-skills]], [[GrillMe]], [[GSDCore]], [[SpecSuperflow]], [[openspec-brownfield-usage-guide]], [[openspec-working-principle]], [[heavy-project-impact-analysis-and-planning]], [[流程税]], [[强模型时代工作流选型]], [[摘要-mattpocock-skills]]
+
+## [2026-08-28] query | 重型项目复杂需求怕遗漏，AI 分析制定方案的工具推荐
+- **输出**: 引用 [[CodeGraph]], [[GSDCore]], [[摘要-codegraph-deep-dive]], [[摘要-gsd-core-ai工作流]], [[project-analysis-planning-tool-selection]]; 已固化 [[heavy-project-impact-analysis-and-planning]] 并注册 index.md
+- **输出**: 引用 [[CodeGraph]], [[FastCode]], [[GSDCore]], [[Scouting-First]], [[摘要-codegraph-deep-dive]], [[摘要-fastcode-hkuds-codebase-understanding]], [[project-analysis-planning-tool-selection]]; 即时回答未保存
+
+## [2026-08-28] query | 结合项目给出需求规划方案最全面的工具推荐
+- **输出**: 引用 [[GSDCore]], [[SpecSuperflow]], [[OpenSpec]], [[SpecKit]], [[Trellis]], [[claude-code-增强框架对比]], [[摘要-gsd-core-ai工作流]], [[摘要-spec-superflow-融合工作流-源码级详解]], [[openspec-brownfield-usage-guide]]; 已固化 synthesis [[project-analysis-planning-tool-selection]]
+- **变更**: 新增 [[project-analysis-planning-tool-selection]]; 更新 [[index.md]] Syntheses 分类（+1）
+
+## [2026-08-28] query | OpenSpec 个人使用时同事代码更新后如何保持 spec 准确
+- **输出**: 引用 [[OpenSpec]], [[delta-spec]], [[openspec-brownfield-usage-guide]], [[openspec-bugfix-workflow]], [[openspec-archive-modify-and-token-tradeoff]], [[SpecSuperflow]], [[摘要-spec-superflow-融合工作流-源码级详解]]; 已固化 synthesis [[openspec-team-sync-personal-use]]
+- **变更**: 新增 [[openspec-team-sync-personal-use]]; 更新 [[index.md]] Syntheses 分类（+1）
+
+## [2026-08-28] query | 推荐适合个人使用的 AI 编程规划框架
+- **输出**: 已回答用户关于"个人使用、结合现有项目分析、简单代码 AI 写复杂逻辑自己写"的框架推荐需求。首选 spec-superflow（OpenSpec+Superpowers 融合），备选 OpenSpec+grill-me 极简组合。引用 [[摘要-spec-superflow-融合工作流]], [[摘要-superpowers-openspec-speckit对比]], [[摘要-superpowers到底是什么]], [[摘要-gsd-core-ai工作流]], [[摘要-trellis使用手册]], [[摘要-superpowers-grill-me怎么选]], [[摘要-mattpocock-skills]] 等 7 个页面。
+- **冲突**: 无
+
+## [2026-08-27] ingest | 批量摄入 7 篇文章（豆包工作/汤道生/Anthropic SDLC/Grok Bot/Linux/Spring Event）
+- **变更**: 新增 7 个 sources：[[摘要-豆包工作一手实测]], [[摘要-豆包Kimi月活对比]], [[摘要-汤道生复盘WorkBuddy与AI竞争]], [[摘要-Anthropic官方指南-AI-Native-SDLC]], [[摘要-Claude-Code与Grok-Bot被拆开后]], [[摘要-面试官你掌握哪些Linux常用命令]], [[摘要-SpringEvent别瞎用]]; 新增 38 个 entities：[[DoubaoWork]], [[Doubao]], [[Feishu]], [[VolcEngine]], [[Seedream]], [[TangDaosheng]], [[Tencent]], [[Hunyuan]], [[Yuanbao]], [[CodeBuddy]], [[ADP]], [[CodingNet]], [[GrokBot]], [[LouisClaxton]], [[Arthas]], [[SpringEvent]], [[ApplicationListener]], [[EventListener]], [[SmartLifecycle]], [[ContextRefreshedEvent]], [[SpringRetry]], [[DeadLetterQueue]], [[MQ]], [[grep]], [[awk]], [[sed]], [[top]], [[netstat]], [[lsof]], [[ss]], [[jstack]], [[jmap]], [[jstat]], [[jps]], [[jinfo]], [[jhat]]; 新增 17 个 concepts：[[AINativeSDLC]], [[SDLC]], [[IntentMd]], [[SpecMd]], [[PlanMd]], [[ReviewMd]], [[AgentEval]], [[ClaudeTag]], [[Bands]], [[PlanMode]], [[AutoMode]], [[Subagent]], [[SourceMap]], [[TaskDelegationSystem]], [[PublishSubscribePattern]], [[EventualConsistency]], [[StrongConsistency]], [[GracefulShutdown]]; 增量更新 [[Seedance]]（+Seedance 2.5 版本信息）; 更新 [[index.md]]（Sources +7 / Entities +38 / Concepts +17）
+- **冲突**: 无
+- **归档**: 7 个源文件已移动至 raw/09-archive/
+- **变更**: 新增 source [[摘要-拼多多二面-es-vs-mysql]]; 新增 3 个 concepts [[InvertedIndex]], [[BPlusTree]], [[NearRealTime]]; 增量更新 [[Elasticsearch]]（+1 source + "ES 不是银弹"章节 + "生产架构黄金搭档"章节 + 5 双链 + sources 路径 + last_updated）, [[MySQL]]（+1 source + B+Tree 模糊搜索短板 + 与 ES 分工章节 + 4 双链 + sources 路径 + last_updated）, [[Canal]]（+1 source + 生产标准架构章节 + 2 双链 + sources 路径 + last_updated）, [[Lucene]]（+1 source + segment/FST 压缩/更新代价章节 + 3 双链 + sources 路径 + last_updated）, [[BM25]]（+1 source + ES 5.0 起默认要点 + 2 双链 + sources 路径 + last_updated）; 更新 [[index.md]]（Sources +1 / Concepts +3）
+- **冲突**: 无
+- **归档**: 源文件已移动至 raw/09-archive/（拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md）
+
+## [2026-08-26] ingest | 批量摄入 5 篇文章（2026-08-25）
+- **变更**: 新增 5 个 sources：[[摘要-yC-投资人最在意的问题]], [[摘要-字节AI变经营单元]], [[摘要-miniMax-Design视频生成Agent]], [[摘要-视频模型横评H3vsSeedance]], [[摘要-豆包工作与飞书打通]]; 新增 13 个 entities：[[豆包工作]], [[字节跳动]], [[H3]], [[Seedance]], [[Seedance2.0fast]], [[Seedance2.5]], [[MiniMax]], [[MiniMaxDesign]], [[LibTV]], [[飞书]], [[飞书CLI]], [[穆胜咨询]], [[穆胜]]; 新增 6 个 concepts：[[ZeroSumThinking]], [[ValueCreationVsCapture]], [[TokenEfficiency]], [[AgenticOrganization]], [[VideoGeneration]], [[10xBetter]]; 更新 [[index.md]]（Sources +5 / Entities +13 / Concepts +6）
+- **冲突**: 无
+- **归档**: 5 个源文件已移动至 raw/09-archive/
+
 ## [2026-08-25] ingest | 批量摄入 12 篇文章（2026-08-24 至 2026-08-25）
 - **变更**: 新增 12 个 sources：[[摘要-docker-frp-内网穿透]], [[摘要-时间片-调度]], [[摘要-java21-虚拟线程生产落地]], [[摘要-agent-skills-普通人教程-龙叔]], [[摘要-声网姚光华-企业级Agent可控]], [[摘要-管理理解-设计生产力]], [[摘要-vibe-coding-文档管理]], [[摘要-ai智能体企业5大工作流]], [[摘要-agent-skills-经济学-月增5万星]], [[摘要-huashu-excel-skill]], [[摘要-langgraph-server-本地部署]], [[摘要-为什么越来越多人用gRPC]]; 新增 7 个 entities [[FRP]], [[声网]], [[姚光华]], [[AI产品零度]], [[花叔]], [[llama.cpp]], [[mattpocock-skills]]; 新增 16 个 concepts [[时间片]], [[CFS调度器]], [[AgentEngineering]], [[EvaluationAsPRD]], [[Agent自治分级]], [[设计生产力]], [[赫茨伯格双因素理论]], [[教练型管理]], [[上下文工程]], [[文档即生产系统]], [[Agent工作流]], [[企业Agent落地]], [[Twyman定律]], [[HTTP2]], [[REST]], [[RAG架构]]; 增量更新 [[AgentSkills]]（+3 sources + 经济学/普通人构建/数据分析实践章节 + 4 双链）, [[gRPC]]（+1 source + 性能基准/四大慢点/Spring Boot 4.1 官方支持章节 + 3 双链）, [[虚拟线程]]（+1 source + 生产三大坑章节 + 1 双链）, [[上下文切换]]（+1 source + 时间片用完后的上下文切换章节 + 3 双链）, [[VibeCoding]]（+1 source + 文档管理/上下文工程化章节 + 3 双链）, [[Protobuf]]（+1 source + 2 双链）, [[Docker]]（+1 source + Docker+FRP 内网穿透章节 + 2 双链）, [[Nginx]]（+1 source + 2 双链）, [[Qwen]]（+1 source + 本地 GGUF 量化部署章节 + 1 双链）, [[LangGraph]]（+1 source + LangGraph Server 本地部署章节 + 2 双链）, [[SpringBoot]]（+1 source + 4.1 gRPC 官方支持章节 + 2 双链）, [[Anthropic]]（+1 source + AI 心理学研究 + 2 双链）, [[Superpowers]]（+1 source + 1 双链）, [[ClaudeCode]]（+2 sources + 3 双链）, [[SkillCreator]]（+1 source + 3 双链）, [[Java]]（+1 source + Java 21 虚拟线程章节 + 2 双链）; 更新 [[index.md]]（Sources +12 / Entities +7 / Concepts +16）
 - **冲突**: 无
@@ -1355,3 +1462,16 @@
 ## [2026-08-24] query | 保存大模型部署框架对比综合页
 - **变更**: 新增 synthesis [[大模型部署框架对比与选型]]; 更新 [[index.md]]（Syntheses +1）
 - **冲突**: 无
+
+## [2026-08-31] query | 解析 Spring AI 是否以 RAG 为最主要应用场景
+- **输出**: 引用 [[摘要-spring-ai]]、[[摘要-spring-ai-2-agent-tips]]、[[摘要-spring-ai-2-vs-alibaba选型]]、[[摘要-字节面试官什么是RAG为什么需要RAG]]、[[摘要-推荐5个AI-Agent项目]]、[[摘要-为什么Claude-Code不用RAG检索代码]]、[[摘要-RAG-KAG双引擎知识库系统]]、[[摘要-动物医院的rag落地路径]]、[[摘要-劝退客户做知识库的案例]]、[[摘要-langchain-rag构建知识库-理论]]
+
+## [2026-08-31] query | 固化 Spring AI 应用分布综合分析为 synthesis
+- **变更**: 新增 [[synthesis-spring-ai-rag-vs-agent]]; 更新 [[index.md]] Syntheses 分类
+- **冲突**: 无
+## [2026-08-31] ingest | 批量摄入 8 篇 2026-08-29/30 文章
+- **变更**: 新增 8 个 sources：[[摘要-DeepSeek-Harness任务管理方法]], [[摘要-留学生旅行Agent产品构思]], [[摘要-产品经理如何搭建CMS]], [[摘要-大厂补harness-agent从模型转向运行时]], [[摘要-AGENTS.md只该管边界]], [[摘要-HiPaw-MVP收敛复盘]], [[摘要-Anthropic-AI-Native-SDLC手册]], [[摘要-AI编码Agent从原理到可运行代码]]; 更新 [[index.md]]（Sources +8）
+- **冲突**: 无。本次仅创建 sources 摘要页面，未创建/更新 entities 和 concepts 页面（相关实体如 [[DeepSeekHarness]]/[[Codex]]/[[ClaudeCode]]/[[Harness]]/[[VibeCoding]]/[[ContextEngineering]]/[[ReAct_Agent]] 已存在且内容详尽，新 sources 通过双链关联，未触发内容冲突）
+- **归档**: 8 个源文件待移动至 raw/09-archive/
+- **说明**: 8 篇文章主题集中在 Agent 工程化（Harness/AGENTS.md/SDLC）、AI 编码 Agent 原理、产品方法论（CMS/MVP/旅行 Agent），与现有知识库高度互补，未发现需要新建的实体/概念
+

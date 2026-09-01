@@ -2,8 +2,8 @@
 title: "LangChain"
 type: entity
 tags: [AI框架, Python, LLM]
-sources: [raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md]
-last_updated: 2026-07-06
+sources: [raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md, raw/01-articles/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md]
+last_updated: 2026-08-28
 ---
 
 ## 定义
@@ -31,4 +31,7 @@ Python 生态最流行的 LLM 应用开发框架，提供统一的模型调用�
 - [[MinerU]] — 推荐的 PDF 加载器
 - [[摘要-langchain-rag构建知识库-理论]] — RAG 构建理论来源
 - [[摘要-构建你的第一个Tool-Agent-从零理解ReAct循环]] — 来源
+- [[摘要-langchain-langgraph-llamaindex对比]] — 三框架对比来源
+- [[LlamaIndex]] — 互补框架（数据层）
+- [[苏三]] — 对比文章作者
 

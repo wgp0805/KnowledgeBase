@@ -1,14 +1,17 @@
 ---
 title: "WorkBuddy"
 type: entity
-tags: [实体, 桌面AI, 国产AI, 办公, 编程]
+tags: [实体, 桌面AI, 国产AI, 办公, 编程, 腾讯]
 sources:
   - raw/01-articles/2026-08-21 - WorkBuddy 保姆级入门教程.md
-last_updated: 2026-08-21
+  - raw/01-articles/鹅厂员工：羡慕隔壁组做 WorkBuddy 的，月活1000万+，已经成为AI办公的王牌，感觉晋升和年终奖肯定少不了（附Agent面试题）.md
+last_updated: 2026-08-28
 ---
 
 ## 定义
 WorkBuddy 是一款国产桌面 AI 应用，可写 Word、做 PPT、辅助论文、数据分析、设计海报、写代码，生成的文件可直接预览。相比 [[Codex]] 登录/手机号验证/plus 等门槛，WorkBuddy 下载安装登录都很直接，是国产桌面 AI 中最好上手、功能最全的一档。
+
+**最新进展（2026-08-27）**：由腾讯内部孵化，从 [[CodeBuddy]] 演化而来，上线三个月迭代 40+ 版本，月活突破 1000 万，成为 AI 办公领域王牌产品。作者沉默王二表示"Codex 蹬完了就用 WorkBuddy 稳稳接住"，常与 [[Codex]]、[[ClaudeCode]]、[[DeepSeekHarness]] 组合使用。
 
 ## 关键信息
 
@@ -64,10 +67,14 @@ WorkBuddy 是一款国产桌面 AI 应用，可写 Word、做 PPT、辅助论文
 
 ## 关联连接
 - [[摘要-workbuddy保姆级入门教程-苏三]] — 主要来源
+- [[摘要-鹅厂员工-workbuddy-agent面试题]] — 2026-08-27 最新进展与 Agent 面试题来源
 - [[苏三]] — 教程作者
 - [[Codex]] — 对比的国外工具（登录门槛高）
 - [[DeepSeek]] — V4 Flash 模型，日常问答推荐
 - [[GLM]] — 5.2 模型，代码和复杂步骤推荐
 - [[Kimi]] — K3 模型，前端和设计类任务推荐
 - [[GPT-image-2]] — 海报效果对比基准
+- [[CodeBuddy]] — WorkBuddy 前身
+- [[ClaudeCode]] — 组合使用的 AI Coding 工具
+- [[DeepSeekHarness]] — 组合使用的国产 Agent 框架
 - [[摘要-OpenClaw小龙虾教程汇总]] — 旧定义来源（已标注冲突）

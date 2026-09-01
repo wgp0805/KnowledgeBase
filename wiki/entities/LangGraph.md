@@ -2,8 +2,8 @@
 title: "LangGraph"
 type: entity
 tags: [AI框架, Agent, 工作流编排, Python]
-sources: [raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md, raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/01-articles/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md]
-last_updated: 2026-08-25
+sources: [raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md, raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/01-articles/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md, raw/01-articles/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md]
+last_updated: 2026-08-28
 ---
 
 ## 定义
@@ -48,6 +48,7 @@ LangGraph 将记忆存储划分为两套独立体系（详见 [[AgentMemory]]）
 - [[摘要-构建你的第一个Tool-Agent-从零理解ReAct循环]] — 来源
 - [[摘要-langgraph-postgresql-会话记忆持久化]] — 来源（记忆持久化）
 - [[摘要-langgraph-server-本地部署]] — 来源（本地部署）
+- [[摘要-langchain-langgraph-llamaindex对比]] — 三框架对比来源
 - [[llama.cpp]] — 本地推理引擎
 - [[PostgresSaver]] — Checkpointer 持久化实现
 - [[PostgresStore]] — Store 长期记忆实现
@@ -55,7 +56,9 @@ LangGraph 将记忆存储划分为两套独立体系（详见 [[AgentMemory]]）
 - [[AgentMemory]] — 记忆系统概念
 - [[LangGraph4j]] — Java 移植版
 - [[LangChain]] — 所属生态
+- [[LlamaIndex]] — 互补框架（数据层）
 - [[ReAct_Agent]] — 核心推理模式
 - [[StateGraph]] — 核心抽象
 - [[Agent工作流编排]] — 所属方法论
+- [[苏三]] — 对比文章作者
 

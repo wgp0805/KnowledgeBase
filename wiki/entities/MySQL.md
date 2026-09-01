@@ -45,7 +45,8 @@ sources:
   - raw/09-archive/第18章_主从复制.pdf
   - raw/09-archive/第18章_MySQL8其它新特性.pdf
   - raw/09-archive/第19章_数据库备份与恢复.pdf
-last_updated: 2026-05-22
+  - raw/01-articles/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
+last_updated: 2026-08-26
 ---
 
 ## 定义
@@ -58,6 +59,8 @@ MySQL 是最流行的开源关系型数据库管理系统之一，以高性能�
 - CPU 过高排查：通过 performance_schema 关联 SQL 语句
 - Docker 容器化部署支持数据持久化
 - **千万级大表 DDL**：6 种方案应对锁表风险——原生 Online DDL（<1亿行）、停机维护（<100GB）、PT-OSC（触发器）、双写迁移（金融级10亿+）、gh-ost（无触发器TB级）、分区滑动窗口（日志表）。加字段前优先用 JSON 字段预扩展，万亿级表应分库分表
+- **B+Tree 索引的模糊搜索短板**：`LIKE '%xx%'` 前置通配符导致 B+Tree 有序性失效，优化器放弃索引走全表扫描；`LIKE 'xx%'` 前缀固定可走索引。覆盖索引可扫更小的二级索引树但本质仍全扫，数据量大照样慢。这是引入 ES 倒排索引解决全文检索的根本原因
+- **与 ES 的分工**：MySQL 是"存"的专家（事务、关联、ACID），ES 是"搜"的专家（全文检索、分词、相关度排序）。生产标准架构为 MySQL 主存储 + ES 搜索引擎，通过 Canal 监听 Binlog + MQ 异步同步
 
 ## 关联连接
 - [[MyBatisPlus]] — ORM 框架
@@ -80,3 +83,8 @@ MySQL 是最流行的开源关系型数据库管理系统之一，以高性能�
 - [[PT-OSC]] — Percona 在线表结构变更工具
 - [[GhOst]] — GitHub 无触发器在线表结构变更工具
 - [[双写迁移]] — 金融级零停机数据迁移方案
+- [[BPlusTree]] — MySQL 索引底层数据结构
+- [[InvertedIndex]] — 对比数据结构（ES 倒排索引）
+- [[Elasticsearch]] — 搜索场景搭档
+- [[Canal]] — MySQL → ES 同步工具
+- [[摘要-拼多多二面-es-vs-mysql]] — 来源（面试视角 ES vs MySQL）

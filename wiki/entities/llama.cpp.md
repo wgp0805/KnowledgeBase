@@ -1,9 +1,9 @@
 ---
 title: "llama.cpp"
 type: entity
-tags: [工具, 本地推理, GGUF, 量化模型, 开源]
-sources: [raw/01-articles/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md]
-last_updated: 2026-08-25
+tags: [工具, 本地推理, GGUF, 量化模型, 开源, 模型转换]
+sources: [raw/01-articles/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md, raw/01-articles/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
+last_updated: 2026-08-28
 ---
 
 ## 定义
@@ -22,6 +22,11 @@ llama.cpp 是本地 GGUF 量化模型推理引擎，支持在本地 CPU/GPU 上�
 - **适用场景**：本地离线 AI Agent、私有化部署、功能调试、轻量化 AI 场景
 
 ## 关联连接
-- [[摘要-langgraph-server-本地部署]] — 来源
+- [[摘要-langgraph-server-本地部署]] — 来源（本地推理服务）
+- [[摘要-ubuntu-hf转gguf全流程指南]] — 来源（HF转GGUF转换工具链）
 - [[LangGraph]] — 配合使用的编排框架
 - [[Qwen]] — 常用量化模型
+- [[GGUF]] — 模型容器格式
+- [[HF转GGUF]] — 格式转换流程
+- [[模型量化]] — 量化技术
+- [[Q4_K_M]] — 量化等级

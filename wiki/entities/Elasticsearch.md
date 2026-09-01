@@ -6,7 +6,9 @@ sources:
   - raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md
   - raw/09-archive/Elasticsearch 8.10安装（新人必看）.md
   - raw/09-archive/Elasticsearch 全景指南：从入门到原理深度解析.md
-last_updated: 2026-06-08
+  - raw/01-articles/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
+  - raw/01-articles/2026-08-31 - 面试官：ElasticSearch 为什么快？.md
+last_updated: 2026-09-01
 ---
 
 ## 定义
@@ -88,6 +90,50 @@ ES 是近实时搜索引擎（默认约 1 秒延迟）：
 | 搜索结果不准 | Mapping 类型错误 | text vs keyword 选错；中文未配置 IK |
 | 字段冲突 | 动态 Mapping 自动推断 | 生产环境手动定义 Mapping，关闭 dynamic |
 
+### ES 不是银弹（面试反问场景）
+- **强事务场景别用**：无真正 ACID，跨文档无法回滚（账户扣款、订单状态流转）
+- **频繁更新场景别用**：segment 不可变，更新是"标记删除 + 新写入"，写放大严重（库存类字段）
+- **多表关联查询别用**：`join` 能力弱（nested/parent-child 性能坑）
+- **内存成本**：JVM 堆 + 文件缓存都要预留足，小数据量上 ES 纯属找事
+
+### 为什么快（面试深度解析，四层叠加）
+ES 快是"一堆优化叠出来的"，没有单点魔法，按"数据结构 → 存储 → 架构 → 写入"四层拆解：
+
+**① 数据结构层**
+- **倒排索引**：从"关键词 → 文档列表"，避开全表扫描。写入时多干活（分词、建索引），查询时少干活
+- **FST + Term Index**：词典查询拆三层——Term Index（内存里的"目录页"，用 FST 只存前缀，体积极小）→ Term Dictionary（磁盘上的有序词典）→ Posting List。FST 三大特点：前缀共享（cat/catalog/catalogue 共用 cat）、查询 O(len)（只跟查询词长度有关）、内存占用小
+- **Posting List 压缩**：文档 ID 先 delta 编码，再 Frame of Reference 压缩成块，配跳表（Skip List）支持快速跳块；Roaring Bitmap 用于 filter 缓存的 DocIdSet 求交并集
+- **BKD-Tree**：数值类型和地理位置用空间多维索引，范围查询效率高
+
+**② 存储层**
+- **Segment 不可变**：读取无锁（天生线程安全）、压缩率高（可用激进压缩）、吃满 Page Cache（热数据几乎全驻内存）
+- **Doc Values 列式存储**：排序聚合直接读列式存储，不用回源解析原文
+
+**③ 架构层**
+- **分片并行查询**：scatter-gather 模式，协调节点广播到所有分片并行执行，数据量翻倍加机器即可
+- **缓存体系**：Page Cache 扛大头 + Shard Request Cache（分片级聚合结果）+ Query Cache（过滤查询位图）
+
+**④ 写入侧（近实时 NRT）**
+- **refresh**（默认 1s）：Buffer 生成新 Segment 进文件系统缓存，可搜索但未落盘 → 这就是"近实时"的由来
+- **flush**（默认 30 分钟或 Translog 512MB）：Segment 真正 fsync 到磁盘，清空 Translog
+- **force merge**：多个小 Segment 合并成大的，查询提速但吃资源，建议低峰期做
+
+### 面试高频追问
+- **ES 是实时的吗？** 不是，是近实时。写入到可搜索默认有 1 秒 refresh 间隔。强一致场景（秒杀扣库存）别用 ES
+- **ES 为什么深分页慢？** `from + size` 每个分片都要取 `from + size` 条到协调节点排序。生产用 `search_after`，导出用 Scroll
+- **refresh/flush/force merge 分别干什么？** refresh=Buffer 生成 Segment 进缓存（可搜索）；flush=Segment 落盘清 Translog；force merge=合并小 Segment
+- **Segment 不可变，更新删除怎么办？** 打标记（.del 文件记录删除文档号），查询时过滤，物理删除等 Segment 合并
+
+### 记忆口诀
+**结构看三层：目录（Term Index/FST）→ 词典（Term Dictionary）→ 倒排列表（Posting List）；存储两板斧：不可变 Segment + 列式 Doc Values；架构一手牌：分片并行加缓存；写入近实时：1 秒 refresh 见。**
+
+### 生产架构：MySQL + ES 黄金搭档
+- **MySQL 是唯一数据源（Source of Truth）**，写操作先进 MySQL 保证事务完整
+- 通过 **Canal 监听 Binlog**（或 Flink CDC）→ MQ → 消费写入 ES，业务与同步解耦
+- 搜索请求全部打到 ES，MySQL 只服务正常业务读写
+- MQ 削峰 + 失败重试保证最终一致性
+- 实战案例：5000 万商品 + 多条件筛选 + 关键词搜索，搜索响应稳定百毫秒内
+
 ## 关联连接
 - [[Lucene]] — 底层全文检索引擎库
 - [[Kibana]] — ES 可视化平台
@@ -98,5 +144,15 @@ ES 是近实时搜索引擎（默认约 1 秒延迟）：
 - [[摘要-elasticsearch-quick-start]] — 来源（基础入门）
 - [[摘要-elasticsearch-8.10-install]] — 来源（8.10 安装与安全配置）
 - [[摘要-elasticsearch-comprehensive-guide]] — 来源（全景原理深度解析）
+- [[摘要-拼多多二面-es-vs-mysql]] — 来源（面试视角 ES vs MySQL）
+- [[摘要-es-为什么快-面试深度]] — 来源（面试深度解析为什么快）
+- [[FST]] — 有限状态转换器，Term Index 核心
+- [[TermIndex]] — 词典的"目录页"
+- [[DocValues]] — 列式存储，排序聚合加速
+- [[Segment]] — Lucene 不可变存储单元
 - [[BM25]] — 相关性评分算法
+- [[InvertedIndex]] — 倒排索引概念页
+- [[NearRealTime]] — 近实时机制概念页
+- [[BPlusTree]] — 对比数据结构（MySQL 索引底层）
+- [[Canal]] — MySQL → ES 同步工具
 - [[elasticsearch-disadvantages]] — ES 缺点分析

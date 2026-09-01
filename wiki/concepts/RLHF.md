@@ -2,8 +2,8 @@
 title: "RLHF"
 type: concept
 tags: [AI, LLM, 对齐, 强化学习, RLHF]
-sources: [raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md]
-last_updated: 2026-07-08
+sources: [raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md, raw/01-articles/2026-08-27-LLM后训练算法梳理(1)-PPO算法 - bradinz.md]
+last_updated: 2026-08-28
 ---
 
 ## 定义
@@ -28,3 +28,8 @@ SFT（专业技能）→ **RLHF/DPO/RLVR（价值观对齐）** → 可用的 Ch
 - [[微调]] — 所属大类
 - [[基座模型]] — 训练链路起点
 - [[摘要-transformer-训练微调范式]] — 来源
+- [[摘要-llm后训练算法-ppo详解]] — PPO 算法详解来源
+- [[PPO]] — RLHF 核心优化算法
+- [[GRPO]] — PPO 简化变体
+- [[DPO]] — 非 RL 对齐替代方案
+- [[RLVR]] — 可验证奖励 RL 新范式
