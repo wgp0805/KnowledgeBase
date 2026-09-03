@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-mybatis-plus-3515-springboot4-jackson3]] — MyBatis-Plus 3.5.15 支持 Spring Boot 4.0 和 Jackson 3.0，Starter 替换与 JSON 字段处理详解
 - [[摘要-ox-alpha模型与agent面试题]] — 沉默王二介绍免费预览模型 Ox Alpha（1M 上下文/多模态），并以模型指纹、Provider 差异、降级策略等 10 道 Agent 面试题展开
 - [[摘要-ruoyi-ai平台]] — 若依扩展的全栈 AI 平台，Spring Boot 3.4 + Spring AI + Langchain4j，本地 RAG/Agent Skills/流程编排
 - [[摘要-多agent统一UI工具]] — AionUi 开源多 Agent 桌面应用，统一 UI 整合 OpenClaw/Claude Code/Codex 等 CLI
@@ -345,6 +346,11 @@
 - [[摘要-HiPaw-MVP收敛复盘]] — HiPaw 动物医疗 AI 复盘：Vibe Coding 放大"完整产品幻觉"，MVP 越来越难收敛
 - [[摘要-Anthropic-AI-Native-SDLC手册]] — Anthropic《AI-Native SDLC Playbook》拆解：intent.md 产物链 + 审查前置
 - [[摘要-AI编码Agent从原理到可运行代码]] — AI 编码 Agent 原理（ReAct/五件套/上下文工程/Function Calling/CodeAct）与生产级架构分层
+- [[摘要-es-data-types-mysql-mapping]] — ES 数据类型与 MySQL 映射关系详解（text/keyword/scaled_float/动态映射等）
+- [[摘要-git中的8个坑]] — Git 8 个常见操作陷阱（reset hard/合并冲突/stash pop/push force 等）及正确解法
+- [[摘要-qwen38-flash架构深度分析]] — Qwen3.8-Flash 发布：Next 架构（125B/6B 激活）训练成本降 90%，开源策略抢占生态
+- [[摘要-大模型越强产品经理越要把边界写进流程]] — AI 产品设计方法论：能力边界/幻觉控制/长上下文/Memory 治理/Agent Loop/评测闭环/发布门槛
+- [[摘要-财务数字化三层架构]] — 财务数字化三层架构（业财一体化→财务共享→报表合并）的依赖关系与 SAP 实现
 
 ## Concepts (2026-08-26 新增)
 - [[ZeroSumThinking]] — 零和思维：财富总量固定 vs 正和思维：财富可被创造
@@ -357,6 +363,8 @@
 - [[BPlusTree]] — B+Tree：MySQL 索引底层结构，O(log n) 等值/范围查询快但模糊搜索失效
 - [[NearRealTime]] — 近实时（NRT）：ES 写入默认 1s 延迟可搜索，对比 MySQL 事务实时可见
 - [[DynamicImplementationSwitching]] — 动态切换实现类：运行时按配置点路由接口实现，配置即时生效无需重启
+- [[TypeHandler]] — MyBatis 类型处理器，负责 Java 类型与 JDBC 类型双向转换，Jackson 3 对应 Jackson3TypeHandler
+- [[autoResultMap]] — MyBatis-Plus @TableName 属性，设为 true 自动应用 ResultMap 使 TypeHandler 正确反序列化
 
 ## Syntheses
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
@@ -365,6 +373,8 @@
 - [[optimal-framework-combination-heavy-project]] — 重型项目最优框架组合：OpenSpec + CodeGraph + Matt Pocock Skills（用户反馈 GSD Core 不满意后的最终结论，含日志收集场景实操）
 - [[openspec-codegraph-usage-guide]] — OpenSpec 和 CodeGraph 完整使用指南（安装、命令、棕地补录、bug修复、MCP接入、配合工作流）
 - [[heavy-project-framework-selection-conversation]] — 重型项目 AI 编程框架选型完整对话记录与最终方案（从初始需求到最终选型的全过程归纳）
+- [[agent-spec-framework-comparison-and-matt-skills-workflow]] — Agent 规范驱动框架全景对比（OpenSpec/Superpowers/SpecKit/GSD/Trellis/SpecSuperflow）+ Matt Pocock Skills 介绍 + 现有 Java 后端中型功能 7 步实战流程
+- [[openspec-matt-skills-execution-workflow]] — OpenSpec + Matt Pocock Skills 配合执行详解：执行 vs 执行纪律的区别 / 安装 / apply 与 tdd 三种配合方式 / 叫停机制 / 棕地补录 / 归档后变更
 
 ## Entities
 - [[OxAlpha]] — 免费预览大模型，1M Token 上下文，支持文本/图片/视频输入，为 Coding 和长周期 Agent 任务优化
@@ -559,6 +569,8 @@
 - [[RestClient]] — Spring 6.1+ 现代HTTP客户端
 - [[OpenFeign]] — 声明式 HTTP 客户端
 - [[Prometheus]] — 开源监控系统
+- [[Flink]] — Apache 流处理计算框架，支持 Flink CDC 实时数据同步
+- [[Logstash]] — Elastic Stack 数据收集引擎，支持定时拉取 MySQL 数据到 ES
 - [[Grafana]] — 开源可视化平台
 - [[claude-code-setup]] — Anthropic 官方 Claude Code 一键自动化配置插件
 - [[claude-automation-recommender]] — claude-code-setup 背后的项目扫描与推荐 Skill
@@ -1615,3 +1627,66 @@
 - [[摘要-烧掉500块实测h3-seedance]] — H3 vs Seedance 视频模型横评（已存在未注册）
 - [[摘要-百度搜索结果-微信文章]] — 百度搜索结果微信文章（已存在未注册）
 - [[摘要-飞书豆包合并后第一个agent产品豆包工作]] — 飞书豆包合并后豆包工作产品（已存在未注册）
+
+## Sources (2026-09-01 新增 ingest - 6篇文章)
+- [[摘要-ai时代个人持续进步5个思考]] — AI时代个人持续进步的5个思考：直面AI/带着问题学AI/重视数据质量/保留独立判断/不忘生活美好
+- [[摘要-Agent上下文管理概述]] — Agent上下文组织与压缩策略：Pi Agent/OpenCode/Manus等工业级方案
+- [[摘要-DeepSeekHarness-MCP-Manager插件]] — DSH的MCP管理和Skills管理插件，HMR热应用即时生效
+- [[摘要-marketingskills营销技能包]] — 一套Markdown文件让AI编码智能体变成半个CMO，共享上下文设计
+- [[摘要-Penpot-UIUX-Design-MCP工具链]] — 将设计判断力编码成MCP工具链的工作流，先探查再创建
+- [[摘要-共享单车通信原理]] — 共享单车的智能车锁、NB-IoT、GPS定位、蓝牙通信技术原理
+
+## Entities (2026-09-01 新增 ingest)
+- [[卡神]] — AI领域创业者，其AI组织7点心得引发思考
+- [[产品小球]] — 微信公众号作者，产品经理，分享AI时代个人成长思考
+- [[marketingskills]] — 营销技能包项目，4.1万Star，49个营销技能
+- [[CoreyHaines]] — marketingskills维护者，转化率优化出身
+- [[PenpotUIUXDesign]] — Penpot设计判断力MCP工具链Skill
+- [[共享单车]] — 基于物联网技术的共享出行工具
+- [[SAP]] — 全球领先 ERP 软件供应商，统驭科目/自动记账/三层科目表实现业财一体化
+
+## Concepts (2026-09-01 新增 ingest)
+- [[AI时代个人成长系统]] — AI时代可持续成长系统：5个思考形成飞轮
+- [[AI时代不可外包的能力]] — 问题定义权/假设检查权/取舍决策权/最终责任
+- [[Agent上下文管理]] — Agent运行过程中上下文组织与压缩的技术方案
+- [[上下文压缩]] — 对Agent上下文进行压缩以适应有限窗口的技术
+- [[Tool Result Pruning]] — OpenCode的工具结果剪枝策略
+- [[结构化压缩]] — Pi Agent使用的基于提示词的结构化压缩策略
+- [[KV Cache压缩]] — Transformer层的Key-Value压缩技术
+- [[MCP管理]] — MCP服务器的新增/删除/启用/停用/重启等操作
+- [[Skills管理]] — Agent Skills的浏览/搜索/启用/停用等操作
+- [[HMR热应用]] — Hot Module Replacement模块热替换技术
+- [[共享上下文]] — marketingskills的核心设计理念
+- [[产品上下文]] — product-marketing.md文件，包含产品定位等信息
+- [[Marketing Skills]] — 营销技能集合，覆盖全链路
+- [[先探查再创建]] — penpot-uiux-design的核心架构思想
+- [[API gotchas]] — Penpot Plugin API踩坑记录
+- [[设计系统]] — 团队已攒的设计规范
+- [[智能车锁]] — 共享单车核心硬件，集成芯片/GPS/SIM卡
+- [[NB-IoT]] — 窄带物联网，共享单车主流通信技术
+- [[GPS定位]] — 通过GPS获取设备地理位置信息的技术
+- [[蓝牙通信]] — 短距离无线通信，作为网络通信的补充
+- [[git-reset-hard]] — Git 最危险操作之一，移动 HEAD + 清空工作目录，可用 reflog 恢复
+- [[git-push-force]] — 团队协作最严重错误，直接覆盖远程，应用 --force-with-lease 替代
+- [[git-reflog]] — 记录本地所有 HEAD 变动，找回误删提交的保险绳
+- [[--force-with-lease]] — git push --force 的安全替代，检查远程分支状态后才推送
+- [[git-stash]] — 暂存未提交修改到栈中，推荐 apply + drop 而非 pop
+- [[合并冲突]] — merge/rebase/cherry-pick 中的冲突标记，需手动解决后提交
+- [[Qwen3.8-Flash]] — 采用 Next 架构的轻量模型，125B/6B 激活，训练成本降 90%，性能超 Opus
+- [[Next架构]] — 阿里为 Qwen4 准备的新架构，混合注意力+四通道读写+外挂速查手册
+- [[IntelligencePerDollar]] — 英伟达提出的"每一美元能买到多少智能"新指标
+- [[能力边界]] — 产品经理需明确的大模型稳定完成范围，分模型/系统/业务三层
+- [[AgentLoop]] — AI Agent 核心执行循环（计划→调用→读取→决策），需设硬限制
+- [[Memory治理]] — AI 记忆分类管理（会话状态/偏好/业务事实/操作记录），需权限控制
+- [[评测闭环]] — 离线评测→影子模式→线上反馈→持续改进的完整质量保障机制
+- [[发布门槛]] — 上线前必须满足的业务可执行条件，按参考/辅助/执行三级开放
+- [[长上下文陷阱]] — "能放进去"≠"能稳定使用"，Lost in the Middle 现象需评测验证
+- [[业财一体化]] — 财务数字化底座，业务动作自动触发财务凭证，通过统驭科目实现
+- [[财务共享]] — 分散核算集中处理，前提是业财一体化已打通，IT 只占三成
+- [[报表合并]] — 集团子公司数据合并抵消，前提是口径统一，需内部往来抵消
+- [[统驭科目]] — SAP 配置，禁止总账直接录入，所有数据通过子分类账自动汇集
+- [[GR-IR]] — 收货收发票过渡科目，货到票未到先挂这里
+- [[集团科目表]] — 三层科目表的中间层，将子公司科目映射到集团统一口径
+- [[内部往来抵消]] — 报表合并核心机制，将集团内交易在集团视角下相互抵消
+- [[开源生态]] — 开源引流+算力赚钱的商业模式，适配成本构成生态壁垒
+- [[Agent落地]] — Agent 从演示推向生产的关键是成本，调用越多对单价越敏感

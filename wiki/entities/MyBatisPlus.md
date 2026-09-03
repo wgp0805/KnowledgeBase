@@ -2,8 +2,8 @@
 title: "MyBatisPlus"
 type: entity
 tags: [ORM, MyBatis]
-sources: [raw/09-archive/springboot整合mybatisPlus.md, raw/09-archive/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md, raw/01-articles/深度解析：Spring 事务与 MyBatis-Plus SqlSession 复用机制.md, raw/01-articles/MyBatis Plus 封神玩法：这12个骚操作让开发效率直接起飞！.md]
-last_updated: 2026-06-10
+sources: [raw/09-archive/springboot整合mybatisPlus.md, raw/09-archive/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md, raw/01-articles/深度解析：Spring 事务与 MyBatis-Plus SqlSession 复用机制.md, raw/01-articles/MyBatis Plus 封神玩法：这12个骚操作让开发效率直接起飞！.md, raw/01-articles/MyBatis-Plus 3.5.15 已全面支持 Spring Boot 4.0 及 Jackson 3.0.md]
+last_updated: 2026-09-03
 ---
 
 ## 定义
@@ -48,6 +48,31 @@ MyBatis-Plus（简称 MP）是 MyBatis 的增强工具，在 MyBatis 的基础�
 ## 对比 JPA 缓存
 - **MyBatis-Plus**：手动控制缓存，开发者自行配置 LRU 淘汰、刷新间隔，避免"黑魔法"行为。
 - **JPA（Hibernate）**：自动化透明缓存，内置完善的一/二级缓存和延迟加载，但配置不当易出现 N+1 查询等性能陷阱。
+
+## Spring Boot 4.0 与 Jackson 3.0 支持（3.5.15 版本）
+### Spring Boot 4 Starter
+- Spring Boot 4 项目必须使用 `mybatis-plus-spring-boot4-starter`
+- Starter 名称与 Boot 2/3 不同，自动配置不兼容，混用会导致启动失败
+- Maven 依赖示例：
+```xml
+<dependency>
+    <groupId>com.baomidou</groupId>
+    <artifactId>mybatis-plus-spring-boot4-starter</artifactId>
+    <version>3.5.15</version>
+</dependency>
+```
+
+### Jackson 3.0 支持
+- Jackson 3 将核心包从 `com.fasterxml.jackson` 迁移到 `tools.jackson`
+- 新增 `Jackson3TypeHandler` 替代原有的 `JacksonTypeHandler`
+- 使用方式：`@TableField(typeHandler = Jackson3TypeHandler.class)`
+- 必须配合 `@TableName(autoResultMap = true)` 才能正确反序列化
+
+### 升级常见坑
+1. **Starter 选错**：Boot 4 必须用 `mybatis-plus-spring-boot4-starter`
+2. **JSON 处理器版本不匹配**：Jackson 3 用 `Jackson3TypeHandler`，Jackson 2 继续用 `JacksonTypeHandler`
+3. **`factoryBeanObjectType` 报错**：需显式指定 `org.mybatis:mybatis-spring:4.0.0`
+4. **import 包名错误**：Jackson 3 的 ObjectMapper 在 `tools.jackson.databind` 下
 
 ## 关联连接
 - [[SpringBoot]] — 整合框架

@@ -29,6 +29,30 @@ Elasticsearch（简称 ES）是一个基于 Apache Lucene 的开源分布式全�
 - **开箱即用**：比 Solr 更简单易用
 - **自身带分布式协调管理**：不依赖 Zookeeper
 
+### ES 数据类型
+ES 支持五大数据类型：
+- **核心类型**：`text`（分词，用于全文检索）、`keyword`（不分词，用于精确匹配、排序、聚合）
+- **数字类型**：`long`、`integer`、`short`、`byte`、`double`、`float`、`half_float`、`scaled_float`
+- **时间类型**：`date`（支持时间戳和格式化字符串）
+- **布尔类型**：`boolean`
+- **复杂类型**：`object`、`nested`、`join`、`geo_point`、`ip`、`dense_vector` 等
+
+#### text 与 keyword 的区别
+- **text**：会分词，写入“小米折叠屏手机”会被拆成“小米”、“折叠屏”、“手机”等词条，建立倒排索引，适合全文检索（`match` 查询）
+- **keyword**：不分词，整条字符串原样进索引，适合精确匹配（`term` 查询）、排序、聚合。默认 `ignore_above` 为 256，超过 256 字符的内容不会被索引
+- **生产最佳实践**：主字段用 `text` 做搜索，子字段用 `keyword` 做排序聚合（使用 `fields` 子字段）
+
+#### scaled_float 类型
+- ES 没有真正的十进制精确类型，`double` 存金额会有精度问题
+- `scaled_float` 通过指定 `scaling_factor`（如 100），底层实际存 `long`（价格 19.99 存成 1999），展示时再除回去，既省空间又精确
+- 适用场景：订单金额等需要精确计算的字段
+
+#### 动态映射（Dynamic Mapping）
+- 如果建索引时没写 Mapping，ES 会自动推断类型
+- 推断规则：JSON 整数 → `long`，JSON 浮点数 → `float`，字符串 → `text` + `keyword` 子字段
+- **陷阱**：符合日期格式的字符串会被推断为 `date`，可能导致后续非日期字符串写入失败
+- **建议**：生产环境显式定义 Mapping，关掉自动检测
+
 ### ES vs Solr
 | 对比项 | Elasticsearch | Solr |
 |--------|--------------|------|
@@ -51,6 +75,8 @@ Elasticsearch（简称 ES）是一个基于 Apache Lucene 的开源分布式全�
 | 表 | 类型（Type，7.x 已弃用） |
 | 行 | 文档（Document） |
 | 列 | 字段（Field） |
+| Schema | 映射（Mapping） |
+| SQL | 查询 DSL（Query DSL） |
 
 ### 常用组件
 - **elasticsearch-head**：浏览器端数据展示插件
@@ -156,3 +182,12 @@ ES 快是"一堆优化叠出来的"，没有单点魔法，按"数据结构 → 
 - [[BPlusTree]] — 对比数据结构（MySQL 索引底层）
 - [[Canal]] — MySQL → ES 同步工具
 - [[elasticsearch-disadvantages]] — ES 缺点分析
+- [[text]] — ES 分词字符串类型
+- [[keyword]] — ES 不分词字符串类型
+- [[scaled_float]] — ES 精确数值类型
+- [[动态映射]] — ES 自动类型推断
+- [[倒排索引]] — ES 核心索引结构
+- [[nested]] — ES 嵌套对象类型
+- [[object]] — ES 对象类型
+- [[Mapping]] — ES 字段定义
+- [[Type]] — ES 历史概念（已废弃）

@@ -1,3 +1,27 @@
+## [2026-09-03] ingest | 摄入 MyBatis-Plus 3.5.15 支持 Spring Boot 4.0 与 Jackson 3.0
+- **变更**: 新增 [[摘要-mybatis-plus-3515-springboot4-jackson3]]; 新增 Concepts: [[TypeHandler]], [[autoResultMap]]; 增量更新 [[MyBatisPlus]]（+Spring Boot 4 Starter/Jackson 3 TypeHandler/升级常见坑章节）、[[Jackson]]（+Jackson 3.0 章节）; 更新 [[index.md]]（Sources +1 / Concepts +2）
+- **冲突**: 无
+- **归档**: 1 个源文件待移动至 raw/09-archive/
+
+## [2026-09-01] ingest | 批量摄入 6 篇文章（AI时代个人成长/Agent上下文管理/DSH插件/营销技能包/Penpot设计/共享单车通信）
+- **变更**:
+  - 新增 Sources: 6 个摘要页面：[[摘要-ai时代个人持续进步5个思考]]、[[摘要-Agent上下文管理概述]]、[[摘要-DeepSeekHarness-MCP-Manager插件]]、[[摘要-marketingskills营销技能包]]、[[摘要-Penpot-UIUX-Design-MCP工具链]]、[[摘要-共享单车通信原理]]
+  - 新增 Entities: 6 个：[[卡神]]、[[产品小球]]、[[marketingskills]]、[[CoreyHaines]]、[[PenpotUIUXDesign]]、[[共享单车]]
+  - 新增 Concepts: 19 个：[[AI时代个人成长系统]]、[[AI时代不可外包的能力]]、[[Agent上下文管理]]、[[上下文压缩]]、[[Tool Result Pruning]]、[[结构化压缩]]、[[KV Cache压缩]]、[[MCP管理]]、[[Skills管理]]、[[HMR热应用]]、[[共享上下文]]、[[产品上下文]]、[[Marketing Skills]]、[[先探查再创建]]、[[API gotchas]]、[[设计系统]]、[[智能车锁]]、[[NB-IoT]]、[[GPS定位]]、[[蓝牙通信]]
+  - 更新 [[index.md]]: Sources +6 / Entities +6 / Concepts +19
+- **冲突**: 无
+- **归档**: 6 个源文件待移动至 raw/09-archive/
+
+## [2026-09-03] ingest | 批量摄入 4 篇文章（Git 8 坑/Qwen3.8-Flash/大模型能力边界/财务数字化三层）
+- **变更**:
+  - 新增 Sources: 4 个：[[摘要-git中的8个坑]]、[[摘要-qwen38-flash架构深度分析]]、[[摘要-大模型越强产品经理越要把边界写进流程]]、[[摘要-财务数字化三层架构]]
+  - 新增 Entities: 1 个：[[SAP]]
+  - 新增 Concepts: 25 个：[[git-reset-hard]]、[[git-push-force]]、[[git-reflog]]、[[--force-with-lease]]、[[git-stash]]、[[合并冲突]]、[[Qwen3.8-Flash]]、[[Next架构]]、[[IntelligencePerDollar]]、[[能力边界]]、[[AgentLoop]]、[[Memory治理]]、[[评测闭环]]、[[发布门槛]]、[[长上下文陷阱]]、[[业财一体化]]、[[财务共享]]、[[报表合并]]、[[统驭科目]]、[[GR-IR]]、[[集团科目表]]、[[内部往来抵消]]、[[开源生态]]、[[Agent落地]]
+  - 增量更新: [[Qwen]]（+Qwen3.8-Flash 章节）、[[苏三]]（+Git 坑来源）、[[MoE]]（+Next 架构对比）、[[幻觉]]（+产品契约视角）
+  - 更新 [[index.md]]: Sources +4 / Entities +1 / Concepts +25
+- **冲突**: 无
+- **归档**: 4 个源文件待移动至 raw/09-archive/
+
 ## [2026-09-01] ingest | 摄入 Spring Smart DI 动态切换实现类
 - **变更**: 新增 [[DynamicImplementationSwitching]]（动态切换实现类概念页面）; 增量更新 [[SpringSmartDI]]（已存在实体页）、[[摘要-spring-smart-di-动态切换实现类]]（已存在来源页）; 更新 [[index.md]]（Concepts +1）
 - **冲突**: 无
@@ -1475,3 +1499,37 @@
 - **归档**: 8 个源文件待移动至 raw/09-archive/
 - **说明**: 8 篇文章主题集中在 Agent 工程化（Harness/AGENTS.md/SDLC）、AI 编码 Agent 原理、产品方法论（CMS/MVP/旅行 Agent），与现有知识库高度互补，未发现需要新建的实体/概念
 
+## [2026-09-02] ingest | 摄入 ES 数据类型与 MySQL 映射关系文章
+- **变更**: 新增 source [[摘要-es-data-types-mysql-mapping]]; 增量更新 [[Elasticsearch]]（+ES 数据类型五大类/text与keyword区别/scaled_float/dynamic mapping/关联连接）; 增量更新 [[MySQL]]（+Schema→Mapping/SQL→Query DSL 映射）; 新增 entities [[Flink]], [[Logstash]]; 新增 concepts [[text]], [[keyword]], [[scaled_float]], [[动态映射]], [[nested]], [[object]], [[Mapping]], [[Type]]; 更新 [[index.md]]（Sources +1 / Entities +2 / Concepts +8）
+- **冲突**: 无
+- **归档**: raw/01-articles/ES 支持哪些数据类型，和 MySQL 之间的映射关系是怎么样的？.md → raw/09-archive/
+
+
+## [2026-09-03] query | 对比 Agent 使用的类 OpenSpec 规范驱动框架
+- **输出**: 引用 [[摘要-superpowers-openspec-speckit对比]]、[[摘要-OpenSpec规范驱动AI编程框架]]、[[摘要-superpowers到底是什么]]、[[openspec-working-principle]]、[[optimal-framework-combination-heavy-project]]、[[摘要-gsd-core-ai工作流]]、[[摘要-trellis使用手册]]、[[摘要-spec-superflow-融合工作流]]、[[摘要-从-vibe-coding-到-spec-coding]]、[[摘要-loop-engineering-guide]] 及实体页 [[OpenSpec]]/[[Superpowers]]/[[SpecKit]]/[[GSDCore]]/[[Trellis]]/[[SpecSuperflow]]; 即时回答未保存（已询问用户是否固化为 synthesis）
+
+## [2026-09-03] query | 解答 Matt Pocock 的 mattpocock/skills 是什么
+- **输出**: 引用 [[MattPocock]], [[mattpocock-skills]], [[摘要-mattpocock-skills]], [[摘要-agent-skills-经济学-月增5万星]], [[GrillMe]], [[GSDCore]], [[SpecKit]], [[摘要-强模型时代删掉Superpowers该怎么选]]; 即时回答未保存
+
+## [2026-09-03] query | 给出用 Matt Pocock Skills 在现有 Java 项目开发中型功能的完整流程
+- **输出**: 引用 [[摘要-mattpocock-skills]], [[MattPocock]], [[optimal-framework-combination-heavy-project]], [[GrillMe]], [[TDD]], [[code-review]], [[流程税]], [[OpenSpec]]; 即时回答未保存
+
+## [2026-09-03] query | 固化三次对话为 synthesis
+- **变更**: 新增 [[agent-spec-framework-comparison-and-matt-skills-workflow]]; 更新 [[index.md]]（Syntheses +1）
+- **冲突**: 无
+- **内容**: 整合 ①类 OpenSpec 规范驱动框架对比 ②Matt Pocock mattpocock/skills 介绍 ③用 Matt Skills 在现有 Java 后端开发中型功能的 7 步流程
+
+## [2026-09-03] query | 给出 OpenSpec + Matt Pocock Skills 完整执行流程（含安装）
+- **输出**: 引用 [[openspec-brownfield-usage-guide]], [[openspec-codegraph-usage-guide]], [[optimal-framework-combination-heavy-project]], [[摘要-mattpocock-skills]], [[OpenSpec]], [[MattPocock]], [[TDD]], [[code-review]], [[SpecSuperflow]], [[delta-spec]]; 即时回答未保存
+
+## [2026-09-03] query | 固化 OpenSpec + Matt Skills 配合执行流程对话
+- **变更**: 新增 [[openspec-matt-skills-execution-workflow]]; 更新 [[index.md]]（Syntheses +1）; 增量更新 [[agent-spec-framework-comparison-and-matt-skills-workflow]]（+1 交叉双链）
+- **冲突**: 无
+- **内容**: 整合 ①OpenSpec "不管执行纪律" 的准确含义（执行 vs 执行纪律区别）②OpenSpec + Matt Skills 完整安装与配合执行流程 ③/opsx:apply 与 /tdd 三种配合方式 + 叫停机制 ④棕地补录 + 归档后变更流程
+
+## [2026-09-03] query | 解答 Matt Skills 安装方式（项目级 vs 全局）
+- **输出**: 引用 [[摘要-mattpocock-skills]] 及 raw 来源; 即时回答未保存
+
+## [2026-09-03] lint | 补充 Matt Skills 安装方式细节到 synthesis
+- **变更**: 增量更新 [[openspec-matt-skills-execution-workflow]]（安装章节补充两种方式对比 + 与 OpenSpec 安装模式区别 + 关键提醒 + 核心问题追加安装维度）
+- **冲突**: 无

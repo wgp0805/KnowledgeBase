@@ -50,7 +50,18 @@ Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Fla
 - **OpenAI 兼容**：暴露 `/v1` 接口，可被 LangGraph、ChatOpenAI 客户端直接调用
 - **适用场景**：本地离线 AI Agent、私有化部署、功能调试、轻量化 AI 场景
 
+### Qwen3.8-Flash（Next 架构，2026-09，详见 [[摘要-qwen38-flash架构深度分析]]）
+- 采用 Next 架构（为 Qwen4 准备的地基），125B 总参数/6B 激活
+- 训练成本降至 Qwen3.7-Plus 的九分之一
+- 每百万 Token 输入 0.8 元/输出 2.7 元，缓存命中 0.1 元
+- SWE-bench Pro 62.5 分（超 Opus4.6 9.1 分），AndroidWorld 超 Opus4.6 22.5 分
+- 开源：Hugging Face + 魔搭同步放出权重，SGLang Day 0 支持
+- 形成"斩杀线"：性能比你强、价格比你低
+
 ## 关联连接
+- [[Qwen3.8-Flash]] — 新一代轻量模型
+- [[Next架构]] — 新架构
+- [[摘要-qwen38-flash架构深度分析]] — 来源
 - [[摘要-step-3-7-flash-agent横评]] — Coding Agent 横评来源
 - [[摘要-多模态大模型横评-苏三]] — 多模态横评来源
 - [[多模态大模型]] — 归属类别
