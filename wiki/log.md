@@ -12,6 +12,15 @@
 - **冲突**: 无
 - **归档**: 6 个源文件待移动至 raw/09-archive/
 
+## [2026-09-03] ingest | 批量摄入 7 篇文章（顶模Fable5.1/淘宝AI空间站/腾讯Cheso/项目管理Space/AI写Blog/Date类禁用/HexHub工具）
+- **变更**:
+  - 新增 Sources: 7 个：[[摘要-顶模-fable-51发布到底强了多少]]、[[摘要-淘宝正式上线ai空间站]]、[[摘要-腾讯内测cheso一个专做ppt的ai-agent]]、[[摘要-一个项目管理软件的诞生九从project到space]]、[[摘要-ai写blog全套sop让内容产出效率提升20倍]]、[[摘要-公司空降一个cto禁止在项目中使用date类]]、[[摘要-再见navicatxshell一款高颜值的数据库sshdocker管理工具]]
+  - 新增 Entities: 30 个：[[Fable 5.1]]、[[Mythos 5.1]]、[[Anthropic]]、[[淘宝]]、[[AI空间站]]、[[智谱]]、[[Kimi]]、[[MiniMax]]、[[腾讯]]、[[Cheso]]、[[WeLM]]、[[腾讯混元]]、[[Google Gemini]]、[[DeepSeek]]、[[GLM]]、[[阿里巴巴Qwen]]、[[Jira]]、[[飞书项目]]、[[ONES]]、[[TAPD]]、[[Atlassian]]、[[HexHub]]、[[Navicat]]、[[FinalShell]]、[[Portainer]]、[[Date]]、[[java.time]]、[[LocalDateTime]]、[[Instant]]、[[DateTimeFormatter]]
+  - 新增 Concepts: 35 个：[[Vibe Coding]]、[[长任务编码]]、[[游戏生成]]、[[Token套餐]]、[[订阅制]]、[[数字水电煤]]、[[AI Agent]]、[[演示文稿生成]]、[[多模型路由]]、[[Project]]、[[Space]]、[[长期归属]]、[[交付上下文]]、[[工作项]]、[[视图]]、[[仪表盘]]、[[个人工作台]]、[[信息架构]]、[[责任关系]]、[[SEO]]、[[E-E-A-T]]、[[搜索意图]]、[[关键词集群]]、[[内容日历]]、[[内容差距分析]]、[[SEO内容大纲]]、[[AI初稿]]、[[On-Page SEO]]、[[内容质量审查]]、[[事实核查]]、[[去AI味]]、[[内容更新策略]]、[[Topic Cluster]]、[[API迁移]]、[[不可变性]]、[[时区处理]]、[[数据库管理]]、[[SSH终端]]、[[Docker管理]]、[[全栈开发运维]]
+  - 更新 [[index.md]]: Sources +7 / Entities +30 / Concepts +35
+- **冲突**: 无
+- **归档**: 7 个源文件待移动至 raw/09-archive/
+
 ## [2026-09-03] ingest | 批量摄入 4 篇文章（Git 8 坑/Qwen3.8-Flash/大模型能力边界/财务数字化三层）
 - **变更**:
   - 新增 Sources: 4 个：[[摘要-git中的8个坑]]、[[摘要-qwen38-flash架构深度分析]]、[[摘要-大模型越强产品经理越要把边界写进流程]]、[[摘要-财务数字化三层架构]]
