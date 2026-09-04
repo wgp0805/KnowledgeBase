@@ -1,22 +1,22 @@
 ---
 title: "Google"
 type: entity
-tags: [公司, AI, 搜索引擎, 深度学习]
-sources: [raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md]
-last_updated: 2026-07-08
+tags: [科技公司, 搜索引擎]
+sources: [raw/01-articles/2026-09-03-AI 写Blog全套 SOP，让内容产出效率提升20倍.md]
+last_updated: 2026-09-03
 ---
 
 ## 定义
-Google（谷歌）是全球最大的搜索引擎公司，也是 AI 领域的核心推动者。2017 年提出 Transformer 架构（论文《Attention Is All You Need》），奠定了当今大语言模型的基石。
+全球最大的搜索引擎公司，其搜索算法和Quality Rater Guidelines是SEO领域的权威标准。
 
 ## 关键信息
-- **Transformer 论文**：2017 年发布，首次系统化定义基于自注意力的序列建模架构，完全依赖注意力机制处理序列，无需循环或卷积结构
-- **AI 产品线**：Gemini 系列大模型、TensorFlow 框架
-- **深度学习贡献**：Transformer 架构成为 90%+ 大模型的底层基础
+- **市场地位**：全球最大的搜索引擎
+- **算法更新**：持续更新搜索算法，影响SEO策略
+- **质量评估**：Quality Rater Guidelines是内容质量评估的权威标准
+- **SERP特征**：搜索结果页面的各种特征（Featured Snippet、People Also Ask等）
 
 ## 关联连接
-- [[Transformer]] — 2017 年提出的核心架构
-- [[自注意力机制]] — Transformer 核心机制
-- [[Gemini]] — Google 大模型系列
-- [[OpenAI]] — AI 领域竞争对手
-- [[摘要-transformer-训练微调范式]] — 来源
+- [[摘要-ai写blog全套sop让内容产出效率提升20倍]] — 来源
+- [[SEO]] — 应用领域
+- [[E-E-A-T]] — 评估原则
+- [[搜索意图]] — 算法关注点
