@@ -1,28 +1,22 @@
 ---
 title: "MiniMax"
 type: entity
-tags: [公司, AI模型, 视频生成]
-sources: [raw/01-articles/2026-08-25-实测MiniMax Design：视频生成之后，开卷组织生产.md, raw/01-articles/2026-08-25-烧掉500块实测H3、Seedance 2.0 fast，意外挖出了性价比之王（附全部提示词）.md]
-last_updated: 2026-08-26
+tags: [AI公司, 大模型厂商]
+sources: [raw/01-articles/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md]
+last_updated: 2026-09-03
 ---
 
 ## 定义
-中国 AI 公司 MiniMax，专注于大模型和视频生成技术研究。2026-08 发布多模态创作 Agent 工作台 MiniMax Design，将模型、工具与视频创作流程整合。
+中国大模型公司，开发了MiniMax系列大语言模型，是首批入驻淘宝AI空间站的厂商之一。
 
 ## 关键信息
-- **核心产品**：
-  - **H3**：视频生成模型，API 价格 0.5 元/秒
-  - **MiniMax Design**：多模态创作 Agent 工作台，整合文本/图片/视频/音频能力
-  - **MiniMax Hub**：前身产品，后更名并接入 H3
-- **MiniMax Design 定位**：商业内容生产工作台，强调从模型到应用的流程整合
-- **竞争格局**：
-  - 模型能力厂商：快手可灵、字节即梦/Seedance
-  - 应用层 Agent 产品：LibTV、Flova、OiiOii
-- **2026-08 横评表现**：H3 在 8 个场景中 1 胜（视觉动效）7 负，整体弱于 Seedance 2.0 fast
+- **商业表现**：2026年上半年开放平台及企业服务收入占比从30.3%跃升到63.4%
+- **收入结构**：从"卖模型"转向"卖调用量"，从项目制转向订阅制
+- **入驻平台**：淘宝AI空间站
+- **服务类型**：提供Token套餐订阅服务
 
 ## 关联连接
-- [[H3]] — 视频生成模型
-- [[MiniMaxDesign]] — 多模态创作 Agent 工作台
-- [[Seedance]] — 字节视频生成模型系列
-- [[VideoGeneration]] — 视频生成技术
-- [[Agent]] — AI Agent 概念
+- [[摘要-淘宝正式上线ai空间站]] — 来源
+- [[AI空间站]] — 销售平台
+- [[淘宝]] — 合作平台
+- [[Token套餐]] — 销售产品

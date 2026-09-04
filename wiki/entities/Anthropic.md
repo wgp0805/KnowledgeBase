@@ -1,32 +1,23 @@
 ---
 title: "Anthropic"
 type: entity
-tags: [AI公司, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-08-24-Huashu-Excel正式发布！可能、也许、大概是最好用的Excel数据处理和分析skill.md]
-last_updated: 2026-08-25
+tags: [AI公司, 大模型开发商]
+sources: [raw/01-articles/2026-09-03-顶模 Fable 5.1发布，到底强了多少？.md]
+last_updated: 2026-09-03
 ---
 
 ## 定义
-美国 AI 安全公司，推出了 Claude Code（CLI Agent）和 Claude 系列模型。
+人工智能公司，专注于开发安全、可靠、可解释的 AI 系统，是 Claude 系列模型的开发公司。
 
 ## 关键信息
-- 2025 年 2 月推出 Claude Code，率先发明 Skill、MCP、Hook、远程操控等 Agent 扩展机制
-- 内部员工很早就用 Claude Code 处理法律、财务、市场等知识工作
-- Claude Opus 4.6 的写作和规划能力极强
-- 提供 Claude 订阅会员模式
-- **认知卸载研究**：2026 年 1 月发表随机对照试验论文，发现 AI 辅助组成绩比纯手写组低 17%，提出"认知卸载"概念
-- **AI 心理学研究**：用词汇激发让 agent 进入特定角色状态（如「百万美元项目组」），被 [[花叔]] huashu-excel skill 借鉴用于能力激发
+- **主要产品**：Claude 系列大语言模型，包括 Fable、Mythos、Sonnet、Opus 等版本
+- **最新发布**：Fable 5.1 和 Mythos 5.1 模型
+- **定价策略**：Fable 系列定位高端，价格相对较高
+- **技术特点**：模型在长任务编码、游戏生成等领域表现突出
+- **安全理念**：Mythos 系列模型具有更严格的安全限制
 
 ## 关联连接
-- [[ClaudeCode]] — Anthropic 的 Agent 产品
-- [[Codex]] — 竞品
-- [[OpenAI]] — 竞争对手
-- [[BorisCherny]] — 资深工程师
-- [[Thariq]] — 工程师，分享 Skills 使用经验
-- [[cognitive-offloading]] — 认知卸载论文来源
-- [[摘要-vibe-engineering-era]] — 认知卸载研究来源
-- [[摘要-anthropic-engineer-skills]] — Skills 经验分享来源
-- [[摘要-ClaudeCode小白入门教程]] — 本文是 Claude Code 的小白入门教程，详细介绍了这…
-- [[摘要-ClaudeSkills保姆级教程]] — 本文是 Claude Skills 的保姆级教程，全面讲解了…
-- [[花叔]] — 借鉴 Anthropic AI 心理学研究
-- [[摘要-huashu-excel-skill]] — 来源（AI 心理学研究被借鉴）
+- [[摘要-顶模-fable-51发布到底强了多少]] — 来源
+- [[Fable 5.1]] — 旗下模型
+- [[Mythos 5.1]] — 旗下模型
+- [[Claude]] — 旗下产品
