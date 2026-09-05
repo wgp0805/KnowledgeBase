@@ -1546,3 +1546,5 @@
 - **输出**: 引用 [[摘要-mattpocock-skills]], [[mattpocock-skills]]; 即时回答未保存
 ## [2026-09-05] query | Matt Pocock review 与 OpenCode review 区别对比
 - **输出**: 引用 [[code-review]], [[ECC]], [[OpenCode]], [[摘要-mattpocock-skills]]; 即时回答未保存
+## [2026-09-05] query | 使用 Matt Pocock Skills 开发功能的完整流程教程
+- **输出**: 引用 [[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[摘要-mattpocock-skills]]、[[GrillMe]]、[[TDD]]、[[code-review]]、[[MattPocock]]、[[流程税]]、[[DDD]]
