@@ -2,7 +2,7 @@
 title: "摘要-sgzj"
 type: source
 tags: [来源, 个人]
-sources: [raw/01-articles/sgzj.md]
+sources: [raw/09-archive/sgzj.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,4 +11,6 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[CSDN]] — 技术博客平台
-- [[GitBook]] — 文档托管平台
+- [[CSDN]] — 技术博客平台
+- [[Gitee]] — 代码托管平台
+- [[摘要-hexo博客部署到自己的服务器]] — 博客部署

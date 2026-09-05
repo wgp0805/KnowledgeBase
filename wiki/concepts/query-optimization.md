@@ -2,7 +2,7 @@
 title: "query-optimization"
 type: concept
 tags: [数据库, MySQL, SQL优化]
-sources: [raw/01-articles/mysql关键字explain解析.md, raw/01-articles/mysql查询cpu占用过高的方法.md]
+sources: [raw/09-archive/mysql关键字explain解析.md, raw/09-archive/mysql查询cpu占用过高的方法.md]
 last_updated: 2026-05-19
 ---
 

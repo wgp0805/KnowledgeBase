@@ -2,7 +2,7 @@
 title: "摘要-Docker-window环境下部署RocketMq"
 type: source
 tags: [来源, Docker, RocketMQ]
-sources: [raw/01-articles/Docker-window环境下部署RocketMq.md]
+sources: [raw/09-archive/Docker-window环境下部署RocketMq.md]
 last_updated: 2026-05-19
 ---
 
@@ -13,3 +13,5 @@ last_updated: 2026-05-19
 - [[Docker]] — 容器化平台
 - [[RocketMQ]] — 消息队列
 - [[DockerDesktop]] — Docker 桌面版
+- [[Windows]] — 操作系统环境
+- [[message-queue]] — 消息队列概念

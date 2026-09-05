@@ -2,7 +2,7 @@
 title: "摘要-Docker部署Redis全攻略"
 type: source
 tags: [来源, Docker, Redis]
-sources: [raw/01-articles/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md]
+sources: [raw/09-archive/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[Docker]] — 容器化平台
 - [[Redis]] — 键值存储数据库
+- [[DockerDesktop]] — Docker 桌面版
+- [[SpringDataRedis]] — Spring 数据 Redis 集成

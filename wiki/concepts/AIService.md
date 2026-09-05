@@ -2,8 +2,8 @@
 title: "AIService"
 type: concept
 tags: [AI, 声明式接口, LangChain4j]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md, raw/01-articles/LangChain4j 入门指南.md]
+last_updated: 2026-08-03
 ---
 
 ## 定义
@@ -19,6 +19,13 @@ LangChain4j 的招牌特性，用 Java 接口+注解声明式描述 AI 能力，
 
 ### 底层原理
 动态代理 + 模板渲染：方法入参通过 @V 绑定到 Prompt 模板，框架拼好最终文本，调用 ChatLanguageModel，根据返回类型把字符串解析成目标对象。
+
+### 支持的能力
+- **静态/动态系统消息**：通过 `@SystemMessage` 注解或 `systemMessageProvider()` 配置
+- **静态/动态用户消息**：通过 `@UserMessage` 注解或 `@UserMessage` 标注参数
+- **共享记忆**：通过 `chatMemory(ChatMemory)` 配置
+- **多用户记忆**：通过 `chatMemoryProvider()` 和 `@MemoryId` 标注参数
+- **RAG 检索增强**：通过 `contentRetriever()` 或 `retrievalAugmentor()` 配置
 
 ### 价值
 业务代码不再关心 Prompt 怎么写、怎么调模型、怎么解析结果——"接口描述需求，框架生成实现"。
@@ -49,3 +56,4 @@ class AssistantController {
 - [[LangChain4j]] — AI Service 所属框架
 - [[FunctionCalling]] — 工具调用
 - [[ChatMemory]] — 记忆集成
+- [[摘要-LangChain4j入门指南-苏三]] — 来源

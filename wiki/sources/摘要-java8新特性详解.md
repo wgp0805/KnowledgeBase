@@ -2,7 +2,7 @@
 title: "摘要-java8新特性详解"
 type: source
 tags: [来源, Java]
-sources: [raw/01-articles/java8新特性详解.md]
+sources: [raw/09-archive/java8新特性详解.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ Java 8 新特性的参考链接索引页，作为外部文章的容器页，记�
 
 ## 关联连接
 - [[Java]] — 编程语言
+- [[摘要-lambda表达式简单解析]] — Lambda 表达式
+- [[CompletableFuture]] — 异步编程

@@ -2,7 +2,7 @@
 title: "摘要-VMware17-安装ubuntu"
 type: source
 tags: [来源, VMware, Linux]
-sources: [raw/01-articles/VMware17-安装ubuntu.md]
+sources: [raw/09-archive/VMware17-安装ubuntu.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,4 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[VMware]] — 虚拟化软件
 - [[Ubuntu]] — Linux 发行版
-- [[SSH]] — 安全外壳协议
+- [[Linux]] — 操作系统
+- [[WSL2]] — Windows 子系统 Linux

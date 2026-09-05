@@ -2,7 +2,7 @@
 title: "摘要-liunx链接Ftp和Sftp"
 type: source
 tags: [来源, Linux, FTP]
-sources: [raw/01-articles/liunx链接Ftp和Sftp.md]
+sources: [raw/09-archive/liunx链接Ftp和Sftp.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,5 +11,7 @@ Linux 下通过 sftp 和 ftp 命令远程连接服务器、上传下载文件及
 
 ## 关联连接
 - [[Linux]] — 操作系统
-- [[FTP]] — 文件传输协议
-- [[SFTP]] — 安全文件传输协议
+- FTP — 文件传输协议
+- SFTP — 安全文件传输协议
+- [[摘要-FTPClient上传和下载]] — FTP 客户端操作
+- [[CentOS]] — 服务器操作系统

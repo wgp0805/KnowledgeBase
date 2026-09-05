@@ -2,7 +2,7 @@
 title: "摘要-prevent-duplicate-order"
 type: source
 tags: [并发, 幂等性, 订单, Redis]
-sources: [raw/01-articles/高并发下如何防止重复下单？.md]
+sources: [raw/09-archive/高并发下如何防止重复下单？.md]
 last_updated: 2026-05-20
 ---
 

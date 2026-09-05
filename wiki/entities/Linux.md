@@ -2,7 +2,7 @@
 title: "Linux"
 type: entity
 tags: [操作系统, 服务器]
-sources: [raw/01-articles/Liunx常用命令.md, raw/01-articles/liunx命令总结（600条）.md, raw/01-articles/liunx查找文件内的关键字.md, raw/01-articles/liunx挂载硬盘.md, raw/01-articles/liunx链接Ftp和Sftp.md]
+sources: [raw/09-archive/Liunx常用命令.md, raw/09-archive/liunx命令总结（600条）.md, raw/09-archive/liunx查找文件内的关键字.md, raw/09-archive/liunx挂载硬盘.md, raw/09-archive/liunx链接Ftp和Sftp.md]
 last_updated: 2026-05-19
 ---
 
@@ -24,3 +24,7 @@ Linux 是一个自由开源的操作系统内核，基于 Unix 设计理念，�
 - [[Ubuntu]] — Linux 发行版
 - [[Vim]] — 编辑器
 - [[Nginx]] — Web 服务器
+- [[摘要-服务器部署纯静态网站]] — 介绍使用宝塔面板和 Nginx 在 Linux 服务器上部署…
+- [[摘要-curl详解]] — curl 命令行工具的全面使用指南，涵盖基础用法（GET/P…
+- [[摘要-liunx查找文件内的关键字]] — Linux 中使用 Vim 和 Grep 命令查找文件内关键…
+- [[摘要-VMware17-安装ubuntu]] — 在 VMware 17 中安装 Ubuntu 虚拟机的完整步…

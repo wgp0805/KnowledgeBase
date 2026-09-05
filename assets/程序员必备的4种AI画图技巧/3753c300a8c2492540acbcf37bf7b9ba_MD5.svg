@@ -1,0 +1,452 @@
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentstyletype="text/css" height="1025px" preserveAspectRatio="none" style="width:834px;height:1025px;background:#FFFFFF;" version="1.1" viewBox="0 0 834 1025" width="834px" zoomAndPan="magnify">
+   <defs>
+   </defs>
+   <g>
+    <rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:1.5;" width="343.5" x="483.5" y="373.4922">
+    </rect>
+    <rect fill="none" height="307.1328" style="stroke:#000000;stroke-width:1.5;" width="817" x="10" y="620.2266">
+    </rect>
+    <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="37" x2="37" y1="81.2969" y2="944.3594">
+    </line>
+    <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="178" x2="178" y1="81.2969" y2="944.3594">
+    </line>
+    <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="407" x2="407" y1="81.2969" y2="944.3594">
+    </line>
+    <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="524.5" x2="524.5" y1="81.2969" y2="944.3594">
+    </line>
+    <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="669" x2="669" y1="81.2969" y2="944.3594">
+    </line>
+    <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="736" x2="736" y1="81.2969" y2="944.3594">
+    </line>
+    <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="793" x2="793" y1="81.2969" y2="944.3594">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="20" y="77.9951">
+     
+     
+     
+     用户
+    </text>
+    <ellipse cx="37" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;">
+    </ellipse>
+    <path d="M37,21.5 L37,48.5 M24,29.5 L50,29.5 M37,48.5 L24,63.5 M37,48.5 L50,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;">
+    </path>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="20" y="956.3545">
+     
+     
+     
+     用户
+    </text>
+    <ellipse cx="37" cy="968.1563" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;">
+    </ellipse>
+    <path d="M37,976.1563 L37,1003.1563 M24,984.1563 L50,984.1563 M37,1003.1563 L24,1018.1563 M37,1003.1563 L50,1018.1563 " fill="none" style="stroke:#181818;stroke-width:0.5;">
+    </path>
+    <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="150" y="50">
+    </rect>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="157" y="69.9951">
+     
+     
+     
+     浏览器
+    </text>
+    <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="150" y="943.3594">
+    </rect>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="157" y="963.3545">
+     
+     
+     
+     浏览器
+    </text>
+    <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="42" x="386" y="50">
+    </rect>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="393" y="69.9951">
+     
+     
+     
+     前端
+    </text>
+    <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="42" x="386" y="943.3594">
+    </rect>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="393" y="963.3545">
+     
+     
+     
+     前端
+    </text>
+    <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="63" x="493.5" y="50">
+    </rect>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="500.5" y="69.9951">
+     
+     
+     
+     后端API
+    </text>
+    <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="63" x="493.5" y="943.3594">
+    </rect>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="500.5" y="963.3545">
+     
+     
+     
+     后端API
+    </text>
+    <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="70" x="634" y="50">
+    </rect>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="641" y="69.9951">
+     
+     
+     
+     Sentinel
+    </text>
+    <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="70" x="634" y="943.3594">
+    </rect>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="641" y="963.3545">
+     
+     
+     
+     Sentinel
+    </text>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="714" y="77.9951">
+     
+     
+     
+     Redis
+    </text>
+    <path d="M718.5,29 C718.5,19 736.5,19 736.5,19 C736.5,19 754.5,19 754.5,29 L754.5,55 C754.5,65 736.5,65 736.5,65 C736.5,65 718.5,65 718.5,55 L718.5,29 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;">
+    </path>
+    <path d="M718.5,29 C718.5,39 736.5,39 736.5,39 C736.5,39 754.5,39 754.5,29 " fill="none" style="stroke:#181818;stroke-width:1.5;">
+    </path>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="714" y="956.3545">
+     
+     
+     
+     Redis
+    </text>
+    <path d="M718.5,969.6563 C718.5,959.6563 736.5,959.6563 736.5,959.6563 C736.5,959.6563 754.5,959.6563 754.5,969.6563 L754.5,995.6563 C754.5,1005.6563 736.5,1005.6563 736.5,1005.6563 C736.5,1005.6563 718.5,1005.6563 718.5,995.6563 L718.5,969.6563 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;">
+    </path>
+    <path d="M718.5,969.6563 C718.5,979.6563 736.5,979.6563 736.5,979.6563 C736.5,979.6563 754.5,979.6563 754.5,969.6563 " fill="none" style="stroke:#181818;stroke-width:1.5;">
+    </path>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="769" y="77.9951">
+     
+     
+     
+     数据库
+    </text>
+    <path d="M775,29 C775,19 793,19 793,19 C793,19 811,19 811,29 L811,55 C811,65 793,65 793,65 C793,65 775,65 775,55 L775,29 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;">
+    </path>
+    <path d="M775,29 C775,39 793,39 793,39 C793,39 811,39 811,29 " fill="none" style="stroke:#181818;stroke-width:1.5;">
+    </path>
+    <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="769" y="956.3545">
+     
+     
+     
+     数据库
+    </text>
+    <path d="M775,969.6563 C775,959.6563 793,959.6563 793,959.6563 C793,959.6563 811,959.6563 811,969.6563 L811,995.6563 C811,1005.6563 793,1005.6563 793,1005.6563 C793,1005.6563 775,1005.6563 775,995.6563 L775,969.6563 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;">
+    </path>
+    <path d="M775,969.6563 C775,979.6563 793,979.6563 793,979.6563 C793,979.6563 811,979.6563 811,969.6563 " fill="none" style="stroke:#181818;stroke-width:1.5;">
+    </path>
+    <polygon fill="#181818" points="166,108.4297,176,112.4297,166,116.4297,170,112.4297" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="37" x2="172" y1="112.4297" y2="112.4297">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="44" y="107.3638">
+     
+     
+     
+     访问登录页面
+    </text>
+    <polygon fill="#181818" points="48,137.5625,38,141.5625,48,145.5625,44,141.5625" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="42" x2="177" y1="141.5625" y2="141.5625">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="54" y="136.4966">
+     
+     
+     
+     展示登录表单
+    </text>
+    <polygon fill="#181818" points="166,166.6953,176,170.6953,166,174.6953,170,170.6953" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="37" x2="172" y1="170.6953" y2="170.6953">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="44" y="165.6294">
+     
+     
+     
+     输入账号密码
+    </text>
+    <polygon fill="#181818" points="395,195.8281,405,199.8281,395,203.8281,399,199.8281" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="178" x2="401" y1="199.8281" y2="199.8281">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="185" y="194.7622">
+     
+     
+     
+     提交登录请求
+    </text>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="407" x2="449" y1="228.9609" y2="228.9609">
+    </line>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="449" x2="449" y1="228.9609" y2="241.9609">
+    </line>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="408" x2="449" y1="241.9609" y2="241.9609">
+    </line>
+    <polygon fill="#181818" points="418,237.9609,408,241.9609,418,245.9609,414,241.9609" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="414" y="223.895">
+     
+     
+     
+     前端加密（可选）
+    </text>
+    <polygon fill="#181818" points="513,267.0938,523,271.0938,513,275.0938,517,271.0938" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="407" x2="519" y1="271.0938" y2="271.0938">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="414" y="266.0278">
+     
+     
+     
+     发送登录请求
+    </text>
+    <polygon fill="#181818" points="657,296.2266,667,300.2266,657,304.2266,661,300.2266" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="525" x2="663" y1="300.2266" y2="300.2266">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="532" y="295.1606">
+     
+     
+     
+     限流校验
+    </text>
+    <polygon fill="#181818" points="536,325.3594,526,329.3594,536,333.3594,532,329.3594" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="530" x2="668" y1="329.3594" y2="329.3594">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="542" y="324.2935">
+     
+     
+     
+     校验通过
+    </text>
+    <polygon fill="#181818" points="724.5,354.4922,734.5,358.4922,724.5,362.4922,728.5,358.4922" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="525" x2="730.5" y1="358.4922" y2="358.4922">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="532" y="353.4263">
+     
+     
+     
+     查询用户缓存
+    </text>
+    <path d="M483.5,373.4922 L547.5,373.4922 L547.5,380.625 L537.5,390.625 L483.5,390.625 L483.5,373.4922 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;">
+    </path>
+    <rect fill="none" height="148.4688" style="stroke:#000000;stroke-width:1.5;" width="343.5" x="483.5" y="373.4922">
+    </rect>
+    <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="498.5" y="386.5591">
+     
+     
+     
+     alt
+    </text>
+    <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="54" x="562.5" y="385.7026">
+     
+     
+     
+     [缓存命中]
+    </text>
+    <polygon fill="#181818" points="536,407.7578,526,411.7578,536,415.7578,532,411.7578" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="530" x2="735.5" y1="411.7578" y2="411.7578">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="542" y="406.6919">
+     
+     
+     
+     返回用户数据
+    </text>
+    <line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="483.5" x2="827" y1="420.7578" y2="420.7578">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="65" x="488.5" y="430.9683">
+     
+     
+     
+     [缓存未命中]
+    </text>
+    <polygon fill="#181818" points="781,451.6953,791,455.6953,781,459.6953,785,455.6953" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="525" x2="787" y1="455.6953" y2="455.6953">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="532" y="450.6294">
+     
+     
+     
+     查询用户数据
+    </text>
+    <polygon fill="#181818" points="536,480.8281,526,484.8281,536,488.8281,532,484.8281" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="530" x2="792" y1="484.8281" y2="484.8281">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="542" y="479.7622">
+     
+     
+     
+     返回用户数据
+    </text>
+    <polygon fill="#181818" points="724.5,509.9609,734.5,513.9609,724.5,517.9609,728.5,513.9609" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="525" x2="730.5" y1="513.9609" y2="513.9609">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="532" y="508.895">
+     
+     
+     
+     更新缓存
+    </text>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="525" x2="567" y1="550.0938" y2="550.0938">
+    </line>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="567" x2="567" y1="550.0938" y2="563.0938">
+    </line>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="526" x2="567" y1="563.0938" y2="563.0938">
+    </line>
+    <polygon fill="#181818" points="536,559.0938,526,563.0938,536,567.0938,532,563.0938" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="532" y="545.0278">
+     
+     
+     
+     比对密码（哈希比对）
+    </text>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="525" x2="567" y1="592.2266" y2="592.2266">
+    </line>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="567" x2="567" y1="592.2266" y2="605.2266">
+    </line>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="526" x2="567" y1="605.2266" y2="605.2266">
+    </line>
+    <polygon fill="#181818" points="536,601.2266,526,605.2266,536,609.2266,532,605.2266" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="532" y="587.1606">
+     
+     
+     
+     校验用户状态
+    </text>
+    <path d="M10,620.2266 L74,620.2266 L74,627.3594 L64,637.3594 L10,637.3594 L10,620.2266 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;">
+    </path>
+    <rect fill="none" height="307.1328" style="stroke:#000000;stroke-width:1.5;" width="817" x="10" y="620.2266">
+    </rect>
+    <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="25" y="633.2935">
+     
+     
+     
+     alt
+    </text>
+    <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="54" x="89" y="632.437">
+     
+     
+     
+     [验证成功]
+    </text>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="525" x2="567" y1="658.4922" y2="658.4922">
+    </line>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="567" x2="567" y1="658.4922" y2="671.4922">
+    </line>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="526" x2="567" y1="671.4922" y2="671.4922">
+    </line>
+    <polygon fill="#181818" points="536,667.4922,526,671.4922,536,675.4922,532,671.4922" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="532" y="653.4263">
+     
+     
+     
+     生成Token
+    </text>
+    <polygon fill="#181818" points="724.5,696.625,734.5,700.625,724.5,704.625,728.5,700.625" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="525" x2="730.5" y1="700.625" y2="700.625">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="532" y="695.5591">
+     
+     
+     
+     存储Token并绑定设备信息
+    </text>
+    <polygon fill="#181818" points="781,725.7578,791,729.7578,781,733.7578,785,729.7578" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="525" x2="787" y1="729.7578" y2="729.7578">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="532" y="724.6919">
+     
+     
+     
+     更新登录日志
+    </text>
+    <polygon fill="#181818" points="418,754.8906,408,758.8906,418,762.8906,414,758.8906" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="412" x2="524" y1="758.8906" y2="758.8906">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="424" y="753.8247">
+     
+     
+     
+     返回Token
+    </text>
+    <polygon fill="#181818" points="189,784.0234,179,788.0234,189,792.0234,185,788.0234" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;" x1="183" x2="406" y1="788.0234" y2="788.0234">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="205" x="195" y="782.9575">
+     
+     
+     
+     存储Token(LocalStorage/Cookie)
+    </text>
+    <polygon fill="#181818" points="48,813.1563,38,817.1563,48,821.1563,44,817.1563" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="42" x2="177" y1="817.1563" y2="817.1563">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="54" y="812.0903">
+     
+     
+     
+     登录成功，跳转主页
+    </text>
+    <line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="827" y1="826.1563" y2="826.1563">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="54" x="15" y="836.3667">
+     
+     
+     
+     [验证失败]
+    </text>
+    <polygon fill="#181818" points="418,857.0938,408,861.0938,418,865.0938,414,861.0938" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="412" x2="524" y1="861.0938" y2="861.0938">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="424" y="856.0278">
+     
+     
+     
+     返回错误信息
+    </text>
+    <polygon fill="#181818" points="189,886.2266,179,890.2266,189,894.2266,185,890.2266" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="183" x2="406" y1="890.2266" y2="890.2266">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="195" y="885.1606">
+     
+     
+     
+     显示错误信息
+    </text>
+    <polygon fill="#181818" points="48,915.3594,38,919.3594,48,923.3594,44,919.3594" style="stroke:#181818;stroke-width:1.0;">
+    </polygon>
+    <line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="42" x2="177" y1="919.3594" y2="919.3594">
+    </line>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="54" y="914.2935">
+     
+     
+     
+     展示登录失败
+    </text>
+   </g>
+  </svg>

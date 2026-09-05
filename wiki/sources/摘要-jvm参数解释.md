@@ -2,7 +2,7 @@
 title: "摘要-jvm参数解释"
 type: source
 tags: [来源, JVM]
-sources: [raw/01-articles/jvm参数解释.md]
+sources: [raw/09-archive/jvm参数解释.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,6 +11,8 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[JVM]] — Java 虚拟机
-- [[HotSpot]] — JVM 实现
-- [[G1GC]] — G1 垃圾收集器
-- [[ZGC]] — ZGC 垃圾收集器
+- HotSpot — JVM 实现
+- G1 GC — G1 垃圾收集器
+- ZGC — ZGC 垃圾收集器
+- [[jvm-tuning]] — JVM 调优
+- [[SpringBoot]] — JVM 参数常配置场景

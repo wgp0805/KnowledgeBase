@@ -2,7 +2,7 @@
 title: "摘要-VUE3基础-async-await"
 type: source
 tags: [来源, JavaScript]
-sources: [raw/01-articles/VUE3基础-async-await.md]
+sources: [raw/09-archive/VUE3基础-async-await.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[JavaScript]] — 编程语言
 - [[Promise]] — 异步编程模式
+- [[Vue3]] — 前端框架
+- [[async-await]] — 异步语法

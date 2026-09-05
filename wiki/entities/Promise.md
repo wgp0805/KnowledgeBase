@@ -2,7 +2,7 @@
 title: "Promise"
 type: entity
 tags: [JavaScript, 异步编程]
-sources: [raw/01-articles/理解JavaScript的async-await.md, raw/01-articles/VUE3基础-async-await.md]
+sources: [raw/09-archive/理解JavaScript的async-await.md, raw/09-archive/VUE3基础-async-await.md]
 last_updated: 2026-05-19
 ---
 

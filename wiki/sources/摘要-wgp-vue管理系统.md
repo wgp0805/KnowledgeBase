@@ -2,7 +2,7 @@
 title: "摘要-wgp-vue管理系统"
 type: source
 tags: [来源, Vue]
-sources: [raw/01-articles/wgp-vue管理系统.md]
+sources: [raw/09-archive/wgp-vue管理系统.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,5 +12,7 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[SpringBoot]] — Spring 自动配置框架
 - [[RuoYi]] — 若依开发框架
-- [[Vue]] — 前端框架
+- [[Vue3]] — 前端框架
 - [[Gitee]] — 代码托管平台
+- [[ElementPlus]] — Vue UI 组件库
+- [[frontend-backend-separation]] — 前后端分离

@@ -2,7 +2,7 @@
 title: "摘要-skill-creator-guide"
 type: source
 tags: [来源, 原始文件, Claude Code, 技能]
-sources: [raw/02-papers/skill-creator使用与优化指南.pdf]
+sources: [raw/09-archive/skill-creator使用与优化指南.pdf]
 last_updated: 2026-05-20
 ---
 
@@ -11,6 +11,6 @@ skill-creator 是 Claude Code 官方提供的元技能（Meta-Skill），专门�
 
 ## 关联连接
 - [[SkillCreator]] — skill-creator 元技能工具
-- [[Meta-Skill]] — 关于技能的技能概念
+- [[meta-skill]] — 关于技能的技能概念
 - [[ClaudeCode]] — skill-creator 的所属平台
 - [[Skill]] — 技能概念体系

@@ -2,7 +2,7 @@
 title: "摘要-理解JavaScript的async-await"
 type: source
 tags: [来源, JavaScript]
-sources: [raw/01-articles/理解JavaScript的async-await.md]
+sources: [raw/09-archive/理解JavaScript的async-await.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[JavaScript]] — 编程语言
 - [[Promise]] — 异步编程模式
+- [[async-await]] — 异步语法
+- [[Vue3]] — 前端框架

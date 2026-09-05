@@ -2,7 +2,7 @@
 title: "摘要-mysql查询cpu占用过高的方法"
 type: source
 tags: [来源, MySQL]
-sources: [raw/01-articles/mysql查询cpu占用过高的方法.md]
+sources: [raw/09-archive/mysql查询cpu占用过高的方法.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[MySQL]] — 关系型数据库
+- [[jvm-tuning]] — 性能调优思路
+- [[摘要-mysql关键字explain解析]] — SQL 执行计划分析

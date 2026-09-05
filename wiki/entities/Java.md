@@ -2,8 +2,8 @@
 title: "Java"
 type: entity
 tags: [编程语言, JVM]
-sources: [raw/01-articles/CompletableFuture的使用.md, raw/01-articles/java8新特性详解.md, raw/01-articles/Java接口中的Default方法及其意义.md, raw/01-articles/java时间的比较.md, raw/01-articles/lambda表达式简单解析.md, raw/01-articles/jvm参数解释.md, raw/01-articles/Steam的简单操作.md, raw/01-articles/MessageDigest简介及应用.md, raw/01-articles/图文详解Java泛型，写得太好了！.md]
-last_updated: 2026-05-20
+sources: [raw/09-archive/CompletableFuture的使用.md, raw/09-archive/java8新特性详解.md, raw/09-archive/Java接口中的Default方法及其意义.md, raw/09-archive/java时间的比较.md, raw/09-archive/lambda表达式简单解析.md, raw/09-archive/jvm参数解释.md, raw/09-archive/Steam的简单操作.md, raw/09-archive/MessageDigest简介及应用.md, raw/09-archive/图文详解Java泛型，写得太好了！.md, raw/01-articles/2026-06-29-14、Reader的源码、FilterReader源码、PushbackReader源码（windows操作系统，JDK8） - Carey_ccl.md]
+last_updated: 2026-06-30
 ---
 
 ## 定义
@@ -23,10 +23,26 @@ Java 是一种广泛使用的面向对象编程语言，基于 JVM（Java 虚拟
 - 编译时类型检查，避免 ClassCastException
 - 类型擦除机制：运行时泛型信息被擦除
 
+### Java 21 虚拟线程（2026-08，详见 [[摘要-java21-虚拟线程生产落地]]）
+- Java 21 引入虚拟线程，适合高 IO 并发场景
+- 生产环境三大坑：synchronized pin 线程、ThreadLocal 内存泄漏、池化陷阱
+- 详见 [[虚拟线程]]
+
 ## 关联连接
 - [[JVM]] — Java 虚拟机
 - [[Spring]] — 应用框架
 - [[SpringBoot]] — 自动配置框架
 - [[IntelliJIDEA]] — Java IDE
 - [[generics]] — 泛型概念
+- [[虚拟线程]] — Java 21 轻量级线程
 - [[摘要-java-generics-explained]] — 泛型详解
+- [[摘要-reader-filterreader-pushbackreader源码]] — Reader/FilterReader/PushbackReader 源码解读
+- [[Reader]] — 字符输入流抽象基类
+- [[FilterReader]] — 字符流装饰器基类
+- [[PushbackReader]] — 支持字符回退的字符流装饰器
+- [[摘要-HttpClient的简单使用]] — 基于 JDK 原生 HttpURLConnection 封装…
+- [[摘要-httpUtils]] — 基于 JDK 原生 HttpURLConnection 和 …
+- [[摘要-MessageDigest简介及应用]] — 介绍 Java MessageDigest 类实现 MD5、…
+- [[摘要-mybatis-plus-12-optimization-tips]] — 本文介绍了 12 个 MyBatis Plus 性能优化技巧…
+- [[摘要-Java接口中的Default方法及其意义]] — 讲解 Java 8 接口 Default 方法的意义：向后兼…
+- [[摘要-java21-虚拟线程生产落地]] — 来源（Java 21 虚拟线程生产坑）

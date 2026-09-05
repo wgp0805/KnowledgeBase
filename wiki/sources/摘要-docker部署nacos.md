@@ -2,7 +2,7 @@
 title: "摘要-docker部署nacos"
 type: source
 tags: [来源, Docker, Nacos]
-sources: [raw/01-articles/docker部署nacos.md]
+sources: [raw/09-archive/docker部署nacos.md]
 last_updated: 2026-05-19
 ---
 
@@ -13,3 +13,5 @@ last_updated: 2026-05-19
 - [[Docker]] — 容器化平台
 - [[Nacos]] — 注册配置中心
 - [[MySQL]] — 关系型数据库
+- [[microservices]] — 微服务架构
+- [[DockerDesktop]] — Docker 桌面版

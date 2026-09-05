@@ -29,3 +29,4 @@ last_updated: 2026-05-19
 - [[inverted-index]] — 核心数据结构
 - [[analyzer]] — 分词器技术
 - [[摘要-elasticsearch-quick-start]] — 来源
+- [[摘要-elasticsearch-comprehensive-guide]] — 来源（相关性评分原理）

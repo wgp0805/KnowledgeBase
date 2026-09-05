@@ -2,7 +2,7 @@
 title: "摘要-liunx命令总结"
 type: source
 tags: [来源, Linux]
-sources: [raw/01-articles/liunx命令总结（600条）.md]
+sources: [raw/09-archive/liunx命令总结（600条）.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,3 +12,5 @@ Linux 系统 600 条常用命令分类总结，涵盖基本命令、关机重启
 ## 关联连接
 - [[Linux]] — 操作系统
 - [[Vim]] — 命令行文本编辑器
+- [[CentOS]] — Linux 发行版
+- [[Ubuntu]] — Linux 发行版

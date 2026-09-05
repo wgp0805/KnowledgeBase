@@ -2,7 +2,7 @@
 title: "摘要-nginx配置"
 type: source
 tags: [来源, Nginx]
-sources: [raw/01-articles/nginx配置.md]
+sources: [raw/09-archive/nginx配置.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ Nginx 配置全面详解，包括 location 匹配规则（= / ^~ ~ ~*）、proxy
 
 ## 关联连接
 - [[Nginx]] — 高性能 Web 服务器
+- [[Docker]] — 容器化部署 Nginx
+- [[SpringCloudGateway]] — API 网关

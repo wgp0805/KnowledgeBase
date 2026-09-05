@@ -2,8 +2,8 @@
 title: "Agent"
 type: concept
 tags: [AI, Agent, 自主系统]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/Claude Code 最佳学习路线：从"手敲代码"到"指挥AI打工"，强的离谱！！.md, raw/01-articles/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md, raw/01-articles/2026-07-17-当AI Agent开始"自己拿主意"，你怎么知道它没在犯错？.md]！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md, raw/09-archive/为什么Skill才是未来的资产.md]
+last_updated: 2026-08-11
 ---
 
 ## 定义
@@ -13,6 +13,16 @@ last_updated: 2026-05-19
 
 ### LLM Loop 机制
 Agent 的核心运行机制是 LLM Loop：接收指令→制定计划→调用工具→观察结果→决定下一步→循环直到完成。
+
+### 闭环执行系统与"项目经理"类比
+面向 Agent 生态的价值视角（[[摘要-为什么Skill才是未来的资产]]）认为，Agent 的真正核心是"感知 → 推理 → 行动 → 观察 → 反思"的闭环执行系统：
+- **感知**：理解用户目标和当前环境
+- **推理**：拆解任务、规划步骤
+- **行动**：调度工具执行
+- **观察**：检查执行结果
+- **反思**：发现问题重新规划，直到交付
+
+类比项目经理：不一定要亲自动手做每件事，但必须清楚目标、先后顺序、派哪个工具去干、干得不对如何纠偏。Agent 的职责是"把事做完"，而非"把某件事做得最专业"—后者的专业度由 Skill 层负责（见 [[四层架构]]）。
 
 ### Harness 工程
 Harness 是大模型之外让 Agent 表现更好的设计总称。同样一个大模型，harness 不同效果差别极大。Claude Code 和 Codex 都是 harness 集大成者。
@@ -33,6 +43,27 @@ Harness 是大模型之外让 Agent 表现更好的设计总称。同样一个�
 - **Hook**：条件反射式自动触发
 - **CLI**：命令行工具扩展
 
+### Tools / Workflow / Agent 层级递进关系
+三者不是并列关系，而是层级递进（源自 Anthropic《Building Effective Agents》）：
+
+- **Tools（积木）**：LLM 可调用的离散函数，被动能力单元，本身无"智能"
+- **Workflow（流水线）**：人写死路径，把多个 Tools 按固定路径串起来，开发者是司机，LLM 是执行单元
+- **Agent（当家人）**：把 Tools 全部交给 LLM，LLM 自己当司机，在循环里决定下一步往哪走
+
+关键区分：只有"LLM 自主决策 + 循环执行"同时成立时才叫 Agent。Workflow 是"直线"，Agent 是"圆环"——从 Observe 回到 Think 的循环边是 Agent 的本质特征。
+
+### Anthropic "简单胜于复杂"选型原则
+- 能用单个 Tool 就别编排一长串流程
+- 能用 Workflow 解决就别上 Agent
+- 能不调 LLM 就不调 LLM
+- Agent 的循环会带来不可控的 Token 消耗，对稳定性/成本/延迟敏感的场景优先用 Workflow
+- 生产环境主流：外层 Workflow 编排 + 关键决策点交给 Agent（Agent with Guardrails）
+
+### Agent 本质公式与循环终止标准
+- **本质公式**：Agent = 大模型 + 工具集 + 执行循环（源自 [[PiAgent]]）。任何复杂 Agent 框架都只是在基础循环上叠加工程防护。
+- **循环终止标准**：模型判定无需调用工具时循环必须终止，否则无限消耗 Token 甚至死循环（详见 [[trace-turn]]）。
+- **极简模型**：200 行代码即可实现（read_file + write_file + while True），生产级框架在此基础上增加轮次限制、上下文压缩、参数校验、安全拦截、错误自愈、生命周期钩子。
+
 ## 关联连接
 - [[Codex]] — OpenAI 的 Agent
 - [[ClaudeCode]] — Anthropic 的 Agent
@@ -40,3 +71,23 @@ Harness 是大模型之外让 Agent 表现更好的设计总称。同样一个�
 - [[AgentHarness]] — harness 设计
 - [[Skill]] — 技能扩展
 - [[MCP]] — 外部服务协议
+- [[n8n-complete-guide]] — n8n 工作流自动化平台指南
+- [[Casebook]] — AI Agent 维护测试用例资产的案例
+- [[LangGraph4j]] — 多 Agent 工作流编排框架
+- [[Step3Flash]] — Agent 执行层模型案例
+- [[摘要-claude-code-learning-roadmap]] — Claude Code Agent 学习路线
+- [[AI工作流]] — Anthropic 定义的 Workflow 概念，与 Agent 形成对比
+- [[FunctionCalling]] — Tools 的底层机制
+- [[SpringAI]] — @Tool 注解与 ChatClient 实现
+- [[LangChain4j]] — Java 生态 Agent 框架
+- [[ReAct_Agent]] — Agent 的经典循环模式
+- [[RAG]] — Workflow 的典型应用场景
+- [[摘要-agent-tools-workflow区别]] — 三者关系与选型来源
+- [[CognitiveNavigation]] — Agent 运行时健康诊断
+- [[摘要-ai-agent-cognitive-navigation]] — 认知导航来源
+- [[PiAgent]] - 开源 Agent 框架，工程化实现
+- [[trace-turn]] - Agent 运行单位与生命周期钩子
+- [[摘要-pi-agent-core-principles]] - 本质公式来源
+- [[摘要-pi-agent-production-guide]] - 生产级落地来源
+- [[四层架构]] — LLM/Skill/Tool/Agent Runtime 协同框架
+- [[摘要-为什么Skill才是未来的资产]] — 闭环执行系统与项目经理类比来源

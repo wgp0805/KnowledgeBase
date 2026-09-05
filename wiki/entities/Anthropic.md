@@ -1,21 +1,23 @@
 ---
 title: "Anthropic"
 type: entity
-tags: [AI公司, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md]
-last_updated: 2026-05-19
+tags: [AI公司, 大模型开发商]
+sources: [raw/01-articles/2026-09-03-顶模 Fable 5.1发布，到底强了多少？.md]
+last_updated: 2026-09-03
 ---
 
 ## 定义
-美国 AI 安全公司，推出了 Claude Code（CLI Agent）和 Claude 系列模型。
+人工智能公司，专注于开发安全、可靠、可解释的 AI 系统，是 Claude 系列模型的开发公司。
 
 ## 关键信息
-- 2025 年 2 月推出 Claude Code，率先发明 Skill、MCP、Hook、远程操控等 Agent 扩展机制
-- 内部员工很早就用 Claude Code 处理法律、财务、市场等知识工作
-- Claude Opus 4.6 的写作和规划能力极强
-- 提供 Claude 订阅会员模式
+- **主要产品**：Claude 系列大语言模型，包括 Fable、Mythos、Sonnet、Opus 等版本
+- **最新发布**：Fable 5.1 和 Mythos 5.1 模型
+- **定价策略**：Fable 系列定位高端，价格相对较高
+- **技术特点**：模型在长任务编码、游戏生成等领域表现突出
+- **安全理念**：Mythos 系列模型具有更严格的安全限制
 
 ## 关联连接
-- [[ClaudeCode]] — Anthropic 的 Agent 产品
-- [[Codex]] — 竞品
-- [[OpenAI]] — 竞争对手
+- [[摘要-顶模-fable-51发布到底强了多少]] — 来源
+- [[Fable 5.1]] — 旗下模型
+- [[Mythos 5.1]] — 旗下模型
+- [[Claude]] — 旗下产品

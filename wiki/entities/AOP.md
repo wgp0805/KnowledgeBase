@@ -2,7 +2,7 @@
 title: "AOP"
 type: entity
 tags: [Spring, 编程范式]
-sources: [raw/01-articles/SpringBoot-Aop的使用.md, raw/01-articles/spring框架中的事务管理.md]
+sources: [raw/09-archive/SpringBoot-Aop的使用.md, raw/09-archive/spring框架中的事务管理.md]
 last_updated: 2026-05-19
 ---
 
@@ -19,3 +19,5 @@ AOP（Aspect-Oriented Programming，面向切面编程）通过预编译方式�
 ## 关联连接
 - [[SpringBoot]] — 整合框架
 - [[Spring]] — 基础框架
+- [[摘要-spring框架中的事务管理]] — 详解 Spring @Transactional 声明式事务…
+- [[摘要-SpringBoot-Aop的使用]] — 讲解 Spring Boot 中 AOP 面向切面编程的使用…

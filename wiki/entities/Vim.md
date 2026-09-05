@@ -2,7 +2,7 @@
 title: "Vim"
 type: entity
 tags: [编辑器, Linux]
-sources: [raw/01-articles/vim命令大全.md, raw/01-articles/liunx查找文件内的关键字.md]
+sources: [raw/09-archive/vim命令大全.md, raw/09-archive/liunx查找文件内的关键字.md]
 last_updated: 2026-05-19
 ---
 
@@ -19,4 +19,4 @@ Vim 是 Linux/Unix 系统上最强大的命令行文本编辑器之一，以高�
 
 ## 关联连接
 - [[Linux]] — 操作系统
-- [[Grep]] — 文本搜索工具
+- [[Ripgrep]] — 高性能文本搜索工具（grep 现代替代）

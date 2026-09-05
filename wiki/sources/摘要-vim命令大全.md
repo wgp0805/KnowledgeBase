@@ -2,7 +2,7 @@
 title: "摘要-vim命令大全"
 type: source
 tags: [来源, Vim]
-sources: [raw/01-articles/vim命令大全.md]
+sources: [raw/09-archive/vim命令大全.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,3 +12,5 @@ Vim 编辑器的全面命令参考手册，详细介绍命令模式（光标移�
 ## 关联连接
 - [[Vim]] — 命令行文本编辑器
 - [[Linux]] — 操作系统
+- [[摘要-liunx命令总结]] — Linux 命令参考
+- [[CentOS]] — Linux 发行版

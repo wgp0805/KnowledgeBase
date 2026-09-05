@@ -1,11 +1,38 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-mybatis-plus-3515-springboot4-jackson3]] — MyBatis-Plus 3.5.15 支持 Spring Boot 4.0 和 Jackson 3.0，Starter 替换与 JSON 字段处理详解
+- [[摘要-ox-alpha模型与agent面试题]] — 沉默王二介绍免费预览模型 Ox Alpha（1M 上下文/多模态），并以模型指纹、Provider 差异、降级策略等 10 道 Agent 面试题展开
+- [[摘要-ruoyi-ai平台]] — 若依扩展的全栈 AI 平台，Spring Boot 3.4 + Spring AI + Langchain4j，本地 RAG/Agent Skills/流程编排
+- [[摘要-多agent统一UI工具]] — AionUi 开源多 Agent 桌面应用，统一 UI 整合 OpenClaw/Claude Code/Codex 等 CLI
+- [[摘要-多模型横评-evox]] — EvoX 蜂群模式 + DeepSeek V4 Flash/GLM-5.2/GPT-5.6 Sol 多模型横评
+- [[摘要-手搓claude-code-面试]] — 面试视角拆解 learn-claude-code 架构，手搓类 Claude Code Agent
+- [[摘要-loop-vs-prompt-engineering]] — 面试辨析 Prompt/Context/Harness/Loop Engineering 范式演进
+- [[摘要-skills-vs-prompt-辨析]] — 面试辨析 Skills 与 Prompt 本质差异：沉淀/复用/进化三能力
+- [[摘要-fastcode-hkuds-codebase-understanding]] — 港大 HKUDS 开源 FastCode 代码库理解框架，Scouting-First 策略
+- [[摘要-rocketmq-接入ai]] — RocketMQ 5.5.0 接入 AI：LiteTopic 支撑 Multi-Agent 异步通信与会话管理
+- [[摘要-try-catch-异常边界]] — try catch 放 for 内外的本质是异常边界，兼谈事务/性能三坑
+- [[摘要-minio-intro]] — MinIO 对象存储介绍与 Docker 部署
+- [[摘要-elasticsearch-8.10-install]] — ES 8.10 安装与安全配置详解
+- [[摘要-elasticsearch-comprehensive-guide]] — ES 全景指南：从入门到原理深度解析
+- [[摘要-PostgreSQL-vs-MySQL]] — PostgreSQL vs MySQL 技术对比与国产数据库选型分析
+- [[摘要-vibe-engineering-era]] — AI 时代程序员焦虑与 Vibe Coding/Engineering 分水岭
+- [[摘要-mysql-course]] — MySQL 完整教程（37 章，环境搭建到备份恢复）
+- [[摘要-alibaba-product-manual]] — 阿里巴巴产品手册
+- [[摘要-frontend-engineering]] — 前端工程化 4 小时速通
+- [[摘要-microservice-governance]] — 微服务治理技术白皮书
+- [[摘要-cherry-studio-knowledge-base]] — Cherry Studio + DeepSeek 搭建个人知识库
+- [[摘要-java-concurrency]] — Java 并发编程手册
+- [[摘要-java-mycat]] — Java 高级技术之 Mycat 中间件
+- [[摘要-java-performance-tuning]] — Java 性能调优实战
+- [[摘要-spring-cloud-alibaba]] — Spring Cloud Alibaba 笔记
+- [[摘要-springboot3]] — Spring Boot 3 教程
 - [[摘要-elasticsearch-quick-start]] — Elasticsearch 7.11 从零到一入门教程
 - [[摘要-40分钟学会Codex零基础教程]] — Codex 零基础系统教程，八大核心能力全面覆盖
 - [[摘要-60分钟全面掌握Claude-Code]] — Claude Code 四关系统教程，从上手到高级扩展
 - [[摘要-LangChain4j-Java-AI智能体开发]] — LangChain4j 设计理念、核心架构与工程实践
 - [[摘要-如何在Spring-Boot中无缝集成LangChain4j]] — Spring Boot 集成 LangChain4j Starter 实践
+- [[摘要-LangChain4j入门指南-苏三]] — LangChain4j 零基础入门：七大组件、Spring Boot 实战、优缺点与 Spring AI 对比
 - [[摘要-6条Claude-Code实践经验与思考]] — Claude Code 六条实践经验与 AI Coding 范式思考
 - [[摘要-欢迎]] — Obsidian 仓库的入门欢迎笔记
 - [[摘要-域名]] — 阿里云和 CloudFlare 域名解析过程
@@ -13,6 +40,7 @@
 - [[摘要-curl详解]] — curl 命令行工具全面使用指南
 - [[摘要-git常用命令]] — Git 版本控制常用命令总结
 - [[摘要-git推送远程方法]] — Git 远程仓库操作及多仓库推送
+- [[摘要-git-撤回已push代码]] - Git 撤回已 Push 代码的四种方法对比（revert/新建分支/reset+force push）
 - [[摘要-nginx配置]] — Nginx 配置全面详解
 - [[摘要-Liunx常用命令]] — Linux 常用命令速查
 - [[摘要-liunx命令总结]] — Linux 600 条命令分类总结
@@ -64,6 +92,7 @@
 - [[摘要-SpringBoot-Aop的使用]] — Spring Boot AOP 编程
 - [[摘要-SpringBoot接收参数的几种常用方式]] — Spring Boot 参数接收方式
 - [[摘要-SpringBoot优雅的加载配置文件的几种方式]] — Spring Boot 配置加载
+- [[摘要-spring-mybatis-plus-sqlsession-reuse]] — Spring 事务下 MyBatis-Plus SqlSession 复用与缓存机制详解
 - [[摘要-springboot整合mybatisPlus]] — Spring Boot 整合 MyBatis-Plus
 - [[摘要-springboot整合redis]] — Spring Boot 整合 Redis
 - [[摘要-springboot整合RocketMq]] — Spring Boot 整合 RocketMQ
@@ -83,27 +112,328 @@
 - [[摘要-bytedance-mq-design]] — 字节跳动系统设计面试题：从零设计百亿级消息队列
 - [[摘要-为什么Claude-Code不用RAG检索代码]] — Claude Code 用 Agentic Search 替代 RAG 的原因与实证
 - [[摘要-token-redis-interview]] — JWT 无状态认证与 Token 存 Redis 的合理性分析
+- [[摘要-jwt-双token续签设计]] — 从根本矛盾讲清双 Token、Refresh Token Rotation 与并发刷新坑
 - [[摘要-springboot4-security7-vue3-best-practice]] — SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目最佳实践
 - [[摘要-prevent-duplicate-order]] — 高并发下防止重复提交订单的多层次防护方案
 - [[摘要-java-generics-explained]] — Java 泛型的概念、好处和使用方法详解
+- [[摘要-claude-code-springboot-skills]] — 4个Spring生态专属AI Skill开源项目实战解析
+- [[摘要-jenkins]] — Jenkins + GitLab + Maven 自动化部署配置全流程
+- [[摘要-spring-ai]] — Spring AI 框架完整教程（ChatClient/Function Calling/RAG）
+- [[摘要-spring-security]] — Spring Security 完整教程（OAuth2/前后端分离/授权）
+- [[摘要-maven]] — Maven 项目构建与依赖管理完整教程
+- [[摘要-java-ai-langchain4j]] — LangChain4j 实战项目教程（MCP/Guardrail/SSE）
+- [[摘要-rabbitmq-idempotency]] — RabbitMQ 防重复消费的5种幂等方案
+- [[摘要-springboot-startup-flow]] — Spring Boot 内部启动流程7个核心步骤
+- [[摘要-sharding-database-table]] — 分库分表原理、坑点与落地实践
+- [[摘要-singleton-pattern]] — 单例模式5种写法与线程安全
+- [[摘要-spring-design-patterns]] — Spring 框架中使用的9种设计模式详解
+- [[摘要-anthropic-engineer-skills]] — Anthropic 工程师分享的 Claude Code Skills 9 类分类法与设计经验
+- [[摘要-字节面试官什么是RAG为什么需要RAG]] — 字节面试视角下的 RAG 深度解析：四大硬伤、核心流程、选型对比与前沿演进
+
+- [[摘要-ECC使用教程]] — ECC v1.10.0+ 全方位教程：47+ Agent/Skill/Hook/Continuous Learning
+- [[摘要-同事一个比喻，让我搞懂了Docker和k8s的核心概念]] — Docker 镜像/容器/Pod/K8s 核心概念比喻式讲解
+- [[摘要-Ollama+DeepSeek本地部署]] — Ollama 安装与 DeepSeek-R1 本地部署教程
+- [[摘要-claude-code-plugins-official]] — Anthropic 官方 Claude Code 插件应用商店开源详解
+- [[摘要-把Codex用到极致]] — Codex 从编程 Agent 进化为电脑工作系统的三大支柱
+- [[摘要-java-stack-skills-guide]] — Java 全栈开发 Skills 生态综述（Redis/前端/多 Agent 协作）
+- [[摘要-再见吧-codex]] — Codex 高效使用七步工作流与方法论
+- [[摘要-AI-agent工具应该怎么使用]] — Codex 9 条实战使用技巧与 AI Agent 工具最佳实践
+- [[摘要-java-ai框架选型指南-2026]] — 2026年Java AI框架选型指南，六大框架全面对比
+- [[摘要-全链路灰度发布-8步实战教程]] — Spring Cloud Alibaba 全链路灰度发布8步实战教程
+- [[摘要-Spring-Boot-URule-规则引擎]] — Spring Boot 集成 URule 实现可视化规则引擎
+- [[摘要-最强AI设计智能体Lovart入门教程]] — Lovart/星流 AI 设计智能体零基础入门教程
+- [[摘要-mimo-code发布]] — 小米 MiMo Code 0.1 发布与 Harness 架构深度解析
+- [[摘要-用Codex制作仙侠塔防游戏]] — 利用 Codex + GPT-image-2 + Godot 4 制作仙侠塔防游戏全流程
+- [[摘要-codex必装skill推荐]] — 8 个推荐的 Codex Skill：浏览器控制、内容读取、去 AI 味、PPT 生成等
+- [[摘要-AI中转站盈利与风险分析]] — AI 中转站运作模式、盈利方式与法律风险分析
+- [[摘要-用Codex制作中国风文字冒险游戏]] — 利用 DeepSeek + GPT-image-2 + Ren'Py 制作中国风文字冒险游戏
+- [[摘要-OpenClaw小龙虾教程汇总]] — OpenClaw（小龙虾）全方位教程合集：部署、微信接入、实战案例
+- [[摘要-GPT-image-2儿童画风玩法]] — GPT-image-2 儿童画风新玩法：万物皆可童画
+- [[摘要-GPT-image-2服装设计玩法]] — GPT-image-2 以万物为灵感设计服装的新玩法
+- [[摘要-HermesAgent小白入门指南]] — Hermes Agent 完整入门指南：安装、配置、使用、进阶
+- [[摘要-Obsidian保姆级入门教程]] — Obsidian 知识管理工具入门教程：安装、插件、同步、图床
+- [[摘要-ClaudeSkills保姆级教程]] — Claude Skills 完整教程：概念、原理、安装、实战、安全
+- [[摘要-ClaudeCode小白入门教程]] — Claude Code 小白入门教程：概念、安装、使用
+- [[摘要-Codex保姆级入门教程]] — Codex 保姆级入门教程：概念、安装、使用、最新版本
+- [[摘要-Docker部署OmnoBox]] — Docker 一键部署 OmnoBox 爬虫管理工具
+- [[摘要-AgentScopeJava2.0发布]] — AgentScope Java 2.0 发布：企业级分布式智能体框架
+- [[摘要-AgentScope入门指南]] — 苏三撰写的 AgentScope-Java 入门实战指南
+- [[摘要-OpenSpec规范驱动AI编程框架]] — OpenSpec 规范驱动 AI 编程框架介绍与使用教程
+- [[摘要-claude-code-setup-plugin]] — Anthropic 官方一键自动化配置插件 claude-code-setup 详解
+- [[摘要-claude-code-best-practice]] — GitHub 57k+ Star 的 Claude Code 最佳实践仓库全景解析
+- [[摘要-spring-boot-4.1-发布]] — Spring Boot 4.1.0 新特性详解（gRPC/SSRF/懒加载/RedisListener）
+- [[摘要-superpowers-openspec-speckit对比]] — Superpowers / OpenSpec / Spec-Kit 三方对比与组合实践
+- [[摘要-superpowers到底是什么]] — Superpowers 深度解读：14 Skill、五阶段流程、底层机制
+- [[摘要-程序员AI画图技巧]] — 程序员 4 种 AI 文本绘图技巧（文本语言/Canvas/SVG/draw.io）
+- [[摘要-claude-code-best-practice-苏三视角]] — claude-code-best-practice 仓库的实战技巧深读（40% 上下文/Plan-Execute 分离/Hook 强制纪律）
+- [[摘要-ECC-OpenCode-使用指南]] — ECC + OpenCode 完整使用指南：三种安装方式对比与核心工作流
+- [[摘要-mybatis-plus-12-optimization-tips]] — MyBatis Plus 12 个性能优化技巧
+- [[摘要-ai-agent-抓包协作]] — AI Agent 逆向破解场景下的抓包软件协作提问
+- [[摘要-Spring-Cloud-Gateway-War-Tomcat]] — Spring Cloud Gateway War 包部署外置 Tomcat 改造方案与评估
+- [[摘要-Claude-Code-Workflows-vs-MetaSKILL]] — Claude Code Dynamic Workflows 与 OpenClaw.NET MetaSKILL 编排范式对比
+- [[摘要-Spring-Boot-to-Solon-注解迁移]] — Spring Boot 到 Solon 框架注解迁移实战指南
+- [[摘要-codex-vs-claude-code-对比]] — 2026-06 Codex vs Claude Code 全面对比（Harness/基准/Token/功能）
+- [[摘要-fastapi-入门教程]] — FastAPI 高性能 Python Web 框架入门（Java 开发者视角）
+- [[摘要-国产大模型实战横评]] — DeepSeek V4 Pro/Kimi 2.7/MiniMax M3 真实场景横评
+- [[摘要-二维码扫码登录原理]] — 抖音/阿里大厂面试题：QR 码扫码登录完整流程
+- [[摘要-doubao-seed2-1-pro-douyin]] — 秋芝2046 对豆包 Seed2.1 Pro 的办公 Agent、前端生成与多工具调用实测
+- [[摘要-reader-filterreader-pushbackreader源码]] — JDK8 Reader/FilterReader/PushbackReader 字符流源码解读
+- [[摘要-casebook-ai-native-testcase-workflow]] — Casebook 面向 AI Agent 的测试用例工程化工作流
+- [[摘要-langchain4j-langgraph4j-comparison]] — LangChain4j 与 LangGraph4j 的能力接入层/流程编排层对比
+- [[摘要-step-3-7-flash-agent横评]] — Step 3.7 Flash、DeepSeek、Gemini、Qwen 在真实 Agent 任务中的横评
+- [[摘要-claude-code-learning-roadmap]] — Claude Code 从日常使用到 Subagents/MCP 自动化流水线的学习路线
+- [[摘要-多模态大模型横评-苏三]] — Step 3.7 Flash / MiniMax M3 / Qwen3.6-flash 在流程图与发票场景下的多模态横评
+- [[摘要-easy-rules-规则引擎]] — 用轻量级 Java 规则引擎 Easy Rules 干掉 if...else 的完整讲解
+- [[摘要-沉默王二-claude-code-底层深扒]] — 沉默王二从源码层面深扒 Claude Code 底层架构（Query Loop / StreamingToolExecutor / 7 级权限模式）
+- [[摘要-codex-obsidian-自生长知识库]] — Xuan_酱 用 Codex + Obsidian 搭建 Karpathy 同款自生长知识库教程
+- [[摘要-solon-chatmodel-java-llm]] — Solon 4.0 ChatModel 统一 LLM 客户端，方言模式与对话记忆
+- [[摘要-ai-agent-day10-tool-pipeline]] — AI Agent 工具流水线编排、异步任务队列与分布式配套
+- [[摘要-loop-engineering-guide]] — Loop 循环工程三文件驱动 AI Agent 自动化循环方法论
+- [[摘要-spring-ai-2-agent-tips]] — Spring AI 2.0 开发 Agent 的九条实战经验
+- [[摘要-构建你的第一个Tool-Agent-从零理解ReAct循环]] — LangGraph ReAct 循环手写实现与 create_react_agent 内部原理
+- [[摘要-ai大模型学习路线]] — 冰河撰写的 AI 五关递进学习路线（提示词→RAG→Function Call→Agent→微调）
+- [[摘要-maven-4-重构]] — Maven 4 核心架构变化与 POM 4.1.0 新特性详解
+- [[摘要-codex-97percent-技巧]] — 苏三整理 Codex 从基础到进阶的 10 条实用技巧
+- [[摘要-为什么越来越多人用Sa-Token]] — Sa-Token 权限认证框架深度解析，对比 Spring Security
+- [[摘要-4种消息队列如何选型]] — Kafka/RabbitMQ/RocketMQ/ActiveMQ 四种消息队列全面对比与选型指南
+- [[摘要-transformer-训练微调范式]] — Transformer 架构与训练-微调范式（自注意力/QKV/SFT/RLHF/PEFT/LoRA）系统讲解
+- [[摘要-gateway网关]] — Gateway 网关五大作用与 Spring Cloud Gateway 实战
+- [[摘要-agent-tools-workflow区别]] — Tools/Workflow/Agent 三者层级递进关系与选型
+- [[摘要-无人图书柜项目]] — 程序汪 6 万无人图书柜项目（RFID+MQTT+Codex）
+- [[摘要-powerjob-分布式任务调度]] — PowerJob 分布式任务调度框架：无锁化设计/DAG工作流/四种执行模式
+- [[摘要-双亲委派模型]] — Java 双亲委派模型：类加载器层次/委派流程/三次破坏（SPI/Tomcat/OSGi）
+- [[摘要-aot-vs-jit编译]] — AOT 与 JIT 编译对比：构建时 vs 运行时/启动速度 vs 峰值性能
+- [[摘要-springboot脚手架搭建]] — SpringBoot 脚手架搭建：全局异常处理/日志AOP/跨域/Swagger/统一响应体
+- [[摘要-springboot3.2-graalvm上手]] — SpringBoot 3.2+JDK 21+GraalVM Native Image 性能对比（vs Golang/Rust）
+- [[摘要-logback-vs-log4j2]] — logback vs log4j2 性能对比：log4j2 性能是 logback 的两倍
+- [[摘要-ponytail-ai减代码]] — Ponytail 开源 AI Agent 技能，让 AI 少写废代码（20.9k Star）
+- [[摘要-gsd-core-ai工作流]] — GSD Core 开源 AI 编码工作流项目，规格驱动开发（2.3k Star）
+
+- [[摘要-spec-superflow-融合工作流]] — spec-superflow：融合 OpenSpec 与 Superpowers 的自动化工作流插件
+- [[摘要-spec-superflow-融合工作流-源码级详解]] — spec-superflow 源码级融合详解：8 状态机 + contract-builder 桥接层 + 17 平台分发
+- [[摘要-claude-code-best-practice-最新版]] — Claude Code 最佳实践最新整理：CLAUDE.md/工作流/调试/上下文/Subagents/Skills 等 13 模块
+- [[摘要-spring-ai-2-对话记忆实战]] — Spring AI 2.0 三步搭建带 Redis 对话记忆的 AI 聊天服务
+- [[摘要-spring-ai-2-vs-alibaba选型]] — Spring AI 2.0 vs Spring AI Alibaba 全面对比与组合选型
+- [[摘要-开源诗词数据集poetry_dataset]] — poetry_dataset 开源诗词训练数据集与 Mac 本地 LoRA 微调全方案（Qwen2.5 + MLX + shi-ci.cn）
+
+- [[摘要-多Agent协作开发框架]] — 多 Agent 协作框架方法论：Planner/Coder/Reviewer 三角色 + 文件交接 + 防包容
+	- [[摘要-architecture-diagram-generator]] — Cocoon AI 团队开源的 Claude AI 架构图生成 Skill，用人话描述系统架构生成 HTML 架构图
+- [[摘要-claude-code-实战防搞炸]] — 程序汪分享的 Claude Code 实战经验，CLAUDE.md/权限/验证三位一体防项目搞炸
+- [[摘要-shadcn-ui介绍]] — shadcn/ui 新一代 UI 库介绍：开放代码、源码级可控、AI 友好
+- [[摘要-LangChain与LangGraph对比]] — LangChain 与 LangGraph 核心差异与落地选型全解析
+- [[摘要-SolonAI-ReActAgent智能客服]] — Solon AI ReActAgent 落地智能客服工单处理实战
+- [[摘要-ShadcnUI构建Java桌面应用]] — JxBrowser + React + shadcn/ui 构建 Java 桌面应用
+- [[摘要-RAG-KAG双引擎知识库系统]] — RAG + KAG 双引擎企业级知识库系统完整方案
+- [[摘要-kaku-ai-terminal]] — Kaku AI 终端：Rust+WezTerm 定制，Claude Code+Codex 双面板对决
+- [[摘要-springboot-电子文件签字盖章系统]] — SpringBoot 实现电子文件在线签字盖章系统，基于 PageOffice + MobOffice 的 OA 文档流转
+- [[摘要-从-vibe-coding-到-spec-coding]] — Trellis 将规范、任务、会话记忆串为项目级 AI 工作流的实践总结
+- [[摘要-codex-从原理到-java落地]] — Codex 在 Java 项目的任务拆分、验证与质量边界实践
+- [[摘要-trellis使用手册]] — Trellis 的安装、结构、任务生命周期与 Codex 接入说明
+- [[摘要-aliyun-llms-txt]] — 阿里云全面上线 llms.txt 结构化索引，AI Agent 三步导航消费 300+ 云产品文档
+- [[摘要-spring-why-abandon-feign]] — Spring Framework 6 @HttpExchange 与 Feign 深度对比
+- [[摘要-rag-api-call]] — 通义千问 API 调用与 RAG 问答链完整搭建
+- [[摘要-ai-agent-cognitive-navigation]] — Agent 运行时认知导航健康诊断框架
+- [[摘要-sso-single-sign-on]] — 企业多系统身份认证演进：从 Session 到 SSO（CAS 协议）实现原理
+- [[摘要-mysql-primary-key-strategy]] — MySQL 主键策略对比：自增 ID、UUID、雪花算法的 InnoDB 索引效率分析
+- [[摘要-loop-engineering-pitfalls]] — Loop Engineering 生产环境五大坑：硬隔离/原样转发/停止规则/状态落地/目标可验证
+- [[摘要-markamd-rust-markdown-ai]] — marka.md：Rust+Tauri 轻量 Markdown 编辑器，专为 AI 上下文打包设计
+- [[摘要-codegraph-mcp-gateway]] — Docker 部署 CodeGraph 多项目统一 MCP 网关，一个容器一个端口访问多个代码仓库
+- [[摘要-codegraph-deep-dive]] — 苏三全面介绍 CodeGraph：tree-sitter 构建代码知识图谱，工具调用直降 71%
+- [[摘要-codegraph-deep-dive]] — 苏三全面介绍 CodeGraph：tree-sitter 构建代码知识图谱，工具调用直降 71%
+- [[摘要-claude-code-statusline]] — ccstatusline 与 claude-hud 两款开源 Claude Code 状态栏工具介绍
+- [[摘要-apache-pdfbox]] — Apache PDFBox 开源 Java PDF 处理库全解析（Apache 2.0 协议/双层架构/核心操作）
+- [[摘要-spring-cloud-stream-rocketmq]] — Spring Cloud Stream 与 RocketMQ 整合完全指南（函数式模型/事务消息/顺序消息/死信队列）
+- [[摘要-dataway-dataql]] — Dataway 基于 DataQL 的零代码接口配置工具介绍
+- [[摘要-minio-rustfs]] — MinIO 社区版闭源与 RustFS 国产替代方案分析
+- [[摘要-skywalking-install]] — SkyWalking 9.3.0 + ES 8.5.1 二进制安装教程
+- [[摘要-agent-engineering]] — Agent 工程选型、五大工作流与自主智能体架构完整论证
+- [[摘要-hermes-agent-complete-guide]] — Hermes Agent 从安装配置到多 Agent 协作完全指南
+
+- [[摘要-从winforms到vue-ds-ui-gui框架]] — 从 WinForms 到 Vue：ds-ui 专业 GUI 框架的理念与实践
+- [[摘要-skywalking-docker-compose-install]] — Docker Compose 部署 SkyWalking 9.3.0 + ES 8.4.2
+- [[摘要-为什么越来越多人用Nacos]] — 从 Eureka 到 Nacos：注册中心+配置中心一体化、AP/CP 双模、Distro 协议、长轮询、2.0 性能 10 倍、3.0 AI Registry
+- [[摘要-dyad-ai全栈构建器]] — Dyad 本地 AI 全栈应用构建器介绍（21k Star）
+- [[摘要-胖虎-skill教程]] — 胖虎 Skill 编写实战教程，最接地气的 Skill 入门指南
+- [[摘要-jeandle-llvm-jit编译器]] — 蚂蚁集团开源 Jeandle，基于 LLVM 的 JVM JIT 编译器
+- [[摘要-分库分表六大痛点]] — 分库分表六大痛点与主流解法详解
+- [[摘要-分库分表分页查询]] — 分库分表后分页查询4种方案详解
+
+- [[摘要-生产级Agent设计]] — 生产级 Agent 设计的 11 个核心工程问题，涵盖上下文压缩、记忆系统、指数退避重试、渐进式披露等
+- [[摘要-程序汪-肉鸽小游戏二期]] — 程序汪分享的街机H5肉鸽小游戏二期项目案例（4万/20天/2人/Cocos Creator）
+
+- [[摘要-skywalking-java-agent-使用]] — SkyWalking Java Agent 安装配置与 Web 界面详解
+- [[摘要-druid-连接池极致优化]] — Druid 连接池极致优化策略（参数调优/监控/安全/泄漏检测）
+- [[摘要-springboot-onlyoffice-在线编辑]] — Spring Boot 集成 OnlyOffice 实现在线 Word 编辑
+- [[摘要-mattpocock-skills]] — Matt Pocock 的 AI 编码 skill 集合设计哲学：把 skill 当纪律，不当框架
+- [[摘要-superpowers-grill-me怎么选]] — grill-me（编码前需求澄清）与 superpowers（编码中方法论）的定位对比与组合工作流
+- [[摘要-springboot4-模块化架构]] — Spring Boot 4 模块化架构，将单体自动配置包拆分为独立模块
+- [[摘要-spring-boot-4-0-removes-undertow]] — Spring Boot 4.0 因 Servlet 6.1 不兼容移除 Undertow 支持的原因与迁移方案
+- [[摘要-agentbro-skill-management]] — AgentBro 多 Agent Skill 治理工具，中心库唯一事实源 + 技能包开关 + 扫描接管存量 + 远程管理完整闭环
+
+- [[摘要-写好提示词的三大原则]] — 高质量提示词三大原则：简洁、框架、迭代
+- [[摘要-前端转全栈-36行规则]] — 前端用 36 行规则文件约束 AI，成功交付 Java 后端模块
+- [[摘要-Docker部署Keycloak]] — Docker 部署 Keycloak 企业级身份认证平台完整指南
+- [[摘要-HermesAgent-0基础教程]] — 秋芝2046 的 Hermes Agent 零基础新手教程
+- [[摘要-spring-boot-json-security]] — Spring Boot 中 JSON 库安全性排行与选型推荐
+- [[摘要-book-to-skill]] — book-to-skill 把整本书「预编译」成按需加载的结构化 Skill
+- [[摘要-deepseek-v4-flash发布]] — DeepSeek V4-Flash 正式版仅重训后训练即以下克上，Agent 能力反超 Pro 预览
+- [[摘要-embabel]] — Spring 之父 Rod Johnson 发布企业 AI Agent 框架 Embabel，GOAP 确定性规划
+- [[摘要-okf]] — Google OKF 知识标准：Agent 时代的知识格式与可信度治理
+- [[摘要-mcp-v5-openclaw-net]] — MCP 第五版无状态化与 OpenClaw.NET 的 MCP 生态编排层
+- [[摘要-推荐5个AI-Agent项目]] — 苏三推荐的 5 个 Java 技术栈 AI Agent 实战项目（RAG/KAG/Function Calling/MCP）
+- [[摘要-一线大厂Git规范]] — 大厂 Git 规范全景：三种分支模型、Conventional Commits、Commitlint+Husky、Tag 管理
+- [[摘要-用好Agent四招]] — 秋芝2046 的 Agent 四类任务分类法（检查/梳理/执行/观察），以 DuMate 为例落地
+- [[摘要-opencode-架构演进剖析]] — OpenCode 2.0 渐进式重构（v1.17→v1.18）：插件 API、Skill 系统、Desktop v1→v2
+- [[摘要-deepseek-harness内测]] — DeepSeek Harness 内测与 Agent 工程化面试题深度解析
+- [[摘要-携程二面-熔断]] — 携程面试题：熔断机制、三态状态机、Sentinel/Hystrix/Resilience4j 对比与雪崩效应
+- [[摘要-为什么Skill才是未来的资产]] — Agent（执行系统）/Skill（专业知识层）/Prompt（一次性指令）三角色定位，Skill 才是未来可增值的资产
+- [[摘要-通用万能Prompt模板]] — 基于定角色/明任务/给素材三大原则的 4 种场景通用 Prompt 模板
+- [[摘要-提示词三大原则-定角色明任务给素材]] — 高质量 Prompt 结构化三大原则：定角色、明任务、给素材
+- [[摘要-java-boolean-is-naming-pitfall]] — Java 布尔属性 is 命名序列化大坑：DBA 规范与 JavaBean 规范冲突
+- [[摘要-java-boolean-is-serialization-pitfall]] — Java 布尔类型 is 命名导致序列化字段丢失 is 前缀的陷阱
+- [[摘要-pi-agent-core-principles]] — pi-agent 智能体核心原理：Agent = 大模型 + 工具集 + 执行循环
+- [[摘要-pi-agent-production-guide]] — pi-agent 从 Demo 到生产落地三大核心难题与解决方案
+- [[摘要-高并发短链接系统设计]] - 高并发短链接系统设计面试题：发号器+Base62、读多写少缓存架构、301/302 重定向
+- [[摘要-为什么越来越多人使用Flowable]] — Flowable 开源 Java 工作流引擎深度解析，对比 Activiti/Camunda/jBPM
+- [[摘要-微服务架构-进程间通信]] — 《微服务架构设计模式》第三章：IPC 同步 RPC 与异步消息、API 治理、事务性发件箱
+- [[摘要-langchain-rag构建知识库-理论]] — LangChain RAG 构建知识库理论篇：Loader/Splitter/Embeddings/VectorStore/Retriever 五件套，MinerU 解析 PDF
+- [[摘要-千万级大表新增字段方案]] — 千万级 MySQL 大表新增字段 6 种方案对比（Online DDL/停机/PT-OSC/双写/gh-ost/分区滑动窗口）
+- [[摘要-企业智能招聘系统]] — 苏三企业级 AI 智能招聘系统（7微服务+11AI Agent+AgentScope 2.0 多智能体编排+Spring Boot 4.1+Java 25 虚拟线程）
+- [[摘要-阿里开源qianwen-ai-skill项目]] — 阿里开源 qianwen-ai Agent 原生多模态 Skill 项目，8 技能一行命令接入 Claude Code
+- [[摘要-优雅使用Enum提升SpringBoot配置管理效率]] — Spring Boot 中 Enum + @ConfigurationProperties 实现类型安全的配置管理实战
+- [[摘要-人类智力基线与2张显卡]] — 2× RTX 5090 + Qwen3.8-27B + DeepSeek Harness = 完全本地、完全私有、完全免费的 AI Agent 工作站
+- [[摘要-冷备暖备热备]] — 面试视角拆解冷备/暖备/热备：备机状态/数据同步/RTO/RPO/成本五维对比与选型
+- [[摘要-为什么越来越多人用kkFileView]] — kkFileView 文件在线预览方案解析：SpringBoot+LibreOffice+100+格式+Docker 部署
+- [[摘要-deepseek-harness命令大全]] — DeepSeek Harness 的 dsh 命令完整速查：profile/插件/配置/参数顺序铁律
+- [[摘要-为什么越来越多人用FastMCP]] — FastMCP 占 MCP 服务器 70% 份额，Python 装饰器封装 MCP 协议，从原型到生产全覆盖
+- [[摘要-AMH-ams3-s3cmd报错]] — AMH ams3 + s3cmd 2.2.0 在 Python 3.13 报错排查记录
+- [[摘要-用户态内核态切换]] — 用户态/内核态面试题：Ring 0/Ring 3 特权级、三种切换方式、切换成本与减少系统调用实践
+- [[摘要-秒杀系统防刷分层体系]] — 秒杀防刷七层分层体系：目标"让黄牛这一单不赚钱"，反直觉的是技术含量最低的几层效果最好
+- [[摘要-deepseek-harness必装10个插件-程序汪]] — 程序汪盘点 DeepSeek Harness 必装 10 插件（ModLens/web-ui/better-sidebar/TUI/desktop/at-file/agent-teams/plan-execute/context-doctor/reverse-skill）
+- [[摘要-workbuddy保姆级入门教程-苏三]] — 苏三撰写的 WorkBuddy 国产桌面 AI 应用保姆级入门教程（安装/设置/实战/进阶四步）
+- [[摘要-大厂争相开源harness背后的商业阳谋]] — OpenAI/DeepSeek 开源 Harness，AI 竞争从模型层转向框架层
+- [[摘要-对抗ai讨好型人格的双向钢人论证]] — 钢人论证对抗 AI 谄媚偏差（Sycophancy），双向对称对抗迫使模型中立
+- [[摘要-手把手搭建ai报价工作台]] — 用 AI 搭建无代码产品报价工作台，替代手工查表算价
+- [[摘要-deepseek多模态模型上线]] — DeepSeek-V4-Flash-Vision-Exp 多模态模型上线，补齐视觉短板
+- [[摘要-chatgpt青少年版的产品难题]] — ChatGPT for Teens 年龄验证与策略路由的产品难题
+- [[摘要-宠物照护agent的记忆设计]] — AI Agent 分层记忆模型设计，宠物照护场景的短期/长期/情景记忆
+- [[摘要-ai视频工具出海潮]] — 腾讯/字节/来画 AI 视频工具出海竞争（OiiOii/小云雀/OnSolo）
+- [[摘要-劝退客户做知识库的案例]] — FDE 需求诊断，20万份文档知识库项目劝退案例
+- [[摘要-可回滚的数据清洗规则]] — AI 项目数据清洗规则应版本化、可回滚、可审计
+- [[摘要-langchain实现naiverag]] — LangChain + ChromaDB 实现 NaiveRAG 朴素向量检索生成教程
+- [[摘要-阿里开源agent项目]] — 阿里开源 Open Code Review Agent 项目，自动化代码审查
+- [[摘要-复杂agent的四大体系]] — 复杂 Agent 的执行/反馈/协作/记忆四大体系设计
+- [[摘要-动物医院的rag落地路径]] — RAG 在动物医院的落地路径，垂直场景的知识工程
+- [[摘要-对话claude-code之父boris-cherny]] — Boris Cherny YC 对谈：Product Overhang、Unhobbling、删除80% System Prompt
+- [[摘要-代码能力争夺的本质]] — 前沿大模型拼代码的本质是争夺自动化研发能力和下一代模型创造权
+- [[摘要-socks5代理认证兼容性问题]] — SOCKS5 代理在 requests 可用但 aiohttp/httpx 报 407 的兼容性问题
+- [[摘要-ai时代的cms设计]] — AI 时代 CMS 设计：内容身份、版本、审核与数据回流（AI短剧+教育）
+- [[摘要-agent产品的执行责任表]] — DeepSeek Harness 执行责任表：审批设计、权限策略、可追溯性
+- [[摘要-codex-windows沙箱机制]] — Codex Windows 平台 elevated sandbox 机制：write-restricted token + 防火墙
+- [[摘要-拼多多二面-es-vs-mysql]] — 拼多多二面视角：ES 倒排索引 vs MySQL B+Tree，MySQL 主存储 + ES 搜索引擎双库架构
+- [[摘要-鹅厂员工-workbuddy-agent面试题]] — 腾讯 WorkBuddy 月活破千万、迭代 40+ 版本，附 10 道硬核 Agent 面试题（重试/快照/异步/多模态RAG/召回率/LoRA/IVF/游戏NPC/AI Coding选型）
+- [[摘要-langchain-langgraph-llamaindex对比]] — 苏三详解 LangChain/ LangGraph/ LlamaIndex 三框架核心定位差异：零件箱/流水线图纸/数据仓库管理员，最佳组合实践
+- [[摘要-glm-5.3-flash智谱新模型]] — 智谱 GLM-5.3-Flash：321B 参数、混合注意力+IndexPool、10万+国产芯片集群、原生多模态、Opus 4.8 能力 1/40 价格
+- [[摘要-ai时代非ai研发者关系定位]] — 非 AI 研发者应将 AI 定位为工具/协同者而非引领者，人主导思想 AI 辅助完成，警惕幻觉与泡沫
+- [[摘要-ubuntu-hf转gguf全流程指南]] — lyshark 纯 CPU 环境下 llama.cpp 实战：HF 转 GGUF 格式封装、Q4_K_M 量化、Swap 配置、ModelScope 下载全流程
+- [[摘要-llm后训练算法-ppo详解]] — bradinz 系统推导 PPO 在 LLM 后训练中的原理：Policy Gradient→GAE→Actor-Critic→重要性采样→PPO-Clip→GRPO 简化
+- [[摘要-claude-code-hooks-防危险命令]] — 程序汪基于官方文档的 Claude Code Hooks 实战教程：生命周期事件、五类 handler、三个最小示例、排查清单
+- [[摘要-DeepSeek-Harness任务管理方法]] — DeepSeek Harness 引出的 AI 任务管理六阶段闭环（入池/分级/排队/执行/验收/复盘）与峰谷定价
+- [[摘要-留学生旅行Agent产品构思]] — 留学生旅行 Agent 产品构思：从"找到搭子"到"按约成行"的陌生人协作意向转化
+- [[摘要-产品经理如何搭建CMS]] — 从一条内容流转切入的 CMS 搭建：内容模型/权限设计/版本管理/流转路径
+- [[摘要-大厂补harness-agent从模型转向运行时]] — Agent 竞争从模型转向运行时，Anthropic/OpenAI/DeepSeek/Pi 四家 Harness 路线对比
+- [[摘要-AGENTS.md只该管边界]] — AGENTS.md 应只管"边界"，保留协作习惯/目标驱动/真实性验证/安全边界四类内容
+- [[摘要-HiPaw-MVP收敛复盘]] — HiPaw 动物医疗 AI 复盘：Vibe Coding 放大"完整产品幻觉"，MVP 越来越难收敛
+- [[摘要-Anthropic-AI-Native-SDLC手册]] — Anthropic《AI-Native SDLC Playbook》拆解：intent.md 产物链 + 审查前置
+- [[摘要-AI编码Agent从原理到可运行代码]] — AI 编码 Agent 原理（ReAct/五件套/上下文工程/Function Calling/CodeAct）与生产级架构分层
+- [[摘要-es-data-types-mysql-mapping]] — ES 数据类型与 MySQL 映射关系详解（text/keyword/scaled_float/动态映射等）
+- [[摘要-git中的8个坑]] — Git 8 个常见操作陷阱（reset hard/合并冲突/stash pop/push force 等）及正确解法
+- [[摘要-qwen38-flash架构深度分析]] — Qwen3.8-Flash 发布：Next 架构（125B/6B 激活）训练成本降 90%，开源策略抢占生态
+- [[摘要-大模型越强产品经理越要把边界写进流程]] — AI 产品设计方法论：能力边界/幻觉控制/长上下文/Memory 治理/Agent Loop/评测闭环/发布门槛
+- [[摘要-财务数字化三层架构]] — 财务数字化三层架构（业财一体化→财务共享→报表合并）的依赖关系与 SAP 实现
+
+## Concepts (2026-08-26 新增)
+- [[ZeroSumThinking]] — 零和思维：财富总量固定 vs 正和思维：财富可被创造
+- [[ValueCreationVsCapture]] — 价值创造（带来好处）vs 价值捕获（拿到份额），健康模式是创造远大于捕获
+- [[TokenEfficiency]] — Token 效：业务数据÷(人工+AI投入)，AI 时代人效衡量指标
+- [[AgenticOrganization]] — 智能体组织：拆墙组经营单元，AI 作为资源按投产比配置
+- [[VideoGeneration]] — AI 视频生成技术，2026-08 赛道竞争激烈，市场 2030 年预计 290 亿美元
+- [[10xBetter]] — 好 10 倍原则：创造新市场而非瓜分旧市场
+- [[InvertedIndex]] — 倒排索引：词→文档的空间换时间数据结构，全文检索引擎核心
+- [[BPlusTree]] — B+Tree：MySQL 索引底层结构，O(log n) 等值/范围查询快但模糊搜索失效
+- [[NearRealTime]] — 近实时（NRT）：ES 写入默认 1s 延迟可搜索，对比 MySQL 事务实时可见
+- [[DynamicImplementationSwitching]] — 动态切换实现类：运行时按配置点路由接口实现，配置即时生效无需重启
+- [[TypeHandler]] — MyBatis 类型处理器，负责 Java 类型与 JDBC 类型双向转换，Jackson 3 对应 Jackson3TypeHandler
+- [[autoResultMap]] — MyBatis-Plus @TableName 属性，设为 true 自动应用 ResultMap 使 TypeHandler 正确反序列化
+
+## Syntheses
+- [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
+- [[openspec-working-principle]] — OpenSpec 工作原理综合分析：四阶段循环×四份 DAG 工件×Delta Spec 增量×31 平台分发
+- [[heavy-project-impact-analysis-and-planning]] — 重型项目两大痛点：变更影响分析（CodeGraph）+ 新需求规划（GSD Core）的工具组合方案
+- [[optimal-framework-combination-heavy-project]] — 重型项目最优框架组合：OpenSpec + CodeGraph + Matt Pocock Skills（用户反馈 GSD Core 不满意后的最终结论，含日志收集场景实操）
+- [[openspec-codegraph-usage-guide]] — OpenSpec 和 CodeGraph 完整使用指南（安装、命令、棕地补录、bug修复、MCP接入、配合工作流）
+- [[heavy-project-framework-selection-conversation]] — 重型项目 AI 编程框架选型完整对话记录与最终方案（从初始需求到最终选型的全过程归纳）
+- [[agent-spec-framework-comparison-and-matt-skills-workflow]] — Agent 规范驱动框架全景对比（OpenSpec/Superpowers/SpecKit/GSD/Trellis/SpecSuperflow）+ Matt Pocock Skills 介绍 + 现有 Java 后端中型功能 7 步实战流程
+- [[openspec-matt-skills-execution-workflow]] — OpenSpec + Matt Pocock Skills 配合执行详解：执行 vs 执行纪律的区别 / 安装 / apply 与 tdd 三种配合方式 / 叫停机制 / 棕地补录 / 归档后变更
 
 ## Entities
+- [[OxAlpha]] — 免费预览大模型，1M Token 上下文，支持文本/图片/视频输入，为 Coding 和长周期 Agent 任务优化
+- [[OpenRouter]] — 大模型聚合路由平台，统一 API 访问数百个模型，Ox Alpha 接入入口之一
+- [[FastMCP]] — MCP 生态事实标准 Python 框架，占 70% MCP 服务器份额，装饰器封装协议底层
+- [[PrefectHorizon]] — FastMCP 企业级 MCP 网关，SSO/RBAC/审计/可观测性
+- [[AMH]] — 国内 Linux 服务器运维管理面板，ams3 为 S3 备份模块
+- [[s3cmd]] — 基于 Python 的 S3 兼容对象存储命令行工具
+- [[RuoYi-Vue-Plus]] — 若依增强版开源脚手架，多租户/数据权限/SaaS，Java 二开常用基座
+- [[RuoYiAI]] — 若依扩展的开源全栈 AI 平台，Spring Boot 3.4 + Spring AI + Langchain4j
+- [[AionUi]] — iOfficeAI 开源多 Agent 桌面应用，统一 UI 整合 OpenClaw/Claude Code/Codex 等 CLI
+- [[EvoX]] — EvoMap 蜂群模式 Agent 工具，多模型热切与联网自进化
+- [[Drools]] — 开源业务规则引擎（BRMS），基于 ReteOO/PHREAK，与 jBPM 同属 KIE
+- [[Shiro]] — Apache Java 安全框架，认证/授权/会话/加密，轻量对标 Spring Security
+- [[Zeebe]] — Camunda 8 分布式流程引擎，事件溯源+日志复制，云原生高吞吐
+- [[Remotion]] — 用 React+TS 代码化生成视频的开源框架，组件即帧
+- [[HyperFrames]] — 代码化视频生成框架，与 Remotion 同类
+- [[苏三]] — 微信公众号「苏三说技术」作者，Java 后端与 AI 工程实战分享
+- [[Trellis]] — 跨平台的 AI 编码项目级工作流框架
+- [[胖虎]] — 微信公众号「胖虎 Java专栏」作者，从面试角度剖析 Java 后端工程本质
+- [[敲代码的小虾米]] — 抖音 Vibe Coding 实战教学创作者，强调先立规矩再让 AI 写代码
+- [[HermesAgent]] — Nous Research 开源的自我进化 AI Agent，闭环学习循环
+- [[NousResearch]] — Hermes Agent 与 Hermes 系列模型的缔造者
+- [[PostgreSQL]] — 开源关系型数据库，国产数据库技术底座
+- [[TDSQL]] — 腾讯云基于 PostgreSQL 的分布式数据库
+- [[PolarDB]] — 阿里云基于 PostgreSQL 的云原生数据库
+- [[GaussDB]] — 华为云基于 openGauss 的 HTAP 数据库
+- [[openHalo]] — 杭州易景数通开源数据库
+- [[TimescaleDB]] — PostgreSQL 时序数据库扩展
+- [[Citus]] — PostgreSQL 分布式扩展
+- [[PgAdmin]] — PostgreSQL 管理工具
+- [[AndrejKarpathy]] — OpenAI 联合创始人，"vibe coding" 一词发明人
+- [[PeterSteinberger]] — "龙虾之父"，OpenClaw 创始人，月烧 940 万 token
+- [[SimonWillison]] — Django 联合创始人，提出 Vibe Engineering 概念
+- [[RomainHuet]] — OpenAI 开发者体验负责人
+- [[AaronFriel]] — OpenAI 工程师，演示 7 小时 500 行 Codex 任务
+- [[CSDN]] — 中国最大开发者社区
+- [[Greptile]] — 开发者工具公司
 - [[Codex]] — OpenAI 桌面端 AI Agent
+- [[Kaku]] — 基于 WezTerm 的 AI 终端，支持 Claude Code + Codex 双面板
 - [[ClaudeCode]] — Anthropic 终端 AI Agent
+- [[LangChain]] — Python LLM 应用开发框架，LangChain4j/LangGraph 的灵感源头
 - [[LangChain4j]] — Java LLM 应用框架
 - [[OpenAI]] — AI 研究公司（Codex/ChatGPT）
 - [[Anthropic]] — AI 安全公司（Claude Code/Claude）
+- [[Thariq]] — Anthropic 工程师，分享 Skills 使用经验
 - [[SpringBoot]] — Spring 自动配置框架
 - [[Docker]] — 应用容器引擎
 - [[Git]] — 分布式版本控制系统
 - [[Java]] — 面向对象编程语言
 - [[Nginx]] — 高性能 Web 服务器
+- [[NginxPulse]] — 轻量级 Nginx 日志分析面板，Go+Vue3+SQLite，实时 PV/UV 与 IP 归属地分析
 - [[Redis]] — 内存数据结构存储
 - [[MySQL]] — 关系型数据库
 - [[Oracle]] — 企业级关系型数据库
 - [[RocketMQ]] — 分布式消息中间件
 - [[MyBatisPlus]] — MyBatis 增强工具
 - [[Linux]] — 开源操作系统
+- [[Let's Encrypt]] — 免费自动化 SSL/TLS 证书颁发机构
 - [[Spring]] — Java 企业级应用框架
 - [[IntelliJIDEA]] — Java 集成开发环境
 - [[Elasticsearch]] — 分布式全文检索引擎
@@ -113,10 +443,12 @@
 - [[Solr]] — 基于 Lucene 的搜索服务器
 - [[RuoYi]] — 若依快速开发框架
 - [[Nacos]] — 服务注册与配置中心
+- [[Eureka]] — Spring Cloud Netflix 注册中心（2.x 已停止维护）
 - [[JavaScript]] — Web 编程语言
 - [[Qoder]] — AI 编码工具
 - [[PaiAgent]] — AI Agent 平台
 - [[JVM]] — Java 虚拟机
+- [[JeecgBoot]] — 基于 Spring Boot + MyBatis-Plus 的低代码开发平台
 - [[SpringSecurity]] — 认证授权安全框架
 - [[SpringMVC]] — Web MVC 框架
 - [[AOP]] — 面向切面编程
@@ -124,29 +456,1320 @@
 - [[Promise]] — JavaScript 异步编程模式
 - [[DeepSeek]] — AI 模型系列与公司
 - [[DeepSeekTUI]] — 基于 DeepSeek V4 的开源终端编程智能体
-- [[message-queue]] — 消息队列核心概念
+- [[RobbyRussell]] — oh-my-zsh 创建者，oh-my-* 命名风格的开创者，自称"curator"
 - [[Ripgrep]] — Rust 高性能搜索工具（Claude Code Grep 底层）
 - [[Cursor]] — AI 代码编辑器（混合检索）
 - [[BorisCherny]] — Anthropic 首席工程师
-- [[AgenticSearch]] — Agent 动态搜索范式（Glob+Grep+Read）
 - [[JWT]] — JSON Web Token 认证机制
 - [[Vue3]] — 渐进式 JavaScript 前端框架
 - [[Pinia]] — Vue 状态管理库
 - [[Axios]] — HTTP 客户端库
 - [[ElementPlus]] — Vue 3 企业级 UI 组件库
+- [[dr-jskill]] — JHipster 作者出品的企业级项目脚手架技能
+- [[agent-skill-java-spring-framework]] — Spring 最新规范约束技能
+- [[sivalabs-agent-skills]] — 企业级业务技能封装库
+- [[spring-testing-skills]] — Spring AI 官方社区测试技能库
+- [[Jenkins]] — CI/CD 自动化服务器
+- [[GitLab]] — Git 代码托管与 CI/CD 平台
+- [[Maven]] — Java 项目构建与依赖管理工具
+- [[SpringAI]] — Spring 官方 AI 应用开发框架
+- [[Ollama]] — 本地 LLM 部署工具
+- [[Nexus]] — Maven 私服仓库管理器
+- [[Mycat]] — MySQL 分布式数据库中间件
+- [[Canal]] — MySQL binlog 增量数据同步工具
+- [[CherryStudio]] — 桌面端 AI 工具（知识库构建）
+- [[BookKeeper]] — Apache 分布式预写日志存储系统
+- [[Kafka]] — Apache 分布式消息队列
+- [[Keycloak]] — Red Hat 企业级身份认证和访问管理平台
+- [[Pulsar]] — Apache 云原生消息队列
+- [[RabbitMQ]] — AMQP 消息代理
+- [[ActiveMQ]] — Apache JMS 消息中间件（已边缘化）
+- [[ShardingSphere]] — 分布式数据库中间件
+- [[BeanFactory]] — Spring 工厂模式的核心实现
+- [[ApplicationContext]] — Spring 工厂模式的高级实现
+- [[JdbcTemplate]] — 模板方法模式的典型应用
+- [[ApplicationEvent]] — 观察者模式的实现基础
+- [[HandlerAdapter]] — 适配器模式在Spring MVC中的应用
+- [[Resource]] — 策略模式的资源加载接口
+- [[Filter]] — Servlet 规范中的责任链实现
+- [[Interceptor]] — Spring MVC 中的责任链实现
+- [[BeanWrapper]] — 装饰器模式在Spring中的应用
+- [[HttpRequestDecorator]] — 装饰器模式在HTTP请求中的应用
+- [[DefaultSingletonBeanRegistry]] — Spring单例模式实现核心类
+- [[DispatcherServlet]] — Spring MVC前端控制器
+- [[GitHub]] — 全球最大代码托管平台
+- [[Gitee]] — 国内代码托管平台（码云）
+- [[DockerDesktop]] — Docker 桌面端容器运行环境
+- [[Ubuntu]] — 基于 Debian 的 Linux 发行版
+- [[URule]] — 纯浏览器可视化规则引擎，Java 平台
+- [[Lovart]] — LiblibAI 推出的 AI 设计智能体产品
+- [[MiMoCode]] — 小米基于 OpenCode 构建的 AI 编程 Agent 工具
+- [[Xiaomi]] — 中国消费电子与科技公司
+- [[Godot4]] — 开源跨平台游戏引擎
+- [[Web-access]] — Codex 浏览器控制 Skill
+- [[Agent-Reach]] — Codex 社交媒体内容读取 Skill
+- [[HumanizerZh]] — Codex 去 AI 味 Skill
+- [[GitNexus]] — Codex 代码知识图谱 Skill
+- [[RenPy]] — 开源视觉小说/文字冒险游戏引擎
+- [[OpenClaw]] — 开源 AI Agent 项目（小龙虾）
+- [[WorkBuddy]] — OpenClaw 一站式部署平台
+- [[QoderWork]] — 阿里 OpenClaw 部署平台
+- [[QClaw]] — 微信接入 OpenClaw 平台
+- [[ClawBot]] — 腾讯官方微信 ClawBot 插件
+- [[GPT-image-2]] — OpenAI 最新 AI 绘画模型
+- [[OmnoBox]] — 开源爬虫管理工具
+- [[OpenSpec]] — 规范驱动 AI 编程框架，核心思想"先对齐需求，再写代码"
+- [[CentOS]] — 基于 RHEL 的 Linux 发行版
+- [[Tomcat]] — Apache Servlet 容器
+- [[VMware]] — 虚拟化软件
+- [[Windows]] — 微软桌面操作系统
+- [[Hyper-V]] — 微软硬件虚拟化技术
+- [[WSL2]] — Windows Subsystem for Linux 2
+- [[MyBatis]] — 半自动 ORM 持久层框架
+- [[PageHelper]] — MyBatis 物理分页插件
+- [[Lombok]] — Java 编译时注解处理器
+- [[Hikari]] — 高性能数据库连接池（Spring Boot 默认）
+- [[Druid]] — 阿里巴巴开源数据库连接池
+- [[Jackson]] — Java JSON 处理库（Spring Boot 默认）
+- [[FastJson]] — 阿里巴巴 JSON 处理库（1.x 版，建议退出）
+- [[FastJson2]] — 阿里巴巴新一代 JSON 处理库
+- [[Gson]] — Google 开源 Java JSON 处理库
+- [[JSON-B]] — Jakarta EE 标准 JSON 绑定方案
+- [[Hutool]] — Java 工具类库
+- [[SpringCloudGateway]] — Spring Cloud API 网关
+- [[Sentinel]] — 阿里巴巴流量治理组件
+- [[Hystrix]] — Netflix 开源的熔断框架（已停止维护，滑动窗口桶统计）
+- [[Resilience4j]] — 轻量函数式熔断降级框架，Hystrix 推荐替代品
+- [[Redisson]] — Redis 分布式锁客户端
+- [[RedisTemplate]] — Spring Redis 操作模板
+- [[SpringDataRedis]] — Spring Data Redis 集成
+- [[Jedis]] — Redis Java 客户端
+- [[FreeMarker]] — Java 模板引擎
+- [[CompletableFuture]] — Java 8 异步编程工具
+- [[JHipster]] — 全栈应用生成器
+- [[SpringTesting]] — Spring 测试支持模块
+
+- [[PaiCLI]] — 基于 Codex 开发的 CLI 命令行项目，AI 编程实战案例
+- [[OpenCode]] — 开源 AI 编程助手，支持事件驱动 Hook 系统和 SubAgent
+- [[ECC]] — ECC 增强框架，为 Claude Code 和 OpenCode 提供 47+ Agent
+- [[MinIO]] — S3 兼容的高性能开源对象存储系统
+- [[SpringAI_Alibaba]] — 阿里多智能体编排框架，独立项目
+- [[SolonAI]] — 全场景轻量级 Java AI 框架，纯 JDK 运行
+- [[JBoltAI]] — 面向企业的 Java AI 应用开发框架
+- [[AgentScope_Java]] — 阿里通义实验室生产级智能体运行平台
+- [[DashScope]] — 阿里云通义大模型 API 平台
+- [[Chroma]] — 开源向量数据库，RAG 架构常用向量存储
+- [[LoRA]] — 参数高效微调方法（Low-Rank Adaptation）
+- [[Gemini]] — Google 大模型系列，1M+ Token 超长上下文
+- [[poetry_dataset]] — 开源诗词训练数据集与 Mac 本地 LoRA 微调工具集（MLX + Qwen2.5）
+- [[shi-ci.cn]] — 配套诗词资源站（无广告、数十万诗词、支持平仄标注与标准化文本导出）
+- [[Servlet]] — Java EE/Jakarta EE 服务器端组件规范
+- [[PatternsDev]] — 58 个前端设计模式 Skills 维护团队
+- [[VercelLabs]] — Vercel 前端 Skills 发布者
+- [[RestClient]] — Spring 6.1+ 现代HTTP客户端
+- [[OpenFeign]] — 声明式 HTTP 客户端
+- [[Prometheus]] — 开源监控系统
+- [[Flink]] — Apache 流处理计算框架，支持 Flink CDC 实时数据同步
+- [[Logstash]] — Elastic Stack 数据收集引擎，支持定时拉取 MySQL 数据到 ES
+- [[Grafana]] — 开源可视化平台
+- [[claude-code-setup]] — Anthropic 官方 Claude Code 一键自动化配置插件
+- [[claude-automation-recommender]] — claude-code-setup 背后的项目扫描与推荐 Skill
+- [[claude-plugins-official]] — Anthropic 官方 Claude Code 插件应用商店
+- [[claude-code-best-practice]] — GitHub 57k+ Star 的 Claude Code 最佳实践开源仓库
+- [[Superpowers]] — Jesse Vincent 打造的 AI 编程 Skill 框架，强制工程纪律
+- [[SpecKit]] — GitHub 官方规范驱动开发工具包，七阶段流水线
+- [[Mermaid]] — Markdown 原生集成的文本绘图语言
+- [[PlantUML]] — 强 UML 与时序图表现力的文本绘图语言
+- [[Graphviz]] — DOT 语言的老牌复杂图布局工具
+- [[draw-io]] — 开源流程图工具，支持 AI 生成 XML 导入
+- [[ObsidianCanvas]] — Obsidian 无限画布，多文档关系图与思维导图
+- [[SVG]] — 可缩放矢量图，AI 画架构图首选载体
+- [[FastAPI]] — Python 高性能 Web 框架，基于 ASGI/Pydantic，80K+ Star
+- [[Pydantic]] — Python 数据校验库，FastAPI 数据验证引擎
+- [[Uvicorn]] — Python ASGI 服务器（uvloop + httptools）
+- [[shadcn_ui]] — 新一代 UI 库，开放代码、源码级可控、AI 友好
+- [[JxBrowser]] — Chromium 内核 Java Web 视图组件
+- [[Neo4j]] — 基于图论的 NoSQL 图数据库，知识图谱存储
+- [[Kimi]] — 月之暗面国产大模型，2026-06 实战中规中矩
+- [[MiniMax]] — MiniMax M3 长上下文/逻辑严谨/办公场景领先
+- [[GLM]] — 智谱 AI GLM 5.2，Coding Plan 抢手
+- [[Reader]] — Java 字符输入流抽象基类
+- [[FilterReader]] — Java 字符流装饰器基类
+- [[PushbackReader]] — 支持字符回退的 Java 字符流装饰器
+- [[Casebook]] — 面向 AI Agent 的测试用例工程化工作台
+- [[LangGraph]] — LangChain 团队推出的 Python AI Agent 编排框架
+- [[LangGraph4j]] — Java 有状态多 Agent 工作流图式编排框架
+- [[Step3Flash]] — 面向高频多轮 Agent 执行场景的 Flash 档模型
+- [[Qwen]] — 阿里通义千问大模型系列
+- [[EasyRules]] — j-easy 开源的轻量级 Java 规则引擎（POJO/注解，JAR 约 100KB）
+- [[MartinFowler]] — 软件架构师，规则引擎朴素定义的提出者
+- [[沉默王二]] — 微信公众号「沉默王二」作者，Claude Code 底层技术深度分析
+- [[Obsidian]] — 基于本地 Markdown 文件的笔记软件，双向链接知识图谱
+- [[Xuan_酱]] — B站 UP 主，Codex + Obsidian 自生长知识库教程创作者
+- [[冰河]] — 微信公众号「冰河技术」作者，Java 后端与 AI 大模型实战教学
+- [[小锋]] — 微信公众号「java1234」作者，Java 与构建工具实践分享
+- [[Coze]] — 字节跳动零代码 AI Agent 搭建平台
+- [[Dify]] — 开源 LLMOps 平台，可视化搭建知识库和 Agent
+- [[Transformer]] — Google 2017 年提出的 AI 架构，自注意力机制实现全局并行化
+- [[Google]] — 全球最大搜索引擎公司，Transformer 论文发布者
+- [[Sora]] — OpenAI 基于 Transformer 的视频生成模型
+- [[AlphaFold2]] — 基于 Transformer 的蛋白质结构预测模型
+- [[FigureAI]] — 具身智能机器人公司，分层 Transformer 架构
+- [[Tesla]] — 电动车与自动驾驶公司，FSD 基于 Transformer 端到端架构
+- [[LlamaFactory]] — 一站式大模型微调框架
+- [[Zuul]] — Netflix 开源的 API 网关，同步阻塞模型，已被 Spring Cloud Gateway 替代
+- [[程序汪]] — 微信公众号「我是程序汪」作者，分享私活项目和真实商业案例
+- [[CocosCreator]] — 开源跨平台H5游戏引擎，Cocos Creator 3.x系列
+- [[Netty]] — Java高性能异步事件驱动网络通信框架
+
+- [[ds-ui]] — Canvas 专业 GUI 框架，对象式控件模型
+- [[Dyad]] — 开源本地 AI 全栈应用构建器（21k Star）
+- [[Supabase]] — 开源 Firebase 替代，BaaS 平台
+- [[LM_Studio]] — 本地 LLM 运行工具
+- [[Jeandle]] — 蚂蚁集团开源的基于 LLVM 的 JVM JIT 编译器
+- [[蚂蚁集团]] — 蚂蚁集团（Ant Group），Java 开源贡献者
+- [[小哈]] — 微信公众号「小哈学Java」作者
+- [[得物]] — 潮流电商平台
+- [[Seata]] — 阿里巴巴开源分布式事务框架
+- [[UniApp]] — 跨平台前端框架，基于 Vue 语法，支持小程序/H5/App 多端部署
+- [[PowerJob]] — 企业级分布式任务调度平台，无锁化设计，支持 DAG 工作流
+- [[Harness]] — Model + Harness = Agent 核心概念
+- [[XXL-JOB]] — 大众点评开源的分布式任务调度平台，基于数据库锁
+- [[Quartz]] — Java 定时任务框架，基于数据库锁，无分布式任务治理
+- [[GraalVM]] — Oracle 多语言运行时，支持 AOT 原生镜像编译
+- [[HotSpot]] — Oracle 主流 JVM 实现，支持 JIT 编译（C1/C2 编译器）
+- [[MapStruct]] — Java 对象映射代码生成库，编译时自动生成 DTO 转换代码
+- [[Golang]] — Google 开发的编译型语言，内存占用极低，启动快
+- [[Rust]] — 系统编程语言，零成本抽象，内存安全
+- [[ActixWeb]] — Rust 生态高性能 Web 框架，空闲内存约 3MB
+- [[Logback]] — Spring Boot 默认日志框架，基于 SLF4J 接口实现
+- [[Log4j2]] — Apache 高性能日志框架，性能是 Logback 的两倍
+- [[SLF4J]] — Java 日志门面接口，Logback/Log4j2 的统一抽象
+- [[Ponytail]] — 开源 AI Agent 技能项目（20.9k Star），减法思维让 AI 少写废代码
+- [[GSDCore]] — 开源 AI 编码工作流项目（2.3k Star），元提示/上下文工程/规格驱动开发
+- [[Junie]] — JetBrains 出品的 AI coding agent，LLM 无关，运行于终端/IDE/CI 三通道
+- [[SpecSuperflow]] — 融合 OpenSpec 与 Superpowers 的自动化工作流 Claude Code 插件
+- [[FissionAI]] — OpenSpec 的开源方，AI-native 规划引擎缔造者
+- [[MageByte-Zero]] — SpecSuperflow 开发者
+- [[程序员追风]] — 微信公众号作者，AI 编程工作流与开源工具介绍
+- [[PageOffice]] — 卓正软件 PC 端 Word 在线处理产品，支持编辑/留痕/盖章
+- [[MobOffice]] — 卓正软件移动端在线 Office 处理产品，支持审批和盖章
+- [[ZhuozhengSoft]] — 卓正软件，在线办公与电子签章软件公司（PageOffice/MobOffice 出品方）
+- [[Sa-Token]] — 轻量级 Java 权限认证框架，学习曲线极低，核心-插件-适配器模型
+
+- [[WezTerm]] — Rust 编写的现代终端模拟器，Kaku 的底层引擎
+- [[Lazygit]] — 终端 Git 可视化操作工具，Go 语言编写
+- [[Yazi]] — Rust 编写的极速终端文件管理器
+- [[AlibabaCloud]] — 阿里云，全球领先的云计算及人工智能科技公司
+- [[阶跃星辰]] — AI 大模型公司，Step 3.7 Flash 400 Tokens/s 推理速度
+- [[marka]] — 基于 Rust+Tauri 的轻量 Markdown 编辑器，专为 AI 上下文打包设计
+- [[Tauri]] — Rust+Web 技术的桌面应用框架
+- [[CodeMirror]] — 浏览器代码编辑器组件，支持语法高亮和 Vim 模式
+- [[Shiki]] — 基于 TextMate 语法的代码高亮库，与 VS Code 一致
+- [[CodeGraph]] — 代码语义分析工具，为代码仓库构建 MCP 知识库索引
+- [[ccstatusline]] — 开源 Claude Code 状态栏工具，交互式 TUI 配置
+- [[claude-hud]] — 开源 Claude Code 状态栏插件，自然语言配置
+- [[FAISS]] — Facebook AI 开源向量相似度搜索库
+- [[FastCode]] — 港大 HKUDS 开源代码库理解框架，Scouting-First 策略
+- [[HKUDS]] — 香港大学数据科学团队，FastCode 开发者
+- [[ProcessFlowDiagramGenerator]] — CocoonAI 开源流程图生成 Skill，ArchitectureDiagramGenerator 的姐妹项目
+- [[TreeSitter]] — 高性能增量 AST 解析库，CodeGraph 底层引擎
+- [[MinerU]] — 上海 AI Lab 开源 PDF/文档解析工具，LangChain RAG 文档加载利器
+- [[Commitlint]] — commit message 规范校验工具，配合 Husky 前置拦截
+- [[Husky]] — Git 钩子管理工具，让 commitlint/其他脚本自动触发
+- [[Apache_PDFBox]] — Apache 基金会维护的 Java PDF 处理库
+- [[SpringCloudStream]] — Spring 官方事件驱动微服务抽象层，Binder 机制屏蔽消息中间件差异
+- [[SpringCloudAlibaba]] — 阿里巴巴 Spring Cloud 微服务解决方案，Nacos/Sentinel/RocketMQ/Seata 生态
+- [[Dataway]] — Hasor 生态下的零代码接口配置工具
+- [[DataQL]] — Dataway 核心脚本引擎，Data Query Language
+- [[Hasor]] — Java 框架生态，Dataway/DataQL 的父级框架
+- [[IT码徒]] — 微信公众号技术作者
+- [[秋芝2046]] — 微信公众号 AI Agent 教程创作者
+- [[DuMate]] — 百度推出的办公专用 Agent（办公搭子），内置国产 APP 插件与 Skill，长期记忆
+- [[RustFS]] — 国产 Rust 编写的高性能分布式对象存储系统
+- [[舒克无良]] — 博客园技术作者，SuperProgramming 开发流程提出者
+- [[AiStor]] — MinIO 商业化对象存储产品
+- [[SkyWalking]] — Apache 开源分布式链路追踪系统
+- [[Halo]] — 现代化个人独立博客系统，基于 Java
+- [[OnlyOffice]] — 开源免费在线 Office 文档编辑套件
+- [[OpenJDK]] — Java 平台开源参考实现
+- [[Rivet]] — 可视化 AI Agent 开发框架
+- [[Vellum]] — AI Agent 开发框架
+- [[OpenAIAgentsSDK]] — OpenAI 代码优先 Agent 开发 SDK
+- [[ArchitectureDiagramGenerator]] — Cocoon AI 开源的架构图生成 Skill
+- [[CocoonAI]] — 架构图生成 Skill 与流程图生成 Skill 的开发团队
+- [[JetBrainsMono]] — JetBrains 出品的开发者字体
+- [[Undertow]] — Red Hat 出品的嵌入式 Web 容器，Spring Boot 4.0 已移除支持
+- [[Thymeleaf]] — Spring Boot 官方推荐的现代服务端模板引擎，自然模板 + th: 指令
+- [[Jetty]] — Eclipse 基金会轻量嵌入式 Web 容器，Spring Boot 4.0 仍支持
+- [[RedHat]] — 开源解决方案提供商，Undertow 主要维护方
+- [[JakartaEE]] — 企业级 Java 平台规范集合（原名 Java EE）
+- [[RadixUI]] — 无样式 React UI 组件库
+- [[React]] — Meta 出品的 JavaScript UI 库
+- [[TailwindCSS]] — 实用优先的 CSS 框架
+- [[AgentBro]] — macOS 多 Agent Skill 治理工具，中心库唯一事实源 + 技能包开关机制 + 扫描接管 + 远程管理
+- [[AgentBroRemote]] — AgentBro 远程管理组件，SSH 隧道统一管理远程服务器 Agent
+- [[AgentBroMarket]] — AgentBro 内置技能市场，按创作者直接组成技能包
+- [[ShirenChuang]] — 程序员追风，AgentBro 作者，微信公众号作者
+- [[BookToSkill]] — 把书籍/文档「编译」成可安装结构化 Skill 的开源项目
+- [[DeepSeekHarness]] — DeepSeek 自研 Agent 评测框架，为模型提供终端/代码/工具/验证环境
+- [[崔添翼]] — DeepSeek Agent Harness 团队负责人，前 Jane Street 量化工程师
+- [[Embabel]] — Rod Johnson（Spring 之父）面向企业 AI Agent 的 JVM 框架，GOAP 确定性规划
+- [[RodJohnson]] — Spring Framework 之父，Embabel 创始人
+- [[OKF]] — Google Cloud 发布的知识格式标准，把 LLM Wiki 模式正式化
+- [[OpenWiki]] — 快速采用 OKF 的上层应用，Agent 生成并维护相互链接的 Wiki
+- [[OpenClawNET]] — OpenClaw 的 .NET 版本，MCP 第五版生态编排层
+- [[MattPocock]] — TypeScript 教育作者，17 万 star 的 AI 编码 skill 集合创建者
+- [[GrillMe]] — 编码前需求澄清 skill，像面试官一样追问设计分支直至共识
+- [[Node.js]] — 基于 V8 的 JavaScript 服务器端运行时，Claude Code/Codex 等工具的运行基础
+- [[JetBrains]] — 知名开发工具公司（IntelliJ IDEA/Junie/JetBrains Mono）
+- [[markdown-it]] — JavaScript 生态流行的 Markdown 解析渲染器
+- [[Caffeine]] - Java 高性能本地缓存库，W-TinyLFU 算法
+- [[Leaf]] - 百度开源分布式 ID 生成组件，号段+雪花双模式
+- [[Flowable]] — 开源 Java 工作流引擎，基于 Activiti 分叉，支持 BPMN/CMMN/DMN
+- [[DeepSeekHarness]] — DeepSeek 原生 Agent 框架，内测中，支持 Sub-agent/KV Cache/跨会话记忆
+- [[Activiti]] — Flowable 的前身，维护活跃度相对较低
+- [[Camunda]] — 竞品工作流引擎，Camunda 8 走云原生事件流架构
+- [[jBPM]] — 与 Drools 规则引擎集成的工作流引擎，适合复杂规则场景
+- [[京东]] — 京东（JD.com），自营电商平台，核心护城河为零售数据+仓储物流+供应链履约，正在演进为供应链智能体
+- [[JoyCoder]] — 京东 AI 编程工具，降低编码门槛但不降低质量门槛
+- [[JoyAgent]] — 京东云 AI Agent 平台，开源 JoyAgent-JDGenie，支持 ReAct 与 Plan-and-Execute
+- [[MarioZechner]] — libGDX 与 Pi 极简终端编码代理作者
+- [[libGDX]] — Java 跨平台游戏开发框架，Mario Zechner 创建
+- [[Nps]] — Go 语言内网穿透工具，Web 管理面板，支持 TCP/UDP/HTTP/HTTPS/SOCKS5
+- [[Frp]] — Go 语言高性能反向代理内网穿透工具，配置极简，GitHub 80k+ Stars
+- [[Ngrok]] — SaaS 模式内网穿透工具，一行命令暴露本地服务
+- [[EarthWorm]] — Go 语言多级代理链内网穿透工具，支持正向/反向/SOCKS5 代理
+- [[ArminRonacher]] — Flask/Sphinx/Jinja2 创建者，Pi Agent 极简编码代理设计者
+- [[Flask]] — Python 微框架，5000 行核心代码 + 扩展系统，极简主义代表作
+- [[Dubbo]] — 阿里巴巴开源高性能 Java RPC 框架，依赖 JavaBean 反射序列化
+- [[PiAgent]] — 70K Star 开源 Agent 框架，封装循环管控/上下文工程/工具调用容错等生产级能力
+- [[QianWen-AI]] — 阿里开源 Agent 原生多模态 AI 技能包，8 技能一行命令接入 Claude Code
+- [[Pi]] — Mario Zechner 创建的极简开源终端 AI 编程 Agent，系统提示词仅 200 Token，GitHub 8.6 万 Star
+- [[Composio]] — AI Agent 工具集成与基准测试平台，Pi 速度比其他 Coding Agent 快 1.5-2 倍
+- [[Databricks]] — 数据与 AI 平台公司，百万行代码仓库 Agent 测试方
+- [[SOFAStack]] — 蚂蚁集团开源金融级分布式架构，单元化部署（RZone/GZone/CZone）
+- [[MSHA]] — 阿里云异地多活商业产品，基于 SOFAStack 经验
+- [[掉落的果实]] — 技术公众号作者，DeepSeek Harness 完整教程创作者
+- [[ModLens]] — DeepSeek Harness 推荐插件，Token 用量/工具调用/上下文占用可视化
+- [[技术爬爬虾]] — 技术公众号作者，Pi Agent 保姆级全攻略教程创作者
+- [[CCGUI]] — 开源 JetBrains 插件，把 Claude Code/Codex CLI 接入 IDEA 工具窗口（5.4k Star，MIT）
+- [[ACP]] — JetBrains 官方 Agent Client Protocol，Agent 接入层协议
+- [[Qwen3.8-27B]] — 阿里通义千问 27B 稠密模型，256K 上下文，本地 Agent 部署"甜品点"模型
+- [[RTX5090]] — NVIDIA Blackwell 架构消费级 AI 显卡新标杆，32GB GDDR7，双卡构成本地 Agent 工作站门槛
+- [[LlamaCpp]] — 开源 C++ LLM 推理引擎，提供 OpenAI 兼容 HTTP API，本地部署大模型最常用后端
+- [[kkFileView]] — 基于 Spring Boot 的文件在线预览开源方案，LibreOffice 转换 + 100+ 格式 + Docker 部署，GitHub 9.9k+ Star
+- [[LibreOffice]] — 开源办公套件，kkFileView 底层文档转换引擎
+- [[胖虎]] — 微信公众号「Java 专栏」技术博主，专注 Java 后端与高并发架构
+- [[Cloudflare]] — 全球领先 CDN、网络安全与边缘计算服务商，提供反滥用能力
+- [[Turnstile]] — Cloudflare 风险驱动验证码产品，低风险自动放行，可疑流量才挑战
+- [[Guava]] — Google 开源 Java 核心工具库，RateLimiter 为单机限流常用实现
+- [[Postman]] — 流行 API 调试工具，秒杀防刷语境中为散户黄牛脚本典型工具
+- [[RenoPit]] — fthux 开源的 AI 装修报告项目，React + FastAPI + Celery + PostgreSQL/Redis + Docker
+- [[fthux]] — 博客园博主，装闭 RenoPit 项目作者，14 篇源码解析系列
+- [[lyshark]] — 博客园博主，LangGraph 会话记忆持久化等 AI 工程化教程创作者
+- [[PostgresSaver]] — LangGraph Checkpointer 的 PostgreSQL 持久化实现，单会话短期记忆
+- [[PostgresStore]] — LangGraph Store 的 PostgreSQL 实现，跨会话长期用户记忆
+- [[pgvector]] — PostgreSQL 向量检索扩展，PostgresStore 语义检索的生产依赖
+- [[InMemoryStore]] — LangGraph Store 内存测试版，内置简易向量检索，无需 pgvector
+- [[InMemorySaver]] — LangGraph Checkpointer 内存临时版，仅本地测试，重启丢失
+- [[Celery]] — Python 分布式异步任务队列框架，RenoPit 的异步 Worker
+- [[Vite]] — 新一代前端构建工具与开发服务器，RenoPit 开发环境 5173 端口代理
+- [[SSE]] — Server-Sent Events 服务器发送事件，单向服务器推送机制
+- [[AlphaEvolve]] — Google DeepMind 自动化研究系统，让模型不断提出程序并自动评估筛选演化
+
+### Entities (2026-08-28 新增)
+- [[GLM-5.3-Flash]] — 智谱旗舰模型：321B 参数、激活 18B、混合注意力+IndexPool、10万+国产芯片、原生多模态、性价比极高
+- [[LlamaIndex]] — RAG 专用数据框架，300+ 数据连接器、LlamaParse PDF 解析、44K+ Star
+- [[GGUF]] — llama.cpp 专用模型容器格式，存全精度/量化权重，元数据丰富
+
+### Entities (2026-08-25 新增)
+- [[FRP]] — 开源内网穿透工具，反向代理技术暴露内网服务，fatedier/frp
+- [[声网]] — 实时互动与 AI 产品提供商，对话式智能体实践
+- [[姚光华]] — 声网 AI 产品线负责人，企业级 Agent 可控方法论提出者
+- [[AI产品零度]] — 公众号作者，产品 Owner 转型管理者的管理思考者
+- [[花叔]] — 前某团运营负责人，huashu-excel skill 创作者
+- [[llama.cpp]] — 本地 GGUF 量化模型推理引擎，OpenAI 兼容 API
+- [[mattpocock-skills]] — Matt Pocock 的通用代码自检技能包仓库，月增 5 万星
 
 ## Concepts
+- [[模型指纹]] — 通过 Tokenizer 词表/logprob 分布/特殊 token/知识截止/格式偏好五个维度识别匿名大模型的真实来源
+- [[冷备暖备热备]] — 高可用容灾三种备份就绪状态，恢复速度 vs 成本的权衡
+- [[RTO]] — 恢复时间目标，"能停多久"
+- [[RPO]] — 恢复点目标，"能丢多少"
+- [[高可用]] — 系统故障下持续服务能力，由 RTO/RPO 度量
+- [[脑裂]] — 主备网络断开后双主同时写的数据分裂风险，需仲裁/fencing 防护
+- [[ConfigurationProperties]] — Spring Boot 配置绑定注解，将 yml 属性批量映射到 POJO，支持 Enum/嵌套/校验
+- [[Enum]] — Java 枚举类型，有限常量集合的类型安全表达，配置管理中替代魔法字符串
+- [[OnlineDDL]] — MySQL 5.6+ 在线表结构变更机制（INSTANT/INPLACE/COPY + NONE/SHARED/EXCLUSIVE）
+- [[PT-OSC]] — Percona pt-online-schema-change 触发器式在线表结构变更工具
+- [[GhOst]] — GitHub 无触发器 MySQL 在线表结构变更工具，异步解析 binlog
+- [[双写迁移]] — 金融级零停机数据迁移方案，双写+分批迁移+灰度切换
+- [[多智能体编排]] — 主控 Agent 调度多子 Agent 协作的 AI 架构模式（agent_spawn）
+- [[LLM网关]] — 统一管理多模型调用的中间层（路由/降级/计费/监控）
+- [[电子签章]] — 数字化合同签署流程（手写画板+邮件链接+双签闭环）
+- [[虚拟线程]] — Java 21+/25 轻量级线程，JVM 调度，高 IO 并发利器
+- [[用户态]] — CPU 低特权级模式（Ring 3），只能访问本进程用户空间，不能执行特权指令
+- [[内核态]] — CPU 高特权级模式（Ring 0），可访问全部内存与硬件，执行所有指令
+- [[系统调用]] — 用户态主动请求内核服务的机制，用户态→内核态切换的主要方式
+- [[特权级]] — CPU 权限分级机制（x86 Ring 0~3），现代操作系统使用 Ring 0（内核）/Ring 3（用户）
+- [[上下文切换]] — CPU 切换执行上下文时保存/恢复状态的过程，系统调用开销的本质来源
+- [[HNSW]] — 分层可导航小世界图，向量近似最近邻检索算法，主流向量库默认索引
+- [[分布式锁]] — 分布式环境跨进程互斥机制，Redis/Zookeeper/数据库三路线
+- [[JavaBean规范]] — Java 可重用组件编码约定，无参构造/getter-setter/Serializable
+- [[brainstorming]] — Superpowers 工作流的发散-收敛环节，动手前探索方案空间
+- [[Apdex]] — 应用性能指数，量化用户体验满意度的 APM 核心指标
+- [[roguelike-game]] — 以随机生成和永久死亡为特色的游戏类型
+- [[jsbridge]] — H5与原生APP之间双向通信的桥梁模式
+- [[LiteTopic]] — RocketMQ 面向 AI 的轻量主题，百万级、自动创建、TTL 过期
+- [[异常边界]] — 决定失败停在哪里的语义，指导 try catch 放 for 内外
+- [[MVCC]] — 多版本并发控制机制
+- [[WAL]] — 预写日志机制
+- [[流复制]] — PostgreSQL 流复制机制
+- [[逻辑复制]] — PostgreSQL 逻辑复制机制
+- [[Sequence]] — 数据库序列对象
+- [[JSONB]] — PostgreSQL 二进制 JSON 类型
+- [[VibeCoding]] — 让 AI 随意编写代码，祈祷测试能过的编程模式
+- [[SuperProgramming开发流程]] — 四步 AI 协作开发流程（Brainstorming→Writing Plans→Implementing→Closing the Loop）
+- [[VibeEngineering]] — 对代码负责 + 重度调度 Agent 的编程模式
+- [[cognitive-offloading]] — 认知卸载，编程肌肉萎缩现象
+- [[silicon-time]] — AI 为程序员创造的额外并行工作时间
+- [[ai-schizophrenia]] — 程序员对 AI 工具的矛盾心态
 - [[Agent]] — AI Agent 核心概念
 - [[AgenticSearch]] — Agent 动态搜索范式
 - [[jwt-stateless]] — JWT 无状态认证原理
 - [[token-blacklist]] — Token 黑名单机制
 - [[dual-token-mechanism]] — 双 Token 续期方案
+- [[refresh-token-rotation]] — Refresh Token 轮换 + Token Family 重放检测 + 并发刷新
 - [[frontend-backend-separation]] — 前后端分离架构
 - [[rbac]] — RBAC 权限模型
 - [[cors]] — 跨域资源共享
 - [[idempotency]] — 幂等性设计
 - [[distributed-lock]] — 分布式锁机制
 - [[generics]] — Java 泛型
+- [[ai-agent-skill]] — AI Agent 技能扩展机制
+- [[CI-CD]] — 持续集成/持续交付
+- [[GitFlow]] — 经典 Git 分支模型：main/develop/feature/release/hotfix 五类分支
+- [[GitHubFlow]] — 轻量 Git 分支模型：单主干 + 短命特性分支 + PR 合并
+- [[TrunkBasedDevelopment]] — 主干开发模型：小批量提交、短命分支、Feature Toggle
+- [[ConventionalCommits]] — 约定式提交规范：<type>(<scope>): <subject>
+- [[语义化版本]] — SemVer 三段式版本号规范（主.次.修）
+- [[FeatureToggle]] — 功能开关/特性开关，主干开发与渐进式重构的关键支撑
+- [[Agent四类任务]] — 检查/梳理/执行/观察四类任务分类法，Agent 入门框架
+- [[渐进式重构]] — 渐进式架构升级策略，小版本平滑替换核心架构，优于大爆炸式升级
+- [[ChatClient]] — Spring AI 聊天客户端抽象
+- [[AgentHarness]] — AI Agent 运行与测试框架
+- [[AICoding]] — AI 辅助编程范式
+- [[AIService]] — LangChain4j AI 服务接口抽象
+- [[analyzer]] — ES 文本分析器机制
+- [[BM25]] — 相关性评分算法
+- [[async-await]] — JavaScript 异步编程语法
+- [[AutoMemory]] — AI Agent 自动记忆管理
+- [[ChatMemory]] — LLM 聊天对话记忆管理
+- [[CLAUDEmd]] — CLAUDE.md 项目指令文件规范
+- [[consistent-hashing]] — 一致性哈希算法
+- [[ContextManagement]] — AI 上下文窗口管理策略
+- [[full-text-search]] — 全文搜索技术
+- [[FunctionCalling]] — LLM 函数调用能力
+- [[incident-severity-classification]] — 事故严重级别分类
+- [[inverted-index]] — 倒排索引数据结构
+- [[isr]] — ISR 副本同步策略
+- [[jvm-tuning]] — JVM 性能调优
+- [[MCP]] — Model Context Protocol 模型上下文协议
+- [[message-queue]] — 消息队列核心概念
+- [[进程间通信]] — 微服务进程间通信（IPC）核心概念：同步 RPC 与异步消息
+- [[同步RPC]] — IPC 同步请求/响应模式：REST/gRPC/Thrift 等
+- [[异步消息]] — IPC 异步消息模式：消息队列、事件驱动
+- [[服务发现]] — 服务提供者动态注册与消费者感知，客户端/服务端发现两种模式
+- [[事务性发件箱]] — 原子化发布消息模式，解决本地事务与消息发送的一致性
+- [[meta-skill]] — 元技能（编写技能的技能）
+- [[microservices]] — 微服务架构
+- [[Distro协议]] — Nacos 自研的 AP 最终一致性协议（责任分片+读写分离，用于服务发现）
+- [[AI Registry]] — Nacos 3.0 面向 AI Agent 的模块（模型层/工具层=MCP Registry/智能体层）
+- [[长轮询]] — HTTP 半推送机制，Nacos 配置推送的底层实现
+- [[query-optimization]] — 数据库查询优化
+- [[RAG]] — 检索增强生成
+- [[DocumentLoader]] — RAG 文档加载器，统一接入各类文档格式/数据源
+- [[TextSplitter]] — RAG 文本切分器，控制 chunk 粒度与重叠
+- [[Embeddings]] — 文本向量化嵌入模型，语义检索的基础
+- [[VectorStore]] — 向量数据库，RAG 语义检索的存储与召回层
+- [[Retriever]] — 检索器，从向量库召回与查询最相关的文档块
+- [[sequential-io]] — 顺序 IO 性能优化
+- [[Skill]] — Claude Code 技能扩展机制
+- [[渐进式披露]] — Skill 内容组织原则，按需加载信息
+- [[Gotchas]] — Skill 中含金量最高的部分，记录踩坑经验
+- [[Hooks]] — 场景化防护机制，按需激活的自动触发器
+- [[tiered-storage]] — 分层存储架构
+- [[transaction-management]] — Spring 事务管理
+- [[sharding]] — 分库分表架构设计
+- [[游标分页]] — 基于游标的分页方案，性能恒定
+- [[异构索引]] — ES 异构索引查询层架构
+- [[CQRS]] — 命令查询职责分离，读写分离架构模式
+- [[singleton-pattern]] — 单例模式5种写法
+- [[servlet-6-1]] — Jakarta EE 11 核心子规范，Spring Boot 4.0 强制依赖
+- [[设计模式]] — GoF 23种设计模式总览
+- [[工厂模式]] — 创建型设计模式，封装对象创建过程
+- [[代理模式]] — 结构型设计模式，AOP的基础
+- [[模板方法模式]] — 行为型设计模式，固定骨架可变步骤
+- [[观察者模式]] — 行为型设计模式，事件机制的基础
+- [[规则引擎]] — 将复杂判断规则从业务代码剥离的组件
+- [[适配器模式]] — 结构型设计模式，让不兼容接口协同工作
+- [[策略模式]] — 行为型设计模式，同一接口不同实现策略
+- [[责任链模式]] — 行为型设计模式，请求沿链条依次处理
+- [[装饰器模式]] — 结构型设计模式，动态增强对象功能
+- [[四层架构]] — LLM 层/Skill 层/Tool 层/Agent Runtime 层协同框架，"能闭环"的系统架构
+- [[IoC]] — 控制反转，Spring 依赖注入的设计原则
+- [[CGLIB代理]] — 基于字节码生成的代理模式实现
+- [[JDK动态代理]] — Java 原生基于接口的代理机制
+- [[duplicate-submit]] — 重复提交问题与防护方案
+- [[code-review]] — 代码审查实践
+- [[api-compatibility]] — API 向后兼容性设计
+- [[durable-threads]] — 持久化 AI Agent 工作线程，保持长期上下文
+- [[steering]] — Agent 任务中途纠偏控制机制
+- [[queuing]] — Agent 非阻塞任务排队机制
+- [[automations]] — Agent 定时自动化工作流程
+- [[goals]] — 带验证器的长跑型 Agent 任务
+- [[AgenticRAG]] — 智能体化 RAG，从被动检索到主动决策
+- [[GraphRAG]] — 图检索增强生成，结合知识图谱推理
+- [[ContextEngineering]] — 上下文工程，RAG 的认知升级
+- [[multi-agent-collaboration]] — 多 Agent 协作全栈开发模式（Skill 驱动分工 + Planner/Coder/Reviewer 三角色框架）
+- [[role-isolation]] — 角色隔离机制（工具白名单 + 硬约束物理闸门）
+- [[adversarial-review]] — 对抗性评审（防同源模型互相包容）
+- [[辅助模型]] — 本地小模型代理主模型处理基础任务，节省 Token 提升隐私
+- [[ReAct_Agent]] — 推理+行动循环的 Agent 模式
+- [[StateGraph]] — LangGraph 的核心状态图抽象
+- [[A2A]] — Agent-to-Agent 协议，分布式 Agent 通信
+- [[Skill_Registry]] — 技能注册中心，管理 Agent Skill 生命周期
+- [[grayscale-release]] — 全链路灰度发布策略
+- [[AI设计智能体]] — 能完成全流程设计项目的 AI 工具类型
+- [[五要素法]] — 与 AI 设计智能体沟通需求的结构化框架
+- [[max-mode]] — 并行候选方案评估，用算力换可靠性
+- [[dynamic-workflow]] — 用代码替代自然语言编排复杂 Agent 工作流
+- [[checkpoint-rebuild]] — 分段持久化和重建上下文的无限延伸机制
+- [[Pod]] — K8s 最小调度单元，共享网络与存储
+- [[gray-tag-propagation]] — 灰度标记全链路传递机制
+- [[AI中转站]] — AI 模型服务中间代理层
+- [[ReActAgent]] — 核心推理循环 Agent，思考→工具→观察循环
+- [[HarnessAgent]] — 推荐入口 Agent，ReActAgent 的工程化包装
+- [[Middleware]] — 中间件扩展机制，5个钩子位置
+- [[分布式部署]] — 企业级部署能力，任意副本恢复上下文
+- [[多租户隔离]] — 企业级安全能力，RuntimeContext 穿透
+- [[Workspace]] — 文件驱动架构，配置即代码
+- [[事件流]] — 流式响应能力，类型化事件流
+- [[子Agent编排]] — 动态任务委派，声明式配置
+- [[Command-Agent-Skill编排]] — Claude Code 工作流核心编排架构（Command 触发 / Agent 扮演 / Skill 供能）
+- [[Research-Plan-Execute-Review-Ship]] — Claude Code 主流工作流共用的五阶段开发范式
+- [[跨模型工作流]] — 通过 Plugin/MCP/Router 三种机制在 Claude Code 中协同其他模型
+- [[文本绘图]] — 用纯文本/DSL/XML 描述图形并由引擎渲染的可视化方法论
+- [[规范驱动开发]] — Spec-Driven Development：先把"做什么/按什么规矩做/怎么做"用规范明确，再让 AI 实现
+- [[项目级AI工作流]] — 将 Spec、Task、状态与 Journal 组织为可追溯项目资产的方法
+- [[TDD]] — 测试驱动开发，Red-Green-Refactor 循环
+- [[ORM]] — 对象关系映射，将程序对象与数据库表映射的技术
+- [[逻辑删除]] — 数据删除策略，通过标记字段标识删除状态
+- [[乐观锁]] — 并发控制机制，基于版本号检查数据一致性
+- [[ASGI]] — Python 异步 Web 接口规范，WSGI 的异步升级版
+- [[QR码登录]] — 二维码扫码登录原理（三阶段流程 + 临时 Token）
+- [[Token认证机制]] — 基于 Token + 设备绑定的移动端认证范式
+- [[AI原生测试用例工程化]] — AI Agent 生成和维护 YAML 测试用例、Git 管理、人类评审验收的方法论
+- [[Agent工作流编排]] — 用状态图、条件分支、循环、检查点和多 Agent 协作组织复杂任务流程
+- [[多模态大模型]] — 支持图像等非文本输入的 LLM，通用于视觉理解、结构化字段抽取、流程图逻辑还原
+- [[自生长知识库]] — 让知识体系自我迭代的架构模式，AI 自动采集/整理/关联/输出
+- [[ChatSession]] — 对话记忆会话管理，Solon/Spring AI 等多框架统一概念
+- [[DialectPattern]] — 方言模式，Solon AI 多模型协议适配策略
+- [[ToolPipeline]] — 工具流水线编排，串行/并行批量工具执行替代 ReAct 多轮循环
+- [[LoopEngineering]] — 循环工程方法论，AGENTS.md/STATE.md/SKILL.md 三文件驱动 AI 自动化
+- [[AdvisorChain]] — Advisor 链模式，Spring AI 2.0 职责链拆分 Agent 关注点
+- [[提示词工程]] — 与大模型高效沟通的方法论，四大核心技巧
+- [[思维链]] — 分步推理的提示词技巧
+- [[幻觉]] — LLM 固有缺陷，编造不存在事实
+- [[微调]] — 用专属数据再训练通用模型
+- [[Build POM 与 Consumer POM 分离]] — Maven 4 核心架构调整
+- [[计划模式]] — AI Agent 执行前先输出计划并确认
+- [[Worktree]] — Git 工作树隔离 Agent 工作区
+- [[自注意力机制]] — Transformer 核心机制，全局上下文建模与并行化
+- [[QKV]] — Query-Key-Value，实现自注意力的三个核心向量
+- [[预训练]] — 从白纸到通才的自监督学习过程，产出基座模型
+- [[基座模型]] — 预训练产物，有知识但无指令跟随能力
+- [[SFT]] — 监督微调，用人工精标数据让基座模型学会专业技能与对话格式
+- [[RLHF]] — 人类反馈强化学习，微调第二阶段价值观对齐（含 DPO/RLVR 演进）
+- [[PEFT]] — 参数高效微调技术族，仅训练 0.1%~1% 参数
+- [[合成数据]] — 用顶级大模型生成训练数据替代人工标注
+- [[CNN]] — 卷积神经网络（1989），专注图像空间特征提取
+- [[RNN]] — 循环神经网络（1986），专注序列时序依赖建模
+- [[网关]] — 微服务统一入口，承担路由转发/鉴权/限流/日志/协议转换五大职责
+- [[AI工作流]] — 开发者预先编排固定路径的多步流程，LLM 只执行单步任务不决定走向
+- [[MQTT协议]] — 轻量级物联网通信协议，发布/订阅模式，适合云端与设备间毫秒级通信
+- [[双亲委派模型]] — Java 类加载器核心机制，向上委派向下兜底
+- [[类加载器]] — JVM 加载类的组件，Bootstrap/Extension/Application/自定义层次结构
+- [[SPI机制]] — Service Provider Interface，服务发现机制，线程上下文类加载器破坏双亲委派
+- [[AOT编译]] — Ahead-Of-Time 提前编译，构建时编译为机器码，启动快
+- [[JIT编译]] — Just-In-Time 即时编译，运行时热点代码编译，峰值性能高
+- [[任务调度]] — 定时任务调度机制，支持 CRON/固定频率/固定延迟/API/工作流
+- [[日志框架]] — Java 日志体系：SLF4J 接口 + Logback/Log4j2 实现
+- [[过度工程化]] — AI 生成代码中过度设计问题，Ponytail 减法思维应对
+- [[KAG]] — 知识增强生成，结合知识图谱增强 LLM 上下文
+- [[HITL]] — Human-in-the-Loop，AI Agent 关键决策点人工审批机制
+- [[混合检索]] — KNN + BM25 混合检索技术
+- [[在线文档处理]] — 浏览器中打开/编辑/审批/盖章 Office 文档的技术方案
+- [[电子签名]] — 数字信息的身份验证与完整性确认，具法律效力
+- [[数字签名]] — 使用加密算法（如RSA）对数字信息签名和验证的底层技术
+- [[权限认证框架]] — 将登录认证、权限授权、会话管理等安全逻辑抽象化、标准化、自动化的框架
+- [[分布式会话]] — 将会话数据存储在外部共享存储中的会话管理方案
+- [[核心-插件-适配器模型]] — 分层架构设计模式，将系统划分为核心层、插件层和适配层
+- [[Agent原生多模态]] — Agent 原生多模态设计理念：Agent 自动选模型/调参数/处理报错，用户只管提需求
+
+- [[execution-contract]] — 执行契约，规划与执行之间的可验证锚点
+- [[eight-state-machine]] — spec-superflow 八状态工作流状态机（hotfix/tweak 快速路径）
+- [[delta-spec]] — OpenSpec 增量变更机制（ADDED/MODIFIED/REMOVED）
+- [[review-gate]] — 审查门禁，层层设卡的质量管控机制
+- [[subagent-driven-development]] — 子代理隔离执行 + 双裁决审查的 Agent 开发模式
+- [[DP-3]] — spec-superflow 人工审批检查点，规划到实现的硬墙
+- [[计划模式]] — Claude Code 计划模式，只研究不写代码
+- [[llms-txt协议]] — 面向 LLM 的结构化文档索引协议，AI Agent 三步定位按需加载
+- [[两级索引架构]] — 阿里云 llms.txt 的目录组织方式：根索引→产品索引两级结构
+- [[CAS协议]] — 中央认证服务框架，基于 Kerberos 票据实现 SSO 单点登录
+- [[SAML]] — 基于 XML 的企业级 SSO 协议（Security Assertion Markup Language）
+- [[SSO]] — 单点登录，一次登录进入多个相互信任的系统
+- [[Session]] — Web 会话管理机制，通过 SessionID 标识用户保存上下文
+- [[Cookie]] — 客户端状态存储，SessionID 的默认传递载体
+- [[OAuth2]] — 三方授权协议，允许用户不提供密码通过信任应用授权访问资源
+- [[OIDC]] — 基于 OAuth 2.0 的身份认证协议（OpenID Connect）
+- [[聚簇索引]] — InnoDB 默认索引结构，数据行与索引存储在一起
+- [[页分裂]] — B+树节点分裂机制，无序主键写入的性能陷阱
+- [[B+树]] — MySQL InnoDB 索引底层数据结构，支持高效范围查询
+- [[可观测性]] — 通过日志/指标/追踪链路定位分布式系统问题的系统工程能力
+- [[ContextTray]] — marka.md 核心功能，暂存多文件并一键复制为 AI 就绪上下文包
+- [[本地优先]] — 数据始终保存在本地设备，用户完全掌控数据所有权的架构理念
+- [[AI就绪上下文包]] — 将多个文件打包成结构化文本块供 AI 直接读取的格式
+- [[HttpExchange]] — Spring Framework 6 原生声明式 HTTP 客户端
+- [[CognitiveNavigation]] — Agent 运行时认知导航健康诊断框架
+- [[Scouting-First]] — FastCode 侦察优先策略，先建索引再按需读取
+- [[PDFBox-双层架构]] — PDFBox 的 COS 层与 PD 层设计
+- [[Apache-2.0协议]] — 对商业友好的开源协议
+- [[死信队列]] — 消息消费失败超重试次数后的最终兜底队列，DLQ 机制
+- [[distributed-object-storage]] — 分布式对象存储架构
+- [[open-source-commercialization]] — 开源商业化模式
+- [[distributed-tracing]] — 分布式链路追踪
+- [[LLVM]] — 开源编译器基础设施
+- [[augmented-llm]] — 增强型 LLM，叠加检索/工具/记忆三大能力
+- [[prompt-chaining]] — 提示链工作流，固定串行步骤
+- [[routing-workflow]] — 路由工作流，分类分发至专属流程
+- [[parallelization-workflow]] — 并行化工作流，分段并行与投票并行
+- [[orchestrator-workers]] — 协调器-工作者工作流，中央 LLM 动态分配
+- [[evaluator-optimizer]] — 评估器-优化器工作流，双 LLM 循环迭代
+- [[autonomous-agent]] — 自主智能体，复杂推理/工具调用/错误恢复
+- [[guardrails]] — AI Agent 安全护栏体系
+- [[context-compression]] — LLM 上下文自动压缩机制
+- [[persistent-memory]] — AI Agent 跨会话持久记忆系统
+- [[mixture-of-agents]] — 多模型协作推理模式
+- [[kanban-swarm]] — 多 Agent 集群协作（三层架构/9状态/6协作模式）
+- [[gateway-messaging]] — Agent 消息网关多平台接入层
+- [[task-delegation]] — 任务委派机制
+- [[指数退避重试]] — API 调用指数退避重试策略（含随机抖动与可重试/不可重试分类）
+- [[记忆系统-时间衰减加权]] — Agent 记忆检索策略，最新记忆优先的时间衰减排序
+- [[智能客服Agent设计]] — 智能客服 Agent 四层架构设计（意图识别→知识检索→工具执行→兜底升级）
+- [[电商流量尖峰处理]] — 电商大促场景五道防线（异步队列/模型分层/热点缓存/限流/熔断降级）
+- [[AI终端]] — 集成 AI 能力的终端模拟器
+- [[Checkpoint]] — AI Agent 工作流持久化检查点机制
+- [[Protobuf]] — Google 高效结构化数据序列化协议
+- [[ToolCalling]] — LLM 工具调用能力（与 Function Calling 同义）
+- [[auto-mode]] — Claude Code 无需确认直接执行命令的权限模式
+- [[gRPC]] — Google 高性能 RPC 框架
+- [[知识图谱]] — 以图结构组织知识的数据模型
+- [[SkillCentralLibrary]] — AgentBro 中心库，Skill 治理的唯一事实源
+- [[SkillPackage]] — 技能包开关机制，库存与生效分离，多维组织技能
+- [[SkillSoftLink]] — 软链接分发机制，源码修改即时同步各 Agent
+- [[SkillScanTakeover]] — 扫描接管存量技能，无冲突批量收、冲突人工审
+- [[SkillConflictResolution]] — 同名冲突处理，默认中心库优先，例外可重命名或反向覆盖
+- [[SkillTestPackage]] — 测试包观察期，新 Skill 先试用再晋升，调试与生产隔离
+- [[AgentSpecificSkillPackages]] — Agent 维度技能包隔离，公司/个人/场景独立管理
+- [[RemoteAgentManagement]] — 远程 Agent 管理，SSH 隧道统一管理本地与远程服务器
+
+- [[AutoType]] — JSON 反序列化自动类型解析，RCE 漏洞核心根源
+- [[SafeMode]] — FastJson 安全对抗模式
+- [[多态反序列化]] — Jackson 多态类型反序列化，20+ 高危 CVE 核心原因
+- [[DiscoveryLoopTax]] — 发现循环税，反复翻找文档的上下文消耗成本
+- [[后训练]] — 预训练之后的训练阶段，决定模型能摸到多高
+- [[GOAP]] — 面向目标的行动规划，确定性 Agent 规划算法（Embabel 核心）
+- [[UtilityAI]] — 效用 AI，按效用函数打分选最优 Action 的决策模式
+- [[LLMWiki]] — Karpathy 提出的结构化互链知识库模式，OKF 的前身
+- [[MRTR]] — 多轮往返请求，MCP 第五版替代服务端反向请求的机制
+- [[UUID]] — 通用唯一识别码，随机无序主键性能陷阱
+- [[雪花算法]] — 分布式 ID 生成方案，64 位 Long 趋势递增
+- [[Token估算]] — 预估文本 Token 数量，控制上下文长度的辅助功能
+- [[重试机制]] — 操作失败后按策略重新尝试的可靠性设计
+- [[数据隐私]] — 数据收集、使用、存储、传输的控制权与保护措施
+- [[EventSourcing]] — 事件溯源，以不可变事件流作为状态唯一事实源
+- [[spec-merger]] — spec-superflow archiving 阶段组件，delta spec 合并回主规范
+- [[wikilink]] — Obsidian 双链语法，构建知识图谱的基础单元
+- [[SSHTunnel]] — SSH 隧道，远程 Agent 管理与加密端口转发
+- [[code-first-orchestration]] — 代码优先编排，用常规代码显式控制 Agent 流程
+- [[binary-installation]] — 二进制包直接部署，跳过源码编译的方式
+- [[熔断]] — 分布式系统自我保护机制，三态状态机（Closed/Open/Half-Open）防雪崩
+- [[雪崩效应]] — 分布式系统故障沿调用链指数级扩散的现象
+- [[限流]] — 控制请求量防止系统被压垮的流量保护机制
+- [[降级]] — 主流程不通时走兜底逻辑的容错手段
+- [[短链接系统]] - 长/短链映射服务，读多写少的高并发系统设计
+- [[分布式发号器]] - 分布式环境下生成全局唯一递增 ID 的组件
+- [[Base62编码]] - 62 字符进制编码，短链 ID 压缩为短码
+- [[布隆过滤器]] - 概率型数据结构，缓存穿透防护
+- [[哈希碰撞]] - 不同输入得到相同哈希值，MD5 短链方案核心缺陷
+- [[HTTP重定向]] - 3xx 状态码跳转机制，短链选 302 临时重定向
+- [[缓存雪崩]] - 大量缓存 key 集中过期压垮数据库，含穿透/击穿对比
+- [[工作流引擎]] — 管理业务流程执行的软件系统，负责流程定义、实例创建和任务流转
+- [[流程实例]] — 工作流引擎中流程定义的一次执行实例，代表具体业务流程运行
+- [[任务服务]] — 工作流引擎中管理用户任务的核心服务，负责任务查询、完成和管理
+- [[运行时服务]] — 工作流引擎中驱动流程运转的核心服务，负责流程实例创建和管理
+- [[嵌入式设计]] — 将工作流引擎集成到现有 Java 应用中的部署模式，无需单独部署
+- [[异步执行器]] — 工作流引擎中处理异步任务的组件，通过优化锁粒度和批处理提升性能
+- [[BPMN 2.0]] — 业界通用的业务流程建模规范，用于定义可视化业务流程
+- [[CMMN]] — 案例管理模型和表示法标准，用于处理非结构化或半结构化业务流程
+- [[DMN]] — 决策模型和表示法标准，用于定义和执行业务规则决策表
+- [[提示词注入防御]] — AI Agent 四层安全防护：入口净化/上下文角色隔离/工具权限分级/出口内容过滤
+- [[X-Forwarded-For]] — HTTP 代理链 IP 传递标准头字段，客户端可伪造需配合代理信任配置
+- [[代理链路]] — 多层代理（CDN/负载均衡/反向代理）下客户端 IP 的传递与解析机制
+- [[IP伪造防护]] — 通过代理信任配置（internal-proxies）和头字段可信度排序防止 XFF 伪造
+- [[IP限流]] — 基于 IP 的频率限制、黑名单和可疑请求检测的安全防护机制
+- [[内网穿透]] — 将内网服务通过公网中转暴露给外部访问的技术，解决 NAT 环境下不可达问题
+- [[端口转发]] — 将网络流量从一个端口重定向到另一个端口的机制
+- [[反向代理]] — 代理服务器接收请求并转发到内网真实服务器，内网穿透的底层机制
+- [[极简工具集]] — AI Agent 仅提供最少原语工具（read/write/edit/bash）的设计哲学，少即是多
+- [[YOLO模式]] — Agent 无权限弹窗直接执行的安全策略，弹窗是安全剧场
+- [[安全剧场]] — 给人安全感但实际不提供真正保护的安全措施，权限弹窗是典型例子
+- [[自扩展]] — Agent 缺功能时自己写扩展，不下载别人的，对 LLM 代码生成能力的极致信任
+- [[多模型混合会话]] — 同一会话中不同消息来自不同模型提供商，按任务选模型
+- [[会话树]] — 树结构会话管理，支持分支探索和回退重试
+- [[javabean-boolean-is-pitfall]] — JavaBean 布尔属性 is 命名陷阱：getter 错位导致序列化字段名丢失 is 前缀
+- [[error-feedback-self-healing]] — Agent 工具执行错误回灌自愈机制：不终止循环，由模型自主纠错重试
+- [[trace-turn]] — Agent 运行基本单位：Trace（完整任务链路）与 Turn（单次模型调用轮次）
+- [[ResponsesApi]] — 有状态的大模型调用接口，引用前一轮 response ID 避免重传历史，tool_calls 结构化返回，更适合 Agent 且降低 Token 成本
+- [[BetterHarness]] — PaiCLI 的 Agent 质量审计工具，三通道并行取证 + 五维度打分，与 DeepSeek Harness（Agent 产品）是不同概念
+- [[异地多活]] — 异地多活架构：异地/多活/业务可用三关键词，CAP 选 AP，单元化核心解法
+- [[单元化架构]] — Cell-based 架构，按用户 ID 哈希划分部署单元，SOFAStack RZone/GZone/CZone
+- [[AgentSkills]] — AI Agent 可复用行为模块标准协议，项目级/全局级存放，跨框架复用
+- [[AGENTS-md]] — AI Agent 跨 Session 记忆机制标准文件，项目级/全局级，Claude Code 积累无缝迁移
+- [[CAP理论]] — 分布式系统基础权衡定理：一致性/可用性/分区容错三者不可兼得，异地多活选 AP
+- [[SpringEvent]] — Spring Event 发布订阅机制：应用内解耦，最终一致性场景，生产六大陷阱与三种重试方案
+- [[TensorSplit]] — llama.cpp 多卡分摊技术，按比例切分权重和 KV cache 到多张 GPU，突破单卡显存上限
+- [[GGUF量化]] — 大模型权重压缩到低比特位宽的技术，4bit 是 Agent 长链路任务甜品点，配合 KV cache 量化与多卡分摊
+- [[本地Agent工作站]] — 完全本地运行 AI Agent 工作流的方案，2× RTX 5090 + Qwen3.8-27B + DSH + llama.cpp，数据不出本机无 API 费
+- [[Checkpointer]] — LangGraph 检查点存储概念，自动写入 + thread_id 隔离的会话短期记忆
+- [[AgentMemory]] — 智能体记忆系统，短期会话记忆 + 长期用户记忆两层划分
+- [[DemoMode]] — 前端演示模式，劫持 window.fetch 拦截 API 返回 Mock 数据，无后端运行
+- [[HealthCheck]] — 后端健康检查机制，三组分级（核心/业务/信息）判定 unhealthy/degraded/healthy
+- [[流程税]] — 强模型时代无脑常驻全套重流程所产生的额外成本（Token 开销/重复调度/约束推理空间）
+- [[强模型时代工作流选型]] — 强模型时代按任务风险分层选择 AI 编程工作流的方法论，从约束 AI 转向给定目标 AI 自主推理
+
+### Concepts (2026-08-25 新增)
+- [[时间片]] — OS 分时调度中分配给进程/线程的 CPU 时间配额，典型几毫秒到几十毫秒
+- [[CFS调度器]] — Linux 完全公平调度器，按进程权重动态分配时间片，6.6 被 EEVDF 替代
+- [[AgentEngineering]] — 企业级 Agent 工程化方法论：托付梯度、自治分级 L1-L5、围栏原则、可控四要素
+- [[EvaluationAsPRD]] — 评测即新 PRD，Agent 时代 PM 交付物范式转移，全生命周期四阶段
+- [[Agent自治分级]] — L1-L5 用「人还在不在环里」描述 Agent 自治程度，每级之间隔着责任边界
+- [[设计生产力]] — 管理本质定义：从自己作为生产力到设计系统让一群人持续做成
+- [[赫茨伯格双因素理论]] — 保健因素减少不满，激励因素真正激活，减少不满≠激活
+- [[教练型管理]] — 为明天的自己训练团队：成员先判断→管理者补充→行动→复盘
+- [[上下文工程]] — Vibe coding 上下文工程化：文档是载体，AI 是短期协作者，文档质量决定工作质量
+- [[文档即生产系统]] — 文档不是附属品是生产系统一部分，代码不再是唯一稀缺资源
+- [[Agent工作流]] — 企业 Agent 五大工作流：内容/销售/客服/知识库/管理，为工作流结果买单
+- [[企业Agent落地]] — 企业 Agent 商业价值三问：进入哪个工作流/减少哪类重复/让哪个结果变好
+- [[Twyman定律]] — 看起来异常的数字通常是错的，先当 bug 查排除了才当发现
+- [[HTTP2]] — HTTP 第二版，多路复用是核心，gRPC 高性能的基础
+- [[REST]] — 基于 HTTP/1.1 的 API 设计风格，JSON 文本传输，gRPC 的主要对比对象
+- [[RAG架构]] — 检索增强生成，企业 Agent 知识库工作流底层技术
+
+## Sources
+- [[摘要-coze-workflow-learning]] — 扣子（Coze）工作流入门实践：手动搭建「智能摘要」工作流，核心要素与分支出口必须连接/分支后必须聚合两条经验
+- [[摘要-coze-workflow-day1]] — Coze Day1 笔记：Text-to-Workflow 一句话生成工作流，AI 拆分 vs 人合并的设计洞察与三条编排设计模式
+- [[摘要-nginxpulse]] — NginxPulse 轻量级 Nginx 日志分析面板：Go+Vue3+SQLite，PV/UV/IP归属地/多站点/自定义格式
+- [[摘要-京东-agent面试题]] — 京东 AI 产品线与电商 Agent 面试题：ReAct/Plan-and-Execute 选型、MCP 工具设计、幂等防重复、提示词注入四层防御
+- [[摘要-springboot获取真实客户端ip]] — SpringBoot 获取真实客户端 IP 终极方案：XFF 头可信度排序、IpUtils 工具类、Tomcat RemoteIpValve 代理信任、IP 安全过滤器
+- [[摘要-cc-gui-jetbrains插件]] — CC GUI 开源 JetBrains 插件，把 Claude Code/Codex CLI 接入 IDEA 工具窗口（5.4k Star，Java+React+Node 三层架构）
+- [[摘要-推荐一个节省token的AI编程神器]] — Pi 极简终端编码代理：系统提示词仅 ~1000 token，核心工具 6 个，TypeScript 扩展按需补齐，支持 15+ Provider
+- [[摘要-常见内网穿透工具]] — 四种内网穿透工具对比：nps-npc（Web 管理）、frp（轻量高性能）、ew（多级代理链）、ngrok（SaaS 零配置）
+- [[摘要-pi-agent-4工具极简主义]] — Pi Agent（Armin Ronacher）源码剖析：4 个原语工具、~300 词 Prompt、YOLO 模式、自扩展哲学、多模型混合会话
+- [[摘要-deepseek-v4-pro-发布-harness-内测]] — DeepSeek V4 Pro 正式版发布 + Harness 最后内测 + 12 道 Agent 工程面试题（Pro/Flash 路由/Responses API/版本管理/Better Harness 审计）
+- [[摘要-异地多活架构]] — 异地多活架构面试题：CAP 权衡、单元化路由、SOFAStack RZone/GZone/CZone、DTS 数据同步
+- [[摘要-pi-agent-保姆级全攻略]] — Pi Agent 保姆级全攻略（11 章节）：安装/模型配置/指令追加/会话管理/对话树/工具插件/Skills/Web UI/跨 Session 记忆/安全/DIY 插件/源码架构
+- [[摘要-GitHub狂揽8.6万Star-Pi]] — Pi 为何成为 Claude Code 最强平替：200 Token 系统提示词、4 工具极简、不锁模型、兼容已有积累、可扩展
+- [[摘要-为什么越来越多人用Pi-苏三]] — 苏三视角解析 Pi：极简设计哲学、四大原因、毛坯房比喻
+- [[摘要-deepseek-v4-pro-正式版实测]] — DeepSeek V4 Pro 0813 正式版深度实测：跑分提升、编程实测、API 峰谷定价
+- [[摘要-deepseek-harness必装10个插件]] — DeepSeek Harness 必装 10 个插件：ModLens/Code Review/Test Generator/Doc Generator 等
+- [[摘要-deepseek-harness教程-掉落的果实]] — DeepSeek Harness 完整教程：四种运行模式（TUI/Headless/Web UI/SDK）、插件协议、配置文件
+- [[摘要-虚拟线程vs传统线程池]] — 10000 并发任务实测：虚拟线程 1 秒 vs 传统线程池 50 秒，原理/最佳实践/Spring Boot 集成
+- [[摘要-spring-event-使用陷阱]] — Spring Event 生产环境六大陷阱：优雅关闭/启动事件丢失/强一致性不适合/最终一致性适合/三种重试/幂等性
+- [[防刷分层体系]] — 秒杀防刷七层分层方法论：目标"让黄牛这一单不赚钱"，反直觉的是技术含量最低的几层效果最好
+- [[秒杀系统]] — 电商极短时间窗口内面对瞬时超高并发抢购请求的系统
+- [[准入门槛]] — 防刷第 0 层：注册天数/历史订单/实名/支付绑定，攻击黄牛唯一压不下去的时间成本
+- [[前端校验串]] — 防刷第 1 层：预检接口生成随机串+时间戳标记位，Redis 存 30 秒，筛子非墙，挡不看前端的批量工具
+- [[行为信号打分]] — 防刷第 2 层：时间抖动/交互轨迹/请求偏移加权算风险分，经济学不对称优势
+- [[两级限流]] — 防刷第 3 层：本地粗筛（Guava）+ 分布式精算，目标保护系统非维护公平，禁止按 IP 限流
+- [[风险驱动验证]] — 防刷第 4 层：只对高分用户弹验证码，全员验证码=转化率掉两位数的灾难
+- [[影子封禁]] — 防刷第 5 层：高置信度标记走完整流程后自然失败，不给任何反馈信号（shadow ban/tarpit）
+- [[履约拦截]] — 防刷第 6 层：订单产生后重批量分析，支付前/发货前拦截，召回率比下单瞬间高一个数量级，打现金流
+- [[热点Key]] — Redis 集群中承受远超平均访问量的单 Key，秒杀峰值下烤糊所在节点（如 Redisson RRateLimiter Key）
+- [[重放攻击]] — 攻击者截获合法凭证在有效期内重复发送，前端校验串不一次性失效的漏洞本质
+- [[摘要-renopit-demo-healthcheck-docker]] — 装闭 RenoPit 源码解析（14）：Demo 模式 fetch 劫持、三组分级健康检查、Docker Compose 五服务部署
+- [[摘要-langgraph-postgresql-会话记忆持久化]] — LangGraph + PostgreSQL 会话记忆持久化：PostgresSaver（Checkpointer）与 PostgresStore（Store）两大存储体系实战
+- [[摘要-强模型时代删掉Superpowers该怎么选]] — 强模型时代 Superpowers vs Matt Skills 选型：流程税问题、分层工作流、从约束 AI 每一步转向给定目标 AI 自主推理
+- [[ProductOverhang]] — 模型已具备但未被产品释放的能力积压，机会在于拿掉妨碍模型发挥的设计
+- [[Unhobbling]] — 拿掉阻碍模型发挥的产品设计，与 Product Overhang 是同一件事的两个方面
+- [[AblationStudy]] — 消融实验：删除组件观察影响，Claude Code 每次新模型删除 80% System Prompt
+- [[自动化研发]] — AI 从知识使用者向知识生产者移动，代码是最早形成闭环的领域
+- [[AI递归]] — AI 参与创造下一代 AI 的能力，研发流程逐步交给 AI 的现实路径
+- [[评价系统]] — AI 产品下一轮竞争不是提示词而是评价系统：任务环境/评价标准/反馈数据/安全机制
+- [[Sycophancy]] — AI 谄媚偏差，倾向于附和用户而非给出真实判断
+- [[钢人论证]] — 构建对手观点最强版本再反驳，双向钢人论证对抗 AI 谄媚
+- [[CMS]] — 内容管理系统，AI 时代需管理生成过程：内容身份/版本/状态/审核/发布/数据回流
+- [[write-restricted-token]] — Windows 派生的低权限令牌，Codex 利用其实现文件系统隔离
+- [[elevated-sandbox]] — Codex Windows 提权沙箱，通过专门用户和防火墙规则控制网络访问
+- [[NaiveRAG]] — 最基础的 RAG 实现：文档加载→分割→向量化→存储→检索→生成
+- [[PromptInjection]] — 提示词注入，Opus 5 通过模型对齐+注入检测器+Auto Mode classifier 三层防护
+- [[审批设计]] — Agent 敏感动作审批机制，审批按钮必须提供足够信息让用户判断后果
+- [[权限策略]] — Agent 动作执行范围控制，与沙箱和审批共同构成安全边界
+- [[Traceability]] — Agent 执行过程可追溯能力，追加式会话日志记录当时发生的事实
+- [[SOCKS5]] — 传输层代理协议，认证发生在协议级别（RFC 1929），非 HTTP 头部
+
+### Concepts (2026-08-28 新增)
+- [[指数退避重试]] — Agent 工具调用失败的标准重试策略：指数增长间隔+随机抖动，防惊群
+- [[快照回滚]] — Agent 运行时按轮次 Git 提交快照，支持精确回滚到任意历史状态
+- [[多模态RAG]] — 文本/图片/视频/音频统一向量空间检索，原生多模态 Embedding vs 模态转换两大路线
+- [[原生多模态Embedding]] — 模型原生将多模态编码到同一向量空间，保留完整视觉语义，优于模态转换
+- [[模态转换]] — 图片/视频/音频→文本描述→Embedding，语义偏移大、检索准确率低
+- [[Recall@K]] — RAG 召回率指标：命中相关文档数/全部相关文档数，测试集三步构建法
+- [[IVF索引]] — 向量数据库分区检索索引：K-Means 聚类分桶，查询只搜 nprobe 个最近簇
+- [[nprobe]] — IVF 核心参数：搜索簇数量，越大越准越慢，在线设小离线设大
+- [[Agent游戏NPC]] — 动态对话/任务引导/战术队友三场景，感知-决策-执行三层架构
+- [[感知层-决策层-执行层]] — Agent 经典三层架构：环境编码→推理规划→动作落地
+- [[AI工具定位]] — 工具/协同者/引领者三角色，人主导思想 AI 辅助完成为最佳模式
+- [[AI幻觉]] — 模型自信编造错误内容，引领者模式放大风险，需人工核心判断防御
+- [[AI泡沫]] — 流量驱动过度宣传，AI 执行边界有限，终极载体大概率是机器人
+- [[HF转GGUF]] — Hugging Face 格式转 llama.cpp GGUF 容器：仅格式翻译不压缩，量化为单独步骤
+- [[模型量化]] — FP16→INT4/8 权重压缩，体积压缩 4 倍、内存降低、推理加速，Q4_K_M 性价比最优
+- [[Q4_K_M]] — GGUF 主流 4bit 量化等级：K-quant 分组量化、Medium 平衡档、本地部署首选
+- [[PPO]] — RLHF 核心强化学习算法：重要性采样 Off-policy + 裁剪目标限制策略偏移
+- [[GRPO]] — PPO 简化变体：同 Prompt 多 Rollout 相对 Reward 构造 Advantage，省去 Critic
+- [[ActorCritic]] — Actor(策略/LM Head) + Critic(价值/Value Head) 协同，共享或独立 Backbone
+- [[GAE]] — 广义优势估计：λ 平衡方差-偏差，TD residual 递归加权，PPO 标配
+- [[重要性采样]] — Off-policy 数学基础：旧策略数据×权重修正估计新策略目标，权重方差需约束
+- [[CreditAssignment]] — 单步信用分配：整轨迹回报→Reward-to-go→优势函数→GAE 逐步细化
+- [[KL散度约束]] — 限制新旧策略分布偏移：TRPO 硬约束/PPO-Penalty 软惩罚/PPO-Clip 隐式裁剪
+- [[PolicyGradient]] — 策略梯度基础：REINFORCE 整轨迹加权→方差大/归因粗/采样低，经多层改进至 PPO
+- [[RewardModel]] — RLHF 奖励模型：Prompt+回答→标量分，偏好对训练，DPO/RLVR 为替代方向
+- [[混合注意力架构]] — 局部线性递归+全局轻量索引器，注意力计算量降 3 倍、KV 缓存降 4 倍
+- [[IndexPool]] — 索引器缓存向量池化压缩，支撑 1M 超长上下文内存可控
+- [[EPD分离架构]] — 编码/预填充/解码三阶段独立调度扩缩容，配合张量并行/量化/Layer Split 提速 3 倍
+- [[InfraAgent]] — 基建智能体：模型驱动算子优化/瓶颈诊断/系统调优，跑通自我进化闭环
+- [[原生多模态]] — 预训练联合多模态数据，真正"看"视频/像素级理解，优于事后拼接模态转换
 
 ## Syntheses
+- [[harness-architecture-comparison]] — Harness 架构四类分类（插件型/三主题型/薄包装型/项目级型）与 Agent 选型
+- [[oh-my-vs-kick-开源项目命名差异]] — oh-my-* 全家桶配置 vs kick-* 极简起步模板：命名起源、家族成员图谱与 Neovim distribution 生态对照
+- [[ai-programmer-survival-guide]] — AI 时代程序员生存指南：核心竞争力与行动清单
 - [[elasticsearch-disadvantages]] — Elasticsearch 缺点分析
+- [[spring-skill-usage-guide]] — 4个Spring Skill使用时机与组合策略
+- [[spring-ai-vs-langchain4j]] — Spring AI vs LangChain4J 企业级选型对比
+- [[mysql-storage-engine-comparison]] — MySQL 存储引擎对比与底层架构
+- [[kubernetes-introduction]] — Kubernetes 入门介绍与 Docker 对比
+- [[kubernetes-detailed-guide]] — Kubernetes 详细教程与生产实践注意事项
+- [[n8n-complete-guide]] — n8n 工作流自动化平台完整指南
+- [[hermes-agent-tutorial]] — Hermes Agent 完整安装配置与使用教程
+- [[spring-security-jwt-redis-best-practice]] — Spring Security + JWT + Redis 完整最佳实践
+- [[kafka-complete-tutorial]] — Apache Kafka 完整教程：概念、场景、Docker 部署与 Spring Boot 集成
+- [[dual-token-security-analysis]] — 双 Token（AccessToken+RefreshToken）安全设计分析
+- [[dual-token-design-complete]] — 双 Token 设计完整案例：流程/代码/设计决策/安全分析
+- [[claude-code-增强框架对比]] — ECC / Superpowers / OpenSpec / Spec-Kit 横向对比与选型指南
+- [[agent-error-correction-strategies]] — AI Agent 运行出错后的五层纠正策略：即时纠偏/流程防线/上下文隔离/自动防护/事后回退
+
+- [[loop-prompt-skill-guide]] — Loop / Prompt / Skill 三者区别、选型指南与最小可用最佳实践
+- [[大模型部署框架对比与选型]] — 推理引擎/应用编排/微调三层框架对比，企业与个人选型建议
+- [[loop-best-practice-java-fullstack]] — Loop 最佳实践（Java 全栈版）：三大循环机制/五大设计原则/STATE.md 规范/8 模板/编排模式/停止恢复/测试分层/实战案例
+- [[摘要-vibe-coding-实战篇总结-上]] — 抖音创作者敲代码的小虾米总结的 Vibe Coding 开发全流程（上篇）：立项/选技术栈/搭架构/写 Agent 宪法
+
+- [[摘要-vibe-coding-实战篇总结-下]] — 抖音创作者敲代码的小虾米总结的 Vibe Coding 开发全流程（下篇）：立真源/落文档/敲代码/阶段验收
+- [[react-loop-explanation]] — ReAct 循环概念、工作原理与框架实现详解
+- [[react-vs-plan-execute]] — ReAct vs Plan-and-Execute 对比分析
+- [[maven-lastUpdated-file]] — Maven `*.lastUpdated` 失败缓存文件的作用、副作用及清理方法
+- [[sa-token-vs-jwt-spring-security]] — Sa-Token vs JWT + Spring Security 全面对比与选型分析
+- [[junie-国产模型配置指南]] — 在 IntelliJ IDEA / Junie 中配置国产模型（Qwen Code / GLM Agent / 手动 ACP）操作步骤
+- [[idea-ai-assistant-guide]] — IntelliJ IDEA AI Assistant 能力全貌：ACP agent / 代码补全 / 免费插件选型
+- [[hand-craft-agent-guide]] — 手搓 Agent 完整指南：ReAct 循环原理、最小实现与选型建议
+- [[重复消费解决方案]] — RocketMQ/Spring Cloud Stream 重复消费根因与六种幂等方案详解
+- [[trae-vs-claude-code-agent-comparison]] — Trae 智能体 vs Claude Code 智能体能力对比
+- [[knowledge-base-skill-solutions]] — 用 Skill 实现知识库优先检索的四种方案
+- [[agent-rag-communication-comparison]] — Agent 与 RAG 通信方式对比（MCP/Tool/HTTP API/Skill 四种路径选型）
+- [[openspec-brownfield-usage-guide]] - 棕地项目 OpenSpec 详细使用方案：安装初始化/Delta Spec 补录/四步工作流/AI 遗忘三层防护/SpecSuperflow 升级
+- [[mvnd-complete-guide]] — mvnd（Maven Daemon）完全教程：守护进程化构建、架构原理、安装、配置、性能对比
+- [[opencode-video-generation-paths]] — opencode 生成视频的三种途径对比与选型：Skill 扩展 / bash+Remotion / MCP 接入视频模型
+- [[codex-desktop-多模型与插件支持现状]] — Codex 桌面版第三方模型与插件的支持现状：cc-switch vs Codex++、插件受限根因、GitHub 插件市场真相
+- [[pi-扩展生态与开发指南]] — Pi 扩展生态指南：四层扩展系统、现成扩展查找渠道（pi.dev/npm/examples）、Extension 开发规范与 Package 发布规范
+- [[pi-agent-complete-guide]] — Pi Agent 完全教程：安装/认证/AGENTS.md/配置/命令/快捷键/扩展/安全/工程化最佳实践
+- [[agent-architecture-landscape]] — 当下 Agent 架构五层全景与区别：基础单元→执行循环→工作流→多Agent→自主智能体，Workflow 直线 vs Agent 圆环
+- [[loop-vs-hermes]] — Loop Engineering 与 Hermes Agent 区别：方法论（理念层）vs 开源产品（实现层），理念→产品化关系
+- [[loop-vs-harness]] — Loop Engineering 与 Harness 工程区别：Loop ⊂ Harness，Model+Harness=Agent，流程编排+安全护栏的方法论
+- [[codex-operation-manual]] — Codex 从安装配置到精通的操作手册，涵盖核心能力、工作流、Skill、Java 实战
+- [[java-skills-openspec-integration]] — Java 开发 Skills 与 OpenSpec 配合使用指南：Skills 列表、OpenSpec 工作流、集成方式与应用场景
+- [[openspec-archive-modify-and-token-tradeoff]] — OpenSpec 归档需求修改流程与 Token 成本权衡：Delta Spec 增量变更 vs 全量重写决策指南
+- [[openspec-bugfix-workflow]] — OpenSpec apply 后发现 bug 的修复流程：实现 bug 直接改代码 vs 需求 bug 走 delta spec + /opsx:sync
+- [[openspec-team-sync-personal-use]] — OpenSpec 个人使用时同事代码更新后的 Spec 同步策略：拉取即核对纪律、Delta Spec 补录、分级处理
+- [[project-analysis-planning-tool-selection]] — 结合项目分析的需求规划工具选型：GSD Core（map-codebase）/SpecSuperflow/OpenSpec/SpecKit/Trellis 横向对比
+- [[java-mail-read-implementation]] — Java 项目实现读取邮件功能：IMAP 协议选型、Spring Boot 配置、Jakarta Mail 代码示例、生产环境注意事项
+
+## Sources (2026-08-25 新增)
+- [[摘要-docker-frp-内网穿透]] — Docker + FRP 内网穿透实操：frps/frpc 架构、token 认证、--network host、五大优势与工具对比
+- [[摘要-时间片-调度]] — OS 时间片与 CFS/EEVDF 调度：时间片大小权衡、sched_latency、上下文切换开销
+- [[摘要-java21-虚拟线程生产落地]] — Java 21 虚拟线程生产环境三大坑（仅标题无正文，结合实践补充常见坑点）
+- [[摘要-agent-skills-普通人教程-龙叔]] — Agent Skills 普通人构建教程：三步法、SKILL.md 三要素、会说话就会写 Skill
+- [[摘要-声网姚光华-企业级Agent可控]] — 企业级 Agent 可控与结果付费：托付梯度、自治分级 L1-L5、Evals as PRD、围栏原则
+- [[摘要-管理理解-设计生产力]] — 管理本质：设计生产力，从自己拿结果到设计系统让一群人持续做成
+- [[摘要-vibe-coding-文档管理]] — Vibe coding 文档管理：上下文工程化、五类关键文档、文档即生产系统
+- [[摘要-ai智能体企业5大工作流]] — 企业 Agent 5 大工作流：内容/销售/客服/知识库/管理，商业价值三问
+- [[摘要-agent-skills-经济学-月增5万星]] — Agent Skills 经济学：模型能力是租的技能是自己的，mattpocock/skills 月增 5 万星
+- [[摘要-huashu-excel-skill]] — 花叔 huashu-excel skill：test-time scaling、抗差统计、Twyman's Law、十份真实数据压测
+- [[摘要-langgraph-server-本地部署]] — LangGraph Server 本地离线部署：llama.cpp + Qwen GGUF 量化模型 + OpenAI 兼容 API
+- [[摘要-为什么越来越多人用gRPC]] — gRPC vs REST：HTTP/2 多路复用、Protobuf 二进制、四大慢点、Spring Boot 4.1 官方支持
+
+## Sources (2026-08-26 新增)
+- [[摘要-yC-投资人最在意的问题]] — YC 前总合伙人 Dalton 与 Gmail 创造者 PB 对话：财富不是零和游戏，价值创造 vs 价值捕获，10x better 原则
+- [[摘要-字节AI变经营单元]] — 字节 TRAE/扣子并入豆包推出豆包工作：组织手术而非产品整合，Token 效/决策周期/增效分享三大指标
+- [[摘要-miniMax-Design视频生成Agent]] — MiniMax Design 多模态创作 Agent 工作台实测：规划专业但执行有落差，Skill/3D导演台/ComfyUI 工作流
+- [[摘要-视频模型横评H3vsSeedance]] — H3 vs Seedance 2.0 fast 八场景横评：Seedance 性价比之王，H3 动效/广告各有优势
+- [[摘要-豆包工作与飞书打通]] — 豆包工作正式发布：飞书原生打通开箱即用，数据资产观与组织上下文核心价值
+
+## Entities (2026-08-26 新增)
+- [[豆包工作]] — 字节办公 Agent 产品，2026-08-25 发布，与飞书原生打通
+- [[字节跳动]] — 母公司，AI 布局：豆包工作/Seedance/TRAE/扣子/飞书
+- [[H3]] — MiniMax 视频生成模型，API 0.5元/秒，视觉动效/广告场景有优势
+- [[Seedance]] — 字节视频生成模型系列，2.0 fast 性价比之王，2.5 为 SOTA
+- [[Seedance2.0fast]] — Seedance 高性价比版本，0.6元/秒，8场景横评7胜
+- [[Seedance2.5]] — Seedance SOTA 版本，断档式领先
+- [[MiniMax]] — AI 公司，H3 视频模型 + MiniMax Design 工作台
+- [[MiniMaxDesign]] — MiniMax 多模态创作 Agent 工作台，规划型取向
+- [[LibTV]] — 视频生成 Agent 竞品，效率型取向
+- [[飞书]] — 字节办公协同平台，与豆包工作原生打通
+- [[飞书CLI]] — 飞书命令行工具，豆包工作的替代方案
+- [[穆胜咨询]] — 组织转型咨询公司，提出 Token 效等 AI 时代人效指标
+- [[穆胜]] — 穆胜咨询创始人，《平台型组织》作者
+
+## Sources (2026-08-27 新增)
+- [[摘要-豆包工作一手实测]] — 豆包工作一手实测：飞书原生打通、多 Agent 协同、Seedream/Seedance 集成、扣子工作流复用
+- [[摘要-豆包Kimi月活对比]] — 豆包月活 3.8 亿 vs Kimi 月活 729 万：被吹上神的和被用脚投票的不是同一个产品
+- [[摘要-汤道生复盘WorkBuddy与AI竞争]] — 腾讯汤道生深度复盘 WorkBuddy/元宝/AI 竞争：个人 Agent vs 服务 Agent、模型与产品 Co-Design、AI 原生组织
+- [[摘要-Anthropic官方指南-AI-Native-SDLC]] — Anthropic 官方 AI Native SDLC 手册：committed artifact 链、六阶段 Play、Plan Mode/Skills/Hooks/CI Eval/Claude Tag 闭合循环
+- [[摘要-Claude-Code与Grok-Bot被拆开后]] — Claude Code 与 Grok Bot 源码暴露事件：四层复制框架、任务托付能力五维度、AI Agent 最深护城河
+- [[摘要-面试官你掌握哪些Linux常用命令]] — Linux 常用命令面试题：grep/awk/sed 文本三剑客、top/netstat/lsof/ss 性能与网络诊断、jstack/jmap/jstat/jps JVM 排查
+- [[摘要-SpringEvent别瞎用]] — Spring Event 生产六大陷阱：优雅关闭/启动事件丢失/强一致性不适合/最终一致性适合/三种重试方案/幂等性
+
+## Entities (2026-08-27 新增)
+- [[DoubaoWork]] — 字节豆包工作办公 Agent 产品（与 [[豆包工作]] 同物，英文命名页）
+- [[Doubao]] — 字节跳动 AI 助手，月活 3.8 亿
+- [[Feishu]] — 字节飞书办公协同平台（与 [[飞书]] 同物，英文命名页）
+- [[VolcEngine]] — 火山引擎，字节跳动云服务平台，Seedream/Seedance 模型出品方
+- [[Seedream]] — 字节 AI 图像生成模型，豆包工作集成
+- [[TangDaosheng]] — 腾讯集团高级执行副总裁、CSIG CEO，WorkBuddy/元宝复盘者
+- [[Tencent]] — 腾讯集团，WorkBuddy/混元/元宝/CodeBuddy/ADP 出品方
+- [[Hunyuan]] — 腾讯混元大模型，因算力不足拖慢训练
+- [[Yuanbao]] — 腾讯元宝 AI 助手，与混元 Hy3 Co-Design 后留存提升
+- [[CodeBuddy]] — 腾讯 AI Coding 工具，WorkBuddy 的前身
+- [[ADP]] — 腾讯云智能体开发平台，服务 Agent 开箱即用配置
+- [[CodingNet]] — 腾讯云收购的代码托管与 CI/CD 产品，WorkBuddy 起源
+- [[GrokBot]] — xAI 推出的 AI Agent，0.18.0 客户端 Source Map 被外部重建
+- [[LouisClaxton]] — Anthropic 工程师，AI-Native SDLC 手册作者
+- [[Arthas]] — Alibaba 开源 Java 在线诊断工具
+- [[SpringEvent]] — Spring 事件发布订阅机制（实体页，与概念页 [[SpringEvent]] 互补）
+- [[ApplicationListener]] — Spring 事件监听者接口
+- [[EventListener]] — Spring 事件监听注解
+- [[SmartLifecycle]] — Spring 生命周期接口，建议在此开启入口流量
+- [[ContextRefreshedEvent]] — Spring 启动完成事件
+- [[SpringRetry]] — Spring 重试框架，@Retryable 注解
+- [[DeadLetterQueue]] — 死信队列，消息消费失败超重试次数的兜底
+- [[MQ]] — 消息队列，与 Spring Event 对比
+- [[grep]] — Linux 文本搜索工具
+- [[awk]] — Linux 文本处理工具
+- [[sed]] — Linux 流编辑器
+- [[top]] — Linux 系统资源监控工具
+- [[netstat]] — Linux 网络状态查看工具
+- [[lsof]] — Linux 打开文件列表工具
+- [[ss]] — Linux socket 统计工具，netstat 现代替代
+- [[jstack]] — JVM 线程堆栈查看工具
+- [[jmap]] — JVM 内存映像工具
+- [[jstat]] — JVM 统计监控工具
+- [[jps]] — JVM 进程查看工具
+- [[jinfo]] — JVM 配置信息查看工具
+- [[jhat]] — JVM 堆分析工具
+
+## Concepts (2026-08-27 新增)
+- [[AINativeSDLC]] — AI 原生软件开发生命周期：committed artifact 链、六阶段 Play、AI 嵌入每个节点
+- [[SDLC]] — 软件开发生命周期，AI 原生 SDLC 的演进基础
+- [[IntentMd]] — AI-Native SDLC 规划阶段产物，捕获任务意图
+- [[SpecMd]] — AI-Native SDLC 设计阶段产物，需求设计
+- [[PlanMd]] — AI-Native SDLC 构建阶段产物，实施计划
+- [[ReviewMd]] — AI-Native SDLC 审查阶段产物，定义审查维度和 Important/Nit 标准
+- [[AgentEval]] — AI-Native SDLC CI 持续评测，20-50 真实任务 + 事故变 eval
+- [[ClaudeTag]] — Claude 以自己身份成为 Slack/Teams 频道成员，事故第一响应者
+- [[Bands]] — 监控响应分级机制，bands.yaml 定义 1σ/2σ/3σ 响应
+- [[PlanMode]] — Claude Code 计划模式，工程师默认起点，想清楚再做
+- [[AutoMode]] — Claude Code 自动执行模式，PlanMd 接受后自主实施
+- [[Subagent]] — Claude Code 子 Agent，独立上下文和工具权限，并行会话
+- [[SourceMap]] — 前端源码映射文件，误发会降低外界理解产品成本
+- [[TaskDelegationSystem]] — 任务托付能力五维度框架：完成/控制/验证/恢复/积累
+- [[PublishSubscribePattern]] — 发布订阅模式，发布者不关心处理结果
+- [[EventualConsistency]] — 最终一致性，Spring Event/MQ 适用场景
+- [[StrongConsistency]] — 强一致性，Spring Event 不适用场景
+- [[GracefulShutdown]] — 优雅关闭，使用 Spring Event 前提，先切断入口流量再关闭上下文
+
+## Sources (2026-09-01 新增)
+- [[摘要-es-为什么快-面试深度]] — ES 为什么快面试深度解析：倒排索引/FST+TermIndex/DocValues/Segment不可变/分片并行/NRT四层叠加
+- [[摘要-5步用ai把客户常见问题变成自动回复系统]] — 用 ima/飞书/FlowUs 知识库+AI 搭建自动答疑系统五步流程，两类问题都能解决
+- [[摘要-飞书豆包超级上下文]] — 飞书成豆包工作超级上下文：群聊周报/内容资产盘点/剪映操作/文件整理入飞书，有最好上下文才有最好Agent
+- [[摘要-做ai产品先回答谁付钱]] — AI产品朴素五问：谁付钱/解决什么问题/需要什么数据/如何进入工作流/如何创造可衡量价值，三大非共识
+- [[摘要-ai时代重写品牌战略五大理由]] — AI时代品牌大趋同危机，重写品牌操作系统五大路径：需求主导力/塑造需求逻辑/品牌实体/交互体系/资本投入论证
+- [[摘要-为什么越来越多人用opensearch]] — OpenSearch从ES fork到Linux基金会托管，段复制/读写分离/9.5倍性能/混合搜索，Apache 2.0全栈免费
+
+## Entities (2026-09-01 新增)
+- [[OpenSearch]] — Linux基金会托管的开源搜索分析平台，Apache 2.0，段复制+读写分离+GPU加速向量索引
+
+## Concepts (2026-09-01 新增)
+- [[FST]] — 有限状态转换器，Lucene Term Index 的前缀压缩结构，O(len)查询、前缀共享、内存常驻
+- [[TermIndex]] — 词典查询三层结构第一层，存Term前缀常驻内存，最少一次磁盘寻址定位词典
+- [[DocValues]] — 列式存储结构，排序聚合不用回源解析倒排原文，与倒排索引分工
+- [[Segment]] — Lucene不可变存储单元，带来无锁读取/高压缩率/吃满PageCache三重红利
+- [[AIProduct]] — AI产品方法论：先回答谁付钱解决什么问题，功能无壁垒业务数据循环才有
+- [[KnowledgeBase]] — 知识库作为RAG数据底座，防止AI胡说、确保答案一致、解放重复劳动
+- [[SuperContext]] — 超级上下文：Agent所需背景沉淀在统一平台可直接读取，飞书是典型代表
+- [[AgentWorkflow]] — Agent工作流：连接信息/人员/业务动作形成人机协同，区别于单点Agent
+- [[BrandStrategy]] — AI时代品牌战略：从定位文件升级为可迭代操作系统，五大重写路径
+- [[IntentEconomy]] — 意图经济：用户表达需求AI解读执行，发现/评估/购买坍缩至同一瞬间
+- [[BrandFlattening]] — 品牌大趋同：复用同类AI工具/提示词/话术导致表达趋同，问题在上游战略
+- [[DemandLeadership]] — 需求主导力：比同行更深读懂客户关键时刻，品类划战场需求定规则
+- [[BrandEntity]] — 品牌实体：品牌在AI知识图谱中的独立身份，信息不一致则可信度不足
+- [[InteractionSystem]] — 交互体系：以一次次交互取代营销战役，品牌与用户交互行动图
+- [[SegmentReplication]] — 段复制：OpenSearch 2.7，主分片生成段文件直接复制给副本，副本不重新索引
+- [[ReadWriteSeparation]] — 读写分离：OpenSearch 3.0，Primary/WriteReplica/SearchReplica三角色硬件级隔离
+- [[HybridSearch]] — 混合搜索：BM25关键词+k-NN语义同时进行，归一化后组合，互补精确匹配与语义相似
+
+## Sources (2026-09-01 批量 ingest - AI Agent 面试题系列)
+- [[摘要-what-is-ai-agent]] — 面试题辨析 Agent 与 ChatBot 区别：Agent 有循环/工具/记忆/终止条件
+- [[摘要-react-vs-cot]] — ReAct（Reasoning+Acting）模式拆解，与 CoT 和 Plan-and-Execute 对比选型
+- [[摘要-what-is-context-window]] — 上下文窗口本质：LLM 单次处理最大 token 数，不是聊天窗口
+- [[摘要-what-is-context-engineering]] — Context Engineering：管理上下文窗口内容的工程实践
+- [[摘要-what-is-prompt-engineering]] — Prompt Engineering：设计优化 LLM 提示词的工程实践
+- [[摘要-what-is-harness-engineering]] — Harness Engineering：为 LLM 搭建外壳的工程实践
+- [[摘要-what-is-loop-engineering]] — Loop Engineering：设计 Agent 循环结构的工程实践
+- [[摘要-plan-and-execute-vs-react]] — Plan-and-Execute vs ReAct 选型：简单用 ReAct 复杂用 Plan-and-Execute
+- [[摘要-why-context-window-not-infinite]] — 上下文窗口受限原因：O(n²)复杂度/显存/注意力衰减
+- [[摘要-why-llm-has-no-memory]] — LLM 无状态本质：短期记忆靠窗口，长期记忆靠外部存储
+- [[摘要-ai-agent-core-components]] — AI Agent 核心组件：模型/工具/记忆/循环/规划/执行器
+- [[摘要-agent-vs-chatbot]] — Agent vs ChatBot：如何从零让聊天机器人进化成 Agent
+- [[摘要-agent-workflow-context-engineering]] — Agent 完整执行过程：感知→规划→工具→观察→循环
+- [[摘要-function-calling-principle]] — Function Calling 原理：LLM 通过 JSON Schema 声明调用函数
+- [[摘要-agent-context-explosion]] — Agent 上下文爆炸四种方案：滑动窗口/摘要/分层记忆/RAG
+- [[摘要-agent-skill-hit-rate]] — Skill 命中率：描述写法/分层路由/RAG 预检索提升命中率
+- [[摘要-agent-rag-pdf]] — Agent 处理 PDF 的 RAG 方案：解析→分块→Embedding→检索→Rerank
+- [[摘要-agent-short-term-memory]] — Agent 短期记忆：对话历史数组+摘要压缩
+- [[摘要-agent-long-term-memory]] — Agent 长期记忆：外部文件/数据库存储+启动加载
+- [[摘要-agent-memory-input]] — 给 Agent 设计记忆系统：短期靠窗口长期靠外部存储
+- [[摘要-react-death-loop]] — ReAct 死循环问题及终止机制设计
+- [[摘要-multi-agent-collaboration]] — Multi-Agent 协作：编排器模式四步流程
+- [[摘要-workflow-vs-agent]] — Workflow vs Agent：能画流程图是 Workflow 画不出是 Agent
+- [[摘要-why-agent-becomes-dumb]] — Agent 变笨原因：上下文污染/无关信息干扰/注意力分散
+
+## Sources (2026-09-01 批量 ingest - Claude Code/Codex 记忆系列)
+- [[摘要-claude-code-short-term-memory]] — Claude Code 短期记忆三层机制：数组存储+摘要压缩
+- [[摘要-claude-code-long-term-memory]] — Claude Code 长期记忆：CLAUDE.md 文件存储+启动加载
+- [[摘要-claude-code-memory-retrieval]] — Claude Code 检索长期记忆：全文注入/关键词匹配
+- [[摘要-claude-code-commands]] — Claude Code 实用命令和使用经验分享
+- [[摘要-how-to-write-claude-md]] — CLAUDE.md 写法：分层组织/简洁明确/避免冲突
+- [[摘要-codex-short-term-memory]] — Codex 短期记忆：与 Claude Code 差别很大的压缩策略
+- [[摘要-codex-long-term-memory]] — Codex 长期记忆：SQLite 存储+记忆形成/淘汰机制
+
+## Sources (2026-09-01 批量 ingest - Codex 版本更新系列)
+- [[摘要-codex-update-2026-04]] — Codex 大版本更新：Computer Use/浏览器/图像生成/90+插件/Memory/自动化
+- [[摘要-codex-april-2026-deep-review]] — Codex 深度评测：六大能力+Chronicle 屏幕记忆
+- [[摘要-codex-desktop-review]] — Codex 桌面版：从 CLI 到 GUI，一人指挥 Agent 军团
+- [[摘要-codex-mobile-chatgpt]] — 手机版 Codex+ChatGPT 移动端体验评测
+
+## Sources (2026-09-01 批量 ingest - DeepSeek V4 技术系列)
+- [[摘要-deepseek-v4-csa-hca-kv-cache]] — DeepSeek V4 三大技术：CSA/HCA/KV Cache 优化
+- [[摘要-deepseek-v4-replace-mla]] — DeepSeek V4 用 CSA/HCA 替换 MLA 的原因分析
+- [[摘要-why-post-training-beats-params]] — Flash 13B 碾压 Pro 49B：后训练比参数量更重要
+- [[摘要-deepseek-v4-review]] — DeepSeek V4 灰度曝光深度体验
+- [[摘要-what-is-moe]] — MoE 混合专家架构：路由激活部分专家降低计算量
+- [[摘要-responses-api-vs-chat-completions]] — Responses API vs Chat Completions API 区别
+- [[摘要-api-cache-pricing]] — API 缓存命中和未命中差价巨大的原因分析
+
+## Sources (2026-09-01 批量 ingest - AI 工具评测系列)
+- [[摘要-token-compression-11-tips]] — Claude Code 省 Token 神器：11 万压到 2 万
+- [[摘要-23-ai-agent-tools]] — 23 个 AI Agent 工具评测精选推荐
+- [[摘要-minimax-skills-review]] — MiniMax Skills 实测：AI 写代码天花板拉高
+- [[摘要-claude-code-source-leak]] — Claude Code 源码泄露：6 个神级 Agent Prompt
+- [[摘要-claude-code-deepseek-v4-agent]] — Claude Code+DeepSeek V4 国产最强 Agent
+- [[摘要-bmad-method-review]] — BMad-METHOD 33k+ Star：敏捷开发团队搬进 AI
+- [[摘要-learn-claude-code-review]] — learn-claude-code 35k+ Star：从零手搓 Claude Code
+- [[摘要-rag-upgrade-to-agent]] — 一天把 RAG 升级成 Agent 实战
+- [[摘要-skills-explained-trae-java]] — Skills 本质：预定义指令集三要素
+- [[摘要-skill-md-23k-star]] — 一个 SKILL.md 拿下 2.3 万 Star：少说废话先给答案
+- [[摘要-6-skills-recommendation]] — 6 个效率翻倍 Skills：Codex 和 Claude Code 通用
+- [[摘要-claude-code-commands-20k]] — Claude Code 指南合集 20k+ Star
+- [[摘要-skill-open-source-28k]] — Skill 开源 2.8K 星标：Agent 联网能力拉满
+- [[摘要-skill-open-source-18k]] — Skill 开源 1.8K 星标：Agent 联网能力拉满
+- [[摘要-top-10-agent-skills]] — Top 10 Agent Skills 评测：总安装量 20 万+
+- [[摘要-top-3-browser-agents]] — Top 3 Claude Code 浏览器 Agent：省 90% tokens
+- [[摘要-warp-best-terminal]] — Warp 终端：Claude Code/OpenClaw 最佳搭档
+
+## Sources (2026-09-01 批量 ingest - 开源项目/Harness 系列)
+- [[摘要-skillhub-open-source]] — SkillHub 官宣开源：AI Agent 技能包私有 npm
+- [[摘要-skillhub-iflytek]] — 科大讯飞 SkillHub：企业级 Agent Skill 商店
+- [[摘要-openharness-review]] — OpenHarness 3.9K Star：1 万行复刻 Claude Code 98%
+- [[摘要-cordis-deepseek-harness]] — Cordis：DeepSeek Harness 插件系统
+- [[摘要-anthropic-harness-release]] — Anthropic 官方 Harness 发布：提速 10 倍
+- [[摘要-why-harness-matters-2026]] — 2026 年 Harness 成为 AI 竞争核心
+- [[摘要-skills-principle-tutorial]] — Skills 底层原理/开发实战/最佳实践
+
+## Sources (2026-09-01 批量 ingest - Embedding/Rerank)
+- [[摘要-embedding-rerank-rag]] — Embedding/Rerank 原理：结合派聪明 RAG 和 PaiCLI 实战
+
+## Sources (2026-09-01 批量 ingest - Java 八股文系列)
+- [[摘要-rocketmq-23-questions]] — RocketMQ 23 道高频面试题
+- [[摘要-jvm-interview]] — JVM 面试题：内存模型/垃圾回收/类加载/调优
+- [[摘要-mysql-66-questions]] — MySQL 66 道高频面试题
+- [[摘要-mybatis-interview]] — MyBatis 面试题：缓存/动态 SQL/映射/插件
+- [[摘要-redis-50-questions]] — Redis 50 道高频面试题
+- [[摘要-distributed-system-interview]] — 分布式八股文背诵版
+- [[摘要-design-patterns-interview]] — 设计模式 5 道八股文 3000 字 10 张手绘图
+- [[摘要-microservice-interview]] — 微服务面试题背诵版
+- [[摘要-java-collections-interview]] — Java 集合框架八股文理解版
+- [[摘要-spring-interview]] — Spring 面试题：IoC/AOP/Bean 生命周期/事务
+- [[摘要-linux-interview]] — Linux 面试题 1 万字 2 张手绘图
+- [[摘要-openclaw-54-questions]] — OpenClaw 54 道龙虾八股文
+- [[摘要-skills-33-questions]] — Skills 33 道八股文 1 万字 40 张手绘图
+- [[摘要-os-interview]] — 操作系统面试题：进程线程/内存管理/文件系统
+
+## Sources (2026-09-01 批量 ingest - 其他)
+- [[摘要-agent-cli-harness-opus]] — Claude 的 CLI/Agent/Opus 区别：分层架构
+- [[摘要-free-ai-tokens]] — 20+ AI 平台免费 Token 薅羊毛汇总
+- [[摘要-claude-code-skill-creator]] — Claude Code Skill Creator 原理拆解
+- [[摘要-java-learning-day1]] — 离职在家学习 Java 第一天
+- [[摘要-computer-network-first-book]] — 计算机网络学习资料推荐
+- [[摘要-codex-markdown-to-feishu]] — Codex 插件实现 Markdown 秒传飞书
+
+## Entities (2026-09-01 lint 修复 - 新建)
+- [[Claude-Code]] — Anthropic AI 编程 Agent，短期记忆+长期记忆+工具调用+循环控制
+- [[Codex]] — OpenAI AI 编程 Agent，SQLite 长期记忆，2026 年大版本更新 Computer Use
+- [[Opus]] — Anthropic 旗舰模型系列，Opus 4.7 为 2026 最新版
+- [[Claude]] — Anthropic AI 产品线，含模型层/CLI 层/Harness 层/Agent 层
+- [[ChatGPT]] — OpenAI 对话产品，与 Codex 配合移动端使用
+- [[DeepSeek-V4]] — 国产旗舰模型，CSA/HCA 替换 MLA，Flash 13B 碾压 Pro 49B
+- [[SQLite]] — 轻量级嵌入式数据库，Codex 用它存储长期记忆
+- [[SkillHub]] — 科大讯飞开源企业级 Agent Skill 商店，1.5K Star
+- [[科大讯飞]] — 中文语音和 AI 技术公司，开源 SkillHub
+- [[OpenHarness]] — HKUDS 开源 Harness，1 万行复刻 Claude Code 98%，3.9K Star
+- [[Cordis]] — DeepSeek Harness 的插件系统
+- [[BMad-METHOD]] — 33k+ Star，把敏捷开发团队搬进 AI 的框架
+- [[learn-claude-code]] — 35k+ Star，从零手搓 Claude Code 开源项目
+- [[Warp]] — Claude Code/OpenClaw 最佳终端搭档
+- [[TRAE]] — AI 开发工具，用 TRAE+Java 源码实战讲解 Skills
+- [[AI平台]] — AI 平台免费 Token 薅羊毛汇总概念
+
+## Concepts (2026-09-01 lint 修复 - 新建)
+- [[AI-Agent]] — AI Agent：自主决策循环系统，有 Loop/Tool/Memory/终止条件
+- [[ChatBot]] — 单轮对话系统，无状态无工具，与 Agent 区别在于缺三件套
+- [[ReAct]] — Reasoning+Acting 交替循环，与 CoT 区别在于行动环节
+- [[ChainOfThought]] — CoT 推理链，只推理不行动，ReAct 前身
+- [[Plan-and-Execute]] — 先规划完整计划再逐步执行，与 ReAct 选型
+- [[Multi-Agent]] — 多 Agent 协作，编排器模式中心调度
+- [[Orchestrator]] — 编排器：Multi-Agent 中心调度，拆任务/派活/收结果
+- [[Workflow]] — 开发者预定义流程，LLM 干活不决定走向，与 Agent 区别
+- [[ContextWindow]] — 上下文窗口：LLM 单次处理最大 token 数
+- [[上下文爆炸]] — Agent 上下文窗口填满问题，四种方案：滑动/摘要/分层/RAG
+- [[短期记忆]] — Agent 对话历史数组+摘要压缩，关机即失
+- [[长期记忆]] — Agent 外部文件/数据库存储，启动加载，含形成/检索/淘汰
+- [[LLM无状态]] — LLM 每次推理独立无状态，记忆靠工程实现
+- [[PromptEngineering]] — 设计优化 LLM 提示词，管「怎么对模型说话」
+- [[HarnessEngineering]] — 为 LLM 搭建外壳：工具/上下文/循环/错误/安全
+- [[Agent架构]] — Agent 核心组件：模型/工具/记忆/循环/规划/执行器
+- [[Agent面试题]] — AI Agent 高频面试题集合
+- [[Skill命中率]] — 几十个 Skill 时确保选对的工程手段
+- [[Token压缩]] — 降低 Agent Token 消耗的工程手段
+- [[浏览器Agent]] — 让 AI Agent 直接操作浏览器的工具
+- [[CLAUDE-md]] — Claude Code 长期记忆文件，项目规范/编码约定/常用命令
+- [[ComputerUse]] — Codex 让 Agent 直接操作桌面应用的能力
+- [[Chronicle]] — Codex 屏幕记忆功能，把屏幕内容放进记忆
+- [[CLI]] — 命令行接口层，位于模型层之上 Harness 层之下
+- [[CSA]] — Continuous Static Attention，DeepSeek V4 新注意力机制
+- [[HCA]] — Hybrid Cache Attention，DeepSeek V4 新注意力机制
+- [[MLA]] — Multi-Head Latent Attention，DeepSeek 上一代注意力机制
+- [[MoE]] — Mixture of Experts 混合专家架构，路由激活部分专家
+- [[KVCache]] — LLM 推理缓存 Key-Value 对避免重复计算
+- [[灰度曝光]] — MoE 架构逐步激活专家的工程策略
+- [[ResponsesAPI]] — OpenAI 新一代接口，支持内置工具/多轮编排
+- [[ChatCompletionsAPI]] — OpenAI 传统单轮对话接口
+- [[API缓存]] — 大模型 API 缓存定价策略，命中未命中差价巨大
+- [[Embedding]] — 文本转向量技术，RAG 基础
+- [[Rerank]] — RAG 精排步骤，向量召回后重新排序
+- [[Skills]] — 预定义指令集，三要素：名称/描述/文件路径
+- [[Java集合框架]] — List/Set/Map 三大体系，ArrayList/HashMap 原理
+- [[分布式]] — CAP/BASE/一致性算法/分布式锁/分布式事务
+- [[微服务]] — 服务注册发现/配置中心/网关/熔断降级/链路追踪
+- [[操作系统]] — 进程线程/内存管理/文件系统/IO/调度算法
+- [[计算机网络]] — TCP/IP/HTTP/DNS/网络安全
+- [[FRP]] — Fast Reverse Proxy 内网穿透工具
+
+## 历史未同步索引补注册 (2026-09-01 lint 修复)
+- [[LlamaParse]] — LlamaParse 概念页（已存在未注册）
+- [[VectorStoreIndex]] — VectorStoreIndex 概念页（已存在未注册）
+- [[检查点机制]] — 检查点机制概念页（已存在未注册）
+- [[扣子]] — 扣子实体页（已存在未注册）
+- [[豆包]] — 豆包实体页（已存在未注册）
+- [[摘要-yc投资人最在意的问题]] — YC 投资人最在意的问题（已存在未注册）
+- [[摘要-你的hr还在算人均营收]] — HR 人均营收分析（已存在未注册）
+- [[摘要-实测minimax-design]] — MiniMax Design 实测（已存在未注册）
+- [[摘要-烧掉500块实测h3-seedance]] — H3 vs Seedance 视频模型横评（已存在未注册）
+- [[摘要-百度搜索结果-微信文章]] — 百度搜索结果微信文章（已存在未注册）
+- [[摘要-飞书豆包合并后第一个agent产品豆包工作]] — 飞书豆包合并后豆包工作产品（已存在未注册）
+
+## Sources (2026-09-01 新增 ingest - 6篇文章)
+- [[摘要-ai时代个人持续进步5个思考]] — AI时代个人持续进步的5个思考：直面AI/带着问题学AI/重视数据质量/保留独立判断/不忘生活美好
+- [[摘要-Agent上下文管理概述]] — Agent上下文组织与压缩策略：Pi Agent/OpenCode/Manus等工业级方案
+- [[摘要-DeepSeekHarness-MCP-Manager插件]] — DSH的MCP管理和Skills管理插件，HMR热应用即时生效
+- [[摘要-marketingskills营销技能包]] — 一套Markdown文件让AI编码智能体变成半个CMO，共享上下文设计
+- [[摘要-Penpot-UIUX-Design-MCP工具链]] — 将设计判断力编码成MCP工具链的工作流，先探查再创建
+- [[摘要-共享单车通信原理]] — 共享单车的智能车锁、NB-IoT、GPS定位、蓝牙通信技术原理
+
+## Entities (2026-09-01 新增 ingest)
+- [[卡神]] — AI领域创业者，其AI组织7点心得引发思考
+- [[产品小球]] — 微信公众号作者，产品经理，分享AI时代个人成长思考
+- [[marketingskills]] — 营销技能包项目，4.1万Star，49个营销技能
+- [[CoreyHaines]] — marketingskills维护者，转化率优化出身
+- [[PenpotUIUXDesign]] — Penpot设计判断力MCP工具链Skill
+- [[共享单车]] — 基于物联网技术的共享出行工具
+- [[SAP]] — 全球领先 ERP 软件供应商，统驭科目/自动记账/三层科目表实现业财一体化
+
+## Concepts (2026-09-01 新增 ingest)
+- [[AI时代个人成长系统]] — AI时代可持续成长系统：5个思考形成飞轮
+- [[AI时代不可外包的能力]] — 问题定义权/假设检查权/取舍决策权/最终责任
+- [[Agent上下文管理]] — Agent运行过程中上下文组织与压缩的技术方案
+- [[上下文压缩]] — 对Agent上下文进行压缩以适应有限窗口的技术
+- [[Tool Result Pruning]] — OpenCode的工具结果剪枝策略
+- [[结构化压缩]] — Pi Agent使用的基于提示词的结构化压缩策略
+- [[KV Cache压缩]] — Transformer层的Key-Value压缩技术
+- [[MCP管理]] — MCP服务器的新增/删除/启用/停用/重启等操作
+- [[Skills管理]] — Agent Skills的浏览/搜索/启用/停用等操作
+- [[HMR热应用]] — Hot Module Replacement模块热替换技术
+- [[共享上下文]] — marketingskills的核心设计理念
+- [[产品上下文]] — product-marketing.md文件，包含产品定位等信息
+- [[Marketing Skills]] — 营销技能集合，覆盖全链路
+- [[先探查再创建]] — penpot-uiux-design的核心架构思想
+- [[API gotchas]] — Penpot Plugin API踩坑记录
+- [[设计系统]] — 团队已攒的设计规范
+- [[智能车锁]] — 共享单车核心硬件，集成芯片/GPS/SIM卡
+- [[NB-IoT]] — 窄带物联网，共享单车主流通信技术
+- [[GPS定位]] — 通过GPS获取设备地理位置信息的技术
+- [[蓝牙通信]] — 短距离无线通信，作为网络通信的补充
+- [[git-reset-hard]] — Git 最危险操作之一，移动 HEAD + 清空工作目录，可用 reflog 恢复
+- [[git-push-force]] — 团队协作最严重错误，直接覆盖远程，应用 --force-with-lease 替代
+- [[git-reflog]] — 记录本地所有 HEAD 变动，找回误删提交的保险绳
+- [[--force-with-lease]] — git push --force 的安全替代，检查远程分支状态后才推送
+- [[git-stash]] — 暂存未提交修改到栈中，推荐 apply + drop 而非 pop
+- [[合并冲突]] — merge/rebase/cherry-pick 中的冲突标记，需手动解决后提交
+- [[Qwen3.8-Flash]] — 采用 Next 架构的轻量模型，125B/6B 激活，训练成本降 90%，性能超 Opus
+- [[Next架构]] — 阿里为 Qwen4 准备的新架构，混合注意力+四通道读写+外挂速查手册
+- [[IntelligencePerDollar]] — 英伟达提出的"每一美元能买到多少智能"新指标
+- [[能力边界]] — 产品经理需明确的大模型稳定完成范围，分模型/系统/业务三层
+- [[AgentLoop]] — AI Agent 核心执行循环（计划→调用→读取→决策），需设硬限制
+- [[Memory治理]] — AI 记忆分类管理（会话状态/偏好/业务事实/操作记录），需权限控制
+- [[评测闭环]] — 离线评测→影子模式→线上反馈→持续改进的完整质量保障机制
+- [[发布门槛]] — 上线前必须满足的业务可执行条件，按参考/辅助/执行三级开放
+- [[长上下文陷阱]] — "能放进去"≠"能稳定使用"，Lost in the Middle 现象需评测验证
+- [[业财一体化]] — 财务数字化底座，业务动作自动触发财务凭证，通过统驭科目实现
+- [[财务共享]] — 分散核算集中处理，前提是业财一体化已打通，IT 只占三成
+- [[报表合并]] — 集团子公司数据合并抵消，前提是口径统一，需内部往来抵消
+- [[统驭科目]] — SAP 配置，禁止总账直接录入，所有数据通过子分类账自动汇集
+- [[GR-IR]] — 收货收发票过渡科目，货到票未到先挂这里
+- [[集团科目表]] — 三层科目表的中间层，将子公司科目映射到集团统一口径
+- [[内部往来抵消]] — 报表合并核心机制，将集团内交易在集团视角下相互抵消
+- [[开源生态]] — 开源引流+算力赚钱的商业模式，适配成本构成生态壁垒
+- [[Agent落地]] — Agent 从演示推向生产的关键是成本，调用越多对单价越敏感
+
+## Sources (2026-09-03 新增 ingest)
+- [[摘要-顶模-fable-51发布到底强了多少]] — Anthropic 发布 Fable 5.1 模型，长任务能力进步明显，缓存读取价降 25–45%，可一键生成 4A 游戏原型
+- [[摘要-淘宝正式上线ai空间站]] — 淘宝上线"AI空间站"，大模型Token套餐作为标准化商品在电商平台销售
+- [[摘要-腾讯内测cheso一个专做ppt的ai-agent]] — 腾讯内测Cheso AI Agent，专做演示文稿，集成多个国内外AI模型
+- [[摘要-一个项目管理软件的诞生九从project到space]] — 企业研发平台信息组织问题，区分Project（临时交付）和Space（长期归属）
+- [[摘要-ai写blog全套sop让内容产出效率提升20倍]] — 结合AI的Blog写作SOP，从关键词研究到内容更新的完整流程
+- [[摘要-公司空降一个cto禁止在项目中使用date类]] — Java Date类设计缺陷与迁移到java.time包的完整方案
+- [[摘要-再见navicatxshell一款高颜值的数据库sshdocker管理工具]] — HexHub全栈开发运维工具，集成数据库管理、SSH终端、Docker管理
+
+## Entities (2026-09-03 新增 ingest)
+- [[Fable 5.1]] — Anthropic 最强大语言模型，100万Token上下文，擅长长任务编码
+- [[Mythos 5.1]] — Fable 5.1 姊妹模型，安全限制更大，面向网络安全和生命科学机构
+- [[Anthropic]] — AI安全公司，Claude系列模型开发公司
+- [[淘宝]] — 阿里巴巴旗下电商平台，上线AI空间站销售Token套餐
+- [[AI空间站]] — 淘宝Token充值中心，AI服务标准化销售平台
+- [[智谱]] — 中国大模型公司，GLM-5.3模型，首批入驻AI空间站
+- [[Kimi]] — 中国大模型公司，首批入驻AI空间站
+- [[MiniMax]] — 中国大模型公司，首批入驻AI空间站
+- [[腾讯]] — 中国互联网科技公司，开发Cheso AI Agent
+- [[Cheso]] — 腾讯内测AI Agent，专做演示文稿，集成多个AI模型
+- [[WeLM]] — 微信开发的大语言模型
+- [[腾讯混元]] — 腾讯开发的大语言模型
+- [[Google Gemini]] — Google开发的大语言模型
+- [[DeepSeek]] — 中国AI公司开发的大语言模型
+- [[GLM]] — 智谱公司开发的大语言模型
+- [[阿里巴巴Qwen]] — 阿里巴巴公司开发的大语言模型
+- [[Jira]] — Atlassian公司开发的项目管理工具
+- [[飞书项目]] — 字节跳动开发的项目管理工具
+- [[ONES]] — 中国公司开发的项目管理工具
+- [[TAPD]] — 腾讯开发的项目管理工具
+- [[Atlassian]] — 澳大利亚软件公司，Jira开发公司
+- [[HexHub]] — 全栈开发运维工具，集成数据库管理、SSH终端、Docker管理
+- [[Navicat]] — 流行的数据库管理工具
+- [[FinalShell]] — SSH终端工具
+- [[Portainer]] — Docker容器管理工具
+- [[Date]] — Java中需要废弃的日期时间类
+- [[java.time]] — Java现代日期时间API包
+- [[LocalDateTime]] — java.time包中表示日期时间的类
+- [[Instant]] — java.time包中表示时间戳的类
+- [[DateTimeFormatter]] — java.time包中日期时间格式化类
+
+## Concepts (2026-09-03 新增 ingest)
+- [[Vibe Coding]] — 通过自然语言提示让AI模型生成完整代码的工作流程
+- [[长任务编码]] — AI模型处理需要较长时间和大量计算资源的编码任务
+- [[游戏生成]] — 使用AI技术自动生成游戏内容、场景、玩法等元素
+- [[Token套餐]] — 大模型厂商提供的标准化订阅服务
+- [[订阅制]] — 用户定期支付费用以获得持续产品或服务访问权的商业模式
+- [[数字水电煤]] — AI服务像水、电、煤一样成为日常生活必需品的趋势
+- [[AI Agent]] — 能够感知环境、做出决策并采取行动的人工智能系统
+- [[演示文稿生成]] — 使用AI技术自动生成演示文稿的过程
+- [[多模型路由]] — 根据任务需求和模型能力动态选择最合适的AI模型
+- [[Project]] — 项目管理软件中的顶层容器，传统上用于一次性交付项目
+- [[Space]] — 项目管理软件中用于长期归属的容器
+- [[长期归属]] — 工作项在企业研发平台中的稳定、长期的所属关系
+- [[交付上下文]] — 工作项在企业研发平台中参与的一次性交付活动
+- [[工作项]] — 企业研发平台中的基本工作单元
+- [[视图]] — 面向决策的投影，同一对象网络的查询与操作入口
+- [[仪表盘]] — 跨多个空间的数据组合入口
+- [[个人工作台]] — 以人为中心的跨空间入口
+- [[信息架构]] — 企业研发平台的信息组织方式
+- [[责任关系]] — 用户与工作项之间的责任关联
+- [[SEO]] — 搜索引擎优化，通过优化网站内容和结构提高搜索排名
+- [[E-E-A-T]] — Google评估内容质量的核心原则
+- [[搜索意图]] — 用户在搜索引擎中输入查询时背后的真实目的
+- [[关键词集群]] — 围绕核心主题的一组相关关键词
+- [[内容日历]] — 规划和安排内容发布的时间表
+- [[内容差距分析]] — 分析自身网站与竞品网站在内容主题上的差异
+- [[SEO内容大纲]] — 为SEO优化的文章生成的详细结构规划
+- [[AI初稿]] — 使用AI工具根据SEO内容大纲生成的初始文章草稿
+- [[On-Page SEO]] — 针对网页内容本身进行的搜索引擎优化
+- [[内容质量审查]] — 对内容进行全面质量评估
+- [[事实核查]] — 对内容中的事实性声明进行核实
+- [[去AI味]] — 将AI生成的内容重写使其读起来像人类专家写
+- [[内容更新策略]] — 对已发布内容进行定期审查和更新
+- [[Topic Cluster]] — 一种内容组织模型，围绕核心主题创建支撑内容
+- [[API迁移]] — 将代码从旧的有缺陷的API迁移到新的更好的API
+- [[不可变性]] — 对象一旦创建后就不能被修改的特性
+- [[时区处理]] — 在日期时间处理中正确处理时区差异
+- [[数据库管理]] — 对数据库进行设计、操作、维护和优化
+- [[SSH终端]] — 通过SSH协议连接到远程服务器进行命令行操作
+- [[Docker管理]] — 对Docker容器进行管理、监控和维护
+- [[全栈开发运维]] — 将开发、测试、运维等多个环节集成在一个工具中

@@ -2,7 +2,7 @@
 title: "摘要-过滤器Filter与拦截器Interceptor的区别"
 type: source
 tags: [来源, Spring, Java]
-sources: [raw/01-articles/过滤器Filter与拦截器Interceptor的区别.md]
+sources: [raw/09-archive/过滤器Filter与拦截器Interceptor的区别.md]
 last_updated: 2026-05-19
 ---
 

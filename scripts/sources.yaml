@@ -1,0 +1,115 @@
+sources:
+- name: 博客园
+  type: rss
+  url: https://www.cnblogs.com/rss.aspx
+  tags:
+  - 编程
+  - 中文
+  - 技术
+  enabled: true
+  max_per_source: 10
+- name: 掘金-后端
+  type: api
+  url: https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed
+  method: POST
+  payload:
+    before: '0'
+    limit: 10
+    category_id: '6809637769959178254'
+  data_path:
+  - data
+  item_path:
+  - item_info
+  - article_info
+  title_field: title
+  link_template: https://juejin.cn/post/{article_id}
+  tags:
+  - Java
+  - 后端
+  - 编程
+  - 中文
+  enabled: true
+  max_per_source: 10
+- name: 掘金-AI
+  type: api
+  url: https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed
+  method: POST
+  payload:
+    before: '0'
+    limit: 10
+    category_id: '6809637773935378440'
+  data_path:
+  - data
+  item_path:
+  - item_info
+  - article_info
+  title_field: title
+  link_template: https://juejin.cn/post/{article_id}
+  tags:
+  - AI
+  - LLM
+  - 编程
+  - 中文
+  enabled: true
+  max_per_source: 10
+- name: 知乎探索
+  type: scrape
+  url: https://www.zhihu.com/explore
+  selector: a[href*='/question/']
+  link_prefix: https://www.zhihu.com
+  tags:
+  - 科技
+  - 问答
+  - 中文
+  enabled: true
+  max_per_source: 10
+- name: SegmentFault
+  type: rss
+  url: https://segmentfault.com/feeds
+  tags:
+  - 中文
+  - 编程
+  - 问答
+  - 技术
+  enabled: true
+  max_per_source: 10
+- name: 36氪
+  type: rss
+  url: https://36kr.com/feed
+  tags:
+  - 科技
+  - 创投
+  - 新闻
+  - 中文
+  enabled: true
+  max_per_source: 10
+- name: 人人都是产品经理
+  type: rss
+  url: https://www.woshipm.com/feed
+  tags:
+  - 产品经理
+  - AI产品
+  - Agent
+  - 中文
+  enabled: true
+  max_per_source: 10
+- name: CSDN-Java
+  type: scrape
+  url: https://blog.csdn.net/nav/java
+  selector: a[href*='/article/details/']
+  link_prefix: https://blog.csdn.net
+  tags:
+  - Java
+  - 后端
+  - 编程
+  - 中文
+  enabled: true
+  max_per_source: 10
+filter:
+  min_score: 0.6
+  max_per_source: 5
+  max_total: 10
+storage:
+  raw_dir: raw/01-articles
+  digest_file: raw/_daily_digest.md
+  seen_file: scripts/.seen_urls.json

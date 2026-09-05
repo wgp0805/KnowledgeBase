@@ -2,7 +2,7 @@
 title: "Qoder"
 type: entity
 tags: [AI, 编码工具]
-sources: [raw/01-articles/用Qoder 提交PaiAgent到 GitHub，使用 Qoder CLI 完成节点配置和页面美化.md, raw/01-articles/用Qoder搭建PaiAgent项目脚手架.md]
+sources: [raw/01-articles/用Qoder 提交PaiAgent到 GitHub，使用 Qoder CLI 完成节点配置和页面美化.md, raw/09-archive/用Qoder搭建PaiAgent项目脚手架.md]
 last_updated: 2026-05-19
 ---
 
@@ -17,5 +17,5 @@ Qoder 是一款 AI 驱动的编码工具，提供 CLI 交互方式和 Quest Mode
 
 ## 关联连接
 - [[PaiAgent]] — AI Agent 项目
-- [[QoderCLI]] — Qoder 命令行工具
+- [[Qoder]] — Qoder 命令行工具与平台
 - [[GitHub]] — 代码托管

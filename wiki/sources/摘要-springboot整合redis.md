@@ -2,7 +2,7 @@
 title: "摘要-springboot整合redis"
 type: source
 tags: [来源, SpringBoot, Redis]
-sources: [raw/01-articles/springboot整合redis.md]
+sources: [raw/09-archive/springboot整合redis.md]
 last_updated: 2026-05-19
 ---
 
@@ -15,3 +15,5 @@ Spring Boot 整合 Redis 及 RedisTemplate 的完整 API 使用指南，覆盖 V
 - [[Jedis]] — Redis Java 客户端
 - [[SpringDataRedis]] — Spring Redis 支持
 - [[RedisTemplate]] — Redis 操作模板
+- [[Redisson]] — Redis 分布式锁
+- [[摘要-Docker部署Redis全攻略]] — Redis 部署

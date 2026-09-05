@@ -2,7 +2,7 @@
 title: "JavaScript"
 type: entity
 tags: [编程语言, 前端]
-sources: [raw/01-articles/理解JavaScript的async-await.md, raw/01-articles/VUE3基础-async-await.md]
+sources: [raw/09-archive/理解JavaScript的async-await.md, raw/09-archive/VUE3基础-async-await.md]
 last_updated: 2026-05-19
 ---
 
@@ -18,4 +18,6 @@ JavaScript 是一种轻量级的解释型编程语言，主要运行在浏览器
 
 ## 关联连接
 - [[Promise]] — 异步编程模式
-- [[Vue]] — 前端框架
+- [[Vue3]] — 前端框架
+- [[摘要-理解JavaScript的async-await]] — 深入讲解 JavaScript 中 async/await …
+- [[摘要-VUE3基础-async-await]] — 深入讲解 JavaScript 中 async/await …

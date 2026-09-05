@@ -2,8 +2,10 @@
 title: "analyzer"
 type: concept
 tags: [搜索引擎, 分词, 全文检索, 中文处理]
-sources: [raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md]
-last_updated: 2026-05-19
+sources:
+  - raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md
+  - raw/09-archive/Elasticsearch 8.10安装（新人必看）.md
+last_updated: 2026-06-08
 ---
 
 ## 定义
@@ -16,6 +18,13 @@ last_updated: 2026-05-19
 IK 提供两种分词算法：
 - **ik_smart**（最少切分/粗粒度）：优先匹配最长词，无重复数据
 - **ik_max_word**（最细粒度划分）：穷尽语句中所有分词可能
+
+### IK 分词器安装
+通过 elasticsearch-plugin 命令安装，版本必须与 ES 版本一致：
+```bash
+./bin/elasticsearch-plugin install https://get.infini.cloud/elasticsearch/analysis-ik/8.10.0.zip
+```
+也可手动下载对应版本 zip 包，通过 `file://` 协议本地安装。安装后可通过 `GET /_cat/plugins` 验证。
 
 ### 自定义词库
 IK Analyzer 支持通过自定义词典文件（.dic）扩展词库，将未收录的专有名词、人名等添加到词库中。

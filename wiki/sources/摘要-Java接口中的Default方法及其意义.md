@@ -2,7 +2,7 @@
 title: "摘要-Java接口中的Default方法及其意义"
 type: source
 tags: [来源, Java]
-sources: [raw/01-articles/Java接口中的Default方法及其意义.md]
+sources: [raw/09-archive/Java接口中的Default方法及其意义.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Java]] — 编程语言
+- [[摘要-lambda表达式简单解析]] — Java 8 特性
+- [[generics]] — Java 泛型

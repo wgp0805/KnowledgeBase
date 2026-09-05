@@ -2,7 +2,7 @@
 title: "摘要-使用Docker在Windows上部署独立MySQL"
 type: source
 tags: [来源, Docker, MySQL]
-sources: [raw/01-articles/使用Docker在Windows上部署独立MySQL.md]
+sources: [raw/09-archive/使用Docker在Windows上部署独立MySQL.md]
 last_updated: 2026-05-19
 ---
 
@@ -13,3 +13,5 @@ last_updated: 2026-05-19
 - [[Docker]] — 容器化平台
 - [[MySQL]] — 关系型数据库
 - [[DockerDesktop]] — Docker 桌面版
+- [[Windows]] — 操作系统
+- [[摘要-Docker部署Redis全攻略]] — Docker 部署数据库参考

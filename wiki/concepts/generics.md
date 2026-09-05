@@ -2,7 +2,7 @@
 title: "generics"
 type: concept
 tags: [Java, 类型安全, 编程基础]
-sources: [raw/01-articles/图文详解Java泛型，写得太好了！.md]
+sources: [raw/09-archive/图文详解Java泛型，写得太好了！.md]
 last_updated: 2026-05-20
 ---
 
@@ -65,4 +65,4 @@ class U<X, Y, Z> {
 ## 关联连接
 - [[Java]] — Java 编程语言
 - [[摘要-java-generics-explained]] — 来源
-- [[Java-Collections]] — 集合框架中的泛型应用
+- Java Collections — 集合框架中的泛型应用

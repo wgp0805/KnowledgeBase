@@ -2,7 +2,7 @@
 title: "摘要-MessageDigest简介及应用"
 type: source
 tags: [来源, Java, 加密]
-sources: [raw/01-articles/MessageDigest简介及应用.md]
+sources: [raw/09-archive/MessageDigest简介及应用.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,4 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Java]] — 编程语言
-- [[MessageDigest]] — Java 摘要算法类
+- [[Spring]] — 应用框架
+- [[JWT]] — 基于 HMAC 的令牌认证

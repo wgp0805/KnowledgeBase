@@ -2,7 +2,7 @@
 title: "摘要-spring框架中的事务管理"
 type: source
 tags: [来源, Spring]
-sources: [raw/01-articles/spring框架中的事务管理.md]
+sources: [raw/09-archive/spring框架中的事务管理.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[Spring]] — Java 应用框架
 - [[AOP]] — 面向切面编程
+- [[transaction-management]] — 事务管理概念
+- [[SpringBoot]] — 事务常用框架

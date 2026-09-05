@@ -2,7 +2,7 @@
 title: "摘要-orcale查看索引状态"
 type: source
 tags: [来源, Oracle]
-sources: [raw/01-articles/orcale查看索引状态.md]
+sources: [raw/09-archive/orcale查看索引状态.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Oracle]] — 关系型数据库
+- [[inverted-index]] — 索引原理
+- [[摘要-orcale常用的查询资源的方法]] — Oracle DBA 查询

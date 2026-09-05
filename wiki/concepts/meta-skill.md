@@ -2,7 +2,7 @@
 title: "meta-skill"
 type: concept
 tags: [AI, Agent, 元技能, 技能扩展]
-sources: [raw/02-papers/skill-creator使用与优化指南.pdf]
+sources: [raw/09-archive/skill-creator使用与优化指南.pdf]
 last_updated: 2026-05-20
 ---
 
@@ -27,8 +27,21 @@ last_updated: 2026-05-20
 - **Meta-Skill**：不直接解决业务问题，而是提供"制造技能的工具"
 - **类比**：普通 Skill 是产品，Meta-Skill 是生产产品的机器
 
+### OpenClaw.NET MetaSKILL（声明式 DAG 编排）
+OpenClaw.NET 的 MetaSKILL 是一种基于 YAML 声明式 DAG 的元技能编排引擎，与 Claude Code 的 skill-creator 元技能不同，它专注于工作流编排而非技能生成：
+
+- **设计范式**：声明即编排（Declaration-as-Orchestration）
+- **核心原语**：7 种步骤类型（llm_chat、agent、fan_out、skill_exec、user_input、route 等）
+- **安全体系**：三步门禁（tool_allowlist + capabilities + MetaSkill.Enabled）+ 4 层超时保护
+- **审计能力**：持久化审计记录 + CLI replay/reconstruct
+- **双运行时**：AgentRuntime + MafAgentRuntime
+- **与 Claude Code Workflows 的关系**：覆盖编排光谱两端，Workflows 灵活适合探索，MetaSKILL 安全适合生产
+
 ## 关联连接
 - [[SkillCreator]] — skill-creator 元技能工具
 - [[Skill]] — 技能概念体系
 - [[ClaudeCode]] — 元技能所属平台
 - [[摘要-skill-creator-guide]] — 来源摘要
+- [[OpenClaw]] — MetaSKILL 所属项目
+- [[dynamic-workflow]] — 动态工作流概念（代码编排）
+- [[摘要-Claude-Code-Workflows-vs-MetaSKILL]] — 来源

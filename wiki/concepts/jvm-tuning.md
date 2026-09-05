@@ -2,8 +2,10 @@
 title: "jvm-tuning"
 type: concept
 tags: [JVM, 性能优化]
-sources: [raw/01-articles/jvm参数解释.md]
-last_updated: 2026-05-19
+sources:
+  - raw/09-archive/jvm参数解释.md
+  - raw/09-archive/java性能调优实战.pdf
+last_updated: 2026-05-22
 ---
 
 ## 定义
@@ -20,3 +22,4 @@ JVM 调优是通过调整 JVM 参数来优化 Java 应用的内存使用、垃�
 ## 关联连接
 - [[JVM]] — Java 虚拟机
 - [[Java]] — 编程语言
+- [[摘要-java-performance-tuning]] — Java 性能调优实战

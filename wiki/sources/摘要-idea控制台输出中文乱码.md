@@ -2,7 +2,7 @@
 title: "摘要-idea控制台输出中文乱码"
 type: source
 tags: [来源, IntelliJIDEA]
-sources: [raw/01-articles/idea控制台输出中文乱码.md]
+sources: [raw/09-archive/idea控制台输出中文乱码.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[IntelliJIDEA]] — Java IDE
+- [[JVM]] — 编码参数配置
+- [[Maven]] — 构建工具编码设置

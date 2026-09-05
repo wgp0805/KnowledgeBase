@@ -2,8 +2,10 @@
 title: "idempotency"
 type: concept
 tags: [并发, 安全, 分布式]
-sources: [raw/01-articles/高并发下如何防止重复下单？.md]
-last_updated: 2026-05-20
+sources:
+  - raw/09-archive/高并发下如何防止重复下单？.md
+  - raw/09-archive/百度面试官：RabbitMQ 如何防止重复消费？5种解决方案，你知道几个？.md
+last_updated: 2026-05-25
 ---
 
 ## 定义
@@ -46,6 +48,13 @@ String luaScript = """
 public ApiResponse submitOrder(@RequestBody OrderSubmitRequest request) { ... }
 ```
 
+### 消息消费场景的两种幂等方案
+
+绝大多数消息队列只保证**至少一次投递**，服务重启、网络重试极易产生重复消息，导致重复退款、重复加积分等脏数据。两种方案二选一：
+
+1. **业务幂等（优先推荐）**：所有消费逻辑支持重复执行无副作用（如根据订单号判断是否已处理）
+2. **唯一键去重**：数据库记录已处理消息 ID，重复消息直接拦截丢弃
+
 ### 关键要点
 
 - 幂等性检查**必须在事务开始前完成**
@@ -54,6 +63,10 @@ public ApiResponse submitOrder(@RequestBody OrderSubmitRequest request) { ... }
 
 ## 关联连接
 - [[摘要-prevent-duplicate-order]] — 来源
+- [[摘要-rabbitmq-idempotency]] — RabbitMQ 消息幂等方案
+- [[摘要-微服务架构-进程间通信]] — 微服务 IPC 中的消息幂等场景
 - [[distributed-lock]] — 分布式锁
-- [[Redis]] — Token 存储
+- [[Redis]] — Token 存储、SETNX 去重
+- [[RabbitMQ]] — 消息队列重复消费
 - [[duplicate-submit]] — 重复提交问题
+- [[异步消息]] — 消息重复消费难题

@@ -2,7 +2,7 @@
 title: "摘要-用Qoder搭建PaiAgent项目脚手架"
 type: source
 tags: [来源, Qoder, PaiAgent]
-sources: [raw/01-articles/用Qoder搭建PaiAgent项目脚手架.md]
+sources: [raw/09-archive/用Qoder搭建PaiAgent项目脚手架.md]
 last_updated: 2026-05-19
 ---
 
@@ -13,6 +13,6 @@ last_updated: 2026-05-19
 - [[Qoder]] — AI 编码工具
 - [[PaiAgent]] — AI Agent 项目
 - [[SpringBoot]] — Spring 自动配置框架
-- [[React]] — 前端 UI 框架
-- [[ReactFlow]] — 流程图组件库
+- React — 前端 UI 框架
+- ReactFlow — 流程图组件库
 - [[MyBatisPlus]] — MyBatis 增强工具

@@ -2,7 +2,7 @@
 title: "摘要-lambda表达式简单解析"
 type: source
 tags: [来源, Java]
-sources: [raw/01-articles/lambda表达式简单解析.md]
+sources: [raw/09-archive/lambda表达式简单解析.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Java]] — 编程语言
+- [[摘要-java8新特性详解]] — Java 8 新特性
+- [[摘要-Steam的简单操作]] — Stream API

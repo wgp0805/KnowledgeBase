@@ -1,24 +1,21 @@
 ---
 title: "DeepSeek"
 type: entity
-tags: [AI, 模型, 公司]
-sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md]
-last_updated: 2026-05-19
+tags: [AI模型, 大语言模型, 中国公司]
+sources: [raw/01-articles/2026-09-03-腾讯内测Cheso，一个专做 PPT 的 AI Agent，实测有吓到我.md]
+last_updated: 2026-09-03
 ---
 
 ## 定义
-深度求索（DeepSeek）推出的 AI 大语言模型系列，以高性价比和长上下文能力著称。
+中国AI公司开发的大语言模型，是Cheso集成的多个AI模型之一。
 
 ## 关键信息
-
-### 模型系列
-- **DeepSeek V4**：最新主力模型，支持 Agent 编程场景
-- **deepseek-v4-pro**：Pro 版本，用于 DeepSeek TUI 等工具的高强度推理任务
-
-### 性能与成本
-- 处理 200 万+ token 仅需不到 2 元人民币，性价比极高
-- 输出速度快，适合交互式编程场景
+- **开发公司**：DeepSeek
+- **产品类型**：大语言模型
+- **集成平台**：Cheso演示文稿生成工具
+- **技术定位**：为Cheso提供AI能力支持
 
 ## 关联连接
-- [[DeepSeekTUI]] — 基于 DeepSeek V4 的终端编程智能体
-- [[AICoding]] — AI 编程范式
+- [[摘要-腾讯内测cheso一个专做ppt的ai-agent]] — 来源
+- [[Cheso]] — 集成平台
+- [[DeepSeek公司]] — 开发公司

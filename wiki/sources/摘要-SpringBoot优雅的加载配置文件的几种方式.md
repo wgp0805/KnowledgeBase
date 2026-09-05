@@ -2,7 +2,7 @@
 title: "摘要-SpringBoot优雅的加载配置文件的几种方式"
 type: source
 tags: [来源, SpringBoot]
-sources: [raw/01-articles/SpringBoot优雅的加载配置文件的几种方式.md]
+sources: [raw/09-archive/SpringBoot优雅的加载配置文件的几种方式.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[SpringBoot]] — Spring 自动配置框架
+- [[Spring]] — 核心框架
+- [[Nacos]] — 配置中心

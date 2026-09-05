@@ -2,7 +2,7 @@
 title: "incident-severity-classification"
 type: concept
 tags: [工程实践, 运维]
-sources: [raw/01-articles/软件开发事故级别分类.md]
+sources: [raw/09-archive/软件开发事故级别分类.md]
 last_updated: 2026-05-19
 ---
 
@@ -19,3 +19,4 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[code-review]] — 代码审查
 - [[api-compatibility]] — API 兼容性
+- [[摘要-软件开发事故级别分类]] — 软件开发中 P0 到 PX 的事故级别分类标准，P0 为核心…

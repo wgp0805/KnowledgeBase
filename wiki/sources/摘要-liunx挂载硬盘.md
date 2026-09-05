@@ -2,7 +2,7 @@
 title: "摘要-liunx挂载硬盘"
 type: source
 tags: [来源, Linux]
-sources: [raw/01-articles/liunx挂载硬盘.md]
+sources: [raw/09-archive/liunx挂载硬盘.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Linux]] — 操作系统
+- [[CentOS]] — Linux 发行版
+- [[摘要-Liunx常用命令]] — Linux 命令参考

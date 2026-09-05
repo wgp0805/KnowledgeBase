@@ -2,7 +2,7 @@
 title: "摘要-jsonpath解析复杂json"
 type: source
 tags: [来源, JSON]
-sources: [raw/01-articles/jsonpath解析复杂json.md]
+sources: [raw/09-archive/jsonpath解析复杂json.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,5 +11,7 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[FastJson]] — Java JSON 处理库
-- [[JSONPath]] — JSON 路径查询语法
+- JSONPath — JSON 路径查询语法
 - [[Hutool]] — Java 工具库
+- [[Jackson]] — Java JSON 处理库
+- [[Java]] — 编程语言

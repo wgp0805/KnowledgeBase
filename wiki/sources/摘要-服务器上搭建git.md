@@ -2,7 +2,7 @@
 title: "摘要-服务器上搭建git"
 type: source
 tags: [来源, Git]
-sources: [raw/01-articles/服务器上搭建git.md]
+sources: [raw/09-archive/服务器上搭建git.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[Git]] — 分布式版本控制系统
 - [[CentOS]] — Linux 发行版
+- [[GitLab]] — 自建 Git 仓库平台
+- [[Linux]] — 服务器操作系统

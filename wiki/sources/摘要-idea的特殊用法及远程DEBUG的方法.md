@@ -2,7 +2,7 @@
 title: "摘要-idea的特殊用法及远程DEBUG的方法"
 type: source
 tags: [来源, IntelliJIDEA]
-sources: [raw/01-articles/idea的特殊用法及远程DEBUG的方法.md]
+sources: [raw/09-archive/idea的特殊用法及远程DEBUG的方法.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[IntelliJIDEA]] — Java IDE
 - [[SpringBoot]] — Spring 自动配置框架
+- [[JVM]] — 调试参数设置
+- [[Docker]] — 容器化远程调试

@@ -2,7 +2,7 @@
 title: "摘要-Orcale创建用户和表空间授权过程"
 type: source
 tags: [来源, Oracle]
-sources: [raw/01-articles/Orcale创建用户和表空间授权过程.md]
+sources: [raw/09-archive/Orcale创建用户和表空间授权过程.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Oracle]] — 关系型数据库
+- [[MySQL]] — 另一种常用关系型数据库
+- [[rbac]] — 角色权限控制

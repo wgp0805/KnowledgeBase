@@ -2,7 +2,7 @@
 title: "摘要-trunc函数用法"
 type: source
 tags: [来源, Oracle]
-sources: [raw/01-articles/trunc函数用法.md]
+sources: [raw/09-archive/trunc函数用法.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Oracle]] — 关系型数据库
+- [[摘要-orcale常用的查询资源的方法]] — Oracle 查询方法
+- [[MySQL]] — 另一种常用关系型数据库

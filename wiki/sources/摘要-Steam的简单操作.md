@@ -2,7 +2,7 @@
 title: "摘要-Steam的简单操作"
 type: source
 tags: [来源, Java]
-sources: [raw/01-articles/Steam的简单操作.md]
+sources: [raw/09-archive/Steam的简单操作.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Java]] — 编程语言
+- [[摘要-lambda表达式简单解析]] — Java 8 Lambda 表达式
+- [[CompletableFuture]] — Java 异步编程

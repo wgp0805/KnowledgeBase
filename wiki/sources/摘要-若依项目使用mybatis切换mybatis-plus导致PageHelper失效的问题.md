@@ -2,7 +2,7 @@
 title: "摘要-若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题"
 type: source
 tags: [来源, MyBatis, SpringBoot]
-sources: [raw/01-articles/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md]
+sources: [raw/09-archive/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md]
 last_updated: 2026-05-19
 ---
 

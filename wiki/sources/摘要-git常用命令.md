@@ -2,7 +2,7 @@
 title: "摘要-git常用命令"
 type: source
 tags: [来源, Git]
-sources: [raw/01-articles/git常用命令.md]
+sources: [raw/09-archive/git常用命令.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ Git 版本控制的常用命令总结，涵盖初始化、克隆、分支管理�
 
 ## 关联连接
 - [[Git]] — 分布式版本控制系统
+- [[GitHub]] — 代码托管平台
+- [[IntelliJIDEA]] — 集成 Git 的 IDE

@@ -2,7 +2,7 @@
 title: "SpringMVC"
 type: entity
 tags: [Web框架, Spring]
-sources: [raw/01-articles/过滤器Filter与拦截器Interceptor的区别.md, raw/01-articles/SpringBoot接收参数的几种常用方式.md]
+sources: [raw/09-archive/过滤器Filter与拦截器Interceptor的区别.md, raw/09-archive/SpringBoot接收参数的几种常用方式.md]
 last_updated: 2026-05-19
 ---
 

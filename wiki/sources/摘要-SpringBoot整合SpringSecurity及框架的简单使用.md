@@ -2,7 +2,7 @@
 title: "摘要-SpringBoot整合SpringSecurity及框架的简单使用"
 type: source
 tags: [来源, SpringBoot, 安全]
-sources: [raw/01-articles/SpringBoot整合SpringSecurity及框架的简单使用.md]
+sources: [raw/09-archive/SpringBoot整合SpringSecurity及框架的简单使用.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,4 +12,6 @@ Spring Boot 整合 Spring Security 的四种用户存储方式（内存用户、
 ## 关联连接
 - [[SpringBoot]] — Spring 自动配置框架
 - [[SpringSecurity]] — 安全框架
-- [[BCryptPasswordEncoder]] — 密码编码器
+- [[JWT]] — 令牌认证方案
+- [[rbac]] — 角色权限控制模型
+- [[Filter]] — 过滤器机制

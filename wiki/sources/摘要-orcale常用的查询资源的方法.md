@@ -2,7 +2,7 @@
 title: "摘要-orcale常用的查询资源的方法"
 type: source
 tags: [来源, Oracle]
-sources: [raw/01-articles/orcale常用的查询资源的方法.md]
+sources: [raw/09-archive/orcale常用的查询资源的方法.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,3 +11,5 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[Oracle]] — 关系型数据库
+- [[query-optimization]] — 查询优化
+- [[摘要-mysql关键字explain解析]] — MySQL 执行计划对比

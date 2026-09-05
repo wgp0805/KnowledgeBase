@@ -2,7 +2,7 @@
 title: "摘要-SpringBoot接收参数的几种常用方式"
 type: source
 tags: [来源, SpringBoot]
-sources: [raw/01-articles/SpringBoot接收参数的几种常用方式.md]
+sources: [raw/09-archive/SpringBoot接收参数的几种常用方式.md]
 last_updated: 2026-05-19
 ---
 
@@ -12,3 +12,5 @@ last_updated: 2026-05-19
 ## 关联连接
 - [[SpringBoot]] — Spring 自动配置框架
 - [[SpringMVC]] — Web MVC 框架
+- [[DispatcherServlet]] — 请求分发核心
+- [[Jackson]] — JSON 序列化

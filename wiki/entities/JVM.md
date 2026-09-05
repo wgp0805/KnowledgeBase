@@ -2,7 +2,7 @@
 title: "JVM"
 type: entity
 tags: [Java, 虚拟机]
-sources: [raw/01-articles/jvm参数解释.md]
+sources: [raw/09-archive/jvm参数解释.md]
 last_updated: 2026-05-19
 ---
 
@@ -19,5 +19,7 @@ JVM（Java Virtual Machine）是 Java 程序的运行环境，负责将 Java 字
 
 ## 关联连接
 - [[Java]] — 编程语言
-- [[G1GC]] — G1 垃圾收集器
-- [[ZGC]] — ZGC 垃圾收集器
+- G1 GC — G1 垃圾收集器（JVM 默认）
+- ZGC — 超大堆低延迟垃圾收集器
+
+- [[摘要-jvm参数解释]] — 全面解释 JVM 核心参数含义，包括堆内存设置（-Xms/-…

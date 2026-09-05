@@ -2,7 +2,7 @@
 title: "摘要-idea链接svn报错"
 type: source
 tags: [来源, IntelliJIDEA, SVN]
-sources: [raw/01-articles/idea链接svn报错.md]
+sources: [raw/09-archive/idea链接svn报错.md]
 last_updated: 2026-05-19
 ---
 
@@ -11,5 +11,4 @@ last_updated: 2026-05-19
 
 ## 关联连接
 - [[IntelliJIDEA]] — Java IDE
-- [[SVN]] — 版本控制系统
-- [[Subversion]] — 版本控制系统
+- [[Git]] — 版本控制系统
