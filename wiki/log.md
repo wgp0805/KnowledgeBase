@@ -1544,3 +1544,5 @@
 - **冲突**: 无
 ## [2026-09-05] query | Matt Pocock skills 全局安装方法查询
 - **输出**: 引用 [[摘要-mattpocock-skills]], [[mattpocock-skills]]; 即时回答未保存
+## [2026-09-05] query | Matt Pocock review 与 OpenCode review 区别对比
+- **输出**: 引用 [[code-review]], [[ECC]], [[OpenCode]], [[摘要-mattpocock-skills]]; 即时回答未保存
