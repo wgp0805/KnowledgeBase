@@ -1548,3 +1548,5 @@
 - **输出**: 引用 [[code-review]], [[ECC]], [[OpenCode]], [[摘要-mattpocock-skills]]; 即时回答未保存
 ## [2026-09-05] query | 使用 Matt Pocock Skills 开发功能的完整流程教程
 - **输出**: 引用 [[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[摘要-mattpocock-skills]]、[[GrillMe]]、[[TDD]]、[[code-review]]、[[MattPocock]]、[[流程税]]、[[DDD]]
+## [2026-09-05] query | Matt Pocock Skills vs OpenSpec 规划能力对比
+- **输出**: 引用 [[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[openspec-working-principle]]、[[optimal-framework-combination-heavy-project]]、[[摘要-mattpocock-skills]]、[[摘要-superpowers-openspec-speckit对比]]、[[MattPocock]]、[[OpenSpec]]、[[流程税]]
