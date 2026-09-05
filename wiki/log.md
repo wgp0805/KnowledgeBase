@@ -1552,3 +1552,12 @@
 - **输出**: 引用 [[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[openspec-working-principle]]、[[optimal-framework-combination-heavy-project]]、[[摘要-mattpocock-skills]]、[[摘要-superpowers-openspec-speckit对比]]、[[MattPocock]]、[[OpenSpec]]、[[流程税]]
 ## [2026-09-05] query | OpenSpec + Matt Pocock Skills 配合开发需求流程整理
 - **输出**: 引用 [[openspec-matt-skills-execution-workflow]]、[[optimal-framework-combination-heavy-project]]、[[OpenSpec]]、[[MattPocock]]、[[TDD]]、[[code-review]]、[[GrillMe]]、[[diagnosing-bugs]]
+
+## [2026-09-05] ingest | 摄入 Matt Pocock Skills 与 OpenSpec 配合开发完整教程
+- **变更**: 新增 [[摘要-matt-openspec配合开发教程]]; 新增 Concepts: [[diagnosing-bugs]]; 更新 [[index.md]]（Sources +1 / Concepts +1）
+- **冲突**: 无
+- **归档**: 1 个源文件待移动至 raw/09-archive/
+## [2026-09-05] ingest | 摄入 Matt Pocock Skills 与 OpenSpec 配合开发完整教程
+- **变更**: 新增 [[摘要-matt-openspec配合开发教程]]; 新增 Concepts: [[diagnosing-bugs]]; 更新 [[index.md]]（Sources +1 / Concepts +1）
+- **冲突**: 无
+- **归档**: 1 个源文件已移动至 raw/09-archive/

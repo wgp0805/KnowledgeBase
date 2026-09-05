@@ -366,6 +366,7 @@
 - [[DynamicImplementationSwitching]] — 动态切换实现类：运行时按配置点路由接口实现，配置即时生效无需重启
 - [[TypeHandler]] — MyBatis 类型处理器，负责 Java 类型与 JDBC 类型双向转换，Jackson 3 对应 Jackson3TypeHandler
 - [[autoResultMap]] — MyBatis-Plus @TableName 属性，设为 true 自动应用 ResultMap 使 TypeHandler 正确反序列化
+- [[diagnosing-bugs]] — Matt Pocock Skills 中的系统化调试 skill，用于测试失败或代码运行异常时系统化定位根因
 
 ## Syntheses
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
