@@ -1550,3 +1550,5 @@
 - **输出**: 引用 [[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[摘要-mattpocock-skills]]、[[GrillMe]]、[[TDD]]、[[code-review]]、[[MattPocock]]、[[流程税]]、[[DDD]]
 ## [2026-09-05] query | Matt Pocock Skills vs OpenSpec 规划能力对比
 - **输出**: 引用 [[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[openspec-working-principle]]、[[optimal-framework-combination-heavy-project]]、[[摘要-mattpocock-skills]]、[[摘要-superpowers-openspec-speckit对比]]、[[MattPocock]]、[[OpenSpec]]、[[流程税]]
+## [2026-09-05] query | OpenSpec + Matt Pocock Skills 配合开发需求流程整理
+- **输出**: 引用 [[openspec-matt-skills-execution-workflow]]、[[optimal-framework-combination-heavy-project]]、[[OpenSpec]]、[[MattPocock]]、[[TDD]]、[[code-review]]、[[GrillMe]]、[[diagnosing-bugs]]
