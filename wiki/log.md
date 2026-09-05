@@ -1542,3 +1542,5 @@
 ## [2026-09-03] lint | 补充 Matt Skills 安装方式细节到 synthesis
 - **变更**: 增量更新 [[openspec-matt-skills-execution-workflow]]（安装章节补充两种方式对比 + 与 OpenSpec 安装模式区别 + 关键提醒 + 核心问题追加安装维度）
 - **冲突**: 无
+## [2026-09-05] query | Matt Pocock skills 全局安装方法查询
+- **输出**: 引用 [[摘要-mattpocock-skills]], [[mattpocock-skills]]; 即时回答未保存
