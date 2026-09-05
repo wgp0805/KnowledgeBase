@@ -269,6 +269,7 @@
 - [[摘要-springboot4-模块化架构]] — Spring Boot 4 模块化架构，将单体自动配置包拆分为独立模块
 - [[摘要-spring-boot-4-0-removes-undertow]] — Spring Boot 4.0 因 Servlet 6.1 不兼容移除 Undertow 支持的原因与迁移方案
 - [[摘要-agentbro-skill-management]] — AgentBro 多 Agent Skill 治理工具，中心库唯一事实源 + 技能包开关 + 扫描接管存量 + 远程管理完整闭环
+- [[摘要-matt-openspec配合开发教程]] — Matt Pocock Skills 与 OpenSpec 配合开发完整教程：三个核心问题解答（流程/对比/穿插方式）
 
 - [[摘要-写好提示词的三大原则]] — 高质量提示词三大原则：简洁、框架、迭代
 - [[摘要-前端转全栈-36行规则]] — 前端用 36 行规则文件约束 AI，成功交付 Java 后端模块
