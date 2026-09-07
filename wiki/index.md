@@ -365,6 +365,12 @@
 - [[摘要-阿里开源open-code-review]] — 阿里开源 AI 代码审查 Agent，确定性工程+LLM混合架构，token消耗仅1/9
 - [[摘要-倒排索引面试题]] — 倒排索引三层结构（Term Index/Term Dictionary/Posting List）深度解析
 - [[摘要-jackson3升级详解]] — Jackson 3.0 升级详解：Java 17/包名tools.jackson/Mapper不可变/异常非检查
+- [[摘要-es-事务支持面试题]] — ES 不支持 ACID 事务的根因（Lucene segment 不可变 + 跨分片无 2PC），有限补偿工具与 ES+MySQL 一致性方案
+- [[摘要-gpt6-astra实测体验]] — GPT-6 Astra 实测：速度/前端审美/代码能力追平 Fable 5，Codex 跨窗口笔记与 AGENT.md 简化策略
+- [[摘要-千问lora-sft微调指南]] — Qwen3.5-0.8B-Instruct 二次 LoRA-SFT 微调全流程（Ubuntu+RTX 4090，ChatML 数据集/训练/合并导出）
+- [[摘要-企业级权限设计-用户组加功能权限]] — 企业级权限主干是用户组+功能权限，ABAC/ReBAC 仅收窄，十层设计要点与 TAPD/Jira 参考
+- [[摘要-ai这么猛产品经理还能进吗]] — AI 时代产品经理：传统岗需求下滑 42%，AI 产品岗暴涨 455%，AI 拿不走的四样能力与三条建议
+- [[摘要-gpt6-自训练信号]] — GPT-6 Astra 三个后背发凉信号：操作权移交/AI 参与训练 AI/安全阈值触顶，普通人三件事
 
 ## Concepts (2026-08-26 新增)
 - [[ZeroSumThinking]] — 零和思维：财富总量固定 vs 正和思维：财富可被创造
@@ -380,6 +386,7 @@
 - [[TypeHandler]] — MyBatis 类型处理器，负责 Java 类型与 JDBC 类型双向转换，Jackson 3 对应 Jackson3TypeHandler
 - [[autoResultMap]] — MyBatis-Plus @TableName 属性，设为 true 自动应用 ResultMap 使 TypeHandler 正确反序列化
 - [[diagnosing-bugs]] — Matt Pocock Skills 中的系统化调试 skill，用于测试失败或代码运行异常时系统化定位根因
+- [[LoRA]] — 参数高效微调方法，冻结主干仅训练低秩适配器，与 QLoRA 同属 PEFT 家族
 
 ## Syntheses
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
@@ -434,6 +441,7 @@
 - [[LangChain]] — Python LLM 应用开发框架，LangChain4j/LangGraph 的灵感源头
 - [[LangChain4j]] — Java LLM 应用框架
 - [[OpenAI]] — AI 研究公司（Codex/ChatGPT）
+- [[GPT-6]] — OpenAI 2026-09-03 发布的新一代大模型，ARC-AGI-3 达 99.9%，首款让前代模型参与训练监督的前沿大模型
 - [[Anthropic]] — AI 安全公司（Claude Code/Claude）
 - [[Thariq]] — Anthropic 工程师，分享 Skills 使用经验
 - [[SpringBoot]] — Spring 自动配置框架

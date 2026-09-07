@@ -1,4 +1,15 @@
-## [2026-09-05] ingest | 批量摄入 13 篇文章（Harness工程/女性健康/办公Agent/数据分析/配置中心/视频转换/AI终端/FDE/GPT6/OpenViking/代码审查/倒排索引/Jackson3）
+## [2026-09-07] ingest | 批量摄入 6 篇文章（ES事务/GPT6实测/千问LoRA-SFT/企业级权限/AI产品经理/GPT6自训练）
+- **变更**:
+  - 新增 Sources: 6 个摘要页面：[[摘要-es-事务支持面试题]]、[[摘要-gpt6-astra实测体验]]、[[摘要-千问lora-sft微调指南]]、[[摘要-企业级权限设计-用户组加功能权限]]、[[摘要-ai这么猛产品经理还能进吗]]、[[摘要-gpt6-自训练信号]]
+  - 新增 Entities: 1 个：[[GPT-6]]
+  - 新增 Concepts: 1 个：[[LoRA]]
+  - 更新 Entities: [[Elasticsearch]]（+ACID 事务不支持章节）、[[OpenAI]]（+GPT-6 Astra/Stargate）、[[Qwen]]（+Qwen3.5-0.8B LoRA-SFT 微调）
+  - 更新 Concepts: [[rbac]]（+企业级权限设计主干章节，ABAC/ReBAC/TAPD/Jira 关联）
+  - 更新 [[index.md]]: Sources +6 / Entities +1 / Concepts +1
+- **冲突**: 无
+- **归档**: 6 个源文件待移动至 raw/09-archive/
+
+
 - **变更**:
   - 新增 Sources: 13 个摘要页面：[[摘要-谷歌gemini38flash-harness-engineering]]、[[摘要-clair女性健康手环]]、[[摘要-豆包工作agent实测]]、[[摘要-数据分析agent口径管理]]、[[摘要-企业级配置中心设计]]、[[摘要-ai视频画幅转换提示词]]、[[摘要-ai-agents-terminal-vscode]]、[[摘要-fde与b端agent产品分层]]、[[摘要-gpt6与程序员能力演进]]、[[摘要-openviking-agent上下文数据库]]、[[摘要-阿里开源open-code-review]]、[[摘要-倒排索引面试题]]、[[摘要-jackson3升级详解]]
   - 新增 Entities: 4 个：[[HarnessEngineering]]、[[ClairHealth]]、[[OpenCodeReview]]、[[OpenViking]]、[[AIAgentsTerminal]]
