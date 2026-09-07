@@ -1,4 +1,7 @@
-## [2026-09-07] ingest | 批量摄入 6 篇文章（ES事务/GPT6实测/千问LoRA-SFT/企业级权限/AI产品经理/GPT6自训练）
+## [2026-09-07] query | Matt Pocock Skills (skills.sh) 在 Node 20.18.0 能否运行
+- **输出**: 引用 [[MattPocock]]、[[mattpocock-skills]]、[[Node.js]]、[[openspec-matt-skills-execution-workflow]]; 知识库无版本要求记录，降级声明后经 npm `engines` 字段验证——`skills` 包 1.5.0~1.5.18 要求 Node >= 18（20.18.0 可用），1.5.19+（2026-07-16 起）要求 Node >= 22.20.0（20.18.0 会报 EBADENGINE）; 即时回答未保存
+
+
 - **变更**:
   - 新增 Sources: 6 个摘要页面：[[摘要-es-事务支持面试题]]、[[摘要-gpt6-astra实测体验]]、[[摘要-千问lora-sft微调指南]]、[[摘要-企业级权限设计-用户组加功能权限]]、[[摘要-ai这么猛产品经理还能进吗]]、[[摘要-gpt6-自训练信号]]
   - 新增 Entities: 1 个：[[GPT-6]]
