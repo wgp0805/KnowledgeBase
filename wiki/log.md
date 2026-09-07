@@ -1,3 +1,10 @@
+## [2026-09-07] query | OpenSpec + Matt 轻量执行的 init 与 setup 配置 FAQ
+- **输出**: 已保存至 [[openspec-matt-lightweight-setup-faq]]
+- **内容**: 回答两个实操问题——(1) OpenSpec 管规划 + Matt 只用 tdd/code-review 时，OpenSpec 必须 init 而 Matt 没有 init 步骤；(2) `/setup-matt-pocock-skills` 生成的 `domain.md`/`issue-tracker.md`/`triage-labels.md` 在轻量组合下无用可删，因为这三个文件服务的是 Matt 工程类 skill（to-tickets/triage/wayfinder/to-spec），而 tdd/code-review 不依赖它们
+- **引用**: [[OpenSpec]]、[[MattPocock]]、[[mattpocock-skills]]、[[TDD]]、[[code-review]]、[[openspec-matt-skills-execution-workflow]]、[[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[optimal-framework-combination-heavy-project]]
+- **变更**: 新增 Syntheses: [[openspec-matt-lightweight-setup-faq]]; 更新 [[index.md]]（Syntheses +1）
+- **冲突**: 无
+
 ## [2026-09-07] query | 用 Node 22 安装 skills 后切回 Node 20 使用是否可行
 - **输出**: 引用 [[MattPocock]]、[[mattpocock-skills]]、[[AgentSkills]]、[[openspec-matt-skills-execution-workflow]]、[[Node.js]]; 结论可行——skills 包只是安装器，产出物是 .claude/skills/ 下的 SKILL.md 纯文本文件，运行时由 Agent（Claude Code/Codex，Node ≥18）加载，不再依赖 skills 包本身; 即时回答未保存
 

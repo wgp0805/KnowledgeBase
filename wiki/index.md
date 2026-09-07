@@ -397,6 +397,7 @@
 - [[heavy-project-framework-selection-conversation]] — 重型项目 AI 编程框架选型完整对话记录与最终方案（从初始需求到最终选型的全过程归纳）
 - [[agent-spec-framework-comparison-and-matt-skills-workflow]] — Agent 规范驱动框架全景对比（OpenSpec/Superpowers/SpecKit/GSD/Trellis/SpecSuperflow）+ Matt Pocock Skills 介绍 + 现有 Java 后端中型功能 7 步实战流程
 - [[openspec-matt-skills-execution-workflow]] — OpenSpec + Matt Pocock Skills 配合执行详解：执行 vs 执行纪律的区别 / 安装 / apply 与 tdd 三种配合方式 / 叫停机制 / 棕地补录 / 归档后变更
+- [[openspec-matt-lightweight-setup-faq]] — OpenSpec + Matt 轻量执行配置 FAQ：OpenSpec 要 init 而 Matt 没有 init / setup-matt-pocock-skills 生成的三个文件在轻量组合下可删
 
 ## Entities
 - [[OxAlpha]] — 免费预览大模型，1M Token 上下文，支持文本/图片/视频输入，为 Coding 和长周期 Agent 任务优化
