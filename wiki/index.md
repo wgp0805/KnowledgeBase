@@ -269,6 +269,7 @@
 - [[摘要-springboot4-模块化架构]] — Spring Boot 4 模块化架构，将单体自动配置包拆分为独立模块
 - [[摘要-spring-boot-4-0-removes-undertow]] — Spring Boot 4.0 因 Servlet 6.1 不兼容移除 Undertow 支持的原因与迁移方案
 - [[摘要-agentbro-skill-management]] — AgentBro 多 Agent Skill 治理工具，中心库唯一事实源 + 技能包开关 + 扫描接管存量 + 远程管理完整闭环
+- [[摘要-matt-openspec配合开发教程]] — Matt Pocock Skills 与 OpenSpec 配合开发完整教程：三个核心问题解答（流程/对比/穿插方式）
 
 - [[摘要-写好提示词的三大原则]] — 高质量提示词三大原则：简洁、框架、迭代
 - [[摘要-前端转全栈-36行规则]] — 前端用 36 行规则文件约束 AI，成功交付 Java 后端模块
@@ -351,6 +352,19 @@
 - [[摘要-qwen38-flash架构深度分析]] — Qwen3.8-Flash 发布：Next 架构（125B/6B 激活）训练成本降 90%，开源策略抢占生态
 - [[摘要-大模型越强产品经理越要把边界写进流程]] — AI 产品设计方法论：能力边界/幻觉控制/长上下文/Memory 治理/Agent Loop/评测闭环/发布门槛
 - [[摘要-财务数字化三层架构]] — 财务数字化三层架构（业财一体化→财务共享→报表合并）的依赖关系与 SAP 实现
+- [[摘要-谷歌gemini38flash-harness-engineering]] — Google 发布 Gemini 3.8 Flash 深入探讨 Harness Engineering，对比 OpenAI/DeepSeek/Google 三大 Harness 路线
+- [[摘要-clair女性健康手环]] — 两个斯坦福毕业生做的女性健康手环，10类传感+机器学习反推激素变化，1160万美元融资
+- [[摘要-豆包工作agent实测]] — 豆包工作 Agent 实测：周报/数据清洗/PPT生成/竞品追踪四项任务连续完成
+- [[摘要-数据分析agent口径管理]] — 数据分析 Agent 化的核心不是模型能力，而是口径标准的沉淀
+- [[摘要-企业级配置中心设计]] — 企业级配置中心不是后台菜单集合，而是平台业务规则的治理系统
+- [[摘要-ai视频画幅转换提示词]] — 用提示词让 AI 自动重构构图，实现视频画幅竖转横
+- [[摘要-ai-agents-terminal-vscode]] — VS Code 扩展一键启动所有 AI 编程 Agent（Claude Code/Codex/Cursor等）
+- [[摘要-fde与b端agent产品分层]] — B端 Agent 产品分层：规则→Workflow→LLM节点→Agent，确定性下沉不确定性上浮
+- [[摘要-gpt6与程序员能力演进]] — GPT-6 越来越擅长端到端开发后程序员能力需求变化
+- [[摘要-openviking-agent上下文数据库]] — 火山引擎开源 OpenViking，虚拟文件系统统一知识库/记忆/技能
+- [[摘要-阿里开源open-code-review]] — 阿里开源 AI 代码审查 Agent，确定性工程+LLM混合架构，token消耗仅1/9
+- [[摘要-倒排索引面试题]] — 倒排索引三层结构（Term Index/Term Dictionary/Posting List）深度解析
+- [[摘要-jackson3升级详解]] — Jackson 3.0 升级详解：Java 17/包名tools.jackson/Mapper不可变/异常非检查
 
 ## Concepts (2026-08-26 新增)
 - [[ZeroSumThinking]] — 零和思维：财富总量固定 vs 正和思维：财富可被创造
@@ -365,6 +379,7 @@
 - [[DynamicImplementationSwitching]] — 动态切换实现类：运行时按配置点路由接口实现，配置即时生效无需重启
 - [[TypeHandler]] — MyBatis 类型处理器，负责 Java 类型与 JDBC 类型双向转换，Jackson 3 对应 Jackson3TypeHandler
 - [[autoResultMap]] — MyBatis-Plus @TableName 属性，设为 true 自动应用 ResultMap 使 TypeHandler 正确反序列化
+- [[diagnosing-bugs]] — Matt Pocock Skills 中的系统化调试 skill，用于测试失败或代码运行异常时系统化定位根因
 
 ## Syntheses
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移

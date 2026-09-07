@@ -1,3 +1,12 @@
+## [2026-09-05] ingest | 批量摄入 13 篇文章（Harness工程/女性健康/办公Agent/数据分析/配置中心/视频转换/AI终端/FDE/GPT6/OpenViking/代码审查/倒排索引/Jackson3）
+- **变更**:
+  - 新增 Sources: 13 个摘要页面：[[摘要-谷歌gemini38flash-harness-engineering]]、[[摘要-clair女性健康手环]]、[[摘要-豆包工作agent实测]]、[[摘要-数据分析agent口径管理]]、[[摘要-企业级配置中心设计]]、[[摘要-ai视频画幅转换提示词]]、[[摘要-ai-agents-terminal-vscode]]、[[摘要-fde与b端agent产品分层]]、[[摘要-gpt6与程序员能力演进]]、[[摘要-openviking-agent上下文数据库]]、[[摘要-阿里开源open-code-review]]、[[摘要-倒排索引面试题]]、[[摘要-jackson3升级详解]]
+  - 新增 Entities: 4 个：[[HarnessEngineering]]、[[ClairHealth]]、[[OpenCodeReview]]、[[OpenViking]]、[[AIAgentsTerminal]]
+  - 新增 Concepts: 8 个：[[RepairLoop]]、[[GraphWorkflow]]、[[口径管理]]、[[配置作用域]]、[[确定性下沉]]、[[TermIndex]]、[[PostingList]]、[[上下文分层]]、[[多Agent共享记忆]]
+  - 更新 [[index.md]]: Sources +13 / Entities +5 / Concepts +9
+- **冲突**: 无
+- **归档**: 13 个源文件待移动至 raw/09-archive/
+
 ## [2026-09-03] ingest | 摄入 MyBatis-Plus 3.5.15 支持 Spring Boot 4.0 与 Jackson 3.0
 - **变更**: 新增 [[摘要-mybatis-plus-3515-springboot4-jackson3]]; 新增 Concepts: [[TypeHandler]], [[autoResultMap]]; 增量更新 [[MyBatisPlus]]（+Spring Boot 4 Starter/Jackson 3 TypeHandler/升级常见坑章节）、[[Jackson]]（+Jackson 3.0 章节）; 更新 [[index.md]]（Sources +1 / Concepts +2）
 - **冲突**: 无
@@ -1542,3 +1551,22 @@
 ## [2026-09-03] lint | 补充 Matt Skills 安装方式细节到 synthesis
 - **变更**: 增量更新 [[openspec-matt-skills-execution-workflow]]（安装章节补充两种方式对比 + 与 OpenSpec 安装模式区别 + 关键提醒 + 核心问题追加安装维度）
 - **冲突**: 无
+## [2026-09-05] query | Matt Pocock skills 全局安装方法查询
+- **输出**: 引用 [[摘要-mattpocock-skills]], [[mattpocock-skills]]; 即时回答未保存
+## [2026-09-05] query | Matt Pocock review 与 OpenCode review 区别对比
+- **输出**: 引用 [[code-review]], [[ECC]], [[OpenCode]], [[摘要-mattpocock-skills]]; 即时回答未保存
+## [2026-09-05] query | 使用 Matt Pocock Skills 开发功能的完整流程教程
+- **输出**: 引用 [[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[摘要-mattpocock-skills]]、[[GrillMe]]、[[TDD]]、[[code-review]]、[[MattPocock]]、[[流程税]]、[[DDD]]
+## [2026-09-05] query | Matt Pocock Skills vs OpenSpec 规划能力对比
+- **输出**: 引用 [[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[openspec-working-principle]]、[[optimal-framework-combination-heavy-project]]、[[摘要-mattpocock-skills]]、[[摘要-superpowers-openspec-speckit对比]]、[[MattPocock]]、[[OpenSpec]]、[[流程税]]
+## [2026-09-05] query | OpenSpec + Matt Pocock Skills 配合开发需求流程整理
+- **输出**: 引用 [[openspec-matt-skills-execution-workflow]]、[[optimal-framework-combination-heavy-project]]、[[OpenSpec]]、[[MattPocock]]、[[TDD]]、[[code-review]]、[[GrillMe]]、[[diagnosing-bugs]]
+
+## [2026-09-05] ingest | 摄入 Matt Pocock Skills 与 OpenSpec 配合开发完整教程
+- **变更**: 新增 [[摘要-matt-openspec配合开发教程]]; 新增 Concepts: [[diagnosing-bugs]]; 更新 [[index.md]]（Sources +1 / Concepts +1）
+- **冲突**: 无
+- **归档**: 1 个源文件待移动至 raw/09-archive/
+## [2026-09-05] ingest | 摄入 Matt Pocock Skills 与 OpenSpec 配合开发完整教程
+- **变更**: 新增 [[摘要-matt-openspec配合开发教程]]; 新增 Concepts: [[diagnosing-bugs]]; 更新 [[index.md]]（Sources +1 / Concepts +1）
+- **冲突**: 无
+- **归档**: 1 个源文件已移动至 raw/09-archive/

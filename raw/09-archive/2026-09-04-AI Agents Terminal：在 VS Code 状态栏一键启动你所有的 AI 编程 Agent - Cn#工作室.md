@@ -15,7 +15,7 @@ auto_captured: true
 > **抓取日期**: 2026-09-04  
 > **相关性评分**: 1.0
 
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/cnsharp.ai-agents-terminal?label=VS%20Code%20Marketplace)](<https://marketplace.visualstudio.com/items?itemName=cnsharp.ai-agents-terminal>)
+[![VS Code Marketplace](assets/2026-09-04-AI%20Agents%20Terminal%EF%BC%9A%E5%9C%A8%20VS%20Code%20%E7%8A%B6%E6%80%81%E6%A0%8F%E4%B8%80%E9%94%AE%E5%90%AF%E5%8A%A8%E4%BD%A0%E6%89%80%E6%9C%89%E7%9A%84%20AI%20%E7%BC%96%E7%A8%8B%20Agent%20-%20Cn#%E5%B7%A5%E4%BD%9C%E5%AE%A4/9588ba6af4d87f1a91524b3416d24517_MD5.svg)](<https://marketplace.visualstudio.com/items?itemName=cnsharp.ai-agents-terminal>)
 
 > 一个 VS Code 扩展，把你本机装好的 AI CLI 编程助手（Claude Code / Codex / Cursor / …）收进状态栏的一个按钮里。
 
@@ -39,11 +39,11 @@ auto_captured: true
 
 状态栏右下角有三个按钮——`🤖 AI Agents` 是启动器，`Y` 是 YOLO 模式，`R` 是 Resume 模式：
 
-![状态栏](https://raw.githubusercontent.com/cnsharp/ai-agents-terminal-vsc/main/media/screenshots/statusbar.png)
+![状态栏](assets/2026-09-04-AI%20Agents%20Terminal%EF%BC%9A%E5%9C%A8%20VS%20Code%20%E7%8A%B6%E6%80%81%E6%A0%8F%E4%B8%80%E9%94%AE%E5%90%AF%E5%8A%A8%E4%BD%A0%E6%89%80%E6%9C%89%E7%9A%84%20AI%20%E7%BC%96%E7%A8%8B%20Agent%20-%20Cn#%E5%B7%A5%E4%BD%9C%E5%AE%A4/f176dba8300ccb77f49f4a3ac1f38055_MD5.png)
 
 点击 `🤖 AI Agents` 弹出的 Quick Pick，只列出已安装的 agent，并带上各自的 logo：
 
-![Quick Pick](https://raw.githubusercontent.com/cnsharp/ai-agents-terminal-vsc/main/media/screenshots/dropdown.png)
+![Quick Pick](assets/2026-09-04-AI%20Agents%20Terminal%EF%BC%9A%E5%9C%A8%20VS%20Code%20%E7%8A%B6%E6%80%81%E6%A0%8F%E4%B8%80%E9%94%AE%E5%90%AF%E5%8A%A8%E4%BD%A0%E6%89%80%E6%9C%89%E7%9A%84%20AI%20%E7%BC%96%E7%A8%8B%20Agent%20-%20Cn#%E5%B7%A5%E4%BD%9C%E5%AE%A4/76abe3d25caa651e9cf18b6d094fddc2_MD5.png)
 
 ## 核心特性
 
