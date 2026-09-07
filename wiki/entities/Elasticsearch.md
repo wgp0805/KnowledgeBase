@@ -8,7 +8,8 @@ sources:
   - raw/09-archive/Elasticsearch 全景指南：从入门到原理深度解析.md
   - raw/01-articles/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
   - raw/01-articles/2026-08-31 - 面试官：ElasticSearch 为什么快？.md
-last_updated: 2026-09-01
+  - raw/01-articles/面试官：Elasticsearch 支持事务吗？为什么？.md
+last_updated: 2026-09-07
 ---
 
 ## 定义
@@ -116,6 +117,17 @@ ES 是近实时搜索引擎（默认约 1 秒延迟）：
 | 搜索结果不准 | Mapping 类型错误 | text vs keyword 选错；中文未配置 IK |
 | 字段冲突 | 动态 Mapping 自动推断 | 生产环境手动定义 Mapping，关闭 dynamic |
 
+### ES 不支持 ACID 事务（面试深度解析，详见 [[摘要-es-事务支持面试题]]）
+- **结论**：ES 不支持传统 ACID 事务，仅提供单文档级别原子性
+- **根因两层**：
+  - Lucene 层：segment 不可变 → 无回滚路径；更新是"删旧+写新"组合
+  - 分布式层：跨分片无 2PC → `_bulk` 逐条独立执行，部分成功部分失败是常态
+- **ACID 四特性**：原子性⚠️仅单文档 / 一致性❌ / 隔离性❌ / 持久性✅（translog）
+- **有限补偿**：单文档原子性、乐观锁（`if_seq_no`+`if_primary_term`）、translog 持久性、`wait_for_active_shards`
+- **ES + MySQL 一致性方案**（可靠性递增）：同步双写 → 异步 MQ → Binlog 订阅（推荐）→ 定时对账
+- **常见误区**：把 `_bulk` 当事务用；以为 translog 带 "transaction" 就有事务；以为写入后立刻可查是强一致
+- **记忆口诀**："单文档原子，跨文档没戏；segment 不可变，事务无处安" / "强事务进 MySQL，搜索交给 ES，中间靠 binlog 加对账"
+
 ### ES 不是银弹（面试反问场景）
 - **强事务场景别用**：无真正 ACID，跨文档无法回滚（账户扣款、订单状态流转）
 - **频繁更新场景别用**：segment 不可变，更新是"标记删除 + 新写入"，写放大严重（库存类字段）
@@ -172,6 +184,7 @@ ES 快是"一堆优化叠出来的"，没有单点魔法，按"数据结构 → 
 - [[摘要-elasticsearch-comprehensive-guide]] — 来源（全景原理深度解析）
 - [[摘要-拼多多二面-es-vs-mysql]] — 来源（面试视角 ES vs MySQL）
 - [[摘要-es-为什么快-面试深度]] — 来源（面试深度解析为什么快）
+- [[摘要-es-事务支持面试题]] — 来源（ES 事务支持面试题）
 - [[FST]] — 有限状态转换器，Term Index 核心
 - [[TermIndex]] — 词典的"目录页"
 - [[DocValues]] — 列式存储，排序聚合加速

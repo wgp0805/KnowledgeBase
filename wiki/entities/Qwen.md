@@ -58,6 +58,13 @@ Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Fla
 - 开源：Hugging Face + 魔搭同步放出权重，SGLang Day 0 支持
 - 形成"斩杀线"：性能比你强、价格比你低
 
+### Qwen3.5-0.8B-Instruct LoRA-SFT 微调（2026-09，详见 [[摘要-千问lora-sft微调指南]]）
+- 基于 Ubuntu 22.04 + RTX 4090 24GB 环境，完整演示二次 LoRA-SFT 微调全流程
+- 训练参数：r=16, alpha=16, lr=1e-4, max_steps=40, bf16, 梯度检查点
+- trainable params: 6,389,760 (0.8421%)，40 步训练 144 秒
+- 产物：`adapter_model.safetensors`（约 25MB），可通过 `merge_and_unload()` 合并导出完整模型
+- 关键要点：必须用 `apply_chat_template`；`pad_token=eos_token`；`padding_side=right`
+
 ## 关联连接
 - [[Qwen3.8-Flash]] — 新一代轻量模型
 - [[Next架构]] — 新架构
@@ -72,6 +79,7 @@ Qwen 是阿里通义千问大模型系列，本知识库主要收录 Qwen3.6 Fla
 - [[AICoding]] — Coding Agent 应用场景
 - [[Embeddings]] — Qwen3-Embedding 向量化模型
 - [[LoRA]] — 微调方法
+- [[摘要-千问lora-sft微调指南]] — Qwen3.5-0.8B LoRA-SFT 微调来源
 - [[摘要-开源诗词数据集poetry_dataset]] — 来源
 - [[poetry_dataset]] — 支持 Qwen2.5 本地微调
 - [[摘要-rag-api-call]] — API 调用与 RAG 实践
