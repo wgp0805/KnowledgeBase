@@ -1,3 +1,6 @@
+## [2026-09-07] query | 用 Node 22 安装 skills 后切回 Node 20 使用是否可行
+- **输出**: 引用 [[MattPocock]]、[[mattpocock-skills]]、[[AgentSkills]]、[[openspec-matt-skills-execution-workflow]]、[[Node.js]]; 结论可行——skills 包只是安装器，产出物是 .claude/skills/ 下的 SKILL.md 纯文本文件，运行时由 Agent（Claude Code/Codex，Node ≥18）加载，不再依赖 skills 包本身; 即时回答未保存
+
 ## [2026-09-07] query | Matt Pocock Skills (skills.sh) 在 Node 20.18.0 能否运行
 - **输出**: 引用 [[MattPocock]]、[[mattpocock-skills]]、[[Node.js]]、[[openspec-matt-skills-execution-workflow]]; 知识库无版本要求记录，降级声明后经 npm `engines` 字段验证——`skills` 包 1.5.0~1.5.18 要求 Node >= 18（20.18.0 可用），1.5.19+（2026-07-16 起）要求 Node >= 22.20.0（20.18.0 会报 EBADENGINE）; 即时回答未保存
 
