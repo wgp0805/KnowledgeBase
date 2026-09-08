@@ -2,8 +2,8 @@
 title: "RAG"
 type: concept
 tags: [AI, RAG, 检索增强, 知识库, 面试]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/SpringAI.md, raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md]
-last_updated: 2026-06-30
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/SpringAI.md, raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md]
+last_updated: 2026-09-08
 ---
 
 ## 定义
@@ -109,6 +109,15 @@ LangChain 实现 RAG 的两大阶段与五大组件：
 - [[GraphRAG]] — 结合知识图谱的图检索增强
 - [[ContextEngineering]] — 从"检索增强"到"上下文工程"的认知升级
 
+## 百万上下文不结束 RAG（GPT-6 Astra 视角，2026-09-07）
+
+GPT-6 Astra 提供 1,050,000 token 上下文窗口，但百万上下文不会结束 RAG：
+- 长上下文解决的是"装得下"，RAG 还要解决"找得准、来源清楚、权限正确、版本有效"
+- 企业知识库文档可能过期/互相矛盾；员工可查看资料范围不同；制度正文/补充通知/废止文件放在一起，模型很难凭窗口大小判断哪份当前有效
+- Astra 的 [[ToolSearch]] 和 [[Skills]] 反而推动 RAG 继续细分：模型接到任务后按需选择知识源/业务工具/处理方法，只把当前步骤需要的内容送入上下文
+- **RAG 的重心会从检索更多内容，转向装载正确证据和正确能力**
+- 如果数据治理基础工作没完成（文档责任人/有效期/业务域/密级/版本状态），百万上下文只会让系统更有能力一次读入大量混乱材料
+
 ## 关联连接
 - [[LangChain4j]] — RAG 框架实现
 - [[ChatMemory]] — 对话记忆
@@ -131,3 +140,7 @@ LangChain 实现 RAG 的两大阶段与五大组件：
 - [[摘要-字节面试官什么是RAG为什么需要RAG]] — 来源
 - [[摘要-langchain-rag构建知识库-理论]] — LangChain RAG 构建理论来源
 - [[摘要-langchain4j-langgraph4j-comparison]] — LangChain4j 与 LangGraph4j 对比中的 RAG 能力来源
+- [[GPT-6]] — 百万上下文不结束 RAG
+- [[ToolSearch]] — 按需加载工具推动 RAG 细分
+- [[Skills]] — 按需加载能力说明
+- [[摘要-GPT-6-Astra改变技术栈]] — 百万上下文不结束 RAG 来源
