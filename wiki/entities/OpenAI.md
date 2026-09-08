@@ -21,6 +21,7 @@ last_updated: 2026-09-08
 - **核心团队成员**：Romain Huet（开发者体验负责人）、Aaron Friel（工程师）
 - **GPT-6 Astra**（2026-09-03 发布）：详见 [[GPT-6]]，ARC-AGI-3 从 7.8% 提升至 99.9%，总裁 Brockman 称"Welcome to the AGI era"，首款让前代模型参与训练监督的前沿大模型
 - **Stargate 基地**：得州，GPT-6 预训练动用超 10 万块 GPU（GPT-4 约 2.5 万块）
+- **GPT-6 Astra 技术栈影响**（2026-09-07 分析）：只支持 [[ResponsesApi]]，推动后端升级为 [[AgentRuntime]]、前端升级为 [[TaskConsole]]、安全升级为 [[AIControlPlane]] 独立层，成本管理从 Token 转向 [[任务级成本]]（详见 [[摘要-GPT-6-Astra改变技术栈]]）
 
 ## 关联连接
 - [[Codex]] — OpenAI 的 Agent 产品
@@ -34,3 +35,9 @@ last_updated: 2026-09-08
 - [[GPT-6]] — GPT-6 Astra 新一代模型
 - [[摘要-gpt6-astra实测体验]] — GPT-6 Astra 实测来源
 - [[摘要-gpt6-自训练信号]] — GPT-6 自训练信号分析来源
+- [[摘要-GPT-6-Astra改变技术栈]] — GPT-6 Astra 技术栈影响分析来源
+- [[AgentRuntime]] — 后端升级方向
+- [[TaskConsole]] — 前端升级方向
+- [[AIControlPlane]] — 安全控制独立层
+- [[ResponsesApi]] — Astra 唯一支持接口
+- [[任务级成本]] — 成本管理方向

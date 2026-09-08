@@ -5,7 +5,8 @@ tags: [概念, Agent, 架构, 框架]
 sources:
   - raw/09-archive/DeepSeek员工：Harness开始内测，有plugin、skill、MCP、Agent开源项目者优先，并赠送API额度（附Agent面试题）.md
   - raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md
-last_updated: 2026-08-17
+  - raw/01-articles/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md
+last_updated: 2026-09-08
 ---
 
 ## 定义
