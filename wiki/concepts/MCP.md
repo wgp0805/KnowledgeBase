@@ -2,8 +2,8 @@
 title: "MCP"
 type: concept
 tags: [AI, 协议, 外部服务]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/AgentScope入门指南.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/01-articles/为什么越来越多人用FastMCP？.md]
-last_updated: 2026-08-20
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/AgentScope入门指南.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/01-articles/为什么越来越多人用FastMCP？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md]
+last_updated: 2026-09-08
 ---
 
 ## 定义
@@ -68,6 +68,12 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 - 企业级方案 Prefect Horizon 提供 SSO/RBAC/审计/可观测性
 - 详见 [[FastMCP]]、[[摘要-为什么越来越多人用FastMCP]]
 
+### GPT-6 Astra 时代的远程 MCP（2026-09-07）
+- GPT-6 Astra 的 [[ResponsesApi]] 承载远程 MCP 调用
+- Astra 支持 [[ToolSearch]] 和 [[Skills]]：需要时再加载工具定义与能力说明，避免一次塞进上下文
+- 这会影响 Agent 框架：纯粹做工具转发的中间层价值下降；留下来的部分是企业连接器/流程规则/可观测性/权限控制/异常恢复
+- 详见 [[摘要-GPT-6-Astra改变技术栈]]
+
 ## 关联连接
 - [[Agent]] — MCP 所属概念
 - [[ClaudeCode]] — MCP 发明者
@@ -81,7 +87,12 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 - [[MRTR]] — 第五版多轮往返机制
 - [[OpenClawNET]] — 第五版编排层实践
 - [[FastMCP]] — MCP 生态事实标准 Python 框架
+- [[GPT-6]] — Astra 支持远程 MCP
+- [[ResponsesApi]] — Astra 唯一支持接口
+- [[ToolSearch]] — 按需加载工具
+- [[Skills]] — 按需加载能力说明
 - [[摘要-claude-code-learning-roadmap]] — 来源（Claude Code 王者级外部连接能力）
 - [[摘要-AgentScope入门指南]] — 来源（AgentScope MCP 集成实战）
 - [[摘要-mcp-v5-openclaw-net]] — 来源（MCP 第五版 × OpenClaw.NET）
 - [[摘要-为什么越来越多人用FastMCP]] — 来源（FastMCP 占 70% MCP 服务器份额）
+- [[摘要-GPT-6-Astra改变技术栈]] — 来源（Astra 远程 MCP 支持）

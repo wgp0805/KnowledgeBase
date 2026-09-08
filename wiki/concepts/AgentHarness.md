@@ -2,8 +2,8 @@
 title: "AgentHarness"
 type: concept
 tags: [AI, Agent设计, Harness, MiMo Code]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md, raw/09-archive/Trellis使用手册.md, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md, raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md]
-last_updated: 2026-08-18
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md, raw/09-archive/Trellis使用手册.md, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md, raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md, raw/01-articles/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md]
+last_updated: 2026-09-08
 ---
 
 ## 定义
@@ -26,6 +26,12 @@ Harness 是大模型之外让 Agent 表现更好的设计总称，包括上下�
 - **[[Trellis]]**：将 Harness 外延到项目资产，借助 Spec、Task、Workflow 与 Journal 解决跨会话恢复、跨平台共享和经验回流；详见 [[项目级AI工作流]]。
 - **[[DeepSeekHarness]]**：DeepSeek 官方 2026-08-13 开源（MIT），TypeScript 实现，基于 Cordis 插件内核，"一切皆插件"设计。GitHub 史上涨星最快项目（42 小时约 10 万 Star）。不绑定 DeepSeek API，认 OpenAI 兼容端点，可接入本地 [[LlamaCpp]] / [[Ollama]] + 任意开源模型，是 [[本地Agent工作站]] 的框架支柱。
 
+### Harness 不会消失（Alex Atallah 视角，2026-09-07）
+- Harness 将成为模型之上的可组合工作界面，也是没有自研模型的创业公司掌握用户关系的重要一层
+- 一个 Harness 可以调用另一个 Harness，也可以在云端沙箱里启动另一个 Harness
+- Harness 通常建立在 Unix 环境上，模型对 Unix/bash 训练充分，比围绕复杂 App 做编排更可靠更确定
+- 详见 [[HarnessEngineering]] 和 [[摘要-对话OpenRouter-CEO-Harness取代超级App]]
+
 ## 关联连接
 - [[Agent]] — harness 所属概念
 - [[ClaudeCode]] — harness 标杆产品
@@ -47,3 +53,5 @@ Harness 是大模型之外让 Agent 表现更好的设计总称，包括上下�
 - [[LlamaCpp]] — 本地推理引擎
 - [[Qwen3.8-27B]] — 本地部署配套模型
 - [[RTX5090]] — 配套硬件
+- [[AlexAtallah]] — Harness 不会消失论提出者
+- [[摘要-对话OpenRouter-CEO-Harness取代超级App]] — Harness vs App 视角来源
