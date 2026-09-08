@@ -1797,3 +1797,26 @@
 - [[SSH终端]] — 通过SSH协议连接到远程服务器进行命令行操作
 - [[Docker管理]] — 对Docker容器进行管理、监控和维护
 - [[全栈开发运维]] — 将开发、测试、运维等多个环节集成在一个工具中
+
+## Sources (2026-09-07 新增 ingest - 3篇文章)
+- [[摘要-数字员工落地第一步]] — 企业配数字员工两年实战：落地第一步是交接单而非Agent，人机协同三阶段与三类卡点
+- [[摘要-对话OpenRouter-CEO-Harness取代超级App]] — OpenRouter CEO Alex Atallah 对谈：Harness 取代超级 App，所有软件只是 Agent 的后台工具，杰文斯悖论与模型路由
+- [[摘要-GPT-6-Astra改变技术栈]] — GPT-6 Astra 正式登场后技术栈变化：AgentRuntime/TaskConsole/AIControlPlane 三层架构、Responses API 成主流、ToolSearch、任务级成本
+
+## Entities (2026-09-07 新增 ingest)
+- [[OpenSea]] — NFT 交易平台，Alex Atallah 联合创始人，其工程经验迁移到 OpenRouter
+- [[AlexAtallah]] — OpenRouter CEO，OpenSea 联合创始人，提出 Harness 取代超级 App 判断
+
+## Concepts (2026-09-07 新增 ingest)
+- [[数字员工]] — 企业内承担具体工作流的 AI Agent，落地第一步是交接单而非 Agent 本身
+- [[交接单]] — 数字员工落地的第一步：把人类工作流拆解为可交接给 Agent 的结构化任务描述
+- [[AgentRuntime]] — GPT-6 Astra 时代技术栈底层：模型执行环境，类比操作系统的内核态
+- [[TaskConsole]] — GPT-6 Astra 时代技术栈中层：任务编排与监控控制台
+- [[AIControlPlane]] — GPT-6 Astra 时代技术栈顶层：AI 控制平面，统一调度模型与工具
+- [[杰文斯悖论]] — 技术进步降低资源使用成本反而增加总消耗，AI 推理成本下降将带来更多 Agent 调用
+- [[模型路由]] — 根据任务特征将请求分发到最合适模型的技术，OpenRouter 核心能力
+- [[多模型并用]] — 同一工作流中调用多个模型各取所长，取代单一模型包打天下
+- [[蒸馏]] — 用大模型输出训练小模型的技术，降低成本与延迟的常用手段
+- [[多层记忆]] — Agent 记忆分层架构：短期会话/中期任务/长期知识，GPT-6 Astra 时代标配
+- [[ToolSearch]] — GPT-6 Astra 时代工具发现机制：Agent 按需搜索工具而非预装全部
+- [[任务级成本]] — 以单个任务为单位的 AI 成本计量方式，取代 Token 级计费，GPT-6 Astra 时代趋势

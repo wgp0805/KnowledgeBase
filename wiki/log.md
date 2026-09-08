@@ -1594,3 +1594,13 @@
 - **变更**: 新增 [[摘要-matt-openspec配合开发教程]]; 新增 Concepts: [[diagnosing-bugs]]; 更新 [[index.md]]（Sources +1 / Concepts +1）
 - **冲突**: 无
 - **归档**: 1 个源文件已移动至 raw/09-archive/
+
+## [2026-09-07] ingest | 摄入 3 篇文章：数字员工落地 / OpenRouter CEO 对谈 / GPT-6 Astra 技术栈
+- **变更**:
+  - 新增 Sources: 3 个摘要页面：[[摘要-数字员工落地第一步]]、[[摘要-对话OpenRouter-CEO-Harness取代超级App]]、[[摘要-GPT-6-Astra改变技术栈]]
+  - 新增 Entities: 2 个：[[OpenSea]]、[[AlexAtallah]]
+  - 新增 Concepts: 12 个：[[数字员工]]、[[交接单]]、[[AgentRuntime]]、[[TaskConsole]]、[[AIControlPlane]]、[[杰文斯悖论]]、[[模型路由]]、[[多模型并用]]、[[蒸馏]]、[[多层记忆]]、[[ToolSearch]]、[[任务级成本]]
+  - 增量更新已存在页面: [[OpenRouter]]（+Alex Atallah CEO 对谈核心判断/OpenSea 经验迁移/收费模式/Stripe 收购传闻）、[[GPT-6]]（+技术栈影响章节：AgentRuntime/TaskConsole/AIControlPlane/ResponsesApi/ToolSearch/任务级成本）、[[OpenAI]]（+GPT-6 Astra 技术栈影响条目）、[[Anthropic]]（+Building effective agents 建议被引用）、[[Harness]]（+Harness vs App：Alex Atallah 视角）、[[HarnessEngineering]]（+Alex Atallah 视角）、[[AgentHarness]]（+Harness 不会消失）、[[ResponsesApi]]（+GPT-6 Astra 时代关键变化）、[[ChatCompletionsAPI]]（+GPT-6 Astra 不再支持）、[[RAG]]（+百万上下文不结束 RAG）、[[Skills]]（+GPT-6 Astra 时代 Skills）、[[MCP]]（+GPT-6 Astra 时代远程 MCP）
+  - 更新 [[index.md]]: Sources +3 / Entities +2 / Concepts +12
+- **冲突**: 无
+- **归档**: 3 个源文件已移动至 raw/09-archive/
