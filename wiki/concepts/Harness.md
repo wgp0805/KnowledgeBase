@@ -38,14 +38,26 @@ Harness 是指 AI Agent 中模型之外的一切基础设施层，包括工具�
 - 脚手架：`dsh plugin create <name>`
 - 配置文件：`dsh.config.json`
 
+### Harness vs App（Alex Atallah / OpenRouter CEO 视角，2026-09-07）
+- **Harness 不会随模型变强而消失**：将成为模型之上的可组合工作界面，也是没有自研模型的创业公司掌握用户关系的重要一层
+- **区别在于可组合性**：一个 Harness 可以调用另一个 Harness，也可以在云端沙箱里启动另一个 Harness
+- **Harness 通常建立在 Unix 环境上**：模型对 Unix 和 bash 命令训练充分，比围绕一组复杂 App 做编排更可靠更确定
+- **让 Agent 操作普通 App** 会遇到登录/密码/虚拟浏览器/寻找 API/阅读文档等许多未知问题；进入 Harness 则更容易检查内部发生了什么
+- **更多 Harness 会出现**：它是建立在模型之上的用户体验，让不拥有模型的开发者能够拥有用户关系
+- 模型变强后，系统提示词里塞进的大量杂物反而可能拖累表现；Anthropic 曾展示删掉部分系统提示词内容后模型矛盾变少、表现更好
+
 ## 关联连接
 - [[DeepSeekHarness]] — DeepSeek 原生 Harness 实现
 - [[PaiCLI]] — 开源终端 Agent Harness 实现
 - [[ReAct_Agent]] — ReAct 推理循环是 Harness 的核心模式
 - [[摘要-deepseek-harness内测]] — 来源
 - [[摘要-deepseek-harness教程-掉落的果实]] — 来源（DSH 完整教程）
+- [[摘要-对话OpenRouter-CEO-Harness取代超级App]] — 来源（Harness vs App 视角）
 - [[ClaudeCode]] — Claude 的 Harness 实现
 - [[Codex]] — Codex 的 Harness 实现
 - [[HITL]] — 人机协作审批机制
 - [[context-compression]] — 上下文压缩策略
 - [[Pi]] — 极简 Harness 实现（系统提示词仅 200 Token）
+- [[AlexAtallah]] — Harness 不会消失论的提出者
+- [[OpenRouter]] — CEO 对谈来源平台
+- [[HarnessEngineering]] — Harness 工程实践
