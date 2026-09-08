@@ -1,3 +1,8 @@
+## [2026-09-08] query | Matt Pocock Skills 好用吗
+- **输出**: 即时回答未保存
+- **内容**: 综合评价 Matt Pocock Skills 的设计哲学、核心能力、优缺点与适用场景
+- **引用**: [[摘要-mattpocock-skills]]、[[摘要-matt-openspec配合开发教程]]、[[openspec-matt-skills-execution-workflow]]、[[optimal-framework-combination-heavy-project]]
+
 ## [2026-09-07] query | OpenSpec + Matt 轻量执行的 init 与 setup 配置 FAQ
 - **输出**: 已保存至 [[openspec-matt-lightweight-setup-faq]]
 - **内容**: 回答两个实操问题——(1) OpenSpec 管规划 + Matt 只用 tdd/code-review 时，OpenSpec 必须 init 而 Matt 没有 init 步骤；(2) `/setup-matt-pocock-skills` 生成的 `domain.md`/`issue-tracker.md`/`triage-labels.md` 在轻量组合下无用可删，因为这三个文件服务的是 Matt 工程类 skill（to-tickets/triage/wayfinder/to-spec），而 tdd/code-review 不依赖它们
