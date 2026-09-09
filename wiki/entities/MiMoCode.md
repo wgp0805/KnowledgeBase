@@ -37,5 +37,12 @@ MiMo Code 的 Harness 围绕计算、记忆、进化三个主题设计：
 - [[goals]] — 目标验证机制
 - [[dynamic-workflow]] — 工作流编排
 - [[checkpoint-rebuild]] — 上下文管理
+### 与 MiMo Desktop 的关系（2026-09 补充）
+MiMo Code 是小米 MiMo 平台上的编程 Agent（基于 OpenCode，MIT 开源），而 [[MiMoDesktop]] 是同一平台上 2026-09-08 开放邀测的桌面端通用 Agent，面向办公、设计与创作交付。两者共享 MiMo 平台的模型与服务底座：MiMo Code 侧重代码与工程，MiMo Desktop 侧重可编辑的成果交付（PPT、网页、3D、App），并通过 [[MCP]] 接入 [[Figma]] 等外部工具。详见 [[摘要-小米mimo-desktop邀测]]。
+
+## 关联连接
 - [[ClaudeCode]] — 同类产品
+- [[MiMoDesktop]] — 同平台的桌面通用 Agent
+- [[MiMo-X]] — MiMo Desktop 搭载的预览版模型
 - [[摘要-mimo-code发布]] — 来源
+- [[摘要-小米mimo-desktop邀测]] — 来源（姊妹产品线）
