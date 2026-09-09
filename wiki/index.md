@@ -1820,3 +1820,41 @@
 - [[多层记忆]] — Agent 记忆分层架构：短期会话/中期任务/长期知识，GPT-6 Astra 时代标配
 - [[ToolSearch]] — GPT-6 Astra 时代工具发现机制：Agent 按需搜索工具而非预装全部
 - [[任务级成本]] — 以单个任务为单位的 AI 成本计量方式，取代 Token 级计费，GPT-6 Astra 时代趋势
+
+## Sources (2026-09-09 新增 ingest - 5 篇文章)
+- [[摘要-小米mimo-desktop邀测]] — 小米 MiMo Desktop 邀测 + MiMo-X 预览模型：交付导向桌面 Agent，混合素材直投/真页面预览/局部编辑/Smart 调度/浏览器验收
+- [[摘要-harmonyos-7十大升级一]] — HarmonyOS 7.0 十大 Kit 升级（系列第一篇）：ArkUI 文本选择/ArkWeb 模拟点击检测/AVCodec 多格式软解码等 + 对齐 Android 生态分析
+- [[摘要-codex重置的真正原因]] — Codex 五个月 36 次重置中 61.1% 与故障无关，事件营销 + Tibo 个人 IP 接住 Claude 迁移窗口的打法拆解
+- [[摘要-fastthreadlocal为啥快]] — Netty FastThreadLocal 数组下标实现对照 JDK ThreadLocal 哈希查找：核心源码（netty-4.1.34）与三种回收机制
+- [[摘要-日志分析命令组合拳]] — tail/less/grep/sed/awk 五类命令的生产日志排查场景化速查（发版监控/反向搜索/上下文还原/时间窗口切片/IP 聚合）
+
+## Entities (2026-09-09 新增 ingest)
+- [[MiMoDesktop]] — 小米交付导向桌面 AI Agent（2026-09-08 开放邀测），混合素材直投 + 局部编辑 + Smart 调度
+- [[MiMo-X]] — 小米 MiMo 团队新一代模型系列预览版（MiMo-X-Pro-Preview / MiMo-X-Flash-Preview）
+- [[HarmonyOS]] — 华为操作系统，HarmonyOS 7.0 于 2026-09-07 发布，十大 Kit 特性增强
+- [[Tibo]] — OpenAI Codex 负责人，被用户称为"重置之神"与"赛博义父"，实体重置按钮的所有者
+- [[ArkUI]] — HarmonyOS 方舟 UI 框架，7.0 新增 TextController.setTextSelection 文本选择能力
+- [[ArkWeb]] — HarmonyOS 方舟 Web 框架，7.0 新增模拟点击检测接口（带调用配额）
+- [[VCard]] — 电子名片文件格式标准（.vcf），HarmonyOS 7.0 Telephony Kit 新增导入/导出模块
+- [[FastThreadLocal]] — Netty 线程本地变量实现，数组下标访问替代 JDK ThreadLocal 哈希查找
+- [[InternalThreadLocalMap]] — Netty ftl 底层存储：32 槽 UNSET 数组 + 存值而非 entry + cleanFlag 防重复注册
+- [[FastThreadLocalThread]] — 聚合 InternalThreadLocalMap 的线程类，发挥 ftl 性能优势的必要前提
+- [[PoolThreadLocalCache]] — Netty ByteBuf 内存池化内部类，ftl 最重要用法（线程私有 PoolArena 缓存）
+- [[ThreadLocal]] — JDK 线程本地变量类，ThreadLocalMap 用线性探测解决 hash 冲突，是 ftl 的对照实现
+- [[tail]] — Linux 文件尾部查看命令，-f 实时监控 / -n 限定行数
+- [[less]] — Linux 分页浏览工具，按需加载 + 反向搜索 + Shift+F 实时滚动
+- [[Figma]] — 云协作设计工具，MiMo Desktop MCP 设计工作流的可控执行目标
+
+## Concepts (2026-09-09 新增 ingest)
+- [[Smart调度]] — MiMo Desktop 三层调度：任务评估 / 模型路由 / Harness-Agent-Skill 路由，把"选哪个模型"从用户手里拿走
+- [[桌面Agent]] — 以"交付可继续使用的成果"为核心目标的桌面端 AI Agent 形态，评分标准从答得对不对转向活干完没
+- [[局部编辑]] — 选区限定 + 部分重生成 + 版本回退，"玩票"与"真能用"的分水岭
+- [[上下文缓存]] — 任务/会话级重复前缀缓存（MiMo 官方实测同会话 99%/跨会话 95%），长任务降本三路径之一
+- [[事件营销]] — 把正在发生的产品动作（故障/发版/竞品危机）重包装为公开可传播事件，同一动作承担不同增长任务
+- [[个人IP]] — 产品负责人具名形象成为传播渠道，用户互动自发扩散、无需重复购买流量
+- [[竞品迁移窗口]] — 竞品风控/封号引发用户不确定性时的有限机会窗口，降低体验门槛即可承接迁移
+- [[模拟点击检测]] — 判定 Web 点击是真人还是自动化/设备墙的机制，HarmonyOS ArkWeb 带配额限制
+- [[Exif元数据]] — 嵌入图像的扩展元数据（创作者/镜头参数/地理位置），上传网络前默认应剥离敏感项
+- [[线性探测]] — 开放寻址冲突策略：slot 被占按步长向后连续尝试，JDK ThreadLocalMap 采用
+- [[内存池化]] — 预分配按线程切分内存块，热路径无锁化，Netty ByteBuf 分配实践
+- [[日志分析]] — 实时监控/回溯浏览/上下文还原/时间窗口切片/统计聚合五条能力路径，生产排障基本功

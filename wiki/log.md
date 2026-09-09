@@ -1609,3 +1609,13 @@
   - 更新 [[index.md]]: Sources +3 / Entities +2 / Concepts +12
 - **冲突**: 无
 - **归档**: 3 个源文件已移动至 raw/09-archive/
+
+## [2026-09-09] ingest | 摄入 5 篇文章：小米 MiMo Desktop 邀测 / HarmonyOS 7.0 十大升级（一）/ Codex 重置真正原因 / FastThreadLocal / 日志分析命令组合拳
+- **变更**:
+  - 新增 Sources: 5 个摘要页面：[[摘要-小米mimo-desktop邀测]]、[[摘要-harmonyos-7十大升级一]]、[[摘要-codex重置的真正原因]]、[[摘要-fastthreadlocal为啥快]]、[[摘要-日志分析命令组合拳]]
+  - 新增 Entities: 15 个：[[MiMoDesktop]]、[[MiMo-X]]、[[HarmonyOS]]、[[Tibo]]、[[ArkUI]]、[[ArkWeb]]、[[VCard]]、[[FastThreadLocal]]、[[InternalThreadLocalMap]]、[[FastThreadLocalThread]]、[[PoolThreadLocalCache]]、[[ThreadLocal]]、[[tail]]、[[less]]、[[Figma]]
+  - 新增 Concepts: 12 个：[[Smart调度]]、[[桌面Agent]]、[[局部编辑]]、[[上下文缓存]]、[[事件营销]]、[[个人IP]]、[[竞品迁移窗口]]、[[模拟点击检测]]、[[Exif元数据]]、[[线性探测]]、[[内存池化]]、[[日志分析]]
+  - 增量更新已存在页面: [[Claude]]（+2026-06 至 08 封号风波与地区识别争议章节）、[[Codex]]、[[OpenAI]]、[[Xiaomi]]、[[Netty]]
+  - 更新 [[index.md]]: Sources +5 / Entities +15 / Concepts +12
+- **冲突**: 无
+- **归档**: 5 个源文件已移动至 raw/09-archive/
