@@ -52,6 +52,27 @@ sources:
   - 中文
   enabled: true
   max_per_source: 10
+- name: 掘金-热榜
+  type: api
+  url: https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed
+  method: POST
+  payload:
+    before: '0'
+    limit: 20
+  data_path:
+  - data
+  item_path:
+  - item_info
+  - article_info
+  title_field: title
+  summary_field: brief_content
+  link_template: https://juejin.cn/post/{article_id}
+  tags:
+  - 热榜
+  - 编程
+  - 中文
+  enabled: true
+  max_per_source: 15
 - name: 知乎探索
   type: scrape
   url: https://www.zhihu.com/explore
