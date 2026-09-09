@@ -50,16 +50,6 @@ sources:
   - 技术
   enabled: true
   max_per_source: 10
-- name: 36氪
-  type: rss
-  url: https://36kr.com/feed
-  tags:
-  - 科技
-  - 创投
-  - 新闻
-  - 中文
-  enabled: true
-  max_per_source: 10
 - name: 人人都是产品经理
   type: rss
   url: https://www.woshipm.com/feed
@@ -67,18 +57,6 @@ sources:
   - 产品经理
   - AI产品
   - Agent
-  - 中文
-  enabled: true
-  max_per_source: 10
-- name: CSDN-Java
-  type: scrape
-  url: https://blog.csdn.net/nav/java
-  selector: a[href*='/article/details/']
-  link_prefix: https://blog.csdn.net
-  tags:
-  - Java
-  - 后端
-  - 编程
   - 中文
   enabled: true
   max_per_source: 10
