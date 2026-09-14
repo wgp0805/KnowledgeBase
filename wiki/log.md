@@ -1635,3 +1635,9 @@
 - **内容**: 回答 TDD skill 要求先确认测试 seam 但项目无前端测试框架且改动是 Vue 模板 v-if/:disabled 表达式条件调整时的处理策略——TDD skill 原文明确 seam 是公共接口边界，纯声明式 UI 代码无独立可测 seam，应跳过 TDD 改用人工验证+code-review
 - **引用**: [[TDD]]、[[mattpocock-skills]]、[[openspec-matt-skills-execution-workflow]]、[[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[openspec-matt-lightweight-setup-faq]]
 
+
+## [2026-09-14] ingest | 整理 Matt Skills 边界判断实操经验
+- **变更**: 新增 [[matt-skills-boundary-judgment]]; 更新 [[index.md]]（Syntheses +1）
+- **内容**: 整理三个实操问题为一个 synthesis——(1) TDD 无 seam 场景（纯声明式 UI/无测试基础设施）应跳过 TDD 改用人工验证+code-review，附进阶方案：抽纯函数造 seam; (2) /implement 是编排层按规格执行不强制测试，/tdd 是纪律层强制 red-green，/implement 可内联 /tdd 纪律; (3) /implement 隐含前置规格对齐，直接让 AI 干活跳过对齐承担'对不齐'风险，简单活差别不大中型功能必须先对齐
+- **冲突**: 无
+
