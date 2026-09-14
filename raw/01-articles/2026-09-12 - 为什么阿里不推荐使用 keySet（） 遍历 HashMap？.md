@@ -10,37 +10,37 @@ parse_status: "ok"
 
 # 为什么阿里不推荐使用 keySet（） 遍历 HashMap？
 
-![图片 1](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smqF90wI4M4URcX5MaWWucfdn3QSQO4ptD8pojPkkDBwkGIxA2QbLwnLGbiaICme3Xnrl2TD6Ybpe5Fo6cO9LRwibeibANc7oFF5Ho/0?wx_fmt=png&from=appmsg)
+![图片 1](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/20079d804ac9a9ff19e44f9968be4404_MD5.png)
 
-![图片 2](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstagc80YTU0pvGibpFGINDse9UAx2SVNaPWuq7IlqT3CwHJd6aNCsqibMVw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片 2](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/ed1ba0b764c0983a2eb74d526e681912_MD5.jpg)
 
-![图片 3](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstaS4av5FgFGDMwSoQeo2urGfEImxVgHibN29VMgquee4aAWQWctkgiacgA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片 3](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/05f62117df802c8c8146484c4d968427_MD5.jpg)
 
-![图片 4](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstad10RbvyCkkQcPdz4aHTLx9zuoKcAMs9hKpyR59iaFOdlzHN59OGxVBw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片 4](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/6d159e9009614deb8d2741cbb35311e4_MD5.jpg)
 
-![图片 5](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstadeUZDfINI1bsMX7VZs4Olvez4Kpr7NFCSMNkobLf7DDoZUD7HGNbWQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片 5](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/7e7c3530dc827fb73b67cf6f1e7418e0_MD5.jpg)
 
-![图片 6](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstadlKFxtTLZXIe8icES618b4hA6yiajwvbicNEM9I31fsFaKOFVhnBIDqcQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片 6](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/6fa16197f64a5f90c73f55c0bdcffa5e_MD5.jpg)
 
-![图片 7](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstayK3LL5PtJDS8alYibmqwSBBicHoxEJZUQJnRqqewYib7bAY2o4NSutROA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片 7](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/5f0f367f6ede829005092de9047b62ac_MD5.jpg)
 
-![图片 8](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstawVoGvpJqBAzFFlkQEG3M0qBwv36w1jQcG2rckNNg4iaeov0O4ibgZvyw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片 8](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/f6c1b3d33681ad2267a063b2b6291736_MD5.jpg)
 
-![图片 9](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstaVQDpRdtqlmoicz86zGbCSB1Nz65EcAzIxLlAnr9eC250bVWhtTahQJw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片 9](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/40a9cbf51c237c1c70d30723980e9a4a_MD5.jpg)
 
-![图片 10](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
+![图片 10](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
-![图片 11](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLEdM2gtRgy5eLztKXrUhee76MZ9wAicNPicsnAHPibicaSHUVqFkkibxWlrGO0acUxQmycZpqCNGcibaicxA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&retryload=1&tp=webp#imgIndex=6)
+![图片 11](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/b01fd91d58faf9455f8fbb5c64bb22f0_MD5.webp)
 
-![图片 12](https://mmbiz.qpic.cn/mmbiz_gif/TNUwKhV0JpTGQqtlGfEHkjibtshlaDwVKzjqq2pnpmYC14bKxDtSuhpWZWfVcicj5PFsoSMzuzicKIWZbsBpGXiaicg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&randomid=t3kyqhaj&retryload=1&tp=webp#imgIndex=46)
+![图片 12](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/7df57b5574ec2ec178922933af126d15_MD5.gif)
 
-![图片 13](https://mmbiz.qpic.cn/sz_mmbiz_gif/knmrNHnmCLEVGGmicJODkfibhcqyUwmTSC8CUvAMG78wPemfibvQ502uFs9jlziaLP50YcTs4rL9hQuzX32PAUOPHA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1&randomid=ers09cbt&tp=webp#imgIndex=47)
+![图片 13](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/b0ee5bffad568537e70580143316fb61_MD5.gif)
 
 将 **小哈学Java**** **设为“**星标****⭐**”
 
 第一时间收到文章更新
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smqF90wI4M4URcX5MaWWucfdn3QSQO4ptD8pojPkkDBwkGIxA2QbLwnLGbiaICme3Xnrl2TD6Ybpe5Fo6cO9LRwibeibANc7oFF5Ho/640?wx_fmt=png&from=appmsg)
+![](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/761cadfeb5cb3f8d3dea8dee1e80878e_MD5.png)
 
 来源：juejin.cn/post/7295353579002396726
 
@@ -70,7 +70,7 @@ HashMap 相信所有学 Java 的都一定不会感到陌生，作为一个非常
 
 以上遍历方式的孰优孰劣，在《阿里巴巴开发手册》中写道：
 
-![阿里巴巴开发手册关于 HashMap 遍历的推荐](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstagc80YTU0pvGibpFGINDse9UAx2SVNaPWuq7IlqT3CwHJd6aNCsqibMVw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![阿里巴巴开发手册关于 HashMap 遍历的推荐](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/ed1ba0b764c0983a2eb74d526e681912_MD5.jpg)
 
 阿里巴巴开发手册关于 HashMap 遍历的推荐这里推荐使用的是  `entrySet`  进行遍历，在 Java8 中推荐使用  `Map.forEach()` 。给出的理由是遍历次数上的不同。
 
@@ -114,7 +114,7 @@ k3:v3
 
 Iterator 对象呢？如何遍历转换为 Iterator 对象的呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstaS4av5FgFGDMwSoQeo2urGfEImxVgHibN29VMgquee4aAWQWctkgiacgA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/05f62117df802c8c8146484c4d968427_MD5.jpg)
 
 首先我们这种遍历方式大家都应该知道是叫： `增强for循环，for-each`
 
@@ -122,7 +122,7 @@ Iterator 对象呢？如何遍历转换为 Iterator 对象的呢？
 
 我们可以通过反编译，或者直接通过 Idea 在 class 文件中查看对应的 Class 文件
 
-![IDEA 中查看反编译后的 Class 文件](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstad10RbvyCkkQcPdz4aHTLx9zuoKcAMs9hKpyR59iaFOdlzHN59OGxVBw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![IDEA 中查看反编译后的 Class 文件](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/6d159e9009614deb8d2741cbb35311e4_MD5.jpg)
 
 IDEA 中查看反编译后的 Class 文件
 
@@ -154,7 +154,7 @@ public class Test {
 
 ### 1 iterator()
 
-![Set 接口的 iterator() 方法定义](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstadeUZDfINI1bsMX7VZs4Olvez4Kpr7NFCSMNkobLf7DDoZUD7HGNbWQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![Set 接口的 iterator() 方法定义](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/7e7c3530dc827fb73b67cf6f1e7418e0_MD5.jpg)
 
 Set 接口的 iterator() 方法定义发现是 Set 定义的一个接口。返回此集合中元素的迭代器
 
@@ -162,11 +162,11 @@ Set 接口的 iterator() 方法定义发现是 Set 定义的一个接口。返�
 
 我们查看 HashMap 中 keySet 类对该方法的实现。
 
-![KeySet 类在 HashMap 中的定义](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstadlKFxtTLZXIe8icES618b4hA6yiajwvbicNEM9I31fsFaKOFVhnBIDqcQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![KeySet 类在 HashMap 中的定义](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/6fa16197f64a5f90c73f55c0bdcffa5e_MD5.jpg)
 
 KeySet 类在 HashMap 中的定义
 
-![HashMap.KeySet#iterator() 源码](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstayK3LL5PtJDS8alYibmqwSBBicHoxEJZUQJnRqqewYib7bAY2o4NSutROA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![HashMap.KeySet#iterator() 源码](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/5f0f367f6ede829005092de9047b62ac_MD5.jpg)
 
 HashMap.KeySet#iterator() 源码
 
@@ -203,7 +203,7 @@ final class KeySet extends AbstractSet<K> {
 
 ### 3 HashMap.KeyIterator
 
-![HashMap.KeyIterator 源码](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstawVoGvpJqBAzFFlkQEG3M0qBwv36w1jQcG2rckNNg4iaeov0O4ibgZvyw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![HashMap.KeyIterator 源码](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/f6c1b3d33681ad2267a063b2b6291736_MD5.jpg)
 
 HashMap.KeyIterator 源码
 
@@ -224,7 +224,7 @@ final class KeyIterator extends HashIterator
 
 ### 4 HashMap.HashIterator
 
-![HashMap.HashIterator 源码](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbud3nbEz1YHDEibKmRJTRVstaVQDpRdtqlmoicz86zGbCSB1Nz65EcAzIxLlAnr9eC250bVWhtTahQJw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![HashMap.HashIterator 源码](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/40a9cbf51c237c1c70d30723980e9a4a_MD5.jpg)
 
 HashMap.HashIterator 源码
 
@@ -333,9 +333,9 @@ public class Son extends Father{
 
 截止目前，**累计输出 150w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4900+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
+![图片](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLEdM2gtRgy5eLztKXrUhee76MZ9wAicNPicsnAHPibicaSHUVqFkkibxWlrGO0acUxQmycZpqCNGcibaicxA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&retryload=1&tp=webp#imgIndex=6)
+![图片](assets/2026-09-12%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E9%98%BF%E9%87%8C%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8%20keySet%EF%BC%88%EF%BC%89%20%E9%81%8D%E5%8E%86%20HashMap%EF%BC%9F/b01fd91d58faf9455f8fbb5c64bb22f0_MD5.webp)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~

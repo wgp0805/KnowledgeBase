@@ -10,27 +10,27 @@ parse_status: "ok"
 
 # 使用 Shadcn UI 构建 Java 桌面应用
 
-![图片 1](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smqRvQnK9pYstBzJqdKVNhI9RqE3b7b3BHWFkCMduuqG4lI1d6vicSsibftibYFNG2fvVZqV0oEUCTIVtF8xRsiaic1Gw2EMpuWwQ2fU/640?wx_fmt=png&from=appmsg)
+![图片 1](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/05db4c5ed825ff924729035519a908fc_MD5.png)
 
-![图片 2](https://mmbiz.qpic.cn/sz_mmbiz_jpg/joHKZKxvyOrfTib7Fxy04nBY8ibMGfWpD7s3eibCRzHTL0QLOiapMEwvcBVdVoFT3I6raDdBx44KITsXJBU4yPAIHzOwVwHCheEXAMS7PsvTviag/640?wx_fmt=other&from=appmsg#imgIndex=1)
+![图片 2](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/1eda048df1b1d745cfffe57de8da0073_MD5.jpg)
 
-![图片 3](https://mmbiz.qpic.cn/mmbiz_jpg/joHKZKxvyOp21DCfFhUv3WbCYTeTFnBB1w1jKqUkzaWgicoW0ZjxQ6WJCpqriacl6WRENyJKOBhO6BVeLibFF5JSzTo8fb5K1iazlMm7cdhFmKU/640?wx_fmt=other&from=appmsg#imgIndex=2)
+![图片 3](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/ec5d3f9e4030c556cd4e2b2a991b40e2_MD5.jpg)
 
-![图片 4](https://mmbiz.qpic.cn/mmbiz_png/joHKZKxvyOphD8ZqicUJyBbxB6oLczv3SYxjqtdcVnSHicCX8TzE8X09ibRicPRSCoHmmgGhdcHPNpLX8yOMbW8XRkiaDDc0fjUxxLCJlT6G8uLQ/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![图片 4](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/144b50c1b773f8fbe9660bd9536ffc52_MD5.png)
 
-![图片 5](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
+![图片 5](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
-![图片 6](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLEdM2gtRgy5eLztKXrUhee76MZ9wAicNPicsnAHPibicaSHUVqFkkibxWlrGO0acUxQmycZpqCNGcibaicxA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&retryload=1&tp=webp#imgIndex=6)
+![图片 6](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/b01fd91d58faf9455f8fbb5c64bb22f0_MD5.webp)
 
-![图片 7](https://mmbiz.qpic.cn/mmbiz_gif/TNUwKhV0JpTGQqtlGfEHkjibtshlaDwVKzjqq2pnpmYC14bKxDtSuhpWZWfVcicj5PFsoSMzuzicKIWZbsBpGXiaicg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&randomid=t3kyqhaj&retryload=1&tp=webp#imgIndex=46)
+![图片 7](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/7df57b5574ec2ec178922933af126d15_MD5.gif)
 
-![图片 8](https://mmbiz.qpic.cn/sz_mmbiz_gif/knmrNHnmCLEVGGmicJODkfibhcqyUwmTSC8CUvAMG78wPemfibvQ502uFs9jlziaLP50YcTs4rL9hQuzX32PAUOPHA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1&randomid=ers09cbt&tp=webp#imgIndex=47)
+![图片 8](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/b0ee5bffad568537e70580143316fb61_MD5.gif)
 
 将 **小哈学Java**** **设为“**星标****⭐**”
 
 第一时间收到文章更新
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smqRvQnK9pYstBzJqdKVNhI9RqE3b7b3BHWFkCMduuqG4lI1d6vicSsibftibYFNG2fvVZqV0oEUCTIVtF8xRsiaic1Gw2EMpuWwQ2fU/640?wx_fmt=png&from=appmsg)
+![](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/05db4c5ed825ff924729035519a908fc_MD5.png)
 
 **在线 Java 面试刷题（已更新334题，图文并茂）**：https://www.quanxiaoha.com/java-interview
 
@@ -47,7 +47,7 @@ parse_status: "ok"
 - 方案一：JS-Java Bridge（小项目够用）
 - 方案二：Protobuf + gRPC（正经项目首选）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/joHKZKxvyOrfTib7Fxy04nBY8ibMGfWpD7s3eibCRzHTL0QLOiapMEwvcBVdVoFT3I6raDdBx44KITsXJBU4yPAIHzOwVwHCheEXAMS7PsvTviag/640?wx_fmt=other&from=appmsg#imgIndex=1)
+![](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/1eda048df1b1d745cfffe57de8da0073_MD5.jpg)
 
 Slack、Notion、Teams、Linear——这些桌面应用有什么共同点？**它们的 UI 全是 Web 技术写的。** 这不是偷懒，而是务实的工程选择。
 
@@ -67,7 +67,7 @@ Web UI 恰好是反面：**组件库多到选不过来、高 DPI / 触屏 / 响�
 
 我们要构建的是一个偏好设置对话框，用户选好设置后保存到本地文件系统，重启后依然保留。
 
-![基于 Web UI 的桌面应用界面截图](https://mmbiz.qpic.cn/mmbiz_jpg/joHKZKxvyOp21DCfFhUv3WbCYTeTFnBB1w1jKqUkzaWgicoW0ZjxQ6WJCpqriacl6WRENyJKOBhO6BVeLibFF5JSzTo8fb5K1iazlMm7cdhFmKU/640?wx_fmt=other&from=appmsg#imgIndex=2)
+![基于 Web UI 的桌面应用界面截图](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/ec5d3f9e4030c556cd4e2b2a991b40e2_MD5.jpg)
 
 基于 Web UI 的桌面应用界面截图要让这套东西跑起来，得解决三件事：
 
@@ -193,7 +193,7 @@ const prefsClient = createClient(PrefsService, transport);
 prefsClient.setFontSize(FontSize.SMALL);
 ```
 
-![通信示意图](https://mmbiz.qpic.cn/mmbiz_png/joHKZKxvyOphD8ZqicUJyBbxB6oLczv3SYxjqtdcVnSHicCX8TzE8X09ibRicPRSCoHmmgGhdcHPNpLX8yOMbW8XRkiaDDc0fjUxxLCJlT6G8uLQ/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![通信示意图](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/144b50c1b773f8fbe9660bd9536ffc52_MD5.png)
 
 通信示意图**好处很明确**：类型安全、代码自动生成、IDE 补全、编译期检查——项目越大越值。
 
@@ -214,9 +214,9 @@ https://github.com/TeamDev-IP/JxBrowser-Gallery
 
 截止目前，**累计输出 150w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4900+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
+![图片](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLEdM2gtRgy5eLztKXrUhee76MZ9wAicNPicsnAHPibicaSHUVqFkkibxWlrGO0acUxQmycZpqCNGcibaicxA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&retryload=1&tp=webp#imgIndex=6)
+![图片](assets/2026-09-11%20-%20%E4%BD%BF%E7%94%A8%20Shadcn%20UI%20%E6%9E%84%E5%BB%BA%20Java%20%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/b01fd91d58faf9455f8fbb5c64bb22f0_MD5.webp)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~
