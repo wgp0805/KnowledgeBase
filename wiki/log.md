@@ -1619,3 +1619,13 @@
   - 更新 [[index.md]]: Sources +5 / Entities +15 / Concepts +12
 - **冲突**: 无
 - **归档**: 5 个源文件已移动至 raw/09-archive/
+
+## [2026-09-14] ingest | 批量摄入 29 篇文章（09-09 至 09-13）
+- **变更**:
+  - 新增 Sources: 29 个摘要页面（09-09 批次 6 个、09-10 批次 2 个、09-11 批次 7 个、09-12 批次 6 个、09-13 批次 8 个）
+  - 新增 Entities: 4 个：[[Filebeat]]、[[AgentMemory]]、[[GavinBaker]]、[[HashMap]]
+  - 新增 Concepts: 10 个：[[向量检索引擎]]、[[ELK日志系统]]、[[短剧广告变现]]、[[AI客服]]、[[AI文案工具]]、[[批量数据插入]]、[[上下文数据库]]、[[输入法入口]]、[[产品经理行业差异]]、[[PromptSkill做减法]]
+  - 跳过 1 个：`2026-09-11 - 使用 Shadcn UI 构建 Java 桌面应用.md`（已存在 [[摘要-ShadcnUI构建Java桌面应用]]）
+  - 更新 [[index.md]]: Sources +29 / Entities +4 / Concepts +10
+- **冲突**: 无
+- **归档**: 29 个源文件待移动至 raw/09-archive/
