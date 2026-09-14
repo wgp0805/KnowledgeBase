@@ -1629,3 +1629,9 @@
   - 更新 [[index.md]]: Sources +29 / Entities +4 / Concepts +10
 - **冲突**: 无
 - **归档**: 29 个源文件待移动至 raw/09-archive/
+
+## [2026-09-14] query | TDD 在无测试基础设施项目/纯声明式 UI 改动场景下如何处理测试 seam
+- **输出**: 即时回答未保存
+- **内容**: 回答 TDD skill 要求先确认测试 seam 但项目无前端测试框架且改动是 Vue 模板 v-if/:disabled 表达式条件调整时的处理策略——TDD skill 原文明确 seam 是公共接口边界，纯声明式 UI 代码无独立可测 seam，应跳过 TDD 改用人工验证+code-review
+- **引用**: [[TDD]]、[[mattpocock-skills]]、[[openspec-matt-skills-execution-workflow]]、[[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[openspec-matt-lightweight-setup-faq]]
+
