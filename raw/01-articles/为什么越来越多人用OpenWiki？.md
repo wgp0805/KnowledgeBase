@@ -48,7 +48,7 @@ LangChain官方对OpenWiki的定位非常精准： **“An agent reads your sour
 
 在深入代码之前，我们先建立一个整体认知。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rcUavmDwS5mT9R1nxTs4yKQdHOfR8HRTYc1ccPu4RCwcvRUYYdQf61PqM4MiaibAQ2e38bGvqFg6ZZIbHsbxTOFc3iaezjghgkPibQ/640?wx_fmt=webp&from=appmsg#imgIndex=0)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8OpenWiki%EF%BC%9F/34431b98ee481ba292dd6291c7b3fac2_MD5.jpg)
 
 OpenWiki的核心架构分为 **三层** ：
 
@@ -96,7 +96,7 @@ OpenWiki建立在LangChain的 **Deep Agents** 之上，但它不是“把代码�
 
 当你在项目根目录运行 `openwiki --init` 时，背后的流程是这样的：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rdsI8n6XKTnEj6UP713ibrgZjpU2G3jQlanoNRbUnKMfIaBUvtrAl9KiaV7rRUBNB7LvibiawOa6rJGYudHzaJEEuunonvALria7CAk/640?wx_fmt=webp&from=appmsg#imgIndex=1)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8OpenWiki%EF%BC%9F/0f9dd6bf287cbc535553b23d91be38ed_MD5.jpg)
 
 **第一步：代码扫描** ——扫描仓库结构，收集Git上下文（分支、提交历史、变更文件）。
 
