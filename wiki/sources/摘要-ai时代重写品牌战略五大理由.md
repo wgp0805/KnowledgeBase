@@ -3,7 +3,7 @@ title: "摘要-ai时代重写品牌战略五大理由"
 type: source
 tags: [来源, 原始文件, 品牌战略, AI时代, 意图经济, 品牌大趋同]
 sources: [raw/01-articles/2026-08-31-五大理由：AI时代为什么必须「重写」你的品牌战略.md]
-last_updated: 2026-09-01
+last_updated: 2026-09-15
 ---
 
 ## 核心摘要
@@ -16,4 +16,4 @@ last_updated: 2026-09-01
 - [[DemandLeadership]] — 需求主导力
 - [[BrandEntity]] — 品牌实体概念
 - [[InteractionSystem]] — 交互体系
-- [[AIProduct]] — AI 产品方法论
+- [[AI产品]] — AI 产品方法论

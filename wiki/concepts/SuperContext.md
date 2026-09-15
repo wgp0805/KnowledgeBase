@@ -3,7 +3,7 @@ title: "SuperContext"
 type: concept
 tags: [上下文工程, Agent, AI产品, 飞书]
 sources: [raw/01-articles/2026-08-31-飞书，成了豆包工作的“超级上下文”.md]
-last_updated: 2026-09-01
+last_updated: 2026-09-15
 ---
 
 ## 定义
@@ -30,6 +30,6 @@ last_updated: 2026-09-01
 - [[ContextEngineering]] — 上位概念
 - [[Feishu]] — 超级上下文的典型载体
 - [[DoubaoWork]] — 利用飞书超级上下文的 Agent
-- [[AIProduct]] — AI 产品方法论
+- [[AI产品]] — AI 产品方法论
 - [[摘要-飞书豆包超级上下文]] — 来源
 - [[摘要-做ai产品先回答谁付钱]] — 上下文不能拿来卖的观点

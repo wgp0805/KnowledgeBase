@@ -2,7 +2,7 @@
 title: "AI文案工具"
 type: concept
 tags: [AI文案, 营销, A/B测试, AIProduct]
-last_updated: 2026-09-14
+last_updated: 2026-09-15
 ---
 
 # AI文案工具
@@ -29,4 +29,4 @@ last_updated: 2026-09-14
 - 降低中小商家的专业文案门槛
 
 ## 关联连接
-- [[AIProduct]]
+- [[AI产品]]

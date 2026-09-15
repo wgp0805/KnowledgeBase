@@ -1666,3 +1666,8 @@
 - **结果**: 排除 log.md 后死链引用≥2 的组为 0；孤儿页 0；index.md 未登记页 0
 - **冲突**: 无
 
+
+## [2026-09-15] lint | 统一 AIProduct / AI产品 命名
+- **变更**: 删除 concepts\AIProduct.md 后，把 13 处 AIProduct 死链统一改链到 AI产品，含 index.md 登记行
+- **冲突**: 无
+

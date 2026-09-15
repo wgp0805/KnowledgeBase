@@ -3,7 +3,7 @@ title: "AgentWorkflow"
 type: concept
 tags: [Agent, 工作流, AI产品, 人机协同]
 sources: [raw/01-articles/2026-08-31-做AI产品，先回答“谁付钱、解决什么问题”.md]
-last_updated: 2026-09-01
+last_updated: 2026-09-15
 ---
 
 ## 定义
@@ -28,7 +28,7 @@ Agent 工作流指 AI Agent 深度参与业务流程、连接信息/人员/业�
 - 只有在复杂度确实带来可衡量价值时，才值得增加系统复杂度
 
 ## 关联连接
-- [[AIProduct]] — AI 产品方法论
+- [[AI产品]] — AI 产品方法论
 - [[ContextEngineering]] — 上下文工程
 - [[SuperContext]] — 超级上下文
 - [[摘要-做ai产品先回答谁付钱]] — 来源

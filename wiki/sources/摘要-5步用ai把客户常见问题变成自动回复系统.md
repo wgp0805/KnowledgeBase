@@ -3,7 +3,7 @@ title: "摘要-5步用ai把客户常见问题变成自动回复系统"
 type: source
 tags: [来源, 原始文件, AI产品, 知识库, RAG, 自动答疑]
 sources: [raw/01-articles/2026-08-31-5步，用AI把客户常见问题变成自动回复系统.md]
-last_updated: 2026-09-01
+last_updated: 2026-09-15
 ---
 
 ## 核心摘要
@@ -11,7 +11,7 @@ last_updated: 2026-09-01
 
 ## 关联连接
 - [[RAG]] — 知识库+AI 问答的本质是 RAG
-- [[AIProduct]] — AI 产品方法论
+- [[AI产品]] — AI 产品方法论
 - [[KnowledgeBase]] — 知识库概念
 - [[Feishu]] — 飞书知识库工具之一
 - [[摘要-做ai产品先回答谁付钱]] — 同期 AI 产品方法论文章
