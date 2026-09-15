@@ -8,7 +8,7 @@ source: "https://mp.weixin.qq.com/s/l3spYZqeWdmGWvtk_deuZQ"
 
 昨天刷到 G 哥分享的一篇 Codex 焚诀，标题叫《Rethinking skills and prompts for GPT-6 Astra》。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu1pobYbt1UgE3S3Ax68mKM1qrqpSHwuR4XicdlHY0HVq9Zbaiby3jBxiaicPUbjudQAu5B9EQowJz3DKqcL6nOAl1VzH7WPyXKcic5U/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/a47c0341ab7a7e7283c09950f7791ca2_MD5.webp)
 
 第一时间就去实践了一波，效果显著。
 
@@ -20,17 +20,17 @@ source: "https://mp.weixin.qq.com/s/l3spYZqeWdmGWvtk_deuZQ"
 
 > 按照这篇焚诀： [https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra](https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra) 审查当前项目的 [AGENTS.md](http://agents.md/) 和 Skills，找出过宽的 Skill 触发、无关文档强制读取、重复检查、冲突规则，以及频繁要求确认的指令。逐条告诉我问题和最小修改建议，先不要改文件。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu3EUry3GZWxqsnvicCk7j36aGtNCr1v8IVwuV4hbQfyzagR1amrnKZhr2XumKnXBbm4YOLjD6HDIYRhZrHPoXov71sdpanCPiaHs/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/5bc48460b1e73e0d47ee8b88f987f9bb_MD5.webp)
 
 这样会找到很多需要修正的 Skills 细节，以及 [AGENTS.md](http://agents.md/) 的优化方案。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu0P6wOzPpUh9kIx1iaTTxCr9Fh9uUc6xicojSK6xpqKXBspleqWCH7jQyLIZuhDCZz7f87uIF4hV3F7hWmJXOflSI7b60Cc3icu24/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/6549243d46076c8eec15bbeffb3c6e17_MD5.png)
 
 第二步，输入以下提示词。
 
 > 根据刚才的审查结果优化 [AGENTS.md](http://agents.md/) 和 Skills。缩小 Skill 触发范围，删除无关文档读取，合并重复检查，解决冲突规则，并减少低风险任务中的无意义确认。保留安全边界、敏感操作确认和必要测试。修改完成后列出具体改动
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu2gV6jTtf6v31tNpfG5nyDNBOupPvQGsQxDZ2uvolNHgnNgV8rSkmvrb2CgsjnicbPnGicuRXUW8peh7xJqkJyXwxRG8tFJXLpFI/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/50ba6bec06ebe2151e09c26ffb43ab82_MD5.png)
 
 这样就算是瘦身成功了！
 
@@ -56,7 +56,7 @@ source: "https://mp.weixin.qq.com/s/l3spYZqeWdmGWvtk_deuZQ"
 
 OpenAI 给的改法是把描述收窄到「新增或修改迁移、审查迁移发布时使用」。触发条件和 Skill 实际要干的事匹配了，误触自然就少了。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu1DN6drcScWKep7vibjWhMMDECvmcUGQUAnibCUc1Bp9j0VLgQ1hEBnDGzP0Pps9paGEL6nHNkx7KpN3MQMUViaiacmiaRlILibva24o/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/161d330187b131ef6da6cb9827644817_MD5.png)
 
 我看了一眼 Claude Code 项目里的 Skills，类似的问题不少。
 
@@ -64,7 +64,7 @@ OpenAI 给的改法是把描述收窄到「新增或修改迁移、审查迁移�
 
 模型能力变强了，这些约束确实应该适当减少，毕竟模型变强的一部分原因就是它吸纳了那些优秀的 Skill。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3pZkQzxxDxgp5syoJO8uG5326xteEXQ52oOkhOEFcW3opl3xVPTtziaE6Pcbuzg2UmGBib3vHNIrSvot2MV0iaG6rVjMTYRHvKp4/640?wx_fmt=png&from=appmsg#imgIndex=5)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/4012435083ada7e22e87a31a1db34a57_MD5.png)
 
 还有一点。很多 Skill 是在老模型时期写的，操作步骤恨不得精确到每一步。
 
@@ -91,13 +91,13 @@ OpenAI 给了一个很典型的反面例子。
 
 前者不管改什么都要通读三份文档，后者只在确实需要的时候才加载对应的内容。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu01LthGkAlmE7sdhr2Y03DomkWB8gkwib3RsNlAOrU7Evmxc58IKpTEopBKRgdAgQoqQHFzua1ibdvSeKQoXOUaqhpBemocicVMZQ/640?wx_fmt=png&from=appmsg#imgIndex=6)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/a6b01626b2a2967e803e37bb8c0fc65a_MD5.png)
 
 大部分小伙伴应该和我一样，在 [CLAUDE.md](http://claude.md/) 里写的都是限制和禁止。「不要 XX」「修改前必须 XX」「禁止自动 XX」。很少有人主动写「这件事你可以放心做」。
 
 OpenAI 的建议是给安全的工作流 **显式授权** 。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu350jWrBPrIZqTb9wmLicicxWS9iaTpmaFYCusdw6LYn4ictYbzAq1g3pPjAicpEz02tMWcy2Ifia9dDjAKm3AiaIuGtar3Vvicnrq3y2Y/640?wx_fmt=png&from=appmsg#imgIndex=7)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/b499b7015d1d4477cfe156405b61f66a_MD5.png)
 
 比如本地测试。测试用的是一次性的 fixture 数据，不会碰生产环境，跑完之后自动清理。这种情况下，可以在 [CLAUDE.md](http://claude.md/) 里写一句：
 
@@ -122,7 +122,7 @@ OpenAI 的建议是给安全的工作流 **显式授权** 。
 
 当模型本身已经足够谨慎，再加一层「禁止」「必须先问」，结果就是过度谨慎。该做的事情不敢做，该继续的地方停下来等你点头。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3QNCTbX9o8cnyXDUENicXuVjA2amloSfYHI1wBicQqkHZHick0IFqj49v5VhNmMUwPRlpEdyYMepU337TibUhf54oLzL4s36kGyGg/640?wx_fmt=png&from=appmsg#imgIndex=8)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/cfb2fa9c558f831393bf40a0d1458a26_MD5.png)
 
 OpenAI 的建议是，把之前加的限制分成两类。
 
@@ -134,7 +134,7 @@ OpenAI 的建议是，把之前加的限制分成两类。
 
 我就发现了，用国模制作视频的时候，会直接搞一个 goal 全部任务一直执行完，但 GPT-6 Astra 会停下来问你要不要继续。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu1OmMaZq7TtBcB6lrznuxruPXiaHeWXR19XCMq62TGhNIR7qO3G1G8YoDZeqL6Vr86ylGEm3DZfNAqW5tRFthHdhggoyTSMV7xw/640?wx_fmt=png&from=appmsg#imgIndex=9)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/ae959cf525e67de7667c49b7352d4988_MD5.png)
 
 对做视频来说，这个行为是好事，省得出片了再去修改对应章节的问题。
 
@@ -150,7 +150,7 @@ Good 写法：
 
 > 实现用户登录功能。完成后跑通本地测试套件，修复因为这次改动导致的测试失败，确认所有测试通过、没有报错后再汇报结果。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu1JcXLPc33iblFZY2WYD2clc192w9gSz6VQbgO6Eg6zTe9u6toNE431Aw94OR9bUr5gib3k1LOwVZTVfWQEgiaEu1eeCrEkj5d7B8/640?wx_fmt=png&from=appmsg#imgIndex=10)
+![图片](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/7f3fbb97679963ca22c7ddc0f0746415_MD5.png)
 
 OpenAI 原文有一句话我觉得说得很到位： **在开始之前就定义完成** （define completion before starting）。
 
@@ -162,7 +162,7 @@ OpenAI 原文有一句话我觉得说得很到位： **在开始之前就定义�
 
 一个新版本的模型发布，尤其是像 GPT-6 Astra 这种强力模型，确实值得去清理一波 [AGENTS.md、Skills、Memory。](http://agents.xn--mdskillsmemory-652mga./)
 
-![原贴也 500 多万浏览](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu2icdUiafPwyEBJ5ZOQwUgWorTgJQtmuRYkN0W67tlcaLlKQYEwwDvVO0l7tVNfulSstt8iahr5SFl9P5wnttmsR1lcASCp77fNSE/640?wx_fmt=png&from=appmsg#imgIndex=11)
+![原贴也 500 多万浏览](assets/Codex%20%E6%9C%80%E6%96%B0%E7%84%9A%E5%86%B3%E5%8F%91%E5%B8%83%EF%BC%8C%E5%BF%AB%EF%BC%81/e2b5b828fbae33594609c2b113eb6b65_MD5.png)
 
 原贴也 500 多万浏览
 
