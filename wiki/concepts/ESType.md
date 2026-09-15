@@ -1,5 +1,5 @@
 ---
-title: "Type"
+title: "ESType"
 type: concept
 tags: [Elasticsearch, 历史概念, 已废弃]
 sources: ["raw/01-articles/ES 支持哪些数据类型，和 MySQL 之间的映射关系是怎么样的？.md"]
