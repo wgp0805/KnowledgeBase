@@ -3,7 +3,7 @@ title: "ESMapping"
 type: concept
 tags: [Elasticsearch, 数据类型, 索引]
 sources: ["raw/01-articles/ES 支持哪些数据类型，和 MySQL 之间的映射关系是怎么样的？.md"]
-last_updated: 2026-09-02
+last_updated: 2026-09-15
 ---
 
 ## 定义

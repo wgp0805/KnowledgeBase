@@ -1653,3 +1653,10 @@
 - **内容**: 整理三个实操问题为一个 synthesis——(1) TDD 无 seam 场景（纯声明式 UI/无测试基础设施）应跳过 TDD 改用人工验证+code-review，附进阶方案：抽纯函数造 seam; (2) /implement 是编排层按规格执行不强制测试，/tdd 是纪律层强制 red-green，/implement 可内联 /tdd 纪律; (3) /implement 隐含前置规格对齐，直接让 AI 干活跳过对齐承担'对不齐'风险，简单活差别不大中型功能必须先对齐
 - **冲突**: 无
 
+
+## [2026-09-15] lint | 死链修复：页面重命名 + 链接改写 + 新建 104 页
+- **变更**: 重命名 ES 相关 6 页消除命名冲突（keyword/nested/object/text/Type/Mapping -> ESKeyword, ESMapping, ESNested, ESObject, ESText, ESType）；全局改写 [[倒排索引]]、[[Claude Code]]、[[AgentSkill]]、[[多Agent]]、[[智谱AI]]、[[优雅关闭]]、[[--force-with-lease]] 七组旧链接；新建 104 个高频缺失概念页/实体页
+- **内容**: 死链按引用次数≥2 的组新建页面（沙箱、Paxos、Raft、Marketplace、DPO 等），链接目标校验后写入，3 处无效链接改为有效目标或补建 OpaqueRecurrence
+- **清理**: 删除 index.md 中 [[--force-with-lease]] 的错误登记行
+- **冲突**: 无
+
