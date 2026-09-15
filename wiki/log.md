@@ -1,3 +1,15 @@
+## [2026-09-15] ingest | 批量摄入 7 篇文章（Huashu-Report / WeKnora / Codex 额度优化 / GPT Image 2.5 提示词 / OpenWiki / iText 9 / 客户端 IP 重复副本）
+- **变更**:
+  - 新增 Sources: 6 个摘要页面：[[摘要-huashu-report-skill]]、[[摘要-weknora-微信ai知识库开源]]、[[摘要-codex-gpt6-astra额度优化]]、[[摘要-gpt-image-2-5-提示词教程]]、[[摘要-openwiki-为什么越来越多人用]]、[[摘要-itext9-java-pdf]]
+  - 新增 Entities: 5 个：[[Huashu-Report]]、[[WeKnora]]、[[GPT-Image-2.5]]、[[DeepAgents]]、[[iText9]]
+  - 新增 Concepts: 3 个：[[Claims溯源]]、[[编译器模式vs解释器模式]]、[[报告原型分类]]
+  - 更新 Entities: [[OpenWiki]]（由 OKF 采用者简介扩展为完整实体：三层架构/五步生成流程/增量更新/CI 自动化/十大优点五大缺点/适用场景）、[[花叔]]（+huashu-report 章节与对 Skill 价值的核心判断）、[[Codex]]（+额度消耗快不等于模型变贵章节：1599 万 token 实测/三类调整/两个防坑点）、[[腾讯]]（+WeKnora 开源企业知识底座与微信入口战略）、[[小锋]]（+iText 9 与实用取向选型观）
+  - 更新 Concepts: [[LLMWiki]]（+OpenWiki 为首个完整工程实现/为 Agent 写文档不是为人写文档）、[[上下文压缩]]（+Codex 自动压缩四参数配置与「不要无限续任务」结论）
+  - 更新 [[index.md]]：Sources +6 / Entities +5 / Concepts +3
+  - 重复副本处理：`SpringBoot中获取真实客户端IP的终极方案，99%的人都没做对！.md` 为已摄取文章（2026-08-12 摄入，见 [[摘要-springboot获取真实客户端ip]]）的重复剪藏副本，内容一致，仅归档不再重复编译
+- **冲突**: 无实质知识冲突。一处来源归属差异已记录：[[摘要-springboot获取真实客户端ip]] 原记录作者为「小哈学Java」（关联 [[小哈]]），而本次重复副本的 frontmatter 标注来源公众号为「Java专栏」（2026-09-14 12:20），疑为同一篇文章被不同账号转载，未覆盖原页面记录
+- **归档**: 7 个源文件已移动至 raw/09-archive/
+
 ## [2026-09-08] query | Matt Pocock Skills 好用吗
 - **输出**: 即时回答未保存
 - **内容**: 综合评价 Matt Pocock Skills 的设计哲学、核心能力、优缺点与适用场景

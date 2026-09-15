@@ -371,6 +371,12 @@
 - [[摘要-企业级权限设计-用户组加功能权限]] — 企业级权限主干是用户组+功能权限，ABAC/ReBAC 仅收窄，十层设计要点与 TAPD/Jira 参考
 - [[摘要-ai这么猛产品经理还能进吗]] — AI 时代产品经理：传统岗需求下滑 42%，AI 产品岗暴涨 455%，AI 拿不走的四样能力与三条建议
 - [[摘要-gpt6-自训练信号]] — GPT-6 Astra 三个后背发凉信号：操作权移交/AI 参与训练 AI/安全阈值触顶，普通人三件事
+- [[摘要-huashu-report-skill]] — 花叔开源 Huashu-Report skill：三层机制治 AI 编数字/重复/口径打架 + 六种报告原型 + 顶级机构报告解剖学
+- [[摘要-weknora-微信ai知识库开源]] — 微信开源 WeKnora 企业 AI 知识底座：RAG/ReAct Agent/Wiki Mode/长期记忆/Skill 沙箱，知识库+Agent+微信入口
+- [[摘要-codex-gpt6-astra额度优化]] — Codex 额度掉得快的根因是上下文累加，实测单任务输入 1599 万 token，AGENTS.md 5284→1705 字节 + 自动压缩四参数
+- [[摘要-gpt-image-2-5-提示词教程]] — OpenAI 官网首发 GPT Image 2.5 提示词教程：手绘角色/带字海报/换装/线稿转写实/界面图/透明抠图六大玩法
+- [[摘要-openwiki-为什么越来越多人用]] — 苏三解析 LangChain OpenWiki：LLM Wiki 首个完整工程实现，Claims 溯源 + CI 自动更新，编译器模式 vs RAG 解释器模式
+- [[摘要-itext9-java-pdf]] — iText 9 全解析：AES-GCM/PDF MAC/签名校验/PDF-UA/OCG，抽文本抠图三大操作与 AGPL 商用提醒
 
 ## Concepts (2026-08-26 新增)
 - [[ZeroSumThinking]] — 零和思维：财富总量固定 vs 正和思维：财富可被创造
@@ -387,6 +393,9 @@
 - [[autoResultMap]] — MyBatis-Plus @TableName 属性，设为 true 自动应用 ResultMap 使 TypeHandler 正确反序列化
 - [[diagnosing-bugs]] — Matt Pocock Skills 中的系统化调试 skill，用于测试失败或代码运行异常时系统化定位根因
 - [[LoRA]] — 参数高效微调方法，冻结主干仅训练低秩适配器，与 QLoRA 同属 PEFT 家族
+- [[Claims溯源]] — 每条事实性陈述关联可验证来源（文件+行号/数据表条目），LLM Wiki 可审计性的承重结构
+- [[编译器模式vs解释器模式]] — RAG 每次从头解析 vs OpenWiki 编译一次反复使用，维护成本线性而非指数增长
+- [[报告原型分类]] — 按读者用途而非主题切分报告形态，六种原型（咨询 deck/研报/学术/论文/调查/科普），选错原型最贵
 
 ## Syntheses
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
@@ -816,6 +825,11 @@
 - [[花叔]] — 前某团运营负责人，huashu-excel skill 创作者
 - [[llama.cpp]] — 本地 GGUF 量化模型推理引擎，OpenAI 兼容 API
 - [[mattpocock-skills]] — Matt Pocock 的通用代码自检技能包仓库，月增 5 万星
+- [[Huashu-Report]] — 花叔开源的报告生成 Agent Skill（MIT），六种报告原型 + 数字唯一来源锁定 + 编译器强制力
+- [[WeKnora]] — 腾讯开源的企业 AI 知识底座，微信对话开放平台的核心技术框架（MIT）
+- [[GPT-Image-2.5]] — OpenAI 图像生成与编辑模型，Sunburst 画质优先 / Flare 速度优先
+- [[DeepAgents]] — LangChain 的 Agent 构建引擎，OpenWiki 底层的文档生成引擎
+- [[iText9]] — PDF SDK 9.x 系列（9.0 大版本，现 9.7.1），社区版 AGPL，产品级排版 + 标准合规
 
 ## Concepts
 - [[模型指纹]] — 通过 Tokenizer 词表/logprob 分布/特殊 token/知识截止/格式偏好五个维度识别匿名大模型的真实来源
@@ -1908,3 +1922,10 @@
 - [[输入法入口]] — AI 大厂争夺的下一个超级入口，输入法作为 AI 交互第一触点
 - [[产品经理行业差异]] — 不同行业的产品经理在面试难度、薪资、能力要求上差异巨大
 - [[PromptSkill做减法]] — 模型越聪明，Prompt 和 Skill 越需要精简的趋势
+
+## 2026-09-15 新增 ingest（7 篇文章）
+- Sources: [[摘要-huashu-report-skill]]、[[摘要-weknora-微信ai知识库开源]]、[[摘要-codex-gpt6-astra额度优化]]、[[摘要-gpt-image-2-5-提示词教程]]、[[摘要-openwiki-为什么越来越多人用]]、[[摘要-itext9-java-pdf]]
+- Entities: [[Huashu-Report]]、[[WeKnora]]、[[GPT-Image-2.5]]、[[DeepAgents]]、[[iText9]]
+- Concepts: [[Claims溯源]]、[[编译器模式vs解释器模式]]、[[报告原型分类]]
+- 更新: [[OpenWiki]]、[[花叔]]、[[Codex]]、[[腾讯]]、[[小锋]]、[[LLMWiki]]、[[上下文压缩]]
+- 重复副本归档: SpringBoot 获取真实客户端 IP（见 [[摘要-springboot获取真实客户端ip]]）

@@ -2,8 +2,8 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md]
-last_updated: 2026-09-09
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md]
+last_updated: 2026-09-15
 ---
 
 ## 定义
@@ -172,6 +172,33 @@ brew install openai-codex
 
 免费额度相比现金红包的优势是天然只能在 Codex 内消耗：要消耗额度就必须打开产品、接入项目、提交任务。因此每次重置同时完成召回老用户、推广新功能、让新用户多试几次三件事；花出去的是算力成本，换回来的是真实使用。对比 [[腾讯]] 元宝 10 亿红包与阿里千问 30 亿奶茶，Codex 的做法更轻——不需要设计活动、采购权益、购买曝光，用户会自发传播"又重置了"。
 
+### 额度消耗快不等于模型变贵（2026-09）
+来自 [[摘要-codex-gpt6-astra额度优化]]。[[GPT-6]] Astra 上线后额度下降极快（原来三天用完变大半天花完），退回 GPT-5.6 Sol 后消耗依然快。排查结论：**额度不是突然消失，而是被上下文一点点吃掉**。
+
+**实测数据**：两条 GPT-5.6 Sol 中等推理的长任务累计输入 token 分别接近 1599 万和 1582 万，任务后期单次调用输入已达 22.8 万–25.4 万 token；7 天 299 轮产品活动中，984 次插件调用主要集中在 Computer Use 和 Unified Computer Use。本机有 **274 份 Skill 定义**、全局 `AGENTS.md` **5284 字节**。界面里只发一句短话，模型实际收到的却是聊天记录 + 工具返回 + 项目规则 + Skills 描述 + 插件说明。
+
+这与 OpenAI 官方文章《Rethinking skills and prompts for GPT-6 Astra》结论一致：**Skill 描述太多太长会持续占用上下文，`AGENTS.md` 也不应该要求模型在每个小任务开始前都读取一整套文档，更合适的方式是只在当前任务确实需要时再加载对应规则和资料。**
+
+**三类调整**：
+1. `AGENTS.md` 从 5284 字节压缩到 **1705 字节**——保留品牌名、公众号发布规则、飞书操作方式等关键约束，只删重复解释和不需要每轮都出现的内容
+2. `config.toml` 加自动压缩与工具输出限制（这些数字不是所有电脑都必须照抄的标准答案，解决的是同一个问题：**不要让单个任务和工具输出无限膨胀**）：
+   ```toml
+   model_auto_compact_token_limit = 160000
+   model_auto_compact_token_limit_scope = "total"
+   tool_output_token_limit = 8000
+   [skills]
+   max_context_tokens = 4000
+   ```
+3. **不粗暴卸载插件/MCP/Skills**——它们可能承载真实工作流，粗暴关闭很容易把原本能用的能力弄坏；更稳妥的方式是先判断它们是否真的在每轮注入上下文
+
+**两个防坑点**：
+- **不要让 Codex 为了「省额度」擅自换模型**——模型是否出现在选择器里受账号、客户端和灰度发布影响，不同套餐和发布阶段看到的选项可能不同
+- **不要擅自停第三方代理**——实践中遇到 OpenCodex 代理修改了模型目录，原来选过的 GPT-5.6 Sol 在列表里消失、界面只显示「自定义」。这与额度优化不是一回事，如果提示词看到自定义模型就直接删配置、停服务，可能把同事正在使用的代理环境一起破坏。正确做法是先诊断，涉及停止第三方代理或更换模型时必须单独确认
+
+**使用方式也要跟着变**：一个任务不要无限续下去——同一篇文章、同一套代码在一个任务里连续改几十轮，看起来方便，后面的每一轮却可能越来越重。**一个阶段已经完成就新建任务，把必要文件和最终结论交给新任务**，它不需要重新背着前面所有试错记录继续工作。日常明确的小任务也没必要默认使用最高推理强度（OpenAI 官方建议：先从账号提供的默认档位开始，只有在任务确实需要更深规划和分析时再提高）。
+
+**结论**：Codex 的消耗不只由模型名字决定，**模型、任务长度、全局规则、Skills 和工具输出，共同组成了每一轮真正送进模型的内容**。先看清 token 花在了哪里，再决定该压缩上下文、拆任务还是调整模型。
+
 ## 关联连接
 - [[摘要-40分钟学会Codex零基础教程]] — 来源
 - [[摘要-把Codex用到极致]] — 来源（工作系统框架与长线程理念）
@@ -196,3 +223,9 @@ brew install openai-codex
 - [[个人IP]] — 负责人形象成为传播渠道
 - [[竞品迁移窗口]] — Claude 封号风波期间的迁移机会
 - [[Anthropic]] — 同期出现封号风波的竞品
+- [[摘要-codex-gpt6-astra额度优化]] — 来源（额度消耗与上下文优化）
+- [[GPT-6]] — Astra 额度消耗快的背景模型
+- [[上下文压缩]] — model_auto_compact_token_limit 机制
+- [[TokenEfficiency]] — Token 效率
+- [[AGENTS-md]] — AGENTS.md 只该管边界
+- [[上下文工程]] — 每轮真正送进模型的内容组成
