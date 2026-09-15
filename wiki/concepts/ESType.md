@@ -17,6 +17,6 @@ Type 是 Elasticsearch 7.0 之前用于在索引内逻辑分组文档的概念�
 
 ## 关联连接
 - [[Elasticsearch]] — 使用 Type 的搜索引擎（已废弃）
-- [[Mapping]] — ES 字段定义（替代 Type 的逻辑分组）
+- [[ESMapping]] — ES 字段定义（替代 Type 的逻辑分组）
 - [[MySQL]] — 关系型数据库（Table 对应 Index）
 - [[摘要-es-data-types-mysql-mapping]] — 来源（ES 数据类型与 MySQL 映射）

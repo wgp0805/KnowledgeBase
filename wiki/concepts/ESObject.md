@@ -18,6 +18,6 @@ object 是 Elasticsearch 中用于存储 JSON 对象的默认数据类型，支�
 
 ## 关联连接
 - [[Elasticsearch]] — 使用 object 类型的搜索引擎
-- [[nested]] — ES 嵌套对象类型（保持对象边界）
-- [[Mapping]] — 定义字段类型为 object
+- [[ESNested]] — ES 嵌套对象类型（保持对象边界）
+- [[ESMapping]] — 定义字段类型为 object
 - [[摘要-es-data-types-mysql-mapping]] — 来源（ES 数据类型与 MySQL 映射）

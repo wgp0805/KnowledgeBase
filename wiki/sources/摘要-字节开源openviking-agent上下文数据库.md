@@ -84,6 +84,6 @@ https://github.com/volcengine/OpenViking
 - [[Agent记忆系统]]
 - [[虚拟文件系统]]
 - [[MCP]]
-- [[Claude Code]]
+- [[ClaudeCode]]
 - [[上下文管理]]
 - [[字节跳动开源]]

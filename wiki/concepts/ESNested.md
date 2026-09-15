@@ -18,6 +18,6 @@ nested 是 Elasticsearch 中用于存储嵌套对象的特殊数据类型，能�
 
 ## 关联连接
 - [[Elasticsearch]] — 使用 nested 类型的搜索引擎
-- [[object]] — ES 对象类型（简单嵌套）
-- [[Mapping]] — 定义字段类型为 nested
+- [[ESObject]] — ES 对象类型（简单嵌套）
+- [[ESMapping]] — 定义字段类型为 nested
 - [[摘要-es-data-types-mysql-mapping]] — 来源（ES 数据类型与 MySQL 映射）

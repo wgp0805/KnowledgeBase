@@ -17,7 +17,7 @@ git push --force 将本地仓库的分支状态直接覆盖远程仓库，不做
 - 绝对原则：绝对不用 git push --force，用 --force-with-lease 替代
 
 ## 关联连接
-- [[--force-with-lease]] — 安全替代方案
+- [[force-with-lease]] — 安全替代方案
 - [[git-reset-hard]] — 同类危险操作
 - [[合并冲突]] — 团队协作场景
 - [[摘要-git中的8个坑]] — 来源

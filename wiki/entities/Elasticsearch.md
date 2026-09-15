@@ -195,12 +195,12 @@ ES 快是"一堆优化叠出来的"，没有单点魔法，按"数据结构 → 
 - [[BPlusTree]] — 对比数据结构（MySQL 索引底层）
 - [[Canal]] — MySQL → ES 同步工具
 - [[elasticsearch-disadvantages]] — ES 缺点分析
-- [[text]] — ES 分词字符串类型
-- [[keyword]] — ES 不分词字符串类型
+- [[ESText]] — ES 分词字符串类型
+- [[ESKeyword]] — ES 不分词字符串类型
 - [[scaled_float]] — ES 精确数值类型
 - [[动态映射]] — ES 自动类型推断
-- [[倒排索引]] — ES 核心索引结构
-- [[nested]] — ES 嵌套对象类型
-- [[object]] — ES 对象类型
-- [[Mapping]] — ES 字段定义
-- [[Type]] — ES 历史概念（已废弃）
+- [[InvertedIndex]] — ES 核心索引结构
+- [[ESNested]] — ES 嵌套对象类型
+- [[ESObject]] — ES 对象类型
+- [[ESMapping]] — ES 字段定义
+- [[ESType]] — ES 历史概念（已废弃）

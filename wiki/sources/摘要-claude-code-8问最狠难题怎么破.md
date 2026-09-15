@@ -85,7 +85,7 @@ node --version       # 看版本
 
 ## 关联连接
 - [[ClaudeCode]]
-- [[AgentSkill]]
+- [[AgentSkills]]
 - [[MCP]]
 - [[CLAUDE-md]]
 - [[SystemPrompt]]

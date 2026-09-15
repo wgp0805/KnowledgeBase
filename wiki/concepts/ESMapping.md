@@ -18,8 +18,8 @@ Mapping 是 Elasticsearch 中定义索引字段名、数据类型及相关配置
 
 ## 关联连接
 - [[Elasticsearch]] — 使用 Mapping 的搜索引擎
-- [[text]] — ES 分词字符串类型
-- [[keyword]] — ES 不分词字符串类型
+- [[ESText]] — ES 分词字符串类型
+- [[ESKeyword]] — ES 不分词字符串类型
 - [[动态映射]] — ES 自动类型推断
-- [[Type]] — ES 历史概念（已废弃）
+- [[ESType]] — ES 历史概念（已废弃）
 - [[摘要-es-data-types-mysql-mapping]] — 来源（ES 数据类型与 MySQL 映射）

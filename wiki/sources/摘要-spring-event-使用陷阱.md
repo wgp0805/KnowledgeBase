@@ -30,7 +30,7 @@ last_updated: 2026-08-17
 - [[观察者模式]] — 底层设计模式
 - [[最终一致性]] — 适用业务特性
 - [[幂等性]] — 订阅者必备特性
-- [[优雅关闭]] — 生产环境前置条件
+- [[GracefulShutdown]] — 生产环境前置条件
 - [[摘要-理解Spring中的ApplicationListener与ApplicationRunner区别]] — 相关 Spring 事件机制
 - [[摘要-springboot-startup-flow]] — Spring Boot 启动流程
 - [[摘要-异地多活架构]] — 同作者相关文章

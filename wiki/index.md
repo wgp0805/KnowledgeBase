@@ -1708,7 +1708,7 @@
 - [[git-reset-hard]] — Git 最危险操作之一，移动 HEAD + 清空工作目录，可用 reflog 恢复
 - [[git-push-force]] — 团队协作最严重错误，直接覆盖远程，应用 --force-with-lease 替代
 - [[git-reflog]] — 记录本地所有 HEAD 变动，找回误删提交的保险绳
-- [[--force-with-lease]] — git push --force 的安全替代，检查远程分支状态后才推送
+- [[force-with-lease]] — git push --force 的安全替代，检查远程分支状态后才推送
 - [[git-stash]] — 暂存未提交修改到栈中，推荐 apply + drop 而非 pop
 - [[合并冲突]] — merge/rebase/cherry-pick 中的冲突标记，需手动解决后提交
 - [[Qwen3.8-Flash]] — 采用 Next 架构的轻量模型，125B/6B 激活，训练成本降 90%，性能超 Opus

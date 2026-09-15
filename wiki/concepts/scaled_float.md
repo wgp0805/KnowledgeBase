@@ -19,5 +19,5 @@ scaled_float 是 Elasticsearch 中用于存储精确数值的浮点类型，通�
 ## 关联连接
 - [[Elasticsearch]] — 使用 scaled_float 类型的搜索引擎
 - [[MySQL]] — 关系型数据库（DECIMAL 类型对比）
-- [[Mapping]] — 定义字段类型为 scaled_float
+- [[ESMapping]] — 定义字段类型为 scaled_float
 - [[摘要-es-data-types-mysql-mapping]] — 来源（ES 数据类型与 MySQL 映射）

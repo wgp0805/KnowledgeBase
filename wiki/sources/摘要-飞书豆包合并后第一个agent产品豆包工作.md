@@ -30,7 +30,7 @@ last_updated: 2026-08-25
 - [[扣子]] — 低代码/智能体平台，并入豆包体系
 - [[WorkBuddy]] — 同期办公 Agent 产品，被文章列为同类
 - [[千问办公]] — 阿里系办公 Agent 产品，被文章列为同类
-- [[Claude Code]] — 被提及的通用代码/办公 Agent
+- [[ClaudeCode]] — 被提及的通用代码/办公 Agent
 - [[Codex]] — 被提及的通用代码/办公 Agent
 - [[Kimi]] — 被提及的 Agent 产品
 - [[办公Agent]] — 本文所观察的核心赛道

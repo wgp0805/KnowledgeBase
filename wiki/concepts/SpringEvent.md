@@ -48,7 +48,7 @@ Spring Event 是 Spring 框架提供的基于事件的发布订阅机制，通�
 - [[观察者模式]] — 底层设计模式
 - [[最终一致性]] — 适用业务特性
 - [[幂等性]] — 订阅者必备特性
-- [[优雅关闭]] — 生产环境前置条件
+- [[GracefulShutdown]] — 生产环境前置条件
 - [[摘要-spring-event-使用陷阱]] — 来源
 - [[摘要-理解Spring中的ApplicationListener与ApplicationRunner区别]] — 相关 Spring 事件机制
 - [[小哈]] — 来源作者

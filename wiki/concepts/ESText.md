@@ -19,8 +19,8 @@ text 是 Elasticsearch 中用于全文检索的字符串类型，会被分词器
 
 ## 关联连接
 - [[Elasticsearch]] — 使用 text 类型的搜索引擎
-- [[keyword]] — ES 不分词字符串类型（常与 text 配合使用）
-- [[倒排索引]] — text 类型建立的索引结构
+- [[ESKeyword]] — ES 不分词字符串类型（常与 text 配合使用）
+- [[InvertedIndex]] — text 类型建立的索引结构
 - [[analyzer]] — 分词器，决定 text 如何被分词
-- [[Mapping]] — 定义字段类型为 text
+- [[ESMapping]] — 定义字段类型为 text
 - [[摘要-es-data-types-mysql-mapping]] — 来源（ES 数据类型与 MySQL 映射）

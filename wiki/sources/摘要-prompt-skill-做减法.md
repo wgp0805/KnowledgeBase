@@ -55,7 +55,7 @@ ETH Zurich 与 LogicStar.ai 在 300 个 SWE-bench Lite 任务和 138 个 CTXbenc
 
 ## 关联连接
 - [[PromptEngineering]]
-- [[AgentSkill]]
+- [[AgentSkills]]
 - [[ClaudeCode]]
 - [[ContextEngineering]]
 - [[ModelCapability]]

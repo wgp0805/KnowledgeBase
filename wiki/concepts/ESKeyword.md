@@ -19,6 +19,6 @@ keyword 是 Elasticsearch 中用于精确匹配、排序和聚合的字符串类
 
 ## 关联连接
 - [[Elasticsearch]] — 使用 keyword 类型的搜索引擎
-- [[text]] — ES 分词字符串类型（常与 keyword 配合使用）
-- [[Mapping]] — 定义字段类型为 keyword
+- [[ESText]] — ES 分词字符串类型（常与 keyword 配合使用）
+- [[ESMapping]] — 定义字段类型为 keyword
 - [[摘要-es-data-types-mysql-mapping]] — 来源（ES 数据类型与 MySQL 映射）

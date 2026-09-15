@@ -15,6 +15,6 @@ last_updated: 2026-09-03
 - [[git-reset-hard]] — 概念：reset --hard 危险操作
 - [[git-push-force]] — 概念：force 推送覆盖
 - [[git-reflog]] — 概念：恢复丢失提交
-- [[--force-with-lease]] — 概念：安全替代 force
+- [[force-with-lease]] — 概念：安全替代 force
 - [[git-stash]] — 概念：暂存工作区
 - [[合并冲突]] — 概念：冲突解决流程
