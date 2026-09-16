@@ -5,7 +5,9 @@ tags: [实体, 桌面AI, 国产AI, 办公, 编程, 腾讯]
 sources:
   - raw/01-articles/2026-08-21 - WorkBuddy 保姆级入门教程.md
   - raw/01-articles/鹅厂员工：羡慕隔壁组做 WorkBuddy 的，月活1000万+，已经成为AI办公的王牌，感觉晋升和年终奖肯定少不了（附Agent面试题）.md
-last_updated: 2026-08-28
+  - raw/01-articles/WorkBuddy最值得推荐的15个技能（9月最新版）.md
+  - raw/01-articles/WorkBuddy搭建个人知识库保姆级教程.md
+last_updated: 2026-09-16
 ---
 
 ## 定义
@@ -59,6 +61,55 @@ WorkBuddy 是一款国产桌面 AI 应用，可写 Word、做 PPT、辅助论文
 - **记忆**：默认开启，从对话中整理偏好和近期事项，可查看/修改/删除/关闭，支持导入其他 AI 使用习惯
 - **自动化**：按设定时间执行周期任务（每天搜集论文、每周汇总资料），支持手机推送
 - **远程**：开启助理后通过微信/企业微信/QQ/钉钉/飞书给电脑上的 WorkBuddy 发任务
+
+### Skills 生态推荐（2026-09 程序员小灰推荐 15 个技能）
+来自 [[摘要-workbuddy-15技能推荐]]，按四个方向分类：
+
+**研究与信息处理**
+- **Deep Research**（wshuyi）：8 步法深度调研，产出带引用调研报告
+- **Last 30 Days**（mvanhorn）：跨平台搜过去 30 天真实讨论，出近期简报
+- **Research-to-Diagram**（wshuyi）：调研后生成可视化关系图谱
+
+**学习与知识管理**
+- **IMA 知识库**（腾讯）：让 AI 读写 ima 笔记，需配置密钥
+- **Obsidian Skills**（kepano）：写笔记、建数据视图、画 Canvas、抓网页存档
+
+**职场办公与求职**
+- **Ego Lite**（citrolabs）：浏览器技能，显示为 `ego-browser`，能登录、点击、填写、截图
+- **AI 简历助手**（KevinYoung-Kw）：整理一页 A4 简历，输出 HTML/PDF
+- **Kami 纸张**（tw93）：把 Markdown 排成正式文档 PDF，支持中英文日
+- **WPS 操作**（lc2panda）：用自然语言操作 WPS 文字/表格/演示
+
+**视觉创作与演示设计**
+- **Frontend Slides**（zarazhangrui）：先预览风格再生成网页幻灯片
+- **归藏 PPT**（op7418）：生成单文件 HTML 网页 PPT，电子杂志/瑞士风
+- **Excalidraw 绘图**（coleam00）：用自然语言生成可编辑图表
+- **Bento**（nyblnet）：单文件幻灯片编辑演示工具
+- **HTML Anything**（nexu-io）：内置 75 种模板，本地运行无需 API Key
+- **女娲 Skill**（alchaincyf）：借用乔布斯/费曼/张雪峰等人物思考框架分析问题
+
+**统一安装方式**：直接对 WorkBuddy 说"帮我安装这个技能：<GitHub URL>"
+
+### 个人知识库搭建（苏三 2026-09-16 教程）
+来自 [[摘要-workbuddy-obsidian-知识库]]。用 WorkBuddy + Obsidian 搭建自生长个人知识库：
+
+**三层极简目录**
+- `raw/` 只读原始资料，任何情况下不改动原文
+- `wiki/` AI 提炼整理的结构化知识，长期核心资产
+- `output/` 临时报告、大纲、阶段性分析
+
+**AGENTS.md 作为宪法**
+- 明确规定原文只读、优先增量更新旧页面
+- 结论必须溯源（附 raw 路径）
+- 不同来源说法不一致时同时保留
+
+**首次入库技巧**
+- 只放一篇资料，直观观察 AI 修改了哪些文件
+- 验证自生长三问：已有概念做内容融合？核心结论附带两篇原文路径？观点冲突客观保留两方？
+
+**进阶方案**：接入开源 `claude-obsidian` 工具链，命令包括 `init` / `adopt` / `wiki-ingest` / `wiki-query` / `wiki-lint`
+
+**5 条自检标准**：原文与提炼页面隔离 / 关键事实可溯源 / 相同主题合并 / 变更日记清晰 / 索引同步
 
 ## 知识冲突（已解决，2026-08-21）
 - 旧定义（2026-06-23，[[摘要-OpenClaw小龙虾教程汇总]]）：WorkBuddy 是 [[OpenClaw]]（小龙虾）的一站式部署平台
