@@ -1,4 +1,15 @@
-## [2026-09-15] ingest | 批量摄入 8 篇文章（产品经理三道门 / 穿透式管理升级 / 就业率与AI时代三件事 / Agent 中枢 / zvec-grep 本地搜索 / 字节 ADrive / OpenAI 总裁 Brockman 采访 / Codex 焚诀瘦身）
+## [2026-09-16] ingest | 批量摄入 4 篇文章（ES 深度分页 / OAuth 2.0 第三方登录 / WorkBuddy 15 技能推荐 / WorkBuddy 自生长知识库）
+- **变更**:
+  - 新增 Sources: 4 个摘要页面：[[摘要-elasticsearch-深度分页]]、[[摘要-oauth2-第三方登录]]、[[摘要-workbuddy-15技能推荐]]、[[摘要-workbuddy-obsidian-知识库]]
+  - 新增 Entities: 3 个：[[QQ互联]]、[[程序员小灰]]、[[ClaudeObsidian]]
+  - 新增 Concepts: 5 个：[[深度分页]]、[[SearchAfter]]、[[PIT]]、[[Scroll]]、[[State-CSRF防护]]
+  - 增量更新 Entities: [[Elasticsearch]]（+深度分页问题章节：两阶段查询原理/四大方案对比/调大窗口不推荐）、[[OAuth2]]（+四角色模型/四大授权模式/数据库三方案/GitHub+QQ 实战/CSRF 防护）、[[WorkBuddy]]（+Skills 生态推荐 15 个技能/个人知识库搭建教程）、[[GitHub]]（+OAuth 2.0 第三方登录支持章节：三个核心 URL/配置流程/登录流程）、[[Obsidian]]（+AI Agent 联动的知识库模式/相关 Skills）、[[小哈]]（+2 篇新文章：ES 深度分页/OAuth 2.0 第三方登录）、[[苏三]]（+1 篇新文章：WorkBuddy 搭建个人知识库）
+  - 增量更新 Concepts: [[LLMWiki]]（+WorkBuddy + Obsidian 平民实现）、[[自生长知识库]]（+WorkBuddy + Obsidian 平民实现/验证自生长三问/5 条自检标准）
+  - 更新 [[index.md]]: Sources +4 / Entities +3 / Concepts +5
+- **冲突**: 无
+- **归档**: 4 个源文件已移动至 raw/09-archive/
+
+
 - **变更**:
   - 新增 Sources: 8 个摘要页面：[[摘要-产品经理的三道门]]、[[摘要-穿透查询升级为穿透管控]]、[[摘要-就业率与AI时代三件事]]、[[摘要-让AI真正赋能企业初探]]、[[摘要-zvec-grep-本地搜索基础设施]]、[[摘要-ADrive-字节发布智能网盘]]、[[摘要-OpenAI总裁Brockman最新采访]]、[[摘要-Codex最新焚诀-GPT-6-Astra瘦身指南]]
   - 新增 Entities: 8 个：[[GregBrockman]]、[[ADrive]]、[[腾讯网盘]]、[[ZvecGrep]]、[[Zvec]]、[[NavierStokes]]、[[Lean]]
