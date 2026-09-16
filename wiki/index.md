@@ -378,6 +378,15 @@
 - [[摘要-openwiki-为什么越来越多人用]] — 苏三解析 LangChain OpenWiki：LLM Wiki 首个完整工程实现，Claims 溯源 + CI 自动更新，编译器模式 vs RAG 解释器模式
 - [[摘要-itext9-java-pdf]] — iText 9 全解析：AES-GCM/PDF MAC/签名校验/PDF-UA/OCG，抽文本抠图三大操作与 AGPL 商用提醒
 
+- [[摘要-产品经理的三道门]] — 王在行用"括约肌"比喻 AI 时代产品经理的三道体面门：对用户忠诚/对团队仗义/自己的判断，AI 无法替代的护城河
+- [[摘要-穿透查询升级为穿透管控]] — 敏尔说提出集团穿透式管理五阶段演进：业务事项ID+感知事件+规则嵌入+异常分级+结果回挂原业务
+- [[摘要-就业率与AI时代三件事]] — 菜根老谭：年轻人三件事（专业课/学AI/个人IP）+ 中年人驾驭AI是黄金时代而非躺赢时代
+- [[摘要-让AI真正赋能企业初探]] — 赵晗验证三个纯AI项目后提出企业 Agent 中枢架构：MCP 开放通用能力+员工AI互调+通用测试Agent守门
+- [[摘要-zvec-grep-本地搜索基础设施]] — AI李子介绍 zvec-grep 开源本地优先搜索层：语义+BM25+rg+混合检索统一接口，CLI 与 Agent 共享索引
+- [[摘要-ADrive-字节发布智能网盘]] — 火山引擎 ADrive 9月发布，Slogan"连接你的AI应用，让文件与产物持续可用"，AI 智能体数据持久化+人机协同
+- [[摘要-OpenAI总裁Brockman最新采访]] — Brockman a16z 访谈：AGI 时代已到来+Computer Use+10000 agent 解 Navier-Stokes+防御者窗口+10亿美元安全计划
+- [[摘要-Codex最新焚诀-GPT-6-Astra瘦身指南]] — 沉默王二介绍 OpenAI 官方《Rethinking skills and prompts for GPT-6 Astra》：Skill 收窄/AGENTS.md 加条件读取/放松决策边界/定义完成标准
+
 ## Concepts (2026-08-26 新增)
 - [[ZeroSumThinking]] — 零和思维：财富总量固定 vs 正和思维：财富可被创造
 - [[ValueCreationVsCapture]] — 价值创造（带来好处）vs 价值捕获（拿到份额），健康模式是创造远大于捕获
@@ -396,6 +405,13 @@
 - [[Claims溯源]] — 每条事实性陈述关联可验证来源（文件+行号/数据表条目），LLM Wiki 可审计性的承重结构
 - [[编译器模式vs解释器模式]] — RAG 每次从头解析 vs OpenWiki 编译一次反复使用，维护成本线性而非指数增长
 - [[报告原型分类]] — 按读者用途而非主题切分报告形态，六种原型（咨询 deck/研报/学术/论文/调查/科普），选错原型最贵
+
+- [[产品经理三道门]] — AI 时代产品人不可替代的三道体面门：对用户忠诚/对团队仗义/自己的判断（王在行"括约肌"比喻）
+- [[穿透式管理]] — 集团财务管控范式：五阶段演进（能看到→查得清→判得出→管得住→能闭环），五步升级法与业务事实+控制事实双数据模型
+- [[AI杠杆效应]] — AI 时代中年人的定位：AI 把隐性经验从存量资产变成可放大杠杆，"驾驭力×独有能力"双门槛
+- [[Agent中枢]] — 企业 AI 赋能架构范式：中枢承载通用能力通过 MCP 开放，员工 AI 项目互调，通用测试 Agent 前置
+- [[DefenderWindow]] — 防御者窗口：AI 网络攻击能力目前只在少数前沿实验室手里，是防御者黄金期，扩散不可逆
+- [[AGENTS-md]] — AI Agent 的跨 Session 记忆机制标准文件（Pi/ClaudeCode/Codex 均支持），GPT-6 Astra 时代要求瘦身
 
 ## Syntheses
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
@@ -453,6 +469,13 @@
 - [[LangChain4j]] — Java LLM 应用框架
 - [[OpenAI]] — AI 研究公司（Codex/ChatGPT）
 - [[GPT-6]] — OpenAI 2026-09-03 发布的新一代大模型，ARC-AGI-3 达 99.9%，首款让前代模型参与训练监督的前沿大模型
+- [[GregBrockman]] — OpenAI 联合创始人兼总裁，2026-09 a16z 访谈提出 AGI 时代已到来、Computer Use 是跃升钥匙、defender window 概念
+- [[ADrive]] — 字节跳动 2026-09 发布的智能网盘，火山引擎打造，AI 智能体与人类用户协同办公的企业级智能网盘
+- [[腾讯网盘]] — 腾讯云 2026-06 启动研发的新在线云存储平台，主打 AI 资产备份/协作共享/数据分发，与 ADrive 对标
+- [[ZvecGrep]] — 阿里开源 zvec-grep 本地优先搜索层（3.5K Star），语义+BM25+rg+混合检索统一接口，Agent 共享索引
+- [[Zvec]] — 阿里巴巴开源的嵌入式向量数据库，"向量数据库里的 SQLite"，zvec-grep 底层基础设施
+- [[NavierStokes]] — 流体力学核心方程（克雷千禧年问题），2026 OpenAI 用 10000 agent 并行解决并形式化成 Lean
+- [[Lean]] — 数学证明语言（proof assistant），AI 生成的证明可机器验证"真的对"而非"看起来对"
 - [[Anthropic]] — AI 安全公司（Claude Code/Claude）
 - [[Thariq]] — Anthropic 工程师，分享 Skills 使用经验
 - [[SpringBoot]] — Spring 自动配置框架

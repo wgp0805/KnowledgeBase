@@ -6,7 +6,9 @@ sources:
   - raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md
   - raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md
   - raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md
-last_updated: 2026-09-08
+  - raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md
+  - raw/01-articles/Codex 最新焚决发布，快！.md
+last_updated: 2026-09-15
 ---
 
 ## 定义
@@ -60,6 +62,20 @@ GPT-6 Astra 是 OpenAI 于 2026-09-03 发布的新一代大模型，被总裁 Br
 - 100% 额度可用（不像 Fable 5 只占 50% 额度）
 - 速度和交互丝滑度仍比 Grok 和 Gemini 慢
 
+### Brockman 采访补充（2026-09）
+来自 [[摘要-OpenAI总裁Brockman最新采访]]。**Astra 能力跃升的钥匙是 computer use**——AI 直接操作电脑界面（用鼠标/键盘/截图完成任务），OpenAI 早在 2015-11 内部会议就讨论过"如果强化学习环境是屏幕像素+键鼠输入"的想法。传统做法（建 API/MCP server/CLI 接口）本质是给 AI 打补丁，会引入额外攻击面，computer use 让 AI 直接用人类界面，不需任何特殊 API 或重新设计系统。Brockman 的判断：**Astra 能连续运行 24 小时、跨越非常广泛的领域完成任务，把它叫做 AGI 是合理的**。
+
+**10000 个 agent 并行解决 Navier-Stokes 方程**——OpenAI 用 10000 个 AI agent 并行协作解决了这个流体力学难题，并**形式化成 Lean 格式**。AI 开始创造新的知识而非整合已有知识，AI 数学证明可以被机器验证"是真的对，而不是看起来对"。
+
+### 焚诀：Astra 时代的 Skills 与提示词重塑
+来自 [[摘要-Codex最新焚诀-GPT-6-Astra瘦身指南]]。OpenAI 官方博客《Rethinking skills and prompts for GPT-6 Astra》（500 多万浏览）结论：**模型能力变强后，Skill 要少一些，Memory 中陈旧的记忆要删掉，AGENTS.md 和 CLAUDE.md 也要精简**。四个优化方向：
+1. **Skill 描述做减法**——触发描述收窄（如 Postgres 迁移 Skill 从"涉及数据库时使用"改为"新增或修改迁移、审查迁移发布时使用"），避免"沾一点就加载一整套"
+2. **AGENTS.md/CLAUDE.md 瘦身**——给"每次编辑前都读 architecture.md/database.md/deployment.md"加读取条件（"涉及服务边界时读 architecture.md，修改表结构时读 database.md，准备部署时读 deployment.md"）
+3. **放松决策边界**——安全底线保留（不要自动 push、不要删生产数据、涉及密钥必须确认），日常低风险操作确认（读文件、写测试、跑格式化）交给模型
+4. **在开始之前就定义完成标准**（define completion before starting）——具体到跑哪些测试、通过什么条件、交付什么产物；测试停止条件也要写清楚
+
+**给安全工作流显式授权**：本地测试用一次性 fixture 数据、无生产环境访问权限→直接跑测试、修失败、重跑受影响的测试，不必每一步等确认。
+
 ## 关联连接
 - [[OpenAI]] — 发布公司
 - [[Codex]] — 配套 Agent
@@ -83,3 +99,11 @@ GPT-6 Astra 是 OpenAI 于 2026-09-03 发布的新一代大模型，被总裁 Br
 - [[摘要-gpt6-自训练信号]] — 自训练信号分析来源
 - [[摘要-gpt6与程序员能力演进]] — 程序员能力需求变化
 - [[摘要-GPT-6-Astra改变技术栈]] — 技术栈影响分析来源
+- [[摘要-OpenAI总裁Brockman最新采访]] — Brockman 采访（AGI 时代 + Computer Use + Navier-Stokes）
+- [[摘要-Codex最新焚诀-GPT-6-Astra瘦身指南]] — Skills/AGENTS.md 瘦身指南
+- [[GregBrockman]] — 提出 AGI 时代和计算机使用论者
+- [[NavierStokes]] — 10000 agent 并行解决的流体力学方程
+- [[Lean]] — 数学证明形式化语言
+- [[DefenderWindow]] — 防御者窗口
+- [[FrontlineDefenders]] — 10 亿美元安全计划
+- [[Sora]] — 2026 年取消的项目

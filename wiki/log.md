@@ -1,4 +1,15 @@
-## [2026-09-15] ingest | 批量摄入 7 篇文章（Huashu-Report / WeKnora / Codex 额度优化 / GPT Image 2.5 提示词 / OpenWiki / iText 9 / 客户端 IP 重复副本）
+## [2026-09-15] ingest | 批量摄入 8 篇文章（产品经理三道门 / 穿透式管理升级 / 就业率与AI时代三件事 / Agent 中枢 / zvec-grep 本地搜索 / 字节 ADrive / OpenAI 总裁 Brockman 采访 / Codex 焚诀瘦身）
+- **变更**:
+  - 新增 Sources: 8 个摘要页面：[[摘要-产品经理的三道门]]、[[摘要-穿透查询升级为穿透管控]]、[[摘要-就业率与AI时代三件事]]、[[摘要-让AI真正赋能企业初探]]、[[摘要-zvec-grep-本地搜索基础设施]]、[[摘要-ADrive-字节发布智能网盘]]、[[摘要-OpenAI总裁Brockman最新采访]]、[[摘要-Codex最新焚诀-GPT-6-Astra瘦身指南]]
+  - 新增 Entities: 8 个：[[GregBrockman]]、[[ADrive]]、[[腾讯网盘]]、[[ZvecGrep]]、[[Zvec]]、[[NavierStokes]]、[[Lean]]
+  - 新增 Concepts: 5 个：[[产品经理三道门]]、[[穿透式管理]]、[[AI杠杆效应]]、[[Agent中枢]]、[[DefenderWindow]]
+  - 增量更新 Entities: [[GPT-6]]（+Brockman 采访补充：Computer Use 是跃升钥匙/10000 agent 解 Navier-Stokes/防御者窗口/10亿美元安全计划；+焚诀瘦身四方向）、[[Codex]]（+焚诀实操：两步提示词/四个优化方向/两个自检清单/显式授权例子）、[[OpenAI]]（+Brockman a16z 访谈核心观点 8 条）、[[字节跳动]]（+ADrive 智能网盘发布）、[[VolcEngine]]（+ADrive 打造方身份）、[[腾讯]]（+腾讯网盘启动研发+网盘 AI 大战行业信号）
+  - 增量更新 Concepts: [[AGI]]（+Brockman 判断依据+Computer Use 钥匙+Navier-Stokes 证据+15 亿弃用用户信号+预测大概率会错）、[[ComputerUse]]（+Astra 时代跃升关键+2015-11 内部会议溯源+与 MCP/CLI 对照+Codex Computer Use 的关系）、[[MCP]]（+Agent 中枢作为员工 AI 发布协议+zvec-grep 作为本地搜索基础设施的接入层）、[[Skills]]（+焚诀瘦身反面案例+Skill 描述自检清单）、[[AGENTS-md]]（+Astra 时代瘦身反面例子+读文档加条件+显式授权+自检清单）
+  - 更新 [[index.md]]: Sources +8 / Entities +7 / Concepts +6
+- **冲突**: 无
+- **归档**: 8 个源文件已移动至 raw/09-archive/
+
+
 - **变更**:
   - 新增 Sources: 6 个摘要页面：[[摘要-huashu-report-skill]]、[[摘要-weknora-微信ai知识库开源]]、[[摘要-codex-gpt6-astra额度优化]]、[[摘要-gpt-image-2-5-提示词教程]]、[[摘要-openwiki-为什么越来越多人用]]、[[摘要-itext9-java-pdf]]
   - 新增 Entities: 5 个：[[Huashu-Report]]、[[WeKnora]]、[[GPT-Image-2.5]]、[[DeepAgents]]、[[iText9]]

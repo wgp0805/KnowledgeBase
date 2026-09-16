@@ -2,8 +2,8 @@
 title: "MCP"
 type: concept
 tags: [AI, 协议, 外部服务]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/AgentScope入门指南.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/01-articles/为什么越来越多人用FastMCP？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md]
-last_updated: 2026-09-08
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/AgentScope入门指南.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/01-articles/为什么越来越多人用FastMCP？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-让AI真正赋能企业（初探）.md, raw/01-articles/2026-09-15-只会搜关键词还不够，Agent 需要一套更聪明的本地搜索.md]
+last_updated: 2026-09-15
 ---
 
 ## 定义
@@ -74,6 +74,12 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 - 这会影响 Agent 框架：纯粹做工具转发的中间层价值下降；留下来的部分是企业连接器/流程规则/可观测性/权限控制/异常恢复
 - 详见 [[摘要-GPT-6-Astra改变技术栈]]
 
+### MCP 作为员工 AI 项目的发布协议（2026-09）
+来自 [[摘要-让AI真正赋能企业初探]]。**企业 Agent 中枢** 的核心机制就是把通用能力（用户、基础数据、权限、三方工具）通过 MCP 协议开放给所有员工 AI。每个员工 AI 发布的项目可以在企业 Agent 中枢中**开放自己的 MCP 服务**，供其他员工的 AI 调用，形成"AI 内循环"。通用测试 Agent 前置——只跑基础安全，不改业务逻辑。详见 [[Agent中枢]]。
+
+### MCP 作为本地搜索基础设施的接入层（2026-09）
+来自 [[摘要-zvec-grep-本地搜索基础设施]]。zvec-grep 通过 `zg install` 自动发现已装的 Agent（Codex/Claude Code/Cursor/OpenCode/Qoder）并配好 MCP，CLI 和 Agent **共享同一份索引**。Agent 不必再重复建索引，本地搜索从"命令"升级为"面向 Agent 工作流的基础设施"。详见 [[ZvecGrep]]。
+
 ## 关联连接
 - [[Agent]] — MCP 所属概念
 - [[ClaudeCode]] — MCP 发明者
@@ -96,3 +102,7 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 - [[摘要-mcp-v5-openclaw-net]] — 来源（MCP 第五版 × OpenClaw.NET）
 - [[摘要-为什么越来越多人用FastMCP]] — 来源（FastMCP 占 70% MCP 服务器份额）
 - [[摘要-GPT-6-Astra改变技术栈]] — 来源（Astra 远程 MCP 支持）
+- [[摘要-让AI真正赋能企业初探]] — 来源（员工 AI 项目通过 MCP 发布）
+- [[摘要-zvec-grep-本地搜索基础设施]] — 来源（zg 通过 MCP 接入 Agent）
+- [[Agent中枢]] — 企业 Agent 架构范式
+- [[ZvecGrep]] — 通过 MCP 接入 Agent 的本地搜索

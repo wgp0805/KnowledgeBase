@@ -2,7 +2,7 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md]
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/01-articles/Codex 最新焚决发布，快！.md]
 last_updated: 2026-09-15
 ---
 
@@ -199,6 +199,34 @@ brew install openai-codex
 
 **结论**：Codex 的消耗不只由模型名字决定，**模型、任务长度、全局规则、Skills 和工具输出，共同组成了每一轮真正送进模型的内容**。先看清 token 花在了哪里，再决定该压缩上下文、拆任务还是调整模型。
 
+### GPT-6 Astra 时代的 Skills/AGENTS.md 瘦身（焚诀实操）
+来自 [[摘要-Codex最新焚诀-GPT-6-Astra瘦身指南]]。核心结论：**模型能力变强后，Skill 要少一些，Memory 中陈旧的记忆要删掉，AGENTS.md 和 CLAUDE.md 也要精简**。两步实操提示词：
+
+**第一步：审查**（不改文件）
+> 按照这篇焚诀： https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra 审查当前项目的 AGENTS.md 和 Skills，找出**过宽的 Skill 触发、无关文档强制读取、重复检查、冲突规则，以及频繁要求确认的指令**。逐条告诉我问题和最小修改建议，先不要改文件。
+
+**第二步：优化**
+> 根据刚才的审查结果优化 AGENTS.md 和 Skills。**缩小 Skill 触发范围，删除无关文档读取，合并重复检查，解决冲突规则，并减少低风险任务中的无意义确认。保留安全边界、敏感操作确认和必要测试**。修改完成后列出具体改动。
+
+**四个优化方向**：
+
+1. **Skill 描述做减法**——Postgres 迁移 Skill 从"涉及数据库、查询或数据模型时使用"（太宽，写个 SQL 也触发整套迁移流程）收窄到"新增或修改迁移、审查迁移发布时使用"。同理 Claude Code 项目的 browser-act Skill 描述覆盖"fetch URL/take screenshots/fill forms and click"几乎所有浏览器操作，沾一点网页就加载整套。
+
+2. **CLAUDE.md（对应 AGENTS.md）瘦身**——反面例子"每次编辑前，都读 architecture.md、database.md 和 deployment.md"→ 改法给每份文档加读取条件"涉及服务边界时读 architecture.md，修改表结构时读 database.md，准备部署时读 deployment.md"。
+
+3. **放松决策边界**——老模型时代加的限制（"修改文件前必须先问我""禁止自动执行 shell 命令"）在新模型上反而让 Astra 过度谨慎。**两类区分**：安全底线保留（不要自动 push 到远程仓库、不要删生产数据、涉及密钥必须确认），日常低风险操作确认交给模型自己判断（读文件、写测试、跑格式化）。
+
+4. **在开始之前就定义完成标准**（define completion before starting）——不是"写完代码叫完成"，也不是"多测几遍叫完成"。完成的定义应该具体到：跑哪些测试、通过什么条件、交付什么产物。测试停止条件也要写清楚"相关检查已经通过，又没有新改动和新问题，就可以交付"。
+
+**给安全工作流显式授权**（减少不必要确认等待）：
+> 本地测试使用一次性数据，没有生产环境访问权限。直接跑测试、修复失败、重跑受影响的测试，不需要每一步都等确认。
+
+**两个自检清单**：
+- **Skill 自检**：描述能否一两句话说清"做什么"和"什么时候用"？触发条件是否太宽导致不相关任务也加载？多个 Skill 描述是否重叠？详细操作步骤放在子文档里还是全塞在描述里？
+- **AGENTS.md/CLAUDE.md 自检**：有没有"每次都要 XX"这样的无条件规则？这些规则各自适用于什么场景，能不能加触发条件或移到具体 Skill 里？有没有安全工作流可以显式授权？规则里引用的文档和实际代码还对得上吗？
+
+**渐进式改进建议**：先挑一条有明确依据的建议改掉，然后用一个熟悉的日常任务跑一遍，观察模型行为有没有变化，确认没问题了再改下一条。
+
 ## 关联连接
 - [[摘要-40分钟学会Codex零基础教程]] — 来源
 - [[摘要-把Codex用到极致]] — 来源（工作系统框架与长线程理念）
@@ -229,3 +257,7 @@ brew install openai-codex
 - [[TokenEfficiency]] — Token 效率
 - [[AGENTS-md]] — AGENTS.md 只该管边界
 - [[上下文工程]] — 每轮真正送进模型的内容组成
+- [[摘要-Codex最新焚诀-GPT-6-Astra瘦身指南]] — 来源（Skills/AGENTS.md 瘦身）
+- [[Skill]] — Skill 减法定稿
+- [[Skills]] — Skills 系统
+- [[沉默王二]] — 焚诀介绍者
