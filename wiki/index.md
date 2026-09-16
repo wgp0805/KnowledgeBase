@@ -2109,8 +2109,17 @@
 - [[Semrush]] — 专业的SEO工具平台，提供关键词研究、竞品分析、内容差距挖掘等功能。
 - [[SpringSmartDI]] — `spring-smart-di` 是一个扩展 Spring `@Autowired` 注入逻辑…
 
-### Sources
+### Entities (2026-09-16 新增)
+- [[QQ互联]] — 腾讯开放平台第三方登录授权服务，基于 OAuth 2.0 协议，支持网站应用接入 QQ 账号登录
+- [[程序员小灰]] — 微信公众号「程序员小灰」作者，专注 AI 工具、Skills 生态、AI 副业变现等领域的平民化教程分享
+- [[ClaudeObsidian]] — 开源知识库管理工作流工具，封装规则/检索脚本/一致性校验器，自生长知识库的进阶工程化方案
+
+### Sources (2026-09-16 新增)
 - [[摘要-pi-agent-study-01-pi-overview]] — 本篇是 Pi (pi.dev) 系统学习的第一课笔记，主要讲解 Pi 的定位、核心理念以及与其他…
 - [[摘要-pi-study-02-architecture]] — 本篇是 Pi (pi.dev) 系统学习的第二课笔记，详细讲解 Pi 的整体架构。Pi 采用"小…
 - [[摘要-spring-smart-di-动态切换实现类]] — `spring-smart-di` 是对 Spring `@Autowired` 注解的创新性扩…
+- [[摘要-elasticsearch-深度分页]] — 犬小哈从面试视角深度剖析 ES 深度分页问题
+- [[摘要-oauth2-第三方登录]] — 犬小哈 OAuth 2.0 第三方登录完整教程
+- [[摘要-workbuddy-15技能推荐]] — 程序员小灰 2026-09 WorkBuddy 最值得推荐 15 个技能
+- [[摘要-workbuddy-obsidian-知识库]] — 苏三 2026-09-16 WorkBuddy + Obsidian 自生长知识库保姆级教程
 
