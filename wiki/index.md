@@ -386,6 +386,10 @@
 - [[摘要-ADrive-字节发布智能网盘]] — 火山引擎 ADrive 9月发布，Slogan"连接你的AI应用，让文件与产物持续可用"，AI 智能体数据持久化+人机协同
 - [[摘要-OpenAI总裁Brockman最新采访]] — Brockman a16z 访谈：AGI 时代已到来+Computer Use+10000 agent 解 Navier-Stokes+防御者窗口+10亿美元安全计划
 - [[摘要-Codex最新焚诀-GPT-6-Astra瘦身指南]] — 沉默王二介绍 OpenAI 官方《Rethinking skills and prompts for GPT-6 Astra》：Skill 收窄/AGENTS.md 加条件读取/放松决策边界/定义完成标准
+- [[摘要-elasticsearch-深度分页]] — 犬小哈从面试视角深度剖析 ES 深度分页问题：from+size 翻页开销公式、四大方案对比（from+size/scroll/search_after/PIT+search_after）、调大窗口不自欺
+- [[摘要-oauth2-第三方登录]] — 犬小哈 OAuth 2.0 第三方登录完整教程：四角色模型、四大授权模式、数据库三方案设计、GitHub 与 QQ 两种实战代码
+- [[摘要-workbuddy-15技能推荐]] — 程序员小灰 2026-09 更新的 WorkBuddy 最值得推荐 15 个技能（9 月最新版），按四个方向分类，统一一句话安装方式
+- [[摘要-workbuddy-obsidian-知识库]] — 苏三 2026-09-16 分享的用 WorkBuddy + Obsidian 搭建自生长个人知识库保姆级教程，三层目录+AGENTS.md 宪法+claude-obsidian 进阶
 
 ## Concepts (2026-08-26 新增)
 - [[ZeroSumThinking]] — 零和思维：财富总量固定 vs 正和思维：财富可被创造
@@ -412,6 +416,13 @@
 - [[Agent中枢]] — 企业 AI 赋能架构范式：中枢承载通用能力通过 MCP 开放，员工 AI 项目互调，通用测试 Agent 前置
 - [[DefenderWindow]] — 防御者窗口：AI 网络攻击能力目前只在少数前沿实验室手里，是防御者黄金期，扩散不可逆
 - [[AGENTS-md]] — AI Agent 的跨 Session 记忆机制标准文件（Pi/ClaudeCode/Codex 均支持），GPT-6 Astra 时代要求瘦身
+
+### Concepts (2026-09-16 新增)
+- [[深度分页]] — Elasticsearch 深度分页问题：from+size 翻页开销公式与四大解决方案选型
+- [[SearchAfter]] — ES 游标式实时翻页方案，翻页开销恒定，必须搭配唯一排序字段
+- [[PIT]] — Point in Time 时间点视图，ES 7.10+ 与 search_after 组合的官方推荐深分页方案
+- [[Scroll]] — ES 快照式全量遍历方案，7.10 起 deprecated，仅适合离线导出
+- [[State-CSRF防护]] — OAuth 授权流程中的 state 参数机制，防止 CSRF 跨站请求伪造攻击
 
 ## Syntheses
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
