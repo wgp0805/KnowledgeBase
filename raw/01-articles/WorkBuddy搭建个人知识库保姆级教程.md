@@ -34,7 +34,7 @@ source: "https://mp.weixin.qq.com/s/g0S1C4iEogdaVAWrRbjnzA"
 
 知识库不是文件越堆越多，而是体系随着每次输入不断生长。
 
-![自生长对比](https://mmbiz.qpic.cn/mmbiz_png/YHZARf33mbEibJufNZUW0mt8e900jI39P8CJdhibpPnkASROFtvJOGia0SQ8hhWRLooZA8t5P0DlyU3vI2gptYMxPUfJyZFVz5yE4cb0dohK2c/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![自生长对比](assets/WorkBuddy%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/cfe715c568d2a776ee460cd34a9e6e8f_MD5.png)
 
 ## 工具准备
 
@@ -46,7 +46,7 @@ source: "https://mp.weixin.qq.com/s/g0S1C4iEogdaVAWrRbjnzA"
 
 先打开 Obsidian，点击新建一个空的本地仓库，名字随意，比如叫 MyKnowledge。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/YHZARf33mbF1hFNhdmQNQmhQ7yF7mOtjW6Vw5zoYRPkPMwKvbicb9e6rkZUkABh39n7DP7xgzjHRThLC32FjuSxo5JFJKiciaKcpFQMY0wf1u4/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![图片](assets/WorkBuddy%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/7bfdae576aa44341b86f129a34e0dbe6_MD5.png)
 
 建好之后，先不用在 Obsidian 里手动建任何文件夹，我们把剩下的事情交给 WorkBuddy。
 
@@ -56,7 +56,7 @@ source: "https://mp.weixin.qq.com/s/g0S1C4iEogdaVAWrRbjnzA"
 
 让它列出当前目录确认一下，确保操作的是一个干净的目录。
 
-![WorkBuddy 打开知识库目录](https://mmbiz.qpic.cn/mmbiz_png/YHZARf33mbFOQEEpFyv1s7lib6U1Vwqz7zQ7AqldeAR9S0zhCx6NCBv6UPicaNsB6lpb8GxafmdklaRcWk1f5me9yd6CIgUEAdhibraibGmbCZI/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![WorkBuddy 打开知识库目录](assets/WorkBuddy%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/622818f211866b0c50c238c3e11ba718_MD5.png)
 
 一套能长期维护的知识库，目录分层必须极简。层次越深，AI 维护起来越容易迷路。
 
@@ -88,7 +88,7 @@ output 用来保存临时报告和分析结果。
 
 请先创建目录和规则，不要处理现有文件。
 ```
-![执行初始化提示词](https://mmbiz.qpic.cn/sz_mmbiz_png/YHZARf33mbEb0iaj9hzVB7jibo326ln1y7ibz7KOruJGwOZNia2d2qSwstZo2m3HlsicjYGxsTQOCRMnniavQ75Gm47gxmD6XGKNNOVs9cLGj7icE8/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![执行初始化提示词](assets/WorkBuddy%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/0e4c0e40f9ac30554b4c3738847890cf_MD5.png)
 
 等待 WorkBuddy 执行完毕，花十秒钟快速检查一下。
 
@@ -96,7 +96,7 @@ output 用来保存临时报告和分析结果。
 
 这个规则文件就是整个知识库的宪法。它明确规定了原文只读、优先增量更新旧页面、结论必须溯源等原则。有了这份规则，AI 后续的操作才不会随意发挥。
 
-![检查 AGENTS.md 规则](https://mmbiz.qpic.cn/mmbiz_png/YHZARf33mbHMbtZ5RIrbnia4WHoDmnEqB19ACW3SibY3rJ5CiakHCRhuY3IK4mpMgaMgkFWH8zTM8gTr61MYfPUXibGrhQPfKAVpzKn5clRCo1g/640?wx_fmt=png&from=appmsg#imgIndex=5)
+![检查 AGENTS.md 规则](assets/WorkBuddy%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/a204db26ccd9f44c52eb8b8fdf542e81_MD5.png)
 
 ## 首次入库
 
@@ -106,7 +106,7 @@ output 用来保存临时报告和分析结果。
 
 这里有个关键技巧，第一次测试只放一篇资料。先不要一口气扔几十篇，放一篇能让我们直观观察到 AI 究竟修改了哪些文件。
 
-![资料存入 raw](https://mmbiz.qpic.cn/sz_mmbiz_png/YHZARf33mbGeBqRVpetQxHicyZGmx7SCQZfCAP1KOTeKZRCcbsv9iaP64sLtKicsgFNRrR0sWwwQVDfgH0Jg79ro8kVYaVwkHM10yzxDlq1nbI/640?wx_fmt=png&from=appmsg#imgIndex=6)
+![资料存入 raw](assets/WorkBuddy%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/f3a8def70aaf19f3643fafad9660acde_MD5.png)
 
 文件放好后，把入库指令发给 WorkBuddy。
 
@@ -123,7 +123,7 @@ WorkBuddy 会按步骤读取原文，在 `wiki/` 下生成结构化的概念页�
 
 此时再去查看， `raw/` 中的原文完好无损，而提炼出来的要点已经整整齐齐沉淀到了 `wiki/` 目录中。
 
-![完成首次入库](https://mmbiz.qpic.cn/mmbiz_png/YHZARf33mbEQTjC4ns4462ibcdic99rns9XUkoMNibo7VCtjCA5mrztZKHerjR2xkVicpGJB2uniaC0S2fCU9TJtObBL1sfKRNyXlLPoSuEM2kibQ/640?wx_fmt=png&from=appmsg#imgIndex=7)
+![完成首次入库](assets/WorkBuddy%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/85472441208c79cc029759f475e29ca0_MD5.png)
 
 ## 增量演进
 
@@ -141,7 +141,7 @@ WorkBuddy 会按步骤读取原文，在 `wiki/` 下生成结构化的概念页�
 
 如果两项都符合，说明知识融合机制已经完整跑通了。
 
-![验证知识增量演进](https://mmbiz.qpic.cn/sz_mmbiz_png/YHZARf33mbEd9wLQWrI8Em5sKlSLka14W4LzQ0t5Jfpzq0WhKKmjuIdBre2LGCgZNCsQVRESpokibEfAg1HTajFLP2xibVv2mzzrtS3icaTdM8/640?wx_fmt=png&from=appmsg#imgIndex=8)
+![验证知识增量演进](assets/WorkBuddy%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/8cf31ba9ea740224d129c8e5cc4c1504_MD5.png)
 
 ## 进阶方案
 
@@ -149,13 +149,13 @@ WorkBuddy 会按步骤读取原文，在 `wiki/` 下生成结构化的概念页�
 
 如果你的资料量非常大，想要更严密的工程化流程，也可以直接接入开源的 `claude-obsidian` 。
 
-![claude-obsidian 开源工具体系](https://mmbiz.qpic.cn/mmbiz_png/YHZARf33mbEeic4H9XMVQzxMCz9Y0ibOKJTDrujQDxx8udU2VuFfWUJINVZcNNulN634FicIctcsaExZicDpN6r966kicSt4xxOg6ubrzqHFpAoI/640?wx_fmt=png&from=appmsg#imgIndex=9)
+![claude-obsidian 开源工具体系](assets/WorkBuddy%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/cff2950674d9700bd387a92639813066_MD5.png)
 
 它把整套规则、检索脚本和一致性校验器封装成了开箱即用的工作流。
 
 新建知识库运行 `init` ，已有知识库运行 `adopt` 直接接管。入库用 `wiki-ingest` ，精准问答与溯源用 `wiki-query` ，定期排查孤立页面和失效链接用 `wiki-lint` 。
 
-![知识循环流图](https://mmbiz.qpic.cn/mmbiz_svg/Q3auHgzwzM5oXeefX2vku3iciapiamm5ialvEvz5bBto8WMDFay9FoU5hC2jwgFQTj8jF0UrRiaUiaYtO34fZliaBvDlH2p6spU2mejb2Nu419OIWnDpCLepxOQbg/640?wx_fmt=svg&from=appmsg#imgIndex=10)
+![知识循环流图](assets/WorkBuddy%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E5%BA%93%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B/ec425f8b631375c01803c011dfd874d5_MD5.svg)
 
 两种方案怎么选，其实很简单。
 
