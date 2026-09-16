@@ -119,7 +119,14 @@ WorkBuddy 是一款国产桌面 AI 应用，可写 Word、做 PPT、辅助论文
 ## 关联连接
 - [[摘要-workbuddy保姆级入门教程-苏三]] — 主要来源
 - [[摘要-鹅厂员工-workbuddy-agent面试题]] — 2026-08-27 最新进展与 Agent 面试题来源
+- [[摘要-workbuddy-15技能推荐]] — 2026-09-15 Skills 生态推荐（程序员小灰）
+- [[摘要-workbuddy-obsidian-知识库]] — 2026-09-16 个人知识库搭建教程（苏三）
 - [[苏三]] — 教程作者
+- [[程序员小灰]] — Skills 生态推荐作者
+- [[ClaudeObsidian]] — 进阶工具
+- [[Obsidian]] — 知识库承载工具
+- [[LLMWiki]] — 个人知识库底层理念
+- [[Skills]] — Skills 生态核心概念
 - [[Codex]] — 对比的国外工具（登录门槛高）
 - [[DeepSeek]] — V4 Flash 模型，日常问答推荐
 - [[GLM]] — 5.2 模型，代码和复杂步骤推荐

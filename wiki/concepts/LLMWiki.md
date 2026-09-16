@@ -5,7 +5,8 @@ tags: [概念, 知识库, Wiki, Agent]
 sources:
   - raw/09-archive/2026-08-02-AI 时代的“HTML 时刻”：一个被严重低估的知识标准 OKF - 贾克斯的平行世界.md
   - raw/01-articles/为什么越来越多人用OpenWiki？.md
-last_updated: 2026-09-15
+  - raw/01-articles/WorkBuddy搭建个人知识库保姆级教程.md
+last_updated: 2026-09-16
 ---
 
 ## 定义
@@ -20,6 +21,7 @@ LLM Wiki 是 Andrej Karpathy 于 2026 年初提出的一种知识库组织模式
 - **解决的核心痛点**：AI 编程工具的「短期记忆」够了但「长期记忆」没有——每次任务都是全新开始，之前积累的理解完全浪费，你花时间让 AI 理解的项目架构，下个任务它完全不记得
 - **设计原则反直觉**：为 Agent 写文档不是为人写文档。传统项目文档是给人看的，人类能容忍模糊、能脑补上下文；但 Agent 上下文窗口有限，每行无用信息都在消耗 Token，所以输出应是针对 LLM 上下文优化的结构化 Markdown，而非人类喜欢的叙事铺垫和背景介绍
 - **一句话总结**：**RAG 让 AI 帮你找答案，OpenWiki 让 AI 记住你的项目**（详见 [[编译器模式vs解释器模式]]）
+- **WorkBuddy + Obsidian 平民实现**（来自 [[摘要-workbuddy-obsidian-知识库]]）：苏三 2026-09-16 分享的保姆级教程——用 WorkBuddy + Obsidian 搭建自生长个人知识库，三层极简目录（raw 只读 / wiki 沉淀 / output 临时）+ AGENTS.md 宪法 + 每次入库更新 index.md 和 log.md。进阶可接入开源的 `claude-obsidian` 工具链，命令包括 `init` / `adopt` / `wiki-ingest` / `wiki-query` / `wiki-lint`。**两种方案选型**：日常阅读笔记 → 提示词直建法（轻量易掌控）；数万字以上复杂项目文档 → 工作流模块（有校验工具兜底）
 
 ## 关联连接
 - [[OKF]] — LLM Wiki 的正式化标准
@@ -33,5 +35,8 @@ LLM Wiki 是 Andrej Karpathy 于 2026 年初提出的一种知识库组织模式
 - [[自生长知识库]] — 相关的知识组织模式
 - [[WeKnora]] — Wiki Mode 的自动知识组织
 - [[Obsidian]] — 承载工具
+- [[ClaudeObsidian]] — 进阶开源工作流工具
+- [[WorkBuddy]] — 平民实现载体
 - [[摘要-okf]] — 来源
 - [[摘要-openwiki-为什么越来越多人用]] — 来源（工程实现）
+- [[摘要-workbuddy-obsidian-知识库]] — 来源（平民实现教程）
