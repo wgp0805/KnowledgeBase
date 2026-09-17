@@ -1630,6 +1630,9 @@
 - [[摘要-design-patterns-interview]] — 设计模式 5 道八股文 3000 字 10 张手绘图
 - [[摘要-microservice-interview]] — 微服务面试题背诵版
 - [[摘要-java-collections-interview]] — Java 集合框架八股文理解版
+
+## Sources (2026-09-17 新增)
+- [[摘要-jdk27-正式发布-人麻了]] — JDK 27 正式发布文章，包含G1 GC默认化、对象头压缩、后量子加密等核心变更
 - [[摘要-spring-interview]] — Spring 面试题：IoC/AOP/Bean 生命周期/事务
 - [[摘要-linux-interview]] — Linux 面试题 1 万字 2 张手绘图
 - [[摘要-openclaw-54-questions]] — OpenClaw 54 道龙虾八股文
