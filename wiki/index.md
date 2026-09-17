@@ -440,6 +440,12 @@
 - [[国内源三件套]] — DaoCloud 镜像加速 + 清华 pip 源 + 淘宝 npm 源，覆盖国内 Docker/Python/Node 部署
 - [[DaoCloud加速器]] — DaoCloud 公共 Docker 镜像加速服务，地址末尾不加斜杠否则报 403
 - [[DockerCompose生产配置]] — docker-compose.prod.yml 生产级最佳实践：多进程/绑本地/强制变量/持久卷/反向代理
+- [[G1 GC]] — JDK 27 默认垃圾回收器，所有环境通用，相比 Serial GC 吞吐量、延迟、内存占用全面优化
+- [[Compressed OOP]] — 紧凑对象头，JDK 27 JEP 534将对象头从96位压缩至64位，堆占用降低25%
+- [[Post-quantum cryptography]] — 后量子加密，JDK 27 JEP 527 为 TLS 1.3 默认启用后量子混合密钥交换算法
+- [[Lazy Constant]] — 惰性常量，JDK 27 JEP 531 支持 defer 初始化 static final 常量，性能等价于 final 字段
+- [[Structured Concurrency]] — 结构化并发，JDK 27 JEP 533 将子任务生命周期严格嵌套在父任务内
+- [[Vector API]] — Vector API，JDK 27 JEP 537 利用 SIMD 指令加速 AI 推理和科学计算
 
 - [[openspec-working-principle]] — OpenSpec 工作原理综合分析：四阶段循环×四份 DAG 工件×Delta Spec 增量×31 平台分发
 - [[heavy-project-impact-analysis-and-planning]] — 重型项目两大痛点：变更影响分析（CodeGraph）+ 新需求规划（GSD Core）的工具组合方案
