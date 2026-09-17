@@ -451,6 +451,7 @@
 - [[agent-spec-framework-comparison-and-matt-skills-workflow]] — Agent 规范驱动框架全景对比（OpenSpec/Superpowers/SpecKit/GSD/Trellis/SpecSuperflow）+ Matt Pocock Skills 介绍 + 现有 Java 后端中型功能 7 步实战流程
 - [[openspec-matt-skills-execution-workflow]] — OpenSpec + Matt Pocock Skills 配合执行详解：执行 vs 执行纪律的区别 / 安装 / apply 与 tdd 三种配合方式 / 叫停机制 / 棕地补录 / 归档后变更
 - [[openspec-matt-lightweight-setup-faq]] — OpenSpec + Matt 轻量执行配置 FAQ：OpenSpec 要 init 而 Matt 没有 init / setup-matt-pocock-skills 生成的三个文件在轻量组合下可删
+- [[synthesis-springboot-vue-drawlottery-system]] — Java + Vue + SpringBoot 抽签系统技术方案：前后端分离架构、Redis 计数器、权重抽签算法、幂等性设计
 - [[matt-skills-boundary-judgment]] — Matt Skills 边界判断：TDD 无 seam 场景跳过规则 / implement vs tdd / implement vs 直接让 AI 干活 / 通用速查表
 
 ## Entities
