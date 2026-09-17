@@ -390,6 +390,11 @@
 - [[摘要-oauth2-第三方登录]] — 犬小哈 OAuth 2.0 第三方登录完整教程：四角色模型、四大授权模式、数据库三方案设计、GitHub 与 QQ 两种实战代码
 - [[摘要-workbuddy-15技能推荐]] — 程序员小灰 2026-09 更新的 WorkBuddy 最值得推荐 15 个技能（9 月最新版），按四个方向分类，统一一句话安装方式
 - [[摘要-workbuddy-obsidian-知识库]] — 苏三 2026-09-16 分享的用 WorkBuddy + Obsidian 搭建自生长个人知识库保姆级教程，三层目录+AGENTS.md 宪法+claude-obsidian 进阶
+- [[摘要-豆包工作vs-workbuddy-竞争分析]] — 怪哥以产品人视角分析 WorkBuddy vs 豆包工作：模型超市+额度够大是领先核心，飞轮已转起
+- [[摘要-aixtv-聊斋动画制作]] — 月鹿造物用 AIXTV 把《聊斋·云翠仙》做成两集古风动画+《最后一镖》武侠短剧，四步流水线 vs Skill 导演模式
+- [[摘要-doubao-seed-2-1-pro-0915实测]] — 卡尔的AI沃茨五任务连测 Doubao-Seed-2.1-pro-0915（1M+256k）：体素樱花岛/Dumpling Club/Excel/含钢量/选址调研
+- [[摘要-ubuntu-docker-全栈部署实录]] — 码农刚子 Ubuntu 22.04 Docker 部署 Next.js+FastAPI+PostgreSQL 全栈实录，国内源三件套+生产配置+踩坑表
+- [[摘要-deepseek-v4-1-flash-harness横评]] — 老章用 Space Invaders 横评 DeepSeek V4.1-Flash 四 Harness：Claude Code 9.2 分综合第一，DSH 极简失败
 
 ## Concepts (2026-08-26 新增)
 - [[ZeroSumThinking]] — 零和思维：财富总量固定 vs 正和思维：财富可被创造
@@ -423,6 +428,18 @@
 - [[PIT]] — Point in Time 时间点视图，ES 7.10+ 与 search_after 组合的官方推荐深分页方案
 - [[Scroll]] — ES 快照式全量遍历方案，7.10 起 deprecated，仅适合离线导出
 - [[State-CSRF防护]] — OAuth 授权流程中的 state 参数机制，防止 CSRF 跨站请求伪造攻击
+
+### Concepts (2026-09-17 新增)
+- [[模型超市策略]] — AI 产品不绑单一模型，接入多家主流模型让用户自由切换，谁赢它都不输
+- [[飞轮效应]] — 业务各环节互相加强形成正向循环：接更多模型→承接热点→获新用户→提高留存→补贴模型→成本更低→吸引更多用户
+- [[AI漫剧工作流]] — AI 工具从故事到成片的四步流水线（剧本/美术/分镜/生成），一个人也能做完一支能看的短片
+- [[QBS法]] — 治 AI 说空话：给一本正经书→book-to-skill 转 skill→AI 调用 skill 按书答
+- [[1M上下文]] — 100 万 Token 上下文窗口 + 256k 深度思考，支撑 Agent 长时间执行任务防中途摆烂
+- [[Tool幻觉]] — LLM 调用不存在/错误的工具或参数/顺序错误，Agent 场景特定幻觉，后果比一般幻觉更严重
+- [[Harness差异化]] — 同一模型在不同 Harness 下表现差异巨大，功能更多更复杂 ≠ 成功率更高
+- [[国内源三件套]] — DaoCloud 镜像加速 + 清华 pip 源 + 淘宝 npm 源，覆盖国内 Docker/Python/Node 部署
+- [[DaoCloud加速器]] — DaoCloud 公共 Docker 镜像加速服务，地址末尾不加斜杠否则报 403
+- [[DockerCompose生产配置]] — docker-compose.prod.yml 生产级最佳实践：多进程/绑本地/强制变量/持久卷/反向代理
 
 ## Syntheses
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
