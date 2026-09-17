@@ -8,6 +8,15 @@
 - **冲突**: 无
 - **归档**: 5 个源文件已移动至 raw/09-archive/
 
+## [2026-09-17] ingest | 摄入 JDK 27 正式发布文章
+- **变更**:
+  - 新增 Sources: 1 个摘要页面：[[摘要-jdk27-正式发布-人麻了]]
+  - 新增 Entities: 3 个：[[JDK27]]、[[Oracle]]、[[SuSan]]
+  - 新增 Concepts: 6 个：[[G1 GC]]、[[Compressed OOP]]、[[Post-quantum cryptography]]、[[Lazy Constant]]、[[Structured Concurrency]]、[[Vector API]]
+  - 更新 [[index.md]]: Sources +1 / Entities +3 / Concepts +6
+- **冲突**: 无
+- **归档**: 1 个源文件已移动至 raw/09-archive/
+
 ## [2026-09-16] ingest | 批量摄入 4 篇文章（ES 深度分页 / OAuth 2.0 第三方登录 / WorkBuddy 15 技能推荐 / WorkBuddy 自生长知识库）
 - **变更**:
   - 新增 Sources: 4 个摘要页面：[[摘要-elasticsearch-深度分页]]、[[摘要-oauth2-第三方登录]]、[[摘要-workbuddy-15技能推荐]]、[[摘要-workbuddy-obsidian-知识库]]
