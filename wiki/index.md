@@ -458,8 +458,6 @@
 - [[Lazy Constant]] — 惰性常量，JDK 27 JEP 531 支持 defer 初始化 static final 常量，性能等价于 final 字段
 - [[Structured Concurrency]] — 结构化并发，JDK 27 JEP 533 将子任务生命周期严格嵌套在父任务内
 - [[Vector API]] — Vector API，JDK 27 JEP 537 利用 SIMD 指令加速 AI 推理和科学计算
-
-## Syntheses
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
 - [[openspec-working-principle]] — OpenSpec 工作原理综合分析：四阶段循环×四份 DAG 工件×Delta Spec 增量×31 平台分发
 - [[heavy-project-impact-analysis-and-planning]] — 重型项目两大痛点：变更影响分析（CodeGraph）+ 新需求规划（GSD Core）的工具组合方案
