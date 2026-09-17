@@ -1703,3 +1703,6 @@
 - **变更**: 删除 concepts\AIProduct.md 后，把 13 处 AIProduct 死链统一改链到 AI产品，含 index.md 登记行
 - **冲突**: 无
 
+
+## [2026-09-17] query | 生成 Java + Vue + SpringBoot 抽签系统技术方案
+- **输出**: 已保存至 [[synthesis-springboot-vue-drawlottery-system]]
