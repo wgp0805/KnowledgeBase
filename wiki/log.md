@@ -1,3 +1,13 @@
+## [2026-09-17] ingest | 批量摄入 5 篇文章（WorkBuddy/豆包对比 / AIXTV 聊斋 / Doubao-Seed-2.1-pro-0915 / Ubuntu Docker 全栈 / DeepSeek V4.1-Flash Harness 横评）
+- **变更**:
+  - 新增 Sources: 5 个摘要页面：[[摘要-豆包工作vs-workbuddy-竞争分析]]、[[摘要-aixtv-聊斋动画制作]]、[[摘要-doubao-seed-2-1-pro-0915实测]]、[[摘要-ubuntu-docker-全栈部署实录]]、[[摘要-deepseek-v4-1-flash-harness横评]]
+  - 新增 Entities: 9 个：[[AIXTV]]、[[Doubao-Seed-2.1-Pro-0915]]、[[DeepSeek-V4.1-Flash]]、[[Next.js]]、[[怪哥]]、[[月鹿造物]]、[[卡尔的AI沃茨]]、[[码农刚子]]、[[老章]]
+  - 新增 Concepts: 10 个：[[模型超市策略]]、[[飞轮效应]]、[[AI漫剧工作流]]、[[QBS法]]、[[1M上下文]]、[[Tool幻觉]]、[[Harness差异化]]、[[国内源三件套]]、[[DaoCloud加速器]]、[[DockerCompose生产配置]]
+  - 增量更新 Entities: [[WorkBuddy]]（+与豆包工作竞争分析/模型超市策略/飞轮效应/可复制性章节）、[[DoubaoWork]]（+与 WorkBuddy 竞争分析/短板/两招追赶路径/战略选择本质）、[[DeepSeek-V4]]（+V4.1-Flash 升级与 Harness 差异化章节）、[[DeepSeekHarness]]（+V4.1-Flash 在 DSH 不同模式下表现/横评对比表/反常识发现）、[[ClaudeCode]]（+作为 DeepSeek-V4.1-Flash 最佳 Harness 搭档章节/综合第一数据）、[[Seedance2.5]]（+在 AIXTV 中应用/与 Doubao-Seed-2.1-Pro-0915 工作流章节）、[[Docker]]（+Ubuntu 22.04 全栈部署/国内源三件套/生产配置/踩坑表章节）、[[FastAPI]]（+Docker 部署生产实践章节）、[[VolcEngine]]（+Seed 模型升级章节）、[[SimonWillison]]（+Space Invaders 测试原题来源）
+  - 更新 [[index.md]]: Sources +5 / Entities +9 / Concepts +10
+- **冲突**: 无
+- **归档**: 5 个源文件已移动至 raw/09-archive/
+
 ## [2026-09-16] ingest | 批量摄入 4 篇文章（ES 深度分页 / OAuth 2.0 第三方登录 / WorkBuddy 15 技能推荐 / WorkBuddy 自生长知识库）
 - **变更**:
   - 新增 Sources: 4 个摘要页面：[[摘要-elasticsearch-深度分页]]、[[摘要-oauth2-第三方登录]]、[[摘要-workbuddy-15技能推荐]]、[[摘要-workbuddy-obsidian-知识库]]
