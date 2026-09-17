@@ -377,6 +377,7 @@
 - [[摘要-gpt-image-2-5-提示词教程]] — OpenAI 官网首发 GPT Image 2.5 提示词教程：手绘角色/带字海报/换装/线稿转写实/界面图/透明抠图六大玩法
 - [[摘要-openwiki-为什么越来越多人用]] — 苏三解析 LangChain OpenWiki：LLM Wiki 首个完整工程实现，Claims 溯源 + CI 自动更新，编译器模式 vs RAG 解释器模式
 - [[摘要-itext9-java-pdf]] — iText 9 全解析：AES-GCM/PDF MAC/签名校验/PDF-UA/OCG，抽文本抠图三大操作与 AGPL 商用提醒
+- [[摘要-服务器无Telnet时验证IP端口连通性]] — 服务器无 telnet 时验证 IP+端口连通性的四种替代方案（curl/nc/Python/Bash 内置）
 
 - [[摘要-产品经理的三道门]] — 王在行用"括约肌"比喻 AI 时代产品经理的三道体面门：对用户忠诚/对团队仗义/自己的判断，AI 无法替代的护城河
 - [[摘要-穿透查询升级为穿透管控]] — 敏尔说提出集团穿透式管理五阶段演进：业务事项ID+感知事件+规则嵌入+异常分级+结果回挂原业务
@@ -446,6 +447,8 @@
 - [[Lazy Constant]] — 惰性常量，JDK 27 JEP 531 支持 defer 初始化 static final 常量，性能等价于 final 字段
 - [[Structured Concurrency]] — 结构化并发，JDK 27 JEP 533 将子任务生命周期严格嵌套在父任务内
 - [[Vector API]] — Vector API，JDK 27 JEP 537 利用 SIMD 指令加速 AI 推理和科学计算
+- [[端口连通性诊断]] — 无 telnet 环境下验证 TCP 端口连通性的运维方法论，含返回状态三分类判读
+- [[Telnet替代方案]] — curl/Bash /dev/tcp/nc/Python socket 四种 telnet 替代工具对比与选型
 
 - [[openspec-working-principle]] — OpenSpec 工作原理综合分析：四阶段循环×四份 DAG 工件×Delta Spec 增量×31 平台分发
 - [[heavy-project-impact-analysis-and-planning]] — 重型项目两大痛点：变更影响分析（CodeGraph）+ 新需求规划（GSD Core）的工具组合方案

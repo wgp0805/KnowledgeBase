@@ -1,3 +1,11 @@
+## [2026-09-17] ingest | 摄入服务器无 Telnet 时验证 IP+端口连通性指南
+- **变更**:
+  - 新增 Sources: 1 个摘要页面：[[摘要-服务器无Telnet时验证IP端口连通性]]
+  - 新增 Concepts: 2 个：[[端口连通性诊断]]、[[Telnet替代方案]]
+  - 更新 [[index.md]]: Sources +1 / Concepts +2
+- **冲突**: 无
+- **归档**: 1 个源文件已移动至 raw/09-archive/
+
 ## [2026-09-17] ingest | 批量摄入 5 篇文章（WorkBuddy/豆包对比 / AIXTV 聊斋 / Doubao-Seed-2.1-pro-0915 / Ubuntu Docker 全栈 / DeepSeek V4.1-Flash Harness 横评）
 - **变更**:
   - 新增 Sources: 5 个摘要页面：[[摘要-豆包工作vs-workbuddy-竞争分析]]、[[摘要-aixtv-聊斋动画制作]]、[[摘要-doubao-seed-2-1-pro-0915实测]]、[[摘要-ubuntu-docker-全栈部署实录]]、[[摘要-deepseek-v4-1-flash-harness横评]]
