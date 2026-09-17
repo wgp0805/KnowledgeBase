@@ -10,7 +10,8 @@ sources:
   - raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md
   - raw/01-articles/2026-08-18 - DeepSeek Harness 命令大全.md
   - raw/01-articles/2026-08-21 - DeepSeekHarness必装的10个插件.md
-last_updated: 2026-08-21
+  - raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md
+last_updated: 2026-09-17
 ---
 
 ## 定义
@@ -129,6 +130,18 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - **版本**：0.1.0-rc.6（开发者预览版，生产谨慎）
 - **Python SDK**：`pip install deepseek-harness` / `deepseek-harness-cli`；MCP 服务器 `npx -y @deepseek-harness/mcp`
 
+## V4.1-Flash 在 DSH 不同模式下的表现（2026-09-17，详见 [[摘要-deepseek-v4-1-flash-harness横评]]）
+[[老章]] 用 [[SimonWillison|Simon Willison]] 的 Space Invaders 原题横评 [[DeepSeek-V4.1-Flash]] 在四种 Harness 下的表现，DSH 标准模式与极简模式对比：
+
+| DSH 模式 | 用时 | Token | TPS | 结果 | 综合分 |
+|----------|------|-------|-----|------|--------|
+| 标准模式 | 8分54秒 | 4.2M tok | 275 tok/s | 完成 | 8.7（最稳最规整） |
+| 极简模式 | 40分04秒 | 1.5M tok | 295 tok/s | **失败** | 7.2（刷新后卡死） |
+
+**反常识发现**：DSH Minimal 在两项官方测试中都高于 Standard 和 PTC——功能更多更复杂并没有换来更高成功率。极简模式虽省 84.5% Token，但缺乏全局视野，总用时全场最慢且最终失败。
+
+**整体排名**：① Claude Code 9.2 分 ② Pi Agent 8.9 分 ③ DSH 标准 8.7 分 ④ DSH 极简 7.2 分。[[ClaudeCode]] 接 DeepSeek-V4.1-Flash 开箱即用接近峰值。
+
 ## 关联连接
 - [[DeepSeek]] — 所属公司
 - [[崔添翼]] — 团队负责人
@@ -152,3 +165,7 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - [[本地Agent工作站]] — 完整本地方案
 - [[TensorSplit]] — 多卡分摊技术
 - [[GGUF量化]] — 模型量化技术
+- [[摘要-deepseek-v4-1-flash-harness横评]] — 来源（V4.1-Flash Harness 横评）
+- [[DeepSeek-V4.1-Flash]] — 被测模型
+- [[老章]] — 横评作者
+- [[ClaudeCode]] — 综合排名第一的 Harness

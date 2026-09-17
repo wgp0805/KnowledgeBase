@@ -46,6 +46,28 @@ Dockerfile (配方) ──docker build──→ Image (镜像/静态快照) ─�
 - frps（服务端）部署在公网云服务器，frpc（客户端）部署在内网本地电脑
 - token 密钥验证，客户端与服务端必须一致
 
+## Ubuntu 22.04 全栈项目部署（2026-09-17，详见 [[摘要-ubuntu-docker-全栈部署实录]]）
+[[码农刚子]] 在 [[Ubuntu]] 22.04 LTS（阿贝云免费云服务器）上用 Docker Compose 跑通 [[Next.js]] + [[FastAPI]] + [[PostgreSQL]] 全栈项目。
+
+### 「[[国内源三件套]]」配置
+1. **[[DaoCloud加速器]]**：`daemon.json` 配置 `"registry-mirrors": ["https://docker.m.daocloud.io"]`（地址末尾不要加斜杠，否则报 403）
+2. **清华 pip 源**：Dockerfile `ARG PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple`
+3. **淘宝 npm 源**：Dockerfile `ENV npm_config_registry=https://registry.npmmirror.com`
+
+### 生产级 docker-compose.prod.yml 要点
+- API 去掉 `--reload`，加 `--workers 4`（生产多进程）
+- Web/Api 只绑 `127.0.0.1`，避免直接暴露
+- 用 `${VAR:?}` 强制必填环境变量（缺失即报错停止）
+- PostgreSQL 数据持久化到命名卷（`pgdata`）
+- [[Nginx]] 作为反向代理，80 端口统一入口
+
+### 关键踩坑
+- `Unable to locate package docker-compose-plugin` → 换阿里云 Docker CE 源
+- 拉镜像 `i/o timeout` → 配 DaoCloud 镜像加速器
+- `COPY /app/public not found` → Next.js standalone 需 `public` 目录，建 `frontend/public/.gitkeep`
+- `/health` 空响应 → API 冷启动慢，等 20 秒或加健康检查重试
+- 时区 aware/naive 报错 → 统一用 `datetime.utcnow()` 或落库前 `replace(tzinfo=None)`
+
 ## 关联连接
 - [[DockerDesktop]] — 桌面版
 - [[MySQL]] — 数据库容器化

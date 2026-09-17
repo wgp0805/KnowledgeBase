@@ -2,8 +2,8 @@
 title: "SimonWillison"
 type: entity
 tags: [Web开发, Django, 独立开发者, AI编程]
-sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md]
-last_updated: 2026-05-26
+sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md]
+last_updated: 2026-09-17
 ---
 
 ## 定义
@@ -22,6 +22,10 @@ Simon Willison，Web 框架 Django 的联合创始人，在开发者圈极具影
 ## 关联连接
 
 - [[摘要-vibe-engineering-era]] — 来源
+- [[摘要-deepseek-v4-1-flash-harness横评]] — 来源（Space Invaders 测试原题）
 - [[VibeEngineering]] — Simon 提出的概念
 - [[VibeCoding]] — 与之对应的概念
 - [[AndrejKarpathy]] — 发明 Vibe Coding 一词
+- [[DeepSeek-V4.1-Flash]] — 用 Simon 原题做 Harness 横评的模型
+- [[老章]] — Space Invaders 横评作者
+- [[ClaudeCode]] — 横评中综合排名第一的 Harness
