@@ -2140,3 +2140,14 @@
 - [[摘要-workbuddy-15技能推荐]] — 程序员小灰 2026-09 WorkBuddy 最值得推荐 15 个技能
 - [[摘要-workbuddy-obsidian-知识库]] — 苏三 2026-09-16 WorkBuddy + Obsidian 自生长知识库保姆级教程
 
+### Entities (2026-09-17 新增)
+- [[AIXTV]] — AI 视频/漫剧创作平台，影视片场四步流水线 + Skill 导演对话式两种创作模式，支持 Seedance 2.5 和 MiniMax H3
+- [[Doubao-Seed-2.1-Pro-0915]] — 火山方舟 Seed 模型升级版，1M 上下文 + 256k 深度思考，Agent 长任务防摆烂 + 降低工具幻觉
+- [[DeepSeek-V4.1-Flash]] — DeepSeek V4 升级版，技术文件指出不同 Harness 影响结果，Claude Code 接入开箱即用接近峰值
+- [[Next.js]] — 基于 React 的全栈前端框架，常与 FastAPI/PostgreSQL 搭配 Docker Compose 部署
+- [[怪哥]] — AI 产品方向自媒体作者，提出模型超市策略与飞轮效应分析 WorkBuddy vs 豆包工作
+- [[月鹿造物]] — AI 视频/漫剧创作方向作者，用 AIXTV 把《聊斋》做成动画
+- [[卡尔的AI沃茨]] — AI 模型实测方向作者，五任务连测 Doubao-Seed-2.1-Pro-0915，提出 QBS 法
+- [[码农刚子]] — 全栈开发方向作者，六年 ERP 经验，Docker 全栈部署实录提出国内源三件套
+- [[老章]] — AI 编程方向作者（公众号 Ai 学习的老章），DeepSeek V4.1-Flash 四 Harness 横评
+
