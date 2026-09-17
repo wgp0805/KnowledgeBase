@@ -1520,6 +1520,9 @@
 ## Entities (2026-09-01 新增)
 - [[OpenSearch]] — Linux基金会托管的开源搜索分析平台，Apache 2.0，段复制+读写分离+GPU加速向量索引
 
+## Entities (2026-09-17 新增)
+- [[JDK27]] — JDK 27 的身份定义
+
 ## Concepts (2026-09-01 新增)
 - [[FST]] — 有限状态转换器，Lucene Term Index 的前缀压缩结构，O(len)查询、前缀共享、内存常驻
 - [[TermIndex]] — 词典查询三层结构第一层，存Term前缀常驻内存，最少一次磁盘寻址定位词典
