@@ -1,0 +1,56 @@
+---
+title: "DeepSeek V4.1-Flash"
+type: entity
+tags: [DeepSeek, V4.1-Flash, 国产模型, Harness]
+sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md]
+last_updated: 2026-09-17
+---
+
+## 定义
+DeepSeek-V4.1-Flash 是 [[DeepSeek-V4|DeepSeek V4]] 系列的升级版本，技术文件指出：大模型很少只跑在固定 Harness 里，不同脚手架的提示词/工具定义/上下文管理/交互协议都会影响结果。官方测试显示 DSH Minimal 模式反常识地优于 Standard 与 PTC，而 [[ClaudeCode|Claude Code]] 或 [[Codex]] 接 DeepSeek-V4.1-Flash 开箱即用接近峰值。
+
+## 关键信息
+
+### Harness 影响模型表现
+DeepSeek 技术文件核心观点：
+- 同一模型在不同 Harness 下表现差异巨大
+- **DSH Minimal 模式** 在两项测试中都高于 Standard 和 PTC 模式（反常识：功能更多更复杂 ≠ 成功率更高）
+- **Claude Code 或 Codex** 接 DeepSeek-V4.1-Flash，开箱即用水平接近峰值
+
+### Space Invaders 横评（[[SimonWillison|Simon Willison]] 原题）
+四种 Harness 综合排名：**① Claude Code 9.2 分 ② Pi Agent 8.9 分 ③ DSH 标准 8.7 分 ④ DSH 极简 7.2 分**
+
+| Harness | 用时 | Token | TPS | 结果 |
+|---------|------|-------|-----|------|
+| Pi Agent | 36分09秒 | 9.7M tok | - | 完成 |
+| DSH 标准 | 8分54秒 | 4.2M tok | 275 tok/s | 完成 |
+| DSH 极简 | 40分04秒 | 1.5M tok | 295 tok/s | **失败** |
+| Claude Code | 9分34秒 | 3.0M tok | 205.5 tok/s | 完成 |
+
+### Claude Code 胜出原因
+- 交付质量/代码准确率/工程完整性均第一
+- 上下文管理极其精炼：仅用 Pi Agent 约 1/3 的 Token 和 1/4 的耗时拿到全场最优效果
+- 最懂原版：街机竖屏/飞碟/掩体破损等细节齐全，外壳和数据面板专业
+- 定位：生产级工业落地 ROI 最高标杆
+
+### 各 Harness 适用场景
+- **Claude Code**：生产级工业落地，ROI 最高
+- **Pi Agent**：质量极致要求、成本耗时完全不敏感的探索性任务（Token 全场最高 9.7M）
+- **DSH 标准模式**：交付时效要求极高、任务复杂度适中的日常高吞吐开发（275 tok/s 全场最快）
+- **DSH 极简模式**：Token 极致压榨但有代价（省 84.5% Token，但缺乏全局视野，40 分钟全场最慢，最终失败）
+
+## 关键启示
+**如果你觉得某个模型不太好，或许可以换一个 Harness。** Harness 选择直接影响交付质量、Token 消耗、耗时、辅助使用友好度。
+
+## 关联连接
+- [[摘要-deepseek-v4-1-flash-harness横评]] — 来源
+- [[DeepSeek-V4]] — V4 系列
+- [[DeepSeek]] — 母公司
+- [[ClaudeCode]] — 最佳 Harness 搭档（综合第一）
+- [[DeepSeekHarness]] — 官方 Harness（标准/极简模式）
+- [[Pi]] — Pi Agent
+- [[Codex]] — 官方提到开箱即用接近峰值的另一个 Harness
+- [[SimonWillison]] — Space Invaders 测试原题作者
+- [[Harness差异化]] — 概念页
+- [[TokenEfficiency]] — 概念
+- [[老章]] — 文章作者

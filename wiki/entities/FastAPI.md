@@ -2,8 +2,8 @@
 title: "FastAPI"
 type: entity
 tags: [Python, Web框架, API, 高性能]
-sources: [raw/01-articles/FastAPI 入门教程.md]
-last_updated: 2026-06-29
+sources: [raw/01-articles/FastAPI 入门教程.md, raw/01-articles/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
+last_updated: 2026-09-17
 ---
 
 ## 定义
@@ -106,8 +106,16 @@ async def create_user(user: UserCreate):
 - 性能：FastAPI 完胜
 - **结论**：Java 同事最终赢——不是因为性能，而是因为**运维体系、监控告警、日志聚合、错误追踪等"非功能需求"** Spring Boot 生态更成熟
 
+## Docker 部署生产实践（2026-09-17，详见 [[摘要-ubuntu-docker-全栈部署实录]]）
+[[码农刚子]] 实测在 [[Ubuntu]] 22.04 上用 [[Docker]] Compose 部署 FastAPI 后端的生产要点：
+- 启动命令：`uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4`（去掉 `--reload`，加 `--workers 4` 多进程）
+- Dockerfile 加清华 pip 源：`ARG PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple`
+- 健康检查：`curl http://127.0.0.1:8000/health` 返回 `{"status":"ok","env":"prod"}`，冷启动慢需等 20 秒或加健康检查重试
+- 与 [[Next.js]] 前端 + [[PostgreSQL]] 数据库 + [[Nginx]] 反向代理组合，Docker Compose 编排
+
 ## 关联连接
 - [[摘要-fastapi-入门教程]] — 来源
+- [[摘要-ubuntu-docker-全栈部署实录]] — 来源（Docker 部署生产实践）
 - [[Pydantic]] — 数据验证基石
 - [[Uvicorn]] — 默认 ASGI 服务器
 - [[ASGI]] — 异步规范
@@ -117,3 +125,7 @@ async def create_user(user: UserCreate):
 - [[AIService]] — 核心应用场景
 - [[microservices]] — 适用架构
 - [[frontend-backend-separation]] — 前后端联调通过自动文档加速
+- [[Docker]] — 部署工具
+- [[Next.js]] — 常搭前端
+- [[PostgreSQL]] — 常搭数据库
+- [[码农刚子]] — 部署实录作者

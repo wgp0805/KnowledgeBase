@@ -2,8 +2,8 @@
 title: "Docker"
 type: entity
 tags: [容器, DevOps]
-sources: [raw/09-archive/Docker-window环境下部署RocketMq.md, raw/09-archive/docker安装及使用-windows环境.md, raw/09-archive/docker部署nacos.md, raw/09-archive/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/09-archive/使用Docker在Windows上部署独立MySQL.md, raw/09-archive/使用n8n搭建Agent项目笔记.md, raw/09-archive/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md, raw/01-articles/2026-08-24 - 拒绝再买服务器！我用 Docker + FRP 实现内网穿透，舒服~.md]
-last_updated: 2026-08-25
+sources: [raw/09-archive/Docker-window环境下部署RocketMq.md, raw/09-archive/docker安装及使用-windows环境.md, raw/09-archive/docker部署nacos.md, raw/09-archive/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/09-archive/使用Docker在Windows上部署独立MySQL.md, raw/09-archive/使用n8n搭建Agent项目笔记.md, raw/09-archive/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md, raw/01-articles/2026-08-24 - 拒绝再买服务器！我用 Docker + FRP 实现内网穿透，舒服~.md, raw/01-articles/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
+last_updated: 2026-09-17
 ---
 
 ## 定义
@@ -58,4 +58,10 @@ Dockerfile (配方) ──docker build──→ Image (镜像/静态快照) ─�
 - [[摘要-使用Docker在Windows上部署独立MySQL]] — 在 Windows 上使用 Docker 部署 MySQL …
 - [[摘要-idea的特殊用法及远程DEBUG的方法]] — 介绍 IntelliJ IDEA 远程调试 Java 应用的…
 - [[摘要-docker-frp-内网穿透]] — 来源（Docker + FRP 内网穿透）
+- [[摘要-ubuntu-docker-全栈部署实录]] — 来源（Ubuntu 22.04 全栈部署实录）
+- [[码农刚子]] — 部署实录作者
+- [[Next.js]] — 前端框架（部署案例）
+- [[FastAPI]] — 后端框架（部署案例）
+- [[国内源三件套]] — 概念页
+- [[DaoCloud加速器]] — 镜像加速器
 - [[kafka-complete-tutorial]] — Apache Kafka 完整教程
