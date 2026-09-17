@@ -3,7 +3,7 @@ title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
 sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md]
-last_updated: 2026-08-28
+last_updated: 2026-09-17
 ---
 
 ## 定义
@@ -233,6 +233,16 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 5. 编程经验依旧重要，需判断 AI 方案利弊
 6. 培养产品感觉，行业 Know-How 被放大
 
+## 作为 DeepSeek-V4.1-Flash 最佳 Harness 搭档（2026-09-17，详见 [[摘要-deepseek-v4-1-flash-harness横评]]）
+[[老章]] 用 [[SimonWillison|Simon Willison]] 的 Space Invaders 原题横评 [[DeepSeek-V4.1-Flash]] 在四种 Harness 下的表现，**Claude Code 综合排名第一（9.2 分）**：
+- 交付质量、代码准确率、工程完整性均第一
+- 上下文管理极其精炼：仅用 Pi Agent 约 1/3 的 Token（3.0M vs 9.7M）和 1/4 的耗时（9分34秒 vs 36分09秒）拿到全场最优效果
+- 最懂原版：街机竖屏/飞碟/掩体破损等细节齐全，外壳和数据面板专业
+- 定位：生产级工业落地 ROI 最高标杆
+- DeepSeek 技术文件指出"Claude Code 或 Codex 接 DeepSeek-V4.1-Flash，开箱即用接近峰值"
+
+对比：Pi Agent 视觉效果最强但 Token 全场最高（9.7M）；DSH 标准速度最快（8分54秒）但复杂任务弱；DSH 极简省 Token 但最终失败。
+
 ## 关联连接
 - [[摘要-60分钟全面掌握Claude-Code]] — 来源
 - [[摘要-6条Claude-Code实践经验与思考]] — 来源
@@ -287,3 +297,7 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 - [[摘要-agent-skills-经济学-月增5万星]] — 来源（Skills 经济学）
 - [[摘要-agent-skills-普通人教程-龙叔]] — 来源（普通人 Skill 教程）
 - [[mattpocock-skills]] — 月增 5 万星的技能包仓库
+- [[摘要-deepseek-v4-1-flash-harness横评]] — 来源（DeepSeek V4.1-Flash 最佳 Harness 搭档）
+- [[DeepSeek-V4.1-Flash]] — 接入的最佳搭档模型
+- [[老章]] — 横评作者
+- [[DeepSeekHarness]] — 横评中对比的 DSH 标准/极简模式
