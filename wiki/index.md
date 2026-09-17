@@ -441,6 +441,24 @@
 - [[DaoCloud加速器]] — DaoCloud 公共 Docker 镜像加速服务，地址末尾不加斜杠否则报 403
 - [[DockerCompose生产配置]] — docker-compose.prod.yml 生产级最佳实践：多进程/绑本地/强制变量/持久卷/反向代理
 
+### Concepts (2026-09-17 新增)
+- [[模型超市策略]] — AI 产品不绑单一模型，接入多家主流模型让用户自由切换，谁赢它都不输
+- [[飞轮效应]] — 业务各环节互相加强形成正向循环：接更多模型→承接热点→获新用户→提高留存→补贴模型→成本更低→吸引更多用户
+- [[AI漫剧工作流]] — AI 工具从故事到成片的四步流水线（剧本/美术/分镜/生成），一个人也能做完一支能看的短片
+- [[QBS法]] — 治 AI 说空话：给一本正经书→book-to-skill 转 skill→AI 调用 skill 按书答
+- [[1M上下文]] — 100 万 Token 上下文窗口 + 256k 深度思考，支撑 Agent 长时间执行任务防中途摆烂
+- [[Tool幻觉]] — LLM 调用不存在/错误的工具或参数/顺序错误，Agent 场景特定幻觉，后果比一般幻觉更严重
+- [[Harness差异化]] — 同一模型在不同 Harness 下表现差异巨大，功能更多更复杂 ≠ 成功率更高
+- [[国内源三件套]] — DaoCloud 镜像加速 + 清华 pip 源 + 淘宝 npm 源，覆盖国内 Docker/Python/Node 部署
+- [[DaoCloud加速器]] — DaoCloud 公共 Docker 镜像加速服务，地址末尾不加斜杠否则报 403
+- [[DockerCompose生产配置]] — docker-compose.prod.yml 生产级最佳实践：多进程/绑本地/强制变量/持久卷/反向代理
+- [[G1 GC]] — JDK 27 默认垃圾回收器，所有环境通用，相比 Serial GC 吞吐量、延迟、内存占用全面优化
+- [[Compressed OOP]] — 紧凑对象头，JDK 27 JEP 534将对象头从96位压缩至64位，堆占用降低25%
+- [[Post-quantum cryptography]] — 后量子加密，JDK 27 JEP 527 为 TLS 1.3 默认启用后量子混合密钥交换算法
+- [[Lazy Constant]] — 惰性常量，JDK 27 JEP 531 支持 defer 初始化 static final 常量，性能等价于 final 字段
+- [[Structured Concurrency]] — 结构化并发，JDK 27 JEP 533 将子任务生命周期严格嵌套在父任务内
+- [[Vector API]] — Vector API，JDK 27 JEP 537 利用 SIMD 指令加速 AI 推理和科学计算
+
 ## Syntheses
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
 - [[openspec-working-principle]] — OpenSpec 工作原理综合分析：四阶段循环×四份 DAG 工件×Delta Spec 增量×31 平台分发
