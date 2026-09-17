@@ -445,8 +445,7 @@
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 应用分布综合分析：RAG 是最常见落地场景，但 2.0 重心正从 RAG 向 Agent/Tool Calling 迁移
 - [[openspec-working-principle]] — OpenSpec 工作原理综合分析：四阶段循环×四份 DAG 工件×Delta Spec 增量×31 平台分发
 - [[heavy-project-impact-analysis-and-planning]] — 重型项目两大痛点：变更影响分析（CodeGraph）+ 新需求规划（GSD Core）的工具组合方案
-- [[optimal-framework-combination-heavy-project]] — 重型项目最优框架组合：OpenSpec + CodeGraph + Matt Pocock Skills（用户反馈 GSD Core 不满意后的最终结论，含日志收集场景实操）
-- [[openspec-codegraph-usage-guide]] — OpenSpec 和 CodeGraph 完整使用指南（安装、命令、棕地补录、bug修复、MCP接入、配合工作流）
+- [[optimal-framework-combination-heavy
 - [[heavy-project-framework-selection-conversation]] — 重型项目 AI 编程框架选型完整对话记录与最终方案（从初始需求到最终选型的全过程归纳）
 - [[agent-spec-framework-comparison-and-matt-skills-workflow]] — Agent 规范驱动框架全景对比（OpenSpec/Superpowers/SpecKit/GSD/Trellis/SpecSuperflow）+ Matt Pocock Skills 介绍 + 现有 Java 后端中型功能 7 步实战流程
 - [[openspec-matt-skills-execution-workflow]] — OpenSpec + Matt Pocock Skills 配合执行详解：执行 vs 执行纪律的区别 / 安装 / apply 与 tdd 三种配合方式 / 叫停机制 / 棕地补录 / 归档后变更
