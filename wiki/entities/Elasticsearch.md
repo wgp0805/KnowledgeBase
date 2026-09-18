@@ -10,7 +10,8 @@ sources:
   - raw/01-articles/2026-08-31 - 面试官：ElasticSearch 为什么快？.md
   - raw/01-articles/面试官：Elasticsearch 支持事务吗？为什么？.md
   - raw/01-articles/面试官：什么是 Elasticsearch 的深度分页问题？如何解决？.md
-last_updated: 2026-09-16
+  - raw/01-articles/滴滴二面：怎么保证 ElasticSearch 和数据库的数据一致性？.md
+last_updated: 2026-09-18
 ---
 
 ## 定义
@@ -126,6 +127,7 @@ ES 是近实时搜索引擎（默认约 1 秒延迟）：
 - **ACID 四特性**：原子性⚠️仅单文档 / 一致性❌ / 隔离性❌ / 持久性✅（translog）
 - **有限补偿**：单文档原子性、乐观锁（`if_seq_no`+`if_primary_term`）、translog 持久性、`wait_for_active_shards`
 - **ES + MySQL 一致性方案**（可靠性递增）：同步双写 → 异步 MQ → Binlog 订阅（推荐）→ 定时对账
+- **版本号防乱序（外部版本控制）**：每条数据带单调递增版本号，写入 ES 时使用 `VersionType.EXTERNAL_GTE`，ES 只接受不小于当前版本的写入，旧版本消息自动拒绝。思路与 CAS、乐观锁一脉相承，实现"免疫"而非"预防"
 - **常见误区**：把 `_bulk` 当事务用；以为 translog 带 "transaction" 就有事务；以为写入后立刻可查是强一致
 - **记忆口诀**："单文档原子，跨文档没戏；segment 不可变，事务无处安" / "强事务进 MySQL，搜索交给 ES，中间靠 binlog 加对账"
 
@@ -198,6 +200,7 @@ ES 快是"一堆优化叠出来的"，没有单点魔法，按"数据结构 → 
 - [[摘要-拼多多二面-es-vs-mysql]] — 来源（面试视角 ES vs MySQL）
 - [[摘要-es-为什么快-面试深度]] — 来源（面试深度解析为什么快）
 - [[摘要-es-事务支持面试题]] — 来源（ES 事务支持面试题）
+- [[摘要-滴滴二面-es数据一致性]] — 来源（ES 数据一致性方案演进）
 - [[摘要-elasticsearch-深度分页]] — 来源（ES 深度分页问题）
 - [[深度分页]] — 深分页核心概念
 - [[SearchAfter]] — 游标式实时翻页方案

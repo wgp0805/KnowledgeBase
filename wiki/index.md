@@ -366,6 +366,7 @@
 - [[摘要-倒排索引面试题]] — 倒排索引三层结构（Term Index/Term Dictionary/Posting List）深度解析
 - [[摘要-jackson3升级详解]] — Jackson 3.0 升级详解：Java 17/包名tools.jackson/Mapper不可变/异常非检查
 - [[摘要-es-事务支持面试题]] — ES 不支持 ACID 事务的根因（Lucene segment 不可变 + 跨分片无 2PC），有限补偿工具与 ES+MySQL 一致性方案
+- [[摘要-滴滴二面-es数据一致性]] — ES 和 MySQL 数据一致性方案演进：同步双写→MQ 异步→Canal binlog（生产主流）+版本号防乱序+定时对账兜底
 - [[摘要-gpt6-astra实测体验]] — GPT-6 Astra 实测：速度/前端审美/代码能力追平 Fable 5，Codex 跨窗口笔记与 AGENT.md 简化策略
 - [[摘要-千问lora-sft微调指南]] — Qwen3.5-0.8B-Instruct 二次 LoRA-SFT 微调全流程（Ubuntu+RTX 4090，ChatML 数据集/训练/合并导出）
 - [[摘要-企业级权限设计-用户组加功能权限]] — 企业级权限主干是用户组+功能权限，ABAC/ReBAC 仅收窄，十层设计要点与 TAPD/Jira 参考
