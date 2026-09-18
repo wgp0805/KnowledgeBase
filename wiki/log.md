@@ -1,3 +1,12 @@
+## [2026-09-18] ingest | 批量摄入 7 篇文章（RustFS GA / INSERT-INTO-SELECT事故 / Java AI框架选型 / LlamaIndex RAG入门 / Codex MCP额度优化 / 成本核算系统设计 / JVM Fast Throw）
+- **变更**:
+  - 新增 Sources: 7 个摘要页面：[[摘要-rustfs-ga正式版]]、[[摘要-insert-into-select数据迁移事故]]、[[摘要-java-ai框架选型指南-苏三]]、[[摘要-llamaindex-rag向量检索入门]]、[[摘要-codex-mcp额度优化邪修方法]]、[[摘要-成本核算系统设计全流程]]、[[摘要-jvm-fast-throw异常堆栈丢失]]
+  - 新增 Concepts: 3 个：[[INSERT-INTO-SELECT锁表]]、[[FastThrow]]、[[成本核算]]
+  - 增量更新 Entities: [[RustFS]]（+GA正式发布/NVIDIA合作/S3 Tables/性能数据/Spring Boot对接/MinIO迁移三条路径）、[[MinIO]]（+mc仓库归档信息）、[[LlamaIndex]]（+新来源）、[[Codex]]（+MCP额度优化邪修方法工作流）
+  - 更新 [[index.md]]: Sources +7 / Concepts +3
+- **冲突**: 无
+- **归档**: 7 个源文件已移动至 raw/09-archive/
+
 ## [2026-09-17] ingest | 摄入服务器无 Telnet 时验证 IP+端口连通性指南
 - **变更**:
   - 新增 Sources: 1 个摘要页面：[[摘要-服务器无Telnet时验证IP端口连通性]]
