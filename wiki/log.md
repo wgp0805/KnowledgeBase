@@ -1732,3 +1732,8 @@
 
 ## [2026-09-17] query | 生成 Java + Vue + SpringBoot 抽签系统技术方案
 - **输出**: 已保存至 [[synthesis-springboot-vue-drawlottery-system]]
+
+## [2026-09-18] ingest | 摄入滴滴二面 ES 数据一致性文章
+- **变更**: 新增 [[摘要-滴滴二面-es数据一致性]]; 增量更新 [[Canal]]（+1 source + 版本号防乱序章节 + Debezium 对比 + 2 双链）, [[Elasticsearch]]（+1 source + 外部版本控制章节 + 2 双链）; 更新 [[index.md]]（Sources +1）
+- **冲突**: 无（与已有 [[摘要-es-事务支持面试题]] 互补：前者聚焦 ES 事务支持，本文聚焦数据一致性方案演进与生产实践细节）
+- **归档**: 1 个源文件待移动至 raw/09-archive/
