@@ -261,3 +261,17 @@ brew install openai-codex
 - [[Skill]] — Skill 减法定稿
 - [[Skills]] — Skills 系统
 - [[沉默王二]] — 焚诀介绍者
+- [[摘要-codex-mcp额度优化邪修方法]] — 来源（MCP 额度优化工作流）
+
+### MCP 额度优化工作流（邪修方法）
+来自 [[摘要-codex-mcp额度优化邪修方法]]。将服务器封装为只读 MCP Server 插件，接入飞书 OAuth 认证，让 ChatGPT 网页版 GPT-6 Pro 直接读取真实生产数据进行分析规划，再将分析结果"添加到 Codex"由 GPT-6 Astra High 执行开发。
+
+**核心优势**：GPT-6 Pro 的 200 次/周独立额度不消耗 Codex 额度，周额度消耗从 10% 降至 4%。
+
+**工作流**：
+1. GPT-6 Pro 通过 MCP 读取服务器日志和数据库
+2. 数据驱动的分析规划（40 分钟深度推理）
+3. 点击"添加到 Codex"转移对话
+4. Codex GPT-6 Astra High 执行开发
+
+**合规性**：遵守 OpenAI 规则的 MCP 插件调用方式，无降智或风控风险。

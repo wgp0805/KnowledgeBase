@@ -2,8 +2,8 @@
 title: "LlamaIndex"
 type: entity
 tags: [AI框架, RAG, 数据框架, Python]
-sources: [raw/01-articles/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md]
-last_updated: 2026-08-28
+sources: [raw/01-articles/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md, raw/01-articles/2026-09-17-基于 LlamaIndex 实现RAG向量检索入门 - lyshark.md]
+last_updated: 2026-09-18
 ---
 
 ## 定义

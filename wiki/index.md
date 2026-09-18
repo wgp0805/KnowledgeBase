@@ -387,6 +387,13 @@
 - [[摘要-ADrive-字节发布智能网盘]] — 火山引擎 ADrive 9月发布，Slogan"连接你的AI应用，让文件与产物持续可用"，AI 智能体数据持久化+人机协同
 - [[摘要-OpenAI总裁Brockman最新采访]] — Brockman a16z 访谈：AGI 时代已到来+Computer Use+10000 agent 解 Navier-Stokes+防御者窗口+10亿美元安全计划
 - [[摘要-Codex最新焚诀-GPT-6-Astra瘦身指南]] — 沉默王二介绍 OpenAI 官方《Rethinking skills and prompts for GPT-6 Astra》：Skill 收窄/AGENTS.md 加条件读取/放松决策边界/定义完成标准
+- [[摘要-rustfs-ga正式版]] — RustFS 1.0.0 GA 发布：Rust 无 GC 对象存储，NVIDIA OSMO 集成，S3 Tables 数据湖，Spring Boot 对接，MinIO 三条迁移路径
+- [[摘要-insert-into-select数据迁移事故]] — INSERT INTO SELECT 全表扫描导致锁表，支付流水丢失 10 万元，对 WHERE 字段加索引避免
+- [[摘要-java-ai框架选型指南-苏三]] — Java AI 框架分两层选型：基础设施层（Spring AI/LangChain4j/Solon AI）+ Agent 编排层（Spring AI Alibaba/AgentScope/Embabel）
+- [[摘要-llamaindex-rag向量检索入门]] — LlamaIndex 本地 RAG 完整教程：llama-server 启动 Qwen 对话+向量模型，自定义 Embedding 类，向量索引持久化与语义检索
+- [[摘要-codex-mcp额度优化邪修方法]] — 将服务器封装为只读 MCP Server，GPT-6 Pro 读取生产数据分析规划，周额度消耗从 10% 降至 4%
+- [[摘要-成本核算系统设计全流程]] — A/B 双产品工厂成本核算全流程：领料→费用分配→约当产量→完工成本→销售成本结转，六层架构设计
+- [[摘要-jvm-fast-throw异常堆栈丢失]] — HotSpot JVM Fast Throw 优化机制：同一位置高频异常替换为空壳异常，100万次 NPE 从 28 秒降至 6 秒，向前追溯历史日志定位
 - [[摘要-elasticsearch-深度分页]] — 犬小哈从面试视角深度剖析 ES 深度分页问题：from+size 翻页开销公式、四大方案对比（from+size/scroll/search_after/PIT+search_after）、调大窗口不自欺
 - [[摘要-oauth2-第三方登录]] — 犬小哈 OAuth 2.0 第三方登录完整教程：四角色模型、四大授权模式、数据库三方案设计、GitHub 与 QQ 两种实战代码
 - [[摘要-workbuddy-15技能推荐]] — 程序员小灰 2026-09 更新的 WorkBuddy 最值得推荐 15 个技能（9 月最新版），按四个方向分类，统一一句话安装方式
