@@ -3,7 +3,7 @@ title: "AgenticOrganization"
 type: concept
 tags: [组织变革, AI, 管理]
 sources: [raw/01-articles/2026-08-25-你的HR还在算人均营收？字节已把AI变经营单元！.md]
-last_updated: 2026-08-26
+last_updated: 2026-09-20
 ---
 
 ## 定义
@@ -27,3 +27,4 @@ last_updated: 2026-08-26
 - [[组织变革]] — 变革方法论
 - [[AgentSkills]] — AI Agent 技能系统
 - [[ClaudeCode]] — 开发者 AI 工具
+- [[AI协作协议]] — 相关的三层协作协议框架（L1/L2/L3）
