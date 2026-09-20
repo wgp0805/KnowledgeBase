@@ -1,3 +1,14 @@
+## [2026-09-20] ingest | 批量摄入 19 篇文章（1Panel AI网关 / Tripo 3D / LlamaIndex+PG RAG / Zvec 多平台 / 中美 Agent 开放 / AI 协作协议 / Flova 电商视频 / WorkBuddy 12 技巧 / MiniMax Code CLI / Qovest 金融 / 豆包座舱 / WeChat AHP / 上下文工程 / Anthropic 生物模型 / Kimi 路线 / Seed-2.1-pro / 腾讯乐享 / 10 道 Agent 面试题 / Kimi Code）
+- **变更**:
+  - 新增 Sources: 19 个摘要页面：[[摘要-1panel-ai网关独立部署]]、[[摘要-gpt6-tripo-清明上河图3d游戏]]、[[摘要-llamaindex-postgresql-rag持久化]]、[[摘要-zvec-多平台支持全景]]、[[摘要-中美头部agent走向开放]]、[[摘要-ai协作协议三层框架]]、[[摘要-flova-电商视频工作流]]、[[摘要-workbuddy-12条使用技巧]]、[[摘要-minimax-code-cli开源]]、[[摘要-阿里qovest金融投研agent]]、[[摘要-豆包座舱助手]]、[[摘要-wechat-ahp]]、[[摘要-工作记忆vs长期记忆上下文工程]]、[[摘要-anthropic优化生物模型]]、[[摘要-kimi向左claude-gpt向右]]、[[摘要-seed-2-1-pro升级实测]]、[[摘要-workbuddy-腾讯乐享知识库]]、[[摘要-10道ai-agent高频面试题]]、[[摘要-kimi-code桌面版体验]]
+  - 新增 Entities: 12 个：[[1Panel]]、[[Tripo]]、[[Flova]]、[[Qovest]]、[[WeChatAHP]]、[[MiniMaxCode]]、[[KimiCode]]、[[Seed-2.1-pro]]、[[腾讯乐享]]、[[豆包座舱助手]]、[[Blender]]、[[Three.js]]
+  - 新增 Concepts: 32 个：[[AI网关]]、[[CoT]]、[[Self-Refine]]、[[RRF]]、[[Pass@k]]、[[Pass^k]]、[[ContextRot]]、[[Lost-in-the-Middle]]、[[MCP协议]]、[[单Agent]]、[[多Agent]]、[[工具路由]]、[[上下文溢出]]、[[KV Cache]]、[[AI Native]]、[[组织协议]]、[[智能座舱]]、[[手车互联]]、[[知识治理]]、[[文档半衰期]]、[[AI金融投研]]、[[Agent平台化]]、[[Turn Loop]]、[[Hook机制]]、[[扩展注册表]]、[[动画重定向]]、[[绑骨]]、[[进程内向量数据库]]、[[元数据过滤]]、[[kernel优化]]、[[蛋白设计]]
+  - 增量更新 Entities: [[WorkBuddy]]（+12 条使用技巧/腾讯乐享知识库）、[[DoubaoWork]]（+Flova 接入）、[[Kimi]]（+Kimi Code 桌面客户端/金融方案）、[[MiniMax]]（+开源 Code CLI）、[[Pi]]（+作为 MiniMaxCode 底层框架）、[[Claude]]（+产品合并路线/优化生物模型）、[[ChatGPT]]（+产品合并路线）、[[Anthropic]]（+优化生物模型）、[[OpenAI]]（+开放 Codex Harness）、[[腾讯]]（+开放 WorkBuddy 基座）、[[Doubao]]（+豆包座舱助手）、[[VolcEngine]]（+豆包座舱助手）、[[Tesla]]（+接入豆包大模型）、[[Codex]]（+开放 Harness）、[[ClaudeCode]]（+开放 Agent SDK）、[[Doubao-Seed-2.1-Pro-0915]]（+升级实测）
+  - 增量更新 Concepts: [[上下文工程]]（+长对话收口/上下文管理）、[[长期记忆]]（+与工作记忆对比/Mem0/Zep/LangMem）、[[ContextEngineering]]（+长对话收口）
+  - 更新 [[index.md]]: Sources +19 / Entities +12 / Concepts +32
+- **冲突**: 无
+- **归档**: 19 个源文件已移动至 raw/09-archive/
+
 ## [2026-09-18] ingest | 批量摄入 7 篇文章（RustFS GA / INSERT-INTO-SELECT事故 / Java AI框架选型 / LlamaIndex RAG入门 / Codex MCP额度优化 / 成本核算系统设计 / JVM Fast Throw）
 - **变更**:
   - 新增 Sources: 7 个摘要页面：[[摘要-rustfs-ga正式版]]、[[摘要-insert-into-select数据迁移事故]]、[[摘要-java-ai框架选型指南-苏三]]、[[摘要-llamaindex-rag向量检索入门]]、[[摘要-codex-mcp额度优化邪修方法]]、[[摘要-成本核算系统设计全流程]]、[[摘要-jvm-fast-throw异常堆栈丢失]]

@@ -2176,3 +2176,76 @@
 - [[码农刚子]] — 全栈开发方向作者，六年 ERP 经验，Docker 全栈部署实录提出国内源三件套
 - [[老章]] — AI 编程方向作者（公众号 Ai 学习的老章），DeepSeek V4.1-Flash 四 Harness 横评
 
+## 2026-09-20 新增 ingest（19 篇文章）
+
+### Sources
+- [[摘要-1panel-ai网关独立部署]] — 1Panel 开放 AI 网关独立部署，10 人及以下团队免费，集中管理多模型密钥/权限/配额
+- [[摘要-gpt6-tripo-清明上河图3d游戏]] — GPT-6 Astra + Tripo + Three.js 把《清明上河图》做成 3D 游戏，Tripo 秒级生成生产级 3D 资产
+- [[摘要-llamaindex-postgresql-rag持久化]] — CentOS 编译安装 PostgreSQL 18.6 + pgvector，对接 LlamaIndex 实现 RAG 向量持久化
+- [[摘要-zvec-多平台支持全景]] — Zvec 进程内向量数据库多平台支持全景：六 SDK、四标准、索引平台适用性
+- [[摘要-中美头部agent走向开放]] — OpenAI/Anthropic/腾讯不约而同开放 Agent 底座，竞争落到 Context，三条开放路径
+- [[摘要-ai协作协议三层框架]] — AI Native 终局是组织协议，L1 人机/L2 团队/L3 组织价值三层协议
+- [[摘要-flova-电商视频工作流]] — Flova 把详情页变成 16 秒宣传片，AI 视频工具竞争从"生成"转向"交付"
+- [[摘要-workbuddy-12条使用技巧]] — WorkBuddy 踩坑 3 个月总结 12 条使用技巧，月访问量第一、安装量超 3000 万
+- [[摘要-minimax-code-cli开源]] — MiniMax 开源 Code CLI（MIT），基于 Pi 框架，Turn Loop + 钩子机制
+- [[摘要-阿里qovest金融投研agent]] — 阿里内测 Qovest 金融投研 Agent，"你负责判断，研究交给 Qovest"
+- [[摘要-豆包座舱助手]] — 豆包与火山引擎发布座舱助手，参与汽车感知-决策-执行，首搭上汽荣威家越07
+- [[摘要-wechat-ahp]] — VS Code 的 WeChat AHP 扩展，微信与 VS Code Agent session 双向实时同步
+- [[摘要-工作记忆vs长期记忆上下文工程]] — 用工作记忆/长期记忆框架管理 AI 上下文，长对话先收口再开新对话
+- [[摘要-anthropic优化生物模型]] — Anthropic 让 Claude 优化 30+ 生物模型，FlashPairformer kernel 加速，蛋白设计成本降 98%
+- [[摘要-kimi向左claude-gpt向右]] — Kimi Code 桌面客户端做加法，Claude/ChatGPT 合并客户端做减法
+- [[摘要-seed-2-1-pro升级实测]] — Seed-2.1-pro 升级实测：小游戏/建模/办公题，字节基模后劲来了
+- [[摘要-workbuddy-腾讯乐享知识库]] — WorkBuddy + 腾讯乐享搭建团队知识库，解决文档半衰期
+- [[摘要-10道ai-agent高频面试题]] — 万字详解 10 道 AI Agent 高频面试题：Workflow/单多Agent/ReAct/CoT/Function Calling/MCP/RAG/Pass@k
+- [[摘要-kimi-code桌面版体验]] — Kimi Code 桌面版体验：K3/K2.7 模型、Vite+Three.js 实测、Harness 成主角
+
+### Entities
+- [[1Panel]] — 37K Star 开源 Linux 服务器管理工具，开放 AI 网关独立部署
+- [[Tripo]] — 3D 基座模型，文字/图片秒级生成生产级 3D 资产，P2.0 模型
+- [[Flova]] — AI 视频生成工作流，把详情页变成宣传片，看成工作流而非模型
+- [[Qovest]] — 阿里内测金融投研 Agent，面向专业个人投资者
+- [[WeChatAHP]] — VS Code 微信同步扩展，AHP 解决多 Client 实时同步 Agent Session
+- [[MiniMaxCode]] — MiniMax 开源 Code CLI，基于 Pi 框架，FrontierHarness Eval SOTA
+- [[KimiCode]] — Kimi 桌面编程 Agent 客户端，K3/K2.7 模型，支持第三方模型
+- [[Seed-2.1-pro]] — 字节自研基座大模型，Seed-Evolving 持续迭代，0915 固定版本
+- [[腾讯乐享]] — 腾讯企业 AI 知识库，Agent 自主建库分类，解决文档半衰期
+- [[豆包座舱助手]] — 豆包与火山引擎智能座舱 Agent，参与汽车感知-决策-执行
+- [[Blender]] — 开源 3D 建模渲染软件，与 Tripo 等 AI 建模对比
+- [[Three.js]] — JavaScript 3D 库，AI 生成 3D 资产的落地承载层
+
+### Concepts
+- [[AI网关]] — 集中管理多模型密钥/权限/配额/路由的中间层
+- [[CoT]] — 思维链，推理前引导模型逐步推导
+- [[Self-Refine]] — 自我修正范式，生成后审查修正
+- [[RRF]] — 倒数排名融合，无监督融合多检索器结果
+- [[Pass@k]] — k 次尝试至少一次成功的评估指标
+- [[Pass^k]] — k 次尝试全部成功的评估指标
+- [[ContextRot]] — 上下文腐烂，长上下文注意力稀释早期约束失效
+- [[Lost-in-the-Middle]] — 中间迷失，模型对长文本中间位置注意力弱
+- [[MCP协议]] — 模型上下文协议，标准化 Agent 与外部工具连接
+- [[单Agent]] — 单 Agent 独立完成任务，路径写不死时使用
+- [[多Agent]] — 多 Agent 分工协作，拆分能多出新信息时使用
+- [[工具路由]] — 决定用哪个工具的路由策略
+- [[上下文溢出]] — 上下文窗口满了，与 ContextRot 区分
+- [[KV Cache]] — 缓存历史 token 的 KV 向量，降低推理成本
+- [[AI Native]] — AI 原生组织形态，终局是组织协议
+- [[组织协议]] — 多团队交换能力/价值/资源的协议
+- [[智能座舱]] — 汽车内以 AI 为核心的交互控制系统
+- [[手车互联]] — 手机与汽车能力协同，汽车可能比手机更适合 Agent
+- [[知识治理]] — 团队知识资产的组织/维护/反哺/更新
+- [[文档半衰期]] — 文档内容随时间过时失效的速度
+- [[AI金融投研]] — 面向投资者的 AI Agent 应用方向
+- [[Agent平台化]] — 头部厂商开放 Agent 底座让第三方开发
+- [[Turn Loop]] — Agent 核心执行循环，每轮状态隔离 + 钩子机制
+- [[Hook机制]] — Agent 生命周期事件挂载自定义逻辑
+- [[扩展注册表]] — Agent 管理扩展的机制，生命周期状态机
+- [[动画重定向]] — 把动作动画迁移到其他人物模型
+- [[绑骨]] — 给 3D 人物架设骨骼系统产生动作
+- [[进程内向量数据库]] — 嵌入宿主应用进程的向量数据库
+- [[元数据过滤]] — 向量检索时按元数据过滤实现多租户隔离
+- [[kernel优化]] — 定制 GPU kernel 提升计算效率
+- [[蛋白设计]] — 用 AI 设计具有特定功能的蛋白质
+
+### 更新
+- [[WorkBuddy]]、[[DoubaoWork]]、[[Kimi]]、[[MiniMax]]、[[Pi]]、[[Claude]]、[[ChatGPT]]、[[Anthropic]]、[[OpenAI]]、[[腾讯]]、[[Doubao]]、[[VolcEngine]]、[[Tesla]]、[[Codex]]、[[ClaudeCode]]、[[Doubao-Seed-2.1-Pro-0915]]、[[上下文工程]]、[[长期记忆]]、[[ContextEngineering]]
+
