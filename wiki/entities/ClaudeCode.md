@@ -2,8 +2,8 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md]
-last_updated: 2026-09-17
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md]
+last_updated: 2026-09-20
 ---
 
 ## 定义
@@ -243,9 +243,13 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 
 对比：Pi Agent 视觉效果最强但 Token 全场最高（9.7M）；DSH 标准速度最快（8分54秒）但复杂任务弱；DSH 极简省 Token 但最终失败。
 
+### 开放 Agent SDK（2026-09）
+Anthropic 去年 9 月将 Claude Code SDK 扩展为通用 Agent SDK，今年补上企业插件生态和 Managed Agents，走"模型往外长"（[[ProductOverhang]]）路线。与 [[OpenAI]]（开放 Codex Harness）、[[腾讯]]（开放 WorkBuddy 基座）方向一致。详见 [[摘要-中美头部agent走向开放]]。
+
 ## 关联连接
 - [[摘要-60分钟全面掌握Claude-Code]] — 来源
 - [[摘要-6条Claude-Code实践经验与思考]] — 来源
+- [[摘要-中美头部agent走向开放]] — 来源（开放 Agent SDK）
 - [[Codex]] — 对标产品
 - [[Anthropic]] — 所属公司
 - [[Agent]] — 核心概念
@@ -301,3 +305,6 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 - [[DeepSeek-V4.1-Flash]] — 接入的最佳搭档模型
 - [[老章]] — 横评作者
 - [[DeepSeekHarness]] — 横评中对比的 DSH 标准/极简模式
+- [[ProductOverhang]] — 开放路线概念
+- [[OpenAI]] — 同步开放 Harness
+- [[腾讯]] — 同步开放基座

@@ -2,8 +2,8 @@
 title: "DoubaoWork"
 type: entity
 tags: [AI产品, Agent, 字节跳动, 飞书]
-sources: [raw/01-articles/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/01-articles/2026-08-31-飞书，成了豆包工作的“超级上下文”.md, raw/01-articles/2026-09-16-豆包工作还想反超WorkBuddy？.md]
-last_updated: 2026-09-17
+sources: [raw/01-articles/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/01-articles/2026-08-31-飞书，成了豆包工作的“超级上下文”.md, raw/01-articles/2026-09-16-豆包工作还想反超WorkBuddy？.md, raw/01-articles/2026-09-18-详情页秒变16 秒宣传片，Flova做电商设计夯爆了！.md]
+last_updated: 2026-09-20
 ---
 
 ## 定义
@@ -33,15 +33,20 @@ last_updated: 2026-09-17
 ### 战略选择本质
 不是产品能力问题，而是战略选择：愿不愿意从"我只推自己的模型"变成"我先抢 AI 办公入口"。一旦开放模型 + 拉高额度，双方进入第二阶段：拼产品体验/Agent 能力/懂普通用户/迭代速度——而这恰是字节过去多年擅长的事。
 
+### 接入 Flova 视频工作流（2026-09-18）
+在豆包工作的技能与连接器页面关联 [[Flova]] AI，把一张写好商品参数与卖点的详情页变成参考视觉、四镜分镜、配乐与时间线，最终导出 1920×1080、30fps 的 MP4。详见 [[摘要-flova-电商视频工作流]]。
+
 ## 关联连接
 - [[摘要-豆包工作一手实测]] — 来源
 - [[摘要-飞书豆包超级上下文]] — 来源（超级上下文视角）
 - [[摘要-豆包工作vs-workbuddy-竞争分析]] — 2026-09-17 与 WorkBuddy 竞争分析（怪哥）
+- [[摘要-flova-电商视频工作流]] — 来源（Flova 接入）
 - [[Doubao]] — 豆包主 App，月活 3.82 亿
 - [[Feishu]] — 深度融合的协作生态
 - [[VolcEngine]] — 火山引擎，可操作浏览器开通 API
 - [[Seedream]] — 内置生图模型
 - [[Seedance]] — 内置视频模型
+- [[Flova]] — 接入的 AI 视频工作流
 - [[TaskDelegationSystem]] — 体现的任务托付能力
 - [[AgenticOrganization]] — 企业账号调动组织上下文
 - [[WorkBuddy]] — 腾讯对标产品（竞争分析详见来源）

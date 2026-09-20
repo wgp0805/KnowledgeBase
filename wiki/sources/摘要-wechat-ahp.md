@@ -1,0 +1,17 @@
+---
+title: "摘要-wechat-ahp"
+type: source
+tags: [来源, 原始文件, WeChat AHP, VS Code, 微信, Agent]
+sources: [raw/01-articles/2026-09-19-微信和 VS Code 强强联合！WeChat AHP 来了 - formulahendry.md]
+last_updated: 2026-09-20
+---
+
+## 核心摘要
+formulahendry（韩老师）发布 VS Code 的 WeChat AHP extension，让微信和 VS Code 的 Agent session 双向实时同步，随时随地通过微信远程操控 VS Code Agent，read-write 操作毫秒级实时同步。AHP（Agent Host Protocol）解决多 Client 实时同步 Agent Session 的问题，与 ACP（解决连接任何 Agent Harness 的问题）是强强联合关系。作者此前发布 WeChat ACP（微信连上 Claude/Codex/Copilot/Qwen/Gemini/OpenCode 等各类 Agent），下载量超 14K。作者领导的 Agent Rosetta: AHP x ACP - Universal Agent Host 项目获第一届 CoreAI China hackathon 的 People's Choice Award。代码完全开源，可命令行一键安装。
+
+## 关联连接
+- [[WeChatAHP]] — VS Code 微信同步扩展
+- [[WeChatACP]] — 微信连 Agent 扩展
+- [[ACP]] — Agent Client Protocol
+- [[Agent Rosetta]] — Universal Agent Host 项目
+- [[formulahendry]] — 作者

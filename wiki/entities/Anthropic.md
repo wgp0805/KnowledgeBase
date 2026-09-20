@@ -5,7 +5,8 @@ tags: [AI公司, 大模型开发商]
 sources:
   - raw/01-articles/2026-09-03-顶模 Fable 5.1发布，到底强了多少？.md
   - raw/01-articles/2026-09-07-我帮企业配了两年数字员工，轮到自己却卡在了第一步.md
-last_updated: 2026-09-09
+  - raw/01-articles/2026-09-19-Anthropic 优化 30 多个生物模型，蛋白质设计成本最高降 98%.md
+last_updated: 2026-09-20
 ---
 
 ## 定义
@@ -24,13 +25,18 @@ last_updated: 2026-09-09
 
 这场风波究竟影响了多少普通用户，Anthropic 没有公布数字。但它构成了一个[[竞品迁移窗口]]——只要开发者开始担心"我的账号明天还能不能用"，替代产品的机会就来了。同期的 [[Codex]] 用连续额度重置承接了这波迁移需求（作者声明没有公开数据能证明新增用户来自 Claude）。
 
+### 优化生物模型（2026-09-19）
+Anthropic 让 [[Claude]] 用不到四周优化 30 多个生物研究开源模型，覆盖蛋白结构预测、蛋白设计、Protein Language Model 和基因组学。允许极小精度损失时平均提速约 4 倍，要求输出完全一致时平均接近 2 倍加速，并降低显存占用让大型分子系统可在单张 NVIDIA GPU 节点推理。Claude 开发了 [[FlashPairformer]] 自定义 kernel 专门加速 triangle attention 和 triangle multiplication（[[AlphaFold3]]/OpenFold3/Boltz-2 大量使用），相较 NVIDIA cuEquivariance 快 2.7-2.9 倍。蛋白设计成本从每靶点约 1 万美元降到约 150 美元。详见 [[摘要-anthropic优化生物模型]]。
+
 ## 关联连接
 - [[摘要-顶模-fable-51发布到底强了多少]] — 来源
 - [[摘要-codex重置的真正原因]] — 来源（封号风波与迁移窗口）
+- [[摘要-anthropic优化生物模型]] — 来源（优化生物模型）
 - [[Claude]] — 旗下产品，账号被停用事件的主体
 - [[竞品迁移窗口]] — 风波带来的替代机会
 - [[AlibabaCloud]] — 涉及欺诈账户指控的关联方
 - [[Fable 5.1]] — 旗下模型
 - [[Mythos 5.1]] — 旗下模型
-- [[Claude]] — 旗下产品
+- [[FlashPairformer]] — 自定义 kernel
+- [[AlphaFold3]] — 被优化模型
 - [[摘要-数字员工落地第一步]] — Building effective agents 建议被引用

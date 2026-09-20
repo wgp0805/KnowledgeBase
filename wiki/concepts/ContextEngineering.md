@@ -2,8 +2,8 @@
 title: "ContextEngineering"
 type: concept
 tags: [AI, RAG, 上下文, Prompt工程, 检索增强]
-sources: [raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md]
-last_updated: 2026-08-04
+sources: [raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/2026-09-19-长对话先收口：用“工作记忆 vs 长期记忆“管理 AI 上下文 - Jessica_留学中.md]
+last_updated: 2026-09-20
 ---
 
 ## 定义
@@ -34,12 +34,23 @@ last_updated: 2026-08-04
 2. **阈值驱动上下文自动压缩**：实时计算上下文占用，剩余 Token 低于阈值时自动启动压缩（详见 [[context-compression]]）。优化技巧：上一轮任务结束后提前预判压缩，避免新一轮请求开始时卡顿。压缩按结构化模板提炼（用户目标/约束条件/工作流程/历史决策/下一步计划），替换早期历史对话。
 3. **提示词顺序编排**：固定系统提示词前置、减少前缀频繁变动，提升模型缓存命中率。
 
+### 长对话收口（2026-09-19，详见 [[摘要-工作记忆vs长期记忆上下文工程]]）
+- 大模型本身没有记忆，唯一能"想起来"的是当前窗口里那几万 token 的上下文
+- "长对话先收口、再开新对话"是有理论支撑的方法论——上下文工程
+- 相关术语：[[ContextRot]]（上下文腐烂）、[[Lost-in-the-Middle]]（中间迷失）
+- 收口收三样：决策、关键事实/结论、下一步
+
 ## 关联连接
 - [[RAG]] — 基础概念，Context Engineering 是其认知升级
 - [[AgenticRAG]] — 同为 RAG 前沿演进方向
 - [[GraphRAG]] — 同为 RAG 前沿演进方向
 - [[ContextManagement]] — AI 上下文窗口管理策略
 - [[摘要-字节面试官什么是RAG为什么需要RAG]] — 来源
+- [[摘要-工作记忆vs长期记忆上下文工程]] — 来源（长对话收口）
 - [[PiAgent]] - 上下文工程实践来源
 - [[context-compression]] - 阈值驱动压缩机制
 - [[摘要-pi-agent-production-guide]] - 来源
+- [[工作记忆]] — 收口概念
+- [[长期记忆]] — 收口概念
+- [[ContextRot]] — 上下文腐烂
+- [[Lost-in-the-Middle]] — 中间迷失

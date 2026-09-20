@@ -2,8 +2,8 @@
 title: "Doubao-Seed-2.1-Pro-0915"
 type: entity
 tags: [豆包大模型, Seed, 火山方舟, Agent, 1M上下文, 256k深度思考]
-sources: [raw/01-articles/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md]
-last_updated: 2026-09-17
+sources: [raw/01-articles/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md, raw/01-articles/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md]
+last_updated: 2026-09-20
 ---
 
 ## 定义
@@ -31,9 +31,18 @@ Doubao-Seed-2.1-pro-0915 是 [[VolcEngine|火山方舟]] 推出的 Seed 系列�
 ### 作者定位
 "成为我日常批量跑的模型之一，跟 [[DeepSeek]]、[[GLM]] 排排队一起干活"
 
+### 升级实测（2026-09-19，摸鱼小李，详见 [[摘要-seed-2-1-pro升级实测]]）
+- 三款小游戏交给 Claude Code 接 Seed-2.1-pro：一句话出 Flappy Bird（约 16 分钟交付 55KB HTML）、照着截图补完八关的黄油猫、地下通道找异常（13 种异常其中 8 种细微）
+- 用参考图建模 RTS 单位（磁暴线圈/天启坦克/光棱塔/磁暴步兵等，还原七八成）
+- 办公题放进豆包工作：上传立讯年报截图整理产业链报告（四张交互图表+产业链全景图）、小米发布会价格页做成可编辑 PPT
+- 背景：今年 6 月字节发布 Seed 2.1 同期推出 [[Seed-Evolving]]（"一次发布，无限进步"），0915 固定近期最好版本
+
 ## 关联连接
 - [[摘要-doubao-seed-2-1-pro-0915实测]] — 来源
+- [[摘要-seed-2-1-pro升级实测]] — 来源（升级实测）
 - [[摘要-doubao-seed2-1-pro-douyin]] — 早期版本实测（2026-06）
+- [[Seed-2.1-pro]] — 模型系列
+- [[Seed-Evolving]] — 持续迭代机制
 - [[VolcEngine]] — 火山方舟，发布平台
 - [[豆包]] — 模型家族
 - [[Seedance2.5]] — 搭配的视频生成工作流
@@ -43,5 +52,6 @@ Doubao-Seed-2.1-pro-0915 是 [[VolcEngine|火山方舟]] 推出的 Seed 系列�
 - [[Three.js]] — 前端 3D 库
 - [[BookToSkill]] — QBS 法工具
 - [[卡尔的AI沃茨]] — 实测作者
+- [[摸鱼小李]] — 升级实测作者
 - [[DeepSeek]] — 并列日常跑模型
 - [[GLM]] — 并列日常跑模型

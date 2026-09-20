@@ -2,8 +2,8 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/01-articles/Codex 最新焚决发布，快！.md]
-last_updated: 2026-09-15
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/01-articles/Codex 最新焚决发布，快！.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md]
+last_updated: 2026-09-20
 ---
 
 ## 定义
@@ -275,3 +275,6 @@ brew install openai-codex
 4. Codex GPT-6 Astra High 执行开发
 
 **合规性**：遵守 OpenAI 规则的 MCP 插件调用方式，无降智或风控风险。
+
+### 开放 Harness（2026-09-10）
+OpenAI 将 Codex 背后的 [[Harness]] 做成托管服务开放公测（一个月前已开源核心代码），把原本只供自家产品使用的系统变成别人开发 Agent 的起点。开放路径是"模型+Harness+托管运行连成一体"（Agent 的 AWS 时刻）。与 [[Anthropic]]（Claude Code SDK 扩展为通用 Agent SDK）、[[腾讯]]（开放 WorkBuddy 基座）方向一致。详见 [[摘要-中美头部agent走向开放]]。

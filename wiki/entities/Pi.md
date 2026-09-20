@@ -6,7 +6,8 @@ sources:
   - raw/01-articles/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md
   - raw/01-articles/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
   - raw/01-articles/2026-08-15-为什么越来越多人用 Pi ？ - 苏三说技术.md
-last_updated: 2026-08-17
+  - raw/01-articles/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md
+last_updated: 2026-09-20
 ---
 
 ## 定义
@@ -58,6 +59,11 @@ Pi 是由 [[MarioZechner]]（[[libGDX]] 创始人）创建的开源终端 AI 编
 - 终端门槛，虽有 Web UI（第四种黑猩猩开发，4200+ Star）
 - 生态年轻
 
+### 作为 MiniMaxCode 底层框架（2026-09-19）
+- [[MiniMax]] 的 [[MiniMaxCode]]（开源 Code CLI）架构基于 Pi：`agent-core`（Turn 数据结构/工具协议/事件类型）、`agent-runtime`（扩展注册表）、`agent-extension`（内置 Skills/权限/MiniApp）、`local-runtime-v2`（完整宿主实现，SQLite 持久化）、`tui`（终端渲染）
+- 界面和运行时通过事件流通信，支持 TUI/无头/ACP 三种入口
+- 核心循环是 Turn Loop（每轮状态隔离 + 钩子机制），详见 [[MiniMaxCode]]
+
 ## 关联连接
 - [[MarioZechner]] — 创始人
 - [[libGDX]] — 创始人背景项目
@@ -68,6 +74,7 @@ Pi 是由 [[MarioZechner]]（[[libGDX]] 创始人）创建的开源终端 AI 编
 - [[AgentSkills]] — 扩展机制
 - [[AGENTS-md]] — 跨 Session 记忆机制
 - [[DeepSeek]] — 推荐模型供应商
+- [[MiniMaxCode]] — 基于 Pi 的开源 Code CLI
 - [[摘要-pi-agent-保姆级全攻略]] — 完整教程
 - [[摘要-GitHub狂揽8.6万Star-Pi]] — 追风视角解析
 - [[摘要-为什么越来越多人用Pi-苏三]] — 苏三视角解析

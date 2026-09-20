@@ -2,8 +2,8 @@
 title: "OpenAI"
 type: entity
 tags: [AI公司, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md]
-last_updated: 2026-09-15
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md]
+last_updated: 2026-09-20
 ---
 
 ## 定义
@@ -35,14 +35,17 @@ last_updated: 2026-09-15
   - **就业判断**："AI 发展几乎不按逻辑推断方式发展，你对未来的预测大概率是错的，而且会以你没想到的方式错"。创业浪潮会来，[[问责制]] 是人类应保留的
   - **精力分配**：2026 年取消了 [[Sora]] 项目以解放专注力，遵循《The Score Takes Care of Itself》哲学
 
+### 开放 Codex Harness（2026-09-10）
+OpenAI 将 Codex 背后的 [[Harness]] 做成托管服务开放公测（一个月前已开源核心代码），把原本只供自家产品使用的系统变成别人开发 Agent 的起点。开放路径是"模型+Harness+托管运行连成一体"（Agent 的 AWS 时刻）。与 [[Anthropic]]（Claude Code SDK 扩展为通用 Agent SDK）、[[腾讯]]（开放 WorkBuddy 基座）方向一致。详见 [[摘要-中美头部agent走向开放]]。
+
 ## 关联连接
 - [[Codex]] — OpenAI 的 Agent 产品
 - [[Tibo]] — Codex 负责人，额度重置的执行者
 - [[事件营销]] — Codex 重置机制的本质
 - [[摘要-codex重置的真正原因]] — 来源（重置机制与用户里程碑）
+- [[摘要-中美头部agent走向开放]] — 来源（开放 Harness）
 - [[Anthropic]] — 竞品，同期出现封号风波
 - [[ClaudeCode]] — 竞品
-- [[Anthropic]] — 竞争对手
 - [[AndrejKarpathy]] — 联合创始人
 - [[RomainHuet]] — 开发者体验负责人
 - [[AaronFriel]] — 工程师
@@ -70,3 +73,5 @@ last_updated: 2026-09-15
 - [[Sora]] — 2026 年被取消的项目
 - [[问责制]] — 人类应保留的价值
 - [[IlyaSutskever]] — 2016-17 年共同推算者
+- [[Harness]] — 开放的核心系统
+- [[腾讯]] — 同步开放基座
