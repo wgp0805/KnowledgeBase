@@ -1,3 +1,12 @@
+## [2026-09-22] ingest | 批量摄入 14 篇文章（豆包浏览器录制 / INSERT-INTO-SELECT事故 / AI客服两年实战 / Jev判断模型 / Perplexity拆解 / 阶跃星辰Step5 / Agent平台哲学 / FDE分析 / Jev试用心得 / 冰河open-system / 提示词粉色大象 / Jev工程实践 / Jev讲透 / 苏三Jev分析）
+- **变更**:
+  - 新增 Sources: 14 个摘要页面：[[摘要-豆包工作浏览器录制回放skill]]、[[摘要-insert-into-select迁移数据事故]]、[[摘要-生产级ai客服两年实战]]、[[摘要-jev判断模型路线分析]]、[[摘要-perplexity产品拆解]]、[[摘要-阶跃星辰step5-preview]]、[[摘要-agent平台两种哲学-weknora-molio]]、[[摘要-fde产品经理要不要跟]]、[[摘要-jev新决策模型试用心得]]、[[摘要-冰河open-system微服务开放平台]]、[[摘要-提示词粉色大象效应]]、[[摘要-jev工程实践判断题拆出来]]、[[摘要-jev全网爆火讲透]]、[[摘要-为什么越来越多人用jev-苏三]]
+  - 新增 Entities: 6 个：[[Jev]]、[[TypeSafeAI]]、[[Perplexity]]、[[FDE]]、[[Molio]]、[[空气小猪]]
+  - 新增 Concepts: 7 个：[[RLCD]]、[[SystemOne]]、[[粉色大象效应]]、[[剪枝优化]]、[[闭集白名单]]、[[快慢分工]]、[[置信度校准]]
+  - 更新 [[index.md]]: Sources +14 / Entities +6 / Concepts +7
+- **冲突**: 无
+- **归档**: 14 个源文件待移动至 raw/09-archive/
+
 ## [2026-09-20] ingest | 批量摄入 19 篇文章（1Panel AI网关 / Tripo 3D / LlamaIndex+PG RAG / Zvec 多平台 / 中美 Agent 开放 / AI 协作协议 / Flova 电商视频 / WorkBuddy 12 技巧 / MiniMax Code CLI / Qovest 金融 / 豆包座舱 / WeChat AHP / 上下文工程 / Anthropic 生物模型 / Kimi 路线 / Seed-2.1-pro / 腾讯乐享 / 10 道 Agent 面试题 / Kimi Code）
 - **变更**:
   - 新增 Sources: 19 个摘要页面：[[摘要-1panel-ai网关独立部署]]、[[摘要-gpt6-tripo-清明上河图3d游戏]]、[[摘要-llamaindex-postgresql-rag持久化]]、[[摘要-zvec-多平台支持全景]]、[[摘要-中美头部agent走向开放]]、[[摘要-ai协作协议三层框架]]、[[摘要-flova-电商视频工作流]]、[[摘要-workbuddy-12条使用技巧]]、[[摘要-minimax-code-cli开源]]、[[摘要-阿里qovest金融投研agent]]、[[摘要-豆包座舱助手]]、[[摘要-wechat-ahp]]、[[摘要-工作记忆vs长期记忆上下文工程]]、[[摘要-anthropic优化生物模型]]、[[摘要-kimi向左claude-gpt向右]]、[[摘要-seed-2-1-pro升级实测]]、[[摘要-workbuddy-腾讯乐享知识库]]、[[摘要-10道ai-agent高频面试题]]、[[摘要-kimi-code桌面版体验]]

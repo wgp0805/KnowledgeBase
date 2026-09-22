@@ -405,6 +405,22 @@
 - [[摘要-ubuntu-docker-全栈部署实录]] — 码农刚子 Ubuntu 22.04 Docker 部署 Next.js+FastAPI+PostgreSQL 全栈实录，国内源三件套+生产配置+踩坑表
 - [[摘要-deepseek-v4-1-flash-harness横评]] — 老章用 Space Invaders 横评 DeepSeek V4.1-Flash 四 Harness：Claude Code 9.2 分综合第一，DSH 极简失败
 
+### Sources (2026-09-22 新增)
+- [[摘要-豆包工作浏览器录制回放skill]] — 豆包工作浏览器录制与回放Skill，操作意图级别录制可复用自动化
+- [[摘要-insert-into-select迁移数据事故]] — MySQL INSERT INTO SELECT全表扫描导致锁表，支付流水丢失10万元
+- [[摘要-生产级ai客服两年实战]] — AI客服七层能力架构：知识整理/意图识别/混合检索/兜底/SOP/可观测/成本优化
+- [[摘要-jev判断模型路线分析]] — Jev判断模型：RLCD训练/非自回归/70-500ms/快193倍/输出Token免费
+- [[摘要-perplexity产品拆解]] — Perplexity答案引擎：200亿估值/引用优先架构/Comet浏览器赌注/37-45%引用错误率
+- [[摘要-阶跃星辰step5-preview]] — 阶跃星辰Step 5 Preview：600B参数/100万上下文/75天免费会员
+- [[摘要-agent平台两种哲学-weknora-molio]] — WeKnora(组织AI平台) vs Molio(个人智能体平台)两种哲学路线
+- [[摘要-fde产品经理要不要跟]] — FDE前线部署工程师：+729%增长/国内同名不同岗/最大坑是换马甲的实施
+- [[摘要-jev新决策模型试用心得]] — Jev接入知识图谱做流程决策，确定性比多样性重要
+- [[摘要-冰河open-system微服务开放平台]] — 冰河open-system四层架构：幂等性/独立日志/双模式调用/RSA+AES加密
+- [[摘要-提示词粉色大象效应]] — 负向禁止在注意力机制植入错误答案，剪枝优化用正向白名单替代
+- [[摘要-jev工程实践判断题拆出来]] — Jev在Agent工作流中的判断层定位，Java生态四种接入方案
+- [[摘要-jev全网爆火讲透]] — Jev全面介绍：判断模型/System One/银行客服分流/交通信号灯/Agent判断层
+- [[摘要-为什么越来越多人用jev-苏三]] — 苏三Java视角：语义逻辑门/RLCD/快慢分工/Java SDK/Starter/MCP
+
 ## Concepts (2026-08-26 新增)
 - [[ZeroSumThinking]] — 零和思维：财富总量固定 vs 正和思维：财富可被创造
 - [[ValueCreationVsCapture]] — 价值创造（带来好处）vs 价值捕获（拿到份额），健康模式是创造远大于捕获
@@ -2212,6 +2228,23 @@
 - [[豆包座舱助手]] — 豆包与火山引擎智能座舱 Agent，参与汽车感知-决策-执行
 - [[Blender]] — 开源 3D 建模渲染软件，与 Tripo 等 AI 建模对比
 - [[Three.js]] — JavaScript 3D 库，AI 生成 3D 资产的落地承载层
+
+### Entities (2026-09-22 新增)
+- [[Jev]] — 判断模型：不生成文本只输出结构化决策，RLCD训练/70-500ms/快193倍/输出免费
+- [[TypeSafeAI]] — Jev母公司，前OpenAI研究员Diogo Almeida创办
+- [[Perplexity]] — 答案引擎：月活破亿/估值200亿/引用优先架构/Comet浏览器赌注
+- [[FDE]] — 前线部署工程师：平台落地最后一公里，国内同名不同岗
+- [[Molio]] — 个人智能体平台：Agent+Wiki+Skill+Memory四要素，用户控制
+- [[空气小猪]] — 语言学习App，AI客服七层能力架构实践案例
+
+### Concepts (2026-09-22 新增)
+- [[RLCD]] — 校准决策强化学习：Jev训练方法，优化带诚实概率的答案
+- [[SystemOne]] — 快思考模型：不思考直接反应，70-500ms给出判断结果
+- [[粉色大象效应]] — 负向禁止在注意力机制植入错误答案的陷阱
+- [[剪枝优化]] — 解决粉色大象效应：在分叉根部剪掉歪枝
+- [[闭集白名单]] — 剪枝优化的提示词实现：正向约束替代禁止
+- [[快慢分工]] — Agent架构共识：大模型慢思考+Jev快判断
+- [[置信度校准]] — Jev每个答案附带校准概率，校准误差仅0.07
 
 ### Concepts
 - [[AI网关]] — 集中管理多模型密钥/权限/配额/路由的中间层
