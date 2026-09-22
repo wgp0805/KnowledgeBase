@@ -1,0 +1,412 @@
+---
+title: "为什么越来越多人用 Jev ？"
+source: "https://mp.weixin.qq.com/s/TrAQCgxhoYxMYnLZx3UHCg"
+---
+苏三 苏三说技术 *2026年9月22日 08:20*
+
+大家好，我是苏三，又跟大家见面了。
+
+最近缺项目经历想快速提升项目实战能力（包含多个AI项目），或者最近找工作，或者想学习AI的小伙伴，可以看看下面👇🏻的这个链接（或许真的能够帮到你）:
+
+[推荐一个牛逼的RAG+KAG双引擎系统](https://mp.weixin.qq.com/s?__biz=MzkzNzg4MzI2MQ==&mid=2247535459&idx=1&sn=46cb5e406ec8dc7e6c61edab95ed321d&scene=21#wechat_redirect)
+
+## 前言
+
+前阵子有位球友反馈说，他们团队做AI客服系统的优化，遇到了一个特别拧巴的问题。
+
+他们用大模型做工单自动分流，让模型判断“用户的问题该分给哪个部门”。
+
+结果呢？
+
+模型每次都要“思考半天”，先输出一段推理过程，再给出结论。
+
+一个本该在50毫秒内完成的分类判断，硬是拖到了两三秒。
+
+更离谱的是，有时候模型还会“发挥”——你给了它三个选项（技术、账单、销售），它给你编出一个“综合支持部门”。
+
+**你只是想让AI做个简单的分类，它却非要跟你聊天。**
+
+技术负责人跟说了一句话让他印象很深：“ **我们花了那么多钱买Token，结果大部分都花在了AI的‘废话’上。** ”
+
+这个问题，在Jev出现之后，终于有了一个不同的解法。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0reagWbuIrmKDqvVoFbMibnlyzuTnK4lPr54zOA95sWvBy28QBYZyqfghibJT35fibD7ibLyRmR8icO8CaDykgPhxqRSJxLZRTria7th8/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+
+2026年9月15日，前OpenAI研究员Diogo Almeida创办的TypeSafe AI发布了Jev，一个 **不生成文本、只输出结构化决策的“System One”模型** 。
+
+发布之后，开发者社区的反应可以用“炸裂”来形容——Vercel官方博客称其为AI Gateway历史上 **最快被采用的模型** ，上线24小时内，近 **13%的付费团队** 在使用它，是 [GPT-5.6系列的](http://gpt-5.xn--6-ud8az23idof/) **2倍** ，是Fable 5.1的 **6倍以上** 。
+
+今天这篇文章，我就把Jev到底是什么、它解决了什么问题、在Java生态里怎么用，从头到尾给你拆解一遍。
+
+希望对你会有所帮助。
+
+## 最近建了几个AI技术交流群，扫描加我微信，备注：AI，即可进群交流和学习，获取AI最新咨询。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibJZVicC7nz5jN7lz3xCSbNeNj4yNXMvNX12Fgwkvnuibx4wj2uF89ehibUGMOT4DPHibO5dg44kXwBickPvORaQ8JGA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=0)
+
+## 一、Jev到底“不做什么”？
+
+> 有些小伙伴可能会说：“Jev不就是又一个分类模型吗？传统的机器学习分类器不也能做？”
+
+能，但不一样。
+
+**传统的分类器** （比如朴素贝叶斯、逻辑回归、BERT微调）做的事情是：你给它一个输入，它输出一个标签。
+
+**它不理解“选项”的语义，只能做训练时见过的分类。**
+
+**Jev做的事情是** ：你给它一个 **状态** （可以是任意文本或JSON），再加一组 **类型化的问题** ，它返回 **类型化的答案** ，附带 **校准过的置信概率** 。
+
+用人话说： **Jev是一个“语义逻辑门”——它接收非结构化的状态和一组限定回答类型的问题，然后输出决策结果和评分，再交给代码接着跑** 。
+
+它没有消息，没有生成，没有流式输出。
+
+你让它判断“urgent还是not urgent”，它不会给你写一段分析，只会给你一个0到1之间的概率值。
+
+这听起来像是一个“减法”——把大模型最擅长的“说话”能力砍掉了。
+
+但正是这个减法，让Jev做到了大模型做不到的事情。
+
+## 二、一张图看懂Jev的核心架构
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rdIUvRgS5c3YyDs94yq3gGBtKDsyyKbNfDgKgEpMFHGdZd8R03iaIxLHoHdTASICybicw1jhNKjN4KeIibPe2jWU6ia50JK9nFWuFA/640?wx_fmt=webp&from=appmsg#imgIndex=2)
+
+Jev提供 **三种基本能力** ：
+
+**Choice** ——从你给定的候选项里做选择，返回完整的概率分布。
+
+**Score** ——按照你定义的有序标准打分（2到10个等级），返回加权位置。
+
+**Noul** ——给出某个判断成立的概率，0到1之间的值。
+
+最关键的是 **置信度** 。
+
+Jev的每个答案都附带一个校准过的置信概率。你可以设一个阈值，高于阈值就自动执行，低于阈值就转人工。
+
+**你的升级策略从一个Prompt里的段落，变成了配置文件里的一个数字** 。
+
+## 三、为什么Jev能快200倍？
+
+Jev的速度和成本优势，来自它 **根本不做文本生成** 。
+
+传统的大模型，哪怕你只是让它输出一个“A”，它也是 **逐token地写出来的** 。
+
+它会先写“答案是”，再写“A”。
+
+中间那些Token，全是浪费。
+
+Jev跳过了自回归解码过程，采用 **非自回归的单次并行推理** 。
+
+它不写文本，直接在隐状态上打分，一次前向计算就能完成所有问题的判断。
+
+### 3.1 自回归生成 vs 非自回归打分
+
+这张图直观地对比了两者的根本差异：
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rf0goUxKOp1Miam3m3sUZ77zrWibNteWMkqNhiannluliaNXj9R1k7ZZwR3TpU5yc0eiby2asUnJ2WkqBKVCg3WSUGCMPiaLQeY5mAzo/640?wx_fmt=webp&from=appmsg#imgIndex=3)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0rdWzeulNYvDSqg63riautCTH0icTMpawe4HDpBw8LSX5JLFKxp0987U49FaSpbKBib8AmPojOicfoDIVs3BsDxYsNjgaULXTtatvoE/640?wx_fmt=webp&from=appmsg#imgIndex=4)
+
+**左侧传统大模型** ：输入进来，逐token生成文本，最后业务代码还要解析字符串。每一步生成都在消耗时间和Token。
+
+**右侧Jev** ：输入进来，一次前向计算，直接在隐状态上打分，输出概率分布。业务代码拿到的是 **类型化结果** ，不需要解析。
+
+### 3.2 多问题并行评估：为什么提问多了延迟不变？
+
+Jev另一个关键设计是 **多问题并行评估** 。
+
+所有问题在 **单次请求** 中同时完成，不管你有多少个问题，延迟都落在70-500毫秒之间。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0reoL5omS8Us4t0QlXaaorEs4pLNBibPHmaLcz70lNushyhOPzvebicKpHSZCAhxKjwke5P9cEv9q0GrHkf0RkdqpkwqC34hP0DzY/640?wx_fmt=webp&from=appmsg#imgIndex=5)
+
+**传统大模型** ：每多问一个问题，就要多生成一段文本。4个问题串行处理，延迟翻4倍。
+
+**Jev** ：4个问题在 **同一次前向计算** 中并行评估，总延迟和1个问题几乎一样。
+
+### 3.3 训练方法：RLCD 校准决策
+
+TypeSafe官方披露了三个技术关键词： **新架构、并行采样器、RLCD（Reinforcement Learning for Calibrated Decisions，面向校准决策的强化学习）** 。
+
+其中RLCD是训练方法的核心——它不是像RLHF那样优化“人类觉得好的答案”，而是优化“带诚实概率的答案”。
+
+这意味着Jev的置信度不是随便给的，是经过校准的—— **它说95%的时候，统计意义上真的有95%是对的** 。
+
+| 对比维度 | 传统大模型 | Jev |
+| --- | --- | --- |
+| **输出方式** | 逐token生成文本 | 隐状态直接打分 |
+| **端到端延迟** | 数千毫秒 | **70-500毫秒** |
+| **速度对比** | 基准 | **快20-200倍** |
+| **成本对比** | 基准 | **便宜40-400倍** |
+| **输出Token** | 按量计费 | **永久免费** |
+| **输入价格** | 基准 | **每百万Token 0.042美元** |
+
+在独立基准测试中，Jev的 **中位延迟为105毫秒** ，而 [GPT-5.6](http://GPT-5.6) Luna（关闭推理）是710毫秒，开启低推理模式是808毫秒。
+
+在更极端的工作流评测中，Jev最高比对照大模型 **快193.6倍、便宜444.6倍** 。
+
+## 四、Java开发者怎么用Jev？
+
+> 有些小伙伴可能会说：“Jev官方SDK只有Python和JavaScript，Java怎么办？”
+
+官方确实只发布了Python和JavaScript的SDK。
+
+官方给Java开发者的建议是“直接调HTTP API”。
+
+但这对于Java开发者来说显然不够方便。好在社区已经补上了这个缺口。
+
+### 4.1 方案一：社区Java SDK（最推荐）
+
+有开发者构建了第一个JVM SDK，设计非常克制：
+
+**不依赖Spring AI的ChatModel抽象。**
+
+原因很简单——ChatModel假设的是自回归模型：消息进、生成文本出、支持流式。
+
+**Jev没有消息、没有生成、没有流** 。
+
+强行把它塞进ChatModel接口，意味着你要把问题伪装成Prompt，再从假的生成结果里解析答案。
+
+**类型化的问题和概率访问全丢了，而这恰恰是Jev的全部价值所在** 。
+
+这个SDK的设计是：
+
+```
+// 纯Java 17+，唯一依赖是Jackson
+TypeSafeClient client = 
+            TypeSafeClient.fromEnv();
+          
+SystemOneResult result = 
+            client.evaluate(
+          
+    
+            EvaluationRequest.of(
+          "Help! My payouts have been failing for 3 days.")
+        .noul("is_urgent", "Does this convey urgency?")
+        .choice("department", "Which team should handle this?", 
+            Map.of(
+          
+            "billing", "Payments, invoicing, refunds",
+            "technical", "Bugs, outages, integrations"))
+        .score("frustration", "How frustrated is the customer?", 
+               
+            List.of(
+          "Calm", "Frustrated", "Very angry"))
+        .build()
+);
+
+// 基于概率做代码分支
+if (
+            result.noul(
+          "is_urgent").isYes(0.7)) {
+    // 升级处理
+}
+
+ChoiceAnswer dept = 
+            result.choice(
+          "department");
+if (
+            dept.confidenceOrZero()
+           < 0.5) {
+    // 置信度太低，转人工
+}
+```
+
+**这段代码的核心价值在于** ：答案不是字符串，是 **类型安全的取值** 。
+
+你不是在解析JSON，你是在用Java的类型系统表达业务规则。
+
+概率不是附带信息，是 **一等公民** ——你的代码可以根据置信度来决定是否自动执行还是转人工。
+
+**更完整的SDK能力** ：
+
+- **同步+异步API** ： `CompletableFuture` 支持，适合高并发场景
+- **自动重试** ：对429/5xx状态码做指数退避+抖动重试，尊重 `Retry-After` 头
+- **客户端校验** ：在发起网络请求前校验请求合法性，抛 `InvalidRequestException`
+- **密封类型** ： `Question` / `Answer` 是密封层次结构，未知答案类型降级为 `UnknownAnswer`
+
+### 4.2 方案二：Spring Boot Starter
+
+如果你在Spring Boot项目里用，社区也提供了Starter：
+
+```
+<dependency>
+    <groupId>
+            io.typesafe
+          </groupId>
+    <artifactId>typesafe-ai-java-spring-boot-starter</artifactId>
+</dependency>
+```
+
+自动配置 `TypeSafeClient` ，直接在Service里注入使用。
+
+### 4.3 方案三：Kotlin客户端
+
+如果你的项目用Kotlin，有一个非官方的Kotlin/JVM客户端 `kev` ，基于Ktor Client + [kotlinx.serialization，全程使用协程的](http://kotlinx.xn--serialization,-ow1ws7tuuij28n7nf5vtda/) `suspend` 函数。
+
+### 4.4 方案四：MCP Server
+
+`jev-mcp-spring` 是一个基于Spring AI构建的Jev MCP服务器，提供classify、score、check、health四种工具，支持HTTP和Streamable HTTP/SSE。
+
+如果你的团队在用MCP协议构建Agent，这个可以直接接入。
+
+## 五、Jev到底能干什么？
+
+Jev的应用场景，可以用一句话概括： **接管软件里的高频判断** 。
+
+### 5.1 工单分类与路由
+
+回到开头那个客服系统的场景。
+
+用Jev做工单分类， **一次请求同时判断“紧急程度”、“负责部门”、“客户情绪”** ，三个问题并行评估，总延迟不到100毫秒。
+
+**Vercel的实测数据** ：软件工程师Pranit Sharma的公司之前用OpenAI的ChatGPT Luna 5.6运行一个分类器，用来审查命令是否安全。
+
+**换成Jev之后，速度提高了5到18倍，准确性还更高** 。
+
+### 5.2 浏览器Agent：选下一步，而不是写下一步
+
+浏览器自动化是Jev最火的场景之一。
+
+APUS的 `fast-browser-use` 把页面上真实可见、可交互的元素整理成带编号的候选动作集合，由本地运行的 [Qwen3.5-9B模型通过](http://qwen3.xn--5-9b-o74gr56gwc9c7sa/) **单次前向计算** 直接完成“点哪里、选哪个”的决策。
+
+**实测数据** ：在一台Apple M2 Pro笔记本上，全程离线完成真实维基百科检索任务的中位耗时约 **18秒** ，表单填报、站内导航等任务耗时仅 **3秒左右** ，单任务模型打分次数仅 **4次** ，全程零云端调用、零API费用。
+
+### 5.3 模型与工具选择
+
+Agent在运行中经常需要“选一个模型来处理这个任务”或者“选一个工具来执行这个操作”。
+
+Jev的Choice原语天然适合这种场景——你把候选模型或候选工具作为选项，让Jev来选。
+
+**有开发者实测了1000封邮件的分类任务：Jev在约6秒内处理完毕，成本9美分。用 [GPT-5.6级别的模型做同样的分类任务，大约需要5分钟，成本62美分](http://gpt-5.xn--6,5,62-i28ir7gc8edad84bh5ce2jsxpsig9p6byhtxqe5plu01efa6326ay4kka241dvo2f4b9croo/)** 。
+
+### 5.4 Agent执行轨迹监督
+
+**用Jev监控LLM Agent的执行轨迹** ，防止越狱或异常行为。
+
+用Agent去监控Agent很容易变得昂贵，但Jev的低成本和高速度让这件事变得可行。
+
+## 六、Jev在Agent工作流里的定位
+
+这是Jev最值得Java开发者关注的地方。
+
+**Agent架构的“快慢分工”正在成为一个共识** ：
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0reyowPWWX6lENaaTJra7CdxXBvgQXhrianJkrR4TuZ8v8knNG3rakRkrJJJicS4bCw9V9qtKvkjLzKWjE5tElVdfPicO2nG3nQNhQ/640?wx_fmt=webp&from=appmsg#imgIndex=6)
+
+**昂贵的大模型负责规划、推理、生成这类“慢思考”，高频、原子化的分类、选择、评分这类“快判断”交给Jev这样的轻量决策模型** 。
+
+TypeSafe的创始人Diogo Almeida说了一句很关键的话： **“我们优化人类语言优化了四年，但对自动化来说，这没用。因为计算机说的是另一种语言。”**
+
+**Jev说的就是计算机的语言——类型、概率、确定性。**
+
+## 七、Jev到底准不准？
+
+在独立基准测试中（非TypeSafe自评），Jev的表现如下：
+
+**49个任务，8225个测试项** ：
+
+- Jev在 **42个任务** 上与LLM基线打平或胜出
+- 中位延迟 **105毫秒** ，基线是710-808毫秒
+- 每1000项成本\*\*0.16-$0.19
+
+**Jev的优势领域** ：
+
+- 逻辑推理（LogiQA 0.77 vs 0.59）
+- 常识推理（WinoGrande 0.89 vs 0.66）
+- 科学问答（ARC-Challenge 0.97 vs 0.87）
+- 知识问答（MMLU 0.94 vs 0.87）
+
+**校准误差（ECE，越低越好）** ：Jev **0.07** ，基线0.14-0.18。 **保留Jev最自信的一半答案，平均准确率提升7.6个百分点** ——这说明它的概率分布是 **可用的** ，你可以基于置信度做决策。
+
+**Jev的弱项** ：
+
+- 计数任务（0.87 vs 0.99）
+- 超大选项集（77个选项的分类任务，0.81 vs 0.87）
+- 一个问题和它的否定形式概率不一致（平均偏差0.32）
+
+## 八、Jev的“零幻觉”到底是什么意思？
+
+官方说Jev是“零幻觉”，这个说法需要打个折扣。
+
+**Jev保证的是模式匹配** ：你给它A、B、C三个选项，它 **不会自作主张编出一个D** 。
+
+因为它的输出空间被严格限定在你给的候选集里。
+
+**但正确答案明明是A，它照样可能选成B。** 类型正确，事实不一定正确。
+
+所以“零幻觉”的准确含义是： **它不会编造不存在的选项，但它可能判断错误。**
+
+不过，因为它返回的是 **校准过的概率** ，你可以通过设置置信度阈值来管理这个风险——置信度低于阈值时，转人工处理。
+
+开源模型执行框架Pi的CTO Armin Ronacher说了一句很实在的话： **“它把幻觉问题部分转嫁给了用户。用户得自己说，好吧，如果它只返回50%的概率，那可能就是在掷硬币，我忽略它。但如果是95%，那行，我可以拿它做点事。”**
+
+## 九、优缺点
+
+### 优点
+
+**1\. 速度极快** 端到端延迟70-500毫秒，比传统大模型快20-200倍。多个问题并行评估，不管多少个问题，延迟基本不变。
+
+**2\. 成本极低** 输出Token永久免费，输入每百万Token仅0.042美元。分类决策任务比前沿大模型便宜40-400倍。
+
+**3\. 类型安全** 返回的是类型化的答案和概率分布，不是需要解析的文本。Java代码可以直接基于结果做分支。
+
+**4\. 校准置信度** 每个答案附带校准后的概率值。实测校准误差仅0.07，是基线模型的一半。 **你保留最自信的一半答案，准确率还能提升7.6个百分点。**
+
+**5\. 不会编造选项** 输出空间被严格限定在你给的候选集里，不会自作主张编出不存在的选项。
+
+**6\. Java生态正在补全** 社区已经提供了Java SDK、Spring Boot Starter、Kotlin客户端和MCP Server，支持同步/异步调用、自动重试、客户端校验。
+
+**7\. 在Agent架构中有明确位置** “快慢分工”——大模型负责规划，Jev负责高频原子判断，Harness负责组装调度。
+
+### 缺点
+
+**1\. 官方没有Java SDK** 官方只发布了Python和JavaScript SDK，Java需要依赖社区实现或直接调HTTP API。
+
+**2\. 完全闭源** Jev完全闭源，官方只提供云端API，没有公开模型权重。新架构、并行采样器、RLCD训练方法的细节都未公开。
+
+**3\. 不是“万能分类器”** Jev适合“在给定候选中做选择”的场景。如果你的任务需要生成、推理、规划，它做不了。
+
+**4\. 判断准确率有上限** “零幻觉”不等于“零错误”。它在计数、超大选项集等任务上表现不如LLM基线。
+
+**5\. 置信度是统计意义** 校准分数在批量统计意义上可靠，不保证单次判断一定正确。
+
+## 十、适用场景
+
+| 场景 | 推荐程度 | 理由 |
+| --- | --- | --- |
+| **工单分类/意图识别** | ✅✅✅ 强烈推荐 | 一次请求多问题并行，延迟低至百毫秒 |
+| **浏览器Agent动作选择** | ✅✅✅ 强烈推荐 | 候选动作集合交给Choice，消除格式幻觉 |
+| **模型/工具路由** | ✅✅✅ 强烈推荐 | 在候选中做语义选择，比让LLM“想”更可靠 |
+| **内容审核/风险判断** | ✅✅✅ 强烈推荐 | 返回校准概率，可设阈值自动分级 |
+| **Agent执行轨迹监督** | ✅✅✅ 强烈推荐 | 用Jev监控LLM Agent，成本低到可以规模化 |
+| **批量数据分类** | ✅✅✅ 强烈推荐 | 1000封邮件6秒9美分，LLM要5分钟62美分 |
+| **需要生成文本的任务** | ❌ 不推荐 | Jev不生成文本 |
+| **需要复杂推理的任务** | ❌ 不推荐 | Jev只做判断，不做推理 |
+| **超大选项集（>255）** | ⚠️ 需评估 | 需要两阶段模式，准确率下降 |
+
+## 十一、写在最后
+
+回到最初的问题： **为什么越来越多人用Jev？**
+
+答案不复杂—— **因为它把AI最贵、最慢的那部分——“说话”给砍掉了。**
+
+传统大模型用逐token生成的方式去完成一个分类判断，就像请一个作家来帮你按电梯按钮——他先构思、再组织语言、再一个字一个字地写出来，而你只是想要他按一下“3楼”。
+
+Jev做的事情是： **跳过写作，直接按按钮。**
+
+它不快是因为它更聪明，它快是因为 **它不做不需要做的事** 。
+
+70毫秒完成一个判断，不需要生成任何文本，输出Token免费——这个成本结构，是传统自回归模型永远做不到的。
+
+**Agent的“快慢分工”正在成为一个共识** ：昂贵的大模型负责规划、推理、生成这类“慢思考”，高频、原子化的分类、选择、评分这类“快判断”交给Jev这样的轻量决策模型。
+
+Vercel上线24小时的数据说明了一切： **近13%的付费团队在使用它，是 [GPT-5.6系列的2倍，是Fable](http://gpt-5.xn--62,fable-1v3mk2o160en70bxtr/) 5.1的6倍以上。**
+
+这是AI Gateway历史上最快被采用的模型。
+
+参考资源
+
+- **Jev官方文档** ： [https://docs.typesafe.ai](https://docs.typesafe.ai/)
+
+最近缺项目经历想快速提升项目实战能力（包含多个AI项目），或者最近找工作，或者想学习AI的小伙伴，可以看看下面👇🏻的这个链接（或许真的能够帮到你）:
+
+[推荐一个牛逼的RAG+KAG双引擎系统](https://mp.weixin.qq.com/s?__biz=MzkzNzg4MzI2MQ==&mid=2247535459&idx=1&sn=46cb5e406ec8dc7e6c61edab95ed321d&scene=21#wechat_redirect)

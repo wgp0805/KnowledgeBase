@@ -1,0 +1,122 @@
+---
+source_url: "https://mp.weixin.qq.com/s/pEIyF99IDoQ3xeJtHaqd2w"
+title: "同事使用 insert into select 迁移数据，开开心心上线，上线后被公司开除！"
+account: "IT码徒"
+published_at: "2026-09-20 15:39:30"
+saved_at: "2026-09-21 08:07:20"
+sync_id: "art_4b3e2717bf794c5fa06a3db77b407517"
+parse_status: "ok"
+---
+
+# 同事使用 insert into select 迁移数据，开开心心上线，上线后被公司开除！
+
+点击“IT码徒”，关注，置顶公众号
+
+每日技术干货，第一时间送达！
+
+血一般的教训，请慎用 insert into select。同事应用之后，导致公司损失了近 10w 元，最终被公司开除。
+
+![](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg)
+
+01
+
+事情的起因
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg)
+
+公司的交易量比较大，使用的数据库是 mysql，每天的增量差不多在百万左右，公司并没有分库分表，所以想维持这个表的性能只能考虑做数据迁移。
+
+同事李某接到了这个任务，于是他想出了这两个方案：
+
+- 先通过程序查询出来，然后插入历史表，再删除原表
+- 使用 insert into select 让数据库 IO 来完成所有操作
+
+第一个方案使用的时候发现一次性全部加载，系统直接就 OOM 了，但是分批次做就过多 io 和时间长，于是选用了第二种方案，测试的时候没有任何问题，开开心心上线，然后被开除。
+
+02
+
+到底发生了啥，我们复盘一下
+
+先来看第一个方案，先看伪代码
+
+```
+// 1、查询对应需要迁移的数据
+List<Object> list = selectData();
+
+// 2、将数据插入历史表
+insertData(list);
+
+// 3、删除原表数据
+deleteByIds(ids);
+```
+
+我们可以从这段代码中看到，OOM 的原因很简单，我们直接将数据全部加载内存，内存不爆才怪。
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smrOV5z4fF0GWWP5rUenXlXUMZEicvnhk5EETmJickPpSwtHRwKOlWqmcjXANkvcbBbUA9rBpyiaho1iaia6QWPoLojvf8zAMETh14xY/640?wx_fmt=webp&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=2)
+
+OOM 原因示意图
+
+再来看看第二个方案，到底发生了啥
+
+为了维持表的性能，同时保留有效数据，经过商量定了一个量，保留 10 天的数据，差不多要在表里面保留 1kw 的数据。所以同事就做了一个时间筛选的操作，直接 insert into select ... dateTime < (Ten days ago)，爽极了，直接就避免了要去分页查询数据，这样就不存在 OOM 啦。还简化了很多的代码操作，减少了网络问题。
+
+为了测试，还特意建了 1kw 的数据来模拟，测试环境当然是没有问题啦，顺利通过。考虑到这个表是一个支付流水表，于是将这个任务做成定时任务，并且定在晚上 8 点执行。
+
+晚上量也不是很大，自然是没有什么问题，但是第二天公司财务上班，开始对账，发现资金对不上，很多流水都没有入库。最终排查发现晚上 8 点之后，陆陆续续开始出现支付流水插入失败的问题，很多数据因此丢失。
+
+最终定位到了是迁移任务引起的问题，刚开始还不明所以，白天没有问题，然后想到晚上出现这样的情况可能是晚上的任务出现了影响，最后停掉该任务的第二次上线，发现没有了这样的情况。
+
+03
+
+复盘
+
+问题在哪里？
+
+为什么停掉迁移的任务之后就好了呢？这个 insert into select 操作到底做了什么？我们来看看这个语句的 explain。
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smosSchsmLLjybdhIGSS7icZkjT3r5ZXRJWFIX8CXDvBNtexFPgsCAg1nic8Ca267buWPklDFhXOru5icQARRVQfL5oU1ey5AyUhXk/640?wx_fmt=webp&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)
+
+explain 执行计划（全表扫描）
+
+我们不难从图中看出，这个查询语句直接走了全表扫描。这个时候，我们不难猜想到一点点问题。如果全表扫描，我们这个表这么大，是不是意味着迁移的时间会很长？假若我们这个迁移时间为一个小时，那是不是意味着就解释了我们白天没有出现这样问题的原因了。但是全表扫描是最根本的原因吗？
+
+我们不妨试试，一边迁移，一边做些的操作，还原现场。最终还是会出现这样的问题。这个时候，我们可以调整一下，大胆假设，如果不全表扫描，是不是就不会出现这样的问题。当我们将条件修改之后，果然发现没有走了全表扫描了。最终再次还原现场，问题解决了
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smpKvIHsg3csQNhlWQKSIlXia4wRHicKPd5W4HFcoue6RfOw3Hq4fPpX9TEfDiaRyf6ibcNTDYQMYndQH023YzyCJziaVYxAb5dVRSc4/640?wx_fmt=webp&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+
+修改条件后的 explain 执行计划
+
+得出结论：全表扫描导致了这次事故的发生。
+
+这样做就解决了发生的问题，但是做为陆陆续续开始失败这个就不好解释了。
+
+原因
+
+在默认的事务隔离级别下：insert into a select b 的操作 a 表示直接锁表，b 表是逐条加锁。这也就解释了为什么出现陆续的失败的原因。在逐条加锁的时候，流水表由于多数是复合记录，所以最终部分在扫描的时候被锁定，部分拿不到锁，最终导致超时或者直接失败，还有一些在这加锁的过成功成功了。
+
+为什么测试没有问题？
+
+在测试的时候充分的使用了正式环境的数据来测试，但是别忽视一个问题，那就是测试环境毕竟是测试环境，在测试的时候，数据量真实并不代表就是真实的业务场景。比方说，这个情况里面就少了一个迁移的时候，大量数据的插入这样的情况。最终导致线上 bug
+
+04
+
+解决办法
+
+既然我们避免全表扫描就可以解决，我们避免它就行了。想要避免全表扫描，对 where 后面的条件做索引，让我们的 select 查询都走索引即可
+
+05
+
+insert into 还能用吗？
+
+可以
+
+06
+
+总结
+
+使用 insert into select 的时候请慎重，一定要做好索引。
+
+来源：https://juejin.cn/post/6931890118538199048
+
+---
+原文链接：https://mp.weixin.qq.com/s/pEIyF99IDoQ3xeJtHaqd2w
