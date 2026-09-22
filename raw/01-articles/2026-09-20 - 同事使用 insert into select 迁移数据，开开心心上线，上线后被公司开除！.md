@@ -16,13 +16,13 @@ parse_status: "ok"
 
 血一般的教训，请慎用 insert into select。同事应用之后，导致公司损失了近 10w 元，最终被公司开除。
 
-![](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg)
+![](assets/2026-09-20%20-%20%E5%90%8C%E4%BA%8B%E4%BD%BF%E7%94%A8%20insert%20into%20select%20%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%BC%80%E5%BC%80%E5%BF%83%E5%BF%83%E4%B8%8A%E7%BA%BF%EF%BC%8C%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%A2%AB%E5%85%AC%E5%8F%B8%E5%BC%80%E9%99%A4%EF%BC%81/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 01
 
 事情的起因
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg)
+![](assets/2026-09-20%20-%20%E5%90%8C%E4%BA%8B%E4%BD%BF%E7%94%A8%20insert%20into%20select%20%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%BC%80%E5%BC%80%E5%BF%83%E5%BF%83%E4%B8%8A%E7%BA%BF%EF%BC%8C%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%A2%AB%E5%85%AC%E5%8F%B8%E5%BC%80%E9%99%A4%EF%BC%81/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 公司的交易量比较大，使用的数据库是 mysql，每天的增量差不多在百万左右，公司并没有分库分表，所以想维持这个表的性能只能考虑做数据迁移。
 
@@ -52,7 +52,7 @@ deleteByIds(ids);
 
 我们可以从这段代码中看到，OOM 的原因很简单，我们直接将数据全部加载内存，内存不爆才怪。
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smrOV5z4fF0GWWP5rUenXlXUMZEicvnhk5EETmJickPpSwtHRwKOlWqmcjXANkvcbBbUA9rBpyiaho1iaia6QWPoLojvf8zAMETh14xY/640?wx_fmt=webp&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=2)
+![在这里插入图片描述](assets/2026-09-20%20-%20%E5%90%8C%E4%BA%8B%E4%BD%BF%E7%94%A8%20insert%20into%20select%20%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%BC%80%E5%BC%80%E5%BF%83%E5%BF%83%E4%B8%8A%E7%BA%BF%EF%BC%8C%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%A2%AB%E5%85%AC%E5%8F%B8%E5%BC%80%E9%99%A4%EF%BC%81/3576a1cd39ee35f38509e264bcdd1790_MD5.jpg)
 
 OOM 原因示意图
 
@@ -74,7 +74,7 @@ OOM 原因示意图
 
 为什么停掉迁移的任务之后就好了呢？这个 insert into select 操作到底做了什么？我们来看看这个语句的 explain。
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smosSchsmLLjybdhIGSS7icZkjT3r5ZXRJWFIX8CXDvBNtexFPgsCAg1nic8Ca267buWPklDFhXOru5icQARRVQfL5oU1ey5AyUhXk/640?wx_fmt=webp&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)
+![在这里插入图片描述](assets/2026-09-20%20-%20%E5%90%8C%E4%BA%8B%E4%BD%BF%E7%94%A8%20insert%20into%20select%20%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%BC%80%E5%BC%80%E5%BF%83%E5%BF%83%E4%B8%8A%E7%BA%BF%EF%BC%8C%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%A2%AB%E5%85%AC%E5%8F%B8%E5%BC%80%E9%99%A4%EF%BC%81/54e3a156f92e94ad153c177a7f37029e_MD5.jpg)
 
 explain 执行计划（全表扫描）
 
@@ -82,7 +82,7 @@ explain 执行计划（全表扫描）
 
 我们不妨试试，一边迁移，一边做些的操作，还原现场。最终还是会出现这样的问题。这个时候，我们可以调整一下，大胆假设，如果不全表扫描，是不是就不会出现这样的问题。当我们将条件修改之后，果然发现没有走了全表扫描了。最终再次还原现场，问题解决了
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smpKvIHsg3csQNhlWQKSIlXia4wRHicKPd5W4HFcoue6RfOw3Hq4fPpX9TEfDiaRyf6ibcNTDYQMYndQH023YzyCJziaVYxAb5dVRSc4/640?wx_fmt=webp&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+![在这里插入图片描述](assets/2026-09-20%20-%20%E5%90%8C%E4%BA%8B%E4%BD%BF%E7%94%A8%20insert%20into%20select%20%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE%EF%BC%8C%E5%BC%80%E5%BC%80%E5%BF%83%E5%BF%83%E4%B8%8A%E7%BA%BF%EF%BC%8C%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%A2%AB%E5%85%AC%E5%8F%B8%E5%BC%80%E9%99%A4%EF%BC%81/4b6a105be774cceb8c45ec3fa07e2db2_MD5.jpg)
 
 修改条件后的 explain 执行计划
 

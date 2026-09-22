@@ -30,7 +30,7 @@ source: "https://mp.weixin.qq.com/s/TrAQCgxhoYxMYnLZx3UHCg"
 
 这个问题，在Jev出现之后，终于有了一个不同的解法。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0reagWbuIrmKDqvVoFbMibnlyzuTnK4lPr54zOA95sWvBy28QBYZyqfghibJT35fibD7ibLyRmR8icO8CaDykgPhxqRSJxLZRTria7th8/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20Jev%20%EF%BC%9F/c75dc5df74d05bc12ab077a7ccba70fa_MD5.webp)
 
 2026年9月15日，前OpenAI研究员Diogo Almeida创办的TypeSafe AI发布了Jev，一个 **不生成文本、只输出结构化决策的“System One”模型** 。
 
@@ -42,7 +42,7 @@ source: "https://mp.weixin.qq.com/s/TrAQCgxhoYxMYnLZx3UHCg"
 
 ## 最近建了几个AI技术交流群，扫描加我微信，备注：AI，即可进群交流和学习，获取AI最新咨询。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibJZVicC7nz5jN7lz3xCSbNeNj4yNXMvNX12Fgwkvnuibx4wj2uF89ehibUGMOT4DPHibO5dg44kXwBickPvORaQ8JGA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=0)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20Jev%20%EF%BC%9F/120fc0032d790118e773ec1a67b88378_MD5.webp)
 
 ## 一、Jev到底“不做什么”？
 
@@ -68,7 +68,7 @@ source: "https://mp.weixin.qq.com/s/TrAQCgxhoYxMYnLZx3UHCg"
 
 ## 二、一张图看懂Jev的核心架构
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rdIUvRgS5c3YyDs94yq3gGBtKDsyyKbNfDgKgEpMFHGdZd8R03iaIxLHoHdTASICybicw1jhNKjN4KeIibPe2jWU6ia50JK9nFWuFA/640?wx_fmt=webp&from=appmsg#imgIndex=2)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20Jev%20%EF%BC%9F/caa50ba952efa53bb6c1d6e73afbfef9_MD5.jpg)
 
 Jev提供 **三种基本能力** ：
 
@@ -102,9 +102,9 @@ Jev跳过了自回归解码过程，采用 **非自回归的单次并行推理**
 
 这张图直观地对比了两者的根本差异：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rf0goUxKOp1Miam3m3sUZ77zrWibNteWMkqNhiannluliaNXj9R1k7ZZwR3TpU5yc0eiby2asUnJ2WkqBKVCg3WSUGCMPiaLQeY5mAzo/640?wx_fmt=webp&from=appmsg#imgIndex=3)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20Jev%20%EF%BC%9F/987a9e1e2e23d8cbbc2c0de18a878cf5_MD5.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0rdWzeulNYvDSqg63riautCTH0icTMpawe4HDpBw8LSX5JLFKxp0987U49FaSpbKBib8AmPojOicfoDIVs3BsDxYsNjgaULXTtatvoE/640?wx_fmt=webp&from=appmsg#imgIndex=4)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20Jev%20%EF%BC%9F/e03832d350a51f01729e8bd3147a86f9_MD5.jpg)
 
 **左侧传统大模型** ：输入进来，逐token生成文本，最后业务代码还要解析字符串。每一步生成都在消耗时间和Token。
 
@@ -116,7 +116,7 @@ Jev另一个关键设计是 **多问题并行评估** 。
 
 所有问题在 **单次请求** 中同时完成，不管你有多少个问题，延迟都落在70-500毫秒之间。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0reoL5omS8Us4t0QlXaaorEs4pLNBibPHmaLcz70lNushyhOPzvebicKpHSZCAhxKjwke5P9cEv9q0GrHkf0RkdqpkwqC34hP0DzY/640?wx_fmt=webp&from=appmsg#imgIndex=5)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20Jev%20%EF%BC%9F/8f5e87d40e1c111c4e21b6e4eab68585_MD5.jpg)
 
 **传统大模型** ：每多问一个问题，就要多生成一段文本。4个问题串行处理，延迟翻4倍。
 
@@ -290,7 +290,7 @@ Jev的Choice原语天然适合这种场景——你把候选模型或候选工�
 
 **Agent架构的“快慢分工”正在成为一个共识** ：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0reyowPWWX6lENaaTJra7CdxXBvgQXhrianJkrR4TuZ8v8knNG3rakRkrJJJicS4bCw9V9qtKvkjLzKWjE5tElVdfPicO2nG3nQNhQ/640?wx_fmt=webp&from=appmsg#imgIndex=6)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20Jev%20%EF%BC%9F/e7914b75bc35e3c38d0f7dd8192b3181_MD5.jpg)
 
 **昂贵的大模型负责规划、推理、生成这类“慢思考”，高频、原子化的分类、选择、评分这类“快判断”交给Jev这样的轻量决策模型** 。
 
