@@ -2,8 +2,8 @@
 title: "SystemOne"
 type: concept
 tags: [思考模型, 认知科学, Jev]
-sources: [raw/01-articles/2026-09-20-Jev新决策模型的试用心得.md, raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md]
-last_updated: 2026-09-22
+sources: [raw/01-articles/2026-09-20-Jev新决策模型的试用心得.md, raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/01-articles/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md]
+last_updated: 2026-09-23
 ---
 
 ## 定义
