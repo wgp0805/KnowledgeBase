@@ -21,6 +21,11 @@
 ## [2026-09-23] ingest | 摄入 Jev模型爆火分析文章
 - **变更**: 新增 [[摘要-新模型Jev爆火分析]]; 更新 Entities: [[Jev]]; 新增 Concepts: [[判断模型]], [[Agent中间步骤]]; 更新 Concepts: [[上下文压缩]]; 更新 [[index.md]]
 - **冲突**: 无
+- **归档**: 1 个源文件已移动至 raw/09-archive/
+
+## [2026-09-23] ingest | 摄入 Qoder Sites原型发布工具文章
+- **变更**: 新增 [[摘要-Qoder Sites原型发布工具]]; 更新 Entities: [[Qoder]]; 新增 Entities: [[QoderSites]]; 新增 Concepts: [[AI生成能力进生产管线]], [[原型发布]], [[同链接重新发布]], [[反馈数据持久化]]; 更新 [[index.md]]
+- **冲突**: 无
 - **归档**: 1 个源文件待移动至 raw/09-archive/
 
 ## [2026-09-22] ingest | 批量摄入 14 篇文章（豆包浏览器录制 / INSERT-INTO-SELECT事故 / AI客服两年实战 / Jev判断模型 / Perplexity拆解 / 阶跃星辰Step5 / Agent平台哲学 / FDE分析 / Jev试用心得 / 冰河open-system / 提示词粉色大象 / Jev工程实践 / Jev讲透 / 苏三Jev分析）
