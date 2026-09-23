@@ -2,7 +2,7 @@
 title: "Jev"
 type: entity
 tags: [AI模型, 判断模型, TypeSafeAI]
-sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md, raw/01-articles/2026-09-20-Jev新决策模型的试用心得.md, raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-21-一万字Jev 工程实践长文：把 Agent 的"判断题"从大模型里拆出来.md, raw/01-articles/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md]
+sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md, raw/01-articles/2026-09-20-Jev新决策模型的试用心得.md, raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-21-一万字Jev 工程实践长文：把 Agent 的"判断题"从大模型里拆出来.md, raw/01-articles/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md, raw/01-articles/2026-09-22-新模型Jev爆火：曾帮ChatGPT学会聊天的人，为啥做个不聊天AI？.md]
 last_updated: 2026-09-23
 ---
 
