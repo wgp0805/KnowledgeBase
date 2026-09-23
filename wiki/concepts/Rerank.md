@@ -2,7 +2,9 @@
 title: "Rerank"
 type: concept
 tags: ["Rerank", "RAG"]
-last_updated: 2026-09-01
+sources:
+  - raw/01-articles/一文讲透 RAG：原理、优化与落地.md
+last_updated: 2026-09-23
 ---
 
 # Rerank
