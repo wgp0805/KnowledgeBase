@@ -5,7 +5,8 @@ tags: ["Skills", "AI-Agent", "GPT-6"]
 sources:
   - raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md
   - raw/01-articles/Codex 最新焚决发布，快！.md
-last_updated: 2026-09-15
+  - raw/01-articles/2026-09-22-我把463个AI视频做成了Skill和提示语模版，全都开源！.md
+last_updated: 2026-09-23
 ---
 
 # Skills
