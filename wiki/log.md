@@ -31,6 +31,11 @@
 ## [2026-09-23] ingest | 摄入 AI桌面宠物提升幸福感文章
 - **变更**: 新增 [[摘要-AI桌面宠物提升幸福感]]; 新增 Concepts: [[AI桌面宠物]], [[桌面视频壁纸]], [[情绪价值]]; 更新 [[index.md]]
 - **冲突**: 无
+- **归档**: 1 个源文件已移动至 raw/09-archive/
+
+## [2026-09-23] ingest | 摄入 Jev爆火对具身智能影响分析文章
+- **变更**: 新增 [[摘要-Jev爆火对具身智能影响分析]]; 更新 Entities: [[Jev]]; 新增 Entities: [[SystemOneModels]]; 新增 Concepts: [[具身智能]], [[模型分工]]; 更新 [[index.md]]
+- **冲突**: 无
 - **归档**: 1 个源文件待移动至 raw/09-archive/
 
 ## [2026-09-22] ingest | 批量摄入 14 篇文章（豆包浏览器录制 / INSERT-INTO-SELECT事故 / AI客服两年实战 / Jev判断模型 / Perplexity拆解 / 阶跃星辰Step5 / Agent平台哲学 / FDE分析 / Jev试用心得 / 冰河open-system / 提示词粉色大象 / Jev工程实践 / Jev讲透 / 苏三Jev分析）
