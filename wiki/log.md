@@ -1,6 +1,11 @@
 ## [2026-09-23] ingest | 摄入 ping 命令高级用法文章
 - **变更**: 新增 [[摘要-ping命令高级用法]]; 新增 Entities: [[ping命令]]; 新增 Concepts: [[网络连通性测试]], [[TTL]], [[DOS攻击]], [[NetBIOS]]; 更新 [[index.md]]
 - **冲突**: 无
+- **归档**: 1 个源文件已移动至 raw/09-archive/
+
+## [2026-09-23] ingest | 摄入 TradingAgents 多智能体金融研究框架文章
+- **变更**: 新增 [[摘要-部署TradingAgents多智能体金融研究框架]]; 新增 Entities: [[TradingAgents]]; 新增 Concepts: [[多智能体金融研究]]; 更新 [[index.md]]
+- **冲突**: 无
 - **归档**: 1 个源文件待移动至 raw/09-archive/
 
 ## [2026-09-22] ingest | 批量摄入 14 篇文章（豆包浏览器录制 / INSERT-INTO-SELECT事故 / AI客服两年实战 / Jev判断模型 / Perplexity拆解 / 阶跃星辰Step5 / Agent平台哲学 / FDE分析 / Jev试用心得 / 冰河open-system / 提示词粉色大象 / Jev工程实践 / Jev讲透 / 苏三Jev分析）

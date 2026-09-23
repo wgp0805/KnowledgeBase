@@ -2,8 +2,8 @@
 title: "RLCD"
 type: concept
 tags: [训练方法, 强化学习, 判断模型]
-sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md, raw/01-articles/为什么越来越多人用 Jev ？.md]
-last_updated: 2026-09-22
+sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md, raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md]
+last_updated: 2026-09-23
 ---
 
 ## 定义
