@@ -1,3 +1,8 @@
+## [2026-09-23] ingest | 摄入 ping 命令高级用法文章
+- **变更**: 新增 [[摘要-ping命令高级用法]]; 新增 Entities: [[ping命令]]; 新增 Concepts: [[网络连通性测试]], [[TTL]], [[DOS攻击]], [[NetBIOS]]; 更新 [[index.md]]
+- **冲突**: 无
+- **归档**: 1 个源文件待移动至 raw/09-archive/
+
 ## [2026-09-22] ingest | 批量摄入 14 篇文章（豆包浏览器录制 / INSERT-INTO-SELECT事故 / AI客服两年实战 / Jev判断模型 / Perplexity拆解 / 阶跃星辰Step5 / Agent平台哲学 / FDE分析 / Jev试用心得 / 冰河open-system / 提示词粉色大象 / Jev工程实践 / Jev讲透 / 苏三Jev分析）
 - **变更**:
   - 新增 Sources: 14 个摘要页面：[[摘要-豆包工作浏览器录制回放skill]]、[[摘要-insert-into-select迁移数据事故]]、[[摘要-生产级ai客服两年实战]]、[[摘要-jev判断模型路线分析]]、[[摘要-perplexity产品拆解]]、[[摘要-阶跃星辰step5-preview]]、[[摘要-agent平台两种哲学-weknora-molio]]、[[摘要-fde产品经理要不要跟]]、[[摘要-jev新决策模型试用心得]]、[[摘要-冰河open-system微服务开放平台]]、[[摘要-提示词粉色大象效应]]、[[摘要-jev工程实践判断题拆出来]]、[[摘要-jev全网爆火讲透]]、[[摘要-为什么越来越多人用jev-苏三]]
