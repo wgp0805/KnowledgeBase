@@ -2,8 +2,8 @@
 title: "Qoder"
 type: entity
 tags: [AI, 编码工具]
-sources: [raw/01-articles/用Qoder 提交PaiAgent到 GitHub，使用 Qoder CLI 完成节点配置和页面美化.md, raw/09-archive/用Qoder搭建PaiAgent项目脚手架.md]
-last_updated: 2026-05-19
+sources: [raw/01-articles/用Qoder 提交PaiAgent到 GitHub，使用 Qoder CLI 完成节点配置和页面美化.md, raw/09-archive/用Qoder搭建PaiAgent项目脚手架.md, raw/01-articles/2026-09-22-原型只能截图发？我用Qoder Sites做成链接了！.md]
+last_updated: 2026-09-23
 ---
 
 ## 定义
