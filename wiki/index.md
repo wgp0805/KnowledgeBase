@@ -2318,3 +2318,133 @@
 ### 更新
 - [[WorkBuddy]]、[[DoubaoWork]]、[[Kimi]]、[[MiniMax]]、[[Pi]]、[[Claude]]、[[ChatGPT]]、[[Anthropic]]、[[OpenAI]]、[[腾讯]]、[[Doubao]]、[[VolcEngine]]、[[Tesla]]、[[Codex]]、[[ClaudeCode]]、[[Doubao-Seed-2.1-Pro-0915]]、[[上下文工程]]、[[长期记忆]]、[[ContextEngineering]]
 
+## 2026-09-28 批量 ingest（41 篇文章）
+
+### Sources
+- [[摘要-分库分表vs-newsql对比]] — 分库分表与 NewSQL 的架构对比与选型思考
+- [[摘要-tidb-newsql入门]] — NewSQL 三代演进与 TiDB 技术路线科普
+- [[摘要-atomic语言层三性质]] — Atomic 背后的原子性、可见性与有序性跨语言对比
+- [[摘要-openclaw-net-nacos集成]] — OpenClaw.NET 集成 Nacos 实现 AI 工具零 LLM 治理
+- [[摘要-服务器入侵应急处置]] — 服务器被入侵后的排查、清除与加固全流程
+- [[摘要-github-cloudflare-picgo图床]] — GitHub + Cloudflare + PicGo 搭建免费图床
+- [[摘要-workbuddy-5个产品经理skill]] — 实测 5 个 WorkBuddy 产品经理 Skill 全流程能力
+- [[摘要-workbuddy-一句话需求实测]] — WorkBuddy 一句话需求生成产品的实测
+- [[摘要-workbuddy-美业四场景]] — WorkBuddy 在美业行业的四个落地场景
+- [[摘要-workbuddy-美图设计室ppt美化]] — WorkBuddy 外接美图设计室补齐 PPT 设计感
+- [[摘要-豆包工作竞品视觉分析]] — 用豆包工作做竞品视觉分析与云电脑操作
+- [[摘要-飞书豆包工作知识库邪修]] — 飞书插件 + 豆包工作搭建个人知识库的邪修玩法
+- [[摘要-calendar-门店数据可视化]] — Calendar 日历表在门店数据可视化中的应用
+- [[摘要-meta-muse-个人ai助理体验]] — Meta Muse 个人 AI 助理的体验测评
+- [[摘要-扎克伯格谈muse-全栈护城河]] — 扎克伯格谈个人 Agent 必须从预训练开始设计
+- [[摘要-meta-muse-承诺税]] — Meta 为超级智能愿景支付的"承诺税"分析
+- [[摘要-a社o社价格战]] — Anthropic 与 OpenAI 大模型价格战的连锁反应
+- [[摘要-pixverse-r2-世界模型产品流程]] — PixVerse R2 体验与世界模型产品流程变化
+- [[摘要-豆包创意设计-seedream50flash]] — 豆包创意设计内测与 Seedream 5.0 Flash 特性
+- [[摘要-ai自动下单消费的信任困局]] — AI 自动帮下单消费的信任与边界问题
+- [[摘要-基元律动发布NeoHorse-Jev评测第一]] — 基元律动发布 NeoHorse-Jev，开源 Jev 评测登顶
+- [[摘要-Jev爆火背后AI-Agent从三体人变地球人]] — Jev 爆火背后的判断模型经济逻辑
+- [[摘要-拆100个Seedance提示词切片粒度黄金分割点]] — Seedance 提示词切片粒度的三个黄金分割点
+- [[摘要-开源AI视频复刻神器Hypit]] — 开源 AI 视频复刻工具 Hypit 的玩法与生态
+- [[摘要-3个人把AI动漫做成短剧平台Mochi]] — 3 人团队用 AI 动漫打造短剧平台 Mochi
+- [[摘要-韩国短剧Vigloo加大AI投入]] — 韩国短剧产品 Vigloo 的 AI 投入与市场表现
+- [[摘要-实测LibTV1.5五大新功能]] — LibTV 1.5 五大新功能与 AI 短剧工作流实测
+- [[摘要-claude-code-多agent账单分层路由]] — Claude Code 多 Agent 账单翻倍的分层模型路由解法
+- [[摘要-claude-code-agent视图与goal]] — Claude Code 改造成任务调度器的 Agent 视图设计
+- [[摘要-claude-code-skill-7大反模式]] — 写了 50 个 Skill 总结出的 7 大反模式
+- [[摘要-show-me-少写字多画图]] — ShowMe Skill 让 AI 少写字、多画图
+- [[摘要-orca-ade多agent协作]] — Orca 多 Agent 协作与手机远程指挥的开源神器
+- [[摘要-mobile-mcp-手机操作]] — MobileMCP 让 AI 操作安卓与 iPhone 手机
+- [[摘要-为什么越来越多人用AutoGen]] — AutoGen 多智能体框架流行的原因解析
+- [[摘要-vibe-coding-api-key泄露]] — 非技术背景做 Vibe Coding 踩过的 API Key 泄露坑
+- [[摘要-机器视觉缺陷检测闭环]] — 一条机器视觉缺陷检测需求的完整闭环
+- [[摘要-为什么越来越多人用onlyoffice]] — OnlyOffice 流行原因与 document.key 机制
+- [[摘要-阿里云2026-agent调研报告解读]] — 阿里云 2026 AI Agent 开发者调研报告解读
+- [[摘要-agent任务闭环五层模型]] — 对话框只是入口，Agent 核心是任务闭环五层模型
+- [[摘要-deepseek-harness桌面客户端]] — DeepSeek Harness 官方桌面客户端体验
+- [[摘要-倦怠社会]] — 《倦怠社会》读后感：你不是累了，是把自己活成了机器
+
+### Entities
+- [[TiDB]] — PingCAP 开源的分布式 NewSQL HTAP 数据库
+- [[PingCAP]] — TiDB 背后的开源数据库公司
+- [[黄东旭]] — PingCAP 联合创始人
+- [[AtomicInteger]] — Java 提供无锁原子整型并发类
+- [[张善友]] — 推动 OpenClaw.NET 集成 Nacos 的技术作者
+- [[PicGo]] — 图床上传与图片管理工具
+- [[老王霸]] — WorkBuddy 产品经理 Skill 的作者
+- [[马佳彬]] — WorkBuddy 美业落地场景分享者
+- [[美图设计室]] — 美图旗下设计工具，为 WorkBuddy 提供 PPT 美化能力
+- [[杜小虎]] — 豆包工作竞品视觉分析实践者
+- [[詹师兄]] — Calendar 门店数据可视化教程作者
+- [[MetaMuse]] — Meta 推出的个人 AI 助理产品
+- [[扎克伯格]] — Meta CEO，个人 Agent 全栈设计理念倡导者
+- [[Meta]] — 推出 Muse 的社交与 AI 巨头
+- [[Amazon]] — 被引作对照的科技巨头
+- [[PixVerse]] — AI 视频生成产品，R2 版本探索世界模型流程
+- [[支付宝]] — AI 自动下单消费场景涉及的支付平台
+- [[基元律动]] — 发布 NeoHorse-Jev 的模型公司
+- [[NeoHorse]] — 基元律动开源的 Jev 判断模型系列
+- [[Hypit]] — 开源 AI 视频复刻工具
+- [[Mochi]] — 3 人团队打造的 AI 动漫短剧平台
+- [[ReelShort]] — 短剧出海头部产品
+- [[Vigloo]] — 加大 AI 投入的韩国短剧产品
+- [[Spoonlabs]] — Vigloo 背后的开发公司
+- [[Krafton]] — 韩国游戏巨头，短剧领域相关方
+- [[KukuTV]] — 印度短剧产品对照对象
+- [[ShowMe]] — 让 AI 少写字、多画图的 Skill
+- [[Orca]] — 多 Agent 协作、手机远程指挥的开源 ADE
+- [[MobileMCP]] — 让 AI 操作手机的开源项目
+- [[AutoGen]] — 微软开源的多智能体协作框架
+- [[张亮-leo]] — Vibe Coding API Key 泄露复盘作者
+- [[互联网产品经理Mik]] — 机器视觉检测产品文章作者
+- [[小白跃升坊]] — 阿里云 Agent 调研报告解读作者
+- [[Zoe产品手记]] — Agent 任务闭环文章作者
+- [[欧阳俊杰]] — DeepSeek Harness 客户端文章作者
+- [[韩炳哲]] — 《倦怠社会》作者，功绩社会理论提出者
+- [[楼仔]] — 《倦怠社会》读后感作者
+
+### Concepts
+- [[newsql]] — 融合 NoSQL 扩展性与 SQL 事务性的新一代数据库
+- [[分布式事务]] — 跨库跨节点场景下保障数据一致性的机制
+- [[htap]] — 同时支撑事务与分析的混合负载数据库架构
+- [[原子性-可见性-有序性]] — 并发编程语言层的三大基本性质
+- [[服务器入侵应急响应]] — 入侵后的排查、清除、加固五步处置流程
+- [[图床]] — 托管图片并对外提供外链的存储服务
+- [[数字外脑]] — 用 Skill 把个人经验沉淀为 AI 外部大脑
+- [[一句话需求]] — 一句话描述即驱动产品的交互方式
+- [[违禁词审查]] — 内容合规审查的自动化能力
+- [[PPT成品感五要素]] — 判断 PPT 是否具备成品感的五个视觉要素
+- [[竞品视觉分析]] — 用多模态模型批量分析竞品设计的方法
+- [[知识入库复盘]] — 个人知识归档入库的复盘流程
+- [[带双行描述的日历]] — 门店数据可视化中的日历表形态
+- [[personal-ai-agent]] — 必须从预训练阶段开始设计的个人 AI Agent
+- [[最小权限原则]] — 系统仅持有完成任务所需的最小权限集
+- [[承诺税]] — 为宏大 AI 愿景提前支付的成本
+- [[大模型价格战]] — 头部厂商模型 API 连续降价的竞争态势
+- [[世界模型]] — 理解并模拟世界运行规律的模型方向
+- [[画布式创作]] — 以无限画布为载体的创意设计交互范式
+- [[消费执行Agent]] — 替用户执行下单支付的 Agent 形态
+- [[决策接口]] — 判断模型对外暴露的决策调用接口
+- [[决策数据]] — 用于训练判断能力的决策轨迹数据
+- [[智能压缩]] — 把上下文压缩为高密度判断信息的机制
+- [[经验编译器]] — 把经验编译为可复用决策的机制
+- [[切片粒度]] — 视频提示词中片段划分的粗细程度
+- [[视频工程]] — AI 视频复刻的工程化方法
+- [[微短剧]] — 短小剧集内容形态，AI 深度渗透的赛道
+- [[付费密度]] — 单位内容或用户的付费集中度指标
+- [[导演Agent]] — 统筹剧组各环节的 AI 导演智能体
+- [[3D运镜预演]] — 用 3D 预演规划镜头运动的方法
+- [[agent-view]] — Claude Code 的任务调度视图与目标收敛机制
+- [[agent-development-environment]] — 面向多 Agent 协作的开发环境
+- [[mobile-agent]] — 操作移动端设备的 Agent 形态
+- [[group-chat]] — AutoGen 的多智能体群聊协作模式
+- [[API密钥安全]] — API Key 管理与防泄露的安全卫生实践
+- [[机器视觉检测]] — 基于机器视觉的工业缺陷检测技术
+- [[document-key机制]] — OnlyOffice 防重复编辑冲突的文档标识机制
+- [[任务闭环]] — Agent 从受理到交付验收的完整闭环
+- [[功绩社会]] — 韩炳哲提出的自我驱动式剥削社会形态
+- [[规训社会]] — 韩炳哲所论靠禁令运作的前现代权力社会
+- [[深度无聊]] — 产生创造力的无目的放空状态
+
+### 更新
+- [[WorkBuddy]]、[[DoubaoWork]]、[[Feishu]]、[[沉默王二]]、[[OnlyOffice]]、[[苏三]]、[[阿里云]]、[[ClaudeCode]]、[[模型路由]]、[[Subagent]]、[[DeepSeek]]、[[goals]]、[[Worktree]]、[[Skill]]、[[SkillSoftLink]]、[[程序员追风]]、[[VibeCoding]]、[[企业Agent落地]]、[[AgentEval]]、[[DeepSeekHarness]]、[[办公Agent]]、[[OpenClaw]]、[[Anthropic]]、[[Opus]]、[[OpenAI]]、[[GPT-6]]、[[Fable 5.1]]、[[Kimi]]、[[Cursor]]、[[AI视频生成]]、[[AI视频提示语]]、[[Seedream]]、[[Seedance2.5]]、[[豆包]]、[[Jev]]、[[判断模型]]、[[LibTV]]、[[微短剧]]、[[ShardingSphere]]、[[sharding]]、[[CAP理论]]、[[Paxos]]、[[Golang]]、[[Python]]、[[Nacos]]、[[OpenClawNET]]、[[AI Registry]]、[[Linux]]、[[Cloudflare]]、[[GitHub]]
+
