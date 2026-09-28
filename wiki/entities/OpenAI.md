@@ -2,8 +2,8 @@
 title: "OpenAI"
 type: entity
 tags: [AI公司, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md]
-last_updated: 2026-09-20
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md]
+last_updated: 2026-09-28
 ---
 
 ## 定义
@@ -37,6 +37,9 @@ last_updated: 2026-09-20
 
 ### 开放 Codex Harness（2026-09-10）
 OpenAI 将 Codex 背后的 [[Harness]] 做成托管服务开放公测（一个月前已开源核心代码），把原本只供自家产品使用的系统变成别人开发 Agent 的起点。开放路径是"模型+Harness+托管运行连成一体"（Agent 的 AWS 时刻）。与 [[Anthropic]]（Claude Code SDK 扩展为通用 Agent SDK）、[[腾讯]]（开放 WorkBuddy 基座）方向一致。详见 [[摘要-中美头部agent走向开放]]。
+
+### GPT-6 Sol / Luna 降价（2026-09-22）
+Anthropic 发布 Claude Opus 5.5 约一个半小时后，OpenAI 连推 **GPT-6 Sol** 与 **GPT-6 Luna**，把"便宜"当卖点（构成 [[大模型价格战]]，详见 [[摘要-a社o社价格战]]）：Sol 每百万输入/输出 token 降至 2/10 美元，为上一代 GPT-5.6 Sol 的一半，官方强调是长期定价而非促销；Luna 输入 0.2→0.1 美元、输出 1.2→0.5 美元，最高降幅 58%。两款沿用 GPT-6 Astra 的训练方法，把 Astra 的专业工作/编程/计算机使用能力下放；Sol 事实错误数量约为上代一半。分档逻辑：Astra 保留最高能力定位，Sol/Luna 承接数量更多、价格敏感的日常调用。商业压力：年化收入 8 月超 400 亿美元，但 2026 Q2 经营亏损从 93 亿扩大到 123 亿美元，已秘密递交上市申请，赌的是用量涨得比价格降得快。
 
 ## 关联连接
 - [[Codex]] — OpenAI 的 Agent 产品
@@ -75,3 +78,6 @@ OpenAI 将 Codex 背后的 [[Harness]] 做成托管服务开放公测（一个�
 - [[IlyaSutskever]] — 2016-17 年共同推算者
 - [[Harness]] — 开放的核心系统
 - [[腾讯]] — 同步开放基座
+- [[大模型价格战]] — GPT-6 Sol/Luna 参与的行业现象
+- [[Opus]] — 同日应战的 Anthropic 模型系列
+- [[摘要-a社o社价格战]] — 来源（Sol/Luna 降价与分档逻辑）

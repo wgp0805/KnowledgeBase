@@ -8,7 +8,7 @@ source: "https://mp.weixin.qq.com/s/gN6dApg57xQNf7CLbKT37w"
 
 第一时间收到文章更新
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smpicm1pJoQ9Lk3p0m23qFlPnsV8A4AjOt69HPyBeqaF5WAW8WUfYjWnktj1E6XgGDfW3dfwbjMD2Ju6szbcNCIdjk0zgeoiaGCuU/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%20select%E3%80%81poll%E3%80%81epoll%EF%BC%9F/f2ec1b961f9a3e80ba7cb1c709ff615e_MD5.webp)
 
 **在线 Java 面试刷题（已更新334题，图文并茂）： [https://www.quanxiaoha.com/java-interview](https://www.quanxiaoha.com/java-interview)**
 
@@ -37,7 +37,7 @@ source: "https://mp.weixin.qq.com/s/gN6dApg57xQNf7CLbKT37w"
 
 一句话总结演进逻辑： **select 有数量上限还有全量拷贝的开销，poll 解决了数量上限，epoll 把 “全量拷贝 + 全量扫描” 两个瓶颈全干掉了。**
 
-![select poll epoll 演进关系](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smpx2QgBDMdp9yqRxbTx9wMumoiarAYxaCWgUc4EmMClXjw1WgicXN9OmRXiacHq6FjEcSoDrH2odY4ku01RFPmPJPfr7qJibQwFDn4/640?wx_fmt=webp&from=appmsg#imgIndex=1)
+![select poll epoll 演进关系](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%20select%E3%80%81poll%E3%80%81epoll%EF%BC%9F/16e32113b69b58a9659c1cb6b1183961_MD5.jpg)
 
 select poll epoll 演进关系
 
@@ -86,7 +86,7 @@ int select(int nfds,
 
 还有一个容易忽略的坑：因为内核会修改传入的 `fd_set` ，每次调用前都得用 `FD_ZERO` + `FD_SET` 重新构建一遍，写起来特别啰嗦。
 
-![select 全量拷贝和线性扫描](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smoDYefGIZcWPZCY7mkoqpzfybFT7vLk7fdyBPJ13IQZQULC5Bt5J6NmWuPdowfVJu2ib4ytULkWcp7R3vq64W4PxIMq7Wo3Ziae8/640?wx_fmt=webp&from=appmsg#imgIndex=2)
+![select 全量拷贝和线性扫描](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%20select%E3%80%81poll%E3%80%81epoll%EF%BC%9F/54bd7adde2ccc257e113aefcb82e0114_MD5.jpg)
 
 select 全量拷贝和线性扫描
 
@@ -111,7 +111,7 @@ int poll(struct pollfd *fds, nfds_t nfds, int timeout);
 
 但说实话，poll 只动了皮毛。每次调用依然要把整个数组全量拷贝进内核，内核依然要线性扫描所有 fd， **O(n) 的本质一点没变** 。连接数一上去，开销照样爆炸。所以 poll 更像是个过渡方案，真正的革命者是 epoll。
 
-![poll 数组和 O(n) 开销](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smolpBAgjiad55I8rsCXC69nXlw8p80sINAIosH94930yYdxKyVCMrtaCzrMuHbes75srqibaoQpHpowzf395rPmLZc5f9kRGSOwU/640?wx_fmt=webp&from=appmsg#imgIndex=3)
+![poll 数组和 O(n) 开销](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%20select%E3%80%81poll%E3%80%81epoll%EF%BC%9F/57072389fa122cf09b725d6c47eb9de2_MD5.jpg)
 
 poll 数组和 O(n) 开销
 
@@ -133,7 +133,7 @@ int epoll_wait(int epfd, struct epoll_event *events,
 
 整个流程画出来是这样：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/pUq1tpL9smozIEkArcIz8twl9TgUUUx5Qb9eqVsqNibicKNdNDDAPKeeAicGNcJTg53AD9aQeeANfYU78bb549E2IG1cQqGMEY8mvhlrl4OgMw/640?wx_fmt=webp&from=appmsg#imgIndex=4)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%20select%E3%80%81poll%E3%80%81epoll%EF%BC%9F/928ded5492e55209a48bdce3cdfb0bfb_MD5.jpg)
 
 上图是 epoll 的完整工作流程，拆开看关键设计：
 
@@ -141,7 +141,7 @@ int epoll_wait(int epfd, struct epoll_event *events,
 - **红黑树管理 fd** ：增删改 fd 都是 O(log n)，查找高效，还能天然去重
 - **事件回调代替轮询** ：数据到达时，内核通过中断触发挂在该 socket 上的回调 `ep_poll_callback` ，把就绪的 fd 挂到就绪链表（rdllist）上。内核不用再挨个问 “你有数据吗”
 - **只返回就绪的 fd** ： `epoll_wait` 拿到的就是就绪列表本身，应用程序不用再从 10000 个 fd 里筛出那 10 个活跃的
-![epoll 红黑树和就绪链表](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smq96Un5ASIKaxzeYpCFnBh2kmmZKLojlY3tcTSL8Iib1JquTbLF6bhZeJhm0mhTLmsS37IAVJSuu3zDyCNwEV8ibW2vAaXlTwxCc/640?wx_fmt=webp&from=appmsg#imgIndex=5)
+![epoll 红黑树和就绪链表](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%20select%E3%80%81poll%E3%80%81epoll%EF%BC%9F/a74a605c6595bbcd7bf57798a911e115_MD5.jpg)
 
 epoll 红黑树和就绪链表
 
@@ -151,7 +151,7 @@ epoll 红黑树和就绪链表
 
 用一张图直观感受一下，假设 10000 个连接、其中 100 个活跃：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smqz78NFJ5knhHy7TLmh9RcaJ1o8pd9S0WMlTRMSP8u4pcic2kdREBzrnel6dwApKHm5RbgTxDCibfcho9mA7DsS4N5wvFkAJpPsY/640?wx_fmt=webp&from=appmsg#imgIndex=6)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%20select%E3%80%81poll%E3%80%81epoll%EF%BC%9F/2b988f2fe09c224fa5eb9b79df2f642d_MD5.jpg)
 
 两边的差距一目了然：
 
@@ -173,7 +173,7 @@ epoll 红黑树和就绪链表
 
 ET 模式减少了重复通知的次数，效率更高，但编程复杂度也上去了：\*\*必须搭配非阻塞 fd，循环 `read` 直到返回 `EAGAIN` \*\*，否则残留数据再也不会被通知，就丢事件了。Nginx 用的就是 ET 模式。
 
-![epoll LT 和 ET 触发模式](https://mmbiz.qpic.cn/mmbiz_jpg/pUq1tpL9smopjC0ZiaxthKYgC0mfs8AZtfnicbOITLBhianG8h8kjibkZTSXiaHIeTZ2xWFWBFB9fyibyF2wuUqL0TIiaUWlKrU7BnXWY4HKzpia68s/640?wx_fmt=webp&from=appmsg#imgIndex=7)
+![epoll LT 和 ET 触发模式](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%20select%E3%80%81poll%E3%80%81epoll%EF%BC%9F/babd8ffbfbf97302e4b3db255c5ac271_MD5.jpg)
 
 epoll LT 和 ET 触发模式
 
@@ -240,7 +240,7 @@ Nginx 用 ET（效率优先，自己控制读写循环），Redis 用 LT（编�
 
 截止目前， **累计输出 150w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4900+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
+![图片](assets/%E9%9D%A2%E8%AF%95%E5%AE%98%EF%BC%9A%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%20select%E3%80%81poll%E3%80%81epoll%EF%BC%9F/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. 服务器被入侵怎么办？看我操作3. 分库分表，可能真的要退出历史舞台了！4. 面试官：有用过 Dubbo 的异步调用吗？

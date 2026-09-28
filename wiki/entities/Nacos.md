@@ -2,8 +2,8 @@
 title: "Nacos"
 type: entity
 tags: [微服务, 注册中心, 配置中心]
-sources: [raw/09-archive/docker部署nacos.md, raw/09-archive/pmhub微服务学习.md, raw/09-archive/为什么越来越多人用Nacos？.md]
-last_updated: 2026-08-05
+sources: [raw/09-archive/docker部署nacos.md, raw/09-archive/pmhub微服务学习.md, raw/09-archive/为什么越来越多人用Nacos？.md, raw/01-articles/2026-09-27-当 AI Agent 遇到 Nacos：OpenClaw.NET 集成入门 - 张善友.md]
+last_updated: 2026-09-28
 ---
 
 ## 定义
@@ -24,6 +24,13 @@ Nacos 既是 AP 也是 CP，按场景切换：
 
 ### 架构模块
 核心模块：服务发现（NameService）、配置管理（ConfigService）、**AI Registry**（3.0 新增），一致性协议层使用自研 Distro 和 Raft 保证数据一致性。
+
+### AI 管理中心治理要点（Nacos 3.2.4，来源：[[摘要-openclaw-net-nacos集成]]）
+- 3.x 把 AI 资源提升为与配置管理、服务发现并列的核心能力：Skill、Agent、MCP Server、Prompt、AgentSpec 的注册、治理、按版本发布与运行时发现
+- 核心认知：**AI 资源不是配置，也不是普通服务**——配置管理关心内容发布与监听，服务发现关心实例健康；MCP Server 的治理重点是协议类型、端点、版本，以及**工具开关**（`toolSpec.ToolsMeta`）：管理员可在控制台直接关闭某 MCP Server 的某个工具，运行时必须遵守
+- 集成模式：OpenClaw.NET 走 Nacos **MCP Router** 模式，由 Router 统一发现注册表中的 MCP Server，对外提供 search / add / use 三个工具（见 [[OpenClawNET]]）
+- 配置失效链路：长轮询 → 内容 SHA-256 与上次比对 → 不同则发布 CapabilityChange → 缓存全量清空；只保留 digest，失效通道不传输、不落地配置正文
+- 本地验证注意：NacosMcpRouter 的 Console API client 默认连 `127.0.0.1:8080` 且不可覆盖，需把 Nacos Console 端口固定为 8080
 
 ### 性能演进
 - Nacos 2.0：通信从 HTTP 升级到 **gRPC**，性能提升 10 倍。实测从 1.4 升 2.1，服务发现延迟 800ms → 20ms（降 96%），连接数降 8 倍，无需改业务代码
@@ -62,6 +69,9 @@ Nacos 既是 AP 也是 CP，按场景切换：
 - [[长轮询]] — 配置推送机制
 - [[Eureka]] — 主要替代对象
 - [[摘要-为什么越来越多人用Nacos]] — 来源
+- [[摘要-openclaw-net-nacos集成]] — AI 管理中心与 MCP Router 集成来源
+- [[OpenClawNET]] — 基于 Nacos 的 Agent 工具治理集成方
+- [[张善友]] — 集成文章作者
 - [[摘要-alibaba-product-manual]] — 阿里巴巴产品手册，介绍阿里巴巴集团旗下各产品线、服务体系及平…
 - [[摘要-pmhub微服务学习]] — 记录 PmHub 微服务项目学习路线，涵盖 Nacos 注册…
 - [[摘要-SpringBoot优雅的加载配置文件的几种方式]] — 介绍 Spring Boot 加载配置文件的多种方式：@Va…

@@ -2,8 +2,8 @@
 title: "Kimi"
 type: entity
 tags: [AI公司, 大模型厂商]
-sources: [raw/01-articles/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md, raw/01-articles/2026-09-19-Kimi向左，Claude、GPT向右.md, raw/01-articles/Kimi版Codex，干活有点猛啊。.md, raw/01-articles/2026-09-19-阿里内测 Qovest，一个面向个人投资者的AI Agent，要帮你赚钱.md]
-last_updated: 2026-09-20
+sources: [raw/01-articles/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md, raw/01-articles/2026-09-19-Kimi向左，Claude、GPT向右.md, raw/01-articles/Kimi版Codex，干活有点猛啊。.md, raw/01-articles/2026-09-19-阿里内测 Qovest，一个面向个人投资者的AI Agent，要帮你赚钱.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md]
+last_updated: 2026-09-28
 ---
 
 ## 定义
@@ -21,18 +21,24 @@ Kimi 正式推出 [[KimiCode]] 桌面客户端（macOS/Windows），把终端编
 ### 金融行业 AI 解决方案（2026-09-17）
 Kimi 推出金融行业 AI 解决方案，是 [[Qovest]]（阿里金融投研 Agent）的竞品之一。详见 [[摘要-阿里qovest金融投研agent]]。
 
+### K3 开源势能与 AWS 渠道（2026-09 数据）
+月之暗面 K3（2026-07 发布）在 Artificial Analysis 综合智能指数拿 57 分、排名第三、开源第一；在 Arena 前端编程榜单位列第一，超过 Fable 5 与 GPT-5.6 Sol，是开源模型首次登上该榜榜首。2026-09-18 AWS Bedrock 接入 K3，企业无需自部署即可沿用平台的访问控制、加密与审计机制——而 Bedrock 本身也是 Claude 面向企业的重要销售渠道，开源模型以同样的安全标准把竞争摆到 [[Anthropic]] 面前。开源的差异化在于可控：权重公开、数据不出企业、多推理服务商供给不被单一供应商锁定。详见 [[摘要-a社o社价格战]]。
+
 ## 关联连接
 - [[摘要-淘宝正式上线ai空间站]] — 来源
 - [[摘要-kimi向左claude-gpt向右]] — 来源（Kimi Code 产品路线）
 - [[摘要-kimi-code桌面版体验]] — 来源（Kimi Code 实测）
 - [[摘要-阿里qovest金融投研agent]] — 来源（金融方案）
+- [[摘要-a社o社价格战]] — 来源（K3 开源势能与 AWS 渠道）
 - [[AI空间站]] — 销售平台
 - [[淘宝]] — 合作平台
 - [[Token套餐]] — 销售产品
 - [[Fable 5.1]] — 竞争产品
 - [[KimiCode]] — 桌面编程客户端
-- [[K3]] — 主力模型
+- [[K3]] — 主力模型（开源综合第一、Arena 前端编程榜首）
 - [[K2.7]] — 高速模型
 - [[Claude]] — 合并路线对比
 - [[ChatGPT]] — 合并路线对比
 - [[Qovest]] — 金融竞品
+- [[大模型价格战]] — 卷入的行业现象
+- [[GPT-6]] — K3 对标的闭源模型

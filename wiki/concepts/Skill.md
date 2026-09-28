@@ -2,8 +2,8 @@
 title: "Skill"
 type: concept
 tags: [AI, Agent, 技能扩展]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/为什么Skill才是未来的资产.md]
-last_updated: 2026-08-11
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/为什么Skill才是未来的资产.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md]
+last_updated: 2026-09-28
 ---
 
 ## 定义
@@ -79,6 +79,28 @@ Agent 是"通用的执行引擎"，会越来越便宜、普及；Skill 是"专�
 
 ### 创建方式
 
+### 7 大反模式（写 50 个 Skill 后的总结，2026-09）
+来自 [[摘要-claude-code-skill-7大反模式]]。前 30 个 Skill 作废的根因是把 Skill 当 prompt 模板升级版——正确哲学是「什么时候轮到我做」，而非「我能做什么」：
+
+1. **把 SKILL.md 写成长篇 prompt**：模型靠 description 决定是否激活，正文只在激活后才读；激活条件淹没在 1200 行细则里反而触发更不准。官方建议主体 ≤500 行，实战最好 ≤200 行，超出拆到 `references/`
+2. **description 写成功能介绍而非触发条件**：「提供完整的 Spring Boot 代码生成能力」❌ →「在用户要求生成 REST 接口、提到新建查询 API 时使用」✅，把用户实际说话方式作为 examples 写进去
+3. **把工具调用写进 Skill**：Skill 是任务能力包不是工具调用器，长 URL/复杂 jq 让模型处理不稳；工具走 [[MCP]] 暴露，Skill 只管「什么时候用、怎么组合」
+4. **多个 Skill 边界重叠**：`code-review`/`pr-review`/`merge-checklist` 职责重叠会让模型摇摆或同时触发；像拆微服务一样职责单一、边界清晰，description 关键词相似就合并或重切
+5. **不写 Gotchas 章节**：只写「应该怎么做」模型就反复犯同样的错；每次 Claude 犯错就把错误模式追加进去——Skill 是活的
+6. **示例用伪代码**：`// ... your business logic` 会被一字不差复现，模型是镜子；示例必须完整可运行（含 import、main、错误处理）
+7. **不区分项目级与用户级**：代码风格规范进项目级（`.claude/skills/`，进 git 团队共享），个人偏好进用户级（`~/.claude/skills/`）；冲突时项目级覆盖
+
+**正面案例 frontend-design（27.7 万安装）**：description 用「Use this skill when」+ 5-6 个场景 examples 作触发规则；主文件 <300 行，颜色/字体等细节拆到 `references/` 按需读取（[[渐进式披露]]）；带完整 Anti-patterns 章节直接列「不要做什么」。三层分工：主文件像架构概要、子文件像 API 文档、Gotchas 像 SRE runbook。
+
+### Skill 与 MCP 的分界（Spring 类比）
+- **MCP 像 Spring SPI / 依赖注入**：解决「我有什么工具能用」，横向能力发现协议
+- **Skill 像 Spring Boot Starter**：解决「这个场景该用哪些工具、什么顺序、什么规则」，纵向任务能力包
+- **Agent 像 Spring Boot Application**：装着 Starter 与 SPI 的运行体
+- 判断标准：给「能力」做注册的放 MCP，给「场景」做编排的放 Skill；混淆的后果是 MCP 里塞业务规则、SKILL.md 里实现工具调用，两边都做不好
+
+### 跨工具复用：与 Codex 的兼容实验（2026-09）
+Anthropic 与 OpenAI Codex 的 SKILL.md frontmatter 几乎一模一样（仅差两个字母），Skill 正在成为跨工具事实标准（`anthropics/skills` 127k Star vs `awesome-codex-skills` 6k，官方 frontend-design 安装 27.7 万次）。实测把同一 Skill 软链到 `~/.claude/skills/` 与 `~/.codex/skills/`（或 `~/.agents/skills/`）：**约 90% 兼容、10% 翻车**——纯文本指令/规则/checklist 类完美复用；涉及工具调用与文件路径的不能直接复用（Codex 是 `read_file`，Claude 是 `Read`）。实操：把 Skill 拆成「pure 指令型」与「带工具调用型」，前者一次写两边用，详见 [[SkillSoftLink]]。
+
 ### Skill 生态与资源
 
 #### 基础设施/中间件 Skills
@@ -132,3 +154,7 @@ Tool 与 Skill 的区别：Tool 是功能型（执行原子操作），Skill 是
 - [[摘要-mattpocock-skills]] — 来源（Skill 作为纪律而非框架的设计哲学）
 - [[四层架构]] — Skill 在 LLM/Tool/Runtime 中的位置
 - [[摘要-为什么Skill才是未来的资产]] — 行业专家角色定位与"Skill 是未来资产"论点的来源
+- [[摘要-claude-code-skill-7大反模式]] — 来源（7 大反模式与 frontend-design 正面拆解）
+- [[码哥字节]] — 该文作者
+- [[SkillSoftLink]] — 软链跨工具复用实验
+- [[渐进式披露]] — references/ 子目录按需加载结构

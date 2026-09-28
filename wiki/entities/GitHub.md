@@ -2,8 +2,8 @@
 title: "GitHub"
 type: entity
 tags: [代码托管, DevOps, 开源]
-sources: [raw/01-articles/搞定 OAuth 2.0 第三方登录，So Easy !.md]
-last_updated: 2026-09-16
+sources: [raw/01-articles/搞定 OAuth 2.0 第三方登录，So Easy !.md, raw/01-articles/2026-09-25-GitHub + Cloudflare + Picgo 搭建你的免费图床 - DominicKK.md]
+last_updated: 2026-09-28
 ---
 
 ## 定义
@@ -39,6 +39,12 @@ GitHub 官方支持基于 OAuth 2.0 的第三方登录，详见 [[摘要-oauth2-
 5. POST code + client_id + client_secret 换 access_token
 6. GET /user 携带 token 获取用户信息
 
+### 私有仓库做图床与令牌权限（2026-09，来源：[[摘要-github-cloudflare-picgo图床]]）
+- 私有仓库 + 反代持有 token 是免费私有图床的存储层（详见 [[图床]]）
+- **Fine-grained token（推荐）**：Repository access 只圈定目标仓库；Permissions 给 Contents: Read and write（强制附带 Metadata: Read-only）；`github_pat_` 前缀，只显示一次、刷新即不可见，丢失/泄露则 Delete 重建
+- **Classic token（不推荐）**：`ghp_` 前缀，scope 需 `repo` + `write:packages`，权限面过宽
+- 消费方：Cloudflare Worker 以 `Authorization: token` 访问 `raw.githubusercontent.com`（见 [[Cloudflare]]）
+
 ## 关联连接
 - [[Git]] — 底层版本控制系统
 - [[Gitee]] — 国内同类平台
@@ -48,6 +54,9 @@ GitHub 官方支持基于 OAuth 2.0 的第三方登录，详见 [[摘要-oauth2-
 - [[OAuth2]] — 支持的第三方登录协议
 - [[QQ互联]] — 对比的第三方登录平台
 - [[State-CSRF防护]] — OAuth 登录中的 CSRF 防护
+- [[图床]] — 私有仓库作为图床存储层
+- [[PicGo]] — 配套上传客户端
+- [[摘要-github-cloudflare-picgo图床]] — 令牌与图床方案来源
 - [[摘要-用Qoder提交PaiAgent到GitHub]] — 记录使用 Qoder CLI 为 PaiAgent 项目添加…
 - [[摘要-域名]] — 记录在阿里云国际版和 CloudFlare 上对白嫖域名进行…
 - [[摘要-oauth2-第三方登录]] — 来源（OAuth 2.0 第三方登录实战）

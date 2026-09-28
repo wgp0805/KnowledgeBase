@@ -2,8 +2,8 @@
 title: "goals"
 type: concept
 tags: [AI Agent, 任务管理, 验证, Codex, MiMo Code]
-sources: [raw/09-archive/如何把Codex用到极致.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md]
-last_updated: 2026-06-11
+sources: [raw/09-archive/如何把Codex用到极致.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md]
+last_updated: 2026-09-28
 ---
 
 ## 定义
@@ -29,11 +29,22 @@ Goals（目标）是 AI Agent 中带验证器的长跑型任务，Agent 持续�
 - [[goals]] 是串行维度，在同一个任务上做更长的自我检查和执行
 - 两者可以同时启用
 
+### Claude Code 的 /goal：目标状态收敛（v2.1.139，2026-09）
+来自 [[摘要-claude-code-agent视图与goal]]。`/goal <目标>` 设置后，Claude 每个 turn 结束自动评估是否达到目标状态，不满足就自动发起下一 turn，直到满足或手动停止；界面 overlay 显示已用时间、turn 数、token 消耗。与普通 prompt 的本质区别是**控制权归属**：普通指令每个 turn 结束后等用户决定是否继续，`/goal` 把「是否完成」的判断权交给模型——架构上与 Kubernetes Reconcile Loop（设定目标状态、执行者自主收敛）同构，但判断基于语言理解而非精确状态，存在误判可能。
+
+- **适用**：测试修复循环（jest 退出码 0）、代码质量收敛（ESLint 0 error）、类型检查修复（tsc --noEmit 无报错）等输出精确可读的场景
+- **不适用**：目标模糊或主观（「把这个模块写得优雅」）——模型可能无限循环或自欺欺人宣称完成
+- **写法铁律**：目标越具体越可验证执行质量越高，把验证命令与期望输出写进 goal（`curl health 返回 ok 且 npm test 无失败`），否则模型可能走捷径（如注释掉测试让它"通过"）
+- 与 Codex Goals、MiMo Code Goal 同属「带验证器的长跑任务」，只是验证由模型自己判读
+
 ## 关联连接
 - [[摘要-把Codex用到极致]] — Codex 来源
 - [[摘要-mimo-code发布]] — MiMo Code 来源
+- [[摘要-claude-code-agent视图与goal]] — Claude Code /goal 来源
 - [[Codex]] — Codex 所属产品
 - [[MiMoCode]] — MiMo Code 所属产品
+- [[ClaudeCode]] — /goal 所属产品
+- [[agent-view]] — 同版本的 Agent 视图
 - [[durable-threads]] — 长线程承载 goals 的持续上下文
 - [[automations]] — 定期执行的自动化任务
 - [[max-mode]] — 并行维度的可靠性机制
