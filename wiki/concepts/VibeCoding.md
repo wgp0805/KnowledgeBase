@@ -2,8 +2,8 @@
 title: "VibeCoding"
 type: concept
 tags: [AI编程, 编程范式, 认知卸载, 开发流程]
-sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, https://v.douyin.com/U8iw9gPpXE0/, https://v.douyin.com/RC50ybDPZoY/, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md, raw/01-articles/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md]
-last_updated: 2026-08-25
+sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, https://v.douyin.com/U8iw9gPpXE0/, https://v.douyin.com/RC50ybDPZoY/, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md, raw/01-articles/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md, raw/01-articles/2026-09-23-非技术背景做Vibe Coding，我踩过的最大坑是API Key泄露.md]
+last_updated: 2026-09-28
 ---
 
 ## 定义
@@ -120,6 +120,14 @@ Vibe coding 里唯一真正重要的，是管理好文档。不是把开发外�
 ### 稀缺资源转移
 从代码转移到清晰目标、稳定约束、可复用上下文、持续更新的知识体系。详见 [[上下文工程]] 和 [[文档即生产系统]]。
 
+## 安全卫生：API Key 泄露复盘（2026-09，详见 [[摘要-vibe-coding-api-key泄露]]）
+
+非技术背景的 [[张亮-leo]] 用 ¥80.58 换来的教训：一把 DeepSeek Key 被盗用一个月（1,752 次请求、1.07 亿 token），全盘扫描发现它散落在 **22 个文件、7 种藏法**（代码 fallback、各类 .env、.env.example、部署脚本、测试桩、文档、AI 工具的项目记忆）。
+
+- **根因不是事故，是卫生问题**：Vibe Coding 阶段注意力全在"能不能跑起来"，AI 为保证跑通会主动写 fallback、把完整命令抄进文档、把 Key 当"需要记住的信息"存进笔记——AI 每步都没做错，错在没人告诉它密钥不能到处放
+- **对策**：把 [[API密钥安全]] 作为 Agent 宪法/项目规则的一部分显式写入——Key 只进环境变量、建仓先写 `.gitignore` 忽略所有 `.env*`、不把 Key 贴进任何对话框、设消费限额、下线即作废
+- 这与 [[Git]] 一起构成 Vibe Coding 的安全防线：Git 防代码失控，密钥卫生防凭据外流
+
 ## 关联连接
 
 - [[VibeEngineering]] — 与之对应的正确模式
@@ -144,3 +152,6 @@ Vibe coding 里唯一真正重要的，是管理好文档。不是把开发外�
 - [[上下文工程]] — 文档是上下文工程化的载体
 - [[文档即生产系统]] — 文档管理理念
 - [[AICoding]] — AI 辅助编程范式
+- [[API密钥安全]] — Vibe Coding 中的密钥治理概念
+- [[张亮-leo]] — 密钥泄露复盘作者
+- [[摘要-vibe-coding-api-key泄露]] — 来源（安全卫生复盘）

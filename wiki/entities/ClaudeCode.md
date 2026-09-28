@@ -2,8 +2,8 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md]
-last_updated: 2026-09-20
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md]
+last_updated: 2026-09-28
 ---
 
 ## 定义
@@ -246,6 +246,15 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 ### 开放 Agent SDK（2026-09）
 Anthropic 去年 9 月将 Claude Code SDK 扩展为通用 Agent SDK，今年补上企业插件生态和 Managed Agents，走"模型往外长"（[[ProductOverhang]]）路线。与 [[OpenAI]]（开放 Codex Harness）、[[腾讯]]（开放 WorkBuddy 基座）方向一致。详见 [[摘要-中美头部agent走向开放]]。
 
+### 多 Agent 成本与分层模型路由（2026-09）
+来自 [[摘要-claude-code-多agent账单分层路由]]。Claude Code 的多 Agent 是自动决策创建的：一条指令可拆出 3-5 个独立子 Agent，各自上下文各自计费，一次"轻量任务"账单可翻 3-5 倍。解法是重指内部「模型级别 → 实际模型」路由层：`ANTHROPIC_BASE_URL` 指向 DeepSeek Anthropic 兼容端点，Opus/Sonnet 级绑 `deepseek-v4-pro[1m]`，Haiku 级用 `ANTHROPIC_DEFAULT_HAIKU_MODEL` + `CLAUDE_CODE_SUBAGENT_MODEL` 显式绑 `deepseek-v4-flash`（两变量同时配，覆盖自定义与内置 Explore 子 Agent）。实测 240 万 token 重构任务：全 Sonnet 4.6 约 $22.4 → 分层路由折扣后 $1.29（约 1/17）。踩坑：兼容端点不支持图片输入（可 `--model claude-sonnet-4-6` 临时切回或用 claude-code-router 自动路由）、模型名写错静默 fallback、`[1m]` 不加只有 200K 上下文、Agent YAML `model` 字段区分大小写、base URL 末尾不能加 `/v1`；也可写进项目 `.claude/settings.json` 的 `env` 字段只对单项目生效。详见 [[模型路由]]、[[Subagent]]。
+
+### Agent 视图与 /goal 目标收敛（v2.1.139，2026-09）
+来自 [[摘要-claude-code-agent视图与goal]]。**Agent 视图**（`claude agents`）由独立 Supervisor 进程托管后台会话，与终端解耦、冷热分离、自动 worktree 隔离，状态含 Needs input/Working/Completed 并直接显示 PR + CI 状态——人从"盯着屏幕按 Enter"转为"派任务+扫一眼"，详见 [[agent-view]]。**`/goal`** 引入目标状态收敛执行模型：每个 turn 结束自动评估是否达标，不满足自动继续，控制权从用户转给模型，与 Kubernetes Reconcile Loop 同构但基于语言判断，因此目标必须写成可机器验证的命令（如「curl 返回 ok 且 npm test 无失败」），详见 [[goals]]。配套：MCP Server 自动接收 `CLAUDE_PROJECT_DIR`、`claude plugin details` 输出插件 token 成本、`/context all` 按模型分词器精确计数。坑：多后台会话配额是乘法、机器睡眠中断需 `claude respawn --all`、worktree 残留需清理。
+
+### Skill 设计的 7 大反模式（2026-09）
+来自 [[摘要-claude-code-skill-7大反模式]]：SKILL.md 写成长篇 prompt、description 写成功能介绍而非触发条件、工具调用写进 Skill（应走 MCP）、多 Skill 边界重叠、不写 Gotchas、示例用伪代码、不分项目级/用户级。完整清单与 frontend-design 正面拆解见 [[Skill]]。
+
 ## 关联连接
 - [[摘要-60分钟全面掌握Claude-Code]] — 来源
 - [[摘要-6条Claude-Code实践经验与思考]] — 来源
@@ -308,3 +317,9 @@ Anthropic 去年 9 月将 Claude Code SDK 扩展为通用 Agent SDK，今年补�
 - [[ProductOverhang]] — 开放路线概念
 - [[OpenAI]] — 同步开放 Harness
 - [[腾讯]] — 同步开放基座
+- [[摘要-claude-code-多agent账单分层路由]] — 来源（子 Agent 分层路由降成本）
+- [[摘要-claude-code-agent视图与goal]] — 来源（Agent 视图与 /goal）
+- [[摘要-claude-code-skill-7大反模式]] — 来源（Skill 反模式）
+- [[agent-view]] — 后台会话管理界面
+- [[模型路由]] — 分层模型路由概念
+- [[码哥字节]] — 三篇文章作者

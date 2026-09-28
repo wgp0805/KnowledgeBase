@@ -11,7 +11,8 @@ sources:
   - raw/01-articles/2026-08-18 - DeepSeek Harness 命令大全.md
   - raw/01-articles/2026-08-21 - DeepSeekHarness必装的10个插件.md
   - raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md
-last_updated: 2026-09-17
+  - raw/01-articles/2026-09-25-DeepSeek Harness客户端来了，AI办公又多了一个王者？.md
+last_updated: 2026-09-28
 ---
 
 ## 定义
@@ -142,6 +143,16 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 
 **整体排名**：① Claude Code 9.2 分 ② Pi Agent 8.9 分 ③ DSH 标准 8.7 分 ④ DSH 极简 7.2 分。[[ClaudeCode]] 接 DeepSeek-V4.1-Flash 开箱即用接近峰值。
 
+## 官方桌面客户端（2026-09-25，nightly，详见 [[摘要-deepseek-harness桌面客户端]]）
+[[欧阳俊杰]] 实测社区流传的 DeepSeek 官方桌面客户端（作者称之为"DeepSeek 的 AI 办公版"）：
+- **平台与分发**：Windows / macOS（暂无 Linux），走 **nightly 通道**；macOS 版带 DeepSeek 公司主体开发者签名并通过 Apple 公证，官方尚未正式官宣
+- **工作区模式**：启动第一步即选择本地文件夹作为工作区，读写本地文件、联网搜索、终端操作、多智能体协作全部围绕工作区进行——从"聊天框"进入本地工作目录
+- **登录方式**：DeepSeek 账号（**账号模式**）或 API Key（**API 模式**），二者与登录方式不匹配会出现"能输入任务但不干活"
+- **初始化配置**：询问用途（办公与创作 / 代码与开发）与过程可见度（只看结果 / 关键步骤 / 全部过程），把"AI 干活给用户看多少"交给用户选择
+- **四种模式**：标准、PTC、极简、创造——与上文"第三方归纳：按工具集预设"一致，桌面客户端将其作为可选模式呈现（官方 Entry modes 仍以 profile 为权威基准）
+- **内置插件**：智能体团队（多 Agent 分工协作 + 角色配置）、语音输入、终端、Agent Loop、Subagent、网页搜索，继续贯彻 **Everything is a Plugin**
+- **产品意义**：与社区插件 `deepseek-harness-desktop`（anywhere-labs 的 Electron 壳）不同，这是 DeepSeek 自家官方客户端，标志 DeepSeek 从"模型、网页、App、API"扩展到 AI 办公赛道，与 [[WorkBuddy]]、[[豆包工作]]、千问办公正面相撞
+
 ## 关联连接
 - [[DeepSeek]] — 所属公司
 - [[崔添翼]] — 团队负责人
@@ -166,6 +177,10 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - [[TensorSplit]] — 多卡分摊技术
 - [[GGUF量化]] — 模型量化技术
 - [[摘要-deepseek-v4-1-flash-harness横评]] — 来源（V4.1-Flash Harness 横评）
+- [[摘要-deepseek-harness桌面客户端]] — 来源（官方桌面客户端实测）
+- [[欧阳俊杰]] — 桌面客户端实测作者
+- [[办公Agent]] — 桌面客户端进入的赛道
+- [[桌面Agent]] — 产品形态上位概念
 - [[DeepSeek-V4.1-Flash]] — 被测模型
 - [[老章]] — 横评作者
 - [[ClaudeCode]] — 综合排名第一的 Harness
