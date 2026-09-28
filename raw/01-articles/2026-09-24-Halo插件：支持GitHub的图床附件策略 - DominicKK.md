@@ -60,16 +60,16 @@ GitHub release 👉<https://github.com/Dominic-KK/halo-plugin-picbed/releases>�
 
 ### 配置项说明
 
-配置 | 说明 | 示例  
----|---|---  
-图床类型 | 目前仅 **GitHub** ；阿里云 OSS 敬请期待（开摆） | ​`github`​  
-仓库 | 存放附件的仓库，格式 ​`owner/repo`​ | ​`Dominic-KK/xxxxxx`​  
-分支 | 仓库分支 | ​`main`​  
-存储路径前缀 | 仓库内文件前缀，建议以 ​`/`​ 结尾 | ​`halo-atta/`​  
-GitHub API 基地址 | 上传/删除接口。默认 ​`https://api.github.com`​；国内直连不稳时再填自建代理，如果你不知道这是什么，建议保持默认。 | ​`https://api.github.com`​  
-自定义域名 | 公开访问域名，推荐 Cloudflare 代理，这是本插件推荐的方式，走这里拼接 permalink | ​`https://your-domain.com`​  
-GitHub Token | 只读/可写 Personal Access Token（存 Secret） | 创建 **fine-grained token** ：限定你的图床仓库，权限必选 **Contents** : Read and write（自动附带只读 **Metadata** ）  
-重命名格式 | 生成仓库内文件名 | ​`{y}/{m}/{d}{h}{i}-{rand:3}`​  
+| 配置             | 说明                                                                     | 示例                                                                                           |
+| -------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| 图床类型           | 目前仅 **GitHub** ；阿里云 OSS 敬请期待（开摆）                                       | ​`github`​                                                                                   |
+| 仓库             | 存放附件的仓库，格式 ​`owner/repo`​                                              | ​`Dominic-KK/xxxxxx`​                                                                        |
+| 分支             | 仓库分支                                                                   | ​`main`​                                                                                     |
+| 存储路径前缀         | 仓库内文件前缀，建议以 ​`/`​ 结尾                                                   | ​`halo-atta/`​                                                                               |
+| GitHub API 基地址 | 上传/删除接口。默认 ​`https://api.github.com`​；国内直连不稳时再填自建代理，如果你不知道这是什么，建议保持默认。 | ​`https://api.github.com`​                                                                   |
+| 自定义域名          | 公开访问域名，推荐 Cloudflare 代理，这是本插件推荐的方式，走这里拼接 permalink                     | ​`https://your-domain.com`​                                                                  |
+| GitHub Token   | 只读/可写 Personal Access Token（存 Secret）                                  | 创建 **fine-grained token** ：限定你的图床仓库，权限必选 **Contents** : Read and write（自动附带只读 **Metadata** ） |
+| 重命名格式          | 生成仓库内文件名                                                               | ​`{y}/{m}/{d}{h}{i}-{rand:3}`​                                                               |
   
 如果你还没有自己的GitHub图床或自定义代理域名，可以看看这篇文章👇
 
