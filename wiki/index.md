@@ -2318,9 +2318,10 @@
 ### 更新
 - [[WorkBuddy]]、[[DoubaoWork]]、[[Kimi]]、[[MiniMax]]、[[Pi]]、[[Claude]]、[[ChatGPT]]、[[Anthropic]]、[[OpenAI]]、[[腾讯]]、[[Doubao]]、[[VolcEngine]]、[[Tesla]]、[[Codex]]、[[ClaudeCode]]、[[Doubao-Seed-2.1-Pro-0915]]、[[上下文工程]]、[[长期记忆]]、[[ContextEngineering]]
 
-## 2026-09-28 批量 ingest（41 篇文章）
+## 2026-09-28 批量 ingest（43 篇文章）
 
 ### Sources
+- [[摘要-面试官select-poll-epoll]] — select/poll/epoll 三代 IO 多路复用方案演进与面试精讲
 - [[摘要-分库分表vs-newsql对比]] — 分库分表与 NewSQL 的架构对比与选型思考
 - [[摘要-tidb-newsql入门]] — NewSQL 三代演进与 TiDB 技术路线科普
 - [[摘要-atomic语言层三性质]] — Atomic 背后的原子性、可见性与有序性跨语言对比
@@ -2403,6 +2404,7 @@
 - [[楼仔]] — 《倦怠社会》读后感作者
 
 ### Concepts
+- [[IO多路复用]] — 单线程监听多 socket 的机制，select/poll/epoll 为三代实现
 - [[newsql]] — 融合 NoSQL 扩展性与 SQL 事务性的新一代数据库
 - [[分布式事务]] — 跨库跨节点场景下保障数据一致性的机制
 - [[htap]] — 同时支撑事务与分析的混合负载数据库架构
@@ -2446,5 +2448,5 @@
 - [[深度无聊]] — 产生创造力的无目的放空状态
 
 ### 更新
-- [[WorkBuddy]]、[[DoubaoWork]]、[[Feishu]]、[[沉默王二]]、[[OnlyOffice]]、[[苏三]]、[[阿里云]]、[[ClaudeCode]]、[[模型路由]]、[[Subagent]]、[[DeepSeek]]、[[goals]]、[[Worktree]]、[[Skill]]、[[SkillSoftLink]]、[[程序员追风]]、[[VibeCoding]]、[[企业Agent落地]]、[[AgentEval]]、[[DeepSeekHarness]]、[[办公Agent]]、[[OpenClaw]]、[[Anthropic]]、[[Opus]]、[[OpenAI]]、[[GPT-6]]、[[Fable 5.1]]、[[Kimi]]、[[Cursor]]、[[AI视频生成]]、[[AI视频提示语]]、[[Seedream]]、[[Seedance2.5]]、[[豆包]]、[[Jev]]、[[判断模型]]、[[LibTV]]、[[微短剧]]、[[ShardingSphere]]、[[sharding]]、[[CAP理论]]、[[Paxos]]、[[Golang]]、[[Python]]、[[Nacos]]、[[OpenClawNET]]、[[AI Registry]]、[[Linux]]、[[Cloudflare]]、[[GitHub]]
+- [[WorkBuddy]]、[[DoubaoWork]]、[[Feishu]]、[[沉默王二]]、[[OnlyOffice]]、[[苏三]]、[[阿里云]]、[[ClaudeCode]]、[[模型路由]]、[[Subagent]]、[[DeepSeek]]、[[goals]]、[[Worktree]]、[[Skill]]、[[SkillSoftLink]]、[[程序员追风]]、[[VibeCoding]]、[[企业Agent落地]]、[[AgentEval]]、[[DeepSeekHarness]]、[[办公Agent]]、[[OpenClaw]]、[[Anthropic]]、[[Opus]]、[[OpenAI]]、[[GPT-6]]、[[Fable 5.1]]、[[Kimi]]、[[Cursor]]、[[AI视频生成]]、[[AI视频提示语]]、[[Seedream]]、[[Seedance2.5]]、[[豆包]]、[[Jev]]、[[判断模型]]、[[LibTV]]、[[微短剧]]、[[ShardingSphere]]、[[sharding]]、[[CAP理论]]、[[Paxos]]、[[Golang]]、[[Python]]、[[Nacos]]、[[OpenClawNET]]、[[AI Registry]]、[[Linux]]、[[Cloudflare]]、[[GitHub]]、[[小哈]]
 

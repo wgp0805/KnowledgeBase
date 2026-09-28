@@ -1803,7 +1803,7 @@
 - **冲突**: 无（与已有 [[摘要-es-事务支持面试题]] 互补：前者聚焦 ES 事务支持，本文聚焦数据一致性方案演进与生产实践细节）
 - **归档**: 1 个源文件待移动至 raw/09-archive/
 
-## [2026-09-28] ingest | 批量摄入 41 篇文章（6 批并行）
-- **变更**: 新增 Sources 41（含 [[摘要-分库分表vs-newsql对比]]、[[摘要-tidb-newsql入门]]、[[摘要-meta-muse-个人ai助理体验]]、[[摘要-claude-code-skill-7大反模式]]、[[摘要-倦怠社会]] 等）；新增 Entities 37（含 [[TiDB]]、[[MetaMuse]]、[[AutoGen]]、[[Vigloo]]、[[韩炳哲]] 等）；新增 Concepts 41（含 [[newsql]]、[[htap]]、[[任务闭环]]、[[功绩社会]]、[[世界模型]] 等）；增量更新既有页 50+（含 [[WorkBuddy]]、[[ClaudeCode]]、[[Jev]]、[[Nacos]]、[[OpenClawNET]] 等）；更新 [[index.md]]（新增 119 条注册）
+## [2026-09-28] ingest | 批量摄入 42 篇文章（6 批并行 + 1 篇单独处理）
+- **变更**: 新增 Sources 42（含 [[摘要-分库分表vs-newsql对比]]、[[摘要-tidb-newsql入门]]、[[摘要-meta-muse-个人ai助理体验]]、[[摘要-claude-code-skill-7大反模式]]、[[摘要-倦怠社会]]、[[摘要-面试官select-poll-epoll]] 等）；新增 Entities 37（含 [[TiDB]]、[[MetaMuse]]、[[AutoGen]]、[[Vigloo]]、[[韩炳哲]] 等）；新增 Concepts 42（含 [[newsql]]、[[htap]]、[[任务闭环]]、[[功绩社会]]、[[世界模型]]、[[IO多路复用]] 等）；增量更新既有页 50+（含 [[WorkBuddy]]、[[ClaudeCode]]、[[Jev]]、[[Nacos]]、[[OpenClawNET]]、[[小哈]] 等）；更新 [[index.md]]（新增 121 条注册）
 - **冲突**: 无（1 篇《SpringBoot 电子文件签字+合同系统》与既有 [[摘要-springboot-电子文件签字盖章系统]] 重复，跳过建页）
-- **归档**: 42 个源文件已移动至 raw/09-archive/
+- **归档**: 43 个源文件已移动至 raw/09-archive/
