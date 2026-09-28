@@ -14,13 +14,13 @@ parse_status: "ok"
 
 每日技术干货，第一时间送达！
 
-![](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg)
+![](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 01
 
 前言
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg)
+![](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 今天公司领导提出一个功能，说实现一个文件的签字+盖章功能，然后自己进行了简单的学习，对文档进行数字签名与签署纸质文档的原因大致相同，数字签名通过使用计算机加密来验证 （身份验证：验证人员和产品所声明的身份是否属实的过程。例如，通过验证用于签名代码的数字签名来确认软件发行商的代码来源和完整性。）数字信息，如文档、电子邮件和宏。数字签名有助于确保：真实性，完整性，不可否认性。目前市面上的电子签章产品也是多样化，但是不管是哪个厂家的产品，在线签章简单易用，同时也能保证签章的有效性，防篡改，防伪造，稳定，可靠就是好产品。
 
@@ -36,7 +36,7 @@ PageOffice和MobOffice产品结合使用为跨平台处理Office文件提供了�
 
 该签字+盖章流程系统使用了SpringBoot+thymeleaf实现的，然后jar包依赖使用了maven
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UcRtkj2bZrbiayNDePYVvpibkndQwnVhM44ibXJ2cJ8WdnyAwWKg9xGYEQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=0)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/0e0755d5d478b9583e55f7fd20ac8465_MD5.webp)
 
 图片
 
@@ -358,19 +358,19 @@ publicclassQRCodeUtil{
 
 - 下载项目源码后，使用idea导入slndemo项目并运行
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6URodu48kSoNSz616icgSNSWgl3QsQIeH3ZVcDWHtnBojhrMjCpn9Xfdw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=1)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/d440cfd2668e0e5aae63fdb5a4e5aeb5_MD5.webp)
 
 图片
 
 - 将项目slndemo下的slndemodata.zip压缩包拷贝到本地D盘根目录下并解压
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UL14JQbMH1gNUjaklGxAAl5xWud6Hr6oxkycwanhZUfibe01RSUWcP1A/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=2)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/711dcd741c46fdf36858a8b398bccec2_MD5.webp)
 
 图片
 
 - 点击启动项目
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UUGDYRb7xn6NHr9ahvGic4PNWGJl3rWcCrXaicW7NXddaJowxaNMDpZ4w/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=3)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/d8235be842ddce7b20b5d364be005571_MD5.webp)
 
 图片
 
@@ -384,7 +384,7 @@ publicclassQRCodeUtil{
 
 - 账户：张三 密码：123456
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UHNibkTDfBCficKWeMibGse5UpibbClicR7gG5BnVI0WOXtS2vsnv3SOoA9A/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=4)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/2927c5d6437f3bbcbedf6c3028c0d83a_MD5.webp)
 
 图片
 
@@ -392,7 +392,7 @@ publicclassQRCodeUtil{
 
 这是一个简单的Demo项目，模拟Word文件在办公系统中的主要流转环节，并不意味着PageOffice产品只能支持这样的文档处理流程。PageOffice产品只提供文档在线处理的功能，包括：打开、编辑、保存、动态填充、文档合并、套红、留痕、盖章等上百项功能（详细请参考PageOffice产品开发包中的示例），不提供流程控制功能，所以不管开发什么样的Web系统，只要是需要在线处理Office文档，都可以根据自己的项目需要，调用PageOffice产品相应的功能即可。「注意：为了简化代码逻辑，此演示程序只能创建一个文档进行流转。」
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UFrUZmBsI6rPicfu6uArAjqF7eWkFZQQJhXbbmf0TB2LHnHaib7SQHBJg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=5)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/e37abc095a3f0bd1adad891a5b82060e_MD5.webp)
 
 图片
 
@@ -400,13 +400,13 @@ publicclassQRCodeUtil{
 
 - 点击起草文档，点击提交
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6U7veoE5qpCebUZnb4EkheFGCibtmPmf4NZdJAlzia5C1cVWDzia3IuIotg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=6)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/78be9fc4c544d26cd687c924ed4a0ca5_MD5.webp)
 
 图片
 
 - 点击代办文档，然后点击编辑，当你点击编辑时你没有下载PageOffice，他会提醒你安装，你点击安装之后，关闭浏览器，重新打开浏览器就能编辑了！
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6Ul0czdQ39Eg8JHMB8cD0XVezY8ANa90bDMUkmDibZRuEf1JqtibicVbJOg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=7)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/e899c2f8c4b0a2adbcd676721fae0c6f_MD5.webp)
 
 图片
 
@@ -416,25 +416,25 @@ publicclassQRCodeUtil{
 
 - 序列号：35N8V-2YUC-LY77-W14XL
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6U3zpBBRdZxWn6Wkdpwu42UhmrExQA8u6Qrjmv3ItP182ibxIicCsHx4sA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=8)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/57ca25265da7ff287206d4ec4534a3f7_MD5.webp)
 
 图片
 
 - 当我们注册成功以后，就可以编辑发布的文件或者公告了
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6Uortc39VicReB4HgqtbtVmsM3sQhoelr1sqK2p1NTuPlYdBstVTh8SWA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=9)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/e6b5a167d8462a5d4a3e2c9e91dbcc4d_MD5.webp)
 
 图片
 
 - 编辑好以后点击保存
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UkzZocq8M9JSQdicqSToU2TJWdRS98NgWzQxpMb0qYic4nYrP2p6icKFBg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=10)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/c4c615a3778ac784ef8c2d81abcd3716_MD5.webp)
 
 图片
 
 - 点击审批
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UgCbiathZKibBY5xb8aoDxgiceqTJLHXwhzTTb0q19HJibQlz2yO38pngog/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=11)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/3b32e8aca1c93496b06bd9dc8c83a27d_MD5.webp)
 
 图片
 
@@ -442,23 +442,23 @@ publicclassQRCodeUtil{
 
 - 登录李总审批
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6ULYHTZ3XPb1z34HicN89cvrKVQ1KicoDSvhS1KY27w5nuUrHdVV3w4rTA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=12)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/19885f488aff5e1da0debaaed1541c9a_MD5.webp)
 
 图片
 
 - 退出系统，然后输入李总
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UIf6Lnz0qjbvefjtThLTLH5YfqW37iayJViba08NaLgBxVVjb536DfgRQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=13)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/fca913ad7832c4eb80dfd2b3de1dac20_MD5.webp)
 
 图片
 
 - 然后点击批阅，下一步
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UbatdBJ9ibsoM2rExqicoXH1mC3H97DzCicgN4bc0sRvOWhpdG2o5VNZIA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=14)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/07fbc056afb5e9a17d3b175715ee88a4_MD5.webp)
 
 - 登录赵六进行审核稿子
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6U8QEOH4sx58aWVGzLh5WuYWu2DhOibANEdxBXK0qbh8YgRZ5LXjJV8ng/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=15)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/e0e6fcd80cc3faf926fb3c8eacb1fa61_MD5.webp)
 
 图片
 
@@ -466,17 +466,17 @@ publicclassQRCodeUtil{
 
 - 审稿
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UUNXxnIQdQQemBY8pIaMic7tN4n7Q7BjcEptxEs4JE5Mofh8H96lzyOw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=16)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/1295f280775f08982b1918b62ee37c4a_MD5.webp)
 
 - 审核然后到盖章环节
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UaibgDSH9AKbNQpglGOpPnnw0TmRCxPlZz5NApbNygrWu418iaFib5gPeQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=17)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/29696b8d87eb1b555baaac55a7597973_MD5.webp)
 
 图片
 
 - 使用王总登录进行盖章
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6Uxl3pkt39hevJJthbtbEYXYVhSveNfP4tBWad0LeLicwYjtYDrKvZSYw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=18)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/12c517d9668a1c6cb33286ed1c71ccf2_MD5.webp)
 
 图片
 
@@ -484,25 +484,25 @@ publicclassQRCodeUtil{
 
 - 王总登录
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6Uqic9pMKDDqtYWaUwod7wz9eLicibr6Q3xG6BXtAlvh1hTFtfJKjE6Pt1A/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=19)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/74ae1c707bbbec1ce6e11f754632a5ef_MD5.webp)
 
 图片
 
 - 点击盖章
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6Uaj0hhcxibhOvlnVAl49iczOZAcDbyruS7EyUhnLiaURz7icP8aNYf1rtibg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=20)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/b88f88e4818fc62a214beea79f2c6588_MD5.png)
 
 图片
 
 - 点击加盖印章
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6U7aaxAKQ7tVLGTJqVDMNOJQGEAHlHART1BFDA2iabnLB50Wdr5c0gYMg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=21)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/13987250b4ee06b18b0f48e8e03150cd_MD5.webp)
 
 图片
 
 - 我们盖章前需要输入姓名+密码，需要输入错误报错
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UfgsrfvAibzxwjwWCYra2R6K3bcLxPHiaibTtBdibQ3Rt0tCibQYR5r9CngQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=22)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/0fa35012232f97dd4a7341a98731835a_MD5.webp)
 
 图片
 
@@ -512,31 +512,31 @@ publicclassQRCodeUtil{
 
 - 密码：123456
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UaUs7e6hvLhDjl41kWO2pY2cv66NAb5LpzEbFguyicY2WwzELJ3schCw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=23)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/9f58e575d2e37ef553be09c7f330f20a_MD5.webp)
 
 图片
 
 - 登录成功后有选择王五的个人章进行签字
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UpZRQFp0MUMiapRibKNYkQ1ULflMggFnWWlkHAc98ZPOcjZXahsvSWNMA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=24)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/58fdb3d3d65fb7ad395a3d3693710e86_MD5.webp)
 
 图片
 
 - 签字成功
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UxP2QmpUxTQdXsAS0XIynVrWzicWvq0jDEwk8KHKCOK3jU8UgIibk27GA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=25)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/3de5c6918eeffa28d1e8fdd15e1b162a_MD5.webp)
 
 图片
 
 - 公司盖章，重复以上步骤
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UXLPmGtM1FbKD7D6veoecGPtTApNJLibic8BQx2BJmSTIbkEfbnwliaerg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=26)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/8583a2256b9fb41f28aa3e02f8062721_MD5.webp)
 
 图片
 
 - 签字盖章成功
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6Up7AUPoaB56nCOKkKmFrclhyMscgnn3G9vQN2kh1gwST4YctXjoVmhQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=27)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/3cb7d99de047ae873f2b8e27353a5a53_MD5.webp)
 
 图片
 
@@ -544,19 +544,19 @@ publicclassQRCodeUtil{
 
 - 保存之后发布文件
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UibXMs3gQBibTiaLxP2cXusE4stnEC7OLM3LOn5aOpYgSvHtZDVwy9nibyw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=28)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/aa91dcc31f1433622a8de5ee6164e023_MD5.webp)
 
 图片
 
 - 公司文件展示
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6U7zEafSyANIyjggcdgAsZHpHiaIanfy8qib24SkZnc6v5w0ibjibfbA8Tzg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=29)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/cdfc342823b2f0e5681cf02934b35140_MD5.webp)
 
 图片
 
 - 盖章签字后的文件
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLHhACsYQAfZzt48ibQichicl6UFkpZcYicJvxG9Q3diaIUhq7Va4C4EznhINAXW7KyXyvKAQjicXpc4KBGQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=30)
+![图片](assets/2026-09-24%20-%20SpringBoot%20%E5%AE%9E%E7%8E%B0%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E7%AD%BE%E5%AD%97+%E5%90%88%E5%90%8C%E7%B3%BB%E7%BB%9F%EF%BC%81/a250dec92ff73922f102e7b7b048e143_MD5.webp)
 
 图片
 
