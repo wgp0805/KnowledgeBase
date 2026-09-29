@@ -12,7 +12,8 @@ sources:
   - raw/01-articles/2026-08-21 - DeepSeekHarness必装的10个插件.md
   - raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md
   - raw/01-articles/2026-09-25-DeepSeek Harness客户端来了，AI办公又多了一个王者？.md
-last_updated: 2026-09-28
+  - raw/01-articles/DeepSeek桌面版真不错，再见了WebUI。.md
+last_updated: 2026-09-29
 ---
 
 ## 定义
@@ -153,6 +154,14 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - **内置插件**：智能体团队（多 Agent 分工协作 + 角色配置）、语音输入、终端、Agent Loop、Subagent、网页搜索，继续贯彻 **Everything is a Plugin**
 - **产品意义**：与社区插件 `deepseek-harness-desktop`（anywhere-labs 的 Electron 壳）不同，这是 DeepSeek 自家官方客户端，标志 DeepSeek 从"模型、网页、App、API"扩展到 AI 办公赛道，与 [[WorkBuddy]]、[[豆包工作]]、千问办公正面相撞
 
+## 桌面版源码解析（2026-09-28，[[沉默王二]]，详见 [[摘要-dsh桌面版-electron源码解析]]）
+- **架构**：Electron 打包未重写界面——主窗口加载完整 WebUI，子进程跑 `dsh web` 同一套本地服务（端口 3080→19387），自动升级到 v0.1.7-rc.2（nightly 通道、10 分钟检查、需手动确认下载）
+- **登录**：OAuth PKCE，令牌存 `~/.dsh/credentials.yaml`（0600 权限）
+- **profile 隔离**：WebUI 用 `~/.dsh/profiles/web`，桌面版用 `~/.dsh/profiles/desktop`——会话/设置/凭证共享但**插件不共享**，desktop profile 只归 Electron 应用管
+- **插件无沙箱**：服务端插件与宿主共用同一 Electron Node 进程，页面同页运行无 iframe 隔离（SAFETY.md 警告勿装来路不明插件），详见 [[everything-is-a-plugin]]
+- **记忆现状**：无官方长期记忆工具，靠 `~/.dsh/AGENTS.md` + 项目 AGENTS.md/CLAUDE.md（首请求注入，预算 65536 字节）；`session_search` 源码存在但内置预设未启用
+- **推荐三件套**：DSH-better-sidebar（侧边栏+上下文自动注入的 Side Chat）、dsh-TUI（Sixel/Kitty 图片预览、时间回溯）、deepseek-harness-plugin.com 插件库
+
 ## 关联连接
 - [[DeepSeek]] — 所属公司
 - [[崔添翼]] — 团队负责人
@@ -178,6 +187,11 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - [[GGUF量化]] — 模型量化技术
 - [[摘要-deepseek-v4-1-flash-harness横评]] — 来源（V4.1-Flash Harness 横评）
 - [[摘要-deepseek-harness桌面客户端]] — 来源（官方桌面客户端实测）
+- [[摘要-dsh桌面版-electron源码解析]] — 来源（桌面版 Electron 源码解析）
+- [[沉默王二]] — 源码解析作者
+- [[Cordis]] — 插件框架底座
+- [[everything-is-a-plugin]] — 桌面版源码解析提炼的概念
+- [[Electron]] — 桌面版打包框架
 - [[欧阳俊杰]] — 桌面客户端实测作者
 - [[办公Agent]] — 桌面客户端进入的赛道
 - [[桌面Agent]] — 产品形态上位概念
