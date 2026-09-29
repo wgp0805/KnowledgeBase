@@ -1,3 +1,8 @@
+## [2026-09-29] ingest | 摄入 5 篇文章（IDEA插件/DSH桌面版/豆包VibeCoding/Marvis/Skill精选）
+- **变更**: 新增 Sources: [[摘要-idea-2026-2-必装插件-top100]], [[摘要-dsh桌面版-electron源码解析]], [[摘要-豆包vibe-coding淘宝宣传页]], [[摘要-marvis团队管家升级]], [[摘要-claude-code-skill删80%精选]]; 新增 Entities: [[Marvis]], [[通义灵码]], [[GitHubCopilot]], [[antigravity-awesome-skills]], [[安全沼]], [[Electron]]; 新增 Concepts: [[Logpoints]], [[everything-is-a-plugin]], [[Skill描述预算]], [[团队管家]]; 更新 Entities: [[苏三]], [[IntelliJIDEA]], [[DeepSeekHarness]], [[沉默王二]], [[Cordis]], [[码哥字节]], [[豆包工作]], [[腾讯]], [[WorkBuddy]], [[Superpowers]], [[Seedance]]; 更新 [[index.md]]
+- **冲突**: 无（DSH 桌面版源码解析与既有 [[摘要-deepseek-harness桌面客户端]] 为不同作者不同视角，并存不冲突）
+- **归档**: 5 个源文件已移动至 raw/09-archive/
+
 ## [2026-09-23] ingest | 摄入 ping 命令高级用法文章
 - **变更**: 新增 [[摘要-ping命令高级用法]]; 新增 Entities: [[ping命令]]; 新增 Concepts: [[网络连通性测试]], [[TTL]], [[DOS攻击]], [[NetBIOS]]; 更新 [[index.md]]
 - **冲突**: 无

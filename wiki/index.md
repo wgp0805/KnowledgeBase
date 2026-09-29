@@ -2450,3 +2450,29 @@
 ### 更新
 - [[WorkBuddy]]、[[DoubaoWork]]、[[Feishu]]、[[沉默王二]]、[[OnlyOffice]]、[[苏三]]、[[阿里云]]、[[ClaudeCode]]、[[模型路由]]、[[Subagent]]、[[DeepSeek]]、[[goals]]、[[Worktree]]、[[Skill]]、[[SkillSoftLink]]、[[程序员追风]]、[[VibeCoding]]、[[企业Agent落地]]、[[AgentEval]]、[[DeepSeekHarness]]、[[办公Agent]]、[[OpenClaw]]、[[Anthropic]]、[[Opus]]、[[OpenAI]]、[[GPT-6]]、[[Fable 5.1]]、[[Kimi]]、[[Cursor]]、[[AI视频生成]]、[[AI视频提示语]]、[[Seedream]]、[[Seedance2.5]]、[[豆包]]、[[Jev]]、[[判断模型]]、[[LibTV]]、[[微短剧]]、[[ShardingSphere]]、[[sharding]]、[[CAP理论]]、[[Paxos]]、[[Golang]]、[[Python]]、[[Nacos]]、[[OpenClawNET]]、[[AI Registry]]、[[Linux]]、[[Cloudflare]]、[[GitHub]]、[[小哈]]
 
+
+## 2026-09-29 批量 ingest（5 篇文章）
+
+### Sources
+- [[摘要-idea-2026-2-必装插件-top100]] — IDEA 2026.2 必装插件 Top 100 与三大趋势（AI 原生化/MCP 标准化/LSP 开源化）
+- [[摘要-dsh桌面版-electron源码解析]] — DeepSeek 桌面版 Electron 架构、profile 插件隔离与无沙箱风险源码解析
+- [[摘要-豆包vibe-coding淘宝宣传页]] — 非技术背景用豆包工作完成淘宝宣传页的实测与延迟切换技巧
+- [[摘要-marvis团队管家升级]] — Marvis 新增团队管家/本地知识库/硬件生态的大升级解读
+- [[摘要-claude-code-skill删80%精选]] — Claude Code Skill 断舍离：描述预算坑与精选 10 个 Skill
+
+### Entities
+- [[Marvis]] — 腾讯 AI 硬件管家产品，团队管家与 NAS 生态布局
+- [[通义灵码]] — 阿里 AI 编码插件，IDE 插件市场安装量 2.5M+
+- [[GitHubCopilot]] — 2026.2 起在 IDEA 中从插件变为原生内置
+- [[antigravity-awesome-skills]] — 37K star、1400+ Skills 的生态聚合仓库
+- [[安全沼]] — 豆包工作 Vibe Coding 实测作者
+- [[Electron]] — 跨平台桌面框架，DSH 桌面版打包载体
+
+### Concepts
+- [[Logpoints]] — 非侵入式日志断点调试方式（IDEA 2026.2 内置）
+- [[everything-is-a-plugin]] — DeepSeekHarness 一切皆插件的架构理念与代价
+- [[Skill描述预算]] — Claude Code 预加载 Skill 描述的 1% 上下文预算机制
+- [[团队管家]] — Marvis 按管家角色拆分子 Agent 的产品形态
+
+### 更新
+- [[苏三]]、[[IntelliJIDEA]]、[[DeepSeekHarness]]、[[沉默王二]]、[[Cordis]]、[[码哥字节]]、[[豆包工作]]、[[腾讯]]、[[WorkBuddy]]、[[Superpowers]]、[[Seedance]]
