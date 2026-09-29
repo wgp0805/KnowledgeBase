@@ -26,5 +26,5 @@ last_updated: 2026-09-29
 - [[团队管家]] — 该文提炼的核心概念
 - [[DeepSeek]] — 默认模型组合之一
 - [[Hunyuan]] — 默认模型组合之一（混元 Hy4 preview）
-- [[摘要-汤道生复盘WorkBuddy与AI竞争]] — 腾讯 AI 竞争战略背景
+- [[摘要-中美头部agent走向开放]] — 腾讯开放 Agent 战略背景
 - [[办公Agent]] — Marvis 差异化避开的赛道
