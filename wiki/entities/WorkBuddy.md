@@ -14,7 +14,8 @@ sources:
   - raw/01-articles/2026-09-24-WorkBuddy，提个需求就能做产品了？.md
   - raw/01-articles/2026-09-26-美业这样用WorkBuddy就对了.md
   - raw/01-articles/2026-09-27-你的workbuddy vs 我的workbuddy，差距就在这里！！.md
-last_updated: 2026-09-28
+  - raw/01-articles/2026-09-28-Marvis大升级，或将成为腾讯第二个跑出来的Agent.md
+last_updated: 2026-09-29
 ---
 
 ## 定义
@@ -177,6 +178,9 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - 解法：「专家·技能·连接器」添加「PPT 美化」skill → 召唤带「美图设计室」标识的「PPT 视觉美化师」专家，拖入原稿一句话美化，5 分钟导出可编辑 pptx（详见 [[美图设计室]]）
 - 判断标准：[[PPT成品感五要素]]（标题层级、重点数据、字体、配色、页面统一）
 
+### 与腾讯内部 Marvis 的错位（2026-09-29，详见 [[摘要-marvis团队管家升级]]）
+腾讯另一款 Agent [[Marvis]] 2026-09-24 升级后转向"电脑与硬件设备的 AI 管家"（[[团队管家]]、本地知识库、智能 NAS 生态），与 WorkBuddy 卷办公产物的路线错位竞争。业内判断：若 Marvis 走通硬件管家赛道，WorkBuddy 之外腾讯将拥有第二个跑出来的 AI Agent。
+
 ## 知识冲突（已解决，2026-08-21）
 - 旧定义（2026-06-23，[[摘要-OpenClaw小龙虾教程汇总]]）：WorkBuddy 是 [[OpenClaw]]（小龙虾）的一站式部署平台
 - 新定义（2026-08-21，[[摘要-workbuddy保姆级入门教程-苏三]]）：WorkBuddy 是国产桌面 AI 应用
@@ -224,3 +228,6 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - [[美图设计室]] — 接入的设计专家
 - [[PPT成品感五要素]] — PPT 质量判断标准
 - [[竞品视觉分析]] — 竞品豆包工作的分析链路（对照）
+- [[摘要-marvis团队管家升级]] — 2026-09-29 与腾讯内部 Marvis 的错位（来源）
+- [[Marvis]] — 腾讯另一款 Agent（硬件管家赛道）
+- [[团队管家]] — Marvis 提炼的概念

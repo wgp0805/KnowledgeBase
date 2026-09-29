@@ -9,7 +9,8 @@ sources:
   - raw/09-archive/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md
   - raw/01-articles/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md
   - raw/01-articles/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md
-last_updated: 2026-08-25
+  - raw/01-articles/2026-09-28-Claude Code 装了一堆 Skill，用了三个月，我删掉了 80% - 码哥字节.md
+last_updated: 2026-09-29
 ---
 
 ## 定义
@@ -93,6 +94,9 @@ grill-me（想清楚）→ superpowers brainstorming（补充细节）→ writin
 
 详见 [[强模型时代工作流选型]]。
 
+### 在 Skill 断舍离中的地位（2026-09-29）
+[[码哥字节]] 装 30+ Skill 两周后删掉 80%，Superpowers 是保留的 10 个高频 Skill 之一（三组中"每天用"组第一位），理由是 brainstorming + systematic-debugging 组合"减少约 40% 返工"；同文将其列为后端工程师推荐配置的三大主干之一（Anthropic 官方 skills + Superpowers + 从 [[antigravity-awesome-skills]] 精选 2-3 个）。详见 [[摘要-claude-code-skill删80%精选]] 与 [[Skill描述预算]]。
+
 ## 关联连接
 
 - [[OpenSpec]] — 兄弟方案，管"改了什么"
@@ -116,3 +120,6 @@ grill-me（想清楚）→ superpowers brainstorming（补充细节）→ writin
 - [[流程税]] — 强模型时代的成本概念
 - [[强模型时代工作流选型]] — 选型方法论
 - [[摘要-vibe-coding-文档管理]] — 来源（Vibe Coding 文档管理提及）
+- [[摘要-claude-code-skill删80%精选]] — 来源（Skill 断舍离中的保留清单）
+- [[Skill描述预算]] — 促使 Skill 精简的预算机制
+- [[antigravity-awesome-skills]] — 同文评测的生态仓库
