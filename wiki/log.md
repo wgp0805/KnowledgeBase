@@ -1812,3 +1812,12 @@
 - **变更**: 新增 Sources 42（含 [[摘要-分库分表vs-newsql对比]]、[[摘要-tidb-newsql入门]]、[[摘要-meta-muse-个人ai助理体验]]、[[摘要-claude-code-skill-7大反模式]]、[[摘要-倦怠社会]]、[[摘要-面试官select-poll-epoll]] 等）；新增 Entities 37（含 [[TiDB]]、[[MetaMuse]]、[[AutoGen]]、[[Vigloo]]、[[韩炳哲]] 等）；新增 Concepts 42（含 [[newsql]]、[[htap]]、[[任务闭环]]、[[功绩社会]]、[[世界模型]]、[[IO多路复用]] 等）；增量更新既有页 50+（含 [[WorkBuddy]]、[[ClaudeCode]]、[[Jev]]、[[Nacos]]、[[OpenClawNET]]、[[小哈]] 等）；更新 [[index.md]]（新增 121 条注册）
 - **冲突**: 无（1 篇《SpringBoot 电子文件签字+合同系统》与既有 [[摘要-springboot-电子文件签字盖章系统]] 重复，跳过建页）
 - **归档**: 43 个源文件已移动至 raw/09-archive/
+
+## [2026-10-08] ingest | 批量处理 71 篇新文章（09-29 至 10-07）
+- **变更**: 新增 Sources 71（[[摘要-豆包Spell对标Muse]]、[[摘要-openai-devday-2026-gpt61sol-dots]]、[[摘要-workbuddy-vs-豆包工作-10维对比]] 等）；新增 Entities 39（[[Manus]]、[[Gemini4Argon]]、[[Dots]]、[[Spell]]、[[小豆]]、[[ClawGod]] 等）；新增 Concepts 46（[[默认委托权]]、[[意图路由]]、[[留存即分发]]、[[BitterLesson]]、[[多级缓存]] 等）；增量更新既有页面 100+；更新 [[index.md]]（新增 156 条登记）
+- **冲突**: 6 处，均已在对应页面建立 `## 知识冲突` 区块并列保留：[[Manus]]（与 Meta 关系两说）、[[Gemini4Argon]]（100万 token 是输出还是上下文）、[[SpringAI_Alibaba]]（分层归属两说）、[[小豆]]（主导团队两说）、[[HandyBot]]（媒体盘点 vs 官方否认）、[[LightVela]]（上线时间线两说），待后续来源裁决
+- **归档**: 71 个源文件已移动到 raw/09-archive/
+
+## [2026-10-08] ingest | 补处理第 72 篇 OpenMuse 文章
+- **变更**: 新增 [[摘要-openmuse-agent工位与浏览器接管]], [[OpenMuse]]; 更新 [[index.md]]
+- **冲突**: 无

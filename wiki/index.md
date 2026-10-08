@@ -2476,3 +2476,171 @@
 
 ### 更新
 - [[苏三]]、[[IntelliJIDEA]]、[[DeepSeekHarness]]、[[沉默王二]]、[[Cordis]]、[[码哥字节]]、[[豆包工作]]、[[腾讯]]、[[WorkBuddy]]、[[Superpowers]]、[[Seedance]]
+
+## 2026-10-08 ingest（71 篇新增）
+
+### Sources
+- [[摘要-豆包Spell对标Muse]] — 字节4月起内测个人助理代号Spell对标Muse，梳理Muse/GrokBot/Manus战局与字节三道坎
+- [[摘要-workbuddy-agnes-短视频]] — WorkBuddy总导演+Agnes免费出图+ffmpeg本地合成的零成本短视频七步流水线
+- [[摘要-hi-ic与组织变革]] — Elena Verna提出HI-IC：AI把影响力与headcount分开，管理应是职业路径而非晋升
+- [[摘要-重读苦涩的教训]] — 用Bitter Lesson的scaling逻辑推翻垂直Agent平台创业设想，Agent强化终被模型智能抹平
+- [[摘要-产品经理转型FDE指南]] — PM转FDE六步路径：扎进客户现场交付并回流产品，破除三个错觉
+- [[摘要-windows-cli-引号陷阱]] — cmd.exe把单引号当字面字符导致--resume 'uuid'失败，三shell引号语义差异
+- [[摘要-Manus2通用Agent]] — Manus 2.0用新Harness+Cascade把通用做成体验，Studio/Cue整合入口与调度能力
+- [[摘要-instinct创始人对话个人agent]] — Instinct创始人：个人Agent自研混合推理管线降本，商业模式终局是AI版苹果商店
+- [[摘要-openclaw-agent浪潮养虾养不活]] — OpenClaw 24.8万星登顶但封装层产品集体撤退：无壁垒+边际成本压垮免费模式
+- [[摘要-jev哑巴模型产业改变]] — "哑巴模型"Jev只输出判断不聊天，是模型分档趋势的极端样本，凸显多模型路由价值
+- [[摘要-openai-devday-2026-gpt61sol-dots]] — OpenAI DevDay连发20+：Dots自带云电脑7×24主动干活，GPT-6.1 Sol价格砍80%
+- [[摘要-muse爆火大厂冲进personal-agent]] — Muse点燃三周集体冲锋：腾讯三线、阿里押记忆、字节Spell，真战场是平台那堵墙
+- [[摘要-anthropic-glm53网络安全评估]] — Anthropic评估GLM-5.3已能自主开发端到端漏洞利用且护栏易绕过
+- [[摘要-a16z-personal-agent对话]] — a16z：省钱场景切入、Proactivity是护城河但有红线、Invisible Agent是理想形态
+- [[摘要-idea五款代码质量检查插件]] — 五款IDEA代码质量插件选型：Alibaba规约查规范，PMD+FindBugs+SonarLint找bug
+- [[摘要-instinct-客服决策模型]] — ZooWork开源客服决策模型Instinct：5B定制+校准输出替代通用LLM做售后决策
+- [[摘要-personal-agent六条海外路线]] — 入口/上下文/权限/执行/信任五维度拆解六条海外路线，胜负手是默认委托权
+- [[摘要-gemini4-argon发布与刷榜质疑]] — Gemini 4 Argon跑分领先但遭Benchmaxxing质疑，真实业务落地有距离
+- [[摘要-claude-code-mcp-unity游戏]] — Claude Code+动态注册MCP服务器从空文件夹做出可玩Unity游戏，附Skill/MCP开销权衡
+- [[摘要-ai产品经理经营判断力]] — AI消解执行瓶颈后判断力成新瓶颈，Cynefin分域+半人马模型定义人机分工
+- [[摘要-spring-retry-vs-guava-retry]] — Spring-Retry只按异常重试，Guava Retrying还可按返回值重试，附策略与退避对比
+- [[摘要-微服务多级缓存架构]] — 本地缓存→Redis→MySQL分级兜底+MQ双写一致性的多级缓存设计
+- [[摘要-独立开发者推广困局]] — 推广从写第一行代码前开始：公开构建攒信任+ASO长尾获客
+- [[摘要-谷歌发布gemini4-argon]] — Gemini 4定位"工作模型"、分阶段开放，内部案例与定价解读
+- [[摘要-9家ai大厂token福利]] — 国庆前后9波AI大厂模型/会员免费福利汇总（附到期时间）
+- [[摘要-clawgod解锁claude-code]] — 一行命令解锁Claude Code全部权限的开源补丁ClawGod：解锁清单、卸载与风险
+- [[摘要-gemini4-argon长程工程智能体]] — 谷歌无预告发布Gemini 4 Argon：100万输出Token支撑长程工程闭环与安全霸榜
+- [[摘要-opus55代码做视频]] — 火的不是视频生成模型，而是让Claude Code/Codex写HTML/Canvas/Remotion动画逐帧导出MP4
+- [[摘要-workbuddy-建筑业四场景]] — 建筑项目部标书/周报/专项方案/竣工资料四大文书场景的WorkBuddy落地方案
+- [[摘要-小豆个人agent卡位]] — 字节个人助理应用内部定名「小豆」，腾讯三路推进，个人Agent已成大厂组织能力之战
+- [[摘要-mybatisplus-pro-crud自动化]] — MybatisPlus Pro用BaseController+反射自动生成QueryWrapper消灭重复代码
+- [[摘要-workbuddy-微信小程序教程]] — WorkBuddy小程序生成/预览/发布链路四步流程与两个关键坑
+- [[摘要-agent-意图路由设计]] — 生产级意图路由分层：规则/向量/决策模型/大模型/问用户，配合handoff与回退上限
+- [[摘要-anthropic-人人都得学会当pm]] — Anthropic对谈：AI没取消PM而是换掉最贵部分（判断、推进、收拢）
+- [[摘要-deepseek-16000张卡]] — 买16000张昇腾卡是"多掏钱换确定拿卡的时间"，开源六组件把算子适配变成换编译器
+- [[摘要-workbuddy-vs-豆包工作-10维对比]] — 十维实测WorkBuddy vs豆包工作，选型看资料、团队、用量三问
+- [[摘要-qtscrcpy多机群控]] — 32.1k Star安卓投屏工具，免Root，独有群控与按键映射
+- [[摘要-spring-ai-alibaba停更分析]] — Release停了commit没停是"换心脏"养护模式；Java AI分三层台阶选型
+- [[摘要-chatgpt-dot实测]] — ChatGPT Dot实测：云端9核Debian通宵交付，硬伤是国内生态孤岛
+- [[摘要-腾讯企鹅微单接单平台]] — 腾讯微信内AI接单平台，定金+验收信任中介撮合需求方与OPC手艺人
+- [[摘要-哑铃图门店bi可视化]] — 哑铃图用于门店BI两期数据对比的适用场景与局限
+- [[摘要-workbuddy建站工作流]] — 一句话需求经专家团四阶段SOP 35分钟交付可运营外贸站
+- [[摘要-豆包千问元宝转向personal-agent]] — 豆包/千问/元宝三家集体转向Personal Agent的三种切入方式
+- [[摘要-腾讯四款muse产品盘点]] — 腾讯至少4团队做腾讯版Muse（小微/LightVela/HandyBot/元宝）+ Agent战场三段论
+- [[摘要-tencent-handybot官方回应]] — 官方否认TX Handy Bot传闻，"Personal AI Agent"一词被重新占据
+- [[摘要-ai创业劝退指南]] — AI外包/培训创业真实成单率不足10%的劝退实录与三条出路
+- [[摘要-claude-code-mods机制]] — Claude Code v2.1.287推出Mods进程内事件中间件，与DeepSeek Harness同向但API不兼容
+- [[摘要-ai时代私域用户认知系统]] — AI读懂用户需求，倒逼私域从"反复触达"重构为企业用户认知系统
+- [[摘要-ai时代事务型csm]] — 事务型工作交给AI，懂业务的CSM反而更值钱（CS=CO+CX四层模型）
+- [[摘要-分布式session实现难点]] — Nginx轮询致Session不共享频繁掉线，四种方案对比+Spring Session/Redis落地
+- [[摘要-ollite-rt-旧手机ai服务器]] — 开源OlliteRT把闲置安卓手机变成OpenAI兼容的24小时本地推理服务器
+- [[摘要-agent提示词9技巧]] — 不换模型不换Harness提升Agent输出质量的9个官方提示词技巧
+- [[摘要-workbuddy-汽车业四场景]] — 4S店销售/售后/二手车/店总四类角色的AI办公落地场景
+- [[摘要-grok-bot-六助理ai团队]] — Grok Bot六个分工助理搭AI团队，Personal Agent四条判定标准与"第一指令"群规
+- [[摘要-deepseek-harness-错题本插件]] — 三条提示词让DeepSeek Harness自组subagent团队零代码造出错题本插件
+- [[摘要-lora微调五步教程]] — Qwen2.5-0.5B+LLaMA-Factory五步LoRA微调并接入Dify，全程不到6元
+- [[摘要-deepseek-harness-桌面版万字拆解]] — 从任务入口/定制三层/三阶段评审/竞品对比拆解Harness桌面版
+- [[摘要-github定律-openxxx复刻]] — "xxx刷屏次日Openxxx上热榜"的GitHub定律，差距在判断力、品味与渠道运营
+- [[摘要-claude-code-mod-雨姐面板]] — 六步实测Claude Code Mod搭自定义面板：三文件结构、三种钩子、marketplace分发
+- [[摘要-agent任务取消机制]] — Agent取消四位一体方案：信号传递+Loop主动检查+杀进程组+补齐tool_result
+- [[摘要-20个9月github热门开源项目]] — 2026年9月GitHub增星榜20个项目盘点，头部几乎全是Agent生态配套
+- [[摘要-机器视觉验收99量产95]] — 验收99%、量产95%纠纷四窟窿：分母口径/过杀成本/复现性漂移/合同字段
+- [[摘要-向量库伪命题与知识图谱本体论]] — 向量库语义检索脆弱，图谱+RAG三层防御解医疗幻觉，本体论是灵魂
+- [[摘要-nanowork-personal-agent省200刀]] — 国内平替纳米Work以"敏感操作等确认+截图留底"省下200多刀并查出密钥泄露
+- [[摘要-产品指标从业务倒推]] — 指标从业务结果倒推：四要素定口径、三层指标树（结果/流程/行为状态）
+- [[摘要-deepseek拟人形象大战]] — 鲸鱼娘社区共识vs个人作品，两种社区文化撞车的结构性冲突复盘
+- [[摘要-ogilvy-25条大师心法]] — 奥格威25条广告与经营心法：不能提升销售则无创意，品牌形象年复一年持续呈现
+- [[摘要-workbuddy-宠物店四场景]] — 宠物店到期提醒、寄养日报、科普获客、档案小系统四场景提示词
+- [[摘要-retention-is-distribution]] — Tibo访谈：agent分发看留存与使用质量，质量本身即分发，脚手架随模型升级贬值
+- [[摘要-cline-free-models]] — ClineFreePool把Cline轮换免费模型经多账号池反代接入任意Agent
+- [[摘要-java-cpu-troubleshooting]] — CPU打满不重启，进程→线程→堆栈→代码行五步用top/jstack定位根因
+
+### Entities
+- [[华为]] — 中国科技公司，国产AI芯片（昇腾系列）与超节点组网的供应方
+- [[卢诗翰]] — 微信公众号「诗翰」作者，长期观察网文、二次元与开源社区文化冲突
+- [[纳米Work]] — 360推出的超级个人云端助理，7×24云电脑+100多款大模型
+- [[企鹅微单]] — 腾讯微信内AI创作接单平台，撮合需求方与OPC手艺人
+- [[昇腾]] — 华为国产AI加速芯片系列，中国大模型公司受限下的主力国产算力
+- [[小豆]] — 字节即将推出的独立个人助理应用内部定名，李福祥主导、Spell供端侧能力
+- [[叶小钗]] — 人人都是产品经理平台作者，AI客服、RAG与生产级智能体落地经验
+- [[中芯国际]] — 中国大陆先进制程AI芯片唯一量产产线拥有者，供应链产能瓶颈
+- [[a16z]] — 美国顶级风投Andreessen Horowitz，通过播客输出AI产业趋势一线判断
+- [[Agnes]] — 提供图像生成与图生视频的AI平台，免费档可经MCP接入Agent工具
+- [[AI产品经理老猫]] — 人人都是产品经理原创作者，主张指标从业务结果倒推而非先找漂亮数字
+- [[Archify]] — 开源Agent Skill，把系统描述或代码仓库画成交互式架构/流程/调用图表
+- [[ClawGod]] — 开源（GPL-3.0）Claude Code本地补丁工具，一行命令解锁全部权限
+- [[Cline]] — 编程Agent，提供轮换免费模型额度，多账号池反代可接入任意Agent
+- [[DavidOgilvy]] — 大卫·奥格威，奥美广告创始人，品牌形象理论奠基人，"广告教皇"
+- [[DiogoAlmeida]] — TypeSafeAI创始人，前OpenAI研究员，RLHF与ChatGPT早期贡献者
+- [[Dots]] — OpenAI DevDay 2026发布的常驻自主智能体，GPT-6 Astra驱动的云电脑
+- [[ElenaVerna]] — 增长领域知名负责人（SurveyMonkey/Miro/Reforge），HI-IC概念提出者
+- [[Gainsight]] — 客户成功领域代表性SaaS厂商，按客户价值与复杂度设计触点的方法论
+- [[Gemini4Argon]] — Google DeepMind 2026-09年度旗舰大模型，定位从聊天模型转向"工作模型"
+- [[GLM-5.3]] — 智谱AI旗舰大模型，首个通过NIST CAISI独立评估的开源前沿模型
+- [[GuavaRetrying]] — 按异常与返回值双重条件重试的Java框架，Guava第三方扩展
+- [[HandyBot]] — 腾讯"Your Personal AI Agent"微信服务号，官方否认独立App传闻
+- [[Instinct]] — Noah Shinn创立的个人Agent公司，无界面形态（专属电话/邮箱配Agent）
+- [[Instinct决策模型]] — ZooWork推出的客服场景系列决策模型，校准输出替代作文式JSON
+- [[LightVela]] — 腾讯云轻量云团队云端Agent托管平台，背后跑开源智能体Hermes Agent
+- [[Manus]] — 定位General Agent的AI产品，2.0用新Harness+Cascade把通用做成体验
+- [[MybatisPlusPro]] — MyBatis-Plus增强工具，BaseController+反射自动生成CRUD消灭重复代码
+- [[NoahShinn]] — 个人Agent公司Instinct创始人兼CEO，将公司带到100亿美元估值
+- [[OlliteRT]] — 把闲置安卓手机变成OpenAI兼容本地推理服务器的开源项目（Apache-2.0）
+- [[QtScrcpy]] — 免费开源安卓投屏控制工具（32.1k Star），免Root、独有群控与按键映射
+- [[RichardSutton]] — 强化学习奠基者，2019年写下《The Bitter Lesson》
+- [[Scrcpy]] — 开源安卓屏幕投射与控制项目，QtScrcpy等衍生工具的上游基础
+- [[SkillSpector]] — NVIDIA开源Agent Skill安全扫描工具，查提示注入/数据外传/危险代码
+- [[Spell]] — 字节豆包内部个人助理探索产品代号，被普遍视为"字节版Muse"
+- [[SpringSession]] — 把HttpSession透明切换到Redis等外部介质的分布式Session框架
+- [[TileLang]] — 面向GPU/NPU算子开发的DSL，DeepSeek开源工具链的语言层
+- [[UnityMCP]] — 跑在Unity Editor里的MCP插件，AI从空文件夹操控Unity工程
+- [[ZooWork]] — 企业AI平台公司（团队来自谷歌/阿里/字节），推出开源客服决策模型Instinct
+
+### Concepts
+- [[半人马模型]] — 业余棋手+普通商用电脑胜顶级棋手+超算，人机协作中判断力高于纯算力
+- [[本体论]] — 规定实体类型与关系的建模规则，让知识图谱具备行业KnowHow的灵魂层
+- [[常驻智能体]] — 拥有独立云端计算环境、7×24小时主动运行的Always-on Agent
+- [[超级个体]] — 熟练指挥Agent编队完成整段工作流的个人，团队协作协议的基本单元
+- [[大创意]] — 奥格威核心概念：没有大创意，永远不会赢得名声和财富
+- [[代码做视频]] — 让Agent编写HTML/WebGL/Remotion动画逐帧导出MP4的视频制作方式
+- [[多级缓存]] — 本地缓存→Redis→MySQL由近到远逐级兜底的缓存设计+MQ双写一致性
+- [[多账号池轮询]] — 多账号组成资源池轮询切换，规避单账号429限流
+- [[二级监控]] — 用另一套算力持续盯着主Agent是否风险过高或被prompt injection
+- [[复购留存运营]] — 线下小店以绑定客户与档案为核心的留存复购经营方法
+- [[公开构建]] — 写第一行代码前就开启推广，在垂直阵地分享过程而非推销产品
+- [[机器视觉验收指标口径]] — 把"准确率≥99%"展开成可对账、可仲裁一张表的方法论
+- [[静态代码检查]] — 不运行程序分析源码发现规范问题与潜在bug的自动化手段
+- [[留存即分发]] — 分发由agent决定而agent看留存，质量本身就成了分发
+- [[模型安全护栏]] — 限制强能力模型被滥用的安全机制及其三层失效路径
+- [[模型分化]] — 按任务复杂度/频率/速度/成本切分模型档位，而非一个最强通用模型打天下
+- [[默认委托权]] — 用户把事交给某Agent从偶尔尝试变成默认习惯，Personal Agent赛道胜负手
+- [[品牌形象理论]] — 奥格威奠基：产品如人有个性，品牌形象必须年复一年持续呈现
+- [[瓶颈理论]] — 整体产能由最弱核心工序决定，只有打通瓶颈才能提升整体产出
+- [[私域]] — AI时代重新定义为企业"用户认知系统"，而非反复触达的流量渠道
+- [[通用Agent]] — 不聚焦单一场景，自主判断调用工具承担跨任务链条入口与调度
+- [[围墙花园]] — 超级平台用规则与风控封闭生态，Agent最难的是"别人让不让你办"
+- [[哑铃图]] — 两点连线表示差异的可视化图表，适合两期数据对比，超10组类别失色
+- [[言语化采样]] — 提示词强制模型输出多个候选答案及各自概率，对抗典型性偏差
+- [[意图路由]] — 用户一句话进来先判断交给哪条处理路径（子Agent/工作流/模型档位）
+- [[长程工程智能体]] — 依托超大单次输出能力，在一次会话内完成长链条工程任务
+- [[指标树]] — 结果/流程/行为状态三层指标结构，为每个数字规定用途而非堆看板
+- [[Agent边际成本]] — 每次调用燃烧Token，用户越活跃亏损越汹涌的反向互联网公式
+- [[Agent任务取消]] — 信号传递+Loop主动检查+杀进程组+补齐结果四位一体的取消方案
+- [[Agent原生软件]] — 人能做的事agent也应该能做的软件取向，内建primitives基础设施
+- [[Agent主动性]] — agent主动发现机会、规避风险、把事做掉的能力，有红线的护城河
+- [[AgentSkill安全扫描]] — 安装第三方Skill前静态检查提示注入/数据外传/危险代码的防护流程
+- [[AI建站工作流]] — 一句话模糊需求变可运营网站的四阶段SOP（澄清建团/路由调度/连接确认/落地收尾）
+- [[AI拟人形象]] — 社区为AI模型创作的二次元人格化形象及其背后的社区文化冲突
+- [[ASO]] — 应用商店优化，通过标题、关键字与评论获取自然搜索流量的获客方式
+- [[Benchmaxxing]] — 模型针对benchmark优化导致跑分与真实能力落差的"刷榜"现象
+- [[BitterLesson]] — Sutton 2019随笔：最终取胜的往往是算力与学习方法而非人类知识
+- [[CDSS]] — 大模型之前基于规则推理的临床决策支持系统，知识图谱的经典形态
+- [[CSM]] — 客户成功经理，核心公式CS=CO+CX，对客户留存与增长负责
+- [[Cynefin框架]] — 把场景划分为清晰/繁杂/复杂/混沌域的感知与应对问题决策体系
+- [[GitHub定律]] — xxx刷屏次日Openxxx上热榜，商业产品与开源复刻间隔已缩到天
+- [[HI-IC]] — 高影响力个人贡献者：独立发现问题、决策并跨职能执行到底
+- [[Java高CPU排障]] — 进程→线程→堆栈→代码行五步排查链路，保留现场优先、不急于重启
+- [[JavaAI三层台阶]] — 接入层/编排层/运行时层的Java AI框架三层选型模型
+- [[Mods]] — Claude Code v2.1.287引入的进程内事件扩展机制，TS/JS函数挂生命周期钩子
+- [[WindowsShell引号陷阱]] — cmd.exe把单引号当字面字符，Bash习惯导致Windows CLI参数失败
+
+## 补充（2026-10-08）
+- [[摘要-openmuse-agent工位与浏览器接管]] — OpenMuse 单 Agent 执行环境与浏览器接管设计的摘要。
+- [[OpenMuse]] — CopilotKit 开源的个人 Agent"工位"，可接管实时浏览器会话。
