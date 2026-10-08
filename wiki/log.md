@@ -1824,3 +1824,7 @@
 
 ## [2026-10-08] lint | 冲突裁决：6 处统一标记为待查（方案 C）
 - **变更**: [[Manus]]、[[Gemini4Argon]]、[[SpringAI_Alibaba]]、[[小豆]]、[[HandyBot]]、[[LightVela]] 的 ## 知识冲突 区块均追加 **状态：⏳ 待查**，两种说法并列保留，待后续来源裁决
+
+## [2026-10-08] lint | 修复了 50 个索引问题
+- **变更**: 49 个未同步页面补登记至 [[index.md]]（Sources 16 / Entities 12 / Concepts 19 / Syntheses 1）；修正 [[synthesis-springboot-vue-drawlottery-system]] 错名（实际文件为 syntheses/springboot-vue-drawlottery-system.md，log.md 历史记录按 append-only 保留原样）
+
