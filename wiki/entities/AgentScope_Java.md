@@ -2,8 +2,8 @@
 title: "AgentScope_Java"
 type: entity
 tags: [AI框架, 阿里, 通义, 生产级, 智能体, 分布式, 多租户]
-sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/AgentScopeJava2.0正式发布了！.md, raw/09-archive/AgentScope入门指南.md]
-last_updated: 2026-07-22
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/AgentScopeJava2.0正式发布了！.md, raw/09-archive/AgentScope入门指南.md, "raw/01-articles/2026-10-03 - Spring AI Alibaba已停更了，Java还有希望吗？.md"]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -72,7 +72,15 @@ Spring AI Alibaba 偏重"AI 能力接入"（RAG、聊天机器人），AgentScop
 - 主 Agent（HarnessAgent）在推理中自主决定是否需要调用子 Agent
 - Java 端可用 `SubagentDeclaration.builder()` 补强，支持注入 toolkit
 
+### SAA 停更风波中的接棒者（2026-10-03，详见 [[摘要-spring-ai-alibaba停更分析]]）
+- 版本节奏对比：AgentScope Java 2.0.2（9-03）→ 2.0.3（9-07）四天一版 vs [[SpringAI_Alibaba]] 正式版半年一发，资源倾斜肉眼可见
+- 官方口径仍是两者定位不同、独立发展（SAA 以 Graph 编排为核心，AgentScope 以 Agentic 为核心，都是企业主流选择），但 SAA 最后一个正式版引入的正是 AgentScope 集成——被视为"交接前的铺路"
+- 在 [[JavaAI三层台阶]] 中被归为**运行时层**（会话持久化、多租户隔离、沙箱执行、断点恢复），对应"让 Agent 长期稳定运行"的需求
+- 注：本页旧文把 SAA 描述为"AI 能力接入"层，与该文分层不同，见 [[SpringAI_Alibaba]] 的知识冲突块
+
 ## 关联连接
+- [[摘要-spring-ai-alibaba停更分析]] — 来源（停更风波与三层选型）
+- [[JavaAI三层台阶]] — 该文的分层选型框架
 - [[AgentHarness]] — 工程化框架
 - [[A2A]] — Agent 间通信
 - [[MCP]] — 模型上下文协议

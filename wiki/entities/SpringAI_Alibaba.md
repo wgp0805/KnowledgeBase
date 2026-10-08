@@ -2,8 +2,8 @@
 title: "SpringAI_Alibaba"
 type: entity
 tags: [AI框架, 阿里, 多智能体, Java]
-sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md]
-last_updated: 2026-07-09
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md, "raw/01-articles/2026-10-03 - Spring AI Alibaba已停更了，Java还有希望吗？.md"]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -36,7 +36,22 @@ last_updated: 2026-07-09
 ### RAG 支持
 内置 RAG 支持，集成 DashScope 通义模型实现检索增强生成。
 
+### 停更传闻核查（2026-10-03，苏三，详见 [[摘要-spring-ai-alibaba停更分析]]）
+- **传闻为真的部分**：GitHub 10.8k Star，最后一个正式版 v1.1.2.2（2026-03-10）后半年无新版；期间仅有 v2.0.0-M1.1（2026-06-25，跟进 Spring AI 2.0）
+- **另一半真相**：main 分支未停——v1.1.2.2 后累计 137 个提交（Graph 序列化修复、Admin 中文化、JUnit 5 迁移等，以养护为主无大功能主线）
+- **"换心脏"证据**：v1.1.2.2 最大特性是引入 AgentScope Java 集成（`spring-ai-alibaba-starter-agentscope`，用 AgentScopeAgent 封装 ReActAgent 进 Graph 编排）；官方公告称 SAA（Graph 编排）与 AgentScope（Agentic）独立发展不替代，但节奏对比悬殊——AgentScope 四天一版 vs SAA 半年一版
+- **选型结论**：进入"养护模式"，已用者不必恐慌性迁移，新项目需评估"半年一更"是否可接受；分层选型见 [[JavaAI三层台阶]]
+
+## 知识冲突
+- **编排层还是接入层？（2026-10-08 标注）**
+  - 旧说法（[[AgentScope_Java]] 页面，2026-07）：「Spring AI Alibaba 偏重'AI 能力接入'（RAG、聊天机器人），AgentScope 偏重'Agent 工程化'」——即把 SAA 归入接入层
+  - 新说法（[[摘要-spring-ai-alibaba停更分析]]，2026-10-03）：Java AI 分三层，**接入层是 Spring AI 2.0 / LangChain4j，SAA 在编排层**（Graph 工作流、条件路由、状态持久化），运行时层才是 AgentScope
+  - 两种说法并列保留；按 SAA 自身 Graph Runtime/工作流编排的核心特性，新说法（编排层）与本页"多智能体系统和工作流编排"的定义更一致
+
 ## 关联连接
+- [[摘要-spring-ai-alibaba停更分析]] — 来源（停更传闻核查与三层选型）
+- [[JavaAI三层台阶]] — 该文提出的选型框架
+- [[AgentScope_Java]] — 兄弟框架（含不同的分层表述）
 - [[SpringAI]] — 兼容的 Spring AI 生态
 - [[DashScope]] — 底层模型 API
 - [[ReAct_Agent]] — Agent 模式

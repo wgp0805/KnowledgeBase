@@ -2,8 +2,8 @@
 title: "Yuanbao"
 type: entity
 tags: [AI产品, 腾讯, AI助手]
-sources: [raw/01-articles/2026-08-26-腾讯汤道生深度复盘WorkBuddy、元宝以及AI竞争：和AI一起长跑的这两年.md]
-last_updated: 2026-08-27
+sources: [raw/01-articles/2026-08-26-腾讯汤道生深度复盘WorkBuddy、元宝以及AI竞争：和AI一起长跑的这两年.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -17,8 +17,11 @@ last_updated: 2026-08-27
 - **能力复用**：元宝沉淀的基础能力今天被 WorkBuddy 等产品复用
 - **竞品学习**：市场竞品在拟人化和语音体验上做得不错，值得学习
 - **汤道生判断**：只要方向正确，耐心打磨产品，做时间的朋友，对元宝长期发展有信心
+- **筹备 Personal Agent（2026-10-03，详见 [[摘要-豆包千问元宝转向personal-agent]]）**：据权威媒体报道元宝正在筹备推出 Personal Agent，是在已有能力上新增模块还是独立产品暂无可靠消息（内部仍在评估）；文章认为元宝做通用 AI 助手已积累基础，个人智能体核心比拼的不是模型能力而是服务的宽度与深度（三分靠模型七分靠应用）——三家切入方式中元宝"或许是重新设计一个更原生的 Personal Agent"
 
 ## 关联连接
+- [[摘要-豆包千问元宝转向personal-agent]] — 来源（Personal Agent 筹备）
+- [[personal-ai-agent]] — 筹备进入的赛道
 - [[摘要-汤道生复盘WorkBuddy与AI竞争]] — 来源
 - [[Tencent]] — 母公司
 - [[Hunyuan]] — Co-Design 的大模型

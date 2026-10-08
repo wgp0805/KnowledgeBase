@@ -9,6 +9,7 @@ sources:
   - raw/01-articles/2026-09-24-A社O社，坐不住了.md
   - raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md
   - raw/01-articles/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md
+  - raw/01-articles/2026-10-03-一年前说 PM 会被淘汰，现在 Anthropic 说：人人都得学会当 PM.md
 last_updated: 2026-10-08
 ---
 
@@ -40,7 +41,19 @@ SemiAnalysis 7 月文章认为 Meta 最有可能追上 [[OpenAI]] 与 Anthropic�
 ### 对智谱 GLM-5.3 的网络安全评估（2026-09-30）
 Anthropic 发布对 [[智谱]] [[GLM-5.3]] 的网络安全评估：五个月前 Anthropic 首次实现自主开发端到端漏洞利用的 Claude Mythos Preview 通过 Project Glasswing 限制性开放（已帮可信防御者发现超 1 万个漏洞），如今同等能力已扩散到 GLM-5.3，且后者发布时缺少有效护栏——欺骗性提示/预填思考 token/abliteration 可使恶意任务参与比例分别达 64%/92%/100%，相同攻击对保留护栏的 Claude 模型全部无效。Anthropic 据此主张：防御者应获得与攻击者至少同等强的前沿模型，政府应对强能力模型开展独立安全测试，呼吁开放权重模型开发者设置适当护栏。详见 [[摘要-anthropic-glm53网络安全评估]]。
 
+### 人人都得学会当 PM（2026-09-10 Lenny and Friends Summit 对谈）
+来自 [[摘要-anthropic-人人都得学会当pm]]。Ami Vora 与 Mike Krieger（年初转 IC）在对谈中的要点：
+- **PM 定义不变、节奏剧变**：产品始终是"人的问题"与"可用技术"之间的桥；技术从五年一变变成两个月一变，要"人的一侧盯住不放，技术的一侧保持新鲜眼光"
+- **AI 没取消 PM，换掉了最贵的部分**：过去贵在做之前想清楚，现在贵的是信息不足时做判断、在岔路中持续推进、把并行实验收拢成产品
+- **Mike 的亲身改口**：转 IC 后曾以为 Claude 能顶 PM，被 PM lead 提醒后发现客户/安全/协作等"胶水连接工作"仍需有人负责，一周后承认"你是对的"；Claude 目前还不是 convenor（召集人），但"不是因为做不到，大概只是还没打开那个设置"
+- **团队方法**：frame the chaos（给混乱搭框架）+ 清晰的 DRI；实验称 bet、每个 bet 有 lead 决定加码或收掉；多押几注找到 PMF 后再收拢成一个产品
+- **产品主张**：做 agent-native 与 malleable software，先建 primitives 底层（详见 [[Agent原生软件]]）
+- **边界提醒**：这是模型公司的内部视角——Anthropic 有 foundations 团队统一底层、有实验室把项目停放进 eval harness 等新模型，多数公司没有这种余量
+
 ## 关联连接
+- [[摘要-anthropic-人人都得学会当pm]] — 来源（PM 角色对谈）
+- [[Agent原生软件]] — Mike 提出的 agent-native/primitives 设计观
+- [[产品经理角色]] — 对谈讨论的角色概念
 - [[摘要-顶模-fable-51发布到底强了多少]] — 来源
 - [[摘要-codex重置的真正原因]] — 来源（封号风波与迁移窗口）
 - [[摘要-anthropic优化生物模型]] — 来源（优化生物模型）

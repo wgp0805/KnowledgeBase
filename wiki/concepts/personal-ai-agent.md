@@ -2,7 +2,7 @@
 title: "personal-ai-agent"
 type: concept
 tags: [PersonalAgent, Agent, AI产品, 个人助理]
-sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md]
+sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md]
 last_updated: 2026-10-08
 ---
 
@@ -25,6 +25,7 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - **产品形态分野**：办公 Agent 是"帮你干活的同事"（授权都在自己手里的文件/公司系统，已跑出规模），Personal Agent 是"替你过日子的管家"（要的权限很多不在自己手里——淘宝账号是你的但"店"不是你的）；技术底座趋同但面对的"墙"高度完全不同，详见 [[围墙花园]]
 - **a16z 产品哲学（2026-09）**：消费者不在乎"提升 10% 效率"而在乎省钱（free money 场景最易建立信任）；[[Agent主动性]]（Proactivity）是真护城河但有红线——不可逆动作必须先问；理想形态是 Invisible Agent（骑车 30 分钟语音指挥，到办公室 inbox zero）；雄心勃勃的 personal agent 每用户每天约 20 美元成本，主导产品免费靠大厂烧钱；assistant（辅助）与 agent（受托决策）的心理差异决定信任建立方式（详见 [[摘要-a16z-personal-agent对话]]）
 - **六条海外路线与五维度评估框架（2026-10-01）**：胜负手不是功能数量而是 [[默认委托权]]——五维度为入口/上下文/权限/执行/信任，六条路线：[[Dots]] 第二身份（always-on、Custom Rules 分级授权、后台主动研究只读）、[[MetaMuse]] 生活交易（Muse Secure VM、Stripe Link 一次性卡、邮件只读/代发分级）、Gemini Spark 数据调度（借 Gmail/Docs/Calendar，云端 24/7）、[[Instinct]] 无新界面（成为联系人本身，接邮件/屏幕/音频/位置，可主动来电）、[[GrokBot]] 数字员工队伍（多角色分工、共用一台云端电脑、含在付费 Cursor 计划）、[[OpenClaw]] 所有权（local-first、模型无关、自托管，代价是把责任从厂商转移给使用者）；另 Siri AI（系统级入口）与 Alexa+（家庭声音入口）随时可能改写竞争；终局判断：一个总入口 + 多个专业 Agent，竞争也发生在 Agent 与 Agent 之间（详见 [[摘要-personal-agent六条海外路线]]）
+- **国内三家的切入方式与产品特点（2026-10-03，详见 [[摘要-豆包千问元宝转向personal-agent]]）**：国内前四通用 AI 助理除 [[DeepSeek]] 外集体转向——豆包做对标 [[MetaMuse]] 的产品（代号 [[Spell]]、名或叫 [[小豆]]，工期 6 天，实为既有项目整合）；千问是"把自己定位为 Personal Agent"，郑嗣寿 9-22 云栖提出第一步构建**全域终生 Context**（通用 Context 按身份、领域级 Context 按场景、多终端 Context 按眼镜/穿戴数据），未来几个月推统一 Personal Agent；[[Yuanbao]] 据权威媒体正在筹备、加模块还是独立产品仍在评估。**六条产品特点**：围绕个人自主办事关键节点人确认 / 独立云端虚拟机 24h 运行 / 链接日常服务 / 长期记忆与长周期任务 / 多入口多终端 / 安全可控用户愿授权——纯消费级 C 端、围绕生活状态而非任务，比拼服务能力与生态链接而非模型能力（三分靠模型七分靠应用）
 - **大厂组织能力之战（2026-10-02，详见 [[摘要-小豆个人agent卡位]]）**：字节独立个人助理应用内部可能定名 [[小豆]]（李福祥 Chat 与搜索线主导、[[Spell]] 供端侧能力，另起炉灶不并入豆包——两套数据飞轮与评测指标难以共存）；腾讯三路各有限制（小微受微信克制哲学束缚、[[LightVela]] 门槛偏高、Handy Bot 最接近 Muse）；技术路线分化——Meta 全栈重做底座 vs Instinct 死磕推理管线（Agent 单次复杂任务 Token 消耗可达普通对话数十倍，不控推理成本会陷入"用户越活跃账面越亏"死循环）；国内超级 App 高墙下个人 Agent 可能异化为"平台 Agent"，浮现"代表用户还是代表平台"的信任悖论；要建立深度信任与全天候响应，终局必然走向随身硬件与终端操作系统
 
 ## 关联连接
@@ -56,4 +57,5 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - [[摘要-personal-agent六条海外路线]] — 来源（六条海外路线与五维度评估框架）
 - [[默认委托权]] — 该文提出的赛道胜负手概念
 - [[摘要-小豆个人agent卡位]] — 来源（小豆、腾讯三路与组织能力之战）
+- [[摘要-豆包千问元宝转向personal-agent]] — 来源（国内三家切入方式与六条产品特点）
 - [[小豆]] — 字节独立个人助理应用

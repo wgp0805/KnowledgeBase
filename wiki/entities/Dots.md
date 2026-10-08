@@ -2,7 +2,7 @@
 title: "Dots"
 type: entity
 tags: [AI产品, OpenAI, 常驻智能体, Agent, DevDay]
-sources: [raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md]
+sources: [raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-03-实测 ChatGPT Dot，龙虾转生？不完全是。.md]
 last_updated: 2026-10-08
 ---
 
@@ -18,7 +18,15 @@ Dots 是 OpenAI 在 DevDay 2026（2026-09-29 发布会）推出的常驻自主�
 - **开放节奏**：面向符合条件地区的 Pro、Business Premium 用户灰度开放，首个 Dot 免费赠送、首月赠双倍深度计算额度，企业版管理员后台一键开启
 - **"第二身份"路线解读（2026-10-01）**：关键词是 always-on——每个 dot 有云端电脑、插件生态连接 4000+ 应用、经 ChatGPT/Slack/Teams 协作，目标是同一 Agent 跨任务跨渠道保留你的目标、标准与反馈（逐渐知道你如何判断证据、怎样写内容）；优势是"一个主 Agent"降低多工具管理成本、信任积累后替换成本高，风险是判断出错影响范围比单次聊天大；权限设计：用户不在场时主动研究限只读，Custom Rules 可允许/要求批准/阻止动作，改密码等敏感任务必须用户自己完成；在 [[默认委托权]] 争夺中代表"第二身份"路线（详见 [[摘要-personal-agent六条海外路线]]）
 
+### 实测：云电脑规格与通宵移植（2026-10-03，Ai学习的老章，详见 [[摘要-chatgpt-dot实测]]）
+- **云电脑配置**：完整 Debian Linux，9 核 CPU、9.7GB 内存、32GB 磁盘，全功能 Bash 终端+GUI 应用，可一键"接管"（Take Control）抢回键鼠
+- **重活实测**：把开源 macOS 音频工作台移植成 Windows 客户端——云端克隆仓库、装 Node/Electron 编译链、重构音频接口，通宵交付独立分支+草稿 PR：101 项单元测试、19 项界面测试、9 项 Electron 测试全过，GitHub Actions 打出约 158MB Win10/11 免安装便携包；作者评价其"蜕变为主按工业标准交付成品的初级软件工程师"
+- **四个玩法**：全天候开源 Issue 猎手（自动复现→定位→Draft PR→手机审批闭环）、跨时区长程调研白皮书、多应用只读观察与主动预警（Proactive Research 起草待办等审）、本地合盖即走的云端执行
+- **三个争议的回应**：①自建 24h Mac mini+内网穿透对极客可行、对 99% 用户门槛高，大厂把笨重方案封装成平民化服务；②**生态孤岛硬伤**——Dot 的主动力建立在 Google Workspace/Slack/Microsoft 365 上，触达不了微信/企微/飞书/钉钉，国内场景"巧妇难为无米之炊"，国内好用的 Personal Agent 要看本土厂商跑通本土办公生态；③安全=只读探测+Auto-review 人工确认+随时接管
+- **开放节奏**：Pro、Business Premium、Enterprise 用户分批灰度；作者提醒别把它当聊天搜索引擎，而是"云端数字员工/外包工程师"，现阶段不要指望它拍板商业决策
+
 ## 关联连接
+- [[摘要-chatgpt-dot实测]] — 来源（实测与争议分析）
 - [[摘要-openai-devday-2026-gpt61sol-dots]] — 来源
 - [[OpenAI]] — 开发公司
 - [[常驻智能体]] — 所属产品概念
