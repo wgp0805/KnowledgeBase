@@ -2,8 +2,8 @@
 title: "Ponytail"
 type: entity
 tags: [AI编程, 减法思维, 开源工具, Agent技能]
-sources: [raw/01-articles/20.9k Star 的开源项目，让你的 AI 少写点废代码.md]
-last_updated: 2026-07-08
+sources: [raw/01-articles/20.9k Star 的开源项目，让你的 AI 少写点废代码.md, raw/01-articles/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -47,9 +47,15 @@ Codex、GitHub Copilot CLI、Gemini CLI、[[OpenCode]] 均有对应安装方式�
 - 邮箱校验：先判断场景，前端提示用最简单的包含 `@` 判断，真实账号验证提醒依赖邮件确认流程而非迷信正则
 - Review 建议：单一实现的接口可删、日期格式化库换 `Intl.DateTimeFormat`、手写循环用标准库一行完成
 
+### 2026-09 GitHub 盘点视角（详见 [[摘要-20个9月github热门开源项目]]）
+
+- 文章概括其机制为"给 Agent 加了一套实现前的判断顺序"：先找现有代码、标准库和平台原生能力，再考虑新增实现，优先复用已有能力以减少重复实现和过度设计，同时保留必要的安全检查与错误处理
+- 该文称其"月增约 3.12 万 Star"，位列 9 月 GitHub 增星榜第二
+
 ## 关联连接
 
 - [[摘要-ponytail-ai减代码]] — 来源
+- [[摘要-20个9月github热门开源项目]] — 来源（2026-09 盘点）
 - [[过度工程化]] — 核心概念
 - [[ClaudeCode]] — 支持平台
 - [[Codex]] — 支持平台

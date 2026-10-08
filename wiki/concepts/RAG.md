@@ -2,8 +2,8 @@
 title: "RAG"
 type: concept
 tags: [AI, RAG, 检索增强, 知识库, 面试]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/SpringAI.md, raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/一文讲透 RAG：原理、优化与落地.md]
-last_updated: 2026-09-23
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/SpringAI.md, raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/一文讲透 RAG：原理、优化与落地.md, raw/01-articles/2026-10-06-向量库是RAG的伪命题，知识图谱是答案，本体论是灵魂.md]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -103,6 +103,15 @@ LangChain 实现 RAG 的两大阶段与五大组件：
 4. **Query 改写**：把口语化问题改写成更适合检索的 Query
 5. **升级 Embedding 模型**
 
+## 向量库是 RAG 的伪命题？（2026-10-06，叶小钗）
+
+来自 [[摘要-向量库伪命题与知识图谱本体论]] 的批判视角：
+
+- **传统 RAG 四步的粗糙处**：无脑切分（Chunking）→ 向量化 → 检索 → 拼凑，分块破坏原文完整性导致**上下文割裂**——电商退款助手只召回"T+1"漏掉"黑名单/已发货订单除外"造成误退款；医疗指南把"适用症"与"妊娠期禁用"切进不同块，酿成安全隐患
+- **向量库的定位收缩**：找的是语义相近而非精确答案；早期模型上下文短（embedding 最佳编码 500 左右）使其成标配，Coze/Dify/N8N 默认带向量库造成"烟雾弹效应"；模型上下文变长后，向量库沦为处理模糊问法的补充工具
+- **替代方向**：语义相似只解决部分问题，知识还需要确定的关系网络——[[知识图谱]] 把检索从概率匹配提升到关系推理，[[本体论]] 提供行业 KnowHow；真实系统是关键词、规则路由、向量检索与图谱查询的混合体
+- **终局判断**：从"检索增强"走向"推理增强"——机器不仅找到片段，更要理解因果，交付确信的答案
+
 ## 前沿演进
 
 - [[AgenticRAG]] — 从被动检索到主动决策的智能体化 RAG
@@ -144,3 +153,6 @@ GPT-6 Astra 提供 1,050,000 token 上下文窗口，但百万上下文不会结
 - [[ToolSearch]] — 按需加载工具推动 RAG 细分
 - [[Skills]] — 按需加载能力说明
 - [[摘要-GPT-6-Astra改变技术栈]] — 百万上下文不结束 RAG 来源
+- [[摘要-向量库伪命题与知识图谱本体论]] — 来源（向量库批判与图谱转向）
+- [[本体论]] — 图谱背后的建模规则
+- [[CDSS]] — 图谱+RAG 的医疗前身

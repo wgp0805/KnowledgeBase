@@ -2,7 +2,7 @@
 title: "personal-ai-agent"
 type: concept
 tags: [PersonalAgent, Agent, AI产品, 个人助理]
-sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md]
+sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, raw/01-articles/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md]
 last_updated: 2026-10-08
 ---
 
@@ -30,6 +30,8 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - **2026 年 Agent 战场三段论（2026-10-04，详见 [[摘要-腾讯四款muse产品盘点]]）**：上半场"龙虾狂热期"（所有公司入局虾场、全民养虾，已退场，没有赢家或者说所有人都成了赢家——龙虾为 Agent 的到来铺路）→ 中场"办公 AI Agent 战争"（[[WorkBuddy]] 暂时性胜出但战争远未结束）→ 下半场"个人 AI Agent"（被 Muse 验证有巨大用户需求、盈利早期阶段尚未跑通）；中秋国庆之际腾讯、字节、阿里都在大力压局
 - **四条判定标准与发展三要素（2026-10-05，小普，详见 [[摘要-grok-bot-六助理ai团队]]）**：算不算 Personal AI Agent 看四件事——**能替你动手**（用工具登账号办事）、**记得你**（偏好规矩存长期记忆）、**你不在也在跑**（定时+触发）、**该你拍板时回来找你**；想法很老（1987 Apple Knowledge Navigator、90 年代 MIT Pattie Maes software agents、2011 Siri、2023 AutoGPT 常绕圈出不来、2024 Rabbit R1/Humane AI Pin 硬件失败、2025 Operator/Manus 又慢又贵）但 2026 才火，凑齐三样：模型真能连续干活（Claude Code/Codex 在程序员处先证明）、Agent 有了自己的云端电脑、入口变成聊天（OpenClaw 几个月 30 多万 star 证明需求、Muse 九月登顶美区 App Store 挤下 ChatGPT 出圈）；多助理群场景新增一层问题：谁先说/说多长/几点能说/吵起来谁拍板，需要自己写群规（第一指令）——单 Agent 一份 system prompt 就够，一群 Bot 则要额外的交互协议
 - **术语被重新占据（2026-10-04，详见 [[摘要-tencent-handybot官方回应]]）**：Personal AI Agent 本不是新事物（以前的 AI 管家/AI 助理、云端 [[HermesAgent]] 及各种智能体都属此类），但 Muse 爆火后被媒体反复代指，借维特根斯坦"词语的意义在于它的使用方式"——不是新事物发明了旧名称，而是**旧名称被新现象重新占据**：以后说 Personal AI Agent 默认指 Muse 这类有长期记忆、云端 24 小时主动办事的形态
+
+- **"活儿它来干，主意我来拿"：授权边界成为信任分水岭（2026-10-06，详见 [[摘要-nanowork-personal-agent省200刀]]）**：Muse 靠省钱出圈（砍宽带费省 1920 刀/年省车险 3500 刀/追回遗忘订阅 200 刀）但授权翻车——「始终允许」后未经确认 10 刀贱卖键盘并泄露地址致陌生人上门，另有记者称拒绝授权仍被读到 18 万多条私信（Meta 否认）；国内 [[纳米Work]]（360，云电脑 7-28 上线早于 Muse）用"敏感操作停下等确认 + 交付物截图留底 + 手机端 7×24 可见"做安全可控，实测从 Vercel 账单激增查到项目被刷量省下 200 多刀、GitHub 体检查出 5 处密钥泄露，获 IDC 2026 安全可控维度唯一 Top 产品——Personal Agent 的信任不只在"能干什么活"，更在"干的时候你心里有没有底"
 
 ## 关联连接
 - [[摘要-meta-muse-个人ai助理体验]] — 来源（Muse 评测）
@@ -65,3 +67,5 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - [[摘要-tencent-handybot官方回应]] — 来源（术语被重新占据的语言学分析）
 - [[摘要-grok-bot-六助理ai团队]] — 来源（四条判定标准、发展三要素与多助理群规）
 - [[小豆]] — 字节独立个人助理应用
+- [[摘要-nanowork-personal-agent省200刀]] — 来源（授权边界与国内平替实测）
+- [[纳米Work]] — 360 的安全可控平替
