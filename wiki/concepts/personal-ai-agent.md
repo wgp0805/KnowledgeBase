@@ -2,7 +2,7 @@
 title: "personal-ai-agent"
 type: concept
 tags: [PersonalAgent, Agent, AI产品, 个人助理]
-sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md]
+sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md]
 last_updated: 2026-10-08
 ---
 
@@ -28,6 +28,7 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - **国内三家的切入方式与产品特点（2026-10-03，详见 [[摘要-豆包千问元宝转向personal-agent]]）**：国内前四通用 AI 助理除 [[DeepSeek]] 外集体转向——豆包做对标 [[MetaMuse]] 的产品（代号 [[Spell]]、名或叫 [[小豆]]，工期 6 天，实为既有项目整合）；千问是"把自己定位为 Personal Agent"，郑嗣寿 9-22 云栖提出第一步构建**全域终生 Context**（通用 Context 按身份、领域级 Context 按场景、多终端 Context 按眼镜/穿戴数据），未来几个月推统一 Personal Agent；[[Yuanbao]] 据权威媒体正在筹备、加模块还是独立产品仍在评估。**六条产品特点**：围绕个人自主办事关键节点人确认 / 独立云端虚拟机 24h 运行 / 链接日常服务 / 长期记忆与长周期任务 / 多入口多终端 / 安全可控用户愿授权——纯消费级 C 端、围绕生活状态而非任务，比拼服务能力与生态链接而非模型能力（三分靠模型七分靠应用）
 - **大厂组织能力之战（2026-10-02，详见 [[摘要-小豆个人agent卡位]]）**：字节独立个人助理应用内部可能定名 [[小豆]]（李福祥 Chat 与搜索线主导、[[Spell]] 供端侧能力，另起炉灶不并入豆包——两套数据飞轮与评测指标难以共存）；腾讯三路各有限制（小微受微信克制哲学束缚、[[LightVela]] 门槛偏高、Handy Bot 最接近 Muse）；技术路线分化——Meta 全栈重做底座 vs Instinct 死磕推理管线（Agent 单次复杂任务 Token 消耗可达普通对话数十倍，不控推理成本会陷入"用户越活跃账面越亏"死循环）；国内超级 App 高墙下个人 Agent 可能异化为"平台 Agent"，浮现"代表用户还是代表平台"的信任悖论；要建立深度信任与全天候响应，终局必然走向随身硬件与终端操作系统
 - **2026 年 Agent 战场三段论（2026-10-04，详见 [[摘要-腾讯四款muse产品盘点]]）**：上半场"龙虾狂热期"（所有公司入局虾场、全民养虾，已退场，没有赢家或者说所有人都成了赢家——龙虾为 Agent 的到来铺路）→ 中场"办公 AI Agent 战争"（[[WorkBuddy]] 暂时性胜出但战争远未结束）→ 下半场"个人 AI Agent"（被 Muse 验证有巨大用户需求、盈利早期阶段尚未跑通）；中秋国庆之际腾讯、字节、阿里都在大力压局
+- **四条判定标准与发展三要素（2026-10-05，小普，详见 [[摘要-grok-bot-六助理ai团队]]）**：算不算 Personal AI Agent 看四件事——**能替你动手**（用工具登账号办事）、**记得你**（偏好规矩存长期记忆）、**你不在也在跑**（定时+触发）、**该你拍板时回来找你**；想法很老（1987 Apple Knowledge Navigator、90 年代 MIT Pattie Maes software agents、2011 Siri、2023 AutoGPT 常绕圈出不来、2024 Rabbit R1/Humane AI Pin 硬件失败、2025 Operator/Manus 又慢又贵）但 2026 才火，凑齐三样：模型真能连续干活（Claude Code/Codex 在程序员处先证明）、Agent 有了自己的云端电脑、入口变成聊天（OpenClaw 几个月 30 多万 star 证明需求、Muse 九月登顶美区 App Store 挤下 ChatGPT 出圈）；多助理群场景新增一层问题：谁先说/说多长/几点能说/吵起来谁拍板，需要自己写群规（第一指令）——单 Agent 一份 system prompt 就够，一群 Bot 则要额外的交互协议
 - **术语被重新占据（2026-10-04，详见 [[摘要-tencent-handybot官方回应]]）**：Personal AI Agent 本不是新事物（以前的 AI 管家/AI 助理、云端 [[HermesAgent]] 及各种智能体都属此类），但 Muse 爆火后被媒体反复代指，借维特根斯坦"词语的意义在于它的使用方式"——不是新事物发明了旧名称，而是**旧名称被新现象重新占据**：以后说 Personal AI Agent 默认指 Muse 这类有长期记忆、云端 24 小时主动办事的形态
 
 ## 关联连接
@@ -62,4 +63,5 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - [[摘要-豆包千问元宝转向personal-agent]] — 来源（国内三家切入方式与六条产品特点）
 - [[摘要-腾讯四款muse产品盘点]] — 来源（腾讯四款盘点与 2026 战场三段论）
 - [[摘要-tencent-handybot官方回应]] — 来源（术语被重新占据的语言学分析）
+- [[摘要-grok-bot-六助理ai团队]] — 来源（四条判定标准、发展三要素与多助理群规）
 - [[小豆]] — 字节独立个人助理应用

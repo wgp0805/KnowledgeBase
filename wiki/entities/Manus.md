@@ -2,7 +2,7 @@
 title: "Manus"
 type: entity
 tags: [AI产品, Agent, 通用Agent, PersonalAgent, 创业公司]
-sources: [raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md]
+sources: [raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md]
 last_updated: 2026-10-08
 ---
 
@@ -24,6 +24,12 @@ Manus 是定位 General Agent（通用 Agent）的 AI 产品，2025 年 3 月上
 - 说法 B（[[摘要-豆包Spell对标Muse]]）：Meta 去年年底宣布**收购** Manus，后来**交易没有完成**，Manus 又独立出来
 - 处理：两种说法对"Manus 是否真正成为 Meta 一员"存在张力（加入后离开 vs 收购未完成），原始信息不足判定，暂并列保留
 
+## OpenManus：GitHub 定律的极致案例（2026-10-05，详见 [[摘要-github定律-openxxx复刻]]）
+- 2025 年 3 月 Manus 刷屏、邀请码被炒成稀缺品时，**OpenManus 与 Manus 发布同一天**出现在 GitHub，最早的可运行版本据称只用了约 3 个小时
+- 3 小时做出的 OpenManus 只是早期版本、与 Manus 完整能力仍有距离——把已成熟的 AI、网页操作与任务执行能力组合起来先让大家看到思路
+- Manus 走火还带火了 OWL 等原有项目：老项目找到新的介绍方式被更多人看到
+- 复刻与被复刻的关系印证 [[GitHub定律]]：代码不再稀缺，判断力/品味/渠道才是差距
+
 ## 关联连接
 - [[摘要-Manus2通用Agent]] — 来源（2.0 深度评测）
 - [[摘要-豆包Spell对标Muse]] — 来源（竞争格局）
@@ -34,3 +40,5 @@ Manus 是定位 General Agent（通用 Agent）的 AI 产品，2025 年 3 月上
 - [[Meta]] — 曾宣布收购它的公司
 - [[LightVela]] — 国内托管 Agent 形态对照
 - [[Spell]] — 字节对标产品
+- [[摘要-github定律-openxxx复刻]] — 来源（OpenManus 同日复刻案例）
+- [[GitHub定律]] — 该案例所属的行业规律

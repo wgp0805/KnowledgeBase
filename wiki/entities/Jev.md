@@ -2,7 +2,7 @@
 title: "Jev"
 type: entity
 tags: [AI模型, 判断模型, TypeSafeAI]
-sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md, raw/01-articles/2026-09-20-Jev新决策模型的试用心得.md, raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-21-一万字Jev 工程实践长文：把 Agent 的"判断题"从大模型里拆出来.md, raw/01-articles/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md, raw/01-articles/2026-09-22-新模型Jev爆火：曾帮ChatGPT学会聊天的人，为啥做个不聊天AI？.md, raw/01-articles/2026-09-22-Jev爆火，具身智能迎来大救星？.md, raw/01-articles/2026-09-26-Jev 爆火背后：AI Agent 正在从“三体人”变成“地球人”.md, raw/01-articles/2026-09-26-基元律动发布 NeoHorse-Jev，开源 Jev 综合评测第一.md, raw/01-articles/2026-09-30-“哑巴模型”Jev火了，会给AI产业带来什么改变.md, raw/01-articles/2026-10-02 - Agent 的意图路由怎么设计？.md]
+sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md, raw/01-articles/2026-09-20-Jev新决策模型的试用心得.md, raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-21-一万字Jev 工程实践长文：把 Agent 的"判断题"从大模型里拆出来.md, raw/01-articles/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md, raw/01-articles/2026-09-22-新模型Jev爆火：曾帮ChatGPT学会聊天的人，为啥做个不聊天AI？.md, raw/01-articles/2026-09-22-Jev爆火，具身智能迎来大救星？.md, raw/01-articles/2026-09-26-Jev 爆火背后：AI Agent 正在从“三体人”变成“地球人”.md, raw/01-articles/2026-09-26-基元律动发布 NeoHorse-Jev，开源 Jev 综合评测第一.md, raw/01-articles/2026-09-30-“哑巴模型”Jev火了，会给AI产业带来什么改变.md, raw/01-articles/2026-10-02 - Agent 的意图路由怎么设计？.md, raw/01-articles/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md]
 last_updated: 2026-10-08
 ---
 
@@ -30,6 +30,7 @@ Jev是由前OpenAI研究员Diogo Almeida创办的TypeSafe AI发布的判断模�
   - 局限：同一判断正着问一遍再反着问，两组概率之和有时超过 1——概率校准尚未达标，"躲开编造答案的风险，但概率照样会错"
   - 生态位：Jev 名字取自"杰文斯悖论"——判断更便宜后调用量反而上升；按任务路由多模型的 Agent 入口（WorkBuddy Auto 模式、Cursor Router）因此更重要
 - **意图路由中的决策模型层（2026-10-02，详见 [[摘要-agent-意图路由设计]]）**：生产级路由分层"规则→向量→决策模型→大模型"中，Jev 以 70–500ms 延迟占据第三层，对照 OpenAI Decisions API 单任务 150ms、GPT-6 轻量模型 Luna 需 1.6 秒；且 Jev 做过校准（报 90% 把握实际正确率接近 90%），可替代"让大模型自报置信度"这一不可靠做法
+- **次日被开源复刻（2026-10-05，详见 [[摘要-github定律-openxxx复刻]]）**：2026-09-15 TypeSafe AI 发布 Jev 后**第二天 Open JEV 就出现**，几天后 Laya 也开源并自称在精度/速度/校准/多语言覆盖/成本五维全面优于 Jev——GitHub 定律"按天计算"的典型案例，说明判断模型的物理实现已不稀缺，差距转向实现前的判断与上线后的运营
 
 ## 关联连接
 - [[TypeSafeAI]] — Jev母公司
@@ -54,3 +55,5 @@ Jev是由前OpenAI研究员Diogo Almeida创办的TypeSafe AI发布的判断模�
 - [[摘要-jev哑巴模型产业改变]] — 来源资料（产业影响与校准局限）
 - [[模型分化]] — Jev 所处的行业趋势
 - [[DiogoAlmeida]] — 创始人
+- [[摘要-github定律-openxxx复刻]] — 来源（Open JEV 次日复刻）
+- [[GitHub定律]] — 该案例所属的行业规律

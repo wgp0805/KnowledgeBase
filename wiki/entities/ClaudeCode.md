@@ -2,7 +2,7 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md]
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md]
 last_updated: 2026-10-08
 ---
 
@@ -144,6 +144,15 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
   - [[agent-skill-java-spring-framework]]：强制使用 Spring 最新 API 规范
   - [[sivalabs-agent-skills]]：统一 AI 技能封装规范
   - [[spring-testing-skills]]：自动生成全套测试用例
+
+### Mods 实测："雨姐"面板六步搭建（2026-10-05，赛博禅心，详见 [[摘要-claude-code-mod-雨姐面板]]）
+以一个拦截危险命令的"雨姐"主题 Mod 完整走通 Mod 开发闭环，补充 [[Mods]] 的实战细节：
+- **三文件最小结构**：`.claude-plugin/plugin.json`（名字/版本/作者）+ `hooks/hooks.json`（指向 register.tsx）+ `register.tsx`（导出 register 函数，on 事件挂钩子）；改完保存自动热重载（`yujie: reloaded (7 hooks…)`）不用重启会话
+- **事件模型**：session.start / prompt.submit / tool.call / ui.render / turn.complete 等事件上挂钩子；状态存 `$.state`，状态一变读过它的界面自动重画
+- **三种钩子处理**：旁观（await next(e) 后按结果反应）/ 改写（prompt.compose 注入系统提示词段落）/ 接管（危险命令直接 deny）——**deny 的理由原样进入模型上下文，Claude 会顺着规矩把命令交还用户而不是换写法重试**
+- **验证体系**：`claude plugin validate --strict` 静态列 hooks/calls（一眼看出联网/读文件/调模型权限），`claude plugin test` 事件级自动化测试（不登录不联网几百毫秒跑完）实测抓到无界面环境 bug
+- **分发**：临时目录 `~/.claude/dev-mods/` → git+marketplace.json 团队安装 → 托管设置企业统一 → 公开仓库；`claude plugin marketplace add` + `claude plugin install 名字@集市`，按版本号缓存、改版本号才有更新；**Mod 不在沙箱、以用户身份运行**，安装前先 validate 看 hooks/calls
+- Claude Code 内置的 `/diff` 面板本身即内置 Mod，AGENTS.md 加载、统计上报同理
 
 ### 与 Codex 对比（2026-06 苏三视角）
 完整对比详见 [[摘要-codex-vs-claude-code-对比]]。核心结论：
@@ -338,3 +347,4 @@ Anthropic 在 v2.1.287 推出 **Claude Mods**：用 TypeScript/JavaScript 进程
 - [[ClawGod]] — 修改本地客户端的开源补丁
 - [[摘要-claude-code-mods机制]] — 来源（Mods 机制与四扩展选型）
 - [[Mods]] — v2.1.287 新增的进程内事件扩展机制
+- [[摘要-claude-code-mod-雨姐面板]] — 来源（雨姐面板六步实测）

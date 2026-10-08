@@ -14,4 +14,4 @@ last_updated: 2026-10-08
 - [[everything-is-a-plugin]] — 核心架构理念
 - [[Subagent]] — 组队开发用的子智能体
 - [[Kimi]] — 全程使用的宿主模型 K3
-- [[摘要-deepseek-harness桌面版万字拆解]] — 同日同产品的深度拆解
+- [[摘要-deepseek-harness-桌面版万字拆解]] — 同日同产品的深度拆解

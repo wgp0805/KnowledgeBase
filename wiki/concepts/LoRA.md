@@ -6,7 +6,8 @@ sources:
   - raw/01-articles/2026-09-06-千问大模型二次LoRA‑SFT指令微调指南 - lyshark.md
   - raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md
   - raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md
-last_updated: 2026-09-07
+  - raw/01-articles/2026-10-05-小白也能上手的 LoRA 微调：五步走通训练到落地.md
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -61,6 +62,13 @@ LoRA（Low-Rank Adaptation）是一种参数高效微调方法，通过冻结大
 - **过拟合**：eval_loss 不降甚至上升；输出重复、背诵训练集；减少训练步数，增加数据多样性
 - **loss 下降 ≠ 微调成功**：必须在真实问题上做人工评测，同时看验证集 loss
 
+### 小白五步全流程（2026-10-05，LLaMA-Factory + Qwen2.5-0.5B，总成本 < 6 元，详见 [[摘要-lora微调五步教程]]）
+1. **租算力**：选预装 [[LlamaFactory]] 镜像的 50 系显卡实例（别自己配环境，镜像开箱即用），JupyterLab 打开 Train/Chat 标签页
+2. **准备数据**：先定具体目标（统一语气或格式），600 条猫娘问答两列（input / Completion result），清理空内容、重复与错误样本
+3. **选模型和参数**：基座 Qwen2.5-0.5B-Instruct（小参数试错成本低）；阶段 SFT、方式 LoRA、轮次 3、留 10% 验证、保存间隔 20；**训练前先在 Chat 页记录原模型回答做对比基线**
+4. **训练与检查**：确认 LoRA 权重与配置文件已保存；加载"原模型+LoRA 权重"做前后同题对比+新问题测试，看语气格式/内容合理/多轮稳定——损失下降只能作参考
+5. **接入应用**：API 工具加载基座+LoRA 起 OpenAI 兼容服务，记 Base URL/API Key/model_id，在 [[Dify]] 选 OpenAI-API-compatible 接入对话；测完关实例核对计费
+
 ## 关联连接
 - [[SFT]] — 监督微调概念
 - [[QLoRA]] — LoRA 的量化版本
@@ -75,3 +83,6 @@ LoRA（Low-Rank Adaptation）是一种参数高效微调方法，通过冻结大
 - [[摘要-人类智力基线与2张显卡]] — 本地 Agent 部署
 - [[灾难性遗忘]] — 微调常见问题
 - [[过拟合]] — 机器学习概念
+- [[摘要-lora微调五步教程]] — 小白五步全流程来源（LLaMA-Factory+Dify，<6 元）
+- [[LlamaFactory]] — 实操使用的微调框架
+- [[Dify]] — 落地接入平台
