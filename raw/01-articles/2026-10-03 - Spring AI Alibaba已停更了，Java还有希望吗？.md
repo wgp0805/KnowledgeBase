@@ -90,7 +90,7 @@ v1.1.2.2最大的新特性是什么？
 
 ## 三、一张图看懂这场“换心脏”的真相
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0reibVGQeMOow6dVyHOxlMVqMxTOoVRic4RTw59NcKeSY7ZiaQ1NelwD9uLGyrkKIkKwFHTFZfsYb23wia1FWNiaMzfmbSDSnWIhbwRA/640?wx_fmt=webp&from=appmsg)
+![](assets/2026-10-03%20-%20Spring%20AI%20Alibaba%E5%B7%B2%E5%81%9C%E6%9B%B4%E4%BA%86%EF%BC%8CJava%E8%BF%98%E6%9C%89%E5%B8%8C%E6%9C%9B%E5%90%97%EF%BC%9F/34b2910318619daa3a5d73fbade80623_MD5.jpg)
 
 **关键证据在官方博客里，而且一年前就写好了。**
 
@@ -108,7 +108,7 @@ java2ai.com上有一篇官方公告，《一文讲透 Spring AI Alibaba 与 Agen
 
 Java AI框架可以分成三层：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rfXcUSF7Xd1N0ibZyCLTlQnVAZYPPib6aGiaMZghZfN9XC9Lxicl3pyEJ8NDwic55dX4ZDtnyAQNdgmvdsibzw9N9hficfTSnXjnVbAiak/640?wx_fmt=webp&from=appmsg)
+![](assets/2026-10-03%20-%20Spring%20AI%20Alibaba%E5%B7%B2%E5%81%9C%E6%9B%B4%E4%BA%86%EF%BC%8CJava%E8%BF%98%E6%9C%89%E5%B8%8C%E6%9C%9B%E5%90%97%EF%BC%9F/f205742266e5fa3628ae2047e8b56066_MD5.jpg)
 
 **第一层解决的是“怎么连上模型”**——模型接入、工具调用、向量库。
 

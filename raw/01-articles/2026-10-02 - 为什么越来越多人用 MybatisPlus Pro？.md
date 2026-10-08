@@ -99,7 +99,7 @@ parse_status: "ok"
 
 下面，我从架构师视角给大家画一张架构图，方便理解MyBatis、MybatisPlus和MybatisPlus Pro这三者之间的关系：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0reicicNDGvaNzP7ZVxsxR5S4P9dgSeDDlHFYzIEobfPbp9zdaLlNnicsCy5k3wnzdfOGKy8XDpiaicb95z0tNBmzOnES08AgOcFe650/640?wx_fmt=webp&from=appmsg)
+![](assets/2026-10-02%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20MybatisPlus%20Pro%EF%BC%9F/724bbd3ce087a03729ba3f8846ea58a8_MD5.jpg)
 
 ## 三、快速上手
 
@@ -307,7 +307,7 @@ publicclass ProductController extends BaseController<ProductService, Product> {
 
 我们用一张清晰的流程图来展示从Controller调用到数据库返回结果的全过程：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rcV4ianyicOSVrsTqVb5ibvKWNrsaIJPNNVac7XrozdiaeliaWWyZ0J01iaVUVZJCXs5ZcuWKiaAXgDzBA1AfqRnzoU87MrWtWVx5DhbM/640?wx_fmt=webp&from=appmsg)
+![](assets/2026-10-02%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20MybatisPlus%20Pro%EF%BC%9F/17d9b73573d50eef18b70cdc42b1f6f3_MD5.jpg)
 
 ### 4.2 重点剖析：BaseMapper的注入机制
 
@@ -337,7 +337,7 @@ MP在启动时自动将这些SQL注入到MyBatis的Configuration中，这就是�
 
 以条件查询为例，下面是条件构造器内部执行的详细流程：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rdwoJrnDqPicAgy8alEjzzNcmibLZ27rwU5ib4xDtOTmicSPBoLCynusgiavwI62NhFNLmbUzicZaXoDEpuiaSkUdk4uiaUcTEDaQIu8Xk/640?wx_fmt=webp&from=appmsg)
+![](assets/2026-10-02%20-%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20MybatisPlus%20Pro%EF%BC%9F/f145ccdf3c40d48dc4859de2ae62740d_MD5.jpg)
 
 Lambda表达式的核心优势是类型安全——使用 `User::getName` 而不是字符串 `"name"` ，如果字段名写错了，编译器立刻就会报错，而传统的字符串写法只有到运行时才会发现SQL错误，这是技术上对“约定优于配置”理念的一种实现。
 

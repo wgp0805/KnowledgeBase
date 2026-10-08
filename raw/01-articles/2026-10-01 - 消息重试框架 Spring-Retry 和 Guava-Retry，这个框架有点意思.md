@@ -14,7 +14,7 @@ parse_status: "ok"
 
 第一时间收到文章更新
 
-![Spring-Retry 和 Guava-Retry](https://mmbiz.qpic.cn/mmbiz_jpg/sXiaukvjR0RCtO9RQ59s4mJRS2IgrMf4UcChicuvNUPG3Xm4sAQEmHrnlVOlrib07RbgXZhuiaMibBpib8iamNb21Rs0g/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1#imgIndex=1)
+![Spring-Retry 和 Guava-Retry](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/debd53dc9428e823b405d280077d3b7e_MD5.webp)
 
 来源：blog.csdn.net/zzzgd_666/article/details/84377962
 
@@ -201,15 +201,15 @@ public class SpringRetryTemplateTest {
 
 上面的代码的话,我简单的设置了重试间隔为 1 秒，重试的异常是  `RemoteAccessException` ，下面就是测试代码的情况: 重试第二次成功的情况:
 
-![1](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smqM2pctKLLAt6VyeiahIpxBfzodbKRzZbibSYnWibY4cNfKW2lnv8NoviasmuoqILicWWibRT60kQ4oEQByxBlG4IUsFvI5qgqvzbwMQ/640?wx_fmt=png&from=appmsg)
+![1](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/73861cbd793e4e81194be297c2a63ae5_MD5.png)
 
 重试第二次成功的情况重试一次以后，遇到了没有指出需要重试的异常，直接结束重试，调用  `retryContext`
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smp0vqkxpMq4HUUKiaotraI9icJRLAxcXxtjJ3icHlicShop8tMmQibEEBF2bic12CZGxx68sFTPfHdfgGQ5gwURvabbIxTluE9M5RRNQ/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/73861cbd793e4e81194be297c2a63ae5_MD5.png)
 
 遇到没有指定重试的异常，直接结束重试重试了三次后，达到了最大重试次数，调用  `retryContext`
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smoW6JKtMY4xkmJe5qIXxAeTB6xWqvQW0LZqKmjm5beJTZ4vLzePEHsnyKrSsaurgAtTGlYxmjaFibGKfXypG3Wf2CMUViaBbfqLY/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/354d7fbb9a9af70736dd625de0543e75_MD5.png)
 
 重试三次后达到最大重试次数
 
@@ -289,7 +289,7 @@ public class MyBaseTest {
 
 我们只要在需要重试的方法上加  `@Retryable` ，在重试失败的回调方法上加  `@Recover` ，下面是这些注解的属性
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smpRcWnOtYjP3G1zSmoP897uibJG8xSqLDaUmsL2ks2A69KBWbIF0lvBxhsddVjoXCtp5sdRHjNTUSwVcMVGoRMq5seW4ovLsock/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/14c8863b1f112c5f98c108f0914179a3_MD5.png)
 
 @Retryable 和 @Recover 注解属性建一个 service 类
 
@@ -375,11 +375,11 @@ public class SpringRetryDemoTest extends MyBaseTest {
 
 遇到了没有指定重试的异常,这里指定重试的异常是  `@Retryable(value = {RemoteAccessException.class}...` ，所以抛出参数异常  `IllegalArgumentException`  的时候，直接回调 @Recover 的方法
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smocgTqfcNqkbRj8fmYyIZtIicnvfG1CeToUSqhVoT6zrmicFeCzia2Rzjq3MThCvtU8QVtHYM7eet4MTPYtK6HXXIicz4he1WCtfN8/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/60775393827711026ebef16e3cc542dc_MD5.png)
 
 遇到没有指定重试的异常，回调 @Recover 方法重试达到最大重试次数时，调用  `@Recover`  的方法
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smooXw5csE4M1G5ppuQbTLClHuHAueD9x08kiabsL0Z3OBsbgXSqvOvBP9qF2ngymYv9ibdIhd1CpWB0v5hSyQkN1ia1HP5gVM7viaM/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/795c04481ce3912590058afabdcaab5b_MD5.png)
 
 达到最大重试次数时调用 @Recover 方法重试到最后一次没有报错，返回 false
 
@@ -492,23 +492,23 @@ public class GuavaRetryTest {
 
 遇到了我们指定的需要重试的异常，进行重试，间隔是 3 秒
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smqIEDy6ib5XqTHU9rCdVy1kwmNodFBMSTQWXJUYr6pN67ibuRdF6VibR4S2H728GniaiaOLURoe0qROSmFtuXpFayvhJicpVet4JibEUY/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/7047d2507b0fd39121b3b171a9f90894_MD5.png)
 
 遇到指定重试的异常，间隔 3 秒重试重试次数超过了最大重试次数
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smpWcNfKqaoIOdtupa3vle1dSVPPftR3zKibiaQRy1uloNykHv75HWPPDoXuJ8hfBd8e9o43BOD7R8JzicRQMNPnfWiaMMpXbtvm5pM/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/2486a1b7c9568194aa4a818444f72a93_MD5.png)
 
 超过最大重试次数返回为 true，直接结束重试
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smpcWib8cJY2wP1jW974VQSyZreEBHVHu1HWcNnqUaTyFOoVsgmHbKicaC0Y9MuTHJr0Sj0gXTJ2aiaceY8hpbC7q8aPDbGkTaYPfg/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/e7ed711ed8cf178a8881aee697f695e9_MD5.png)
 
 返回 true，直接结束重试遇到了没有指定重试的异常，结束重试
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smp96fqMhwkVRmRCiawkcQeHarf4beKIqmEqZXd81ID9rW57IGGg03Lib8jksCNFNcohFUmzzTpHicpsuLaPXekAx6EuSVP7QmxSnc/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/93366ac92ffb919b7ac171db68d9d958_MD5.png)
 
 遇到没有指定重试的异常，结束重试返回 false，重试
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smrGsaLN4EOIjB33H7krQye8Tkc5U7iaUibiaCZlAibytsk32GKSqpia0t4LNSG0SkddiazoojsONtib8Zy5UFEvaiaian6ZbDUPdg8SDORQ/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/0dab922b3d27a3c732f516c890dd7d73_MD5.png)
 
 返回 false，重试我们可以更灵活的配置重试策略，比如:
 
@@ -546,11 +546,11 @@ retryIfExceptionOfType(NullPointerException.class)// 只在抛出空指针异常
 })
 ```
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smpaKBZ1goPooRHYsoRhV5u6oJTSB6ibMEICkeHB4AyYicMEjuVdic4oGQdrk6b38lfibMubaQaxLXmNxUicPAJ0tXOhicOXK9WaFBaQk/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/d93ed49d8a8e47e1a0c6ba284bc4266d_MD5.png)
 
 RetryListener 运行结果
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smqh5EEvjVfr2FiaOApNyGnytLxdEeDxKZxrmibaXJLzxyb7box91WT9iaCsjWSeXlqFo42pFH910cVsFxN807cxlVluialzOYM22iaE/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/18603513c43cd9897997b478d89c114c_MD5.png)
 
 RetryListener 运行结果
 
@@ -571,9 +571,9 @@ spring-retry 和 guava-retry 工具都是线程安全的重试，能够支持并
 
 截止目前，**累计输出 150w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4900+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&tp=webp#imgIndex=1)
+![图片](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLEdM2gtRgy5eLztKXrUhee76MZ9wAicNPicsnAHPibicaSHUVqFkkibxWlrGO0acUxQmycZpqCNGcibaicxA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&retryload=1&tp=webp#imgIndex=6)
+![图片](assets/2026-10-01%20-%20%E6%B6%88%E6%81%AF%E9%87%8D%E8%AF%95%E6%A1%86%E6%9E%B6%20Spring-Retry%20%E5%92%8C%20Guava-Retry%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%A1%86%E6%9E%B6%E6%9C%89%E7%82%B9%E6%84%8F%E6%80%9D/b01fd91d58faf9455f8fbb5c64bb22f0_MD5.webp)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~

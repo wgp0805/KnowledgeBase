@@ -14,7 +14,7 @@ parse_status: "ok"
 
 随着 AI 工具的不断发展，如今 WorkBuddy 俨然成为了国内最流行的 AI Agent 产品。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9ojSnBX2WWaqiashkxaK9wwYFXYa3AXKsfaXI8icI3ENW8iaIrULWVWUYHZ6Eiaibjy4bD7SicbTxl9onq7X29zbeT5UooBjphdLfmJiabbjGZPyNU/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/b6708bd9cc0e75465e59a877dc6e4df5_MD5.png)
 
 之前我们介绍过 WorkBuddy 中常用的一些技能，以及如何在 WorkBuddy 内使用这些技能完成特定任务。
 
@@ -30,7 +30,7 @@ WorkBuddy 是腾讯云推出的 AI 工作台，9 月 24 日上线了小程序的
 
 而如果涉及到注册账号、备案、微信审核这些，还是得按微信平台的规矩来，这些是在 WorkBuddy 里面没办法完成的
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vsAViaKGWic0VkXaT9XsW0sy22YicywpjkknbZUGiamj3xLiaVnSB3Zd2dscic8iaG2A8OR073icz4zV20K3UE5dSMVRymZ3LRUEicXibdwyXhoIXicuAg/640?from=appmsg#imgIndex=0)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/62398d9e82478ed657cd9d20bb573221_MD5.png)
 
 # 二、基本操作流程
 
@@ -50,7 +50,7 @@ AI 时代，每天我们都有很多要做的事情。如果你不简单地记�
 
 ## 2. 描述需求、写代码
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vsAViaKGWic0V1bRkKLhDtvaFOOXxVjbYQOtficdw5u9t8WxIEFxMVCfTSMAEP1f2WE5rdfM6Jgu3RO7kCjIFXZLJibicFBlUnam8GlibHAqhu8xE/640?from=appmsg#imgIndex=1)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/5d806ecc508df3e09225d198b4621089_MD5.png)
 
 其实也就下面的四个步骤：
 
@@ -59,7 +59,7 @@ AI 时代，每天我们都有很多要做的事情。如果你不简单地记�
 - 描述需求，选择一个本地的文件夹作为工作目录
 - 配置一下模型，给它权限，然后就直接让它去开发这个小程序了
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vsAViaKGWic0W1TgibHjfMmq37s1Mow9PknLKqxPGuU4TESPmjl0A8O0ZCvoDVSnZGRIupxicMFNwXRRXEVbheGrf6ltOH1JMR9ahwZM43kTc50/640?from=appmsg#imgIndex=2)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/2e61843f4fd5c95d625938e3b1cd7ace_MD5.png)
 
 中途可能会弹出来问你是否需要云环境，然后你就选择“是”就可以了。不然的话，你是没有办法在 WorkBuddy 里面使用它的预览功能的
 
@@ -75,7 +75,7 @@ AI 时代，每天我们都有很多要做的事情。如果你不简单地记�
 
 因为 Workbuddy 里面已经集成了小程序开发的一些流程，所以它可以给你一个小程序卡片，你点击卡片就可以在右边看到预览的效果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vsAViaKGWic0UaQH9Mj3YvA13mSvMYtffqB36icAN60hDMEkpul3ic12Kiag35Kj0uORs9yMV5mk5YnMlREeibdZWE2zdiasMLr3BtLbJwvHzqMbkE/640?from=appmsg#imgIndex=3)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/f50448ea1bd40a6a3b50d5961906cd93_MD5.png)
 
 如果你没有出现这个小程序卡片，你就没办法在侧边栏预览。
 
@@ -95,11 +95,11 @@ AI 时代，每天我们都有很多要做的事情。如果你不简单地记�
 
 小程序是否有问题？开发完成之后怎么测试？我们可以点击右上角分享的功能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vsAViaKGWic0VC4PzPJGUPWaicic8hwSEWJEX8ic7Bic0cgBDmUkXsfNMvjHGkDWNX3f9XgwX8Jr1FJsEhrJ8ibnKYQN6pZRHH82gkRPiaBPYll5I64/640?from=appmsg#imgIndex=4)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/474cd5a1a3d05024f1bc93573a8a58bc_MD5.png)
 
 这时候它会弹出一个弹窗，问你是绑定已有的小程序账号，还是创建试用版小程序。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vsAViaKGWic0Uxt3FtT7Oe0U5nLyEv9q8sPVzoEZlqednRhsLcJfzlDQDgbkHeC7PlODZiaeCxdzL9SWPEJbszicmPepFQA16SHYYKSQ6ReUGiaw/640?from=appmsg#imgIndex=5)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/abe6141dfd3aeea7ae2b605b6de5191c_MD5.png)
 
 如果你没有小程序账号，就没办法绑定，只能创建试用版；但一旦创建了试用版，它就再也没办法绑定小程序账号了。目前系统不支持转换，不存在试用之后再转成正式版并绑定小程序账号的可能。
 
@@ -107,13 +107,13 @@ AI 时代，每天我们都有很多要做的事情。如果你不简单地记�
 
 注册也不复杂：打开微信公众平台 mp.weixin.qq.com，在“账号分类”里选择“小程序”，填写相关信息就能完成注册。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vsAViaKGWic0WjqRNfFj8tV8ZO9LjdTr0rFkgLD5ZSKIhkcbTcPIdkuzPG0kopv4qY4ciaXkt3CopBJOwMOdajRCwTCXNReuYGEMvJ5icSl2khY/640?from=appmsg#imgIndex=6)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/1ae09b44541aa6f1c438f82f99355fe5_MD5.png)
 
 选了“绑定已有小程序账号”，就用小程序管理员的微信扫一下二维码，选中你注册的那个账号完成授权。
 
 否则选了创建试用版，它就只能永远是一个试用版。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vsAViaKGWic0VHRPr55CCgZSjKKEqEMNmAvfKWeicm8YlYiadDJ8xtWEBNWSKR94lWnlzw0rh5lByPBrrYJtm2yNFtqeC41Y5TZcdgJesicRjwkA/640?from=appmsg#imgIndex=7)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/73cf8d058b94054a9a2c96c2c7a0cc29_MD5.png)
 
 # 3. 账号额度与限制
 
@@ -135,7 +135,7 @@ WorkBuddy 免费版和付费版，它的用户额度是不一样的。
 
 需求量大的话，留意上面说的这个额度即可。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vsAViaKGWic0WbaImETfm5piaWRFPP228A8r5g841ED37F6gibbjvMaJtpmMbNCd24ibzRVxicvj9ZtrLXoNCTECrIDlWo0WBABEyA5QGkvmbeXQw/640?from=appmsg#imgIndex=8)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/ba6461fdfcccf12682701cd463b966c2_MD5.png)
 
 好了，关于 WorkBuddy 做微信小程序的流程和这次遇到的试用版限制，我今天就先聊到这里。
 
@@ -145,7 +145,7 @@ WorkBuddy 免费版和付费版，它的用户额度是不一样的。
 
 最近小灰创建了一个AI副业交流群，对AI和副业变现感兴趣的朋友，都欢迎进群交流。扫码添加小灰微信，备注“ai“即可进群：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/9ojSnBX2WWYldee3Gj74lfp6Kbbgt96EmYFQEebMoF2gNGQ9jcKFMcsVeISHYIiaREDcSuPhib2h6oNhYj7V1hoYmxNRWhXDRKyGibSwqFUWqk/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-02%20-%20WorkBuddy%20%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%8C%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B%E6%9D%A5%E4%BA%86/dd020dc5797774640d8056d4b9591499_MD5.png)
 
 ---
 原文链接：https://mp.weixin.qq.com/s/RUrQTaqoleYlsQPi7oVUVw
