@@ -1821,3 +1821,6 @@
 ## [2026-10-08] ingest | 补处理第 72 篇 OpenMuse 文章
 - **变更**: 新增 [[摘要-openmuse-agent工位与浏览器接管]], [[OpenMuse]]; 更新 [[index.md]]
 - **冲突**: 无
+
+## [2026-10-08] lint | 冲突裁决：6 处统一标记为待查（方案 C）
+- **变更**: [[Manus]]、[[Gemini4Argon]]、[[SpringAI_Alibaba]]、[[小豆]]、[[HandyBot]]、[[LightVela]] 的 ## 知识冲突 区块均追加 **状态：⏳ 待查**，两种说法并列保留，待后续来源裁决
