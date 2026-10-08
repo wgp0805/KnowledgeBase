@@ -2,7 +2,7 @@
 title: "Dots"
 type: entity
 tags: [AI产品, OpenAI, 常驻智能体, Agent, DevDay]
-sources: [raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-03-实测 ChatGPT Dot，龙虾转生？不完全是。.md]
+sources: [raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-03-实测 ChatGPT Dot，龙虾转生？不完全是。.md, raw/01-articles/2026-10-07-在 agent 的世界里，留存就是分发.md]
 last_updated: 2026-10-08
 ---
 
@@ -25,6 +25,14 @@ Dots 是 OpenAI 在 DevDay 2026（2026-09-29 发布会）推出的常驻自主�
 - **三个争议的回应**：①自建 24h Mac mini+内网穿透对极客可行、对 99% 用户门槛高，大厂把笨重方案封装成平民化服务；②**生态孤岛硬伤**——Dot 的主动力建立在 Google Workspace/Slack/Microsoft 365 上，触达不了微信/企微/飞书/钉钉，国内场景"巧妇难为无米之炊"，国内好用的 Personal Agent 要看本土厂商跑通本土办公生态；③安全=只读探测+Auto-review 人工确认+随时接管
 - **开放节奏**：Pro、Business Premium、Enterprise 用户分批灰度；作者提醒别把它当聊天搜索引擎，而是"云端数字员工/外包工程师"，现阶段不要指望它拍板商业决策
 
+### Tibo 访谈视角：为什么是 Dots（2026-10-07，详见 [[摘要-retention-is-distribution]]）
+- **反工作流宣言**：让用户自己搭循环、画流程图、微调工作流"也许有人兴奋过"，但 Tibo 不认为这是未来——真正会赢的是 Dots 思路：一个极聪明、全天候工作的 agent，理解你的目标和偏好，从反馈里学习，用户不需关心内部怎么循环
+- **产品细节补充**：无模型选择器、无一堆配置，唯一要选的是沟通渠道；每个用户一个 primary dot（最懂你的偏好），第二个起组成虚拟团队各司其职（Tibo 自己有专管 X 的 dot）；可通过 ChatGPT、Slack、Microsoft Teams 联系，短信渠道稍后；随 Pro 和 Business Premium 订阅提供、不额外收费
+- **技术底料**：长时间持续运行任务研究两年多、记忆系统同量级时间、加上 Codex harness 与全天候能力；首搭 Astra 因其最安全、对齐程度最高
+- **架构细节**：Dots 的 harness 不跑在用户机器上，自有电脑也可连用户笔记本（将来可同时连十台，Tibo 比作章鱼——一个中心多条触手）
+- **发布前五分钟轶事**：DevDay 演示前 ChatGPT 生产故障，Tibo 的 dot 主动报告并请求修复，被以"你还没到那一步"拒绝——理解关联做对了，动手修被护栏拦住（详见 [[二级监控]]）
+- **分发逻辑**：插件被推荐只看留存与使用质量，"做好插件"即分发（详见 [[留存即分发]]）
+
 ## 关联连接
 - [[摘要-chatgpt-dot实测]] — 来源（实测与争议分析）
 - [[摘要-openai-devday-2026-gpt61sol-dots]] — 来源
@@ -35,3 +43,7 @@ Dots 是 OpenAI 在 DevDay 2026（2026-09-29 发布会）推出的常驻自主�
 - [[GPT-6]] — 驱动模型
 - [[摘要-personal-agent六条海外路线]] — 来源（"第二身份"路线分析）
 - [[默认委托权]] — 六条路线争夺的目标
+- [[摘要-retention-is-distribution]] — 2026-10-07 Tibo 访谈视角（来源）
+- [[留存即分发]] — 访谈提炼的分发法则
+- [[二级监控]] — 访谈披露的运行时安全机制
+- [[Tibo]] — 受访者、Dots 负责人
