@@ -2,7 +2,7 @@
 title: "Spell"
 type: entity
 tags: [AI产品, PersonalAgent, 字节跳动, 豆包, 个人助理]
-sources: [raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md]
+sources: [raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md]
 last_updated: 2026-10-08
 ---
 
@@ -19,6 +19,7 @@ last_updated: 2026-10-08
 
 ## 关联连接
 - [[摘要-豆包Spell对标Muse]] — 来源
+- [[摘要-muse爆火大厂冲进personal-agent]] — 来源（大厂集体冲锋时间线中的字节一环）
 - [[豆包]] — 母体产品与整合对象
 - [[MetaMuse]] — 对标对象
 - [[personal-ai-agent]] — 所属产品赛道

@@ -14,4 +14,4 @@ last_updated: 2026-10-08
 - [[NoahShinn]] — 创始人兼 CEO
 - [[personal-ai-agent]] — 所属产品赛道
 - [[MetaMuse]] — 文中对比的两条产品路线（Muse 有界面 vs Instinct 无界面）
-- [[摘要-personal-agent-muse大厂集体冲锋]] — 同期 Personal Agent 赛道格局
+- [[摘要-muse爆火大厂冲进personal-agent]] — 同期 Personal Agent 赛道格局

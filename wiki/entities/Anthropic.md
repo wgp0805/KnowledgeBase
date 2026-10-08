@@ -8,7 +8,8 @@ sources:
   - raw/01-articles/2026-09-19-Anthropic 优化 30 多个生物模型，蛋白质设计成本最高降 98%.md
   - raw/01-articles/2026-09-24-A社O社，坐不住了.md
   - raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md
-last_updated: 2026-09-28
+  - raw/01-articles/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -28,7 +29,7 @@ last_updated: 2026-09-28
 这场风波究竟影响了多少普通用户，Anthropic 没有公布数字。但它构成了一个[[竞品迁移窗口]]——只要开发者开始担心"我的账号明天还能不能用"，替代产品的机会就来了。同期的 [[Codex]] 用连续额度重置承接了这波迁移需求（作者声明没有公开数据能证明新增用户来自 Claude）。
 
 ### 优化生物模型（2026-09-19）
-Anthropic 让 [[Claude]] 用不到四周优化 30 多个生物研究开源模型，覆盖蛋白结构预测、蛋白设计、Protein Language Model 和基因组学。允许极小精度损失时平均提速约 4 倍，要求输出完全一致时平均接近 2 倍加速，并降低显存占用让大型分子系统可在单张 NVIDIA GPU 节点推理。Claude 开发了 [[FlashPairformer]] 自定义 kernel 专门加速 triangle attention 和 triangle multiplication（[[AlphaFold3]]/OpenFold3/Boltz-2 大量使用），相较 NVIDIA cuEquivariance 快 2.7-2.9 倍。蛋白设计成本从每靶点约 1 万美元降到约 150 美元。详见 [[摘要-anthropic优化生物模型]]。
+Anthropic 让 [[Claude]] 用不到四周优化 30 多个生物研究开源模型，覆盖蛋白结构预测、蛋白设计、Protein Language Model 和基因组学。允许极小精度损失时平均提速约 4 倍，要求输出完全一致时平均接近 2 倍加速，并降低显存占用让大型分子系统可在单张 NVIDIA GPU 节点推理。Claude 开发了 FlashPairformer 自定义 kernel 专门加速 triangle attention 和 triangle multiplication（AlphaFold3/OpenFold3/Boltz-2 大量使用），相较 NVIDIA cuEquivariance 快 2.7-2.9 倍。蛋白设计成本从每靶点约 1 万美元降到约 150 美元。详见 [[摘要-anthropic优化生物模型]]。
 
 ### Claude Opus 5.5 发布与降价（2026-09-22）
 Anthropic 发布 [[Opus]] 5.5（约一个半小时后 OpenAI 推出 GPT-6 Sol/Luna 应战，见 [[大模型价格战]]）。定价：输入/输出每百万 token 降至 4/20 美元，比 Opus 5 低 20%，算上完成任务所需 token 更少，典型任务整体成本比 Opus 5 低约 40%；在 Anthropic 公布的 9 项基准测试中超过三周前的 [[Fable 5.1]]，标价却只有 Fable 5.1 的四成（Anthropic 自己提醒实际差距比跑分小）。提升集中在编程、智能体、计算机使用、数学与科学推理，更擅长需要持续执行的开发任务。动因：Ramp 数据显示 Fable 5 上线一个月只占企业从 Anthropic 采购 token 的 6%，企业不再为最高档自动付费；Anthropic 年化收入 7 月底达 650 亿美元、估值破万亿并已秘密递交上市申请，付费采用率 43.8%（高于 OpenAI 的 39.8%），降价目标是提高留存、扩大部署。详见 [[摘要-a社o社价格战]]。
@@ -36,12 +37,16 @@ Anthropic 发布 [[Opus]] 5.5（约一个半小时后 OpenAI 推出 GPT-6 Sol/Lu
 ### 扎克伯格眼中的追赶对象（2026-09）
 SemiAnalysis 7 月文章认为 Meta 最有可能追上 [[OpenAI]] 与 Anthropic；扎克伯格在访谈中承认 Llama 4 偏离预期后需重建方法，并把 Anthropic 与 OpenAI 并列为要追赶的前沿实验室。详见 [[摘要-扎克伯格谈muse-全栈护城河]]。
 
+### 对智谱 GLM-5.3 的网络安全评估（2026-09-30）
+Anthropic 发布对 [[智谱]] [[GLM-5.3]] 的网络安全评估：五个月前 Anthropic 首次实现自主开发端到端漏洞利用的 Claude Mythos Preview 通过 Project Glasswing 限制性开放（已帮可信防御者发现超 1 万个漏洞），如今同等能力已扩散到 GLM-5.3，且后者发布时缺少有效护栏——欺骗性提示/预填思考 token/abliteration 可使恶意任务参与比例分别达 64%/92%/100%，相同攻击对保留护栏的 Claude 模型全部无效。Anthropic 据此主张：防御者应获得与攻击者至少同等强的前沿模型，政府应对强能力模型开展独立安全测试，呼吁开放权重模型开发者设置适当护栏。详见 [[摘要-anthropic-glm53网络安全评估]]。
+
 ## 关联连接
 - [[摘要-顶模-fable-51发布到底强了多少]] — 来源
 - [[摘要-codex重置的真正原因]] — 来源（封号风波与迁移窗口）
 - [[摘要-anthropic优化生物模型]] — 来源（优化生物模型）
 - [[摘要-a社o社价格战]] — 来源（Opus 5.5 降价与价格战）
 - [[摘要-扎克伯格谈muse-全栈护城河]] — 来源（被 Meta 视为追赶对象）
+- [[摘要-anthropic-glm53网络安全评估]] — 来源（GLM-5.3 网络安全评估与护栏主张）
 - [[Opus]] — Opus 5.5 所属模型系列
 - [[大模型价格战]] — Opus 5.5 参与的行业现象
 - [[Claude]] — 旗下产品，账号被停用事件的主体
@@ -49,7 +54,7 @@ SemiAnalysis 7 月文章认为 Meta 最有可能追上 [[OpenAI]] 与 Anthropic�
 - [[AlibabaCloud]] — 涉及欺诈账户指控的关联方
 - [[Fable 5.1]] — 旗下模型，被 Opus 5.5 反超
 - [[Mythos 5.1]] — 旗下模型
-- [[FlashPairformer]] — 自定义 kernel
-- [[AlphaFold3]] — 被优化模型
+- FlashPairformer — 自定义 kernel
+- AlphaFold3 — 被优化模型
 - [[摘要-数字员工落地第一步]] — Building effective agents 建议被引用
 - [[ComputerUse]] — Opus 5.5 强化的计算机使用能力
