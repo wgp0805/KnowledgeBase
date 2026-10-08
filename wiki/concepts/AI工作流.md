@@ -25,7 +25,7 @@ Workflow 按直线执行，没有从结果回到决策的循环边。Agent 的 R
 ### 典型应用场景
 - RAG 问答（检索→重排→生成，固定流水线）
 - 文档抽取（解析→分块→抽取字段→校验）
-- 意图路由（LLM 分类→分发到对应处理分支）
+- 意图路由（LLM 分类→分发到对应处理分支，详见 [[意图路由]]）
 
 ### Anthropic 五种 Workflow 模式
 Prompt Chaining、Routing、Parallelization、Orchestrator-Workers、Evaluator-Optimizer。
@@ -50,4 +50,5 @@ Anthropic 强调"简单胜于复杂"：能用 Workflow 解决就别上 Agent；�
 - [[LangChain4j]] — Java 生态 Workflow 编排
 - [[RAG]] — Workflow 典型应用场景
 - [[ReAct_Agent]] — Agent 的循环模式
+- [[意图路由]] — Workflow 中 Routing 模式的具体化
 - [[摘要-agent-tools-workflow区别]] — 来源

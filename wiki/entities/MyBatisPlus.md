@@ -2,8 +2,8 @@
 title: "MyBatisPlus"
 type: entity
 tags: [ORM, MyBatis]
-sources: [raw/09-archive/springboot整合mybatisPlus.md, raw/09-archive/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md, raw/01-articles/深度解析：Spring 事务与 MyBatis-Plus SqlSession 复用机制.md, raw/01-articles/MyBatis Plus 封神玩法：这12个骚操作让开发效率直接起飞！.md, raw/01-articles/MyBatis-Plus 3.5.15 已全面支持 Spring Boot 4.0 及 Jackson 3.0.md]
-last_updated: 2026-09-03
+sources: [raw/09-archive/springboot整合mybatisPlus.md, raw/09-archive/若依项目使用mybatis切换mybatis-plus导致PageHelper失效的问题.md, raw/01-articles/深度解析：Spring 事务与 MyBatis-Plus SqlSession 复用机制.md, raw/01-articles/MyBatis Plus 封神玩法：这12个骚操作让开发效率直接起飞！.md, raw/01-articles/MyBatis-Plus 3.5.15 已全面支持 Spring Boot 4.0 及 Jackson 3.0.md, raw/01-articles/2026-10-02 - 为什么越来越多人用 MybatisPlus Pro？.md]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -11,6 +11,7 @@ MyBatis-Plus（简称 MP）是 MyBatis 的增强工具，在 MyBatis 的基础�
 
 ## 关键信息
 - 自动 CRUD：BaseMapper 提供 insert/update/delete/select 方法
+- **生态延伸（2026-10-02）**：社区/官方演进出 [[MybatisPlusPro]]——在 BaseMapper 消灭 Mapper 层的基础上再消灭 Service 与 Controller 层重复代码（BaseController + 反射自动生成 QueryWrapper，一个 CRUD Controller 一行继承搞定），详见 [[摘要-mybatisplus-pro-crud自动化]]
 - 条件构造器：QueryWrapper/LambdaQueryWrapper 支持链式条件查询
 - 分页插件：PaginationInterceptor（PageHelper 可替代方案）
 - 代码生成器：AutoGenerator 自动生成 Entity/Mapper/Service/Controller
@@ -75,6 +76,7 @@ MyBatis-Plus（简称 MP）是 MyBatis 的增强工具，在 MyBatis 的基础�
 4. **import 包名错误**：Jackson 3 的 ObjectMapper 在 `tools.jackson.databind` 下
 
 ## 关联连接
+- [[MybatisPlusPro]] — 基于 MP 的进一步增强（消灭 Service/Controller 层重复代码，见 [[摘要-mybatisplus-pro-crud自动化]]）
 - [[SpringBoot]] — 整合框架
 - [[MySQL]] — 数据库
 - [[MyBatis]] — 基础 ORM 框架
