@@ -2,7 +2,7 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md]
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md]
 last_updated: 2026-10-08
 ---
 
@@ -258,6 +258,9 @@ Anthropic 去年 9 月将 Claude Code SDK 扩展为通用 Agent SDK，今年补�
 ### Skill 与 MCP 的上下文开销权衡（2026-10，详见 [[摘要-claude-code-mcp-unity游戏]]）
 来自 Unity 实战总结的 context 治理经验：**Skill 每次调用仅占约 8 个 token**、按需加载平时不占窗口，而 **MCP 工具开销重且常驻 prompt**（无论是否使用）——装多了模型智能明显下降。实践建议：优先 Skills 而非 MCP 工具；用不到的 MCP 工具（Gmail、Calendar 等）在 `/mcp` 里禁掉；任务间 `/clear`。该文用"薄服务器+动态注册"的 GameDev-MCP-Server 从空文件夹做出可玩 Unity 游戏（见 [[UnityMCP]]）。
 
+### Mods 事件扩展能力（v2.1.287，2026-10，详见 [[摘要-claude-code-mods机制]]、[[Mods]]）
+Anthropic 在 v2.1.287 推出 **Claude Mods**：用 TypeScript/JavaScript 进程内函数挂载到事件流上，执行观察（Observe）/改写（Rewrite）/接管（Answer）三类操作，类中间件管道（Middleware Chain），并可在终端/桌面绘制自定义界面。与 Skills（Markdown 教模型）、MCP（外部工具）、Settings Hooks（外部脚本）四者互补协同。**架构演进信号**：内置能力已开始以 Mod 形式交付（/diff → cc-plugin-diff、AGENTS.md 加载 → cc-plugin-agents-md），官方计划把更多内置功能迁移为 Mods、让宿主缩减为小 Core 按需装配——与 [[DeepSeekHarness]] 的"一切皆插件"方向相似但 API 完全不兼容（前者服务契约级组件插拔，后者会话流水线事件拦截）。**安全要点**：Mods 无沙箱、行使当前用户 OS 权限，Mod 自启进程在 Bash 沙箱之外；不能改绘权限提示框；企业可经 cc-plugin-sec-default + `allowManagedModsOnly` 管控。
+
 ### 第三方解锁补丁 ClawGod（2026-10，详见 [[摘要-clawgod解锁claude-code]]）
 开源 GPL-3.0 补丁工具 [[ClawGod]] 一行命令修改本地 Claude Code 客户端：伪装内部用户解锁 Opus 4.6 + 1M 上下文、解锁 Agent Teams、删除安全话题拒答等三条内部限制、用本地 JSON 覆盖功能开关、支持自定义 apiKey/baseURL；`claude --uninstall` 可恢复原版（保留 `claude.orig`）。属**第三方非官方修改**，会放大 prompt 注入与误操作风险，与本页所述官方权限体系（deny→ask→allow、Hooks 优先）方向相反，引用时须区分。
 
@@ -333,3 +336,5 @@ Anthropic 去年 9 月将 Claude Code SDK 扩展为通用 Agent SDK，今年补�
 - [[UnityMCP]] — 该实战使用的 MCP 服务器
 - [[摘要-clawgod解锁claude-code]] — 来源（第三方解锁补丁 ClawGod）
 - [[ClawGod]] — 修改本地客户端的开源补丁
+- [[摘要-claude-code-mods机制]] — 来源（Mods 机制与四扩展选型）
+- [[Mods]] — v2.1.287 新增的进程内事件扩展机制

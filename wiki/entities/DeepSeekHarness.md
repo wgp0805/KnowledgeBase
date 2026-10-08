@@ -14,6 +14,7 @@ sources:
   - raw/01-articles/2026-09-25-DeepSeek Harness客户端来了，AI办公又多了一个王者？.md
   - raw/01-articles/DeepSeek桌面版真不错，再见了WebUI。.md
   - raw/01-articles/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md
+  - raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md
 last_updated: 2026-10-08
 ---
 
@@ -163,6 +164,12 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - **记忆现状**：无官方长期记忆工具，靠 `~/.dsh/AGENTS.md` + 项目 AGENTS.md/CLAUDE.md（首请求注入，预算 65536 字节）；`session_search` 源码存在但内置预设未启用
 - **推荐三件套**：DSH-better-sidebar（侧边栏+上下文自动注入的 Side Chat）、dsh-TUI（Sixel/Kitty 图片预览、时间回溯）、deepseek-harness-plugin.com 插件库
 
+## 与 Claude Code Mods 的架构对照（2026-10-04，详见 [[摘要-claude-code-mods机制]]）
+Claude Code 推出 [[Mods]] 被媒体拿来对比 DSH 的"一切皆插件"，两者演化方向一致但实现独立、**无协议兼容或继承关系**：
+- **共同特征**：把定制单元从外部提示词/工具挂载推进到 Agent 运行时内部，内置与扩展共享同一套底层机制；调用链引入类似中间件的流水线（前一个扩展处理完调用 next 交控制权，或提前返回接管）；生命周期与状态管理成为干预接缝
+- **核心差异**：DSH 启动时按配置与 Profile 组装整棵 Cordis 插件树，由依赖注入驱动服务挂载，AgentLoop/模型适配/工具注册均以服务契约提供、可换 Provider，插件间靠注册服务与 Typed 事件 + 生命周期 Effects 协同，**服务契约级组件插拔**；Claude Code Mods 随插件包安装、会话启动时进入中间件事件链，宿主引擎保持完整运行、官方逐步把内置能力迁成 Mod，用户可干预单轮模型路由与工具执行，**会话流水线级事件拦截与改写**
+- **边界**：基于 Cordis Context 的服务提供者无法直接塞进 Claude Code，Mods 的 register 与事件钩子也无法在 dsh 中运行——审计逻辑可互相参考，代码必须针对各自宿主单独编写
+
 ## 6 元体验赠金活动（2026-10-01，详见 [[摘要-9家ai大厂token福利]]）
 - 符合条件用户登录即得 **6 元体验赠金**，按官方典型 Agent 用量估算约覆盖 1.2 亿缓存命中输入 Token、148 万缓存未命中输入 Token、52 万输出 Token
 - 名额有限先到先得，**到账后 7 天有效**；覆盖范围为活动开始前已注册的 DeepSeek 用户，以及活动开始后用 +86 中国大陆手机号注册的新用户；活动前登录过的可退出重登再查
@@ -204,3 +211,5 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - [[老章]] — 横评作者
 - [[ClaudeCode]] — 综合排名第一的 Harness
 - [[摘要-9家ai大厂token福利]] — 来源（6 元体验赠金活动）
+- [[摘要-claude-code-mods机制]] — 来源（与 Claude Code Mods 的架构对照）
+- [[Mods]] — Claude Code 侧的对照机制

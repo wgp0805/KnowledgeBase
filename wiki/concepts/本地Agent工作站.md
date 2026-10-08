@@ -2,8 +2,8 @@
 title: "本地Agent工作站"
 type: concept
 tags: [概念, 本地部署, Agent, 隐私, 成本优化, 硬件门槛]
-sources: [raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md]
-last_updated: 2026-08-18
+sources: [raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md, "raw/01-articles/2026-10-04 - 夯爆了！这个开源项目，让旧手机变成24小时跑的AI服务器！.md"]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -62,8 +62,13 @@ DSH (Agent 框架) ──OpenAI 兼容 API──> llama-server (llama.cpp) ─�
 7. Windows 用户：PowerShell 可能拦截 npx.ps1，换成 `npx.cmd @deepseek-ai/dsh web`
 8. Node.js 版本建议 v22.19+，v18 崩溃，v24 可能有兼容性问题
 
+### 手机形态：门槛再降一个数量级（2026-10-04，详见 [[摘要-ollite-rt-旧手机ai服务器]]）
+[[OlliteRT]] 把闲置安卓手机变成本地推理服务器（LiteRT-LM 直调手机 GPU/CPU、OpenAI 兼容接口），与"2×RTX5090 工作站"形成同一路线的两个极端：前者 6-8GB 内存手机即可 24 小时常驻、免费、数据不出局域网，但一次只能跑一个模型且请求排队，只适合任务碎量小的场景；后者 3-4 万元投入换来 27B 级模型 + 完整 Agent 框架的生产级能力。选择标准是任务规模与精度要求，而非隐私诉求——两者都完全本地。
+
 ## 关联连接
 - [[摘要-人类智力基线与2张显卡]] — 来源
+- [[摘要-ollite-rt-旧手机ai服务器]] — 来源（手机形态）
+- [[OlliteRT]] — 手机形态的实现项目
 - [[Qwen3.8-27B]] — 模型支柱
 - [[DeepSeekHarness]] — 框架支柱
 - [[LlamaCpp]] — 推理引擎支柱

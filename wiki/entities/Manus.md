@@ -2,7 +2,7 @@
 title: "Manus"
 type: entity
 tags: [AI产品, Agent, 通用Agent, PersonalAgent, 创业公司]
-sources: [raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md]
+sources: [raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md]
 last_updated: 2026-10-08
 ---
 
@@ -17,6 +17,7 @@ Manus 是定位 General Agent（通用 Agent）的 AI 产品，2025 年 3 月上
 - **调度哲学**：通用更像一套调度方式——用户不必自己决定下一步打开哪个 AI 产品；新 Agent Harness 平时轻量、按需引入专业模块，由 Cascade 服务调度。垂直产品比拼单点深度，Manus 要拿的是入口和调度能力；风险是链条越长、任一环节偏差越影响最终结果
 - **定位演进**：早期"能力覆盖面广的执行助手"→ 2.0 证明"任务之间的价值"，不追求每个单项都赢
 - **国内动向**：面向国内市场的产品在筹备、团队正在组建，与国产模型厂商合作推进；没有自家"围城"的独立玩家反而敢做真正的"连接者"
+- **腾讯入股（2026-10-04，详见 [[摘要-腾讯四款muse产品盘点]]）**：腾讯牵头国内资本以约 **20 亿美元估值**从 Meta 手中回购 Manus 相关股权，腾讯成为**最大单一外部股东**、创始团队仍掌握实际控制权——虽不控股不属腾讯系，但为多方合作创造可能；文中 Cue 对标对象实为 Meta 的 Muse（原文笔误写作"Meta 的 Manus"）
 
 ## 知识冲突
 - 说法 A（[[摘要-Manus2通用Agent]]）：2025 年 12 月 29 日 Manus **加入 Meta**，2026 年 9 月 1 日"离开 Meta"恢复独立运营
@@ -26,6 +27,7 @@ Manus 是定位 General Agent（通用 Agent）的 AI 产品，2025 年 3 月上
 ## 关联连接
 - [[摘要-Manus2通用Agent]] — 来源（2.0 深度评测）
 - [[摘要-豆包Spell对标Muse]] — 来源（竞争格局）
+- [[摘要-腾讯四款muse产品盘点]] — 来源（腾讯入股与 Cue 对标信息）
 - [[通用Agent]] — 所属产品概念
 - [[personal-ai-agent]] — Cue 所属赛道
 - [[MetaMuse]] — Cue 的正面竞争对手
