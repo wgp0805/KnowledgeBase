@@ -2,8 +2,8 @@
 title: "MiniMax"
 type: entity
 tags: [AI公司, 大模型厂商]
-sources: [raw/01-articles/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md, raw/01-articles/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md]
-last_updated: 2026-09-20
+sources: [raw/01-articles/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md, raw/01-articles/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md, raw/01-articles/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -19,9 +19,13 @@ last_updated: 2026-09-20
 - 把 [[MiniMaxCode]]（Code CLI v0.4.12，MIT 协议）开源，在 FrontierHarness Eval 上拿到 SOTA 通过率、最快完成时间、第二低 token 消耗
 - 架构基于 [[Pi]] 开源编码 Agent 框架，详见 [[MiniMaxCode]]
 
+### 国庆签到积分翻倍（2026-10-01，详见 [[摘要-9家ai大厂token福利]]）
+- 9 月 28 日—10 月 7 日，MiniMax Code 每日签到积分直接翻倍，新老用户均可参加，活动 10 月 7 日结束
+
 ## 关联连接
 - [[摘要-淘宝正式上线ai空间站]] — 来源
 - [[摘要-minimax-code-cli开源]] — 来源（开源 Code CLI）
+- [[摘要-9家ai大厂token福利]] — 来源（国庆签到积分翻倍）
 - [[AI空间站]] — 销售平台
 - [[淘宝]] — 合作平台
 - [[Token套餐]] — 销售产品

@@ -13,7 +13,8 @@ sources:
   - raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md
   - raw/01-articles/2026-09-25-DeepSeek Harness客户端来了，AI办公又多了一个王者？.md
   - raw/01-articles/DeepSeek桌面版真不错，再见了WebUI。.md
-last_updated: 2026-09-29
+  - raw/01-articles/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -162,6 +163,10 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - **记忆现状**：无官方长期记忆工具，靠 `~/.dsh/AGENTS.md` + 项目 AGENTS.md/CLAUDE.md（首请求注入，预算 65536 字节）；`session_search` 源码存在但内置预设未启用
 - **推荐三件套**：DSH-better-sidebar（侧边栏+上下文自动注入的 Side Chat）、dsh-TUI（Sixel/Kitty 图片预览、时间回溯）、deepseek-harness-plugin.com 插件库
 
+## 6 元体验赠金活动（2026-10-01，详见 [[摘要-9家ai大厂token福利]]）
+- 符合条件用户登录即得 **6 元体验赠金**，按官方典型 Agent 用量估算约覆盖 1.2 亿缓存命中输入 Token、148 万缓存未命中输入 Token、52 万输出 Token
+- 名额有限先到先得，**到账后 7 天有效**；覆盖范围为活动开始前已注册的 DeepSeek 用户，以及活动开始后用 +86 中国大陆手机号注册的新用户；活动前登录过的可退出重登再查
+
 ## 关联连接
 - [[DeepSeek]] — 所属公司
 - [[崔添翼]] — 团队负责人
@@ -198,3 +203,4 @@ DeepSeek Harness（DSH）是 DeepSeek 官方自研的原生 Agent 框架，对�
 - [[DeepSeek-V4.1-Flash]] — 被测模型
 - [[老章]] — 横评作者
 - [[ClaudeCode]] — 综合排名第一的 Harness
+- [[摘要-9家ai大厂token福利]] — 来源（6 元体验赠金活动）
