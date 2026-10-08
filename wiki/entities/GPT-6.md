@@ -9,7 +9,8 @@ sources:
   - raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md
   - raw/01-articles/Codex 最新焚决发布，快！.md
   - raw/01-articles/2026-09-24-A社O社，坐不住了.md
-last_updated: 2026-09-28
+  - raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -83,6 +84,13 @@ GPT-6 Astra 是 OpenAI 于 2026-09-03 发布的新一代大模型，被总裁 Br
 - **Luna**：输入 0.2→0.1 美元、输出 1.2→0.5 美元，最高降幅 58%；改进缓存减少重复劳动
 - **分档定位**：Astra 保留最高能力，Sol/Luna 承接数量更多、反复发生、价格敏感的日常调用
 
+### GPT-6.1 Sol（2026-09-29 DevDay 发布）
+详见 [[摘要-openai-devday-2026-gpt61sol-dots]]。在 DevDay 2026 随 [[Dots]] 等 20 多项更新一同发布，主打"性能逼近 Astra、价格砍 80%"：
+- **价格**：标准 API 每百万输入/输出 token 2/10 美元（Astra 标准价的五分之一）；**缓存输入低至 0.10 美元/百万 token**（比标准输入降 95%，比上代 GPT-6 Sol 缓存价再腰斩 50%）——长上下文 Agent 反复复用提示词的综合推理成本被打到地板
+- **评测**：DeepSWE v1.1 跑分追平 Astra（成本约五分之一）、超上代 GPT-6 Sol 6.4 个百分点；GDP.pdf 长文档问答超带 Fallback 的 Claude Opus 5.5（成本不到一半）；AutomationBench 中等推理强度高 Opus 5.5 2.2 个百分点（成本约三分之一）；OSWorld 2.0 较上代升 7 个百分点、距 Astra 仅差 2.1（成本约七分之一）；Terminal-Bench 单任务 5.47 美元（Astra/Opus 5.5 均超 23 美元，成本降超 75%）；低思考强度事实错误率降 32%
+- **配套提速**：Ultrafast 极速引擎在 Codex 中代码生成最高提速 8 倍（约 300 tokens/s）、标准 API 最高 6 倍；已登陆 ChatGPT Work 与 Codex，API 代号 `gpt-6.1-sol`
+- **定位**：继续验证"用更低推理算力逼近旗舰"的分档策略，为 [[常驻智能体]]（Dots 的 24/7 后台运行）与主动式 Agent 的高 Token 消耗提供成本底座
+
 ## 关联连接
 - [[OpenAI]] — 发布公司
 - [[Codex]] — 配套 Agent
@@ -118,3 +126,6 @@ GPT-6 Astra 是 OpenAI 于 2026-09-03 发布的新一代大模型，被总裁 Br
 - [[DefenderWindow]] — 防御者窗口
 - [[FrontlineDefenders]] — 10 亿美元安全计划
 - [[Sora]] — 2026 年取消的项目
+- [[Dots]] — 同场发布的常驻智能体（GPT-6.1 Sol 的成本支撑对象）
+- [[常驻智能体]] — 6.1 Sol 服务的产品形态
+- [[摘要-openai-devday-2026-gpt61sol-dots]] — 来源（GPT-6.1 Sol 与 DevDay）

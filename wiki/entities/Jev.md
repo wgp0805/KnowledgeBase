@@ -2,8 +2,8 @@
 title: "Jev"
 type: entity
 tags: [AI模型, 判断模型, TypeSafeAI]
-sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md, raw/01-articles/2026-09-20-Jev新决策模型的试用心得.md, raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-21-一万字Jev 工程实践长文：把 Agent 的"判断题"从大模型里拆出来.md, raw/01-articles/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md, raw/01-articles/2026-09-22-新模型Jev爆火：曾帮ChatGPT学会聊天的人，为啥做个不聊天AI？.md, raw/01-articles/2026-09-22-Jev爆火，具身智能迎来大救星？.md, raw/01-articles/2026-09-26-Jev 爆火背后：AI Agent 正在从“三体人”变成“地球人”.md, raw/01-articles/2026-09-26-基元律动发布 NeoHorse-Jev，开源 Jev 综合评测第一.md]
-last_updated: 2026-09-28
+sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md, raw/01-articles/2026-09-20-Jev新决策模型的试用心得.md, raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-21-一万字Jev 工程实践长文：把 Agent 的"判断题"从大模型里拆出来.md, raw/01-articles/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md, raw/01-articles/2026-09-22-新模型Jev爆火：曾帮ChatGPT学会聊天的人，为啥做个不聊天AI？.md, raw/01-articles/2026-09-22-Jev爆火，具身智能迎来大救星？.md, raw/01-articles/2026-09-26-Jev 爆火背后：AI Agent 正在从“三体人”变成“地球人”.md, raw/01-articles/2026-09-26-基元律动发布 NeoHorse-Jev，开源 Jev 综合评测第一.md, raw/01-articles/2026-09-30-“哑巴模型”Jev火了，会给AI产业带来什么改变.md]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -24,6 +24,11 @@ Jev是由前OpenAI研究员Diogo Almeida创办的TypeSafe AI发布的判断模�
 - **产品单位差异**：典型落地场景为终端命令安全判断、企业邮件分类、模型路由与 Agent 监控（TechCrunch 报道）
 - **比喻**：当下大模型像《三体》里思考即表达的"三体人"，Jev 路线是让 Agent 把反复经验沉淀成直觉、变成"地球人"
 - **Memory ≠ Learning**：Jev 代表的 Judgment 与后训练结合，才是从"拥有记忆"走向"形成能力"的路径，见 [[智能压缩]]
+- **"哑巴模型"产业视角（2026-09-30，详见 [[摘要-jev哑巴模型产业改变]]）**：
+  - 浏览器 Agent 实测：Browser Use 创始人用 Jev 查 Google Flights 苏黎世→伦敦机票，全流程 7.1 秒、单次成本 0.0039 美元、循环中位延迟约 178ms；Vercel AI Gateway 上输入约 0.04 美元/百万 Token、输出免费
+  - 行业背景：Agent 从代码向办公扩散（OpenAI 数据：2→6 月企业周活 Codex 用户在法律/销售招聘/营销增长 108×/41×/26×），调用频率激增催生 [[模型分化]]，Jev 是分化的极端样本
+  - 局限：同一判断正着问一遍再反着问，两组概率之和有时超过 1——概率校准尚未达标，"躲开编造答案的风险，但概率照样会错"
+  - 生态位：Jev 名字取自"杰文斯悖论"——判断更便宜后调用量反而上升；按任务路由多模型的 Agent 入口（WorkBuddy Auto 模式、Cursor Router）因此更重要
 
 ## 关联连接
 - [[TypeSafeAI]] — Jev母公司
@@ -43,3 +48,6 @@ Jev是由前OpenAI研究员Diogo Almeida创办的TypeSafe AI发布的判断模�
 - [[非自回归]] — 推理方式
 - [[摘要-Jev爆火背后AI-Agent从三体人变地球人]] — 来源资料
 - [[摘要-基元律动发布NeoHorse-Jev评测第一]] — 来源资料
+- [[摘要-jev哑巴模型产业改变]] — 来源资料（产业影响与校准局限）
+- [[模型分化]] — Jev 所处的行业趋势
+- [[DiogoAlmeida]] — 创始人

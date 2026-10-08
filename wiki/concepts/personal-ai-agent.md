@@ -2,7 +2,7 @@
 title: "personal-ai-agent"
 type: concept
 tags: [PersonalAgent, Agent, AI产品, 个人助理]
-sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md]
+sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md]
 last_updated: 2026-10-08
 ---
 
@@ -20,6 +20,10 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - **国内战局（2026-09-29）**：阿里千问 9-22 云栖大会宣布加速打造 Personal Agent（依托 3 亿用户，健康/理财等方向已接入个人数据，开放平台申请入驻伙伴超 1000 家）；腾讯 [[LightVela]] 已在微信里跑起来、被视为"中国版 Muse"头号受益者；[[Manus]] 国内版产品与团队在筹备；字节 [[Spell]] 箭在弦上；OpenAI 据 The Information 报道正基于开源框架 [[OpenClaw]] 做内部代号 "Codex Bot" 的产品，直接对标 Grok Bot 和 Muse
 - **围城判断**：国内不会出现"中国版 Muse"，会出现"几座围城里的 Agent"——阿里最懂淘宝支付宝、腾讯住在微信、字节离不开抖音本地生活，短期难有跨平台畅通办事的 Agent；没有自家围城的独立玩家反而敢做真正的"连接者"
 - **生死指标**：不是下载量（分发能堆出来），而是任务完成率、复用率、用户愿意授权多深、每完成一个任务要花多少钱
+- **无界面路线（Instinct，2026-09-30）**：与 Muse 的"AI 原生 App"相对的另一极——不做独立 App，给 Agent 配电话号码、邮箱和云端电脑，像联系真人助理一样发短信/打电话交互；为支撑免费必须自研混合推理+批处理+蒸馏剪枝管线（吞吐提升 3-8 倍），商业模式从交易网络收 Take rate（对标 Apple Pay/美运通），拒绝广告变现；用户绑定至少一项敏感资产后留存约 80%（详见 [[Instinct]]、[[摘要-instinct创始人对话个人agent]]）
+- **大厂集体冲锋时间线（2026-09）**：9-08 Meta Muse → 9-22 阿里千问加速变 Personal Agent（核心词 Context 与"时间感"）→ 9-26 腾讯 LightVela 集中报道 → 9-29 字节 Spell 曝光 + OpenAI 发布 [[Dots]] → 9-30 腾讯 Handy Bot 浮出；腾讯三线并行（小微守微信、LightVela 卖云、Handy Bot 冲 C 端），办公线与个人线几乎每家大厂都在同时做
+- **产品形态分野**：办公 Agent 是"帮你干活的同事"（授权都在自己手里的文件/公司系统，已跑出规模），Personal Agent 是"替你过日子的管家"（要的权限很多不在自己手里——淘宝账号是你的但"店"不是你的）；技术底座趋同但面对的"墙"高度完全不同，详见 [[围墙花园]]
+- **a16z 产品哲学（2026-09）**：消费者不在乎"提升 10% 效率"而在乎省钱（free money 场景最易建立信任）；[[Agent主动性]]（Proactivity）是真护城河但有红线——不可逆动作必须先问；理想形态是 Invisible Agent（骑车 30 分钟语音指挥，到办公室 inbox zero）；雄心勃勃的 personal agent 每用户每天约 20 美元成本，主导产品免费靠大厂烧钱；assistant（辅助）与 agent（受托决策）的心理差异决定信任建立方式（详见 [[摘要-a16z-personal-agent对话]]）
 
 ## 关联连接
 - [[摘要-meta-muse-个人ai助理体验]] — 来源（Muse 评测）
@@ -37,3 +41,13 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - [[LightVela]] — 腾讯"住进微信"的托管形态
 - [[Manus]] — Cue 的开发者，独立玩家代表
 - [[通用Agent]] — 与之交叠的产品概念
+- [[摘要-instinct创始人对话个人agent]] — 来源（无界面路线与交易抽成模式）
+- [[摘要-muse爆火大厂冲进personal-agent]] — 来源（大厂时间线与围墙墙判断）
+- [[摘要-a16z-personal-agent对话]] — 来源（Proactivity、Invisible Agent 与经济学）
+- [[Instinct]] — 无界面路线代表
+- [[Dots]] — OpenAI 常驻形态
+- [[常驻智能体]] — 该赛道的共同运行形态
+- [[Agent主动性]] — Proactivity 护城河
+- [[围墙花园]] — 赛道面对的平台墙
+- [[腾讯]] — 三线并行的国内玩家
+- [[a16z]] — 赛道判断的输出方

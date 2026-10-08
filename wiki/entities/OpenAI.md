@@ -2,8 +2,8 @@
 title: "OpenAI"
 type: entity
 tags: [AI公司, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md]
-last_updated: 2026-09-28
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md, raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -40,6 +40,14 @@ OpenAI 将 Codex 背后的 [[Harness]] 做成托管服务开放公测（一个�
 
 ### GPT-6 Sol / Luna 降价（2026-09-22）
 Anthropic 发布 Claude Opus 5.5 约一个半小时后，OpenAI 连推 **GPT-6 Sol** 与 **GPT-6 Luna**，把"便宜"当卖点（构成 [[大模型价格战]]，详见 [[摘要-a社o社价格战]]）：Sol 每百万输入/输出 token 降至 2/10 美元，为上一代 GPT-5.6 Sol 的一半，官方强调是长期定价而非促销；Luna 输入 0.2→0.1 美元、输出 1.2→0.5 美元，最高降幅 58%。两款沿用 GPT-6 Astra 的训练方法，把 Astra 的专业工作/编程/计算机使用能力下放；Sol 事实错误数量约为上代一半。分档逻辑：Astra 保留最高能力定位，Sol/Luna 承接数量更多、价格敏感的日常调用。商业压力：年化收入 8 月超 400 亿美元，但 2026 Q2 经营亏损从 93 亿扩大到 123 亿美元，已秘密递交上市申请，赌的是用量涨得比价格降得快。
+
+### DevDay 2026（2026-09-29，连发 20+ 更新）
+开场公布 **ChatGPT 周活跃用户突破 12 亿**，主线是终结"人工敲 Prompt"的旧时代、走向 7×24 自主协作生态（详见 [[摘要-openai-devday-2026-gpt61sol-dots]]）：
+- **[[Dots]]**：自带独立云电脑的常驻自主智能体（[[常驻智能体]] 形态），Proactive Research 后台只读巡检 4000+ 应用，Specialist Dots 企业版整合进微软 Microsoft Agent 365
+- **[[GPT-6]] 6.1 Sol**：缓存输入 0.10 美元/百万 token，性能逼近 Astra（详见 GPT-6 页）
+- **Ultrafast 极速引擎**：Codex 内最高 8 倍提速（约 300 tokens/s）、API 最高 6 倍；新推 Pro 500 订阅档（25 倍 Plus 配额 + Ultrafast 独享）
+- **开发者底座**：Codex in the Cloud（云端共享开发沙箱）、Codex CLI 刷新（语音唤起、/agents 指令、任务挂起恢复）、Codex Security Cloud（内置网络安全模型 Daybreak Blue，全量渗透扫描 + 生成修复补丁）、Decisions API、Agents API 注入 Computer use、AWS Bedrock 托管 Managed Agents
+- **生态打通**：Sign in with ChatGPT 全球身份登录，Plus/Pro 配额可在 Devin、Notion、Vercel、[[OpenClaw]] 等首批 16 家伙伴产品抵扣；ChatGPT Space/Pages/协同演示文稿；OpenAI Marketplace（32 家企业伙伴）；Private Intelligence 零数据留存隐私方案
 
 ## 关联连接
 - [[Codex]] — OpenAI 的 Agent 产品
@@ -81,3 +89,6 @@ Anthropic 发布 Claude Opus 5.5 约一个半小时后，OpenAI 连推 **GPT-6 S
 - [[大模型价格战]] — GPT-6 Sol/Luna 参与的行业现象
 - [[Opus]] — 同日应战的 Anthropic 模型系列
 - [[摘要-a社o社价格战]] — 来源（Sol/Luna 降价与分档逻辑）
+- [[Dots]] — DevDay 2026 发布的常驻智能体
+- [[常驻智能体]] — Dots 代表的产品形态
+- [[摘要-openai-devday-2026-gpt61sol-dots]] — 来源（DevDay 2026 全量更新）

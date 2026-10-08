@@ -2,8 +2,8 @@
 title: "PeterSteinberger"
 type: entity
 tags: [AI编程, 开源开发者, OpenClaw, token消耗]
-sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md]
-last_updated: 2026-05-26
+sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -20,11 +20,15 @@ Peter Steinberger，绰号"龙虾之父"（来自其爆火的 AI 编程项目 Op
 - **成本构成**：开了"快速模式"，让上百个 Codex 高频并发跑推理；关掉快速模式成本能降 70%
 - **团队规模**：只有 3 人，但同时在云端运行约 100 个 Codex
 - **成本逻辑**：不是拿 Codex 和"工具成本"比，是拿它和"工程团队成本"比——一个月 token 账单约等于传统时代 25-30 人工程师团队的人力成本
+- **OpenClaw 与去向（2026）**：花一小时写出雏形（把 Claude Code 接进 WhatsApp），2026 年 3 月以 24.8 万星登顶 GitHub 历史第一；**2026 年 2 月加入 [[OpenAI]] 负责下一代个人智能体，OpenClaw 项目移交独立基金会**——原作者亲自判断这个框架的未来在更底层位置，基于它做封装的 C 端生意从一开始就没被写进路线图（详见 [[摘要-openclaw-agent浪潮养虾养不活]]）
 
 ## 关联连接
 
 - [[摘要-vibe-engineering-era]] — 来源
 - [[AndrejKarpathy]] — 同样引发 AI 编程焦虑讨论
 - [[Codex]] — Peter 使用的核心 AI 工具
-- [[OpenAI]] — API 服务提供方
+- [[OpenAI]] — API 服务提供方，2026-02 起的任职机构
 - [[silicon-time]] — 军备竞赛的极端样本
+- [[OpenClaw]] — 其创建的开源项目
+- [[摘要-openclaw-agent浪潮养虾养不活]] — 来源（登顶 GitHub 与加入 OpenAI）
+- [[QClaw]] — 基于其项目做封装的退潮产品
