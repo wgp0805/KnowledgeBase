@@ -15,7 +15,9 @@ sources:
   - raw/01-articles/2026-09-26-美业这样用WorkBuddy就对了.md
   - raw/01-articles/2026-09-27-你的workbuddy vs 我的workbuddy，差距就在这里！！.md
   - raw/01-articles/2026-09-28-Marvis大升级，或将成为腾讯第二个跑出来的Agent.md
-last_updated: 2026-09-29
+  - raw/01-articles/2026-09-29-我用 WorkBuddy + Agnes一句话生成短视频，没花一分钱.md
+  - raw/01-articles/2026-09-29-关于 AI Agent，为什么我的想法可能不靠谱？——重读〈The Bitter Lesson〉 - ahfuzhang.md
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -181,6 +183,14 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 ### 与腾讯内部 Marvis 的错位（2026-09-29，详见 [[摘要-marvis团队管家升级]]）
 腾讯另一款 Agent [[Marvis]] 2026-09-24 升级后转向"电脑与硬件设备的 AI 管家"（[[团队管家]]、本地知识库、智能 NAS 生态），与 WorkBuddy 卷办公产物的路线错位竞争。业内判断：若 Marvis 走通硬件管家赛道，WorkBuddy 之外腾讯将拥有第二个跑出来的 AI Agent。
 
+### 零成本短视频流水线（2026-09-29，详见 [[摘要-workbuddy-agnes-短视频]]）
+- WorkBuddy 当"总导演"、[[Agnes]] 管图生视频、ffmpeg 本地收尾，七步流水线：文案→脚本分镜 → 主角立绘+"形象锁定卡"（一图锁全片角色一致）→ edge-tts 免费旁白+逐字时间戳 → Agnes 免费档图生视频（串行、段间隔 ≥30 秒防 429）→ ffmpeg setpts 按旁白拉伸对齐（音频优先画面让路）→ 双层字幕（词级同步台词+金色人名条）→ concat 合成成片
+- 全流程外部成本约等于 0（旁白/静图/动图全免费档，剪辑本地跑）
+- 能力以零依赖自定义技能 `free-short-drama`（github.com/ZOORO-NEW/free-short-drama）打包，内嵌写作/分镜/形象/配音方法论，一句话触发全自动；需信任 `agnes-ai MCP` 连接器并填免费档密钥；备用生图走内置 [[腾讯混元]] Hy Image 3.5（5-10 积分/张，中文文字准确度强于 Agnes）
+
+### 被《苦涩的教训》点名的战略批判（2026-09-29，观点，详见 [[摘要-重读苦涩的教训]]）
+作者 ahfuzhang 依 [[BitterLesson]] 判断：若 WorkBuddy 的长期壁垒主要建立在人为编排的 workflow / harness 上，而这些能力会被基础模型持续吸收，壁垒将快速贬值——"近期 WorkBuddy 因亮眼表现受关注，根据苦涩的教训这明显是错误的战略"。此为批评者观点，与本页产品事实不冲突；对立视角见 [[模型超市策略]]（接入第三方模型使"谁赢它都不输"）。
+
 ## 知识冲突（已解决，2026-08-21）
 - 旧定义（2026-06-23，[[摘要-OpenClaw小龙虾教程汇总]]）：WorkBuddy 是 [[OpenClaw]]（小龙虾）的一站式部署平台
 - 新定义（2026-08-21，[[摘要-workbuddy保姆级入门教程-苏三]]）：WorkBuddy 是国产桌面 AI 应用
@@ -231,3 +241,8 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - [[摘要-marvis团队管家升级]] — 2026-09-29 与腾讯内部 Marvis 的错位（来源）
 - [[Marvis]] — 腾讯另一款 Agent（硬件管家赛道）
 - [[团队管家]] — Marvis 提炼的概念
+- [[摘要-workbuddy-agnes-短视频]] — 2026-09-29 零成本短视频流水线来源
+- [[Agnes]] — 流水线接入的图生视频平台
+- [[腾讯混元]] — 备用生图模型开发方
+- [[摘要-重读苦涩的教训]] — 2026-09-29 战略批判来源（观点）
+- [[BitterLesson]] — 批判所依据的理论框架

@@ -2,8 +2,8 @@
 title: "GrokBot"
 type: entity
 tags: [AI产品, Agent, xAI]
-sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md]
-last_updated: 2026-08-27
+sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -18,9 +18,13 @@ Grok Bot 是 2026 年 8 月 11 日以 Early Beta 形式推出的 AI Agent 产品
 - **官方建议**：先完成一次任务使流程可靠 → 保存为 Skill → 设置为定时/事件触发的 Routine；重试应保持幂等，数据缺失和部分完成要明确报告
 - **企业能力**：团队身份、MCP 策略、共享规则、费用查看、云电脑管理（截至 2026-08-25 仍在逐步推出，Bot 行为审计视图即将推出，尚未提供专属支出上限）
 - **审批原则**：审批只能控制即将执行的动作，不能反转已完成的工作；Auto Review 属于模型驱动辅助判断，不能替代最小权限和明确边界
+- **数字员工路线与分发短板（2026-09-29 视角）**：每个 Bot 有常驻云端的电脑（浏览器、文件、登录状态，7×24 在线），可建一群 Bot 在群聊里互相派活交接，"教一次就会"——录屏演示一遍流程即变成自己的技能；走订阅路线面向 SuperGrok 和 Cursor 付费用户，偏工作场景。彭博智库数据：[[MetaMuse]] 的下载量是 Grok Bot 独立 App 的 4 倍——对消费级 Agent 来说，分发能力才是护城河（详见 [[摘要-豆包Spell对标Muse]]）
 
 ## 关联连接
 - [[摘要-Claude-Code与Grok-Bot被拆开后]] — 来源
+- [[摘要-豆包Spell对标Muse]] — 来源（下载量对比与消费级分发判断）
+- [[MetaMuse]] — 下载量 4 倍反超它的竞品
+- [[通用Agent]] — 所属产品概念
 - [[ClaudeCode]] — 同期被拆开的对标产品
 - [[SourceMap]] — 运行层重建的技术载体
 - [[TaskDelegationSystem]] — 分析其产品能力的框架
