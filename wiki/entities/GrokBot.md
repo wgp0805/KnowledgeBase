@@ -2,7 +2,7 @@
 title: "GrokBot"
 type: entity
 tags: [AI产品, Agent, xAI]
-sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md]
+sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md]
 last_updated: 2026-10-08
 ---
 
@@ -19,6 +19,7 @@ Grok Bot 是 2026 年 8 月 11 日以 Early Beta 形式推出的 AI Agent 产品
 - **企业能力**：团队身份、MCP 策略、共享规则、费用查看、云电脑管理（截至 2026-08-25 仍在逐步推出，Bot 行为审计视图即将推出，尚未提供专属支出上限）
 - **审批原则**：审批只能控制即将执行的动作，不能反转已完成的工作；Auto Review 属于模型驱动辅助判断，不能替代最小权限和明确边界
 - **数字员工路线与分发短板（2026-09-29 视角）**：每个 Bot 有常驻云端的电脑（浏览器、文件、登录状态，7×24 在线），可建一群 Bot 在群聊里互相派活交接，"教一次就会"——录屏演示一遍流程即变成自己的技能；走订阅路线面向 SuperGrok 和 Cursor 付费用户，偏工作场景。彭博智库数据：[[MetaMuse]] 的下载量是 Grok Bot 独立 App 的 4 倍——对消费级 Agent 来说，分发能力才是护城河（详见 [[摘要-豆包Spell对标Muse]]）
+- **"数字员工队伍"路线解读（2026-10-01）**：与 dots 的差别不只是数量——dots 强调一个 primary dot 学会整体偏好，Grok Bot 更像组织设计：研究/销售/运营等角色各自积累上下文，稳定流程保存为技能并按计划重跑；同一账户的 Bots 共用一台云端电脑（文件、浏览器会话、应用登录共享）而对话与学习上下文彼此分开，共享利于交接但要求用户理解数据边界；草稿发送等动作需用户批准；可运行于 macOS/Windows/Linux/iOS/Android，**包含在付费 Cursor 个人与团队计划中**，也可绑定部分个人 SuperGrok 订阅；在 [[默认委托权]] 争夺中代表"多角色数字员工队伍"路线（详见 [[摘要-personal-agent六条海外路线]]）
 
 ## 关联连接
 - [[摘要-Claude-Code与Grok-Bot被拆开后]] — 来源
@@ -37,3 +38,5 @@ Grok Bot 是 2026 年 8 月 11 日以 Early Beta 形式推出的 AI Agent 产品
 - [[AutoMemory]] — 对比 Claude Code 的记忆能力
 - [[Checkpoint]] — 对比 Claude Code 的恢复能力
 - [[Subagent]] — 对比 Claude Code 的子 Agent
+- [[摘要-personal-agent六条海外路线]] — 来源（数字员工队伍路线解读）
+- [[默认委托权]] — 六条路线争夺的目标

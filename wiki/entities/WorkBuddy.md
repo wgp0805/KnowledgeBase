@@ -17,6 +17,7 @@ sources:
   - raw/01-articles/2026-09-28-Marvis大升级，或将成为腾讯第二个跑出来的Agent.md
   - raw/01-articles/2026-09-29-我用 WorkBuddy + Agnes一句话生成短视频，没花一分钱.md
   - raw/01-articles/2026-09-29-关于 AI Agent，为什么我的想法可能不靠谱？——重读〈The Bitter Lesson〉 - ahfuzhang.md
+  - raw/01-articles/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md
 last_updated: 2026-10-08
 ---
 
@@ -190,6 +191,10 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 
 ### 被《苦涩的教训》点名的战略批判（2026-09-29，观点，详见 [[摘要-重读苦涩的教训]]）
 作者 ahfuzhang 依 [[BitterLesson]] 判断：若 WorkBuddy 的长期壁垒主要建立在人为编排的 workflow / harness 上，而这些能力会被基础模型持续吸收，壁垒将快速贬值——"近期 WorkBuddy 因亮眼表现受关注，根据苦涩的教训这明显是错误的战略"。此为批评者观点，与本页产品事实不冲突；对立视角见 [[模型超市策略]]（接入第三方模型使"谁赢它都不输"）。
+
+### 国庆限免活动（2026-10-01，详见 [[摘要-9家ai大厂token福利]]）
+- 免费活动延长至 **10 月 31 日**：**Hy3 持续限免**；Hy4 preview 老用户每天 23:00–次日 8:00 可用免费额度，新用户在 **10 月 10 日 23:59 前**首次开启对话即得连续 14 天每日免费额度
+- **国际版客户端**接入 **DeepSeek V4.1 Flash 免费**（官方公告延长至 10 月 9 日），无需申请 API Key、选中即用——注意区分国内版与国际版客户端
 
 ## 知识冲突（已解决，2026-08-21）
 - 旧定义（2026-06-23，[[摘要-OpenClaw小龙虾教程汇总]]）：WorkBuddy 是 [[OpenClaw]]（小龙虾）的一站式部署平台

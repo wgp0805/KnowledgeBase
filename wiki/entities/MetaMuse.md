@@ -2,7 +2,7 @@
 title: "Meta Muse"
 type: entity
 tags: [AI产品, PersonalAgent, Agent, Meta, 个人助理]
-sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-27-Meta Muse为超级智能买单.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md]
+sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-27-Meta Muse为超级智能买单.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md]
 last_updated: 2026-10-08
 ---
 
@@ -23,6 +23,7 @@ Meta 于 2026-09-08 推出的 Personal AI Agent（被称"美版豆包"），定�
 - **下载数据口径差异（2026-09-30 补充，非矛盾）**：不同统计方口径不一——Apptopia 估算上线前 12 天**美加 iOS 约 180 万下载**（同期 ChatGPT 130 万，首次有消费级 AI 应用在此口径跑赢 ChatGPT）；Sensor Tower 口径为 6 天全球超 90 万、9-21 累计超 250 万（详见 [[摘要-muse爆火大厂冲进personal-agent]]）。9-21 登顶美区 App Store 免费榜消息当日 **Meta 股价单日大涨 11.43%**（去年 4 月以来最大单日涨幅）
 - **被封细节补全（2026-09-30）**：亚马逊给的三条理由——Meta 事先没打招呼、Muse 浏览网站不表明 AI 身份、疑似抓取存储登录凭证；**更深层理由是 AI 替用户购物绕过亚马逊个性化推荐**（广告/推荐/复购是平台商业起点），Meta 回应称 Muse 看不到用户密码和支付信息；Meta 已签沃尔玛、丝芙兰、Expedia、OpenTable、Shopify，名单恰缺美国电商最大玩家（详见 [[围墙花园]]）
 - **a16z 评价**：Muse 与 Instinct 是当前市场两个主导的免费产品，背后是 Meta/OpenAI 烧钱补贴，长尾初创难与免费大玩家竞争；且"122 个 personal agent 产品中真正能活下来的可能只有个位数"（详见 [[a16z]]、[[摘要-a16z-personal-agent对话]]）
+- **"生活与交易管家"路线解读（2026-10-01）**：动作清单含发邮件、预订旅行、打开浏览器、填表单甚至代表用户协商，长任务可在应用关闭后继续；交易是最难含糊的终点——付款后日期/价格/取消规则/责任落到现实世界，故发送邮件或购买前请求批准并提供"已做过/计划要做"审计记录；付款时可调用 Stripe Link 为 Agent 生成一次性卡；权限分级：邮件可分别决定只读或允许代发、随时断开服务；2026 年 9 月在美国向 iOS/Android/网页端滚动开放（大部分基础免费+高需求订阅），"为全球数十亿人设计"≠已全球可用；在 [[默认委托权]] 争夺中代表"生活事务与交易"切入路线（详见 [[摘要-personal-agent六条海外路线]]）
 
 ## 关联连接
 - [[摘要-meta-muse-个人ai助理体验]] — 来源（产品评测）
@@ -51,3 +52,5 @@ Meta 于 2026-09-08 推出的 Personal AI Agent（被称"美版豆包"），定�
 - [[围墙花园]] — 亚马逊封禁背后的平台墙
 - [[a16z]] — 评价方
 - [[Instinct]] — 并列主导产品（路线相反的无界面派）
+- [[摘要-personal-agent六条海外路线]] — 来源（"生活与交易管家"路线解读）
+- [[默认委托权]] — 六条路线争夺的目标

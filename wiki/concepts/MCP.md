@@ -2,8 +2,8 @@
 title: "MCP"
 type: concept
 tags: [AI, 协议, 外部服务]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/AgentScope入门指南.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/01-articles/为什么越来越多人用FastMCP？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-让AI真正赋能企业（初探）.md, raw/01-articles/2026-09-15-只会搜关键词还不够，Agent 需要一套更聪明的本地搜索.md]
-last_updated: 2026-09-15
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/AgentScope入门指南.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/01-articles/为什么越来越多人用FastMCP？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-让AI真正赋能企业（初探）.md, raw/01-articles/2026-09-15-只会搜关键词还不够，Agent 需要一套更聪明的本地搜索.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md]
+last_updated: 2026-10-08
 ---
 
 ## 定义
@@ -80,6 +80,9 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 ### MCP 作为本地搜索基础设施的接入层（2026-09）
 来自 [[摘要-zvec-grep-本地搜索基础设施]]。zvec-grep 通过 `zg install` 自动发现已装的 Agent（Codex/Claude Code/Cursor/OpenCode/Qoder）并配好 MCP，CLI 和 Agent **共享同一份索引**。Agent 不必再重复建索引，本地搜索从"命令"升级为"面向 Agent 工作流的基础设施"。详见 [[ZvecGrep]]。
 
+### MCP 与 Skill 的上下文开销权衡（2026-10）
+来自 [[摘要-claude-code-mcp-unity游戏]]。实测经验：**Skill 每次调用只占约 8 个 token**、按需加载平时不占上下文，而 **MCP 工具开销重得多且始终挂在 prompt 里**（不管用不用）——上下文窗口装多了 AI 智能明显下降。工程建议：优先用 Skills 而非 MCP 工具、把用不到的 MCP 工具（Gmail、Calendar 等）统统禁掉、任务之间 `/clear`；"薄服务器+动态注册"模式的 GameDev-MCP-Server 一份代码同时服务 Unity/Godot/Unreal 三引擎，是 MCP 服务器复用的范本（见 [[UnityMCP]]）。
+
 ## 关联连接
 - [[Agent]] — MCP 所属概念
 - [[ClaudeCode]] — MCP 发明者
@@ -106,3 +109,5 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 - [[摘要-zvec-grep-本地搜索基础设施]] — 来源（zg 通过 MCP 接入 Agent）
 - [[Agent中枢]] — 企业 Agent 架构范式
 - [[ZvecGrep]] — 通过 MCP 接入 Agent 的本地搜索
+- [[UnityMCP]] — MCP 驱动游戏开发的实践案例
+- [[摘要-claude-code-mcp-unity游戏]] — 来源（MCP 与 Skill 上下文开销权衡）

@@ -2,7 +2,7 @@
 title: "OpenClaw"
 type: entity
 tags: [实体, AI Agent, 开源项目]
-sources: [raw/09-archive/小龙虾（OpenClaw）教程汇总.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md]
+sources: [raw/09-archive/小龙虾（OpenClaw）教程汇总.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md]
 last_updated: 2026-10-08
 ---
 
@@ -53,6 +53,9 @@ Meta 超级智能实验室产品负责人 Nat Friedman 公开承认 [[MetaMuse]]
 ### 登顶 GitHub 历史第一与封装层困境（2026-03 至 2026-09）
 来自 [[摘要-openclaw-agent浪潮养虾养不活]]。2026 年 3 月，这个把 Claude Code 接进 WhatsApp 的周末项目以超过 **24.8 万星登顶 GitHub 历史第一**（把 Linux 踩在脚下）。但"价值沉淀在开源协议与生态层"：所有基于它做封装的 C 端产品本质是流量二道贩子——不掌握模型也不掌握框架，汉化界面、预装技能、补贴算力三件事只构成成本不构成壁垒；原作者 [[PeterSteinberger]] 2026 年 2 月加入 [[OpenAI]] 负责下一代个人智能体、项目移交独立基金会，封装层生意从一开始就没写进路线图。国内跟进的 [[QClaw]] 等产品九个月内集体撤退。大厂涌入被形容为"给开源生态做了一次昂贵的地推"——教育了用户"Agent 可以做什么"，但用户真想用时会去用 OpenClaw 本身或 Steinberger 的新产品。OpenClaw 证明了"Agent 可以干活"，但没证明"用户愿意为 Agent 干活付费"。
 
+### "所有权"路线解读（2026-10-01）
+来自 [[摘要-personal-agent六条海外路线]]。官方文档将 OpenClaw 描述为 local-first、模型无关、可扩展、可自托管的开放系统：助手运行在用户自己的基础设施上，经常用消息渠道访问，Gateway 作为持续在线控制层；用户可选模型提供商甚至本地模型让数据留在自己设备上。在 [[默认委托权]] 争夺中，它竞争的不是最低学习成本而是**所有权**——系统跑在哪、用哪个模型、接什么渠道、怎样配置多 Agent 与工具都由用户决定，也可检查修改系统本身。代价是自托管只是把责任从厂商转移给使用者（安装、升级、密钥、网络暴露、插件质量、模型成本、备份），官方建议外联和广告投放等动作保持人在回路。版本提示：2026 年 8 月 v2026.8.1 曾以"OpenClaw 2.0"发布，截至 10 月 1 日官方版本目录已出现 v2026.9.6，2.0 并非当前最新版。
+
 ## 关联连接
 - [[摘要-OpenClaw小龙虾教程汇总]] — 来源
 - [[摘要-meta-muse-个人ai助理体验]] — 来源（启发 Meta Muse）
@@ -73,3 +76,5 @@ Meta 超级智能实验室产品负责人 Nat Friedman 公开承认 [[MetaMuse]]
 - [[摘要-openclaw-agent浪潮养虾养不活]] — 来源（登顶 GitHub 历史第一与封装层退潮）
 - [[QClaw]] — 撤退的国内封装产品
 - [[Agent边际成本]] — 封装产品失败的成本结构原因
+- [[摘要-personal-agent六条海外路线]] — 来源（"所有权"路线解读）
+- [[默认委托权]] — 六条路线争夺的目标
