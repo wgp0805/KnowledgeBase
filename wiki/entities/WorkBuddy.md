@@ -25,7 +25,8 @@ sources:
   - raw/01-articles/2026-10-05-汽车业这样用WorkBuddy就对了.md
   - raw/01-articles/2026-10-07-宠物店用WorkBuddy提效的 4 个场景，附可直接复制的提示词.md
   - raw/01-articles/2026-10-07-Cline免费模型接入各种Agent，多账号免费token管够.md
-last_updated: 2026-10-08
+  - raw/01-articles/2026-10-08-阿里开源了个神器，给WorkBuddy、豆包挑毛病.md
+last_updated: 2026-10-09
 ---
 
 ## 定义
@@ -245,6 +246,7 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - 旧定义（2026-06-23，[[摘要-OpenClaw小龙虾教程汇总]]）：WorkBuddy 是 [[OpenClaw]]（小龙虾）的一站式部署平台
 - 新定义（2026-08-21，[[摘要-workbuddy保姆级入门教程-苏三]]）：WorkBuddy 是国产桌面 AI 应用
 - **处理结果**：2026-08-21 经用户确认，用新知识覆盖旧知识。两者明显不是同一个产品，旧定义可能是早期信息错配或同名不同物。旧定义关联的 [[OpenClaw]]、[[QoderWork]] 已解绑
+- **AI 代码验收闭环（2026-10-08，详见 [[摘要-opencodereview-workbuddy代码体检]]）**：与阿里开源 [[OpenCodeReview]] 组成"开发 → OCR 检查 → WorkBuddy 修复 → 再检查"的 Vibe Coding 验收闭环（`ocr scan --preview` 先预览再真扫），OCR 的 Delegation Mode 可委托 Qoder、Cursor、ClaudeCode、Codex 自带模型分担审查；文章给出可直接复制给 WorkBuddy 的代码检查提示词，并提示多 AI 互相检查可能有共同盲区
 
 ## 关联连接
 - [[摘要-workbuddy保姆级入门教程-苏三]] — 主要来源
@@ -308,3 +310,5 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - [[摘要-cline-free-models]] — 2026-10-07 用 WorkBuddy 部署 ClineFreePool（马佳彬）
 - [[Cline]] — 免费模型接入的来源服务
 - [[多账号池轮询]] — 配套的账号轮询机制
+- [[摘要-opencodereview-workbuddy代码体检]] — 2026-10-08 与 Open Code Review 的验收闭环（来源）
+- [[OpenCodeReview]] — 配套的代码质检工具

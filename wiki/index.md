@@ -2779,3 +2779,29 @@
 - [[ToB]] — ToB（To-Business）指面向企业客户的产品与服务市场，与面向消费者的 ToC 相对。在本知识库中，它是有 ToB 行业经验者转型 FDE 的讨论背景。
 - [[triangle attention]] — triangle attention（三角注意力）是 AlphaFold3、OpenFold3、Boltz-2 等蛋白结构模型大量使用的注意力计算模式，也是生物模型 kernel ...
 - [[VectorStoreRetriever]] — VectorStoreRetriever 是来源文章中基于向量存储的检索组件：把查询向量送入向量库并返回相似文档。在 LlamaIndex + PostgreSQL 方案中，它与 ...
+
+## 2026-10-09 ingest（11 篇新增）
+
+### Sources
+- [[摘要-sql八种性能陷阱写法]] — 8 种坑人的 SQL 写法（深分页、隐式转换、混合排序、EXISTS 等）与重写方案，附 7 秒降到 2 毫秒案例
+- [[摘要-openmuse-轻量muse复刻]] — CopilotKit 开源 OpenMuse（MIT、三端同码），拆解检查点、SQL 租约 CAS 与 SSRF 防护
+- [[摘要-opencodereview-workbuddy代码体检]] — Open Code Review 验收闭环：WorkBuddy 开发→OCR 检查→修复→复查，Delegation Mode 委托各编程工具
+- [[摘要-走心差异化战略]] — 走心力=看见×承担×表达×坚持，功能差异化燃尽后的四条落地切口与自检三关
+- [[摘要-dsh-合成大鲸鱼插件]] — DSH 侧边栏小游戏插件，"交作业奖励"把摸鱼动机反转为回看 AI 成果
+- [[摘要-agent信任与决策权100条]] — 以 Instinct 为样本推演委托经济学：权限深度/委托钱包份额指标、信任三重结构、终局两三个委托入口
+- [[摘要-personal-agent-技术内核与医疗落地]] — 三支柱（分层记忆/MCP/权限分级）+ 医疗试金石，对比 Dots/Gemini Spark/Claude Cowork/DAX Copilot
+- [[摘要-ai转型一号位产品负责人]] — AI 原生转型一号位应是产品负责人，阻碍五阶段、暗坑两大与节奏四步
+- [[摘要-token焦虑与agent入口分化]] — Chat/Coding/Work 入口分化后工具与业务价值的空白暴露，解释 FDE 为何走红
+- [[摘要-zxing条码库]] — ZXing 34K star、2007 年 Google 20% 项目起家，编解码与纠错级别的底层拆解
+- [[摘要-podroid-安卓容器指南]] — 免 ROOT 在安卓跑真 Docker：QEMU+Alpine+Podman/Docker/LXC，与 Termux 的关键区别与性能坑
+
+### Entities
+- [[ZXing]] — 开源多格式条码库，扫码生态的底层标准之一
+- [[PoDroid]] — Android 免 ROOT 容器环境应用（ExTV/Podroid），旧手机变身自托管服务器
+- [[GeminiSpark]] — Google Personal Agent，谷歌生态的生活调度员
+- [[DAXCopilot]] — 微软/Nuance 垂直医疗 Agent，只写病历不诊断的落地最成功临床智能体
+- [[ClaudeCowork]] — Anthropic 本地虚拟机路线 Personal Agent，数据不离设备的文档处理专家
+
+### Concepts
+- [[走心差异化战略]] — 把行业默认忽略的事当成责任并付出可计量成本的差异化方法论
+- [[AI原生组织转型]] — 业产研一体化的组织变革，产品负责人任一号位，20/40/40 人的转化

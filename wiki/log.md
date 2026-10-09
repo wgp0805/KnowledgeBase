@@ -1835,3 +1835,9 @@
 - **误伤修复 2**: 升级版扫描误将 [[concepts/Hooks]] 代码块内 bash 语法当作死链降级，已从 git 恢复原文；扫描脚本已改为跳过代码块
 - **冲突**: 无新增（6 处 ingest 冲突已按并列保留方案标注 **状态：⏳ 待查**）
 - **最终状态**: 死链 0 / 注册缺失 0 / 未注册 0 / 孤儿 1（保留）/ 冲突页 12
+
+## [2026-10-09] ingest | 批量摄取 11 篇 01-articles 文章
+- **变更**: 新增 11 个来源页（[[摘要-sql八种性能陷阱写法]], [[摘要-openmuse-轻量muse复刻]], [[摘要-opencodereview-workbuddy代码体检]], [[摘要-走心差异化战略]], [[摘要-dsh-合成大鲸鱼插件]], [[摘要-agent信任与决策权100条]], [[摘要-personal-agent-技术内核与医疗落地]], [[摘要-ai转型一号位产品负责人]], [[摘要-token焦虑与agent入口分化]], [[摘要-zxing条码库]], [[摘要-podroid-安卓容器指南]]）；新增实体 [[ZXing]], [[PoDroid]], [[GeminiSpark]], [[DAXCopilot]], [[ClaudeCowork]]；新增概念 [[走心差异化战略]], [[AI原生组织转型]]
+- **合并**: 增量更新 [[OpenMuse]], [[OpenCodeReview]], [[WorkBuddy]], [[DeepSeekHarness]], [[Instinct]], [[FDE]], [[personal-ai-agent]], [[Dots]]；同步 [[index.md]]
+- **冲突**: 1 处待查——[[Instinct]] 融资轮次说法（前文"C 轮 10 亿" vs 新文"B 轮 2.5 亿 / 再融 10 亿"），已并列标注待核
+- **归档**: 11 个源文件移动至 raw/09-archive/

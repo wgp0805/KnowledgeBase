@@ -2,8 +2,8 @@
 title: "personal-ai-agent"
 type: concept
 tags: [PersonalAgent, Agent, AI产品, 个人助理]
-sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, raw/01-articles/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md]
-last_updated: 2026-10-08
+sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, raw/01-articles/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md, raw/01-articles/2026-10-08-关于 AI Agent、信任与决策权的 100 条.md, raw/01-articles/2026-10-08-关了电脑还在替你干活：Personal Agent的技术内核与医疗落地.md]
+last_updated: 2026-10-09
 ---
 
 ## 定义
@@ -32,6 +32,10 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - **术语被重新占据（2026-10-04，详见 [[摘要-tencent-handybot官方回应]]）**：Personal AI Agent 本不是新事物（以前的 AI 管家/AI 助理、云端 [[HermesAgent]] 及各种智能体都属此类），但 Muse 爆火后被媒体反复代指，借维特根斯坦"词语的意义在于它的使用方式"——不是新事物发明了旧名称，而是**旧名称被新现象重新占据**：以后说 Personal AI Agent 默认指 Muse 这类有长期记忆、云端 24 小时主动办事的形态
 
 - **"活儿它来干，主意我来拿"：授权边界成为信任分水岭（2026-10-06，详见 [[摘要-nanowork-personal-agent省200刀]]）**：Muse 靠省钱出圈（砍宽带费省 1920 刀/年省车险 3500 刀/追回遗忘订阅 200 刀）但授权翻车——「始终允许」后未经确认 10 刀贱卖键盘并泄露地址致陌生人上门，另有记者称拒绝授权仍被读到 18 万多条私信（Meta 否认）；国内 [[纳米Work]]（360，云电脑 7-28 上线早于 Muse）用"敏感操作停下等确认 + 交付物截图留底 + 手机端 7×24 可见"做安全可控，实测从 Vercel 账单激增查到项目被刷量省下 200 多刀、GitHub 体检查出 5 处密钥泄露，获 IDC 2026 安全可控维度唯一 Top 产品——Personal Agent 的信任不只在"能干什么活"，更在"干的时候你心里有没有底"
+
+- **委托经济学与信任架构（2026-10-08，详见 [[摘要-agent信任与决策权100条]]）**：从 Answer→Action 的转变看赛道，商业模式争的是早已存在的分发费（旅行分发费只是冰山一角），免费→信任→委托→交易抽成；衡量指标从日活换成**权限深度、委托钱包份额、委托 GMV**；信任三重结构（能力/立场/程序）+ 代理人宪法（最小权限、额度隔离、双确认、审计）；授权按最大损失/可逆性/外部性三轴分档；美国难在服务集成、中国难在调用权限（超级生态已存在，争的是通行证，可能走交易原生路线）；终局判断：两三个委托入口 + 大量执行层，成熟产品需个人上下文、判断与信任、服务图谱、交易经济**四种资产相乘**
+
+- **技术三支柱与医疗试金石（2026-10-08，详见 [[摘要-personal-agent-技术内核与医疗落地]]）**：支撑该品类的三根技术支柱——**分层记忆**（工作/长期/技能记忆，须记忆隔离、删除即清除）、**MCP 协议**（Agent 世界的 USB，按场景动态加载而非堆插件）、**权限分级**（只读默认允许/低风险可自动/高风险必须确认 + Auto-review）；医疗场景加一条"谁签字谁负责"（AI 只写草稿不诊断不开处方）；四款对比：[[Dots]] 云端全能但无 HIPAA、[[GeminiSpark]] 谷歌生态生活调度、[[ClaudeCowork]] 本地虚拟机文档专家、[[DAXCopilot]] 垂直临床（每次接诊省 5 分钟）；演进四阶段：对话式助手→单点执行→后台常驻→多 Agent 数字共生，本质让渡的不是决策权而是注意力
 
 ## 关联连接
 - [[摘要-meta-muse-个人ai助理体验]] — 来源（Muse 评测）
@@ -69,3 +73,10 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - [[小豆]] — 字节独立个人助理应用
 - [[摘要-nanowork-personal-agent省200刀]] — 来源（授权边界与国内平替实测）
 - [[纳米Work]] — 360 的安全可控平替
+- [[摘要-agent信任与决策权100条]] — 来源（委托经济学、信任三重结构与终局判断）
+- [[摘要-personal-agent-技术内核与医疗落地]] — 来源（技术三支柱与医疗试金石）
+- [[GeminiSpark]] — 数据调度路线代表（谷歌）
+- [[ClaudeCowork]] — 本地虚拟机路线代表（Anthropic）
+- [[DAXCopilot]] — 垂直医疗落地最成功的案例
+- [[MCP协议]] — 三支柱之一
+- [[多层记忆]] — 分层记忆支柱

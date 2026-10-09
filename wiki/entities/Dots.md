@@ -2,8 +2,8 @@
 title: "Dots"
 type: entity
 tags: [AI产品, OpenAI, 常驻智能体, Agent, DevDay]
-sources: [raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-03-实测 ChatGPT Dot，龙虾转生？不完全是。.md, raw/01-articles/2026-10-07-在 agent 的世界里，留存就是分发.md]
-last_updated: 2026-10-08
+sources: [raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-03-实测 ChatGPT Dot，龙虾转生？不完全是。.md, raw/01-articles/2026-10-07-在 agent 的世界里，留存就是分发.md, raw/01-articles/2026-10-08-关了电脑还在替你干活：Personal Agent的技术内核与医疗落地.md]
+last_updated: 2026-10-09
 ---
 
 ## 定义
@@ -32,6 +32,7 @@ Dots 是 OpenAI 在 DevDay 2026（2026-09-29 发布会）推出的常驻自主�
 - **架构细节**：Dots 的 harness 不跑在用户机器上，自有电脑也可连用户笔记本（将来可同时连十台，Tibo 比作章鱼——一个中心多条触手）
 - **发布前五分钟轶事**：DevDay 演示前 ChatGPT 生产故障，Tibo 的 dot 主动报告并请求修复，被以"你还没到那一步"拒绝——理解关联做对了，动手修被护栏拦住（详见 [[二级监控]]）
 - **分发逻辑**：插件被推荐只看留存与使用质量，"做好插件"即分发（详见 [[留存即分发]]）
+- **医疗深水区的天花板（2026-10-08，详见 [[摘要-personal-agent-技术内核与医疗落地]]）**：在医疗试金石下，Dots 是"云端全能实习生"（云沙盒、四根支柱齐活），但公有云部署、**不支持 HIPAA 等监管场景**、不能碰临床数据，可帮医生管日程/行政/搜文献，进不了医院系统深水区——垂直的 [[DAXCopilot]] 才是临床入口；其权限三档设计（只读默认允许/低风险可自动/高风险确认 + Auto-review 二次拦截）与文章"谁签字谁负责"原则互相印证
 
 ## 关联连接
 - [[摘要-chatgpt-dot实测]] — 来源（实测与争议分析）
@@ -47,3 +48,5 @@ Dots 是 OpenAI 在 DevDay 2026（2026-09-29 发布会）推出的常驻自主�
 - [[留存即分发]] — 访谈提炼的分发法则
 - [[二级监控]] — 访谈披露的运行时安全机制
 - [[Tibo]] — 受访者、Dots 负责人
+- [[摘要-personal-agent-技术内核与医疗落地]] — 来源（医疗场景边界与四款产品对比）
+- [[DAXCopilot]] — 医疗深水区的垂直竞品

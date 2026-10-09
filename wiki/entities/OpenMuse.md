@@ -2,8 +2,8 @@
 title: "OpenMuse"
 type: entity
 tags: [AI-Agent, 个人Agent, 浏览器自动化, 开源]
-sources: [raw/01-articles/为什么越来越多人用OpenMuse？.md]
-last_updated: 2026-10-08
+sources: [raw/01-articles/为什么越来越多人用OpenMuse？.md, raw/01-articles/2026-10-08 - 轻量开源版 Muse 来了！.md]
+last_updated: 2026-10-09
 ---
 
 ## 定义
@@ -18,9 +18,14 @@ OpenMuse 是 CopilotKit 团队于 2026 年 9 月开源的个人 AI Agent（MIT �
 - 内置零配置演示模式（pnpm dev，8081 端口），跨 iOS/Android/Web
 - 缺点：Alpha 阶段接口不稳、配置较复杂、Chromium 约 0.25-0.48GB 内存、单所有者无多租户认证
 - 上线不到一个月 GitHub 4.2K Star；适用网页调研、价格监控、PDF 表单自动化
+- **架构补全（2026-10-08，详见 [[摘要-openmuse-轻量muse复刻]]）**：客户端 Expo/React Native 三端同码，前后端走 AG-UI 协议（CopilotKit 推出的事件流规范）；服务端 Hono + CopilotKit runtime（`pnpm dev` 单进程同时起 HTTP 接口与后台 Worker），数据库用进程内 Postgres PGlite，浏览器是独立 Playwright 服务、Linux 电脑是 Docker 容器；DeepSeek 需借 `openai/` 前缀并设 `OPENAI_CHAT_COMPLETIONS=true`
+- **可靠性设计**：任务每步写检查点（state.source/state.filledId），Worker 每秒扫任务表、最多并发 3 个，用 Postgres JSONB `@>` 实现 CAS 抢占，60 秒租约 + 20 秒心跳续租，续租失败即中止——与 MySQL 乐观锁同构；崩溃后租约过期自动重领任务并跳过已完成步骤
+- **安全边界**：浏览器服务防 SSRF——仅允许 80/443 公网地址、拦截 localhost/local/internal/home/lan 域名、本地代理固定校验时解析的 IP 阻断 DNS 重绑定；遥测默认全量上报（`COPILOTKIT_TELEMETRY_DISABLED=true` 关闭）、网页搜索默认走 Parallel 的 Search MCP
+- **能力差距**：浏览器只能读网页（`page.evaluate` 固定读取 body 文本），不能像 [[MetaMuse]] 那样订行程下单付款
 
 ## 关联连接
 - [[摘要-openmuse-agent工位与浏览器接管]] — 来源
+- [[摘要-openmuse-轻量muse复刻]] — 来源（架构、租约/CAS 与 SSRF 防护拆解）
 - [[MetaMuse]] — 同名系个人 Agent 产品对照
 - [[personal-ai-agent]] — 所属赛道
 - [[WorkBuddy]] — 同类可接管/本地执行 Agent
