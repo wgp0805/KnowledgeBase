@@ -1841,3 +1841,8 @@
 - **合并**: 增量更新 [[OpenMuse]], [[OpenCodeReview]], [[WorkBuddy]], [[DeepSeekHarness]], [[Instinct]], [[FDE]], [[personal-ai-agent]], [[Dots]]；同步 [[index.md]]
 - **冲突**: 1 处待查——[[Instinct]] 融资轮次说法（前文"C 轮 10 亿" vs 新文"B 轮 2.5 亿 / 再融 10 亿"），已并列标注待核
 - **归档**: 11 个源文件移动至 raw/09-archive/
+
+## [2026-10-09] query | 联网核实 [[Instinct]] 融资轮次冲突
+- **核实**: 一手来源 Instinct 官方 Business Wire 新闻稿（2026-09-28）+ WSJ/Reuters/TechCrunch——2026-08-26 Series B 2.5 亿美元（估值 25 亿，Index+Benchmark 领投）；2026-09-28 Series C 10 亿美元（估值 100 亿，Sequoia/Benchmark/Coatue）
+- **结论**: 非真实冲突，两文分别描述 B、C 两轮，均正确
+- **变更**: [[Instinct]] 新增"知识冲突（已解决）"区块统一为 B→C 时间线，移除待查标注；同步本日志
