@@ -32,3 +32,4 @@ Seedance 2.5 是字节跳动推出的视频生成模型，豆包工作内置，�
 - [[Seedream]] — 同系列生图模型
 - [[VideoGeneration]] — AI 视频生成技术赛道
 - [[Sora]] — OpenAI 对标视频生成模型
+- [[摘要-视频模型横评H3vsSeedance]] — Seedance 2.0 fast 与 MiniMax H3 的横评来源

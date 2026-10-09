@@ -57,3 +57,5 @@ Jev是由前OpenAI研究员Diogo Almeida创办的TypeSafe AI发布的判断模�
 - [[DiogoAlmeida]] — 创始人
 - [[摘要-github定律-openxxx复刻]] — 来源（Open JEV 次日复刻）
 - [[GitHub定律]] — 该案例所属的行业规律
+- [[摘要-Jev爆火对具身智能影响分析]] — Jev 爆火对具身智能影响的分析来源
+- [[摘要-大厂后训练视角看Jev模型更新]] — 后训练视角拆解 RLCD/RLHF 演进的来源

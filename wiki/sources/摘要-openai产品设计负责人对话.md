@@ -71,9 +71,9 @@ ChatGPT 受众差异极大：有人问晚餐吃什么，有人改造日本农场
 - 每家公司都有独特DNA，工作方式必须随之调整
 
 ## 关联连接
-- [[AIProductDesign]]
+- AIProductDesign
 - [[ChatGPT]]
 - [[OpenAI]]
-- [[InteractionDesign]]
-- [[DesignerRole]]
-- [[ContextAwareAI]]
+- InteractionDesign
+- DesignerRole
+- ContextAwareAI

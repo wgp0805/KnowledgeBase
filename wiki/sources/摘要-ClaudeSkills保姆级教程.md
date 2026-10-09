@@ -17,3 +17,4 @@ last_updated: 2026-06-23
 - [[渐进式披露]] — Skill 内容组织原则
 - [[Hooks]] — 场景化防护机制
 - [[Agent]] — AI Agent 核心概念
+- [[AgentSkills]] — 本教程讲解的技能协议概念页

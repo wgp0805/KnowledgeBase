@@ -26,3 +26,4 @@ jstack 是 JDK 自带的 Java 诊断工具，用于打印线程堆栈，是 CPU 
 - [[JVM]] — 诊断基础
 - [[top]] — 配合排查 CPU 飙高
 - [[Arthas]] — 更强大的现代化替代
+- [[jhat]] — 同属 JDK 诊断工具集（heap dump 分析）

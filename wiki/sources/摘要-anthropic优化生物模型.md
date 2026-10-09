@@ -17,4 +17,4 @@ Anthropic 让 Claude 用不到四周优化了 30 多个生物研究开源模型�
 - [[kernel优化]] — 概念
 - [[蛋白设计]] — 应用场景
 - [[AlphaFold3]] — 被优化模型
-- [[有新Newin]] — 作者
+- 有新Newin — 作者

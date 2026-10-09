@@ -18,6 +18,6 @@ last_updated: 2026-09-17
 
 ## 关联连接
 - [[JDK27]] — 包含该特性的版本
-- [[Object Head]] — 对象头概念
-- [[Metaspace]] — 类元数据空间
-- [[Heap Occupancy]] — 堆占用率
+- Object Head — 对象头概念
+- Metaspace — 类元数据空间
+- Heap Occupancy — 堆占用率

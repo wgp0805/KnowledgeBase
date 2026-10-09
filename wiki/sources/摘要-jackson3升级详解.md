@@ -11,10 +11,10 @@ Jackson 3.0 正式发布（2025年10月），距离上一次大版本跨越已13
 
 ## 关联连接
 - [[Jackson]] — Java JSON 处理库
-- [[Jackson3]] — Jackson 3.x 版本
+- Jackson3 — Jackson 3.x 版本
 - [[不可变性]] — Mapper 不可变设计
-- [[Java17]] — Jackson 3 最低要求
+- Java17 — Jackson 3 最低要求
 - [[SpringBoot]] — Spring Boot 集成
-- [[Record]] — Java Record 类型
+- Record — Java Record 类型
 - [[java.time]] — Java 日期时间 API
-- [[OpenRewrite]] — 自动化迁移工具
+- OpenRewrite — 自动化迁移工具

@@ -24,3 +24,4 @@ last_updated: 2026-08-26
 - [[AgentHarness]] — AI Agent 作为财富创造工具
 - [[DeepSeek]] — AI 公司财富潜力讨论
 - [[ProductOverhang]] — 产品过载概念
+- [[摘要-yc投资人最在意的问题]] — 价值创造与价值捕获对话来源

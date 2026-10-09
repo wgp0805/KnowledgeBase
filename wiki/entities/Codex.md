@@ -262,6 +262,10 @@ brew install openai-codex
 - [[Skills]] — Skills 系统
 - [[沉默王二]] — 焚诀介绍者
 - [[摘要-codex-mcp额度优化邪修方法]] — 来源（MCP 额度优化工作流）
+- [[摘要-codex-windows沙箱机制]] — 来源（Windows write-restricted token 沙箱拆解）
+- [[摘要-codex差点把我搞疯]] — 来源（资源消耗与部署一致性踩坑）
+- [[codex-desktop-多模型与插件支持现状]] — 桌面版第三方模型与插件支持现状梳理
+- [[codex-operation-manual]] — Codex 从入门到精通操作手册
 
 ### MCP 额度优化工作流（邪修方法）
 来自 [[摘要-codex-mcp额度优化邪修方法]]。将服务器封装为只读 MCP Server 插件，接入飞书 OAuth 认证，让 ChatGPT 网页版 GPT-6 Pro 直接读取真实生产数据进行分析规划，再将分析结果"添加到 Codex"由 GPT-6 Astra High 执行开发。

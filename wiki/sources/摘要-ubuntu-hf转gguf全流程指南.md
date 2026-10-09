@@ -17,5 +17,5 @@ lyshark 基于 Ubuntu 26.04 纯 CPU 无 CUDA 环境，完整演示基于 llama.c
 - [[Q4_K_M]] — 4bit 量化等级
 - [[Qwen2]] — 案例模型
 - [[ModelScope]] — 模型下载源
-- [[Swap分区]] — 内存不足时的虚拟内存方案
+- Swap分区 — 内存不足时的虚拟内存方案
 - [[本地部署]] — 纯 CPU 推理场景

@@ -38,4 +38,4 @@ CC GUI（原名 Claude Code GUI，后为规避商标风险改名）是开源 Jet
 - [[MCP]] — 插件支持的协议
 - [[Skills]] — 插件支持的能力封装
 - [[React]] — WebView 前端框架
-- [[NodeJS]] — ai-bridge 运行时
+- NodeJS — ai-bridge 运行时

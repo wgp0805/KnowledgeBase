@@ -28,7 +28,7 @@ last_updated: 2026-09-16
 - [[Skills]] — Skills 概念
 - [[Skills管理]] — Skills 管理方法
 - [[AgentSkills]] — Agent Skills 生态
-- [[ObsidianSkills]] — Obsidian 相关技能
-- [[ExcalidrawDiagram]] — 绘图技能
+- ObsidianSkills — Obsidian 相关技能
+- ExcalidrawDiagram — 绘图技能
 - [[程序员小灰]] — 作者
 - [[摘要-workbuddy-obsidian-知识库]] — 苏三的同平台教程

@@ -141,7 +141,7 @@ public class MailReadService {
 
 ## 五、典型业务场景
 
-- **工单系统**：用户回复邮件自动更新工单（参考 [[SolonAI-ReActAgent智能客服]] 的工单处理思路）
+- **工单系统**：用户回复邮件自动更新工单（参考 SolonAI-ReActAgent智能客服 的工单处理思路）
 - **订单通知**：监听支付平台邮件通知，自动对账
 - **告警聚合**：汇总多系统告警邮件，统一推送
 
@@ -154,4 +154,4 @@ public class MailReadService {
 - [[PowerJob]] - 定时拉取任务调度
 - [[XXL-JOB]] - 定时拉取任务调度
 - [[ApplicationEvent]] - 邮件事件解耦
-- [[SolonAI-ReActAgent智能客服]] - 工单处理思路参考
+- SolonAI-ReActAgent智能客服 - 工单处理思路参考

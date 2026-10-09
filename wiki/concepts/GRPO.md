@@ -24,4 +24,4 @@ GRPO（Group Relative Policy Optimization）是 PPO 的简化变体，核心创�
 - [[RLHF]] — 所属范式
 - [[后训练]] — 训练阶段
 - [[ActorCritic]] — PPO 使用的架构（GRPO 省去 Critic）
-- [[采样效率]] — 权衡点
+- 采样效率 — 权衡点

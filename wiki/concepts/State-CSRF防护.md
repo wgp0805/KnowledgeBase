@@ -54,5 +54,5 @@ public class OauthService {
 - [[OAuth2]] — 核心协议
 - [[GitHub]] — 实战示例
 - [[QQ互联]] — 实战示例
-- [[CSRF]] — 关联的 Web 安全攻击
+- CSRF — 关联的 Web 安全攻击
 - [[摘要-oauth2-第三方登录]] — 来源

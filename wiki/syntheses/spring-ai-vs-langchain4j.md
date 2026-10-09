@@ -69,3 +69,4 @@ last_updated: 2026-05-22
 - [[sivalabs-agent-skills]] — 企业级业务技能封装库
 - [[spring-testing-skills]] — Spring AI 官方社区测试技能库
 - [[ai-agent-skill]] — AI Agent 技能扩展机制
+- [[摘要-java-ai框架选型指南-苏三]] — Java AI 框架两层选型视角来源

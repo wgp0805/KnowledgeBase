@@ -167,3 +167,4 @@ MCP 集成：`langchain4j-agentic-mcp` 模块支持 MCP 工具作为 Agent 节�
 - [[Agent工作流编排]] — 复杂多 Agent 流程编排方法论
 - [[摘要-LangChain4j入门指南-苏三]] — 来源（入门指南，优缺点与 Spring AI 对比）
 - [[spring-ai-vs-langchain4j]] — 概述
+- [[摘要-如何在Spring-Boot中无缝集成LangChain4j]] — Spring Boot Starter 与 @AiService 集成来源

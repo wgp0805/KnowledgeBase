@@ -33,6 +33,7 @@ MySQL 中使用 `INSERT INTO A SELECT FROM B` 语句进行数据迁移时，在�
 
 ## 关联连接
 - [[摘要-insert-into-select数据迁移事故]] — 来源
+- [[摘要-insert-into-select迁移数据事故]] — 另一起 INSERT INTO SELECT 锁表丢数据事故复盘
 - [[MySQL]] — 数据库
 - [[数据迁移]] — 操作场景
-- [[索引]] — 避免全表扫描的关键
+- 索引 — 避免全表扫描的关键

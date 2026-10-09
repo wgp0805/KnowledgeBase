@@ -17,5 +17,5 @@ LibreOffice 是开源的办公套件，提供 Writer（文字）、Calc（表格
 
 ## 关联连接
 - [[kkFileView]] — 作为其底层转换引擎
-- [[OpenOffice]] — 同源开源办公套件
+- OpenOffice — 同源开源办公套件
 - [[摘要-为什么越来越多人用kkFileView]] — 来源

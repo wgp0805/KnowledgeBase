@@ -19,4 +19,4 @@ last_updated: 2026-09-20
 - [[Zep]] — 长期记忆框架
 - [[LangMem]] — 长期记忆框架
 - [[WorkBuddy]] — 实战工具
-- [[Jessica_留学中]] — 作者
+- Jessica_留学中 — 作者

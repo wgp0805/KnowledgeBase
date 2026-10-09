@@ -27,7 +27,7 @@ NetBIOS（Network Basic Input/Output System）是一种网络协议，主要用�
 
 ## 关联连接
 - [[ping命令]] — 应用场景
-- [[TCP/IP]] — 协议基础
-- [[DNS]] — 替代协议
-- [[Windows网络]] — 应用环境
-- [[局域网]] — 网络类型
+- [[TCP-IP]] — 协议基础
+- DNS — 替代协议
+- Windows网络 — 应用环境
+- 局域网 — 网络类型

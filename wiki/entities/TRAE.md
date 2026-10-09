@@ -20,3 +20,4 @@ last_updated: 2026-08-25
 - [[豆包工作]] — 间接关联，统一 AI 办公品牌
 - [[AICoding]] — 开发者工具的核心场景
 - [[Agent]] — AI 工具的核心载体
+- [[trae-vs-claude-code-agent-comparison]] — Trae 智能体与 Claude Code 对比分析

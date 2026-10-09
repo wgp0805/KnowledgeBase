@@ -29,3 +29,4 @@ PowerJob 是基于 [[Java]] 开发的企业级分布式任务调度平台，提�
 - [[MySQL]] — 最小依赖数据库
 - [[Docker]] — 推荐安装方式
 - [[Java]] — 开发语言
+- [[java-mail-read-implementation]] — 定时拉取未读邮件的实现方案（PowerJob 典型应用场景）

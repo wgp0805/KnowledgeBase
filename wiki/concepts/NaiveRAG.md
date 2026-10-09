@@ -37,3 +37,4 @@ last_updated: 2026-08-24
 - [[Embeddings]]
 - [[VectorStore]]
 - [[AgenticRAG]]
+- [[摘要-langchain实现naiverag]] — LangChain 实现 NaiveRAG 实战来源

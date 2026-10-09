@@ -247,3 +247,4 @@ AI 按 tasks.md 逐项实现，每完成一项更新进度。你随时可以叫�
 - [[delta-spec]] - OpenSpec 增量变更机制
 - [[规范驱动开发]] - 上层方法论
 - [[ClaudeCode]] - 承载平台
+- [[heavy-project-framework-selection-conversation]] - 最终选型的完整对话溯源记录

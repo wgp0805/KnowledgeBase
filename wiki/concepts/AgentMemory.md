@@ -27,3 +27,4 @@ last_updated: 2026-08-21
 - [[PostgresStore]] — 长期记忆实现
 - [[pgvector]] — 语义检索依赖
 - [[AgentEngineering]] — 相关工程化概念
+- [[摘要-agentmemory开源记忆层]] — 开源记忆层（含跨会话记忆）的落地来源

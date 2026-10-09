@@ -18,7 +18,7 @@ Vector API，JDK 27的JEP 537（第十二孵化），允许在支持的CPU上利
 
 ## 关联连接
 - [[JDK27]] — 包含该特性（需--enable-preview）
-- [[SIMD]] - 单指令多数据流
-- [[AI Inference]] - AI推理
-- [[Scientific Computing]] - 科学计算
-- [[CPU Instructions]] - CPU指令集
+- SIMD - 单指令多数据流
+- AI Inference - AI推理
+- Scientific Computing - 科学计算
+- CPU Instructions - CPU指令集

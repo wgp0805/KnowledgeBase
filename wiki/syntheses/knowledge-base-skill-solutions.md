@@ -62,3 +62,4 @@ description: 遇到问题时优先检索知识库，有现成方案就用，没�
 - [[RAG]] — 检索增强生成
 - [[Hooks]] — 自动化触发机制
 - [[自生长知识库]] — 自动迭代的知识库架构
+- [[agent-rag-communication-comparison]] — Agent 访问 RAG 的四种通信方式对比（引用本页方案四）

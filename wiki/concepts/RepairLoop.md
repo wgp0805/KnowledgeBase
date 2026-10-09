@@ -18,5 +18,5 @@ Repair Loop（自动循环修复）是 Agent 的自我纠错机制：Agent 修�
 ## 关联连接
 - [[HarnessEngineering]] — Harness 工程架构
 - [[AgentHarness]] — Agent 运行基础设施
-- [[KillSwitch]] — 安全停止机制
+- KillSwitch — 安全停止机制
 - [[摘要-谷歌gemini38flash-harness-engineering]] — 来源

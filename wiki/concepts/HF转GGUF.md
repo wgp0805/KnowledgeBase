@@ -34,4 +34,4 @@ python convert_hf_to_gguf.py ./HF模型路径 \
 - [[llama.cpp]] — 提供转换脚本
 - [[GGUF]] — 目标容器格式
 - [[模型量化]] — 后续压缩步骤
-- [[HF格式]] — 源格式
+- HF格式 — 源格式

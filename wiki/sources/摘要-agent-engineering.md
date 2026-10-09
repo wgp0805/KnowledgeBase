@@ -20,3 +20,5 @@ last_updated: 2026-07-22
 - [[autonomous-agent]] — 自主智能体概念
 - [[multi-agent-collaboration]] — 多智能体编排
 - [[guardrails]] — 安全护栏体系
+- [[Rivet]] — 文中 Agent 工程选型涉及的可视化编排框架
+- [[Vellum]] — 文中 Agent 工程选型涉及的工作流编排框架

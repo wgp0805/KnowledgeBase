@@ -18,6 +18,6 @@ G1 (Garbage First) 垃圾回收器，在JDK 9及以后版本中作为服务器�
 
 ## 关联连接
 - [[JDK27]] — JDK 27的默认GC
-- [[Serial GC]] — 被替代的传统单线程GC
+- Serial GC — 被替代的传统单线程GC
 - [[Compressed OOP]] — 与G1配合使用的对象压缩技术
-- [[Heap Usage]] — 内存占用相关概念
+- Heap Usage — 内存占用相关概念

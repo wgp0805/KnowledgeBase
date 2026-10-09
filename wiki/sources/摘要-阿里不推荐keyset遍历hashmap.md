@@ -90,7 +90,7 @@ HashIterator() {
 
 ## 关联连接
 - [[HashMap]]
-- [[JavaCollection]]
-- [[AlibabaDevManual]]
-- [[IteratorPattern]]
-- [[JavaSyntaxSugar]]
+- JavaCollection
+- AlibabaDevManual
+- IteratorPattern
+- JavaSyntaxSugar

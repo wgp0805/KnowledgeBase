@@ -52,6 +52,6 @@ LLM Loop 是 ReAct（Reasoning + Acting）模式的工程实现。ReAct 是论�
 - [[Agent]] — Agent 核心概念，LLM Loop 是其心脏
 - [[AgentHarness]] — Harness 就是把 LLM Loop 工程化的全套设施
 - [[Pi (coding harness)]] — Pi 是 LLM Loop 的一个具体实现
-- [[ContextCompaction]] — 上下文压缩，Loop 的必要配套
+- ContextCompaction — 上下文压缩，Loop 的必要配套
 - [[Agent扩展层级]] — 扩展通过事件钩子介入 LLM Loop
 - [[摘要-pi-study-02-architecture]] — 来源：Pi 架构学习笔记

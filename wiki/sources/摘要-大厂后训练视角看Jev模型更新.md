@@ -17,5 +17,5 @@ last_updated: 2026-09-23
 - [[校准决策]] — 核心概念
 - [[SystemOne]] — 模型类型
 - [[后训练]] — 训练阶段
-- [[InstructGPT]] — RLHF起点
+- InstructGPT — RLHF起点
 - [[ChatGPT]] — RLHF成功案例

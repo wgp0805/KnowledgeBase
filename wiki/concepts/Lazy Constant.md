@@ -18,7 +18,8 @@ last_updated: 2026-09-17
 
 ## 关联连接
 - [[JDK27]] — 包含该特性（需--enable-preview）
-- [[Static Final]] — 传统静态常量
-- [[Database Loading]] — 数据库加载场景
-- [[Model Weights]] — 模型权重加载
-- [[AI Application]] — AI应用性能优化
+- [[摘要-jdk27-正式发布-人麻了]] — 来源文章
+- Static Final — 传统静态常量
+- Database Loading — 数据库加载场景
+- Model Weights — 模型权重加载
+- AI Application — AI应用性能优化

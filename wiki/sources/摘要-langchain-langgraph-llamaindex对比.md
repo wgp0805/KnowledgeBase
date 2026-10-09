@@ -19,4 +19,4 @@ last_updated: 2026-08-28
 - [[VectorStoreIndex]] — LlamaIndex 核心抽象：向量存储索引
 - [[LlamaParse]] — LlamaIndex 复杂 PDF 解析器
 - [[RAG]] — LlamaIndex 核心解决领域
-- [[Agent编排]] — LangGraph 核心解决领域
+- Agent编排 — LangGraph 核心解决领域

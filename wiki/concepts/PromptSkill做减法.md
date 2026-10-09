@@ -36,3 +36,4 @@ last_updated: 2026-09-14
 ## 关联连接
 - [[AgentSkills]]
 - [[AICoding]]
+- [[摘要-prompt-skill-做减法]] — 来源文章

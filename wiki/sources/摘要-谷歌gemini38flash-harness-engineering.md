@@ -16,7 +16,7 @@ Google 发布 Gemini 3.8 Flash 的同时深入探讨 Harness Engineering，对�
 - [[Gemini]] — Google AI 模型系列
 - [[GraphWorkflow]] — 图工作流编排模式
 - [[RepairLoop]] — 自动循环修复机制
-- [[AVO]] — NVIDIA Agentic Variation Operators
+- AVO — NVIDIA Agentic Variation Operators
 - [[OpenAI]] — OpenAI Harness 路线
 - [[DeepSeek]] — DeepSeek Harness 路线
 - [[NVIDIA]] — NVIDIA AVO 实验

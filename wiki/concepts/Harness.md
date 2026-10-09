@@ -61,3 +61,4 @@ Harness 是指 AI Agent 中模型之外的一切基础设施层，包括工具�
 - [[AlexAtallah]] — Harness 不会消失论的提出者
 - [[OpenRouter]] — CEO 对谈来源平台
 - [[HarnessEngineering]] — Harness 工程实践
+- [[harness-architecture-comparison]] — Harness 架构分类与 Agent 选型综合对比

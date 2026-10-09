@@ -15,6 +15,6 @@ Jev在工程实践中的定位：将Agent工作流中的「判断题」从大模
 - [[工单分类]] — 客服路由
 - [[浏览器Agent]] — 动作选择
 - [[模型路由]] — 工具选择
-- [[TypeSafeJavaSDK]] — Java社区SDK
+- TypeSafeJavaSDK — Java社区SDK
 - [[MCP]] — Model Context Protocol
 - [[快慢分工]] — Agent架构共识

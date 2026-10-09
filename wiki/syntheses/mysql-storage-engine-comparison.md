@@ -56,3 +56,5 @@ last_updated: 2026-05-22
 - [[query-optimization]] — 查询优化
 - [[transaction-management]] — 事务管理
 - [[jvm-tuning]] — JVM 性能调优
+- [[批量数据插入]] — 批量写入场景下的引擎选择考量
+- [[摘要-10亿数据快速插入mysql方案]] — 10 亿级导入实战中 InnoDB/MyISAM 的取舍

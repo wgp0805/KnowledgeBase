@@ -68,3 +68,5 @@ Agent Skills 是 AI Agent 的可复用行为模块标准协议，通过将特定
 - [[摘要-huashu-excel-skill]] — 来源（数据分析 Skill 实践）
 - [[mattpocock-skills]] — 月增 5 万星的技能包仓库
 - [[花叔]] — huashu-excel skill 作者
+- [[摘要-prompt-skill-做减法]] — 模型变强后 Prompt/Skill 做减法来源
+- [[摘要-ClaudeSkills保姆级教程]] — Claude Skills 概念、结构与原理的教程来源

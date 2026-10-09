@@ -22,13 +22,13 @@ MiniMax 于 8 月 20 日发布多模态创作 Agent 工作台 **MiniMax Design**
 
 ## 关联连接
 - [[MiniMax]] — 母公司及底层视频模型 H3 的提供方
-- [[MiniMax Design]] — 多模态创作 Agent 工作台
+- MiniMax Design — 多模态创作 Agent 工作台
 - [[LibTV]] — 同场竞技的同类视频 Agent 产品
 - [[Flova]] — 同领域视频 Agent 产品
 - [[OiiOii]] — 动画创作 Agent 平台
 - [[Runway]] — AI 视频平台，同样在补充编辑和控制能力
 - [[Pika]] — AI 视频平台
 - [[ComfyUI]] — 图像/视频生成工作流工具
-- [[3D导演台]] — MiniMax Design 提升成片可控性的核心功能
+- 3D导演台 — MiniMax Design 提升成片可控性的核心功能
 - [[Agent工作流]] — 视频 Agent 连接策划、素材、生成的核心范式
-- [[高盛]] — 对 AI 视频生成市场规模的预测方
+- 高盛 — 对 AI 视频生成市场规模的预测方

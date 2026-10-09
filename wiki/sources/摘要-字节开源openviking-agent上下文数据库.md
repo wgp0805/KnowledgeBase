@@ -81,9 +81,9 @@ https://github.com/volcengine/OpenViking
 
 ## 关联连接
 - [[OpenViking]]
-- [[Agent记忆系统]]
+- Agent记忆系统
 - [[虚拟文件系统]]
 - [[MCP]]
 - [[ClaudeCode]]
-- [[上下文管理]]
-- [[字节跳动开源]]
+- 上下文管理
+- 字节跳动开源

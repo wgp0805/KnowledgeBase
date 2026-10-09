@@ -88,8 +88,8 @@ node --version       # 看版本
 - [[AgentSkills]]
 - [[MCP]]
 - [[CLAUDE-md]]
-- [[SystemPrompt]]
+- SystemPrompt
 - [[CodeGraph]]
 - [[RAG]]
-- [[MultimodalAI]]
-- [[AICodingWorkflow]]
+- MultimodalAI
+- AICodingWorkflow

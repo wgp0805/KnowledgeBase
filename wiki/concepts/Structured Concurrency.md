@@ -18,7 +18,8 @@ last_updated: 2026-09-17
 
 ## 关联连接
 - [[JDK27]] — 包含该特性（需--enable-preview）
-- [[Thread Pool]] — 线程池概念
-- [[Future]] — 传统并发Future概念
-- [[Thread Leak]] — 线程泄漏问题
-- [[Task Cancellation]] — 任务取消概念
+- [[摘要-jdk27-正式发布-人麻了]] — 来源文章
+- Thread Pool — 线程池概念
+- Future — 传统并发Future概念
+- Thread Leak — 线程泄漏问题
+- Task Cancellation — 任务取消概念

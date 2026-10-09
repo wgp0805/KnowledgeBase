@@ -33,3 +33,4 @@ Jackson 是 Java 生态中最流行的 JSON 处理库，Spring Boot 默认的 JS
 - [[JSON-B]] — Jakarta 标准方案
 - [[AutoType]] — 反序列化安全风险
 - [[多态反序列化]] — 历史漏洞核心原因
+- [[摘要-jackson3升级详解]] — Jackson 3.0 升级要点来源

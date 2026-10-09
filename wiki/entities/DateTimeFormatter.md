@@ -19,6 +19,6 @@ java.time包中用于日期时间格式化和解析的类，是SimpleDateFormat�
 ## 关联连接
 - [[摘要-公司空降一个cto禁止在项目中使用date类]] — 来源
 - [[java.time]] — 所属包
-- [[SimpleDateFormat]] — 替代目标
+- SimpleDateFormat — 替代目标
 - [[LocalDateTime]] — 配合使用
 - [[API迁移]] — 应用场景

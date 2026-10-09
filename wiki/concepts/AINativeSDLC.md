@@ -37,3 +37,4 @@ AI 原生软件开发生命周期（AI-Native SDLC）是 Anthropic 提出的工�
 - [[ClaudeTag]] — 闭合循环的频道成员
 - [[Bands]] — 监控响应分级
 - [[LouisClaxton]] — 原文作者
+- [[摘要-Anthropic-AI-Native-SDLC手册]] — 同一框架的 8 问落地手册来源

@@ -20,5 +20,5 @@ java.time包中表示没有时区信息的日期和时间的类，是Date类的�
 - [[摘要-公司空降一个cto禁止在项目中使用date类]] — 来源
 - [[java.time]] — 所属包
 - [[Date]] — 替代目标
-- [[LocalDate]] — 相关类
-- [[LocalTime]] — 相关类
+- LocalDate — 相关类
+- LocalTime — 相关类

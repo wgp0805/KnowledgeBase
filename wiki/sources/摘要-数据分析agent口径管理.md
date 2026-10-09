@@ -15,5 +15,5 @@ last_updated: 2026-09-05
 - [[GroundTruth]] — 标准口径基线
 - [[维度文档]] — 指标定义文档
 - [[MCP]] — Model Context Protocol
-- [[项目宪法]] — Agent 执行规范文件
-- [[业务漂移]] — 口径随业务变化
+- 项目宪法 — Agent 执行规范文件
+- 业务漂移 — 口径随业务变化

@@ -17,3 +17,4 @@ HashMap 是 Java 核心数据结构，基于哈希表实现的键值对存储容
 
 ## 关联连接
 - [[Java]]
+- [[摘要-阿里不推荐keyset遍历hashmap]] — keySet 两次遍历机制的源码级解析

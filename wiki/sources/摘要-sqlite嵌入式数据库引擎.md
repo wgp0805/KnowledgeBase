@@ -88,8 +88,8 @@ SQLite在"嵌入式+完整SQL+ACID+公有领域"组合上几乎没有真正对�
 
 ## 关联连接
 - [[SQLite]]
-- [[嵌入式数据库]]
-- [[WAL模式]]
-- [[Chroma向量数据库]]
-- [[WCDB]]
-- [[DuckDB]]
+- 嵌入式数据库
+- WAL模式
+- Chroma向量数据库
+- WCDB
+- DuckDB

@@ -13,7 +13,7 @@ last_updated: 2026-09-21
 - [[WeKnora]] — 组织型 Agent 平台案例
 - [[Molio]] — 个人智能体平台
 - [[Agent]] — 工作主体
-- [[Wiki]] — 结构化知识环境
+- Wiki — 结构化知识环境
 - [[Skill]] — 定义 Agent 执行方式
 - [[Memory]] — Agent 长期工作记忆
 - [[MCP]] — 工具接入协议

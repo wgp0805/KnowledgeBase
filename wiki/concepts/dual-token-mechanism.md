@@ -115,3 +115,4 @@ Cookie 模式下别忘了配 CSRF 防护（SameSite 不是免死金牌，严谨�
 - [[摘要-token-redis-interview]] — "是什么/怎么做"视角
 - [[摘要-jwt-双token续签设计]] — "为什么/工程边界"视角
 - [[摘要-springboot4-security7-vue3-best-practice]] — Spring Security 工程实践
+- [[springboot-vue-drawlottery-system]] — 双 Token 机制的抽签系统落地案例

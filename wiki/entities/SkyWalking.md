@@ -45,3 +45,4 @@ Apache SkyWalking 是一款开源的分布式链路追踪系统（APM），为�
 - [[Halo]] — 常作为 SkyWalking Java Agent 演示案例的博客系统
 - [[摘要-skywalking-java-agent-使用]] — SkyWalking Java Agent 安装配置与 Web 界面使用教程
 - [[摘要-skywalking-install]] — 来源
+- [[摘要-skywalking-docker-compose-install]] — Docker Compose 部署教程来源

@@ -11,6 +11,7 @@ last_updated: 2026-06-23
 
 ## 关联连接
 - [[ClaudeCode]] — Anthropic 终端 AI Agent
+- [[Claude-Code]] — 同一产品的实体页（短期/长期记忆视角）
 - [[Anthropic]] — 开发公司
 - [[AICoding]] — AI 辅助编程范式
 - Node.js — JavaScript 运行环境

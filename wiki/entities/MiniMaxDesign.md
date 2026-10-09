@@ -34,3 +34,4 @@ MiniMax 发布的多模态创作 Agent 工作台，将模型、工具与视频�
 - [[VideoGeneration]] — 视频生成技术
 - [[ComfyUI]] — 可视化节点工作流工具
 - [[Skill]] — AI Agent 技能系统
+- [[摘要-miniMax-Design视频生成Agent]] — MiniMax Design 实测与产品取向对比来源

@@ -61,8 +61,9 @@ AI 浪潮压缩了年轻人的成长路径，让"可替代性"成为悬在每个
 一切行业、一切岗位都没有不可替代，不是未来，可能就在当下正在发生。
 
 ## 关联连接
-- [[IndustrialUpgrade]]
-- [[AIJobDisplacement]]
-- [[CareerDevelopment]]
-- [[SkillInflation]]
-- [[JudgmentAndControl]]
+- IndustrialUpgrade
+- AIJobDisplacement
+- CareerDevelopment
+- SkillInflation
+- JudgmentAndControl
+- [[AI时代个人成长系统]] — 本篇困境对应的个人成长系统概念页

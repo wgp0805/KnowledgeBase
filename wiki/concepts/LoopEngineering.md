@@ -50,3 +50,5 @@ last_updated: 2026-07-06
 - [[摘要-loop-engineering-pitfalls]] — 生产实践来源
 - [[阶跃星辰]] — 生产级 Loop 实践公司
 - [[可观测性]] — 系统状态监控与问题定位
+- [[摘要-loop-vs-prompt-engineering]] — Prompt→Context→Harness→Loop 范式演进辨析来源
+- [[loop-best-practice-java-fullstack]] — Java 全栈 Loop 最佳实践

@@ -19,3 +19,4 @@ jstat 是 JDK 自带的 Java 诊断工具，用于查看 GC 情况，监控 GC �
 - [[Java]] — 诊断对象
 - [[JVM]] — 诊断基础
 - [[Arthas]] — 更强大的现代化替代
+- [[Java高CPU排障]] — jstat 观测 GC 的排障场景

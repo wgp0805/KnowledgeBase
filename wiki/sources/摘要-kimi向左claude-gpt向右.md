@@ -15,4 +15,4 @@ last_updated: 2026-09-20
 - [[Claude]] — 合并路线
 - [[ChatGPT]] — 合并路线
 - [[Codex]] — 并入 ChatGPT
-- [[Kimi Work]] — 办公客户端
+- Kimi Work — 办公客户端

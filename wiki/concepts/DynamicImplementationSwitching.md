@@ -23,4 +23,4 @@ last_updated: 2026-09-01
 - [[SpringBoot]] — 应用场景
 - [[Nacos]] — 常用配置点
 - [[Autowired]] — 被扩展的注解
-- [[SPI]] — 服务提供商接口模式
+- SPI — 服务提供商接口模式

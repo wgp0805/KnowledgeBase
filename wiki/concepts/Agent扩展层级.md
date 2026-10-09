@@ -74,6 +74,6 @@ Agent 扩展层级是指对 AI Agent 系统进行能力扩展时的不同深度�
 - [[Agent]] — Agent 核心概念
 - [[AgentHarness]] — Agent 基座概念
 - [[LLM Loop]] — Agent 运行循环，扩展通过事件钩子介入
-- [[AI Agent Skill]] — Skill 详细概念
+- AI Agent Skill — Skill 详细概念
 - [[Pi (coding harness)]] — 扩展能力最强的 Agent 基座之一
 - [[Hermes]] — 另一个支持多层扩展的 Agent 基座

@@ -34,3 +34,4 @@ last_updated: 2026-09-09
 - [[MCP]] — 第三方工具接入
 - [[AI Agent]] — 上位概念
 - [[摘要-小米mimo-desktop邀测]] — 来源
+- [[摘要-美国版豆包又更新了]] — 桌面 AI 入口合并趋势（Gemini/Codex/Claude）的来源

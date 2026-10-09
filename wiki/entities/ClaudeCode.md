@@ -348,3 +348,5 @@ Anthropic 在 v2.1.287 推出 **Claude Mods**：用 TypeScript/JavaScript 进程
 - [[摘要-claude-code-mods机制]] — 来源（Mods 机制与四扩展选型）
 - [[Mods]] — v2.1.287 新增的进程内事件扩展机制
 - [[摘要-claude-code-mod-雨姐面板]] — 来源（雨姐面板六步实测）
+- [[摘要-手搓claude-code-面试]] — 12 层架构手搓 Claude Code 的面试纪实来源
+- [[摘要-claude-code-8问最狠难题怎么破]] — Skill/MCP/代码图谱八大排障来源

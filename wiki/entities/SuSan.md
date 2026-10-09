@@ -21,3 +21,4 @@ last_updated: 2026-09-17
 - [[Claude-Code]] — AI 编码工具
 - [[DeepSeekHarness]] — AI Agent 框架
 - [[WorkBuddy]] — 国产桌面 AI 应用
+- [[摘要-java-ai框架选型指南-苏三]] — 代表作品来源

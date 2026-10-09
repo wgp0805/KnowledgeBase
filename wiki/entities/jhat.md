@@ -20,3 +20,4 @@ jhat 是 JDK 自带的 Java 诊断工具，用于分析 heap dump，配合 jmap 
 - [[JVM]] — 诊断基础
 - [[jmap]] — 配合工具
 - [[Arthas]] — 更强大的现代化替代
+- [[jstack]] — 同属 JDK 诊断工具集

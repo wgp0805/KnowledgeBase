@@ -51,3 +51,4 @@ Command 触发任务 → Agent 扮演角色 → Skill 提供专业能力，形�
 - [[子Agent编排]] — 多智能体协作机制
 - [[Skill]] — 技能扩展机制
 - [[CLAUDEmd]] — 指令系统
+- [[TRAE]] — Trae 智能体所属产品

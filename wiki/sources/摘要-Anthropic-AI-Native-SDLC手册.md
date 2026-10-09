@@ -44,3 +44,4 @@ last_updated: 2026-08-31
 - [[Research-Plan-Execute-Review-Ship]] — 五阶段开发范式
 - [[摘要-superpowers-openspec-speckit对比]] — 三方对比
 - [[摘要-AGENTS.md只该管边界]] — 同期关于 Agent 协作规范的思考
+- [[AINativeSDLC]] — 本手册对应的 AI 原生 SDLC 概念页

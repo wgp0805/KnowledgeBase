@@ -12,6 +12,6 @@ lyshark 撰写的基于 LlamaIndex 实现本地 RAG 向量检索的完整入门�
 ## 关联连接
 - [[LlamaIndex]] — RAG 框架
 - [[RAG]] — 检索增强生成
-- [[Qwen2.5]] — 对话模型
-- [[Qwen3-Embedding]] — 向量模型
+- Qwen2.5 — 对话模型
+- Qwen3-Embedding — 向量模型
 - [[向量检索]] — 核心能力

@@ -59,8 +59,9 @@ AI市场告别堆参数、比跑分的狂欢，被推向"能赚钱的AI才是好
 - 商业模式高度收敛：稳定为ToC订阅、ToB API+解决方案、垂直工具+服务+私有化三类
 
 ## 关联连接
-- [[AIBusinessModel]]
-- [[ProductStrategy]]
-- [[VerticalAI]]
-- [[SaaSPricing]]
-- [[StartupFramework]]
+- AIBusinessModel
+- ProductStrategy
+- VerticalAI
+- SaaSPricing
+- StartupFramework
+- [[AI产品]] — 本篇拆解其商业模式的 AI 产品概念页

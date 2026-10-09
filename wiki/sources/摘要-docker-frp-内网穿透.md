@@ -13,7 +13,7 @@ last_updated: 2026-08-25
 - **FRP 核心原理**：中间服务器转发，内网设备主动连接公网代理服务器，外部访问代理时转发到内网
 - **优势**：开源免费、自建服务器数据更安全、跨平台、协议支持全面
 - **对比工具**：FRP（自建服务器）/ Ngrok（免建但限制多）/ ZeroTier（P2P 直连）/ 花生壳（简单但收费）
-- **部署架构**：云服务器跑 frps（bindPort 7000 + 管理后台 7500），本地电脑跑 frpc，配置 [[proxies]] 规则映射 localPort 到 remotePort
+- **部署架构**：云服务器跑 frps（bindPort 7000 + 管理后台 7500），本地电脑跑 frpc，配置 proxies 规则映射 localPort 到 remotePort
 - **认证方式**：token 密钥验证，客户端与服务端必须一致
 - **镜像版本**：fatedier/frps:v0.61.2、fatedier/frpc:v0.61.2
 

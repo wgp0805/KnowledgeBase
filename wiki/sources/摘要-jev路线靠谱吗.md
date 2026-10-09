@@ -16,4 +16,4 @@ David Lee（公众号"David的AI全景图"）批判性梳理 Jev 的"判断模�
 - [[置信度校准]] — 无人值守自动化对概率诚实性的依赖
 - [[幻觉]] — "零幻觉"语义游戏所涉及的幻觉定义
 - [[SystemOneModel]] — 快判断模型设计范式
-- [[David Lee]] — 作者（公众号"David的AI全景图"）
+- David Lee — 作者（公众号"David的AI全景图"）

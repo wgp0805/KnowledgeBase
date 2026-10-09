@@ -18,3 +18,4 @@ TypeSafe AI由前OpenAI研究员Diogo Almeida创办，专注于开发判断模�
 ## 关联连接
 - [[Jev]] — 旗舰判断模型
 - [[DiogoAlmeida]] — 创始人
+- [[摘要-jev路线靠谱吗]] — Jev 判断模型路线的批判性分析来源

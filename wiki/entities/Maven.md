@@ -72,3 +72,4 @@ maven.consumer.pom.flatten=true
 - [[Build POM 与 Consumer POM 分离]] — Maven 4 核心架构概念
 - [[小锋]] — Maven 4 文章作者
 - [[maven-lastUpdated-file]] — Maven 3 *.lastUpdated 缓存问题
+- [[mvnd-complete-guide]] — Maven Daemon 守护进程构建教程

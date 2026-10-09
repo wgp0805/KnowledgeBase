@@ -22,6 +22,7 @@ Java Development Kit 27（JDK 27），对应 JSR 402，是 Java SE 27 的参考�
 - [[G1 GC]] — 垃圾回收器概念
 - [[Compressed OOP]] — 对象压缩概念
 - [[Post-quantum cryptography]] — 后量子加密概念
-- [[LazyConstant]] — 惰性常量概念
-- [[StructuredTaskScope]] — 结构化并发概念
+- LazyConstant — 惰性常量概念
+- StructuredTaskScope — 结构化并发概念
 - [[Vector API]] — 向量计算概念
+- [[摘要-jdk27-正式发布-人麻了]] — JDK 27 正式发布解读来源

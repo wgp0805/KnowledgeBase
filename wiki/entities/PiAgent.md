@@ -39,3 +39,4 @@ PiAgent（pi-agent）是一个 70K Star 的开源 Agent 框架，提供从 Demo 
 - [[ContextEngineering]] - 上下文工程能力
 - [[error-feedback-self-healing]] - 工具错误自愈能力
 - [[LoopEngineering]] - 循环工程方法论关联
+- [[pi-agent-complete-guide]] - Pi Agent 完全教程

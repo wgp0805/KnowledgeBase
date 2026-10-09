@@ -16,6 +16,6 @@ Agent 竞争白热化之际，OpenAI、Anthropic 和腾讯纷纷开放自家 Age
 - [[Harness]] — 模型外的执行系统
 - [[ProductOverhang]] — 模型能力外溢概念
 - [[Agent平台化]] — 概念
-- [[Context]] — 竞争核心
-- [[山杉]] — 作者
-- [[深流研究所]] — 作者机构
+- Context — 竞争核心
+- 山杉 — 作者
+- 深流研究所 — 作者机构

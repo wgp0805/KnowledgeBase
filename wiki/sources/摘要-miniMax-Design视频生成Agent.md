@@ -30,3 +30,4 @@ MiniMax 发布多模态创作 Agent 工作台 MiniMax Design，将模型、工�
 - [[LibTV]] — 视频生成 Agent 产品
 - [[OiiOii]] — AI 动画创作平台
 - [[ComfyUI]] — 可视化节点工作流工具
+- [[MiniMaxDesign]] — 实测的产品实体页

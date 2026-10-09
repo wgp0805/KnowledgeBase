@@ -23,3 +23,4 @@ last_updated: 2026-08-26
 - [[ProductOverhang]] — 产品过载概念
 - [[AndrejKarpathy]] — Vibe Coding 概念发明人
 - [[创业方法论]] — 创业相关概念
+- [[摘要-yC-投资人最在意的问题]] — 零和/正和财富观讨论来源

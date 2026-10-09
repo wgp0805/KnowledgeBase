@@ -17,3 +17,5 @@ last_updated: 2026-09-18
 - [[AgentScope_Java]] — 企业级 Agent 框架
 - [[Embabel]] — GOAP 确定性编排框架
 - [[GOAP]] — 目标导向规划算法
+- [[spring-ai-vs-langchain4j]] — Spring AI 与 LangChain4j 对比分析
+- [[SuSan]] — 文章作者

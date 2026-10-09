@@ -73,3 +73,4 @@ Spring AI 2.0 将"工具调用循环"从各个 ChatModel 内部抽出来，统�
 - [[摘要-spring-ai-2-vs-alibaba选型]] — Spring AI 2.0 vs Alibaba 选型
 - [[Embabel]] — 上层 Agent 编程模型（Rod Johnson）
 - [[摘要-embabel]] — 来源（Embabel 对比）
+- [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 生态 RAG 与 Agent 应用分布分析

@@ -27,7 +27,7 @@ REINFORCE → Reward-to-go → Baseline/Advantage → GAE → Actor-Critic → �
 ## 关联连接
 - [[摘要-llm后训练算法-ppo详解]] — 来源
 - [[PPO]] — 终极工程化形态
-- [[REINFORCE]] — 基础形式
+- REINFORCE — 基础形式
 - [[CreditAssignment]] — 核心缺陷
 - [[GAE]] — 优势估计改进
 - [[ActorCritic]] — 架构改进

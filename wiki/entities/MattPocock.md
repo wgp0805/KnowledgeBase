@@ -53,3 +53,4 @@ Matt Pocock 是 Total TypeScript 的作者，TypeScript 教育领域的知名人
 - [[摘要-强模型时代删掉Superpowers该怎么选]] — 来源（强模型时代定位）
 - [[流程税]] — Matt Skills 规避的成本概念
 - [[强模型时代工作流选型]] — 选型方法论
+- [[matt-skills-boundary-judgment]] — Matt Skills 适用边界与跳步判断实操

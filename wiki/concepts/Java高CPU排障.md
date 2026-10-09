@@ -28,3 +28,4 @@ last_updated: 2026-10-08
 - [[JVM]] — 诊断基础
 - [[Arthas]] — 更强大的现代化替代工具
 - [[摘要-mysql查询cpu占用过高的方法]] — 数据库侧 CPU 排查对照
+- [[jstat]] — GC 频率与 FullGC 观测命令

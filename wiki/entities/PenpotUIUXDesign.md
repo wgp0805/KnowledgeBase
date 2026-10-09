@@ -18,8 +18,8 @@ penpot-uiux-design这个Skill，将设计判断力编码成MCP工具链的工作
 
 ## 关联连接
 - [[摘要-Penpot-UIUX-Design-MCP工具链]] — 来源文章
-- [[Penpot]] — 设计工具
-- [[PenpotMCP]] — MCP服务器
-- [[Smithery]] — Skill托管平台
+- Penpot — 设计工具
+- PenpotMCP — MCP服务器
+- Smithery — Skill托管平台
 - [[先探查再创建]] — 核心架构思想
 - [[API gotchas]] — 踩坑记录

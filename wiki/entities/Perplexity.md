@@ -18,7 +18,7 @@ Perplexity不是一个搜索引擎，而是一个把「搜索-综合-引用-追�
 - **最大裂缝**：37-45%引用错误率、无跨会话AI记忆、20→200定价断崖
 
 ## 关联连接
-- [[Comet浏览器]] — AI浏览器赌注
+- [[COMET]] — AI浏览器赌注
 - [[Sonar]] — Perplexity自研模型
 - [[AIOverviews]] — Google AI搜索竞品
 - [[ChatGPTSearch]] — OpenAI搜索竞品

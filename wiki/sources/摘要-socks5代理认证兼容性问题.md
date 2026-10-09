@@ -30,7 +30,7 @@ last_updated: 2026-08-24
 ## 关联连接
 - [[SOCKS5]]
 - [[Python]]
-- [[aiohttp]]
-- [[httpx]]
-- [[requests]]
+- aiohttp
+- httpx
+- requests
 - [[代理认证]]

@@ -105,8 +105,8 @@ npx -y @agentmemory/agentmemory@latest
 - [[AgentMemory]]
 - [[OpenViking]]
 - [[MCP协议]]
-- [[AI编程助手]]
-- [[Agent记忆层]]
-- [[iii-engine]]
+- AI编程助手
+- Agent记忆层
+- iii-engine
 - [[ClaudeCode]]
-- [[跨会话记忆]]
+- 跨会话记忆

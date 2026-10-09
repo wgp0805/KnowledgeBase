@@ -26,6 +26,6 @@ TradingAgents 是一个面向金融研究的多智能体开源框架，将真实
 - [[摘要-部署TradingAgents多智能体金融研究框架]] — 来源资料
 - [[LangGraph]] — 构建框架
 - [[多智能体金融研究]] — 核心概念
-- [[Yahoo Finance]] — 数据源
+- Yahoo Finance — 数据源
 - [[阶跃星辰]] — 模型服务商
-- [[Step-5-preview]] — 测试模型
+- Step-5-preview — 测试模型

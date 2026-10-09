@@ -23,7 +23,7 @@ AI李子介绍 zvec-grep（zg），8 月底开源的本地优先搜索层，3.5K
 - [[混合检索]] — 多路结果去重排序
 - [[本地优先]] — Local-first 设计原则
 - [[Embedding]] — 语义向量
-- [[Agent上下文工程]] — Agent 上下文管理
+- Agent上下文工程 — Agent 上下文管理
 - [[WeKnora]] — 案例中被搜索的腾讯开源知识库
 - [[摘要-ai-agent-cognitive-navigation]] — Agent 运行时健康
 - [[摘要-为什么Claude-Code不用RAG检索代码]] — Agentic Search vs RAG

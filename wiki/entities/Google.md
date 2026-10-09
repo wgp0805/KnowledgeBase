@@ -20,3 +20,4 @@ last_updated: 2026-09-03
 - [[SEO]] — 应用领域
 - [[E-E-A-T]] — 评估原则
 - [[搜索意图]] — 算法关注点
+- [[Google Gemini]] — Google 开发的大语言模型

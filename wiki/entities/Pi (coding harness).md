@@ -34,7 +34,7 @@ Pi 只提供最基础的运行框架：
 | Extension | TypeScript 模块 | 注册工具、拦 Agent loop、画 TUI、做 RPC |
 | Package | npm/git 包 | 把前三层打包发布共享 |
 
-详见 [[Pi 扩展生态与开发指南]]。
+详见 Pi 扩展生态与开发指南。
 
 ### 与其他 Agent 的对比
 

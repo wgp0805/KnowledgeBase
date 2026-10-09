@@ -23,3 +23,4 @@ Undertow 是 Red Hat 出品的开源嵌入式 Web 容器，以低内存占用、
 - [[Servlet]] — Servlet 规范
 - [[SpringBoot]] — Spring Boot 4.0 移除 Undertow
 - [[摘要-spring-boot-4-0-removes-undertow]] — 来源文章
+- [[servlet-6-1]] — Undertow 未能及时适配的 Servlet 6.1 规范

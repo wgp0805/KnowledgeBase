@@ -11,7 +11,7 @@ Perplexity月活破亿、估值200亿美元、年化营收7.5亿美元，核心�
 
 ## 关联连接
 - [[Perplexity]] — AI搜索引擎
-- [[Comet浏览器]] — AI浏览器
+- [[COMET]] — AI浏览器
 - [[Sonar]] — Perplexity自研模型
 - [[AIOverviews]] — Google AI搜索
 - [[ChatGPTSearch]] — OpenAI搜索

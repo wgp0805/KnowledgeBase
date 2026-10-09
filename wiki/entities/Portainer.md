@@ -20,5 +20,5 @@ last_updated: 2026-09-03
 - [[摘要-再见navicatxshell一款高颜值的数据库sshdocker管理工具]] — 来源
 - [[HexHub]] — 替代工具
 - [[Docker管理]] — 核心功能
-- [[容器化]] — 技术领域
+- 容器化 — 技术领域
 - [[FinalShell]] — 相关工具

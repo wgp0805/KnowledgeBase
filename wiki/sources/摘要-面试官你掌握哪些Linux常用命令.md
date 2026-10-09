@@ -32,3 +32,4 @@ last_updated: 2026-08-27
 - [[netstat]] — 端口占用查看
 - [[lsof]] — 端口占用查看
 - [[SpringBoot]] — nohup java -jar 后台运行场景
+- [[jps]] — 文中列举的 JDK 进程查看命令

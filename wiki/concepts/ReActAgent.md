@@ -24,3 +24,4 @@ ReActAgent 是 AgentScope Java 2.0 中的核心推理循环 Agent，实现"思�
 - [[Agent]] — AI Agent 核心概念
 - [[摘要-AgentScopeJava2.0发布]] — 来源
 - [[摘要-AgentScope入门指南]] — 来源（苏三入门实战指南）
+- [[摘要-AI编码Agent从原理到可运行代码]] — 从 ReAct 推理循环到可运行代码的原理来源

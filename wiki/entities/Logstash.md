@@ -20,3 +20,4 @@ Logstash 是 Elastic Stack（ELK）中的数据收集引擎，支持多种输入
 - [[Canal]] — 实时数据同步工具
 - [[Flink]] — 流处理数据同步工具
 - [[摘要-es-data-types-mysql-mapping]] — 来源（ES 数据类型与 MySQL 映射）
+- [[ELK日志系统]] — Logstash 所属的日志采集分析系统

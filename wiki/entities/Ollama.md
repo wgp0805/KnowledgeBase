@@ -40,3 +40,4 @@ Ollama 是一款用于本地化部署和管理大型语言模型的工具，支�
 - [[摘要-spring-ai]] — 来源
 - [[摘要-Ollama+DeepSeek本地部署]] — 来源
 - [[摘要-langchain-rag构建知识库-理论]] — Embeddings 来源
+- [[大模型部署框架对比与选型]] — 将 Ollama 归入推理引擎层的部署选型综述

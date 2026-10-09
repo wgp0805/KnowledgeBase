@@ -21,4 +21,4 @@ last_updated: 2026-08-21
 - [[RenoPit]] — 典型应用
 - [[Vite]] — 环境变量驱动
 - [[React]] — 前端框架
-- [[MockApi]] — 相关实现模式
+- MockApi — 相关实现模式

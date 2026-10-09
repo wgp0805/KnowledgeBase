@@ -39,3 +39,4 @@ Elasticsearch + Logstash + Kibana 组合的日志采集分析系统，提供从�
 - [[Logstash]]
 - [[Kibana]]
 - [[Filebeat]]
+- [[摘要-elk日志系统搭建教程]] — Docker Compose 四件套搭建教程来源

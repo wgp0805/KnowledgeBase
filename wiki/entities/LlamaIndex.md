@@ -24,3 +24,4 @@ LlamaIndex（原名 GPT Index）是专门为 RAG（检索增强生成）设计�
 - [[VectorStoreIndex]] — 核心索引类型
 - [[LlamaParse]] — PDF 解析器
 - [[苏三]] — 对比文章作者
+- [[摘要-llamaindex-rag向量检索入门]] — LlamaIndex 本地 RAG 向量检索入门教程来源

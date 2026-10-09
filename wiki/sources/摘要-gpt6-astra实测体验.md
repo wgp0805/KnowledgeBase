@@ -60,7 +60,7 @@ last_updated: 2026-09-07
 - [[Codex]] — 配套 Agent
 - [[ClaudeFable5]] — 对标模型
 - [[Anthropic]] — 竞争对手
-- [[AGENT.md]] — 适配超级模型的规则文件
+- AGENT.md — 适配超级模型的规则文件
 - [[摘要-gpt6-自训练信号]] — 同期 GPT-6 另一视角分析
 - [[摘要-codex-vs-claude-code-对比]] — Codex vs Claude Code 对比
 - [[摘要-把Codex用到极致]] — Codex 进化方法论

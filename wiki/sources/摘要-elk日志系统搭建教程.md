@@ -97,11 +97,12 @@ elk-demo/
 - 监控告警：Prometheus + Grafana
 
 ## 关联连接
-- [[ELKStack]]
-- [[DockerCompose]]
-- [[日志采集架构]]
+- ELKStack
+- DockerCompose
+- 日志采集架构
 - [[Elasticsearch]]
 - [[Logstash]]
 - [[Filebeat]]
 - [[Kibana]]
-- [[DevOps实践]]
+- [[ELK日志系统]] — 本教程搭建的日志系统概念页
+- DevOps实践

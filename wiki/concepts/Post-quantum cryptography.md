@@ -21,7 +21,7 @@ last_updated: 2026-09-17
 
 ## 关联连接
 - [[JDK27]] — 包含该特性的版本
-- [[TLS 1.3]] — 传输层安全协议
-- [[X25519MLKEM768]] — 具体后量子算法
-- [[Quantum Computing]] — 量子计算威胁
-- [[SSL/TLS Security]] — 安全协议概念
+- TLS 1.3 — 传输层安全协议
+- X25519MLKEM768 — 具体后量子算法
+- Quantum Computing — 量子计算威胁
+- SSL/TLS Security — 安全协议概念

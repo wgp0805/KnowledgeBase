@@ -92,3 +92,4 @@ Anthropic 发布 Claude Opus 5.5 约一个半小时后，OpenAI 连推 **GPT-6 S
 - [[Dots]] — DevDay 2026 发布的常驻智能体
 - [[常驻智能体]] — Dots 代表的产品形态
 - [[摘要-openai-devday-2026-gpt61sol-dots]] — 来源（DevDay 2026 全量更新）
+- [[摘要-openai产品设计负责人对话]] — 产品设计负责人 Ian Silber 对谈来源

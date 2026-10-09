@@ -53,9 +53,9 @@ last_updated: 2026-09-07
 - [[Canal]] — Binlog 订阅同步 ES 的推荐方案
 - [[MySQL]] — 与 ES 搭配的强事务数据源
 - [[RabbitMQ]] — 异步解耦方案中的 MQ
-- [[ACID]] — 事务四特性概念
+- ACID — 事务四特性概念
 - [[乐观锁]] — ES 并发控制机制
-- [[Translog]] — ES 预写日志
+- Translog — ES 预写日志
 - [[Segment]] — Lucene 不可变存储单元
 - [[摘要-elasticsearch-comprehensive-guide]] — ES 全景指南
 - [[摘要-拼多多二面-es-vs-mysql]] — ES vs MySQL 对比

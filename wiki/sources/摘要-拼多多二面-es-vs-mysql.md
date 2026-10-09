@@ -19,6 +19,6 @@ last_updated: 2026-08-28
 - [[InvertedIndex]] — 倒排索引核心数据结构
 - [[BPlusTree]] — MySQL 索引底层结构
 - [[NearRealTime]] — 近实时写入特性
-- [[SegmentMerge]] — ES 段合并机制
-- [[DualWriteArchitecture]] — MySQL+ES 双写架构
-- [[FullTextSearch]] — 全文检索能力
+- SegmentMerge — ES 段合并机制
+- DualWriteArchitecture — MySQL+ES 双写架构
+- FullTextSearch — 全文检索能力

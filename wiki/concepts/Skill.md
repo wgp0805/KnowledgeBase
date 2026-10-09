@@ -158,3 +158,4 @@ Tool 与 Skill 的区别：Tool 是功能型（执行原子操作），Skill 是
 - [[码哥字节]] — 该文作者
 - [[SkillSoftLink]] — 软链跨工具复用实验
 - [[渐进式披露]] — references/ 子目录按需加载结构
+- [[摘要-skills-vs-prompt-辨析]] — Skills 与 Prompt 本质差异辨析来源

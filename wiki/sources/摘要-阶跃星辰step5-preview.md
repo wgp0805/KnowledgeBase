@@ -12,7 +12,7 @@ last_updated: 2026-09-22
 ## 关联连接
 - [[阶跃星辰]] — StepFun公司
 - [[Step5Preview]] — 旗舰模型
-- [[StepPlan]] — 订阅会员
+- StepPlan — 订阅会员
 - [[MoE]] — 混合专家架构(600B/27B激活)
 - [[长上下文]] — 100万Token
 - [[WorkBuddy]] — 国产桌面AI应用

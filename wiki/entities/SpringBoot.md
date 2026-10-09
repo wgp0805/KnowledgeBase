@@ -114,3 +114,4 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 - [[ConfigurationProperties]] — 配置绑定注解（支持 Enum 类型字段）
 - [[摘要-优雅使用Enum提升SpringBoot配置管理效率]] — Enum + @ConfigurationProperties 配置管理实战
 - [[摘要-为什么越来越多人用gRPC]] — 来源（gRPC 官方支持）
+- [[摘要-springboot4-模块化架构]] — Spring Boot 4 自动配置模块化重构来源

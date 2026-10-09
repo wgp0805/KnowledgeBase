@@ -21,3 +21,4 @@ RLCD（Reinforcement Learning for Calibrated Decisions，面向校准决策的�
 - [[RLHF]] — 人类反馈强化学习（对比）
 - [[置信度校准]] — RLCD的核心目标
 - [[校准误差]] — 衡量置信度可信度
+- [[摘要-jev判断模型靠谱吗]] — RLCD 判断模型路线梳理来源

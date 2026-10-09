@@ -81,3 +81,4 @@ openspec-cn view
 - [[OpenCode]] — 支持 OpenSpec 的编程工具
 - [[Skill]] — 技能扩展机制
 - [[ClaudeCode]] — AI 编程工具
+- [[java-skills-openspec-integration]] — Java Skills 与 OpenSpec 配合使用指南

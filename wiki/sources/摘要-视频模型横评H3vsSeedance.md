@@ -34,4 +34,4 @@ last_updated: 2026-08-26
 - [[VideoGeneration]] — 视频生成技术
 - [[TokenEfficiency]] — token 效指标（成本控制）
 - [[PromptEngineering]] — 提示词工程（横评使用统一提示词）
-- [[GPU]] — 硬件基础设施
+- GPU — 硬件基础设施
