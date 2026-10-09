@@ -65,11 +65,11 @@ ZXing最初是Google员工的“20%时间”项目。
 
 ZXing的核心能力分两块： **生成二维码** 和 **识别二维码** 。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rf08shQd214BGNMEiccNkib90OdF5meDPHDLTFZMsThvYsiajYgeicNYJ9n9vAQarBiaztTJG0oZLGzwTMgk0E0oNGJy5YJvSS07r38/640?wx_fmt=webp&from=appmsg#imgIndex=0)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20ZXing%EF%BC%9F/e136843408a270b5c20ffa2a3fcad9ee_MD5.jpg)
 
 **生成的核心是“编码+纠错”** ：把文本转成二进制，加入纠错码，按二维码标准填进矩阵，最后渲染成图片。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0rfRPngl0Ltm9OThNicRfaELmwOtpWY35vyCd8BknMX0mveaHtxPuEicPeicp5Kic8YwGSPtIyfsUjqibOm5KLfWAvEYUkZ7Zva5Ok4g/640?wx_fmt=webp&from=appmsg#imgIndex=1) **识别的核心是“定位+解码”** ：先找到二维码的探测图形（那三个角落的方块），校正图像，然后逐位解码。
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20ZXing%EF%BC%9F/cdcd867761853bbc2866a7209625c8a4_MD5.jpg)**识别的核心是“定位+解码”** ：先找到二维码的探测图形（那三个角落的方块），校正图像，然后逐位解码。
 
 ## 四、代码实战
 
@@ -243,7 +243,7 @@ ZXing提供了专门的Android客户端模块，包含完整的相机预览、�
 
 Android端的核心流程是：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0reVpF1UBR5U7mDByS3JzQEWwBtEmVYGicIM1Ry3vpK4P1RiaLpICXnsxetpJlt6Uzk9uxpE5Fqc9HfKebqwl2FVDv8hFe2FQTRwY/640?wx_fmt=webp&from=appmsg#imgIndex=2)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20ZXing%EF%BC%9F/f0622c97fca3f87f17024263478cf9af_MD5.jpg)
 
 **关键设计** ：解码放在 **独立的线程** 中执行，通过Handler传递消息。
 
