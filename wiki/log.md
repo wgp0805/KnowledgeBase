@@ -1855,3 +1855,9 @@
 
 ## [2026-10-09] query | 检索全网显示 IP 归属地相关文章
 - **输出**: 即时回答未保存——wiki 中无「全网显示 IP 归属地」（评论区显示 IP 属地政策/功能）相关文章；仅有 [[NginxPulse]]、[[摘要-nginxpulse]] 涉及日志分析场景的 IP 归属地查询技术（ip2region/ip-api 三级策略），与提问话题不同
+
+## [2026-10-10] ingest | 摄取 3 篇 01-articles 文章（ip2region 离线库/Claude Code 四步差距/Java 转 Python）
+- **变更**: 新增 3 个来源页（[[摘要-ip2region离线ip库]], [[摘要-claude-code四步差距]], [[摘要-java转python决策]]）；新增实体 [[ip2region]]；新增概念 [[Java与Python分工]]；同步 [[index.md]]
+- **合并**: 增量更新 [[ClaudeCode]]（四件套工程化与判断权边界小节）、[[CLAUDEmd]]（禁止事项优先原则小节）、[[苏三]]（Java转Python来源）、[[NginxPulse]]（ip2region 双链）
+- **冲突**: 无
+- **归档**: 3 个源文件已移动到 raw/09-archive/
