@@ -2,8 +2,8 @@
 title: "OpenAI"
 type: entity
 tags: [AI公司, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md, raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md]
-last_updated: 2026-10-08
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md, raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/01-articles/2026-10-09-OpenAI宣布攻破数百个难题，“数学之死”担忧成真？.md]
+last_updated: 2026-10-09
 ---
 
 ## 定义
@@ -49,6 +49,12 @@ Anthropic 发布 Claude Opus 5.5 约一个半小时后，OpenAI 连推 **GPT-6 S
 - **开发者底座**：Codex in the Cloud（云端共享开发沙箱）、Codex CLI 刷新（语音唤起、/agents 指令、任务挂起恢复）、Codex Security Cloud（内置网络安全模型 Daybreak Blue，全量渗透扫描 + 生成修复补丁）、Decisions API、Agents API 注入 Computer use、AWS Bedrock 托管 Managed Agents
 - **生态打通**：Sign in with ChatGPT 全球身份登录，Plus/Pro 配额可在 Devin、Notion、Vercel、[[OpenClaw]] 等首批 16 家伙伴产品抵扣；ChatGPT Space/Pages/协同演示文稿；OpenAI Marketplace（32 家企业伙伴）；Private Intelligence 零数据留存隐私方案
 
+### math 仓库：722 篇数学手稿批量发布（2026-10-06）
+无发布会、无同行评审，仅在 GitHub 创建 math 仓库一次上传 722 篇数学预印本、归为 372 个结果家族，覆盖数论到代数几何 17 个方向（详见 [[摘要-openai-math仓库722手稿]]、[[AI数学证明]]）：
+- **代表成果**：宣称证明 ζ 函数与狄利克雷 L 函数在实部 >7/8 区域无零点（"准黎曼猜想"）；霍奇猜想在 CM 阿贝尔簇/K3 曲面的关键缺口；唯一游戏猜想。235/372 个结果家族附 [[Lean]] 形式化证明可机器核验
+- **效率**：模型尝试约 1.2 万个开放问题，平均每题约 3 小时 ChatGPT Pro 算力、5.8 次失败尝试、23 轮提示词迭代
+- **争议**：数学界撕裂——有人称"数学史上意义重大的时刻"，也有人斥"学术大屠杀"；25 位菲尔兹奖得主（含陶哲轩）9 月联名声明批评把解题当能力基准，"人类数学协会"呼吁终止与 OpenAI 合作。此前时间线：5 月埃尔德什单位距离猜想反例 → 8 月 [[Astra]] 解决 10 个悬而未决问题（Lean 4 零 sorry、成本约 2000 美元）→ 9 月一个月内解决 100+ 问题
+
 ## 关联连接
 - [[Codex]] — OpenAI 的 Agent 产品
 - [[Tibo]] — Codex 负责人，额度重置的执行者
@@ -93,3 +99,5 @@ Anthropic 发布 Claude Opus 5.5 约一个半小时后，OpenAI 连推 **GPT-6 S
 - [[常驻智能体]] — Dots 代表的产品形态
 - [[摘要-openai-devday-2026-gpt61sol-dots]] — 来源（DevDay 2026 全量更新）
 - [[摘要-openai产品设计负责人对话]] — 产品设计负责人 Ian Silber 对谈来源
+- [[摘要-openai-math仓库722手稿]] — 来源（math 仓库 722 篇手稿与学界反弹）
+- [[AI数学证明]] — math 事件提炼的概念
