@@ -2,8 +2,8 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md]
-last_updated: 2026-10-08
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md, raw/01-articles/同事的 Claude Code 为什么比你的强？差的就是这4步.md]
+last_updated: 2026-10-10
 ---
 
 ## 定义
@@ -206,6 +206,9 @@ Claude Code 提供基于 JavaScript 的可执行脚本编排能力，用于在�
 | Git 操作危险 | 错误的变更合并到 PR | 人工执行 Git 操作 |
 | 重写但不删除旧代码 | 新旧代码共存 | 审查 diff 确认删除 |
 
+### 四件套工程化与判断权边界（《Claude Code 实战》视角，2026-10，详见 [[摘要-claude-code四步差距]]）
+同款工具同款模型下效率差距的根源是"把工程经验外化成机制"，四件套 = [[CLAUDEmd]]（三层体系，禁止事项优先）+ [[Hooks]]（软约束变纪律，2 秒内返回，把关人非拦截器）+ [[AgentSkills]]（渐进式披露，description 决定自动触发）+ [[子Agent编排]]（任务书写全、git worktree 隔离；**单任务 >20 分钟且弱依赖才并行**，3 个子 Agent 即 3 倍 token）。工具假设对比：Copilot 假设"知道怎么写只是手速慢"、[[Cursor]] 假设"知道改哪里"、Claude Code 假设"瓶颈是把想法变成跨文件实现"——心态应是"30 秒给出 80% 可用草稿"。上下文地基：窗口如固定桌面、每轮回车整段重新打包故无跨轮记忆，污染四症状（记错/重复否定/废话/变慢）出现前两个即处理；决策树：任务完成且无关 /clear、完成且相关 /compact、死循环 /clear；跨天写 session-notes.md 快照后 /clear 重开。**判断权不能外包**：架构选型、安全评审、产品决策三类任务让 AI"梳理利弊不给推荐"，人做决定。
+
 ### 学习路线（三阶段）
 [[摘要-claude-code-learning-roadmap]] 将 Claude Code 学习拆成三层：
 - **青铜级**：完成安装、启动、项目理解、代码生成、Bug 修复等日常任务，目标是“一天上手”。
@@ -350,3 +353,4 @@ Anthropic 在 v2.1.287 推出 **Claude Mods**：用 TypeScript/JavaScript 进程
 - [[摘要-claude-code-mod-雨姐面板]] — 来源（雨姐面板六步实测）
 - [[摘要-手搓claude-code-面试]] — 12 层架构手搓 Claude Code 的面试纪实来源
 - [[摘要-claude-code-8问最狠难题怎么破]] — Skill/MCP/代码图谱八大排障来源
+- [[摘要-claude-code四步差距]] — 来源（四件套工程化与判断权边界）

@@ -2,8 +2,8 @@
 title: "CLAUDEmd"
 type: concept
 tags: [AI, 记忆, 指令系统]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md]
-last_updated: 2026-07-09
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/同事的 Claude Code 为什么比你的强？差的就是这4步.md]
+last_updated: 2026-10-10
 ---
 
 ## 定义
@@ -39,6 +39,14 @@ Codex 使用 `agents.md` 作为手动持久记忆文件，分全局级和项目�
 - 积累的错误经验越多，犯错越少
 - 可在 CLAUDE.md 中引用自建参考文档实现渐进式披露
 
+### 内容优先级：禁止事项最高（《Claude Code 实战》视角）
+来自 [[摘要-claude-code四步差距]]，补充四类内容的写作优先级：
+1. **禁止事项（投入产出比最高）**：用明确否定句式写红线，模型对"不要做什么"的遵守度显著高于模糊正面描述
+2. **历史决策记录**：为什么这么设计、当时否掉了什么方案，防止 AI 重复提议已被否决的方向
+3. **目录约定与选择性技术栈**：只写行业默认之外的差异部分
+4. **写错误信息比不写更糟**：过期/错误的指令会让 Claude 按错误规则行事，宁可留空也不写没把握的内容
+- 三层体系的四件套完整打法（CLAUDEmd/Hook/Skill/子Agent）见 [[摘要-claude-code四步差距]]
+
 ### Codex AGENTS.md 写作建议
 - **控制长度**：200 行以内，只写最核心的约束（最高优先级限制、技术栈、编码规范、开发流程）
 - **AGENTS.md 也占上下文**，写太多适得其反
@@ -60,4 +68,5 @@ Codex 使用 `agents.md` 作为手动持久记忆文件，分全局级和项目�
 - [[摘要-AI-agent工具应该怎么使用]] — 来源
 - [[摘要-codex-97percent-技巧]] — 来源（AGENTS.md 四块关键内容）
 - [[摘要-claude-code-实战防搞炸]] — 来源（程序汪实战视角）
+- [[摘要-claude-code四步差距]] — 来源（四件套与禁止事项优先原则）
 - [[auto-mode]] — 配合的权限模式
