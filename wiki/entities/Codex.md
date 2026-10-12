@@ -2,8 +2,8 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/01-articles/Codex 最新焚决发布，快！.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md]
-last_updated: 2026-09-20
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/01-articles/Codex 最新焚决发布，快！.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md]
+last_updated: 2026-10-12
 ---
 
 ## 定义
@@ -20,6 +20,10 @@ OpenAI 推出的桌面端 AI Agent 程序，正从编程 Agent 进化为"电脑�
 6. **Skill 流程沉淀**：可复用的方法、流程和工具组合
 7. **MCP 外部服务连接**：对接 NotebookLM 等外部服务
 8. **自动化定时任务**：结合 Skill 实现定点执行
+
+### 幻觉治理机制（2026-10-10，详见 [[Agent幻觉]]）
+- **apply_patch 原文匹配**：patch 对不上文件原文就报 "Failed to find expected lines"，从机制上杜绝模型凭记忆编造文件内容
+- **记忆提示词原则**：读取记忆时提示词写明 "Memory is not proof of current behavior"——记忆不能证明现状，易变且核实成本低的事实先核实再回答，未核实的不能当成当前事实
 
 ### 与 Claude Code 对比
 - Claude Code 先发了 Skill、MCP、Hook、远程操控等功能
@@ -234,6 +238,8 @@ brew install openai-codex
 - [[摘要-codex-vs-claude-code-对比]] — 来源（2026-06 vs Claude Code 对比）
 - [[摘要-codex-97percent-技巧]] — 来源（苏三 10 条实用技巧）
 - [[摘要-codex-从原理到-java落地]] — 来源（Java 工程化实践与质量边界）
+- [[摘要-agent-hallucination-governance]] — 来源（apply_patch 原文匹配与记忆提示词原则）
+- [[Agent幻觉]] — 治理机制所属的概念框架
 - [[ClaudeCode]] — 对标产品
 - [[OpenAI]] — 所属公司
 - [[Agent]] — 核心概念

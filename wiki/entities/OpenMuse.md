@@ -2,8 +2,8 @@
 title: "OpenMuse"
 type: entity
 tags: [AI-Agent, 个人Agent, 浏览器自动化, 开源]
-sources: [raw/01-articles/为什么越来越多人用OpenMuse？.md, raw/01-articles/2026-10-08 - 轻量开源版 Muse 来了！.md]
-last_updated: 2026-10-09
+sources: [raw/01-articles/为什么越来越多人用OpenMuse？.md, raw/01-articles/2026-10-08 - 轻量开源版 Muse 来了！.md, "raw/01-articles/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md"]
+last_updated: 2026-10-12
 ---
 
 ## 定义
@@ -22,8 +22,12 @@ OpenMuse 是 CopilotKit 团队于 2026 年 9 月开源的个人 AI Agent（MIT �
 - **可靠性设计**：任务每步写检查点（state.source/state.filledId），Worker 每秒扫任务表、最多并发 3 个，用 Postgres JSONB `@>` 实现 CAS 抢占，60 秒租约 + 20 秒心跳续租，续租失败即中止——与 MySQL 乐观锁同构；崩溃后租约过期自动重领任务并跳过已完成步骤
 - **安全边界**：浏览器服务防 SSRF——仅允许 80/443 公网地址、拦截 localhost/local/internal/home/lan 域名、本地代理固定校验时解析的 IP 阻断 DNS 重绑定；遥测默认全量上报（`COPILOTKIT_TELEMETRY_DISABLED=true` 关闭）、网页搜索默认走 Parallel 的 Search MCP
 - **能力差距**：浏览器只能读网页（`page.evaluate` 固定读取 body 文本），不能像 [[MetaMuse]] 那样订行程下单付款
+- **开源平替盘点视角（2026-10-09，详见 [[摘要-personal-agent-open-source-alternatives]]）**：媒体将其直接称为"最近爆火的 Meta 的 Muse 的开源平替"——支持 iOS/Android/Web 查资料、处理邮件与 PDF，在同一应用查看任务计划与执行进度；可**定期检查公开页面**，内容变化、可用状态变化或价格达到设定阈值时发出提醒；任务计划与状态持久保存，支持暂停/继续/取消，只要后端服务持续运行，关闭前端后后台工作仍继续；Alpha 阶段需自行部署并连接模型、Intelligence 和相关服务
 
 ## 关联连接
+- [[摘要-personal-agent-open-source-alternatives]] — 来源（三款 Personal Agent 开源平替盘点）
+- [[Rakazo]] — 同文的 Grok Bot 开源平替
+- [[OpenDots]] — 同文的 Dots 开源平替
 - [[摘要-openmuse-agent工位与浏览器接管]] — 来源
 - [[摘要-openmuse-轻量muse复刻]] — 来源（架构、租约/CAS 与 SSRF 防护拆解）
 - [[MetaMuse]] — 同名系个人 Agent 产品对照

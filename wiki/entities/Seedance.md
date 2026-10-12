@@ -2,8 +2,8 @@
 title: "Seedance"
 type: entity
 tags: [AI模型, 视频生成, 字节跳动]
-sources: [raw/01-articles/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/01-articles/2026-09-28-用豆包 Vibe Coding？现在真的可以了.md]
-last_updated: 2026-09-29
+sources: [raw/01-articles/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/01-articles/2026-09-28-用豆包 Vibe Coding？现在真的可以了.md, raw/01-articles/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md]
+last_updated: 2026-10-12
 ---
 
 ## 定义
@@ -15,6 +15,7 @@ Seedance 2.5 是字节跳动推出的视频生成模型，豆包工作内置，�
 - **能力**：视频生成、视频反推（从视频反推提示词）
 - **应用场景**：视频创作素材管理、视频提示词反推与复用
 - **官方资料来源**：字节跳动、Seed、火山引擎、即梦等官方渠道
+- **作为下游渲染工序（2026-10）**：[[Astra|GPT-6 Astra]] 的"AI导演"工作流中，Seedance 2.5 承担白模预演确认后的最终渲染成片环节（Higgsfield AI 一镜到底测试：Astra 在 Blender 搭白模规划运镜，再交 Seedance 2.5 渲染，缓解空间错乱/穿模）；这一"规划-渲染"分工引发行业讨论：视频模型是否会沦为通用大模型的"渲染工"、产业链价值被压低，由此催生字节等厂商的 [[视频模型全链路布局]]
 
 ## 知识冲突
 - 已有 [[Seedance]] 页面记录为"豆包工作内置视频模型"，本次摄入补充版本号 2.5 及与 2.0 的对比调研信息，无冲突，增量合并。
@@ -33,3 +34,6 @@ Seedance 2.5 是字节跳动推出的视频生成模型，豆包工作内置，�
 - [[VideoGeneration]] — AI 视频生成技术赛道
 - [[Sora]] — OpenAI 对标视频生成模型
 - [[摘要-视频模型横评H3vsSeedance]] — Seedance 2.0 fast 与 MiniMax H3 的横评来源
+- [[摘要-claude-gpt-video-seedance-moat]] — 规划-渲染分工与护城河讨论来源
+- [[Astra]] — 把 Seedance 调度为下游渲染的通用大模型
+- [[视频模型全链路布局]] — 应对跨界冲击的字节竞争策略

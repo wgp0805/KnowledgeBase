@@ -39,4 +39,5 @@ PiAgent（pi-agent）是一个 70K Star 的开源 Agent 框架，提供从 Demo 
 - [[ContextEngineering]] - 上下文工程能力
 - [[error-feedback-self-healing]] - 工具错误自愈能力
 - [[LoopEngineering]] - 循环工程方法论关联
+- [[Agent幻觉]] / [[摘要-agent-hallucination-governance]] - 文中作为治理样板的 Pi 是 Armin Ronacher 的 pi-mono（见上方区分说明），TypeBox 校验与错误回灌机制同属本框架的工程能力
 - [[pi-agent-complete-guide]] - Pi Agent 完全教程

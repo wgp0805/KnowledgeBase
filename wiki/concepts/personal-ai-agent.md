@@ -2,8 +2,8 @@
 title: "personal-ai-agent"
 type: concept
 tags: [PersonalAgent, Agent, AI产品, 个人助理]
-sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, raw/01-articles/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md, raw/01-articles/2026-10-08-关于 AI Agent、信任与决策权的 100 条.md, raw/01-articles/2026-10-08-关了电脑还在替你干活：Personal Agent的技术内核与医疗落地.md]
-last_updated: 2026-10-09
+sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, raw/01-articles/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md, raw/01-articles/2026-10-08-关于 AI Agent、信任与决策权的 100 条.md, raw/01-articles/2026-10-08-关了电脑还在替你干活：Personal Agent的技术内核与医疗落地.md, "raw/01-articles/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md", "raw/01-articles/2026-10-10-旅行成为个人 Agent 的高频场景，「豆包工作」把几十小时攻略浓缩成 PPT.md"]
+last_updated: 2026-10-12
 ---
 
 ## 定义
@@ -36,6 +36,8 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - **委托经济学与信任架构（2026-10-08，详见 [[摘要-agent信任与决策权100条]]）**：从 Answer→Action 的转变看赛道，商业模式争的是早已存在的分发费（旅行分发费只是冰山一角），免费→信任→委托→交易抽成；衡量指标从日活换成**权限深度、委托钱包份额、委托 GMV**；信任三重结构（能力/立场/程序）+ 代理人宪法（最小权限、额度隔离、双确认、审计）；授权按最大损失/可逆性/外部性三轴分档；美国难在服务集成、中国难在调用权限（超级生态已存在，争的是通行证，可能走交易原生路线）；终局判断：两三个委托入口 + 大量执行层，成熟产品需个人上下文、判断与信任、服务图谱、交易经济**四种资产相乘**
 
 - **技术三支柱与医疗试金石（2026-10-08，详见 [[摘要-personal-agent-技术内核与医疗落地]]）**：支撑该品类的三根技术支柱——**分层记忆**（工作/长期/技能记忆，须记忆隔离、删除即清除）、**MCP 协议**（Agent 世界的 USB，按场景动态加载而非堆插件）、**权限分级**（只读默认允许/低风险可自动/高风险必须确认 + Auto-review）；医疗场景加一条"谁签字谁负责"（AI 只写草稿不诊断不开处方）；四款对比：[[Dots]] 云端全能但无 HIPAA、[[GeminiSpark]] 谷歌生态生活调度、[[ClaudeCowork]] 本地虚拟机文档专家、[[DAXCopilot]] 垂直临床（每次接诊省 5 分钟）；演进四阶段：对话式助手→单点执行→后台常驻→多 Agent 数字共生，本质让渡的不是决策权而是注意力
+
+- **开源平替与旅行高频场景（2026-10-09/10，详见 [[摘要-personal-agent-open-source-alternatives]]、[[摘要-doubao-work-travel-ppt]]）**：三款爆火 Personal Agent 出现 GitHub 开源平替——[[Rakazo]]（对 Grok Bot，多 Bot 分工、模型与电脑环境自选、可本地/服务器常驻）、[[OpenMuse]]（对 Muse，CopilotKit 出品，持久浏览器+定期监控页面价格阈值提醒）、[[OpenDots]]（对 Dots，多专业助手+Space/Page 草稿审核工作流），共同点是自托管、后台常驻、执行环境可配置；旅行被实测验证为高频场景——klook 调查超七成规划者规划一次旅行花 10 小时以上，Meta 把预订旅行列为 Muse 代表用途，[[Instinct]] 创始人 [[NoahShinn]] 称旅行约占平台交易额一半，「豆包工作」用 Skill 录制 + 三 Agent 并行把几十小时攻略浓缩成 20 页行程 PPT
 
 ## 关联连接
 - [[摘要-meta-muse-个人ai助理体验]] — 来源（Muse 评测）
@@ -80,3 +82,7 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - [[DAXCopilot]] — 垂直医疗落地最成功的案例
 - [[MCP协议]] — 三支柱之一
 - [[多层记忆]] — 分层记忆支柱
+- [[摘要-personal-agent-open-source-alternatives]] — 来源（Rakazo/OpenMuse/OpenDots 开源平替）
+- [[摘要-doubao-work-travel-ppt]] — 来源（旅行高频场景与豆包工作实测）
+- [[Rakazo]] — Grok Bot 的开源平替
+- [[OpenDots]] — Dots 的开源平替

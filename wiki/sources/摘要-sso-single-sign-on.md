@@ -10,6 +10,7 @@ last_updated: 2026-07-16
 介绍企业多系统环境下的身份认证演进，从传统 Session/Cookie 机制到分布式 Session 共享，再到 SSO 单点登录（CAS 协议）的完整实现原理。文章通过 CAS 协议的 Demo 代码演示了票据（ticket）验证流程，并对比了 CAS 与 OAuth2 在安全边界上的本质区别：CAS 保障客户端资源安全，OAuth2 保障服务端资源安全。
 
 ## 关联连接
+- [[摘要-multi-account-unified-login]] — 同主题补充：多账号统一登录的账号表设计与一键登录方案
 - [[CAS协议]] — 中央认证服务框架，实现 SSO 的底层原理
 - [[SSO]] — 单点登录概念
 - [[Session]] — 传统会话管理机制
