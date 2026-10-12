@@ -2838,3 +2838,53 @@
 
 ### Concepts
 - [[Java与Python分工]] — Java 与 Python 的分工不是替代关系，骨架/大脑模型与三诉求决策表
+
+## 2026-10-12 ingest（17 篇新增）
+
+### Sources
+- [[摘要-workbuddy-15技能推荐-10月]] — 程序员小灰 10 月版 WorkBuddy 15 技能推荐：五方向全新清单，与 9 月版不重叠
+- [[摘要-workbuddy文件浏览器人机双写实测]] — 三哥实测 WorkBuddy 文件浏览器：右键打开本地文件、AI 改完自动存回，一套产品两种形态
+- [[摘要-生图skill字典化]] — 两个开源生图 Skill 用"编号字典"与"原子模块"两条路线解决画风漂移与版式难控
+- [[摘要-data-inspector数据分析skill]] — 冰河自写只读数据分析 Skill：纯文本操作手册 + 六步流程 + 三道红线，重复 SQL 核对安全外包给 AI
+- [[摘要-personal-agent-open-source-alternatives]] — Rakazo/OpenMuse/OpenDots 三款 Personal Agent 的 GitHub 开源平替盘点
+- [[摘要-agent-hallucination-governance]] — Agent 幻觉的五类分类与"真实环境核对+错误回灌"治理方法
+- [[摘要-doubao-work-travel-ppt]] — 豆包工作用 Skill 录制+三 Agent 并行把几十小时旅行攻略浓缩成 20 页 PPT
+- [[摘要-doubao-work-replace-20-apps]] — 一个月实测 20 个场景，一个输入框替代手机 20+ 单功能 App
+- [[摘要-pm-finding-real-requirements]] — 合同审批案例拆解：把模糊功能诉求翻译成风险分级、权限边界与责任追溯的可执行规则
+- [[摘要-ai-product-experience-evaluation]] — 论证 AI 体验评测的必要性：技术评测不可替代，互联网框架不能照搬
+- [[摘要-claude-gpt-video-seedance-moat]] — Claude/GPT 跨界做视频的两条路线与专业视频模型的全链路护城河应对
+- [[摘要-openai-mathematician-anxiety]] — 722 份数学手稿后数学家的职业焦虑：研究计划作废、提前交卷困境与探索价值之问
+- [[摘要-quarkus-cloud-native]] — 拆解 Quarkus 以构建期处理解决 Java 在云原生环境启动慢、内存大、预热久三重困境的原因与性能数据
+- [[摘要-ai-voice-input-8-apps]] — 八款 AI 语音输入法横评：千问准确率登顶、OpenLess 开源可配，"忠实记录 vs 理解重写"两条路线与三件套方案
+- [[摘要-os-thread-scheduler-runtime]] — 从 Java Thread/Goroutine/CPython Thread 三案例解析执行单元经 Runtime 与 OS 两级调度在 CPU 执行的共同机制
+- [[摘要-multi-account-unified-login]] — 多账号统一登录的账号表设计演进（用户表+授权表一对多）与运营商一键登录方案
+- 说明：《2026-10-08 服务器被入侵怎么办》与既有 [[摘要-服务器入侵应急处置]] 为同一篇文章，已增量合并，未新建重复页
+
+### Entities
+- [[Waza]] — tw93 开源的工程习惯技能集（/think、/hunt 等 8 个子技能）
+- [[UIUXProMax]] — 一句话生成整套设计系统的设计 Skill
+- [[HandrawStyle]] — 324 风格 / 161 图型 / 36 主题色的编号化手绘生图字典
+- [[AwesomeGptImage2]] — 3.4 万 Star 的 Prompt as Code 生图工程库
+- [[DataInspector]] — 冰河的只读数据核对 Skill（含完整 SKILL.md 要点）
+- [[Rakazo]] — Grok Bot 的开源平替（多 Bot 分工、模型/电脑环境自选）
+- [[OpenDots]] — OpenAI Dots 的开源平替（CopilotKit/AG-UI 多助手工作台）
+- [[剪映]] — 字节跳动剪辑产品，剪映Hub/剪映助手构成生态入口
+- [[Quarkus]] — 面向 Kubernetes 的 Java 云原生框架，构建期处理 + Native Image
+- [[OpenLess]] — 开源本地优先 AI 语音输入工具（MIT，模型/风格/词典可配）
+- [[千问输入法]] — 阿里通义千问产品线 AI 语音输入法，横评准确率冠军
+
+### Concepts
+- [[生图提示词结构化]] — 编号字典 vs 原子模块两条互补路径的生图控制方法论
+- [[Skill安全红线]] — "红线先行、流程在后、环境兜底"的 Skill 安全设计方法论
+- [[Agent幻觉]] — 五类分类（推理/执行/感知/记忆/通信）+ 真实环境核对、错误回灌等治理方法论
+- [[意图驱动软件]] — "功能退居幕后，意图走向台前"，一个输入框收敛单功能 App
+- [[浏览器录制回放]] — 示范一次→Agent 识别步骤→复用方法的 Skill 方法论
+- [[需求翻译方法论]] — 功能诉求→业务规则的四步翻译框架
+- [[AI体验评测]] — 面向真实用户的体系化体验评测及其与技术评测的分工
+- [[视频模型全链路布局]] — 字节/MiniMax/快手向上游延伸加固护城河的竞争策略
+- [[AI对学术职业的冲击]] — 自动化工具对成熟专业领域职业节奏的普遍冲击
+- [[构建期处理]] — 把扫描/解析/代理生成前移到构建阶段的框架架构模式
+- [[G-M-P调度]] — Go Runtime 用户态两级调度模型
+- [[GIL]] — CPython 全局解释器锁（执行约束而非第二套调度器）
+- [[一键登录]] — 运营商本机号码认证登录
+- [[统一账号体系]] — 用户基础信息表 + 用户授权信息表一对多账号模型
