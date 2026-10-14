@@ -92,6 +92,13 @@ Claude Code 的权限系统基于**模式路由**而非条件判断。从源码�
 2. **Auto Memory**（第二优先级，按需注入）：后台 agent 记录 user/feedback/project/reference 四类
 3. **自建参考文档**（渐进式披露）：按需加载的领域文档
 
+### 作为 Agent Memory 的标杆实现（2026-10-13，详见 [[摘要-一文搞懂agent-memory]]）
+Claude Code 被列为三条记忆工程路线中"文件系统记忆"的代表，与 [[MemGPT]]/[[Letta]]（Agent 自主管理）和 [[Mem0]]（自动化记忆服务）并列：
+- **CLAUDE.md 持久化指令**：`~/.claude/CLAUDE.md` 为用户级指令，项目根目录 CLAUDE.md 为项目级规范，保存技术栈、代码规范与开发约定
+- **Auto Memory 自动积累**：把部分经验与知识保存到独立 Markdown 文件，并用 `MEMORY.md` 作为索引；会话开始时加载索引中的部分内容，详细记忆按需读取
+- **优势**：透明（用户可直接阅读）、简单（不必引入复杂数据库）、易于编辑维护、与开发者文件系统工作流契合
+- **局限**：记忆数量大、关系复杂时，纯文件组织会遇到检索效率与维护成本问题
+
 ### 高级扩展
 - **Skill**：技能包，四类（领域知识/工作流/工具组合/最佳实践）
   - Thariq 的 9 类分类法：知识、验证、数据访问、自动化、脚手架、代码审查、部署、调试、运维
@@ -282,6 +289,10 @@ Anthropic 在 v2.1.287 推出 **Claude Mods**：用 TypeScript/JavaScript 进程
 - [[摘要-6条Claude-Code实践经验与思考]] — 来源
 - [[摘要-中美头部agent走向开放]] — 来源（开放 Agent SDK）
 - [[摘要-agent-hallucination-governance]] — 来源（幻觉治理：压缩重读、Stop hook、Sub-agent 审查）
+- [[摘要-一文搞懂agent-memory]] — 来源（作为"文件系统记忆"路线标杆）
+- [[AgentMemory]] — 上位概念
+- [[MemGPT]] / [[Letta]] — Agent 自主管理路线对照
+- [[Mem0]] — 自动化记忆服务路线对照
 - [[Agent幻觉]] — 治理机制所属的概念框架
 - [[Codex]] — 对标产品
 - [[Anthropic]] — 所属公司
@@ -349,7 +360,7 @@ Anthropic 在 v2.1.287 推出 **Claude Mods**：用 TypeScript/JavaScript 进程
 - [[码哥字节]] — 三篇文章作者
 - [[摘要-claude-code-mcp-unity游戏]] — 来源（Skill 与 MCP 上下文开销权衡、Unity 实战）
 - [[UnityMCP]] — 该实战使用的 MCP 服务器
-- [[摘要-clawgod解锁claude-code]] — 来源（第三方解锁补丁 ClawGod）
+- [[摘要-clawgod解锁claude-code]] — 来源（第三方解锁补丁）
 - [[ClawGod]] — 修改本地客户端的开源补丁
 - [[摘要-claude-code-mods机制]] — 来源（Mods 机制与四扩展选型）
 - [[Mods]] — v2.1.287 新增的进程内事件扩展机制

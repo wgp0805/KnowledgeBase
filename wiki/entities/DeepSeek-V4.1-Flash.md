@@ -2,8 +2,8 @@
 title: "DeepSeek V4.1-Flash"
 type: entity
 tags: [DeepSeek, V4.1-Flash, 国产模型, Harness]
-sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md]
-last_updated: 2026-09-17
+sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md]
+last_updated: 2026-10-13
 ---
 
 ## 定义
@@ -42,6 +42,13 @@ DeepSeek 技术文件核心观点：
 ## 关键启示
 **如果你觉得某个模型不太好，或许可以换一个 Harness。** Harness 选择直接影响交付质量、Token 消耗、耗时、辅助使用友好度。
 
+### 桌面客户端接入实证（2026-10-12，详见 [[摘要-electron41-vite8-deepseek桌面ai]]）
+第三方开发者用 [[Electron]] 41 + [[Vite]] 8 + Vue 3 + OpenAI SDK 直接接入该模型做桌面 AI 对话客户端，说明其**接入门槛低到普通前端项目即可承载**：
+- 通过 OpenAI 兼容端点 + `stream: true` 即可获得 SSE 流式输出，首字延迟 < 100ms
+- `thinking: { type: 'enabled' | 'disabled' }` 开关控制深度思考；`reasoning_content` 字段返回思维链，可做可折叠推理面板
+- `temperature` 0.4 偏确定性；未设 `max_tokens` 时非思考模式默认 8K、思考模式 64K
+- 该项目已作为"桌面 AI 流式会话模板"对外售卖，反映该模型在个人开发者中的普及度
+
 ## 关联连接
 - [[摘要-deepseek-v4-1-flash-harness横评]] — 来源
 - [[DeepSeek-V4]] — V4 系列
@@ -54,3 +61,7 @@ DeepSeek 技术文件核心观点：
 - [[Harness差异化]] — 概念页
 - [[TokenEfficiency]] — 概念
 - [[老章]] — 文章作者
+- [[摘要-electron41-vite8-deepseek桌面ai]] — 来源（桌面客户端接入实证）
+- [[Electron]] — 桌面客户端载体
+- [[Vite]] — 构建工具
+- [[SSE流式输出]] — 接入后的核心技术机制

@@ -40,7 +40,7 @@ XXL-JOB从 [v3.1.0版本正式引入了](http://v3.1.xn--0-ov6au5g0vv4a114i29gnz
 
 最近建了几个AI技术交流群，扫描加我微信，备注：AI，即可进群交流和学习，获取AI最新咨询。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibJZVicC7nz5jN7lz3xCSbNeNj4yNXMvNX12Fgwkvnuibx4wj2uF89ehibUGMOT4DPHibO5dg44kXwBickPvORaQ8JGA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=0)
+![图片](assets/xxl-job%E5%B7%B2%E6%AD%A3%E5%BC%8F%E6%8E%A5%E5%85%A5AI/120fc0032d790118e773ec1a67b88378_MD5.webp)
 
 ## 一、XXL-JOB的AI执行器到底是什么？
 
@@ -66,7 +66,7 @@ XXL-JOB从 [v3.1.0版本正式引入了](http://v3.1.xn--0-ov6au5g0vv4a114i29gnz
 
 ## 二、XXL-JOB AI执行器的架构
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0rdoqtP3N3ibibwyMQDJL4l8H36PMFr0qslKnbs3ciaxVkJASG3xrSBFPab2Q8zxPSTo9oAG9eQzZ26lvmr8Bf65vwr4FaXlicko5z4/640?wx_fmt=webp&from=appmsg#imgIndex=1)
+![图片](assets/xxl-job%E5%B7%B2%E6%AD%A3%E5%BC%8F%E6%8E%A5%E5%85%A5AI/2ed78623c23ac869d3345e38c5e9e7e2_MD5.jpg)
 
 **关键理解** ：调度中心不关心你执行的是AI任务还是普通任务。
 

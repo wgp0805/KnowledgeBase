@@ -2,8 +2,8 @@
 title: "Ollama"
 type: entity
 tags: [LLM, 本地部署, AI工具]
-sources: [raw/09-archive/SpringAI.md, raw/09-archive/Ollama+DeepSeek本地部署（新人必看）.md]
-last_updated: 2026-06-09
+sources: [raw/09-archive/SpringAI.md, raw/09-archive/Ollama+DeepSeek本地部署（新人必看）.md, raw/01-articles/xxl-job已正式接入AI.md]
+last_updated: 2026-10-13
 ---
 
 ## 定义
@@ -32,6 +32,9 @@ Ollama 是一款用于本地化部署和管理大型语言模型的工具，支�
 - LangChain 集成：`OllamaEmbeddings(model="qwen3-embedding:0.6b", dimensions=1024)`，可选维度压缩节省存储
 - qwen3-embedding:0.6b 是小模型中效果较好的一个，HuggingFace/Ollama 均支持部署（见 [[Embeddings]]）
 
+### 被 XXL-JOB AI 执行器封装为定时任务（2026-10-13，详见 [[摘要-xxl-job接入ai]]）
+`ollamaJobHandler` 把 Ollama 调用标准化为 Bean 模式任务 Handler，`prompt` 与 `input` 从任务参数动态获取——同一个执行器可跑不同 AI 任务，只需在调度中心改任务参数。适合"每天定时跑一次本地模型分析"这类**定时触发、同步执行、结果记录**的标准化 AI 任务。
+
 ## 关联连接
 - [[SpringAI]] — Spring AI 集成
 - [[DeepSeek]] — 支持的模型
@@ -41,3 +44,5 @@ Ollama 是一款用于本地化部署和管理大型语言模型的工具，支�
 - [[摘要-Ollama+DeepSeek本地部署]] — 来源
 - [[摘要-langchain-rag构建知识库-理论]] — Embeddings 来源
 - [[大模型部署框架对比与选型]] — 将 Ollama 归入推理引擎层的部署选型综述
+- [[XXL-JOB]] — 通过 AI 执行器把 Ollama 调用封装为定时任务
+- [[AI执行器]] — 封装机制

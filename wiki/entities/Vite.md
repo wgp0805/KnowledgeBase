@@ -2,8 +2,8 @@
 title: "Vite"
 type: entity
 tags: [前端构建, 开发服务器, ES模块, React]
-sources: [raw/01-articles/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md]
-last_updated: 2026-08-21
+sources: [raw/01-articles/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md]
+last_updated: 2026-10-13
 ---
 
 ## 定义
@@ -14,6 +14,7 @@ last_updated: 2026-08-21
 - 通过环境变量（如 `VITE_DEMO_MODE`）控制前端行为，`main.tsx` 中动态导入 Demo 模块
 - 生产构建输出静态文件，由 [[Nginx]] 提供服务
 - 开发与生产的差异由代理层吸收，React 页面无需维护两套后端地址
+- **桌面 AI 客户端中的用法（2026-10-12，详见 [[摘要-electron41-vite8-deepseek桌面ai]]）**：Vite 8.3 + Vue 3 `<script setup>` 作为 [[Electron]] 渲染层，配合 Arco Design 组件库与 Pinia 管理主题/会话状态；布局采用 Titlebar + Sidebar + router-view + keep-alive 的桌面三段式
 
 ## 关联连接
 - [[摘要-renopit-demo-healthcheck-docker]] — 来源
@@ -21,3 +22,4 @@ last_updated: 2026-08-21
 - [[React]] — 配合的前端框架
 - [[Nginx]] — 生产环境对应物
 - [[DemoMode]] — Vite 环境变量驱动的模式
+- [[摘要-electron41-vite8-deepseek桌面ai]] — 来源（Vite 8 桌面 AI 客户端）
