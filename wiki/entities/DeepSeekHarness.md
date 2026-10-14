@@ -18,7 +18,8 @@ sources:
   - raw/01-articles/2026-10-05-我一行代码没写，DeepSeek Harness 自己组队给我造了个错题本插件.md
   - raw/01-articles/2026-10-05-万字拆解 DeepSeek Harness 桌面版：产品设计、任务实测与能力边界.md
   - raw/01-articles/2026-10-12-DeepSeek Harness 插件生态解析 - 我才是银古.md
-last_updated: 2026-10-13
+  - raw/01-articles/REA 保姆级教程：DeepSeek Harness 实操.md
+last_updated: 2026-10-14
 ---
 
 ## 定义
