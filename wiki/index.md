@@ -2931,3 +2931,37 @@
 
 ### 更新
 - [[MySQL]]、[[Electron]]、[[Vite]]、[[DeepSeek-V4.1-Flash]]、[[OpenAI]]、[[ChatGPT]]、[[ClaudeCode]]、[[Mem0]]、[[WorkBuddy]]、[[DeepSeekHarness]]、[[XXL-JOB]]、[[Ollama]]、[[Dify]]、[[AgentMemory]]、[[个人工作台]]
+
+## Sources (2026-10-14 新增)
+- [[摘要-github开源ai宝典6本]] — 逛逛GitHub 盘点 6 本 GitHub 开源中文 AI 教材（深入理解AI Agent 4.9万Star/AI Infra/蒲公英书/强化学习数学原理/Agentic设计模式中文版/Hands-On Modern RL）
+- [[摘要-蚂蚁灵光内测新版personal-agent]] — 蚂蚁灵光新版内测：每用户 24h Linux 云电脑 + 长期记忆 + 长程任务托管，Personal Agent 进入稳步爬升期
+- [[摘要-红绿灯提示语]] — 不到 300 字的绿黄红进度提示语，治 Agent 刹不住车浪费 token 的老毛病
+- [[摘要-workbuddy自动签到云端]] — refresh_token + 金山文档 AirScript 云端定时签到，不开机也 7×24 领 100 积分/天
+- [[摘要-mqtt生产实战开篇]] — 8 年 MQTT 四大选型理由、六大生产坑与六阶段学习路线，MCP over MQTT 新趋势
+
+## Entities (2026-10-14 新增)
+- [[深入理解AIAgent]] — 博杰开源的 AI Agent 教材（4.9万Star），核心公式 Agent = LLM + 上下文 + 工具
+- [[AgenticDesignPatterns]] — 谷歌工程师所著 21 个 Agent 设计模式，xindoo 中文译本（8K Star）
+- [[IT规划师]] — 博客园作者，8 年 .NET 物联网后端，MQTT 生产实战系列创作者
+- [[MQTTnet]] — .NET 生态主流 MQTT 客户端/服务器开源库
+- [[EMQX]] — 大规模分布式 MQTT Broker，生产选型候选
+- [[Mosquitto]] — 轻量级开源 MQTT Broker，本地实验环境首选
+- [[金山文档]] — 在线协作文档平台，被用作免费云端脚本运行环境（AirScript）
+- [[晓庄AI创业笔记]] — 微信公众号作者，WorkBuddy 自动签到系列教程创作者
+- [[GoodCaseAI]] — 卡尔的AI沃茨的 AI 提示语案例库，1700+ 案例三模型校准评估
+
+## Concepts (2026-10-14 新增)
+- [[云电脑]] — Personal Agent 每用户 24h 云端运行的独立 Linux 机器，Agent"你不在也在跑"的物理载体
+- [[Agent基础设施]] — Personal Agent 公式中间层：浏览器/电脑/邮箱/飞书/MCP/CLI/Skill 等连接件
+- [[Gartner曲线]] — 技术成熟度曲线，用于判断 Personal Agent 从期望膨胀期进入稳步爬升期
+- [[QoS]] — MQTT 三档消息质量等级（至多一次/至少一次/只有一次），控制指令必须 QoS1+幂等
+- [[遗嘱消息]] — MQTT LWT 机制，客户端异常掉线时 Broker 代发遗嘱通知
+- [[CleanSession]] — MQTT 会话保持标志，频繁断网设备须 false + 订阅恢复逻辑
+- [[KeepAlive]] — MQTT 心跳保活，Broker 1.5 倍间隔无报文判离线，配置不当致"假在线"
+- [[红绿灯提示语]] — 绿/黄/红三态进度汇报提示语，给 Agent 能力装制动装置
+- [[AirScript]] — 金山文档云端脚本+定时任务能力，零成本免服务器的自动化运行时
+- [[AIInfra]] — 大模型算力账方法论：逐项估计算量/显存/带宽/功耗再推导系统设计
+- [[强化学习]] — 状态→动作→奖励试错学习范式，LLM 后训练（RLHF/GRPO）的学科基础，两本开源教材盘点
+
+## 更新 (2026-10-14)
+- [[蚂蚁灵光]]（+新版 Personal Agent 内测：云电脑架构/接管 Agent 实测/增长纪录/赛道判断）、[[personal-ai-agent]]（+灵光新版、Personal Agent 公式、Gartner 阶段判断）、[[WorkBuddy]]（+Buddy 加油站签到机制/AirScript 云端签到方案/接口逆向细节）、[[卡尔的AI沃茨]]（+红绿灯提示语/GoodCase.ai）、[[逛逛GitHub]]（+六本开源 AI 教材）、[[MQTT协议]]（+四大选型理由/六大生产坑/MCP over MQTT）、[[Harness]]（+"模型之外的工程能力才是竞争力"教材论断）

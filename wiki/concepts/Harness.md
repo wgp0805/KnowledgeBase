@@ -6,7 +6,8 @@ sources:
   - raw/09-archive/DeepSeek员工：Harness开始内测，有plugin、skill、MCP、Agent开源项目者优先，并赠送API额度（附Agent面试题）.md
   - raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md
   - raw/01-articles/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md
-last_updated: 2026-09-08
+  - raw/01-articles/2026-10-13-这 6 本 GitHub 上的开源 AI 宝典，那是相当有真东西。.md
+last_updated: 2026-10-14
 ---
 
 ## 定义
@@ -46,6 +47,9 @@ Harness 是指 AI Agent 中模型之外的一切基础设施层，包括工具�
 - **更多 Harness 会出现**：它是建立在模型之上的用户体验，让不拥有模型的开发者能够拥有用户关系
 - 模型变强后，系统提示词里塞进的大量杂物反而可能拖累表现；Anthropic 曾展示删掉部分系统提示词内容后模型矛盾变少、表现更好
 
+### 开源教材论断：Harness 才是竞争力（2026-10）
+《深入理解 AI Agent：设计原理与工程实践》（4.9 万 Star 开源教材，详见 [[深入理解AIAgent]]）全书围绕 **Agent = LLM + 上下文 + 工具** 展开，核心立场是**模型之外的工程能力 Harness 才是竞争力所在**——上下文工程、记忆、Tool、多 Agent 协作等 Harness 能力被提升到与模型并列的位置（来源：[[摘要-github开源ai宝典6本]]）。
+
 ## 关联连接
 - [[DeepSeekHarness]] — DeepSeek 原生 Harness 实现
 - [[PaiCLI]] — 开源终端 Agent Harness 实现
@@ -62,3 +66,5 @@ Harness 是指 AI Agent 中模型之外的一切基础设施层，包括工具�
 - [[OpenRouter]] — CEO 对谈来源平台
 - [[HarnessEngineering]] — Harness 工程实践
 - [[harness-architecture-comparison]] — Harness 架构分类与 Agent 选型综合对比
+- [[深入理解AIAgent]] — 4.9 万 Star 开源教材（Agent = LLM + 上下文 + 工具）
+- [[摘要-github开源ai宝典6本]] — 教材推荐来源

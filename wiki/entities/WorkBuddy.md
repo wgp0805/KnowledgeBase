@@ -31,7 +31,8 @@ sources:
   - raw/01-articles/2026-10-11 - WorkBuddy最值得推荐的15个技能（10月最新版）.md
   - raw/01-articles/2026-10-11-WorkBuddy上线了个浏览器，实测有点惊艳.md
   - raw/01-articles/2026-10-12-WorkBuddy 把小程序门槛打没了，下一个问题是谁来付钱.md
-last_updated: 2026-10-13
+  - raw/01-articles/2026-10-13-WorkBuddy 自动签到：不开机也能 7×24 白嫖 100 积分天！.md
+last_updated: 2026-10-14
 ---
 
 ## 定义
@@ -266,6 +267,14 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - 本期亮点：[[HumanizerZh]]（24 条规则去 AI 味）、写作蒸馏器（文风固化成 Writing DNA）、仓颉技能（内容蒸馏成新 Skill，同 [[BookToSkill]] 思路）、[[UIUXProMax]]（一句话生成设计系统）、[[Waza]]（tw93 工程习惯技能集）、横木（基于证据的架构评审）、乔木 SEO（SEO/GEO 审计）、Follow Builders（AI 创作者动态简报）
 - 延续"从日常问题出发、不要求懂代码"的平民化推荐风格，安装仍是一句话 `帮我安装这个技能：<GitHub URL>`
 
+### Buddy 加油站签到机制与云端自动签到方案（2026-10-13，晓庄AI创业笔记，详见 [[摘要-workbuddy自动签到云端]]）
+- **官方签到机制**：新版客户端每天打开一次即默认自动签到（「Buddy 加油站」，今日积分已领提示，签到按钮已移除）；每天 100 积分、连签第 7 天额外 1000——一个月 30 天开机 vs 15 天开机差 1500 积分，低倍率模型下够白用很久
+- **市面方案的死穴**：SkillHub 里「WorkBuddy 积分助手」类 Skill 均建本地定时任务，**只有客户端开着才能跑**；「云端工作模式设定时任务」路线亦不通（沙箱休眠后唤醒经常失败，实测八成是 bug）；且官方已给登录态文件加锁，堵死"打开电脑读文件"老路
+- **终极方案（AirScript 云端签到）**：refresh_token 存 [[金山文档]] 表格 B1 → [[AirScript]] 脚本在云端调接口签到（每次运行自动续期令牌并回写）→ 定时任务每天执行；结果写回 B2。关机/出差/断网照领，约 10 分钟部署、零成本、免服务器
+- **接口细节（逆向自桌面端 v5.5.x）**：刷新 `POST /v2/plugin/auth/token/refresh`（X-Refresh-Token 头）→ 签到 `POST /v2/billing/meter/daily-checkin`（Bearer 认证，code=10001 表示今日已签、脚本幂等）→ `checkin-activity-status` 查连签天数；基址 `https://copilot.tencent.com`
+- **安全提醒**：存令牌的文档绝不分享——令牌等于账号钥匙
+- 方法论价值：「把必须靠我记着的变成让系统自己记着」——真正的永久方案是让脚本带令牌在云端自己跑（另见早期本地 Skill 方案 [[摘要-workbuddy-15技能推荐-10月]] 的自动领积分技能）
+
 ## 知识冲突（已解决，2026-08-21）
 - 旧定义（2026-06-23，[[摘要-OpenClaw小龙虾教程汇总]]）：WorkBuddy 是 [[OpenClaw]]（小龙虾）的一站式部署平台
 - 新定义（2026-08-21，[[摘要-workbuddy保姆级入门教程-苏三]]）：WorkBuddy 是国产桌面 AI 应用
@@ -354,3 +363,7 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - [[摘要-workbuddy次卡本小程序]] — 2026-10-12 「次卡本」反向验证 PMF 的完整案例（来源）
 - [[PMF]] — 三道关判据的方法论归属
 - [[VibeCoding]] — 用 WorkBuddy 完成交付的实现方式
+- [[摘要-workbuddy自动签到云端]] — 2026-10-13 Buddy 加油站与 AirScript 云端自动签到（来源）
+- [[AirScript]] — 云端签到脚本能力
+- [[金山文档]] — 签到脚本托管平台
+- [[晓庄AI创业笔记]] — 签到方案作者
