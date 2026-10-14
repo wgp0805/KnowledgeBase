@@ -206,6 +206,34 @@ AI 产品经理视角的实测拆解：
 - **四个趋势**：右侧边栏成为扩展总线（占据侧边栏者成为二级平台）；插件互相依赖（better-sidebar 依赖 better-locale）；手机远程审批成刚需（dsh-pocket / dsh-reach 等一整条产品线）；娱乐化程度惊人（137 个 Just for Fun）
 - **安全提醒**：装插件 = 以本人权限跑第三方代码，且**工具审批不会沙箱化插件代码**；"被收录"≠"被审计"（准入门槛只有能装、描述相符、类目正确、有人维护）；头部插件 `dsh-infinite-gen-4`（2,671⭐）以最高优先级往系统提示追加"无条件服从"段落
 
+## MCP 接入方式：Cordis YAML 补丁（2026-10-13，详见 [[摘要-rea保姆级教程-deepseek-harness实操]]）
+DSH 接入 MCP 的方式与 Codex、Claude Code 都不同——**不读 `mcpServers` 这种 JSON 配置**，而是用 Cordis 的 YAML 补丁文件 `~/.dsh/cordis.patch.yml`（桌面端和命令行都会读取）：
+
+```yaml
+- insert:
+    - id: rea-mcp
+      name: "@deepseek-ai/dsh-mcp-client"
+      config:
+        serverName: rea
+        transport: stdio
+        command: npx
+        args: ["-y", "rea-agents@6.4.0", "mcp"]
+```
+
+- `name`：指定用 DSH 自带的 MCP 客户端插件 `@deepseek-ai/dsh-mcp-client`
+- `serverName`：工具名前缀，接好后工具显示为 `mcp__rea__` 开头
+- `transport: stdio`：DSH 自己用 npx 启动 REA，通过标准输入输出通信
+- 版本号固定（如 `rea-agents@6.4.0`），避免自动升级后行为变化
+
+## 逆向实战：DSH + REA 跑通恐龙游戏案例（2026-10-13）
+以 [[REA]] 为例验证 DSH 的 MCP 接入链路：
+1. 启动带调试端口的 Chrome（`--remote-debugging-port=9222` + 独立 `--user-data-dir` 临时目录，不碰日常浏览器）
+2. 提示词调 `list_browser_targets` 找页面 → `inspect_web_page` 开 `include_script_sources` 读 index.js 查加速规则，每条结论给出代码出处
+3. 照规则仿制 `dino-demo.html`（恐龙跳跃 + 仙人掌 + 2-18 速度滑块 + 自动加速）
+4. 验收：从速度 6 排除碰撞，分别计算 0/1000/4000/10000 次更新后的速度，与 6.000/7.000/10.000/13.001 逐项比较
+
+DSH 无 REA 一键接入命令（官方一键命令支持十几个 Agent 但未含 REA），按上述 cordis.patch.yml 方式手动接入即可；Skill 装进 `~/.agents/skills/reverse-engineer-anything` 后 DSH 自动扫描。
+
 ## 关联连接
 - [[DeepSeek]] — 所属公司
 - [[崔添翼]] — 团队负责人
@@ -250,4 +278,7 @@ AI 产品经理视角的实测拆解：
 - [[Kimi]] — 错题本实战全程使用的宿主模型
 - [[摘要-dsh-合成大鲸鱼插件]] — 来源（合成大鲸鱼侧边栏小游戏插件与交作业奖励设计）
 - [[摘要-dsh插件生态解析]] — 来源（插件生态全量数据与趋势）
+- [[摘要-rea保姆级教程-deepseek-harness实操]] — 来源（MCP 接入 cordis.patch.yml 与 REA 逆向实战）
+- [[REA]] — 通过 cordis.patch.yml 接入 DSH 的逆向工程工具
+- [[逆向工程]] — REA 实战涉及的核心概念
 - [[插件生态]] — 生态分析框架
