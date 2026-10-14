@@ -1881,3 +1881,8 @@
 - **合并**: 增量更新 [[ClaudeCode]]（四件套工程化与判断权边界小节）、[[CLAUDEmd]]（禁止事项优先原则小节）、[[苏三]]（Java转Python来源）、[[NginxPulse]]（ip2region 双链）
 - **冲突**: 无
 - **归档**: 3 个源文件已移动到 raw/09-archive/
+
+## [2026-10-14] ingest | 摄入 REA 保姆级教程：DeepSeek Harness 实操（沉默王二）
+- **变更**: 新增 Sources (1): [[摘要-rea保姆级教程-deepseek-harness实操]]; 新增 Entities (1): [[REA]]; 新增 Concepts (1): [[逆向工程]]; 增量合并既有页 (3): [[DeepSeekHarness]]（+MCP 接入方式：cordis.patch.yml YAML 补丁 vs mcpServers JSON 差异、+DSH 跑通 REA 恐龙游戏逆向实战）, [[MCP协议]]（+不同 Harness 的 MCP 配置格式差异与 REA 170 工具规模案例）, [[沉默王二]]（+REA 教程来源）; 更新 [[index.md]]（Sources +1 / Entities +1 / Concepts +1 / 更新 3 页）
+- **冲突**: 无 — REA 为全新实体，DeepSeekHarness 的 MCP 接入（cordis.patch.yml）与既有 [[Cordis]] 页记录的补丁分层机制互相印证（用户 patch 层即 ~/.dsh/cordis.patch.yml），未产生矛盾
+- **归档**: 1 个源文件（REA 保姆级教程：DeepSeek Harness 实操.md）已移动至 raw/09-archive/

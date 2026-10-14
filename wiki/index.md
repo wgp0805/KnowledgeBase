@@ -2965,3 +2965,15 @@
 
 ## 更新 (2026-10-14)
 - [[蚂蚁灵光]]（+新版 Personal Agent 内测：云电脑架构/接管 Agent 实测/增长纪录/赛道判断）、[[personal-ai-agent]]（+灵光新版、Personal Agent 公式、Gartner 阶段判断）、[[WorkBuddy]]（+Buddy 加油站签到机制/AirScript 云端签到方案/接口逆向细节）、[[卡尔的AI沃茨]]（+红绿灯提示语/GoodCase.ai）、[[逛逛GitHub]]（+六本开源 AI 教材）、[[MQTT协议]]（+四大选型理由/六大生产坑/MCP over MQTT）、[[Harness]]（+"模型之外的工程能力才是竞争力"教材论断）
+
+## Sources (2026-10-14 ingest: REA 教程)
+- [[摘要-rea保姆级教程-deepseek-harness实操]] — 沉默王二的 REA 保姆级教程：REA 凭什么让 Agent 做逆向（MCP 工具化/套路固化/Evidence 证据链三件事）、DeepSeek Harness 用 cordis.patch.yml 手动接入 MCP 三步、恐龙游戏逆向案例与验收
+
+## Entities (2026-10-14 ingest: REA 教程)
+- [[REA]] — Reverse Engineer Anything 逆向万物开源工程（17 万 Star），让 Agent 无源码反推功能实现，6.4.0 共 170 个 MCP 工具
+
+## Concepts (2026-10-14 ingest: REA 教程)
+- [[逆向工程]] — 无源码从安装文件和运行轨迹反推功能实现的方法论，Agent 时代证据链（观察/推断/不确定）是可信度基石
+
+## 更新 (2026-10-14 ingest: REA)
+- [[DeepSeekHarness]]（+MCP 接入方式：cordis.patch.yml YAML 补丁与 mcpServers JSON 的差异、+REA 逆向实战案例）、[[MCP协议]]（+不同 Harness 的 MCP 配置格式差异、+REA 170 工具规模案例）、[[沉默王二]]（+REA 教程来源）
