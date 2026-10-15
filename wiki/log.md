@@ -1886,3 +1886,9 @@
 - **变更**: 新增 Sources (1): [[摘要-rea保姆级教程-deepseek-harness实操]]; 新增 Entities (1): [[REA]]; 新增 Concepts (1): [[逆向工程]]; 增量合并既有页 (3): [[DeepSeekHarness]]（+MCP 接入方式：cordis.patch.yml YAML 补丁 vs mcpServers JSON 差异、+DSH 跑通 REA 恐龙游戏逆向实战）, [[MCP协议]]（+不同 Harness 的 MCP 配置格式差异与 REA 170 工具规模案例）, [[沉默王二]]（+REA 教程来源）; 更新 [[index.md]]（Sources +1 / Entities +1 / Concepts +1 / 更新 3 页）
 - **冲突**: 无 — REA 为全新实体，DeepSeekHarness 的 MCP 接入（cordis.patch.yml）与既有 [[Cordis]] 页记录的补丁分层机制互相印证（用户 patch 层即 ~/.dsh/cordis.patch.yml），未产生矛盾
 - **归档**: 1 个源文件（REA 保姆级教程：DeepSeek Harness 实操.md）已移动至 raw/09-archive/
+
+## [2026-10-15] ingest | 摄取 6 篇 01-articles 文章（支付系统设计/Agent权限模式/Rena览财/豆包工作多Agent/WorkBuddy浏览器操控/Superpowers核心Skill）
+- **变更**: 新增 Sources (6): [[摘要-支付系统流程拆解与结构设计]], [[摘要-agent-permission-mode深度解析]], [[摘要-腾讯rena览财个人投研agent]], [[摘要-豆包工作多agent并行实测]], [[摘要-workbuddy浏览器操控能力]], [[摘要-superpowers五大核心skill拆解]]; 新增 Entities (1): [[Rena览财]]; 新增 Concepts (2): [[权限模式]], [[支付系统设计]]; 更新 [[index.md]]（Sources +6 / Entities +1 / Concepts +1 / 更新 8 页）
+- **合并**: 增量更新 [[ClaudeCode]]（用户视角六模式、auto 分类器内部机制、deny/ask/allow 规则体系）、[[auto-mode]]（Sonnet 5 分类器、剔除工具结果与自身输出、0.4% 误拦/17% 越权放行、3/20 次降级）、[[Superpowers]]（五大核心 Skill 源码级拆解：HARD-GATE 9 步/四阶段调试/2-5 分钟粒度/subagent vs executing/分支收尾）、[[WorkBuddy]]（浏览器操控 Beta：Chrome/Edge/QQ 扩展 + 标签页组 + 敏感操作人工接管）、[[DoubaoWork]] 与 [[豆包工作]]（多 Agents 并行 Organizer/跨对话写 PRD/录制回放+定时任务周报）、[[Qovest]]（Rena 览财竞品）、[[Pi]]（无内置权限系统的资源边界立场）、[[沉默王二]]（权限模式解析文章来源）
+- **冲突**: 无（Claude Code "六种 vs 7 级权限模式"为用户视角与源码视角互补；Superpowers 星数 185k(2026-05) 与 238k(2026-06) 为不同时间快照；Pi 无权限系统与既有极简设计哲学一致）
+- **归档**: 6 个源文件已移动到 raw/09-archive/
