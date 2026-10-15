@@ -13,10 +13,7 @@ last_updated: 2026-10-15
 ## 关联连接
 - [[Superpowers]] — 被拆解的 Skill 框架
 - [[码哥字节]] — 作者
-- [[brainstorming]] — 核心 skill 之一
-- [[systematic-debugging]] — 调试纪律 skill
-- [[writing-plans]] — 计划拆解 skill
-- [[subagent-driven-development]] — 子代理驱动开发
-- [[executing-plans]] — 串行执行方案
+- [[brainstorming]] — 核心 skill 之一（HARD-GATE 与 9 步流程）
+- [[subagent-driven-development]] — 子代理驱动开发（与串行 executing-plans 的选型）
 - [[TDD]] — 贯穿实现阶段的测试纪律
 - [[AgentSkills]] — skill 的承载机制
