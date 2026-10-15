@@ -7,7 +7,8 @@ sources:
   - raw/01-articles/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
   - raw/01-articles/2026-08-15-为什么越来越多人用 Pi ？ - 苏三说技术.md
   - raw/01-articles/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md
-last_updated: 2026-09-20
+  - raw/01-articles/Agent 的权限模式（Permission Mode）了解吗？.md
+last_updated: 2026-10-15
 ---
 
 ## 定义
@@ -85,3 +86,6 @@ Pi 是由 [[MarioZechner]]（[[libGDX]] 创始人）创建的开源终端 AI 编
 - [[摘要-pi-agent-保姆级全攻略]] — 完整教程
 - [[摘要-GitHub狂揽8.6万Star-Pi]] — 追风视角解析
 - [[摘要-为什么越来越多人用Pi-苏三]] — 苏三视角解析
+- [[摘要-agent-permission-mode深度解析]] — 无内置权限系统的安全立场来源
+- [[权限模式]] — 权限模式总概念（Pi 是"资源边界而非弹窗"一派）
+- [[沙箱]] — Pi 官方推荐的安全边界载体
