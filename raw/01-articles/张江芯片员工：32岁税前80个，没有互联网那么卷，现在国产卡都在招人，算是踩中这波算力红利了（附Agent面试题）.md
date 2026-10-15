@@ -6,13 +6,13 @@ source: "https://mp.weixin.qq.com/s/hyB41uB0jZSXiek04FBpSQ"
 
 看到标题这条帖子，32 岁在张江做芯片相关研发，税前 80 万，还没有互联网那么卷。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu29EuXMC3plrhrqX788Ydgb8L5E50XSJY7kFGYhScgATPLXPIlXVe0WqPq1AljB7uzGMzZ0GGTVibBKHYV3FPX8UKSPNp0MQmdE/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/1d4b97c864a160de1636ec3fe2a04e1a_MD5.webp)
 
 我身边有几个在张江上班的朋友，状态确实都还不错。以前大家聊起高薪，第一反应总是去互联网大厂卷业务。但随着 AI 的发展，大家发现，底层算力越来越紧俏，离硬件近的地方反而成了香饽饽。
 
 很多人看到芯片这两个字，本能地觉得那是画电路板、搞硬件的事，我告诉你，招得最多、缺口最大的，恰恰是夹在硬件和大模型之间的软件全栈工程师，尤其是 AI 编译器和算子开发。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu0ibGdicIrzo6amv0IgicRrrG4U91xab0dvo3h9gWsVz1ffTxN72fmM0j6wsg5LQK5uSNCKPFeRXwLSUgGYNdjpJXj5lo3uNaiaiccQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/9617caa98d8c960b35d7856a9b66b74e_MD5.webp)
 
 不管是英伟达的 H100、Blackwell，还是华为昇腾、寒武纪这些国产卡，硬件账面上的算力再高，如果没有编译器把计算图翻译成贴合硬件存储层级的机器码，计算单元大部分时间都在空等显存搬数据。
 
@@ -24,7 +24,7 @@ source: "https://mp.weixin.qq.com/s/hyB41uB0jZSXiek04FBpSQ"
 
 我把张江地区的芯片公司也帮大家简单梳理了一下，可参考。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3WMriapMFFn0wCBlEOniaPVp2KcHHHFicwxbuicKDADpicmVRBllakuR8vlmJuxm96lic6ryUzvgB3oGDCOEuR5reLI4nF5icbUUNObU/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/992a6e5b9cbdc20b21e75d14be7843a9_MD5.png)
 
 好，接下来，继续啃干货。
 
@@ -40,13 +40,13 @@ source: "https://mp.weixin.qq.com/s/hyB41uB0jZSXiek04FBpSQ"
 
 “具体的工作，我的理解是从一个算子的内部往外扩展。最里面是算子的调度，两个大矩阵做矩阵乘法时，怎么把大矩阵切分成小块，才能让数据一直留在芯片内部的寄存器和共享内存里（也就是常说的片上存储，直接做在 GPU 核心计算芯片上，读写极快但容量只有几百 KB），怎么用一条指令同时读写和计算多个数据（也就是向量化），数据搬运和矩阵计算怎么重叠起来形成流水线。单个算子调好了，放到整张计算图里还有新的优化空间，相邻的算子融合成一个就能省掉中间结果来回读写显存的开销，数据在显存里按什么顺序排布、显存空间怎么复用也要跟着一起定下来。算子内部和整张计算图这两处的决策合起来，会产生大量的参数组合，同一个算子换一个输入矩阵的维度大小、换一张显卡，最优的那组参数就变了，所以最后还要有自动调优机制去搜索这些参数。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu3g7vfHiaJaj3y0KibRgZwiaLBzbHqpZZ3kOia2HmibkiaNzLzSxDm97apIibaZj29TWMiacDU9dKqdk9rsdFp8q15hZnJa28AkichNr7uA/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/d1c43d31f8106c3efc583b29c484ffdc_MD5.png)
 
 “字节开源的 ByteIR 就是一套基于 MLIR 的模型编译方案，前端先把模型转换成 StableHLO 中间表示，编译器部分复用上游 MLIR 的方言（也就是针对特定抽象层次定义的一组指令和操作类型），里面的编译优化步骤（编译器里叫 pass，每一步负责一种特定的代码变换或优化）和上游兼容，可以混着用。”
 
 “ByteIR 管的是把模型编译出来，Flux 和 Triton-distributed 管的是多卡之间的通信怎么不拖慢计算。大模型用张量并行或者专家并行切分到多张卡上之后，每张卡各算一部分，每一层算完都要跨卡汇总或者交换一次数据，也就是做一次集合通信。通信的时候计算单元在干等，硬件利用率就掉下来了。Flux 的做法是把通信和计算都切分成很细的数据小块（tile），再融合进同一个大的 GPU 核函数（kernel，也就是放到 GPU 上执行的函数）里，把跨卡归约分发（ReduceScatter）融进矩阵乘法核函数的收尾阶段，把跨卡收集（AllGather）融进矩阵乘法核函数的开头准备阶段。论文里给的数字是，128 卡训练的吞吐最高能到 Megatron-LM 的 1.24 倍，推理的首字预填充阶段（prefill）和逐词生成阶段（decode）最高能到 vLLM 的 1.66 倍和 1.30 倍。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu33EwSiccu99JvmRy0Q0qG45nZCsUt3BiaEWqfdofP060ag2062ib4tS6eZbTGWlMibCPAuSguUuOcDGV9S0UNKy7eiahL8MWB4E0Cw/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/892f2eb65d0f22b089e1e18a477c9f84_MD5.png)
 
 “Flux 是把融合做好了直接提供现成的算子，Triton-distributed 则是把这件事做成编程模型，让写算子的人自己去融合。它基于 Triton，给每张卡分配一块同样大小的全局缓冲区，叫做对称内存，写算子的人可以直接读写别的卡上对应位置的数据；同步用的信号对象也放在这块对称内存里，通过信号交换判断对方的数据到没到。这样计算和通信就可以写在同一个 GPU 核函数里。在混合专家模型（MoE）场景下部分算子的加速超过 40 倍。”
 
@@ -60,7 +60,7 @@ source: "https://mp.weixin.qq.com/s/hyB41uB0jZSXiek04FBpSQ"
 
 “GPU 的办法是让等待的时间被别的线程用掉。一组线程卡在读取显存上，调度器就立刻切换到另一组已经准备好的线程去执行计算。所以 GPU 不需要分支预测和乱序执行这些复杂的控制部件，省下来的芯片面积全用来放计算单元和寄存器。CUDA 文档里明确写了，GPU 的指令是按顺序发射的，没有分支预测，也没有提前猜测并执行后续指令的推测执行机制。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3BbFPsprTj3fcjoSuo2wcHwqlLKzicNnxUAlTOKpstzMjdMec3ZOq4M7xOUNFEDND4aVdoia2yeRCbgKwv3lAuB4qbM1vCQsS04/640?wx_fmt=png&from=appmsg#imgIndex=5)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/5348f1e1dbb2d4cc1c19e417a26cb8dd_MD5.png)
 
 “第二个区别是线程的组织方式。GPU 用的是 SIMT，单指令多线程。流式多处理器，也就是常说的 SM，以 32 个线程为一组创建、管理、调度和执行，这一组叫一个线程束（warp），一条指令发下去就是 32 个线程同时做同样的操作。”
 
@@ -76,7 +76,7 @@ source: "https://mp.weixin.qq.com/s/hyB41uB0jZSXiek04FBpSQ"
 
 “往下是 L1 缓存和共享内存。H100 把 L1 缓存、原本给图形渲染用的纹理缓存、共享内存合并成一块 256KB 的片上空间，A100 上是 192KB。这块空间的划分比例是可以配置的，共享内存最多能分到 228KB，单个线程块（由多个 warp 组成的线程组）最多能用 227KB，CUDA 运行时自己预留了 1KB。可选的共享内存档位是 0、8、16、32、64、100、132、164、196、228KB。需要注意，代码里静态声明的共享内存上限仍然是 48KB，超过 48KB 必须用动态分配的方式向运行时申请。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu0PHYRwK89nicn6yfYpbFKY6ltIpO3iaZgTrpqPRJCicAgWPjzp4xyjcqhmc8SyTH8yov8sL1qlyFMYTmsawic18FlMBRiaB0xlelXY/640?wx_fmt=png&from=appmsg#imgIndex=6)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/4498cce95a56a7d508394431bc99a458_MD5.png)
 
 “同一层还有常量缓存。常量内存总共 64KB，每个 SM 上的常量缓存工作集是 8KB，从早期的 CUDA 计算能力版本到现在都没变过。核函数的入参，编译器一般也会放进常量内存。纹理缓存现在已经并进上面说的那块 256KB 统一数据缓存，不再是独立结构，所以它的可用容量会随架构和共享内存划分比例变化，官方文档给的是一个区间而不是固定值。”
 
@@ -88,7 +88,7 @@ source: "https://mp.weixin.qq.com/s/hyB41uB0jZSXiek04FBpSQ"
 
 “搬运数据的效率解决了，剩下的问题是片上容量。共享内存还是受限于每个 SM 最多 228KB，单个线程块能用的就这么多。所以 Hopper 又在 CUDA 计算能力 9.0 版本里加了线程块簇（Thread Block Cluster），这是介于线程块和整个网格之间的新一层线程组织。同一个簇里的多个线程块保证会被硬件调度到同一个图形处理簇（GPC，也就是芯片内部由多个 SM 组成的硬件分区）上，可移植的最大规模是 8 个线程块，打开允许非可移植簇规模的开关之后可以用到 16 个，但不能跨硬件架构直接移植。线程块簇存在的意义是实现分布式共享内存，同一个簇内的不同线程块可以互相读写、原子操作对方 SM 上的共享内存，相当于把多个 SM 的共享内存拼成一块更大的片上空间，总容量等于簇内线程块数量乘以每块的共享内存大小。官方调优指南建议这种跨线程块读取要把相邻地址合并成一次请求，并且起始地址按 32 字节的整数倍对齐。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu21KZkmKKctOzUUoR4B88ibXXKINkOlf7hwGpbqiasc5ib5qggjEmVPObxhrbPdGibEvh9kYN4kvWSb4xHEm8mibCrT4yiba0vy4NcHw/640?wx_fmt=png&from=appmsg#imgIndex=7)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/edfdcf81f49ce3a38112664008638083_MD5.png)
 
 “到了 Blackwell 这一代，芯片内部又新增了一块专门给第五代张量核心（Tensor Core）用的片上存储，叫做张量内存（Tensor Memory）。PTX 指令集文档里写的是，在数据中心版 Blackwell（架构代号 sm\_100）上，张量内存按线程块（PTX 文档里叫协作线程阵列 CTA）来组织，每个线程块有 512 列乘 128 行，每一格 32 位，换算下来正好是 256KB。它的分配规则很严格，以列为单位，最少分配 32 列，列数必须是 2 的幂，而且必须由同一个 warp 调用指令申请和释放，每个 warp 只能访问属于自己的那 32 行，对应 warp 里的 32 个线程通道（lane）。配套的矩阵乘法指令是 [tcgen05.mma，Hopper](http://tcgen05.mma,hopper/) 架构上的异步矩阵乘法指令 [wgmma.mma\_async](http://wgmma.mma_async/) 在 Blackwell 上已经弃用了。这一层张量内存只有数据中心版的 Blackwell 芯片有，消费级显卡那一版没有。”
 
@@ -102,13 +102,13 @@ source: "https://mp.weixin.qq.com/s/hyB41uB0jZSXiek04FBpSQ"
 
 “MLIR 的解法是不急着一步转换到底层，而是分成很多层逐步往下转换，也就是渐进式降级（progressive lowering）。每一层用一种方言（dialect）来表达，不同抽象层次的方言可以共存在同一个模块里，一边往下转换一边做当前层次最擅长的优化。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu36jbf1DckbBtLHoDG41XIbpbLDrFn6o0wx59yiaYYuLoQhhMkKZJ7icEibBRW2erI5zK7DAT7Ovv9z98gx5spvpPH2gicibx3YXobM/640?wx_fmt=png&from=appmsg#imgIndex=8)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/f95bdc549ccaa7d4835e171255c591d1_MD5.png)
 
 “常见的方言按抽象层次从高到低排下来大概是这样。linalg 方言用来表达结构化的算子，一个矩阵乘法在这一层仍然是一个完整的算子，矩阵分块、算子融合这些变换在这一层做最方便。tensor 方言和 memref 方言分别对应数学上的张量值和实际的物理内存，tensor 只表达计算结果是什么、不管数据存在哪里，memref 则带有具体的内存指针和排布信息，两者之间要经过一次内存化转换（bufferization），给每个张量分配实际的内存缓冲区。再往下，affine 方言和 scf 方言用来表达循环结构，affine 对循环下标的写法限制更严格，但正是因为限制严格，编译器分析循环之间的数据依赖关系才做得准确。arith 方言负责基础的算术运算。继续往下，gpu 方言用来表达 GPU 的线程和线程块概念，nvvm 方言对应 NVIDIA 硬件的内建函数，最后转换成 llvm 方言，交给 LLVM 后端生成目标机器码。”
 
 “这套分层机制拿 Triton 编译器来看最直观。Triton 的编译过程分成四级。先把开发者写的 Python 源码转换成 TTIR，这一层是以数据块为单位、和具体显卡型号无关的中间表示。然后转换成 TTGIR，这一层开始带上具体的 GPU 硬件信息，数据在各个 warp 之间怎么分布、显存读写怎么合并、共享内存用哪种排布方式都在这一层确定。中间执行的都是 MLIR 的编译优化步骤（pass），比如用 remove\_layout\_conversions 消除多余的内存排布转换、用 accelerate\_matmul 把矩阵乘法替换成 Tensor Core 硬件加速指令、用 optimize\_dot\_operands 优化点积运算的操作数。接着再从 TTGIR 转换成 LLVM IR，往下生成 NVIDIA 的虚拟指令集 PTX，最后由 NVIDIA 的汇编器 ptxas 编译成 GPU 可直接执行的二进制文件 cubin。各个硬件后端把这些编译阶段注册在自己的 [compiler.py](http://compiler.py/) 文件里，AMD 显卡后端的前三级完全一样，只是最后换成 AMD 自己的汇编表示 amdgcn 和二进制文件 hsaco。”
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/rZm1sEcvdu3VNrslGrkWvgHSpADpd2Mn7BrSMfzdQD37jaskNtkIBbryGqdrMvP656IEW4Wx6AKegibEsMsPicOGiaJODQbgbaTDMHYoObXdms/640?wx_fmt=png&from=appmsg#imgIndex=9)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/5f8ee31a9a952d3838eddd9b11405a51_MD5.png)
 
 “MLIR 的来历是，2018 年在 Google 内部启动，2019 年 4 月先开源在 TensorFlow 仓库里，同年 9 月 Chris Lattner 在 llvm-dev 邮件列表发起提案，10 月 LLVM 基金会正式接受，12 月底代码合入 LLVM 的主仓库，目录名就是 mlir。所以它现在是 LLVM 官方项目的一部分，不是一个外部独立项目。”
 
@@ -122,7 +122,7 @@ source: "https://mp.weixin.qq.com/s/hyB41uB0jZSXiek04FBpSQ"
 
 “往上一层是 Triton，也是目前的事实标准。它的设计取舍是让开发者只管数据块这一级的逻辑，至于一个数据块里的数据怎么分给 warp 里的 32 个线程、片上共享内存怎么分配，全部交给编译器自动决定。写起来很像写 NumPy 数组运算，跑出来的性能却能达到手写 CUDA 代码的大部分水平。它的开源仓库现在放在 triton-lang 组织下，原来的 openai/triton 地址已经重定向过去了。PyTorch 里面调用 [torch.compile](http://torch.compile/) 自动生成的 GPU 算子代码，底层生成的就是 Triton 代码。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu3RCVkl3lX4bia1NibtAHlXH8PmMalMwt2sNj0rj97QFibc21EafBJT7n6aWMA9vVCMliaUF6GibJ8fYPrBQAricqjregeKGFic4HxJZM/640?wx_fmt=png&from=appmsg#imgIndex=10)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/5af2b8c4ebd89e6405035ebb4f670afa_MD5.png)
 
 “Triton 之上还有更高的一层。PyTorch 基金会仓库里的 Helion 是 Meta 团队开发的，写法比 Triton 更接近普通 Python 函数，它编译出来的产物就是经过自动调优的 Triton 代码，最核心的机制就是内置了自动搜索最优分块参数的调优引擎。这个项目在 2025 年 4 月建仓，同年 10 月发布了 Beta 版本。”
 
@@ -130,7 +130,7 @@ source: "https://mp.weixin.qq.com/s/hyB41uB0jZSXiek04FBpSQ"
 
 “就目前的工程实践来说，如果要在 NVIDIA 显卡上手写自定义算子，Triton 依然是最省力的入口，社区里能参考的现成代码最多，遇到报错也最容易搜到解决办法。只有当业务真要榨干硬件最后那百分之几的极限性能时，才需要下沉到 CuTe 或者 C++ 这一层。”
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/rZm1sEcvdu0Gk897XxboHVmXrzRzkqTV2kicRwLUzohTMlTJibcmODfxgK0ZZrt6xQsHdlZUXIDy1jSH3aUvNxfGibDc5lLxWkYuYa0r6GgUzU/640?wx_fmt=png&from=appmsg#imgIndex=11)
+![图片](assets/%E5%BC%A0%E6%B1%9F%E8%8A%AF%E7%89%87%E5%91%98%E5%B7%A5%EF%BC%9A32%E5%B2%81%E7%A8%8E%E5%89%8D80%E4%B8%AA%EF%BC%8C%E6%B2%A1%E6%9C%89%E4%BA%92%E8%81%94%E7%BD%91%E9%82%A3%E4%B9%88%E5%8D%B7%EF%BC%8C%E7%8E%B0%E5%9C%A8%E5%9B%BD%E4%BA%A7%E5%8D%A1%E9%83%BD%E5%9C%A8%E6%8B%9B%E4%BA%BA%EF%BC%8C%E7%AE%97%E6%98%AF%E8%B8%A9%E4%B8%AD%E8%BF%99%E6%B3%A2%E7%AE%97%E5%8A%9B%E7%BA%A2%E5%88%A9%E4%BA%86%EF%BC%88%E9%99%84Agent%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%89/f31a7c4d01d6a590a11aaddcea804fdd_MD5.png)
 
 “国产硬件这边我也顺带了解了一下。华为昇腾走的是兼容适配 Triton 的路线，triton-ascend 这个项目已经正式迁移到了 triton-lang 官方组织下，2025 年 5 月开源，2026 年 1 月发布了 3.2.0 正式版，底层依赖昇腾的 CANN 社区版 9.0.0 软件栈；如果要写更底层的自定义算子，用的是在 C 和 C++ 基础上做裁剪扩展的 Ascend C 语言。寒武纪则是另一套体系，它的通用并行编程模型叫 BANG，写算子用的语言是在 C 和 C++ 上扩展出来的 BANG C，编译时先用自研编译器 CNCC 把 BANG C 源码编译成寒武纪自己的底层指令集 MLISA，再用汇编器 CNAS 把 MLISA 汇编成目标二进制文件，另外寒武纪也提供了一套基于 Python 的算子开发接口 BANGPy。”
 
