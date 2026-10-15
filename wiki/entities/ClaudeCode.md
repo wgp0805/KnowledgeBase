@@ -2,8 +2,8 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md, raw/01-articles/同事的 Claude Code 为什么比你的强？差的就是这4步.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md]
-last_updated: 2026-10-12
+sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md, raw/01-articles/同事的 Claude Code 为什么比你的强？差的就是这4步.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md, raw/01-articles/Agent 的权限模式（Permission Mode）了解吗？.md]
+last_updated: 2026-10-15
 ---
 
 ## 定义
@@ -77,6 +77,11 @@ Claude Code 的权限系统基于**模式路由**而非条件判断。从源码�
 用户视角的常用模式映射：**默认模式 → default**、**Plan Mode → plan**、**Accept Edits → acceptEdits**
 
 **auto 模式**的实现是额外跑一个轻量级 LLM 分类器，输入当前对话完整上下文，输出二元判断：当前操作是否和用户原始意图一致。比硬编码规则灵活得多。
+
+**用户视角六模式与分类器内部细节（2026-10-14，详见 [[摘要-agent-permission-mode深度解析]]）**：
+- 用户可见模式为六种：`Manual`（默认，读取不用问，编辑/命令要点头）、`acceptEdits`（自动放行文件编辑及 mkdir/touch/rm/rmdir/mv/cp/sed 七个文件命令，限工作目录内）、`plan`（只读，批准计划前一行不改）、`auto`（分类器后台审查）、`dontAsk`（无弹窗，只放行预批准工具，其余拒绝，适合 CI，仅启动参数可开）、`bypassPermissions`（全部放行，官方只建议容器/VM 内用，root 运行直接拒绝启动）。2.1.284 起未手动配置时交互会话默认 auto，Shift+Tab 切换
+- **分类器实现（2.1.210+）**：默认跑在 Sonnet 5 上，不随 /model 选的模型变；能看到用户消息、工具调用和 CLAUDE.md，但**剔除工具结果**（防网页/文件藏恶意指令操纵分类器）和 **Claude 自己的输出**（防 Claude 说服分类器放行）；审查先输出一个 token 快速判断，可疑动作再用思维链复核；用户输入可放开部分拦截（明确说"强制 push 这个分支"才算授权，只说"清理一下仓库"不算）；连续拦截 3 次或累计 20 次，auto 暂停退回人工弹窗；正常操作误拦率 0.4%、越权放行率 17%（官方称 "the honest number"）
+- **规则体系**：权限规则分 allow/ask/deny，判定顺序先 deny 再 ask 后 allow，第一个命中者说了算；deny 在任何模式下都生效（含 bypassPermissions），任一配置文件写了 deny 其他文件的 allow 都放不开；对根目录等关键路径 rm 任何模式不自动放行；命令跑起来后规则管不到，靠 [[沙箱]] 限制文件与网络。详见 [[权限模式]]
 
 **优先级设计**：系统先检查 Hooks 是否配置了匹配当前操作的规则，命中则直接执行，不进入权限模式。Hook 覆盖不到的操作依然受权限模式兜底。
 

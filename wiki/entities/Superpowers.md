@@ -10,7 +10,8 @@ sources:
   - raw/01-articles/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md
   - raw/01-articles/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md
   - raw/01-articles/2026-09-28-Claude Code 装了一堆 Skill，用了三个月，我删掉了 80% - 码哥字节.md
-last_updated: 2026-09-29
+  - raw/01-articles/2026-10-14-185,000 星的 Superpowers 插件，90% 的人只用了它 10% 的功能 - 码哥字节.md
+last_updated: 2026-10-15
 ---
 
 ## 定义
@@ -56,6 +57,17 @@ last_updated: 2026-09-29
 2. **[[review-gate|Review Gate]]**：四层层层设卡——spec 写完先自审、每个任务完成后审查、整个分支完成后审查、交付前最终验证，任何一层没通过都不能往下走
 3. **Red Flags 表**：列出 AI 可能用来跳过流程的借口（"改动太小不需要测试""用户赶时间先跳过 review"），逐条说明为何这些借口不成立
 4. **[[subagent-driven-development|SDD]]**：子代理上下文隔离 + 双裁决审查。v6.0 评测显示 token 消耗砍约 50%，速度翻倍。
+
+### 五大核心 Skill 源码级拆解（2026-10-14，码哥字节，详见 [[摘要-superpowers五大核心skill拆解]]）
+从 SKILL.md 源文件出发的深度拆解，核心论点：**AI 编程工具最大的问题不是智力，是纪律，而纪律可以用纯文本分发**（"90% 的人只用了它 10% 的功能"——多数人只用 `/brainstorming` 问完就写）：
+
+- **brainstorming**：`<HARD-GATE>` 硬门——设计未获用户批准前不许调用任何实现 skill/写任何代码。完整 9 步，最易跳过的是 6-8（设计写入 `docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md` 并 commit → 自检 spec（TBD/内部矛盾/范围/歧义）→ 用户审阅）；终态只能移交 writing-plans；反直觉设计："越觉得项目简单越要走流程，简单项目的隐含假设是浪费工作的最大来源"
+- **systematic-debugging**：铁律 `NO FIXES WITHOUT ROOT CAUSE INVESTIGATION FIRST`。四阶段按序：根因调查（读完整错误信息/稳定复现/查 git 变更/边界打诊断日志）→ 模式分析（与能跑通的类似代码逐项对比差异）→ 单假设验证（一次一个假设，最小变更验证，不叠加改动）→ 实现修复（先写复现测试/只改一处）。附**三次失败规则**：连续 3 次修复失败必须停下来讨论是否架构问题，而非猜第四次。官方数据：系统调试 2-3 小时 → 15-30 分钟
+- **writing-plans**：每步骤粒度 **2-5 分钟**（"写失败测试"与"跑一下确认失败"是两个独立步骤）；**零占位符规则**："TBD/TODO/后续实现""添加适当的错误处理""写上述内容的测试""类似 Task N"均视为计划失败必须修正
+- **执行二选一**：subagent-driven-development（每任务全新 subagent + 干净上下文 + 两轮审查，防"上下文串扰"，环境支持就选它）vs executing-plans（当前会话串行 + 定期检查点，适合 Cursor 等无 subagent 环境）；代价是每任务重新加载 plan 文件，但避免一次返工即赚回
+- **finishing-a-development-branch**：验证测试（失败即停）→ 确定 base branch → 四选项（本地 merge / Push+PR / 保留 / 丢弃），丢弃需手动输入 "discard" 防误删 → 按选择清理 worktree
+
+两个常见坑：①上下文漂移（长会话中 Claude 忘记有 skill，显式 `/using-superpowers` 重置）；②把 brainstorming 当问答机（其价值在产出 **committed spec**，停在问答则执行阶段无设计依据）。完整工作流链：brainstorming → using-git-worktrees → writing-plans → subagent-driven/executing → TDD 贯穿 → requesting-code-review → finishing-a-development-branch。
 
 ### 与 grill-me 的配合
 
@@ -121,5 +133,6 @@ grill-me（想清楚）→ superpowers brainstorming（补充细节）→ writin
 - [[强模型时代工作流选型]] — 选型方法论
 - [[摘要-vibe-coding-文档管理]] — 来源（Vibe Coding 文档管理提及）
 - [[摘要-claude-code-skill删80%精选]] — 来源（Skill 断舍离中的保留清单）
+- [[摘要-superpowers五大核心skill拆解]] — 来源（2026-10-14 五大核心 Skill 源码级拆解，码哥字节）
 - [[Skill描述预算]] — 促使 Skill 精简的预算机制
 - [[antigravity-awesome-skills]] — 同文评测的生态仓库
