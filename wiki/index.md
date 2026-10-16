@@ -3050,3 +3050,18 @@
 
 ## 更新 (2026-10-15 第二批)
 - [[Codex]]（+Plan 模式未知信息二分法、request_user_input 线程限制与 elicitation 取消、Assumptions 兜底）、[[ClaudeCode]]（+AskUserQuestion 源码级拆解与"Never ask what you could find out by reading the code"；+通用 Harness 读不懂领域语义的短板）、[[Pi]]（+questionnaire 的 allowOther 与 TUI 检查）、[[计划模式]]（+AskUserQuestion 三条设计）、[[Harness]]（+游戏即 Harness 的领域定制论断）、[[HarnessEngineering]]（+领域定制 Harness 章节）、[[ContextEngineering]]（+接龙式重放机制、上下文污染、像素级污染案例）、[[确定性]]（增量合并游戏工程语境：固定随机种子与状态精确还原）、[[LLVM]]（+AI 场景抽象层次短板与 MLIR 补齐）、[[NVIDIA]]（+PTX/SASS/cubin 指令链与 Hopper/Blackwell 代际）、[[昇腾]]（+triton-ascend 与 CANN 9.0.0、Ascend C）、[[字节跳动]]（+ByteIR/Flux/TritonDistributed 算力底座开源项目）、[[Meta]]（+Helion）
+
+## Sources (2026-10-16 ingest)
+- [[摘要-mysql-9-7-lts]] — MySQL 9.7.0 LTS 发布：企业版功能批量下放社区版（复制可观测性/超图优化器/PGO/JSON Duality Views DML），向量相似度仍锁 HeatWave（苏三）
+
+## Entities (2026-10-16 新增)
+- [[Percona]] — MySQL 生态开源公司/发行版，Peter Zaitsev 超图优化器警告、PGO 基准测试、9.7.2 补上 DISTANCE() 向量函数
+- [[HeatWave]] — Oracle 云 MySQL 托管版本，独占 DISTANCE()/VECTOR_DISTANCE() 向量相似度函数
+
+## Concepts (2026-10-16 新增)
+- [[HypergraphOptimizer]] — 超图 + 动态规划的查询优化器，9.7 下放社区版，改善多表 JOIN 但写密集场景可能退化
+- [[ProfileGuidedOptimization]] — 按剖析引导的编译器优化，32GB Buffer Pool 平均提速 12.2%，零配置升级
+- [[JSONDualityViews]] — 关系表/JSON 文档双模访问视图，9.7 社区版从只读开放为完整 DML
+
+## 更新 (2026-10-16)
+- [[MySQL]]（+9.7.0 LTS 章节：8 年支持周期、企业版功能下放清单、向量搜索缺失、旧变量移除升级提示）、[[Oracle]]（+MySQL 出品方与 HeatWave 独占说明）、[[苏三]]（+MySQL 9.7 文章来源）

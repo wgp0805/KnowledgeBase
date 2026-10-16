@@ -46,7 +46,8 @@ sources:
   - raw/09-archive/第18章_MySQL8其它新特性.pdf
   - raw/09-archive/第19章_数据库备份与恢复.pdf
   - raw/01-articles/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
-last_updated: 2026-08-26
+  - raw/09-archive/Mysql 9.7 到底有多强大？.md
+last_updated: 2026-10-16
 ---
 
 ## 定义
@@ -61,6 +62,7 @@ MySQL 是最流行的开源关系型数据库管理系统之一，以高性能�
 - **千万级大表 DDL**：6 种方案应对锁表风险——原生 Online DDL（<1亿行）、停机维护（<100GB）、PT-OSC（触发器）、双写迁移（金融级10亿+）、gh-ost（无触发器TB级）、分区滑动窗口（日志表）。加字段前优先用 JSON 字段预扩展，万亿级表应分库分表
 - **B+Tree 索引的模糊搜索短板**：`LIKE '%xx%'` 前置通配符导致 B+Tree 有序性失效，优化器放弃索引走全表扫描；`LIKE 'xx%'` 前缀固定可走索引。覆盖索引可扫更小的二级索引树但本质仍全扫，数据量大照样慢。这是引入 ES 倒排索引解决全文检索的根本原因
 - **与 ES 的分工**：MySQL 是"存"的专家（事务、关联、ACID），ES 是"搜"的专家（全文检索、分词、相关度排序）。生产标准架构为 MySQL 主存储 + ES 搜索引擎，通过 Canal 监听 Binlog + MQ 异步同步
+- **MySQL 9.7.0 LTS**（2026-04-21 发布，9.x 首个 LTS，5 年 Premier + 3 年 Extended Support）：企业版功能批量下放社区版——复制可观测性（Replication Applier Metrics 线程级延迟指标，可直连 [[Prometheus]]）、Group Replication 流控统计/主选举/资源管理器、OpenTelemetry 遥测、[[HypergraphOptimizer]]（多表 JOIN 执行计划改善，写密集场景可能退化）、[[ProfileGuidedOptimization]]（32GB Buffer Pool 平均提速 12.2%，零配置升级）、[[JSONDualityViews]] DML（社区版从只读变可增删改）。**仍缺失**：向量相似度函数 `DISTANCE()` 仅在 [[HeatWave]]，本地做 RAG 需 [[Percona]] 补丁版或外接 [[向量数据库]]；`innodb_log_file_size`、`innodb_undo_tablespaces` 等旧变量已移除，升级需调配置
 
 ## 关联连接
 - [[MyBatisPlus]] — ORM 框架
@@ -88,3 +90,10 @@ MySQL 是最流行的开源关系型数据库管理系统之一，以高性能�
 - [[Elasticsearch]] — 搜索场景搭档
 - [[Canal]] — MySQL → ES 同步工具
 - [[摘要-拼多多二面-es-vs-mysql]] — 来源（面试视角 ES vs MySQL）
+- [[摘要-mysql-9-7-lts]] — 来源（MySQL 9.7 LTS 企业版功能下放社区版）
+- [[HypergraphOptimizer]] — 9.7 超图优化器（本页提炼概念）
+- [[ProfileGuidedOptimization]] — 9.7 PGO 性能优化（本页提炼概念）
+- [[JSONDualityViews]] — 9.7 JSON 对偶视图 DML（本页提炼概念）
+- [[Percona]] — 基准测试与向量函数补位方
+- [[HeatWave]] — 向量相似度函数独占承载
+- [[Prometheus]] — 复制指标对接目标

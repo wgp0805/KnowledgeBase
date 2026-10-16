@@ -1904,3 +1904,8 @@
 ## [2026-10-16] query | 固化 SpecKit 使用教程为 synthesis
 - **变更**: 新增 [[speckit-usage-guide-with-openspec-comparison]]（syntheses 页，含 OpenSpec 命令对照表/安装/订单导出实战/选型建议）；更新 [[index.md]]（Syntheses +1）
 - **冲突**: 无
+
+## [2026-10-16] ingest | 摄入 MySQL 9.7 LTS 文章（苏三）
+- **变更**: 新增 Sources (1): [[摘要-mysql-9-7-lts]]; 新增 Entities (2): [[Percona]], [[HeatWave]]; 新增 Concepts (3): [[HypergraphOptimizer]], [[ProfileGuidedOptimization]], [[JSONDualityViews]]; 增量更新既有页 (3): [[MySQL]]（+9.7.0 LTS 章节）、[[Oracle]]（+MySQL 出品方与 HeatWave 说明）、[[苏三]]（+文章来源）; 更新 [[index.md]]（Sources +1 / Entities +2 / Concepts +3 / 更新 3 页）
+- **冲突**: 无（9.7 企业版功能下放与既有页无矛盾；"超图优化器可能退化"为新知识，已并入 [[MySQL]]、[[HypergraphOptimizer]]）
+- **归档**: 1 个源文件已移动至 raw/09-archive/

@@ -2,8 +2,8 @@
 title: "Oracle"
 type: entity
 tags: [数据库, 关系型]
-sources: [raw/09-archive/Orcale表锁解决方法.md, raw/09-archive/orcale查看索引状态.md, raw/09-archive/orcale常用的查询资源的方法.md, raw/09-archive/Orcale创建用户和表空间授权过程.md, raw/09-archive/trunc函数用法.md]
-last_updated: 2026-05-19
+sources: [raw/09-archive/Orcale表锁解决方法.md, raw/09-archive/orcale查看索引状态.md, raw/09-archive/orcale常用的查询资源的方法.md, raw/09-archive/Orcale创建用户和表空间授权过程.md, raw/09-archive/trunc函数用法.md, raw/09-archive/Mysql 9.7 到底有多强大？.md]
+last_updated: 2026-10-16
 ---
 
 ## 定义
@@ -16,8 +16,11 @@ Oracle Database 是甲骨文公司提供的企业级关系型数据库管理系�
 - DBA 运维：慢 SQL 定位、表空间监控、回滚段管理
 - 用户和权限：CREATE TABLESPACE、CREATE USER、GRANT CONNECT/RESOURCE
 - 角色权限体系：系统权限和对象权限分离
+- **MySQL 出品方**：2026-04-21 发布 [[MySQL]] 9.7.0 LTS，把复制可观测性、超图优化器、PGO 等一批企业版功能下放社区版；但向量相似度函数 `DISTANCE()` 仍独占在云上的 [[HeatWave]] 版本
 
 ## 关联连接
-- [[MySQL]] — 竞品数据库
+- [[MySQL]] — 竞品数据库，同为 Oracle 旗下产品
+- [[HeatWave]] — 旗下云 MySQL 托管版本
+- [[摘要-mysql-9-7-lts]] — 来源（MySQL 9.7 LTS 发布）
 - [[Linux]] — 运行环境
 - [[摘要-orcale查看索引状态]] — 查看索引状态的视图方法
