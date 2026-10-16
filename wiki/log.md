@@ -1897,3 +1897,6 @@
 - **合并**: 增量更新 [[ClaudeCode]]（用户视角六模式、auto 分类器内部机制、deny/ask/allow 规则体系）、[[auto-mode]]（Sonnet 5 分类器、剔除工具结果与自身输出、0.4% 误拦/17% 越权放行、3/20 次降级）、[[Superpowers]]（五大核心 Skill 源码级拆解：HARD-GATE 9 步/四阶段调试/2-5 分钟粒度/subagent vs executing/分支收尾）、[[WorkBuddy]]（浏览器操控 Beta：Chrome/Edge/QQ 扩展 + 标签页组 + 敏感操作人工接管）、[[DoubaoWork]] 与 [[豆包工作]]（多 Agents 并行 Organizer/跨对话写 PRD/录制回放+定时任务周报）、[[Qovest]]（Rena 览财竞品）、[[Pi]]（无内置权限系统的资源边界立场）、[[沉默王二]]（权限模式解析文章来源）
 - **冲突**: 无（Claude Code "六种 vs 7 级权限模式"为用户视角与源码视角互补；Superpowers 星数 185k(2026-05) 与 238k(2026-06) 为不同时间快照；Pi 无权限系统与既有极简设计哲学一致）
 - **归档**: 6 个源文件已移动到 raw/09-archive/
+
+## [2026-10-16] query | SpecKit 使用教程（以 OpenSpec 为对照）
+- **输出**: 即时回答未保存；引用 [[SpecKit]]、[[OpenSpec]]、[[摘要-superpowers-openspec-speckit对比]]、[[claude-code-增强框架对比]]、[[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[规范驱动开发]]、[[delta-spec]]（wiki 无 SpecKit 分步教程页，步骤细节部分为通用知识补充并已在回答中声明）
