@@ -2,8 +2,8 @@
 title: "Meta"
 type: entity
 tags: [AI公司, 社交平台, 大模型, Agent]
-sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-27-Meta Muse为超级智能买单.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md]
-last_updated: 2026-09-28
+sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-27-Meta Muse为超级智能买单.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md, raw/09-archive/张江芯片员工：32岁税前80个，没有互联网那么卷，现在国产卡都在招人，算是踩中这波算力红利了（附Agent面试题）.md]
+last_updated: 2026-10-15
 ---
 
 ## 定义
@@ -15,6 +15,8 @@ last_updated: 2026-09-28
 - **投入与财务**：2026 Q2 单季资本支出 311 亿美元，全年指引上调至 1300–1450 亿美元；同期自由现金流暴跌 91%，但 Muse 上线第 13 天股价单日涨 11.43%、市值单日涨约 2000 亿美元
 - **隐私与安全**：邀请 Signal 创始人 Moxie Marlinspike 负责 Muse 机密虚拟机，配独立凭据存储与监控 Agent（识别提示词注入）；Cambridge Analytica 旧闻使隐私成为其必须主动展示的卖点
 - **开放策略**：主张"技术扩散 + 权力制衡"的安全观，开发领先模型同时保留部分开放模型，但不承诺全部开源
+
+- **AI 编译器生态**（2026-10-15 补充，详见 [[摘要-张江芯片员工与AI编译器面试题]]）：Meta 团队开发了 **[[Helion]]**（位于 PyTorch 基金会仓库），写法比 [[Triton]] 更接近普通 Python 函数，编译产物就是经过自动调优的 Triton 代码，最核心的机制是内置了自动搜索最优分块参数的调优引擎；2025 年 4 月建仓，同年 10 月发布 Beta 版本。
 
 ## 关联连接
 - [[摘要-meta-muse-个人ai助理体验]] — 来源（Muse 产品评测）
@@ -28,3 +30,6 @@ last_updated: 2026-09-28
 - [[Amazon]] — 封杀其购物功能的电商伙伴
 - [[OpenAI]] / [[Anthropic]] — 被视为追赶目标的对手
 - [[GPT-6]] — Muse Spark 1.3 对标的模型
+- [[Helion]] — Meta 开发的高层 GPU 算子框架
+- [[Triton]] — Helion 的编译产物与底层依赖
+- [[摘要-张江芯片员工与AI编译器面试题]] — 来源（Helion 补充）

@@ -2,8 +2,8 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/01-articles/Codex 最新焚决发布，快！.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md]
-last_updated: 2026-10-12
+sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md, raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/01-articles/Codex 最新焚决发布，快！.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md]
+last_updated: 2026-10-15
 ---
 
 ## 定义
@@ -55,6 +55,16 @@ Codex 从三个方向从编程 Agent 向工作系统进化：
 - 自动审查模式（默认）
 - 建议模式
 - 手动确认模式
+
+### 需求澄清机制（2026-10-15 补充）
+来自 [[摘要-用户需求模糊时Agent怎么澄清]]。Codex 在 Plan 模式的系统提示词中把未知信息明确拆成两类，并给出对应的硬性规定：
+
+1. **[[DiscoverableFacts]]（可发现的事实）**——项目用什么框架、现有登录接口在哪、有没有 Redis 配置。规定**先探索后再提问**：在向用户提问之前必须先调用只读工具把代码库扫一遍。
+2. **[[偏好与取舍]]（Preferences and tradeoffs）**——限流阈值设多少、超限后排队还是报错。代码里查不到且会改变最终结果，才需要用户拍板。
+
+无人在场时的兜底同样来自 Codex：
+- **工具层拦截**：`request_user_input`（请求用户输入工具）第一行检查当前是不是 root 线程，Sub-agent 调用直接报错 "request_user_input can only be used by the root thread"；在 `codex exec` 非交互模式下，外部 MCP 服务端通过 elicitation 发来的追问请求会被自动取消（源码直接返回 Cancel）。
+- **提示词兜底**：获取不到用户回答时不要停下来，按最稳妥的推荐选项继续执行，但必须在最终输出的 **[[Assumptions假设清单]]（Assumptions）** 小节里逐条写清替用户做出的所有假设，供事后核对。
 
 ### 人机协作工作流方法论
 结合[[摘要-再见吧-codex]]，高效的 Codex 使用遵循以下原则：
@@ -272,6 +282,11 @@ brew install openai-codex
 - [[摘要-codex差点把我搞疯]] — 来源（资源消耗与部署一致性踩坑）
 - [[codex-desktop-多模型与插件支持现状]] — 桌面版第三方模型与插件支持现状梳理
 - [[codex-operation-manual]] — Codex 从入门到精通操作手册
+- [[摘要-用户需求模糊时Agent怎么澄清]] — 来源（Discoverable facts 分类与 request_user_input 线程限制）
+- [[需求澄清]] — Plan 模式模糊需求处理的方法论
+- [[DiscoverableFacts]] — 先探索后提问的事实类未知信息
+- [[偏好与取舍]] — 必须用户拍板的偏好类未知信息
+- [[Assumptions假设清单]] — 无法获得回答时的兜底交付物
 
 ### MCP 额度优化工作流（邪修方法）
 来自 [[摘要-codex-mcp额度优化邪修方法]]。将服务器封装为只读 MCP Server 插件，接入飞书 OAuth 认证，让 ChatGPT 网页版 GPT-6 Pro 直接读取真实生产数据进行分析规划，再将分析结果"添加到 Codex"由 GPT-6 Astra High 执行开发。

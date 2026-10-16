@@ -2996,3 +2996,56 @@
 
 ## 更新 (2026-10-15)
 - [[ClaudeCode]]（用户视角六模式、auto 分类器剔除工具结果与自身输出、0.4%/17% 官方数据、deny 优先级）、[[auto-mode]]（分类器内部机制与默认 auto）、[[Superpowers]]（五大核心 Skill 源码级拆解与两个常见坑）、[[WorkBuddy]]（浏览器操控能力 Beta）、[[DoubaoWork]]/[[豆包工作]]（多 Agents 并行/跨对话 PRD/定时周报）、[[Qovest]]（Rena 览财竞品）、[[Pi]]（无内置权限系统的资源边界立场）、[[沉默王二]]（权限模式解析文章）
+
+## Sources (2026-10-15 ingest: 需求澄清 / 游戏即 Harness / AI 编译器)
+- [[摘要-用户需求模糊时Agent怎么澄清]] — 面试题拆解 Agent 需求澄清四层答案：Discoverable facts vs Preferences/AskUserQuestion 的 Schema 约束与权限通道挂起/无人在场的工具拦截与 Assumptions 兜底
+- [[摘要-你的游戏本身就是Harness]] — Kyle Kukshtel 长文：LLM 读不懂游戏是上下文工程问题，把游戏本身做成 Harness 的八条工程原则
+- [[摘要-张江芯片员工与AI编译器面试题]] — 算力红利观察 + AI 编译器岗位五连问（岗位职责/CPU vs GPU/GPU 存储层级/LLVM 与 MLIR/AI-GPU DSL 图谱）
+
+## Entities (2026-10-15 新增（第二批）)
+- [[KyleKukshtel]] — 15 年资深独立游戏工程师，《Cantata》制作人、Depot 作者，"游戏即 Harness"方法论提出者
+- [[Cantata]] — Kyle Kukshtel 的独立策略战棋游戏，游戏即 Harness 架构的实践载体
+- [[Depot]] — 为 Cantata 开发的游戏数据编辑器，外部化数据 + 免编译热重载的工作流载体
+- [[odiff]] — 开源命令行图像差分工具，把像素差异与相似度数值喂给多模态模型
+- [[samply]] — 免费现代的命令行性能分析工具，把采样结果 Dump 到终端供 Agent 解析
+- [[leikooo]] — 博客园技术作者，《Your Game Is A Harness》中文编译者
+- [[Triton]] — GPU 算子开发事实标准：只管数据块级逻辑，块内映射与共享内存交给编译器
+- [[CUDA]] — NVIDIA GPU 并行计算平台与编程模型，GPU 架构论断与共享内存规则的官方出处
+- [[StableHLO]] — 介于框架代码与底层指令之间的机器学习中间表示，ByteIR 前端载体
+- [[Helion]] — Meta 开发的高层 GPU 算子框架，编译产物是自动调优后的 Triton 代码
+- [[cuTile]] — CUDA 13.1 引入的 tile 级编程模型（Tile IR + cuTile Python + SASS 编译器）
+- [[ChrisLattner]] — LLVM 创建者，2019 年提案把 MLIR 引入 LLVM 官方体系
+- [[ByteIR]] — 字节跳动基于 MLIR 的模型编译方案，前端转 StableHLO、pass 与上游兼容
+- [[Flux]] — 字节开源的通信与计算融合实现，把集合通信融进矩阵乘法 kernel
+- [[TritonDistributed]] — 字节基于 Triton 的通信融合编程模型，对称内存 + 信号同步，MoE 算子加速超 40 倍
+- [[AscendC]] — 华为昇腾的底层自定义算子语言，在 C/C++ 基础上裁剪扩展
+- [[CANN]] — 华为昇腾 AI 软件栈，triton-ascend 的底层依赖（社区版 9.0.0）
+- [[寒武纪]] — 国产 AI 芯片公司，全自研 BANG/BANG C/CNCC/MLISA/CNAS/BANGPy 工具链
+
+## Concepts (2026-10-15 新增（第二批）)
+- [[需求澄清]] — 模糊需求处理四步法：分类未知信息→结构化提问→提问做成工具→无人在场兜底
+- [[DiscoverableFacts]] — 代码库里能查到的事实，硬性规定"先探索后提问"
+- [[偏好与取舍]] — 代码里查不到且会改变结果的信息，唯一该拿去问用户的部分
+- [[AskUserQuestion]] — Claude Code 的提问工具：JSON Schema 锁死问法 + 复用权限审批通道挂起循环
+- [[Assumptions假设清单]] — 无法获得用户回答时按推荐项继续执行，并在交付物中逐条声明代做的假设
+- [[命令模式]] — 把每次状态变更封装为可序列化命令对象，支撑回放复现与免编译文本驱动
+- [[FatStruct]] — 单一 Thing 大结构体建模，"树就是狗"洞察下的唯一真理源
+- [[图像差分]] — 只把真正的像素差异与量化相似度喂给多模态模型，替代全图对比
+- [[无头模拟内核]] — 把模拟逻辑剥离图形引擎，做成可被测试与 Agent 直接注入指令的纯逻辑库
+- [[纯文本性能分析]] — 性能剖析工具应输出结构化文本而非图形火焰图，让 Agent 自治调优
+- [[上下文污染]] — 劣质信息（错误尝试/幻觉代码/无效日志/高分辨率截图）持续误导后续推理
+- [[外部化数据管理]] — 静态配置数据外置为 JSON/配置表，与逻辑解耦实现秒级热重载
+- [[Agent迭代飞轮]] — 游戏即 Harness 的闭环形态，把 Agent 迭代从数十分钟压缩到数秒
+- [[AI编译器]] — 把算子数学描述翻译成硬件最快机器码的软件系统
+- [[GPU架构]] — CPU vs GPU 三大区别：晶体管用途、SIMT 线程组织、规模与优化方向
+- [[GPU存储层级]] — 寄存器/L1共享内存/L2/显存，以及 TMA、线程块簇、张量内存等新增机制
+- [[MLIR]] — 多层中间表示与渐进式降级，方言体系解决 LLVM IR 抽象层次过低的问题
+- [[DSL]] — GPU 算子编程的五层抽象图谱：CuTe DSL/ThunderKittens → Triton → Helion → cuTile
+- [[TMA]] — Hopper 的异步张量内存加速器，显存与共享内存间直接搬运一维到五维张量
+- [[线程块簇]] — Hopper/CUDA 9.0 引入的线程组织层，用分布式共享内存拼出更大片上空间
+- [[张量内存]] — Blackwell 数据中心版专为第五代张量核心新增的 256KB 片上存储
+- [[访问合并]] — 让 warp 内 32 线程读连续地址以合并访存请求的 GPU 优化手段
+- [[算力红利]] — AI 算力结构性紧缺使"离硬件近"的岗位（AI 编译器/算子开发）成为高薪方向
+
+## 更新 (2026-10-15 第二批)
+- [[Codex]]（+Plan 模式未知信息二分法、request_user_input 线程限制与 elicitation 取消、Assumptions 兜底）、[[ClaudeCode]]（+AskUserQuestion 源码级拆解与"Never ask what you could find out by reading the code"；+通用 Harness 读不懂领域语义的短板）、[[Pi]]（+questionnaire 的 allowOther 与 TUI 检查）、[[计划模式]]（+AskUserQuestion 三条设计）、[[Harness]]（+游戏即 Harness 的领域定制论断）、[[HarnessEngineering]]（+领域定制 Harness 章节）、[[ContextEngineering]]（+接龙式重放机制、上下文污染、像素级污染案例）、[[确定性]]（增量合并游戏工程语境：固定随机种子与状态精确还原）、[[LLVM]]（+AI 场景抽象层次短板与 MLIR 补齐）、[[NVIDIA]]（+PTX/SASS/cubin 指令链与 Hopper/Blackwell 代际）、[[昇腾]]（+triton-ascend 与 CANN 9.0.0、Ascend C）、[[字节跳动]]（+ByteIR/Flux/TritonDistributed 算力底座开源项目）、[[Meta]]（+Helion）

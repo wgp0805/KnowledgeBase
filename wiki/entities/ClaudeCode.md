@@ -2,7 +2,7 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md, raw/01-articles/同事的 Claude Code 为什么比你的强？差的就是这4步.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md, raw/01-articles/Agent 的权限模式（Permission Mode）了解吗？.md]
+sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md, raw/01-articles/同事的 Claude Code 为什么比你的强？差的就是这4步.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md, raw/01-articles/Agent 的权限模式（Permission Mode）了解吗？.md]
 last_updated: 2026-10-15
 ---
 
@@ -84,6 +84,16 @@ Claude Code 的权限系统基于**模式路由**而非条件判断。从源码�
 - **规则体系**：权限规则分 allow/ask/deny，判定顺序先 deny 再 ask 后 allow，第一个命中者说了算；deny 在任何模式下都生效（含 bypassPermissions），任一配置文件写了 deny 其他文件的 allow 都放不开；对根目录等关键路径 rm 任何模式不自动放行；命令跑起来后规则管不到，靠 [[沙箱]] 限制文件与网络。详见 [[权限模式]]
 
 **优先级设计**：系统先检查 Hooks 是否配置了匹配当前操作的规则，命中则直接执行，不进入权限模式。Hook 覆盖不到的操作依然受权限模式兜底。
+
+### 作为通用 Harness 的短板：读不懂被改造对象的领域语义（2026-10-15，详见 [[摘要-你的游戏本身就是Harness]]）
+游戏工程师 Kyle Kukshtel 的判断：Claude Code、Cursor 这类通用 Harness 有一个致命短板——**它们根本无法与你的游戏内核对话**，游戏对它们是一个严密焊死的黑盒，LLM 唯一能看见的仅仅是代码编辑器里的文本字符，而非游戏的真实运行状态（大量状态存在于非代码资产中）。因此在游戏领域，通用 Harness 必须叠加"把对象本身改造成透明可寻址形态"的领域架构（[[Agent迭代飞轮]]），才能让迭代从数十分钟压缩到数秒。这条判断同样适用于其他领域专有系统。
+
+### 需求澄清与 AskUserQuestion（2026-10-15，详见 [[摘要-用户需求模糊时Agent怎么澄清]]）
+
+Claude Code 源码处理模糊需求的两条硬规则：
+
+1. **Never ask what you could find out by reading the code** —— 绝不要询问通过读取代码就能查明的事情。属于[[DiscoverableFacts]]（可发现的事实）的信息必须先调用只读工具扫一遍代码库；只有代码里查不到、且会改变最终结果的[[偏好与取舍]]才拿去问用户。即便搜索发现两套完全不同的鉴权模块，也要先有自己的判断，带着现成方案去问。
+2. **[[AskUserQuestion]] 把提问本身做成工具** —— 用 JSON Schema 锁死问法（最多 4 个问题打包一次提问、每题至少 2 个选项、推荐项置顶并标 Recommended、严禁模型自己生成 Other 选项），并**复用工具权限审批通道**：`requiresUserInteraction` 固定返回 true、`checkPermissions` 固定返回 `ask`，即使开启 `bypassPermissions`/自动模式也会被强制拦下；交互处理器创建未决 Promise 放进前端确认队列，Agent Loop 在 `await` 处自然挂起（不额外消耗 Token），用户提交后答案写入 `updatedInput.answers` 唤醒 Promise，组装成 `tool_result`（正文 "User has answered your questions"）回传模型继续推理。
 
 ### 上下文管理
 - `/compact`：压缩上下文，保留关键信息释放空间
@@ -373,3 +383,8 @@ Anthropic 在 v2.1.287 推出 **Claude Mods**：用 TypeScript/JavaScript 进程
 - [[摘要-手搓claude-code-面试]] — 12 层架构手搓 Claude Code 的面试纪实来源
 - [[摘要-claude-code-8问最狠难题怎么破]] — Skill/MCP/代码图谱八大排障来源
 - [[摘要-claude-code四步差距]] — 来源（四件套工程化与判断权边界）
+- [[摘要-用户需求模糊时Agent怎么澄清]] — 来源（AskUserQuestion 源码级拆解）
+- [[需求澄清]] — 模糊需求处理方法论
+- [[AskUserQuestion]] — 提问工具实现（Schema 约束 + 权限通道挂起）
+- [[DiscoverableFacts]] — "Never ask what you could find out by reading the code"
+- [[偏好与取舍]] — 唯一应该拿去问用户的信息类型

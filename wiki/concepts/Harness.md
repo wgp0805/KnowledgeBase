@@ -7,7 +7,8 @@ sources:
   - raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md
   - raw/01-articles/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md
   - raw/01-articles/2026-10-13-这 6 本 GitHub 上的开源 AI 宝典，那是相当有真东西。.md
-last_updated: 2026-10-14
+  - raw/09-archive/你的游戏本身就是 Harness ：如何让 AI Agent 读懂游戏并十倍加速迭代？ - leikooo.md
+last_updated: 2026-10-15
 ---
 
 ## 定义
@@ -50,6 +51,11 @@ Harness 是指 AI Agent 中模型之外的一切基础设施层，包括工具�
 ### 开源教材论断：Harness 才是竞争力（2026-10）
 《深入理解 AI Agent：设计原理与工程实践》（4.9 万 Star 开源教材，详见 [[深入理解AIAgent]]）全书围绕 **Agent = LLM + 上下文 + 工具** 展开，核心立场是**模型之外的工程能力 Harness 才是竞争力所在**——上下文工程、记忆、Tool、多 Agent 协作等 Harness 能力被提升到与模型并列的位置（来源：[[摘要-github开源ai宝典6本]]）。
 
+### 领域定制 Harness：你的游戏本身就是 Harness（2026-10-15，详见 [[摘要-你的游戏本身就是Harness]]）
+通用 Harness 的致命短板是**无法与被改造对象的内核对话**——游戏对 Claude Code、Cursor 这类工具就是一个焊死的黑盒，模型只能看见编辑器里的文本，而游戏的真实运行状态大量存在于非代码资产中。Kyle Kukshtel 的结论是：让 LLM 胜任游戏开发本质上是**上下文工程问题**，解法是**把游戏本身做成 Harness**——用 [[确定性]]、[[FatStruct]]、[[命令模式]]、[[外部化数据管理]]、[[无头模拟内核]]、[[图像差分]]、[[纯文本性能分析]] 七条原则把游戏内部变得对模型处处透明、处处可寻址，最终串成 [[Agent迭代飞轮]]，把一次 Agent 迭代从数十分钟压到数秒。
+
+这条论断与下方"Harness 才是竞争力"的主张同向：**模型之外的工程能力才是差异化所在**，只不过这里把 Harness 的外延从"围绕模型搭外壳"推进到了"改造被操作对象本身"。
+
 ## 关联连接
 - [[DeepSeekHarness]] — DeepSeek 原生 Harness 实现
 - [[PaiCLI]] — 开源终端 Agent Harness 实现
@@ -68,3 +74,7 @@ Harness 是指 AI Agent 中模型之外的一切基础设施层，包括工具�
 - [[harness-architecture-comparison]] — Harness 架构分类与 Agent 选型综合对比
 - [[深入理解AIAgent]] — 4.9 万 Star 开源教材（Agent = LLM + 上下文 + 工具）
 - [[摘要-github开源ai宝典6本]] — 教材推荐来源
+- [[摘要-你的游戏本身就是Harness]] — 来源（领域定制 Harness：游戏即 Harness）
+- [[Agent迭代飞轮]] — 七条游戏工程原则串联后的闭环
+- [[KyleKukshtel]] — 该论断提出者
+- [[上下文污染]] — 通用 Harness 在领域场景失效的根因之一

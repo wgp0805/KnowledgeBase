@@ -8,6 +8,7 @@ sources:
   - raw/01-articles/2026-08-15-为什么越来越多人用 Pi ？ - 苏三说技术.md
   - raw/01-articles/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md
   - raw/01-articles/Agent 的权限模式（Permission Mode）了解吗？.md
+  - raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md
 last_updated: 2026-10-15
 ---
 
@@ -72,6 +73,11 @@ Pi 是由 [[MarioZechner]]（[[libGDX]] 创始人）创建的开源终端 AI 编
 - 真想要审批就自己写扩展：仓库提供 `permission-gate.ts` 示例，遇到 rm -rf、sudo、chmod 777 会弹窗确认
 - 与 Claude Code 的 deny 规则+分类器路线形成对照，两种哲学的共通点是"权限弹窗不等于安全"，详见 [[权限模式]] 与 [[沙箱]]
 
+### questionnaire 问卷扩展工具（2026-10-15，详见 [[摘要-用户需求模糊时Agent怎么澄清]]）
+- Pi 的 `questionnaire` 是向用户提问的问卷扩展工具，设计上与 Claude Code 的 [[AskUserQuestion]] 同源：**默认开启 `allowOther`**，自动在选项列表最后追加一项 "Type something"，用户既能选推荐项也能输入自己的想法
+- **执行前先检查当前模式是不是 TUI**，不是就直接报错返回——从工具层堵住"后台/无头场景没人能回答却还在提问"的僵局
+- 与 Pi「无内置权限系统」的立场一致：提问能力靠扩展补齐，而非写进核心运行时
+
 ## 关联连接
 - [[MarioZechner]] — 创始人
 - [[libGDX]] — 创始人背景项目
@@ -89,3 +95,8 @@ Pi 是由 [[MarioZechner]]（[[libGDX]] 创始人）创建的开源终端 AI 编
 - [[摘要-agent-permission-mode深度解析]] — 无内置权限系统的安全立场来源
 - [[权限模式]] — 权限模式总概念（Pi 是"资源边界而非弹窗"一派）
 - [[沙箱]] — Pi 官方推荐的安全边界载体
+- [[摘要-用户需求模糊时Agent怎么澄清]] — questionnaire 设计来源
+- [[AskUserQuestion]] — 同源设计的提问工具（Claude Code）
+- [[需求澄清]] — 模糊需求处理方法论
+- [[偏好与取舍]] — 问卷工具收集的信息类型
+- [[Assumptions假设清单]] — 无人在场时的兜底交付物
