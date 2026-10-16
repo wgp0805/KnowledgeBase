@@ -1448,6 +1448,7 @@
 - [[openspec-team-sync-personal-use]] — OpenSpec 个人使用时同事代码更新后的 Spec 同步策略：拉取即核对纪律、Delta Spec 补录、分级处理
 - [[project-analysis-planning-tool-selection]] — 结合项目分析的需求规划工具选型：GSD Core（map-codebase）/SpecSuperflow/OpenSpec/SpecKit/Trellis 横向对比
 - [[java-mail-read-implementation]] — Java 项目实现读取邮件功能：IMAP 协议选型、Spring Boot 配置、Jakarta Mail 代码示例、生产环境注意事项
+- [[speckit-usage-guide-with-openspec-comparison]] — SpecKit 使用教程（OpenSpec 命令对照版）：七阶段流水线、安装、订单导出实战示例与选型组合建议
 
 ## Sources (2026-08-25 新增)
 - [[摘要-docker-frp-内网穿透]] — Docker + FRP 内网穿透实操：frps/frpc 架构、token 认证、--network host、五大优势与工具对比

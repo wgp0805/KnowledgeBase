@@ -1900,3 +1900,7 @@
 
 ## [2026-10-16] query | SpecKit 使用教程（以 OpenSpec 为对照）
 - **输出**: 即时回答未保存；引用 [[SpecKit]]、[[OpenSpec]]、[[摘要-superpowers-openspec-speckit对比]]、[[claude-code-增强框架对比]]、[[agent-spec-framework-comparison-and-matt-skills-workflow]]、[[规范驱动开发]]、[[delta-spec]]（wiki 无 SpecKit 分步教程页，步骤细节部分为通用知识补充并已在回答中声明）
+
+## [2026-10-16] query | 固化 SpecKit 使用教程为 synthesis
+- **变更**: 新增 [[speckit-usage-guide-with-openspec-comparison]]（syntheses 页，含 OpenSpec 命令对照表/安装/订单导出实战/选型建议）；更新 [[index.md]]（Syntheses +1）
+- **冲突**: 无
