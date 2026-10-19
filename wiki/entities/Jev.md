@@ -9,6 +9,8 @@ last_updated: 2026-10-08
 ## 定义
 Jev是由前OpenAI研究员Diogo Almeida创办的TypeSafe AI发布的判断模型，不生成文本只输出结构化决策。被称为System One Model（快思考），70-500ms返回结果，比LLM快193倍、便宜444倍，输出Token永久免费。
 
+> ⚠️ **同名区分**：本库另有开源安卓应用「Jev 聊天助手」（github.com/jev-chat/jev-chat-jarvis，见 [[JevChatJarvis]]），与本页 TypeSafe AI 的判断模型**同名不同物**，勿混淆。
+
 ## 关键信息
 - **三种能力**：Choice（候选项选择）、Score（打分）、Noul（概率判断）
 - **训练方法**：RLCD（Reinforcement Learning for Calibrated Decisions，面向校准决策的强化学习）
@@ -59,3 +61,4 @@ Jev是由前OpenAI研究员Diogo Almeida创办的TypeSafe AI发布的判断模�
 - [[GitHub定律]] — 该案例所属的行业规律
 - [[摘要-Jev爆火对具身智能影响分析]] — Jev 爆火对具身智能影响的分析来源
 - [[摘要-大厂后训练视角看Jev模型更新]] — 后训练视角拆解 RLCD/RLHF 演进的来源
+- [[JevChatJarvis]] — ⚠️ 同名不同物：安卓开源聊天助手（github.com/jev-chat/jev-chat-jarvis），与本页判断模型无关
