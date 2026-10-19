@@ -1,9 +1,9 @@
 ---
 title: "卡尔的AI沃茨"
 type: entity
-tags: [作者, AI测评, 豆包, Agent, 实测]
-sources: [raw/01-articles/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md, raw/01-articles/2026-10-13-开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病.md]
-last_updated: 2026-10-14
+tags: [作者, AI测评, 豆包, Agent, 实测, PersonalAgent]
+sources: [raw/01-articles/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md, raw/01-articles/2026-10-13-开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病.md, raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md]
+last_updated: 2026-10-19
 ---
 
 ## 定义
@@ -17,6 +17,8 @@ last_updated: 2026-10-14
 - **合著者**：yc 星辰
 - **红绿灯提示语（2026-10-13，详见 [[摘要-红绿灯提示语]]）**：针对"Agent 永远不会主动说做完了"手搓不到 300 字进度提示语——🟢绿灯=原始需求有未达项（顺手改进只记搁置）、🟡黄灯=原始需求已达成且超出项能构成带证据的后续计划（落盘 plan/handoff 等人决策）、🔴红灯=原始需求已达成但超出项零散（三行存档结束）；可配 hook 每对话自动生效、不依赖 skill。核心论点：Agent 每轮推荐下一步本身就是认知陷阱，"每一种强大的能力背后都跟着一个制动装置"
 - **GoodCase.ai**：作者做的 AI 提示语案例库（1700+ 案例，人工打分 + Claude/Codex/DeepSeek 三模型自动评估校准），用于 AI 视频生成质量测评档位参考（详见 [[GoodCaseAI]]）
+- **四大 Personal Agent 实测（2026-10-16，与 yc 星辰合著，详见 [[摘要-四大personal-agent实测33委托率]]）**：两周 300 多刀订阅费（Muse 100/ChatGPT Pro 200/Manus 40/Grok 100）实测 Google Muse、Grok Bot、OpenAI Dots、Manus Cue 跑 12 个自媒体平台，**可委托率仅 33%**（两个月前 0%）；给出 3 个可复制提示语——[[多任务进度条]]（进度表防谎报防吞任务）、[[六道门验证]]（六道机检关卡 + 只读硬约束防编造数据）、融合日报（信息源五段结构输出飞书）；架构为"云端 Personal Agent + 本机 Codex"，判断 Personal Agent 现阶段是本地 Agent 的补充
+- **提示语三件套关系**：红绿灯（收尾刹车）→ 多任务进度条（过程可见）→ 六道门（结果可信）
 
 ## 关联连接
 - [[摘要-doubao-seed-2-1-pro-0915实测]] — 来源
@@ -30,5 +32,12 @@ last_updated: 2026-10-14
 - [[摘要-红绿灯提示语]] — 2026-10-13 红绿灯提示语（来源）
 - [[红绿灯提示语]] — 提出的方法论
 - [[GoodCaseAI]] — 作者的提示语案例库
+- [[摘要-四大personal-agent实测33委托率]] — 2026-10-16 四款 Personal Agent 实测（来源）
+- [[多任务进度条]] — 实测产出的提示语一
+- [[六道门验证]] — 实测产出的提示语二
+- [[Dots]] — 实测四款之一
+- [[GrokBot]] — 实测四款之一
+- [[Manus]] — 实测四款之一（Cue）
+- [[personal-ai-agent]] — 实测所属赛道
 - [[ClaudeCode]] — 作者日常使用窗口/案例库评估模型
 - [[Codex]] — 作者日常使用窗口/案例库评估模型
