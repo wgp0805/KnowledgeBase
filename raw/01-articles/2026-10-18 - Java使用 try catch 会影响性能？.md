@@ -14,7 +14,7 @@ parse_status: "ok"
 
 第一时间收到文章更新
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smrrpxwUhoACUWduQHDB0icyTIibzRh3sL1Rzszxy8OyFOR3ohMnQnpiaCk4H1JoH8YBsyHsEAibSrCj6mhLr5gEFdo8wO81b3ziaKAs/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-18%20-%20Java%E4%BD%BF%E7%94%A8%20try%20catch%20%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%80%A7%E8%83%BD%EF%BC%9F/707ad88c75837f25e55b8e069580bd0c_MD5.png)
 
 **在线 Java 面试刷题（已更新334题，图文并茂）**：https://www.quanxiaoha.com/java-interview
 
@@ -105,7 +105,7 @@ Exception table `from=0` ，  `to=5` 。指令 0~5 对应的就是 try 语句包
 
 如图所示为去掉  `try catch`  后的指令篇幅，几乎等同上述指令的前五条。
 
-![去掉 try catch 后的指令篇幅](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLFwEJYJBicazRvTklIERBKICae02mzw06dCKbeuNknAD18yYuTSc3nZDqKZaxkvAkLc9WuicSTlWEIw/640?wx_fmt=png)
+![去掉 try catch 后的指令篇幅](assets/2026-10-18%20-%20Java%E4%BD%BF%E7%94%A8%20try%20catch%20%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%80%A7%E8%83%BD%EF%BC%9F/c4f22c43c61843b85b885213dbd341be_MD5.png)
 
 去掉 try catch 后的指令篇幅综上所述：**"Java 中使用 try catch 会严重影响性能" 是民间说法，它并不成立。** 如果不信，接着看下面的测试吧。
 
@@ -131,7 +131,7 @@ PS * JVM 自己根据宿主机决定自己的运行模式， "JVM 运行模式"�
 
 混合模式为：解释模式和编译模式搭配使用。
 
-![JVM 运行于 Server 模式](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLFwEJYJBicazRvTklIERBKICS4tRXzCCmhBI2XqrSh70ZkheYib6AQsAzmkwOZibyD9qDIWTeD7WbcpQ/640?wx_fmt=png)
+![JVM 运行于 Server 模式](assets/2026-10-18%20-%20Java%E4%BD%BF%E7%94%A8%20try%20catch%20%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%80%A7%E8%83%BD%EF%BC%9F/1a4610a14e95609c49d461877b779efe_MD5.png)
 
 JVM 运行于 Server 模式如图，我的环境里 JVM 运行于 Server 模式，如果使用即时编译，那么就是使用的：C2 即时编译器。
 
@@ -381,7 +381,7 @@ public class ExecuteTryCatch {
 -XX:-BackgroundCompilation
 ```
 
-![解释模式测试结果](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLFwEJYJBicazRvTklIERBKICfAeg9njvsibOjvm625npKcmh7xpvA4OdhdVgwiatOIXBfrU9HTfF7icbA/640?wx_fmt=png)
+![解释模式测试结果](assets/2026-10-18%20-%20Java%E4%BD%BF%E7%94%A8%20try%20catch%20%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%80%A7%E8%83%BD%EF%BC%9F/282093c253c9b06cf8aed5cece6d19e5_MD5.png)
 
 结合测试代码发现，即使百万次循环计算，每个循环内都使用了  `try catch`  也并没用对造成很大的影响。
 
@@ -401,11 +401,11 @@ public class ExecuteTryCatch {
 
 执行结果如下图，难分胜负，波动只在微秒级别，执行速度也快了很多，编译效果拔群啊，甚至连 "解释模式" 运行时多个  `try catch`  导致的，多个 goto 跳转带来的问题都给顺带优化了；由此也可以得到  `try catch`  并不会影响即时编译的结论。
 
-![编译模式测试结果](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLFwEJYJBicazRvTklIERBKIC2OsuZ7Iek1A1EuAadgRVcukEiaK5bgvZrbibJ9BLF2NPficib5mu2icZvSA/640?wx_fmt=png)
+![编译模式测试结果](assets/2026-10-18%20-%20Java%E4%BD%BF%E7%94%A8%20try%20catch%20%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%80%A7%E8%83%BD%EF%BC%9F/0f9e51125d52d23f0ff3e55972530b24_MD5.png)
 
 编译模式测试结果我们可以再上升到亿级计算，依旧难分胜负，波动在毫秒级。
 
-![亿级计算测试结果](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLFwEJYJBicazRvTklIERBKICOY2ztGxJ3Bdqf4Vgbdz4xhLUXiaDKtmZSoujZBTWAxBsCo9N2gBDYKg/640?wx_fmt=png)
+![亿级计算测试结果](assets/2026-10-18%20-%20Java%E4%BD%BF%E7%94%A8%20try%20catch%20%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%80%A7%E8%83%BD%EF%BC%9F/cdc9edc629ad110ced87d0879e3b4c31_MD5.png)
 
 亿级计算测试结果
 
@@ -466,7 +466,7 @@ public static void main(String[] args){
 
 调用方法百万次，执行结果如下：
 
-![百万次调用执行结果](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLFwEJYJBicazRvTklIERBKICjrxTsjibErOOGJqibibkjhbPZAjmwe0fdF8U0kzO3JDt3yHlXGNBvwdFQ/640?wx_fmt=png)
+![百万次调用执行结果](assets/2026-10-18%20-%20Java%E4%BD%BF%E7%94%A8%20try%20catch%20%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%80%A7%E8%83%BD%EF%BC%9F/3ff5da32226277126b44906878d0ead9_MD5.png)
 
 百万次调用执行结果经过这个例子，我想你知道你该如何 编写你的代码了吧？可怕的不是  `try catch`  而是 搬砖业务不熟练啊。
 
@@ -481,9 +481,9 @@ public static void main(String[] args){
 
 截止目前，**累计输出 150w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4900+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&retryload=1&tp=webp#imgIndex=1)
+![图片](assets/2026-10-18%20-%20Java%E4%BD%BF%E7%94%A8%20try%20catch%20%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%80%A7%E8%83%BD%EF%BC%9F/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLEdM2gtRgy5eLztKXrUhee76MZ9wAicNPicsnAHPibicaSHUVqFkkibxWlrGO0acUxQmycZpqCNGcibaicxA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&retryload=1&tp=webp#imgIndex=6)
+![图片](assets/2026-10-18%20-%20Java%E4%BD%BF%E7%94%A8%20try%20catch%20%E4%BC%9A%E5%BD%B1%E5%93%8D%E6%80%A7%E8%83%BD%EF%BC%9F/b01fd91d58faf9455f8fbb5c64bb22f0_MD5.webp)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~
