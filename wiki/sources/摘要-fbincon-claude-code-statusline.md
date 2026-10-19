@@ -45,8 +45,6 @@ last_updated: 2026-10-19
 ## 关联连接
 - [[ClaudeCodeStatusline]] — 本文介绍的工具实体
 - [[ClaudeCode]] — 宿主工具
-- [[摘要-claude-code-statusline]] — 同主题既有摘要（ccstatusline/claude-hud，不同工具）
-- [[ccstatusline]] — 既有摘要介绍的状态栏工具
-- [[claude-hud]] — 既有摘要介绍的状态栏工具
+- [[摘要-claude-code-statusline]] — 同主题既有摘要（介绍 ccstatusline/claude-hud 两款工具，与本文工具不同）
 - [[Subagent]] — 子 Agent 状态行展示对象
 - [[Hooks]] — 工具接入 Claude Code 的机制之一
