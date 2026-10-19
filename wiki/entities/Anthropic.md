@@ -10,7 +10,8 @@ sources:
   - raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md
   - raw/01-articles/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md
   - raw/01-articles/2026-10-03-一年前说 PM 会被淘汰，现在 Anthropic 说：人人都得学会当 PM.md
-last_updated: 2026-10-08
+  - raw/01-articles/2026-10-16-Claude负责人这篇万字长文，彻底颠覆了我的 AI 用法，附提示词！.md
+last_updated: 2026-10-19
 ---
 
 ## 定义
@@ -51,6 +52,8 @@ Anthropic 发布对 [[智谱]] [[GLM-5.3]] 的网络安全评估：五个月前 
 - **边界提醒**：这是模型公司的内部视角——Anthropic 有 foundations 团队统一底层、有实验室把项目停放进 eval harness 等新模型，多数公司没有这种余量
 
 ## 关联连接
+- [[FelixRieseberg]] — 工程主管，2026-10 万字长文《Be More Ambitious》作者
+- [[摘要-野心提问法-felix长文]] — 其长文的拆解来源
 - [[摘要-anthropic-人人都得学会当pm]] — 来源（PM 角色对谈）
 - [[Agent原生软件]] — Mike 提出的 agent-native/primitives 设计观
 - [[产品经理角色]] — 对谈讨论的角色概念
