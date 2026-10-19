@@ -33,7 +33,8 @@ sources:
   - raw/01-articles/2026-10-12-WorkBuddy 把小程序门槛打没了，下一个问题是谁来付钱.md
   - raw/01-articles/2026-10-13-WorkBuddy 自动签到：不开机也能 7×24 白嫖 100 积分天！.md
   - raw/01-articles/2026-10-14-WorkBuddy大更新，上线浏览器操控能力.md
-last_updated: 2026-10-15
+  - raw/01-articles/2026-10-16-企业微信的上下文，正在成为WorkBuddy的重要优势.md
+last_updated: 2026-10-19
 ---
 
 ## 定义
@@ -375,3 +376,6 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - [[金山文档]] — 签到脚本托管平台
 - [[晓庄AI创业笔记]] — 签到方案作者
 - [[摘要-workbuddy浏览器操控能力]] — 2026-10-14 浏览器操控能力 Beta（三哥）
+- [[摘要-workbuddy企业微信打通]] — 2026-10-16 与企业微信深度打通（怪哥）
+- [[驻场顾问]] — 企微打通提炼的角色范式
+- [[腾讯]] — 企业微信与 WorkBuddy 的共同 parent

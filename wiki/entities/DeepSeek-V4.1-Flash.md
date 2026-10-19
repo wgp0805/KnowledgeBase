@@ -1,9 +1,9 @@
 ---
 title: "DeepSeek V4.1-Flash"
 type: entity
-tags: [DeepSeek, V4.1-Flash, 国产模型, Harness]
-sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md]
-last_updated: 2026-10-13
+tags: [DeepSeek, V4.1-Flash, 国产模型, Harness, 模型更新, 搜索API]
+sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, raw/01-articles/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md]
+last_updated: 2026-10-19
 ---
 
 ## 定义
@@ -47,9 +47,19 @@ DeepSeek 技术文件核心观点：
 - 通过 OpenAI 兼容端点 + `stream: true` 即可获得 SSE 流式输出，首字延迟 < 100ms
 - `thinking: { type: 'enabled' | 'disabled' }` 开关控制深度思考；`reasoning_content` 字段返回思维链，可做可折叠推理面板
 - `temperature` 0.4 偏确定性；未设 `max_tokens` 时非思考模式默认 8K、思考模式 64K
-- 该项目已作为"桌面 AI 流式会话模板"对外售卖，反映该模型在个人开发者中的普及度
+- 该项目已作为“桌面 AI 流式会话模板”对外售卖，反映该模型在个人开发者中的普及度
+
+### 1017 版本更新（2026-10-17，详见 [[摘要-deepseek-v41-flash-1017]]）
+- **版本号**：V4.1-Flash-1017，网页端/APP/API 同步变更；权重开源（HuggingFace/ModelScope `deepseek-ai/DeepSeek-V4.1-Flash-1017`）
+- **性能–费用帕累托改进**：基准提升同时任务运行时间与输出长度同步缩短，在多个 Harness 下达新的帕累托最优；**重点适配 DeepSeek Harness、腾讯 [[CodeBuddy]]、[[WorkBuddy]]**（需 DeepSeek Harness 0.2.1-rc.1+）
+- **许愿式编程**：基于自反馈的强化学习（RL）增强从零构建 3D 建模、游戏等完整项目能力——四例演示（故宫 3D 建模、网页赛车游戏、Godot 复刻《传送门2》、Valley of Ages）均少提示词、极短交互轮次完成（详见 [[许愿式编程]]）
+- **Search/Fetch API 开放**：自研 AI 原生搜索引擎（千亿级网页索引，过滤 SEO 作弊/GEO 操纵/低质 AIGC）的两个接口对外开放，**5 元/千次**；当前在 DeepSeek Harness/Claude Code/Codex 走 Server 端工具调用暂不计费，**2026-11-01 00:00 起按次收费**
 
 ## 关联连接
+- [[摘要-deepseek-v41-flash-1017]] — 2026-10-17 来源（1017 版本：帕累托改进、许愿式编程、搜索 API 开放）
+- [[许愿式编程]] — 1017 版本支撑的开发方式概念
+- [[CodeBuddy]] — 1017 点名优化的腾讯框架
+- [[AgenticSearch]] — Search/Fetch 接口服务的场景
 - [[摘要-deepseek-v4-1-flash-harness横评]] — 来源
 - [[DeepSeek-V4]] — V4 系列
 - [[DeepSeek]] — 母公司
