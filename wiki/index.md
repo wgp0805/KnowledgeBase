@@ -3065,3 +3065,37 @@
 
 ## 更新 (2026-10-16)
 - [[MySQL]]（+9.7.0 LTS 章节：8 年支持周期、企业版功能下放清单、向量搜索缺失、旧变量移除升级提示）、[[Oracle]]（+MySQL 出品方与 HeatWave 独占说明）、[[苏三]]（+MySQL 9.7 文章来源）
+
+## Sources (2026-10-19 ingest)
+- [[摘要-产品策略四大模块与竞品分析]] — 产品策略四模块（定位/产品屋/矩阵/生命周期）+ 洞察·营销·输出全流程与 FAB/POD/POP 竞品分析（藏锋）
+- [[摘要-fbincon-claude-code-statusline]] — fbincon 的 claude-code-statusline 工具：v3 npm/TypeScript 重构、主栏 60 项 + 子 Agent 行 14 项、三配置入口
+- [[摘要-为什么越来越多人用MinerU]] — RAG 上限在文档解析层；MinerU 4.0 定位器（Locator）、四档解析、渐进式读取与 Java HTTP 集成（苏三）
+- [[摘要-try-catch性能实测]] — 异常表机制 + 解释/编译双模式基准：未抛异常时 try catch 近乎零开销（小哈）
+- [[摘要-deepseek-v41-flash-1017]] — 1017 版本：性能-费用帕累托改进、自反馈 RL 支撑许愿式编程、Search/Fetch API 开放（5 元/千次，11-01 起计费）
+- [[摘要-四大personal-agent实测33委托率]] — 四款 Personal Agent 两周 300 刀实测可委托率 33%，附多任务进度条/六道门/融合日报三个提示语（卡尔的AI沃茨）
+- [[摘要-workbuddy企业微信打通]] — WorkBuddy×企微一句话闭环实测：检索讨论→改 PRD→关联埋点→同步回群，外部顾问→驻场顾问（怪哥）
+- [[摘要-野心提问法-felix长文]] — 拆解 Felix Rieseberg 万字长文：高度/深度/广度三维度 + 黄金深度提示词 + 自我效能感与审查成本冷思考（老章）
+- [[摘要-github三个开源项目-text-to-cad]] — text-to-cad（Agent CAD 建模 Skill）、pdoom-video（MV 制作开源）、Jev 聊天助手（安卓）（程序汪）
+
+## Entities (2026-10-19 新增)
+- [[FelixRieseberg]] — Anthropic 工程主管，Be More Ambitious 长文作者
+- [[ClaudeCodeStatusline]] — fbincon 的 Claude Code 状态栏工具（v3 npm 版）
+- [[藏锋]] — 产品策略方向作者（策略人藏锋）
+- [[TextToCad]] — 给 Agent 加 CAD 建模能力的开源插件与 Skill
+- [[PdoomVideo]] — Claude Code 协作完成的开源音乐 MV 项目
+- [[JevChatJarvis]] — 安卓开源聊天回复建议应用（与判断模型 Jev 同名不同物）
+
+## Concepts (2026-10-19 新增)
+- [[产品定位]] — 三决策：切细分市场/打差异化/占心智，须落在品牌定位之下
+- [[产品屋]] — 定位→心智→论点→论据→落地五层信息闭环，产品三层价值（功能/情感/人设）
+- [[产品矩阵]] — 组合宽/长/深三维度 + 引流/利润/形象/防御/测试五角色与协同检查
+- [[产品生命周期]] — 四判据定阶段、四阶段策略，接棒窗口在成熟期中段
+- [[野心提问法]] — 高度/深度/广度三维度向模型提问的方法论（老章拆解 Felix 长文）
+- [[自我效能感]] — 解释"不敢放手想象"的心理学概念（丹齐格/班尼斯特/林纳斯三案例）
+- [[驻场顾问]] — Agent 从外部顾问进化为自行查上下文、关键操作找人确认的企业角色
+- [[许愿式编程]] — 极少提示词从零构建完整项目，DeepSeek 1017 自反馈 RL 支撑
+- [[多任务进度条]] — Personal Agent 进度表提示语：执行端/状态/证据/下一步，反谎报防吞任务
+- [[六道门验证]] — Computer Use 采集六道机检关卡 + 只读硬约束，不编造数据
+
+## 更新 (2026-10-19)
+- [[MinerU]]（+4.0 章节：定位器/四档解析/渐进式读取/Java HTTP 集成/优缺点场景表）、[[DeepSeek-V4.1-Flash]]（+1017 版本：帕累托改进、许愿式编程、Search/Fetch API 计费节点）、[[WorkBuddy]]（+企微深度打通：一句话闭环实测与驻场顾问范式）、[[Dots]]（+33% 委托率实测的单对话框/单机绑定/登录态复用缺陷）、[[GrokBot]]（+无本地 Computer Use 短板实测）、[[Manus]]（+Cue 无本地 Computer Use 实测）、[[卡尔的AI沃茨]]（+四款 Personal Agent 实测与提示语三件套）、[[怪哥]]（+企微打通体验与驻场顾问判断）、[[老章]]（+野心提问法拆解）、[[程序汪]]（+GitHub 三开源项目盘点）、[[苏三]]（+MinerU 4.0 文章来源）、[[小哈]]（+try catch 性能实测来源）、[[Anthropic]]（+Felix Rieseberg 关联）、[[Jev]]（+同名不同物消歧说明）、[[POD与POP]]（+3C/FAB 竞品分析与 POD 壁垒判据）
