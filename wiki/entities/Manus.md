@@ -2,8 +2,8 @@
 title: "Manus"
 type: entity
 tags: [AI产品, Agent, 通用Agent, PersonalAgent, 创业公司]
-sources: [raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md]
-last_updated: 2026-10-08
+sources: [raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md, raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md]
+last_updated: 2026-10-19
 ---
 
 ## 定义
@@ -30,7 +30,13 @@ Manus 是定位 General Agent（通用 Agent）的 AI 产品，2025 年 3 月上
 - Manus 走火还带火了 OWL 等原有项目：老项目找到新的介绍方式被更多人看到
 - 复刻与被复刻的关系印证 [[GitHub定律]]：代码不再稀缺，判断力/品味/渠道才是差距
 
+## 四款 Personal Agent 实测中的 Cue（2026-10-16，详见 [[摘要-四大personal-agent实测33委托率]]）
+- 作者两周花 300 多刀（含 Manus 40 刀）实测四款，12 个平台可委托率仅 33%
+- **Cue 没有控制本地的 Computer Use 能力**（与 Grok Bot 同短板）——无法用 Computer Use 抓取需要本机登录态的国内平台后台数据
+- 该文对整个赛道的判断：除非 Agent 记住所有账号密码 API，否则云端 Personal Agent 会陷入不可能三角；现阶段是本地 Agent 的补充
+
 ## 关联连接
+- [[摘要-四大personal-agent实测33委托率]] — 来源（Cue 无本地 Computer Use 实测）
 - [[摘要-Manus2通用Agent]] — 来源（2.0 深度评测）
 - [[摘要-豆包Spell对标Muse]] — 来源（竞争格局）
 - [[摘要-腾讯四款muse产品盘点]] — 来源（腾讯入股与 Cue 对标信息）
@@ -42,3 +48,5 @@ Manus 是定位 General Agent（通用 Agent）的 AI 产品，2025 年 3 月上
 - [[Spell]] — 字节对标产品
 - [[摘要-github定律-openxxx复刻]] — 来源（OpenManus 同日复刻案例）
 - [[GitHub定律]] — 该案例所属的行业规律
+- [[卡尔的AI沃茨]] — 实测作者
+- [[多任务进度条]] — 实测者配套的提示语方法论

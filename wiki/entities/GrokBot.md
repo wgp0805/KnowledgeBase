@@ -2,8 +2,8 @@
 title: "GrokBot"
 type: entity
 tags: [AI产品, Agent, xAI]
-sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, "raw/01-articles/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md"]
-last_updated: 2026-10-12
+sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, "raw/01-articles/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md", raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md]
+last_updated: 2026-10-19
 ---
 
 ## 定义
@@ -22,6 +22,7 @@ Grok Bot 是 2026 年 8 月 11 日以 Early Beta 形式推出的 AI Agent 产品
 - **"数字员工队伍"路线解读（2026-10-01）**：与 dots 的差别不只是数量——dots 强调一个 primary dot 学会整体偏好，Grok Bot 更像组织设计：研究/销售/运营等角色各自积累上下文，稳定流程保存为技能并按计划重跑；同一账户的 Bots 共用一台云端电脑（文件、浏览器会话、应用登录共享）而对话与学习上下文彼此分开，共享利于交接但要求用户理解数据边界；草稿发送等动作需用户批准；可运行于 macOS/Windows/Linux/iOS/Android，**包含在付费 Cursor 个人与团队计划中**，也可绑定部分个人 SuperGrok 订阅；在 [[默认委托权]] 争夺中代表"多角色数字员工队伍"路线（详见 [[摘要-personal-agent六条海外路线]]）
 - **六助理"AI 团队"实战（2026-10-05，小普，详见 [[摘要-grok-bot-六助理ai团队]]）**：作者建 6 个分工 Bot 拉群互派活——小普总管（日程/排期/待办，助理冲突由它拍板）、责编（书稿）、AI PM（课程数据）、IP 助理（平台数据催产出）、产品开发、AI 极客（每天 9:25 自动日报、每小时盯官宣）；用一份 4000 多字《群规与人设》当**第一指令**（即六助理的 system prompt，存为长期记忆），人设带小心思与四对冤家关系，群规控制 token（正事被点名先回/结论先行三五行/拌嘴一天最多三场每场八条；0:30-9:00 只许催睡）；关键教训：总管"不报事不发言"立完群里就冷场——规则写完不是一劳永逸；一人管多线的入口理想是"只有一个入口，其他软件全退到后台被它调用"，国内拦路虎是生态（微信/淘宝不愿当别人后台，豆包手机助手即被限制）与责任（Agent 付错钱谁赔）
 - **开源平替出现（2026-10-09）**：[[Rakazo]]（elie222/rakazo）被称为 "Grok Bot 的开源平替"，另有 OpenMausBot（milind-soni/OpenMausBot）；Rakazo 每个 Bot 有独立对话/记忆/例行任务/工作历史，支持多 Bot 分工与临时子 Agent、模型与电脑环境自选、后端常驻服务器持续工作（详见 [[摘要-personal-agent-open-source-alternatives]]）
+- **四款委托率实测中的表现（2026-10-16，卡尔的AI沃茨，详见 [[摘要-四大personal-agent实测33委托率]]）**：300 多刀/两周实测四款 Personal Agent，可委托率仅 33%；Grok Bot 的关键短板是**没有控制本地的 Computer Use 能力**（用的是命令行交互，Computer Use 压根不生效）——而这恰是采集国内平台后台数据的刚需；相较之下它"可分多个 agent 共享一台电脑"的多任务能力被肯定，作者的 [[多任务进度条]] 提示语即借鉴其分 agent 组织方式
 
 ## 关联连接
 - [[摘要-personal-agent-open-source-alternatives]] — 来源（开源平替 Rakazo/OpenMausBot）
@@ -46,3 +47,6 @@ Grok Bot 是 2026 年 8 月 11 日以 Early Beta 形式推出的 AI Agent 产品
 - [[默认委托权]] — 六条路线争夺的目标
 - [[摘要-grok-bot-六助理ai团队]] — 来源（六助理 AI 团队实战与第一指令群规）
 - [[personal-ai-agent]] — 所属赛道概念
+- [[摘要-四大personal-agent实测33委托率]] — 来源（无本地 Computer Use 短板与 33% 委托率实测）
+- [[多任务进度条]] — 实测者借鉴其多 agent 组织的提示语
+- [[卡尔的AI沃茨]] — 实测作者
