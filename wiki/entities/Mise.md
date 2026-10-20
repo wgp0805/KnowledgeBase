@@ -26,4 +26,4 @@ mise 是多语言运行时与工具的版本管理器，统一管理 Java、Node
 - [[摘要-mise开发环境迁移手册]] — 来源
 - [[IntelliJIDEA]] — 配套 IDE 配置
 - [[Maven]] — 由 mise 管理，自动继承激活的 JAVA_HOME
-- [[Java]] / [[Node]] — 管理的目标运行时
+- [[Java]] / [[Node.js]] — 管理的目标运行时

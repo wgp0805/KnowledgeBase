@@ -2,8 +2,8 @@
 title: "ClaudeCode"
 type: entity
 tags: [AI工具, Agent, Anthropic]
-sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md, raw/01-articles/同事的 Claude Code 为什么比你的强？差的就是这4步.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md, raw/01-articles/Agent 的权限模式（Permission Mode）了解吗？.md]
-last_updated: 2026-10-15
+sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/ClaudeCode写SpringBoot代码竟然这么野？这4个Skill让我彻底服了！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md, raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md, raw/01-articles/同事的 Claude Code 为什么比你的强？差的就是这4步.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md, raw/01-articles/Agent 的权限模式（Permission Mode）了解吗？.md, raw/01-articles/Claude Code 和 Pi Agent 中 Tool 的设计原则。.md, raw/01-articles/2026-10-19-Claude Code桌面版迎来重大更新.md]
+last_updated: 2026-10-20
 ---
 
 ## 定义
@@ -298,6 +298,26 @@ Anthropic 在 v2.1.287 推出 **Claude Mods**：用 TypeScript/JavaScript 进程
 
 ### 第三方解锁补丁 ClawGod（2026-10，详见 [[摘要-clawgod解锁claude-code]]）
 开源 GPL-3.0 补丁工具 [[ClawGod]] 一行命令修改本地 Claude Code 客户端：伪装内部用户解锁 Opus 4.6 + 1M 上下文、解锁 Agent Teams、删除安全话题拒答等三条内部限制、用本地 JSON 覆盖功能开关、支持自定义 apiKey/baseURL；`claude --uninstall` 可恢复原版（保留 `claude.orig`）。属**第三方非官方修改**，会放大 prompt 注入与误操作风险，与本页所述官方权限体系（deny→ask→allow、Hooks 优先）方向相反，引用时须区分。
+
+### Tool 设计原则（2026-10-20，详见 [[摘要-claude-code-pi-tool设计原则]]）
+反驳"封装函数+写清 JSON Schema 就够"——大模型生成合法参数的能力远比想象差（Claude Code 源码注释直接承认）。三层原则中 Claude Code 的做法：
+
+- **工具选择（入口）**：内置四五十个工具 + MCP 时，①`Bash` 提示词明确禁止用它执行 `find`/`grep`/`cat`/`sed`，强制分流给 Glob/Grep/Read/Edit 专用工具；②**延迟加载**——MCP 与低频工具默认只发工具名不发参数结构，模型真正需要时再经 `ToolSearch` 按需拉取
+- **参数防护（入口）**：从接口设计上杜绝错误（Anthropic《Building effective agents》：模型传相对路径总错就强制只收绝对路径，此后再没犯过）；**静默兼容**——模型常把数字参数加引号传成字符串（`"30"`）、中文双引号、BOM 头、Apple 截图文件名 AM/PM 前的窄空格，底层自动对齐转换，不浪费一轮推理；**前置拦截**——`Edit` 三道关卡：没调用过 Read 就改文件拦截、Read 后文件被改过拒绝写入、`old_string` 多处匹配拦截，且报错信息像提示词一样指导模型（"想全替换设 replace_all=true，只改一处请补上下文行让它唯一"）
+- **执行与输出（出口）**：默认所有工具不可并发，仅连续只读调用（Read/Grep/Glob）打包并发（最多 10 个），遇 Edit/Write/Bash 立刻切回串行；`Read` 单次限 25000 Token，全局输出超 5 万字符落盘、只回前 2000 字节预览 + 文件路径，**并冻结这次替换结果保证后续轮次 Prefix Caching 不失效**
+- **权限边界**：参数格式完全合法的越权请求（查别人的订单）**绝不交给模型判断**，必须在工具代码内按当前登录用户真实身份拦截
+- 一句话：只读并发与写操作加锁守住执行安全，截断落盘与人机分离守住上下文窗口和缓存命中
+
+### 桌面版 v2 级更新：多 Agent 会话调度台（2026-10-20，详见 [[摘要-claude-code桌面版嵌套会话更新]]）
+团队成员 Thariq Shihipar 形容"几乎是一个 v2"，解决的是**多 Agent 并行后人的注意力如何跟得上**（而非单 Agent 速度）：
+- **嵌套会话**：Claude 主动把可并行任务拆成子会话（Start all 一键并行），子会话独立读码/改文件/跑测试后向父会话汇报；过程信息不挤占主对话，卡住的任务可进子会话看完整上下文；会话间可列出/读取/发消息/重命名/归档
+- **三态侧边栏**：Needs input / Working / Completed 分组 + 实时待办清单 + 回顾卡片（不重读整段对话）+ 后台完成系统通知 + Cmd 点击分屏
+- **环境（Environment）**：多文件夹 + Local/Cloud/SSH/Remote Control 连接 + 环境变量保存成命名环境一键开会话，适合跨仓库与微服务联调
+- **多会话隔离**：用 [[Worktree]] 隔离同仓库并发改动（坑：`.gitignore` 忽略的 `.env` 需写入 `.worktreeinclude`）
+- **主动跟进卡片**：发现范围外问题弹 Do it here / Start（另开会话）二选一；`/btw`（Cmd+; / Ctrl+;）开旁路标签页，读取主线全部上下文但不写回主会话、不落盘
+- **配套空闲压缩**：v2.1.299，上下文超约 200K 且闲置约 54 分钟时在提示缓存（约 1 小时）过期前自动压成摘要（`idleCompaction:false` 关闭），详见 [[上下文压缩]]
+- **争议**：父子嵌套归档后层级混乱、旧 Group by 移除、上下文用量入口变深（多会话并行恰恰最该一眼看到余量）
+- **定位**：从"带图形界面的编程会话"转向"多 Agent 会话调度台"，稀缺资源从推理速度转向开发者注意力；CLI 与桌面版不是替代关系——取决于你在"操作一个 Agent"还是"管理一组并行 Agent"
 
 ## 关联连接
 - [[摘要-60分钟全面掌握Claude-Code]] — 来源

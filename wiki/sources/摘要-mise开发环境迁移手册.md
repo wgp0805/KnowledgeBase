@@ -13,4 +13,4 @@ last_updated: 2026-10-20
 - [[Mise]] — 多语言版本管理工具
 - [[IntelliJIDEA]] — 配套 IDE 配置
 - [[Maven]] — 由 mise 管理的构建工具
-- [[Java]] / [[Node]] — 管理的目标运行时
+- [[Java]] / [[Node.js]] — 管理的目标运行时

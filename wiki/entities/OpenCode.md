@@ -2,8 +2,8 @@
 title: "OpenCode"
 type: entity
 tags: [AI, 开源, 编码助手, Agent]
-sources: [raw/09-archive/ECC使用教程.md, raw/09-archive/OpenCode架构演进剖析.md, raw/01-articles/“牛来”员工：你们可以在 OpenCode 爽用 Ox Alpha 模型了，1M上下文并支持视频输入（附Agent面试题）.md]
-last_updated: 2026-08-24
+sources: [raw/09-archive/ECC使用教程.md, raw/09-archive/OpenCode架构演进剖析.md, raw/01-articles/“牛来”员工：你们可以在 OpenCode 爽用 Ox Alpha 模型了，1M上下文并支持视频输入（附Agent面试题）.md, raw/01-articles/2026-10-19-OpenCode遭攻击：部分用户OpenAI、Anthropic等API密钥外泄.md]
+last_updated: 2026-10-20
 ---
 
 ## 定义
@@ -61,6 +61,13 @@ npm install -g ecc-universal  # 通用包
 ### 模型生态（2026-08-24 增补）
 - **OpenCode Zen**：[[OxAlpha]] 免费预览模型的接入入口之一（另一入口为 [[OpenRouter]]）
 
+### 安全事件：旧系统访问控制失效致 API 密钥外泄（2026-10-16 披露，详见 [[摘要-opencode密钥外泄事件]]）
+- 处于停用流程中的**旧系统**遭未授权访问，约 **1.4% Console 用户**工作区内保存的 OpenAI、Anthropic、Google 等 API 密钥可能暴露；受影响用户 10 月 16 日起邮件通知，官方与 Anthropic/OpenAI/谷歌协作处置，披露提及"大规模蒸馏攻击"但攻击路径与实际密钥使用情况未完整公开
+- 风险两层：直接费用损失（以持有者身份发起请求账单归原账户，有用户反馈数百美元异常费用、有项目因滥用被暂停）；密钥若带项目/文件/日志/管理权限则扩大到信息暴露与工作流中断
+- 处置原则：**只要密钥有机会被复制就按已泄露处理**——供应商侧撤销（只改本地 .env 无效）→ 按环境/应用/用途拆分新密钥并缩权 → 查账单与请求日志建时间线
+- 事件暴露的系统性教训：**停用中的旧系统是风险最集中期**（流量已迁、监控松动，但备份/环境变量/服务账号/有效 Token 仍在），退役必须拆成可验证阶段：停止接入 → 凭据处置 → 数据清理 → 基础设施销毁 → 复核留档
+- 对 AI 开发工具的四条密钥边界：长期生产密钥不进工作区、按调用方分隔密钥、费用上限视为安全控制（爆炸半径）、提交/构建/镜像环节做密钥发现扫描——详见 [[API密钥安全]]
+
 ## 关联连接
 - [[ECC]] — 增强框架（同时支持 Claude Code 和 OpenCode）
 - [[MiMoCode]] — 基于 OpenCode 的衍生项目
@@ -77,4 +84,6 @@ npm install -g ecc-universal  # 通用包
 - [[摘要-mimo-code发布]] — MiMo Code 来源
 - [[摘要-opencode-架构演进剖析]] — 2.0 架构演进来源
 - [[摘要-ox-alpha模型与agent面试题]] — 来源（OpenCode Zen 接入 Ox Alpha）
+- [[摘要-opencode密钥外泄事件]] — 来源（旧系统访问控制失效致密钥外泄事件）
+- [[API密钥安全]] — 事件对应的密钥治理概念
 - [[OxAlpha]] — 通过 OpenCode Zen 可用的免费预览模型

@@ -2,8 +2,8 @@
 title: "PaiCLI"
 type: entity
 tags: [AI, CLI工具, Agent, 开源项目]
-sources: [raw/09-archive/AI agent工具应该怎么使用.md, raw/09-archive/面试官皱眉："让你负责一个生产级 Agent，你会怎么设计？"，我上来就开始背 ReAct、Function Calling、Skills。面试官听完摇头。.md, raw/09-archive/DeepSeek 员工：DeepSeek V4 Pro 正式发布，Harness 也进入最后一个内测版本（附Agent面试题）.md]
-last_updated: 2026-08-13
+sources: [raw/09-archive/AI agent工具应该怎么使用.md, raw/09-archive/面试官皱眉："让你负责一个生产级 Agent，你会怎么设计？"，我上来就开始背 ReAct、Function Calling、Skills。面试官听完摇头。.md, raw/09-archive/DeepSeek 员工：DeepSeek V4 Pro 正式发布，Harness 也进入最后一个内测版本（附Agent面试题）.md, raw/01-articles/JD员工：同事觉得电脑太卡，我用Codex帮他修，结果不小心看到他正在写的辞职信还有已经到手的offer，该不该跟领导说呢（附Agent面试题）.md]
+last_updated: 2026-10-20
 ---
 
 ## 定义
@@ -106,6 +106,18 @@ PaiCLI 的 Better Harness **不是 Agent 产品**，而是评估 Agent 干活质
 - 模型抽象层已封装 OpenAI 协议的 HTTP 调用、SSE 解析、错误处理、重试逻辑；接入新模型（如 [[OxAlpha]]）只需新增一个 Provider 实现，声明"与标准协议的差异"
 - 针对免费预览模型下线的系统性降级：①换同模型的其他 Provider；②换同能力级别模型；③降能力保可用（切小尺寸模型并限制任务复杂度）——每级切换都记录日志、发告警，不让用户在不知情时被降级
 
+### 五大工程挑战实战细节（2026-10-20 增补，详见 [[摘要-jd-codex辞职信-agent面试题]]）
+以 PaiCLI 为背景的 5 道 Agent 面试题解答，是该页"上下文压缩/容错"章节的量化版：
+
+- **上下文膨胀 + JVM 内存失控**：三档渐进式压缩——①单次工具输出超 32000 字符即把完整结果卸载到 `.paicli/tool-outputs/<session>/`，上下文只留路径 + 开头 2000/结尾 800 字符预览；②token 触阈值时把除最近 3 条外的旧 `tool` 消息正文替换为 `[已清理的旧工具结果]` 占位符（保留 `tool_call_id` 维持配对）；③逼近窗口上限（200k 窗口约 167k token 触发）才做摘要压缩，保留最近 3 个完整用户轮次，更早历史按 60000 字符分块生成含四要素的结构化摘要。网络出口用 Jackson 生成器直接把 JSON 语法树写进输出流（先写计数空流拿 Content-Length 再原样写出），1M token 场景单次请求堆分配从 90.5MB 降到 4.7MB
+- **MCP 子进程守护**：stdio 读循环单行隔离解析（非 JSON 行进 200 行 stderr 环形缓冲区，读线程绝不退出），区分 `method` 字段防 ping 请求 ID 串号；`Process.onExit()` + 30 秒空闲 ping（连 2 次不回判卡死）；死后卸载工具、`ProcessHandle.descendants()` 整棵进程树先关 stdin 再叶子逆序终止、2 秒后强清，1s/2s/4s 指数退避重启，稳定运行 60 秒后崩溃计数清零，连续 3 次失败停止并提示手动排查；PID/时间戳/命令行写入 `~/.paicli/mcp-pids.json` 下次启动清理孤儿进程
+- **工具并发纪律**：8 类只读工具最大 4 线程并发，写文件与命令工具严格串行；每轮执行前在 `~/.paicli/snapshots/` 独立影子 Git 仓库做 `PRE_TURN` 快照，恢复会话先 `restorePreTurn` 还原工作区再重跑本轮，保证磁盘与对话账本一致
+- **会话状态恢复**：本地只追加 JSONL（`~/.paicli/history/raw/<session>.jsonl`），每次修改内存对话历史后追加 `view_checkpoint` 记录，`/resume` 时定位最后一条 checkpoint 还原压缩后基准视图再重放增量，一字不差恢复重启前上下文
+- **防行为漂移**：安全策略/模式守则/项目 `PAI.md` 固定拼进系统提示词全量注入、不参与压缩；Plan 模式生成带依赖的 JSON 任务图，拓扑排序 + 环检测校验后作为外部进度看板；摘要压缩强制校验"当前目标与成功条件、用户要求与已确认决定、已完成工作及证据、未解决问题与下一步"四要素，缺一项先自动修复格式、再缺则放弃本次压缩；`write_file`/`edit_file` 后置钩子自动跑 JavaParser 语法诊断，最多 20 条 `[LSP 诊断注入]` 在下一轮注入，防止带着编译不过的代码继续跑
+
+### 简历写法 v2（2026-10-20）
+项目名"PaiCLI 终端与云端代码 Agent"，技术栈 Java 21 / Spring AI / OkHttp / JGit / JavaParser / SQLite / JSON-RPC 2.0（MCP）；核心职责五条：三档压缩 + 流式写出（90.5MB→4.7MB）、读写分离调度 + 影子 Git 快照回滚、MCP 子进程生命周期守护（指纹信任校验/环境变量白名单/心跳探测/指数退避）、bubblewrap/Seatbelt 沙箱 + JSONL 审计日志、防漂移体系 + 增量索引（1892 个源码全量索引 218.9s→128.7s，无改动校验 0.8s）
+
 ## 关联连接
 - [[Codex]] — 核心开发工具
 - [[ClaudeCode]] — 代码审查工具
@@ -120,5 +132,6 @@ PaiCLI 的 Better Harness **不是 Agent 产品**，而是评估 Agent 干活质
 - [[渐进式披露]] — Skill 按需加载机制
 - [[沉默王二]] — 项目作者
 - [[摘要-ox-alpha模型与agent面试题]] — 来源（模型工厂降级与评测体系）
+- [[摘要-jd-codex辞职信-agent面试题]] — 来源（五大工程挑战实战细节与简历写法 v2）
 - [[OxAlpha]] — 面试题中演示接入的免费预览模型
 - [[降级]] — Provider 级降级策略的概念基础
