@@ -2,8 +2,8 @@
 title: "REA"
 type: entity
 tags: [实体, 开源项目, 逆向工程, Agent, MCP]
-sources: [raw/01-articles/REA 保姆级教程：DeepSeek Harness 实操.md]
-last_updated: 2026-10-14
+sources: [raw/01-articles/REA 保姆级教程：DeepSeek Harness 实操.md, raw/01-articles/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
+last_updated: 2026-10-20
 ---
 
 ## 定义
@@ -37,11 +37,24 @@ REA（Reverse Engineer Anything，逆向万物工程）是一个开源项目，�
 ## 法律边界（免责声明）
 用 REA 分析别人的软件之前先看对方许可协议；REA 明确不支持：绕过 DRM、破解授权校验、做游戏外挂、复制别人的专有代码。
 
+## 二次爆火与官方案例（2026-10-19，程序员追风）
+- **Star 增速**：发文时已达 24.1 万 Star（两天前 15 万），作者称"全民逆向"热度堪比当时的 [[OpenClaw]]"全民养虾"，增速连 OpenClaw 也自愧不如
+- **工作流**：Coding Agent 通过 MCP 调用 REA，执行"提问、检查、读证据、实现和测试"的严密流程；不让大模型凭空猜测或脑补伪代码，最终输出带确凿证据的结构化分析报告，并指导精准代码重构或功能复现
+- **案例一（Notion 剪贴板）**：分析 Notion Desktop 7.6.1 应用包，沿页面 API、预加载脚本和进程通信找到主进程调用 Electron 剪贴板接口的位置，并解释复制的 HTML 如何通过一个 ID 关联本地保存的文档块数据
+- **案例二（DX-Ball 声音算法）**：砖块横向位置影响左右声道偏向；反编译缺关键计算时，结合原始指令、调用方和数值常量重建 C 函数——3205 组输入与原始 x86 函数一致，指定编译器复现全部 63 个字节
+- **一键安装**：`npx rea-agents setup` 交互式向导自动识别本地 Coding Agent、多选写入 MCP 配置（写入前自动备份）、提示接入本机 Ghidra/Hopper/IDA；`npx rea-agents doctor` 做健康检查；可 `npm install -g rea-agents` 全局安装 `rea` 命令；系统要求 macOS 12+/Linux，Node 建议 22.19+
+- **最佳实践**：作者推荐 GLM-5.3（非 Flash）+ REA——Benchmark 上 GLM 5.3 逆向能力更强；REA 出图风格不佳，可搭配 [[Archify]] 生成交互式架构图；最佳用法不是逆向完事，而是对 App 做二开和定制化
+- **定位论断**："有了 REA 之后，你的所有 App 都被迫开源了"；REA 把传统高门槛逆向工程平民化，变成标准化的证据链推演
+
 ## 关联连接
-- [[摘要-rea保姆级教程-deepseek-harness实操]] — 来源
+- [[摘要-rea保姆级教程-deepseek-harness实操]] — 来源（沉默王二教程）
+- [[摘要-霸榜github-ai逆向神器-rea-archify]] — 来源（程序员追风：爆火观察 + 官方案例 + Archify 搭配）
 - [[逆向工程]] — 核心概念
 - [[DeepSeekHarness]] — 接入 Harness 的实操载体
 - [[MCP协议]] — 工具化接入协议（170 个工具）
 - [[AgentSkills]] — 配套 Skill（证据链规范）
 - [[沉默王二]] — 教程作者
 - [[Cordis]] — DSH 接入时的补丁配置文件机制
+- [[Archify]] — 配套架构可视化工具（弥补 REA 出图短板）
+- [[GLM-5.3]] — 作者推荐的逆向搭配模型
+- [[OpenClaw]] — 爆火热度对比参照

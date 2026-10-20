@@ -3132,3 +3132,9 @@
 
 ## 更新 (2026-10-20)
 - [[1Panel]]（+8 人团队 AI 网关用法）、[[京东]]（+Codex 辞职信事件与面试题）、[[PaiCLI]]（+五大工程挑战与简历 v2）、[[OpenCode]]（+密钥外泄安全事件）、[[ClaudeCode]]（+Pi Tool 设计原则、桌面版嵌套会话两大章节）、[[AI网关]]、[[多租户隔离]]、[[上下文压缩]]、[[API密钥安全]]、[[Worktree]]
+
+## Sources (2026-10-20 ingest 第二批)
+- [[摘要-霸榜github-ai逆向神器-rea-archify]] — REA 两天 15 万→24.1 万 Star 爆火：MCP 逆向工作流、Notion 剪贴板与 DX-Ball 声音算法官方案例、一键安装，搭配 Archify 生成交互式架构图、GLM-5.3 逆向口碑（程序员追风）
+
+## 更新 (2026-10-20 第二批)
+- [[REA]]（+二次爆火 24.1 万 Star、"提问/检查/读证据/实现/测试"工作流、Notion 与 DX-Ball 官方案例、npx rea-agents setup 一键安装、GLM-5.3+Archify 最佳实践）、[[Archify]]（+设计思路：强类型 JSON 规范→本地验证器→独立 HTML、npx skills add 安装、与 REA 搭配工作流、配色/图形短板）、[[GLM-5.3]]（+逆向社区首选搭配模型口碑）、[[OpenClaw]]（+被用作 REA 爆火的热度参照物）

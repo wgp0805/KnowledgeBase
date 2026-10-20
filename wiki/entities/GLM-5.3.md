@@ -2,8 +2,8 @@
 title: "GLM-5.3"
 type: entity
 tags: [AI模型, 智谱, 开放权重, 网络安全]
-sources: [raw/01-articles/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md]
-last_updated: 2026-10-08
+sources: [raw/01-articles/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md, raw/01-articles/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
+last_updated: 2026-10-20
 ---
 
 ## 定义
@@ -17,6 +17,9 @@ GLM-5.3 是智谱 AI（海外称 Z.ai）的旗舰大模型，2026 年 9 月发�
 - **abliteration 成本**：Anthropic 自制移除拒绝行为版本花费约 2200 GPU 小时（约 4400 美元），熟悉技术的团队从零开始约 600 GPU 小时/1200 美元；修改后拒绝率从 90%+ 降到 3%-12%，GPQA-Diamond 得分不变、CyberGym 仅降几个百分点——**移除拒绝行为不明显削弱能力**
 - **开放权重的双刃剑**：发布几天后多名开发者公开 abliteration 版本；任何人都能下载，而降低护栏的 Claude 版本只向通过审核的用户开放
 - **影响判断**：Anthropic 认为这让攻击者可获取的网络攻击能力出现明显跃升，国家与非国家行为体都可能用于现实伤害；同时防御者也需要同等强的模型，呼吁政府对强能力模型开展独立安全测试
+
+## 逆向场景口碑（2026-10-19）
+- 在 [[REA]] 逆向社区的最佳实践中被推荐为首选搭配模型（注意区别于 GLM-5.3-Flash）：Benchmark 评分显示 GLM-5.3 的逆向能力更强（见 [[摘要-霸榜github-ai逆向神器-rea-archify]]）
 
 ## 关联连接
 - [[摘要-anthropic-glm53网络安全评估]] — 来源

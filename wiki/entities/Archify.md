@@ -2,8 +2,8 @@
 title: "Archify"
 type: entity
 tags: [开源工具, 架构图, Agent技能, Skill]
-sources: [raw/01-articles/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md]
-last_updated: 2026-10-08
+sources: [raw/01-articles/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md, raw/01-articles/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
+last_updated: 2026-10-20
 ---
 
 ## 定义
@@ -17,7 +17,15 @@ Archify 是一个开源 Agent Skill，能把一段系统描述或一个代码仓
 - **GitHub**: <https://github.com/tt-a1i/archify>
 - **月增 Star**: 约 3.34 万（2026-09）
 
+## 与 REA 搭配工作流（2026-10-19）
+- **设计思路**：让 Agent 根据逆向分析或源码阅读得出的架构逻辑，输出一套带强类型校验的 JSON 规范，再通过本地验证器和内置渲染引擎生成独立、高颜值、支持交互的 HTML 架构图
+- **安装**：`npx skills add tt-a1i/archify --skill archify` 一键添加为 Agent Skill，或克隆仓库到 Agent 的 Skills 目录；安装后以 Skill 形式常驻
+- **典型用法**：配合 [[REA]] 完成软件逆向拆解后，直接要求"根据刚才 REA 逆向梳理出的系统架构与调用链路，使用 archify 生成交互式架构图"；Agent 自动提取模块关系与数据流产出独立 HTML，聚焦节点可放大显示，也支持时序图
+- **缺点**：目前配色比较简约，图形种类支持较少
+
 ## 关联连接
-- [[摘要-20个9月github热门开源项目]] — 来源
+- [[摘要-20个9月github热门开源项目]] — 来源（首次盘点）
+- [[摘要-霸榜github-ai逆向神器-rea-archify]] — 来源（与 REA 搭配工作流）
 - [[ai-agent-skill]] — 所属技能机制
 - [[AgentSkills]] — Agent 技能生态
+- [[REA]] — 搭配使用的逆向工具
