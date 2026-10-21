@@ -2,8 +2,8 @@
 title: "MiMoDesktop"
 type: entity
 tags: [AI产品, 桌面Agent, 小米, Agent]
-sources: [raw/09-archive/2026-09-08-小米MiMo Desktop开放邀测：腾讯、阿里、字节又多了一个对手.md]
-last_updated: 2026-09-09
+sources: [raw/09-archive/2026-09-08-小米MiMo Desktop开放邀测：腾讯、阿里、字节又多了一个对手.md, raw/01-articles/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md]
+last_updated: 2026-10-21
 ---
 
 ## 定义
@@ -42,8 +42,13 @@ Xiaomi MiMo Desktop，小米 MiMo 团队 2026-09-08 开放邀测的桌面端 AI 
 - 未公布的关键项：定价、Mac/Windows 支持范围、长任务失败率与稳定性。MiMo-X 仍处预览阶段，现阶段不宜压进核心生产流程
 - 申请入口：国内 https://mimo.xiaomimimo.com/desktop/invite/ ；海外 https://mimo-ai.xiaomimimo.com/desktop/invite/
 
+### 2026-10 进展
+成为 MiMo 团队半年内交出的答卷之一（同期还有开源 1M 上下文的 MiMo-V2.6-Pro、1.3 万 Star 的终端编码工具 [[MiMoCode]]、Agent 场景把 KV Cache 压到 2.69GB 的 [[HySparse2]]）。详见 [[MiMo]]。
+
 ## 关联连接
 - [[Xiaomi]] — 开发公司
+- [[MiMo]] — MiMo 团队与模型底座
+- [[HySparse2]] — 同期发布的 Agent 场景注意力架构
 - [[MiMo-X]] — 预览版模型系列
 - [[MiMoCode]] — 同一平台上的 AI 编程 Agent
 - [[桌面Agent]] — 交付导向的 Agent 形态
@@ -55,3 +60,4 @@ Xiaomi MiMo Desktop，小米 MiMo 团队 2026-09-08 开放邀测的桌面端 AI 
 - [[Figma]] — MCP 控制的设计工具
 - [[HarnessAgent]] — 能力被当作工程组件拆解
 - [[摘要-小米mimo-desktop邀测]] — 来源
+- [[摘要-xiaom-15升16-agent面试题]] — 来源（2026-10 MiMo 团队进展）

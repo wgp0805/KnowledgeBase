@@ -40,9 +40,15 @@ MiMo Code 的 Harness 围绕计算、记忆、进化三个主题设计：
 ### 与 MiMo Desktop 的关系（2026-09 补充）
 MiMo Code 是小米 MiMo 平台上的编程 Agent（基于 OpenCode，MIT 开源），而 [[MiMoDesktop]] 是同一平台上 2026-09-08 开放邀测的桌面端通用 Agent，面向办公、设计与创作交付。两者共享 MiMo 平台的模型与服务底座：MiMo Code 侧重代码与工程，MiMo Desktop 侧重可编辑的成果交付（PPT、网页、3D、App），并通过 [[MCP]] 接入 [[Figma]] 等外部工具。详见 [[摘要-小米mimo-desktop邀测]]。
 
+### 2026-10 进展
+在 GitHub 上拿到 **1.3 万以上 Star**，是 MiMo 团队半年内交出的答卷之一（同期还有开源 1M 上下文的 MiMo-V2.6-Pro、桌面端工作台 MiMo Desktop、以及把 Agent 场景 KV Cache 压到 2.69GB 的 [[HySparse2]] 架构）。**模型研发与 Agent 工程化几乎同步推进**是这条产品线的关键特征。详见 [[MiMo]]。
+
 ## 关联连接
 - [[ClaudeCode]] — 同类产品
 - [[MiMoDesktop]] — 同平台的桌面通用 Agent
+- [[MiMo]] — MiMo 团队与模型底座
+- [[HySparse2]] — 同期发布的 Agent 场景注意力架构
 - [[MiMo-X]] — MiMo Desktop 搭载的预览版模型
 - [[摘要-mimo-code发布]] — 来源
 - [[摘要-小米mimo-desktop邀测]] — 来源（姊妹产品线）
+- [[摘要-xiaom-15升16-agent面试题]] — 来源（2026-10 Star 数与团队进展）
