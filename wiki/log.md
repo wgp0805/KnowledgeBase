@@ -1,3 +1,9 @@
+## [2026-10-21] sync | 修复自动抓取计划任务（Python 路径失效）
+- **根因**: 计划任务 `KnowledgeBaseDailyHarvester` 的 Execute 指向 `D:\Python\python3.14.3\python.exe`，该目录已随 Python 迁移至 mise（现为 `D:\java\mise-software\installs\python\3.15.0`）而删除，任务自 2026-10-20 起启动即失败，LastTaskResult `2147942402`（0x80070002 系统找不到指定的文件）
+- **变更**: 新建仓库外 venv `D:\java\KnowledgeBase-venv`（base 为 mise Python 3.15.0），安装 feedparser/requests/PyYAML/beautifulsoup4/html2text；计划任务 Execute 改指该 venv，补上 WorkingDirectory；更新 `scripts/install_scheduler.ps1`（默认时间改 23:00、优先选用 venv、写入 WorkingDirectory）；`.gitignore` 增加 `.venv/`
+- **注意**: venv 不能放在知识库目录内 —— 该目录 ACL 带 Sandbox / Low Integrity 标签，SYSTEM 账户启动其中的 `python.exe` 会报 `0xC0000142`（DLL 初始化失败），必须置于 `D:\java\KnowledgeBase-venv`
+- **结果**: 手动触发验证通过（LastTaskResult 0），本轮检查 45 条、新增 10 篇，`raw/_daily_digest.md` 与 `scripts/.seen_urls.json` 已刷新
+
 ## [2026-10-20] ingest | 摄入 1 篇 01-articles 文章（霸榜 GitHub 的 AI 逆向神器：REA + Archify）
 - **变更**: 新增 Sources (1): [[摘要-霸榜github-ai逆向神器-rea-archify]]; 增量合并既有页 (4): [[REA]]（+2026-10-19 二次爆火：24.1 万 Star、"提问/检查/读证据/实现/测试"工作流、Notion 剪贴板与 DX-Ball 声音算法官方案例、npx rea-agents setup/doctor 一键安装、GLM-5.3+Archify 最佳实践、"所有 App 都被迫开源了"论断）, [[Archify]]（+设计思路：强类型 JSON 规范→本地验证器→渲染引擎→独立交互式 HTML、npx skills add 安装、与 REA 搭配的逆向出图工作流、配色简约/图形少短板）, [[GLM-5.3]]（+逆向社区首选搭配模型口碑，区别于 Flash 版）, [[OpenClaw]]（+被用作 REA 爆火的热度参照物）; 更新 [[index.md]]（Sources +1 / 更新 4 页）
 - **冲突**: 无。Star 数为时间序列差异（[[REA]] 既有页记录 2026-10-13 的 17 万，本篇为 2026-10-19 的 24.1 万），非知识冲突，已按时间增量记录

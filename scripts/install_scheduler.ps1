@@ -7,12 +7,25 @@
 #>
 
 param(
-    [string[]]$Times = @("09:00", "14:00"),
+    [string[]]$Times = @("23:00"),
     [string]$TaskName = "KnowledgeBaseDailyHarvester"
 )
 
 $ScriptPath = Join-Path $PSScriptRoot "daily_harvester.py"
-$PythonPath = (Get-Command python).Source
+$RepoRoot = Split-Path $PSScriptRoot -Parent
+
+# 优先使用仓库外的专用 venv：知识库目录的 ACL 会导致 venv 的 python.exe
+# 在 SYSTEM 账户下启动时报 0xC0000142（DLL 初始化失败）。
+# venv 自带 feedparser/requests/PyYAML/beautifulsoup4/html2text，可避免
+# mise 升级 Python 后任务路径失效。
+$VenvPython = Join-Path (Split-Path $RepoRoot -Parent) "KnowledgeBase-venv\Scripts\python.exe"
+if (Test-Path $VenvPython) {
+    $PythonPath = $VenvPython
+} else {
+    $PythonPath = (Get-Command python).Source
+    Write-Warning "未找到 venv: $VenvPython，改用系统 python: $PythonPath"
+    Write-Warning "该环境可能缺少 feedparser/requests/PyYAML/beautifulsoup4/html2text"
+}
 
 # 检查脚本是否存在
 if (-not (Test-Path $ScriptPath)) {
@@ -28,7 +41,7 @@ if ($existing) {
 }
 
 # 创建计划任务
-$Action = New-ScheduledTaskAction -Execute $PythonPath -Argument "`"$ScriptPath`""
+$Action = New-ScheduledTaskAction -Execute $PythonPath -Argument "`"$ScriptPath`"" -WorkingDirectory $RepoRoot
 $Settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable
 
 $Triggers = @()
@@ -48,6 +61,7 @@ Register-ScheduledTask -TaskName $TaskName `
 Write-Host ""
 Write-Host "✅ 计划任务已创建: $TaskName"
 Write-Host "   运行时间: 每天 $($Times -join ', ')"
+Write-Host "   Python:   $PythonPath"
 Write-Host "   脚本路径: $ScriptPath"
 Write-Host ""
 Write-Host "手动运行测试: python `"$ScriptPath`""
