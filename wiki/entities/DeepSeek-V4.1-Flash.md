@@ -2,8 +2,8 @@
 title: "DeepSeek V4.1-Flash"
 type: entity
 tags: [DeepSeek, V4.1-Flash, 国产模型, Harness, 模型更新, 搜索API]
-sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, raw/01-articles/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md]
-last_updated: 2026-10-19
+sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, raw/01-articles/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md, raw/01-articles/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
+last_updated: 2026-10-22
 ---
 
 ## 定义
@@ -55,6 +55,15 @@ DeepSeek 技术文件核心观点：
 - **许愿式编程**：基于自反馈的强化学习（RL）增强从零构建 3D 建模、游戏等完整项目能力——四例演示（故宫 3D 建模、网页赛车游戏、Godot 复刻《传送门2》、Valley of Ages）均少提示词、极短交互轮次完成（详见 [[许愿式编程]]）
 - **Search/Fetch API 开放**：自研 AI 原生搜索引擎（千亿级网页索引，过滤 SEO 作弊/GEO 操纵/低质 AIGC）的两个接口对外开放，**5 元/千次**；当前在 DeepSeek Harness/Claude Code/Codex 走 Server 端工具调用暂不计费，**2026-11-01 00:00 起按次收费**
 
+### 大规模推理部署实践（2026-10-21，详见 [[摘要-deepinfer-deepseek开源推理框架]]）
+基于开源引擎 [[DeepInfer]] 的官方部署报告《DeepSeek V4.1 Flash 大规模推理部署实践》给出生产级数字：
+- **单集群日吞吐 155 万亿 Tokens**，KV Cache 保留时间拉长至 **72 小时以上**
+- **三阶段分离部署**：视觉编码器放最便宜的单卡、Prefill 放 8 卡做小规模专家并行、Decode 放 64~128 卡超节点做大规模专家并行（Wide-EP）+ EPLB 动态负载均衡
+- **KV Cache 落盘**：基于自研 3FS 建约 100 PiB SSD 存储集群，峰值聚合读带宽 10 TiB/s，128 Token 分页块缓存全量写盘；SWA KVCache 只留内存约 180 秒、线上命中率超 98%，未命中时 SWA Bounded Replay 只重算最近 128 Token，使预填充在解码层的总计算量减少近一半
+- **DSpark 置信度投机解码**：只把验证算力分给收益最高的前缀子集，相比固定验证 5 个 Token，线上吞吐提升 6%
+- **零开销异步批调度**：GPU 执行第 N 步时 CPU 并行做第 N+1 步调度与第 N-1 步后处理，GPU 全程零空闲
+- **批次无关确定性**：`DEEPINFER_BATCH_INVARIANT=1` 开启后，相同输入无论并发批次怎么变都产出相同结果，便于线上复现与评测
+
 ## 关联连接
 - [[摘要-deepseek-v41-flash-1017]] — 2026-10-17 来源（1017 版本：帕累托改进、许愿式编程、搜索 API 开放）
 - [[许愿式编程]] — 1017 版本支撑的开发方式概念
@@ -75,3 +84,5 @@ DeepSeek 技术文件核心观点：
 - [[Electron]] — 桌面客户端载体
 - [[Vite]] — 构建工具
 - [[SSE流式输出]] — 接入后的核心技术机制
+- [[DeepInfer]] — 部署报告对应的推理引擎
+- [[摘要-deepinfer-deepseek开源推理框架]] — 来源（大规模推理部署实践）

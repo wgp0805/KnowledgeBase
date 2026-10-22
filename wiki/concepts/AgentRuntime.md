@@ -2,8 +2,8 @@
 title: "AgentRuntime"
 type: concept
 tags: [概念, AI, Agent, 运行时, GPT-6, Astra, 架构]
-sources: [raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md]
-last_updated: 2026-09-08
+sources: [raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/为什么越来越多人用Eino？.md]
+last_updated: 2026-10-22
 ---
 
 ## 定义
@@ -36,6 +36,16 @@ Agent Runtime（智能体运行时）是 GPT-6 Astra 时代后端升级的核心
 - 复杂长任务选一两个闭环场景接入 Responses API（测试缺陷修复/合同材料核对/数据质量问题排查）
 - 新旧流程并行运行比较任务完成率/人工接管率/总耗时/错误影响/单任务成本
 
+### Agentic Runtime 的框架化落地：Eino ADK（2026-10-21，详见 [[摘要-为什么越来越多人用eino]]）
+[[Eino]] v0.9 版本围绕"Agentic Runtime"做的大量增强，是上述职责在具体框架中的工程化实现：
+- **Cancel** —— 从外部主动终止正在运行的 Agent，支持安全点取消与 checkpoint 持久化
+- **Model Retry** —— 重试决策可读取模型输出、拒绝不满足条件的输出、修改下一次输入（比"同参数重试"更精细）
+- **Model Failover** —— 主模型调用失败后切换备用模型，支持优先复用上一次成功的模型
+- **Middleware** —— 在 ReAct 循环的生命周期点位注入行为（上下文压缩、工具搜索、文件系统操作）
+- **中断与恢复** —— 任意节点中断、精确恢复；Agent 执行到某节点时暂停等待人工输入，再从断点继续，不必从头重跑
+
+作者对这些能力的共同点给出判断：**它们解决的是"Agent 在生产环境跑不稳"，而不是"Agent 能不能跑起来"**。没有中断恢复，一个跑了十分钟的 Agent 因为需要一次人工确认就要全部重来，成本和时间都不可接受。
+
 ## 关联连接
 - [[GPT-6]] — 推动 Agent Runtime 出现的模型
 - [[ResponsesApi]] — Astra 唯一支持接口
@@ -44,3 +54,6 @@ Agent Runtime（智能体运行时）是 GPT-6 Astra 时代后端升级的核心
 - [[摘要-GPT-6-Astra改变技术栈]] — 来源
 - [[AgentHarness]] — 相关的 Harness 概念
 - [[Agent架构]] — Agent 架构全景
+- [[Eino]] — Agentic Runtime 的框架化实现
+- [[Middleware]] — ReAct 循环中的中间件注入
+- [[摘要-为什么越来越多人用eino]] — 来源（Agentic Runtime 能力清单）

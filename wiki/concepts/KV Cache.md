@@ -2,8 +2,8 @@
 title: "KV Cache"
 type: concept
 tags: [概念, 推理优化, 成本, 缓存]
-sources: [raw/01-articles/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md]
-last_updated: 2026-10-21
+sources: [raw/01-articles/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md, raw/01-articles/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
+last_updated: 2026-10-22
 ---
 
 ## 定义
@@ -25,6 +25,13 @@ KV Cache（Key-Value 缓存）是 LLM 推理时缓存历史 token 的 Key 和 Va
 2. **推理引擎侧**：vLLM 的 PagedAttention 分页管理消除碎片；FP8 量化把单元素字节数减半；NVIDIA Dynamo 的 KV 感知路由把同一会话第 N 轮路由到已缓存前 N-1 轮 KV 块的节点
 3. **Agent 应用侧**：按稳定度排列系统提示词，保障最长公共前缀命中（见 [[前缀缓存稳定布局]]）；NVIDIA 实测多轮编码 Agent 流量下命中率 **85%~97%**、首字延迟降低约 5 倍
 
+### 磁盘级 KV 缓存与 SWA Bounded Replay（2026-10-21，详见 [[摘要-deepinfer-deepseek开源推理框架]]）
+[[DeepInfer]] 把 KV Cache 从"显存里的临时缓存"推到"存储集群里的长期资产"：
+- **100 PiB 独立分布式存储**：基于自研 3FS 分布式文件系统搭建约 100 PiB SSD 存储集群，峰值聚合读取带宽达 **10 TiB/s**，把按 128 个 Token 分页的块缓存全部写入硬盘，**KV Cache 保留时间达到 72 小时**
+- **SWA KVCache 的取舍**：只在活跃会话里有效的滑动窗口缓存写硬盘会占掉近一半容量，全量重算代价又太高，因此只留在机器内存里保存约 **180 秒**，换来线上命中率超 **98%**
+- **SWA Bounded Replay**：未命中时不重算整段上下文，只截断重算最近 **128 个 Token**，把重算代价变成与上下文长度和层数无关的常数，使预填充在解码层的总计算量减少近一半
+- **Agent 侧红利**：需要人工审批或跨天恢复的 Agent，只要固定好开头的系统提示词与工具定义，**暂停两天依然能命中服务端缓存**
+
 ## 关联连接
 - [[摘要-10道ai-agent高频面试题]] — 来源
 - [[摘要-xiaom-15升16-agent面试题]] — 来源（机制细节与三端优化）
@@ -34,3 +41,6 @@ KV Cache（Key-Value 缓存）是 LLM 推理时缓存历史 token 的 Key 和 Va
 - [[上下文溢出]] — 相关概念
 - [[ContextRot]] — 相关概念
 - [[Agent]] — 应用场景
+- [[DeepInfer]] — 磁盘级 KV 缓存的落地载体
+- [[上下文缓存]] — 相关概念
+- [[摘要-deepinfer-deepseek开源推理框架]] — 来源（磁盘级 KV 缓存与 SWA Bounded Replay）

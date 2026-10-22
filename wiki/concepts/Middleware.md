@@ -2,8 +2,8 @@
 title: "Middleware"
 type: concept
 tags: [AI概念, 扩展机制, 钩子]
-sources: [raw/09-archive/AgentScopeJava2.0正式发布了！.md]
-last_updated: 2026-06-23
+sources: [raw/09-archive/AgentScopeJava2.0正式发布了！.md, raw/01-articles/为什么越来越多人用Eino？.md]
+last_updated: 2026-10-22
 ---
 
 ## 定义
@@ -26,3 +26,6 @@ Middleware 是 AgentScope Java 2.0 中的中间件扩展机制，全面取代了
 - [[AgentScope_Java]] — 所属框架
 - [[HarnessAgent]] — 使用 Middleware 的 Agent
 - [[摘要-AgentScopeJava2.0发布]] — 来源
+- [[Eino]] — Go 生态的同类机制，在 ReAct 循环生命周期点位注入行为
+- [[AgentRuntime]] — Middleware 所属的运行时层
+- [[摘要-为什么越来越多人用eino]] — 来源（Eino Middleware）

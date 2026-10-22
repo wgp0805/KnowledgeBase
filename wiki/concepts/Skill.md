@@ -2,8 +2,8 @@
 title: "Skill"
 type: concept
 tags: [AI, Agent, 技能扩展]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/为什么Skill才是未来的资产.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md]
-last_updated: 2026-09-28
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/为什么Skill才是未来的资产.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/01-articles/2026-10-21-如何从0-1写好一个Skill？超全教程+案例分享！.md]
+last_updated: 2026-10-22
 ---
 
 ## 定义
@@ -76,6 +76,13 @@ Agent 是"通用的执行引擎"，会越来越便宜、普及；Skill 是"专�
 - **铁律**：User-invoked skill 可向下调用 Model-invoked skill，但 **User-invoked 之间互不调用**。这条单向边确保整条链永远从用户手里发起，不会让 agent 在编排层之间乱窜
 
 这一架构的核心哲学是"**把 skill 当纪律，不当框架**"——skill 不该被供着，而是随时可替换、可组合、可 hack 的一次性纪律，与 GSD、BMAD、Spec-Kit 等"接管流程"的重量级框架形成根本分野。
+
+### 从 0 到 1 撰写 Skill 的五段式指令（2026-10-21，详见 [[摘要-如何从0-1写好一个skill]]）
+不推荐完全手搓 Skill（耗时且门槛高），推荐在 [[TRAE]]、[[ClaudeCode]] 中给出完整撰写指令让 AI 出初版，把精力留给检验与调优。完整格式见 [[Skill撰写指令]]，五段为：**AI 身份 / Skill 用途 / Skill 内容 / 交付要求 / 禁用事项或规则**。
+- **触发条件必须写进用途描述**：日常调用 Skill 的描述就是 AI 判断是否触发的核心依据。❌"实现 Figma 设计稿转代码的技能" vs ✅"当用户需要将 Figma 设计稿进行高质量前端代码转换时触发"
+- **四部分结构的职责分工**：SKILL.md 是 Skill 系统的"CPU"（意图识别与指令分发，Markdown 本质是"对信息进行约束"）；References 是"错题本"（持续沉淀 AI 常错的地方，官方优质 Skill 都是日积月累迭代出来的）；Assets 存放字数多、无需每次进提示词的固定知识；Scripts 承接确定性高的重复性任务。References 与 Assets 共享同一核心逻辑——[[渐进式披露]]
+- **三条调优技巧**：写法清晰（用 1、2、3 序号建立先后顺序：寻找参考 → 进行决策 → 输出内容）、有效描述（只写 AI 默认机制里没有的关键非客观规则，如"不要用 PingFang 字体""不要用红色渐变色"）、异常阻断（"如果用户的需求在现有组件库中无法找到对应模式，必须停止生成并向用户提问，绝对禁止自行硬编码"）
+- **不可替代的一步**：后期的质量检验与人工调优目前仍无法被 AI 完全替代；AI 快速完成初版，但**场景定义、任务拆解、结构搭建、易错点沉淀必须由人工把控**
 
 ### 创建方式
 
@@ -159,3 +166,5 @@ Tool 与 Skill 的区别：Tool 是功能型（执行原子操作），Skill 是
 - [[SkillSoftLink]] — 软链跨工具复用实验
 - [[渐进式披露]] — references/ 子目录按需加载结构
 - [[摘要-skills-vs-prompt-辨析]] — Skills 与 Prompt 本质差异辨析来源
+- [[Skill撰写指令]] — 五段式撰写指令结构
+- [[摘要-如何从0-1写好一个skill]] — 来源（0-1 撰写 Skill 的完整流程与调优三维度）

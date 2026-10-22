@@ -3161,6 +3161,14 @@
 - [[HySparse2]] — 小米 MiMo 混合稀疏注意力架构，1M 上下文下 KV Cache 压到 2.69GB
 - [[长弓小子]] — 「长弓小子」公众号作者，AI 对话五环节方法论提出者
 - [[MiMo]] — 小米基础模型与 Agent 工程团队（模型 + 工具 + Agent 工程双线推进）
+- [[DeepInfer]] — DeepSeek 开源的生产级推理引擎，日吞吐 155 万亿 Tokens，兼容 SM100 GPU 与昇腾 950 NPU
+- [[DeepSeekRecipe]] — DeepSeek 开源的 Rust 编解码组件，统一三种 API 协议并破解提示词注入与分词难题
+- [[Kiro]] — 把 Spec 做成工程流程一等公民的 AI 编程工具，需求/设计/任务三份文档
+- [[FotorAgent]] — Fotor 团队的全链路视频创作工具，代码生成视频路线做可编辑的 MG 动画
+- [[Eino]] — 字节 CloudWeGo 开源的 Go 语言 AI 框架，编译期类型安全 + Agentic Runtime
+- [[CloudWeGo]] — 字节开源的 Go 微服务技术栈（Hertz/Kitex/Gorm/Eino）
+- [[SMYSeedanceStoryboard]] — 上美影风短剧 Skill，三层机制锁画风，五份文档交付
+- [[Multipass]] — Canonical 开源的轻量级虚拟机命令行管理工具，只支持 Ubuntu 镜像
 
 ## Concepts (2026-10-21 新增)
 - [[LLMWiki分层架构]] — Raw（不可变）/ Schema（规则）/ Wiki（编译产物）三层职责划分
@@ -3187,6 +3195,39 @@
 - [[JavaMain方法]] — main 方法的格式、重载、被调用与继承三问
 - [[Agent并发写冲突]] — 空间隔离（worktree）vs 时间串行（内存队列）两条路线及漏洞
 - [[语义冲突]] — git 检不出、运行时才暴露的跨文件契约冲突
+
+## Sources (2026-10-22 ingest)
+- [[摘要-deepinfer-deepseek开源推理框架]] — DeepSeek 开源生产级推理框架 DeepInfer 与编解码组件 deepseek-recipe：155 万亿 Tokens/日、72 小时 KV Cache、DSpark 置信度投机解码、批次无关确定性推理
+- [[摘要-spec需求设计任务三份文档]] — 175 天独立做系统的 Spec 复盘：需求/设计/任务三份文档各答一问题，需求可判定性是瓶颈，强制力必须落在机器上
+- [[摘要-如何从0-1写好一个skill]] — 五段式 Skill 撰写指令 + 人工调优三维度（触发条件、四部分结构、任务拆解与约束）
+- [[摘要-fotor-agent-mg动画视频]] — FotorAgent 实测：代码生成视频路线做 MG 动画，执行表先行 + 多轨道时间轴 + 局部可改
+- [[摘要-为什么越来越多人用eino]] — 字节 Eino：Go 语言的 AI 框架，四层架构、编译期类型安全、Agentic Runtime 四项能力与 Eino vs LangChain 对比
+- [[摘要-smy-seedance-storyboard上美影短剧skill]] — 上美影短剧 Skill：五份文档交付、三层机制锁画风、固定编号与尾帧衔接
+- [[摘要-multipass轻量虚拟机]] — Multipass 轻量虚拟机命令行工具全流程与 cloud-init 自动化
+- [[摘要-ai生成产品详情页工作流]] — AI 生成产品详情页六步工作流：AIDA 骨架 + 卖点排序黄金原则 + 三个关键心法
+
+## Entities (2026-10-22 新增)
+- [[DeepInfer]] — DeepSeek 开源的生产级推理引擎，日吞吐 155 万亿 Tokens，兼容 SM100 GPU 与昇腾 950 NPU
+- [[DeepSeekRecipe]] — DeepSeek 开源的 Rust 编解码组件，统一三种 API 协议并破解提示词注入与分词难题
+- [[Kiro]] — 把 Spec 做成工程流程一等公民的 AI 编程工具，需求/设计/任务三份文档
+- [[FotorAgent]] — Fotor 团队的全链路视频创作工具，代码生成视频路线做可编辑的 MG 动画
+- [[Eino]] — 字节 CloudWeGo 开源的 Go 语言 AI 框架，编译期类型安全 + Agentic Runtime
+- [[CloudWeGo]] — 字节开源的 Go 微服务技术栈（Hertz/Kitex/Gorm/Eino）
+- [[SMYSeedanceStoryboard]] — 上美影风短剧 Skill，三层机制锁画风，五份文档交付
+- [[Multipass]] — Canonical 开源的轻量级虚拟机命令行管理工具，只支持 Ubuntu 镜像
+
+## Concepts (2026-10-22 新增)
+- [[投机解码]] — 草稿模型 + 目标模型批量验证；DSpark 置信度投机解码按接受概率分配验证算力，吞吐 +6%
+- [[EARS句式]] — 需求文档四种句式规范，强制说出触发条件，使需求可判定可追溯
+- [[需求可判定性]] — AI 时代需求文档的第一性指标：需求能否被机械判定"做到没有""谁说了算"
+- [[Skill撰写指令]] — 让 AI 从 0-1 产出 Skill 初版的五段式指令（身份/用途/内容/交付/禁用）
+- [[MG动画]] — 信息型动效：代码生成视频路线交出可编辑的"零件"，精度可控 + 原生 4K + 零门槛
+- [[画风锁定]] — 统一风格前缀 + 结尾硬命令 + 一剧一色盘的三层机械化画风约束机制
+- [[AIDA模型]] — 详情页文案骨架：Attention/Interest/Desire/Action 四段
+- [[卖点排序]] — 人无我有 > 人有我优 > 人优我异 > 通用卖点的详情页优先级黄金原则
+
+## 更新 (2026-10-22)
+- [[DeepSeek]]（+开源生产级推理基础设施 DeepInfer 与 deepseek-recipe，"散装零件"到"整车生产线"）、[[DeepSeek-V4.1-Flash]]（+大规模推理部署实践：155 万亿 Tokens/日、100 PiB 存储集群、EPLB 动态负载均衡）、[[KV Cache]]（+磁盘级 KV 缓存 72 小时、SWA Bounded Replay 常数化重算）、[[推理系统]]（+DeepInfer 四项工程设计拆解）、[[确定性]]（+语境三：推理服务批次无关确定性推理）、[[规范驱动开发]]（+Spec 三份文档与六条原则、护栏必须自检）、[[需求可判定性]]（+五类失效形态与判据写法）、[[EARS句式]]（+四种句式与三个直接收益）、[[Kiro]]（+四类缺陷与"护栏存在不等于护栏生效"）、[[Skill]]（+五段式撰写指令、Skill 四部分结构与调优三维度）、[[渐进式披露]]（+Skill 文件夹四部分落地形态，References 作为"错题本"）、[[Skill撰写指令]]（+触发条件正误对照与三条调优技巧）、[[TRAE]]（+作为 Skill 撰写实践平台）、[[字节跳动]]（+Go 生态 AI 框架布局 Eino/CloudWeGo）、[[LangChain]]（+Eino 的 Go 生态对照物与五点差异）、[[Eino]]（+四层架构、四种流式自动适配、Agentic Runtime 四能力、优缺点与适用场景表）、[[CloudWeGo]]（+Go 微服务技术栈与 Eino 生态协同）、[[AgentRuntime]]（+Agentic Runtime 的框架化落地：Cancel/Retry/Failover/Middleware/中断恢复）、[[Middleware]]（+Eino 在 ReAct 生命周期点位注入行为）、[[FotorAgent]]（+三层轨道分离、执行表先行、可编辑性能力矩阵）、[[MG动画]]（+两条技术路线对比与轨道分离设计）、[[代码做视频]]（+国内落地案例与可编辑性维度）、[[局部编辑]]（+视频场景 MG 元素精细修改与多轨道时间轴）、[[SMYSeedanceStoryboard]]（+五份交付物、四种子风格、七份细则手册与五项限制）、[[画风锁定]]（+三层机制细节、配方分离原则与翻车排查路径）、[[分镜脚本]]（+上美影分镜规范：时间切片、@素材挂载、固定编号、尾帧衔接）、[[角色一致性]]（+固定编号 + 一剧一色盘的机械化锁定）、[[Seedance]]（+作为分镜格式的目标接口，被生态对齐为输入契约）、[[AI视频生成]]（+与代码生成视频路线的可编辑性差异对照）、[[Multipass]]（+命令速查、cloud-init 自动化与唯一限制）、[[VMware]]（+轻量替代 Multipass 对比）、[[AIDA模型]]（+六模块提示词要点与标题公式）、[[卖点排序]]（+用户声音挖掘路径与三通病对应）、[[AI内容生产]]（+电商详情页六步 AI 工作流与三个关键心法）、[[摘要-如何从0-1写好一个skill]]（+长弓小子来源标注）、[[长弓小子]]（+Skill 撰写方法论）、[[小哈]]（+Multipass 一文来源）
 
 ## 更新 (2026-10-21)
 - [[LLMWiki]]（+三层架构落地版、编译/检索/治理流程、非银弹边界、人的审核权）、[[WeKnora]]（+Wiki 知识库类型实测：20 摘要/13 实体/128 概念、渐进式下钻检索、图谱≠知识图谱辨析）、[[AndrejKarpathy]]（+LLM Wiki 构想与单篇摄入方式）、[[MattPocock]]（+ask-matt 路由形态）、[[卡尔的AI沃茨]]（+老爷爷提示语路由与「薛定谔的看」）、[[常驻智能体]]（+睡眠唤醒、router 打扰启发式、durable workflow、上下文与成本四组工程问题）、[[GrokBot]]（+harness 工程实现解剖：单工具边界、优先级合并、Firecracker、Temporal）、[[提示词工程]]（+AI 对话五环节 + 提示语路由）、[[混合检索]]（+业务专有名词召回失败案例与管道治理）、[[RRF]]（+专有名词场景必要性与生产参数）、[[Rerank]]（+两阶段检索 50→3~5 篇）、[[RAG]]（+生产级优化 5 方案总表）、[[PaiCLI]]（+三层验证与评测体系、安全审查多路并行、长期记忆治理、9 层提示词布局、Java 版本知识冲突标注）、[[MiMoCode]]（+1.3 万 Star 与团队进展）、[[MiMoDesktop]]（+2026-10 进展）、[[Xiaomi]]（+MiMo 团队扩编与 11 亿台 AIoT 人才需求）、[[Worktree]]（+四道检查与 cp/重定向漏洞、与 Pi 队列对照）、[[提示词注入防御]]（+长期记忆写入锁死与过时代理）、[[钢人论证]]（+提示语路由中的位置与约束）、[[Pi (coding harness)]]（+模块级文件变更队列与三个漏洞）、[[KV Cache]]（+机制细节与模型/引擎/应用三端优化）、[[上下文压缩]]（+长期记忆三类脏数据治理）、[[长期记忆]]（+脏数据治理机制）、[[渐进式披露]]（+工具层与检索层的同源落地）、[[苏三]]（+RAG 性能优化 5 方案）、[[沉默王二]]（+xiaom 面试题与并发写冲突两篇）、[[小哈]]（+main 方法面试题）、[[叶小钗]]（+LLM Wiki 实战）

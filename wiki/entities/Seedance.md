@@ -2,8 +2,8 @@
 title: "Seedance"
 type: entity
 tags: [AI模型, 视频生成, 字节跳动]
-sources: [raw/01-articles/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/01-articles/2026-09-28-用豆包 Vibe Coding？现在真的可以了.md, raw/01-articles/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md]
-last_updated: 2026-10-12
+sources: [raw/01-articles/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/01-articles/2026-09-28-用豆包 Vibe Coding？现在真的可以了.md, raw/01-articles/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md, raw/01-articles/开源项目｜一个神级Skill：故事丢进去，AI自动生成上美影风短剧.md]
+last_updated: 2026-10-22
 ---
 
 ## 定义
@@ -16,6 +16,9 @@ Seedance 2.5 是字节跳动推出的视频生成模型，豆包工作内置，�
 - **应用场景**：视频创作素材管理、视频提示词反推与复用
 - **官方资料来源**：字节跳动、Seed、火山引擎、即梦等官方渠道
 - **作为下游渲染工序（2026-10）**：[[Astra|GPT-6 Astra]] 的"AI导演"工作流中，Seedance 2.5 承担白模预演确认后的最终渲染成片环节（Higgsfield AI 一镜到底测试：Astra 在 Blender 搭白模规划运镜，再交 Seedance 2.5 渲染，缓解空间错乱/穿模）；这一"规划-渲染"分工引发行业讨论：视频模型是否会沦为通用大模型的"渲染工"、产业链价值被压低，由此催生字节等厂商的 [[视频模型全链路布局]]
+
+### 作为分镜格式的目标接口（2026-10-21，详见 [[摘要-smy-seedance-storyboard上美影短剧skill]]）
+[[SMYSeedanceStoryboard]] 这一类短剧 Skill 把 **Seedance 的输入习惯做成格式规范**：分镜按 0-3 秒、3-6 秒切片，每段写景别、运镜、动作与音效配乐，用 `@图片` 挂载编号资产，整段粘贴即可出片。作者实测用 Seedance 2.5 出片，并指出"工具不限"——WorkBuddy、Codex 或其他能调视频模型的地方都行。这说明 Seedance 已从"一个视频模型"变成"一套被生态对齐的输入契约"。
 
 ## 知识冲突
 - 已有 [[Seedance]] 页面记录为"豆包工作内置视频模型"，本次摄入补充版本号 2.5 及与 2.0 的对比调研信息，无冲突，增量合并。
@@ -37,3 +40,6 @@ Seedance 2.5 是字节跳动推出的视频生成模型，豆包工作内置，�
 - [[摘要-claude-gpt-video-seedance-moat]] — 规划-渲染分工与护城河讨论来源
 - [[Astra]] — 把 Seedance 调度为下游渲染的通用大模型
 - [[视频模型全链路布局]] — 应对跨界冲击的字节竞争策略
+- [[SMYSeedanceStoryboard]] — 对齐 Seedance 输入格式的短剧 Skill
+- [[分镜脚本]] — 分镜格式规范
+- [[摘要-smy-seedance-storyboard上美影短剧skill]] — 来源（分镜格式契约）
