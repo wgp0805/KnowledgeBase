@@ -58,7 +58,7 @@ Eino在设计上有一个非常明确的目标： **面向生产环境** 。
 
 ## 二、一张图看懂Eino的核心架构
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rfUPey7YnMBQgkBam7fLFrvDBnpD2IqLFkgj2ZEEXuAVKWKn6OWeoqgQTc8JUOngwibwBelcSBjTlYoYnzfzraA2cJQlj4ibO1DQ/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8Eino%EF%BC%9F/09b21fe7a105f6c519e47851ad68208b_MD5.png)
 
 Eino的架构可以分成四层：
 
@@ -98,7 +98,7 @@ AI应用里最常见的bug是什么？
 
 Eino的做法是： **组件只实现自己真正需要的流式范式，剩下的框架帮你补全。**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rcl42q83SuJYt8UXdPSbkHCj5HiaJErtcBVqhqcce6GFJx1GwUEFtibHUJcshT5tj3keibkqSCd0icJvPeMf6QyKDzM93VshEnR8Tg/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8Eino%EF%BC%9F/023f06d903062e3eb62634d241624e59_MD5.png)
 
 具体来说：
 

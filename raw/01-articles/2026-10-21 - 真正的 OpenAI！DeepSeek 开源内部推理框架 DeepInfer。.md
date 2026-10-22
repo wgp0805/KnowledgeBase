@@ -14,7 +14,7 @@ parse_status: "ok"
 
 官方在介绍里用了一句古文，叫「为善与众行之，为巧与众能之」。观众老爷给的评价是，这才是真正的 OpenAI，就像村民免费向你分享了核聚变技术一样。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/T2zlmTOnicn8YGCMXRcBsoSmIVD4vkAJxwMGgqRccZR2xIA34dFHuCHh1NOnx1Z6NZwqNOXqHVUdlCp743DXpibNPic6RNlGenHugYqxjFcqCc/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-21%20-%20%E7%9C%9F%E6%AD%A3%E7%9A%84%20OpenAI%EF%BC%81DeepSeek%20%E5%BC%80%E6%BA%90%E5%86%85%E9%83%A8%E6%8E%A8%E7%90%86%E6%A1%86%E6%9E%B6%20DeepInfer%E3%80%82/ed6e8da6a9e8595f7039ff729d374228_MD5.png)
 
 为什么一个推理框架的开源，能让观众老爷发出这样的感慨？
 
@@ -34,7 +34,7 @@ parse_status: "ok"
 
 这次开源的 DeepInfer，是 DeepSeek 基于 vLLM 演进、同时吸收 SGLang 和 TensorRT-LLM 思路打造的生产级推理引擎，原生兼容英伟达 SM100 架构的 GPU 与华为昇腾 950 NPU 两大硬件平台。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/T2zlmTOnicnibD101AlkNJWbYoYtwhCea3RyzXyzyiaE8GqLbqlcicUlibEXlX5pypEe2RTdohGKiawpV1UuMjsDwQfic8ul5y1Gy1hByccgtogTT8/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-21%20-%20%E7%9C%9F%E6%AD%A3%E7%9A%84%20OpenAI%EF%BC%81DeepSeek%20%E5%BC%80%E6%BA%90%E5%86%85%E9%83%A8%E6%8E%A8%E7%90%86%E6%A1%86%E6%9E%B6%20DeepInfer%E3%80%82/8f5dfaf9b18fb78073a5cc002ca0f9a8_MD5.png)
 
 同时开源的还有采用 Rust 编写的编解码组件 deepseek-recipe。很多团队部署私有化模型时可能都踩过这个坑，明明权重一模一样，自己搭建的服务在深度思考或工具调用时就是不如官方的 API 稳定，病根就在于协议转换与分词处理。
 
@@ -50,7 +50,7 @@ deepseek-recipe 把 Chat Completions API、Responses API 和 Messages API 统一
 
 第二个是 100 PiB 的独立分布式存储加 SWA Bounded Replay（滑动窗口注意力有界重放）。DeepSeek 用自研的 3FS 分布式文件系统搭建了约 100 PiB 的 SSD 存储集群，峰值聚合读取带宽达到了 10 TiB/s，把按 128 个 Token 分页的块缓存全部写入硬盘，让 KV Cache 保留时间达到了 72 个小时。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/T2zlmTOnicnib78wsQ0V4p8pOpk5HC6UzfDxwQqic44CNEmM7neS6Yr5JhaVEF5uYH7S6ynsRZzY9VqzLs4uQvGrs9nOibF5Yszzia4eqruHrh50/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-21%20-%20%E7%9C%9F%E6%AD%A3%E7%9A%84%20OpenAI%EF%BC%81DeepSeek%20%E5%BC%80%E6%BA%90%E5%86%85%E9%83%A8%E6%8E%A8%E7%90%86%E6%A1%86%E6%9E%B6%20DeepInfer%E3%80%82/3fee6aa09b78bde705e65d87006b9ee8_MD5.png)
 
 针对只在活跃会话里有效的滑动窗口缓存（SWA KVCache），写硬盘会占掉近一半容量，全量重算代价又太高。DeepInfer 选择只把它留在机器内存里保存约 180 秒，这样做的好处是，线上命中率超过 98%。一旦未命中就启用 SWA Bounded Replay，只截断重算的最近 128 个 Token，把重算代价变成与上下文长度和层数无关的常数，让预填充在解码层的总计算量减少了近一半。
 
@@ -58,13 +58,13 @@ deepseek-recipe 把 Chat Completions API、Responses API 和 Messages API 统一
 
 第四个是零开销的异步批调度（Asynchronous Scheduling）。当 GPU 执行第 N 步的前向计算和采样时，CPU 已经在并行执行第 N 加 1 步的批次调度和第 N 减 1 步的后处理，实现 GPU 全程零空闲。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/T2zlmTOnicn8G5PtnK84lQBichhA4JSJIavL8EWlNibA9l9ncZNyZwW2HrtyeZ3new9gBrCVHPmTxUqv4ibk7Ft94THia1iaiaaicTia3Ph0Nibm1OLEE/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-21%20-%20%E7%9C%9F%E6%AD%A3%E7%9A%84%20OpenAI%EF%BC%81DeepSeek%20%E5%BC%80%E6%BA%90%E5%86%85%E9%83%A8%E6%8E%A8%E7%90%86%E6%A1%86%E6%9E%B6%20DeepInfer%E3%80%82/22fa962e45af58ecfe5ca42d8c8a1c1f_MD5.png)
 
 **那聪明的你肯定又要问了，这次开源对我们到底意味着什么？**
 
 第一，自建模型网关时可以直接安装  `deepseek-recipe` ，一步到位接管多协议转换、特殊字符注入和流式工具调用解析。第二，既然官方把 KV Cache 在硬盘里保留了 72 小时，设计需要人工审批或跨天恢复的 Agent 时，只要固定好开头的系统提示词和工具定义，暂停两天依然能命中服务端缓存。第三，开启  `DEEPINFER_BATCH_INVARIANT=1`  批次无关确定性推理后，不论并发批次怎么变，相同输入永远产出相同的结果，对线上复现与评测是极大的便利。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/T2zlmTOnicnibCVVl9e5L79XEn9ia9OfDGjWJ3bQxMTRhSLUacZ1087DCGFZm8TWQicxDncwVicDSjk0IbjCoeIKfib9JHbc8uiazuFXAfVnORX2RU/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-21%20-%20%E7%9C%9F%E6%AD%A3%E7%9A%84%20OpenAI%EF%BC%81DeepSeek%20%E5%BC%80%E6%BA%90%E5%86%85%E9%83%A8%E6%8E%A8%E7%90%86%E6%A1%86%E6%9E%B6%20DeepInfer%E3%80%82/aee09889321c4a36796b2344fabba3eb_MD5.png)
 
 最后简单总结下。
 
