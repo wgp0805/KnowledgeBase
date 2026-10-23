@@ -8,7 +8,7 @@ source: "https://mp.weixin.qq.com/s/LXVNNSc27XDRwrXWY2SCFA"
 
 网页自动化最耗人的地方，往往不是业务逻辑，而是元素定位。页面结构一调整，class 改名、按钮换位置，原先写好的 CSS 选择器或 XPath 就可能整片失效。脚本跑不起来，时间都花在排查“第几步找不到元素”上，真正要验证的业务流程反而被挤到后面。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/mciaHGibPzCITnaKzuNZniasibYZPyGOS5FiaiaDFoRFSSwVGFIOWicrLV0h5Rgdibd2hibzIGg8gzibVUEZLc95ianbrAv7IYCEwdVHCUcibIIvmNbmibJM/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/%E8%BF%99%E4%B8%AAGitHub%20119K+%20Star%E7%9A%84%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%EF%BC%8C%E5%8F%AF%E4%BB%A5%E8%AE%A9AI%E5%83%8F%E4%BA%BA%E4%B8%80%E6%A0%B7%E6%93%8D%E4%BD%9C%E6%B5%8F%E8%A7%88%E5%99%A8%EF%BC%81/421426250702d87a6f9b346c36997347_MD5.webp)
 
 Browser-Use 想绕开这个循环。它在 GitHub 上的热度已经很高，Star 超过 119k。它的做法不是让开发者把点击步骤写得更细，而是把浏览器里的无障碍树交给大模型，让模型根据页面语义判断下一步该操作什么。
 
@@ -20,7 +20,7 @@ Browser-Use 想绕开这个循环。它在 GitHub 上的热度已经很高，Sta
 
 Browser-Use 走的是中间路线：读取浏览器原生的 Accessibility Tree。这棵树描述页面上有哪些按钮、输入框、链接，以及它们对应的文本语义，不依赖 CSS 样式和 class 名称。模型拿到的是一份结构化的页面说明，再结合任务目标决定操作顺序。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/mciaHGibPzCIQTicFO74HFhczzOAMlib7ZZabbbwia1LjfRYFfLsmUBIqA8KlicGFydcYFWTwmaRibtUtH1Dic47c4QUlaxiaO1pibicyib3Dl6y62NHVw0/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](assets/%E8%BF%99%E4%B8%AAGitHub%20119K+%20Star%E7%9A%84%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%EF%BC%8C%E5%8F%AF%E4%BB%A5%E8%AE%A9AI%E5%83%8F%E4%BA%BA%E4%B8%80%E6%A0%B7%E6%93%8D%E4%BD%9C%E6%B5%8F%E8%A7%88%E5%99%A8%EF%BC%81/1d63df38c3803f99062b1d6842c39293_MD5.webp)
 
 它的底层可以分成三层：上层是 Python API，中间是 Rust 编写的高性能核心，底层由 Playwright 驱动浏览器。所以它并不是简单把 Playwright 包一层，而是把“元素定位”这件事从代码里转移到了模型推理里。
 
@@ -30,7 +30,7 @@ Browser-Use 走的是中间路线：读取浏览器原生的 Accessibility Tree�
 
 硬编码选择器的方案执行可控、速度快，但页面改版后维护成本高。截图视觉方案不依赖 DOM 结构，却要反复处理图像，token 消耗和响应时间都会上去。Browser-Use 依靠无障碍树，既不完全绑前端样式，也不每步都走视觉，在稳定性和成本之间做了一个折中。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/mciaHGibPzCIR6X2jcpIpecbCkEogs1xc4DhGmj88hTrU2JdKGBYAcEgBfSOSNAG1KEjPfstVkUoicia04HLWyeIfYDyvf8ibQCk3ibibHqFNWfh3o/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![图片](assets/%E8%BF%99%E4%B8%AAGitHub%20119K+%20Star%E7%9A%84%E5%BC%80%E6%BA%90%E7%A5%9E%E5%99%A8%EF%BC%8C%E5%8F%AF%E4%BB%A5%E8%AE%A9AI%E5%83%8F%E4%BA%BA%E4%B8%80%E6%A0%B7%E6%93%8D%E4%BD%9C%E6%B5%8F%E8%A7%88%E5%99%A8%EF%BC%81/40d9d42e78ded37b860c984cfb121d92_MD5.png)
 
 它也不是没有短板。遇到结构复杂、动态渲染很强的页面，模型仍可能判断失误，结果取决于模型推理质量。所以它更适合作为传统自动化的补充，而不是在所有场景里替代 Selenium 或 Playwright。
 
