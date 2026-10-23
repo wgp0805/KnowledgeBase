@@ -7,7 +7,9 @@ last_updated: 2026-10-23
 ---
 
 ## 定义
-OkHttp 是 Square 出品的 HTTP 客户端库，Android 与 JVM 上的 Java/Kotlin 通用（Java 调用方式与 4.x 几乎一样：`OkHttpClient.Builder` + `Request.Builder`；库本身 Kotlin 编写会带 `kotlin-stdlib`）。 Rising用法多经 Retrofit 间接引入，因此"Retrofit 一升版本，OkHttp 行为跟着变"——它早已躺在很多 Java 服务的调用链上。
+OkHttp 是 Square 出品的 HTTP 客户端库，Android 与 JVM 上的 Java/Kotlin 通用（Java 调用方式与 4.x 几乎一样：`OkHttpClient.Builder` + `Request.Builder`；库本身 Kotlin 编写会带 `kotlin-stdlib`）。Rising用法多经 Retrofit 间接引入，因此"Retrofit 一升版本，OkHttp 行为跟着变"——它早已躺在很多 Java 服务的调用链上。
+
+（注：Retrofit 在本库未建页，纯文本记录）
 
 ## 关键信息
 - **职责画像**：找地址（DNS）→ 建连接（连接池复用）→ 做 TLS → 收发响应；HTTP/2 单连接并发多请求、响应默认 gzip、失败按策略重试；5.0 起 IPv6/IPv4 一起试（Happy Eyeballs），还有 GraalVM 原生镜像与 JPMS module-info 支持
@@ -25,4 +27,4 @@ OkHttp 是 Square 出品的 HTTP 客户端库，Android 与 JVM 上的 Java/Kotl
 - [[摘要-okhttp-5.5]] — 来源（锋哥详解与三段 Java 实例）
 - [[Dio]] — Dart/Flutter 生态的同类定位
 - [[SSE]] — AI 客户端里同常见的流式 HTTP 形态
-- [[Retrofit]] — 常见上层封装（未建页，概念性提及）
+- Retrofit（上层封装，未建页，纯文本记录；OkHttp 与其、Okio、SQLDelight 同属 Commonhaus 基金会治理）

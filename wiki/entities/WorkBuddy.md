@@ -34,7 +34,9 @@ sources:
   - raw/01-articles/2026-10-13-WorkBuddy 自动签到：不开机也能 7×24 白嫖 100 积分天！.md
   - raw/01-articles/2026-10-14-WorkBuddy大更新，上线浏览器操控能力.md
   - raw/01-articles/2026-10-16-企业微信的上下文，正在成为WorkBuddy的重要优势.md
-last_updated: 2026-10-19
+  - raw/09-archive/2026-10-22-从找场景到做 Skill：AI 赋能落地的一套拆解方法.md
+  - raw/09-archive/2026-10-22-实测Nano Banana 2.1：拿10个电商场景正面PK，能把GPT拉下神坛吗？.md
+last_updated: 2026-10-23
 ---
 
 ## 定义
@@ -289,6 +291,14 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - **范式判断**：从外部顾问（干活前人得先翻聊天记录交代背景）到**驻场顾问**（自己查阅资料了解讨论与项目状态，关键操作保留人的控制权）——过去人把现场信息搬给 AI，现在 AI 走进工作现场（详见 [[驻场顾问]]）；作者判断这是企业级办公 Agent 下一步值得关注的方向
 - 与此前"远程"功能（微信/企微发任务遥控电脑上的 WorkBuddy）互补：本次是**上下文双向打通**——企微讨论成为判断依据，成果又回流企微
 
+### Skill/MCP 双形态、router 按需拉取与安全行为反推（2026-10-22，张佳的AI实战笔记，详见 [[摘要-从找场景到做skill]]）
+- **连接器双形态**：WorkBuddy 的连接器就是 Skill 与 MCP 两种形态——飞书走 CLI，腾讯文档走 MCP + 一套官方 Skill；一个 SaaS 随便几十个功能点，MCP 的 description 塞不下用法组合，得靠 Skill 告诉 Agent 什么任务调什么接口
+- **router 按需拉取 schema**：MCP 会常驻 Agent 上下文，工具多了要靠连接器开关和 router 管理——WorkBuddy 的 router 只给 Agent 写工具名和描述，需要细节时再**按需拉取 schema**（与 [[动态工具发现]] 思路一致）
+- **安全行为反推案例**：作者让 WorkBuddy 写调用真实大模型 API 的 ChatBI，它为了调试直接读了存 API 密钥的 models.json——对比 DeepSeek Harness、Codex 遇到密钥会提醒删掉/记得重置、提交代码时把密钥段加进 .gitignore，判断背后必然有一段提示词在驱动；方法论：遇到这种设计要能**反推出它写了什么、以及怎么反制**
+
+### 「电商视觉设计总监」专家 Skill 上架（2026-10-22，Bulus lan，详见 [[摘要-nano-banana-2.1-电商实测]]）
+- 在【专家】页搜索「新西楼/buluslan」即可用其"跨境电商全链路"里的**电商视觉设计总监**技能（作者称近 5000 人使用，是其数据最好的 Skill/专家），召唤后输入商品图+产品信息+作图需求，即可串起"写提示词→生成图片"的跨境品牌级素材产线
+
 ## 知识冲突（已解决，2026-08-21）
 - 旧定义（2026-06-23，[[摘要-OpenClaw小龙虾教程汇总]]）：WorkBuddy 是 [[OpenClaw]]（小龙虾）的一站式部署平台
 - 新定义（2026-08-21，[[摘要-workbuddy保姆级入门教程-苏三]]）：WorkBuddy 是国产桌面 AI 应用
@@ -385,3 +395,7 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - [[摘要-workbuddy企业微信打通]] — 2026-10-16 与企业微信深度打通（怪哥）
 - [[驻场顾问]] — 企微打通提炼的角色范式
 - [[腾讯]] — 企业微信与 WorkBuddy 的共同 parent
+- [[摘要-从找场景到做skill]] — 来源（Skill/MCP 双形态、router 按需拉取、密钥安全反推）
+- [[摘要-nano-banana-2.1-电商实测]] — 来源（电商视觉设计总监专家 Skill）
+- [[NanoBanana]] — 专家 Skill 串接的生图模型
+- [[动态工具发现]] — router 按需拉取 schema 的同类概念

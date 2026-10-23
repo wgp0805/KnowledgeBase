@@ -2,8 +2,8 @@
 title: "DeepSeek V4.1-Flash"
 type: entity
 tags: [DeepSeek, V4.1-Flash, 国产模型, Harness, 模型更新, 搜索API]
-sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, raw/01-articles/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md, raw/01-articles/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
-last_updated: 2026-10-22
+sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/09-archive/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, raw/01-articles/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/09-archive/2026-10-22-纯原生Flutter3 + Dio 实战 DeepSeek V4.1 SSE流式对话 - yxybox.md]
+last_updated: 2026-10-23
 ---
 
 ## 定义
@@ -64,6 +64,9 @@ DeepSeek 技术文件核心观点：
 - **零开销异步批调度**：GPU 执行第 N 步时 CPU 并行做第 N+1 步调度与第 N-1 步后处理，GPU 全程零空闲
 - **批次无关确定性**：`DEEPINFER_BATCH_INVARIANT=1` 开启后，相同输入无论并发批次怎么变都产出相同结果，便于线上复现与评测
 
+### Flutter 移动端接入实证（2026-10-22，yxybox，详见 [[摘要-flutter-dio-deepseek-sse]]）
+同一开发者继桌面端后又给出移动端范例：纯原生 Flutter 3（3.41.5）+ [[Dio]] 实现与该模型的 SSE 流式对话客户端，完整项目技术栈一览 + 逐 token 渲染与会话管理，支持流式输出与深度思考两种能力，进一步证明其接入门槛低到可以在普通移动端项目里直接承载。
+
 ## 关联连接
 - [[摘要-deepseek-v41-flash-1017]] — 2026-10-17 来源（1017 版本：帕累托改进、许愿式编程、搜索 API 开放）
 - [[许愿式编程]] — 1017 版本支撑的开发方式概念
@@ -86,3 +89,6 @@ DeepSeek 技术文件核心观点：
 - [[SSE流式输出]] — 接入后的核心技术机制
 - [[DeepInfer]] — 部署报告对应的推理引擎
 - [[摘要-deepinfer-deepseek开源推理框架]] — 来源（大规模推理部署实践）
+- [[摘要-flutter-dio-deepseek-sse]] — 来源（Flutter + Dio 移动端 SSE 接入）
+- [[Flutter]] — 移动端接入载体
+- [[Dio]] — Flutter 流式请求库

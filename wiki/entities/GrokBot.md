@@ -2,8 +2,8 @@
 title: "GrokBot"
 type: entity
 tags: [AI产品, Agent, xAI]
-sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, "raw/01-articles/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md", raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md, raw/01-articles/2026-10-21-斯坦福新课直接讲 personal agent，Grok Bot 工程师分享如何打造出 always-on agent.md]
-last_updated: 2026-10-21
+sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, "raw/01-articles/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md", raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md, raw/01-articles/2026-10-21-斯坦福新课直接讲 personal agent，Grok Bot 工程师分享如何打造出 always-on agent.md, "raw/09-archive/2026-10-22-Grok Bot、Dots、Cue、Muse：四家 AI Bot 到底有什么不一样？.md"]
+last_updated: 2026-10-23
 ---
 
 ## 定义
@@ -32,6 +32,7 @@ Grok Bot 是 2026 年 8 月 11 日以 Early Beta 形式推出的 AI Agent 产品
   - **可靠性底座**：[[DurableWorkflow]]（用 [[Temporal]] 实现），普通任务队列崩溃要重放一到三步、durable workflow 可安全重试
   - **上下文与成本**：[[动态工具发现]]（只放工具名，按需读详细定义）+ [[能力阶梯]]（先试最便宜办法）+ prompt caching（"缓存没命中其实就是系统里的一个 bug"）
   - **产品哲学**："delete the product"——认定今天的模型是它们这辈子最差的时候，六个月后可能要重做界面
+- **协作协议视角拆解（2026-10-22，易安说AI，详见 [[摘要-四家ai-bot对比-权限模型]]）**：Grok Bot 的重点不在"一个更强的 Bot"而在**协作协议**——每个 Bot 有独立名称/职责/长期背景（工程 Bot 复现 Bug 建单转调试 Bot，销售 Bot 更新 CRM 准备草稿），可互相传消息、进同一群聊，把传统工作流里"用户当人工消息队列"的交接变成系统内协作行为；同账号 Bots 共用一台云电脑、各自保留对话记忆；由此带来四个工程问题：①谁有权读写共享文件避免覆盖，②多 Bot 同操作 SaaS 页面如何防重复提交，③一个 Bot 的浏览器登录状态是否对其他 Bot 自动开放，④子任务失败谁负责汇总并决定重试。结论：多 Agent 产品可用要靠**任务幂等、共享状态隔离、结果可追溯、对外操作前清晰审批点**，而不是把几个 Agent 塞进群聊；适用场景是已有明确分工、想把资料收集/代码修复/测试/汇总交给多 Agent 协同的团队
 
 ## 关联连接
 - [[摘要-personal-agent-open-source-alternatives]] — 来源（开源平替 Rakazo/OpenMausBot）
@@ -62,3 +63,7 @@ Grok Bot 是 2026 年 8 月 11 日以 Early Beta 形式推出的 AI Agent 产品
 - [[摘要-always-on-agent-斯坦福分享]] — 来源（Lee Robinson 斯坦福分享的 harness 解剖）
 - [[LeeRobinson]] — Grok Bot 工程师、分享者
 - [[ThinClientThickServer]] / [[动态工具发现]] / [[能力阶梯]] / [[DurableWorkflow]] / [[Firecracker]] / [[Temporal]] — harness 工程要点提炼
+- [[摘要-四家ai-bot对比-权限模型]] — 来源（协作协议视角与四大工程问题）
+- [[Agent四层边界]] — 四家对比共用的拆分框架（状态/身份/执行/确认）
+- [[Dots]] — 同一批次对比的四家之一
+- [[幂等性]] — 多 Agent 协作的任务幂等要求

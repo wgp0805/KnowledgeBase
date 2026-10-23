@@ -2,8 +2,8 @@
 title: "Gemini4Argon"
 type: entity
 tags: [实体, 大模型, Google, Gemini, 旗舰模型]
-sources: [raw/01-articles/2026-10-01-Gemini 4正式发布，追平GPT-6但被质疑“刷榜”.md, raw/01-articles/2026-10-01-谷歌憋了半年，Gemini 4终于发布.md, raw/01-articles/2026-10-02-赚到了，Gemini 4 发布，又高又硬！碾压GPT-6 Astra、Claude Opus 5.5!.md]
-last_updated: 2026-10-08
+sources: [raw/09-archive/2026-10-01-Gemini 4正式发布，追平GPT-6但被质疑“刷榜”.md, raw/09-archive/2026-10-01-谷歌憋了半年，Gemini 4终于发布.md, raw/09-archive/2026-10-02-赚到了，Gemini 4 发布，又高又硬！碾压GPT-6 Astra、Claude Opus 5.5!.md, raw/09-archive/2026-10-22-实测Nano Banana 2.1：拿10个电商场景正面PK，能把GPT拉下神坛吗？.md]
+last_updated: 2026-10-23
 ---
 
 ## 定义
@@ -17,6 +17,7 @@ Gemini 4 Argon 是 Google DeepMind 于 2026 年 9 月底发布的年度旗舰大
 - **行业质疑**：[[Benchmaxxing]]——测试成绩漂亮但放进几十万行代码、遗留问题、团队协作的真实业务环境仍有距离（见 [[摘要-gemini4-argon发布与刷榜质疑]]）
 - **战略背景**：搜索入口正从"寻找答案"变成"执行任务"，谷歌最大挑战是 AI 入口变化；标题称其"追平 [[GPT-6]]"
 - **长程工程智能体视角（2026-10-02，详见 [[摘要-gemini4-argon长程工程智能体]]）**：文章强调 100 万是**输出 Token** 而非输入上下文，其意义在于单次连续推理内完成"思维链→编译→自测→回滚→交付"闭环（见 [[长程工程智能体]]）；补充三场实战数据——量子算法时空开销数分钟压缩 40%（学术界数年基线）；安全侧：漏洞自主检出率 85.8%、Wiz 无源码黑盒渗透证据生成 70.9%（在一家全球数百家医院在用的医疗软件中找出 GPT/Claude 系列全都漏掉的多年高危漏洞）、Gray Swan 间接提示词注入 k=15 时得逞率 0.7%；定价补充：缓存命中输入 0.10 美元/百万 token（降 95%）
+- **开放进程佐证（2026-10-22）**：第三方实测文章（Bulus lan）称"沉寂大半年的谷歌 AI 迎来史诗级加强：Gemini 4 Argon 和 Nano Banana 2.1 都上线了"——与早先"分阶段开放（先 Fairwind 计划）+"截至发布时未全面开放"的记录相互印证：开放进程已在 10 月下旬推进到"上线"阶段（详见 [[摘要-nano-banana-2.1-电商实测]]）
 
 ## 知识冲突
 - **说法 A（[[摘要-gemini4-argon发布与刷榜质疑]]）**：Gemini 4 Argon 最大升级是**上下文窗口**——相比上代约 6.4 万 token 提升到 **100 万 token 上下文窗口**，可一次理解几百页代码、大型项目文档。
@@ -33,3 +34,5 @@ Gemini 4 Argon 是 Google DeepMind 于 2026 年 9 月底发布的年度旗舰大
 - [[GPT-6]] — 标题对比对象
 - [[Benchmaxxing]] — 围绕其跑分的质疑概念
 - [[长上下文]] — 100 万 token 争议所涉能力
+- [[摘要-nano-banana-2.1-电商实测]] — 来源（2026-10-22 开放进程佐证）
+- [[NanoBanana]] — 同期上线的生图模型

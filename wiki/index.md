@@ -3229,5 +3229,45 @@
 ## 更新 (2026-10-22)
 - [[DeepSeek]]（+开源生产级推理基础设施 DeepInfer 与 deepseek-recipe，"散装零件"到"整车生产线"）、[[DeepSeek-V4.1-Flash]]（+大规模推理部署实践：155 万亿 Tokens/日、100 PiB 存储集群、EPLB 动态负载均衡）、[[KV Cache]]（+磁盘级 KV 缓存 72 小时、SWA Bounded Replay 常数化重算）、[[推理系统]]（+DeepInfer 四项工程设计拆解）、[[确定性]]（+语境三：推理服务批次无关确定性推理）、[[规范驱动开发]]（+Spec 三份文档与六条原则、护栏必须自检）、[[需求可判定性]]（+五类失效形态与判据写法）、[[EARS句式]]（+四种句式与三个直接收益）、[[Kiro]]（+四类缺陷与"护栏存在不等于护栏生效"）、[[Skill]]（+五段式撰写指令、Skill 四部分结构与调优三维度）、[[渐进式披露]]（+Skill 文件夹四部分落地形态，References 作为"错题本"）、[[Skill撰写指令]]（+触发条件正误对照与三条调优技巧）、[[TRAE]]（+作为 Skill 撰写实践平台）、[[字节跳动]]（+Go 生态 AI 框架布局 Eino/CloudWeGo）、[[LangChain]]（+Eino 的 Go 生态对照物与五点差异）、[[Eino]]（+四层架构、四种流式自动适配、Agentic Runtime 四能力、优缺点与适用场景表）、[[CloudWeGo]]（+Go 微服务技术栈与 Eino 生态协同）、[[AgentRuntime]]（+Agentic Runtime 的框架化落地：Cancel/Retry/Failover/Middleware/中断恢复）、[[Middleware]]（+Eino 在 ReAct 生命周期点位注入行为）、[[FotorAgent]]（+三层轨道分离、执行表先行、可编辑性能力矩阵）、[[MG动画]]（+两条技术路线对比与轨道分离设计）、[[代码做视频]]（+国内落地案例与可编辑性维度）、[[局部编辑]]（+视频场景 MG 元素精细修改与多轨道时间轴）、[[SMYSeedanceStoryboard]]（+五份交付物、四种子风格、七份细则手册与五项限制）、[[画风锁定]]（+三层机制细节、配方分离原则与翻车排查路径）、[[分镜脚本]]（+上美影分镜规范：时间切片、@素材挂载、固定编号、尾帧衔接）、[[角色一致性]]（+固定编号 + 一剧一色盘的机械化锁定）、[[Seedance]]（+作为分镜格式的目标接口，被生态对齐为输入契约）、[[AI视频生成]]（+与代码生成视频路线的可编辑性差异对照）、[[Multipass]]（+命令速查、cloud-init 自动化与唯一限制）、[[VMware]]（+轻量替代 Multipass 对比）、[[AIDA模型]]（+六模块提示词要点与标题公式）、[[卖点排序]]（+用户声音挖掘路径与三通病对应）、[[AI内容生产]]（+电商详情页六步 AI 工作流与三个关键心法）、[[摘要-如何从0-1写好一个skill]]（+长弓小子来源标注）、[[长弓小子]]（+Skill 撰写方法论）、[[小哈]]（+Multipass 一文来源）
 
+## Sources (2026-10-23 ingest)
+- [[摘要-browser-use浏览器自动化]] — 冰河解读 119k Star 浏览器自动化开源项目：无障碍树替代选择器维护，三层架构与三方案折中
+- [[摘要-flutter-dio-deepseek-sse]] — yxybox 用纯原生 Flutter 3 + Dio 实现 DeepSeek-V4.1-Flash 的 SSE 流式对话，附完整技术栈表
+- [[摘要-funasrnet-纯csharp语音识别]] — 张善友介绍 FunAsrNet：纯 C# 手写语音栈、原生库只当"陪练"、README 反向基准写法
+- [[摘要-nano-banana-2.1-电商实测]] — Bulus lan 十个电商场景实测 Nano Banana 2.1 对 GPT-image 2.5，附 WorkBuddy 三步教程
+- [[摘要-ribbi-内容创作agent]] — 长弓小子实测驻浏览器内容创作 Agent Ribbi，"一蛙抵一队"与内容创作三趋势
+- [[摘要-豆包工作-电商评价改详情页]] — 杜小虎记录豆包工作 4 Agent 拆 400 条评价改详情页，同对话云/本地切换
+- [[摘要-vue3-admin-后台系统搭建]] — 落花看风雪 vue3Admin 初始化：pnpm + Vue Router/Pinia/Element Plus 选项与项目结构
+- [[摘要-从找场景到做skill]] — 张佳的AI实战笔记：四维判断表、IPO 原子化拆解与 Skill 采购逻辑
+- [[摘要-vercel-ceo-agent部署]] — 深思圈编译 Guillermo Rauch 访谈：agent 部署占比 3%→60%、80% token 来自开源模型、真沙盒安全观
+- [[摘要-四家ai-bot对比-权限模型]] — 易安说AI 四家 AI Bot 权限模型对比，沉淀四层设计框架（状态/身份/执行/确认）
+- [[摘要-kafka顺序消费]] — 小哈学Java：分区内有序边界、幂等生产者、按 key 内存队列与 rebalance 坑
+- [[摘要-王者荣耀-为什么不用微服务]] — 终码一生汇编知乎讨论：MOBA 是高速通讯与状态的艺术，微服务反 sticky routing
+- [[摘要-netdata-ai全栈监控]] — IT码徒推荐零配置全栈监控 Netdata：19999 端口开箱即用、1 秒采集、AI 异常投票
+- [[摘要-okhttp-5.5]] — 锋哥解析 OkHttp 5.5：okhttp-jvm 构件坑、ECH 加密 DNS、DoH 实用打开方式
+
+## Entities (2026-10-23 新增)
+- [[BrowserUse]] — 119k Star 开源浏览器自动化项目，无障碍树驱动模型推理定位元素
+- [[Flutter]] — 跨平台 UI 框架（本库以 3.41.5 实战视角收录）
+- [[Dio]] — Dart/Flutter 生态网络库，支持流式响应处理 SSE
+- [[FunAsrNet]] — .NET 10 纯 C# 手写语音识别/合成引擎，README 反向基准写法
+- [[NanoBanana]] — Google 生图模型 Nano Banana 2.1：指令遵循强、光影好、排版与一致性弱
+- [[Ribbi]] — 驻浏览器的一站式内容创作运营 Agent，"一蛙抵一队"
+- [[Vercel]] — 前端云平台，编程 agent 部署占比 3%→60% 的"AI 流量指数"
+- [[GuillermoRauch]] — Vercel CEO，"代码是负债"与 bot intelligence 提出者
+- [[Netdata]] — 81k Star 零配置全栈监控工具，1 秒级采集 + AI 异常投票
+- [[OkHttp]] — JVM/Android 通用 HTTP 客户端，5.5 补齐加密 DNS 与 okhttp-jvm 构件
+- [[Cue]] — Manus 给 Agent 配电话/邮箱/钱包的"执行身份"产品
+
+## Concepts (2026-10-23 新增)
+- [[无障碍树]] — 浏览器原生结构化语义树，替代 CSS 选择器维护
+- [[IPO原子化拆解]] — 把环节拆成输入-处理-输出原子节点，再决定哪些做成 Skill
+- [[认知劳动产品化]] — 个人经验固化为可复用、可计价的资产
+- [[AISlop]] — AI 批量生成的低质内容泛滥现象
+- [[Agent四层边界]] — 状态/身份/执行/确认四层拆分"替你做事" Agent 的边界设计
+- [[有状态服务]] — 游戏逻辑服务器单线程驱动房间、状态驻内存不走远端的架构形态
+
+## 更新 (2026-10-23)
+- [[冰河]]（+Browser-Use 解读）、[[张善友]]（+FunAsrNet）、[[IT码徒]]（+Netdata）、[[小哈]]（+Kafka 顺序消费）、[[杜小虎]]（+备战双11 评价改详情页）、[[长弓小子]]（+Ribbi 实测作者）、[[GrokBot]]（+协作协议视角：四大工程问题与四项可用性控制）、[[Dots]]（+长任务视角：四类明确输入）、[[MetaMuse]]（+长期记忆视角：隐私底线四条）、[[Manus]]（+执行身份视角：支付四层控制）、[[豆包工作]]（+电商评价改详情页与同对话云/本地切换）、[[Kafka]]（+顺序消费完整章节）、[[DeepSeek-V4.1-Flash]]（+Flutter/Dio 移动端接入实证）、[[WorkBuddy]]（+Skill/MCP 双形态、router 按需拉取 schema、密钥安全反推与电商视觉设计总监 Skill）、[[Google]]（+Nano Banana 2.1 上线实测）、[[Gemini4Argon]]（+开放进程佐证）
+
 ## 更新 (2026-10-21)
 - [[LLMWiki]]（+三层架构落地版、编译/检索/治理流程、非银弹边界、人的审核权）、[[WeKnora]]（+Wiki 知识库类型实测：20 摘要/13 实体/128 概念、渐进式下钻检索、图谱≠知识图谱辨析）、[[AndrejKarpathy]]（+LLM Wiki 构想与单篇摄入方式）、[[MattPocock]]（+ask-matt 路由形态）、[[卡尔的AI沃茨]]（+老爷爷提示语路由与「薛定谔的看」）、[[常驻智能体]]（+睡眠唤醒、router 打扰启发式、durable workflow、上下文与成本四组工程问题）、[[GrokBot]]（+harness 工程实现解剖：单工具边界、优先级合并、Firecracker、Temporal）、[[提示词工程]]（+AI 对话五环节 + 提示语路由）、[[混合检索]]（+业务专有名词召回失败案例与管道治理）、[[RRF]]（+专有名词场景必要性与生产参数）、[[Rerank]]（+两阶段检索 50→3~5 篇）、[[RAG]]（+生产级优化 5 方案总表）、[[PaiCLI]]（+三层验证与评测体系、安全审查多路并行、长期记忆治理、9 层提示词布局、Java 版本知识冲突标注）、[[MiMoCode]]（+1.3 万 Star 与团队进展）、[[MiMoDesktop]]（+2026-10 进展）、[[Xiaomi]]（+MiMo 团队扩编与 11 亿台 AIoT 人才需求）、[[Worktree]]（+四道检查与 cp/重定向漏洞、与 Pi 队列对照）、[[提示词注入防御]]（+长期记忆写入锁死与过时代理）、[[钢人论证]]（+提示语路由中的位置与约束）、[[Pi (coding harness)]]（+模块级文件变更队列与三个漏洞）、[[KV Cache]]（+机制细节与模型/引擎/应用三端优化）、[[上下文压缩]]（+长期记忆三类脏数据治理）、[[长期记忆]]（+脏数据治理机制）、[[渐进式披露]]（+工具层与检索层的同源落地）、[[苏三]]（+RAG 性能优化 5 方案）、[[沉默王二]]（+xiaom 面试题与并发写冲突两篇）、[[小哈]]（+main 方法面试题）、[[叶小钗]]（+LLM Wiki 实战）
