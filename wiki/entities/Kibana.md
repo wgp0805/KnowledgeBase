@@ -2,7 +2,7 @@
 title: "Kibana"
 type: entity
 tags: [可视化, Elasticsearch, 数据分析, ELK]
-sources: [raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md]
+sources: [raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "SQLite 3.x：全球部署最广泛的零配置嵌入式ACID关系型数据库引擎"
 type: source
 tags: [SQLite, 嵌入式数据库, RDBMS, ACID, WAL, 数据库引擎]
-sources: [raw/01-articles/2026-09-13-[嵌入式数据库RDBMS] SQLite 3.x 全球部署最广泛的零配置、单文件、嵌入式 ACID 关系型数据库引擎 - 千千寰宇.md]
+sources: [raw/09-archive/2026-09-13-[嵌入式数据库RDBMS] SQLite 3.x 全球部署最广泛的零配置、单文件、嵌入式 ACID 关系型数据库引擎 - 千千寰宇.md]
 last_updated: 2026-09-14
 ---
 

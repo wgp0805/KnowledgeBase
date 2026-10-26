@@ -2,7 +2,7 @@
 title: "摘要-elasticsearch-quick-start"
 type: source
 tags: [来源, Elasticsearch, 搜索引擎, 全文检索]
-sources: [raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md]
+sources: [raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md]
 last_updated: 2026-05-19
 ---
 

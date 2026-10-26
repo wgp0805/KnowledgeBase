@@ -2,7 +2,7 @@
 title: "GAE"
 type: concept
 tags: [强化学习, 优势估计, PPO, 方差偏差权衡]
-sources: [raw/01-articles/2026-08-27-LLM后训练算法梳理(1)-PPO算法 - bradinz.md]
+sources: [raw/09-archive/2026-08-27-LLM后训练算法梳理(1)-PPO算法 - bradinz.md]
 last_updated: 2026-08-28
 ---
 

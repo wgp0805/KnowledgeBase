@@ -2,7 +2,7 @@
 title: "摘要-superpowers五大核心skill拆解"
 type: source
 tags: [AI编程, Skill, Superpowers, ClaudeCode, 工程纪律]
-sources: ["raw/01-articles/2026-10-14-185,000 星的 Superpowers 插件，90% 的人只用了它 10% 的功能 - 码哥字节.md"]
+sources: ["raw/09-archive/2026-10-14-185,000 星的 Superpowers 插件，90% 的人只用了它 10% 的功能 - 码哥字节.md"]
 last_updated: 2026-10-15
 ---
 

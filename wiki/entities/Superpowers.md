@@ -10,7 +10,7 @@ sources:
   - raw/09-archive/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md
   - raw/09-archive/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md
   - raw/09-archive/2026-09-28-Claude Code 装了一堆 Skill，用了三个月，我删掉了 80% - 码哥字节.md
-  - raw/01-articles/2026-10-14-185,000 星的 Superpowers 插件，90% 的人只用了它 10% 的功能 - 码哥字节.md
+  - raw/09-archive/2026-10-14-185,000 星的 Superpowers 插件，90% 的人只用了它 10% 的功能 - 码哥字节.md
 last_updated: 2026-10-15
 ---
 

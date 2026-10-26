@@ -3,7 +3,7 @@ title: "Lucene"
 type: entity
 tags: [搜索引擎, 全文检索, Java, Apache]
 sources:
-  - raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md
+  - raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md
   - raw/09-archive/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
 last_updated: 2026-08-26
 ---

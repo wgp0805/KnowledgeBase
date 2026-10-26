@@ -30,8 +30,9 @@ def fix_file(path, apply):
     rest = content[end:]
     changes = []
     new_lines = []
-    # 允许路径中含空格（Windows 剪藏文件名常见）；以引号/换行/右括号等为界
-    path_re = re.compile(r'raw/[^\r\n"\]\)\|,]+?\.(?:md|pdf|json)')
+    # 允许路径中含空格与引号（剪藏标题常见）；非贪婪匹配以首个 .md/.pdf/.json 收尾，
+    # 误改由 basename 存在于归档目录的校验兜底
+    path_re = re.compile(r'raw/[^\r\n\|]+?\.(?:md|pdf|json)')
     def repl(m):
         src = m.group(0)
         full = os.path.join(KB, src)

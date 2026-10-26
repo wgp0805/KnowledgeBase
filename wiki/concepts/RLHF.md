@@ -2,7 +2,7 @@
 title: "RLHF"
 type: concept
 tags: [AI, LLM, 对齐, 强化学习, RLHF]
-sources: [raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md, raw/01-articles/2026-08-27-LLM后训练算法梳理(1)-PPO算法 - bradinz.md]
+sources: [raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md, raw/09-archive/2026-08-27-LLM后训练算法梳理(1)-PPO算法 - bradinz.md]
 last_updated: 2026-08-28
 ---
 

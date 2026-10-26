@@ -2,7 +2,7 @@
 title: "inverted-index"
 type: concept
 tags: [搜索引擎, 数据结构, 全文检索, Lucene]
-sources: [raw/01-articles/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md]
+sources: [raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md]
 last_updated: 2026-05-19
 ---
 
