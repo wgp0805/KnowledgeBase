@@ -1,7 +1,2 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
-.venv/
-
-# pip 临时目录（系统 TMP 创建失败时会回退到当前工作目录）
-pip-unpack-*/
-pip-ephem-wheel-cache-*/
