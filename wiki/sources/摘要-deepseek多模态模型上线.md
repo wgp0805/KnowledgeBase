@@ -2,7 +2,7 @@
 title: "摘要：DeepSeek多模态模型上线"
 type: source
 tags: [DeepSeek, 多模态, 视觉模型]
-sources: [raw/01-articles/2026-08-22 - 重磅，DeepSeek多模态模型上线了！.md]
+sources: [raw/09-archive/2026-08-22 - 重磅，DeepSeek多模态模型上线了！.md]
 last_updated: 2026-08-24
 ---
 

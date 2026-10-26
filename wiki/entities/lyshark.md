@@ -2,7 +2,7 @@
 title: "lyshark"
 type: entity
 tags: [人物, 博主, 博客园, AI工程, Python]
-sources: [raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md]
+sources: [raw/09-archive/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md]
 last_updated: 2026-08-21
 ---
 

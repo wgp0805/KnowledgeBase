@@ -2,7 +2,7 @@
 title: "摘要-itext9-java-pdf"
 type: source
 tags: [来源, 原始文件, Java, PDF, iText, 工具库]
-sources: [raw/01-articles/iText 9，Java解析PDF神器 ！.md]
+sources: [raw/09-archive/iText 9，Java解析PDF神器 ！.md]
 last_updated: 2026-09-15
 ---
 

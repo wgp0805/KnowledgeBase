@@ -2,7 +2,7 @@
 title: "摘要-YC投资人最在意的问题"
 type: source
 tags: [财富创造, 创业, 价值创造, 价值捕获, 零和思维, 正和游戏]
-sources: [raw/01-articles/2026-08-25-YC 投资人最在意的问题，大多数创始人却从没认真想过.md]
+sources: [raw/09-archive/2026-08-25-YC 投资人最在意的问题，大多数创始人却从没认真想过.md]
 last_updated: 2026-08-25
 ---
 

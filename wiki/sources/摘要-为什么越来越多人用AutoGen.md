@@ -2,7 +2,7 @@
 title: "摘要-为什么越来越多人用AutoGen"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/2026-09-24 - 为什么越来越多人用 AutoGen？.md]
+sources: [raw/09-archive/2026-09-24 - 为什么越来越多人用 AutoGen？.md]
 last_updated: 2026-09-28
 ---
 

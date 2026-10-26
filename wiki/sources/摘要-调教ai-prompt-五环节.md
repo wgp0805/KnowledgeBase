@@ -2,7 +2,7 @@
 title: "摘要-调教ai-prompt-五环节"
 type: source
 tags: [来源, Prompt, 提示词, 交互设计, 产品经理]
-sources: [raw/01-articles/2026-10-21-调教 AI Prompt 超全教程+案例！减少返工80%！.md]
+sources: [raw/09-archive/2026-10-21-调教 AI Prompt 超全教程+案例！减少返工80%！.md]
 last_updated: 2026-10-21
 ---
 

@@ -2,7 +2,7 @@
 title: "RuoYiAI"
 type: entity
 tags: [Java, AI, 开源, RuoYi, SpringAI, Langchain4j]
-sources: [raw/01-articles/RuoYi 全栈 AI 平台开源了（若依）。.md]
+sources: [raw/09-archive/RuoYi 全栈 AI 平台开源了（若依）。.md]
 last_updated: 2026-08-13
 ---
 

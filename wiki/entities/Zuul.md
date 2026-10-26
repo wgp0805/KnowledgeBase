@@ -2,7 +2,7 @@
 title: "Zuul"
 type: entity
 tags: [网关, Netflix, 微服务, 已弃用]
-sources: [raw/01-articles/面试官：为什么需要 Gateway 网关，它有什么作用？.md]
+sources: [raw/09-archive/面试官：为什么需要 Gateway 网关，它有什么作用？.md]
 last_updated: 2026-07-08
 ---
 

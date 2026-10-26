@@ -2,7 +2,7 @@
 title: "WeKnora"
 type: entity
 tags: [实体, 工具, 知识库, RAG, Agent, 腾讯, 开源]
-sources: [raw/09-archive/2026-09-14-重磅！微信把自家的AI知识库开源了.md, raw/01-articles/2026-09-20-Agent 平台的两种哲学：从 WeKnora 和 Molio 聊起 - AI闲人.md, raw/01-articles/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md]
+sources: [raw/09-archive/2026-09-14-重磅！微信把自家的AI知识库开源了.md, raw/09-archive/2026-09-20-Agent 平台的两种哲学：从 WeKnora 和 Molio 聊起 - AI闲人.md, raw/09-archive/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md]
 last_updated: 2026-10-08
 ---
 

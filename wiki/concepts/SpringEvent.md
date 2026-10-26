@@ -2,7 +2,7 @@
 title: "SpringEvent"
 type: concept
 tags: [Spring, 事件机制, 发布订阅, 最终一致性]
-sources: [raw/01-articles/Spring Event 别瞎用！被它坑的绩效都没了！.md]
+sources: [raw/09-archive/Spring Event 别瞎用！被它坑的绩效都没了！.md]
 last_updated: 2026-08-17
 ---
 

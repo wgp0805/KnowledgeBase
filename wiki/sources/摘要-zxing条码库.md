@@ -2,7 +2,7 @@
 title: "摘要-zxing条码库"
 type: source
 tags: [来源, 开源库, 二维码, Android]
-sources: [raw/01-articles/为什么越来越多人用 ZXing？.md]
+sources: [raw/09-archive/为什么越来越多人用 ZXing？.md]
 last_updated: 2026-10-09
 ---
 

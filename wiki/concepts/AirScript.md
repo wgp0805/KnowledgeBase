@@ -2,7 +2,7 @@
 title: "AirScript"
 type: concept
 tags: [云端自动化, 金山文档, 定时任务, 零成本]
-sources: ["raw/01-articles/2026-10-13-WorkBuddy 自动签到：不开机也能 7×24 白嫖 100 积分天！.md"]
+sources: ["raw/09-archive/2026-10-13-WorkBuddy 自动签到：不开机也能 7×24 白嫖 100 积分天！.md"]
 last_updated: 2026-10-14
 ---
 

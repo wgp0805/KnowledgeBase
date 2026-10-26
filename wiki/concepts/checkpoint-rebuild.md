@@ -2,7 +2,7 @@
 title: "checkpoint-rebuild"
 type: concept
 tags: [AI Agent, 上下文管理, 记忆, MiMo Code]
-sources: [raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md]
+sources: [raw/09-archive/小米版Claude Code正式发布，这次开源能给到夯.md]
 last_updated: 2026-06-11
 ---
 

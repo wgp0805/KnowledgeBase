@@ -2,7 +2,7 @@
 title: "摘要-霸榜github-ai逆向神器-rea-archify"
 type: source
 tags: [来源, REA, Archify, 逆向工程, MCP, 架构图]
-sources: [raw/01-articles/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
+sources: [raw/09-archive/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
 last_updated: 2026-10-20
 ---
 

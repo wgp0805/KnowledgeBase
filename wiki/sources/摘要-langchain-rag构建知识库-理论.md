@@ -2,7 +2,7 @@
 title: "摘要-langchain-rag构建知识库-理论"
 type: source
 tags: [RAG, LangChain, 知识库, 向量化]
-sources: [raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md]
+sources: [raw/09-archive/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md]
 last_updated: 2026-08-10
 ---
 

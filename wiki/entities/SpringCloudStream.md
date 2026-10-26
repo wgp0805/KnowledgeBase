@@ -2,7 +2,7 @@
 title: "SpringCloudStream"
 type: entity
 tags: [Spring, 消息队列, 微服务]
-sources: [raw/01-articles/Spring Cloud Stream 整合 RocketMQ 完全指南.md]
+sources: [raw/09-archive/Spring Cloud Stream 整合 RocketMQ 完全指南.md]
 last_updated: 2026-07-21
 ---
 

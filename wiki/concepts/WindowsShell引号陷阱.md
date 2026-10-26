@@ -2,7 +2,7 @@
 title: "WindowsShell引号陷阱"
 type: concept
 tags: [踩坑, Windows, CLI, Shell, 跨平台]
-sources: [raw/01-articles/2026-09-29-Windows 下 CLI 参数的引号陷阱：为什么 --resume 'uuid' 会失败 - fox_charon.md]
+sources: [raw/09-archive/2026-09-29-Windows 下 CLI 参数的引号陷阱：为什么 --resume 'uuid' 会失败 - fox_charon.md]
 last_updated: 2026-10-08
 ---
 

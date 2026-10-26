@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-美图设计室ppt美化"
 type: source
 tags: [来源, 原始文件, WorkBuddy, PPT, 设计]
-sources: [raw/01-articles/2026-09-27-你的workbuddy vs 我的workbuddy，差距就在这里！！.md]
+sources: [raw/09-archive/2026-09-27-你的workbuddy vs 我的workbuddy，差距就在这里！！.md]
 last_updated: 2026-09-28
 ---
 

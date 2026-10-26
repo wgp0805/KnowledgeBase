@@ -2,7 +2,7 @@
 title: "fthux"
 type: entity
 tags: [人物, 博主, 博客园, 全栈开发]
-sources: [raw/01-articles/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md]
+sources: [raw/09-archive/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md]
 last_updated: 2026-08-21
 ---
 

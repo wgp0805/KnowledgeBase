@@ -2,7 +2,7 @@
 title: "摘要-LangChain4j入门指南-苏三"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/LangChain4j 入门指南.md]
+sources: [raw/09-archive/LangChain4j 入门指南.md]
 last_updated: 2026-08-03
 ---
 

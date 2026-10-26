@@ -2,7 +2,7 @@
 title: "Marketing Skills"
 type: concept
 tags: [概念, 营销, Skills, Agent]
-sources: [raw/01-articles/2026-09-01-marketingskills：一套 Markdown 文件，让 AI 编码智能体变成半个 CMO.md]
+sources: [raw/09-archive/2026-09-01-marketingskills：一套 Markdown 文件，让 AI 编码智能体变成半个 CMO.md]
 last_updated: 2026-09-01
 ---
 

@@ -2,7 +2,7 @@
 title: "PostgresStore"
 type: entity
 tags: [LangGraph, 持久化, Store, PostgreSQL, 长期记忆]
-sources: [raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md]
+sources: [raw/09-archive/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md]
 last_updated: 2026-08-21
 ---
 

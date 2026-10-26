@@ -2,7 +2,7 @@
 title: "AgentMemory"
 type: concept
 tags: [AI, Agent, 记忆系统, 概念]
-sources: [raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/01-articles/2026-10-12-一文搞懂 Agent Memory：AI 是如何记住你说过的话的？ - Tomorrowland_D.md]
+sources: [raw/09-archive/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/09-archive/2026-10-12-一文搞懂 Agent Memory：AI 是如何记住你说过的话的？ - Tomorrowland_D.md]
 last_updated: 2026-10-13
 ---
 

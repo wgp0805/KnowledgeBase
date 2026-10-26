@@ -2,7 +2,7 @@
 title: "摘要-github定律-openxxx复刻"
 type: source
 tags: [来源, 原始文件, 开源, GitHub定律, 复刻]
-sources: [raw/01-articles/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md]
+sources: [raw/09-archive/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md]
 last_updated: 2026-10-08
 ---
 

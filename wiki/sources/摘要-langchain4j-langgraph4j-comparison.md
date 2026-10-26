@@ -2,7 +2,7 @@
 title: "摘要-langchain4j-langgraph4j-comparison"
 type: source
 tags: [来源, Java, AI框架, Agent]
-sources: [raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md]
+sources: [raw/09-archive/LangChain4j 和 LangGraph4j，哪个更好？.md]
 last_updated: 2026-06-30
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-springboot-startup-flow"
 type: source
 tags: [SpringBoot, 启动流程, 源码, 面试]
-sources: [raw/01-articles/得物二面：SpringBoot 内部的启动流程是怎样的？我：没研究过.md]
+sources: [raw/09-archive/得物二面：SpringBoot 内部的启动流程是怎样的？我：没研究过.md]
 last_updated: 2026-05-25
 ---
 

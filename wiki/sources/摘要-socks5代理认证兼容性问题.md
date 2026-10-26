@@ -2,7 +2,7 @@
 title: "摘要：SOCKS5代理在requests能用但aiohttp报407的问题"
 type: source
 tags: [Python, SOCKS5, 代理, aiohttp, httpx, requests, 网络编程]
-sources: [raw/01-articles/2026-08-23-同一个SOCKS5代理，为什么requests能用，aiohttp却一直报407 Proxy Authentication Required？.md]
+sources: [raw/09-archive/2026-08-23-同一个SOCKS5代理，为什么requests能用，aiohttp却一直报407 Proxy Authentication Required？.md]
 last_updated: 2026-08-24
 ---
 

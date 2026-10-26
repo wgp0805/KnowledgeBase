@@ -2,7 +2,7 @@
 title: "Workflow 和 Agent 有什么区别"
 type: source
 tags: ["Workflow", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/Workflow 和 Agent 有什么区别？面试时该怎么回答？.md"]
+sources: ["raw/09-archive/Workflow 和 Agent 有什么区别？面试时该怎么回答？.md"]
 last_updated: 2026-09-01
 ---
 

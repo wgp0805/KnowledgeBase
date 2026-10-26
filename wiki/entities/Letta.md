@@ -2,7 +2,7 @@
 title: "Letta"
 type: entity
 tags: [AI, Agent, Memory, 开源项目]
-sources: [raw/01-articles/2026-10-12-一文搞懂 Agent Memory：AI 是如何记住你说过的话的？ - Tomorrowland_D.md]
+sources: [raw/09-archive/2026-10-12-一文搞懂 Agent Memory：AI 是如何记住你说过的话的？ - Tomorrowland_D.md]
 last_updated: 2026-10-13
 ---
 

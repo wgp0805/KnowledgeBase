@@ -2,7 +2,7 @@
 title: "DeepInfer"
 type: entity
 tags: [实体, 大模型推理, 开源, DeepSeek, 推理引擎]
-sources: [raw/01-articles/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
+sources: [raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
 last_updated: 2026-10-22
 ---
 

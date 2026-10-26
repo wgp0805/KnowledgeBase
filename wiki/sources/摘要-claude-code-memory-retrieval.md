@@ -2,7 +2,7 @@
 title: "Claude Code 如何检索长期记忆"
 type: source
 tags: ["Claude-Code", "长期记忆", "沉默王二"]
-sources: ["raw/01-articles/Claude Code 如何检索长期记忆？.md"]
+sources: ["raw/09-archive/Claude Code 如何检索长期记忆？.md"]
 last_updated: 2026-09-01
 ---
 

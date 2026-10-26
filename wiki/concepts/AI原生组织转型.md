@@ -2,7 +2,7 @@
 title: "AI原生组织转型"
 type: concept
 tags: [组织变革, AI转型, 企业AI, FDE]
-sources: [raw/01-articles/2026-10-08-不要让技术负责人去搞 AI 转型，没结果的….md]
+sources: [raw/09-archive/2026-10-08-不要让技术负责人去搞 AI 转型，没结果的….md]
 last_updated: 2026-10-09
 ---
 

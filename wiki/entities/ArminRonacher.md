@@ -2,7 +2,7 @@
 title: "ArminRonacher"
 type: entity
 tags: [人物, Python, Flask, Sphinx, Pi Agent, OpenClaw]
-sources: [raw/01-articles/【Pi Agent】 源码剖析：4 个工具的极简主义——为什么更少反而更好.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md]
+sources: [raw/09-archive/【Pi Agent】 源码剖析：4 个工具的极简主义——为什么更少反而更好.md, raw/09-archive/2026-10-10 - Agent 出现幻觉怎么治理？.md]
 last_updated: 2026-10-12
 ---
 

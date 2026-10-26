@@ -2,7 +2,7 @@
 title: "摘要-滴滴二面-es数据一致性"
 type: source
 tags: [Elasticsearch, MySQL, 数据一致性, 双写, Canal, binlog, 消息队列, 面试]
-sources: [raw/01-articles/滴滴二面：怎么保证 ElasticSearch 和数据库的数据一致性？.md]
+sources: [raw/09-archive/滴滴二面：怎么保证 ElasticSearch 和数据库的数据一致性？.md]
 last_updated: 2026-09-18
 ---
 

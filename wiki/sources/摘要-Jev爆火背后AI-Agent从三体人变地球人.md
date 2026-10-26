@@ -2,7 +2,7 @@
 title: "摘要-Jev爆火背后AI-Agent从三体人变地球人"
 type: source
 tags: [来源, 原始文件, Jev, Agent, 后训练]
-sources: [raw/01-articles/2026-09-26-Jev 爆火背后：AI Agent 正在从“三体人”变成“地球人”.md]
+sources: [raw/09-archive/2026-09-26-Jev 爆火背后：AI Agent 正在从“三体人”变成“地球人”.md]
 last_updated: 2026-09-28
 ---
 

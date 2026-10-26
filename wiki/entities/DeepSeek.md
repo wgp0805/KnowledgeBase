@@ -2,7 +2,7 @@
 title: "DeepSeek"
 type: entity
 tags: [AI模型, 大语言模型, 中国公司]
-sources: [raw/01-articles/2026-09-03-腾讯内测Cheso，一个专做 PPT 的 AI Agent，实测有吓到我.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/09-archive/2026-10-03-DeepSeek为什么要16000张卡？.md, raw/09-archive/2026-10-06-deepseek拟人形象大战，究竟在吵什么.md, raw/01-articles/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
+sources: [raw/09-archive/2026-09-03-腾讯内测Cheso，一个专做 PPT 的 AI Agent，实测有吓到我.md, raw/09-archive/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/09-archive/2026-10-03-DeepSeek为什么要16000张卡？.md, raw/09-archive/2026-10-06-deepseek拟人形象大战，究竟在吵什么.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
 last_updated: 2026-10-22
 ---
 

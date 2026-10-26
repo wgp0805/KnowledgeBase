@@ -2,7 +2,7 @@
 title: "摘要-workbuddy次卡本小程序"
 type: source
 tags: [来源, WorkBuddy, 小程序, PMF, AI编程]
-sources: [raw/01-articles/2026-10-12-WorkBuddy 把小程序门槛打没了，下一个问题是谁来付钱.md]
+sources: [raw/09-archive/2026-10-12-WorkBuddy 把小程序门槛打没了，下一个问题是谁来付钱.md]
 last_updated: 2026-10-13
 ---
 

@@ -2,7 +2,7 @@
 title: "OpenAIAgentsSDK"
 type: entity
 tags: [框架, AI, Agent, OpenAI, SDK]
-sources: [raw/01-articles/2026-07-21-【手搓 Agent 第0关】认知扫盲篇（下）：Agent 工程选型、架构体系、场景落地完整论证 - Alkaid2077.md, raw/01-articles/2026-10-02 - Agent 的意图路由怎么设计？.md]
+sources: [raw/09-archive/2026-07-21-【手搓 Agent 第0关】认知扫盲篇（下）：Agent 工程选型、架构体系、场景落地完整论证 - Alkaid2077.md, raw/09-archive/2026-10-02 - Agent 的意图路由怎么设计？.md]
 last_updated: 2026-10-08
 ---
 

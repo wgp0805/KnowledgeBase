@@ -3,7 +3,7 @@ title: "DurableWorkflow"
 type: concept
 tags: [概念, 基础设施, 可靠性, Agent, 工作流]
 sources:
-  - raw/01-articles/2026-10-21-斯坦福新课直接讲 personal agent，Grok Bot 工程师分享如何打造出 always-on agent.md
+  - raw/09-archive/2026-10-21-斯坦福新课直接讲 personal agent，Grok Bot 工程师分享如何打造出 always-on agent.md
 last_updated: 2026-10-21
 ---
 

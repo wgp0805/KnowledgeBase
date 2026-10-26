@@ -2,7 +2,7 @@
 title: "摘要-openmuse-轻量muse复刻"
 type: source
 tags: [来源, PersonalAgent, 开源, CopilotKit]
-sources: [raw/01-articles/2026-10-08 - 轻量开源版 Muse 来了！.md]
+sources: [raw/09-archive/2026-10-08 - 轻量开源版 Muse 来了！.md]
 last_updated: 2026-10-09
 ---
 

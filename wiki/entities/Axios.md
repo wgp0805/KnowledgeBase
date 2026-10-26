@@ -2,7 +2,7 @@
 title: "Axios"
 type: entity
 tags: [前端, HTTP, 网络请求]
-sources: [raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md]
+sources: [raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md]
 last_updated: 2026-05-20
 ---
 

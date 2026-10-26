@@ -2,7 +2,7 @@
 title: "从生图到做图：GPT Image 2.5 工作流体验"
 type: source
 tags: [AI生图, GPT Image, OpenAI, AI工作流, Sketch, 图片编辑, AI生产力]
-sources: [raw/01-articles/2026-09-09-从“生图”到“做图”：GPT Image 2.5 工作流体验.md]
+sources: [raw/09-archive/2026-09-09-从“生图”到“做图”：GPT Image 2.5 工作流体验.md]
 last_updated: 2026-09-14
 ---
 

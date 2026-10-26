@@ -2,7 +2,7 @@
 title: "Q4_K_M"
 type: concept
 tags: [量化等级, GGUF, 4bit量化, 推荐配置]
-sources: [raw/01-articles/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
+sources: [raw/09-archive/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
 last_updated: 2026-08-28
 ---
 

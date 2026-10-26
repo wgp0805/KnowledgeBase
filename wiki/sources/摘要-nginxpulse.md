@@ -2,7 +2,7 @@
 title: "摘要-nginxpulse"
 type: source
 tags: [Nginx, 日志分析, 运维工具]
-sources: [raw/01-articles/终于找到一个好用的 Nginx 日志分析工具了.md]
+sources: [raw/09-archive/终于找到一个好用的 Nginx 日志分析工具了.md]
 last_updated: 2026-08-11
 ---
 

@@ -2,7 +2,7 @@
 title: "AI生成能力进生产管线"
 type: concept
 tags: [AI产品, 生产管线, 原型设计]
-sources: [raw/01-articles/2026-09-22-原型只能截图发？我用Qoder Sites做成链接了！.md]
+sources: [raw/09-archive/2026-09-22-原型只能截图发？我用Qoder Sites做成链接了！.md]
 last_updated: 2026-09-23
 ---
 

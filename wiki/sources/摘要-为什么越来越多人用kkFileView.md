@@ -2,7 +2,7 @@
 title: "摘要-为什么越来越多人用kkFileView"
 type: source
 tags: [来源, 文件预览, kkFileView, 开源, SpringBoot]
-sources: [raw/01-articles/2026-08-17 - 为什么越来越多人用 kkFileView？.md]
+sources: [raw/09-archive/2026-08-17 - 为什么越来越多人用 kkFileView？.md]
 last_updated: 2026-08-18
 ---
 

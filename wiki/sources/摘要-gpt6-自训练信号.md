@@ -2,7 +2,7 @@
 title: "摘要-gpt6-自训练信号"
 type: source
 tags: [GPT-6, Astra, AGI, 自我改进, Computer Use, 网络安全, AI安全, OpenAI]
-sources: [raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md]
+sources: [raw/09-archive/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md]
 last_updated: 2026-09-07
 ---
 

@@ -2,7 +2,7 @@
 title: "Agent 怎么知道该调用哪个工具？Function Calling 原理拆解"
 type: source
 tags: ["Function-Calling", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/Agent 怎么知道该调用哪个工具？Function Calling 原理拆解.md"]
+sources: ["raw/09-archive/Agent 怎么知道该调用哪个工具？Function Calling 原理拆解.md"]
 last_updated: 2026-09-01
 ---
 

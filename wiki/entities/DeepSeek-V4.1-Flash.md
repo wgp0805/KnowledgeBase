@@ -2,7 +2,7 @@
 title: "DeepSeek V4.1-Flash"
 type: entity
 tags: [DeepSeek, V4.1-Flash, 国产模型, Harness, 模型更新, 搜索API]
-sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/09-archive/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, raw/01-articles/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/09-archive/2026-10-22-纯原生Flutter3 + Dio 实战 DeepSeek V4.1 SSE流式对话 - yxybox.md]
+sources: [raw/09-archive/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/09-archive/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, raw/09-archive/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/09-archive/2026-10-22-纯原生Flutter3 + Dio 实战 DeepSeek V4.1 SSE流式对话 - yxybox.md]
 last_updated: 2026-10-23
 ---
 

@@ -3,7 +3,7 @@ title: "摘要-优雅使用Enum提升SpringBoot配置管理效率"
 type: source
 tags: [SpringBoot, Enum, 配置管理, ConfigurationProperties]
 sources:
-  - raw/01-articles/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
+  - raw/09-archive/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
 last_updated: 2026-08-17
 ---
 

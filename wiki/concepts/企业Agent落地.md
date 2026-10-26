@@ -2,7 +2,7 @@
 title: "企业Agent落地"
 type: concept
 tags: [Agent, 企业落地, 商业化, 判断框架]
-sources: [raw/09-archive/2026-08-24-AI智能体在企业怎么落地？关键看这5个核心工作流.md, raw/01-articles/2026-09-25-阿里云2026年AI Agent 开发者调研报告解读：企业 Agent 到底卡在哪 - 小白跃升坊.md]
+sources: [raw/09-archive/2026-08-24-AI智能体在企业怎么落地？关键看这5个核心工作流.md, raw/09-archive/2026-09-25-阿里云2026年AI Agent 开发者调研报告解读：企业 Agent 到底卡在哪 - 小白跃升坊.md]
 last_updated: 2026-09-28
 ---
 

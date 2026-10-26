@@ -2,7 +2,7 @@
 title: "摘要-meta-muse-承诺税"
 type: source
 tags: [来源, 原始文件, Meta, Muse, 承诺税, 商业模式, 安全]
-sources: [raw/01-articles/2026-09-27-Meta Muse为超级智能买单.md]
+sources: [raw/09-archive/2026-09-27-Meta Muse为超级智能买单.md]
 last_updated: 2026-09-28
 ---
 

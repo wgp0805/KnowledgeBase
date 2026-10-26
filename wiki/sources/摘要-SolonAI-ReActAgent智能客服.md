@@ -2,7 +2,7 @@
 title: "摘要-SolonAI-ReActAgent智能客服"
 type: source
 tags: [来源, AI Agent, Solon, 智能客服]
-sources: ["raw/01-articles/2026-07-12-用 Solon AI ReActAgent 落地智能客服工单处理 - 带刺的坐椅.md"]
+sources: ["raw/09-archive/2026-07-12-用 Solon AI ReActAgent 落地智能客服工单处理 - 带刺的坐椅.md"]
 last_updated: 2026-07-13
 ---
 

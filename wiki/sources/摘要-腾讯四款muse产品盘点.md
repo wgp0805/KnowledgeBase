@@ -2,7 +2,7 @@
 title: "摘要-腾讯四款muse产品盘点"
 type: source
 tags: [来源, 原始文件, PersonalAgent, 腾讯, Muse]
-sources: [raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md]
+sources: [raw/09-archive/2026-10-04-腾讯四款 Muse 产品盘点.md]
 last_updated: 2026-10-08
 ---
 

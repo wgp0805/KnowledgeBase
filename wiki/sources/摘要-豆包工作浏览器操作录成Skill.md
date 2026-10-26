@@ -2,7 +2,7 @@
 title: "摘要-豆包工作浏览器操作录成Skill"
 type: source
 tags: [来源, 原始文件, 豆包工作, Skill, 浏览器自动化, RPA]
-sources: [raw/01-articles/2026-09-20 - 把浏览器操作录成Skill，豆包工作太夯了！.md]
+sources: [raw/09-archive/2026-09-20 - 把浏览器操作录成Skill，豆包工作太夯了！.md]
 last_updated: 2026-09-21
 ---
 

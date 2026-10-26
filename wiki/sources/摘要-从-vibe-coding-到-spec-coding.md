@@ -2,7 +2,7 @@
 title: "摘要-从-vibe-coding-到-spec-coding"
 type: source
 tags: [来源, AI编程, Trellis, 规范驱动开发]
-sources: [raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md]
+sources: [raw/09-archive/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md]
 last_updated: 2026-07-15
 ---
 

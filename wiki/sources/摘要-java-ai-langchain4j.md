@@ -2,7 +2,7 @@
 title: "摘要-java-ai-langchain4j"
 type: source
 tags: [来源, LangChain4j, AI开发]
-sources: [raw/01-articles/用 Java 开发 AI 项目，太爽了！.md]
+sources: [raw/09-archive/用 Java 开发 AI 项目，太爽了！.md]
 last_updated: 2026-05-22
 ---
 

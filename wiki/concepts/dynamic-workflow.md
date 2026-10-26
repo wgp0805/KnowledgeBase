@@ -2,7 +2,7 @@
 title: "dynamic-workflow"
 type: concept
 tags: [AI Agent, 工作流编排, 代码即配置, MiMo Code]
-sources: [raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md]
+sources: [raw/09-archive/小米版Claude Code正式发布，这次开源能给到夯.md]
 last_updated: 2026-06-11
 ---
 

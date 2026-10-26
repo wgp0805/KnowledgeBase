@@ -2,7 +2,7 @@
 title: "阿里终面：10亿数据如何快速插入MySQL"
 type: source
 tags: [MySQL, 批量插入, 分库分表, B+树, 高并发, 面试, Java]
-sources: [raw/01-articles/2026-09-13 - 阿里终面：10 亿数据如何快速插入 MySQL？.md]
+sources: [raw/09-archive/2026-09-13 - 阿里终面：10 亿数据如何快速插入 MySQL？.md]
 last_updated: 2026-09-14
 ---
 

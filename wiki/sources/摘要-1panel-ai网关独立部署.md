@@ -2,7 +2,7 @@
 title: "摘要-1panel-ai网关独立部署"
 type: source
 tags: [来源, 原始文件, AI网关, 1Panel]
-sources: [raw/01-articles/2026-09-18-37K Star 的 GitHub 开源项目开放 AI 网关，10 人团队免费用.md]
+sources: [raw/09-archive/2026-09-18-37K Star 的 GitHub 开源项目开放 AI 网关，10 人团队免费用.md]
 last_updated: 2026-09-20
 ---
 

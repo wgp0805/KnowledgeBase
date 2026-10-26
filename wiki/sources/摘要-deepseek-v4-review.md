@@ -2,7 +2,7 @@
 title: "DeepSeek V4 灰度曝光 这波我真的热血沸腾 国产模型继续冲"
 type: source
 tags: ["DeepSeek-V4", "沉默王二"]
-sources: ["raw/01-articles/DeepSeek V4灰度曝光，这波我真的热血沸腾，国产模型继续冲啊。.md"]
+sources: ["raw/09-archive/DeepSeek V4灰度曝光，这波我真的热血沸腾，国产模型继续冲啊。.md"]
 last_updated: 2026-09-01
 ---
 

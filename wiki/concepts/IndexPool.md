@@ -2,7 +2,7 @@
 title: "IndexPool"
 type: concept
 tags: [模型架构, 缓存优化, 索引池化, 智谱]
-sources: [raw/01-articles/2026-08-27-智谱 5.3-flash 成了新的斩杀线.md]
+sources: [raw/09-archive/2026-08-27-智谱 5.3-flash 成了新的斩杀线.md]
 last_updated: 2026-08-28
 ---
 

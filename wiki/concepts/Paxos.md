@@ -4,7 +4,7 @@ type: concept
 tags:
   - 分布式
   - 共识算法
-sources: [raw/01-articles/2026-09-23 - 分库分表，可能真的要退出历史舞台了！.md]
+sources: [raw/09-archive/2026-09-23 - 分库分表，可能真的要退出历史舞台了！.md]
 last_updated: 2026-09-28
 ---
 

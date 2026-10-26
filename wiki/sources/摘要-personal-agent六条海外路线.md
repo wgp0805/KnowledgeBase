@@ -2,7 +2,7 @@
 title: "摘要-personal-agent六条海外路线"
 type: source
 tags: [来源, 原始文件, PersonalAgent, 产品分析]
-sources: [raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md]
+sources: [raw/09-archive/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-mysql索引失效8个场景"
 type: source
 tags: [来源, MySQL, 索引, 性能优化]
-sources: [raw/01-articles/2026-10-12 - MySQL 索引失效! 跑不出这 8 个场景.md]
+sources: [raw/09-archive/2026-10-12 - MySQL 索引失效! 跑不出这 8 个场景.md]
 last_updated: 2026-10-13
 ---
 

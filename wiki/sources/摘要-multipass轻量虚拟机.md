@@ -2,7 +2,7 @@
 title: "摘要-multipass轻量虚拟机"
 type: source
 tags: [来源, 虚拟化, 运维工具, Ubuntu]
-sources: [raw/01-articles/比 VMware 更快，更轻的虚拟机，横空出世！.md]
+sources: [raw/09-archive/比 VMware 更快，更轻的虚拟机，横空出世！.md]
 last_updated: 2026-10-22
 ---
 

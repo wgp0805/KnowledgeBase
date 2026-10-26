@@ -2,7 +2,7 @@
 title: "摘要-fotor-agent-mg动画视频"
 type: source
 tags: [来源, AI视频, MG动画, 代码生成视频]
-sources: [raw/01-articles/2026-10-21-Opus 同款视频玩法：会说话就能做 MG 动画视频，国内直接用.md]
+sources: [raw/09-archive/2026-10-21-Opus 同款视频玩法：会说话就能做 MG 动画视频，国内直接用.md]
 last_updated: 2026-10-22
 ---
 

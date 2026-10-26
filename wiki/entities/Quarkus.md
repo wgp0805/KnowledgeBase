@@ -2,7 +2,7 @@
 title: "Quarkus"
 type: entity
 tags: [Java, 框架, 云原生, NativeImage, Kubernetes]
-sources: [raw/01-articles/2026-10-11 - 为什么越来越多人用Quarkus？.md]
+sources: [raw/09-archive/2026-10-11 - 为什么越来越多人用Quarkus？.md]
 last_updated: 2026-10-12
 ---
 

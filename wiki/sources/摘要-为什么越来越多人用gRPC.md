@@ -2,7 +2,7 @@
 title: "摘要-为什么越来越多人用gRPC"
 type: source
 tags: [来源, gRPC, Protobuf, HTTP/2, Spring Boot 4.1, 微服务通信]
-sources: [raw/01-articles/2026-08-25 - 为什么越来越多人用gRPC？.md]
+sources: [raw/09-archive/2026-08-25 - 为什么越来越多人用gRPC？.md]
 last_updated: 2026-08-25
 ---
 

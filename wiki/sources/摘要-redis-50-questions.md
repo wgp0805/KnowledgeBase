@@ -2,7 +2,7 @@
 title: "招银面试官 听说你精通 Redis 大战 50 回合"
 type: source
 tags: ["Redis", "面试题", "沉默王二"]
-sources: ["raw/01-articles/招银面试官：听说你精通 Redis，我们来大战 50 回合.md"]
+sources: ["raw/09-archive/招银面试官：听说你精通 Redis，我们来大战 50 回合.md"]
 last_updated: 2026-09-01
 ---
 

@@ -2,7 +2,7 @@
 title: "Harness差异化"
 type: concept
 tags: [Harness, Agent, 模型表现, 脚手架, 上下文管理]
-sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md]
+sources: [raw/09-archive/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md]
 last_updated: 2026-09-17
 ---
 

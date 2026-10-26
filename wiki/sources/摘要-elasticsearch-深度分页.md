@@ -2,7 +2,7 @@
 title: "摘要-elasticsearch-深度分页"
 type: source
 tags: [来源, Elasticsearch, 面试题, 深度分页, 分片]
-sources: [raw/01-articles/面试官：什么是 Elasticsearch 的深度分页问题？如何解决？.md]
+sources: [raw/09-archive/面试官：什么是 Elasticsearch 的深度分页问题？如何解决？.md]
 last_updated: 2026-09-16
 ---
 

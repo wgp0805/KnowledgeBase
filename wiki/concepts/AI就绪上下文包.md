@@ -2,7 +2,7 @@
 title: "AI 就绪上下文包"
 type: concept
 tags: [AI工具, 上下文管理, 工作流, Markdown]
-sources: [raw/01-articles/仅几MB大小！Rust 开源 Markdown 神器，专为 AI 设计.md]
+sources: [raw/09-archive/仅几MB大小！Rust 开源 Markdown 神器，专为 AI 设计.md]
 last_updated: 2026-07-16
 ---
 

@@ -2,7 +2,7 @@
 title: "Memory 治理"
 type: concept
 tags: [AI产品, 记忆管理, 数据治理]
-sources: [raw/01-articles/2026-09-02-大模型越强，产品经理 越要把边界写进流程.md]
+sources: [raw/09-archive/2026-09-02-大模型越强，产品经理 越要把边界写进流程.md]
 last_updated: 2026-09-03
 ---
 

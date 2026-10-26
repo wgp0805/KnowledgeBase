@@ -2,7 +2,7 @@
 title: "摘要-show-me-少写字多画图"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/2026-09-24 - 又一个神级 Skill，让 AI 少写字、多画图！.md]
+sources: [raw/09-archive/2026-09-24 - 又一个神级 Skill，让 AI 少写字、多画图！.md]
 last_updated: 2026-09-28
 ---
 

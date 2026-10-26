@@ -2,7 +2,7 @@
 title: "RedHat"
 type: entity
 tags: [公司, 开源, Java]
-sources: [raw/01-articles/Spring Boot 4.0官宣：弃用 Undertow.md]
+sources: [raw/09-archive/Spring Boot 4.0官宣：弃用 Undertow.md]
 last_updated: 2026-07-29
 ---
 

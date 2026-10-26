@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-微信小程序教程"
 type: source
 tags: [来源, 原始文件, WorkBuddy, 微信小程序, 教程]
-sources: [raw/01-articles/2026-10-02 - WorkBuddy 开发微信小程序，保姆级教程来了.md]
+sources: [raw/09-archive/2026-10-02 - WorkBuddy 开发微信小程序，保姆级教程来了.md]
 last_updated: 2026-10-08
 ---
 

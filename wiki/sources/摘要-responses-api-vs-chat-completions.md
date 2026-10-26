@@ -2,7 +2,7 @@
 title: "Responses API 和 Chat Completions API 有什么区别"
 type: source
 tags: ["Responses-API", "OpenAI", "API"]
-sources: ["raw/01-articles/Responses API 和 Chat Completions API 有什么区别？.md"]
+sources: ["raw/09-archive/Responses API 和 Chat Completions API 有什么区别？.md"]
 last_updated: 2026-09-01
 ---
 

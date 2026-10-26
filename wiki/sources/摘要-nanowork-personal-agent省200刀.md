@@ -2,7 +2,7 @@
 title: "摘要-nanowork-personal-agent省200刀"
 type: source
 tags: [来源, 原始文件, PersonalAgent, 纳米Work, 安全]
-sources: [raw/01-articles/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md]
+sources: [raw/09-archive/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md]
 last_updated: 2026-10-08
 ---
 

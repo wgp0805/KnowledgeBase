@@ -2,7 +2,7 @@
 title: "Agent 挂了几十个 Skill 怎么保证命中率"
 type: source
 tags: ["Skills", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/Agent 挂了几十个 Skill，怎么保证命中率？.md"]
+sources: ["raw/09-archive/Agent 挂了几十个 Skill，怎么保证命中率？.md"]
 last_updated: 2026-09-01
 ---
 

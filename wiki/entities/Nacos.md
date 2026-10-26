@@ -2,7 +2,7 @@
 title: "Nacos"
 type: entity
 tags: [微服务, 注册中心, 配置中心]
-sources: [raw/09-archive/docker部署nacos.md, raw/09-archive/pmhub微服务学习.md, raw/09-archive/为什么越来越多人用Nacos？.md, raw/01-articles/2026-09-27-当 AI Agent 遇到 Nacos：OpenClaw.NET 集成入门 - 张善友.md]
+sources: [raw/09-archive/docker部署nacos.md, raw/09-archive/pmhub微服务学习.md, raw/09-archive/为什么越来越多人用Nacos？.md, raw/09-archive/2026-09-27-当 AI Agent 遇到 Nacos：OpenClaw.NET 集成入门 - 张善友.md]
 last_updated: 2026-09-28
 ---
 

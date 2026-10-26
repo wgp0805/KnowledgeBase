@@ -2,7 +2,7 @@
 title: "AgenticRAG"
 type: concept
 tags: [AI, RAG, Agent, 智能体, 检索增强]
-sources: [raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/一文讲透 RAG：原理、优化与落地.md]
+sources: [raw/09-archive/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/09-archive/一文讲透 RAG：原理、优化与落地.md]
 last_updated: 2026-09-23
 ---
 

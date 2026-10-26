@@ -2,7 +2,7 @@
 title: "claude-automation-recommender"
 type: entity
 tags: [Skill, Anthropic, ClaudeCode, 自动化推荐]
-sources: [raw/01-articles/Claude 又开源了一款新插件，让你的 Claude Code 满血复活！.md]
+sources: [raw/09-archive/Claude 又开源了一款新插件，让你的 Claude Code 满血复活！.md]
 last_updated: 2026-06-24
 ---
 

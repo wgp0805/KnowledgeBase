@@ -2,7 +2,7 @@
 title: "CLAUDEmd"
 type: concept
 tags: [AI, 记忆, 指令系统]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/01-articles/同事的 Claude Code 为什么比你的强？差的就是这4步.md]
+sources: [raw/09-archive/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/09-archive/6条Claude Code实践中的经验与思考.md, raw/09-archive/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md, raw/09-archive/同事的 Claude Code 为什么比你的强？差的就是这4步.md]
 last_updated: 2026-10-10
 ---
 

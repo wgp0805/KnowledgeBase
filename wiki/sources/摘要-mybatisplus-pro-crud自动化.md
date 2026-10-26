@@ -2,7 +2,7 @@
 title: "摘要-mybatisplus-pro-crud自动化"
 type: source
 tags: [来源, 原始文件, MyBatisPlus, Java, CRUD]
-sources: [raw/01-articles/2026-10-02 - 为什么越来越多人用 MybatisPlus Pro？.md]
+sources: [raw/09-archive/2026-10-02 - 为什么越来越多人用 MybatisPlus Pro？.md]
 last_updated: 2026-10-08
 ---
 

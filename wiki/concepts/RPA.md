@@ -2,7 +2,7 @@
 title: "RPA"
 type: concept
 tags: [自动化, 流程, 机器人]
-sources: [raw/01-articles/2026-09-20 - 把浏览器操作录成Skill，豆包工作太夯了！.md]
+sources: [raw/09-archive/2026-09-20 - 把浏览器操作录成Skill，豆包工作太夯了！.md]
 last_updated: 2026-09-21
 ---
 

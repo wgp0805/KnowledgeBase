@@ -2,7 +2,7 @@
 title: "摘要-字节面试官什么是RAG为什么需要RAG"
 type: source
 tags: [RAG, 面试, 检索增强, 大模型, 知识库]
-sources: [raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md]
+sources: [raw/09-archive/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md]
 last_updated: 2026-06-02
 ---
 

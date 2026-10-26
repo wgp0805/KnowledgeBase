@@ -2,7 +2,7 @@
 title: "JavaAI三层台阶"
 type: concept
 tags: [Java, AI框架, 选型, 架构分层]
-sources: ["raw/01-articles/2026-10-03 - Spring AI Alibaba已停更了，Java还有希望吗？.md"]
+sources: ["raw/09-archive/2026-10-03 - Spring AI Alibaba已停更了，Java还有希望吗？.md"]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "AI桌面宠物"
 type: concept
 tags: [AI产品, 桌面宠物, 情绪价值]
-sources: [raw/01-articles/2026-09-22-AI 桌面火了：把喜欢的人请进桌面，恶搞你的兄弟满地爬.md]
+sources: [raw/09-archive/2026-09-22-AI 桌面火了：把喜欢的人请进桌面，恶搞你的兄弟满地爬.md]
 last_updated: 2026-09-23
 ---
 

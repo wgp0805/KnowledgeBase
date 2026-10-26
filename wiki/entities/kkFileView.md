@@ -2,7 +2,7 @@
 title: "kkFileView"
 type: entity
 tags: [实体, 文件预览, 开源, SpringBoot, LibreOffice]
-sources: [raw/01-articles/2026-08-17 - 为什么越来越多人用 kkFileView？.md]
+sources: [raw/09-archive/2026-08-17 - 为什么越来越多人用 kkFileView？.md]
 last_updated: 2026-08-18
 ---
 

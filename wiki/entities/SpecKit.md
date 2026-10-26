@@ -2,7 +2,7 @@
 title: "SpecKit"
 type: entity
 tags: [AI编程, 规范驱动, GitHub官方, 七阶段]
-sources: [raw/01-articles/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md]
+sources: [raw/09-archive/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md]
 last_updated: 2026-07-27
 ---
 

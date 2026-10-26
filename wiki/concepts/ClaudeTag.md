@@ -2,7 +2,7 @@
 title: "ClaudeTag"
 type: concept
 tags: [概念, AI工程, SDLC, 运维, 事故响应]
-sources: [raw/01-articles/2026-08-26-Anthropic 官方指南：AI Native 开发手册.md]
+sources: [raw/09-archive/2026-08-26-Anthropic 官方指南：AI Native 开发手册.md]
 last_updated: 2026-08-27
 ---
 

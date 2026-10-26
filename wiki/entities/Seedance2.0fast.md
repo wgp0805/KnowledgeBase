@@ -2,7 +2,7 @@
 title: "Seedance 2.0 fast"
 type: entity
 tags: [AI模型, 视频生成, 性价比]
-sources: [raw/01-articles/2026-08-25-烧掉500块实测H3、Seedance 2.0 fast，意外挖出了性价比之王（附全部提示词）.md]
+sources: [raw/09-archive/2026-08-25-烧掉500块实测H3、Seedance 2.0 fast，意外挖出了性价比之王（附全部提示词）.md]
 last_updated: 2026-08-26
 ---
 

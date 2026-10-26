@@ -2,7 +2,7 @@
 title: "VMware"
 type: entity
 tags: [虚拟化, DevOps]
-sources: [raw/01-articles/比 VMware 更快，更轻的虚拟机，横空出世！.md]
+sources: [raw/09-archive/比 VMware 更快，更轻的虚拟机，横空出世！.md]
 last_updated: 2026-10-22
 ---
 

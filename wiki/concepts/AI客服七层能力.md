@@ -2,7 +2,7 @@
 title: "AI客服七层能力"
 type: concept
 tags: [AI客服, 框架, RAG, Workflow, 成本优化, 可观测性]
-sources: ["raw/01-articles/2026-09-20-【两年实战】一个生产级 AI 客服，到底是怎么做出来的？.md"]
+sources: ["raw/09-archive/2026-09-20-【两年实战】一个生产级 AI 客服，到底是怎么做出来的？.md"]
 last_updated: 2026-09-21
 ---
 

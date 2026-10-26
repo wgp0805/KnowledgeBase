@@ -2,7 +2,7 @@
 title: "摘要-os-thread-scheduler-runtime"
 type: source
 tags: [来源, 原始文件, 并发编程, 线程调度, 操作系统, Runtime]
-sources: [raw/01-articles/2026-10-11-并发编程（1.5）：操作系统层——Thread、Scheduler 与 Runtime 调度 - ThinkerQAQ.md]
+sources: [raw/09-archive/2026-10-11-并发编程（1.5）：操作系统层——Thread、Scheduler 与 Runtime 调度 - ThinkerQAQ.md]
 last_updated: 2026-10-12
 ---
 

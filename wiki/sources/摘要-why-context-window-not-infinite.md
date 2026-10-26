@@ -2,7 +2,7 @@
 title: "为什么 LLM 的上下文窗口不能无限大？"
 type: source
 tags: ["Context-Window", "LLM-原理", "面试题"]
-sources: ["raw/01-articles/为什么 LLM 的上下文窗口不能无限大？.md"]
+sources: ["raw/09-archive/为什么 LLM 的上下文窗口不能无限大？.md"]
 last_updated: 2026-09-01
 ---
 

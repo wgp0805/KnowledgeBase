@@ -2,7 +2,7 @@
 title: "字节又开源了一个顶级Agent项目：OpenViking"
 type: source
 tags: [OpenViking, Agent, 上下文数据库, 记忆系统, 字节开源, MCP, 虚拟文件系统]
-sources: [raw/01-articles/2026-09-13 - 字节又开源了一个顶级Agent项目！.md]
+sources: [raw/09-archive/2026-09-13 - 字节又开源了一个顶级Agent项目！.md]
 last_updated: 2026-09-14
 ---
 

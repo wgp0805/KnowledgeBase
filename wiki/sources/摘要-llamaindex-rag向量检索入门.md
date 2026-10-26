@@ -2,7 +2,7 @@
 title: "摘要-llamaindex-rag向量检索入门"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/2026-09-17-基于 LlamaIndex 实现RAG向量检索入门 - lyshark.md]
+sources: [raw/09-archive/2026-09-17-基于 LlamaIndex 实现RAG向量检索入门 - lyshark.md]
 last_updated: 2026-09-18
 ---
 

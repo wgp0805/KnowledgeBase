@@ -2,7 +2,7 @@
 title: "摘要-es-事务支持面试题"
 type: source
 tags: [Elasticsearch, 事务, ACID, 面试, Lucene, 分布式]
-sources: [raw/01-articles/面试官：Elasticsearch 支持事务吗？为什么？.md]
+sources: [raw/09-archive/面试官：Elasticsearch 支持事务吗？为什么？.md]
 last_updated: 2026-09-07
 ---
 

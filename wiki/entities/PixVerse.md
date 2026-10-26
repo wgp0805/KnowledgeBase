@@ -2,7 +2,7 @@
 title: "PixVerse"
 type: entity
 tags: [AI产品, 视频生成, 世界模型, 创作平台]
-sources: [raw/01-articles/2026-09-25-体验 PixVerse R2 后，我发现世界模型的产品流程已经有所变化.md]
+sources: [raw/09-archive/2026-09-25-体验 PixVerse R2 后，我发现世界模型的产品流程已经有所变化.md]
 last_updated: 2026-09-28
 ---
 

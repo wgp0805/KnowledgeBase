@@ -2,7 +2,7 @@
 title: "Cloudflare"
 type: entity
 tags: [CDN, 安全, 风控, 反滥用]
-sources: [raw/09-archive/秒杀系统怎么区分真实用户和黄牛脚本？.md, raw/01-articles/2026-09-25-GitHub + Cloudflare + Picgo 搭建你的免费图床 - DominicKK.md]
+sources: [raw/09-archive/秒杀系统怎么区分真实用户和黄牛脚本？.md, raw/09-archive/2026-09-25-GitHub + Cloudflare + Picgo 搭建你的免费图床 - DominicKK.md]
 last_updated: 2026-09-28
 ---
 

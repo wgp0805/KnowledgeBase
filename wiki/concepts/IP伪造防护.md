@@ -2,7 +2,7 @@
 title: "IP伪造防护"
 type: concept
 tags: [安全, IP, 代理, Tomcat]
-sources: [raw/01-articles/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md]
+sources: [raw/09-archive/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md]
 last_updated: 2026-08-12
 ---
 

@@ -2,7 +2,7 @@
 title: "Perplexity"
 type: entity
 tags: [AI搜索, 答案引擎, 估值200亿]
-sources: [raw/01-articles/2026-09-20-拆解 Perplexity：一个搜索框如何长成 200 亿美元的平台！.md]
+sources: [raw/09-archive/2026-09-20-拆解 Perplexity：一个搜索框如何长成 200 亿美元的平台！.md]
 last_updated: 2026-09-22
 ---
 

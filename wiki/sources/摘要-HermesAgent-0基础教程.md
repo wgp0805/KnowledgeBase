@@ -2,7 +2,7 @@
 title: "摘要-HermesAgent-0基础教程"
 type: source
 tags: [AI, Agent, Hermes, 教程, NousResearch]
-sources: [raw/01-articles/0基础带你上手 Hermes Agent！【新手教程】.md]
+sources: [raw/09-archive/0基础带你上手 Hermes Agent！【新手教程】.md]
 last_updated: 2026-07-30
 ---
 

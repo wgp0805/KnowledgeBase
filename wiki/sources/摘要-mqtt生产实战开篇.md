@@ -2,7 +2,7 @@
 title: "摘要-mqtt生产实战开篇"
 type: source
 tags: [来源, MQTT, 物联网, 生产踩坑, 学习路线]
-sources: ["raw/01-articles/2026-10-13-MQTT 生产实战 - 用了 8 年 MQTT，我为什么还要重新系统啃一遍（一） - IT规划师.md"]
+sources: ["raw/09-archive/2026-10-13-MQTT 生产实战 - 用了 8 年 MQTT，我为什么还要重新系统啃一遍（一） - IT规划师.md"]
 last_updated: 2026-10-14
 ---
 

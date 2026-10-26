@@ -2,7 +2,7 @@
 title: "FatStruct"
 type: concept
 tags: [游戏开发, 架构, 数据结构, Agent友好]
-sources: [raw/01-articles/2026-10-15-你的游戏本身就是 Harness ：如何让 AI Agent 读懂游戏并十倍加速迭代？ - leikooo.md]
+sources: [raw/09-archive/2026-10-15-你的游戏本身就是 Harness ：如何让 AI Agent 读懂游戏并十倍加速迭代？ - leikooo.md]
 last_updated: 2026-10-15
 ---
 

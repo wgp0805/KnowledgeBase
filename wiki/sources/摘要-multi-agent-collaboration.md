@@ -2,7 +2,7 @@
 title: "Multi-Agent 协作是怎么实现的"
 type: source
 tags: ["Multi-Agent", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/Multi-Agent 协作是怎么实现的？.md"]
+sources: ["raw/09-archive/Multi-Agent 协作是怎么实现的？.md"]
 last_updated: 2026-09-01
 ---
 

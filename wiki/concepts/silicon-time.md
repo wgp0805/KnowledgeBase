@@ -2,7 +2,7 @@
 title: "silicon-time"
 type: concept
 tags: [AI效率, 时间创造, 组织管理, 工作边界]
-sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md]
+sources: [raw/09-archive/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md]
 last_updated: 2026-05-26
 ---
 

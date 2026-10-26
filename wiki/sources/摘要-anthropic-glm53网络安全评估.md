@@ -2,7 +2,7 @@
 title: "摘要-anthropic-glm53网络安全评估"
 type: source
 tags: [来源, 原始文件, GLM-5.3, AI安全, 开放权重]
-sources: [raw/01-articles/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md]
+sources: [raw/09-archive/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md]
 last_updated: 2026-10-08
 ---
 

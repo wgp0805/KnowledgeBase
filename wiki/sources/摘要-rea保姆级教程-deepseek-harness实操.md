@@ -2,7 +2,7 @@
 title: "摘要-rea保姆级教程-deepseek-harness实操"
 type: source
 tags: [来源, REA, DeepSeekHarness, 逆向工程, MCP]
-sources: [raw/01-articles/REA 保姆级教程：DeepSeek Harness 实操.md]
+sources: [raw/09-archive/REA 保姆级教程：DeepSeek Harness 实操.md]
 last_updated: 2026-10-14
 ---
 

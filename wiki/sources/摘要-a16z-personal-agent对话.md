@@ -2,7 +2,7 @@
 title: "摘要-a16z-personal-agent对话"
 type: source
 tags: [来源, 原始文件, PersonalAgent, a16z]
-sources: [raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md]
+sources: [raw/09-archive/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md]
 last_updated: 2026-10-08
 ---
 

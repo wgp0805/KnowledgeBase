@@ -2,7 +2,7 @@
 title: "摘要-shadcn-ui介绍"
 type: source
 tags: [来源, UI框架, shadcn]
-sources: ["raw/01-articles/11万 Star ! 告别传统UI框架，强烈推荐这个看得见，好维护，AI友好的全新一代 UI 库.md"]
+sources: ["raw/09-archive/11万 Star ! 告别传统UI框架，强烈推荐这个看得见，好维护，AI友好的全新一代 UI 库.md"]
 last_updated: 2026-07-13
 ---
 

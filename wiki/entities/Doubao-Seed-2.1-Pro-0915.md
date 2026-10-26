@@ -2,7 +2,7 @@
 title: "Doubao-Seed-2.1-Pro-0915"
 type: entity
 tags: [豆包大模型, Seed, 火山方舟, Agent, 1M上下文, 256k深度思考]
-sources: [raw/09-archive/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md, raw/01-articles/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md]
+sources: [raw/09-archive/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md, raw/09-archive/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md]
 last_updated: 2026-09-20
 ---
 

@@ -2,7 +2,7 @@
 title: "Mochi"
 type: entity
 tags: [AI产品, 短剧, 动漫, YC]
-sources: [raw/01-articles/2026-09-26-3个人，把 AI 动漫做成了“短剧平台”：3亿播放，3000个创作者，每天生产 500集.md]
+sources: [raw/09-archive/2026-09-26-3个人，把 AI 动漫做成了“短剧平台”：3亿播放，3000个创作者，每天生产 500集.md]
 last_updated: 2026-09-28
 ---
 

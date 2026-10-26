@@ -2,7 +2,7 @@
 title: "GPT-Image-2.5"
 type: entity
 tags: [实体, AI模型, 图像生成, OpenAI, 多模态]
-sources: [raw/01-articles/2026-09-14-Open AI官网首发提示词教程，教你玩转GPT Image 2.5.md]
+sources: [raw/09-archive/2026-09-14-Open AI官网首发提示词教程，教你玩转GPT Image 2.5.md]
 last_updated: 2026-09-15
 ---
 

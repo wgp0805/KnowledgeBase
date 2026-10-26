@@ -2,7 +2,7 @@
 title: "摘要-6条Claude Code实践经验与思考"
 type: source
 tags: [来源, AI编程, ClaudeCode, 实践经验]
-sources: [raw/01-articles/6条Claude Code实践中的经验与思考.md]
+sources: [raw/09-archive/6条Claude Code实践中的经验与思考.md]
 last_updated: 2026-05-19
 ---
 

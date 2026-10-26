@@ -2,7 +2,7 @@
 title: "面试官 看你简历上写了精通 JVM 我不信"
 type: source
 tags: ["JVM", "面试题", "沉默王二"]
-sources: ["raw/01-articles/面试官：看你简历上写了精通 JVM，我不信.md"]
+sources: ["raw/09-archive/面试官：看你简历上写了精通 JVM，我不信.md"]
 last_updated: 2026-09-01
 ---
 

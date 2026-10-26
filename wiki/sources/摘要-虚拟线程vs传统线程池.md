@@ -2,7 +2,7 @@
 title: "摘要-虚拟线程vs传统线程池"
 type: source
 tags: [来源, Java, 并发, 虚拟线程, 性能]
-sources: [raw/01-articles/10000 个并发任务，虚拟线程 1 秒 vs 传统线程池 50 秒，差距在哪？.md]
+sources: [raw/09-archive/10000 个并发任务，虚拟线程 1 秒 vs 传统线程池 50 秒，差距在哪？.md]
 last_updated: 2026-08-17
 ---
 

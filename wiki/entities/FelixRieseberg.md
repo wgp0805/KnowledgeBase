@@ -2,7 +2,7 @@
 title: "Felix Rieseberg"
 type: entity
 tags: [人物, Anthropic, Claude, 工程管理, Electron]
-sources: [raw/01-articles/2026-10-16-Claude负责人这篇万字长文，彻底颠覆了我的 AI 用法，附提示词！.md]
+sources: [raw/09-archive/2026-10-16-Claude负责人这篇万字长文，彻底颠覆了我的 AI 用法，附提示词！.md]
 last_updated: 2026-10-19
 ---
 

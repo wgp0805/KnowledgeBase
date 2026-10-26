@@ -2,7 +2,7 @@
 title: "招银面试官 听说你精通 MyBatis 我们来切磋一下"
 type: source
 tags: ["MyBatis", "面试题", "沉默王二"]
-sources: ["raw/01-articles/招银面试官：听说你精通 MyBatis，我们来切磋一下.md"]
+sources: ["raw/09-archive/招银面试官：听说你精通 MyBatis，我们来切磋一下.md"]
 last_updated: 2026-09-01
 ---
 

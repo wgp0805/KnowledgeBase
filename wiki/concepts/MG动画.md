@@ -2,7 +2,7 @@
 title: "MG动画"
 type: concept
 tags: [概念, 视频, 动效, 商业内容]
-sources: [raw/01-articles/2026-10-21-Opus 同款视频玩法：会说话就能做 MG 动画视频，国内直接用.md]
+sources: [raw/09-archive/2026-10-21-Opus 同款视频玩法：会说话就能做 MG 动画视频，国内直接用.md]
 last_updated: 2026-10-22
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-deepseek-harness-错题本插件"
 type: source
 tags: [来源, 原始文件, DeepSeekHarness, 插件, 一切皆插件]
-sources: [raw/01-articles/2026-10-05-我一行代码没写，DeepSeek Harness 自己组队给我造了个错题本插件.md]
+sources: [raw/09-archive/2026-10-05-我一行代码没写，DeepSeek Harness 自己组队给我造了个错题本插件.md]
 last_updated: 2026-10-08
 ---
 

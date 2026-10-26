@@ -2,7 +2,7 @@
 title: "摘要-spring-event-使用陷阱"
 type: source
 tags: [来源, Spring, 事件机制, 生产实战, 面试]
-sources: [raw/01-articles/Spring Event 别瞎用！被它坑的绩效都没了！.md]
+sources: [raw/09-archive/Spring Event 别瞎用！被它坑的绩效都没了！.md]
 last_updated: 2026-08-17
 ---
 

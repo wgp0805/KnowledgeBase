@@ -2,7 +2,7 @@
 title: "loop-prompt-skill-guide"
 type: synthesis
 tags: [Loop, Prompt, Skill, Agent, 最佳实践]
-sources: [raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/Prompt 已死，Loop当立？先看完这5个生产级坑再决定.md, raw/01-articles/老奶奶看完都会写 Skill，这可能是全网最接地气的 Skill 教程.md]
+sources: [raw/09-archive/Loop Engineering 实战指南.md, raw/09-archive/Prompt 已死，Loop当立？先看完这5个生产级坑再决定.md, raw/09-archive/老奶奶看完都会写 Skill，这可能是全网最接地气的 Skill 教程.md]
 last_updated: 2026-07-23
 ---
 

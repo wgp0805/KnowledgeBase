@@ -2,7 +2,7 @@
 title: "servlet-6-1"
 type: concept
 tags: [Servlet, JakartaEE, Web, 规范]
-sources: [raw/01-articles/Spring Boot 4.0官宣：弃用 Undertow.md, "raw/09-archive/2026-10-25 - Tomcat 11 到底有多强大 ？.md"]
+sources: [raw/09-archive/Spring Boot 4.0官宣：弃用 Undertow.md, "raw/09-archive/2026-10-25 - Tomcat 11 到底有多强大 ？.md"]
 last_updated: 2026-10-26
 ---
 

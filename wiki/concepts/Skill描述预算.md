@@ -2,7 +2,7 @@
 title: "Skill描述预算"
 type: concept
 tags: [概念, ClaudeCode, Skill, 性能]
-sources: [raw/01-articles/2026-09-28-Claude Code 装了一堆 Skill，用了三个月，我删掉了 80% - 码哥字节.md]
+sources: [raw/09-archive/2026-09-28-Claude Code 装了一堆 Skill，用了三个月，我删掉了 80% - 码哥字节.md]
 last_updated: 2026-09-29
 ---
 

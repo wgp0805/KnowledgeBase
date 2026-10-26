@@ -2,7 +2,7 @@
 title: "Spring"
 type: entity
 tags: [框架, Java, IoC, 设计模式]
-sources: [raw/09-archive/spring框架中的事务管理.md, raw/09-archive/理解Spring中的ApplicationListener与ApplicationRunner区别及使用场景.md, raw/09-archive/过滤器Filter与拦截器Interceptor的区别.md, raw/01-articles/Spring 用到了哪些设计模式？你能答上来几个？.md, raw/01-articles/Spring Event 别瞎用！被它坑的绩效都没了！.md]
+sources: [raw/09-archive/spring框架中的事务管理.md, raw/09-archive/理解Spring中的ApplicationListener与ApplicationRunner区别及使用场景.md, raw/09-archive/过滤器Filter与拦截器Interceptor的区别.md, raw/09-archive/Spring 用到了哪些设计模式？你能答上来几个？.md, raw/09-archive/Spring Event 别瞎用！被它坑的绩效都没了！.md]
 last_updated: 2026-08-17
 ---
 

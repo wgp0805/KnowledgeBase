@@ -2,7 +2,7 @@
 title: "IT码徒"
 type: entity
 tags: [公众号, 技术作者]
-sources: ["raw/09-archive/让SpringBoot不需要Controller、Service、DAO、Mapper，卧槽！这款工具绝了！.md", "raw/09-archive/2026-10-22 - 开源项目｜81kStar！装完不用配的AI全栈监控利器.md", "raw/01-articles/2026-10-25 - 还用WebSocket？这才是实时消息推送的正确姿势！轻量好用.md"]
+sources: ["raw/09-archive/让SpringBoot不需要Controller、Service、DAO、Mapper，卧槽！这款工具绝了！.md", "raw/09-archive/2026-10-22 - 开源项目｜81kStar！装完不用配的AI全栈监控利器.md", "raw/09-archive/2026-10-25 - 还用WebSocket？这才是实时消息推送的正确姿势！轻量好用.md"]
 last_updated: 2026-10-26
 ---
 

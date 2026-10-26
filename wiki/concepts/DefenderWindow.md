@@ -2,7 +2,7 @@
 title: "DefenderWindow"
 type: concept
 tags: [AI安全, 网络安全, 攻防不对称, 前沿实验室]
-sources: [raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md]
+sources: [raw/09-archive/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md]
 last_updated: 2026-09-15
 ---
 

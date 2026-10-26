@@ -2,7 +2,7 @@
 title: "SkillSoftLink"
 type: concept
 tags: [Skill管理, AgentBro, 软链接, 分发机制, 版本一致性]
-sources: [raw/09-archive/别再乱装skill了，这个开源项目教你如何有效管理Skill.md, raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md]
+sources: [raw/09-archive/别再乱装skill了，这个开源项目教你如何有效管理Skill.md, raw/09-archive/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md]
 last_updated: 2026-09-28
 ---
 

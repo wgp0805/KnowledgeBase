@@ -2,7 +2,7 @@
 title: "deepseek-recipe"
 type: entity
 tags: [实体, 编解码, 开源, DeepSeek, 工具调用]
-sources: [raw/01-articles/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
+sources: [raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
 last_updated: 2026-10-22
 ---
 

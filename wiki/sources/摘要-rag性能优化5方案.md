@@ -2,7 +2,7 @@
 title: "摘要-rag性能优化5方案"
 type: source
 tags: [来源, RAG, 检索, 混合检索, Rerank, 知识库]
-sources: [raw/01-articles/RAG性能优化的 5 种方案！.md]
+sources: [raw/09-archive/RAG性能优化的 5 种方案！.md]
 last_updated: 2026-10-21
 ---
 

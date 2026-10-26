@@ -2,7 +2,7 @@
 title: "SpringSession"
 type: entity
 tags: [Java, Spring, Session, 分布式, 开源框架]
-sources: ["raw/01-articles/2026-10-04 - 面试难题：分布式 Session 实现难点，这篇就够！.md"]
+sources: ["raw/09-archive/2026-10-04 - 面试难题：分布式 Session 实现难点，这篇就够！.md"]
 last_updated: 2026-10-08
 ---
 

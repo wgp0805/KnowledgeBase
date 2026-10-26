@@ -2,7 +2,7 @@
 title: "纳米Work"
 type: entity
 tags: [PersonalAgent, 360, 云电脑, AI产品, 国内]
-sources: [raw/01-articles/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md]
+sources: [raw/09-archive/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md]
 last_updated: 2026-10-08
 ---
 

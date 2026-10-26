@@ -2,7 +2,7 @@
 title: "AI建站工作流"
 type: concept
 tags: [建站, 工作流, SOP, 专家团, WorkBuddy]
-sources: [raw/01-articles/2026-10-03-从一句话需求到可运营网站：WorkBuddy 建站工作流实录.md]
+sources: [raw/09-archive/2026-10-03-从一句话需求到可运营网站：WorkBuddy 建站工作流实录.md]
 last_updated: 2026-10-08
 ---
 

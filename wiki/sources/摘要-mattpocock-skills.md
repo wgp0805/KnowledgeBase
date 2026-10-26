@@ -2,7 +2,7 @@
 title: "摘要-mattpocock-skills"
 type: source
 tags: [AI编程, Skill, 工程纪律, 开源工具]
-sources: [raw/01-articles/Matt Pocock 那个 5 个月冲到 17 万 star 的 grill-me，作者自己却不用了，原因是这几个.md]
+sources: [raw/09-archive/Matt Pocock 那个 5 个月冲到 17 万 star 的 grill-me，作者自己却不用了，原因是这几个.md]
 last_updated: 2026-07-27
 ---
 

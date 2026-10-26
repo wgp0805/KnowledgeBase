@@ -2,7 +2,7 @@
 title: "摘要-Penpot-UIUX-Design-MCP工具链"
 type: source
 tags: [来源, Penpot, MCP, 设计]
-sources: [raw/01-articles/2026-09-01-Penpot UIUX Design 拆解：把设计判断力塞进 MCP 工具链.md]
+sources: [raw/09-archive/2026-09-01-Penpot UIUX Design 拆解：把设计判断力塞进 MCP 工具链.md]
 last_updated: 2026-09-01
 ---
 

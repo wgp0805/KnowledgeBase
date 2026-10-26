@@ -2,7 +2,7 @@
 title: "摘要-loop-engineering-pitfalls"
 type: source
 tags: [来源, 原始文件, Loop Engineering, 生产实践, Agent]
-sources: [raw/01-articles/Prompt 已死，Loop当立？先看完这5个生产级坑再决定.md]
+sources: [raw/09-archive/Prompt 已死，Loop当立？先看完这5个生产级坑再决定.md]
 last_updated: 2026-07-16
 ---
 

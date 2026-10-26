@@ -2,7 +2,7 @@
 title: "摘要-workbuddy建站工作流"
 type: source
 tags: [来源, 原始文件, WorkBuddy, 建站, 专家团]
-sources: [raw/01-articles/2026-10-03-从一句话需求到可运营网站：WorkBuddy 建站工作流实录.md]
+sources: [raw/09-archive/2026-10-03-从一句话需求到可运营网站：WorkBuddy 建站工作流实录.md]
 last_updated: 2026-10-08
 ---
 

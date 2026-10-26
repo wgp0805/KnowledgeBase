@@ -2,7 +2,7 @@
 title: "Agent原生软件"
 type: concept
 tags: [Agent, 产品设计, primitives, malleable-software]
-sources: [raw/01-articles/2026-10-03-一年前说 PM 会被淘汰，现在 Anthropic 说：人人都得学会当 PM.md]
+sources: [raw/09-archive/2026-10-03-一年前说 PM 会被淘汰，现在 Anthropic 说：人人都得学会当 PM.md]
 last_updated: 2026-10-08
 ---
 

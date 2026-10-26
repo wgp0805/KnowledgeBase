@@ -2,7 +2,7 @@
 title: "这份 Claude Code 指南火爆全网 已狂飙 20k+ Star"
 type: source
 tags: ["Claude-Code", "沉默王二"]
-sources: ["raw/01-articles/这份Claude Code指南火爆全网，已狂飙20k+ Star！.md"]
+sources: ["raw/09-archive/这份Claude Code指南火爆全网，已狂飙20k+ Star！.md"]
 last_updated: 2026-09-01
 ---
 

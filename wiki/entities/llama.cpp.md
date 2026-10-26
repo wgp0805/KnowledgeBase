@@ -2,7 +2,7 @@
 title: "llama.cpp"
 type: entity
 tags: [工具, 本地推理, GGUF, 量化模型, 开源, 模型转换]
-sources: [raw/01-articles/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md, raw/01-articles/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
+sources: [raw/09-archive/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md, raw/09-archive/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
 last_updated: 2026-08-28
 ---
 

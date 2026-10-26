@@ -2,7 +2,7 @@
 title: "摘要-step-3-7-flash-agent横评"
 type: source
 tags: [来源, AI模型, Agent, 横评]
-sources: [raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md]
+sources: [raw/09-archive/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md]
 last_updated: 2026-06-30
 ---
 

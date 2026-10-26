@@ -2,7 +2,7 @@
 title: "NearRealTime"
 type: concept
 tags: [实时性, 搜索引擎, Elasticsearch, 写入机制]
-sources: [raw/01-articles/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md]
+sources: [raw/09-archive/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md]
 last_updated: 2026-08-26
 ---
 

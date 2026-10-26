@@ -2,7 +2,7 @@
 title: "Command-Agent-Skill编排"
 type: concept
 tags: [ClaudeCode, 工作流, 编排, Agent]
-sources: ["raw/01-articles/夯爆了！Claude Code 最佳实践开源了， 狂斩 57k+ Star，核心玩法、工作流、Agent 等一网打尽！！.md"]
+sources: ["raw/09-archive/夯爆了！Claude Code 最佳实践开源了， 狂斩 57k+ Star，核心玩法、工作流、Agent 等一网打尽！！.md"]
 last_updated: 2026-06-24
 ---
 

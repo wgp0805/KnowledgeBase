@@ -2,7 +2,7 @@
 title: "GLM-5.3"
 type: entity
 tags: [AI模型, 智谱, 开放权重, 网络安全]
-sources: [raw/01-articles/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md, raw/01-articles/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
+sources: [raw/09-archive/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md, raw/09-archive/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
 last_updated: 2026-10-20
 ---
 

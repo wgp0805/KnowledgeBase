@@ -2,7 +2,7 @@
 title: "DockerCompose生产配置"
 type: concept
 tags: [Docker, Docker Compose, 生产环境, 部署, 最佳实践]
-sources: [raw/01-articles/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
+sources: [raw/09-archive/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
 last_updated: 2026-09-17
 ---
 

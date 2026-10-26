@@ -2,7 +2,7 @@
 title: "摘要-dyad-ai全栈构建器"
 type: source
 tags: [AI, 全栈开发, 开源, Dyad]
-sources: [raw/01-articles/又一款神级工具！21k Star开源战绩，本地搞定AI全栈开发.md]
+sources: [raw/09-archive/又一款神级工具！21k Star开源战绩，本地搞定AI全栈开发.md]
 last_updated: 2026-07-23
 ---
 

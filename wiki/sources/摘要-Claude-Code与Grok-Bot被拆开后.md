@@ -2,7 +2,7 @@
 title: "摘要-Claude-Code与Grok-Bot被拆开后"
 type: source
 tags: [来源, AI产品, Agent, 产品分析, 护城河]
-sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md]
+sources: [raw/09-archive/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md]
 last_updated: 2026-08-27
 ---
 

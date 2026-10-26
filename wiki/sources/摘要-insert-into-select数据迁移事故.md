@@ -2,7 +2,7 @@
 title: "摘要-insert-into-select数据迁移事故"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/同事使用 insert into select 迁移数据，开开心心上线，上线后被公司开除！.md]
+sources: [raw/09-archive/同事使用 insert into select 迁移数据，开开心心上线，上线后被公司开除！.md]
 last_updated: 2026-09-18
 ---
 

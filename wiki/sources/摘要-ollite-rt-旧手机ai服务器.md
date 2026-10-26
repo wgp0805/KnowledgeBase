@@ -2,7 +2,7 @@
 title: "摘要-ollite-rt-旧手机ai服务器"
 type: source
 tags: [来源, 原始文件, 端侧推理, 开源项目, OlliteRT]
-sources: ["raw/01-articles/2026-10-04 - 夯爆了！这个开源项目，让旧手机变成24小时跑的AI服务器！.md"]
+sources: ["raw/09-archive/2026-10-04 - 夯爆了！这个开源项目，让旧手机变成24小时跑的AI服务器！.md"]
 last_updated: 2026-10-08
 ---
 

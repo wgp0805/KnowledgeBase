@@ -2,7 +2,7 @@
 title: "模型越聪明，为什么 Prompt 和 Skill 越要做减法？"
 type: source
 tags: [Prompt工程, AgentSkill, ClaudeCode, GPT-6, 模型能力, 上下文管理]
-sources: [raw/01-articles/2026-09-12-模型越聪明，为什么 Prompt 和 Skill 越要做减法？.md]
+sources: [raw/09-archive/2026-09-12-模型越聪明，为什么 Prompt 和 Skill 越要做减法？.md]
 last_updated: 2026-09-14
 ---
 

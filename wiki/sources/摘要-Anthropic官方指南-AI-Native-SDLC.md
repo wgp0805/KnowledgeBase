@@ -2,7 +2,7 @@
 title: "摘要-Anthropic官方指南-AI-Native-SDLC"
 type: source
 tags: [来源, AI产品, SDLC, Anthropic, 工程实践]
-sources: [raw/01-articles/2026-08-26-Anthropic 官方指南：AI Native 开发手册.md]
+sources: [raw/09-archive/2026-08-26-Anthropic 官方指南：AI Native 开发手册.md]
 last_updated: 2026-08-27
 ---
 

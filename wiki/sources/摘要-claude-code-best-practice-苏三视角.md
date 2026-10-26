@@ -2,7 +2,7 @@
 title: "摘要-claude-code-best-practice-苏三视角"
 type: source
 tags: [Claude Code, 最佳实践, 上下文管理, Hook]
-sources: [raw/01-articles/开源了！Claude Code 最佳实践 60 天斩获 54k Star，前后端开发直接起飞了！.md]
+sources: [raw/09-archive/开源了！Claude Code 最佳实践 60 天斩获 54k Star，前后端开发直接起飞了！.md]
 last_updated: 2026-06-26
 ---
 

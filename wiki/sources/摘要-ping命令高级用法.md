@@ -2,7 +2,7 @@
 title: "摘要-ping命令高级用法"
 type: source
 tags: [网络工具, ping命令, TCP/IP]
-sources: [raw/01-articles/2026-09-22 - ping 命令还能这么玩？.md]
+sources: [raw/09-archive/2026-09-22 - ping 命令还能这么玩？.md]
 last_updated: 2026-09-23
 ---
 

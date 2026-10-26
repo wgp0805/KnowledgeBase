@@ -3,7 +3,7 @@ title: "LostInTheMiddle"
 type: concept
 tags: [概念, LLM, 长上下文, 幻觉, RAG]
 sources:
-  - raw/01-articles/RAG性能优化的 5 种方案！.md
+  - raw/09-archive/RAG性能优化的 5 种方案！.md
 last_updated: 2026-10-21
 ---
 

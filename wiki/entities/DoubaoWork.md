@@ -2,7 +2,7 @@
 title: "DoubaoWork"
 type: entity
 tags: [AI产品, Agent, 字节跳动, 飞书]
-sources: [raw/09-archive/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/09-archive/2026-08-31-飞书，成了豆包工作的“超级上下文”.md, raw/09-archive/2026-09-16-豆包工作还想反超WorkBuddy？.md, raw/01-articles/2026-09-18-详情页秒变16 秒宣传片，Flova做电商设计夯爆了！.md, raw/09-archive/2026-09-24-设计师自己做分析：我把8张竞品图丢给豆包工作.md, raw/09-archive/我用飞书+豆包工作，找到了最邪修的用法。.md, raw/09-archive/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md, "raw/01-articles/2026-10-03 - WorkBuddy 与 豆包工作 该选谁？我们从10个方面深度分析对比.md", "raw/01-articles/2026-10-10-旅行成为个人 Agent 的高频场景，「豆包工作」把几十小时攻略浓缩成 PPT.md", "raw/01-articles/2026-10-10-实测一个月，我把手机里 20 多个常用 App 全删了，只留了一个豆包工作.md", "raw/09-archive/2026-10-14-产品经理用上豆包工作，直接搞定竞品追踪、汇报PPT、定时周报！.md"]
+sources: [raw/09-archive/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/09-archive/2026-08-31-飞书，成了豆包工作的“超级上下文”.md, raw/09-archive/2026-09-16-豆包工作还想反超WorkBuddy？.md, raw/09-archive/2026-09-18-详情页秒变16 秒宣传片，Flova做电商设计夯爆了！.md, raw/09-archive/2026-09-24-设计师自己做分析：我把8张竞品图丢给豆包工作.md, raw/09-archive/我用飞书+豆包工作，找到了最邪修的用法。.md, raw/09-archive/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md, "raw/09-archive/2026-10-03 - WorkBuddy 与 豆包工作 该选谁？我们从10个方面深度分析对比.md", "raw/09-archive/2026-10-10-旅行成为个人 Agent 的高频场景，「豆包工作」把几十小时攻略浓缩成 PPT.md", "raw/09-archive/2026-10-10-实测一个月，我把手机里 20 多个常用 App 全删了，只留了一个豆包工作.md", "raw/09-archive/2026-10-14-产品经理用上豆包工作，直接搞定竞品追踪、汇报PPT、定时周报！.md"]
 last_updated: 2026-10-15
 ---
 

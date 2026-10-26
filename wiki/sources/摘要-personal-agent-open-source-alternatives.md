@@ -2,7 +2,7 @@
 title: "摘要-personal-agent-open-source-alternatives"
 type: source
 tags: [来源, PersonalAgent, 开源, GitHub]
-sources: [raw/01-articles/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md]
+sources: [raw/09-archive/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md]
 last_updated: 2026-10-12
 ---
 

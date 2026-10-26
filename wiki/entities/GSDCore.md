@@ -2,7 +2,7 @@
 title: "GSDCore"
 type: entity
 tags: [AI编程, 规范驱动, 上下文工程, 开源工具, 工作流]
-sources: [raw/01-articles/2.3k star 的新项目，用来指挥 Claude Code 和 Codex 干活！.md]
+sources: [raw/09-archive/2.3k star 的新项目，用来指挥 Claude Code 和 Codex 干活！.md]
 last_updated: 2026-07-08
 ---
 

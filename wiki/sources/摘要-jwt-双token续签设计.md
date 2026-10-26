@@ -2,7 +2,7 @@
 title: "摘要-jwt-双token续签设计"
 type: source
 tags: [来源, 原始文件, JWT, 认证, OAuth2, 工程实践]
-sources: [raw/01-articles/一个 Token 就够了，JWT 续签为什么要搞 Access Token + Refresh Token 双 Token？.md]
+sources: [raw/09-archive/一个 Token 就够了，JWT 续签为什么要搞 Access Token + Refresh Token 双 Token？.md]
 last_updated: 2026-06-29
 ---
 

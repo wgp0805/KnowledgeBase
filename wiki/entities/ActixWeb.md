@@ -2,7 +2,7 @@
 title: "ActixWeb"
 type: entity
 tags: [Rust, Web框架, 高性能, 异步, Actix]
-sources: [raw/01-articles/SpringBoot3.2 + jdk21 + GraalVM上手体验.md]
+sources: [raw/09-archive/SpringBoot3.2 + jdk21 + GraalVM上手体验.md]
 last_updated: 2026-07-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-为什么越来越多人使用Flowable"
 type: source
 tags: [来源, 工作流引擎, Flowable, BPMN]
-sources: [raw/01-articles/为什么越来越多人使用 Flowable  ？.md]
+sources: [raw/09-archive/为什么越来越多人使用 Flowable  ？.md]
 last_updated: 2026-08-06
 ---
 

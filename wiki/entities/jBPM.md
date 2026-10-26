@@ -2,7 +2,7 @@
 title: "jBPM"
 type: entity
 tags: [工作流引擎, 规则引擎]
-sources: [raw/01-articles/为什么越来越多人使用 Flowable  ？.md]
+sources: [raw/09-archive/为什么越来越多人使用 Flowable  ？.md]
 last_updated: 2026-08-06
 ---
 

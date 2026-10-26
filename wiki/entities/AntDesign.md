@@ -3,7 +3,7 @@ title: "AntDesign"
 type: entity
 tags: [工具, 前端, UI组件库, B端]
 sources:
-  - raw/01-articles/2026-10-21-调教 AI Prompt 超全教程+案例！减少返工80%！.md
+  - raw/09-archive/2026-10-21-调教 AI Prompt 超全教程+案例！减少返工80%！.md
 last_updated: 2026-10-21
 ---
 

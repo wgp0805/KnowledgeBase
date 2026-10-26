@@ -2,7 +2,7 @@
 title: "摘要-GPT-image-2儿童画风玩法"
 type: source
 tags: [来源, 原始文件, AI绘画, GPT-image-2]
-sources: [raw/01-articles/GPT-image-2 爆火新玩法：万物儿童画风.md]
+sources: [raw/09-archive/GPT-image-2 爆火新玩法：万物儿童画风.md]
 last_updated: 2026-06-23
 ---
 

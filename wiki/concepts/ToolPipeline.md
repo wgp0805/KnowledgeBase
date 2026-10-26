@@ -2,7 +2,7 @@
 title: "ToolPipeline"
 type: concept
 tags: [AI, Agent, 工具编排, 批量执行]
-sources: [raw/01-articles/2026-07-05-AI Agent 30天速成｜Day10 笔记 - 云淡风轻YangG.md]
+sources: [raw/09-archive/2026-07-05-AI Agent 30天速成｜Day10 笔记 - 云淡风轻YangG.md]
 last_updated: 2026-07-06
 ---
 

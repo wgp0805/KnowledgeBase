@@ -2,7 +2,7 @@
 title: "摘要-insert-into-select迁移数据事故"
 type: source
 tags: [来源, MySQL, 数据迁移, 事故]
-sources: [raw/01-articles/2026-09-20 - 同事使用 insert into select 迁移数据，开开心心上线，上线后被公司开除！.md]
+sources: [raw/09-archive/2026-09-20 - 同事使用 insert into select 迁移数据，开开心心上线，上线后被公司开除！.md]
 last_updated: 2026-09-22
 ---
 

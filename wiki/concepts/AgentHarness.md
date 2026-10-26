@@ -2,7 +2,7 @@
 title: "AgentHarness"
 type: concept
 tags: [AI, Agent设计, Harness, MiMo Code]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md, raw/09-archive/Trellis使用手册.md, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md, raw/09-archive/抖音视频内容整理_人类智力基线与2张显卡.md, raw/01-articles/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md]
+sources: [raw/09-archive/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/小米版Claude Code正式发布，这次开源能给到夯.md, raw/09-archive/Trellis使用手册.md, raw/09-archive/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md, raw/09-archive/抖音视频内容整理_人类智力基线与2张显卡.md, raw/09-archive/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md]
 last_updated: 2026-09-08
 ---
 

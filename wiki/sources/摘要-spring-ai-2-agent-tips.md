@@ -2,7 +2,7 @@
 title: "摘要-spring-ai-2-agent-tips"
 type: source
 tags: [Spring AI, Agent, 最佳实践]
-sources: [raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md]
+sources: [raw/09-archive/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md]
 last_updated: 2026-07-06
 ---
 

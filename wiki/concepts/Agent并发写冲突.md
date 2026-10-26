@@ -3,7 +3,7 @@ title: "Agent并发写冲突"
 type: concept
 tags: [概念, Agent, 并发, Worktree, 文件写入]
 sources:
-  - raw/01-articles/鹅厂面试官：“多个 Agent 同时改一个文件，怎么办？”.md
+  - raw/09-archive/鹅厂面试官：“多个 Agent 同时改一个文件，怎么办？”.md
 last_updated: 2026-10-21
 ---
 

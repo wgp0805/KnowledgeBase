@@ -2,7 +2,7 @@
 title: "Top 3 热门 Claude Code 浏览器 Agent 强得离谱"
 type: source
 tags: ["Claude-Code", "浏览器Agent", "沉默王二"]
-sources: ["raw/01-articles/Top 3热门Claude Code浏览器Agent，我试了个遍，发现真的强得离谱！.md"]
+sources: ["raw/09-archive/Top 3热门Claude Code浏览器Agent，我试了个遍，发现真的强得离谱！.md"]
 last_updated: 2026-09-01
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-四大personal-agent实测33委托率"
 type: source
 tags: [来源, PersonalAgent, 实测, 提示词, 工作流]
-sources: [raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md]
+sources: [raw/09-archive/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md]
 last_updated: 2026-10-19
 ---
 

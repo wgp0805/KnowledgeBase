@@ -2,7 +2,7 @@
 title: "摘要-多agent并发改文件冲突"
 type: source
 tags: [来源, Agent, Worktree, 并发, 文件冲突, Git]
-sources: [raw/01-articles/鹅厂面试官：“多个 Agent 同时改一个文件，怎么办？”.md]
+sources: [raw/09-archive/鹅厂面试官：“多个 Agent 同时改一个文件，怎么办？”.md]
 last_updated: 2026-10-21
 ---
 

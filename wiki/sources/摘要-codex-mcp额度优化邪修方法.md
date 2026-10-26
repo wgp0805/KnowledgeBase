@@ -2,7 +2,7 @@
 title: "摘要-codex-mcp额度优化邪修方法"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/2026-09-17-分享一个大幅节省Codex额度的邪修方法，不要浪费了你的ChatGPT Pro会员.md]
+sources: [raw/09-archive/2026-09-17-分享一个大幅节省Codex额度的邪修方法，不要浪费了你的ChatGPT Pro会员.md]
 last_updated: 2026-09-18
 ---
 

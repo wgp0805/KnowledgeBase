@@ -2,7 +2,7 @@
 title: "摘要-claude-code-mod-雨姐面板"
 type: source
 tags: [来源, 原始文件, ClaudeCode, Mods, 插件开发]
-sources: [raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md]
+sources: [raw/09-archive/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md]
 last_updated: 2026-10-08
 ---
 

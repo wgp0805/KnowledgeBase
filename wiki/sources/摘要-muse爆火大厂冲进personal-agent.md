@@ -2,7 +2,7 @@
 title: "摘要-muse爆火大厂冲进personal-agent"
 type: source
 tags: [来源, 原始文件, PersonalAgent, Muse, 大厂竞争]
-sources: [raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md]
+sources: [raw/09-archive/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md]
 last_updated: 2026-10-08
 ---
 

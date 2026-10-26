@@ -2,7 +2,7 @@
 title: "摘要-ubuntu-docker-全栈部署实录"
 type: source
 tags: [Docker, Ubuntu, Next.js, FastAPI, PostgreSQL, Docker Compose, 国内源, 部署, DevOps]
-sources: [raw/01-articles/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
+sources: [raw/09-archive/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
 last_updated: 2026-09-17
 ---
 

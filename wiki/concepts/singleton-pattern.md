@@ -2,7 +2,7 @@
 title: "singleton-pattern"
 type: concept
 tags: [设计模式, 单例模式, Java, 线程安全, Spring]
-sources: [raw/01-articles/美团面试：单例模式的 5 种写法，你会几种？ 我只答上来 3 种.md, raw/01-articles/Spring 用到了哪些设计模式？你能答上来几个？.md]
+sources: [raw/09-archive/美团面试：单例模式的 5 种写法，你会几种？ 我只答上来 3 种.md, raw/09-archive/Spring 用到了哪些设计模式？你能答上来几个？.md]
 last_updated: 2026-05-25
 ---
 

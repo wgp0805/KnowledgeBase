@@ -2,7 +2,7 @@
 title: "摘要-视频模型横评H3vsSeedance"
 type: source
 tags: [来源, 原始文件, 视频生成, 模型横评]
-sources: [raw/01-articles/2026-08-25-烧掉500块实测H3、Seedance 2.0 fast，意外挖出了性价比之王（附全部提示词）.md]
+sources: [raw/09-archive/2026-08-25-烧掉500块实测H3、Seedance 2.0 fast，意外挖出了性价比之王（附全部提示词）.md]
 last_updated: 2026-08-26
 ---
 

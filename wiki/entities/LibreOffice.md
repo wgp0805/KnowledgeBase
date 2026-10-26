@@ -2,7 +2,7 @@
 title: "LibreOffice"
 type: entity
 tags: [实体, 开源, 办公套件, 文档转换]
-sources: [raw/01-articles/2026-08-17 - 为什么越来越多人用 kkFileView？.md]
+sources: [raw/09-archive/2026-08-17 - 为什么越来越多人用 kkFileView？.md]
 last_updated: 2026-08-18
 ---
 

@@ -2,7 +2,7 @@
 title: "DataInspector"
 type: entity
 tags: [实体, Skill, 数据分析, 安全, 实践]
-sources: [raw/01-articles/2026-10-12 - 自己写了个数据分析的SKILL，工作效率提升了30倍！.md]
+sources: [raw/09-archive/2026-10-12 - 自己写了个数据分析的SKILL，工作效率提升了30倍！.md]
 last_updated: 2026-10-12
 ---
 

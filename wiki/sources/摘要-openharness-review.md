@@ -2,7 +2,7 @@
 title: "OpenHarness 刚开源就狂揽 3.9k+ 星标 轻松复刻 Claude Code"
 type: source
 tags: ["OpenHarness", "HKUDS", "沉默王二"]
-sources: ["raw/01-articles/OpenHarness太硬了，刚开源就狂揽3.9k+星标！轻松复刻Claude Code。.md"]
+sources: ["raw/09-archive/OpenHarness太硬了，刚开源就狂揽3.9k+星标！轻松复刻Claude Code。.md"]
 last_updated: 2026-09-01
 ---
 

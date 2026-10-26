@@ -2,7 +2,7 @@
 title: "MiniMaxCode"
 type: entity
 tags: [实体, MiniMax, Code CLI, 开源, Agent]
-sources: [raw/01-articles/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md]
+sources: [raw/09-archive/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md]
 last_updated: 2026-09-20
 ---
 

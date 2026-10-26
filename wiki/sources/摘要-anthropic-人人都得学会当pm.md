@@ -2,7 +2,7 @@
 title: "摘要-anthropic-人人都得学会当pm"
 type: source
 tags: [来源, 原始文件, 产品经理, Anthropic, Agent]
-sources: [raw/01-articles/2026-10-03-一年前说 PM 会被淘汰，现在 Anthropic 说：人人都得学会当 PM.md]
+sources: [raw/09-archive/2026-10-03-一年前说 PM 会被淘汰，现在 Anthropic 说：人人都得学会当 PM.md]
 last_updated: 2026-10-08
 ---
 

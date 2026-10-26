@@ -4,7 +4,7 @@ type: entity
 tags:
   - 语言
   - 生态
-sources: ["raw/01-articles/2026-09-27-并发编程（五）：Atomic——语言层的原子性、可见性与有序性 - ThinkerQAQ.md", "raw/09-archive/2026-10-25-Day02 · 开发环境搭建 - 小嘉游戏.md"]
+sources: ["raw/09-archive/2026-09-27-并发编程（五）：Atomic——语言层的原子性、可见性与有序性 - ThinkerQAQ.md", "raw/09-archive/2026-10-25-Day02 · 开发环境搭建 - 小嘉游戏.md"]
 last_updated: 2026-10-26
 ---
 

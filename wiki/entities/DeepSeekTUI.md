@@ -2,7 +2,7 @@
 title: "DeepSeekTUI"
 type: entity
 tags: [AI工具, Agent, DeepSeek, 开源]
-sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md]
+sources: [raw/09-archive/推荐一款DeepSeek V4 编程神器！.md]
 last_updated: 2026-05-19
 ---
 

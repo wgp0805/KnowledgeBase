@@ -2,7 +2,7 @@
 title: "OpenDots"
 type: entity
 tags: [开源, PersonalAgent, GitHub, Agent]
-sources: [raw/01-articles/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md]
+sources: [raw/09-archive/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md]
 last_updated: 2026-10-12
 ---
 

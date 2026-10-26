@@ -2,7 +2,7 @@
 title: "摘要-gpt6与程序员能力演进"
 type: source
 tags: [来源, GPT-6, 程序员, 能力演进]
-sources: [raw/01-articles/2026-09-04-GPT-6 越来越擅长端到端开发后，程序员最需要提升哪些能力？.md]
+sources: [raw/09-archive/2026-09-04-GPT-6 越来越擅长端到端开发后，程序员最需要提升哪些能力？.md]
 last_updated: 2026-09-05
 ---
 

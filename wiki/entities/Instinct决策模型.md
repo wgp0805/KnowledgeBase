@@ -2,7 +2,7 @@
 title: "Instinct决策模型"
 type: entity
 tags: [实体, AI模型, 决策模型, AI客服, 开源]
-sources: [raw/01-articles/2026-10-01-一个令人惊艳的开源项目，解决你的客服 AI 难题！.md]
+sources: [raw/09-archive/2026-10-01-一个令人惊艳的开源项目，解决你的客服 AI 难题！.md]
 last_updated: 2026-10-08
 ---
 

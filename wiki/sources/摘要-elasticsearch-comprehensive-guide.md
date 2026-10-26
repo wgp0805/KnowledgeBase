@@ -2,7 +2,7 @@
 title: "摘要-elasticsearch-comprehensive-guide"
 type: source
 tags: [来源, Elasticsearch, 原理, BM25, 分布式架构]
-sources: [raw/01-articles/Elasticsearch 全景指南：从入门到原理深度解析.md]
+sources: [raw/09-archive/Elasticsearch 全景指南：从入门到原理深度解析.md]
 last_updated: 2026-06-08
 ---
 

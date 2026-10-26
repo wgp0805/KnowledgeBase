@@ -2,7 +2,7 @@
 title: "gRPC"
 type: concept
 tags: [RPC, 通信, Google]
-sources: ["raw/01-articles/使用 Shadcn UI 构建 Java 桌面应用.md", "raw/01-articles/2026-08-25 - 为什么越来越多人用gRPC？.md"]
+sources: ["raw/09-archive/使用 Shadcn UI 构建 Java 桌面应用.md", "raw/09-archive/2026-08-25 - 为什么越来越多人用gRPC？.md"]
 last_updated: 2026-08-25
 ---
 

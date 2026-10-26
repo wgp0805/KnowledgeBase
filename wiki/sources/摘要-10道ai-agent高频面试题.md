@@ -2,7 +2,7 @@
 title: "摘要-10道ai-agent高频面试题"
 type: source
 tags: [来源, 原始文件, AI Agent, 面试题, 技术]
-sources: [raw/01-articles/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md]
+sources: [raw/09-archive/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md]
 last_updated: 2026-09-20
 ---
 

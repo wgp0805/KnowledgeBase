@@ -2,7 +2,7 @@
 title: "摘要-sql八种性能陷阱写法"
 type: source
 tags: [来源, MySQL, SQL优化, 性能]
-sources: [raw/01-articles/2026-10-08 - 8种专坑同事 SQL写法，性能降低100倍，不来看看？.md]
+sources: [raw/09-archive/2026-10-08 - 8种专坑同事 SQL写法，性能降低100倍，不来看看？.md]
 last_updated: 2026-10-09
 ---
 

@@ -2,7 +2,7 @@
 title: "Archify"
 type: entity
 tags: [开源工具, 架构图, Agent技能, Skill]
-sources: [raw/01-articles/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md, raw/01-articles/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
+sources: [raw/09-archive/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md, raw/09-archive/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
 last_updated: 2026-10-20
 ---
 

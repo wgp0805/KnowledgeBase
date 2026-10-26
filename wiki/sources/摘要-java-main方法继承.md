@@ -2,7 +2,7 @@
 title: "摘要-java-main方法继承"
 type: source
 tags: [来源, Java, 面试题, main方法]
-sources: [raw/01-articles/阿里二面：main 方法可以继承吗？.md]
+sources: [raw/09-archive/阿里二面：main 方法可以继承吗？.md]
 last_updated: 2026-10-21
 ---
 

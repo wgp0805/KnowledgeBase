@@ -2,7 +2,7 @@
 title: "Java高CPU排障"
 type: concept
 tags: [Java, 性能, 排障, 线上运维]
-sources: [raw/01-articles/Java 线上排障：服务 CPU 打满、接口卡死定位方案.md]
+sources: [raw/09-archive/Java 线上排障：服务 CPU 打满、接口卡死定位方案.md]
 last_updated: 2026-10-08
 ---
 

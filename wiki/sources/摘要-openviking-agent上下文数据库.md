@@ -2,7 +2,7 @@
 title: "摘要-openviking-agent上下文数据库"
 type: source
 tags: [来源, OpenViking, Agent, 知识库, 上下文]
-sources: [raw/01-articles/2026-09-04-OpenViking 实战：把知识库、长期记忆和 Agent 技能统一到一个上下文文件系统.md]
+sources: [raw/09-archive/2026-09-04-OpenViking 实战：把知识库、长期记忆和 Agent 技能统一到一个上下文文件系统.md]
 last_updated: 2026-09-05
 ---
 

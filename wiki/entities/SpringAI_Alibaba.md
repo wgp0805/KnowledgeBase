@@ -2,7 +2,7 @@
 title: "SpringAI_Alibaba"
 type: entity
 tags: [AI框架, 阿里, 多智能体, Java]
-sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md, "raw/01-articles/2026-10-03 - Spring AI Alibaba已停更了，Java还有希望吗？.md", "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md, "raw/09-archive/2026-10-03 - Spring AI Alibaba已停更了，Java还有希望吗？.md", "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
 last_updated: 2026-10-26
 ---
 

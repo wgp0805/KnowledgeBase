@@ -2,7 +2,7 @@
 title: "摘要-anthropic优化生物模型"
 type: source
 tags: [来源, 原始文件, Anthropic, Claude, 生物模型, 蛋白设计, kernel优化]
-sources: [raw/01-articles/2026-09-19-Anthropic 优化 30 多个生物模型，蛋白质设计成本最高降 98%.md]
+sources: [raw/09-archive/2026-09-19-Anthropic 优化 30 多个生物模型，蛋白质设计成本最高降 98%.md]
 last_updated: 2026-09-20
 ---
 

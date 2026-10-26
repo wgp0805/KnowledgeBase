@@ -2,7 +2,7 @@
 title: "摘要-rustfs-ga正式版"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/给 MinIO 说再见，最强 AI 存储 RustFS 发布正式版了！.md]
+sources: [raw/09-archive/给 MinIO 说再见，最强 AI 存储 RustFS 发布正式版了！.md]
 last_updated: 2026-09-18
 ---
 

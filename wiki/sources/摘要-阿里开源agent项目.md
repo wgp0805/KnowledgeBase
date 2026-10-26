@@ -2,7 +2,7 @@
 title: "摘要：阿里开源的Agent项目在Github又爆了"
 type: source
 tags: [阿里, 开源, Agent, CodeReview]
-sources: [raw/01-articles/2026-08-23 - 阿里开源的 Agent 项目在 Github 又爆了 ！.md]
+sources: [raw/09-archive/2026-08-23 - 阿里开源的 Agent 项目在 Github 又爆了 ！.md]
 last_updated: 2026-08-24
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-小豆个人agent卡位"
 type: source
 tags: [来源, 原始文件, 个人Agent, 字节跳动, 腾讯]
-sources: [raw/01-articles/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md]
+sources: [raw/09-archive/2026-10-02-字节「小豆」呼之欲出，腾讯三路推进，个人 Agent 已成大厂组织能力之战.md]
 last_updated: 2026-10-08
 ---
 

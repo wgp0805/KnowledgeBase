@@ -2,7 +2,7 @@
 title: "摘要-蚂蚁灵光内测新版personal-agent"
 type: source
 tags: [来源, PersonalAgent, 蚂蚁灵光, 云电脑, 产品实测]
-sources: ["raw/01-articles/2026-10-13-蚂蚁灵光内测新版 Personal Agent：接管钉钉、遥控电脑，一手体验！.md"]
+sources: ["raw/09-archive/2026-10-13-蚂蚁灵光内测新版 Personal Agent：接管钉钉、遥控电脑，一手体验！.md"]
 last_updated: 2026-10-14
 ---
 

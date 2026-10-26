@@ -2,7 +2,7 @@
 title: "摘要-springboot4-模块化架构"
 type: source
 tags: [来源, SpringBoot, 模块化]
-sources: [raw/01-articles/SpringBoot4 新特性：模块化架构.md]
+sources: [raw/09-archive/SpringBoot4 新特性：模块化架构.md]
 last_updated: 2026-07-31
 ---
 

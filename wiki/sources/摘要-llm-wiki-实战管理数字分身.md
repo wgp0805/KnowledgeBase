@@ -2,7 +2,7 @@
 title: "摘要-llm-wiki-实战管理数字分身"
 type: source
 tags: [来源, LLM Wiki, 知识库, RAG, Agent, 产品经理]
-sources: [raw/01-articles/2026-10-21-LLM wiki实战：用20篇文章做一个“管理数字分身”.md]
+sources: [raw/09-archive/2026-10-21-LLM wiki实战：用20篇文章做一个“管理数字分身”.md]
 last_updated: 2026-10-21
 ---
 

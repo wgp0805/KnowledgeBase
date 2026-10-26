@@ -2,7 +2,7 @@
 title: "Druid"
 type: entity
 tags: [连接池, Java, 数据库, 监控, 优化, 安全]
-sources: [raw/01-articles/Druid 崩了，线上直接炸锅！.md]
+sources: [raw/09-archive/Druid 崩了，线上直接炸锅！.md]
 last_updated: 2026-07-27
 ---
 

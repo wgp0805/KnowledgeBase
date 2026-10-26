@@ -2,7 +2,7 @@
 title: "摘要-agent平台两种哲学-weknora-molio"
 type: source
 tags: [来源, Agent平台, WeKnora, Molio]
-sources: [raw/01-articles/2026-09-20-Agent 平台的两种哲学：从 WeKnora 和 Molio 聊起 - AI闲人.md]
+sources: [raw/09-archive/2026-09-20-Agent 平台的两种哲学：从 WeKnora 和 Molio 聊起 - AI闲人.md]
 last_updated: 2026-09-22
 ---
 

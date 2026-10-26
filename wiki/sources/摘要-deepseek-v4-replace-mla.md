@@ -2,7 +2,7 @@
 title: "DeepSeek V4 为什么用 CSA 和 HCA 替换 MLA"
 type: source
 tags: ["DeepSeek-V4", "CSA", "HCA", "MLA"]
-sources: ["raw/01-articles/DeepSeek V4 为什么用 CSA 和 HCA 替换 MLA？.md"]
+sources: ["raw/09-archive/DeepSeek V4 为什么用 CSA 和 HCA 替换 MLA？.md"]
 last_updated: 2026-09-01
 ---
 

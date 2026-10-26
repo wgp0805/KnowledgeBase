@@ -2,7 +2,7 @@
 title: "摘要-spring-cloud-alibaba"
 type: source
 tags: [来源, 原始文件, Spring Cloud, 微服务]
-sources: [raw/02-papers/Spring Cloud Alibaba笔记.pdf]
+sources: [raw/09-archive/Spring Cloud Alibaba笔记.pdf]
 last_updated: 2026-05-22
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-pi-agent-4工具极简主义"
 type: source
 tags: [AI, Agent, Pi, 极简主义, Armin Ronacher, OpenClaw, YOLO, 自扩展]
-sources: [raw/01-articles/【Pi Agent】 源码剖析：4 个工具的极简主义——为什么更少反而更好.md]
+sources: [raw/09-archive/【Pi Agent】 源码剖析：4 个工具的极简主义——为什么更少反而更好.md]
 last_updated: 2026-08-12
 ---
 

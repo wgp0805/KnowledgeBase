@@ -45,7 +45,7 @@ sources:
   - raw/09-archive/第18章_主从复制.pdf
   - raw/09-archive/第18章_MySQL8其它新特性.pdf
   - raw/09-archive/第19章_数据库备份与恢复.pdf
-  - raw/01-articles/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
+  - raw/09-archive/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
   - raw/09-archive/Mysql 9.7 到底有多强大？.md
 last_updated: 2026-10-16
 ---

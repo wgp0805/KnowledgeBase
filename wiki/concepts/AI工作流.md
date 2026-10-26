@@ -2,7 +2,7 @@
 title: "AI工作流"
 type: concept
 tags: [AI, Workflow, Anthropic, 编排]
-sources: [raw/01-articles/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md]
+sources: [raw/09-archive/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md]
 last_updated: 2026-07-08
 ---
 

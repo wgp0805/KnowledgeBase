@@ -2,7 +2,7 @@
 title: "摘要-github-cloudflare-picgo图床"
 type: source
 tags: [来源, 原始文件, 图床, GitHub, Cloudflare, PicGo]
-sources: [raw/01-articles/2026-09-25-GitHub + Cloudflare + Picgo 搭建你的免费图床 - DominicKK.md]
+sources: [raw/09-archive/2026-09-25-GitHub + Cloudflare + Picgo 搭建你的免费图床 - DominicKK.md]
 last_updated: 2026-09-28
 ---
 

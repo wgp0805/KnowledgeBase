@@ -2,7 +2,7 @@
 title: "RenoPit"
 type: entity
 tags: [开源项目, AI应用, 装修, React, FastAPI]
-sources: [raw/01-articles/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md]
+sources: [raw/09-archive/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md]
 last_updated: 2026-08-21
 ---
 

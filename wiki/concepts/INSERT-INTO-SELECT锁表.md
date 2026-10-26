@@ -2,7 +2,7 @@
 title: "INSERT-INTO-SELECT锁表"
 type: concept
 tags: [MySQL, 数据迁移, 锁, 性能优化]
-sources: [raw/01-articles/同事使用 insert into select 迁移数据，开开心心上线，上线后被公司开除！.md]
+sources: [raw/09-archive/同事使用 insert into select 迁移数据，开开心心上线，上线后被公司开除！.md]
 last_updated: 2026-09-18
 ---
 

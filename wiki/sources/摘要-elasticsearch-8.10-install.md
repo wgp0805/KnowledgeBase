@@ -2,7 +2,7 @@
 title: "摘要-elasticsearch-8.10-install"
 type: source
 tags: [来源, Elasticsearch, 安装, 安全配置, IK分词器]
-sources: [raw/01-articles/Elasticsearch 8.10安装（新人必看）.md]
+sources: [raw/09-archive/Elasticsearch 8.10安装（新人必看）.md]
 last_updated: 2026-06-08
 ---
 

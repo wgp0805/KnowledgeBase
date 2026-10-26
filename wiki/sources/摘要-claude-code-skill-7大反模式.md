@@ -2,7 +2,7 @@
 title: "摘要-claude-code-skill-7大反模式"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md]
+sources: [raw/09-archive/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md]
 last_updated: 2026-09-28
 ---
 

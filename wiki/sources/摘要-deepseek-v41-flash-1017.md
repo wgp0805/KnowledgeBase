@@ -2,7 +2,7 @@
 title: "摘要-deepseek-v41-flash-1017"
 type: source
 tags: [来源, DeepSeek, 模型更新, 搜索API, 开源]
-sources: [raw/01-articles/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md]
+sources: [raw/09-archive/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md]
 last_updated: 2026-10-19
 ---
 

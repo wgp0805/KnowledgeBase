@@ -2,7 +2,7 @@
 title: "摘要-ai转型一号位产品负责人"
 type: source
 tags: [来源, AI转型, 组织变革, FDE]
-sources: [raw/01-articles/2026-10-08-不要让技术负责人去搞 AI 转型，没结果的….md]
+sources: [raw/09-archive/2026-10-08-不要让技术负责人去搞 AI 转型，没结果的….md]
 last_updated: 2026-10-09
 ---
 

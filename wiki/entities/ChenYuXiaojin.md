@@ -2,7 +2,7 @@
 title: "ChenYuXiaojin"
 type: entity
 tags: [作者, 提示词工程, AI工程]
-sources: [raw/01-articles/2026-09-21-你越让 AI「不要」做什么，它越做什么.md]
+sources: [raw/09-archive/2026-09-21-你越让 AI「不要」做什么，它越做什么.md]
 last_updated: 2026-09-21
 ---
 

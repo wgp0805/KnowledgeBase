@@ -2,7 +2,7 @@
 title: "摘要-claude-code-statusline"
 type: source
 tags: [来源, Claude Code, 状态栏, 终端工具]
-sources: [raw/01-articles/给 Claude Code 装上这个超酷的状态栏，逼格瞬间拉满！.md]
+sources: [raw/09-archive/给 Claude Code 装上这个超酷的状态栏，逼格瞬间拉满！.md]
 last_updated: 2026-07-17
 ---
 

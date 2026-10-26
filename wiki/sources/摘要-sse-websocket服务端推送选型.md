@@ -2,7 +2,7 @@
 title: "摘要-sse-websocket服务端推送选型"
 type: source
 tags: [来源, 原始文件]
-sources: ["raw/01-articles/2026-10-25 - 还用WebSocket？这才是实时消息推送的正确姿势！轻量好用.md"]
+sources: ["raw/09-archive/2026-10-25 - 还用WebSocket？这才是实时消息推送的正确姿势！轻量好用.md"]
 last_updated: 2026-10-26
 ---
 

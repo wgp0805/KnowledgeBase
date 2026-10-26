@@ -2,7 +2,7 @@
 title: "SimonWillison"
 type: entity
 tags: [Web开发, Django, 独立开发者, AI编程]
-sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md]
+sources: [raw/09-archive/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/09-archive/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md]
 last_updated: 2026-09-17
 ---
 

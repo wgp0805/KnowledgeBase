@@ -2,7 +2,7 @@
 title: "Claude Code+DeepSeek V4 就是国产最强 Agent"
 type: source
 tags: ["Claude-Code", "DeepSeek-V4", "沉默王二"]
-sources: ["raw/01-articles/讲真，Claude Code+DeepSeek V4 就是国产最强 Agent。.md"]
+sources: ["raw/09-archive/讲真，Claude Code+DeepSeek V4 就是国产最强 Agent。.md"]
 last_updated: 2026-09-01
 ---
 

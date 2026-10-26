@@ -2,7 +2,7 @@
 title: "摘要-try-catch性能实测"
 type: source
 tags: [来源, Java, JVM, 异常处理, 性能调优]
-sources: [raw/01-articles/2026-10-18 - Java使用 try catch 会影响性能？.md]
+sources: [raw/09-archive/2026-10-18 - Java使用 try catch 会影响性能？.md]
 last_updated: 2026-10-19
 ---
 

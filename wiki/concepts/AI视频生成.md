@@ -4,7 +4,7 @@ type: concept
 tags:
   - 视频
   - AI
-sources: [raw/01-articles/2026-09-25-体验 PixVerse R2 后，我发现世界模型的产品流程已经有所变化.md, raw/01-articles/2026-09-29-我用 WorkBuddy + Agnes一句话生成短视频，没花一分钱.md, raw/01-articles/2026-10-21-Opus 同款视频玩法：会说话就能做 MG 动画视频，国内直接用.md]
+sources: [raw/09-archive/2026-09-25-体验 PixVerse R2 后，我发现世界模型的产品流程已经有所变化.md, raw/09-archive/2026-09-29-我用 WorkBuddy + Agnes一句话生成短视频，没花一分钱.md, raw/09-archive/2026-10-21-Opus 同款视频玩法：会说话就能做 MG 动画视频，国内直接用.md]
 last_updated: 2026-10-22
 ---
 

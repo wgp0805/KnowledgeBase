@@ -2,7 +2,7 @@
 title: "IP限流"
 type: concept
 tags: [安全, 限流, 令牌桶, IP]
-sources: [raw/01-articles/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md]
+sources: [raw/09-archive/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md]
 last_updated: 2026-08-12
 ---
 

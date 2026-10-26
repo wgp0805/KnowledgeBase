@@ -2,7 +2,7 @@
 title: "Dots"
 type: entity
 tags: [AI产品, OpenAI, 常驻智能体, Agent, DevDay, PersonalAgent]
-sources: [raw/09-archive/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-03-实测 ChatGPT Dot，龙虾转生？不完全是。.md, raw/01-articles/2026-10-07-在 agent 的世界里，留存就是分发.md, raw/01-articles/2026-10-08-关了电脑还在替你干活：Personal Agent的技术内核与医疗落地.md, raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md, "raw/09-archive/2026-10-22-Grok Bot、Dots、Cue、Muse：四家 AI Bot 到底有什么不一样？.md"]
+sources: [raw/09-archive/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/09-archive/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/09-archive/2026-10-03-实测 ChatGPT Dot，龙虾转生？不完全是。.md, raw/09-archive/2026-10-07-在 agent 的世界里，留存就是分发.md, raw/09-archive/2026-10-08-关了电脑还在替你干活：Personal Agent的技术内核与医疗落地.md, raw/09-archive/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md, "raw/09-archive/2026-10-22-Grok Bot、Dots、Cue、Muse：四家 AI Bot 到底有什么不一样？.md"]
 last_updated: 2026-10-23
 ---
 

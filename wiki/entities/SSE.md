@@ -2,7 +2,7 @@
 title: "SSE"
 type: entity
 tags: [网络协议, 服务器推送, 实时通信]
-sources: ["raw/01-articles/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md", "raw/01-articles/2026-10-25 - 还用WebSocket？这才是实时消息推送的正确姿势！轻量好用.md"]
+sources: ["raw/09-archive/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md", "raw/09-archive/2026-10-25 - 还用WebSocket？这才是实时消息推送的正确姿势！轻量好用.md"]
 last_updated: 2026-10-26
 ---
 

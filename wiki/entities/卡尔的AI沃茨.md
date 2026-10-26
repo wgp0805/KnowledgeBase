@@ -2,7 +2,7 @@
 title: "卡尔的AI沃茨"
 type: entity
 tags: [作者, AI测评, 豆包, Agent, 实测, PersonalAgent]
-sources: [raw/09-archive/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md, raw/09-archive/2026-10-13-开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病.md, raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md, raw/01-articles/2026-10-21:开源「提示语管理.skill」，就为快速选出最适合你的Prompt（附25个深度思考提示语）.md]
+sources: [raw/09-archive/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md, raw/09-archive/2026-10-13-开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病.md, raw/09-archive/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md, raw/01-articles/2026-10-21:开源「提示语管理.skill」，就为快速选出最适合你的Prompt（附25个深度思考提示语）.md]
 last_updated: 2026-10-21
 ---
 

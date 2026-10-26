@@ -2,7 +2,7 @@
 title: "为什么聊着聊着 Agent 就变笨了"
 type: source
 tags: ["AI-Agent", "Context-Window"]
-sources: ["raw/01-articles/为什么聊着聊着 Agent 就变笨了？.md"]
+sources: ["raw/09-archive/为什么聊着聊着 Agent 就变笨了？.md"]
 last_updated: 2026-09-01
 ---
 

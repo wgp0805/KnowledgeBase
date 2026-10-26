@@ -2,7 +2,7 @@
 title: "Let's Encrypt"
 type: entity
 tags: [SSL, HTTPS, 证书, 安全, 免费]
-sources: [raw/01-articles/2026-07-29-Docker部署Keycloak：企业级身份认证平台搭建 - 暮色之狐.md]
+sources: [raw/09-archive/2026-07-29-Docker部署Keycloak：企业级身份认证平台搭建 - 暮色之狐.md]
 last_updated: 2026-07-30
 ---
 

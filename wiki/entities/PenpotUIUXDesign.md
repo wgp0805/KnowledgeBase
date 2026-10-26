@@ -2,7 +2,7 @@
 title: "PenpotUIUXDesign"
 type: entity
 tags: [工具, 设计, MCP, Skill]
-sources: [raw/01-articles/2026-09-01-Penpot UIUX Design 拆解：把设计判断力塞进 MCP 工具链.md]
+sources: [raw/09-archive/2026-09-01-Penpot UIUX Design 拆解：把设计判断力塞进 MCP 工具链.md]
 last_updated: 2026-09-01
 ---
 

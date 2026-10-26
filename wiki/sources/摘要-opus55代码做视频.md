@@ -2,7 +2,7 @@
 title: "摘要-opus55代码做视频"
 type: source
 tags: [来源, 原始文件, 视频, Claude, 代码生成]
-sources: [raw/01-articles/2026-10-02-用 Claude Opus 5.5 做视频堪称一绝，外网已经玩疯了。.md]
+sources: [raw/09-archive/2026-10-02-用 Claude Opus 5.5 做视频堪称一绝，外网已经玩疯了。.md]
 last_updated: 2026-10-08
 ---
 

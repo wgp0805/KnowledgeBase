@@ -2,7 +2,7 @@
 title: "摘要-claude-code桌面版嵌套会话更新"
 type: source
 tags: [来源, 原始文件, ClaudeCode, 多会话, Agent工作台]
-sources: [raw/01-articles/2026-10-19-Claude Code桌面版迎来重大更新.md]
+sources: [raw/09-archive/2026-10-19-Claude Code桌面版迎来重大更新.md]
 last_updated: 2026-10-20
 ---
 

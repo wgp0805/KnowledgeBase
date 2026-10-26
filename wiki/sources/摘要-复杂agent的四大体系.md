@@ -2,7 +2,7 @@
 title: "摘要：复杂Agent的执行、反馈、协作与记忆体系"
 type: source
 tags: [Agent, 执行, 反馈, 协作, 记忆, 体系设计]
-sources: [raw/01-articles/2026-08-23-从目标到可靠交付：复杂 Agent 的执行、反馈、协作与记忆体系.md]
+sources: [raw/09-archive/2026-08-23-从目标到可靠交付：复杂 Agent 的执行、反馈、协作与记忆体系.md]
 last_updated: 2026-08-24
 ---
 

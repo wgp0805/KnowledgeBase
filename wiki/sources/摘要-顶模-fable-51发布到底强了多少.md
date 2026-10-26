@@ -2,7 +2,7 @@
 title: "摘要-顶模-fable-51发布到底强了多少"
 type: source
 tags: [来源, 原始文件, AI模型, 产品评测]
-sources: [raw/01-articles/2026-09-03-顶模 Fable 5.1发布，到底强了多少？.md]
+sources: [raw/09-archive/2026-09-03-顶模 Fable 5.1发布，到底强了多少？.md]
 last_updated: 2026-09-03
 ---
 

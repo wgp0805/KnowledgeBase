@@ -2,7 +2,7 @@
 title: "摘要-pi-agent-production-guide"
 type: source
 tags: [AI, Agent, pi-agent, 工程落地]
-sources: [raw/01-articles/Pi-Agent 开源项目落地实战文档.md]
+sources: [raw/09-archive/Pi-Agent 开源项目落地实战文档.md]
 last_updated: 2026-08-04
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-deepseek-harness必装10个插件-程序汪"
 type: source
 tags: [来源, DeepSeek, Harness, 插件, 程序汪]
-sources: [raw/01-articles/2026-08-21 - DeepSeekHarness必装的10个插件.md]
+sources: [raw/09-archive/2026-08-21 - DeepSeekHarness必装的10个插件.md]
 last_updated: 2026-08-21
 ---
 

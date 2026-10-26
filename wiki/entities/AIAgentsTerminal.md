@@ -2,7 +2,7 @@
 title: "AIAgentsTerminal"
 type: entity
 tags: [VSCode, Agent, 终端, 开发工具]
-sources: ["raw/01-articles/2026-09-04-AI Agents Terminal：在 VS Code 状态栏一键启动你所有的 AI 编程 Agent - Cn#工作室.md", "raw/09-archive/2026-10-23-Agent YOLO 三端全开：一个 YOLO 面板，在 IntelliJ、Visual Studio、VS Code 里都能跑起来 - Cn#工作室.md"]
+sources: ["raw/09-archive/2026-09-04-AI Agents Terminal：在 VS Code 状态栏一键启动你所有的 AI 编程 Agent - Cn#工作室.md", "raw/09-archive/2026-10-23-Agent YOLO 三端全开：一个 YOLO 面板，在 IntelliJ、Visual Studio、VS Code 里都能跑起来 - Cn#工作室.md"]
 last_updated: 2026-10-26
 ---
 

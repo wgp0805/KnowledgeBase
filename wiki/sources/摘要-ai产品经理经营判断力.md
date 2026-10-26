@@ -2,7 +2,7 @@
 title: "摘要-ai产品经理经营判断力"
 type: source
 tags: [来源, 原始文件, 产品经理, 方法论, 决策框架]
-sources: [raw/01-articles/2026-10-01-AI 时代产品经理的竞争力迭代：从方法论执行到经营判断力升维.md]
+sources: [raw/09-archive/2026-10-01-AI 时代产品经理的竞争力迭代：从方法论执行到经营判断力升维.md]
 last_updated: 2026-10-08
 ---
 

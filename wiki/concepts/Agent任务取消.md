@@ -2,7 +2,7 @@
 title: "Agent任务取消"
 type: concept
 tags: [Agent, 取消, 中断, 进程管理, 信号, AbortController]
-sources: ["raw/01-articles/2026-10-05 - 用户中途取消，Agent 任务怎么停下来？.md"]
+sources: ["raw/09-archive/2026-10-05 - 用户中途取消，Agent 任务怎么停下来？.md"]
 last_updated: 2026-10-08
 ---
 

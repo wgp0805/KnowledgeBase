@@ -2,7 +2,7 @@
 title: "Cordis 是什么？DeepSeek Harness 的插件系统如何理解"
 type: source
 tags: ["Cordis", "DeepSeek", "Harness"]
-sources: ["raw/01-articles/Cordis 是什么？DeepSeek Harness 的插件系统如何理解？.md"]
+sources: ["raw/09-archive/Cordis 是什么？DeepSeek Harness 的插件系统如何理解？.md"]
 last_updated: 2026-09-01
 ---
 

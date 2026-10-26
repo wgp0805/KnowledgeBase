@@ -2,7 +2,7 @@
 title: "Seedance"
 type: entity
 tags: [AI模型, 视频生成, 字节跳动]
-sources: [raw/09-archive/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/01-articles/2026-09-28-用豆包 Vibe Coding？现在真的可以了.md, raw/09-archive/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md, raw/09-archive/开源项目｜一个神级Skill：故事丢进去，AI自动生成上美影风短剧.md]
+sources: [raw/09-archive/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/09-archive/2026-09-28-用豆包 Vibe Coding？现在真的可以了.md, raw/09-archive/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md, raw/09-archive/开源项目｜一个神级Skill：故事丢进去，AI自动生成上美影风短剧.md]
 last_updated: 2026-10-22
 ---
 

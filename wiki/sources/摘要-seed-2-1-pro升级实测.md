@@ -2,7 +2,7 @@
 title: "摘要-seed-2-1-pro升级实测"
 type: source
 tags: [来源, 原始文件, Seed-2.1-pro, 字节, 基模, 实测]
-sources: [raw/01-articles/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md]
+sources: [raw/09-archive/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md]
 last_updated: 2026-09-20
 ---
 

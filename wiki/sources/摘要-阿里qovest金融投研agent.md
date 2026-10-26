@@ -2,7 +2,7 @@
 title: "摘要-阿里qovest金融投研agent"
 type: source
 tags: [来源, 原始文件, Qovest, AI金融, Agent, 阿里]
-sources: [raw/01-articles/2026-09-19-阿里内测 Qovest，一个面向个人投资者的AI Agent，要帮你赚钱.md]
+sources: [raw/09-archive/2026-09-19-阿里内测 Qovest，一个面向个人投资者的AI Agent，要帮你赚钱.md]
 last_updated: 2026-09-20
 ---
 

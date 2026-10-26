@@ -2,7 +2,7 @@
 title: "摘要-你越让AI不要做什么它越做什么"
 type: source
 tags: [来源, 原始文件, 提示词工程, 剪枝优化, 白名单]
-sources: [raw/01-articles/2026-09-21-你越让 AI「不要」做什么，它越做什么.md]
+sources: [raw/09-archive/2026-09-21-你越让 AI「不要」做什么，它越做什么.md]
 last_updated: 2026-09-21
 ---
 

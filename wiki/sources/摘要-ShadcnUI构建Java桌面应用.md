@@ -2,7 +2,7 @@
 title: "摘要-ShadcnUI构建Java桌面应用"
 type: source
 tags: [来源, Java桌面, JxBrowser, shadcn]
-sources: ["raw/01-articles/使用 Shadcn UI 构建 Java 桌面应用.md"]
+sources: ["raw/09-archive/使用 Shadcn UI 构建 Java 桌面应用.md"]
 last_updated: 2026-07-13
 ---
 

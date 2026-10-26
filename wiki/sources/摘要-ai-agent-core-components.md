@@ -2,7 +2,7 @@
 title: "一个 AI Agent 有哪些核心组件？"
 type: source
 tags: ["AI-Agent", "Agent架构", "面试题"]
-sources: ["raw/01-articles/一个 AI Agent 有哪些核心组件？.md"]
+sources: ["raw/09-archive/一个 AI Agent 有哪些核心组件？.md"]
 last_updated: 2026-09-01
 ---
 

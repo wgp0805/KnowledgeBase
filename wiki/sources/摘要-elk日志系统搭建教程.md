@@ -2,7 +2,7 @@
 title: "从零搭建ELK日志采集系统：Filebeat + Logstash + ES + Kibana 保姆级教程"
 type: source
 tags: [ELK, 日志采集, Docker, DevOps, 运维, Filebeat, Logstash, Elasticsearch, Kibana]
-sources: [raw/01-articles/2026-09-09-从零搭建ELK日志采集系统：Filebeat + Logstash + ES + Kibana 保姆级教程 - 佛祖让我来巡山.md]
+sources: [raw/09-archive/2026-09-09-从零搭建ELK日志采集系统：Filebeat + Logstash + ES + Kibana 保姆级教程 - 佛祖让我来巡山.md]
 last_updated: 2026-09-14
 ---
 

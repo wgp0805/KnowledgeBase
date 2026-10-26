@@ -2,7 +2,7 @@
 title: "摘要-orca-ade多agent协作"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/2026-09-25 - GitHub 6.7万 Star，一个多 Agent 协作、手机远程指挥的开源神器！.md]
+sources: [raw/09-archive/2026-09-25 - GitHub 6.7万 Star，一个多 Agent 协作、手机远程指挥的开源神器！.md]
 last_updated: 2026-09-28
 ---
 

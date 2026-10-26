@@ -2,7 +2,7 @@
 title: "XXL-JOB"
 type: entity
 tags: [Java, 任务调度, 分布式, 开源框架]
-sources: [raw/01-articles/项目终于用上了 PowerJob，睡觉真香！.md, raw/09-archive/xxl-job已正式接入AI.md]
+sources: [raw/09-archive/项目终于用上了 PowerJob，睡觉真香！.md, raw/09-archive/xxl-job已正式接入AI.md]
 last_updated: 2026-10-13
 ---
 

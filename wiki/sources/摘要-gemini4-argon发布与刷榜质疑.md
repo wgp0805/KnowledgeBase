@@ -2,7 +2,7 @@
 title: "摘要-gemini4-argon发布与刷榜质疑"
 type: source
 tags: [来源, 原始文件, Gemini, 大模型, 评测]
-sources: [raw/01-articles/2026-10-01-Gemini 4正式发布，追平GPT-6但被质疑“刷榜”.md]
+sources: [raw/09-archive/2026-10-01-Gemini 4正式发布，追平GPT-6但被质疑“刷榜”.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "Embedding、Rerank 到底是啥 让 LLM 听懂人话"
 type: source
 tags: ["Embedding", "Rerank", "RAG", "沉默王二"]
-sources: ["raw/01-articles/食堂打饭时，同事问：你们天天说的 Embedding、Rerank 到底是啥？打饭阿姨抢着说：就是让LLM听懂人话。佩服佩服啊。.md"]
+sources: ["raw/09-archive/食堂打饭时，同事问：你们天天说的 Embedding、Rerank 到底是啥？打饭阿姨抢着说：就是让LLM听懂人话。佩服佩服啊。.md"]
 last_updated: 2026-09-01
 ---
 

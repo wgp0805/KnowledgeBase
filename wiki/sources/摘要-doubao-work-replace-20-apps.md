@@ -2,7 +2,7 @@
 title: "摘要-doubao-work-replace-20-apps"
 type: source
 tags: [来源, 豆包工作, Agent, App替代, 实测]
-sources: ["raw/01-articles/2026-10-10-实测一个月，我把手机里 20 多个常用 App 全删了，只留了一个豆包工作.md"]
+sources: ["raw/09-archive/2026-10-10-实测一个月，我把手机里 20 多个常用 App 全删了，只留了一个豆包工作.md"]
 last_updated: 2026-10-12
 ---
 

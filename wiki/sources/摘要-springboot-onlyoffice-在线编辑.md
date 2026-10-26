@@ -2,7 +2,7 @@
 title: "摘要-springboot-onlyoffice-在线编辑"
 type: source
 tags: [OnlyOffice, 在线文档, Word编辑, SpringBoot]
-sources: [raw/01-articles/SpringBoot+OnlyOffice：优雅实现在线 Word 编辑、转化、保存等功能.md]
+sources: [raw/09-archive/SpringBoot+OnlyOffice：优雅实现在线 Word 编辑、转化、保存等功能.md]
 last_updated: 2026-07-27
 ---
 

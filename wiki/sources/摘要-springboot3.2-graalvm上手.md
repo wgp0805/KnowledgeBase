@@ -2,7 +2,7 @@
 title: "SpringBoot 3.2 + GraalVM 上手体验"
 type: source
 tags: [SpringBoot, GraalVM, Native Image, AOT, JDK21, 性能对比, Golang, Rust]
-sources: [raw/01-articles/SpringBoot3.2 + jdk21 + GraalVM上手体验.md]
+sources: [raw/09-archive/SpringBoot3.2 + jdk21 + GraalVM上手体验.md]
 last_updated: 2026-07-08
 ---
 

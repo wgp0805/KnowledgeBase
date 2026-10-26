@@ -2,7 +2,7 @@
 title: "Tibo"
 type: entity
 tags: [人物, OpenAI, Codex, 产品负责人]
-sources: [raw/09-archive/2026-09-08-Codex重置的真正原因找到了，这套打法产品人都该学.md, raw/01-articles/2026-10-07-在 agent 的世界里，留存就是分发.md]
+sources: [raw/09-archive/2026-09-08-Codex重置的真正原因找到了，这套打法产品人都该学.md, raw/09-archive/2026-10-07-在 agent 的世界里，留存就是分发.md]
 last_updated: 2026-10-08
 ---
 

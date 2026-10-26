@@ -2,7 +2,7 @@
 title: "RichardSutton"
 type: entity
 tags: [人物, 强化学习, AI理论, BitterLesson]
-sources: [raw/01-articles/2026-09-29-关于 AI Agent，为什么我的想法可能不靠谱？——重读〈The Bitter Lesson〉 - ahfuzhang.md]
+sources: [raw/09-archive/2026-09-29-关于 AI Agent，为什么我的想法可能不靠谱？——重读〈The Bitter Lesson〉 - ahfuzhang.md]
 last_updated: 2026-10-08
 ---
 

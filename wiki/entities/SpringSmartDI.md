@@ -2,7 +2,7 @@
 title: "SpringSmartDI"
 type: entity
 tags: [Spring, 依赖注入, 开源库, SPI]
-sources: [raw/01-articles/Spring-Smart-DI 动态切换实现类，很不错！.md]
+sources: [raw/09-archive/Spring-Smart-DI 动态切换实现类，很不错！.md]
 last_updated: 2026-09-01
 ---
 

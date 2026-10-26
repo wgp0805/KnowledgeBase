@@ -2,7 +2,7 @@
 title: "摘要-spring-cloud-stream-rocketmq"
 type: source
 tags: [来源, Spring Cloud, RocketMQ, 消息队列]
-sources: [raw/01-articles/Spring Cloud Stream 整合 RocketMQ 完全指南.md]
+sources: [raw/09-archive/Spring Cloud Stream 整合 RocketMQ 完全指南.md]
 last_updated: 2026-07-21
 ---
 

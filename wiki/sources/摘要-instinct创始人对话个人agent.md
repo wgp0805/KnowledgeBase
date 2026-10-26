@@ -2,7 +2,7 @@
 title: "摘要-instinct创始人对话个人agent"
 type: source
 tags: [来源, 原始文件, PersonalAgent, Instinct]
-sources: [raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md]
+sources: [raw/09-archive/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md]
 last_updated: 2026-10-08
 ---
 

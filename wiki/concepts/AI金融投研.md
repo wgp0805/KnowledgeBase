@@ -2,7 +2,7 @@
 title: "AI金融投研"
 type: concept
 tags: [概念, AI金融, 投研, Agent]
-sources: [raw/01-articles/2026-09-19-阿里内测 Qovest，一个面向个人投资者的AI Agent，要帮你赚钱.md]
+sources: [raw/09-archive/2026-09-19-阿里内测 Qovest，一个面向个人投资者的AI Agent，要帮你赚钱.md]
 last_updated: 2026-09-20
 ---
 

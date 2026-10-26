@@ -2,7 +2,7 @@
 title: "摘要-豆包千问元宝转向personal-agent"
 type: source
 tags: [来源, 原始文件, PersonalAgent, 豆包, 千问, 元宝]
-sources: [raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md]
+sources: [raw/09-archive/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md]
 last_updated: 2026-10-08
 ---
 

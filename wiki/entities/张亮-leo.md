@@ -2,7 +2,7 @@
 title: "张亮-leo"
 type: entity
 tags: [作者, 产品经理, 公众号, AI]
-sources: [raw/01-articles/2026-09-23-非技术背景做Vibe Coding，我踩过的最大坑是API Key泄露.md]
+sources: [raw/09-archive/2026-09-23-非技术背景做Vibe Coding，我踩过的最大坑是API Key泄露.md]
 last_updated: 2026-09-28
 ---
 

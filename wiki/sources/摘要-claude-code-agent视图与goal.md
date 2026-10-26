@@ -2,7 +2,7 @@
 title: "摘要-claude-code-agent视图与goal"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md]
+sources: [raw/09-archive/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md]
 last_updated: 2026-09-28
 ---
 

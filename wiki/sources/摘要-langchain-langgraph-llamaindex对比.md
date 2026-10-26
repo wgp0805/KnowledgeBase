@@ -2,7 +2,7 @@
 title: "摘要-langchain-langgraph-llamaindex对比"
 type: source
 tags: [来源, 原始文件, LangChain, LangGraph, LlamaIndex, 框架对比]
-sources: [raw/01-articles/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md]
+sources: [raw/09-archive/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md]
 last_updated: 2026-08-28
 ---
 

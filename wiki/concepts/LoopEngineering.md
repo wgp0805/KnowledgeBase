@@ -2,7 +2,7 @@
 title: "LoopEngineering"
 type: concept
 tags: [AI, Agent, 自动化循环, 方法论]
-sources: [raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/Prompt 已死，Loop当立？先看完这5个生产级坑再决定.md]
+sources: [raw/09-archive/Loop Engineering 实战指南.md, raw/09-archive/Prompt 已死，Loop当立？先看完这5个生产级坑再决定.md]
 last_updated: 2026-07-06
 ---
 

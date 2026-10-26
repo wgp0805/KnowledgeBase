@@ -2,7 +2,7 @@
 title: "摘要-gpt6-astra实测体验"
 type: source
 tags: [GPT-6, OpenAI, Astra, AI模型, 前端生成, 3D建模, AGENT.md, Codex]
-sources: [raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md]
+sources: [raw/09-archive/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md]
 last_updated: 2026-09-07
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-spec需求设计任务三份文档"
 type: source
 tags: [来源, 规范驱动开发, 需求文档, AI编程]
-sources: [raw/01-articles/2026-10-21-AI 时代下，需求文档的黄金模式：Spec.md]
+sources: [raw/09-archive/2026-10-21-AI 时代下，需求文档的黄金模式：Spec.md]
 last_updated: 2026-10-22
 ---
 

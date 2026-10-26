@@ -2,7 +2,7 @@
 title: "claude-code-statusline"
 type: entity
 tags: [工具, ClaudeCode, 状态栏, 开源, npm]
-sources: [raw/01-articles/2026-10-18-Claude Code 自定义状态栏工具：安装、配置与 Subagent 状态展示 - fbincon.md]
+sources: [raw/09-archive/2026-10-18-Claude Code 自定义状态栏工具：安装、配置与 Subagent 状态展示 - fbincon.md]
 last_updated: 2026-10-19
 ---
 

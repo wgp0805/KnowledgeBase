@@ -3,7 +3,7 @@ title: "SpaceX"
 type: entity
 tags: [公司, 航天, AI, 组织]
 sources:
-  - raw/01-articles/2026-10-21-斯坦福新课直接讲 personal agent，Grok Bot 工程师分享如何打造出 always-on agent.md
+  - raw/09-archive/2026-10-21-斯坦福新课直接讲 personal agent，Grok Bot 工程师分享如何打造出 always-on agent.md
 last_updated: 2026-10-21
 ---
 

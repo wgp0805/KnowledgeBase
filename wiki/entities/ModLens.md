@@ -2,7 +2,7 @@
 title: "ModLens"
 type: entity
 tags: [工具, 插件, DeepSeekHarness, 可视化]
-sources: [raw/01-articles/DeepSeek Harness必装的10个插件.md]
+sources: [raw/09-archive/DeepSeek Harness必装的10个插件.md]
 last_updated: 2026-08-17
 ---
 

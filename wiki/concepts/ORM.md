@@ -2,7 +2,7 @@
 title: "ORM"
 type: concept
 tags: [对象关系映射, 数据库]
-sources: [raw/01-articles/MyBatis Plus 封神玩法：这12个骚操作让开发效率直接起飞！.md]
+sources: [raw/09-archive/MyBatis Plus 封神玩法：这12个骚操作让开发效率直接起飞！.md]
 last_updated: 2026-06-26
 ---
 

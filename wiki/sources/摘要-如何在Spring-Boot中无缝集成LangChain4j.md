@@ -2,7 +2,7 @@
 title: "摘要-如何在Spring-Boot中无缝集成LangChain4j"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md]
+sources: [raw/09-archive/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md]
 last_updated: 2026-05-19
 ---
 

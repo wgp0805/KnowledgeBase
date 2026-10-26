@@ -2,7 +2,7 @@
 title: "InfraAgent"
 type: concept
 tags: [Agent应用, 基建智能体, 自我优化, 智谱]
-sources: [raw/01-articles/2026-08-27-智谱 5.3-flash 成了新的斩杀线.md]
+sources: [raw/09-archive/2026-08-27-智谱 5.3-flash 成了新的斩杀线.md]
 last_updated: 2026-08-28
 ---
 

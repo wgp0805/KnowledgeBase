@@ -2,7 +2,7 @@
 title: "SSE流式输出"
 type: concept
 tags: [LLM, 流式, 前端, 交互体验]
-sources: [raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md]
+sources: [raw/09-archive/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md]
 last_updated: 2026-10-13
 ---
 

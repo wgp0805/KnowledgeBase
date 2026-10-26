@@ -2,7 +2,7 @@
 title: "怎么让 Agent 拥有记忆？短期与长期记忆设计"
 type: source
 tags: ["长期记忆", "短期记忆", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/怎么让 Agent 拥有记忆？短期与长期记忆设计.md"]
+sources: ["raw/09-archive/怎么让 Agent 拥有记忆？短期与长期记忆设计.md"]
 last_updated: 2026-09-01
 ---
 

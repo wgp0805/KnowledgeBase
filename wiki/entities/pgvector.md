@@ -2,7 +2,7 @@
 title: "pgvector"
 type: entity
 tags: [PostgreSQL, 向量检索, 扩展, 语义搜索]
-sources: [raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md]
+sources: [raw/09-archive/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md]
 last_updated: 2026-08-21
 ---
 

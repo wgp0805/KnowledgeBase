@@ -2,7 +2,7 @@
 title: "Top 10 热门 Agent Skills 我试了个遍 发现真的能让生产力翻倍"
 type: source
 tags: ["Skills", "AI-Agent", "沉默王二"]
-sources: ["raw/01-articles/Top 10热门Agent Skills，我试了个遍，发现真的能让生产力翻倍.md"]
+sources: ["raw/09-archive/Top 10热门Agent Skills，我试了个遍，发现真的能让生产力翻倍.md"]
 last_updated: 2026-09-01
 ---
 

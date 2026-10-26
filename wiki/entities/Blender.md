@@ -2,7 +2,7 @@
 title: "Blender"
 type: entity
 tags: [实体, 3D, 建模, 开源软件]
-sources: [raw/01-articles/2026-09-18-从 Demo 到3D游戏，GPT-6 加 Tripo 把清明上河图“整活”了！.md, raw/01-articles/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md]
+sources: [raw/09-archive/2026-09-18-从 Demo 到3D游戏，GPT-6 加 Tripo 把清明上河图“整活”了！.md, raw/09-archive/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md]
 last_updated: 2026-09-20
 ---
 

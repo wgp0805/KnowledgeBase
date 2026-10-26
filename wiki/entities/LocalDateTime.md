@@ -2,7 +2,7 @@
 title: "LocalDateTime"
 type: entity
 tags: [Java类, 日期时间, java.time]
-sources: [raw/01-articles/公司空降一个 CTO：禁止在项目中使用 Date 类，发现立即走人！！！.md]
+sources: [raw/09-archive/公司空降一个 CTO：禁止在项目中使用 Date 类，发现立即走人！！！.md]
 last_updated: 2026-09-03
 ---
 

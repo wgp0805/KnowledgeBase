@@ -2,7 +2,7 @@
 title: "URule"
 type: entity
 tags: [规则引擎, Java, 可视化, Spring Boot]
-sources: [raw/01-articles/Spring Boot + URule 实现可视化规则引擎.md]
+sources: [raw/09-archive/Spring Boot + URule 实现可视化规则引擎.md]
 last_updated: 2026-06-10
 ---
 

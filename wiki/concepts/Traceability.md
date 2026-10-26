@@ -2,7 +2,7 @@
 title: "Traceability"
 type: concept
 tags: [Agent, 执行记录, 可追溯, 审计]
-sources: [raw/01-articles/2026-08-23-Agent 能改文件以后，产品经理要补一张执行责任表.md]
+sources: [raw/09-archive/2026-08-23-Agent 能改文件以后，产品经理要补一张执行责任表.md]
 last_updated: 2026-08-24
 ---
 

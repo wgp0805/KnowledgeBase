@@ -2,7 +2,7 @@
 title: "摘要-构建你的第一个Tool-Agent-从零理解ReAct循环"
 type: source
 tags: [来源, LangGraph, ReAct, Agent]
-sources: [raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md]
+sources: [raw/09-archive/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md]
 last_updated: 2026-07-06
 ---
 

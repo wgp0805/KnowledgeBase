@@ -2,7 +2,7 @@
 title: "大模型 API 缓存命中和未命中为什么差价巨大"
 type: source
 tags: ["API-缓存", "沉默王二"]
-sources: ["raw/01-articles/大模型 API 缓存命中和未命中为什么差价巨大？.md"]
+sources: ["raw/09-archive/大模型 API 缓存命中和未命中为什么差价巨大？.md"]
 last_updated: 2026-09-01
 ---
 

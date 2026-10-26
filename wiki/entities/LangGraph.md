@@ -2,7 +2,7 @@
 title: "LangGraph"
 type: entity
 tags: [AI框架, Agent, 工作流编排, Python]
-sources: [raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md, raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/01-articles/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md, raw/01-articles/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md]
+sources: [raw/09-archive/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md, raw/09-archive/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/09-archive/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md, raw/09-archive/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md]
 last_updated: 2026-08-28
 ---
 

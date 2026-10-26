@@ -2,7 +2,7 @@
 title: "Warp 才是 Claude Code 的最佳终端 不用 iTerm2 了"
 type: source
 tags: ["Warp", "Claude-Code", "沉默王二"]
-sources: ["raw/01-articles/Warp才是Claude Code的最佳终端，不用iTerm2了！.md"]
+sources: ["raw/09-archive/Warp才是Claude Code的最佳终端，不用iTerm2了！.md"]
 last_updated: 2026-09-01
 ---
 

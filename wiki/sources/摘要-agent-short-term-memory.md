@@ -2,7 +2,7 @@
 title: "Agent 的短期记忆怎么实现"
 type: source
 tags: ["短期记忆", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/Agent 的短期记忆怎么实现？.md"]
+sources: ["raw/09-archive/Agent 的短期记忆怎么实现？.md"]
 last_updated: 2026-09-01
 ---
 

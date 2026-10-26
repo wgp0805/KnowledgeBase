@@ -2,7 +2,7 @@
 title: "Instinct"
 type: entity
 tags: [实体, AI公司, PersonalAgent, 个人助理, 独角兽]
-sources: [raw/01-articles/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-08-关于 AI Agent、信任与决策权的 100 条.md]
+sources: [raw/09-archive/2026-09-30-对话 Instinct 创始人：个人 Agent 必须自研推理管线降低成本，商业模式终局是「AI 版苹果商店」.md, raw/09-archive/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/09-archive/2026-10-08-关于 AI Agent、信任与决策权的 100 条.md]
 last_updated: 2026-10-09
 ---
 

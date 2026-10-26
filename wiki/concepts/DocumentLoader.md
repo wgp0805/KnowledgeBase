@@ -2,7 +2,7 @@
 title: "DocumentLoader"
 type: concept
 tags: [RAG, LangChain, 文档加载]
-sources: [raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md]
+sources: [raw/09-archive/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md]
 last_updated: 2026-08-10
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-retention-is-distribution"
 type: source
 tags: [来源, Agent, AI产品, 分发, OpenAI]
-sources: [raw/01-articles/2026-10-07-在 agent 的世界里，留存就是分发.md]
+sources: [raw/09-archive/2026-10-07-在 agent 的世界里，留存就是分发.md]
 last_updated: 2026-10-08
 ---
 

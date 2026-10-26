@@ -2,7 +2,7 @@
 title: "Mythos 5.1"
 type: entity
 tags: [AI模型, 大语言模型, Anthropic]
-sources: [raw/01-articles/2026-09-03-顶模 Fable 5.1发布，到底强了多少？.md]
+sources: [raw/09-archive/2026-09-03-顶模 Fable 5.1发布，到底强了多少？.md]
 last_updated: 2026-09-03
 ---
 

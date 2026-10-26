@@ -2,7 +2,7 @@
 title: "Agent Loop"
 type: concept
 tags: [AI, Agent, 执行循环, 工程化]
-sources: [raw/01-articles/2026-09-02-大模型越强，产品经理 越要把边界写进流程.md, "raw/01-articles/2026-10-05 - 用户中途取消，Agent 任务怎么停下来？.md"]
+sources: [raw/09-archive/2026-09-02-大模型越强，产品经理 越要把边界写进流程.md, "raw/09-archive/2026-10-05 - 用户中途取消，Agent 任务怎么停下来？.md"]
 last_updated: 2026-10-08
 ---
 

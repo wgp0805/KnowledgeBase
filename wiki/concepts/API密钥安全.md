@@ -2,7 +2,7 @@
 title: "API密钥安全"
 type: concept
 tags: [安全, 密钥治理, VibeCoding, 最佳实践]
-sources: [raw/01-articles/2026-09-23-非技术背景做Vibe Coding，我踩过的最大坑是API Key泄露.md, raw/09-archive/2026-10-19-OpenCode遭攻击：部分用户OpenAI、Anthropic等API密钥外泄.md]
+sources: [raw/09-archive/2026-09-23-非技术背景做Vibe Coding，我踩过的最大坑是API Key泄露.md, raw/09-archive/2026-10-19-OpenCode遭攻击：部分用户OpenAI、Anthropic等API密钥外泄.md]
 last_updated: 2026-10-20
 ---
 

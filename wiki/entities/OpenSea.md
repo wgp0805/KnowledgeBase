@@ -2,7 +2,7 @@
 title: "OpenSea"
 type: entity
 tags: [公司, NFT, 加密, OpenSea]
-sources: [raw/01-articles/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md]
+sources: [raw/09-archive/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md]
 last_updated: 2026-09-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-try-catch-异常边界"
 type: source
 tags: [来源, 原始文件, Java, 异常处理, Spring事务]
-sources: [raw/01-articles/谁再说 try catch 必须放 for 循环外面，直接走人！.md]
+sources: [raw/09-archive/谁再说 try catch 必须放 for 循环外面，直接走人！.md]
 last_updated: 2026-07-01
 ---
 

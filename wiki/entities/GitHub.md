@@ -2,7 +2,7 @@
 title: "GitHub"
 type: entity
 tags: [代码托管, DevOps, 开源]
-sources: [raw/01-articles/搞定 OAuth 2.0 第三方登录，So Easy !.md, raw/01-articles/2026-09-25-GitHub + Cloudflare + Picgo 搭建你的免费图床 - DominicKK.md]
+sources: [raw/09-archive/搞定 OAuth 2.0 第三方登录，So Easy !.md, raw/09-archive/2026-09-25-GitHub + Cloudflare + Picgo 搭建你的免费图床 - DominicKK.md]
 last_updated: 2026-09-28
 ---
 

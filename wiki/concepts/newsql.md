@@ -2,7 +2,7 @@
 title: "newsql"
 type: concept
 tags: [数据库, 分布式数据库, NewSQL, 架构选型]
-sources: [raw/01-articles/2026-09-23 - 分库分表，可能真的要退出历史舞台了！.md, raw/01-articles/2026-09-25 - 分库分表，可能真的要退出历史舞台了！.md]
+sources: [raw/09-archive/2026-09-23 - 分库分表，可能真的要退出历史舞台了！.md, raw/09-archive/2026-09-25 - 分库分表，可能真的要退出历史舞台了！.md]
 last_updated: 2026-09-28
 ---
 

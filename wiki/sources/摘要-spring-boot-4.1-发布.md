@@ -2,7 +2,7 @@
 title: "摘要-spring-boot-4.1-发布"
 type: source
 tags: [Spring Boot, 框架升级, gRPC, 安全]
-sources: [raw/01-articles/Spring Boot 4.1.0 震撼发布！新特性，惊爆了！.md]
+sources: [raw/09-archive/Spring Boot 4.1.0 震撼发布！新特性，惊爆了！.md]
 last_updated: 2026-06-26
 ---
 

@@ -2,7 +2,7 @@
 title: "Agent 怎么避免上下文爆炸？四种常用方案"
 type: source
 tags: ["Context-Window", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/Agent 怎么避免上下文爆炸？四种常用方案.md"]
+sources: ["raw/09-archive/Agent 怎么避免上下文爆炸？四种常用方案.md"]
 last_updated: 2026-09-01
 ---
 

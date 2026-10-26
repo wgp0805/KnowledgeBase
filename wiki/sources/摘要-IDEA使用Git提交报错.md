@@ -2,7 +2,7 @@
 title: "摘要-IDEA使用Git提交报错"
 type: source
 tags: [来源, IntelliJIDEA, Git]
-sources: [raw/01-articles/IDEA使用Git提交报错 unable to read askpass response from.md]
+sources: [raw/09-archive/IDEA使用Git提交报错 unable to read askpass response from.md]
 last_updated: 2026-05-19
 ---
 

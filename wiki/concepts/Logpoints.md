@@ -2,7 +2,7 @@
 title: "Logpoints"
 type: concept
 tags: [概念, 调试, IDEA]
-sources: [raw/01-articles/IDEA 2026.2 必装插件 Top 100.md]
+sources: [raw/09-archive/IDEA 2026.2 必装插件 Top 100.md]
 last_updated: 2026-09-29
 ---
 

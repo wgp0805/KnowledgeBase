@@ -2,7 +2,7 @@
 title: "摘要-分布式session实现难点"
 type: source
 tags: [来源, 原始文件, 分布式Session, Java, Redis, 面试]
-sources: ["raw/01-articles/2026-10-04 - 面试难题：分布式 Session 实现难点，这篇就够！.md"]
+sources: ["raw/09-archive/2026-10-04 - 面试难题：分布式 Session 实现难点，这篇就够！.md"]
 last_updated: 2026-10-08
 ---
 

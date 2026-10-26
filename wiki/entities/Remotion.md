@@ -4,7 +4,7 @@ type: entity
 tags: [视频生成, React, 代码化, 开源框架]
 sources:
   - wiki/syntheses/opencode-video-generation-paths.md
-  - raw/01-articles/2026-10-02-用 Claude Opus 5.5 做视频堪称一绝，外网已经玩疯了。.md
+  - raw/09-archive/2026-10-02-用 Claude Opus 5.5 做视频堪称一绝，外网已经玩疯了。.md
 last_updated: 2026-10-08
 ---
 

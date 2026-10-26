@@ -2,7 +2,7 @@
 title: "摘要-数据分析agent口径管理"
 type: source
 tags: [来源, Agent, 数据分析, 口径管理]
-sources: [raw/01-articles/2026-09-04-数据分析 Agent 的命门不是模型，是你没写下来的口径.md]
+sources: [raw/09-archive/2026-09-04-数据分析 Agent 的命门不是模型，是你没写下来的口径.md]
 last_updated: 2026-09-05
 ---
 

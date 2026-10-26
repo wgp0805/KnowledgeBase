@@ -2,7 +2,7 @@
 title: "什么是 AI Agent？与直接调用大模型 API 有什么区别？"
 type: source
 tags: ["AI-Agent", "面试题", "沉默王二"]
-sources: ["raw/01-articles/什么是 AI Agent？与直接调用大模型 API 有什么区别？.md"]
+sources: ["raw/09-archive/什么是 AI Agent？与直接调用大模型 API 有什么区别？.md"]
 last_updated: 2026-09-01
 ---
 

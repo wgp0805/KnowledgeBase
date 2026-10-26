@@ -2,7 +2,7 @@
 title: "摘要-一文搞懂agent-memory"
 type: source
 tags: [来源, Agent, Memory, 记忆系统, 认知科学]
-sources: [raw/01-articles/2026-10-12-一文搞懂 Agent Memory：AI 是如何记住你说过的话的？ - Tomorrowland_D.md]
+sources: [raw/09-archive/2026-10-12-一文搞懂 Agent Memory：AI 是如何记住你说过的话的？ - Tomorrowland_D.md]
 last_updated: 2026-10-13
 ---
 

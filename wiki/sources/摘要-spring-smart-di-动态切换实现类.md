@@ -2,7 +2,7 @@
 title: "摘要-spring-smart-di-动态切换实现类"
 type: source
 tags: [Spring, 依赖注入, 动态切换, SPI, 服务商切换]
-sources: [raw/01-articles/Spring-Smart-DI 动态切换实现类，很不错！.md]
+sources: [raw/09-archive/Spring-Smart-DI 动态切换实现类，很不错！.md]
 last_updated: 2026-09-01
 ---
 

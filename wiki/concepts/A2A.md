@@ -2,7 +2,7 @@
 title: "A2A"
 type: concept
 tags: [AI, Agent, 协议, 通信]
-sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md]
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md]
 last_updated: 2026-10-08
 ---
 

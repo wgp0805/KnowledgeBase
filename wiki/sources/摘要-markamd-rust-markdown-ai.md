@@ -2,7 +2,7 @@
 title: "摘要-markamd-rust-markdown-ai"
 type: source
 tags: [来源, Markdown, Rust, AI工具, Tauri]
-sources: [raw/01-articles/仅几MB大小！Rust 开源 Markdown 神器，专为 AI 设计.md]
+sources: [raw/09-archive/仅几MB大小！Rust 开源 Markdown 神器，专为 AI 设计.md]
 last_updated: 2026-07-16
 ---
 

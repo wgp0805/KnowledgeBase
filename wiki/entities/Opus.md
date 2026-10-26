@@ -2,7 +2,7 @@
 title: "Opus"
 type: entity
 tags: ["Anthropic", "模型"]
-sources: [raw/09-archive/2026-09-24-A社O社，坐不住了.md, raw/01-articles/2026-10-02-用 Claude Opus 5.5 做视频堪称一绝，外网已经玩疯了。.md]
+sources: [raw/09-archive/2026-09-24-A社O社，坐不住了.md, raw/09-archive/2026-10-02-用 Claude Opus 5.5 做视频堪称一绝，外网已经玩疯了。.md]
 last_updated: 2026-10-08
 ---
 

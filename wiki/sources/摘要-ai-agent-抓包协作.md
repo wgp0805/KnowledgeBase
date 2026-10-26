@@ -2,7 +2,7 @@
 title: "摘要-ai-agent-抓包协作"
 type: source
 tags: [来源, AI Agent, 抓包, 逆向]
-sources: [raw/01-articles/2026-06-26-现在使用 opencode、codex、claude code 这种逆向破解 app 的时候，用什么抓包软件可以和 ai agent 实现无缝的协作？.md]
+sources: [raw/09-archive/2026-06-26-现在使用 opencode、codex、claude code 这种逆向破解 app 的时候，用什么抓包软件可以和 ai agent 实现无缝的协作？.md]
 last_updated: 2026-06-29
 ---
 

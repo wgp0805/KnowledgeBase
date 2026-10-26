@@ -2,7 +2,7 @@
 title: "Lean"
 type: entity
 tags: [数学, 形式化验证, 证明语言, 可验证性]
-sources: [raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md]
+sources: [raw/09-archive/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md]
 last_updated: 2026-09-15
 ---
 

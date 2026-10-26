@@ -2,7 +2,7 @@
 title: "Telnet替代方案"
 type: concept
 tags: [运维, Telnet, curl, Netcat, Bash, Python]
-sources: [raw/01-articles/服务器无 Telnet 时验证 IP+端口连通性指南.md]
+sources: [raw/09-archive/服务器无 Telnet 时验证 IP+端口连通性指南.md]
 last_updated: 2026-09-17
 ---
 

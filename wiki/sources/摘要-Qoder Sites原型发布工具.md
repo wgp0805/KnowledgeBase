@@ -2,7 +2,7 @@
 title: "摘要-Qoder Sites原型发布工具"
 type: source
 tags: [AI产品, 原型设计, 发布工具]
-sources: [raw/01-articles/2026-09-22-原型只能截图发？我用Qoder Sites做成链接了！.md]
+sources: [raw/09-archive/2026-09-22-原型只能截图发？我用Qoder Sites做成链接了！.md]
 last_updated: 2026-09-23
 ---
 

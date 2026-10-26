@@ -2,7 +2,7 @@
 title: "摘要-20个9月github热门开源项目"
 type: source
 tags: [来源, 原始文件, 开源, GitHub, Agent]
-sources: [raw/01-articles/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md]
+sources: [raw/09-archive/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md]
 last_updated: 2026-10-08
 ---
 

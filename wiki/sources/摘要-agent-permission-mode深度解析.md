@@ -2,7 +2,7 @@
 title: "摘要-agent-permission-mode深度解析"
 type: source
 tags: [Agent, 权限模式, ClaudeCode, 安全, 沙箱, 面试题]
-sources: ["raw/01-articles/Agent 的权限模式（Permission Mode）了解吗？.md"]
+sources: ["raw/09-archive/Agent 的权限模式（Permission Mode）了解吗？.md"]
 last_updated: 2026-10-15
 ---
 

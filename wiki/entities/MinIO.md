@@ -2,7 +2,7 @@
 title: "MinIO"
 type: entity
 tags: [对象存储, S3兼容, 分布式存储, Go语言]
-sources: [raw/01-articles/什么是 MinIO.md, raw/01-articles/MinIO 社区版被故意阉割，Web管理功能全面移除，来试试国产的RustFS？.md]
+sources: [raw/09-archive/什么是 MinIO.md, raw/09-archive/MinIO 社区版被故意阉割，Web管理功能全面移除，来试试国产的RustFS？.md]
 last_updated: 2026-07-22
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要：从一次危重猫接诊看动物医院怎么做RAG"
 type: source
 tags: [RAG, 动物医院, 垂直场景, 落地路径]
-sources: [raw/01-articles/2026-08-23-从一次危重猫接诊，看动物医院该怎么做 RAG.md]
+sources: [raw/09-archive/2026-08-23-从一次危重猫接诊，看动物医院该怎么做 RAG.md]
 last_updated: 2026-08-24
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-lora微调五步教程"
 type: source
 tags: [来源, 原始文件, LoRA, 微调, LLaMA-Factory]
-sources: [raw/01-articles/2026-10-05-小白也能上手的 LoRA 微调：五步走通训练到落地.md]
+sources: [raw/09-archive/2026-10-05-小白也能上手的 LoRA 微调：五步走通训练到落地.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "DP-3"
 type: concept
 tags: [AI编程, 人工审批, 工作流, 规范驱动]
-sources: [raw/01-articles/253k Superpowers 和 60k OpenSpec 被融合了！spec-superflow 工作流登上热榜.md]
+sources: [raw/09-archive/253k Superpowers 和 60k OpenSpec 被融合了！spec-superflow 工作流登上热榜.md]
 last_updated: 2026-07-14
 ---
 

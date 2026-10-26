@@ -2,7 +2,7 @@
 title: "多Agent共享记忆"
 type: concept
 tags: [Agent, 记忆, 协作]
-sources: [raw/01-articles/2026-09-04-OpenViking 实战：把知识库、长期记忆和 Agent 技能统一到一个上下文文件系统.md]
+sources: [raw/09-archive/2026-09-04-OpenViking 实战：把知识库、长期记忆和 Agent 技能统一到一个上下文文件系统.md]
 last_updated: 2026-09-05
 ---
 

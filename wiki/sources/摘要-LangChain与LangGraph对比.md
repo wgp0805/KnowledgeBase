@@ -2,7 +2,7 @@
 title: "摘要-LangChain与LangGraph对比"
 type: source
 tags: [来源, AI框架, LangChain, LangGraph]
-sources: ["raw/01-articles/2026-07-10-从链式调用到图式自治：LangChain与LangGraph核心差异与落地选型全解析 - 一天不进步，就是退步.md"]
+sources: ["raw/09-archive/2026-07-10-从链式调用到图式自治：LangChain与LangGraph核心差异与落地选型全解析 - 一天不进步，就是退步.md"]
 last_updated: 2026-07-13
 ---
 

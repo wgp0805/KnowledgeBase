@@ -2,7 +2,7 @@
 title: "摘要-pi-agent-core-principles"
 type: source
 tags: [AI, Agent, pi-agent, 原理]
-sources: [raw/01-articles/Pi-Agent 智能体核心原理实战文档.md]
+sources: [raw/09-archive/Pi-Agent 智能体核心原理实战文档.md]
 last_updated: 2026-08-04
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-dsh-合成大鲸鱼插件"
 type: source
 tags: [来源, DeepSeekHarness, 插件, 游戏化]
-sources: [raw/01-articles/2026-10-08-等 AI 干活太无聊？我给 DeepSeek Harness 写了个「合成大鲸鱼」，已开源.md]
+sources: [raw/09-archive/2026-10-08-等 AI 干活太无聊？我给 DeepSeek Harness 写了个「合成大鲸鱼」，已开源.md]
 last_updated: 2026-10-09
 ---
 

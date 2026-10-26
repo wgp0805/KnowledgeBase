@@ -2,7 +2,7 @@
 title: "摘要-always-on-agent-斯坦福分享"
 type: source
 tags: [来源, Always-on Agent, Harness, Personal Agent, 架构]
-sources: [raw/01-articles/2026-10-21-斯坦福新课直接讲 personal agent，Grok Bot 工程师分享如何打造出 always-on agent.md]
+sources: [raw/09-archive/2026-10-21-斯坦福新课直接讲 personal agent，Grok Bot 工程师分享如何打造出 always-on agent.md]
 last_updated: 2026-10-21
 ---
 

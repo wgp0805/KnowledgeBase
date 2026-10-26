@@ -2,7 +2,7 @@
 title: "手机版 Codex + ChatGPT 夯爆了"
 type: source
 tags: ["Codex", "移动端", "沉默王二"]
-sources: ["raw/01-articles/手机版 Codex + ChatGPT，夯爆了！.md"]
+sources: ["raw/09-archive/手机版 Codex + ChatGPT，夯爆了！.md"]
 last_updated: 2026-09-01
 ---
 

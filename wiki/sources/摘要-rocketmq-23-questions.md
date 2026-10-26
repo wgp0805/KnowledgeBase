@@ -2,7 +2,7 @@
 title: "阿里面试官 听说你精通 RocketMQ 大战 23 回合"
 type: source
 tags: ["RocketMQ", "面试题", "沉默王二"]
-sources: ["raw/01-articles/阿里面试官：听说你精通 RocketMQ，我们来大战 23 回合.md"]
+sources: ["raw/09-archive/阿里面试官：听说你精通 RocketMQ，我们来大战 23 回合.md"]
 last_updated: 2026-09-01
 ---
 

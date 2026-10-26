@@ -2,7 +2,7 @@
 title: "Keycloak"
 type: entity
 tags: [认证, SSO, OAuth2, RedHat, 开源]
-sources: [raw/01-articles/2026-07-29-Docker部署Keycloak：企业级身份认证平台搭建 - 暮色之狐.md]
+sources: [raw/09-archive/2026-07-29-Docker部署Keycloak：企业级身份认证平台搭建 - 暮色之狐.md]
 last_updated: 2026-07-30
 ---
 

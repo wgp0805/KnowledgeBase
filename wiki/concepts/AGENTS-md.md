@@ -3,9 +3,9 @@ title: "AGENTS-md"
 type: concept
 tags: [AI编程, Agent, 记忆机制, 协议]
 sources:
-  - raw/01-articles/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md
-  - raw/01-articles/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
-  - raw/01-articles/Codex 最新焚决发布，快！.md
+  - raw/09-archive/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md
+  - raw/09-archive/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
+  - raw/09-archive/Codex 最新焚决发布，快！.md
 last_updated: 2026-09-15
 ---
 

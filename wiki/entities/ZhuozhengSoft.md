@@ -2,7 +2,7 @@
 title: "ZhuozhengSoft"
 type: entity
 tags: [公司, 软件厂商, 在线办公, 电子签章]
-sources: [raw/01-articles/SpringBoot 实现电子文件签字+合同系统！.md]
+sources: [raw/09-archive/SpringBoot 实现电子文件签字+合同系统！.md]
 last_updated: 2026-07-14
 ---
 

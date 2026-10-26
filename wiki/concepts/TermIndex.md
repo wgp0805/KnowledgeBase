@@ -2,7 +2,7 @@
 title: "TermIndex"
 type: concept
 tags: [Elasticsearch, 索引, 数据结构]
-sources: [raw/01-articles/2026-09-05 - 面试官：倒排索引是什么？.md]
+sources: [raw/09-archive/2026-09-05 - 面试官：倒排索引是什么？.md]
 last_updated: 2026-09-05
 ---
 

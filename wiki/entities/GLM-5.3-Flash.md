@@ -2,7 +2,7 @@
 title: "GLM-5.3-Flash"
 type: entity
 tags: [AI模型, 智谱, 多模态, 国产芯片部署]
-sources: [raw/01-articles/2026-08-27-智谱 5.3-flash 成了新的斩杀线.md]
+sources: [raw/09-archive/2026-08-27-智谱 5.3-flash 成了新的斩杀线.md]
 last_updated: 2026-08-28
 ---
 

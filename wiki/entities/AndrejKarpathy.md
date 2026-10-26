@@ -2,7 +2,7 @@
 title: "AndrejKarpathy"
 type: entity
 tags: [AI, 深度学习, OpenAI, 计算机视觉]
-sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-10-21-LLM wiki实战：用20篇文章做一个“管理数字分身”.md]
+sources: [raw/09-archive/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/09-archive/2026-10-21-LLM wiki实战：用20篇文章做一个“管理数字分身”.md]
 last_updated: 2026-10-21
 ---
 

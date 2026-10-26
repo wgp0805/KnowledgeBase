@@ -2,7 +2,7 @@
 title: "MiniMax"
 type: entity
 tags: [AI公司, 大模型厂商]
-sources: [raw/09-archive/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md, raw/01-articles/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md, raw/09-archive/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md, raw/09-archive/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md]
+sources: [raw/09-archive/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md, raw/09-archive/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md, raw/09-archive/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md, raw/09-archive/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md]
 last_updated: 2026-10-12
 ---
 

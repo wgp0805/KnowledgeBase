@@ -2,7 +2,7 @@
 title: "摘要-deepseek-v4-pro-正式版实测"
 type: source
 tags: [来源, AI, 模型, DeepSeek, 实测]
-sources: [raw/01-articles/DeepSeek V4 Pro 正式版是夯还是拉？深度实测来了！.md]
+sources: [raw/09-archive/DeepSeek V4 Pro 正式版是夯还是拉？深度实测来了！.md]
 last_updated: 2026-08-17
 ---
 

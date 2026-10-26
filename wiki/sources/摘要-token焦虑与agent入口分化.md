@@ -2,7 +2,7 @@
 title: "摘要-token焦虑与agent入口分化"
 type: source
 tags: [来源, FDE, Agent, 企业AI]
-sources: [raw/01-articles/2026-10-08-Token 用不完很焦虑？这是病，得治！.md]
+sources: [raw/09-archive/2026-10-08-Token 用不完很焦虑？这是病，得治！.md]
 last_updated: 2026-10-09
 ---
 

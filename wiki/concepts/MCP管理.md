@@ -2,7 +2,7 @@
 title: "MCP管理"
 type: concept
 tags: [概念, MCP, 管理, 技术]
-sources: [raw/01-articles/2026-09-01-DeepSeekHarness-MCP-Manager 一款DSH超好用的MCP管理跟Skills管理插件 - xxxyz.md]
+sources: [raw/09-archive/2026-09-01-DeepSeekHarness-MCP-Manager 一款DSH超好用的MCP管理跟Skills管理插件 - xxxyz.md]
 last_updated: 2026-09-01
 ---
 

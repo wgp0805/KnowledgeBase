@@ -2,7 +2,7 @@
 title: "SpringBoot 脚手架搭建"
 type: source
 tags: [SpringBoot, 脚手架, 异常处理, AOP, 跨域, Swagger, 统一响应]
-sources: [raw/01-articles/如何搭建漂亮的 SpringBoot 脚手架？.md]
+sources: [raw/09-archive/如何搭建漂亮的 SpringBoot 脚手架？.md]
 last_updated: 2026-07-08
 ---
 

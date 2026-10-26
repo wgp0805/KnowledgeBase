@@ -2,7 +2,7 @@
 title: "摘要-Claude-Code-Workflows-vs-MetaSKILL"
 type: source
 tags: [来源, Claude Code, OpenClaw, 工作流编排, MetaSKILL]
-sources: [raw/01-articles/2026-06-27-Claude Code Dynamic Workflows vs OpenClaw.NET MetaSKILL - 张善友.md]
+sources: [raw/09-archive/2026-06-27-Claude Code Dynamic Workflows vs OpenClaw.NET MetaSKILL - 张善友.md]
 last_updated: 2026-06-29
 ---
 

@@ -2,7 +2,7 @@
 title: "refresh-token-rotation"
 type: concept
 tags: [认证, JWT, OAuth2, 安全, Refresh Token]
-sources: [raw/01-articles/一个 Token 就够了，JWT 续签为什么要搞 Access Token + Refresh Token 双 Token？.md]
+sources: [raw/09-archive/一个 Token 就够了，JWT 续签为什么要搞 Access Token + Refresh Token 双 Token？.md]
 last_updated: 2026-06-29
 ---
 

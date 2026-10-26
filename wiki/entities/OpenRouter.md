@@ -4,7 +4,7 @@ type: entity
 tags: [AI, 模型聚合, API网关, 路由]
 sources:
   - raw/01-articles/"牛来"员工：你们可以在 OpenCode 爽用 Ox Alpha 模型了，1M上下文并支持视频输入（附Agent面试题）.md
-  - raw/01-articles/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md
+  - raw/09-archive/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md
 last_updated: 2026-09-08
 ---
 

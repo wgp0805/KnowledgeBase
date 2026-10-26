@@ -2,7 +2,7 @@
 title: "摘要-谷歌发布gemini4-argon"
 type: source
 tags: [来源, 原始文件, Gemini, 大模型, Agent]
-sources: [raw/01-articles/2026-10-01-谷歌憋了半年，Gemini 4终于发布.md]
+sources: [raw/09-archive/2026-10-01-谷歌憋了半年，Gemini 4终于发布.md]
 last_updated: 2026-10-08
 ---
 

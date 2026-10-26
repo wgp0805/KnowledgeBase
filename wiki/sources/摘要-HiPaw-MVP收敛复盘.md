@@ -2,7 +2,7 @@
 title: "摘要-HiPaw-MVP收敛复盘"
 type: source
 tags: [HiPaw, 动物医疗, AI产品, MVP, VibeCoding, 完整产品幻觉]
-sources: [raw/01-articles/2026-08-30-功能越来越容易做，MVP 为什么反而越来越难收敛？——从 Scribe 到 Clinical Advisor 的一次复盘.md]
+sources: [raw/09-archive/2026-08-30-功能越来越容易做，MVP 为什么反而越来越难收敛？——从 Scribe 到 Clinical Advisor 的一次复盘.md]
 last_updated: 2026-08-31
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-15技能推荐-10月"
 type: source
 tags: [来源, WorkBuddy, Skills, 工具推荐, 原始文件]
-sources: [raw/01-articles/2026-10-11 - WorkBuddy最值得推荐的15个技能（10月最新版）.md]
+sources: [raw/09-archive/2026-10-11 - WorkBuddy最值得推荐的15个技能（10月最新版）.md]
 last_updated: 2026-10-12
 ---
 

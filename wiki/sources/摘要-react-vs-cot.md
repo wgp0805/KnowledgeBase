@@ -2,7 +2,7 @@
 title: "什么是 ReAct？它和 CoT 有什么区别？"
 type: source
 tags: ["ReAct", "CoT", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/什么是 ReAct？它和 CoT 有什么区别？.md"]
+sources: ["raw/09-archive/什么是 ReAct？它和 CoT 有什么区别？.md"]
 last_updated: 2026-09-01
 ---
 

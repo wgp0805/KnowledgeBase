@@ -2,7 +2,7 @@
 title: "摘要-loop-engineering-guide"
 type: source
 tags: [Loop Engineering, AI Agent, 方法论]
-sources: [raw/01-articles/Loop Engineering 实战指南.md]
+sources: [raw/09-archive/Loop Engineering 实战指南.md]
 last_updated: 2026-07-06
 ---
 

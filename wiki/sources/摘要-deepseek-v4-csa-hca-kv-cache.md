@@ -2,7 +2,7 @@
 title: "CSA、HCA 与 KV Cache DeepSeek V4 缓存为什么更便宜"
 type: source
 tags: ["DeepSeek-V4", "CSA", "HCA", "KV-Cache"]
-sources: ["raw/01-articles/CSA、HCA 与 KV Cache：DeepSeek V4 缓存为什么更便宜？.md"]
+sources: ["raw/09-archive/CSA、HCA 与 KV Cache：DeepSeek V4 缓存为什么更便宜？.md"]
 last_updated: 2026-09-01
 ---
 

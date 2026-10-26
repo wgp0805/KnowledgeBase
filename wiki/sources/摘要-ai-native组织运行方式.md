@@ -2,7 +2,7 @@
 title: "一个项目管理软件的诞生（十五）：当Agent成为正式参与者，AI Native组织如何运行"
 type: source
 tags: [AI Native, Agent, 组织运行, 项目管理, 人机分工, 工作流改造]
-sources: [raw/01-articles/2026-09-13-一个项目管理软件的诞生（十五）：当 Agent 成为正式参与者，AI Native 组织如何运行？.md]
+sources: [raw/09-archive/2026-09-13-一个项目管理软件的诞生（十五）：当 Agent 成为正式参与者，AI Native 组织如何运行？.md]
 last_updated: 2026-09-14
 ---
 

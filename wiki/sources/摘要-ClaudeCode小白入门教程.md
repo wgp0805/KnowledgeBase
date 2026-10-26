@@ -2,7 +2,7 @@
 title: "摘要-ClaudeCode小白入门教程"
 type: source
 tags: [来源, 原始文件, ClaudeCode, AI编程]
-sources: [raw/01-articles/Claude Code 最详细的小白入门教程！.md]
+sources: [raw/09-archive/Claude Code 最详细的小白入门教程！.md]
 last_updated: 2026-06-23
 ---
 

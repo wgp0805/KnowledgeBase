@@ -2,7 +2,7 @@
 title: "Benchmaxxing"
 type: concept
 tags: [概念, 评测, 大模型, 刷榜]
-sources: [raw/01-articles/2026-10-01-Gemini 4正式发布，追平GPT-6但被质疑“刷榜”.md, raw/01-articles/2026-10-01-谷歌憋了半年，Gemini 4终于发布.md]
+sources: [raw/09-archive/2026-10-01-Gemini 4正式发布，追平GPT-6但被质疑“刷榜”.md, raw/09-archive/2026-10-01-谷歌憋了半年，Gemini 4终于发布.md]
 last_updated: 2026-10-08
 ---
 

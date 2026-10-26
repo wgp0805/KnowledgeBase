@@ -2,7 +2,7 @@
 title: "logback vs log4j2 性能对比"
 type: source
 tags: [Logback, Log4j2, SLF4J, 日志框架, 性能对比, 异步日志]
-sources: [raw/01-articles/logback VS log4j2：一倍左右的性能差异，是时候注意了！.md]
+sources: [raw/09-archive/logback VS log4j2：一倍左右的性能差异，是时候注意了！.md]
 last_updated: 2026-07-08
 ---
 

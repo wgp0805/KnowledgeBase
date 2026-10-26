@@ -2,7 +2,7 @@
 title: "rbac"
 type: concept
 tags: [权限, 安全, 访问控制]
-sources: [raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md, raw/09-archive/2026-09-06-一个项目管理软件的诞生（十一）：企业级权限设计，谁能在什么条件下做什么.md]
+sources: [raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md, raw/09-archive/2026-09-06-一个项目管理软件的诞生（十一）：企业级权限设计，谁能在什么条件下做什么.md]
 last_updated: 2026-09-07
 ---
 

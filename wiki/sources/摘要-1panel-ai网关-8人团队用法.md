@@ -2,7 +2,7 @@
 title: "摘要-1panel-ai网关-8人团队用法"
 type: source
 tags: [来源, 原始文件, AI网关, 1Panel, 密钥管理]
-sources: [raw/01-articles/推荐一款GitHub 37.2K+ Star的开源AI网关，个人和10 人及以下团队免费用！.md]
+sources: [raw/09-archive/推荐一款GitHub 37.2K+ Star的开源AI网关，个人和10 人及以下团队免费用！.md]
 last_updated: 2026-10-20
 ---
 

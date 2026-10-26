@@ -2,7 +2,7 @@
 title: "一天把 RAG 升级成 Agent 掏出 Claude Code+DeepSeek"
 type: source
 tags: ["RAG", "AI-Agent", "沉默王二"]
-sources: ["raw/01-articles/老板下了死命令：限你一天，把RAG升级成Agent，我反抗后无效，只能掏出Claude Code+DeepSeek猛猛干.md"]
+sources: ["raw/09-archive/老板下了死命令：限你一天，把RAG升级成Agent，我反抗后无效，只能掏出Claude Code+DeepSeek猛猛干.md"]
 last_updated: 2026-09-01
 ---
 

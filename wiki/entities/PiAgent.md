@@ -2,7 +2,7 @@
 title: "PiAgent"
 type: entity
 tags: [AI, Agent, 开源框架, pi-agent]
-sources: [raw/01-articles/Pi-Agent 开源项目落地实战文档.md, raw/01-articles/Pi-Agent 智能体核心原理实战文档.md]
+sources: [raw/09-archive/Pi-Agent 开源项目落地实战文档.md, raw/09-archive/Pi-Agent 智能体核心原理实战文档.md]
 last_updated: 2026-08-04
 ---
 

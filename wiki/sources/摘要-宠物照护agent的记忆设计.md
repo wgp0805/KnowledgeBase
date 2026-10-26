@@ -2,7 +2,7 @@
 title: "摘要：从散落病例到可控记忆：AI PM如何设计宠物照护Agent"
 type: source
 tags: [AI产品, AgentMemory, 宠物照护, Agent设计]
-sources: [raw/01-articles/2026-08-22-从散落病例到可控记忆：AI PM如何设计宠物照护 Agent.md]
+sources: [raw/09-archive/2026-08-22-从散落病例到可控记忆：AI PM如何设计宠物照护 Agent.md]
 last_updated: 2026-08-24
 ---
 

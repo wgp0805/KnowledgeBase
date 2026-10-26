@@ -2,7 +2,7 @@
 title: "JetBrains"
 type: entity
 tags: [实体, 公司, IDE]
-sources: [raw/01-articles/IDEA 里跑 Claude Code 和 Codex 的最佳搭子，5.4k Star 开源免费太爽了！.md]
+sources: [raw/09-archive/IDEA 里跑 Claude Code 和 Codex 的最佳搭子，5.4k Star 开源免费太爽了！.md]
 last_updated: 2026-08-18
 ---
 

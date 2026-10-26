@@ -2,7 +2,7 @@
 title: "top"
 type: entity
 tags: [Linux, 性能监控, 命令]
-sources: [raw/01-articles/面试官：你掌握哪些 Linux 常用命令？.md, raw/01-articles/Java 线上排障：服务 CPU 打满、接口卡死定位方案.md]
+sources: [raw/09-archive/面试官：你掌握哪些 Linux 常用命令？.md, raw/09-archive/Java 线上排障：服务 CPU 打满、接口卡死定位方案.md]
 last_updated: 2026-10-08
 ---
 

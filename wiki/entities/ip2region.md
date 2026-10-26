@@ -2,7 +2,7 @@
 title: "ip2region"
 type: entity
 tags: [开源库, IP归属地, 离线定位, Java]
-sources: [raw/01-articles/全网显示 IP 归属地，准确率 99.9%，这个开源的 API 离线库强大到离谱！.md]
+sources: [raw/09-archive/全网显示 IP 归属地，准确率 99.9%，这个开源的 API 离线库强大到离谱！.md]
 last_updated: 2026-10-10
 ---
 

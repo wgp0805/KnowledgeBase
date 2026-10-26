@@ -2,7 +2,7 @@
 title: "State-CSRF防护"
 type: concept
 tags: [概念, OAuth2, CSRF, 安全, 第三方登录]
-sources: [raw/01-articles/搞定 OAuth 2.0 第三方登录，So Easy !.md]
+sources: [raw/09-archive/搞定 OAuth 2.0 第三方登录，So Easy !.md]
 last_updated: 2026-09-16
 ---
 

@@ -2,7 +2,7 @@
 title: "Claude Code 的短期记忆是怎么实现的"
 type: source
 tags: ["Claude-Code", "短期记忆", "沉默王二"]
-sources: ["raw/01-articles/Claude Code 的短期记忆是怎么实现的？.md"]
+sources: ["raw/09-archive/Claude Code 的短期记忆是怎么实现的？.md"]
 last_updated: 2026-09-01
 ---
 

@@ -4,7 +4,7 @@ type: concept
 tags: [认证, 授权, 协议, 安全, 第三方登录]
 sources:
   - raw/09-archive/公司系统太多，能不能实现账号互通？.md
-  - raw/01-articles/搞定 OAuth 2.0 第三方登录，So Easy !.md
+  - raw/09-archive/搞定 OAuth 2.0 第三方登录，So Easy !.md
 last_updated: 2026-09-16
 ---
 

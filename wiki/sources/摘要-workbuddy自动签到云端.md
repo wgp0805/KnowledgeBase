@@ -2,7 +2,7 @@
 title: "摘要-workbuddy自动签到云端"
 type: source
 tags: [来源, WorkBuddy, 云端自动化, AirScript, 薅羊毛]
-sources: ["raw/01-articles/2026-10-13-WorkBuddy 自动签到：不开机也能 7×24 白嫖 100 积分天！.md"]
+sources: ["raw/09-archive/2026-10-13-WorkBuddy 自动签到：不开机也能 7×24 白嫖 100 积分天！.md"]
 last_updated: 2026-10-14
 ---
 

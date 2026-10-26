@@ -2,7 +2,7 @@
 title: "摘要-deepseek-harness教程-掉落的果实"
 type: source
 tags: [来源, AI编程, Agent, DeepSeekHarness, 教程]
-sources: [raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md]
+sources: [raw/09-archive/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md]
 last_updated: 2026-08-17
 ---
 

@@ -2,7 +2,7 @@
 title: "23 个 AI Agent 工具 从夯到拉 真香的就这几个"
 type: source
 tags: ["AI-Agent", "工具评测", "沉默王二"]
-sources: ["raw/01-articles/23个AI Agent工具，从夯到拉，真香的就这几个。.md"]
+sources: ["raw/09-archive/23个AI Agent工具，从夯到拉，真香的就这几个。.md"]
 last_updated: 2026-09-01
 ---
 

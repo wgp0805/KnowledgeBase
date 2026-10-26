@@ -2,7 +2,7 @@
 title: "ProductOverhang"
 type: concept
 tags: [AI产品, 模型能力, 产品设计, Unhobbling]
-sources: [raw/01-articles/2026-08-23-对话 Claude Code 之父：当模型越来越聪明，还在设计复杂工作流的人只是在假装做产品.md]
+sources: [raw/09-archive/2026-08-23-对话 Claude Code 之父：当模型越来越聪明，还在设计复杂工作流的人只是在假装做产品.md]
 last_updated: 2026-08-24
 ---
 

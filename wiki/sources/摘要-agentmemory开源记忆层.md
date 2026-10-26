@@ -2,7 +2,7 @@
 title: "AI编程助手总在失忆？试试这个开源记忆层AgentMemory"
 type: source
 tags: [AgentMemory, AI编程, 记忆层, MCP, 开源, Agent, Claude Code, Cursor, OpenViking]
-sources: [raw/01-articles/2026-09-09-AI 编程助手总在“失忆”？试试这个开源记忆层 AgentMemory.md]
+sources: [raw/09-archive/2026-09-09-AI 编程助手总在“失忆”？试试这个开源记忆层 AgentMemory.md]
 last_updated: 2026-09-14
 ---
 

@@ -2,7 +2,7 @@
 title: "PMF"
 type: concept
 tags: [产品方法论, 创业, 市场匹配, 商业模式]
-sources: [raw/01-articles/2026-10-12-WorkBuddy 把小程序门槛打没了，下一个问题是谁来付钱.md]
+sources: [raw/09-archive/2026-10-12-WorkBuddy 把小程序门槛打没了，下一个问题是谁来付钱.md]
 last_updated: 2026-10-13
 ---
 

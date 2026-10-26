@@ -3,7 +3,7 @@ title: "AI对话五环节"
 type: concept
 tags: [概念, Prompt, 交互方法论, 产品经理]
 sources:
-  - raw/01-articles/2026-10-21-调教 AI Prompt 超全教程+案例！减少返工80%！.md
+  - raw/09-archive/2026-10-21-调教 AI Prompt 超全教程+案例！减少返工80%！.md
 last_updated: 2026-10-21
 ---
 

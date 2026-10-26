@@ -2,7 +2,7 @@
 title: "狂揽 35k+ Star 从零手搓一个 Claude Code"
 type: source
 tags: ["Claude-Code", "开源项目", "沉默王二"]
-sources: ["raw/01-articles/狂揽35k+Star，从零手搓一个Claude Code，这个开源项目让我热血沸腾！.md"]
+sources: ["raw/09-archive/狂揽35k+Star，从零手搓一个Claude Code，这个开源项目让我热血沸腾！.md"]
 last_updated: 2026-09-01
 ---
 

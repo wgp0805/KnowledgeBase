@@ -2,7 +2,7 @@
 title: "Zvec"
 type: entity
 tags: [阿里, 开源, 向量数据库, 嵌入式, 本地优先]
-sources: [raw/01-articles/2026-09-15-只会搜关键词还不够，Agent 需要一套更聪明的本地搜索.md]
+sources: [raw/09-archive/2026-09-15-只会搜关键词还不够，Agent 需要一套更聪明的本地搜索.md]
 last_updated: 2026-09-15
 ---
 

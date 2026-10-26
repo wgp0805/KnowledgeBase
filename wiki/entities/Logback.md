@@ -2,7 +2,7 @@
 title: "Logback"
 type: entity
 tags: [Java, 日志框架, SLF4J, SpringBoot默认]
-sources: [raw/01-articles/logback VS log4j2：一倍左右的性能差异，是时候注意了！.md]
+sources: [raw/09-archive/logback VS log4j2：一倍左右的性能差异，是时候注意了！.md]
 last_updated: 2026-07-08
 ---
 

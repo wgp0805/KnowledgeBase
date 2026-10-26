@@ -2,7 +2,7 @@
 title: "摘要-codex-从原理到-java落地"
 type: source
 tags: [来源, Codex, Java, SpringBoot, AI编程]
-sources: [raw/01-articles/Codex 从原理到 Java落地.md]
+sources: [raw/09-archive/Codex 从原理到 Java落地.md]
 last_updated: 2026-07-15
 ---
 

@@ -2,7 +2,7 @@
 title: "MoE 是什么？DeepSeek 模型为什么采用混合专家架构"
 type: source
 tags: ["MoE", "DeepSeek", "模型架构"]
-sources: ["raw/01-articles/MoE 是什么？DeepSeek 模型为什么采用混合专家架构？.md"]
+sources: ["raw/09-archive/MoE 是什么？DeepSeek 模型为什么采用混合专家架构？.md"]
 last_updated: 2026-09-01
 ---
 

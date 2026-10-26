@@ -2,7 +2,7 @@
 title: "深入理解AIAgent"
 type: entity
 tags: [开源书籍, AI Agent, 工程实践, GitHub]
-sources: ["raw/01-articles/2026-10-13-这 6 本 GitHub 上的开源 AI 宝典，那是相当有真东西。.md"]
+sources: ["raw/09-archive/2026-10-13-这 6 本 GitHub 上的开源 AI 宝典，那是相当有真东西。.md"]
 last_updated: 2026-10-14
 ---
 

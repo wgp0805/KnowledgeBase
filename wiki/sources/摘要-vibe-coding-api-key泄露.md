@@ -2,7 +2,7 @@
 title: "摘要-vibe-coding-api-key泄露"
 type: source
 tags: [来源, 原始文件, VibeCoding, API-Key, 安全, DeepSeek]
-sources: [raw/01-articles/2026-09-23-非技术背景做Vibe Coding，我踩过的最大坑是API Key泄露.md]
+sources: [raw/09-archive/2026-09-23-非技术背景做Vibe Coding，我踩过的最大坑是API Key泄露.md]
 last_updated: 2026-09-28
 ---
 

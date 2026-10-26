@@ -2,7 +2,7 @@
 title: "摘要-千问lora-sft微调指南"
 type: source
 tags: [Qwen, LoRA, SFT, 微调, 大模型, ChatML, PEFT, HuggingFace]
-sources: [raw/01-articles/2026-09-06-千问大模型二次LoRA‑SFT指令微调指南 - lyshark.md]
+sources: [raw/09-archive/2026-09-06-千问大模型二次LoRA‑SFT指令微调指南 - lyshark.md]
 last_updated: 2026-09-07
 ---
 

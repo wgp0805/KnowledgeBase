@@ -2,7 +2,7 @@
 title: "摘要-fastapi-入门教程"
 type: source
 tags: [来源, 原始文件, Python, Web框架, API]
-sources: [raw/01-articles/FastAPI 入门教程.md]
+sources: [raw/09-archive/FastAPI 入门教程.md]
 last_updated: 2026-06-29
 ---
 

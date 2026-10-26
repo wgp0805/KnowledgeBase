@@ -2,7 +2,7 @@
 title: "Golang"
 type: entity
 tags: [编程语言, 编译型, Google, 云原生, 并发]
-sources: [raw/01-articles/SpringBoot3.2 + jdk21 + GraalVM上手体验.md, raw/01-articles/2026-09-27-并发编程（五）：Atomic——语言层的原子性、可见性与有序性 - ThinkerQAQ.md]
+sources: [raw/09-archive/SpringBoot3.2 + jdk21 + GraalVM上手体验.md, raw/09-archive/2026-09-27-并发编程（五）：Atomic——语言层的原子性、可见性与有序性 - ThinkerQAQ.md]
 last_updated: 2026-09-28
 ---
 

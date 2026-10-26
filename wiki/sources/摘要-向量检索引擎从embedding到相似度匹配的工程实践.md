@@ -2,7 +2,7 @@
 title: "向量检索引擎：从Embedding到相似度匹配的工程实践"
 type: source
 tags: [向量检索, Embedding, HNSW, 混合检索, RAG, 语义搜索, 知识中枢]
-sources: [raw/01-articles/2026-09-11-【知识中枢】向量检索引擎：从Embedding到相似度匹配的工程实践 - KM_Albert.md]
+sources: [raw/09-archive/2026-09-11-【知识中枢】向量检索引擎：从Embedding到相似度匹配的工程实践 - KM_Albert.md]
 last_updated: 2026-09-14
 ---
 

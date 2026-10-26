@@ -2,7 +2,7 @@
 title: "摘要-claude-code四步差距"
 type: source
 tags: [来源, ClaudeCode, AI编程, 工程化, 上下文管理]
-sources: [raw/01-articles/同事的 Claude Code 为什么比你的强？差的就是这4步.md]
+sources: [raw/09-archive/同事的 Claude Code 为什么比你的强？差的就是这4步.md]
 last_updated: 2026-10-10
 ---
 

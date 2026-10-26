@@ -2,7 +2,7 @@
 title: "PeterSteinberger"
 type: entity
 tags: [AI编程, 开源开发者, OpenClaw, token消耗]
-sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/09-archive/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md]
+sources: [raw/09-archive/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/09-archive/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md]
 last_updated: 2026-10-08
 ---
 

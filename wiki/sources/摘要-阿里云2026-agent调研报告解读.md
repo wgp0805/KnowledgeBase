@@ -2,7 +2,7 @@
 title: "摘要-阿里云2026-agent调研报告解读"
 type: source
 tags: [来源, 原始文件, 阿里云, AI-Agent, 调研报告, Harness]
-sources: [raw/01-articles/2026-09-25-阿里云2026年AI Agent 开发者调研报告解读：企业 Agent 到底卡在哪 - 小白跃升坊.md]
+sources: [raw/09-archive/2026-09-25-阿里云2026年AI Agent 开发者调研报告解读：企业 Agent 到底卡在哪 - 小白跃升坊.md]
 last_updated: 2026-09-28
 ---
 

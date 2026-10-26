@@ -2,7 +2,7 @@
 title: "DialectPattern"
 type: concept
 tags: [AI, 方言模式, 模型适配, Solon]
-sources: [raw/01-articles/2026-07-04-用 ChatModel 构建 LLM 驱动的 Java 应用 - 带刺的坐椅.md]
+sources: [raw/09-archive/2026-07-04-用 ChatModel 构建 LLM 驱动的 Java 应用 - 带刺的坐椅.md]
 last_updated: 2026-07-06
 ---
 

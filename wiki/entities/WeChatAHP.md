@@ -2,7 +2,7 @@
 title: "WeChatAHP"
 type: entity
 tags: [实体, VS Code, 微信, Agent, 协议]
-sources: [raw/01-articles/2026-09-19-微信和 VS Code 强强联合！WeChat AHP 来了 - formulahendry.md]
+sources: [raw/09-archive/2026-09-19-微信和 VS Code 强强联合！WeChat AHP 来了 - formulahendry.md]
 last_updated: 2026-09-20
 ---
 

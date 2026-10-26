@@ -3,7 +3,7 @@ title: "LLMWiki分层架构"
 type: concept
 tags: [概念, LLM Wiki, 知识库, 架构, Schema]
 sources:
-  - raw/01-articles/2026-10-21-LLM wiki实战：用20篇文章做一个“管理数字分身”.md
+  - raw/09-archive/2026-10-21-LLM wiki实战：用20篇文章做一个“管理数字分身”.md
 last_updated: 2026-10-21
 ---
 

@@ -2,7 +2,7 @@
 title: "ChatMemory"
 type: concept
 tags: [AI, 对话记忆, 上下文]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/01-articles/Spring AI 2.0真香！.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
+sources: [raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/09-archive/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/09-archive/Spring AI 2.0真香！.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
 last_updated: 2026-10-26
 ---
 

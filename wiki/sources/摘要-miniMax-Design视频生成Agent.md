@@ -2,7 +2,7 @@
 title: "摘要-MiniMaxDesign视频生成Agent"
 type: source
 tags: [来源, 原始文件, 视频生成, Agent]
-sources: [raw/01-articles/2026-08-25-实测MiniMax Design：视频生成之后，开卷组织生产.md]
+sources: [raw/09-archive/2026-08-25-实测MiniMax Design：视频生成之后，开卷组织生产.md]
 last_updated: 2026-08-26
 ---
 

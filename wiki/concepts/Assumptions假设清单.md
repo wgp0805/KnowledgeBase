@@ -2,7 +2,7 @@
 title: "Assumptions假设清单"
 type: concept
 tags: [Agent, 需求澄清, 兜底机制, Codex]
-sources: [raw/01-articles/用户需求模糊时 Agent 怎么澄清？.md]
+sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md]
 last_updated: 2026-10-15
 ---
 

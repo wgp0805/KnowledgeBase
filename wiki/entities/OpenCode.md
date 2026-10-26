@@ -2,7 +2,7 @@
 title: "OpenCode"
 type: entity
 tags: [AI, 开源, 编码助手, Agent]
-sources: [raw/09-archive/ECC使用教程.md, raw/09-archive/OpenCode架构演进剖析.md, raw/01-articles/“牛来”员工：你们可以在 OpenCode 爽用 Ox Alpha 模型了，1M上下文并支持视频输入（附Agent面试题）.md, raw/09-archive/2026-10-19-OpenCode遭攻击：部分用户OpenAI、Anthropic等API密钥外泄.md]
+sources: [raw/09-archive/ECC使用教程.md, raw/09-archive/OpenCode架构演进剖析.md, raw/09-archive/“牛来”员工：你们可以在 OpenCode 爽用 Ox Alpha 模型了，1M上下文并支持视频输入（附Agent面试题）.md, raw/09-archive/2026-10-19-OpenCode遭攻击：部分用户OpenAI、Anthropic等API密钥外泄.md]
 last_updated: 2026-10-20
 ---
 

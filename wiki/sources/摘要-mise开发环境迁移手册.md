@@ -2,7 +2,7 @@
 title: "摘要-mise开发环境迁移手册"
 type: source
 tags: [来源, 原始文件, mise, 开发环境, 多版本管理]
-sources: [raw/01-articles/Mise 开发环境迁移完整手册.md]
+sources: [raw/09-archive/Mise 开发环境迁移完整手册.md]
 last_updated: 2026-10-20
 ---
 

@@ -2,7 +2,7 @@
 title: "MattPocock"
 type: entity
 tags: [TypeScript, 教育, Skill, 开源]
-sources: [raw/01-articles/Matt Pocock 那个 5 个月冲到 17 万 star 的 grill-me，作者自己却不用了，原因是这几个.md, raw/01-articles/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md, raw/09-archive/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md, raw/01-articles/2026-10-21:开源「提示语管理.skill」，就为快速选出最适合你的Prompt（附25个深度思考提示语）.md]
+sources: [raw/09-archive/Matt Pocock 那个 5 个月冲到 17 万 star 的 grill-me，作者自己却不用了，原因是这几个.md, raw/09-archive/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md, raw/09-archive/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md, raw/01-articles/2026-10-21:开源「提示语管理.skill」，就为快速选出最适合你的Prompt（附25个深度思考提示语）.md]
 last_updated: 2026-10-21
 ---
 

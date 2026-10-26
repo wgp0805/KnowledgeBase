@@ -2,7 +2,7 @@
 title: "摘要-mybatis-plus-3515-springboot4-jackson3"
 type: source
 tags: [来源, 原始文件, MyBatisPlus, SpringBoot4, Jackson3]
-sources: [raw/01-articles/MyBatis-Plus 3.5.15 已全面支持 Spring Boot 4.0 及 Jackson 3.0.md]
+sources: [raw/09-archive/MyBatis-Plus 3.5.15 已全面支持 Spring Boot 4.0 及 Jackson 3.0.md]
 last_updated: 2026-09-03
 ---
 

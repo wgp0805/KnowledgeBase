@@ -2,7 +2,7 @@
 title: "document-key机制"
 type: concept
 tags: [OnlyOffice, 协同编辑, 在线文档, 版本管理]
-sources: [raw/01-articles/为什么越来越多人用 OnlyOffice？.md]
+sources: [raw/09-archive/为什么越来越多人用 OnlyOffice？.md]
 last_updated: 2026-09-28
 ---
 

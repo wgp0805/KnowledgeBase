@@ -2,7 +2,7 @@
 title: "Agnes"
 type: entity
 tags: [AI产品, 图像生成, 视频生成, MCP, 生图]
-sources: [raw/01-articles/2026-09-29-我用 WorkBuddy + Agnes一句话生成短视频，没花一分钱.md]
+sources: [raw/09-archive/2026-09-29-我用 WorkBuddy + Agnes一句话生成短视频，没花一分钱.md]
 last_updated: 2026-10-08
 ---
 

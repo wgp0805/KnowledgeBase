@@ -2,7 +2,7 @@
 title: "AdvisorChain"
 type: concept
 tags: [Spring AI, Agent, 职责链, 模式]
-sources: [raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md]
+sources: [raw/09-archive/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md]
 last_updated: 2026-07-06
 ---
 

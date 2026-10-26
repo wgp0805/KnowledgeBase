@@ -2,7 +2,7 @@
 title: "摘要-skills-vs-prompt-辨析"
 type: source
 tags: [来源, 原始文件, AI, Agent, Skill, Prompt, MCP, 渐进式披露, 面试]
-sources: [raw/01-articles/面试官：“Skills 就是 Prompt 换皮？你确定？”我支支吾吾：“就是啊。。。逗逗你的呀。”.md]
+sources: [raw/09-archive/面试官：“Skills 就是 Prompt 换皮？你确定？”我支支吾吾：“就是啊。。。逗逗你的呀。”.md]
 last_updated: 2026-08-13
 ---
 

@@ -4,7 +4,7 @@ type: concept
 tags:
   - 多模态
   - AI
-sources: [raw/01-articles/2026-10-11-八款AI语音输入法大横测！我找到了Vibe Coding的最佳搭配.md]
+sources: [raw/09-archive/2026-10-11-八款AI语音输入法大横测！我找到了Vibe Coding的最佳搭配.md]
 last_updated: 2026-10-12
 ---
 

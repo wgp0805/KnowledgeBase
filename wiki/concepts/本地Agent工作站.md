@@ -2,7 +2,7 @@
 title: "本地Agent工作站"
 type: concept
 tags: [概念, 本地部署, Agent, 隐私, 成本优化, 硬件门槛]
-sources: [raw/09-archive/抖音视频内容整理_人类智力基线与2张显卡.md, "raw/01-articles/2026-10-04 - 夯爆了！这个开源项目，让旧手机变成24小时跑的AI服务器！.md"]
+sources: [raw/09-archive/抖音视频内容整理_人类智力基线与2张显卡.md, "raw/09-archive/2026-10-04 - 夯爆了！这个开源项目，让旧手机变成24小时跑的AI服务器！.md"]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-多agent统一UI工具"
 type: source
 tags: [来源, 原始文件, AionUi, 多Agent桌面应用, 统一UI]
-sources: [raw/01-articles/斩获14k+Star，把OpenClaw+Claude Code等多个Agent装进一个UI。.md]
+sources: [raw/09-archive/斩获14k+Star，把OpenClaw+Claude Code等多个Agent装进一个UI。.md]
 last_updated: 2026-08-13
 ---
 

@@ -2,7 +2,7 @@
 title: "ContextManagement"
 type: concept
 tags: [AI, 上下文, 性能优化]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md]
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-GitHub狂揽8.6万Star-Pi"
 type: source
 tags: [来源, AI编程, Agent, Pi, 架构]
-sources: [raw/01-articles/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md]
+sources: [raw/09-archive/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md]
 last_updated: 2026-08-17
 ---
 

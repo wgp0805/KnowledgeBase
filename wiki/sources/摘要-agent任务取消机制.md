@@ -2,7 +2,7 @@
 title: "摘要-agent任务取消机制"
 type: source
 tags: [来源, 原始文件, Agent, 取消, 进程管理]
-sources: ["raw/01-articles/2026-10-05 - 用户中途取消，Agent 任务怎么停下来？.md"]
+sources: ["raw/09-archive/2026-10-05 - 用户中途取消，Agent 任务怎么停下来？.md"]
 last_updated: 2026-10-08
 ---
 

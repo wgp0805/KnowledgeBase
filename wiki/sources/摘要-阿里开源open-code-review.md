@@ -2,7 +2,7 @@
 title: "摘要-阿里开源open-code-review"
 type: source
 tags: [来源, 阿里, 代码审查, Agent, 开源]
-sources: [raw/01-articles/2026-09-05 - 阿里开源了一个神级Agent项目.md]
+sources: [raw/09-archive/2026-09-05 - 阿里开源了一个神级Agent项目.md]
 last_updated: 2026-09-05
 ---
 

@@ -4,7 +4,7 @@ type: concept
 tags:
   - 角色
   - B端
-sources: [raw/09-archive/2026-09-20-FDE这么火，产品经理要不要跟？我来泼点冷水.md, raw/09-archive/2026-09-29-产品经理转型FDE指南.md, raw/09-archive/2026-10-04-兄弟，找个班上吧！不要迷信AI创业，我是后悔离职的.md, raw/01-articles/2026-10-08-不要让技术负责人去搞 AI 转型，没结果的….md, raw/01-articles/2026-10-08-Token 用不完很焦虑？这是病，得治！.md, "raw/09-archive/2026-10-24-企业上AI项目，FDE到底在做什么？.md"]
+sources: [raw/09-archive/2026-09-20-FDE这么火，产品经理要不要跟？我来泼点冷水.md, raw/09-archive/2026-09-29-产品经理转型FDE指南.md, raw/09-archive/2026-10-04-兄弟，找个班上吧！不要迷信AI创业，我是后悔离职的.md, raw/09-archive/2026-10-08-不要让技术负责人去搞 AI 转型，没结果的….md, raw/09-archive/2026-10-08-Token 用不完很焦虑？这是病，得治！.md, "raw/09-archive/2026-10-24-企业上AI项目，FDE到底在做什么？.md"]
 last_updated: 2026-10-26
 ---
 

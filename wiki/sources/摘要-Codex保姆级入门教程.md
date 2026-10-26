@@ -2,7 +2,7 @@
 title: "摘要-Codex保姆级入门教程"
 type: source
 tags: [来源, 原始文件, Codex, AI编程]
-sources: [raw/01-articles/Codex 保姆级入门教程（6000字长文）.md]
+sources: [raw/09-archive/Codex 保姆级入门教程（6000字长文）.md]
 last_updated: 2026-06-23
 ---
 

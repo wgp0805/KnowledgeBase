@@ -2,7 +2,7 @@
 title: "PicGo"
 type: entity
 tags: [工具, 图床, 效率, 开源]
-sources: [raw/01-articles/2026-09-25-GitHub + Cloudflare + Picgo 搭建你的免费图床 - DominicKK.md]
+sources: [raw/09-archive/2026-09-25-GitHub + Cloudflare + Picgo 搭建你的免费图床 - DominicKK.md]
 last_updated: 2026-09-28
 ---
 

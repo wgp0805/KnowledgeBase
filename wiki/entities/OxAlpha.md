@@ -2,7 +2,7 @@
 title: "OxAlpha"
 type: entity
 tags: [大模型, AI, 免费预览, 多模态]
-sources: [raw/01-articles/“牛来”员工：你们可以在 OpenCode 爽用 Ox Alpha 模型了，1M上下文并支持视频输入（附Agent面试题）.md]
+sources: [raw/09-archive/“牛来”员工：你们可以在 OpenCode 爽用 Ox Alpha 模型了，1M上下文并支持视频输入（附Agent面试题）.md]
 last_updated: 2026-08-24
 ---
 

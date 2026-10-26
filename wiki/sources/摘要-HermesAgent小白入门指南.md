@@ -2,7 +2,7 @@
 title: "摘要-HermesAgent小白入门指南"
 type: source
 tags: [来源, 原始文件, HermesAgent, AI Agent]
-sources: [raw/01-articles/谁是 OpenClaw 的接班人？ Hermes Agent 小白入门指南来了！.md]
+sources: [raw/09-archive/谁是 OpenClaw 的接班人？ Hermes Agent 小白入门指南来了！.md]
 last_updated: 2026-06-23
 ---
 

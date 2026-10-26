@@ -2,7 +2,7 @@
 title: "摘要-野心提问法-felix长文"
 type: source
 tags: [来源, 提示词, AI用法, Anthropic, 方法论]
-sources: [raw/01-articles/2026-10-16-Claude负责人这篇万字长文，彻底颠覆了我的 AI 用法，附提示词！.md]
+sources: [raw/09-archive/2026-10-16-Claude负责人这篇万字长文，彻底颠覆了我的 AI 用法，附提示词！.md]
 last_updated: 2026-10-19
 ---
 

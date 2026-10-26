@@ -2,7 +2,7 @@
 title: "GraalVM"
 type: entity
 tags: [Java, JVM, 编译器, AOT, 多语言运行时]
-sources: [raw/01-articles/面试官：什么是 AOT 编译？和 JIT 有什么区别？.md]
+sources: [raw/09-archive/面试官：什么是 AOT 编译？和 JIT 有什么区别？.md]
 last_updated: 2026-07-08
 ---
 

@@ -2,7 +2,7 @@
 title: "HF转GGUF"
 type: concept
 tags: [模型转换, 格式转换, llama.cpp, 本地部署]
-sources: [raw/01-articles/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
+sources: [raw/09-archive/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
 last_updated: 2026-08-28
 ---
 

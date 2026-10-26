@@ -2,7 +2,7 @@
 title: "摘要-Spring-Boot-to-Solon-注解迁移"
 type: source
 tags: [来源, Spring Boot, Solon, 注解迁移, Java框架]
-sources: [raw/01-articles/2026-06-27-Spring Boot → Solon 注解迁移实战指南：一张对照表说清楚.md]
+sources: [raw/09-archive/2026-06-27-Spring Boot → Solon 注解迁移实战指南：一张对照表说清楚.md]
 last_updated: 2026-06-29
 ---
 

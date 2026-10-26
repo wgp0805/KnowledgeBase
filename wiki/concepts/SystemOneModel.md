@@ -2,7 +2,7 @@
 title: "SystemOneModel"
 type: concept
 tags: [AI模型, 认知科学, System1, 快判断]
-sources: [raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/09-archive/2026-09-20-Jev新决策模型的试用心得.md]
+sources: [raw/09-archive/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/09-archive/2026-09-20-Jev新决策模型的试用心得.md]
 last_updated: 2026-09-21
 ---
 

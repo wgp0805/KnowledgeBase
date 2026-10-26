@@ -2,7 +2,7 @@
 title: "Claude 的 CLI、Agent、Opus 到底有什么区别"
 type: source
 tags: ["Claude", "CLI", "Agent", "Opus", "沉默王二"]
-sources: ["raw/01-articles/打饭时我问老板：“你说你用Claude，你用的是 CLI，还是 Agent、Opus？”老板懵了：“这有区别吗？不都是Claude”，打饭阿姨听了直摇头。.md"]
+sources: ["raw/09-archive/打饭时我问老板：“你说你用Claude，你用的是 CLI，还是 Agent、Opus？”老板懵了：“这有区别吗？不都是Claude”，打饭阿姨听了直摇头。.md"]
 last_updated: 2026-09-01
 ---
 

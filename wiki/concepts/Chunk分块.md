@@ -2,7 +2,7 @@
 title: "Chunk分块"
 type: concept
 tags: [RAG, 数据处理, 文本切分]
-sources: [raw/01-articles/一文讲透 RAG：原理、优化与落地.md]
+sources: [raw/09-archive/一文讲透 RAG：原理、优化与落地.md]
 last_updated: 2026-09-23
 ---
 

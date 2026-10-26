@@ -2,7 +2,7 @@
 title: "DynamicImplementationSwitching"
 type: concept
 tags: [Spring, 依赖注入, SPI, 动态代理, 运行时切换]
-sources: [raw/01-articles/Spring-Smart-DI 动态切换实现类，很不错！.md]
+sources: [raw/09-archive/Spring-Smart-DI 动态切换实现类，很不错！.md]
 last_updated: 2026-09-01
 ---
 

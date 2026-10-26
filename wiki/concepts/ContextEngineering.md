@@ -2,7 +2,7 @@
 title: "ContextEngineering"
 type: concept
 tags: [AI, RAG, 上下文, Prompt工程, 检索增强]
-sources: [raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/2026-09-19-长对话先收口：用“工作记忆 vs 长期记忆“管理 AI 上下文 - Jessica_留学中.md, raw/09-archive/你的游戏本身就是 Harness ：如何让 AI Agent 读懂游戏并十倍加速迭代？ - leikooo.md]
+sources: [raw/09-archive/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/09-archive/2026-09-19-长对话先收口：用“工作记忆 vs 长期记忆“管理 AI 上下文 - Jessica_留学中.md, raw/09-archive/你的游戏本身就是 Harness ：如何让 AI Agent 读懂游戏并十倍加速迭代？ - leikooo.md]
 last_updated: 2026-10-15
 ---
 

@@ -2,7 +2,7 @@
 title: "Meta"
 type: entity
 tags: [AI公司, 社交平台, 大模型, Agent]
-sources: [raw/09-archive/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/09-archive/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-27-Meta Muse为超级智能买单.md, raw/09-archive/2026-09-24-A社O社，坐不住了.md, raw/09-archive/张江芯片员工：32岁税前80个，没有互联网那么卷，现在国产卡都在招人，算是踩中这波算力红利了（附Agent面试题）.md]
+sources: [raw/09-archive/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/09-archive/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/09-archive/2026-09-27-Meta Muse为超级智能买单.md, raw/09-archive/2026-09-24-A社O社，坐不住了.md, raw/09-archive/张江芯片员工：32岁税前80个，没有互联网那么卷，现在国产卡都在招人，算是踩中这波算力红利了（附Agent面试题）.md]
 last_updated: 2026-10-15
 ---
 

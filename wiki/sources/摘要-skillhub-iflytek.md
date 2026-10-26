@@ -2,7 +2,7 @@
 title: "科大讯飞官宣开源 SkillHub 免折腾三分钟搭建技能商店"
 type: source
 tags: ["SkillHub", "科大讯飞", "沉默王二"]
-sources: ["raw/01-articles/科大讯飞官宣开源，有点猛啊。SkillHub免折腾，三分钟给AI Agent搭建技能商店。.md"]
+sources: ["raw/09-archive/科大讯飞官宣开源，有点猛啊。SkillHub免折腾，三分钟给AI Agent搭建技能商店。.md"]
 last_updated: 2026-09-01
 ---
 

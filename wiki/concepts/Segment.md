@@ -2,7 +2,7 @@
 title: "Segment"
 type: concept
 tags: [数据结构, 存储结构, Lucene, ElasticSearch]
-sources: [raw/01-articles/2026-08-31 - 面试官：ElasticSearch 为什么快？.md]
+sources: [raw/09-archive/2026-08-31 - 面试官：ElasticSearch 为什么快？.md]
 last_updated: 2026-09-01
 ---
 

@@ -2,7 +2,7 @@
 title: "ASGI"
 type: concept
 tags: [Python, 异步, Web规范]
-sources: [raw/01-articles/FastAPI 入门教程.md]
+sources: [raw/09-archive/FastAPI 入门教程.md]
 last_updated: 2026-06-29
 ---
 

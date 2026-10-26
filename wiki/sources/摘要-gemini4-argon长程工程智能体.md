@@ -2,7 +2,7 @@
 title: "摘要-gemini4-argon长程工程智能体"
 type: source
 tags: [来源, 原始文件, Gemini, 大模型, Agent, 安全]
-sources: [raw/01-articles/2026-10-02-赚到了，Gemini 4 发布，又高又硬！碾压GPT-6 Astra、Claude Opus 5.5!.md]
+sources: [raw/09-archive/2026-10-02-赚到了，Gemini 4 发布，又高又硬！碾压GPT-6 Astra、Claude Opus 5.5!.md]
 last_updated: 2026-10-08
 ---
 

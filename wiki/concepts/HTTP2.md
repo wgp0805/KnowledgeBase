@@ -2,7 +2,7 @@
 title: "HTTP2"
 type: concept
 tags: [网络协议, HTTP/2, 多路复用, gRPC]
-sources: [raw/01-articles/2026-08-25 - 为什么越来越多人用gRPC？.md, "raw/09-archive/2026-10-25 - Tomcat 11 到底有多强大 ？.md"]
+sources: [raw/09-archive/2026-08-25 - 为什么越来越多人用gRPC？.md, "raw/09-archive/2026-10-25 - Tomcat 11 到底有多强大 ？.md"]
 last_updated: 2026-10-26
 ---
 

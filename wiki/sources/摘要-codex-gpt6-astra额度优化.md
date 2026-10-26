@@ -2,7 +2,7 @@
 title: "摘要-codex-gpt6-astra额度优化"
 type: source
 tags: [来源, 原始文件, Codex, Token, 上下文, 优化]
-sources: [raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md]
+sources: [raw/09-archive/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md]
 last_updated: 2026-09-15
 ---
 

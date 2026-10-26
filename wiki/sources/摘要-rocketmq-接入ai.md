@@ -2,7 +2,7 @@
 title: "摘要-rocketmq-接入ai"
 type: source
 tags: [来源, 原始文件, 消息队列, AI, Multi-Agent]
-sources: [raw/01-articles/RocketMQ 已正式接入 AI ！.md]
+sources: [raw/09-archive/RocketMQ 已正式接入 AI ！.md]
 last_updated: 2026-07-01
 ---
 

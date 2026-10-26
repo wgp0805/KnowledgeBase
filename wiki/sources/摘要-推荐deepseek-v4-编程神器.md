@@ -2,7 +2,7 @@
 title: "摘要-推荐deepseek-v4-编程神器"
 type: source
 tags: [来源, 原始文件, DeepSeek]
-sources: [raw/01-articles/推荐一款DeepSeek V4 编程神器！.md]
+sources: [raw/09-archive/推荐一款DeepSeek V4 编程神器！.md]
 last_updated: 2026-05-19
 ---
 

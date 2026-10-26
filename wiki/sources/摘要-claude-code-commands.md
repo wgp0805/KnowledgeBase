@@ -2,7 +2,7 @@
 title: "Claude Code 命令分享推荐"
 type: source
 tags: ["Claude-Code", "实用技巧", "沉默王二"]
-sources: ["raw/01-articles/Claude Code命令分享推荐.md"]
+sources: ["raw/09-archive/Claude Code命令分享推荐.md"]
 last_updated: 2026-09-01
 ---
 

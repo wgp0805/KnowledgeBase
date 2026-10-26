@@ -2,7 +2,7 @@
 title: "摘要-Spring-Cloud-Gateway-War-Tomcat"
 type: source
 tags: [来源, Spring Cloud Gateway, Tomcat, War, WebFlux]
-sources: [raw/01-articles/2026-06-26-Spring Cloud Gateway 打 War 包部署外置 Tomcat 全攻略：原理、实现与踩坑实录 - 码猿手.md]
+sources: [raw/09-archive/2026-06-26-Spring Cloud Gateway 打 War 包部署外置 Tomcat 全攻略：原理、实现与踩坑实录 - 码猿手.md]
 last_updated: 2026-06-29
 ---
 

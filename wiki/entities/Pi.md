@@ -3,11 +3,11 @@ title: "Pi"
 type: entity
 tags: [AI编程, Agent, 开源工具, 终端]
 sources:
-  - raw/01-articles/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md
-  - raw/01-articles/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
-  - raw/01-articles/2026-08-15-为什么越来越多人用 Pi ？ - 苏三说技术.md
-  - raw/01-articles/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md
-  - raw/01-articles/Agent 的权限模式（Permission Mode）了解吗？.md
+  - raw/09-archive/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md
+  - raw/09-archive/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
+  - raw/09-archive/2026-08-15-为什么越来越多人用 Pi ？ - 苏三说技术.md
+  - raw/09-archive/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md
+  - raw/09-archive/Agent 的权限模式（Permission Mode）了解吗？.md
   - raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md
 last_updated: 2026-10-15
 ---

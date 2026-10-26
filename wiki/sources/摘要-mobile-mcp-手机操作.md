@@ -2,7 +2,7 @@
 title: "摘要-mobile-mcp-手机操作"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/2026-09-26-让 AI 帮你操作手机，这个 GitHub 开源项目支持安卓和 iPhone。.md]
+sources: [raw/09-archive/2026-09-26-让 AI 帮你操作手机，这个 GitHub 开源项目支持安卓和 iPhone。.md]
 last_updated: 2026-09-28
 ---
 

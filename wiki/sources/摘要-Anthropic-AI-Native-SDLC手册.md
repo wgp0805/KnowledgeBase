@@ -2,7 +2,7 @@
 title: "摘要-Anthropic-AI-Native-SDLC手册"
 type: source
 tags: [Anthropic, AI-Native, SDLC, intent.md, 审查前置, 开发手册]
-sources: [raw/01-articles/2026-08-30-Anthropic 写给 AI Native 团队的完整开发手册.md]
+sources: [raw/09-archive/2026-08-30-Anthropic 写给 AI Native 团队的完整开发手册.md]
 last_updated: 2026-08-31
 ---
 

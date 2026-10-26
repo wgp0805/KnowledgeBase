@@ -2,7 +2,7 @@
 title: "摘要-minio-intro"
 type: source
 tags: [来源, 对象存储, MinIO, S3]
-sources: [raw/01-articles/什么是 MinIO.md]
+sources: [raw/09-archive/什么是 MinIO.md]
 last_updated: 2026-06-08
 ---
 

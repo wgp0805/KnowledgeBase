@@ -2,7 +2,7 @@
 title: "HermesAgent"
 type: entity
 tags: [AI, Agent, 开源, 自学, NousResearch]
-sources: [raw/09-archive/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md, raw/01-articles/2026-07-21-Hermes Agent 完全指南：比 Claude Code 更自由的开源 AI Agent，从安装配置到多 Agent 协作 - 不吃紫菜.md, raw/01-articles/0基础带你上手 Hermes Agent！【新手教程】.md]
+sources: [raw/09-archive/OpenClaw vs Hermes：万字深入讲解两大通用 Agent.md, raw/09-archive/2026-07-21-Hermes Agent 完全指南：比 Claude Code 更自由的开源 AI Agent，从安装配置到多 Agent 协作 - 不吃紫菜.md, raw/09-archive/0基础带你上手 Hermes Agent！【新手教程】.md]
 last_updated: 2026-07-30
 ---
 

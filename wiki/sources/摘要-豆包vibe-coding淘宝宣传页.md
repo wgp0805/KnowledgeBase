@@ -2,7 +2,7 @@
 title: "摘要-豆包vibe-coding淘宝宣传页"
 type: source
 tags: [来源, 豆包工作, VibeCoding, 前端, 实测]
-sources: [raw/01-articles/2026-09-28-用豆包 Vibe Coding？现在真的可以了.md]
+sources: [raw/09-archive/2026-09-28-用豆包 Vibe Coding？现在真的可以了.md]
 last_updated: 2026-09-29
 ---
 

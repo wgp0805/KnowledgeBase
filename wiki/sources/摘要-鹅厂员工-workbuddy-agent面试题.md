@@ -2,7 +2,7 @@
 title: "摘要-鹅厂员工-workbuddy-agent面试题"
 type: source
 tags: [来源, 原始文件, WorkBuddy, Agent面试题]
-sources: [raw/01-articles/鹅厂员工：羡慕隔壁组做 WorkBuddy 的，月活1000万+，已经成为AI办公的王牌，感觉晋升和年终奖肯定少不了（附Agent面试题）.md]
+sources: [raw/09-archive/鹅厂员工：羡慕隔壁组做 WorkBuddy 的，月活1000万+，已经成为AI办公的王牌，感觉晋升和年终奖肯定少不了（附Agent面试题）.md]
 last_updated: 2026-08-28
 ---
 

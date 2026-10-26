@@ -2,7 +2,7 @@
 title: "Shiki"
 type: entity
 tags: [代码高亮, 语法高亮, VSCode, TextMate]
-sources: [raw/01-articles/仅几MB大小！Rust 开源 Markdown 神器，专为 AI 设计.md]
+sources: [raw/09-archive/仅几MB大小！Rust 开源 Markdown 神器，专为 AI 设计.md]
 last_updated: 2026-07-16
 ---
 

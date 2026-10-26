@@ -2,7 +2,7 @@
 title: "摘要-gpt-image-2-5-提示词教程"
 type: source
 tags: [来源, 原始文件, GPT Image, 图像生成, 提示词, 教程]
-sources: [raw/01-articles/2026-09-14-Open AI官网首发提示词教程，教你玩转GPT Image 2.5.md]
+sources: [raw/09-archive/2026-09-14-Open AI官网首发提示词教程，教你玩转GPT Image 2.5.md]
 last_updated: 2026-09-15
 ---
 

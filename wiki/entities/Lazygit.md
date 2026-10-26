@@ -2,7 +2,7 @@
 title: "Lazygit"
 type: entity
 tags: [Git工具, 开源工具, 终端工具]
-sources: [raw/01-articles/又一个神级终端诞生了！让 Claude Code和Codex 用得更爽！.md]
+sources: [raw/09-archive/又一个神级终端诞生了！让 Claude Code和Codex 用得更爽！.md]
 last_updated: 2026-07-14
 ---
 

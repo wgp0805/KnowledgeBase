@@ -2,7 +2,7 @@
 title: "AgentSkill安全扫描"
 type: concept
 tags: [Agent, Skill, 安全, 提示注入]
-sources: [raw/01-articles/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md]
+sources: [raw/09-archive/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md]
 last_updated: 2026-10-08
 ---
 

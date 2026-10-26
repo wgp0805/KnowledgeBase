@@ -2,7 +2,7 @@
 title: "SkyWalking"
 type: entity
 tags: [APM, 分布式追踪, 可观测性, Apache]
-sources: [raw/01-articles/2026-07-21-分布式链路追踪系统之二进制安装skywalking - Linux-1874.md, raw/01-articles/2026-07-22-分布式链路追踪系统之docker-compose安装skywalking - Linux-1874.md, raw/01-articles/2026-07-26-分布式链路追踪系统之skywalking java agent 的使用、skywalking web界面简介 - Linux-1874.md]
+sources: [raw/09-archive/2026-07-21-分布式链路追踪系统之二进制安装skywalking - Linux-1874.md, raw/09-archive/2026-07-22-分布式链路追踪系统之docker-compose安装skywalking - Linux-1874.md, raw/09-archive/2026-07-26-分布式链路追踪系统之skywalking java agent 的使用、skywalking web界面简介 - Linux-1874.md]
 last_updated: 2026-07-27
 ---
 

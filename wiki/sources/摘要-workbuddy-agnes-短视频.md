@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-agnes-短视频"
 type: source
 tags: [来源, 原始文件, WorkBuddy, 短视频, AI视频生成]
-sources: [raw/01-articles/2026-09-29-我用 WorkBuddy + Agnes一句话生成短视频，没花一分钱.md]
+sources: [raw/09-archive/2026-09-29-我用 WorkBuddy + Agnes一句话生成短视频，没花一分钱.md]
 last_updated: 2026-10-08
 ---
 

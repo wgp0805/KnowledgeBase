@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-12条使用技巧"
 type: source
 tags: [来源, 原始文件, WorkBuddy, 使用技巧]
-sources: [raw/01-articles/2026-09-18-WorkBuddy 踩坑 3 个月后，我总结了 12 个真正好用的使用技巧.md]
+sources: [raw/09-archive/2026-09-18-WorkBuddy 踩坑 3 个月后，我总结了 12 个真正好用的使用技巧.md]
 last_updated: 2026-09-20
 ---
 

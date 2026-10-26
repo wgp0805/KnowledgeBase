@@ -2,7 +2,7 @@
 title: "摘要-java-concurrency"
 type: source
 tags: [来源, 原始文件, Java, 并发编程]
-sources: [raw/02-papers/Java 并发编程手册.pdf]
+sources: [raw/09-archive/Java 并发编程手册.pdf]
 last_updated: 2026-05-22
 ---
 

@@ -2,7 +2,7 @@
 title: "HITL"
 type: concept
 tags: [AI, 人机协作, Agent]
-sources: ["raw/01-articles/2026-07-12-用 Solon AI ReActAgent 落地智能客服工单处理 - 带刺的坐椅.md", "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
+sources: ["raw/09-archive/2026-07-12-用 Solon AI ReActAgent 落地智能客服工单处理 - 带刺的坐椅.md", "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
 last_updated: 2026-10-26
 ---
 

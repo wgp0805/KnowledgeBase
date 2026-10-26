@@ -2,7 +2,7 @@
 title: "Dubbo"
 type: entity
 tags: [Java, RPC, 微服务, 序列化]
-sources: [raw/01-articles/Java 布尔属性 is 命名序列化大坑｜阿里面试真题文档.md]
+sources: [raw/09-archive/Java 布尔属性 is 命名序列化大坑｜阿里面试真题文档.md]
 last_updated: 2026-08-04
 ---
 

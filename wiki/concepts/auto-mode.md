@@ -4,7 +4,7 @@ type: concept
 tags: [AI编程, 权限, Claude Code, 安全]
 sources:
   - raw/09-archive/面试官坏笑：“你用ClaudeCode写代码，不怕它把项目搞炸？”，我：“怕，所以CLAUDE.md、权限和验证，一个都不能少。”.md
-  - raw/01-articles/Agent 的权限模式（Permission Mode）了解吗？.md
+  - raw/09-archive/Agent 的权限模式（Permission Mode）了解吗？.md
   - "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"
 last_updated: 2026-10-26
 ---

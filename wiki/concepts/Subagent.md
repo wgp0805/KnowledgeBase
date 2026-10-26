@@ -2,7 +2,7 @@
 title: "Subagent"
 type: concept
 tags: [概念, AI工程, ClaudeCode, 多智能体]
-sources: [raw/01-articles/2026-08-26-Anthropic 官方指南：AI Native 开发手册.md, raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/01-articles/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md]
+sources: [raw/09-archive/2026-08-26-Anthropic 官方指南：AI Native 开发手册.md, raw/09-archive/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/09-archive/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md]
 last_updated: 2026-09-28
 ---
 

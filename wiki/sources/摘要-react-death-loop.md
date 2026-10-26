@@ -2,7 +2,7 @@
 title: "ReAct 会死循环吗？如何设计可靠的终止机制"
 type: source
 tags: ["ReAct", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/ReAct 会死循环吗？如何设计可靠的终止机制？.md"]
+sources: ["raw/09-archive/ReAct 会死循环吗？如何设计可靠的终止机制？.md"]
 last_updated: 2026-09-01
 ---
 

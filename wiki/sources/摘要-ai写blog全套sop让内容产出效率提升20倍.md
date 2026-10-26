@@ -2,7 +2,7 @@
 title: "摘要-ai写blog全套sop让内容产出效率提升20倍"
 type: source
 tags: [来源, 原始文件, AI写作, SEO, 内容创作]
-sources: [raw/01-articles/2026-09-03-AI 写Blog全套 SOP，让内容产出效率提升20倍.md]
+sources: [raw/09-archive/2026-09-03-AI 写Blog全套 SOP，让内容产出效率提升20倍.md]
 last_updated: 2026-09-03
 ---
 

@@ -2,7 +2,7 @@
 title: "OpenClaw"
 type: entity
 tags: [实体, AI Agent, 开源项目]
-sources: [raw/09-archive/小龙虾（OpenClaw）教程汇总.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/09-archive/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/09-archive/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md]
+sources: [raw/09-archive/小龙虾（OpenClaw）教程汇总.md, raw/09-archive/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/09-archive/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/09-archive/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md, raw/09-archive/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md]
 last_updated: 2026-10-08
 ---
 

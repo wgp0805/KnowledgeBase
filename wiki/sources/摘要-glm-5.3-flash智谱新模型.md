@@ -2,7 +2,7 @@
 title: "摘要-glm-5.3-flash智谱新模型"
 type: source
 tags: [来源, 原始文件, 智谱, GLM, 大模型, 国产芯片]
-sources: [raw/01-articles/2026-08-27-智谱 5.3-flash 成了新的斩杀线.md]
+sources: [raw/09-archive/2026-08-27-智谱 5.3-flash 成了新的斩杀线.md]
 last_updated: 2026-08-28
 ---
 

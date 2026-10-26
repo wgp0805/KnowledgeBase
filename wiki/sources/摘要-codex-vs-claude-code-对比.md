@@ -2,7 +2,7 @@
 title: "摘要-codex-vs-claude-code-对比"
 type: source
 tags: [来源, 原始文件, AI编程, 工具对比]
-sources: [raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md]
+sources: [raw/09-archive/Codex 和 Claude Code，到底哪个更好？.md]
 last_updated: 2026-08-06
 ---
 

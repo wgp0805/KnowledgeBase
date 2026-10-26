@@ -4,8 +4,8 @@ type: entity
 tags: [游戏引擎, Java, 跨平台, 开源框架]
 sources:
   - raw/09-archive/推荐一个节省token的AI编程神器！.md
-  - raw/01-articles/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md
-  - raw/01-articles/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
+  - raw/09-archive/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md
+  - raw/09-archive/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
 last_updated: 2026-08-17
 ---
 

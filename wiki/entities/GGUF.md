@@ -2,7 +2,7 @@
 title: "GGUF"
 type: entity
 tags: [模型格式, 容器格式, llama.cpp, 量化]
-sources: [raw/01-articles/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
+sources: [raw/09-archive/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
 last_updated: 2026-08-28
 ---
 

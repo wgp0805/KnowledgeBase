@@ -2,7 +2,7 @@
 title: "TypeHandler"
 type: concept
 tags: [MyBatis, 类型转换]
-sources: [raw/01-articles/MyBatis-Plus 3.5.15 已全面支持 Spring Boot 4.0 及 Jackson 3.0.md]
+sources: [raw/09-archive/MyBatis-Plus 3.5.15 已全面支持 Spring Boot 4.0 及 Jackson 3.0.md]
 last_updated: 2026-09-03
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-Obsidian保姆级入门教程"
 type: source
 tags: [来源, 原始文件, Obsidian, 知识管理]
-sources: [raw/01-articles/最强知识管理工具 Obsidian，保姆级入门教程！.md]
+sources: [raw/09-archive/最强知识管理工具 Obsidian，保姆级入门教程！.md]
 last_updated: 2026-06-23
 ---
 

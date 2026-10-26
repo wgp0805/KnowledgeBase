@@ -2,7 +2,7 @@
 title: "摘要-手搓claude-code-面试"
 type: source
 tags: [Agent, Claude Code, Harness Engineering, 面试, 沉默王二, learn-claude-code]
-sources: [raw/01-articles/面试官冷笑：“你这么厉害咋不手搓个Claude Code？”我冷冷回了两个字：“就这！”.md]
+sources: [raw/09-archive/面试官冷笑：“你这么厉害咋不手搓个Claude Code？”我冷冷回了两个字：“就这！”.md]
 last_updated: 2026-08-13
 ---
 

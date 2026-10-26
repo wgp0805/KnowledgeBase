@@ -2,7 +2,7 @@
 title: "摘要-ai视频画幅转换提示词"
 type: source
 tags: [来源, AI视频, 提示词, 画幅转换]
-sources: [raw/01-articles/2026-09-04-AI 带货视频竖转横，不用重拍不用裁：一段提示词重构画面.md]
+sources: [raw/09-archive/2026-09-04-AI 带货视频竖转横，不用重拍不用裁：一段提示词重构画面.md]
 last_updated: 2026-09-05
 ---
 

@@ -2,7 +2,7 @@
 title: "MapStruct"
 type: entity
 tags: [Java, 对象映射, 代码生成, 编译时, DTO转换]
-sources: [raw/01-articles/如何搭建漂亮的 SpringBoot 脚手架？.md]
+sources: [raw/09-archive/如何搭建漂亮的 SpringBoot 脚手架？.md]
 last_updated: 2026-07-08
 ---
 

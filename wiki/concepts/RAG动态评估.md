@@ -3,7 +3,7 @@ title: "RAG动态评估"
 type: concept
 tags: [概念, RAG, 评估, 幻觉, 检索]
 sources:
-  - raw/01-articles/RAG性能优化的 5 种方案！.md
+  - raw/09-archive/RAG性能优化的 5 种方案！.md
 last_updated: 2026-10-21
 ---
 

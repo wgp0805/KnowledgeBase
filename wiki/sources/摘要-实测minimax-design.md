@@ -2,7 +2,7 @@
 title: "摘要-实测MiniMax Design"
 type: source
 tags: [AI视频生成, 多模态Agent, 视频Agent, MiniMax, H3, LibTV, Agent工作流, 3D导演台]
-sources: [raw/01-articles/2026-08-25-实测MiniMax Design：视频生成之后，开卷组织生产.md]
+sources: [raw/09-archive/2026-08-25-实测MiniMax Design：视频生成之后，开卷组织生产.md]
 last_updated: 2026-08-25
 ---
 

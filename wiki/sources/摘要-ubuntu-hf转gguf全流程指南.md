@@ -2,7 +2,7 @@
 title: "摘要-ubuntu-hf转gguf全流程指南"
 type: source
 tags: [来源, 原始文件, llama.cpp, GGUF, 模型量化, 本地部署]
-sources: [raw/01-articles/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
+sources: [raw/09-archive/2026-08-27-Ubuntu 大模型HF转GGUF全流程实践指南 - lyshark.md]
 last_updated: 2026-08-28
 ---
 

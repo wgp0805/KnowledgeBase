@@ -2,7 +2,7 @@
 title: "摘要-agent提示词9技巧"
 type: source
 tags: [来源, 原始文件, 提示词, Agent, Prompt]
-sources: ["raw/01-articles/2026-10-04 - 9个让Agent提高输出质量的提示词技巧.md"]
+sources: ["raw/09-archive/2026-10-04 - 9个让Agent提高输出质量的提示词技巧.md"]
 last_updated: 2026-10-08
 ---
 

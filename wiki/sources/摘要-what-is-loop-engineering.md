@@ -2,7 +2,7 @@
 title: "什么是 Loop Engineering？"
 type: source
 tags: ["Loop-Engineering", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/什么是 Loop Engineering？.md"]
+sources: ["raw/09-archive/什么是 Loop Engineering？.md"]
 last_updated: 2026-09-01
 ---
 

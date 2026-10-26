@@ -3,7 +3,7 @@ title: "AI协作协议"
 type: concept
 tags: [AI Native, 组织设计, 协议, 人机协作]
 sources:
-  - raw/01-articles/2026-09-18-未来 5 年，最稀缺的不是会用 AI 的人，而是能设计 AI 协作协议的人.md
+  - raw/09-archive/2026-09-18-未来 5 年，最稀缺的不是会用 AI 的人，而是能设计 AI 协作协议的人.md
 last_updated: 2026-09-20
 ---
 

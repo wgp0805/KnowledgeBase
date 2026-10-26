@@ -2,7 +2,7 @@
 title: "为什么 2026 年我们要拼 Harness"
 type: source
 tags: ["Harness-Engineering", "沉默王二"]
-sources: ["raw/01-articles/为什么 2026 年我们要拼 Harness？.md"]
+sources: ["raw/09-archive/为什么 2026 年我们要拼 Harness？.md"]
 last_updated: 2026-09-01
 ---
 

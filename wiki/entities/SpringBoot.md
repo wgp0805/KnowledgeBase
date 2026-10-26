@@ -18,8 +18,8 @@ sources:
   - raw/09-archive/Spring Boot 4.1.0 震撼发布！新特性，惊爆了！.md
   - raw/09-archive/SpringBoot4 新特性：模块化架构.md
   - raw/09-archive/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md
-  - raw/01-articles/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
-  - raw/01-articles/2026-08-25 - 为什么越来越多人用gRPC？.md
+  - raw/09-archive/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
+  - raw/09-archive/2026-08-25 - 为什么越来越多人用gRPC？.md
 last_updated: 2026-08-25
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-pi-agent-保姆级全攻略"
 type: source
 tags: [来源, AI编程, Agent, Pi, 教程]
-sources: [raw/01-articles/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md]
+sources: [raw/09-archive/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md]
 last_updated: 2026-08-17
 ---
 

@@ -2,7 +2,7 @@
 title: "这个 Skill 太硬了 刚开源就斩获 2.8K 星标 Agent 联网能力拉满"
 type: source
 tags: ["Skills", "沉默王二"]
-sources: ["raw/01-articles/这个 Skill 太硬了，刚开源就斩获 2.8K 星标！Agent 联网能力拉满！.md"]
+sources: ["raw/09-archive/这个 Skill 太硬了，刚开源就斩获 2.8K 星标！Agent 联网能力拉满！.md"]
 last_updated: 2026-09-01
 ---
 

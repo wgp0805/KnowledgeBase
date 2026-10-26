@@ -2,7 +2,7 @@
 title: "摘要-idea五款代码质量检查插件"
 type: source
 tags: [来源, 原始文件, IDEA, 代码质量]
-sources: [raw/01-articles/2026-09-30 - 这五款牛逼的 IDEA 插件，堪称代码质量检查利器！.md]
+sources: [raw/09-archive/2026-09-30 - 这五款牛逼的 IDEA 插件，堪称代码质量检查利器！.md]
 last_updated: 2026-10-08
 ---
 

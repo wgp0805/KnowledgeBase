@@ -2,7 +2,7 @@
 title: "Codex 版本大升级 Computer Use 让 Agent 直接操作 IDEA+Chrome 全栈 Agent 来了"
 type: source
 tags: ["Codex", "Computer-Use", "沉默王二"]
-sources: ["raw/01-articles/Codex 版本大升级，Computer Use 让 Agent 直接操作 IDEA+Chrome，全栈 Agent 来了。.md"]
+sources: ["raw/09-archive/Codex 版本大升级，Computer Use 让 Agent 直接操作 IDEA+Chrome，全栈 Agent 来了。.md"]
 last_updated: 2026-09-01
 ---
 

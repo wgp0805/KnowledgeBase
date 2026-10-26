@@ -2,7 +2,7 @@
 title: "UnityMCP"
 type: entity
 tags: [实体, MCP, Unity, 游戏开发, 开源]
-sources: [raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md]
+sources: [raw/09-archive/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md]
 last_updated: 2026-10-08
 ---
 

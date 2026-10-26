@@ -2,7 +2,7 @@
 title: "Supabase"
 type: entity
 tags: [BaaS, 开源, 数据库, 后端]
-sources: [raw/01-articles/又一款神级工具！21k Star开源战绩，本地搞定AI全栈开发.md]
+sources: [raw/09-archive/又一款神级工具！21k Star开源战绩，本地搞定AI全栈开发.md]
 last_updated: 2026-07-23
 ---
 

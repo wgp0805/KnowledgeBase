@@ -4,7 +4,7 @@ type: entity
 tags: [实体, Skill, 文本处理]
 sources:
   - raw/09-archive/分享8个codex必装的skill，让你的AI能力起飞！.md
-  - raw/01-articles/2026-10-11 - WorkBuddy最值得推荐的15个技能（10月最新版）.md
+  - raw/09-archive/2026-10-11 - WorkBuddy最值得推荐的15个技能（10月最新版）.md
 last_updated: 2026-10-12
 ---
 

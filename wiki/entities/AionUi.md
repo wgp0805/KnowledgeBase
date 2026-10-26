@@ -2,7 +2,7 @@
 title: "AionUi"
 type: entity
 tags: [实体, AI Agent, 开源项目, 桌面应用, 统一UI]
-sources: [raw/01-articles/斩获14k+Star，把OpenClaw+Claude Code等多个Agent装进一个UI。.md]
+sources: [raw/09-archive/斩获14k+Star，把OpenClaw+Claude Code等多个Agent装进一个UI。.md]
 last_updated: 2026-08-13
 ---
 

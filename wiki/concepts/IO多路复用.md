@@ -2,7 +2,7 @@
 title: "IO多路复用"
 type: concept
 tags: [Java, 网络, 面试, Linux, 并发]
-sources: [raw/01-articles/面试官：如何理解 select、poll、epoll？.md]
+sources: [raw/09-archive/面试官：如何理解 select、poll、epoll？.md]
 last_updated: 2026-09-28
 ---
 

@@ -2,7 +2,7 @@
 title: "ping命令"
 type: entity
 tags: [网络工具, TCP/IP, 诊断工具]
-sources: [raw/01-articles/2026-09-22 - ping 命令还能这么玩？.md]
+sources: [raw/09-archive/2026-09-22 - ping 命令还能这么玩？.md]
 last_updated: 2026-09-23
 ---
 

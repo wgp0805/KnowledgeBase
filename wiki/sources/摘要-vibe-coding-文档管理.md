@@ -2,7 +2,7 @@
 title: "摘要-vibe-coding-文档管理"
 type: source
 tags: [来源, vibe coding, 文档管理, 上下文工程, AI协作]
-sources: [raw/01-articles/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md]
+sources: [raw/09-archive/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md]
 last_updated: 2026-08-25
 ---
 

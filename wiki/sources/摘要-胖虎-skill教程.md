@@ -2,7 +2,7 @@
 title: "摘要-胖虎-skill教程"
 type: source
 tags: [Skill, Claude Code, Codex, 教程]
-sources: [raw/01-articles/老奶奶看完都会写 Skill，这可能是全网最接地气的 Skill 教程.md]
+sources: [raw/09-archive/老奶奶看完都会写 Skill，这可能是全网最接地气的 Skill 教程.md]
 last_updated: 2026-07-23
 ---
 

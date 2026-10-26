@@ -2,7 +2,7 @@
 title: "AIXTV"
 type: entity
 tags: [AI视频, AI漫剧, 创作工具, 影视片场, Skill]
-sources: [raw/01-articles/2026-09-16-想把喜欢的故事做成动画？我用 AIXTV 把《聊斋》做出来了.md]
+sources: [raw/09-archive/2026-09-16-想把喜欢的故事做成动画？我用 AIXTV 把《聊斋》做出来了.md]
 last_updated: 2026-09-17
 ---
 

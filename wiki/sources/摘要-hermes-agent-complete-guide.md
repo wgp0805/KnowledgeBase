@@ -2,7 +2,7 @@
 title: "摘要-hermes-agent-complete-guide"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/2026-07-21-Hermes Agent 完全指南：比 Claude Code 更自由的开源 AI Agent，从安装配置到多 Agent 协作 - 不吃紫菜.md]
+sources: [raw/09-archive/2026-07-21-Hermes Agent 完全指南：比 Claude Code 更自由的开源 AI Agent，从安装配置到多 Agent 协作 - 不吃紫菜.md]
 last_updated: 2026-07-22
 ---
 

@@ -2,7 +2,7 @@
 title: "IntelliJIDEA"
 type: entity
 tags: [IDE, Java]
-sources: [raw/09-archive/idea的特殊用法及远程DEBUG的方法.md, raw/09-archive/idea控制台输出中文乱码.md, raw/09-archive/idea链接svn报错.md, raw/01-articles/IDEA使用Git提交报错 unable to read askpass response from.md, raw/01-articles/IDEA 2026.2 必装插件 Top 100.md, raw/01-articles/2026-09-30 - 这五款牛逼的 IDEA 插件，堪称代码质量检查利器！.md]
+sources: [raw/09-archive/idea的特殊用法及远程DEBUG的方法.md, raw/09-archive/idea控制台输出中文乱码.md, raw/09-archive/idea链接svn报错.md, raw/09-archive/IDEA使用Git提交报错 unable to read askpass response from.md, raw/09-archive/IDEA 2026.2 必装插件 Top 100.md, raw/09-archive/2026-09-30 - 这五款牛逼的 IDEA 插件，堪称代码质量检查利器！.md]
 last_updated: 2026-10-08
 ---
 

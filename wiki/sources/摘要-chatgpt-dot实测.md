@@ -2,7 +2,7 @@
 title: "摘要-chatgpt-dot实测"
 type: source
 tags: [来源, 原始文件, ChatGPT, Dot, 云端智能体]
-sources: [raw/01-articles/2026-10-03-实测 ChatGPT Dot，龙虾转生？不完全是。.md]
+sources: [raw/09-archive/2026-10-03-实测 ChatGPT Dot，龙虾转生？不完全是。.md]
 last_updated: 2026-10-08
 ---
 

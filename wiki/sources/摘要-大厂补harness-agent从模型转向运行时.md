@@ -2,7 +2,7 @@
 title: "摘要-大厂补harness-agent从模型转向运行时"
 type: source
 tags: [Harness, Agent, Anthropic, OpenAI, DeepSeek, Pi, 运行时, 框架对比]
-sources: [raw/01-articles/2026-08-29-为什么大厂都在补 Harness？Agent 的竞争正在从模型转向运行时.md]
+sources: [raw/09-archive/2026-08-29-为什么大厂都在补 Harness？Agent 的竞争正在从模型转向运行时.md]
 last_updated: 2026-08-31
 ---
 

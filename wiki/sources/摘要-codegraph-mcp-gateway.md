@@ -2,7 +2,7 @@
 title: "摘要-codegraph-mcp-gateway"
 type: source
 tags: [来源, MCP, CodeGraph, Docker, 代码知识库]
-sources: [raw/01-articles/2026-07-16-企业级落地方案：Docker 部署 CodeGraph 多项目统一 MCP 网关，附源码 - AI-Frontiers.md]
+sources: [raw/09-archive/2026-07-16-企业级落地方案：Docker 部署 CodeGraph 多项目统一 MCP 网关，附源码 - AI-Frontiers.md]
 last_updated: 2026-07-17
 ---
 

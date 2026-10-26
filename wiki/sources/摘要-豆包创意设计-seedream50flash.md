@@ -2,7 +2,7 @@
 title: "摘要-豆包创意设计-seedream50flash"
 type: source
 tags: [来源, 原始文件, 豆包, Seedream, 生图, 画布式创作, 内测]
-sources: [raw/01-articles/2026-09-26-豆包新版创意设计内测：Seedream 5.0 Flash 画得快，改得动，文字也更稳了.md]
+sources: [raw/09-archive/2026-09-26-豆包新版创意设计内测：Seedream 5.0 Flash 画得快，改得动，文字也更稳了.md]
 last_updated: 2026-09-28
 ---
 

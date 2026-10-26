@@ -2,7 +2,7 @@
 title: "STEPXNeo"
 type: entity
 tags: [实体, 硬件, Agent手机, 阶跃星辰]
-sources: [raw/01-articles/2026-10-19-周一上线 DeepSeek 开始卷“许愿式编程”，Agent 手机来了，Character.AI 申请破产 - 小七-七牛开发者.md]
+sources: [raw/09-archive/2026-10-19-周一上线 DeepSeek 开始卷“许愿式编程”，Agent 手机来了，Character.AI 申请破产 - 小七-七牛开发者.md]
 last_updated: 2026-10-20
 ---
 

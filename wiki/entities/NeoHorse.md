@@ -2,7 +2,7 @@
 title: "NeoHorse"
 type: entity
 tags: [AI模型, 决策模型, 开源, Jev]
-sources: [raw/01-articles/2026-09-26-基元律动发布 NeoHorse-Jev，开源 Jev 综合评测第一.md]
+sources: [raw/09-archive/2026-09-26-基元律动发布 NeoHorse-Jev，开源 Jev 综合评测第一.md]
 last_updated: 2026-09-28
 ---
 

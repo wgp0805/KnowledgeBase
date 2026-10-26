@@ -2,7 +2,7 @@
 title: "摘要-用Qoder提交PaiAgent到GitHub"
 type: source
 tags: [来源, Qoder, PaiAgent]
-sources: [raw/01-articles/用Qoder 提交PaiAgent到 GitHub，使用 Qoder CLI 完成节点配置和页面美化.md]
+sources: [raw/09-archive/用Qoder 提交PaiAgent到 GitHub，使用 Qoder CLI 完成节点配置和页面美化.md]
 last_updated: 2026-05-19
 ---
 

@@ -3,9 +3,9 @@ title: "AgentSkills"
 type: concept
 tags: [AI编程, Agent, 扩展机制, 协议]
 sources:
-  - raw/01-articles/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md
-  - raw/01-articles/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
-  - raw/01-articles/2026-08-24-GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗.md
+  - raw/09-archive/Pi 大道至简，超越Codex和Claude Code的极简Agent，保姆级全攻略， 一文精通.md
+  - raw/09-archive/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
+  - raw/09-archive/2026-08-24-GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗.md
   - raw/09-archive/2026-08-24-Huashu-Excel正式发布！可能、也许、大概是最好用的Excel数据处理和分析skill.md
   - raw/01-articles/2026-08-24-普通人也能用Agent Skills：龙叔的保姆级教程.md
 last_updated: 2026-08-25

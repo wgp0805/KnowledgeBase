@@ -2,7 +2,7 @@
 title: "摘要-workbuddy保姆级入门教程-苏三"
 type: source
 tags: [来源, WorkBuddy, 桌面AI, 苏三, 入门教程]
-sources: [raw/01-articles/2026-08-21 - WorkBuddy 保姆级入门教程.md]
+sources: [raw/09-archive/2026-08-21 - WorkBuddy 保姆级入门教程.md]
 last_updated: 2026-08-21
 ---
 

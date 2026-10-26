@@ -2,7 +2,7 @@
 title: "ShowMe"
 type: entity
 tags: [Skill, 开源项目, AI表达, humanlayer]
-sources: [raw/01-articles/2026-09-24 - 又一个神级 Skill，让 AI 少写字、多画图！.md]
+sources: [raw/09-archive/2026-09-24 - 又一个神级 Skill，让 AI 少写字、多画图！.md]
 last_updated: 2026-09-28
 ---
 

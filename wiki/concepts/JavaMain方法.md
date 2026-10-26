@@ -3,7 +3,7 @@ title: "JavaMain方法"
 type: concept
 tags: [概念, Java, 面试题, 基础]
 sources:
-  - raw/01-articles/阿里二面：main 方法可以继承吗？.md
+  - raw/09-archive/阿里二面：main 方法可以继承吗？.md
 last_updated: 2026-10-21
 ---
 

@@ -2,7 +2,7 @@
 title: "1Panel"
 type: entity
 tags: [实体, 开源, Linux, 服务器管理, AI网关]
-sources: [raw/01-articles/2026-09-18-37K Star 的 GitHub 开源项目开放 AI 网关，10 人团队免费用.md, raw/01-articles/推荐一款GitHub 37.2K+ Star的开源AI网关，个人和10 人及以下团队免费用！.md]
+sources: [raw/09-archive/2026-09-18-37K Star 的 GitHub 开源项目开放 AI 网关，10 人团队免费用.md, raw/09-archive/推荐一款GitHub 37.2K+ Star的开源AI网关，个人和10 人及以下团队免费用！.md]
 last_updated: 2026-10-20
 ---
 

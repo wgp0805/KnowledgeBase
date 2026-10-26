@@ -2,7 +2,7 @@
 title: "RustFS"
 type: entity
 tags: [对象存储, 分布式存储, Rust, 开源, AI存储]
-sources: [raw/01-articles/MinIO 社区版被故意阉割，Web管理功能全面移除，来试试国产的RustFS？.md, raw/01-articles/给 MinIO 说再见，最强 AI 存储 RustFS 发布正式版了！.md]
+sources: [raw/09-archive/MinIO 社区版被故意阉割，Web管理功能全面移除，来试试国产的RustFS？.md, raw/09-archive/给 MinIO 说再见，最强 AI 存储 RustFS 发布正式版了！.md]
 last_updated: 2026-09-18
 ---
 

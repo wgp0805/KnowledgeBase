@@ -2,7 +2,7 @@
 title: "Meta Muse"
 type: entity
 tags: [AI产品, PersonalAgent, Agent, Meta, 个人助理]
-sources: [raw/09-archive/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/09-archive/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/01-articles/2026-09-27-Meta Muse为超级智能买单.md, raw/09-archive/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/09-archive/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/09-archive/2026-10-04-AI越懂用户，企业越要重新理解什么叫私域.md, raw/01-articles/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md, "raw/09-archive/2026-10-22-Grok Bot、Dots、Cue、Muse：四家 AI Bot 到底有什么不一样？.md"]
+sources: [raw/09-archive/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md, raw/09-archive/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md, raw/09-archive/2026-09-27-Meta Muse为超级智能买单.md, raw/09-archive/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/09-archive/2026-09-29-Manus终于像个通用Agent了.md, raw/09-archive/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/09-archive/2026-09-30-a16z 最新深度对话：这才是 personal agent 的正确打开方式.md, raw/09-archive/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/09-archive/2026-10-04-AI越懂用户，企业越要重新理解什么叫私域.md, raw/09-archive/2026-10-06-又一 Personal Agent 发布，帮我省下不止200刀。。。.md, "raw/09-archive/2026-10-22-Grok Bot、Dots、Cue、Muse：四家 AI Bot 到底有什么不一样？.md"]
 last_updated: 2026-10-23
 ---
 

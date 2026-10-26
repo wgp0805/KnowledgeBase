@@ -2,7 +2,7 @@
 title: "摘要-openclaw-net-nacos集成"
 type: source
 tags: [来源, 原始文件, Nacos, OpenClaw, MCP, AI Agent]
-sources: [raw/01-articles/2026-09-27-当 AI Agent 遇到 Nacos：OpenClaw.NET 集成入门 - 张善友.md]
+sources: [raw/09-archive/2026-09-27-当 AI Agent 遇到 Nacos：OpenClaw.NET 集成入门 - 张善友.md]
 last_updated: 2026-09-28
 ---
 

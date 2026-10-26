@@ -2,7 +2,7 @@
 title: "摘要-java21-虚拟线程生产落地"
 type: source
 tags: [来源, Java, 虚拟线程, 并发, 生产实践]
-sources: [raw/01-articles/2026-08-24-从 2024 年 Java 21 正式发布虚拟线程（Virtual Threads）至今，经过近两年的生产环境验证，这项特性已经从实验性尝鲜进入生产默认选项阶段.md]
+sources: [raw/09-archive/2026-08-24-从 2024 年 Java 21 正式发布虚拟线程（Virtual Threads）至今，经过近两年的生产环境验证，这项特性已经从实验性尝鲜进入生产默认选项阶段.md]
 last_updated: 2026-08-25
 ---
 

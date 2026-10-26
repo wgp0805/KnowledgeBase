@@ -2,7 +2,7 @@
 title: "AlibabaCloud"
 type: entity
 tags: [云服务, 阿里云, 公司]
-sources: [raw/01-articles/2026-07-15-阿里云官方技术文档已全面上线 llms.txt —— AI Agent 一站式消费 300+ 款云产品文档 - 言己lxz.md]
+sources: [raw/09-archive/2026-07-15-阿里云官方技术文档已全面上线 llms.txt —— AI Agent 一站式消费 300+ 款云产品文档 - 言己lxz.md]
 last_updated: 2026-07-16
 ---
 

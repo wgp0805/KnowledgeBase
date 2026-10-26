@@ -2,7 +2,7 @@
 title: "trace-turn"
 type: concept
 tags: [AI, Agent, pi-agent, 生命周期, 钩子]
-sources: [raw/01-articles/Pi-Agent 开源项目落地实战文档.md, raw/01-articles/Pi-Agent 智能体核心原理实战文档.md]
+sources: [raw/09-archive/Pi-Agent 开源项目落地实战文档.md, raw/09-archive/Pi-Agent 智能体核心原理实战文档.md]
 last_updated: 2026-08-04
 ---
 

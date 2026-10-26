@@ -2,7 +2,7 @@
 title: "阿里巴巴Qwen"
 type: entity
 tags: [AI模型, 大语言模型, 阿里巴巴]
-sources: [raw/01-articles/2026-09-03-腾讯内测Cheso，一个专做 PPT 的 AI Agent，实测有吓到我.md]
+sources: [raw/09-archive/2026-09-03-腾讯内测Cheso，一个专做 PPT 的 AI Agent，实测有吓到我.md]
 last_updated: 2026-09-03
 ---
 

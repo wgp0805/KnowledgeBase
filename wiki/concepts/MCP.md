@@ -2,7 +2,7 @@
 title: "MCP"
 type: concept
 tags: [AI, 协议, 外部服务]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/01-articles/用 Java 开发 AI 项目，太爽了！.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/AgentScope入门指南.md, raw/01-articles/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/09-archive/为什么越来越多人用FastMCP？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/09-archive/2026-09-15-让AI真正赋能企业（初探）.md, raw/01-articles/2026-09-15-只会搜关键词还不够，Agent 需要一套更聪明的本地搜索.md, raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md]
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/09-archive/用 Java 开发 AI 项目，太爽了！.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/AgentScope入门指南.md, raw/09-archive/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md, raw/09-archive/为什么越来越多人用FastMCP？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/09-archive/2026-09-15-让AI真正赋能企业（初探）.md, raw/09-archive/2026-09-15-只会搜关键词还不够，Agent 需要一套更聪明的本地搜索.md, raw/09-archive/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "AICoding"
 type: concept
 tags: [AI, 编程, 范式转变]
-sources: [raw/01-articles/6条Claude Code实践中的经验与思考.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md]
+sources: [raw/09-archive/6条Claude Code实践中的经验与思考.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md, raw/09-archive/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/09-archive/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md]
 last_updated: 2026-07-27
 ---
 

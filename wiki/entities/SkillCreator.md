@@ -2,7 +2,7 @@
 title: "SkillCreator"
 type: entity
 tags: [Claude Code, Anthropic, 元技能, 工具]
-sources: [raw/09-archive/skill-creator使用与优化指南.pdf, raw/01-articles/2026-08-24-GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗.md]
+sources: [raw/09-archive/skill-creator使用与优化指南.pdf, raw/09-archive/2026-08-24-GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗.md]
 last_updated: 2026-08-25
 ---
 

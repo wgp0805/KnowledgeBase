@@ -2,7 +2,7 @@
 title: "摘要-60分钟全面掌握Claude Code"
 type: source
 tags: [来源, AI教程, ClaudeCode]
-sources: [raw/01-articles/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md]
+sources: [raw/09-archive/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md]
 last_updated: 2026-05-19
 ---
 

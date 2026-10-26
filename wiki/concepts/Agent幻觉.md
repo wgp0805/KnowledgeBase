@@ -2,7 +2,7 @@
 title: "Agent幻觉"
 type: concept
 tags: [Agent, 幻觉, 可靠性, 治理]
-sources: [raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md]
+sources: [raw/09-archive/2026-10-10 - Agent 出现幻觉怎么治理？.md]
 last_updated: 2026-10-12
 ---
 

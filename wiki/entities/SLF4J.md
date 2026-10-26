@@ -2,7 +2,7 @@
 title: "SLF4J"
 type: entity
 tags: [Java, 日志门面, 接口, 抽象层]
-sources: [raw/01-articles/logback VS log4j2：一倍左右的性能差异，是时候注意了！.md]
+sources: [raw/09-archive/logback VS log4j2：一倍左右的性能差异，是时候注意了！.md]
 last_updated: 2026-07-08
 ---
 

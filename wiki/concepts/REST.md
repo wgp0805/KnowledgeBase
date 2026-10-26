@@ -2,7 +2,7 @@
 title: "REST"
 type: concept
 tags: [API, REST, HTTP, 对比]
-sources: [raw/01-articles/2026-08-25 - 为什么越来越多人用gRPC？.md]
+sources: [raw/09-archive/2026-08-25 - 为什么越来越多人用gRPC？.md]
 last_updated: 2026-08-25
 ---
 

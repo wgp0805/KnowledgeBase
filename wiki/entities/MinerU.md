@@ -2,7 +2,7 @@
 title: "MinerU"
 type: entity
 tags: [PDF, 文档解析, OCR, 开源工具, RAG, Agent基础设施]
-sources: [raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md, raw/01-articles/2026-10-18 - 为什么越来越多人用MinerU？.md]
+sources: [raw/09-archive/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md, raw/09-archive/2026-10-18 - 为什么越来越多人用MinerU？.md]
 last_updated: 2026-10-19
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-loop-vs-prompt-engineering"
 type: source
 tags: [Loop Engineering, Prompt Engineering, Context Engineering, Harness Engineering, AI Agent, 方法论]
-sources: [raw/01-articles/面试官坏笑：“本周我们只要 Loop Engineering 不要 Prompt Engineering 了。”我：“不就是 loop goal，谁不会啊！”.md]
+sources: [raw/09-archive/面试官坏笑：“本周我们只要 Loop Engineering 不要 Prompt Engineering 了。”我：“不就是 loop goal，谁不会啊！”.md]
 last_updated: 2026-08-13
 ---
 

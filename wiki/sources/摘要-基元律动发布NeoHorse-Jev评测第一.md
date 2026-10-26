@@ -2,7 +2,7 @@
 title: "摘要-基元律动发布NeoHorse-Jev评测第一"
 type: source
 tags: [来源, 原始文件, Jev, 决策模型, 开源]
-sources: [raw/01-articles/2026-09-26-基元律动发布 NeoHorse-Jev，开源 Jev 综合评测第一.md]
+sources: [raw/09-archive/2026-09-26-基元律动发布 NeoHorse-Jev，开源 Jev 综合评测第一.md]
 last_updated: 2026-09-28
 ---
 

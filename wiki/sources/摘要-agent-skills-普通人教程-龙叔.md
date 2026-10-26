@@ -2,7 +2,7 @@
 title: "摘要-agent-skills-普通人教程-龙叔"
 type: source
 tags: [来源, Agent Skills, Claude Code, skill-creator, 教程]
-sources: [raw/01-articles/2026-08-24-火爆全网的 Agent Skills，普通人到底该怎么用？-- 详细教程 - 程序员龙叔.md]
+sources: [raw/09-archive/2026-08-24-火爆全网的 Agent Skills，普通人到底该怎么用？-- 详细教程 - 程序员龙叔.md]
 last_updated: 2026-08-25
 ---
 

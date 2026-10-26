@@ -2,7 +2,7 @@
 title: "摘要-OpenAI总裁Brockman最新采访"
 type: source
 tags: [来源, 原始文件, OpenAI, Greg-Brockman, AGI, Computer-Use]
-sources: [raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md]
+sources: [raw/09-archive/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md]
 last_updated: 2026-09-15
 ---
 

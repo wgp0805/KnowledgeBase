@@ -2,7 +2,7 @@
 title: "摘要-ai-voice-input-8-apps"
 type: source
 tags: [来源, 原始文件, 语音输入, 输入法, AI产品, 横向评测]
-sources: [raw/01-articles/2026-10-11-八款AI语音输入法大横测！我找到了Vibe Coding的最佳搭配.md]
+sources: [raw/09-archive/2026-10-11-八款AI语音输入法大横测！我找到了Vibe Coding的最佳搭配.md]
 last_updated: 2026-10-12
 ---
 

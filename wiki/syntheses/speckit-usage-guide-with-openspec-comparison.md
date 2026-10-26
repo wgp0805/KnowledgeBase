@@ -3,7 +3,7 @@ title: "SpecKit 使用教程（以 OpenSpec 为对照）"
 type: synthesis
 tags: [AI编程, 规范驱动, SpecKit, OpenSpec, 七阶段流水线, 项目宪法, 教程]
 sources:
-  - raw/01-articles/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md
+  - raw/09-archive/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md
 last_updated: 2026-10-16
 ---
 

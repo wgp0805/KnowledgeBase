@@ -2,7 +2,7 @@
 title: "Agent 的 RAG 遇到 PDF 怎么办"
 type: source
 tags: ["RAG", "PDF", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/Agent 的 RAG 遇到 PDF 怎么办？.md"]
+sources: ["raw/09-archive/Agent 的 RAG 遇到 PDF 怎么办？.md"]
 last_updated: 2026-09-01
 ---
 

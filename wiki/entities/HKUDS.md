@@ -2,7 +2,7 @@
 title: "HKUDS"
 type: entity
 tags: [研究团队, 香港大学, 数据科学]
-sources: ["raw/01-articles/比 Claude Code 快4倍、消耗节省接近一半！港大开源的代码库理解神器.md"]
+sources: ["raw/09-archive/比 Claude Code 快4倍、消耗节省接近一半！港大开源的代码库理解神器.md"]
 last_updated: 2026-07-20
 ---
 

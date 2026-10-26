@@ -2,7 +2,7 @@
 title: "agent-view"
 type: concept
 tags: [概念, ClaudeCode, 后台会话, Supervisor, 多任务]
-sources: [raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md]
+sources: [raw/09-archive/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md]
 last_updated: 2026-09-28
 ---
 

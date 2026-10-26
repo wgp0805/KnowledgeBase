@@ -2,7 +2,7 @@
 title: "lsof"
 type: entity
 tags: [Linux, 网络, 命令]
-sources: [raw/01-articles/面试官：你掌握哪些 Linux 常用命令？.md]
+sources: [raw/09-archive/面试官：你掌握哪些 Linux 常用命令？.md]
 last_updated: 2026-08-27
 ---
 

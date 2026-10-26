@@ -2,7 +2,7 @@
 title: "摘要-用户需求模糊时Agent怎么澄清"
 type: source
 tags: [来源, Agent, 需求澄清, AskUserQuestion, ClaudeCode, Codex]
-sources: [raw/01-articles/用户需求模糊时 Agent 怎么澄清？.md]
+sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md]
 last_updated: 2026-10-15
 ---
 

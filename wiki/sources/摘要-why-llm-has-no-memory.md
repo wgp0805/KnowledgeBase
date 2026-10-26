@@ -2,7 +2,7 @@
 title: "为什么说 LLM 本身没有记忆？"
 type: source
 tags: ["LLM-记忆", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/为什么说 LLM 本身没有记忆？.md"]
+sources: ["raw/09-archive/为什么说 LLM 本身没有记忆？.md"]
 last_updated: 2026-09-01
 ---
 

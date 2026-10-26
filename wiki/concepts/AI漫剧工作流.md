@@ -2,7 +2,7 @@
 title: "AI漫剧工作流"
 type: concept
 tags: [AI视频, 漫剧, 工作流, 分镜, AIXTV, 影视片场]
-sources: [raw/01-articles/2026-09-16-想把喜欢的故事做成动画？我用 AIXTV 把《聊斋》做出来了.md]
+sources: [raw/09-archive/2026-09-16-想把喜欢的故事做成动画？我用 AIXTV 把《聊斋》做出来了.md]
 last_updated: 2026-09-17
 ---
 

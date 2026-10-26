@@ -2,7 +2,7 @@
 title: "摘要-Codex最新焚诀-GPT-6-Astra瘦身指南"
 type: source
 tags: [来源, 原始文件, Codex, GPT-6-Astra, Skills, AGENTS-md]
-sources: [raw/01-articles/Codex 最新焚决发布，快！.md]
+sources: [raw/09-archive/Codex 最新焚决发布，快！.md]
 last_updated: 2026-09-15
 ---
 

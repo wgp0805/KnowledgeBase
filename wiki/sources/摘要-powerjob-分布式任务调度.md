@@ -2,7 +2,7 @@
 title: "摘要-powerjob-分布式任务调度"
 type: source
 tags: [来源, 原始文件, Java, 任务调度, PowerJob, 分布式]
-sources: [raw/01-articles/项目终于用上了 PowerJob，睡觉真香！.md]
+sources: [raw/09-archive/项目终于用上了 PowerJob，睡觉真香！.md]
 last_updated: 2026-07-08
 ---
 

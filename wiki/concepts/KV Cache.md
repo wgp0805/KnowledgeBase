@@ -2,7 +2,7 @@
 title: "KV Cache"
 type: concept
 tags: [概念, 推理优化, 成本, 缓存]
-sources: [raw/01-articles/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md, raw/01-articles/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
+sources: [raw/09-archive/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
 last_updated: 2026-10-22
 ---
 

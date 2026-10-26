@@ -2,7 +2,7 @@
 title: "JevChatJarvis"
 type: entity
 tags: [开源项目, 安卓, 聊天助手, 回复建议]
-sources: [raw/01-articles/2026-10-16 - 最近逛GitHub，挖到3个给力的开源项目，第一个比较硬核。.md]
+sources: [raw/09-archive/2026-10-16 - 最近逛GitHub，挖到3个给力的开源项目，第一个比较硬核。.md]
 last_updated: 2026-10-19
 ---
 

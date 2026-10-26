@@ -2,7 +2,7 @@
 title: "摘要-开源诗词数据集poetry_dataset"
 type: source
 tags: [来源, LLM微调, 诗词生成, MLX, LoRA]
-sources: [raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md]
+sources: [raw/09-archive/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md]
 last_updated: 2026-07-10
 ---
 

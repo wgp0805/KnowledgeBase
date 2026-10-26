@@ -2,7 +2,7 @@
 title: "Gemini"
 type: entity
 tags: [Google, AI, 大模型, 长上下文]
-sources: [raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/01-articles/2026-10-01-Gemini 4正式发布，追平GPT-6但被质疑“刷榜”.md, raw/01-articles/2026-10-01-谷歌憋了半年，Gemini 4终于发布.md]
+sources: [raw/09-archive/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/09-archive/DeepSeek、Gemini、Qwen、Step 3.7 Flash实测，谁才是国产黑马？.md, raw/09-archive/2026-10-01-Gemini 4正式发布，追平GPT-6但被质疑“刷榜”.md, raw/09-archive/2026-10-01-谷歌憋了半年，Gemini 4终于发布.md]
 last_updated: 2026-10-08
 ---
 

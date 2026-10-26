@@ -2,7 +2,7 @@
 title: "摘要-服务器无Telnet时验证IP端口连通性"
 type: source
 tags: [运维, 网络诊断, Linux, Telnet, 端口连通性]
-sources: [raw/01-articles/服务器无 Telnet 时验证 IP+端口连通性指南.md]
+sources: [raw/09-archive/服务器无 Telnet 时验证 IP+端口连通性指南.md]
 last_updated: 2026-09-17
 ---
 

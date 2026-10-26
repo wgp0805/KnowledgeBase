@@ -2,7 +2,7 @@
 title: "摘要-singleton-pattern"
 type: source
 tags: [设计模式, 单例模式, 面试, Java]
-sources: [raw/01-articles/美团面试：单例模式的 5 种写法，你会几种？ 我只答上来 3 种.md]
+sources: [raw/09-archive/美团面试：单例模式的 5 种写法，你会几种？ 我只答上来 3 种.md]
 last_updated: 2026-05-25
 ---
 

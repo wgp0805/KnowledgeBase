@@ -2,7 +2,7 @@
 title: "Agent 和 ChatBot 有什么区别？如何让聊天机器人进化成 Agent？"
 type: source
 tags: ["AI-Agent", "ChatBot", "面试题"]
-sources: ["raw/01-articles/Agent 和 ChatBot 有什么区别？如何让聊天机器人进化成 Agent？.md"]
+sources: ["raw/09-archive/Agent 和 ChatBot 有什么区别？如何让聊天机器人进化成 Agent？.md"]
 last_updated: 2026-09-01
 ---
 

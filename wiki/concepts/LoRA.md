@@ -3,10 +3,10 @@ title: "LoRA"
 type: concept
 tags: [微调, 参数高效微调, PEFT, 大模型, 低秩适配]
 sources:
-  - raw/01-articles/2026-09-06-千问大模型二次LoRA‑SFT指令微调指南 - lyshark.md
+  - raw/09-archive/2026-09-06-千问大模型二次LoRA‑SFT指令微调指南 - lyshark.md
   - raw/09-archive/抖音视频内容整理_人类智力基线与2张显卡.md
-  - raw/01-articles/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md
-  - raw/01-articles/2026-10-05-小白也能上手的 LoRA 微调：五步走通训练到落地.md
+  - raw/09-archive/2026-07-09-开源诗词数据集poetry_dataset｜Mac本地微调诗词大模型全方案，配套诗词检索站shi-ci.cn - Java码界探秘.md
+  - raw/09-archive/2026-10-05-小白也能上手的 LoRA 微调：五步走通训练到落地.md
 last_updated: 2026-10-08
 ---
 

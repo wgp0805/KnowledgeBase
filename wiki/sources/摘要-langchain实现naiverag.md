@@ -2,7 +2,7 @@
 title: "摘要：LangChain实现NaiveRAG朴素向量检索生成"
 type: source
 tags: [RAG, LangChain, ChromaDB, 向量检索, 实战]
-sources: [raw/01-articles/2026-08-22-LangChain 实现NaiveRAG朴素向量检索生成 - lyshark.md]
+sources: [raw/09-archive/2026-08-22-LangChain 实现NaiveRAG朴素向量检索生成 - lyshark.md]
 last_updated: 2026-08-24
 ---
 

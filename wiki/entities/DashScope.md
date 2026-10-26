@@ -2,7 +2,7 @@
 title: "DashScope"
 type: entity
 tags: [阿里云, 模型API, 通义, AI]
-sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-07-19-【RAG扫盲系列·3】从零开始构建你的RAG项目第二弹：API 调用大模型问答 - Alkaid2077.md, raw/09-archive/阿里又开源了一个神级Skill项目！.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/2026-07-19-【RAG扫盲系列·3】从零开始构建你的RAG项目第二弹：API 调用大模型问答 - Alkaid2077.md, raw/09-archive/阿里又开源了一个神级Skill项目！.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
 last_updated: 2026-10-26
 ---
 

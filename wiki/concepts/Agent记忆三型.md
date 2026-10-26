@@ -2,7 +2,7 @@
 title: "Agent记忆三型"
 type: concept
 tags: [Agent, Memory, 认知科学, 分类框架]
-sources: [raw/01-articles/2026-10-12-一文搞懂 Agent Memory：AI 是如何记住你说过的话的？ - Tomorrowland_D.md]
+sources: [raw/09-archive/2026-10-12-一文搞懂 Agent Memory：AI 是如何记住你说过的话的？ - Tomorrowland_D.md]
 last_updated: 2026-10-13
 ---
 

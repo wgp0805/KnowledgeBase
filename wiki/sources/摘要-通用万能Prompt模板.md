@@ -2,7 +2,7 @@
 title: "摘要-通用万能Prompt模板"
 type: source
 tags: [AI, LLM, 提示词, Prompt, 模板]
-sources: [raw/01-articles/通用万能 Prompt 模板（基于三大原则：定角色｜明任务｜给素材）.md]
+sources: [raw/09-archive/通用万能 Prompt 模板（基于三大原则：定角色｜明任务｜给素材）.md]
 last_updated: 2026-08-04
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-qtscrcpy多机群控"
 type: source
 tags: [来源, 原始文件, 开源工具, 安卓, 投屏]
-sources: ["raw/01-articles/2026-10-03 - 远程操控多部手机，这款开源软件太牛逼了！.md"]
+sources: ["raw/09-archive/2026-10-03 - 远程操控多部手机，这款开源软件太牛逼了！.md"]
 last_updated: 2026-10-08
 ---
 

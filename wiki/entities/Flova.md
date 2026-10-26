@@ -2,7 +2,7 @@
 title: "Flova"
 type: entity
 tags: [实体, AI视频, 电商, 工作流]
-sources: [raw/01-articles/2026-09-18-详情页秒变16 秒宣传片，Flova做电商设计夯爆了！.md]
+sources: [raw/09-archive/2026-09-18-详情页秒变16 秒宣传片，Flova做电商设计夯爆了！.md]
 last_updated: 2026-09-20
 ---
 

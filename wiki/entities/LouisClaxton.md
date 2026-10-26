@@ -2,7 +2,7 @@
 title: "LouisClaxton"
 type: entity
 tags: [人物, Anthropic, 作者]
-sources: [raw/01-articles/2026-08-26-Anthropic 官方指南：AI Native 开发手册.md]
+sources: [raw/09-archive/2026-08-26-Anthropic 官方指南：AI Native 开发手册.md]
 last_updated: 2026-08-27
 ---
 

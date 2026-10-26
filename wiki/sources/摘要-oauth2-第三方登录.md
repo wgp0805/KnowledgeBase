@@ -2,7 +2,7 @@
 title: "摘要-oauth2-第三方登录"
 type: source
 tags: [来源, OAuth2, 第三方登录, 认证, 授权]
-sources: [raw/01-articles/搞定 OAuth 2.0 第三方登录，So Easy !.md]
+sources: [raw/09-archive/搞定 OAuth 2.0 第三方登录，So Easy !.md]
 last_updated: 2026-09-16
 ---
 

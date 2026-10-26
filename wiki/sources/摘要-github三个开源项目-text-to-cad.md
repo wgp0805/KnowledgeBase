@@ -2,7 +2,7 @@
 title: "摘要-github三个开源项目-text-to-cad"
 type: source
 tags: [来源, 开源项目, GitHub, CAD, 安卓, 视频]
-sources: [raw/01-articles/2026-10-16 - 最近逛GitHub，挖到3个给力的开源项目，第一个比较硬核。.md]
+sources: [raw/09-archive/2026-10-16 - 最近逛GitHub，挖到3个给力的开源项目，第一个比较硬核。.md]
 last_updated: 2026-10-19
 ---
 

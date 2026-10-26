@@ -2,7 +2,7 @@
 title: "StateGraph"
 type: concept
 tags: [LangGraph, 状态图, Agent编排]
-sources: [raw/01-articles/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md]
+sources: [raw/09-archive/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md]
 last_updated: 2026-08-28
 ---
 

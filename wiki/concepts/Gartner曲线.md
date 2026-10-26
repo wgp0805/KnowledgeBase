@@ -2,7 +2,7 @@
 title: "Gartner曲线"
 type: concept
 tags: [技术成熟度, 产品方法论, 周期判断]
-sources: ["raw/01-articles/2026-10-13-蚂蚁灵光内测新版 Personal Agent：接管钉钉、遥控电脑，一手体验！.md"]
+sources: ["raw/09-archive/2026-10-13-蚂蚁灵光内测新版 Personal Agent：接管钉钉、遥控电脑，一手体验！.md"]
 last_updated: 2026-10-14
 ---
 

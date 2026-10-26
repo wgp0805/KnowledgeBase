@@ -2,7 +2,7 @@
 title: "摘要-spring-ai-alibaba停更分析"
 type: source
 tags: [来源, 原始文件, SpringAIAlibaba, Java, AI框架]
-sources: ["raw/01-articles/2026-10-03 - Spring AI Alibaba已停更了，Java还有希望吗？.md"]
+sources: ["raw/09-archive/2026-10-03 - Spring AI Alibaba已停更了，Java还有希望吗？.md"]
 last_updated: 2026-10-08
 ---
 

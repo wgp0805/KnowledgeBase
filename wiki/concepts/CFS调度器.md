@@ -2,7 +2,7 @@
 title: "CFS调度器"
 type: concept
 tags: [Linux, 内核, 调度器, CFS]
-sources: [raw/01-articles/2026-08-24 - 面试官：什么是时间片？.md]
+sources: [raw/09-archive/2026-08-24 - 面试官：什么是时间片？.md]
 last_updated: 2026-08-25
 ---
 

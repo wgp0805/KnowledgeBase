@@ -2,7 +2,7 @@
 title: "AI Agent 是如何工作的？完整执行过程拆解"
 type: source
 tags: ["AI-Agent", "Context-Engineering", "面试题"]
-sources: ["raw/01-articles/AI Agent 是如何工作的？完整执行过程拆解.md"]
+sources: ["raw/09-archive/AI Agent 是如何工作的？完整执行过程拆解.md"]
 last_updated: 2026-09-01
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-LangChain4j Java AI智能体开发"
 type: source
 tags: [来源, AI框架, LangChain4j, Java]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md]
+sources: [raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md]
 last_updated: 2026-05-19
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-grok-bot-六助理ai团队"
 type: source
 tags: [来源, 原始文件, GrokBot, PersonalAIAgent, 多Agent]
-sources: [raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md]
+sources: [raw/09-archive/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md]
 last_updated: 2026-10-08
 ---
 

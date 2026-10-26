@@ -2,7 +2,7 @@
 title: "GitHubCopilot"
 type: entity
 tags: [AI编程, 微软, GitHub]
-sources: [raw/01-articles/IDEA 2026.2 必装插件 Top 100.md]
+sources: [raw/09-archive/IDEA 2026.2 必装插件 Top 100.md]
 last_updated: 2026-09-29
 ---
 

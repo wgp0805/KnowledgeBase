@@ -2,7 +2,7 @@
 title: "摘要-AI编码Agent从原理到可运行代码"
 type: source
 tags: [AI编码Agent, ReAct, 上下文工程, FunctionCalling, CodeAct, 安全沙箱, 架构分层]
-sources: [raw/01-articles/2026-08-30-AI 编码 Agent 从原理到可运行代码 - 哥不是小萝莉.md]
+sources: [raw/09-archive/2026-08-30-AI 编码 Agent 从原理到可运行代码 - 哥不是小萝莉.md]
 last_updated: 2026-08-31
 ---
 

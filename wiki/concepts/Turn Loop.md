@@ -2,7 +2,7 @@
 title: "Turn Loop"
 type: concept
 tags: [概念, Agent, 循环, 架构]
-sources: [raw/01-articles/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md]
+sources: [raw/09-archive/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md]
 last_updated: 2026-09-20
 ---
 

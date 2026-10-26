@@ -2,7 +2,7 @@
 title: "摘要-docker-frp-内网穿透"
 type: source
 tags: [来源, 内网穿透, Docker, FRP, 部署]
-sources: [raw/01-articles/2026-08-24 - 拒绝再买服务器！我用 Docker + FRP 实现内网穿透，舒服~.md]
+sources: [raw/09-archive/2026-08-24 - 拒绝再买服务器！我用 Docker + FRP 实现内网穿透，舒服~.md]
 last_updated: 2026-08-25
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-ai-agents-terminal-vscode"
 type: source
 tags: [来源, VSCode, Agent, 终端, 开发工具]
-sources: [raw/01-articles/2026-09-04-AI Agents Terminal：在 VS Code 状态栏一键启动你所有的 AI 编程 Agent - Cn#工作室.md]
+sources: [raw/09-archive/2026-09-04-AI Agents Terminal：在 VS Code 状态栏一键启动你所有的 AI 编程 Agent - Cn#工作室.md]
 last_updated: 2026-09-05
 ---
 

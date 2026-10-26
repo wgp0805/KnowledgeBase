@@ -2,7 +2,7 @@
 title: "TextSplitter"
 type: concept
 tags: [RAG, LangChain, 文本切分, 分块]
-sources: [raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md]
+sources: [raw/09-archive/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md]
 last_updated: 2026-08-10
 ---
 

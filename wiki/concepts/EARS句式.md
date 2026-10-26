@@ -2,7 +2,7 @@
 title: "EARS句式"
 type: concept
 tags: [概念, 需求工程, 规范驱动开发, 可判定性]
-sources: [raw/01-articles/2026-10-21-AI 时代下，需求文档的黄金模式：Spec.md]
+sources: [raw/09-archive/2026-10-21-AI 时代下，需求文档的黄金模式：Spec.md]
 last_updated: 2026-10-22
 ---
 

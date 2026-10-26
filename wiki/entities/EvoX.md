@@ -2,7 +2,7 @@
 title: "EvoX"
 type: entity
 tags: [工具, Agent, 多Agent, EvoMap, 蜂群模式]
-sources: [raw/01-articles/爽用 DeepSeek V4 Flash、GPT-5.6 Sol、GLM-5.2，EvoX 够猛！.md]
+sources: [raw/09-archive/爽用 DeepSeek V4 Flash、GPT-5.6 Sol、GLM-5.2，EvoX 够猛！.md]
 last_updated: 2026-08-13
 ---
 

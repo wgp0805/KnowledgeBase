@@ -2,7 +2,7 @@
 title: "QQ互联"
 type: entity
 tags: [实体, 第三方登录, 腾讯, OAuth]
-sources: [raw/01-articles/搞定 OAuth 2.0 第三方登录，So Easy !.md]
+sources: [raw/09-archive/搞定 OAuth 2.0 第三方登录，So Easy !.md]
 last_updated: 2026-09-16
 ---
 

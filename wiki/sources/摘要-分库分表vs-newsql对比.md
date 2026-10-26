@@ -2,7 +2,7 @@
 title: "摘要-分库分表vs-newsql对比"
 type: source
 tags: [来源, 原始文件, 分库分表, NewSQL, 数据库架构]
-sources: [raw/01-articles/2026-09-23 - 分库分表，可能真的要退出历史舞台了！.md]
+sources: [raw/09-archive/2026-09-23 - 分库分表，可能真的要退出历史舞台了！.md]
 last_updated: 2026-09-28
 ---
 

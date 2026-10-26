@@ -2,7 +2,7 @@
 title: "Tools/Workflow/Agent 三者层级递进关系与选型"
 type: source
 tags: [AI, Agent, Workflow, Tools, 面试, Anthropic]
-sources: [raw/01-articles/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md]
+sources: [raw/09-archive/美团二面：Agent、Tools、Workflow 这三个的概念和区别介绍一下？我：没接触过.md]
 last_updated: 2026-07-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-deepseek-harness命令大全"
 type: source
 tags: [来源, DeepSeek, Harness, dsh, CLI, 命令速查]
-sources: [raw/01-articles/2026-08-18 - DeepSeek Harness 命令大全.md]
+sources: [raw/09-archive/2026-08-18 - DeepSeek Harness 命令大全.md]
 last_updated: 2026-08-18
 ---
 

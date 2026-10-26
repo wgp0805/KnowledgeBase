@@ -2,7 +2,7 @@
 title: "摘要-casebook-ai-native-testcase-workflow"
 type: source
 tags: [来源, AI, 测试, Agent]
-sources: [raw/01-articles/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md]
+sources: [raw/09-archive/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md]
 last_updated: 2026-06-30
 ---
 

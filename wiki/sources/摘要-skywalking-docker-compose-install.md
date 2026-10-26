@@ -2,7 +2,7 @@
 title: "摘要-skywalking-docker-compose-install"
 type: source
 tags: [SkyWalking, 分布式追踪, Docker, 部署]
-sources: [raw/01-articles/2026-07-22-分布式链路追踪系统之docker-compose安装skywalking - Linux-1874.md]
+sources: [raw/09-archive/2026-07-22-分布式链路追踪系统之docker-compose安装skywalking - Linux-1874.md]
 last_updated: 2026-07-23
 ---
 

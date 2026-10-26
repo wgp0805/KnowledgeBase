@@ -2,7 +2,7 @@
 title: "摘要-agent-skills-经济学-月增5万星"
 type: source
 tags: [来源, Agent Skills, GitHub, 经济学, 团队资产]
-sources: [raw/01-articles/2026-08-24-GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗.md]
+sources: [raw/09-archive/2026-08-24-GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗.md]
 last_updated: 2026-08-25
 ---
 

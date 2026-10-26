@@ -2,7 +2,7 @@
 title: "摘要-git-撤回已push代码"
 type: source
 tags: [来源, Git, 版本回退]
-sources: [raw/01-articles/面试官：Git 如何撤回已 Push 的代码？问倒一大片。。。.md]
+sources: [raw/09-archive/面试官：Git 如何撤回已 Push 的代码？问倒一大片。。。.md]
 last_updated: 2026-07-08
 ---
 

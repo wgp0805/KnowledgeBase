@@ -2,7 +2,7 @@
 title: "摘要-superpowers-grill-me怎么选"
 type: source
 tags: [AI编程, Skill, grill-me, superpowers, 需求澄清]
-sources: [raw/01-articles/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md]
+sources: [raw/09-archive/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md]
 last_updated: 2026-08-05
 ---
 

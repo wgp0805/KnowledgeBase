@@ -2,7 +2,7 @@
 title: "摘要-agent任务闭环五层模型"
 type: source
 tags: [来源, 原始文件, Agent, 任务闭环, 产品设计]
-sources: [raw/01-articles/2026-09-25-做 Agent 半年才醒悟：对话框只是入口，真正的核心是任务闭环.md]
+sources: [raw/09-archive/2026-09-25-做 Agent 半年才醒悟：对话框只是入口，真正的核心是任务闭环.md]
 last_updated: 2026-09-28
 ---
 

@@ -2,7 +2,7 @@
 title: "拆解 Claude Code 的 Skill Creator 比我想象的还要猛"
 type: source
 tags: ["Claude-Code", "Skill-Creator", "沉默王二"]
-sources: ["raw/01-articles/我花了一整天拆解Claude Code的Skill Creator，发现这玩意儿比我想象的还要猛.md"]
+sources: ["raw/09-archive/我花了一整天拆解Claude Code的Skill Creator，发现这玩意儿比我想象的还要猛.md"]
 last_updated: 2026-09-01
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-ai协作协议三层框架"
 type: source
 tags: [来源, 原始文件, AI Native, 组织协议, 协作]
-sources: [raw/01-articles/2026-09-18-未来 5 年，最稀缺的不是会用 AI 的人，而是能设计 AI 协作协议的人.md]
+sources: [raw/09-archive/2026-09-18-未来 5 年，最稀缺的不是会用 AI 的人，而是能设计 AI 协作协议的人.md]
 last_updated: 2026-09-20
 ---
 

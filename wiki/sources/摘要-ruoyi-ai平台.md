@@ -2,7 +2,7 @@
 title: "摘要-ruoyi-ai平台"
 type: source
 tags: [Java, AI, RuoYi, SpringAI, Langchain4j, RAG, 开源, 简历项目]
-sources: [raw/01-articles/RuoYi 全栈 AI 平台开源了（若依）。.md]
+sources: [raw/09-archive/RuoYi 全栈 AI 平台开源了（若依）。.md]
 last_updated: 2026-08-13
 ---
 

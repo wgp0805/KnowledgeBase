@@ -2,7 +2,7 @@
 title: "摘要-claude-code-learning-roadmap"
 type: source
 tags: [来源, ClaudeCode, AI编程, 学习路线]
-sources: [raw/01-articles/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md]
+sources: [raw/09-archive/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md]
 last_updated: 2026-06-30
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-quarkus-cloud-native"
 type: source
 tags: [来源, 原始文件, Quarkus, 云原生, Java, 性能优化]
-sources: [raw/01-articles/2026-10-11 - 为什么越来越多人用Quarkus？.md]
+sources: [raw/09-archive/2026-10-11 - 为什么越来越多人用Quarkus？.md]
 last_updated: 2026-10-12
 ---
 

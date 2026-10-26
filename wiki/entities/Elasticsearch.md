@@ -6,11 +6,11 @@ sources:
   - raw/09-archive/从 0 到 1 学习 elasticsearch ，这一篇就够了！(建议收藏).md
   - raw/09-archive/Elasticsearch 8.10安装（新人必看）.md
   - raw/09-archive/Elasticsearch 全景指南：从入门到原理深度解析.md
-  - raw/01-articles/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
-  - raw/01-articles/2026-08-31 - 面试官：ElasticSearch 为什么快？.md
-  - raw/01-articles/面试官：Elasticsearch 支持事务吗？为什么？.md
-  - raw/01-articles/面试官：什么是 Elasticsearch 的深度分页问题？如何解决？.md
-  - raw/01-articles/滴滴二面：怎么保证 ElasticSearch 和数据库的数据一致性？.md
+  - raw/09-archive/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
+  - raw/09-archive/2026-08-31 - 面试官：ElasticSearch 为什么快？.md
+  - raw/09-archive/面试官：Elasticsearch 支持事务吗？为什么？.md
+  - raw/09-archive/面试官：什么是 Elasticsearch 的深度分页问题？如何解决？.md
+  - raw/09-archive/滴滴二面：怎么保证 ElasticSearch 和数据库的数据一致性？.md
 last_updated: 2026-09-18
 ---
 

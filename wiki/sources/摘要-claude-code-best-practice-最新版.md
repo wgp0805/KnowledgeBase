@@ -2,7 +2,7 @@
 title: "摘要-claude-code-best-practice-最新版"
 type: source
 tags: [来源, Claude Code, 最佳实践, 工作流]
-sources: [raw/01-articles/Claude Code 最佳实践（最新版）.md]
+sources: [raw/09-archive/Claude Code 最佳实践（最新版）.md]
 last_updated: 2026-07-14
 ---
 

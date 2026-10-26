@@ -2,7 +2,7 @@
 title: "MybatisPlusPro"
 type: entity
 tags: [实体, ORM, MyBatisPlus, Java, CRUD]
-sources: [raw/01-articles/2026-10-02 - 为什么越来越多人用 MybatisPlus Pro？.md]
+sources: [raw/09-archive/2026-10-02 - 为什么越来越多人用 MybatisPlus Pro？.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-ai-product-experience-evaluation"
 type: source
 tags: [来源, AI产品, 体验评测, 用户研究, 商业化]
-sources: [raw/01-articles/2026-10-10-为什么 AI 产品需要体验评测.md]
+sources: [raw/09-archive/2026-10-10-为什么 AI 产品需要体验评测.md]
 last_updated: 2026-10-12
 ---
 

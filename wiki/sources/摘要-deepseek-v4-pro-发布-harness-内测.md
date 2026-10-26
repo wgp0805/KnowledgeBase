@@ -2,7 +2,7 @@
 title: "摘要-deepseek-v4-pro-发布-harness-内测"
 type: source
 tags: [来源, DeepSeek, V4 Pro, Harness, Responses API, Agent, 面试]
-sources: [raw/01-articles/DeepSeek 员工：DeepSeek V4 Pro 正式发布，Harness 也进入最后一个内测版本（附Agent面试题）.md]
+sources: [raw/09-archive/DeepSeek 员工：DeepSeek V4 Pro 正式发布，Harness 也进入最后一个内测版本（附Agent面试题）.md]
 last_updated: 2026-08-13
 ---
 

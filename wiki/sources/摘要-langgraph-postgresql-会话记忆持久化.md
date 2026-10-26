@@ -2,7 +2,7 @@
 title: "摘要-langgraph-postgresql-会话记忆持久化"
 type: source
 tags: [来源, 原始文件, LangGraph, PostgreSQL, 会话记忆, 持久化]
-sources: [raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md]
+sources: [raw/09-archive/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md]
 last_updated: 2026-08-21
 ---
 

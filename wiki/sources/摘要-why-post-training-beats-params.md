@@ -2,7 +2,7 @@
 title: "DeepSeek V4 Flash 激活参数比 Pro 小 Agent 能力为什么超过 Pro"
 type: source
 tags: ["DeepSeek-V4", "后训练", "面试题"]
-sources: ["raw/01-articles/DeepSeek V4 Flash 正式版的激活参数比 V4 Pro 小得多，Agent 能力为什么超过了 Pro 预览版？.md"]
+sources: ["raw/09-archive/DeepSeek V4 Flash 正式版的激活参数比 V4 Pro 小得多，Agent 能力为什么超过了 Pro 预览版？.md"]
 last_updated: 2026-09-01
 ---
 

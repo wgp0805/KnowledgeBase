@@ -2,7 +2,7 @@
 title: "AIService"
 type: concept
 tags: [AI, 声明式接口, LangChain4j]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md, raw/01-articles/LangChain4j 入门指南.md]
+sources: [raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/09-archive/如何在Spring Boot中无缝集成LangChain4j，玩转AI大模型！.md, raw/09-archive/LangChain4j 入门指南.md]
 last_updated: 2026-08-03
 ---
 

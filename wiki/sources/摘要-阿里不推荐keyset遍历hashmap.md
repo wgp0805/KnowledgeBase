@@ -2,7 +2,7 @@
 title: "为什么阿里不推荐使用 keySet() 遍历 HashMap？"
 type: source
 tags: [Java, HashMap, keySet, entrySet, 遍历, 阿里巴巴开发手册, 源码分析]
-sources: [raw/01-articles/2026-09-12 - 为什么阿里不推荐使用 keySet（） 遍历 HashMap？.md]
+sources: [raw/09-archive/2026-09-12 - 为什么阿里不推荐使用 keySet（） 遍历 HashMap？.md]
 last_updated: 2026-09-14
 ---
 

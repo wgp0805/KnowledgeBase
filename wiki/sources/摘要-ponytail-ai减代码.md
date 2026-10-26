@@ -2,7 +2,7 @@
 title: "摘要-ponytail-ai减代码"
 type: source
 tags: [来源, 原始文件, AI编程, 减法思维]
-sources: [raw/01-articles/20.9k Star 的开源项目，让你的 AI 少写点废代码.md]
+sources: [raw/09-archive/20.9k Star 的开源项目，让你的 AI 少写点废代码.md]
 last_updated: 2026-07-08
 ---
 

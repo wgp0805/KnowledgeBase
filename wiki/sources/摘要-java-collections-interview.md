@@ -2,7 +2,7 @@
 title: "Java 集合框架八股文（理解版）"
 type: source
 tags: ["Java", "集合框架", "面试题", "沉默王二"]
-sources: ["raw/01-articles/Java 集合框架八股文（理解版）.md"]
+sources: ["raw/09-archive/Java 集合框架八股文（理解版）.md"]
 last_updated: 2026-09-01
 ---
 

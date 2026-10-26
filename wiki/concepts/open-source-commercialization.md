@@ -2,7 +2,7 @@
 title: "open-source-commercialization"
 type: concept
 tags: [商业模式, 开源, 商业]
-sources: [raw/01-articles/MinIO 社区版被故意阉割，Web管理功能全面移除，来试试国产的RustFS？.md]
+sources: [raw/09-archive/MinIO 社区版被故意阉割，Web管理功能全面移除，来试试国产的RustFS？.md]
 last_updated: 2026-07-22
 ---
 

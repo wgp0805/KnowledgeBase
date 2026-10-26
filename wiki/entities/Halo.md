@@ -2,7 +2,7 @@
 title: "Halo"
 type: entity
 tags: [博客系统, Java, 开源]
-sources: [raw/01-articles/2026-07-26-分布式链路追踪系统之skywalking java agent 的使用、skywalking web界面简介 - Linux-1874.md]
+sources: [raw/09-archive/2026-07-26-分布式链路追踪系统之skywalking java agent 的使用、skywalking web界面简介 - Linux-1874.md]
 last_updated: 2026-07-27
 ---
 

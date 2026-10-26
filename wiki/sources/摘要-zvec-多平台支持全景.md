@@ -2,7 +2,7 @@
 title: "摘要-zvec-多平台支持全景"
 type: source
 tags: [来源, 原始文件, 向量数据库, Zvec, 多平台]
-sources: [raw/01-articles/2026-09-18-让向量检索随处可用：Zvec 多平台支持全景 - DashVector.md]
+sources: [raw/09-archive/2026-09-18-让向量检索随处可用：Zvec 多平台支持全景 - DashVector.md]
 last_updated: 2026-09-20
 ---
 

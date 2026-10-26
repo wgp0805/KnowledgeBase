@@ -2,7 +2,7 @@
 title: "摘要-claude-code-plugins-official"
 type: source
 tags: [Claude Code, 插件, Anthropic]
-sources: [raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md]
+sources: [raw/09-archive/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md]
 last_updated: 2026-06-02
 ---
 

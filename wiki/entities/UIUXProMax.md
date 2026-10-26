@@ -2,7 +2,7 @@
 title: "UIUXProMax"
 type: entity
 tags: [实体, Skill, 设计, 工具]
-sources: [raw/01-articles/2026-10-11 - WorkBuddy最值得推荐的15个技能（10月最新版）.md]
+sources: [raw/09-archive/2026-10-11 - WorkBuddy最值得推荐的15个技能（10月最新版）.md]
 last_updated: 2026-10-12
 ---
 

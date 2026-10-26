@@ -2,7 +2,7 @@
 title: "Quartz"
 type: entity
 tags: [Java, 任务调度, 开源框架]
-sources: [raw/01-articles/项目终于用上了 PowerJob，睡觉真香！.md]
+sources: [raw/09-archive/项目终于用上了 PowerJob，睡觉真香！.md]
 last_updated: 2026-07-08
 ---
 

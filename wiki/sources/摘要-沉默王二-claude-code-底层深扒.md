@@ -2,7 +2,7 @@
 title: "摘要-沉默王二-claude-code-底层深扒"
 type: source
 tags: [Claude Code, 架构, 沉默王二, 微信公众号]
-sources: [raw/01-articles/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md]
+sources: [raw/09-archive/老板：“刚刚，阿里全面禁用Claude，我们要不要跟风？”，我：“Claude Code的底层我刚严肃深扒，别上头。”.md]
 last_updated: 2026-07-03
 ---
 

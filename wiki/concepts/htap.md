@@ -2,7 +2,7 @@
 title: "htap"
 type: concept
 tags: [数据库, OLTP, OLAP, 架构]
-sources: [raw/01-articles/2026-09-25 - 分库分表，可能真的要退出历史舞台了！.md]
+sources: [raw/09-archive/2026-09-25 - 分库分表，可能真的要退出历史舞台了！.md]
 last_updated: 2026-09-28
 ---
 

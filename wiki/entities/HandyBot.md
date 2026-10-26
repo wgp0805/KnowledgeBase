@@ -2,7 +2,7 @@
 title: "HandyBot"
 type: entity
 tags: [AI产品, PersonalAgent, 腾讯, 传闻产品]
-sources: [raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/09-archive/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md]
+sources: [raw/09-archive/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/09-archive/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md]
 last_updated: 2026-10-08
 ---
 

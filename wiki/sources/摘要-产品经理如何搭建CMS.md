@@ -2,7 +2,7 @@
 title: "摘要-产品经理如何搭建CMS"
 type: source
 tags: [CMS, 产品经理, 内容管理, 内容模型, 权限设计, 版本管理]
-sources: [raw/01-articles/2026-08-29-产品经理如何搭建 CMS？从一条内容的流转开始.md]
+sources: [raw/09-archive/2026-08-29-产品经理如何搭建 CMS？从一条内容的流转开始.md]
 last_updated: 2026-08-31
 ---
 

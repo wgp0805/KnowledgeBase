@@ -2,7 +2,7 @@
 title: "VibeCoding"
 type: concept
 tags: [AI编程, 编程范式, 认知卸载, 开发流程]
-sources: [raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, https://v.douyin.com/U8iw9gPpXE0/, https://v.douyin.com/RC50ybDPZoY/, raw/01-articles/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md, raw/01-articles/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md, raw/01-articles/2026-09-23-非技术背景做Vibe Coding，我踩过的最大坑是API Key泄露.md]
+sources: [raw/09-archive/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, https://v.douyin.com/U8iw9gPpXE0/, https://v.douyin.com/RC50ybDPZoY/, raw/09-archive/从 vibe coding 到 spec coding：我一年多使用AI开发的实践总结.md, raw/09-archive/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md, raw/09-archive/2026-09-23-非技术背景做Vibe Coding，我踩过的最大坑是API Key泄露.md]
 last_updated: 2026-09-28
 ---
 

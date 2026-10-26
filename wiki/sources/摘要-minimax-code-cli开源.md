@@ -2,7 +2,7 @@
 title: "摘要-minimax-code-cli开源"
 type: source
 tags: [来源, 原始文件, MiniMax, Code CLI, 开源, Pi]
-sources: [raw/01-articles/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md]
+sources: [raw/09-archive/2026-09-19 - MiniMax 版 Claude Code 开源，夯。.md]
 last_updated: 2026-09-20
 ---
 

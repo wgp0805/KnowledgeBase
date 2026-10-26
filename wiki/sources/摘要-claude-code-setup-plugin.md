@@ -2,7 +2,7 @@
 title: "摘要-claude-code-setup-plugin"
 type: source
 tags: [来源, ClaudeCode, 插件, 自动化配置]
-sources: [raw/01-articles/Claude 又开源了一款新插件，让你的 Claude Code 满血复活！.md]
+sources: [raw/09-archive/Claude 又开源了一款新插件，让你的 Claude Code 满血复活！.md]
 last_updated: 2026-06-24
 ---
 

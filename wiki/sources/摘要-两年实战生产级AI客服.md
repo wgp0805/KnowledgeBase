@@ -2,7 +2,7 @@
 title: "摘要-两年实战生产级AI客服"
 type: source
 tags: [来源, 原始文件, AI客服, RAG, 知识工程, 生产系统]
-sources: [raw/01-articles/2026-09-20-【两年实战】一个生产级 AI 客服，到底是怎么做出来的？.md]
+sources: [raw/09-archive/2026-09-20-【两年实战】一个生产级 AI 客服，到底是怎么做出来的？.md]
 last_updated: 2026-09-21
 ---
 

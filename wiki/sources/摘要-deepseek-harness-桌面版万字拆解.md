@@ -2,7 +2,7 @@
 title: "摘要-deepseek-harness-桌面版万字拆解"
 type: source
 tags: [来源, 原始文件, DeepSeekHarness, 插件, 产品拆解]
-sources: [raw/01-articles/2026-10-05-万字拆解 DeepSeek Harness 桌面版：产品设计、任务实测与能力边界.md]
+sources: [raw/09-archive/2026-10-05-万字拆解 DeepSeek Harness 桌面版：产品设计、任务实测与能力边界.md]
 last_updated: 2026-10-08
 ---
 

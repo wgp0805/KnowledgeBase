@@ -2,7 +2,7 @@
 title: "什么是 Harness Engineering？为什么 Agent 需要运行时？"
 type: source
 tags: ["Harness-Engineering", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/什么是 Harness Engineering？为什么 Agent 需要运行时？.md"]
+sources: ["raw/09-archive/什么是 Harness Engineering？为什么 Agent 需要运行时？.md"]
 last_updated: 2026-09-01
 ---
 

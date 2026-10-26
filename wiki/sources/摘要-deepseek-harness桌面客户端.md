@@ -2,7 +2,7 @@
 title: "摘要-deepseek-harness桌面客户端"
 type: source
 tags: [来源, 原始文件, DeepSeekHarness, 桌面Agent, 办公Agent]
-sources: [raw/01-articles/2026-09-25-DeepSeek Harness客户端来了，AI办公又多了一个王者？.md]
+sources: [raw/09-archive/2026-09-25-DeepSeek Harness客户端来了，AI办公又多了一个王者？.md]
 last_updated: 2026-09-28
 ---
 

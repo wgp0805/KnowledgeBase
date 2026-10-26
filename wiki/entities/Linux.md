@@ -2,7 +2,7 @@
 title: "Linux"
 type: entity
 tags: [操作系统, 服务器]
-sources: [raw/09-archive/Liunx常用命令.md, raw/09-archive/liunx命令总结（600条）.md, raw/09-archive/liunx查找文件内的关键字.md, raw/09-archive/liunx挂载硬盘.md, raw/09-archive/liunx链接Ftp和Sftp.md, raw/01-articles/2026-09-26 - 服务器被入侵怎么办？看我操作.md]
+sources: [raw/09-archive/Liunx常用命令.md, raw/09-archive/liunx命令总结（600条）.md, raw/09-archive/liunx查找文件内的关键字.md, raw/09-archive/liunx挂载硬盘.md, raw/09-archive/liunx链接Ftp和Sftp.md, raw/09-archive/2026-09-26 - 服务器被入侵怎么办？看我操作.md]
 last_updated: 2026-09-28
 ---
 

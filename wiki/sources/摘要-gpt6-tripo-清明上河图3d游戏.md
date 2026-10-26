@@ -2,7 +2,7 @@
 title: "摘要-gpt6-tripo-清明上河图3d游戏"
 type: source
 tags: [来源, 原始文件, 3D, AI游戏, Tripo, GPT-6]
-sources: [raw/01-articles/2026-09-18-从 Demo 到3D游戏，GPT-6 加 Tripo 把清明上河图“整活”了！.md]
+sources: [raw/09-archive/2026-09-18-从 Demo 到3D游戏，GPT-6 加 Tripo 把清明上河图“整活”了！.md]
 last_updated: 2026-09-20
 ---
 

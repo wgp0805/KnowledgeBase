@@ -2,7 +2,7 @@
 title: "OpenMuse"
 type: entity
 tags: [AI-Agent, 个人Agent, 浏览器自动化, 开源]
-sources: [raw/09-archive/为什么越来越多人用OpenMuse？.md, raw/01-articles/2026-10-08 - 轻量开源版 Muse 来了！.md, "raw/01-articles/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md"]
+sources: [raw/09-archive/为什么越来越多人用OpenMuse？.md, raw/09-archive/2026-10-08 - 轻量开源版 Muse 来了！.md, "raw/09-archive/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md"]
 last_updated: 2026-10-12
 ---
 

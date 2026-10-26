@@ -2,7 +2,7 @@
 title: "GitHub定律"
 type: concept
 tags: [开源, 复刻, 产品竞争, GitHub, AI趋势]
-sources: [raw/01-articles/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md]
+sources: [raw/09-archive/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "Claude Code 源码泄露 我熬了一夜发现了 6 个神级 Agent 和 Prompt"
 type: source
 tags: ["Claude-Code", "源码泄露", "Prompt", "沉默王二"]
-sources: ["raw/01-articles/Claude Code 源码泄露，我熬了一夜，发现了 6 个神级 Agent 和 Prompt.md"]
+sources: ["raw/09-archive/Claude Code 源码泄露，我熬了一夜，发现了 6 个神级 Agent 和 Prompt.md"]
 last_updated: 2026-09-01
 ---
 

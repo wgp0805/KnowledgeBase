@@ -2,7 +2,7 @@
 title: "Log4j2"
 type: entity
 tags: [Java, 日志框架, Apache, 高性能, 异步日志, SLF4J]
-sources: [raw/01-articles/logback VS log4j2：一倍左右的性能差异，是时候注意了！.md]
+sources: [raw/09-archive/logback VS log4j2：一倍左右的性能差异，是时候注意了！.md]
 last_updated: 2026-07-08
 ---
 

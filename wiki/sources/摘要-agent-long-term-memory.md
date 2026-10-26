@@ -2,7 +2,7 @@
 title: "Agent 的长期记忆是怎么实现的"
 type: source
 tags: ["长期记忆", "AI-Agent", "面试题"]
-sources: ["raw/01-articles/Agent 的长期记忆是怎么实现的？.md"]
+sources: ["raw/09-archive/Agent 的长期记忆是怎么实现的？.md"]
 last_updated: 2026-09-01
 ---
 

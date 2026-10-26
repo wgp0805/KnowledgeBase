@@ -2,7 +2,7 @@
 title: "SuperProgramming开发流程"
 type: concept
 tags: [AI编程, 开发流程, 协作规范, 工程实践]
-sources: [raw/01-articles/2026-07-29-前端转全栈：我给AI立了36行规矩，它陪我啃下了第一个Java模块 - 舒克无良.md]
+sources: [raw/09-archive/2026-07-29-前端转全栈：我给AI立了36行规矩，它陪我啃下了第一个Java模块 - 舒克无良.md]
 last_updated: 2026-07-30
 ---
 

@@ -2,7 +2,7 @@
 title: "iText9"
 type: entity
 tags: [实体, 工具库, Java, PDF, SDK, 加密, 数字签名]
-sources: [raw/01-articles/iText 9，Java解析PDF神器 ！.md]
+sources: [raw/09-archive/iText 9，Java解析PDF神器 ！.md]
 last_updated: 2026-09-15
 ---
 

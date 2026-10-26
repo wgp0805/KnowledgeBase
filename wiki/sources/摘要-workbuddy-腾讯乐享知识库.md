@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-腾讯乐享知识库"
 type: source
 tags: [来源, 原始文件, WorkBuddy, 腾讯乐享, 知识库, LLM Wiki]
-sources: [raw/01-articles/2026-09-19-WorkBuddy + 腾讯乐享，原来知识库还能这么用.md]
+sources: [raw/09-archive/2026-09-19-WorkBuddy + 腾讯乐享，原来知识库还能这么用.md]
 last_updated: 2026-09-20
 ---
 

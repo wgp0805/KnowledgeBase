@@ -2,7 +2,7 @@
 title: "Gavin Baker：所有人都在等 AI 泡沫，但算力还是不够"
 type: source
 tags: [AI泡沫, 算力, GPU, 英伟达, 数据中心, Token消耗, 投资判断, 轨道数据中心]
-sources: [raw/01-articles/2026-09-11-Gavin Baker：所有人都在等 AI 泡沫，但算力还是不够.md]
+sources: [raw/09-archive/2026-09-11-Gavin Baker：所有人都在等 AI 泡沫，但算力还是不够.md]
 last_updated: 2026-09-14
 ---
 

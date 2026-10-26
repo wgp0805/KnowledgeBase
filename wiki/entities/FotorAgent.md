@@ -2,7 +2,7 @@
 title: "FotorAgent"
 type: entity
 tags: [实体, AI视频, MG动画, 代码生成视频, 商业产品]
-sources: [raw/01-articles/2026-10-21-Opus 同款视频玩法：会说话就能做 MG 动画视频，国内直接用.md]
+sources: [raw/09-archive/2026-10-21-Opus 同款视频玩法：会说话就能做 MG 动画视频，国内直接用.md]
 last_updated: 2026-10-22
 ---
 

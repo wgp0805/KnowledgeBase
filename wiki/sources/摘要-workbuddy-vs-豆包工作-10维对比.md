@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-vs-豆包工作-10维对比"
 type: source
 tags: [来源, 原始文件, WorkBuddy, 豆包工作, 办公Agent, 选型]
-sources: ["raw/01-articles/2026-10-03 - WorkBuddy 与 豆包工作 该选谁？我们从10个方面深度分析对比.md"]
+sources: ["raw/09-archive/2026-10-03 - WorkBuddy 与 豆包工作 该选谁？我们从10个方面深度分析对比.md"]
 last_updated: 2026-10-08
 ---
 

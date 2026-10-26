@@ -2,7 +2,7 @@
 title: "摘要-jackson3升级详解"
 type: source
 tags: [来源, Jackson, Java, JSON, 升级]
-sources: [raw/01-articles/2026-09-05 - 为什么越来越多人使用 Jackson 3 ？.md]
+sources: [raw/09-archive/2026-09-05 - 为什么越来越多人使用 Jackson 3 ？.md]
 last_updated: 2026-09-05
 ---
 

@@ -2,7 +2,7 @@
 title: "MQTT协议"
 type: concept
 tags: [物联网, 通信协议, 发布订阅, 轻量级, 生产实战]
-sources: [raw/09-archive/程序汪6万接的无人图书柜项目，开发周期30天.md, "raw/01-articles/2026-09-11 - 4万弹珠机项目，程序员AI提效20天交付.md", "raw/01-articles/2026-10-13-MQTT 生产实战 - 用了 8 年 MQTT，我为什么还要重新系统啃一遍（一） - IT规划师.md"]
+sources: [raw/09-archive/程序汪6万接的无人图书柜项目，开发周期30天.md, "raw/09-archive/2026-09-11 - 4万弹珠机项目，程序员AI提效20天交付.md", "raw/09-archive/2026-10-13-MQTT 生产实战 - 用了 8 年 MQTT，我为什么还要重新系统啃一遍（一） - IT规划师.md"]
 last_updated: 2026-10-14
 ---
 

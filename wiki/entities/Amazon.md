@@ -2,7 +2,7 @@
 title: "Amazon"
 type: entity
 tags: [电商, 平台政策, AI代理, Agent生态]
-sources: [raw/01-articles/2026-09-27-Meta Muse为超级智能买单.md]
+sources: [raw/09-archive/2026-09-27-Meta Muse为超级智能买单.md]
 last_updated: 2026-09-28
 ---
 

@@ -2,7 +2,7 @@
 title: "Claude Code 8问，最狠难题怎么破"
 type: source
 tags: [Claude Code, AI编程, Skill, MCP, 代码图谱, PDF检索, 排障]
-sources: [raw/01-articles/2026-09-10-Claude Code 8问，最狠难题怎么破 - 码哥字节.md]
+sources: [raw/09-archive/2026-09-10-Claude Code 8问，最狠难题怎么破 - 码哥字节.md]
 last_updated: 2026-09-14
 ---
 

@@ -2,7 +2,7 @@
 title: "TaskDelegationSystem"
 type: concept
 tags: [概念, AI产品, Agent, 护城河, 产品分析]
-sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md]
+sources: [raw/09-archive/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md]
 last_updated: 2026-08-27
 ---
 

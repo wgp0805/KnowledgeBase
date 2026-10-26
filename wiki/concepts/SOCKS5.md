@@ -2,7 +2,7 @@
 title: "SOCKS5"
 type: concept
 tags: [网络协议, 代理, Python, RFC1929]
-sources: [raw/01-articles/2026-08-23-同一个SOCKS5代理，为什么requests能用，aiohttp却一直报407 Proxy Authentication Required？.md]
+sources: [raw/09-archive/2026-08-23-同一个SOCKS5代理，为什么requests能用，aiohttp却一直报407 Proxy Authentication Required？.md]
 last_updated: 2026-08-24
 ---
 

@@ -2,7 +2,7 @@
 title: "Pydantic"
 type: entity
 tags: [Python, 数据校验, 类型安全]
-sources: [raw/01-articles/FastAPI 入门教程.md]
+sources: [raw/09-archive/FastAPI 入门教程.md]
 last_updated: 2026-06-29
 ---
 

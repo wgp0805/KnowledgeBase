@@ -2,7 +2,7 @@
 title: "摘要-deepinfer-deepseek开源推理框架"
 type: source
 tags: [来源, 大模型推理, 开源, DeepSeek]
-sources: [raw/01-articles/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
+sources: [raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
 last_updated: 2026-10-22
 ---
 

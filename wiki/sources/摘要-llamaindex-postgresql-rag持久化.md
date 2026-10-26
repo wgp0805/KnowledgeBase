@@ -2,7 +2,7 @@
 title: "摘要-llamaindex-postgresql-rag持久化"
 type: source
 tags: [来源, 原始文件, RAG, LlamaIndex, PostgreSQL, pgvector]
-sources: [raw/01-articles/2026-09-18-基于 LlamaIndex+PostgreSQL 实现RAG持久化 - lyshark.md]
+sources: [raw/09-archive/2026-09-18-基于 LlamaIndex+PostgreSQL 实现RAG持久化 - lyshark.md]
 last_updated: 2026-09-20
 ---
 

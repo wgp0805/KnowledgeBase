@@ -2,7 +2,7 @@
 title: "Mods"
 type: concept
 tags: [ClaudeCode, Agent扩展, 事件中间件, Mods]
-sources: [raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/01-articles/2026-10-05-万字拆解 DeepSeek Harness 桌面版：产品设计、任务实测与能力边界.md, raw/01-articles/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md]
+sources: [raw/09-archive/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md, raw/09-archive/2026-10-05-万字拆解 DeepSeek Harness 桌面版：产品设计、任务实测与能力边界.md, raw/09-archive/2026-10-05-Claude Code Mod 实测：给编程助手做一个自定义面板.md]
 last_updated: 2026-10-08
 ---
 

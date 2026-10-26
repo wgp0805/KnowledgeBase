@@ -2,7 +2,7 @@
 title: "Cynefin框架"
 type: concept
 tags: [概念, 决策框架, 方法论, 复杂性]
-sources: [raw/01-articles/2026-10-01-AI 时代产品经理的竞争力迭代：从方法论执行到经营判断力升维.md]
+sources: [raw/09-archive/2026-10-01-AI 时代产品经理的竞争力迭代：从方法论执行到经营判断力升维.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-ai-coding组件库三路接入"
 type: source
 tags: [来源, 原始文件, AI-Coding, 组件库, MCP, Skills]
-sources: [raw/01-articles/2026-10-19-AI Coding中组件库的接入技巧+保姆级指令案例！.md]
+sources: [raw/09-archive/2026-10-19-AI Coding中组件库的接入技巧+保姆级指令案例！.md]
 last_updated: 2026-10-20
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-springboot4-security7-vue3-best-practice"
 type: source
 tags: [SpringBoot, SpringSecurity, Vue3, 前后端分离, JWT, RBAC]
-sources: [raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md]
+sources: [raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md]
 last_updated: 2026-05-20
 ---
 

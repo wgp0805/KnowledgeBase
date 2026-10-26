@@ -2,7 +2,7 @@
 title: "摘要-GPT-image-2服装设计玩法"
 type: source
 tags: [来源, 原始文件, AI绘画, 服装设计]
-sources: [raw/01-articles/GPT-image-2 的新玩法，整个设计行业要完蛋了。。。.md]
+sources: [raw/09-archive/GPT-image-2 的新玩法，整个设计行业要完蛋了。。。.md]
 last_updated: 2026-06-23
 ---
 

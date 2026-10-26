@@ -2,7 +2,7 @@
 title: "elevated-sandbox"
 type: concept
 tags: [Windows, 安全, 沙箱, Codex, write-restricted-token]
-sources: [raw/01-articles/2026-08-23-codex windows平台中elevated sandbox机制学习 - 三国梦回.md]
+sources: [raw/09-archive/2026-08-23-codex windows平台中elevated sandbox机制学习 - 三国梦回.md]
 last_updated: 2026-08-24
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-langgraph-server-本地部署"
 type: source
 tags: [来源, LangGraph, 本地部署, llama.cpp, 离线Agent]
-sources: [raw/01-articles/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md]
+sources: [raw/09-archive/2026-08-24-LangGraph Server Agent 框架本地部署指南 - lyshark.md]
 last_updated: 2026-08-25
 ---
 

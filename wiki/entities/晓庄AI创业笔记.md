@@ -2,7 +2,7 @@
 title: "晓庄AI创业笔记"
 type: entity
 tags: [作者, AI创业, 效率工具, 微信公众号]
-sources: ["raw/01-articles/2026-10-13-WorkBuddy 自动签到：不开机也能 7×24 白嫖 100 积分天！.md"]
+sources: ["raw/09-archive/2026-10-13-WorkBuddy 自动签到：不开机也能 7×24 白嫖 100 积分天！.md"]
 last_updated: 2026-10-14
 ---
 

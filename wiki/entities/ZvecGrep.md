@@ -2,7 +2,7 @@
 title: "ZvecGrep"
 type: entity
 tags: [开源工具, 本地搜索, Agent工具, 混合检索, 向量数据库]
-sources: [raw/01-articles/2026-09-15-只会搜关键词还不够，Agent 需要一套更聪明的本地搜索.md]
+sources: [raw/09-archive/2026-09-15-只会搜关键词还不够，Agent 需要一套更聪明的本地搜索.md]
 last_updated: 2026-09-15
 ---
 

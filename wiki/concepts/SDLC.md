@@ -2,7 +2,7 @@
 title: "SDLC"
 type: concept
 tags: [概念, 软件工程, 方法论]
-sources: [raw/01-articles/2026-08-26-Anthropic 官方指南：AI Native 开发手册.md]
+sources: [raw/09-archive/2026-08-26-Anthropic 官方指南：AI Native 开发手册.md]
 last_updated: 2026-08-27
 ---
 

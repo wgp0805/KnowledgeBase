@@ -2,7 +2,7 @@
 title: "摘要-codex-97percent-技巧"
 type: source
 tags: [Codex, AI工具, AGENTS.md, Skill, MCP, Git, Worktree]
-sources: [raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md]
+sources: [raw/09-archive/3 分钟掌握 Codex 97% 的功能，超实用教程！.md]
 last_updated: 2026-07-07
 ---
 

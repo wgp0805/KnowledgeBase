@@ -2,7 +2,7 @@
 title: "摘要-YC投资人最在意的问题"
 type: source
 tags: [来源, 原始文件, 创业, 财富观]
-sources: [raw/01-articles/2026-08-25-YC 投资人最在意的问题，大多数创始人却从没认真想过.md]
+sources: [raw/09-archive/2026-08-25-YC 投资人最在意的问题，大多数创始人却从没认真想过.md]
 last_updated: 2026-08-26
 ---
 

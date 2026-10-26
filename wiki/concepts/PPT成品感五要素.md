@@ -2,7 +2,7 @@
 title: "PPT成品感五要素"
 type: concept
 tags: [PPT, 设计, 汇报, 排版]
-sources: [raw/01-articles/2026-09-27-你的workbuddy vs 我的workbuddy，差距就在这里！！.md]
+sources: [raw/09-archive/2026-09-27-你的workbuddy vs 我的workbuddy，差距就在这里！！.md]
 last_updated: 2026-09-28
 ---
 

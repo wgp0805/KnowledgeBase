@@ -2,7 +2,7 @@
 title: "Next.js"
 type: entity
 tags: [前端框架, React, 全栈, Vercel]
-sources: [raw/01-articles/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
+sources: [raw/09-archive/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
 last_updated: 2026-09-17
 ---
 

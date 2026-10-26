@@ -2,7 +2,7 @@
 title: "摘要-agent信任与决策权100条"
 type: source
 tags: [来源, PersonalAgent, 信任, 委托, 商业模式]
-sources: [raw/01-articles/2026-10-08-关于 AI Agent、信任与决策权的 100 条.md]
+sources: [raw/09-archive/2026-10-08-关于 AI Agent、信任与决策权的 100 条.md]
 last_updated: 2026-10-09
 ---
 

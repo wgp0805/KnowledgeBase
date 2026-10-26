@@ -2,7 +2,7 @@
 title: "GuavaRetrying"
 type: entity
 tags: [实体, Java, 重试框架, Guava生态]
-sources: [raw/01-articles/2026-10-01 - 消息重试框架 Spring-Retry 和 Guava-Retry，这个框架有点意思.md]
+sources: [raw/09-archive/2026-10-01 - 消息重试框架 Spring-Retry 和 Guava-Retry，这个框架有点意思.md]
 last_updated: 2026-10-08
 ---
 

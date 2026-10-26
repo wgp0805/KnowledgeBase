@@ -2,7 +2,7 @@
 title: "摘要-claude-code-pi-tool设计原则"
 type: source
 tags: [来源, 原始文件, Tool设计, ClaudeCode, Pi, Agent面试]
-sources: [raw/01-articles/Claude Code 和 Pi Agent 中 Tool 的设计原则。.md]
+sources: [raw/09-archive/Claude Code 和 Pi Agent 中 Tool 的设计原则。.md]
 last_updated: 2026-10-20
 ---
 

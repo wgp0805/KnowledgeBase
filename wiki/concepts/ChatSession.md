@@ -2,7 +2,7 @@
 title: "ChatSession"
 type: concept
 tags: [AI, 对话记忆, 会话管理, LLM]
-sources: [raw/01-articles/2026-07-04-用 ChatModel 构建 LLM 驱动的 Java 应用 - 带刺的坐椅.md]
+sources: [raw/09-archive/2026-07-04-用 ChatModel 构建 LLM 驱动的 Java 应用 - 带刺的坐椅.md]
 last_updated: 2026-07-06
 ---
 

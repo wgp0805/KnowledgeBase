@@ -2,7 +2,7 @@
 title: "Chroma"
 type: entity
 tags: [向量数据库, RAG, AI, 开源]
-sources: [raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md]
+sources: [raw/09-archive/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md]
 last_updated: 2026-06-02
 ---
 

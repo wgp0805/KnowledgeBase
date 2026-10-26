@@ -2,7 +2,7 @@
 title: "摘要-jev路线靠谱吗"
 type: source
 tags: [来源, 原始文件, Jev, TypeSafeAI, RLCD, 批判性分析]
-sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的“判断模型”路线靠谱吗？.md]
+sources: [raw/09-archive/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的“判断模型”路线靠谱吗？.md]
 last_updated: 2026-09-21
 ---
 

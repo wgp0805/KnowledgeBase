@@ -2,7 +2,7 @@
 title: "DaoCloud加速器"
 type: concept
 tags: [Docker, 镜像加速, 国内网络, DaoCloud]
-sources: [raw/01-articles/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
+sources: [raw/09-archive/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
 last_updated: 2026-09-17
 ---
 

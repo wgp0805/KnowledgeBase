@@ -2,7 +2,7 @@
 title: "摘要-mysql-primary-key-strategy"
 type: source
 tags: [来源, 原始文件, MySQL, 主键, 索引]
-sources: [raw/01-articles/用雪花 id 和 uuid 做 MySQL 主键，被领导怼了.md]
+sources: [raw/09-archive/用雪花 id 和 uuid 做 MySQL 主键，被领导怼了.md]
 last_updated: 2026-07-16
 ---
 

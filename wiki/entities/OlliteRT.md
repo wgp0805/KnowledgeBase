@@ -2,7 +2,7 @@
 title: "OlliteRT"
 type: entity
 tags: [开源项目, 端侧推理, 安卓, 本地模型, AI服务器]
-sources: ["raw/01-articles/2026-10-04 - 夯爆了！这个开源项目，让旧手机变成24小时跑的AI服务器！.md"]
+sources: ["raw/09-archive/2026-10-04 - 夯爆了！这个开源项目，让旧手机变成24小时跑的AI服务器！.md"]
 last_updated: 2026-10-08
 ---
 

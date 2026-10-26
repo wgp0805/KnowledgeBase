@@ -2,7 +2,7 @@
 title: "PostgreSQL"
 type: entity
 tags: [数据库, 开源, 关系型数据库]
-sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md, raw/01-articles/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/01-articles/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md]
+sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md, raw/09-archive/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/09-archive/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md]
 last_updated: 2026-08-21
 ---
 

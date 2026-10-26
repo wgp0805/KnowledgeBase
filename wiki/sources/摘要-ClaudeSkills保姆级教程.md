@@ -2,7 +2,7 @@
 title: "摘要-ClaudeSkills保姆级教程"
 type: source
 tags: [来源, 原始文件, ClaudeSkills, AI Skill]
-sources: [raw/01-articles/什么是Claude Skills？保姆级教程来了！.md]
+sources: [raw/09-archive/什么是Claude Skills？保姆级教程来了！.md]
 last_updated: 2026-06-23
 ---
 

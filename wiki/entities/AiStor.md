@@ -2,7 +2,7 @@
 title: "AiStor"
 type: entity
 tags: [对象存储, 商业产品, MinIO]
-sources: [raw/01-articles/MinIO 社区版被故意阉割，Web管理功能全面移除，来试试国产的RustFS？.md]
+sources: [raw/09-archive/MinIO 社区版被故意阉割，Web管理功能全面移除，来试试国产的RustFS？.md]
 last_updated: 2026-07-22
 ---
 

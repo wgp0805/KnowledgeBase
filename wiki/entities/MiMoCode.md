@@ -2,7 +2,7 @@
 title: "MiMoCode"
 type: entity
 tags: [AI, 编程助手, 开源, 小米]
-sources: [raw/01-articles/小米版Claude Code正式发布，这次开源能给到夯.md]
+sources: [raw/09-archive/小米版Claude Code正式发布，这次开源能给到夯.md]
 last_updated: 2026-06-11
 ---
 

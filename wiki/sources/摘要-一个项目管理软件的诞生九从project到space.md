@@ -2,7 +2,7 @@
 title: "摘要-一个项目管理软件的诞生九从project到space"
 type: source
 tags: [来源, 原始文件, 项目管理, 产品设计]
-sources: [raw/01-articles/2026-09-03-一个项目管理软件的诞生（九）：从 Project 到 Space，企业研发平台如何组织长期工作.md]
+sources: [raw/09-archive/2026-09-03-一个项目管理软件的诞生（九）：从 Project 到 Space，企业研发平台如何组织长期工作.md]
 last_updated: 2026-09-03
 ---
 

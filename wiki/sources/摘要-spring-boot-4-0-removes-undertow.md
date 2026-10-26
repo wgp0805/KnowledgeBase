@@ -2,7 +2,7 @@
 title: "摘要-spring-boot-4-0-removes-undertow"
 type: source
 tags: [Spring Boot, Undertow, Servlet, Web容器]
-sources: [raw/01-articles/Spring Boot 4.0官宣：弃用 Undertow.md]
+sources: [raw/09-archive/Spring Boot 4.0官宣：弃用 Undertow.md]
 last_updated: 2026-07-29
 ---
 

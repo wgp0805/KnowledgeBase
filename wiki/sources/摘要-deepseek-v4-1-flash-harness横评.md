@@ -2,7 +2,7 @@
 title: "摘要-deepseek-v4-1-flash-harness横评"
 type: source
 tags: [DeepSeek, V4.1-Flash, Harness, Claude Code, Pi Agent, DSH, Token效率, Simon Willison]
-sources: [raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md]
+sources: [raw/09-archive/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md]
 last_updated: 2026-09-17
 ---
 

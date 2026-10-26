@@ -2,7 +2,7 @@
 title: "Seed-2.1-pro"
 type: entity
 tags: [实体, 字节, 基模, Seed, 大模型]
-sources: [raw/01-articles/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md]
+sources: [raw/09-archive/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md]
 last_updated: 2026-09-20
 ---
 

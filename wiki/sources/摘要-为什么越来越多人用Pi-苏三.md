@@ -2,7 +2,7 @@
 title: "摘要-为什么越来越多人用Pi-苏三"
 type: source
 tags: [来源, AI编程, Agent, Pi]
-sources: [raw/01-articles/2026-08-15-为什么越来越多人用 Pi ？ - 苏三说技术.md]
+sources: [raw/09-archive/2026-08-15-为什么越来越多人用 Pi ？ - 苏三说技术.md]
 last_updated: 2026-08-17
 ---
 

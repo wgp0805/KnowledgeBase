@@ -2,7 +2,7 @@
 title: "摘要-jvm-fast-throw异常堆栈丢失"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/2026-09-17-java服务异常日志只打印异常类型，没有堆栈定位分析 - 未来AI笔记.md]
+sources: [raw/09-archive/2026-09-17-java服务异常日志只打印异常类型，没有堆栈定位分析 - 未来AI笔记.md]
 last_updated: 2026-09-18
 ---
 

@@ -2,7 +2,7 @@
 title: "Hooks"
 type: concept
 tags: [Agent扩展, 自动化, 防护机制, 生命周期事件]
-sources: [raw/01-articles/Anthropic 工程师总结的 9 条血泪经验.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md]
+sources: [raw/09-archive/Anthropic 工程师总结的 9 条血泪经验.md, raw/01-articles/2026-08-28 - 面试官坏笑：“你都用ClaudeCode写代码半年了，怎么保证它不会执行危险命令？”，我：“CLAUDE.md”，面试官：“回去等通知吧！”.md]
 last_updated: 2026-08-28
 ---
 

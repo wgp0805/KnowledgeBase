@@ -2,7 +2,7 @@
 title: "摘要-Agent上下文管理概述"
 type: source
 tags: [来源, Agent, 上下文管理, 技术]
-sources: [raw/01-articles/2026-09-01-Agent上下文管理概述-1 - Big-Yellow-J.md]
+sources: [raw/09-archive/2026-09-01-Agent上下文管理概述-1 - Big-Yellow-J.md]
 last_updated: 2026-09-01
 ---
 

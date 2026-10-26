@@ -2,7 +2,7 @@
 title: "摘要-doubao-work-travel-ppt"
 type: source
 tags: [来源, 豆包工作, 旅行, Agent, 实测]
-sources: ["raw/01-articles/2026-10-10-旅行成为个人 Agent 的高频场景，「豆包工作」把几十小时攻略浓缩成 PPT.md"]
+sources: ["raw/09-archive/2026-10-10-旅行成为个人 Agent 的高频场景，「豆包工作」把几十小时攻略浓缩成 PPT.md"]
 last_updated: 2026-10-12
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要：大厂争相开源 Harness 背后的商业阳谋"
 type: source
 tags: [AI产品, Agent, Harness, 开源, 商业策略]
-sources: [raw/01-articles/2026-08-21-大厂争相开源 Harness 背后的商业阳谋.md]
+sources: [raw/09-archive/2026-08-21-大厂争相开源 Harness 背后的商业阳谋.md]
 last_updated: 2026-08-24
 ---
 

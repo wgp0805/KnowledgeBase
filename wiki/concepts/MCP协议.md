@@ -2,7 +2,7 @@
 title: "MCP协议"
 type: concept
 tags: [概念, 协议, Agent, 工具接入]
-sources: [raw/01-articles/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md, raw/01-articles/REA 保姆级教程：DeepSeek Harness 实操.md]
+sources: [raw/09-archive/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md, raw/09-archive/REA 保姆级教程：DeepSeek Harness 实操.md]
 last_updated: 2026-10-14
 ---
 

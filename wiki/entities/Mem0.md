@@ -3,9 +3,9 @@ title: "Mem0"
 type: entity
 tags: [记忆框架, Agent, 开源, 长期记忆]
 sources:
-  - raw/01-articles/2026-09-19-长对话先收口：用“工作记忆 vs 长期记忆“管理 AI 上下文 - Jessica_留学中.md
-  - raw/01-articles/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md
-  - raw/01-articles/2026-10-12-一文搞懂 Agent Memory：AI 是如何记住你说过的话的？ - Tomorrowland_D.md
+  - raw/09-archive/2026-09-19-长对话先收口：用“工作记忆 vs 长期记忆“管理 AI 上下文 - Jessica_留学中.md
+  - raw/09-archive/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md
+  - raw/09-archive/2026-10-12-一文搞懂 Agent Memory：AI 是如何记住你说过的话的？ - Tomorrowland_D.md
 last_updated: 2026-10-13
 ---
 

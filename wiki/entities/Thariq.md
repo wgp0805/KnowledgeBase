@@ -2,7 +2,7 @@
 title: "Thariq"
 type: entity
 tags: [人物, Anthropic, 工程师]
-sources: [raw/01-articles/Anthropic 工程师总结的 9 条血泪经验.md]
+sources: [raw/09-archive/Anthropic 工程师总结的 9 条血泪经验.md]
 last_updated: 2026-05-28
 ---
 

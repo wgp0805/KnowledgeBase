@@ -2,7 +2,7 @@
 title: "Docker"
 type: entity
 tags: [容器, DevOps]
-sources: [raw/09-archive/Docker-window环境下部署RocketMq.md, raw/09-archive/docker安装及使用-windows环境.md, raw/09-archive/docker部署nacos.md, raw/09-archive/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/09-archive/使用Docker在Windows上部署独立MySQL.md, raw/09-archive/使用n8n搭建Agent项目笔记.md, raw/09-archive/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md, raw/01-articles/2026-08-24 - 拒绝再买服务器！我用 Docker + FRP 实现内网穿透，舒服~.md, raw/01-articles/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
+sources: [raw/09-archive/Docker-window环境下部署RocketMq.md, raw/09-archive/docker安装及使用-windows环境.md, raw/09-archive/docker部署nacos.md, raw/09-archive/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/09-archive/使用Docker在Windows上部署独立MySQL.md, raw/09-archive/使用n8n搭建Agent项目笔记.md, raw/09-archive/同事一个比喻，让我搞懂了Docker和k8s的核心概念.md, raw/09-archive/2026-08-24 - 拒绝再买服务器！我用 Docker + FRP 实现内网穿透，舒服~.md, raw/09-archive/2026-09-16-Ubuntu 22.04 Docker 从零部署全栈项目实录：Next.js + FastAPI + PostgreSQL 一次跑通 - 码农刚子.md]
 last_updated: 2026-09-17
 ---
 

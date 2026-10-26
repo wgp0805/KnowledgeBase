@@ -2,7 +2,7 @@
 title: "摘要-为什么越来越多人用onlyoffice"
 type: source
 tags: [来源, 原始文件, OnlyOffice, 在线文档, 轻量模式]
-sources: [raw/01-articles/为什么越来越多人用 OnlyOffice？.md]
+sources: [raw/09-archive/为什么越来越多人用 OnlyOffice？.md]
 last_updated: 2026-09-28
 ---
 

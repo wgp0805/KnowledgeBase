@@ -2,7 +2,7 @@
 title: "AtomicInteger"
 type: entity
 tags: [Java, 并发, Atomic, JDK]
-sources: [raw/01-articles/2026-09-27-并发编程（五）：Atomic——语言层的原子性、可见性与有序性 - ThinkerQAQ.md]
+sources: [raw/09-archive/2026-09-27-并发编程（五）：Atomic——语言层的原子性、可见性与有序性 - ThinkerQAQ.md]
 last_updated: 2026-09-28
 ---
 

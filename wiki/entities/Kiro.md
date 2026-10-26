@@ -2,7 +2,7 @@
 title: "Kiro"
 type: entity
 tags: [实体, AI编程, 规范驱动开发, IDE]
-sources: [raw/01-articles/2026-10-21-AI 时代下，需求文档的黄金模式：Spec.md]
+sources: [raw/09-archive/2026-10-21-AI 时代下，需求文档的黄金模式：Spec.md]
 last_updated: 2026-10-22
 ---
 

@@ -2,7 +2,7 @@
 title: "B+树"
 type: concept
 tags: [数据结构, 索引, MySQL, 算法]
-sources: [raw/01-articles/用雪花 id 和 uuid 做 MySQL 主键，被领导怼了.md]
+sources: [raw/09-archive/用雪花 id 和 uuid 做 MySQL 主键，被领导怼了.md]
 last_updated: 2026-07-16
 ---
 

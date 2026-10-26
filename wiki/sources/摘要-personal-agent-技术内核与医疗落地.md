@@ -2,7 +2,7 @@
 title: "摘要-personal-agent-技术内核与医疗落地"
 type: source
 tags: [来源, PersonalAgent, 医疗, MCP, 权限分级]
-sources: [raw/01-articles/2026-10-08-关了电脑还在替你干活：Personal Agent的技术内核与医疗落地.md]
+sources: [raw/09-archive/2026-10-08-关了电脑还在替你干活：Personal Agent的技术内核与医疗落地.md]
 last_updated: 2026-10-09
 ---
 

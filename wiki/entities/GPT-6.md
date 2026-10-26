@@ -3,11 +3,11 @@ title: "GPT-6"
 type: entity
 tags: [AI模型, OpenAI, GPT, Astra, AGI, Computer Use]
 sources:
-  - raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md
-  - raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md
+  - raw/09-archive/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md
+  - raw/09-archive/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md
   - raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md
-  - raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md
-  - raw/01-articles/Codex 最新焚决发布，快！.md
+  - raw/09-archive/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md
+  - raw/09-archive/Codex 最新焚决发布，快！.md
   - raw/09-archive/2026-09-24-A社O社，坐不住了.md
   - raw/09-archive/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md
   - "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"

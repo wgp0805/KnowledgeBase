@@ -2,7 +2,7 @@
 title: "SafeMode"
 type: concept
 tags: [JSON, 安全, FastJson]
-sources: [raw/01-articles/Spring Boot 中使用 JSON：安全性排行推荐.md]
+sources: [raw/09-archive/Spring Boot 中使用 JSON：安全性排行推荐.md]
 last_updated: 2026-07-31
 ---
 

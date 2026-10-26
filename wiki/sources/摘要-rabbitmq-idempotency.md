@@ -2,7 +2,7 @@
 title: "摘要-rabbitmq-idempotency"
 type: source
 tags: [消息队列, 幂等性, RabbitMQ, 面试]
-sources: [raw/01-articles/百度面试官：RabbitMQ 如何防止重复消费？5种解决方案，你知道几个？.md]
+sources: [raw/09-archive/百度面试官：RabbitMQ 如何防止重复消费？5种解决方案，你知道几个？.md]
 last_updated: 2026-05-25
 ---
 

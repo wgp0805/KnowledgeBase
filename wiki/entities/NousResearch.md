@@ -2,7 +2,7 @@
 title: "NousResearch"
 type: entity
 tags: [AI, 研究机构, 开源, 模型训练]
-sources: [raw/01-articles/2026-07-21-Hermes Agent 完全指南：比 Claude Code 更自由的开源 AI Agent，从安装配置到多 Agent 协作 - 不吃紫菜.md]
+sources: [raw/09-archive/2026-07-21-Hermes Agent 完全指南：比 Claude Code 更自由的开源 AI Agent，从安装配置到多 Agent 协作 - 不吃紫菜.md]
 last_updated: 2026-07-22
 ---
 

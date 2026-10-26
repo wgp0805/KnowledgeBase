@@ -2,7 +2,7 @@
 title: "ds-ui"
 type: entity
 tags: [GUI, 框架, Canvas, 前端]
-sources: [raw/01-articles/2026-07-22-从 WinForms 到 Vue：我为什么决定在 Web 上重做一套完整的 GUI 框架 - delete19910520.md]
+sources: [raw/09-archive/2026-07-22-从 WinForms 到 Vue：我为什么决定在 Web 上重做一套完整的 GUI 框架 - delete19910520.md]
 last_updated: 2026-07-23
 ---
 

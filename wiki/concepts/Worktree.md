@@ -2,7 +2,7 @@
 title: "Worktree"
 type: concept
 tags: [Git, 隔离, Agent, 工作流, Codex]
-sources: [raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/01-articles/2026-09-25 - GitHub 6.7万 Star，一个多 Agent 协作、手机远程指挥的开源神器！.md, raw/01-articles/2026-10-19-Claude Code桌面版迎来重大更新.md]
+sources: [raw/09-archive/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/09-archive/2026-09-24-Claude Code 把自己改成了任务调度器，这次设计比功能更值得看 - 码哥字节.md, raw/09-archive/2026-09-25 - GitHub 6.7万 Star，一个多 Agent 协作、手机远程指挥的开源神器！.md, raw/09-archive/2026-10-19-Claude Code桌面版迎来重大更新.md]
 last_updated: 2026-10-21
 ---
 

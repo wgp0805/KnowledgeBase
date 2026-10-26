@@ -2,7 +2,7 @@
 title: "摘要-clawgod解锁claude-code"
 type: source
 tags: [来源, 原始文件, ClaudeCode, 开源工具, 权限]
-sources: [raw/01-articles/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md]
+sources: [raw/09-archive/2026-10-01-一行命令，解锁 Claude Code 全部权限-ClawGod - 绝不原创的飞龙.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-面试官你掌握哪些Linux常用命令"
 type: source
 tags: [来源, Linux, 面试, 运维, Java诊断]
-sources: [raw/01-articles/面试官：你掌握哪些 Linux 常用命令？.md]
+sources: [raw/09-archive/面试官：你掌握哪些 Linux 常用命令？.md]
 last_updated: 2026-08-27
 ---
 

@@ -2,7 +2,7 @@
 title: "Embedding向量化"
 type: concept
 tags: [RAG, 向量化, 语义编码]
-sources: [raw/01-articles/一文讲透 RAG：原理、优化与落地.md]
+sources: [raw/09-archive/一文讲透 RAG：原理、优化与落地.md]
 last_updated: 2026-09-23
 ---
 

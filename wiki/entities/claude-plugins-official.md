@@ -2,7 +2,7 @@
 title: "claude-plugins-official"
 type: entity
 tags: [Anthropic, ClaudeCode, 插件市场]
-sources: [raw/01-articles/Claude 又开源了一款新插件，让你的 Claude Code 满血复活！.md, raw/01-articles/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md]
+sources: [raw/09-archive/Claude 又开源了一款新插件，让你的 Claude Code 满血复活！.md, raw/09-archive/直接让你的 Claude Code 效率拉满，Anthropic 官方神级插件开源了！-2026-06-02 09_14_35.md]
 last_updated: 2026-06-24
 ---
 

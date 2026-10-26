@@ -2,7 +2,7 @@
 title: "error-feedback-self-healing"
 type: concept
 tags: [AI, Agent, 容错, 工具调用, 自愈]
-sources: [raw/01-articles/Pi-Agent 开源项目落地实战文档.md]
+sources: [raw/09-archive/Pi-Agent 开源项目落地实战文档.md]
 last_updated: 2026-08-04
 ---
 

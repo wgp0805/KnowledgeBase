@@ -2,7 +2,7 @@
 title: "摘要-dsh插件生态解析"
 type: source
 tags: [来源, DeepSeekHarness, dsh, 插件生态, 开源]
-sources: [raw/01-articles/2026-10-12-DeepSeek Harness 插件生态解析 - 我才是银古.md]
+sources: [raw/09-archive/2026-10-12-DeepSeek Harness 插件生态解析 - 我才是银古.md]
 last_updated: 2026-10-13
 ---
 

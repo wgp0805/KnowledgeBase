@@ -2,7 +2,7 @@
 title: "WebSocket"
 type: concept
 tags: [网络协议, 双向通讯, 实时通信, ws协议]
-sources: ["raw/01-articles/2026-10-25 - 还用WebSocket？这才是实时消息推送的正确姿势！轻量好用.md"]
+sources: ["raw/09-archive/2026-10-25 - 还用WebSocket？这才是实时消息推送的正确姿势！轻量好用.md"]
 last_updated: 2026-10-26
 ---
 

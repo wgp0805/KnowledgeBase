@@ -2,7 +2,7 @@
 title: "摘要-推荐5个AI-Agent项目"
 type: source
 tags: [AI Agent, 项目推荐, 微服务]
-sources: [raw/01-articles/推荐5个牛逼的AI Agent项目.md]
+sources: [raw/09-archive/推荐5个牛逼的AI Agent项目.md]
 last_updated: 2026-07-27
 ---
 

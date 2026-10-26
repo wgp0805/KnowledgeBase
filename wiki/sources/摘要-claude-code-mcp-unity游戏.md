@@ -2,7 +2,7 @@
 title: "摘要-claude-code-mcp-unity游戏"
 type: source
 tags: [来源, 原始文件, ClaudeCode, MCP, Unity, 游戏开发]
-sources: [raw/01-articles/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md]
+sources: [raw/09-archive/2026-10-01-Claude Code + MCP，让一个空文件夹变成了能玩的 Unity 游戏 - 张善友.md]
 last_updated: 2026-10-08
 ---
 

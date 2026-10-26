@@ -2,7 +2,7 @@
 title: "摘要-pixverse-r2-世界模型产品流程"
 type: source
 tags: [来源, 原始文件, PixVerse, 世界模型, 交互设计, 视频生成]
-sources: [raw/01-articles/2026-09-25-体验 PixVerse R2 后，我发现世界模型的产品流程已经有所变化.md]
+sources: [raw/09-archive/2026-09-25-体验 PixVerse R2 后，我发现世界模型的产品流程已经有所变化.md]
 last_updated: 2026-09-28
 ---
 

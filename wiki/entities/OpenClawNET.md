@@ -4,7 +4,7 @@ type: entity
 tags: [实体, AI Agent, 开源项目, MCP]
 sources:
   - raw/09-archive/2026-08-02-MCP 第五版 × OpenClaw.NET：从协议升级到生态编排 - 张善友.md
-  - raw/01-articles/2026-09-27-当 AI Agent 遇到 Nacos：OpenClaw.NET 集成入门 - 张善友.md
+  - raw/09-archive/2026-09-27-当 AI Agent 遇到 Nacos：OpenClaw.NET 集成入门 - 张善友.md
 last_updated: 2026-09-28
 ---
 

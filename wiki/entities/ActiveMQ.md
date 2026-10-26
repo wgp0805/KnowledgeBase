@@ -2,7 +2,7 @@
 title: "ActiveMQ"
 type: entity
 tags: [消息队列, JMS, 消息中间件]
-sources: [raw/01-articles/4 种消息队列，如何选型？.md]
+sources: [raw/09-archive/4 种消息队列，如何选型？.md]
 last_updated: 2026-07-07
 ---
 

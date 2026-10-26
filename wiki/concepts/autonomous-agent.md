@@ -2,7 +2,7 @@
 title: "autonomous-agent"
 type: concept
 tags: [AI, Agent, 自主系统]
-sources: [raw/01-articles/2026-07-21-【手搓 Agent 第0关】认知扫盲篇（下）：Agent 工程选型、架构体系、场景落地完整论证 - Alkaid2077.md]
+sources: [raw/09-archive/2026-07-21-【手搓 Agent 第0关】认知扫盲篇（下）：Agent 工程选型、架构体系、场景落地完整论证 - Alkaid2077.md]
 last_updated: 2026-07-22
 ---
 

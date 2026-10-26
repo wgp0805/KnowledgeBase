@@ -2,7 +2,7 @@
 title: "group-chat"
 type: concept
 tags: [概念, 多智能体, AutoGen, 对话协作]
-sources: [raw/01-articles/2026-09-24 - 为什么越来越多人用 AutoGen？.md]
+sources: [raw/09-archive/2026-09-24 - 为什么越来越多人用 AutoGen？.md]
 last_updated: 2026-09-28
 ---
 

@@ -2,7 +2,7 @@
 title: "GeminiSpark"
 type: entity
 tags: [AI产品, Google, PersonalAgent, 常驻智能体]
-sources: [raw/01-articles/2026-10-08-关了电脑还在替你干活：Personal Agent的技术内核与医疗落地.md]
+sources: [raw/09-archive/2026-10-08-关了电脑还在替你干活：Personal Agent的技术内核与医疗落地.md]
 last_updated: 2026-10-09
 ---
 

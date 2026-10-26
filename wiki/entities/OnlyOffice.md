@@ -2,7 +2,7 @@
 title: "OnlyOffice"
 type: entity
 tags: [在线文档, Office, 开源, 文档编辑]
-sources: [raw/01-articles/SpringBoot+OnlyOffice：优雅实现在线 Word 编辑、转化、保存等功能.md, raw/01-articles/为什么越来越多人用 OnlyOffice？.md]
+sources: [raw/09-archive/SpringBoot+OnlyOffice：优雅实现在线 Word 编辑、转化、保存等功能.md, raw/09-archive/为什么越来越多人用 OnlyOffice？.md]
 last_updated: 2026-09-28
 ---
 

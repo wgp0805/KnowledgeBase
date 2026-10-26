@@ -2,7 +2,7 @@
 title: "AOT编译"
 type: concept
 tags: [Java, JVM, 编译器, 性能优化]
-sources: [raw/01-articles/面试官：什么是 AOT 编译？和 JIT 有什么区别？.md]
+sources: [raw/09-archive/面试官：什么是 AOT 编译？和 JIT 有什么区别？.md]
 last_updated: 2026-07-08
 ---
 

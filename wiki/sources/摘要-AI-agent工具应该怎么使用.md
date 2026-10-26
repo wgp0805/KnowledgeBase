@@ -2,7 +2,7 @@
 title: "摘要-AI-agent工具应该怎么使用"
 type: source
 tags: [来源, Codex, AICoding]
-sources: [raw/01-articles/AI agent工具应该怎么使用.md]
+sources: [raw/09-archive/AI agent工具应该怎么使用.md]
 last_updated: 2026-06-08
 ---
 

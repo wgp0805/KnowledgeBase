@@ -2,7 +2,7 @@
 title: "JoyCoder"
 type: entity
 tags: [AI, 编程工具, 京东]
-sources: [raw/01-articles/京东员工：实习生、应届生结合JoyCoder写的代码一坨屎，我Code Review的时候真是一口老血吐屏幕上，这种情况怎么办啊？（附Agent面试题）.md]
+sources: [raw/09-archive/京东员工：实习生、应届生结合JoyCoder写的代码一坨屎，我Code Review的时候真是一口老血吐屏幕上，这种情况怎么办啊？（附Agent面试题）.md]
 last_updated: 2026-08-11
 ---
 

@@ -2,7 +2,7 @@
 title: "llms-txt协议"
 type: concept
 tags: [AI, 文档索引, 协议, Agent]
-sources: [raw/01-articles/2026-07-15-阿里云官方技术文档已全面上线 llms.txt —— AI Agent 一站式消费 300+ 款云产品文档 - 言己lxz.md]
+sources: [raw/09-archive/2026-07-15-阿里云官方技术文档已全面上线 llms.txt —— AI Agent 一站式消费 300+ 款云产品文档 - 言己lxz.md]
 last_updated: 2026-07-16
 ---
 

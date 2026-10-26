@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-宠物店四场景"
 type: source
 tags: [来源, AI产品, 宠物行业, 提示词, Agent]
-sources: [raw/01-articles/2026-10-07-宠物店用WorkBuddy提效的 4 个场景，附可直接复制的提示词.md]
+sources: [raw/09-archive/2026-10-07-宠物店用WorkBuddy提效的 4 个场景，附可直接复制的提示词.md]
 last_updated: 2026-10-08
 ---
 

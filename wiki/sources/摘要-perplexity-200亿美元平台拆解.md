@@ -2,7 +2,7 @@
 title: "摘要-perplexity-200亿美元平台拆解"
 type: source
 tags: [来源, 原始文件, Perplexity, 答案引擎, AI浏览器, 产品分析]
-sources: [raw/01-articles/2026-09-20-拆解 Perplexity：一个搜索框如何长成 200 亿美元的平台！.md]
+sources: [raw/09-archive/2026-09-20-拆解 Perplexity：一个搜索框如何长成 200 亿美元的平台！.md]
 last_updated: 2026-09-21
 ---
 

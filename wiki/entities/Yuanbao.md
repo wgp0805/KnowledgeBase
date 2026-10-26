@@ -2,7 +2,7 @@
 title: "Yuanbao"
 type: entity
 tags: [AI产品, 腾讯, AI助手]
-sources: [raw/09-archive/2026-08-26-腾讯汤道生深度复盘WorkBuddy、元宝以及AI竞争：和AI一起长跑的这两年.md, raw/01-articles/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md]
+sources: [raw/09-archive/2026-08-26-腾讯汤道生深度复盘WorkBuddy、元宝以及AI竞争：和AI一起长跑的这两年.md, raw/09-archive/2026-10-03-豆包千问元宝，集体转向 Personal Agent.md]
 last_updated: 2026-10-08
 ---
 

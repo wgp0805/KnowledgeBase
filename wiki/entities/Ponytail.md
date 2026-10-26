@@ -2,7 +2,7 @@
 title: "Ponytail"
 type: entity
 tags: [AI编程, 减法思维, 开源工具, Agent技能]
-sources: [raw/01-articles/20.9k Star 的开源项目，让你的 AI 少写点废代码.md, raw/01-articles/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md]
+sources: [raw/09-archive/20.9k Star 的开源项目，让你的 AI 少写点废代码.md, raw/09-archive/2026-10-06-盘点 20 个 9 月份 GitHub 上顶顶顶的开源项目。.md]
 last_updated: 2026-10-08
 ---
 

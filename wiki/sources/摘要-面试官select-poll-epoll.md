@@ -2,7 +2,7 @@
 title: "摘要-面试官select-poll-epoll"
 type: source
 tags: [来源, 原始文件, Java, 面试, IO多路复用]
-sources: [raw/01-articles/面试官：如何理解 select、poll、epoll？.md]
+sources: [raw/09-archive/面试官：如何理解 select、poll、epoll？.md]
 last_updated: 2026-09-28
 ---
 

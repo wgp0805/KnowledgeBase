@@ -2,7 +2,7 @@
 title: "ZeroSumThinking"
 type: concept
 tags: [财富观, 创业, 经济学]
-sources: [raw/01-articles/2026-08-25-YC 投资人最在意的问题，大多数创始人却从没认真想过.md]
+sources: [raw/09-archive/2026-08-25-YC 投资人最在意的问题，大多数创始人却从没认真想过.md]
 last_updated: 2026-08-26
 ---
 

@@ -3,8 +3,8 @@ title: "ApplicationEvent"
 type: entity
 tags: [Spring, 事件机制, 观察者模式]
 sources:
-  - raw/01-articles/Spring 用到了哪些设计模式？你能答上来几个？.md
-  - raw/01-articles/Spring Event 别瞎用！被它坑的绩效都没了！.md
+  - raw/09-archive/Spring 用到了哪些设计模式？你能答上来几个？.md
+  - raw/09-archive/Spring Event 别瞎用！被它坑的绩效都没了！.md
 last_updated: 2026-08-17
 ---
 

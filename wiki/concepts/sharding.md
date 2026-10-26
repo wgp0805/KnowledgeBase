@@ -2,7 +2,7 @@
 title: "sharding"
 type: concept
 tags: [数据库, 分库分表, 性能优化, 架构]
-sources: [raw/09-archive/从40分钟到1秒：我用分库分表彻底解决了上亿数据的大表性能问题！！.md, raw/09-archive/面试官：分库分表后会带来哪些问题？你能答上来几个？.md, raw/01-articles/2026-09-23 - 分库分表，可能真的要退出历史舞台了！.md]
+sources: [raw/09-archive/从40分钟到1秒：我用分库分表彻底解决了上亿数据的大表性能问题！！.md, raw/09-archive/面试官：分库分表后会带来哪些问题？你能答上来几个？.md, raw/09-archive/2026-09-23 - 分库分表，可能真的要退出历史舞台了！.md]
 last_updated: 2026-09-28
 ---
 

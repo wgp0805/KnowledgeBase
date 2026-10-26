@@ -2,7 +2,7 @@
 title: "摘要-claude-code-mods机制"
 type: source
 tags: [来源, 原始文件, ClaudeCode, Mods, DeepSeekHarness, Agent扩展]
-sources: [raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md]
+sources: [raw/09-archive/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md]
 last_updated: 2026-10-08
 ---
 

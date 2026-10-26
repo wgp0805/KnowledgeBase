@@ -2,7 +2,7 @@
 title: "JxBrowser"
 type: entity
 tags: [Java, 浏览器, 桌面应用]
-sources: ["raw/01-articles/使用 Shadcn UI 构建 Java 桌面应用.md"]
+sources: ["raw/09-archive/使用 Shadcn UI 构建 Java 桌面应用.md"]
 last_updated: 2026-07-13
 ---
 

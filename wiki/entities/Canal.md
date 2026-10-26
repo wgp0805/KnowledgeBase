@@ -4,8 +4,8 @@ type: entity
 tags: [数据同步, MySQL, binlog, 中间件]
 sources:
   - raw/09-archive/得物二面：分库分表后，怎么进行分页查询？我被问懵了.md
-  - raw/01-articles/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
-  - raw/01-articles/滴滴二面：怎么保证 ElasticSearch 和数据库的数据一致性？.md
+  - raw/09-archive/拼多多二面：为什么要使用 ElasticSearch？和传统关系数据库 MySQL 有什么不同？.md
+  - raw/09-archive/滴滴二面：怎么保证 ElasticSearch 和数据库的数据一致性？.md
 last_updated: 2026-09-18
 ---
 

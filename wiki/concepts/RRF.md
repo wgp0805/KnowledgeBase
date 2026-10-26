@@ -2,7 +2,7 @@
 title: "RRF"
 type: concept
 tags: [概念, 检索, 融合算法, RAG]
-sources: [raw/01-articles/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md]
+sources: [raw/09-archive/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md]
 last_updated: 2026-10-21
 ---
 

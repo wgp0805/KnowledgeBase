@@ -3,7 +3,7 @@ title: "Query重写与扩展"
 type: concept
 tags: [概念, RAG, 查询处理, 检索, 多轮对话]
 sources:
-  - raw/01-articles/RAG性能优化的 5 种方案！.md
+  - raw/09-archive/RAG性能优化的 5 种方案！.md
 last_updated: 2026-10-21
 ---
 

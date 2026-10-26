@@ -2,7 +2,7 @@
 title: "Embeddings"
 type: concept
 tags: [RAG, 向量化, 语义检索, Embedding]
-sources: [raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
+sources: [raw/09-archive/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
 last_updated: 2026-10-26
 ---
 

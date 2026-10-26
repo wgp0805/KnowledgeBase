@@ -2,7 +2,7 @@
 title: "GraphWorkflow"
 type: concept
 tags: [Agent, 工作流, 图编排]
-sources: [raw/01-articles/2026-09-04-谷歌真的急了！Gemini 3.8 Flash 刚发布，Google Harness 就跟随其后.md]
+sources: [raw/09-archive/2026-09-04-谷歌真的急了！Gemini 3.8 Flash 刚发布，Google Harness 就跟随其后.md]
 last_updated: 2026-09-05
 ---
 

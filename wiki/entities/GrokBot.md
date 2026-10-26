@@ -2,7 +2,7 @@
 title: "GrokBot"
 type: entity
 tags: [AI产品, Agent, xAI]
-sources: [raw/01-articles/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/09-archive/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/01-articles/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, "raw/01-articles/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md", raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md, raw/01-articles/2026-10-21-斯坦福新课直接讲 personal agent，Grok Bot 工程师分享如何打造出 always-on agent.md, "raw/09-archive/2026-10-22-Grok Bot、Dots、Cue、Muse：四家 AI Bot 到底有什么不一样？.md"]
+sources: [raw/09-archive/2026-08-26-Claude Code 与 Grok Bot 被拆开后：AI Agent 真正难复制的是什么？.md, raw/09-archive/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/09-archive/2026-10-01-Personal Agent 神仙打架 用五个维度看懂六条海外路线.md, raw/09-archive/2026-10-05-我用 Grok Bot 搭了一支 AI 团队：绝对忠诚，各怀鬼胎.md, "raw/09-archive/2026-10-09 - 3 个最近爆火的 Personal Agent ，在 GitHub 上有开源平替了。.md", raw/09-archive/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md, raw/09-archive/2026-10-21-斯坦福新课直接讲 personal agent，Grok Bot 工程师分享如何打造出 always-on agent.md, "raw/09-archive/2026-10-22-Grok Bot、Dots、Cue、Muse：四家 AI Bot 到底有什么不一样？.md"]
 last_updated: 2026-10-23
 ---
 

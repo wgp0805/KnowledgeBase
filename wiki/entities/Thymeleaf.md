@@ -3,7 +3,7 @@ title: "Thymeleaf"
 type: entity
 tags: [Java, 模板引擎, Web]
 sources:
-  - raw/01-articles/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
+  - raw/09-archive/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
 last_updated: 2026-08-17
 ---
 

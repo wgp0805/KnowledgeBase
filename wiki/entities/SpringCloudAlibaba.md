@@ -2,7 +2,7 @@
 title: "SpringCloudAlibaba"
 type: entity
 tags: [Spring, 微服务, 中间件]
-sources: [raw/02-papers/Spring Cloud Alibaba笔记.pdf, raw/01-articles/Spring Cloud Stream 整合 RocketMQ 完全指南.md]
+sources: [raw/09-archive/Spring Cloud Alibaba笔记.pdf, raw/09-archive/Spring Cloud Stream 整合 RocketMQ 完全指南.md]
 last_updated: 2026-07-21
 ---
 

@@ -2,7 +2,7 @@
 title: "Leader 说 Skills 就是 Prompt 换皮 我花一周给团队写了 30 个 Skill"
 type: source
 tags: ["Skills", "沉默王二"]
-sources: ["raw/01-articles/Leader 说Skills就是Prompt换皮，我不听，花一周给团队写了30个Skill。他偷偷找我：这个月的绩效你拿A！.md"]
+sources: ["raw/09-archive/Leader 说Skills就是Prompt换皮，我不听，花一周给团队写了30个Skill。他偷偷找我：这个月的绩效你拿A！.md"]
 last_updated: 2026-09-01
 ---
 

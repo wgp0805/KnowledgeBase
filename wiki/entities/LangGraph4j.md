@@ -2,7 +2,7 @@
 title: "LangGraph4j"
 type: entity
 tags: [Java, AI框架, Agent, 工作流编排]
-sources: [raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md]
+sources: [raw/09-archive/LangChain4j 和 LangGraph4j，哪个更好？.md]
 last_updated: 2026-06-30
 ---
 

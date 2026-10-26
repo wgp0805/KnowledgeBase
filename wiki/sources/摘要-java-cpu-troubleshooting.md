@@ -2,7 +2,7 @@
 title: "摘要-java-cpu-troubleshooting"
 type: source
 tags: [来源, Java, 排障, 性能, 线上运维]
-sources: [raw/01-articles/Java 线上排障：服务 CPU 打满、接口卡死定位方案.md]
+sources: [raw/09-archive/Java 线上排障：服务 CPU 打满、接口卡死定位方案.md]
 last_updated: 2026-10-08
 ---
 

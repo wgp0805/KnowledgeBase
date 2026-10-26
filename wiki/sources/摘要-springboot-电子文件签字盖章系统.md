@@ -2,7 +2,7 @@
 title: "摘要-springboot-电子文件签字盖章系统"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/SpringBoot 实现电子文件签字+合同系统！.md]
+sources: [raw/09-archive/SpringBoot 实现电子文件签字+合同系统！.md]
 last_updated: 2026-07-14
 ---
 

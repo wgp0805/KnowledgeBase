@@ -2,7 +2,7 @@
 title: "同步RPC"
 type: concept
 tags: [微服务, RPC, REST, gRPC, 容错]
-sources: [raw/01-articles/2026-08-06-《微服务架构设计模式》 第三章读书笔记：微服务架构中的进程间通信 - LY双土.md]
+sources: [raw/09-archive/2026-08-06-《微服务架构设计模式》 第三章读书笔记：微服务架构中的进程间通信 - LY双土.md]
 last_updated: 2026-08-10
 ---
 

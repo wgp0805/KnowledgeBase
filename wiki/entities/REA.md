@@ -2,7 +2,7 @@
 title: "REA"
 type: entity
 tags: [实体, 开源项目, 逆向工程, Agent, MCP]
-sources: [raw/01-articles/REA 保姆级教程：DeepSeek Harness 实操.md, raw/01-articles/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
+sources: [raw/09-archive/REA 保姆级教程：DeepSeek Harness 实操.md, raw/09-archive/霸榜 GitHub 的 AI 逆向神器，玩疯了！.md]
 last_updated: 2026-10-20
 ---
 
