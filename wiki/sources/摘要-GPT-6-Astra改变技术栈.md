@@ -2,7 +2,7 @@
 title: "摘要-GPT-6-Astra改变技术栈"
 type: source
 tags: [来源, GPT-6, Astra, AgentRuntime, ResponsesAPI, RAG, 技术栈, AIControlPlane]
-sources: [raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md]
+sources: [raw/09-archive/2026-09-07-“GPT-6 Astra 正式登场”会怎样改变现有技术栈？.md]
 last_updated: 2026-09-08
 ---
 

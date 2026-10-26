@@ -2,7 +2,7 @@
 title: "OpenFeign"
 type: entity
 tags: [SpringCloud, HTTP客户端, 服务调用]
-sources: [raw/01-articles/全链路灰度发布：从"灰飞烟灭"到"稳如老狗"，我只用了这8步！！.md, raw/01-articles/Spring为什么要"抛弃"Feign？.md]
+sources: [raw/09-archive/全链路灰度发布：从“灰飞烟灭”到“稳如老狗”，我只用了这8步！！.md, raw/09-archive/Spring为什么要“抛弃”Feign？.md]
 last_updated: 2026-07-20
 ---
 

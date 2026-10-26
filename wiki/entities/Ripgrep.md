@@ -2,7 +2,7 @@
 title: "Ripgrep"
 type: entity
 tags: [搜索工具, Rust, CLI, ripgrep]
-sources: [raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md]
+sources: [raw/09-archive/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md]
 last_updated: 2026-05-20
 ---
 

@@ -2,7 +2,7 @@
 title: "Prometheus"
 type: entity
 tags: [监控, 时序数据库, 微服务]
-sources: [raw/01-articles/全链路灰度发布：从"灰飞烟灭"到"稳如老狗"，我只用了这8步！！.md]
+sources: [raw/09-archive/全链路灰度发布：从“灰飞烟灭”到“稳如老狗”，我只用了这8步！！.md]
 last_updated: 2026-06-09
 ---
 

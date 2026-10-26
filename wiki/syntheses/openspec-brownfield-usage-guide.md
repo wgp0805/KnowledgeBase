@@ -3,7 +3,7 @@ title: "棕地项目 OpenSpec 详细使用方案"
 type: synthesis
 tags: [OpenSpec, 棕地项目, AI编程, 规范驱动, AI遗忘, 实操指南]
 sources:
-  - raw/09-archive/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md
+  - raw/09-archive/同事：“Claude Code都能自动写代码了，还要什么Spec Coding？” 我反问：“屎山代码你来维护？”.md
   - raw/09-archive/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
   - raw/09-archive/253k Superpowers 和 60k OpenSpec 被融合了！spec-superflow 工作流登上热榜.md
   - raw/09-archive/Claude Code 最佳实践（最新版）.md

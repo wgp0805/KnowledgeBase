@@ -2,7 +2,7 @@
 title: "摘要：对抗 AI 讨好型人格的双向钢人论证"
 type: source
 tags: [AI产品, 提示词工程, Sycophancy, 钢人论证]
-sources: [raw/01-articles/2026-08-21-对抗 AI 讨好型人格的"双向钢人论证".md]
+sources: [raw/09-archive/2026-08-21-对抗 AI 讨好型人格的“双向钢人论证”.md]
 last_updated: 2026-08-24
 ---
 

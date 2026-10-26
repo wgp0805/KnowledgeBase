@@ -2,7 +2,7 @@
 title: "摘要-留学生旅行Agent产品构思"
 type: source
 tags: [Agent, 产品设计, 留学生, 旅行, 陌生人协作]
-sources: [raw/01-articles/2026-08-29-从"找到搭子"到"按约成行"：我如何构思一款留学生旅行 Agent.md]
+sources: [raw/09-archive/2026-08-29-从“找到搭子”到“按约成行”：我如何构思一款留学生旅行 Agent.md]
 last_updated: 2026-08-31
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-生产级Agent设计"
 type: source
 tags: [Agent, AI, 面试, 工程实践]
-sources: [raw/01-articles/面试官皱眉："让你负责一个生产级 Agent，你会怎么设计？"，我上来就开始背 ReAct、Function Calling、Skills。面试官听完摇头。.md]
+sources: [raw/09-archive/面试官皱眉：“让你负责一个生产级 Agent，你会怎么设计？”，我上来就开始背 ReAct、Function Calling、Skills。面试官听完摇头。.md]
 last_updated: 2026-07-24
 ---
 

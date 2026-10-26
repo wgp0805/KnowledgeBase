@@ -2,7 +2,7 @@
 title: "LlamaFactory"
 type: entity
 tags: [AI, 微调, 开源框架, LLM]
-sources: [raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md, raw/09-archive/2026-10-05-小白也能上手的 LoRA 微调：五步走通训练到落地.md]
+sources: [raw/09-archive/2026-07-07-Transformer、“训练-微调”范式-AI 相关概念之（核心技术与架构） - 橙子家.md, raw/09-archive/2026-10-05-小白也能上手的 LoRA 微调：五步走通训练到落地.md]
 last_updated: 2026-10-08
 ---
 

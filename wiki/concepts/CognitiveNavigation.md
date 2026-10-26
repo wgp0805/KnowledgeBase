@@ -2,7 +2,7 @@
 title: "CognitiveNavigation"
 type: concept
 tags: [AI, Agent, 可观测性, 诊断]
-sources: [raw/01-articles/2026-07-17-当AI Agent开始"自己拿主意"，你怎么知道它没在犯错？.md]
+sources: [raw/09-archive/2026-07-17-当AI Agent开始“自己拿主意”，你怎么知道它没在犯错？.md]
 last_updated: 2026-07-20
 ---
 

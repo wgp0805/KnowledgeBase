@@ -8,7 +8,7 @@ sources:
   - raw/09-archive/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md
   - raw/09-archive/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md
   - raw/09-archive/推荐5个牛逼的AI Agent项目.md
-  - raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md
+  - raw/09-archive/腾讯面试官：“为什么 Claude Code 不用 RAG 检索代码，而是 grep？”我：“因为...我也不知道”，他沉默了。.md
   - raw/09-archive/推荐一个牛逼的RAG+KAG双引擎系统.md
   - raw/09-archive/2026-08-23-从一次危重猫接诊，看动物医院该怎么做 RAG.md
   - raw/09-archive/2026-08-22-我花1小时劝退客户别做知识库，他反而谢我.md

@@ -3,7 +3,7 @@ title: "Responses API"
 type: concept
 tags: ["OpenAI", "API", "GPT-6", "Astra"]
 sources:
-  - raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md
+  - raw/09-archive/2026-09-07-“GPT-6 Astra 正式登场”会怎样改变现有技术栈？.md
 last_updated: 2026-09-08
 ---
 

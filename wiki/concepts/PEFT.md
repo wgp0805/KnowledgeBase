@@ -2,7 +2,7 @@
 title: "PEFT"
 type: concept
 tags: [AI, LLM, 微调, 参数高效微调, PEFT]
-sources: [raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md]
+sources: [raw/09-archive/2026-07-07-Transformer、“训练-微调”范式-AI 相关概念之（核心技术与架构） - 橙子家.md]
 last_updated: 2026-07-08
 ---
 

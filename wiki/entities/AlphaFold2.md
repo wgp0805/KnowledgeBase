@@ -2,7 +2,7 @@
 title: "AlphaFold2"
 type: entity
 tags: [AI, 生物医药, 蛋白质预测, 深度学习]
-sources: [raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md]
+sources: [raw/09-archive/2026-07-07-Transformer、“训练-微调”范式-AI 相关概念之（核心技术与架构） - 橙子家.md]
 last_updated: 2026-07-08
 ---
 

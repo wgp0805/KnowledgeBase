@@ -2,7 +2,7 @@
 title: "摘要-OpenSpec规范驱动AI编程框架"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md]
+sources: [raw/09-archive/同事：“Claude Code都能自动写代码了，还要什么Spec Coding？” 我反问：“屎山代码你来维护？”.md]
 last_updated: 2026-06-24
 ---
 

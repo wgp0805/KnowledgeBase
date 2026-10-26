@@ -2,7 +2,7 @@
 title: "摘要-40分钟学会Codex零基础教程"
 type: source
 tags: [来源, AI教程, Codex]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md]
+sources: [raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md]
 last_updated: 2026-05-19
 ---
 

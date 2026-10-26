@@ -19,6 +19,21 @@ for root, _, files in os.walk(ARCHIVE):
         rel = os.path.relpath(os.path.join(root, f), os.path.join(KB, "raw")).replace("\\", "/")
         archive_index.setdefault(f, rel)  # 同名取第一个
 
+# 引号/全角标点归一化索引：剪藏 frontmatter 与归档文件名可能存在
+# 直引号(") vs 弯引号(“”)、半角 vs 全角标点的差异，精确匹配失败时回退
+_NORM_TABLE = str.maketrans({
+    '"': '"', '“': '"', '”': '"', '„': '"',
+    "'": "'", '‘': "'", '’': "'",
+    '：': ':', '｜': '|', '，': ',', '？': '?', '！': '!', '（': '(', '）': ')',
+})
+
+def _norm(s: str) -> str:
+    return s.translate(_NORM_TABLE)
+
+archive_norm_index = {}
+for name, rel in archive_index.items():
+    archive_norm_index.setdefault(_norm(name), rel)  # 归一化后同名取第一个
+
 def fix_file(path, apply):
     content = open(path, encoding="utf-8").read()
     if not content.startswith("---"):
@@ -38,8 +53,14 @@ def fix_file(path, apply):
         full = os.path.join(KB, src)
         if not os.path.exists(full):
             basename = os.path.basename(src)
+            new_src = None
             if basename in archive_index:
                 new_src = "raw/" + archive_index[basename]
+            else:
+                nb = _norm(basename)
+                if nb in archive_norm_index:
+                    new_src = "raw/" + archive_norm_index[nb]
+            if new_src:
                 changes.append((src, new_src))
                 return new_src
         return src

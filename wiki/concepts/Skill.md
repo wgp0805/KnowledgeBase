@@ -2,7 +2,7 @@
 title: "Skill"
 type: concept
 tags: [AI, Agent, 技能扩展]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/09-archive/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/09-archive/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/为什么Skill才是未来的资产.md, raw/09-archive/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/09-archive/2026-10-21-如何从0-1写好一个Skill？超全教程+案例分享！.md]
+sources: [raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md, raw/09-archive/全网最全！60分钟全面掌握Claude Code~【附完整文档】.md, raw/09-archive/6条Claude Code实践中的经验与思考.md, raw/01-articles/Java开发栈Skills全面指南.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/2026-06-29-AI native Casebook 面向 AI Agent 时代的测试用例工程化工作流 - 虫师.md, raw/09-archive/Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”，强的离谱！！.md, raw/09-archive/为什么Skill才是未来的资产.md, raw/09-archive/2026-09-26-我写了 50 个 Claude Code Skill 才发现，前 30 个都白写了 - 码哥字节.md, raw/09-archive/2026-10-21-如何从0-1写好一个Skill？超全教程+案例分享！.md]
 last_updated: 2026-10-22
 ---
 

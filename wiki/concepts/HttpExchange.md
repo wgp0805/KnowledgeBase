@@ -2,7 +2,7 @@
 title: "HttpExchange"
 type: concept
 tags: [Spring, HTTP客户端, 声明式调用]
-sources: [raw/01-articles/Spring为什么要"抛弃"Feign？.md]
+sources: [raw/09-archive/Spring为什么要“抛弃”Feign？.md]
 last_updated: 2026-07-20
 ---
 

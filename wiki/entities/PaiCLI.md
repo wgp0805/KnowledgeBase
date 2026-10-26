@@ -2,7 +2,7 @@
 title: "PaiCLI"
 type: entity
 tags: [AI, CLI工具, Agent, 开源项目]
-sources: [raw/09-archive/AI agent工具应该怎么使用.md, raw/09-archive/面试官皱眉："让你负责一个生产级 Agent，你会怎么设计？"，我上来就开始背 ReAct、Function Calling、Skills。面试官听完摇头。.md, raw/09-archive/DeepSeek 员工：DeepSeek V4 Pro 正式发布，Harness 也进入最后一个内测版本（附Agent面试题）.md, raw/09-archive/JD员工：同事觉得电脑太卡，我用Codex帮他修，结果不小心看到他正在写的辞职信还有已经到手的offer，该不该跟领导说呢（附Agent面试题）.md, raw/09-archive/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md]
+sources: [raw/09-archive/AI agent工具应该怎么使用.md, raw/09-archive/面试官皱眉：“让你负责一个生产级 Agent，你会怎么设计？”，我上来就开始背 ReAct、Function Calling、Skills。面试官听完摇头。.md, raw/09-archive/DeepSeek 员工：DeepSeek V4 Pro 正式发布，Harness 也进入最后一个内测版本（附Agent面试题）.md, raw/09-archive/JD员工：同事觉得电脑太卡，我用Codex帮他修，结果不小心看到他正在写的辞职信还有已经到手的offer，该不该跟领导说呢（附Agent面试题）.md, raw/09-archive/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md]
 last_updated: 2026-10-21
 ---
 

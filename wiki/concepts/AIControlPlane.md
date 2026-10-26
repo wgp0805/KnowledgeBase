@@ -2,7 +2,7 @@
 title: "AIControlPlane"
 type: concept
 tags: [概念, AI, Agent, 安全, 权限, 审计, GPT-6]
-sources: [raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
+sources: [raw/09-archive/2026-09-07-“GPT-6 Astra 正式登场”会怎样改变现有技术栈？.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
 last_updated: 2026-10-26
 ---
 

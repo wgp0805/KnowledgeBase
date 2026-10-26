@@ -6,7 +6,7 @@ sources:
   - raw/09-archive/ECC使用教程.md
   - raw/09-archive/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md
   - raw/09-archive/全网爆火的Superpowers到底是什么.md
-  - raw/09-archive/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".duplicate-2026-06-25.md
+  - raw/09-archive/同事：“Claude Code都能自动写代码了，还要什么Spec Coding？” 我反问：“屎山代码你来维护？”.duplicate-2026-06-25.md
 last_updated: 2026-06-26
 ---
 

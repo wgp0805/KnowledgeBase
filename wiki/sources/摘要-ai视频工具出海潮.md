@@ -2,7 +2,7 @@
 title: "摘要：腾讯上新，字节加码，AI视频工具开始卷出海"
 type: source
 tags: [AI视频, 出海, 腾讯, 字节, 产品竞争]
-sources: [raw/01-articles/2026-08-22-腾讯上新，字节加码，AI视频工具开始卷"出海"？.md]
+sources: [raw/09-archive/2026-08-22-腾讯上新，字节加码，AI视频工具开始卷“出海”？.md]
 last_updated: 2026-08-24
 ---
 

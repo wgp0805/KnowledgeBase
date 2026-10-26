@@ -2,7 +2,7 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md, raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/09-archive/Codex 和 Claude Code，到底哪个更好？.md, raw/09-archive/Loop Engineering 实战指南.md, raw/09-archive/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/09-archive/Codex 从原理到 Java落地.md, raw/09-archive/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/09-archive/Codex 最新焚决发布，快！.md, raw/09-archive/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/09-archive/2026-10-10 - Agent 出现幻觉怎么治理？.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
+sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md, raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/09-archive/Codex 和 Claude Code，到底哪个更好？.md, raw/09-archive/Loop Engineering 实战指南.md, raw/09-archive/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/09-archive/Codex 从原理到 Java落地.md, raw/09-archive/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/09-archive/Codex 最新焚决发布，快！.md, raw/09-archive/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/09-archive/2026-10-10 - Agent 出现幻觉怎么治理？.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
 last_updated: 2026-10-26
 ---
 

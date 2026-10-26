@@ -3,7 +3,7 @@ title: "OpenSpec apply 后发现 bug 的修复流程"
 type: synthesis
 tags: [OpenSpec, bug修复, delta-spec, spec-rot, 决策指南]
 sources:
-  - raw/09-archive/同事："Claude Code都能自动写代码了，还要什么Spec Coding？" 我反问："屎山代码你来维护？".md
+  - raw/09-archive/同事：“Claude Code都能自动写代码了，还要什么Spec Coding？” 我反问：“屎山代码你来维护？”.md
   - raw/09-archive/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
   - raw/09-archive/253k Superpowers 和 60k OpenSpec 被融合了！spec-superflow 工作流登上热榜.md
   - raw/09-archive/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md

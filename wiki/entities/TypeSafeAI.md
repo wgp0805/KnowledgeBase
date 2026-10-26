@@ -2,7 +2,7 @@
 title: "TypeSafeAI"
 type: entity
 tags: [AI公司, 判断模型]
-sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md]
+sources: [raw/09-archive/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的“判断模型”路线靠谱吗？.md]
 last_updated: 2026-09-22
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-spring-why-abandon-feign"
 type: source
 tags: [Spring, Feign, HTTP客户端, 技术]
-sources: [raw/01-articles/Spring为什么要"抛弃"Feign？.md]
+sources: [raw/09-archive/Spring为什么要“抛弃”Feign？.md]
 last_updated: 2026-07-20
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-maven-4-重构"
 type: source
 tags: [Maven, 构建工具, Java, POM, 迁移]
-sources: [raw/01-articles/Maven 4 要来了：15 年后，Java 构建工具迎来"彻底重构".md]
+sources: [raw/09-archive/Maven 4 要来了：15 年后，Java 构建工具迎来“彻底重构”.md]
 last_updated: 2026-07-24
 ---
 

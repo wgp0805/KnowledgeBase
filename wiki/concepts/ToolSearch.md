@@ -2,7 +2,7 @@
 title: "ToolSearch"
 type: concept
 tags: [概念, AI, Agent, GPT-6, Astra, 工具加载]
-sources: [raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md]
+sources: [raw/09-archive/2026-09-07-“GPT-6 Astra 正式登场”会怎样改变现有技术栈？.md]
 last_updated: 2026-09-08
 ---
 
