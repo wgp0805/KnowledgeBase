@@ -3271,3 +3271,62 @@
 
 ## 更新 (2026-10-21)
 - [[LLMWiki]]（+三层架构落地版、编译/检索/治理流程、非银弹边界、人的审核权）、[[WeKnora]]（+Wiki 知识库类型实测：20 摘要/13 实体/128 概念、渐进式下钻检索、图谱≠知识图谱辨析）、[[AndrejKarpathy]]（+LLM Wiki 构想与单篇摄入方式）、[[MattPocock]]（+ask-matt 路由形态）、[[卡尔的AI沃茨]]（+老爷爷提示语路由与「薛定谔的看」）、[[常驻智能体]]（+睡眠唤醒、router 打扰启发式、durable workflow、上下文与成本四组工程问题）、[[GrokBot]]（+harness 工程实现解剖：单工具边界、优先级合并、Firecracker、Temporal）、[[提示词工程]]（+AI 对话五环节 + 提示语路由）、[[混合检索]]（+业务专有名词召回失败案例与管道治理）、[[RRF]]（+专有名词场景必要性与生产参数）、[[Rerank]]（+两阶段检索 50→3~5 篇）、[[RAG]]（+生产级优化 5 方案总表）、[[PaiCLI]]（+三层验证与评测体系、安全审查多路并行、长期记忆治理、9 层提示词布局、Java 版本知识冲突标注）、[[MiMoCode]]（+1.3 万 Star 与团队进展）、[[MiMoDesktop]]（+2026-10 进展）、[[Xiaomi]]（+MiMo 团队扩编与 11 亿台 AIoT 人才需求）、[[Worktree]]（+四道检查与 cp/重定向漏洞、与 Pi 队列对照）、[[提示词注入防御]]（+长期记忆写入锁死与过时代理）、[[钢人论证]]（+提示语路由中的位置与约束）、[[Pi (coding harness)]]（+模块级文件变更队列与三个漏洞）、[[KV Cache]]（+机制细节与模型/引擎/应用三端优化）、[[上下文压缩]]（+长期记忆三类脏数据治理）、[[长期记忆]]（+脏数据治理机制）、[[渐进式披露]]（+工具层与检索层的同源落地）、[[苏三]]（+RAG 性能优化 5 方案）、[[沉默王二]]（+xiaom 面试题与并发写冲突两篇）、[[小哈]]（+main 方法面试题）、[[叶小钗]]（+LLM Wiki 实战）
+
+## Sources (2026-10-26 ingest 新增 - 13 篇)
+- [[摘要-腾讯skill协作balance-li]] — 腾讯 PM Balance Li 把高频工作法固化为 Learning/Design/Build 三个 Skill 生成器，五步学习闭环 + 文件式进度记忆
+- [[摘要-agent-yolo-三端ide面板]] — Cn#工作室 Agent YOLO：把本机 Agent CLI 收进 IntelliJ/VS/VS Code 三端侧边面板，真实 PTY 且输出全可点击
+- [[摘要-spring-ai-alibaba-文生图文生音向量化]] — SAA 实战：ChatMemory Redis 持久化、wanx 文生图、cosyvoice 文生音、Redis Stack 向量检索
+- [[摘要-kimi-k31-pro-首测]] — Kimi K3.1 Pro 首测：3 万亿 MoE/100 万上下文，编程 64.5% 仅次于 GPT-6 Astra，开源第一
+- [[摘要-fde七步工作流与离场验收]] — FDE 项目执行方法论：七步工作流与离场七件套，"允许 FDE 离场"才是交付终点
+- [[摘要-workbuddy-slim加速瘦身]] — WorkBuddy 越用越慢的滚雪球根因与 workbuddy-slim 四维体检瘦身
+- [[摘要-latchutils异步任务同步]] — LatchUtils："多次提交、一次等待"简化批量异步任务同步
+- [[摘要-tomcat-11-new-features]] — Tomcat 11：虚拟线程一行配置、Servlet 6.1 实用 API、做减法与 FFM 直调 OpenSSL
+- [[摘要-python-day02-开发环境搭建]] — 小嘉 Python 课程 Day02：安装/IDLE/PyCharm/Anaconda/venv 入门
+- [[摘要-sse-websocket服务端推送选型]] — 服务端推送三方案选型：单向 SSE、双向 WebSocket、轮询是下策
+- [[摘要-靠ai赚钱的是谁的钱]] — 叁斤用赚钱第一性原理拆解 AI 赛道四类付费理由
+- [[摘要-claude-auto-mode监控逃逸]] — Claude 自动模式全球默认开启 + METR/Redwood 61 页审计：99.2% 覆盖下六条监控逃逸暗道
+- [[摘要-dsh-todolist机制]] — DSH Todo 模块源码解析：单一 todo_write 全量覆写与事件溯源投影
+
+## Entities (2026-10-26 新增)
+- [[BalanceLi]] — 腾讯产品经理（法务 AI 建设），三个 Skill 生成器作者
+- [[BalanceSkillCreators]] — balancegsr/skill-creators：Learning/Design/Build 三生成器工具组
+- [[AgentYOLO]] — 把 Agent CLI 摁进 IDE 面板的三端扩展器
+- [[CnSharpStudio]] — Cn#工作室，AIAgentsTerminal 与 AgentYOLO 作者
+- [[K3.1Pro]] — 月之暗面 2026-10-23 旗舰，3 万亿 MoE「最强开源模型」
+- [[WorkBuddySlim]] — WorkBuddy 体检瘦身开源 Skill，只诊断不删改
+- [[LatchUtils]] — "多次提交、一次等待"的 Java 异步同步工具类
+- [[CountDownLatch]] — JDK 并发倒计时门闩（wiki 首次入库）
+- [[METR]] — 模型评估机构，OpenAI 内部监控 61 页审计作者方
+- [[Redwood]] — 与 METR 联合审计的机构（Adam Kaufman）
+- [[叁斤]] — AI 增长变现作者，赚钱第一性原理提出者
+
+## Concepts (2026-10-26 新增)
+- [[学习闭环五步法]] — 输入—学习—确认—验收—沉淀的个人 AI 学习方法论（与"自学习闭环"同名异义已消歧）
+- [[Agent输出链接化]] — Agent 终端输出中的路径/堆栈/符号可点击直达代码
+- [[多端共享元数据]] — Meta/ 目录单一事实来源支撑三端同步发版
+- [[思考强度]] — Low/High/Max 推理预算档位机制
+- [[Agent交付前自测]] — 交付前真跑验证、自愈排障、自我修正
+- [[FDE七步工作流]] — 发现任务→最小场景→数据权限→原型→接入→验证→上线回流
+- [[FDE离场七件套]] — FDE 项目结束必须留下的七类资产
+- [[Agent瘦身]] — Skill/MCP/记忆/会话四维体检减负方法论
+- [[记忆蒸馏]] — MEMORY.md 等长期记忆文件的提炼压缩（与模型蒸馏消歧）
+- [[多次提交一次等待]] — 批量异步任务注册后统一触发等待的模式
+- [[IDLE]] — Python 官方零配置轻量 IDE
+- [[PyCharm]] — JetBrains 专业 Python IDE，社区版免费
+- [[Anaconda]] — 数据科学全家桶发行版
+- [[PyLauncher]] — Windows 版本启动器 py
+- [[Venv虚拟环境]] — Python 标准库内置依赖隔离
+- [[轮询]] — 客户端定时拉取的伪推送方式
+- [[WebSocket]] — 全双工双向通讯协议
+- [[EL6.0]] — EL 6.0：Record 组件读取、数组 .length、Optional 解析默认关闭
+- [[MoneyFlowFirstPrinciple]] — 赚钱第一性原理：先看钱谁给、为什么给、合不合理
+- [[ValueParity]] — 价值对等：付的钱与拿到的东西对得上
+- [[InformationArbitrage]] — 信息差生意及其短命性
+- [[LearnToEarnCourse]] — 「学赚钱」类知识付费的鉴别与反身性风险
+- [[多级AI监控]] — Token 级分类器 + 逐级升级调查员的 AI 监控方案
+- [[监控逃逸]] — 六条逃逸暗道与修复建议
+- [[AgentTodoList]] — Agent 任务清单的底层设计（todo_write 全量覆写）
+- [[会话投影]] — 事件溯源日志与渲染分离，不占上下文、不破坏前缀缓存
+
+## 更新 (2026-10-26)
+- [[meta-skill]]（+场景族生成器）、[[AIAgentsTerminal]]（+Agent YOLO 关系与形态演变）、[[YOLO模式]]（+各 Agent 跳过权限旗标映射）、[[Resume模式]]（+R 开关实例）、[[SpringAI_Alibaba]]（+Starter 生态与多模态接入）、[[DashScope]]（+Java 侧多模态接入范式）、[[Redis]]（+对话记忆持久化与向量检索）、[[ChatMemory]]（+Redis 持久化链路与版本边界冲突标注）、[[向量数据库]]（+Redis Stack 实操）、[[Embeddings]]（+Java 侧用法与维度精度冲突标注）、[[VectorStore]]（+Spring AI 用法）、[[Kimi]]（+K3.1 Pro 发布）、[[K3]]（+后继版本 K3.1 Pro）、[[KimiCode]]（+主力换代与游戏实测）、[[Astra]]（+编程游戏实测对比）、[[程序员小灰]]（+K3.1 Pro 首测来源）、[[FDE]]（+项目执行视角，concepts 与 entities 双页增量）、[[WorkBuddy]]（+性能与成本劣化及瘦身章节）、[[马佳彬]]（+workbuddy-slim 与三篇来源回填）、[[上下文压缩]]（+压缩安全盲区维度）、[[Token压缩]]（+Agent瘦身 关联）、[[小哈]]（+LatchUtils 来源）、[[Tomcat]]（+Tomcat 11 新特性）、[[Servlet]]（+Servlet 6.1 实用 API）、[[JakartaEE]]（+Tomcat 11 子规范清单）、[[servlet-6-1]]（+落地 API 细节）、[[虚拟线程]]（+Tomcat 侧落地）、[[HTTP2]]（+Server Push 淘汰注记）、[[程序汪]]（+Tomcat 11 来源）、[[Python]]（+开发环境与版本）、[[SSE]]（+浏览器 API 与选型）、[[IT码徒]]（+推送选型来源）、[[人人都是产品经理]]（+AI 变现类目）、[[DeepSeekHarness]]（+Todo 模块源码解析）、[[沉默王二]]（+Todo List 文章来源）、[[Anthropic]]（+自动模式全球默认开启）、[[OpenAI]]（+监控审计与多级 AI 监控）、[[Codex]]（+内部监控审计）、[[GPT-6]]（+「耶」事故案例）、[[Claude]]（+自动模式全球默认）、[[auto-mode]]（+全球默认化节点）、[[权限模式]]（+全球默认开启与实测数据）、[[沙箱]]（+边界可靠性实测）、[[安全剧场]]（+剧场范围扩大）、[[HITL]]（+人工把关可靠性实测）、[[AIControlPlane]]（+多级 AI 监控落地形态）
