@@ -19,7 +19,8 @@ sources:
   - raw/01-articles/2026-10-05-万字拆解 DeepSeek Harness 桌面版：产品设计、任务实测与能力边界.md
   - raw/01-articles/2026-10-12-DeepSeek Harness 插件生态解析 - 我才是银古.md
   - raw/01-articles/REA 保姆级教程：DeepSeek Harness 实操.md
-last_updated: 2026-10-14
+  - "raw/09-archive/阿里面试官：“Agent 的 Todo List 有什么用？”.md"
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -234,6 +235,14 @@ DSH 接入 MCP 的方式与 Codex、Claude Code 都不同——**不读 `mcpServ
 
 DSH 无 REA 一键接入命令（官方一键命令支持十几个 Agent 但未含 REA），按上述 cordis.patch.yml 方式手动接入即可；Skill 装进 `~/.agents/skills/reverse-engineer-anything` 后 DSH 自动扫描。
 
+## Todo 模块源码解析：todo_write 全量覆写（2026-10-22，[[沉默王二]]，详见 [[摘要-dsh-todolist机制]]）
+- **单一工具设计**：Todo 模块只向模型暴露一个 `todo_write` 工具，参数为 `todos` 数组，每项仅两个必填字段 `content`（任务描述）与 `status`（状态）；状态枚举仅 `pending`/`in_progress`/`completed` 三种，多传 `id` 或 `priority` 字段会被参数校验器当场报错拦截
+- **全量覆写理由**：①省去模型跨轮次记忆任务编号的负担；②Manus《Context Engineering for AI Agents》的复述原理——模型对靠近上下文末尾的内容注意力最强，每次重写完整清单即把全局目标与当前进度复述到上下文末尾，防止长程任务跑偏，详见 [[AgentTodoList]]
+- **并行控制**：布尔配置项 `allowParallelInProgress` 为 false 时，提交两个以上 `in_progress` 任务会被校验函数抛异常、返回错误结果逼迫当场修正重新调用，校验还拦截空字符串与重复任务描述；开启并发 Sub-agent 与后台任务时设为 true
+- **事件架构**：调用成功后只给模型回一行计数文本，同时在会话日志追加 `todo/write` 事件——不进模型对话消息流、不占上下文窗口、不破坏 Prefix Caching；前端 `todos` 会话投影监听该事件渲染面板，`turn/start` 事件（下一轮新提问）自动清空旧面板，详见 [[会话投影]]
+- **压缩保护**：上下文压缩模块内置固定 Checkpoint 摘要模板，强制把未完成任务写入 `Pending Jobs` 和 `Current Work` 章节，压缩后任务不丢
+- **Plan 模式禁用**：系统提示词明令禁止 Plan 模式调用 `todo_write`（Plan 敲定方案，Todo 跟踪方案获批后的执行进度）；多 Agent 分工场景需演进为按编号更新的任务工具
+
 ## 关联连接
 - [[DeepSeek]] — 所属公司
 - [[崔添翼]] — 团队负责人
@@ -282,3 +291,6 @@ DSH 无 REA 一键接入命令（官方一键命令支持十几个 Agent 但未�
 - [[REA]] — 通过 cordis.patch.yml 接入 DSH 的逆向工程工具
 - [[逆向工程]] — REA 实战涉及的核心概念
 - [[插件生态]] — 生态分析框架
+- [[摘要-dsh-todolist机制]] — 来源（Todo 模块源码与 todo_write 全量覆写机制）
+- [[AgentTodoList]] — 该篇提炼的概念
+- [[会话投影]] — 该篇提炼的架构模式

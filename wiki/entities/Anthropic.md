@@ -11,7 +11,8 @@ sources:
   - raw/01-articles/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md
   - raw/01-articles/2026-10-03-一年前说 PM 会被淘汰，现在 Anthropic 说：人人都得学会当 PM.md
   - raw/01-articles/2026-10-16-Claude负责人这篇万字长文，彻底颠覆了我的 AI 用法，附提示词！.md
-last_updated: 2026-10-19
+  - "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -51,6 +52,9 @@ Anthropic 发布对 [[智谱]] [[GLM-5.3]] 的网络安全评估：五个月前 
 - **产品主张**：做 agent-native 与 malleable software，先建 primitives 底层（详见 [[Agent原生软件]]）
 - **边界提醒**：这是模型公司的内部视角——Anthropic 有 foundations 团队统一底层、有实验室把项目停放进 eval harness 等新模型，多数公司没有这种余量
 
+### Claude 自动模式全球默认开启（2026-10-25 报道）
+2026-10-25 报道称"下周起" [[Claude]] 将全球默认开启 [[auto-mode]]：每步操作能否执行由另一个 AI 拍板，人类「允许」键被收走（此前每步都弹窗问用户）。Anthropic 给出两个依据：①大厂早已把写代码、做研究交给 AI，涌来的代码与实验人类看不过来，审核阶段只能交还给 AI；②人类监工实测失效——找来 1053 名付费测试者写代码并在干活中途悄悄注入一条危险命令，人类只拦下 13.6%，AI 拦下 89%，连续点过 50 多次弹窗后人类拦截率跌到约 5%。Anthropic 未披露让 AI 拍板的具体机制（本 wiki 已有 auto-mode 分类器细节：误拦 0.4%/越权放行 17% 的官方口径，可互为对照）；OpenAI 公开的 [[多级AI监控]] 可作参考。详见 [[摘要-claude-auto-mode监控逃逸]]。
+
 ## 关联连接
 - [[FelixRieseberg]] — 工程主管，2026-10 万字长文《Be More Ambitious》作者
 - [[摘要-野心提问法-felix长文]] — 其长文的拆解来源
@@ -74,3 +78,8 @@ Anthropic 发布对 [[智谱]] [[GLM-5.3]] 的网络安全评估：五个月前 
 - AlphaFold3 — 被优化模型
 - [[摘要-数字员工落地第一步]] — Building effective agents 建议被引用
 - [[ComputerUse]] — Opus 5.5 强化的计算机使用能力
+- [[摘要-claude-auto-mode监控逃逸]] — 来源（自动模式全球默认开启与监控审计）
+- [[监控逃逸]] — METR 曝出的六条暗道
+- [[多级AI监控]] — OpenAI 的监控参考方案
+- [[METR]] — 外部审计机构
+- [[Redwood]] — 外部审计机构

@@ -2,8 +2,8 @@
 title: "VectorStore"
 type: concept
 tags: [RAG, 向量数据库, 向量检索]
-sources: [raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md]
-last_updated: 2026-08-10
+sources: [raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -33,6 +33,9 @@ Vector Store（向量库）用于存储和检索向量化后的文档。LangChai
 - 核心参数：k（返回数量，默认 4）、score_threshold（最小关联阈值）、fetch_k（MMR 输入量，默认 20）、lambda_mult（MMR 多样性，1 最小 0 最大，默认 0.5）、filter（按 metadata 筛选）
 - 获取得分：similarity_search_with_relevance_scores 返回文档+得分
 
+### Spring AI Java 侧用法（2026-10-23 NE_STOP 教程）
+入库：`vectorStore.add(List.of(new Document("i study LLM"), new Document("i love java")))`；检索：`SearchRequest.builder().query(msg).topK(10).build()` → `vectorStore.similaritySearch(searchRequest)` 返回 List<Document>。Redis 实现：`spring-ai-starter-vector-store-redis` 依赖 + `spring.ai.vectorstore.redis.{initialize-schema,index-name,prefix}` 配置（细节见 [[向量数据库]] 与 [[Redis]]）。
+
 ## 关联连接
 - [[RAG]] — 向量库是 RAG 存储层
 - [[Embeddings]] — 向量化的数据进入向量库
@@ -42,3 +45,4 @@ Vector Store（向量库）用于存储和检索向量化后的文档。LangChai
 - [[FAISS]] — 向量相似度搜索库
 - [[LangChain]] — 所属框架
 - [[摘要-langchain-rag构建知识库-理论]] — 来源
+- [[摘要-spring-ai-alibaba-文生图文生音向量化]] — 来源（Spring AI Java 侧用法）

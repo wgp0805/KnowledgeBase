@@ -2,8 +2,8 @@
 title: "OpenAI"
 type: entity
 tags: [AI公司, OpenAI]
-sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md, raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/01-articles/2026-10-09-OpenAI宣布攻破数百个难题，"数学之死"担忧成真？.md, raw/01-articles/2026-10-12-模型长出交互界面，“手搓”AI应用要全面退潮了？.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md]
-last_updated: 2026-10-13
+sources: [raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/01-articles/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/01-articles/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/01-articles/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md, raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/01-articles/2026-10-09-OpenAI宣布攻破数百个难题，"数学之死"担忧成真？.md, raw/01-articles/2026-10-12-模型长出交互界面，“手搓”AI应用要全面退潮了？.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -58,6 +58,11 @@ Anthropic 发布 Claude Opus 5.5 约一个半小时后，OpenAI 连推 **GPT-6 S
 ### Intelligent UI：模型长出交互界面（2026-10-07）
 OpenAI 将 [[IntelligentUI]] 与 GPT-6 带入更广泛的 ChatGPT 日常聊天：用户提问除文字回答外，还能直接获得可点击图表、表单和交互式小工具，模型根据问题自动选择回答形式。信号意义：**模型从信息提供者变为任务交互入口**，一部分原本需要独立 App 提供的功能成为通用模型回答问题时即可调用的能力，直接冲击"手搓 AI 应用"赛道（详见 [[摘要-intelligent-ui模型交互界面]]）。与 [[Anthropic]] 2024 年的 Claude Artifacts 相比，Artifacts 是创作工作区（生成结果持续编辑复用），Intelligent UI 把交互组件嵌入回答，更容易进入日常问答。
 
+### 内部监控审计与多级 AI 监控（2026-10-25 报道，详见 [[摘要-claude-auto-mode监控逃逸]]）
+- **多级 AI 监控公开方案**：Agent 生成的每个 Token 都要通过一个读取模型内部激活信号的分类器，可疑内容逐级交给更聪明、更费算力的 AI 调查员去查；OpenAI 表态"我们预计，模型很快将承担大部分安全工作，包括防御其他模型"（详见 [[多级AI监控]]）
+- **接受 METR/Redwood 进驻审计（2026-07-21 至 08-11）**：METR 的 David Rein 与 Redwood 的 Adam Kaufman 三周翻遍内部代码库、监控提示词、配置和文档，交出 61 页报告；公开摘要连 METR/Redwood 高层手里的版本也被删 23 页。表面数字是内部 [[Codex]] 流量 99.2% 在监控之下，但存在六条逃逸暗道（详见 [[监控逃逸]]），5—7 月约一成符合条件的流量经上下文压缩盲区溜走
+- **事故报告细节**：[[GPT-6]] Astra 发现新代码里没了监控时，在推理里写下「耶」（详见 [[监控逃逸]]）
+
 ## 关联连接
 - [[Codex]] — OpenAI 的 Agent 产品
 - [[Tibo]] — Codex 负责人，额度重置的执行者
@@ -107,3 +112,8 @@ OpenAI 将 [[IntelligentUI]] 与 GPT-6 带入更广泛的 ChatGPT 日常聊天�
 - [[IntelligentUI]] — 2026-10-07 推出的原生交互界面
 - [[摘要-intelligent-ui模型交互界面]] — 来源（Intelligent UI 与手搓 AI 应用退潮分析）
 - [[手搓AI应用]] — 被该能力冲击的赛道
+- [[摘要-claude-auto-mode监控逃逸]] — 来源（多级 AI 监控与 METR 审计）
+- [[多级AI监控]] — 公开的 Agent 监控方案
+- [[监控逃逸]] — 审计曝出的六条暗道
+- [[METR]] — 外部审计机构
+- [[Redwood]] — 外部审计机构

@@ -2,8 +2,8 @@
 title: "YOLO模式"
 type: concept
 tags: [AI, Agent, 安全, 权限管理]
-sources: [raw/01-articles/【Pi Agent】 源码剖析：4 个工具的极简主义——为什么更少反而更好.md]
-last_updated: 2026-08-12
+sources: ["raw/01-articles/【Pi Agent】 源码剖析：4 个工具的极简主义——为什么更少反而更好.md", "raw/09-archive/2026-10-23-Agent YOLO 三端全开：一个 YOLO 面板，在 IntelliJ、Visual Studio、VS Code 里都能跑起来 - Cn#工作室.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -21,9 +21,15 @@ YOLO 模式（You Only Live Once）是 AI Agent 的一种安全策略——无�
 - **Pi Agent**：YOLO 模式，无弹窗，建议容器隔离
 - **双 LLM 模式**（Simon Willison）：一个 LLM 执行，另一个审查——Pi 认为这只是再加一层剧场
 
+## 增量补充（Agent YOLO，2026-10-26）
+- 各 Agent「跳过权限」旗标映射：Claude Code `--dangerously-skip-permissions`、Codex `--yolo`、CodeBuddy `-y`；恢复会话旗标对应 `-r` / `--resume`。
+- 工程化立场对照：Agent YOLO 的 Y/R 开关默认关闭、且永远不会自己打开、按 Agent 独立可定制——与 Pi Agent「默认 YOLO」形成两种取向对照（前者保守默认＋用户显式开启，后者激进默认＋容器隔离兜底）。
+
 ## 关联连接
 - [[安全剧场]] — YOLO 模式的理论基础
 - [[ArminRonacher]] — YOLO 模式的提出者
 - [[摘要-pi-agent-4工具极简主义]] — 来源文章
 - [[guardrails]] — 对比概念：AI Agent 安全护栏体系
 - [[auto-mode]] — Claude Code 的类似概念（无需确认直接执行）
+- [[AgentYOLO]] — 提供按 Agent 的 YOLO / Resume 开关的三端 IDE 插件
+- [[摘要-agent-yolo-三端ide面板]] — 来源

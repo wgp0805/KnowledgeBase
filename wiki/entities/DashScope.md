@@ -2,8 +2,8 @@
 title: "DashScope"
 type: entity
 tags: [阿里云, 模型API, 通义, AI]
-sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-07-19-【RAG扫盲系列·3】从零开始构建你的RAG项目第二弹：API 调用大模型问答 - Alkaid2077.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md]
-last_updated: 2026-08-14
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/2026-07-19-【RAG扫盲系列·3】从零开始构建你的RAG项目第二弹：API 调用大模型问答 - Alkaid2077.md, raw/01-articles/阿里又开源了一个神级Skill项目！.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -19,6 +19,9 @@ last_updated: 2026-08-14
 - **Embedding 服务**：提供 text-embedding-v3、text-embedding-v4 文本向量化模型，LangChain 用 DashScopeEmbeddings 接入；实测 text-embedding-v3 相似度区分度略优于 qwen3-embedding:0.6b（见 [[Embeddings]]）
 - **API Key 格式**：sk- 开头，在千问 AI 平台创建获取；[[QianWen-AI]] Skill 通过 `.env` 中的 `DASHSCOPE_API_KEY` 配置认证
 
+### Spring AI Java 侧接入与多模态模型（2026-10-23 NE_STOP 教程）
+同一 api-key 可调多类模型：Chat（qwen-max、qwen-plus、deepseek-v3——同 key 配 deepseek-v3 与 qwen-max 双模型，说明百炼托管第三方 DeepSeek 模型）、文生图（`wanx2.1-t2i-turbo`，通义万相 Wan 系列；另提及 Qwen-Image）、文生音（`cosyvoice-v2`，音色参数 longyingcui，返回 ByteBuffer 音频字节流写入 mp3）、向量化（text-embedding-v3）。Java 侧接入范式：`DashScopeApi.builder().apiKey(...).build()` → DashScopeChatModel / DashScopeImageOptions（withModel）/ DashScopeSpeechSynthesisOptions（model+voice）/ DashScopeEmbeddingOptions（withModel）；配置键 `spring.ai.dashscope.api-key`、`spring.ai.dashscope.chat.options.model=qwen-plus`、`spring.ai.dashscope.embedding.options.model=text-embedding-v3`。模型指定可全局配置，也可在调用处传 Options 覆盖全局（如 EmbeddingRequest 传参）。
+
 ## 关联连接
 - [[SpringAI_Alibaba]] — 依赖 DashScope 的框架
 - [[AgentScope_Java]] — 支持 DashScope 的框架
@@ -31,3 +34,4 @@ last_updated: 2026-08-14
 - [[Qwen]] — 通义千问模型
 - [[QianWen-AI]] — 基于 DashScope API 的多模态 Agent Skill 项目
 - [[摘要-阿里开源qianwen-ai-skill项目]] — 来源
+- [[摘要-spring-ai-alibaba-文生图文生音向量化]] — 来源（Spring AI Java 侧接入与多模态模型）

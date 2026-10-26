@@ -2,8 +2,8 @@
 title: "SpringAI_Alibaba"
 type: entity
 tags: [AI框架, 阿里, 多智能体, Java]
-sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md, "raw/01-articles/2026-10-03 - Spring AI Alibaba已停更了，Java还有希望吗？.md"]
-last_updated: 2026-10-08
+sources: [raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/01-articles/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md, "raw/01-articles/2026-10-03 - Spring AI Alibaba已停更了，Java还有希望吗？.md", "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -36,6 +36,9 @@ last_updated: 2026-10-08
 ### RAG 支持
 内置 RAG 支持，集成 DashScope 通义模型实现检索增强生成。
 
+### Starter 生态与多模态接入（2026-10-23 NE_STOP 教程）
+接入层实战侧补充（现页主体为 Graph 编排视角）：官方 starter 三件套——`spring-ai-alibaba-starter-dashscope`（模型接入）、`spring-ai-alibaba-starter-memory-redis`（对话记忆 Redis 持久化，配合 jedis 客户端）、`spring-ai-starter-vector-store-redis`（Redis 向量库）。多模型接入范式：`DashScopeChatModel.builder().dashScopeApi(DashScopeApi.builder().apiKey(apiKey).build()).defaultOptions(DashScopeChatOptions.builder().withModel("deepseek-v3" / "qwen-max").build())` 构建双 ChatModel Bean，各自包成 ChatClient（@Qualifier 区分），共享同一 RedisChatMemoryRepository。多模态：ImageModel 调 `wanx2.1-t2i-turbo` 文生图（DashScopeImageOptions）、SpeechSynthesisModel 调 `cosyvoice-v2`（音色 longyingcui）文生音、EmbeddingModel 调 `text-embedding-v3` 向量化——均为 Spring AI 标准接口 + DashScope 侧实现。工程结构：parent 工程 springAiAlibaba-workV1 多 module（saa08-persistent、saa11-Embed2vector），JDK 17，api-key 经 `${aliQwen-apikey}` 环境变量注入。
+
 ### 停更传闻核查（2026-10-03，苏三，详见 [[摘要-spring-ai-alibaba停更分析]]）
 - **传闻为真的部分**：GitHub 10.8k Star，最后一个正式版 v1.1.2.2（2026-03-10）后半年无新版；期间仅有 v2.0.0-M1.1（2026-06-25，跟进 Spring AI 2.0）
 - **另一半真相**：main 分支未停——v1.1.2.2 后累计 137 个提交（Graph 序列化修复、Admin 中文化、JUnit 5 迁移等，以养护为主无大功能主线）
@@ -61,3 +64,4 @@ last_updated: 2026-10-08
 - [[摘要-spring-ai-2-vs-alibaba选型]] — Spring AI 2.0 vs Alibaba 选型
 - [[LangGraph]] — 类比框架
 - [[spring-ai-vs-langchain4j]] — 相关框架对比
+- [[摘要-spring-ai-alibaba-文生图文生音向量化]] — 来源（Starter 生态与多模态接入教程）

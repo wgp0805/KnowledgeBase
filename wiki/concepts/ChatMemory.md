@@ -2,8 +2,8 @@
 title: "ChatMemory"
 type: concept
 tags: [AI, 对话记忆, 上下文]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/01-articles/Spring AI 2.0真香！.md]
-last_updated: 2026-07-09
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/01-articles/Spring AI 2.0真香！.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -30,6 +30,12 @@ LangChain4j 提供的是"记忆"而非"历史记录"。记忆会根据算法对�
 ### 与 Agent 记忆的关系
 ChatMemory 是对话级短期记忆（一次会话内），CLAUDE.md/Auto Memory 是跨会话的长期记忆。
 
+### Spring AI Alibaba Redis 持久化（starter-memory-redis，2026-10-23 NE_STOP 教程）
+- 前提论断：LLM 本身无状态，服务重启记忆即丢，必须持久化；四种记忆类型——内存存储（开发测试）、持久化存储（生产数据库）、分布式存储（可扩展应用）、自定义存储（特定需求）
+- 完整链路：依赖 `spring-ai-alibaba-starter-memory-redis` + jedis，`RedisChatMemoryRepository.builder().host(host).port(port).build()` 注册 Bean；`MessageWindowChatMemory.builder().chatMemoryRepository(redisChatMemoryRepository).maxMessages(10).build()` 经 `MessageChatMemoryAdvisor` 挂到 ChatClient 的 defaultAdvisors
+- 会话隔离：调用时 `advisors(advisorSpec -> advisorSpec.param("conversationId", userId))` 以 userId 作会话 ID；deepseek-v3 与 qwen-max 两个 ChatClient（DashScopeChatModel 构建）可共用同一 Repository
+- **版本边界（对本页上文"需 redis-stack"说法的更新）**：Redis Stack 只是官方扩展模块打包发行版；Redis 8.0 起模块已内置进原版 Redis、Redis Stack 独立包标记弃用，新项目直接用 Redis 8+（需 RediSearch 能力的对话记忆/向量场景同理）
+
 ## 关联连接
 - [[LangChain4j]] — ChatMemory 框架
 - [[RAG]] — 检索增强（长期知识）
@@ -38,3 +44,4 @@ ChatMemory 是对话级短期记忆（一次会话内），CLAUDE.md/Auto Memory
 - [[AdvisorChain]] — Advisor 链模式
 - [[摘要-spring-ai-2-agent-tips]] — 来源
 - [[摘要-spring-ai-2-对话记忆实战]] — Spring AI 2.0 对话记忆实战
+- [[摘要-spring-ai-alibaba-文生图文生音向量化]] — 来源（SAA starter-memory-redis 侧实践）

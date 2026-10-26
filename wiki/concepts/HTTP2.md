@@ -2,8 +2,8 @@
 title: "HTTP2"
 type: concept
 tags: [网络协议, HTTP/2, 多路复用, gRPC]
-sources: [raw/01-articles/2026-08-25 - 为什么越来越多人用gRPC？.md]
-last_updated: 2026-08-25
+sources: [raw/01-articles/2026-08-25 - 为什么越来越多人用gRPC？.md, "raw/09-archive/2026-10-25 - Tomcat 11 到底有多强大 ？.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -23,8 +23,11 @@ HTTP/2 是 HTTP 协议的第二版，与 HTTP/1.1 有本质区别。最核心能
 - **二进制帧**：数据传输格式，比文本更高效
 - **服务端推送**：支持
 - **高并发优势**：避免频繁建立连接的开销，吞吐量优势明显
+- **服务端推送现状（2026-10 注记，详见 [[摘要-tomcat-11-new-features]]）**：Server Push 已被 Chrome 等主流浏览器淘汰；Servlet 6.1 将其降级为可选功能，Tomcat 11 已移除实现；业界改用 `<link rel="preload">` 预加载替代。上表与上一条的 ✅ 仅描述协议能力，实际生态已不再使用。
 
 ## 关联连接
 - [[摘要-为什么越来越多人用gRPC]] — 来源
 - [[gRPC]] — 基于 HTTP/2 的 RPC 框架
 - [[Protobuf]] — gRPC 的序列化协议
+- [[摘要-tomcat-11-new-features]] — 来源（Server Push 移除注记）
+- [[Tomcat]] — Tomcat 11 移除 HTTP/2 Server Push 实现

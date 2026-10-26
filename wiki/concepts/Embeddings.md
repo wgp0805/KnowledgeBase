@@ -2,8 +2,8 @@
 title: "Embeddings"
 type: concept
 tags: [RAG, 向量化, 语义检索, Embedding]
-sources: [raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md]
-last_updated: 2026-08-10
+sources: [raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -33,6 +33,15 @@ Embeddings（向量化）是将文本转换为高维向量的过程。语义相�
 - 相似度衡量：余弦相似度（值越大越相似）
 - 实测对比（"我要躺平/我爱工作/拒绝加班"）：text-embedding-v3 的相似度区分度（0.52/0.92/0.61）略优于 qwen3-embedding:0.6b
 
+### Spring AI Java 侧用法（DashScope，2026-10-23 NE_STOP 教程）
+注入 `EmbeddingModel` 后：`embeddingModel.call(new EmbeddingRequest(List.of(msg), DashScopeEmbeddingOptions.builder().withModel("text-embedding-v3").build()))` 返回 EmbeddingResponse（`getResult().getOutput()` 为 float 数组）；不传 Options 时走全局配置 `spring.ai.dashscope.embedding.options.model=text-embedding-v3`。嵌入原理：将文本、图形、视频转换为浮点数数组，核心目标是把语义编码进向量；text-embedding-v3 在 Java/Spring AI 生态可经 DashScope 直接使用。
+
+## 知识冲突
+- **维度与检索精度（2026-10-26 标注）**
+  - 旧说法（本页）：Qwen3-Embedding 支持 MRL 维度压缩，1024 维可降维使用以省存储——隐含"维度并非越高越好"
+  - 新说法（[[摘要-spring-ai-alibaba-文生图文生音向量化]]，2026-10-23）："向量数据库维度越高，查询精准度也越高，查询效果越好"
+  - 两种说法并列保留（**状态：⏳ 待查**）；后一种过于绝对，忽略高维的存储/计算成本与 MRL 压缩实践，详见 [[向量数据库]]
+
 ## 关联连接
 - [[RAG]] — 向量化的应用场景
 - [[TextSplitter]] — 向量化前的切分步骤
@@ -42,3 +51,4 @@ Embeddings（向量化）是将文本转换为高维向量的过程。语义相�
 - [[DashScope]] — 阿里云百炼 Embedding
 - [[Qwen]] — qwen3-embedding 模型底座
 - [[摘要-langchain-rag构建知识库-理论]] — 来源
+- [[摘要-spring-ai-alibaba-文生图文生音向量化]] — 来源（Spring AI Java 侧用法）

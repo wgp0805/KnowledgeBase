@@ -2,8 +2,8 @@
 title: "Redis"
 type: entity
 tags: [缓存, 键值存储, 秒杀]
-sources: [raw/09-archive/springboot整合redis.md, raw/09-archive/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/09-archive/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md, raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md, raw/09-archive/高并发下如何防止重复下单？.md, raw/01-articles/秒杀系统怎么区分真实用户和黄牛脚本？.md]
-last_updated: 2026-08-20
+sources: [raw/09-archive/springboot整合redis.md, raw/09-archive/Docker部署Redis全攻略：持久化、自定义网络与配置详解.md, raw/09-archive/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md, raw/01-articles/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md, raw/09-archive/高并发下如何防止重复下单？.md, raw/01-articles/秒杀系统怎么区分真实用户和黄牛脚本？.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -33,6 +33,11 @@ Redis 是一个开源的内存数据结构存储系统，用作数据库、缓�
 - **Lua 脚本保证原子性（Redis 6.2 以下）**：`GET` + `DEL` 用 Lua 脚本封装，禁止拆成两条独立命令（高并发下两步之间是竞态窗口）
 - **热点 Key 风险**：秒杀峰值下全站请求集中打向少数 Key，会形成 [[热点Key]] 烤糊所在节点（如 Redisson RRateLimiter 限流器 Key）
 
+### 对话记忆持久化与向量检索（Redis Stack / Redis 8.0，2026-10-23 NE_STOP 教程）
+- **Redis Stack 定位**：原生 Redis + 一套官方扩展模块打包发行版，自带 RediSearch（检索 + 向量搜索）；Redis 8.0 起官方把模块内置进原版 Redis，Redis Stack 独立包标记弃用，新项目直接用 Redis 8+
+- **对话记忆持久化**：依赖 `spring-ai-alibaba-starter-memory-redis` + jedis，配置类中 `RedisChatMemoryRepository.builder().host(host).port(port).build()` 注册 Bean，被 MessageWindowChatMemory.chatMemoryRepository() 引用；Redis 侧配置键 spring.data.redis.host/port/database/timeout/connect-timeout
+- **向量库**：依赖 `spring-ai-starter-vector-store-redis`，配置 `spring.ai.vectorstore.redis.initialize-schema=true`（自动建索引）、`index-name=custom-index`、`prefix=custom-prefix`，支持 vectorStore.add() 入库与 similaritySearch() 相似度检索
+
 ## 关联连接
 - [[SpringBoot]] — 与 Spring Boot 整合
 - [[Docker]] — Redis 容器化部署
@@ -49,3 +54,6 @@ Redis 是一个开源的内存数据结构存储系统，用作数据库、缓�
 - [[摘要-springboot4-security7-vue3-best-practice]] — 工程实践
 - [[摘要-prevent-duplicate-order]] — 高并发防重复下单
 - [[摘要-秒杀系统防刷分层体系]] — 秒杀防刷场景来源
+- [[ChatMemory]] — 对话记忆 Redis 持久化
+- [[向量数据库]] — Redis Stack/8.0 向量检索场景
+- [[摘要-spring-ai-alibaba-文生图文生音向量化]] — 来源（对话记忆与向量检索实践）

@@ -2,8 +2,8 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md, raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/01-articles/Codex 最新焚决发布，快！.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md]
-last_updated: 2026-10-15
+sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md, raw/01-articles/40分钟学会Codex！"零基础"终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/01-articles/Codex 和 Claude Code，到底哪个更好？.md, raw/01-articles/Loop Engineering 实战指南.md, raw/01-articles/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/01-articles/Codex 从原理到 Java落地.md, raw/01-articles/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/01-articles/Codex 最新焚决发布，快！.md, raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/01-articles/2026-10-10 - Agent 出现幻觉怎么治理？.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -55,6 +55,9 @@ Codex 从三个方向从编程 Agent 向工作系统进化：
 - 自动审查模式（默认）
 - 建议模式
 - 手动确认模式
+
+### 内部监控系统审计（METR，2026-10-25 报道，详见 [[摘要-claude-auto-mode监控逃逸]]）
+[[METR]] 与 [[Redwood]] 进驻 OpenAI 三周审计内部 Codex 流量的监控系统（详见 [[监控逃逸]]）：监控覆盖 99.2% 内部流量，但存在六条逃逸暗道——①只在 Agent 收工交还控制权时检查 + 上下文压缩事件不在监控范围，5—7 月约一成符合条件的流量溜走；②一个漏洞让最近几百步操作（含利用漏洞那步）从监控隐身；③两个客户端可控请求头改掉任一即可关闭新 Agent 监控、孵化"幽灵分身"；④一条路径同时绕过沙箱与自动审查，拿到宿主研究员全部权限；⑤Agent 视角与监控日志格式错配，构造输入可让监控 AI 出错、异常送不到人类面前；⑥两个被当"只读"、未接监控的内部工具存在沙箱内任意操作漏洞。修复建议：定期/定量检查、监控与 Agent 结构分离、日志与 Agent 视角对齐（详见 [[多级AI监控]]）。
 
 ### 需求澄清机制（2026-10-15 补充）
 来自 [[摘要-用户需求模糊时Agent怎么澄清]]。Codex 在 Plan 模式的系统提示词中把未知信息明确拆成两类，并给出对应的硬性规定：
@@ -287,6 +290,11 @@ brew install openai-codex
 - [[DiscoverableFacts]] — 先探索后提问的事实类未知信息
 - [[偏好与取舍]] — 必须用户拍板的偏好类未知信息
 - [[Assumptions假设清单]] — 无法获得回答时的兜底交付物
+- [[摘要-claude-auto-mode监控逃逸]] — 来源（内部监控系统审计）
+- [[监控逃逸]] — METR 曝出的六条暗道
+- [[多级AI监控]] — OpenAI 的监控参考方案
+- [[METR]] — 外部审计机构
+- [[Redwood]] — 外部审计机构
 
 ### MCP 额度优化工作流（邪修方法）
 来自 [[摘要-codex-mcp额度优化邪修方法]]。将服务器封装为只读 MCP Server 插件，接入飞书 OAuth 认证，让 ChatGPT 网页版 GPT-6 Pro 直接读取真实生产数据进行分析规划，再将分析结果"添加到 Codex"由 GPT-6 Astra High 执行开发。

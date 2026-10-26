@@ -2,8 +2,8 @@
 title: "servlet-6-1"
 type: concept
 tags: [Servlet, JakartaEE, Web, 规范]
-sources: [raw/01-articles/Spring Boot 4.0官宣：弃用 Undertow.md]
-last_updated: 2026-07-29
+sources: [raw/01-articles/Spring Boot 4.0官宣：弃用 Undertow.md, "raw/09-archive/2026-10-25 - Tomcat 11 到底有多强大 ？.md"]
+last_updated: 2026-10-26
 ---
 
 ## 定义
@@ -24,6 +24,15 @@ Servlet 6.1 是 Jakarta EE 11 的核心子规范，于 2024 年 4 月发布。�
 
 **⑥ 敏感请求头安全处理**：新增 `HttpServlet.isSensitiveHeader` 方法，用于识别需要保护的敏感请求头。
 
+**落地 API 细节（2026-10，Tomcat 11.0.27 实测，详见 [[摘要-tomcat-11-new-features]]）**：
+- `sendRedirect(String, int)`：直接指定 301/307/308 状态码；接口迁移推荐 308（历史浏览器遇 301/302 会把 POST 偷改成 GET，迁移时请求体易丢失；307/308 强制保持原请求方法）
+- `setCharacterEncoding(Charset)`：支持直接传 `StandardCharsets` 对象，IDE 可自动补全
+- `ServletOutputStream.write(ByteBuffer)`：与 NIO `FileChannel` 配合做文件下载，省去"先倒进 byte 数组再写出"的样板代码
+- 新增状态码常量：308、421、422（`SC_UNPROCESSABLE_CONTENT`）、426
+- `getParameter()` 等方法在请求参数解析出错时直接抛异常而非静默吞掉；Tomcat 11 因此删除了 `FailedRequestFilter`
+- HTTP/2 Server Push 精确口径：规范将其降级为**可选功能**（允许容器不实现），主流浏览器（Chrome 等）已不支持，Tomcat 11 选择不实现，业界改用 `<link rel="preload">` 替代
+- 注：上述 ④HTTP 会话增强、⑥isSensitiveHeader 两项 2026-10 源文未展开，原描述仍有效
+
 ## 关联连接
 - [[Servlet]] — Servlet 规范
 - [[JakartaEE]] — Jakarta EE 11 平台
@@ -32,3 +41,5 @@ Servlet 6.1 是 Jakarta EE 11 的核心子规范，于 2024 年 4 月发布。�
 - [[Jetty]] — Jetty 12.1 支持 Servlet 6.1
 - [[SpringBoot]] — Spring Boot 4.0 强制依赖 Servlet 6.1
 - [[摘要-spring-boot-4-0-removes-undertow]] — 来源文章
+- [[摘要-tomcat-11-new-features]] — 来源（Tomcat 11 视角的 6.1 落地细节）
+- [[EL6.0]] — 同属 Jakarta EE 11 的 EL 规范

@@ -2,8 +2,8 @@
 title: "Claude"
 type: entity
 tags: ["Anthropic", "AI-Agent"]
-sources: [raw/01-articles/2026-09-19-Kimi向左，Claude、GPT向右.md, raw/01-articles/2026-09-19-Anthropic 优化 30 多个生物模型，蛋白质设计成本最高降 98%.md]
-last_updated: 2026-09-20
+sources: [raw/01-articles/2026-09-19-Kimi向左，Claude、GPT向右.md, raw/01-articles/2026-09-19-Anthropic 优化 30 多个生物模型，蛋白质设计成本最高降 98%.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
+last_updated: 2026-10-26
 ---
 
 # Claude
@@ -22,5 +22,9 @@ Claude 把独立 Chat 和 Cowork 合并成一个 Claude，在做减法。与 [[C
 
 Anthropic 让 Claude 用不到四周优化 30 多个生物研究开源模型，开发 FlashPairformer 自定义 kernel 加速 triangle attention，蛋白设计成本最高降 98%。详见 [[摘要-anthropic优化生物模型]]。
 
+## 自动模式全球默认开启（2026-10-25 报道）
+
+报道称"下周起" Claude 将全球默认开启 [[auto-mode]]：从"每走一步弹窗问允许"转为哪步能做、哪步不能做全凭另一个 AI 拍板。Anthropic 的两大依据（AI 产出人类审不过来；1053 名付费测试者实测人类拦截率仅 13.6%、AI 89%、弹窗疲劳后约 5%）见 [[Anthropic]]；Anthropic 未披露拍板机制，OpenAI 的 [[多级AI监控]] 可作参考。与 [[auto-mode]] 已记载的"Claude Code 2.1.284 起未手动配置时交互会话默认 auto"属同一趋势的产品级/全球默认化节点，详见 [[摘要-claude-auto-mode监控逃逸]] 与 [[监控逃逸]]。
+
 ## 关联连接
-[[Anthropic]], [[Opus]], [[Claude-Code]], [[CLI]], [[沉默王二]], [[竞品迁移窗口]], [[摘要-codex重置的真正原因]], [[摘要-kimi向左claude-gpt向右]], [[摘要-anthropic优化生物模型]], [[ChatGPT]], [[KimiCode]], [[FlashPairformer]]
+[[Anthropic]], [[Opus]], [[Claude-Code]], [[CLI]], [[沉默王二]], [[竞品迁移窗口]], [[摘要-codex重置的真正原因]], [[摘要-kimi向左claude-gpt向右]], [[摘要-anthropic优化生物模型]], [[ChatGPT]], [[KimiCode]], [[FlashPairformer]], [[auto-mode]], [[权限模式]], [[多级AI监控]], [[监控逃逸]], [[摘要-claude-auto-mode监控逃逸]]
