@@ -14,7 +14,7 @@ parse_status: "ok"
 
 第一时间收到文章更新
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smoIibDjVfxeecWd8HJIGqu3Rq0wabByhRMhYnQU1MptjAhw7bO82TGjAgpHibvj4ib6zV9Ygc47EgyxvfezZ2F23AtFHKcIctkuao/640?wx_fmt=png&from=appmsg)
+![](assets/2026-10-25%20-%20LatchUtils%EF%BC%9A%E7%AE%80%E5%8C%96%20Java%20%E5%BC%82%E6%AD%A5%E4%BB%BB%E5%8A%A1%E5%90%8C%E6%AD%A5%E7%9A%84%E5%88%A9%E5%99%A8/db86f62204ef08b355d9f793984f716d_MD5.png)
 
 来源：网络
 
@@ -410,9 +410,9 @@ publicclass CompletableFutureExample {
 
 截止目前，**累计输出 150w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4900+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&retryload=1&tp=webp#imgIndex=1)
+![图片](assets/2026-10-25%20-%20LatchUtils%EF%BC%9A%E7%AE%80%E5%8C%96%20Java%20%E5%BC%82%E6%AD%A5%E4%BB%BB%E5%8A%A1%E5%90%8C%E6%AD%A5%E7%9A%84%E5%88%A9%E5%99%A8/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLEdM2gtRgy5eLztKXrUhee76MZ9wAicNPicsnAHPibicaSHUVqFkkibxWlrGO0acUxQmycZpqCNGcibaicxA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&retryload=1&tp=webp#imgIndex=6)
+![图片](assets/2026-10-25%20-%20LatchUtils%EF%BC%9A%E7%AE%80%E5%8C%96%20Java%20%E5%BC%82%E6%AD%A5%E4%BB%BB%E5%8A%A1%E5%90%8C%E6%AD%A5%E7%9A%84%E5%88%A9%E5%99%A8/b01fd91d58faf9455f8fbb5c64bb22f0_MD5.webp)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~

@@ -14,25 +14,25 @@ parse_status: "ok"
 
 每日技术干货，第一时间送达！
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=0)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 01
 
 前言
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg#imgIndex=1)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 在日常的开发中，我们经常能碰见服务端需要主动推送给客户端数据的业务场景，比如数据大屏的实时数据，比如消息中心的未读消息，比如聊天功能等等。
 
 本文主要介绍SSE的使用场景和如何使用SSE。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=2)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 02
 
 服务端推送数据的实现方案
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg#imgIndex=3)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 我们常规实现这些需求的方案有以下三种：
 
@@ -66,7 +66,7 @@ websocket是一个双向通讯的协议，他的优点是，可以同时支持�
 
 websocket对于各大浏览器的兼容性↓
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbucXcsibafBYwzjTsWhmfDvwU2ibcV13Nvictu7b9eGI9gfqZHC9kgKDuicicQibcJCiaGeHgibH990mV3p8cA/640?wx_fmt=other&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1#imgIndex=0)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/481b0d139cc4c7c34394bf681d0575dc_MD5.jpg)
 
 SSE简介
 
@@ -78,23 +78,23 @@ SSE的优点是，它是一个轻量级的协议，相对于websockte来说，�
 
 而且SSE使用的是http协议（websocket使用的是ws协议），也就是现有的服务端都支持SSE，无需像websocket一样需要服务端提供额外的支持。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Lgu1K9Ehrgdg03vhsFuCooliabwT2VLwDoLdb1YyuTC6rM4zY4w76KZdR22uszLbCLEL25nlicrbNUfuQiciaSJksw/640?from=appmsg#imgIndex=6)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/881a8aea14790a031a3796c51f9cae68_MD5.png)
 
 注意:IE大魔王不支持SSE
 
 SSE对于各大浏览器的兼容性↓
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbucXcsibafBYwzjTsWhmfDvwUp1JFXicdE0nFTEFFfj33Rd5ibosCbeRxl1VJ6C2BibkhFzZu5Q2UzxypA/640?wx_fmt=other&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1#imgIndex=1)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/3f5a65b7ba75c1d2ff3207feae866270_MD5.jpg)
 
 注意哦，上图是SSE对于浏览器的兼容不是对于服务端的兼容。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=9)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 03
 
 websocket和SSE的区别
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg#imgIndex=10)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 轮询
 
@@ -106,7 +106,7 @@ Websocket和SSE
 
 SSE的官方对于SSE和Websocket的评价是
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Lgu1K9Ehrgdg03vhsFuCooliabwT2VLwDoLdb1YyuTC6rM4zY4w76KZdR22uszLbCLEL25nlicrbNUfuQiciaSJksw/640?from=appmsg#imgIndex=11)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/881a8aea14790a031a3796c51f9cae68_MD5.png)
 
 WebSocket是全双工通道，可以双向通信，功能更强；SSE是单向通道，只能服务器向浏览器端发送。
 WebSocket是一个新的协议，需要服务器端支持；SSE则是部署在HTTP协议之上的，现有的服务器软件都支持。
@@ -114,13 +114,13 @@ SSE是一个轻量级协议，相对简单；WebSocket是一种较重的协议�
 SSE默认支持断线重连，WebSocket则需要额外部署。
 SSE支持自定义发送的数据类型。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=12)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 04
 
 websocket和SSE适用场景
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg#imgIndex=13)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 对于SSE来说，它的优点就是轻，而且对于服务端的支持度要更好。换言之，可以使用SSE完成的功能需求，没有必要使用更重更复杂的websocket。
 
@@ -128,13 +128,13 @@ websocket和SSE适用场景
 
 对于Websocket来说，他的优点就是可以同时支持客户端和服务端的双向通讯。所适用的业务场景：最典型的就是聊天功能。这种服务端需要主动向客户端推送信息，并且客户端也有向服务端推送消息的需求时，Websocket就是更好的选择。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=14)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 05
 
 SSE的主要API
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg#imgIndex=15)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 建立SSE链接
 
@@ -174,13 +174,13 @@ https://www.w3cschool.cn/nwfchn/wpi3cozt.html
 
 我更建议您先把Demo跑起来，然后在看看上面这个w3cschool的SSE文档。两个配合一起看，会更方便理解些。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=16)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 06
 
 实操Demo
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg#imgIndex=17)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 这里Demo前端使用的就是最基本的html静态页面连接，没有使用任何框架。
 
@@ -197,7 +197,7 @@ npm i express     //下载node express框架
 node index        //启动服务
 ```
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/eQPyBffYbucXcsibafBYwzjTsWhmfDvwUHysAZMsibgPTvNeRGFT55ib736ZicoNrfIVRehSXCnPEXOaTfJcoYpCCw/640?wx_fmt=other&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1#imgIndex=3)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/7061339623e70bce410c578ea839b670_MD5.jpg)
 
 在这一层文件夹下执行命令。
 
@@ -310,15 +310,15 @@ console.log(`项目启动成功-http://localhost:${port}`)
 
 效果
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/eQPyBffYbucXcsibafBYwzjTsWhmfDvwUBiaA1uIZ2z3lNG6rZgtchGDjnCsUOwVZcobBRbbic8fiaWBgPZv9Z6vcA/640?wx_fmt=gif&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/b5d86f6ca4a9060b79ecca945dbe5844_MD5.gif)
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=21)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 07
 
 总结
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg#imgIndex=22)
+![图片](assets/2026-10-25%20-%20%E8%BF%98%E7%94%A8WebSocket%EF%BC%9F%E8%BF%99%E6%89%8D%E6%98%AF%E5%AE%9E%E6%97%B6%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF%EF%BC%81%E8%BD%BB%E9%87%8F%E5%A5%BD%E7%94%A8/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 - SSE比websocket更轻
 
