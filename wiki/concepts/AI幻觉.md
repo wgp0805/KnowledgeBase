@@ -2,7 +2,7 @@
 title: "AI幻觉"
 type: concept
 tags: [AI风险, 模型缺陷, 可靠性]
-sources: [raw/01-articles/2026-08-27-在AI突飞猛进时代下，作为不是AI领域的研发者应该怎么处理与AI的关系.md]
+sources: [raw/09-archive/2026-08-27-在AI突飞猛进时代下，作为不是AI领域的研发者应该怎么处理与AI的关系.md]
 last_updated: 2026-08-28
 ---
 

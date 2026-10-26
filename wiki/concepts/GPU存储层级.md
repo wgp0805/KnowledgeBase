@@ -2,7 +2,7 @@
 title: "GPU存储层级"
 type: concept
 tags: [GPU, 存储层级, 片上存储, H100, Blackwell]
-sources: [raw/01-articles/张江芯片员工：32岁税前80个，没有互联网那么卷，现在国产卡都在招人，算是踩中这波算力红利了（附Agent面试题）.md]
+sources: [raw/09-archive/张江芯片员工：32岁税前80个，没有互联网那么卷，现在国产卡都在招人，算是踩中这波算力红利了（附Agent面试题）.md]
 last_updated: 2026-10-15
 ---
 

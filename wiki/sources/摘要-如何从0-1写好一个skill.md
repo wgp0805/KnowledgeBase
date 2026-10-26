@@ -2,7 +2,7 @@
 title: "摘要-如何从0-1写好一个skill"
 type: source
 tags: [来源, Skill, AI编程, 方法论]
-sources: [raw/01-articles/2026-10-21-如何从0-1写好一个Skill？超全教程+案例分享！.md]
+sources: [raw/09-archive/2026-10-21-如何从0-1写好一个Skill？超全教程+案例分享！.md]
 last_updated: 2026-10-22
 ---
 

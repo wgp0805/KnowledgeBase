@@ -2,7 +2,7 @@
 title: "Agent边际成本"
 type: concept
 tags: [概念, Agent, 成本结构, 商业模式]
-sources: [raw/01-articles/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md]
+sources: [raw/09-archive/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md]
 last_updated: 2026-10-08
 ---
 

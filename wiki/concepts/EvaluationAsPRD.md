@@ -2,7 +2,7 @@
 title: "EvaluationAsPRD"
 type: concept
 tags: [Agent, 评测, PRD, 产品经理, 方法论]
-sources: [raw/01-articles/2026-08-24-声网姚光华：企业级Agent的关键，不是自治，而是可控的结果生意.md]
+sources: [raw/09-archive/2026-08-24-声网姚光华：企业级Agent的关键，不是自治，而是可控的结果生意.md]
 last_updated: 2026-08-25
 ---
 

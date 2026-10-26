@@ -2,7 +2,7 @@
 title: "AIPMLab"
 type: entity
 tags: [AI工具, 产品经理, 工作台, 项目制]
-sources: [raw/01-articles/2026-10-12-项目案例分享：产品经理个人工作台.md]
+sources: [raw/09-archive/2026-10-12-项目案例分享：产品经理个人工作台.md]
 last_updated: 2026-10-13
 ---
 

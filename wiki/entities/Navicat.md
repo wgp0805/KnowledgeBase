@@ -2,7 +2,7 @@
 title: "Navicat"
 type: entity
 tags: [数据库管理工具, 商业软件]
-sources: [raw/01-articles/再见Navicat、XShell！一款高颜值的数据库、SSH、Docker管理工具！.md]
+sources: [raw/09-archive/再见Navicat、XShell！一款高颜值的数据库、SSH、Docker管理工具！.md]
 last_updated: 2026-09-03
 ---
 

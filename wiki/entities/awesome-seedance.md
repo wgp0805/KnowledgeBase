@@ -2,7 +2,7 @@
 title: "awesome-seedance"
 type: entity
 tags: [AI视频, 开源项目, 提示语]
-sources: [raw/01-articles/2026-09-22-我把463个AI视频做成了Skill和提示语模版，全都开源！.md]
+sources: [raw/09-archive/2026-09-22-我把463个AI视频做成了Skill和提示语模版，全都开源！.md]
 last_updated: 2026-09-23
 ---
 

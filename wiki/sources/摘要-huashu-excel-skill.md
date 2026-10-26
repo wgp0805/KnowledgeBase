@@ -2,7 +2,7 @@
 title: "摘要-huashu-excel-skill"
 type: source
 tags: [来源, Agent Skill, Excel, 数据分析, 花叔]
-sources: [raw/01-articles/2026-08-24-Huashu-Excel正式发布！可能、也许、大概是最好用的Excel数据处理和分析skill.md]
+sources: [raw/09-archive/2026-08-24-Huashu-Excel正式发布！可能、也许、大概是最好用的Excel数据处理和分析skill.md]
 last_updated: 2026-08-25
 ---
 

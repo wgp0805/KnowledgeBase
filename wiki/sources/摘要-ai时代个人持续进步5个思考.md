@@ -2,7 +2,7 @@
 title: "摘要-ai时代个人持续进步5个思考"
 type: source
 tags: [来源, AI产品, 个人成长, Agent]
-sources: [raw/01-articles/2026-09-01-看完卡神文章后，想跟你分享关于AI时代个人持续进步的5个思考.md]
+sources: [raw/09-archive/2026-09-01-看完卡神文章后，想跟你分享关于AI时代个人持续进步的5个思考.md]
 last_updated: 2026-09-01
 ---
 

@@ -5,8 +5,8 @@ tags: [AI模型, 视频生成, SOTA]
 sources:
   - raw/01-articles/2026-08-25-烧掉500块实测H3、Seedance 2.0 fast，意外挖出了性价比之王（附全部提示词）.md
   - raw/01-articles/2026-09-16-想把喜欢的故事做成动画？我用 AIXTV 把《聊斋》做出来了.md
-  - raw/01-articles/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md
-  - raw/01-articles/2026-09-27-实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流.md
+  - raw/09-archive/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md
+  - raw/09-archive/2026-09-27-实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流.md
 last_updated: 2026-09-28
 ---
 

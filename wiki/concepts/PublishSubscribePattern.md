@@ -2,7 +2,7 @@
 title: "PublishSubscribePattern"
 type: concept
 tags: [概念, 设计模式, 架构, 事件驱动]
-sources: [raw/01-articles/SpringEvent别瞎用！被它坑的绩效都没了！.md]
+sources: [raw/09-archive/SpringEvent别瞎用！被它坑的绩效都没了！.md]
 last_updated: 2026-08-27
 ---
 

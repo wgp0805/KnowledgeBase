@@ -2,7 +2,7 @@
 title: "Astra"
 type: entity
 tags: [大模型, GPT-6, OpenAI, 模型版本]
-sources: [raw/01-articles/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md, "raw/09-archive/2026-10-24 - 最新国产AI模型 Kimi K3.1 Pro，第一手测评来了！.md"]
+sources: [raw/09-archive/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md, "raw/09-archive/2026-10-24 - 最新国产AI模型 Kimi K3.1 Pro，第一手测评来了！.md"]
 last_updated: 2026-10-26
 ---
 

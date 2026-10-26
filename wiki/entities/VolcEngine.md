@@ -2,7 +2,7 @@
 title: "VolcEngine"
 type: entity
 tags: [云服务, 字节跳动, API平台]
-sources: [raw/01-articles/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/01-articles/2026-09-15-字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响.md, raw/01-articles/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md, raw/01-articles/2026-09-19-豆包，被张一鸣送上了车.md]
+sources: [raw/09-archive/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/09-archive/2026-09-15-字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响.md, raw/09-archive/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md, raw/09-archive/2026-09-19-豆包，被张一鸣送上了车.md]
 last_updated: 2026-09-20
 ---
 

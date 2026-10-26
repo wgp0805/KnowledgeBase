@@ -2,7 +2,7 @@
 title: "Manus"
 type: entity
 tags: [AI产品, Agent, 通用Agent, PersonalAgent, 创业公司]
-sources: [raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md, raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md, "raw/09-archive/2026-10-22-Grok Bot、Dots、Cue、Muse：四家 AI Bot 到底有什么不一样？.md"]
+sources: [raw/09-archive/2026-09-29-Manus终于像个通用Agent了.md, raw/09-archive/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md, raw/01-articles/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md, raw/01-articles/2026-10-16-花两千踩坑四大Personal Agent，我3个提示语把33%成功率救回来了.md, "raw/09-archive/2026-10-22-Grok Bot、Dots、Cue、Muse：四家 AI Bot 到底有什么不一样？.md"]
 last_updated: 2026-10-23
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-生图skill字典化"
 type: source
 tags: [来源, 生图, Skill, 提示词, 设计, 原始文件]
-sources: [raw/01-articles/2026-10-11-做图总翻车？这两个开源生图Skill，把画风和排版直接编成了字典.md]
+sources: [raw/09-archive/2026-10-11-做图总翻车？这两个开源生图Skill，把画风和排版直接编成了字典.md]
 last_updated: 2026-10-12
 ---
 

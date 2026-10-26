@@ -2,7 +2,7 @@
 title: "AI递归"
 type: concept
 tags: [AI, 自我改进, 自动化研发, 前沿风险]
-sources: [raw/01-articles/2026-08-23-前沿大模型都在拼代码，真正争夺的不是编程能力，而是下一代模型的创造权.md]
+sources: [raw/09-archive/2026-08-23-前沿大模型都在拼代码，真正争夺的不是编程能力，而是下一代模型的创造权.md]
 last_updated: 2026-08-24
 ---
 

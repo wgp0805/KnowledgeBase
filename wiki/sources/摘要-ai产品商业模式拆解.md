@@ -2,7 +2,7 @@
 title: "拆解AI产品商业模式：别迷信技术，这才是真相！"
 type: source
 tags: [AI产品, 商业模式, 创业, ToC订阅, ToB-API, 垂直场景, 商业内核]
-sources: [raw/01-articles/2026-09-12-拆解AI产品商业模式：别迷信技术，这才是真相！.md]
+sources: [raw/09-archive/2026-09-12-拆解AI产品商业模式：别迷信技术，这才是真相！.md]
 last_updated: 2026-09-14
 ---
 

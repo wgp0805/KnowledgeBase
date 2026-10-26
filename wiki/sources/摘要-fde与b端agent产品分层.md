@@ -2,7 +2,7 @@
 title: "摘要-fde与b端agent产品分层"
 type: source
 tags: [来源, Agent, FDE, B端产品, 产品设计]
-sources: [raw/01-articles/2026-09-04-FDE：产品经理管不了的我要管，管得了的我也要管.md]
+sources: [raw/09-archive/2026-09-04-FDE：产品经理管不了的我要管，管得了的我也要管.md]
 last_updated: 2026-09-05
 ---
 

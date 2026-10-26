@@ -2,7 +2,7 @@
 title: "离职在家学习 Java 的第一天"
 type: source
 tags: ["Java", "学习资料", "沉默王二"]
-sources: ["raw/01-articles/离职在家学习Java的第一天.md"]
+sources: ["raw/09-archive/离职在家学习Java的第一天.md"]
 last_updated: 2026-09-01
 ---
 

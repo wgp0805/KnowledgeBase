@@ -2,7 +2,7 @@
 title: "InteractionSystem"
 type: concept
 tags: [品牌战略, 交互体系, AI时代, 用户共创]
-sources: [raw/01-articles/2026-08-31-五大理由：AI时代为什么必须「重写」你的品牌战略.md]
+sources: [raw/09-archive/2026-08-31-五大理由：AI时代为什么必须「重写」你的品牌战略.md]
 last_updated: 2026-09-01
 ---
 

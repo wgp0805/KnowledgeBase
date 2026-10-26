@@ -2,7 +2,7 @@
 title: "摘要-pi-study-02-architecture"
 type: source
 tags: [来源, pi-agent, 学习笔记, 架构]
-sources: [raw/01-articles/pi-study-02-architecture.md]
+sources: [raw/09-archive/pi-study-02-architecture.md]
 last_updated: 2026-08-09
 ---
 

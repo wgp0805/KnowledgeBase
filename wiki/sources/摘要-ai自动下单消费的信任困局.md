@@ -2,7 +2,7 @@
 title: "摘要-ai自动下单消费的信任困局"
 type: source
 tags: [来源, 原始文件, 支付宝, Agent, 消费执行, 信任, 商业模式]
-sources: [raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md]
+sources: [raw/09-archive/2026-09-25-你敢让AI自动帮下单消费吗？.md]
 last_updated: 2026-09-28
 ---
 

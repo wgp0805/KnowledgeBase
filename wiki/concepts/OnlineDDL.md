@@ -2,7 +2,7 @@
 title: "OnlineDDL"
 type: concept
 tags: [MySQL, DDL, 在线变更, 数据库运维]
-sources: [raw/01-articles/千万级的大表如何新增字段？.md]
+sources: [raw/09-archive/千万级的大表如何新增字段？.md]
 last_updated: 2026-08-14
 ---
 

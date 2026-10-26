@@ -2,7 +2,7 @@
 title: "摘要-ai这么猛产品经理还能进吗"
 type: source
 tags: [产品经理, AI时代, 职业发展, AI产品, 行业观察]
-sources: [raw/01-articles/2026-09-06-AI这么猛，产品经理还能进吗？.md]
+sources: [raw/09-archive/2026-09-06-AI这么猛，产品经理还能进吗？.md]
 last_updated: 2026-09-07
 ---
 

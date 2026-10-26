@@ -2,7 +2,7 @@
 title: "摘要-豆包工作多agent并行实测"
 type: source
 tags: [AI产品, 办公Agent, 多Agent, 字节跳动, 产品经理]
-sources: ["raw/01-articles/2026-10-14-产品经理用上豆包工作，直接搞定竞品追踪、汇报PPT、定时周报！.md"]
+sources: ["raw/09-archive/2026-10-14-产品经理用上豆包工作，直接搞定竞品追踪、汇报PPT、定时周报！.md"]
 last_updated: 2026-10-15
 ---
 

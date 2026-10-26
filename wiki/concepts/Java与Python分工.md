@@ -2,7 +2,7 @@
 title: "Java与Python分工"
 type: concept
 tags: [职业发展, Java, Python, AI应用, 架构分工]
-sources: [raw/01-articles/Java程序员需要转Python吗？.md]
+sources: [raw/09-archive/Java程序员需要转Python吗？.md]
 last_updated: 2026-10-10
 ---
 

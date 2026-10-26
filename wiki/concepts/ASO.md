@@ -2,7 +2,7 @@
 title: "ASO"
 type: concept
 tags: [概念, 增长, 应用商店, 获客]
-sources: [raw/01-articles/2026-10-01-独立开发者的推广困局：别把获客留到上线那天.md]
+sources: [raw/09-archive/2026-10-01-独立开发者的推广困局：别把获客留到上线那天.md]
 last_updated: 2026-10-08
 ---
 

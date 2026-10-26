@@ -2,7 +2,7 @@
 title: "摘要-ai智能体企业5大工作流"
 type: source
 tags: [来源, Agent, 企业落地, 工作流, 商业化]
-sources: [raw/01-articles/2026-08-24-AI智能体在企业怎么落地？关键看这5个核心工作流.md]
+sources: [raw/09-archive/2026-08-24-AI智能体在企业怎么落地？关键看这5个核心工作流.md]
 last_updated: 2026-08-25
 ---
 

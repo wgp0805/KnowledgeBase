@@ -2,7 +2,7 @@
 title: "SuperContext"
 type: concept
 tags: [上下文工程, Agent, AI产品, 飞书]
-sources: [raw/01-articles/2026-08-31-飞书，成了豆包工作的“超级上下文”.md]
+sources: [raw/09-archive/2026-08-31-飞书，成了豆包工作的“超级上下文”.md]
 last_updated: 2026-09-15
 ---
 

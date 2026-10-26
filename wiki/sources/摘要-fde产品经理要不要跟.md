@@ -2,7 +2,7 @@
 title: "摘要-fde产品经理要不要跟"
 type: source
 tags: [来源, FDE, 产品经理, AI落地]
-sources: [raw/01-articles/2026-09-20-FDE这么火，产品经理要不要跟？我来泼点冷水.md]
+sources: [raw/09-archive/2026-09-20-FDE这么火，产品经理要不要跟？我来泼点冷水.md]
 last_updated: 2026-09-22
 ---
 

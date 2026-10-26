@@ -2,7 +2,7 @@
 title: "摘要-deepseek拟人形象大战"
 type: source
 tags: [来源, 原始文件, DeepSeek, 社区文化, 拟人形象]
-sources: [raw/01-articles/2026-10-06-deepseek拟人形象大战，究竟在吵什么.md]
+sources: [raw/09-archive/2026-10-06-deepseek拟人形象大战，究竟在吵什么.md]
 last_updated: 2026-10-08
 ---
 

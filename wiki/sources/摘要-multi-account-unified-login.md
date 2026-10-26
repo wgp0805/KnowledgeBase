@@ -2,7 +2,7 @@
 title: "摘要-multi-account-unified-login"
 type: source
 tags: [来源, 原始文件, 登录, 账号体系, SSO, 第三方登录]
-sources: [raw/01-articles/多账号统一登录（实现方案）.md]
+sources: [raw/09-archive/多账号统一登录（实现方案）.md]
 last_updated: 2026-10-12
 ---
 

@@ -2,7 +2,7 @@
 title: "RAG架构"
 type: concept
 tags: [RAG, 检索增强生成, 知识库, Agent]
-sources: [raw/01-articles/2026-08-24-AI智能体在企业怎么落地？关键看这5个核心工作流.md]
+sources: [raw/09-archive/2026-08-24-AI智能体在企业怎么落地？关键看这5个核心工作流.md]
 last_updated: 2026-08-25
 ---
 

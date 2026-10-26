@@ -2,7 +2,7 @@
 title: "摘要-openwiki-为什么越来越多人用"
 type: source
 tags: [来源, 原始文件, OpenWiki, LLM Wiki, Agent, 长期记忆, LangChain]
-sources: [raw/01-articles/为什么越来越多人用OpenWiki？.md]
+sources: [raw/09-archive/为什么越来越多人用OpenWiki？.md]
 last_updated: 2026-09-15
 ---
 

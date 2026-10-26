@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-5个产品经理skill"
 type: source
 tags: [来源, 原始文件, WorkBuddy, 产品经理, Skill]
-sources: [raw/01-articles/2026-09-23-实测5个WorkBuddy产品经理Skill：从画原型到求职复盘全搞定.md]
+sources: [raw/09-archive/2026-09-23-实测5个WorkBuddy产品经理Skill：从画原型到求职复盘全搞定.md]
 last_updated: 2026-09-28
 ---
 

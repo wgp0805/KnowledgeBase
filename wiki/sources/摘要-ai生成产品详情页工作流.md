@@ -2,7 +2,7 @@
 title: "摘要-ai生成产品详情页工作流"
 type: source
 tags: [来源, 电商, AI内容生产, 提示词, 产品经理]
-sources: [raw/01-articles/2026-10-21-如何用AI输出一套完整的产品详情页？（附详细提示词）.md]
+sources: [raw/09-archive/2026-10-21-如何用AI输出一套完整的产品详情页？（附详细提示词）.md]
 last_updated: 2026-10-22
 ---
 

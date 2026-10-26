@@ -2,7 +2,7 @@
 title: "摘要-阿里开源qianwen-ai-skill项目"
 type: source
 tags: [来源, Agent Skill, 多模态, 阿里, 通义千问]
-sources: [raw/01-articles/阿里又开源了一个神级Skill项目！.md]
+sources: [raw/09-archive/阿里又开源了一个神级Skill项目！.md]
 last_updated: 2026-08-14
 ---
 

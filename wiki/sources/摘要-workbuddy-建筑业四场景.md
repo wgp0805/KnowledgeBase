@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-建筑业四场景"
 type: source
 tags: [来源, 原始文件, WorkBuddy, 建筑业, 行业落地]
-sources: [raw/01-articles/2026-10-02-建筑业这样用WorkBuddy就对了.md]
+sources: [raw/09-archive/2026-10-02-建筑业这样用WorkBuddy就对了.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-腾讯rena览财个人投研agent"
 type: source
 tags: [AI产品, 投研, Agent, 腾讯, 金融]
-sources: ["raw/01-articles/2026-10-14-腾讯内测个人投资分析助手“Rena览财”，支持连接微信.md"]
+sources: ["raw/09-archive/2026-10-14-腾讯内测个人投资分析助手“Rena览财”，支持连接微信.md"]
 last_updated: 2026-10-15
 ---
 

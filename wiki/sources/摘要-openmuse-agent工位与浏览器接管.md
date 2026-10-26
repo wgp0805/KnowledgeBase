@@ -2,7 +2,7 @@
 title: "摘要-openmuse-agent工位与浏览器接管"
 type: source
 tags: [来源, 原始文件]
-sources: [raw/01-articles/为什么越来越多人用OpenMuse？.md]
+sources: [raw/09-archive/为什么越来越多人用OpenMuse？.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-拆100个Seedance提示词切片粒度黄金分割点"
 type: source
 tags: [来源, 原始文件, Seedance, AI视频, 提示词]
-sources: [raw/01-articles/2026-09-25-拆了100个Seedance提示词后，发现3个切片粒度黄金分割点（附模板）.md]
+sources: [raw/09-archive/2026-09-25-拆了100个Seedance提示词后，发现3个切片粒度黄金分割点（附模板）.md]
 last_updated: 2026-09-28
 ---
 

@@ -2,7 +2,7 @@
 title: "StopDoingList"
 type: concept
 tags: [产品方法论, 取舍, 战略, 优先级]
-sources: [raw/01-articles/2026-10-12-产品定义怎么做？从用户层、方案层到价值层的完整方法论拆解.md]
+sources: [raw/09-archive/2026-10-12-产品定义怎么做？从用户层、方案层到价值层的完整方法论拆解.md]
 last_updated: 2026-10-13
 ---
 

@@ -2,7 +2,7 @@
 title: "ElenaVerna"
 type: entity
 tags: [人物, 增长, HI-IC, 职业路径, Lovable]
-sources: [raw/01-articles/2026-09-29-当一个人能做一个团队的事，组织该怎么变？.md]
+sources: [raw/09-archive/2026-09-29-当一个人能做一个团队的事，组织该怎么变？.md]
 last_updated: 2026-10-08
 ---
 

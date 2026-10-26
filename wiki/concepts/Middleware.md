@@ -2,7 +2,7 @@
 title: "Middleware"
 type: concept
 tags: [AI概念, 扩展机制, 钩子]
-sources: [raw/09-archive/AgentScopeJava2.0正式发布了！.md, raw/01-articles/为什么越来越多人用Eino？.md]
+sources: [raw/09-archive/AgentScopeJava2.0正式发布了！.md, raw/09-archive/为什么越来越多人用Eino？.md]
 last_updated: 2026-10-22
 ---
 

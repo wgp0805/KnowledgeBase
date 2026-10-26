@@ -2,7 +2,7 @@
 title: "Electron"
 type: entity
 tags: [桌面框架, 开源, 跨平台]
-sources: [raw/01-articles/DeepSeek桌面版真不错，再见了WebUI。.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md]
+sources: [raw/09-archive/DeepSeek桌面版真不错，再见了WebUI。.md, raw/01-articles/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md]
 last_updated: 2026-10-13
 ---
 

@@ -2,7 +2,7 @@
 title: "Agent扩展层级"
 type: concept
 tags: [AI, Agent, 扩展机制, 架构设计]
-sources: [raw/01-articles/pi-agent-study-01-pi-overview.md, raw/01-articles/pi-study-02-architecture.md]
+sources: [raw/09-archive/pi-agent-study-01-pi-overview.md, raw/09-archive/pi-study-02-architecture.md]
 last_updated: 2026-08-09
 ---
 

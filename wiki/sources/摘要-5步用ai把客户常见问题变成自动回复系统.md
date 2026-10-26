@@ -2,7 +2,7 @@
 title: "摘要-5步用ai把客户常见问题变成自动回复系统"
 type: source
 tags: [来源, 原始文件, AI产品, 知识库, RAG, 自动答疑]
-sources: [raw/01-articles/2026-08-31-5步，用AI把客户常见问题变成自动回复系统.md]
+sources: [raw/09-archive/2026-08-31-5步，用AI把客户常见问题变成自动回复系统.md]
 last_updated: 2026-09-15
 ---
 

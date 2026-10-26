@@ -2,7 +2,7 @@
 title: "摘要-dsh桌面版-electron源码解析"
 type: source
 tags: [来源, DeepSeekHarness, 桌面版, Electron, 插件]
-sources: [raw/01-articles/DeepSeek桌面版真不错，再见了WebUI。.md]
+sources: [raw/09-archive/DeepSeek桌面版真不错，再见了WebUI。.md]
 last_updated: 2026-09-29
 ---
 

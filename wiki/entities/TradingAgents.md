@@ -2,7 +2,7 @@
 title: "TradingAgents"
 type: entity
 tags: [金融AI, 多智能体, 开源项目]
-sources: [raw/01-articles/2026-09-22-部署TradingAgents：把一家公司“装进”大模型里，自动完成股票研究.md]
+sources: [raw/09-archive/2026-09-22-部署TradingAgents：把一家公司“装进”大模型里，自动完成股票研究.md]
 last_updated: 2026-09-23
 ---
 

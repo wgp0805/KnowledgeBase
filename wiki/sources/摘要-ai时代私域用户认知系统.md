@@ -2,7 +2,7 @@
 title: "摘要-ai时代私域用户认知系统"
 type: source
 tags: [来源, 原始文件, 私域, AI, 用户认知]
-sources: [raw/01-articles/2026-10-04-AI越懂用户，企业越要重新理解什么叫私域.md]
+sources: [raw/09-archive/2026-10-04-AI越懂用户，企业越要重新理解什么叫私域.md]
 last_updated: 2026-10-08
 ---
 

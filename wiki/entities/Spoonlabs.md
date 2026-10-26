@@ -2,7 +2,7 @@
 title: "Spoonlabs"
 type: entity
 tags: [AI公司, 短剧, 上市, 韩国]
-sources: [raw/01-articles/2026-09-26-8月全球吸金530万美元、母公司预计2028年上市，韩国短剧产品Vigloo将继续加大AI投入？.md]
+sources: [raw/09-archive/2026-09-26-8月全球吸金530万美元、母公司预计2028年上市，韩国短剧产品Vigloo将继续加大AI投入？.md]
 last_updated: 2026-09-28
 ---
 

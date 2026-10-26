@@ -2,7 +2,7 @@
 title: "携程面试官 听说你精通操作系统 我们来切磋下"
 type: source
 tags: ["操作系统", "面试题", "沉默王二"]
-sources: ["raw/01-articles/携程面试官：听说你精通操作系统，我们来切磋下.md"]
+sources: ["raw/09-archive/携程面试官：听说你精通操作系统，我们来切磋下.md"]
 last_updated: 2026-09-01
 ---
 

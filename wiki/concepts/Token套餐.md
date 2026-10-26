@@ -2,7 +2,7 @@
 title: "Token套餐"
 type: concept
 tags: [AI服务, 订阅模式, 商业模式]
-sources: [raw/01-articles/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md]
+sources: [raw/09-archive/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md]
 last_updated: 2026-09-03
 ---
 

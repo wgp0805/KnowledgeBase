@@ -3,8 +3,8 @@ title: "Claims溯源"
 type: concept
 tags: [概念, 知识库, 可验证性, 事实溯源, Agent]
 sources:
-  - raw/01-articles/为什么越来越多人用OpenWiki？.md
-  - raw/01-articles/2026-09-14-正式开源！比橙皮书skill更强10倍的Huashu-Report来了！.md
+  - raw/09-archive/为什么越来越多人用OpenWiki？.md
+  - raw/09-archive/2026-09-14-正式开源！比橙皮书skill更强10倍的Huashu-Report来了！.md
 last_updated: 2026-09-15
 ---
 

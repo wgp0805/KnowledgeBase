@@ -2,7 +2,7 @@
 title: "摘要-Manus2通用Agent"
 type: source
 tags: [来源, 原始文件, Manus, 通用Agent, PersonalAgent]
-sources: [raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md]
+sources: [raw/09-archive/2026-09-29-Manus终于像个通用Agent了.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "MiMoDesktop"
 type: entity
 tags: [AI产品, 桌面Agent, 小米, Agent]
-sources: [raw/09-archive/2026-09-08-小米MiMo Desktop开放邀测：腾讯、阿里、字节又多了一个对手.md, raw/01-articles/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md]
+sources: [raw/09-archive/2026-09-08-小米MiMo Desktop开放邀测：腾讯、阿里、字节又多了一个对手.md, raw/09-archive/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md]
 last_updated: 2026-10-21
 ---
 

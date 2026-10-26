@@ -2,7 +2,7 @@
 title: "ChatGPT"
 type: entity
 tags: ["OpenAI", "ChatBot"]
-sources: [raw/01-articles/2026-09-19-Kimi向左，Claude、GPT向右.md, raw/01-articles/2026-10-12-模型长出交互界面，“手搓”AI应用要全面退潮了？.md]
+sources: [raw/09-archive/2026-09-19-Kimi向左，Claude、GPT向右.md, raw/09-archive/2026-10-12-模型长出交互界面，“手搓”AI应用要全面退潮了？.md]
 last_updated: 2026-10-13
 ---
 

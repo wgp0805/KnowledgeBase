@@ -2,7 +2,7 @@
 title: "摘要-豆包Kimi月活对比"
 type: source
 tags: [来源, AI产品, 横评, 商业化]
-sources: [raw/01-articles/2026-08-26-豆包月活3.8亿、Kimi月活729万：被吹上神的和被用脚投票的，不是同一个产品.md]
+sources: [raw/09-archive/2026-08-26-豆包月活3.8亿、Kimi月活729万：被吹上神的和被用脚投票的，不是同一个产品.md]
 last_updated: 2026-08-27
 ---
 

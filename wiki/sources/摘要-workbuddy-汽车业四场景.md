@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-汽车业四场景"
 type: source
 tags: [来源, 原始文件, WorkBuddy, 汽车行业, Agent落地]
-sources: [raw/01-articles/2026-10-05-汽车业这样用WorkBuddy就对了.md]
+sources: [raw/09-archive/2026-10-05-汽车业这样用WorkBuddy就对了.md]
 last_updated: 2026-10-08
 ---
 

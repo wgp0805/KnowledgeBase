@@ -2,7 +2,7 @@
 title: "Doubao"
 type: entity
 tags: [AI产品, 大模型, 字节跳动]
-sources: [raw/01-articles/2026-08-26-豆包月活3.8亿、Kimi月活729万：被吹上神的和被用脚投票的，不是同一个产品.md, raw/01-articles/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/01-articles/2026-09-19-豆包，被张一鸣送上了车.md]
+sources: [raw/09-archive/2026-08-26-豆包月活3.8亿、Kimi月活729万：被吹上神的和被用脚投票的，不是同一个产品.md, raw/09-archive/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。.md, raw/09-archive/2026-09-19-豆包，被张一鸣送上了车.md]
 last_updated: 2026-09-20
 ---
 

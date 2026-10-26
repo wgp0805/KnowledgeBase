@@ -2,7 +2,7 @@
 title: "RAG"
 type: concept
 tags: [AI, RAG, 检索增强, 知识库, 面试]
-sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/SpringAI.md, raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/一文讲透 RAG：原理、优化与落地.md, raw/01-articles/2026-10-06-向量库是RAG的伪命题，知识图谱是答案，本体论是灵魂.md]
+sources: [raw/01-articles/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md, raw/09-archive/SpringAI.md, raw/01-articles/字节面试官：什么是 RAG？为什么需要 RAG？-2026-06-02 15_08_07.md, raw/01-articles/LangChain4j 和 LangGraph4j，哪个更好？.md, raw/01-articles/2026-09-07-"GPT-6 Astra 正式登场"会怎样改变现有技术栈？.md, raw/01-articles/一文讲透 RAG：原理、优化与落地.md, raw/09-archive/2026-10-06-向量库是RAG的伪命题，知识图谱是答案，本体论是灵魂.md]
 last_updated: 2026-10-21
 ---
 

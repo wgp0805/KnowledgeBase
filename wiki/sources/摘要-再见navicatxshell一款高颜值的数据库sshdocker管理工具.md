@@ -2,7 +2,7 @@
 title: "摘要-再见navicatxshell一款高颜值的数据库sshdocker管理工具"
 type: source
 tags: [来源, 原始文件, 开发工具, 运维工具]
-sources: [raw/01-articles/再见Navicat、XShell！一款高颜值的数据库、SSH、Docker管理工具！.md]
+sources: [raw/09-archive/再见Navicat、XShell！一款高颜值的数据库、SSH、Docker管理工具！.md]
 last_updated: 2026-09-03
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-为什么越来越多人用eino"
 type: source
 tags: [来源, Go语言, AI框架, Agent]
-sources: [raw/01-articles/为什么越来越多人用Eino？.md]
+sources: [raw/09-archive/为什么越来越多人用Eino？.md]
 last_updated: 2026-10-22
 ---
 

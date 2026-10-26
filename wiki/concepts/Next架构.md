@@ -2,7 +2,7 @@
 title: "Next架构"
 type: concept
 tags: [Qwen, 模型架构, 混合注意力]
-sources: [raw/01-articles/2026-09-02-整个AI圈都在斩杀，Qwen却算了一笔长期账.md]
+sources: [raw/09-archive/2026-09-02-整个AI圈都在斩杀，Qwen却算了一笔长期账.md]
 last_updated: 2026-09-03
 ---
 

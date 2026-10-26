@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-一句话需求实测"
 type: source
 tags: [来源, 原始文件, WorkBuddy, Agent, 产品实测]
-sources: [raw/01-articles/2026-09-24-WorkBuddy，提个需求就能做产品了？.md]
+sources: [raw/09-archive/2026-09-24-WorkBuddy，提个需求就能做产品了？.md]
 last_updated: 2026-09-28
 ---
 

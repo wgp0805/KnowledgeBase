@@ -2,7 +2,7 @@
 title: "Agent原生多模态"
 type: concept
 tags: [概念, Agent, 多模态, AI架构]
-sources: [raw/01-articles/阿里又开源了一个神级Skill项目！.md]
+sources: [raw/09-archive/阿里又开源了一个神级Skill项目！.md]
 last_updated: 2026-08-14
 ---
 

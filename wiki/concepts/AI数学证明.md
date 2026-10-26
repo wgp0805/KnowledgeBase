@@ -2,7 +2,7 @@
 title: "AI数学证明"
 type: concept
 tags: [AI研究, 数学, 形式化验证, 学术伦理]
-sources: [raw/01-articles/2026-10-09-OpenAI宣布攻破数百个难题，“数学之死”担忧成真？.md, raw/01-articles/2026-10-11-OpenAI让数学家也陷入了打工人的焦虑.md]
+sources: [raw/09-archive/2026-10-09-OpenAI宣布攻破数百个难题，“数学之死”担忧成真？.md, raw/09-archive/2026-10-11-OpenAI让数学家也陷入了打工人的焦虑.md]
 last_updated: 2026-10-12
 ---
 

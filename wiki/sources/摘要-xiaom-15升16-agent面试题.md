@@ -2,7 +2,7 @@
 title: "摘要-xiaom-15升16-agent面试题"
 type: source
 tags: [来源, Agent面试题, 代码质量, 评测, RAG, 记忆, KV Cache]
-sources: [raw/01-articles/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md]
+sources: [raw/09-archive/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md]
 last_updated: 2026-10-21
 ---
 

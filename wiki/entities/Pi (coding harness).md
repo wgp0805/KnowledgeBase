@@ -2,7 +2,7 @@
 title: "Pi (coding harness)"
 type: entity
 tags: [AI, Agent, 编程工具, pi-dev, Agent基座]
-sources: [raw/01-articles/pi-agent-study-01-pi-overview.md, raw/01-articles/pi-study-02-architecture.md]
+sources: [raw/09-archive/pi-agent-study-01-pi-overview.md, raw/09-archive/pi-study-02-architecture.md]
 last_updated: 2026-08-09
 ---
 

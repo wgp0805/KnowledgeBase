@@ -5,35 +5,35 @@ tags: [实体, 桌面AI, 国产AI, 办公, 编程, 腾讯]
 sources:
   - raw/01-articles/2026-08-21 - WorkBuddy 保姆级入门教程.md
   - raw/01-articles/鹅厂员工：羡慕隔壁组做 WorkBuddy 的，月活1000万+，已经成为AI办公的王牌，感觉晋升和年终奖肯定少不了（附Agent面试题）.md
-  - raw/01-articles/WorkBuddy最值得推荐的15个技能（9月最新版）.md
-  - raw/01-articles/WorkBuddy搭建个人知识库保姆级教程.md
-  - raw/01-articles/2026-09-16-豆包工作还想反超WorkBuddy？.md
+  - raw/09-archive/WorkBuddy最值得推荐的15个技能（9月最新版）.md
+  - raw/09-archive/WorkBuddy搭建个人知识库保姆级教程.md
+  - raw/09-archive/2026-09-16-豆包工作还想反超WorkBuddy？.md
   - raw/01-articles/2026-09-18-WorkBuddy 踩坑 3 个月后，我总结了 12 个真正好用的使用技巧.md
   - raw/01-articles/2026-09-19-WorkBuddy + 腾讯乐享，原来知识库还能这么用.md
-  - raw/01-articles/2026-09-23-实测5个WorkBuddy产品经理Skill：从画原型到求职复盘全搞定.md
-  - raw/01-articles/2026-09-24-WorkBuddy，提个需求就能做产品了？.md
-  - raw/01-articles/2026-09-26-美业这样用WorkBuddy就对了.md
+  - raw/09-archive/2026-09-23-实测5个WorkBuddy产品经理Skill：从画原型到求职复盘全搞定.md
+  - raw/09-archive/2026-09-24-WorkBuddy，提个需求就能做产品了？.md
+  - raw/09-archive/2026-09-26-美业这样用WorkBuddy就对了.md
   - raw/01-articles/2026-09-27-你的workbuddy vs 我的workbuddy，差距就在这里！！.md
-  - raw/01-articles/2026-09-28-Marvis大升级，或将成为腾讯第二个跑出来的Agent.md
+  - raw/09-archive/2026-09-28-Marvis大升级，或将成为腾讯第二个跑出来的Agent.md
   - raw/01-articles/2026-09-29-我用 WorkBuddy + Agnes一句话生成短视频，没花一分钱.md
   - raw/01-articles/2026-09-29-关于 AI Agent，为什么我的想法可能不靠谱？——重读〈The Bitter Lesson〉 - ahfuzhang.md
-  - raw/01-articles/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md
-  - raw/01-articles/2026-10-02-建筑业这样用WorkBuddy就对了.md
+  - raw/09-archive/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md
+  - raw/09-archive/2026-10-02-建筑业这样用WorkBuddy就对了.md
   - raw/01-articles/2026-10-02 - WorkBuddy 开发微信小程序，保姆级教程来了.md
   - raw/01-articles/2026-10-03 - WorkBuddy 与 豆包工作 该选谁？我们从10个方面深度分析对比.md
   - raw/01-articles/2026-10-03-从一句话需求到可运营网站：WorkBuddy 建站工作流实录.md
-  - raw/01-articles/2026-10-05-汽车业这样用WorkBuddy就对了.md
+  - raw/09-archive/2026-10-05-汽车业这样用WorkBuddy就对了.md
   - raw/01-articles/2026-10-07-宠物店用WorkBuddy提效的 4 个场景，附可直接复制的提示词.md
-  - raw/01-articles/2026-10-07-Cline免费模型接入各种Agent，多账号免费token管够.md
-  - raw/01-articles/2026-10-08-阿里开源了个神器，给WorkBuddy、豆包挑毛病.md
-  - raw/01-articles/2026-10-09-腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了.md
+  - raw/09-archive/2026-10-07-Cline免费模型接入各种Agent，多账号免费token管够.md
+  - raw/09-archive/2026-10-08-阿里开源了个神器，给WorkBuddy、豆包挑毛病.md
+  - raw/09-archive/2026-10-09-腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了.md
   - raw/01-articles/2026-10-09-2026 年 AI 工具选型实录：我把 200 多款工具试了一遍，最后留在工作流里的只有这 12 个 - codigger.md
   - raw/01-articles/2026-10-11 - WorkBuddy最值得推荐的15个技能（10月最新版）.md
-  - raw/01-articles/2026-10-11-WorkBuddy上线了个浏览器，实测有点惊艳.md
+  - raw/09-archive/2026-10-11-WorkBuddy上线了个浏览器，实测有点惊艳.md
   - raw/01-articles/2026-10-12-WorkBuddy 把小程序门槛打没了，下一个问题是谁来付钱.md
   - raw/01-articles/2026-10-13-WorkBuddy 自动签到：不开机也能 7×24 白嫖 100 积分天！.md
-  - raw/01-articles/2026-10-14-WorkBuddy大更新，上线浏览器操控能力.md
-  - raw/01-articles/2026-10-16-企业微信的上下文，正在成为WorkBuddy的重要优势.md
+  - raw/09-archive/2026-10-14-WorkBuddy大更新，上线浏览器操控能力.md
+  - raw/09-archive/2026-10-16-企业微信的上下文，正在成为WorkBuddy的重要优势.md
   - raw/09-archive/2026-10-22-从找场景到做 Skill：AI 赋能落地的一套拆解方法.md
   - raw/09-archive/2026-10-22-实测Nano Banana 2.1：拿10个电商场景正面PK，能把GPT拉下神坛吗？.md
   - "raw/09-archive/2026-10-24-WorkBuddy干活变慢还费token，一招教你瘦身加速.md"

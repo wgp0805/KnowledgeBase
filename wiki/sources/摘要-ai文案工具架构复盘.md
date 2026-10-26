@@ -2,7 +2,7 @@
 title: "30秒出一条多渠道电商文案：一个AI文案工具的架构复盘"
 type: source
 tags: [AI文案, Prompt工程, 数据飞轮, 电商, 架构复盘, Few-shot]
-sources: [raw/01-articles/2026-09-13-30秒出一条多渠道电商文案：一个AI文案工具的架构复盘.md]
+sources: [raw/09-archive/2026-09-13-30秒出一条多渠道电商文案：一个AI文案工具的架构复盘.md]
 last_updated: 2026-09-14
 ---
 

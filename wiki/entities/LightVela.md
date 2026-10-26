@@ -2,7 +2,7 @@
 title: "LightVela"
 type: entity
 tags: [AI产品, Agent托管, 腾讯, 微信, 国产AI]
-sources: [raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/01-articles/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md]
+sources: [raw/09-archive/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md, raw/01-articles/2026-09-30-Muse 爆火之后，腾讯、阿里、字节集体冲进Personal Agent.md, raw/09-archive/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md, raw/01-articles/2026-10-04-腾讯四款 Muse 产品盘点.md]
 last_updated: 2026-10-08
 ---
 

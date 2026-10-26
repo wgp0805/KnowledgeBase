@@ -2,7 +2,7 @@
 title: "摘要：手把手搭建AI报价工作台"
 type: source
 tags: [AI产品, 无代码, 报价系统, 实战]
-sources: [raw/01-articles/2026-08-21-手把手搭建AI报价工作台，甩掉手工查表算价.md]
+sources: [raw/09-archive/2026-08-21-手把手搭建AI报价工作台，甩掉手工查表算价.md]
 last_updated: 2026-08-24
 ---
 

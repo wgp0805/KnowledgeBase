@@ -2,7 +2,7 @@
 title: "GoodCaseAI"
 type: entity
 tags: [提示词语例库, AI测评, 产品]
-sources: ["raw/01-articles/2026-10-13-开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病.md"]
+sources: ["raw/09-archive/2026-10-13-开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病.md"]
 last_updated: 2026-10-14
 ---
 

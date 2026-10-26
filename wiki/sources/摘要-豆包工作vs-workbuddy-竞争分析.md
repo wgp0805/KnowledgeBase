@@ -2,7 +2,7 @@
 title: "摘要-豆包工作vs-workbuddy-竞争分析"
 type: source
 tags: [AI产品, 办公Agent, WorkBuddy, 豆包工作, 竞争分析, 产品策略]
-sources: [raw/01-articles/2026-09-16-豆包工作还想反超WorkBuddy？.md]
+sources: [raw/09-archive/2026-09-16-豆包工作还想反超WorkBuddy？.md]
 last_updated: 2026-09-17
 ---
 

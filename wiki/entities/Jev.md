@@ -2,7 +2,7 @@
 title: "Jev"
 type: entity
 tags: [AI模型, 判断模型, TypeSafeAI]
-sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md, raw/01-articles/2026-09-20-Jev新决策模型的试用心得.md, raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-21-一万字Jev 工程实践长文：把 Agent 的"判断题"从大模型里拆出来.md, raw/01-articles/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md, raw/01-articles/2026-09-22-新模型Jev爆火：曾帮ChatGPT学会聊天的人，为啥做个不聊天AI？.md, raw/01-articles/2026-09-22-Jev爆火，具身智能迎来大救星？.md, raw/01-articles/2026-09-26-Jev 爆火背后：AI Agent 正在从“三体人”变成“地球人”.md, raw/01-articles/2026-09-26-基元律动发布 NeoHorse-Jev，开源 Jev 综合评测第一.md, raw/01-articles/2026-09-30-“哑巴模型”Jev火了，会给AI产业带来什么改变.md, raw/01-articles/2026-10-02 - Agent 的意图路由怎么设计？.md, raw/01-articles/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md]
+sources: [raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的"判断模型"路线靠谱吗？.md, raw/09-archive/2026-09-20-Jev新决策模型的试用心得.md, raw/01-articles/全网爆火的 Jev 究竟是什么？一篇文章为你讲透！.md, raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-21-一万字Jev 工程实践长文：把 Agent 的"判断题"从大模型里拆出来.md, raw/09-archive/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md, raw/09-archive/2026-09-22-新模型Jev爆火：曾帮ChatGPT学会聊天的人，为啥做个不聊天AI？.md, raw/09-archive/2026-09-22-Jev爆火，具身智能迎来大救星？.md, raw/01-articles/2026-09-26-Jev 爆火背后：AI Agent 正在从“三体人”变成“地球人”.md, raw/01-articles/2026-09-26-基元律动发布 NeoHorse-Jev，开源 Jev 综合评测第一.md, raw/09-archive/2026-09-30-“哑巴模型”Jev火了，会给AI产业带来什么改变.md, raw/01-articles/2026-10-02 - Agent 的意图路由怎么设计？.md, raw/01-articles/2026-10-05-GitHub 定律：今天有个 xxx 刷屏，明天就有个 Openxxx 登上开源热榜。.md]
 last_updated: 2026-10-08
 ---
 

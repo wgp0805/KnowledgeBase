@@ -2,7 +2,7 @@
 title: "面渣逆袭之微服务篇（背诵版）"
 type: source
 tags: ["微服务", "面试题", "沉默王二"]
-sources: ["raw/01-articles/面渣逆袭之微服务篇（背诵版）.md"]
+sources: ["raw/09-archive/面渣逆袭之微服务篇（背诵版）.md"]
 last_updated: 2026-09-01
 ---
 

@@ -2,7 +2,7 @@
 title: "AgenticOrganization"
 type: concept
 tags: [组织变革, AI, 管理]
-sources: [raw/01-articles/2026-08-25-你的HR还在算人均营收？字节已把AI变经营单元！.md, raw/01-articles/2026-09-29-当一个人能做一个团队的事，组织该怎么变？.md]
+sources: [raw/09-archive/2026-08-25-你的HR还在算人均营收？字节已把AI变经营单元！.md, raw/09-archive/2026-09-29-当一个人能做一个团队的事，组织该怎么变？.md]
 last_updated: 2026-10-08
 ---
 

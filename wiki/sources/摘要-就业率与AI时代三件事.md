@@ -2,7 +2,7 @@
 title: "摘要-就业率与AI时代三件事"
 type: source
 tags: [来源, 原始文件, AI时代, 职业规划, 就业]
-sources: [raw/01-articles/2026-09-15-就业率砍半，年轻人靠什么翻盘？AI时代，这三点越早做越好.md]
+sources: [raw/09-archive/2026-09-15-就业率砍半，年轻人靠什么翻盘？AI时代，这三点越早做越好.md]
 last_updated: 2026-09-15
 ---
 

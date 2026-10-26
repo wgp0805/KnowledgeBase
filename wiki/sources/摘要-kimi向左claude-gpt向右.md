@@ -2,7 +2,7 @@
 title: "摘要-kimi向左claude-gpt向右"
 type: source
 tags: [来源, 原始文件, Kimi Code, Claude, ChatGPT, 产品路线]
-sources: [raw/01-articles/2026-09-19-Kimi向左，Claude、GPT向右.md]
+sources: [raw/09-archive/2026-09-19-Kimi向左，Claude、GPT向右.md]
 last_updated: 2026-09-20
 ---
 

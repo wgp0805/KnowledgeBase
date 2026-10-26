@@ -2,7 +2,7 @@
 title: "CloudWeGo"
 type: entity
 tags: [实体, Go语言, 开源, 字节跳动, 微服务]
-sources: [raw/01-articles/为什么越来越多人用Eino？.md]
+sources: [raw/09-archive/为什么越来越多人用Eino？.md]
 last_updated: 2026-10-22
 ---
 

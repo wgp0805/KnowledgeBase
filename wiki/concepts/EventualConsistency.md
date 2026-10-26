@@ -2,7 +2,7 @@
 title: "EventualConsistency"
 type: concept
 tags: [概念, 分布式系统, 一致性, 架构]
-sources: [raw/01-articles/SpringEvent别瞎用！被它坑的绩效都没了！.md]
+sources: [raw/09-archive/SpringEvent别瞎用！被它坑的绩效都没了！.md]
 last_updated: 2026-08-27
 ---
 

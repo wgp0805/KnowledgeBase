@@ -2,7 +2,7 @@
 title: "摘要-做ai产品先回答谁付钱"
 type: source
 tags: [来源, 原始文件, AI产品, 产品方法论, 上下文工程]
-sources: [raw/01-articles/2026-08-31-做AI产品，先回答“谁付钱、解决什么问题”.md]
+sources: [raw/09-archive/2026-08-31-做AI产品，先回答“谁付钱、解决什么问题”.md]
 last_updated: 2026-09-15
 ---
 

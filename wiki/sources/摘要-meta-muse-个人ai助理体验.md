@@ -2,7 +2,7 @@
 title: "摘要-meta-muse-个人ai助理体验"
 type: source
 tags: [来源, 原始文件, Meta, Muse, PersonalAgent, AI产品]
-sources: [raw/01-articles/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md]
+sources: [raw/09-archive/2026-09-24-体验完Meta的Muse，原来这才是我们想要的AI助理.md]
 last_updated: 2026-09-28
 ---
 

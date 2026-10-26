@@ -2,7 +2,7 @@
 title: "AI杠杆效应"
 type: concept
 tags: [AI时代, 个人成长, 中年转型, 经验复用]
-sources: [raw/01-articles/2026-09-15-就业率砍半，年轻人靠什么翻盘？AI时代，这三点越早做越好.md]
+sources: [raw/09-archive/2026-09-15-就业率砍半，年轻人靠什么翻盘？AI时代，这三点越早做越好.md]
 last_updated: 2026-09-15
 ---
 

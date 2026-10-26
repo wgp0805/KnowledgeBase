@@ -2,7 +2,7 @@
 title: "摘要-openai-mathematician-anxiety"
 type: source
 tags: [来源, OpenAI, 数学, 学术冲击, AI焦虑, 人人都是产品经理]
-sources: [raw/01-articles/2026-10-11-OpenAI让数学家也陷入了打工人的焦虑.md]
+sources: [raw/09-archive/2026-10-11-OpenAI让数学家也陷入了打工人的焦虑.md]
 last_updated: 2026-10-12
 ---
 

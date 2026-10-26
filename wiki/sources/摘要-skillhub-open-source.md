@@ -2,7 +2,7 @@
 title: "SkillHub 官宣开源"
 type: source
 tags: ["SkillHub", "科大讯飞", "沉默王二"]
-sources: ["raw/01-articles/SkillHub，官宣开源！.md"]
+sources: ["raw/09-archive/SkillHub，官宣开源！.md"]
 last_updated: 2026-09-01
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-扎克伯格谈muse-全栈护城河"
 type: source
 tags: [来源, 原始文件, Meta, 扎克伯格, Muse, 隐私, 权限系统, 预训练]
-sources: [raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md]
+sources: [raw/09-archive/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md]
 last_updated: 2026-09-28
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-产品经理转型FDE指南"
 type: source
 tags: [来源, 原始文件, FDE, 产品经理, 职业转型, B端]
-sources: [raw/01-articles/2026-09-29-产品经理转型FDE指南.md]
+sources: [raw/09-archive/2026-09-29-产品经理转型FDE指南.md]
 last_updated: 2026-10-08
 ---
 

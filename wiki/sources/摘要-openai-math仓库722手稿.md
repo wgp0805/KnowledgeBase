@@ -2,7 +2,7 @@
 title: "摘要-openai-math仓库722手稿"
 type: source
 tags: [来源, OpenAI, 数学, AI研究, Lean, 争议]
-sources: [raw/01-articles/2026-10-09-OpenAI宣布攻破数百个难题，“数学之死”担忧成真？.md]
+sources: [raw/09-archive/2026-10-09-OpenAI宣布攻破数百个难题，“数学之死”担忧成真？.md]
 last_updated: 2026-10-09
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-豆包Spell对标Muse"
 type: source
 tags: [来源, 原始文件, PersonalAgent, 豆包, Muse, Agent]
-sources: [raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md]
+sources: [raw/09-archive/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md]
 last_updated: 2026-10-08
 ---
 

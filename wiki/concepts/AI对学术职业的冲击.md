@@ -2,7 +2,7 @@
 title: "AI对学术职业的冲击"
 type: concept
 tags: [概念, AI影响, 学术, 职业焦虑]
-sources: [raw/01-articles/2026-10-11-OpenAI让数学家也陷入了打工人的焦虑.md]
+sources: [raw/09-archive/2026-10-11-OpenAI让数学家也陷入了打工人的焦虑.md]
 last_updated: 2026-10-12
 ---
 

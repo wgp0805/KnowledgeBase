@@ -2,7 +2,7 @@
 title: "摘要-opencode密钥外泄事件"
 type: source
 tags: [来源, 原始文件, 安全事件, OpenCode, 密钥治理]
-sources: [raw/01-articles/2026-10-19-OpenCode遭攻击：部分用户OpenAI、Anthropic等API密钥外泄.md]
+sources: [raw/09-archive/2026-10-19-OpenCode遭攻击：部分用户OpenAI、Anthropic等API密钥外泄.md]
 last_updated: 2026-10-20
 ---
 

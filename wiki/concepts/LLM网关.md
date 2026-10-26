@@ -2,7 +2,7 @@
 title: "LLM网关"
 type: concept
 tags: [AI, LLM, 网关, 多模型路由, 降级]
-sources: [raw/01-articles/推荐一个牛逼的企业智能招聘系统.md]
+sources: [raw/09-archive/推荐一个牛逼的企业智能招聘系统.md]
 last_updated: 2026-08-14
 ---
 

@@ -2,7 +2,7 @@
 title: "Agent平台化"
 type: concept
 tags: [概念, Agent, 平台, 开放]
-sources: [raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md]
+sources: [raw/09-archive/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md]
 last_updated: 2026-09-20
 ---
 

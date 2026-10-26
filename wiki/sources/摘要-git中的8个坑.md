@@ -2,7 +2,7 @@
 title: "摘要-git中的8个坑"
 type: source
 tags: [来源, 原始文件, Git, 苏三]
-sources: [raw/01-articles/聊聊Git中的8个坑.md]
+sources: [raw/09-archive/聊聊Git中的8个坑.md]
 last_updated: 2026-09-03
 ---
 

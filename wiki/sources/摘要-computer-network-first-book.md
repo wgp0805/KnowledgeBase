@@ -2,7 +2,7 @@
 title: "学完计算机网络 秋招稳的一笔"
 type: source
 tags: ["计算机网络", "学习资料", "沉默王二"]
-sources: ["raw/01-articles/学完计算机网络，秋招稳的一笔.md"]
+sources: ["raw/09-archive/学完计算机网络，秋招稳的一笔.md"]
 last_updated: 2026-09-01
 ---
 

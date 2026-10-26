@@ -2,7 +2,7 @@
 title: "什么是上下文窗口？它不是聊天窗口"
 type: source
 tags: ["Context-Window", "LLM-记忆", "面试题"]
-sources: ["raw/01-articles/什么是上下文窗口？它不是聊天窗口.md"]
+sources: ["raw/09-archive/什么是上下文窗口？它不是聊天窗口.md"]
 last_updated: 2026-09-01
 ---
 

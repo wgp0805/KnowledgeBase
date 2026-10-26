@@ -2,7 +2,7 @@
 title: "OpenCodeReview"
 type: entity
 tags: [阿里, 代码审查, Agent, 开源项目]
-sources: [raw/01-articles/2026-09-05 - 阿里开源了一个神级Agent项目.md, raw/01-articles/2026-10-08-阿里开源了个神器，给WorkBuddy、豆包挑毛病.md]
+sources: [raw/01-articles/2026-09-05 - 阿里开源了一个神级Agent项目.md, raw/09-archive/2026-10-08-阿里开源了个神器，给WorkBuddy、豆包挑毛病.md]
 last_updated: 2026-10-09
 ---
 

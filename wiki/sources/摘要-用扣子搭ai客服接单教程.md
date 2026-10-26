@@ -2,7 +2,7 @@
 title: "帮小店搭一个AI客服从0到1：普通人怎么用扣子接第一单"
 type: source
 tags: [AI客服, 扣子, Coze, 智能体, 副业, 接单教程]
-sources: [raw/01-articles/2026-09-13-帮小店搭一个AI客服从0到1：普通人怎么用扣子接第一单（保姆级教程）.md]
+sources: [raw/09-archive/2026-09-13-帮小店搭一个AI客服从0到1：普通人怎么用扣子接第一单（保姆级教程）.md]
 last_updated: 2026-09-14
 ---
 

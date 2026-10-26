@@ -2,7 +2,7 @@
 title: "摘要-ai时代非ai研发者关系定位"
 type: source
 tags: [来源, 原始文件, AI关系, 非AI研发者, 工具定位]
-sources: [raw/01-articles/2026-08-27-在AI突飞猛进时代下，作为不是AI领域的研发者应该怎么处理与AI的关系.md]
+sources: [raw/09-archive/2026-08-27-在AI突飞猛进时代下，作为不是AI领域的研发者应该怎么处理与AI的关系.md]
 last_updated: 2026-08-28
 ---
 

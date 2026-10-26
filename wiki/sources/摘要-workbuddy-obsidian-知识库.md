@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-obsidian-知识库"
 type: source
 tags: [来源, WorkBuddy, Obsidian, 知识库, LLMWiki]
-sources: [raw/01-articles/WorkBuddy搭建个人知识库保姆级教程.md]
+sources: [raw/09-archive/WorkBuddy搭建个人知识库保姆级教程.md]
 last_updated: 2026-09-16
 ---
 

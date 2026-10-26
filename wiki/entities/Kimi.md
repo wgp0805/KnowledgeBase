@@ -2,7 +2,7 @@
 title: "Kimi"
 type: entity
 tags: [AI公司, 大模型厂商]
-sources: [raw/01-articles/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md, raw/01-articles/2026-09-19-Kimi向左，Claude、GPT向右.md, raw/01-articles/Kimi版Codex，干活有点猛啊。.md, raw/01-articles/2026-09-19-阿里内测 Qovest，一个面向个人投资者的AI Agent，要帮你赚钱.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md, "raw/09-archive/2026-10-24 - 最新国产AI模型 Kimi K3.1 Pro，第一手测评来了！.md"]
+sources: [raw/09-archive/2026-09-03-淘宝正式上线「AI空间站」，以后买Token，可以像充话费一样简单了！.md, raw/09-archive/2026-09-19-Kimi向左，Claude、GPT向右.md, raw/09-archive/Kimi版Codex，干活有点猛啊。.md, raw/01-articles/2026-09-19-阿里内测 Qovest，一个面向个人投资者的AI Agent，要帮你赚钱.md, raw/09-archive/2026-09-24-A社O社，坐不住了.md, "raw/09-archive/2026-10-24 - 最新国产AI模型 Kimi K3.1 Pro，第一手测评来了！.md"]
 last_updated: 2026-10-26
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-openclaw-agent浪潮养虾养不活"
 type: source
 tags: [来源, 原始文件, OpenClaw, Agent商业化]
-sources: [raw/01-articles/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md]
+sources: [raw/09-archive/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md]
 last_updated: 2026-10-08
 ---
 

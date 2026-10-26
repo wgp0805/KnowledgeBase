@@ -2,7 +2,7 @@
 title: "摘要-podroid-安卓容器指南"
 type: source
 tags: [来源, Docker, Android, 容器, 自托管]
-sources: [raw/01-articles/PoDroid安装使用指南.md]
+sources: [raw/09-archive/PoDroid安装使用指南.md]
 last_updated: 2026-10-09
 ---
 

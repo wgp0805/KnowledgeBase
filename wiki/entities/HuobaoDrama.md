@@ -2,7 +2,7 @@
 title: "HuobaoDrama"
 type: entity
 tags: [实体, 开源项目, AI短剧, 多Agent]
-sources: [raw/01-articles/开源项目｜Star16.3k一站式AI短剧生成平台.md]
+sources: [raw/09-archive/开源项目｜Star16.3k一站式AI短剧生成平台.md]
 last_updated: 2026-10-20
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-doubao-seed-2-1-pro-0915实测"
 type: source
 tags: [豆包, Doubao-Seed, 火山方舟, Agent, 1M上下文, 256k深度思考, Three.js, Excel, QBS法]
-sources: [raw/01-articles/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md]
+sources: [raw/09-archive/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md]
 last_updated: 2026-09-17
 ---
 

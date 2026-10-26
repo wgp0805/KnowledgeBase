@@ -2,7 +2,7 @@
 title: "AI拟人形象"
 type: concept
 tags: [拟人形象, 社区文化, 开源, 二次元]
-sources: [raw/01-articles/2026-10-06-deepseek拟人形象大战，究竟在吵什么.md]
+sources: [raw/09-archive/2026-10-06-deepseek拟人形象大战，究竟在吵什么.md]
 last_updated: 2026-10-08
 ---
 

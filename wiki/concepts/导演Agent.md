@@ -2,7 +2,7 @@
 title: "导演Agent"
 type: concept
 tags: [Agent, AI视频, 工作流, 产品设计]
-sources: [raw/01-articles/2026-09-27-实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流.md]
+sources: [raw/09-archive/2026-09-27-实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流.md]
 last_updated: 2026-09-28
 ---
 

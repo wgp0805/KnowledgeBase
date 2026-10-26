@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-15技能推荐"
 type: source
 tags: [来源, WorkBuddy, Skills, 工具推荐]
-sources: [raw/01-articles/WorkBuddy最值得推荐的15个技能（9月最新版）.md]
+sources: [raw/09-archive/WorkBuddy最值得推荐的15个技能（9月最新版）.md]
 last_updated: 2026-09-16
 ---
 

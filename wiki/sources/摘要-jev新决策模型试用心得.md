@@ -2,7 +2,7 @@
 title: "摘要-jev新决策模型试用心得"
 type: source
 tags: [来源, Jev, 知识图谱, 决策模型]
-sources: [raw/01-articles/2026-09-20-Jev新决策模型的试用心得.md]
+sources: [raw/09-archive/2026-09-20-Jev新决策模型的试用心得.md]
 last_updated: 2026-09-22
 ---
 

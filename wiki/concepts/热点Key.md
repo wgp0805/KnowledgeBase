@@ -2,7 +2,7 @@
 title: "热点Key"
 type: concept
 tags: [Redis, 高并发, 性能, 稳定性, 秒杀]
-sources: [raw/01-articles/秒杀系统怎么区分真实用户和黄牛脚本？.md]
+sources: [raw/09-archive/秒杀系统怎么区分真实用户和黄牛脚本？.md]
 last_updated: 2026-08-20
 ---
 

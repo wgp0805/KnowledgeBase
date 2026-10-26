@@ -7,7 +7,7 @@ tags:
 sources:
   - raw/01-articles/2026-09-25-DeepSeek Harness客户端来了，AI办公又多了一个王者？.md
   - "raw/01-articles/2026-10-03 - WorkBuddy 与 豆包工作 该选谁？我们从10个方面深度分析对比.md"
-  - raw/01-articles/2026-10-05-汽车业这样用WorkBuddy就对了.md
+  - raw/09-archive/2026-10-05-汽车业这样用WorkBuddy就对了.md
 last_updated: 2026-10-08
 ---
 

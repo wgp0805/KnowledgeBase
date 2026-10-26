@@ -2,7 +2,7 @@
 title: "Gainsight"
 type: entity
 tags: [SaaS, 客户成功, 企业软件]
-sources: [raw/01-articles/2026-10-04-AI时代，事务型的CSM还有存在的必要吗？.md]
+sources: [raw/09-archive/2026-10-04-AI时代，事务型的CSM还有存在的必要吗？.md]
 last_updated: 2026-10-08
 ---
 

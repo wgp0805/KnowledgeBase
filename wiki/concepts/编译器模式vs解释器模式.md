@@ -2,7 +2,7 @@
 title: "编译器模式vs解释器模式"
 type: concept
 tags: [概念, 知识库, RAG, LLM Wiki, 架构范式]
-sources: [raw/01-articles/为什么越来越多人用OpenWiki？.md]
+sources: [raw/09-archive/为什么越来越多人用OpenWiki？.md]
 last_updated: 2026-09-15
 ---
 

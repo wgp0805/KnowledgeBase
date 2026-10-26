@@ -2,7 +2,7 @@
 title: "Feishu"
 type: entity
 tags: [协作工具, 字节跳动, 企业服务]
-sources: [raw/01-articles/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。md, raw/01-articles/我用飞书+豆包工作，找到了最邪修的用法。.md, raw/01-articles/2026-08-31-飞书，成了豆包工作的“超级上下文”.md]
+sources: [raw/01-articles/2026-08-26-豆包工作一手实测，这下真是飞一般的感觉了。md, raw/09-archive/我用飞书+豆包工作，找到了最邪修的用法。.md, raw/09-archive/2026-08-31-飞书，成了豆包工作的“超级上下文”.md]
 last_updated: 2026-09-28
 ---
 

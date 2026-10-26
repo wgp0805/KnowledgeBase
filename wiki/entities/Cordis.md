@@ -2,7 +2,7 @@
 title: "Cordis"
 type: entity
 tags: ["Cordis", "DeepSeek", "Harness", "插件框架"]
-sources: [raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md, raw/01-articles/DeepSeek桌面版真不错，再见了WebUI。.md]
+sources: [raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md, raw/09-archive/DeepSeek桌面版真不错，再见了WebUI。.md]
 last_updated: 2026-09-29
 ---
 

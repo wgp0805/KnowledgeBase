@@ -3,7 +3,7 @@ title: "MiMo"
 type: entity
 tags: [大模型, 小米, 模型系列, Agent, 开源]
 sources:
-  - raw/01-articles/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md
+  - raw/09-archive/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md
   - raw/09-archive/2026-08-02-AI 时代的“HTML 时刻”：一个被严重低估的知识标准 OKF - 贾克斯的平行世界.md
 last_updated: 2026-10-21
 ---

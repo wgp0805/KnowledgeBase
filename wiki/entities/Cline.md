@@ -2,7 +2,7 @@
 title: "Cline"
 type: entity
 tags: [实体, 编程Agent, 免费模型, VSCode]
-sources: [raw/01-articles/2026-10-07-Cline免费模型接入各种Agent，多账号免费token管够.md]
+sources: [raw/09-archive/2026-10-07-Cline免费模型接入各种Agent，多账号免费token管够.md]
 last_updated: 2026-10-08
 ---
 

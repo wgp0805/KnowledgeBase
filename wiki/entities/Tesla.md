@@ -2,7 +2,7 @@
 title: "Tesla"
 type: entity
 tags: [公司, 自动驾驶, 电动车, AI]
-sources: [raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md, raw/01-articles/2026-09-19-豆包，被张一鸣送上了车.md]
+sources: [raw/01-articles/2026-07-07-Transformer、"训练-微调"范式-AI 相关概念之（核心技术与架构） - 橙子家.md, raw/09-archive/2026-09-19-豆包，被张一鸣送上了车.md]
 last_updated: 2026-09-20
 ---
 

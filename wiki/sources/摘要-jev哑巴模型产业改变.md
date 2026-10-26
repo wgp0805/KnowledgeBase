@@ -2,7 +2,7 @@
 title: "摘要-jev哑巴模型产业改变"
 type: source
 tags: [来源, 原始文件, Jev, 模型分化]
-sources: [raw/01-articles/2026-09-30-“哑巴模型”Jev火了，会给AI产业带来什么改变.md]
+sources: [raw/09-archive/2026-09-30-“哑巴模型”Jev火了，会给AI产业带来什么改变.md]
 last_updated: 2026-10-08
 ---
 

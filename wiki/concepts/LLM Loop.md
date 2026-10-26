@@ -2,7 +2,7 @@
 title: "LLM Loop"
 type: concept
 tags: [AI, Agent, 运行机制, Harness]
-sources: [raw/01-articles/pi-study-02-architecture.md]
+sources: [raw/09-archive/pi-study-02-architecture.md]
 last_updated: 2026-08-09
 ---
 

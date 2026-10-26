@@ -2,7 +2,7 @@
 title: "摘要-让AI真正赋能企业初探"
 type: source
 tags: [来源, 原始文件, 企业AI, Agent中枢, MCP]
-sources: [raw/01-articles/2026-09-15-让AI真正赋能企业（初探）.md]
+sources: [raw/09-archive/2026-09-15-让AI真正赋能企业（初探）.md]
 last_updated: 2026-09-15
 ---
 

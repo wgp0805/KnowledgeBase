@@ -2,7 +2,7 @@
 title: "DavidOgilvy"
 type: entity
 tags: [人物, 广告, 营销, 品牌]
-sources: [raw/01-articles/2026-10-07-广告教皇奥格威：25条依旧有效的大师心法，满满干货.md]
+sources: [raw/09-archive/2026-10-07-广告教皇奥格威：25条依旧有效的大师心法，满满干货.md]
 last_updated: 2026-10-08
 ---
 

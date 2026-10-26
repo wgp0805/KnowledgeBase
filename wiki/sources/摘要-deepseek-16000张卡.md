@@ -2,7 +2,7 @@
 title: "摘要-deepseek-16000张卡"
 type: source
 tags: [来源, 原始文件, DeepSeek, 国产芯片, 供应链]
-sources: [raw/01-articles/2026-10-03-DeepSeek为什么要16000张卡？.md]
+sources: [raw/09-archive/2026-10-03-DeepSeek为什么要16000张卡？.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-huashu-report-skill"
 type: source
 tags: [来源, 原始文件, Agent Skill, 报告, 开源]
-sources: [raw/01-articles/2026-09-14-正式开源！比橙皮书skill更强10倍的Huashu-Report来了！.md]
+sources: [raw/09-archive/2026-09-14-正式开源！比橙皮书skill更强10倍的Huashu-Report来了！.md]
 last_updated: 2026-09-15
 ---
 

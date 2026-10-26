@@ -2,7 +2,7 @@
 title: "PrefectHorizon"
 type: entity
 tags: [MCP, 企业级, 网关, FastMCP]
-sources: [raw/01-articles/为什么越来越多人用FastMCP？.md]
+sources: [raw/09-archive/为什么越来越多人用FastMCP？.md]
 last_updated: 2026-08-20
 ---
 

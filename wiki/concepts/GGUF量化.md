@@ -2,7 +2,7 @@
 title: "GGUF量化"
 type: concept
 tags: [概念, 模型量化, GGUF, 本地部署, 显存优化]
-sources: [raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md]
+sources: [raw/09-archive/抖音视频内容整理_人类智力基线与2张显卡.md]
 last_updated: 2026-08-18
 ---
 

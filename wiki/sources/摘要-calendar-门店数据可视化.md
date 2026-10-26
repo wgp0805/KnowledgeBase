@@ -2,7 +2,7 @@
 title: "摘要-calendar-门店数据可视化"
 type: source
 tags: [来源, 原始文件, 可视化, 门店, 控件设计]
-sources: [raw/01-articles/2026-09-24-Calendar日历表在门店数据可视化中的应用.md]
+sources: [raw/09-archive/2026-09-24-Calendar日历表在门店数据可视化中的应用.md]
 last_updated: 2026-09-28
 ---
 

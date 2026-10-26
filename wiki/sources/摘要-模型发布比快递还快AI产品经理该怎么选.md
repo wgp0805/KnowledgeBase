@@ -2,7 +2,7 @@
 title: "模型发布比快递还快，AI产品经理该怎么选"
 type: source
 tags: [AI产品, 模型选型, 产品经理, 评估体系, TCO, 安全合规]
-sources: [raw/01-articles/2026-09-11-模型发布比快递还快，AI产品经理该怎么选.md]
+sources: [raw/09-archive/2026-09-11-模型发布比快递还快，AI产品经理该怎么选.md]
 last_updated: 2026-09-14
 ---
 

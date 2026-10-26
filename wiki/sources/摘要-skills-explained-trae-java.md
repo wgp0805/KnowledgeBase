@@ -2,7 +2,7 @@
 title: "一文带你看懂火爆全网的 Skills 到底是啥（附 TRAE+Java 源码实战）"
 type: source
 tags: ["Skills", "TRAE", "沉默王二"]
-sources: ["raw/01-articles/一文带你看懂，火爆全网的Skills到底是啥（附TRAE+Java源码实战）.md"]
+sources: ["raw/09-archive/一文带你看懂，火爆全网的Skills到底是啥（附TRAE+Java源码实战）.md"]
 last_updated: 2026-09-01
 ---
 

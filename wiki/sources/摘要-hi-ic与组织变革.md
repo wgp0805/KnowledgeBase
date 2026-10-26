@@ -2,7 +2,7 @@
 title: "摘要-hi-ic与组织变革"
 type: source
 tags: [来源, 原始文件, HI-IC, 组织变革, 职业路径]
-sources: [raw/01-articles/2026-09-29-当一个人能做一个团队的事，组织该怎么变？.md]
+sources: [raw/09-archive/2026-09-29-当一个人能做一个团队的事，组织该怎么变？.md]
 last_updated: 2026-10-08
 ---
 

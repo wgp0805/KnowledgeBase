@@ -2,7 +2,7 @@
 title: "git reflog"
 type: concept
 tags: [Git, 恢复, 审计]
-sources: [raw/01-articles/聊聊Git中的8个坑.md]
+sources: [raw/09-archive/聊聊Git中的8个坑.md]
 last_updated: 2026-09-03
 ---
 

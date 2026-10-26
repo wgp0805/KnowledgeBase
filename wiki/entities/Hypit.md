@@ -2,7 +2,7 @@
 title: "Hypit"
 type: entity
 tags: [开源项目, AI视频, Agent, Skill]
-sources: [raw/01-articles/2026-09-23-开源AI视频复刻神器Hypit爆火：闲鱼已有人靠它月入过万？.md]
+sources: [raw/09-archive/2026-09-23-开源AI视频复刻神器Hypit爆火：闲鱼已有人靠它月入过万？.md]
 last_updated: 2026-09-28
 ---
 

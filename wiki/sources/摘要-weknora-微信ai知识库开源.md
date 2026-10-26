@@ -2,7 +2,7 @@
 title: "摘要-weknora-微信ai知识库开源"
 type: source
 tags: [来源, 原始文件, 知识库, RAG, Agent, 腾讯, 开源]
-sources: [raw/01-articles/2026-09-14-重磅！微信把自家的AI知识库开源了.md]
+sources: [raw/09-archive/2026-09-14-重磅！微信把自家的AI知识库开源了.md]
 last_updated: 2026-09-15
 ---
 

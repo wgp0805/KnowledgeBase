@@ -2,7 +2,7 @@
 title: "Codex，差点把我搞疯！！！"
 type: source
 tags: [Codex, AI编码, Docker部署, 资源消耗, Windows开发, 部署踩坑]
-sources: [raw/01-articles/2026-09-11-Codex，差点把我搞疯！！！.md]
+sources: [raw/09-archive/2026-09-11-Codex，差点把我搞疯！！！.md]
 last_updated: 2026-09-14
 ---
 

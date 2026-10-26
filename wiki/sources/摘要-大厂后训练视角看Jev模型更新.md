@@ -2,7 +2,7 @@
 title: "摘要-大厂后训练视角看Jev模型更新"
 type: source
 tags: [AI模型, 后训练, RLCD, RLHF]
-sources: [raw/01-articles/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md]
+sources: [raw/09-archive/2026-09-22-大厂后训练视角看Jev模型的更新（大白话）.md]
 last_updated: 2026-09-23
 ---
 

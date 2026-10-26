@@ -2,7 +2,7 @@
 title: "IntelligentUI"
 type: concept
 tags: [OpenAI, 产品形态, 交互, 入口]
-sources: [raw/01-articles/2026-10-12-模型长出交互界面，“手搓”AI应用要全面退潮了？.md]
+sources: [raw/09-archive/2026-10-12-模型长出交互界面，“手搓”AI应用要全面退潮了？.md]
 last_updated: 2026-10-13
 ---
 

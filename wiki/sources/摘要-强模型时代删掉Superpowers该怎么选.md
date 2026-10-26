@@ -2,7 +2,7 @@
 title: "摘要-强模型时代删掉Superpowers该怎么选"
 type: source
 tags: [AI编程, Superpowers, MattSkills, 强模型, 工作流选型, 流程税]
-sources: [raw/01-articles/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md]
+sources: [raw/09-archive/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md]
 last_updated: 2026-08-21
 ---
 

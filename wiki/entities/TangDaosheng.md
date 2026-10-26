@@ -2,7 +2,7 @@
 title: "TangDaosheng"
 type: entity
 tags: [人物, 腾讯, AI, 高管]
-sources: [raw/01-articles/2026-08-26-腾讯汤道生深度复盘WorkBuddy、元宝以及AI竞争：和AI一起长跑的这两年.md]
+sources: [raw/09-archive/2026-08-26-腾讯汤道生深度复盘WorkBuddy、元宝以及AI竞争：和AI一起长跑的这两年.md]
 last_updated: 2026-08-27
 ---
 

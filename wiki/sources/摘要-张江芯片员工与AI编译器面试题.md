@@ -2,7 +2,7 @@
 title: "摘要-张江芯片员工与AI编译器面试题"
 type: source
 tags: [来源, AI编译器, GPU架构, MLIR, 算力红利, 面试]
-sources: [raw/01-articles/张江芯片员工：32岁税前80个，没有互联网那么卷，现在国产卡都在招人，算是踩中这波算力红利了（附Agent面试题）.md]
+sources: [raw/09-archive/张江芯片员工：32岁税前80个，没有互联网那么卷，现在国产卡都在招人，算是踩中这波算力红利了（附Agent面试题）.md]
 last_updated: 2026-10-15
 ---
 

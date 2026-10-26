@@ -2,7 +2,7 @@
 title: "摘要-kimi-code桌面版体验"
 type: source
 tags: [来源, 原始文件, Kimi Code, 桌面版, 体验]
-sources: [raw/01-articles/Kimi版Codex，干活有点猛啊。.md]
+sources: [raw/09-archive/Kimi版Codex，干活有点猛啊。.md]
 last_updated: 2026-09-20
 ---
 

@@ -2,7 +2,7 @@
 title: "AI执行器"
 type: concept
 tags: [任务调度, AI, XXL-JOB, 集成]
-sources: [raw/01-articles/xxl-job已正式接入AI.md]
+sources: [raw/09-archive/xxl-job已正式接入AI.md]
 last_updated: 2026-10-13
 ---
 

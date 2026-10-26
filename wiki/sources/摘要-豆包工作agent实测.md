@@ -2,7 +2,7 @@
 title: "摘要-豆包工作agent实测"
 type: source
 tags: [来源, Agent, 办公, 豆包, 实测]
-sources: [raw/01-articles/2026-09-04-能摸鱼了！我把一周的周报、表格、PPT全丢给了豆包工作.md]
+sources: [raw/09-archive/2026-09-04-能摸鱼了！我把一周的周报、表格、PPT全丢给了豆包工作.md]
 last_updated: 2026-09-05
 ---
 

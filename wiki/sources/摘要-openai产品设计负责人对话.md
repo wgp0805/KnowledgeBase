@@ -2,7 +2,7 @@
 title: "对话OpenAI产品设计负责人：只会往聊天框里堆功能的产品设计师，只是在假装做AI产品"
 type: source
 tags: [AI产品设计, OpenAI, ChatGPT, 交互设计, 设计师角色, IanSilber]
-sources: [raw/01-articles/2026-09-12-对话OpenAI产品设计负责人：只会往聊天框里堆功能的产品设计师，只是在假装做AI产品.md]
+sources: [raw/09-archive/2026-09-12-对话OpenAI产品设计负责人：只会往聊天框里堆功能的产品设计师，只是在假装做AI产品.md]
 last_updated: 2026-09-14
 ---
 

@@ -2,7 +2,7 @@
 title: "GhOst"
 type: concept
 tags: [MySQL, DDL, GitHub, 在线变更, binlog, 无触发器]
-sources: [raw/01-articles/千万级的大表如何新增字段？.md]
+sources: [raw/09-archive/千万级的大表如何新增字段？.md]
 last_updated: 2026-08-14
 ---
 

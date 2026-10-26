@@ -2,7 +2,7 @@
 title: "Claude"
 type: entity
 tags: ["Anthropic", "AI-Agent"]
-sources: [raw/01-articles/2026-09-19-Kimi向左，Claude、GPT向右.md, raw/01-articles/2026-09-19-Anthropic 优化 30 多个生物模型，蛋白质设计成本最高降 98%.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
+sources: [raw/09-archive/2026-09-19-Kimi向左，Claude、GPT向右.md, raw/01-articles/2026-09-19-Anthropic 优化 30 多个生物模型，蛋白质设计成本最高降 98%.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
 last_updated: 2026-10-26
 ---
 

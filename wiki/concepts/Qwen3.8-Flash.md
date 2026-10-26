@@ -2,7 +2,7 @@
 title: "Qwen3.8-Flash"
 type: concept
 tags: [Qwen, 阿里云, 模型架构, 开源, 低成本]
-sources: [raw/01-articles/2026-09-02-整个AI圈都在斩杀，Qwen却算了一笔长期账.md]
+sources: [raw/09-archive/2026-09-02-整个AI圈都在斩杀，Qwen却算了一笔长期账.md]
 last_updated: 2026-09-03
 ---
 

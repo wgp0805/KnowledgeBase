@@ -2,7 +2,7 @@
 title: "TokenEfficiency"
 type: concept
 tags: [人效管理, AI, 组织变革]
-sources: [raw/01-articles/2026-08-25-你的HR还在算人均营收？字节已把AI变经营单元！.md]
+sources: [raw/09-archive/2026-08-25-你的HR还在算人均营收？字节已把AI变经营单元！.md]
 last_updated: 2026-08-26
 ---
 

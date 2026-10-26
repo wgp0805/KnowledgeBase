@@ -2,7 +2,7 @@
 title: "DiogoAlmeida"
 type: entity
 tags: [人物, AI研究者, 创业]
-sources: [raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的“判断模型”路线靠谱吗？.md, raw/01-articles/2026-09-30-“哑巴模型”Jev火了，会给AI产业带来什么改变.md]
+sources: [raw/01-articles/为什么越来越多人用 Jev ？.md, raw/01-articles/2026-09-20-比 LLM 快 193 倍、输出 token 免费：Jev 的“判断模型”路线靠谱吗？.md, raw/09-archive/2026-09-30-“哑巴模型”Jev火了，会给AI产业带来什么改变.md]
 last_updated: 2026-10-08
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要：万字拆解CMS：AI短剧+教育内容生成系统"
 type: source
 tags: [CMS, AI内容生产, 短剧, 教育, 产品设计]
-sources: [raw/01-articles/2026-08-23-万字拆解CMS：AI短剧+教育内容生成系统.md]
+sources: [raw/09-archive/2026-08-23-万字拆解CMS：AI短剧+教育内容生成系统.md]
 last_updated: 2026-08-24
 ---
 

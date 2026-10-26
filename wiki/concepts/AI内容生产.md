@@ -4,7 +4,7 @@ type: concept
 tags:
   - 内容
   - AI
-sources: [raw/01-articles/2026-10-21-如何用AI输出一套完整的产品详情页？（附详细提示词）.md]
+sources: [raw/09-archive/2026-10-21-如何用AI输出一套完整的产品详情页？（附详细提示词）.md]
 last_updated: 2026-10-22
 ---
 

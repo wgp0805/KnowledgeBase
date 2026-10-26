@@ -2,7 +2,7 @@
 title: "摘要-workbuddy浏览器操控能力"
 type: source
 tags: [AI产品, 浏览器操控, Agent, WorkBuddy, 腾讯]
-sources: ["raw/01-articles/2026-10-14-WorkBuddy大更新，上线浏览器操控能力.md"]
+sources: ["raw/09-archive/2026-10-14-WorkBuddy大更新，上线浏览器操控能力.md"]
 last_updated: 2026-10-15
 ---
 

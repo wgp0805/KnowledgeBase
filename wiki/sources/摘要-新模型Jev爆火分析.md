@@ -2,7 +2,7 @@
 title: "摘要-新模型Jev爆火分析"
 type: source
 tags: [AI模型, 判断模型, Agent]
-sources: [raw/01-articles/2026-09-22-新模型Jev爆火：曾帮ChatGPT学会聊天的人，为啥做个不聊天AI？.md]
+sources: [raw/09-archive/2026-09-22-新模型Jev爆火：曾帮ChatGPT学会聊天的人，为啥做个不聊天AI？.md]
 last_updated: 2026-09-23
 ---
 

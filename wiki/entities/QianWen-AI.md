@@ -2,7 +2,7 @@
 title: "QianWen-AI"
 type: entity
 tags: [阿里, 开源, Agent Skill, 多模态, 通义千问]
-sources: [raw/01-articles/阿里又开源了一个神级Skill项目！.md]
+sources: [raw/09-archive/阿里又开源了一个神级Skill项目！.md]
 last_updated: 2026-08-14
 ---
 

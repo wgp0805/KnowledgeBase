@@ -2,7 +2,7 @@
 title: "消费执行Agent"
 type: concept
 tags: [消费Agent, 执行型Agent, 信任, 权限, C端产品]
-sources: [raw/01-articles/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-27-Meta Muse为超级智能买单.md]
+sources: [raw/09-archive/2026-09-25-你敢让AI自动帮下单消费吗？.md, raw/01-articles/2026-09-27-Meta Muse为超级智能买单.md]
 last_updated: 2026-09-28
 ---
 

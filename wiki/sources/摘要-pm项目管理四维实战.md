@@ -2,7 +2,7 @@
 title: "摘要-pm项目管理四维实战"
 type: source
 tags: [来源, 原始文件, 项目管理, 产品经理]
-sources: [raw/01-articles/2026-10-19-产品经理需要了解的一些项目管理知识.md]
+sources: [raw/09-archive/2026-10-19-产品经理需要了解的一些项目管理知识.md]
 last_updated: 2026-10-20
 ---
 

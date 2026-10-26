@@ -2,7 +2,7 @@
 title: "LangChain"
 type: entity
 tags: [AI框架, Python, LLM]
-sources: [raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md, raw/01-articles/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md, raw/01-articles/为什么越来越多人用Eino？.md]
+sources: [raw/01-articles/构建你的第一个 Tool Agent：从零理解 ReAct 循环.md, raw/01-articles/LangChain、LangGraph和LlamaIndex 傻傻分不清楚？.md, raw/09-archive/为什么越来越多人用Eino？.md]
 last_updated: 2026-10-22
 ---
 

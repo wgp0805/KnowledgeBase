@@ -2,7 +2,7 @@
 title: "摘要-实测LibTV1.5五大新功能"
 type: source
 tags: [来源, 原始文件, LibTV, AI短剧, 工作流]
-sources: [raw/01-articles/2026-09-27-实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流.md]
+sources: [raw/09-archive/2026-09-27-实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流.md]
 last_updated: 2026-09-28
 ---
 

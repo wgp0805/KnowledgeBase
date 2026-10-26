@@ -4,8 +4,8 @@ type: entity
 tags: [笔记软件, Markdown, 知识管理]
 sources:
   - raw/09-archive/Codex联动Obsidian搭建卡帕西同款知识库教程.md
-  - raw/01-articles/WorkBuddy最值得推荐的15个技能（9月最新版）.md
-  - raw/01-articles/WorkBuddy搭建个人知识库保姆级教程.md
+  - raw/09-archive/WorkBuddy最值得推荐的15个技能（9月最新版）.md
+  - raw/09-archive/WorkBuddy搭建个人知识库保姆级教程.md
 last_updated: 2026-09-16
 ---
 

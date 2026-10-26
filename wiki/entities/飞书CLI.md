@@ -2,7 +2,7 @@
 title: "飞书CLI"
 type: entity
 tags: [工具, API, 飞书]
-sources: [raw/01-articles/2026-08-25-飞书和豆包合并后的第一个Agent产品，豆包工作，它来了。.md]
+sources: [raw/09-archive/2026-08-25-飞书和豆包合并后的第一个Agent产品，豆包工作，它来了。.md]
 last_updated: 2026-08-26
 ---
 

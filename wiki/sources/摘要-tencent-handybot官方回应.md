@@ -2,7 +2,7 @@
 title: "摘要-tencent-handybot官方回应"
 type: source
 tags: [来源, 原始文件, PersonalAgent, 腾讯, HandyBot]
-sources: [raw/01-articles/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md]
+sources: [raw/09-archive/2026-10-04-关于腾讯HandyBot这款Muse产品，官方回应来了.md]
 last_updated: 2026-10-08
 ---
 

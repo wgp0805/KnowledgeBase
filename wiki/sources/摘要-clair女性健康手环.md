@@ -2,7 +2,7 @@
 title: "摘要-clair女性健康手环"
 type: source
 tags: [来源, 可穿戴设备, 女性健康, AI]
-sources: [raw/01-articles/2026-09-04-两个斯坦福毕业生做了个女性健康手环：不用抽血，也能连续看激素变化.md]
+sources: [raw/09-archive/2026-09-04-两个斯坦福毕业生做了个女性健康手环：不用抽血，也能连续看激素变化.md]
 last_updated: 2026-09-05
 ---
 

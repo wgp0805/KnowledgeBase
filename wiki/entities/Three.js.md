@@ -2,7 +2,7 @@
 title: "Three.js"
 type: entity
 tags: [实体, 3D, JavaScript, 前端库]
-sources: [raw/01-articles/2026-09-18-从 Demo 到3D游戏，GPT-6 加 Tripo 把清明上河图“整活”了！.md, raw/01-articles/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md, raw/01-articles/Kimi版Codex，干活有点猛啊。.md]
+sources: [raw/01-articles/2026-09-18-从 Demo 到3D游戏，GPT-6 加 Tripo 把清明上河图“整活”了！.md, raw/01-articles/2026-09-19-Seed 2.1 pro升级实测，字节基模的后劲来了.md, raw/09-archive/Kimi版Codex，干活有点猛啊。.md]
 last_updated: 2026-09-20
 ---
 

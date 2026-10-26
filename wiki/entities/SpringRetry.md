@@ -2,7 +2,7 @@
 title: "SpringRetry"
 type: entity
 tags: [Spring, 重试, 框架]
-sources: [raw/01-articles/SpringEvent别瞎用！被它坑的绩效都没了！.md, raw/01-articles/2026-10-01 - 消息重试框架 Spring-Retry 和 Guava-Retry，这个框架有点意思.md]
+sources: [raw/09-archive/SpringEvent别瞎用！被它坑的绩效都没了！.md, raw/01-articles/2026-10-01 - 消息重试框架 Spring-Retry 和 Guava-Retry，这个框架有点意思.md]
 last_updated: 2026-10-08
 ---
 

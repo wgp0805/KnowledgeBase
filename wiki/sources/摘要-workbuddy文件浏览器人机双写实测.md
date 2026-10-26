@@ -2,7 +2,7 @@
 title: "摘要-workbuddy文件浏览器人机双写实测"
 type: source
 tags: [来源, WorkBuddy, AI产品, 文件管理, 原始文件]
-sources: [raw/01-articles/2026-10-11-WorkBuddy上线了个浏览器，实测有点惊艳.md]
+sources: [raw/09-archive/2026-10-11-WorkBuddy上线了个浏览器，实测有点惊艳.md]
 last_updated: 2026-10-12
 ---
 

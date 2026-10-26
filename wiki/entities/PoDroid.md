@@ -2,7 +2,7 @@
 title: "PoDroid"
 type: entity
 tags: [开源工具, Android, 容器, Docker, 自托管]
-sources: [raw/01-articles/PoDroid安装使用指南.md]
+sources: [raw/09-archive/PoDroid安装使用指南.md]
 last_updated: 2026-10-09
 ---
 

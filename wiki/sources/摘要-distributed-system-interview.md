@@ -2,7 +2,7 @@
 title: "分布式八股文（背诵版）"
 type: source
 tags: ["分布式", "面试题", "沉默王二"]
-sources: ["raw/01-articles/分布式八股文（背诵版）.md"]
+sources: ["raw/09-archive/分布式八股文（背诵版）.md"]
 last_updated: 2026-09-01
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-a社o社价格战"
 type: source
 tags: [来源, 原始文件, Anthropic, OpenAI, 价格战, 大模型, 企业采购]
-sources: [raw/01-articles/2026-09-24-A社O社，坐不住了.md]
+sources: [raw/09-archive/2026-09-24-A社O社，坐不住了.md]
 last_updated: 2026-09-28
 ---
 

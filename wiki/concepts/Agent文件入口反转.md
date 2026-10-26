@@ -2,7 +2,7 @@
 title: "Agent文件入口反转"
 type: concept
 tags: [Agent交互, 文件管理, 产品设计, 工作流]
-sources: [raw/01-articles/2026-10-09-腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了.md]
+sources: [raw/09-archive/2026-10-09-腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了.md]
 last_updated: 2026-10-09
 ---
 

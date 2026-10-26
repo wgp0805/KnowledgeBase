@@ -2,7 +2,7 @@
 title: "Post-quantum cryptography"
 type: concept
 tags: [Security, Cryptography, JDK 27]
-sources: [raw/01-articles/JDK27正式发布，人麻了!.md]
+sources: [raw/09-archive/JDK27正式发布，人麻了!.md]
 last_updated: 2026-09-17
 ---
 

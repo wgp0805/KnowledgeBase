@@ -2,7 +2,7 @@
 title: "摘要-opencodereview-workbuddy代码体检"
 type: source
 tags: [来源, 代码审查, VibeCoding, 阿里]
-sources: [raw/01-articles/2026-10-08-阿里开源了个神器，给WorkBuddy、豆包挑毛病.md]
+sources: [raw/09-archive/2026-10-08-阿里开源了个神器，给WorkBuddy、豆包挑毛病.md]
 last_updated: 2026-10-09
 ---
 

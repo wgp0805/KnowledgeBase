@@ -2,7 +2,7 @@
 title: "System One Models"
 type: entity
 tags: [AI模型, 新品类, 判断模型]
-sources: [raw/01-articles/2026-09-22-Jev爆火，具身智能迎来大救星？.md]
+sources: [raw/09-archive/2026-09-22-Jev爆火，具身智能迎来大救星？.md]
 last_updated: 2026-09-23
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-workbuddy文件浏览器"
 type: source
 tags: [来源, AI产品, Agent, 文件管理, 腾讯]
-sources: [raw/01-articles/2026-10-09-腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了.md]
+sources: [raw/09-archive/2026-10-09-腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了.md]
 last_updated: 2026-10-09
 ---
 

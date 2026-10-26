@@ -2,7 +2,7 @@
 title: "FDE"
 type: entity
 tags: [岗位, AI落地, 前线部署]
-sources: [raw/01-articles/2026-09-20-FDE这么火，产品经理要不要跟？我来泼点冷水.md, "raw/09-archive/2026-10-24-企业上AI项目，FDE到底在做什么？.md"]
+sources: [raw/09-archive/2026-09-20-FDE这么火，产品经理要不要跟？我来泼点冷水.md, "raw/09-archive/2026-10-24-企业上AI项目，FDE到底在做什么？.md"]
 last_updated: 2026-10-26
 ---
 

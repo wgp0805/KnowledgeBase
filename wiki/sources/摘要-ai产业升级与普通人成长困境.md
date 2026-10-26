@@ -2,7 +2,7 @@
 title: "AI、产业升级与普通人的成长困境"
 type: source
 tags: [产业升级, AI替代, 职业发展, 能力内卷, 资本逐利, 普通人困境]
-sources: [raw/01-articles/2026-09-12-AI、产业升级与普通人的成长困境.md]
+sources: [raw/09-archive/2026-09-12-AI、产业升级与普通人的成长困境.md]
 last_updated: 2026-09-14
 ---
 

@@ -2,7 +2,7 @@
 title: "摘要-ai时代重写品牌战略五大理由"
 type: source
 tags: [来源, 原始文件, 品牌战略, AI时代, 意图经济, 品牌大趋同]
-sources: [raw/01-articles/2026-08-31-五大理由：AI时代为什么必须「重写」你的品牌战略.md]
+sources: [raw/09-archive/2026-08-31-五大理由：AI时代为什么必须「重写」你的品牌战略.md]
 last_updated: 2026-09-15
 ---
 

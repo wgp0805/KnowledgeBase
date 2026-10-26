@@ -7,7 +7,7 @@ sources:
   - raw/09-archive/Superpowers、OpenSpec、Spec-Kit 傻傻分不清楚.md
   - raw/09-archive/有人把 5.7 万星 OpenSpec 和 24 万星 Superpowers 融合成一个工作流在 Github 开源.md
   - raw/09-archive/面试官皱眉：你懂 Vibe Coding，那你说superpowers和grill-me怎么选？，我：小孩才做选择，我全都要！.md
-  - raw/01-articles/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md
+  - raw/09-archive/强模型时代，删掉SuperpowersAI编程工作流到底该怎么选.md
   - raw/01-articles/2026-08-24-在 vibe coding 里，唯一真正重要的，是管理好文档.md
   - raw/01-articles/2026-09-28-Claude Code 装了一堆 Skill，用了三个月，我删掉了 80% - 码哥字节.md
   - raw/01-articles/2026-10-14-185,000 星的 Superpowers 插件，90% 的人只用了它 10% 的功能 - 码哥字节.md

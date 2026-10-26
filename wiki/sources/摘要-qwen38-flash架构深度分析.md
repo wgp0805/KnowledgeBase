@@ -2,7 +2,7 @@
 title: "摘要-qwen38-flash架构深度分析"
 type: source
 tags: [来源, 原始文件, Qwen, 阿里云, 模型架构]
-sources: [raw/01-articles/2026-09-02-整个AI圈都在斩杀，Qwen却算了一笔长期账.md]
+sources: [raw/09-archive/2026-09-02-整个AI圈都在斩杀，Qwen却算了一笔长期账.md]
 last_updated: 2026-09-03
 ---
 

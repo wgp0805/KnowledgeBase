@@ -2,7 +2,7 @@
 title: "摘要-SpringEvent别瞎用"
 type: source
 tags: [来源, Spring, 事件驱动, 可靠性, 踩坑]
-sources: [raw/01-articles/SpringEvent别瞎用！被它坑的绩效都没了！.md]
+sources: [raw/09-archive/SpringEvent别瞎用！被它坑的绩效都没了！.md]
 last_updated: 2026-08-27
 ---
 

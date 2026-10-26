@@ -2,7 +2,7 @@
 title: "NB-IoT"
 type: concept
 tags: [概念, 物联网, 通信, 技术]
-sources: [raw/01-articles/每天骑的共享单车是什么通信原理，有人了解过吗？.md]
+sources: [raw/09-archive/每天骑的共享单车是什么通信原理，有人了解过吗？.md]
 last_updated: 2026-09-01
 ---
 

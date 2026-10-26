@@ -2,7 +2,7 @@
 title: "HybridSearch"
 type: concept
 tags: [搜索引擎, 向量搜索, 混合搜索, OpenSearch]
-sources: [raw/01-articles/为什么越来越多人用OpenSearch？.md]
+sources: [raw/09-archive/为什么越来越多人用OpenSearch？.md]
 last_updated: 2026-09-01
 ---
 

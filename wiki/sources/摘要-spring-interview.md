@@ -2,7 +2,7 @@
 title: "Java 程序员都是 Spring 程序员"
 type: source
 tags: ["Spring", "面试题", "沉默王二"]
-sources: ["raw/01-articles/Java程序员都是Spring程序员.md"]
+sources: ["raw/09-archive/Java程序员都是Spring程序员.md"]
 last_updated: 2026-09-01
 ---
 

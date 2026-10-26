@@ -2,7 +2,7 @@
 title: "DeepAgents"
 type: entity
 tags: [实体, 工具, Agent, LangChain, 框架]
-sources: [raw/01-articles/为什么越来越多人用OpenWiki？.md]
+sources: [raw/09-archive/为什么越来越多人用OpenWiki？.md]
 last_updated: 2026-09-15
 ---
 

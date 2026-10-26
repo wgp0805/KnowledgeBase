@@ -2,7 +2,7 @@
 title: "CodeBuddy"
 type: entity
 tags: [AI产品, AI Coding, 腾讯]
-sources: [raw/01-articles/2026-08-26-腾讯汤道生深度复盘WorkBuddy、元宝以及AI竞争：和AI一起长跑的这两年.md, raw/01-articles/鹅厂员工：羡慕隔壁组做 WorkBuddy 的，月活1000万+，已经成为AI办公的王牌，感觉晋升和年终奖肯定少不了（附Agent面试题）.md]
+sources: [raw/09-archive/2026-08-26-腾讯汤道生深度复盘WorkBuddy、元宝以及AI竞争：和AI一起长跑的这两年.md, raw/01-articles/鹅厂员工：羡慕隔壁组做 WorkBuddy 的，月活1000万+，已经成为AI办公的王牌，感觉晋升和年终奖肯定少不了（附Agent面试题）.md]
 last_updated: 2026-08-28
 ---
 

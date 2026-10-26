@@ -2,7 +2,7 @@
 title: "Redisson"
 type: entity
 tags: [Redis, 分布式锁, Java, 限流, 秒杀]
-sources: [raw/01-articles/秒杀系统怎么区分真实用户和黄牛脚本？.md]
+sources: [raw/09-archive/秒杀系统怎么区分真实用户和黄牛脚本？.md]
 last_updated: 2026-08-20
 ---
 

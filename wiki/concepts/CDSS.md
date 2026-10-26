@@ -2,7 +2,7 @@
 title: "CDSS"
 type: concept
 tags: [医疗AI, 知识图谱, 临床决策, AI历史]
-sources: [raw/01-articles/2026-10-06-向量库是RAG的伪命题，知识图谱是答案，本体论是灵魂.md]
+sources: [raw/09-archive/2026-10-06-向量库是RAG的伪命题，知识图谱是答案，本体论是灵魂.md]
 last_updated: 2026-10-08
 ---
 

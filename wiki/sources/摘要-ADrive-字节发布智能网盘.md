@@ -2,7 +2,7 @@
 title: "摘要-ADrive-字节发布智能网盘"
 type: source
 tags: [来源, 原始文件, ADrive, 字节跳动, 火山引擎, 智能网盘, AI办公]
-sources: [raw/01-articles/2026-09-15-字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响.md]
+sources: [raw/09-archive/2026-09-15-字节将发布独立智能网盘“ADrive”，腾讯网盘先已布局，网盘AI大战打响.md]
 last_updated: 2026-09-15
 ---
 

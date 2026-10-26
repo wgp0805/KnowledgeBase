@@ -2,7 +2,7 @@
 title: "一个快被遗忘的入口，突然被AI大厂抢疯了"
 type: source
 tags: [AI入口, 输入法, 豆包, 千问, 腾讯, AI产品, 产品战略]
-sources: [raw/01-articles/2026-09-09-一个快被遗忘的入口，突然被AI大厂抢疯了.md]
+sources: [raw/09-archive/2026-09-09-一个快被遗忘的入口，突然被AI大厂抢疯了.md]
 last_updated: 2026-09-14
 ---
 

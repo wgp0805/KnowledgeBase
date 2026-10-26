@@ -2,7 +2,7 @@
 title: "摘要-DeepSeek-Harness任务管理方法"
 type: source
 tags: [DeepSeek, Harness, 任务管理, Agent, 峰谷定价]
-sources: [raw/01-articles/2026-08-29-如何做好任务管理：从任务入池到验收复盘.md]
+sources: [raw/09-archive/2026-08-29-如何做好任务管理：从任务入池到验收复盘.md]
 last_updated: 2026-08-31
 ---
 

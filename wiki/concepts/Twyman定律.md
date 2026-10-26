@@ -2,7 +2,7 @@
 title: "Twyman定律"
 type: concept
 tags: [数据分析, 统计, 方法论, 质控]
-sources: [raw/01-articles/2026-08-24-Huashu-Excel正式发布！可能、也许、大概是最好用的Excel数据处理和分析skill.md]
+sources: [raw/09-archive/2026-08-24-Huashu-Excel正式发布！可能、也许、大概是最好用的Excel数据处理和分析skill.md]
 last_updated: 2026-08-25
 ---
 

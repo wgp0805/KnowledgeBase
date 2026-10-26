@@ -2,7 +2,7 @@
 title: "git push --force"
 type: concept
 tags: [Git, 危险操作, 团队协作]
-sources: [raw/01-articles/聊聊Git中的8个坑.md]
+sources: [raw/09-archive/聊聊Git中的8个坑.md]
 last_updated: 2026-09-03
 ---
 

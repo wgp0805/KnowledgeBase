@@ -2,7 +2,7 @@
 title: "LlamaCpp"
 type: entity
 tags: [工具, 推理引擎, GGUF, 本地部署, C++]
-sources: [raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md]
+sources: [raw/09-archive/抖音视频内容整理_人类智力基线与2张显卡.md]
 last_updated: 2026-08-18
 ---
 

@@ -2,7 +2,7 @@
 title: "Linux 面试题 1 万字 2 张手绘图 面渣逆袭必看"
 type: source
 tags: ["Linux", "面试题", "沉默王二"]
-sources: ["raw/01-articles/Linux面试题，1道Linux八股文（1万字2张手绘图），面渣逆袭必看👍.md"]
+sources: ["raw/09-archive/Linux面试题，1道Linux八股文（1万字2张手绘图），面渣逆袭必看👍.md"]
 last_updated: 2026-09-01
 ---
 

@@ -2,7 +2,7 @@
 title: "diagnosing-bugs"
 type: concept
 tags: [调试, 质量保证, AI编程]
-sources: [raw/01-articles/Matt-Pocock-Skills与OpenSpec配合开发完整教程.md]
+sources: [raw/09-archive/Matt-Pocock-Skills与OpenSpec配合开发完整教程.md]
 last_updated: 2026-09-05
 ---
 

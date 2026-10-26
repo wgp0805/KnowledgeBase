@@ -2,7 +2,7 @@
 title: "Skill撰写指令"
 type: concept
 tags: [概念, Skill, 提示词, AI编程]
-sources: [raw/01-articles/2026-10-21-如何从0-1写好一个Skill？超全教程+案例分享！.md]
+sources: [raw/09-archive/2026-10-21-如何从0-1写好一个Skill？超全教程+案例分享！.md]
 last_updated: 2026-10-22
 ---
 

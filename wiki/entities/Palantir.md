@@ -2,7 +2,7 @@
 title: "Palantir"
 type: entity
 tags: [公司, FDE, ToB, 数据平台]
-sources: ["raw/01-articles/2026-09-20-FDE这么火，产品经理要不要跟？我来泼点冷水.md"]
+sources: ["raw/09-archive/2026-09-20-FDE这么火，产品经理要不要跟？我来泼点冷水.md"]
 last_updated: 2026-09-21
 ---
 

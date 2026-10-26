@@ -2,7 +2,7 @@
 title: "FastMCP"
 type: entity
 tags: [MCP, Python, AI工具, 框架]
-sources: [raw/01-articles/为什么越来越多人用FastMCP？.md]
+sources: [raw/09-archive/为什么越来越多人用FastMCP？.md]
 last_updated: 2026-08-20
 ---
 

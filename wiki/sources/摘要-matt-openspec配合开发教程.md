@@ -2,7 +2,7 @@
 title: "摘要-matt-openspec配合开发教程"
 type: source
 tags: [AI编程, OpenSpec, MattPocock, 工作流, 配合开发, Java后端]
-sources: [raw/01-articles/Matt-Pocock-Skills与OpenSpec配合开发完整教程.md]
+sources: [raw/09-archive/Matt-Pocock-Skills与OpenSpec配合开发完整教程.md]
 last_updated: 2026-09-05
 ---
 

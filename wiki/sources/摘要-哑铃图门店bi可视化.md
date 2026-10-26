@@ -2,7 +2,7 @@
 title: "摘要-哑铃图门店bi可视化"
 type: source
 tags: [来源, 原始文件, 数据可视化, 门店BI, 图表]
-sources: [raw/01-articles/2026-10-03-哑铃图在门店BI数据可视化中的应用.md]
+sources: [raw/09-archive/2026-10-03-哑铃图在门店BI数据可视化中的应用.md]
 last_updated: 2026-10-08
 ---
 

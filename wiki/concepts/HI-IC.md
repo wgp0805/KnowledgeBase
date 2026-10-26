@@ -2,7 +2,7 @@
 title: "HI-IC"
 type: concept
 tags: [组织变革, 职业路径, AI, 个人贡献者]
-sources: [raw/01-articles/2026-09-29-当一个人能做一个团队的事，组织该怎么变？.md]
+sources: [raw/09-archive/2026-09-29-当一个人能做一个团队的事，组织该怎么变？.md]
 last_updated: 2026-10-08
 ---
 

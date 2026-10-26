@@ -2,7 +2,7 @@
 title: "摘要-workbuddy-美业四场景"
 type: source
 tags: [来源, 原始文件, WorkBuddy, 美业, 行业落地]
-sources: [raw/01-articles/2026-09-26-美业这样用WorkBuddy就对了.md]
+sources: [raw/09-archive/2026-09-26-美业这样用WorkBuddy就对了.md]
 last_updated: 2026-09-28
 ---
 

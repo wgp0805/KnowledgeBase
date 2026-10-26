@@ -2,7 +2,7 @@
 title: "Dify"
 type: entity
 tags: [AI平台, LLMOps, 开源, RAG, Agent]
-sources: [raw/09-archive/竟然还有小伙伴不知道这个AI学习路线！！.md, raw/01-articles/2026-10-05-小白也能上手的 LoRA 微调：五步走通训练到落地.md, raw/01-articles/xxl-job已正式接入AI.md]
+sources: [raw/09-archive/竟然还有小伙伴不知道这个AI学习路线！！.md, raw/01-articles/2026-10-05-小白也能上手的 LoRA 微调：五步走通训练到落地.md, raw/09-archive/xxl-job已正式接入AI.md]
 last_updated: 2026-10-13
 ---
 

@@ -2,7 +2,7 @@
 title: "狂揽 33k+ Star 把敏捷开发团队搬进 AI 的框架"
 type: source
 tags: ["BMad-METHOD", "开源项目", "沉默王二"]
-sources: ["raw/01-articles/狂揽33k+Star，这个把敏捷开发团队搬进AI的框架有点东西.md"]
+sources: ["raw/09-archive/狂揽33k+Star，这个把敏捷开发团队搬进AI的框架有点东西.md"]
 last_updated: 2026-09-01
 ---
 

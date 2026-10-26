@@ -2,7 +2,7 @@
 title: "摘要-你的HR还在算人均营收"
 type: source
 tags: [人效管理, AI转型, 组织变革, 字节跳动, 豆包工作, Token效率, 经营单元]
-sources: [raw/01-articles/2026-08-25-你的HR还在算人均营收？字节已把AI变经营单元！.md]
+sources: [raw/09-archive/2026-08-25-你的HR还在算人均营收？字节已把AI变经营单元！.md]
 last_updated: 2026-08-25
 ---
 

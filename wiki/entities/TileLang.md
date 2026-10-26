@@ -2,7 +2,7 @@
 title: "TileLang"
 type: entity
 tags: [编程语言, 算子, AI基础设施]
-sources: [raw/01-articles/2026-10-03-DeepSeek为什么要16000张卡？.md]
+sources: [raw/09-archive/2026-10-03-DeepSeek为什么要16000张卡？.md]
 last_updated: 2026-10-08
 ---
 

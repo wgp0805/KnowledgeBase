@@ -2,7 +2,7 @@
 title: "摘要-中美头部agent走向开放"
 type: source
 tags: [来源, 原始文件, Agent, 平台化, OpenAI, Anthropic, 腾讯]
-sources: [raw/01-articles/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md]
+sources: [raw/09-archive/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md]
 last_updated: 2026-09-20
 ---
 

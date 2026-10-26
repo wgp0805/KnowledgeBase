@@ -2,7 +2,7 @@
 title: "摘要-java转python决策"
 type: source
 tags: [来源, Java, Python, 职业发展, AI应用]
-sources: [raw/01-articles/Java程序员需要转Python吗？.md]
+sources: [raw/09-archive/Java程序员需要转Python吗？.md]
 last_updated: 2026-10-10
 ---
 

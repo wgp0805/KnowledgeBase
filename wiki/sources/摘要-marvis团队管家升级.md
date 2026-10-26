@@ -2,7 +2,7 @@
 title: "摘要-marvis团队管家升级"
 type: source
 tags: [来源, Marvis, 腾讯, Agent, 硬件管家]
-sources: [raw/01-articles/2026-09-28-Marvis大升级，或将成为腾讯第二个跑出来的Agent.md]
+sources: [raw/09-archive/2026-09-28-Marvis大升级，或将成为腾讯第二个跑出来的Agent.md]
 last_updated: 2026-09-29
 ---
 

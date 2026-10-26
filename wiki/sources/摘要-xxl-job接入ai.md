@@ -2,7 +2,7 @@
 title: "摘要-xxl-job接入ai"
 type: source
 tags: [来源, XXL-JOB, AI执行器, Ollama, Dify, Java]
-sources: [raw/01-articles/xxl-job已正式接入AI.md]
+sources: [raw/09-archive/xxl-job已正式接入AI.md]
 last_updated: 2026-10-13
 ---
 

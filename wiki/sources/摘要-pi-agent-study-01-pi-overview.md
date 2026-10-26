@@ -2,7 +2,7 @@
 title: "摘要-pi-agent-study-01-pi-overview"
 type: source
 tags: [来源, pi-agent, 学习笔记, Agent基座]
-sources: [raw/01-articles/pi-agent-study-01-pi-overview.md]
+sources: [raw/09-archive/pi-agent-study-01-pi-overview.md]
 last_updated: 2026-08-07
 ---
 

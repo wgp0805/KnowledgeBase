@@ -2,7 +2,7 @@
 title: "摘要-阶跃step5会员福利"
 type: source
 tags: [来源, 原始文件, 阶跃星辰, Step5, 会员, 大模型]
-sources: [raw/01-articles/2026-09-20-又一家AI大厂发福利，无套路送75天会员.md]
+sources: [raw/09-archive/2026-09-20-又一家AI大厂发福利，无套路送75天会员.md]
 last_updated: 2026-09-21
 ---
 

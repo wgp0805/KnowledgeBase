@@ -2,7 +2,7 @@
 title: "OpenAI 放大招 Codex 桌面版来了 一人指挥 Agent 军团"
 type: source
 tags: ["Codex", "桌面版", "沉默王二"]
-sources: ["raw/01-articles/OpenAI放大招Codex桌面版来了，一人指挥Agent军团，免费哦。.md"]
+sources: ["raw/09-archive/OpenAI放大招Codex桌面版来了，一人指挥Agent军团，免费哦。.md"]
 last_updated: 2026-09-01
 ---
 

@@ -4,10 +4,10 @@ type: entity
 tags: [AI公司, 大模型开发商]
 sources:
   - raw/01-articles/2026-09-03-顶模 Fable 5.1发布，到底强了多少？.md
-  - raw/01-articles/2026-09-07-我帮企业配了两年数字员工，轮到自己却卡在了第一步.md
+  - raw/09-archive/2026-09-07-我帮企业配了两年数字员工，轮到自己却卡在了第一步.md
   - raw/01-articles/2026-09-19-Anthropic 优化 30 多个生物模型，蛋白质设计成本最高降 98%.md
-  - raw/01-articles/2026-09-24-A社O社，坐不住了.md
-  - raw/01-articles/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md
+  - raw/09-archive/2026-09-24-A社O社，坐不住了.md
+  - raw/09-archive/2026-09-25-扎克伯格谈Muse：个人Agent必须从预训练开始设计，虚拟机、记忆和权限系统是巨头的全栈护城河.md
   - raw/01-articles/2026-09-30-Anthropic 严正警告：GLM-5.3 已具备高级网络攻击能力.md
   - raw/01-articles/2026-10-03-一年前说 PM 会被淘汰，现在 Anthropic 说：人人都得学会当 PM.md
   - raw/01-articles/2026-10-16-Claude负责人这篇万字长文，彻底颠覆了我的 AI 用法，附提示词！.md

@@ -2,7 +2,7 @@
 title: "QClaw"
 type: entity
 tags: [实体, 部署平台, OpenClaw, 停运]
-sources: [raw/09-archive/小龙虾（OpenClaw）教程汇总.md, raw/01-articles/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md]
+sources: [raw/09-archive/小龙虾（OpenClaw）教程汇总.md, raw/09-archive/2026-09-30-从“登顶GitHub历史第一”到“大厂集体撤退”：OpenClaw的Agent浪潮，为什么“养虾”养不活.md]
 last_updated: 2026-10-08
 ---
 

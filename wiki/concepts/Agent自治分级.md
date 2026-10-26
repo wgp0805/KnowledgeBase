@@ -2,7 +2,7 @@
 title: "Agent自治分级"
 type: concept
 tags: [Agent, 自治, 分级, 责任, 治理]
-sources: [raw/01-articles/2026-08-24-声网姚光华：企业级Agent的关键，不是自治，而是可控的结果生意.md]
+sources: [raw/09-archive/2026-08-24-声网姚光华：企业级Agent的关键，不是自治，而是可控的结果生意.md]
 last_updated: 2026-08-25
 ---
 

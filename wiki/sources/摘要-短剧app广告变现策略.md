@@ -2,7 +2,7 @@
 title: "广告商业化变现：短剧APP广告变现"
 type: source
 tags: [广告变现, 短剧, IAAP, 商业化, ROI, 产品策略]
-sources: [raw/01-articles/2026-09-13-广告商业化变现：短剧APP广告变现.md]
+sources: [raw/09-archive/2026-09-13-广告商业化变现：短剧APP广告变现.md]
 last_updated: 2026-09-14
 ---
 

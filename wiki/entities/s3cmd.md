@@ -2,7 +2,7 @@
 title: "s3cmd"
 type: entity
 tags: [S3, 命令行工具, Python, 对象存储]
-sources: [raw/01-articles/2026-08-19-AMH的ams3软件报错s3cmd需要升级？.md]
+sources: [raw/09-archive/2026-08-19-AMH的ams3软件报错s3cmd需要升级？.md]
 last_updated: 2026-08-20
 ---
 

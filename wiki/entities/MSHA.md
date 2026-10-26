@@ -2,7 +2,7 @@
 title: "MSHA"
 type: entity
 tags: [产品, 阿里云, 高可用, 多活]
-sources: [raw/01-articles/面试官：什么是异地多活？.md]
+sources: [raw/09-archive/面试官：什么是异地多活？.md]
 last_updated: 2026-08-17
 ---
 

@@ -2,7 +2,7 @@
 title: "Agent中枢"
 type: concept
 tags: [企业AI, Agent架构, MCP, 平台化, 员工AI]
-sources: [raw/01-articles/2026-09-15-让AI真正赋能企业（初探）.md]
+sources: [raw/09-archive/2026-09-15-让AI真正赋能企业（初探）.md]
 last_updated: 2026-09-15
 ---
 

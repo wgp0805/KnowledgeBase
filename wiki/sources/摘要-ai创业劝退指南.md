@@ -2,7 +2,7 @@
 title: "摘要-ai创业劝退指南"
 type: source
 tags: [来源, 原始文件, AI创业, 外包, FDE]
-sources: [raw/01-articles/2026-10-04-兄弟，找个班上吧！不要迷信AI创业，我是后悔离职的.md]
+sources: [raw/09-archive/2026-10-04-兄弟，找个班上吧！不要迷信AI创业，我是后悔离职的.md]
 last_updated: 2026-10-08
 ---
 

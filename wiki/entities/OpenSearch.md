@@ -2,7 +2,7 @@
 title: "OpenSearch"
 type: entity
 tags: [搜索引擎, 全文检索, 分布式, 开源, 向量搜索, Linux基金会]
-sources: [raw/01-articles/为什么越来越多人用OpenSearch？.md]
+sources: [raw/09-archive/为什么越来越多人用OpenSearch？.md]
 last_updated: 2026-09-01
 ---
 

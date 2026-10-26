@@ -2,7 +2,7 @@
 title: "Tencent"
 type: entity
 tags: [公司, 互联网, AI, 腾讯]
-sources: [raw/01-articles/2026-08-26-腾讯汤道生深度复盘WorkBuddy、元宝以及AI竞争：和AI一起长跑的这两年.md]
+sources: [raw/09-archive/2026-08-26-腾讯汤道生深度复盘WorkBuddy、元宝以及AI竞争：和AI一起长跑的这两年.md]
 last_updated: 2026-08-27
 ---
 

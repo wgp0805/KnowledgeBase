@@ -2,7 +2,7 @@
 title: "摘要-jd-codex辞职信-agent面试题"
 type: source
 tags: [来源, 原始文件, Agent面试题, PaiCLI, 多租户]
-sources: [raw/01-articles/JD员工：同事觉得电脑太卡，我用Codex帮他修，结果不小心看到他正在写的辞职信还有已经到手的offer，该不该跟领导说呢（附Agent面试题）.md]
+sources: [raw/09-archive/JD员工：同事觉得电脑太卡，我用Codex帮他修，结果不小心看到他正在写的辞职信还有已经到手的offer，该不该跟领导说呢（附Agent面试题）.md]
 last_updated: 2026-10-20
 ---
 

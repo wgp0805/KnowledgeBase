@@ -2,7 +2,7 @@
 title: "Guava"
 type: entity
 tags: [Java, Google, 工具库, 限流]
-sources: [raw/01-articles/秒杀系统怎么区分真实用户和黄牛脚本？.md, raw/01-articles/2026-10-01 - 消息重试框架 Spring-Retry 和 Guava-Retry，这个框架有点意思.md]
+sources: [raw/09-archive/秒杀系统怎么区分真实用户和黄牛脚本？.md, raw/01-articles/2026-10-01 - 消息重试框架 Spring-Retry 和 Guava-Retry，这个框架有点意思.md]
 last_updated: 2026-10-08
 ---
 

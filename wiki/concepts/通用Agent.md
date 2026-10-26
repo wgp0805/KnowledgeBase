@@ -2,7 +2,7 @@
 title: "通用Agent"
 type: concept
 tags: [Agent, 产品形态, 调度, PersonalAgent]
-sources: [raw/01-articles/2026-09-29-Manus终于像个通用Agent了.md, raw/01-articles/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md]
+sources: [raw/09-archive/2026-09-29-Manus终于像个通用Agent了.md, raw/09-archive/2026-09-29-豆包连夜”抄作业”，字节版Muse要来了？.md]
 last_updated: 2026-10-08
 ---
 

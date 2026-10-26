@@ -7,13 +7,13 @@ sources:
   - raw/09-archive/2026-07-31-倒反天罡！DeepSeek V4-Flash 正式版悄然上线：130亿激活参数，把自家1.6万亿旗舰「以下克上」 - 小白跃升坊.md
   - raw/01-articles/DeepSeek Harness必装的10个插件.md
   - raw/01-articles/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md
-  - raw/01-articles/抖音视频内容整理_人类智力基线与2张显卡.md
+  - raw/09-archive/抖音视频内容整理_人类智力基线与2张显卡.md
   - raw/01-articles/2026-08-18 - DeepSeek Harness 命令大全.md
   - raw/01-articles/2026-08-21 - DeepSeekHarness必装的10个插件.md
   - raw/01-articles/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md
   - raw/01-articles/2026-09-25-DeepSeek Harness客户端来了，AI办公又多了一个王者？.md
-  - raw/01-articles/DeepSeek桌面版真不错，再见了WebUI。.md
-  - raw/01-articles/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md
+  - raw/09-archive/DeepSeek桌面版真不错，再见了WebUI。.md
+  - raw/09-archive/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md
   - raw/01-articles/2026-10-04-Claude Code 最新版更新 Mods 能力，致敬 DeepSeek Harness？.md
   - raw/01-articles/2026-10-05-我一行代码没写，DeepSeek Harness 自己组队给我造了个错题本插件.md
   - raw/01-articles/2026-10-05-万字拆解 DeepSeek Harness 桌面版：产品设计、任务实测与能力边界.md

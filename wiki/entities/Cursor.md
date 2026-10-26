@@ -2,7 +2,7 @@
 title: "Cursor"
 type: entity
 tags: [AI编辑器, IDE, 代码搜索, RAG]
-sources: [raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了.md, raw/01-articles/2026-09-24-A社O社，坐不住了.md]
+sources: [raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了.md, raw/09-archive/2026-09-24-A社O社，坐不住了.md]
 last_updated: 2026-09-28
 ---
 

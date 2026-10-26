@@ -2,7 +2,7 @@
 title: "QBS法"
 type: concept
 tags: [方法论, 提示词, AI, book-to-skill, 治空话]
-sources: [raw/01-articles/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md]
+sources: [raw/09-archive/2026-09-16-实测豆包新模型2.1-pro，这次审美和长时间Agent任务都追上第一档了.md]
 last_updated: 2026-09-17
 ---
 

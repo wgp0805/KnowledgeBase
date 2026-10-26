@@ -2,7 +2,7 @@
 title: "摘要：从年龄识别到策略路由：ChatGPT青少年版的产品难题"
 type: source
 tags: [AI产品, ChatGPT, 青少年版, 策略路由, 年龄验证]
-sources: [raw/01-articles/2026-08-22-从年龄识别到策略路由：ChatGPT青少年版真正的产品难题.md]
+sources: [raw/09-archive/2026-08-22-从年龄识别到策略路由：ChatGPT青少年版真正的产品难题.md]
 last_updated: 2026-08-24
 ---
 

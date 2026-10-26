@@ -2,7 +2,7 @@
 title: "AI长剧的尴尬：降本容易赚钱难"
 type: source
 tags: [AI视频, AI长剧, 影视行业, 商业模式, AIGC, 内容产业]
-sources: [raw/01-articles/2026-09-10-AI长剧的尴尬：降本容易赚钱难.md]
+sources: [raw/09-archive/2026-09-10-AI长剧的尴尬：降本容易赚钱难.md]
 last_updated: 2026-09-14
 ---
 

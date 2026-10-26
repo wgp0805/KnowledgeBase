@@ -11,7 +11,7 @@ sources:
   - raw/01-articles/腾讯面试官："为什么 Claude Code 不用 RAG 检索代码，而是 grep？"我："因为...我也不知道"，他沉默了。.md
   - raw/09-archive/推荐一个牛逼的RAG+KAG双引擎系统.md
   - raw/01-articles/2026-08-23-从一次危重猫接诊，看动物医院该怎么做 RAG.md
-  - raw/01-articles/2026-08-22-我花1小时劝退客户别做知识库，他反而谢我.md
+  - raw/09-archive/2026-08-22-我花1小时劝退客户别做知识库，他反而谢我.md
   - raw/01-articles/2026-08-07-LangChain — RAG 构建知识库（理论） - VipSoft.md
 last_updated: 2026-08-31
 ---

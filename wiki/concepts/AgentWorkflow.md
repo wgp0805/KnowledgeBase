@@ -2,7 +2,7 @@
 title: "AgentWorkflow"
 type: concept
 tags: [Agent, 工作流, AI产品, 人机协同]
-sources: [raw/01-articles/2026-08-31-做AI产品，先回答“谁付钱、解决什么问题”.md]
+sources: [raw/09-archive/2026-08-31-做AI产品，先回答“谁付钱、解决什么问题”.md]
 last_updated: 2026-09-15
 ---
 

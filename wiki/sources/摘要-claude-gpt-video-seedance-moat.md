@@ -2,7 +2,7 @@
 title: "摘要-claude-gpt-video-seedance-moat"
 type: source
 tags: [来源, AI视频, 大模型, 护城河, VibeVideo, 人人都是产品经理]
-sources: [raw/01-articles/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md]
+sources: [raw/09-archive/2026-10-10-Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？.md]
 last_updated: 2026-10-12
 ---
 

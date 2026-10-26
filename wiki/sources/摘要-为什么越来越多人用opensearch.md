@@ -2,7 +2,7 @@
 title: "摘要-为什么越来越多人用opensearch"
 type: source
 tags: [来源, 原始文件, OpenSearch, 搜索引擎, 向量搜索, 读写分离]
-sources: [raw/01-articles/为什么越来越多人用OpenSearch？.md]
+sources: [raw/09-archive/为什么越来越多人用OpenSearch？.md]
 last_updated: 2026-09-01
 ---
 

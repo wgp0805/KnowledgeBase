@@ -2,7 +2,7 @@
 title: "摘要-pm-finding-real-requirements"
 type: source
 tags: [来源, 产品经理, 需求分析, 审批流程, 人人都是产品经理]
-sources: [raw/01-articles/2026-10-10-客户说要一个功能，产品经理怎么找到真正的需求在那？.md]
+sources: [raw/09-archive/2026-10-10-客户说要一个功能，产品经理怎么找到真正的需求在那？.md]
 last_updated: 2026-10-12
 ---
 

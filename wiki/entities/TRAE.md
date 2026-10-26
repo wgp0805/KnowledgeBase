@@ -2,7 +2,7 @@
 title: "TRAE"
 type: entity
 tags: [AI, 开发者工具, 字节跳动, AI编程]
-sources: [raw/01-articles/2026-08-25-你的HR还在算人均营收？字节已把AI变经营单元！.md, raw/01-articles/2026-10-21-如何从0-1写好一个Skill？超全教程+案例分享！.md]
+sources: [raw/09-archive/2026-08-25-你的HR还在算人均营收？字节已把AI变经营单元！.md, raw/09-archive/2026-10-21-如何从0-1写好一个Skill？超全教程+案例分享！.md]
 last_updated: 2026-10-22
 ---
 

@@ -2,7 +2,7 @@
 title: "Marvis"
 type: entity
 tags: [AI产品, Agent, 腾讯, 硬件管家]
-sources: [raw/01-articles/2026-09-28-Marvis大升级，或将成为腾讯第二个跑出来的Agent.md]
+sources: [raw/09-archive/2026-09-28-Marvis大升级，或将成为腾讯第二个跑出来的Agent.md]
 last_updated: 2026-09-29
 ---
 

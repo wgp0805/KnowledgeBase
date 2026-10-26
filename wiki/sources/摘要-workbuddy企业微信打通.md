@@ -2,7 +2,7 @@
 title: "摘要-workbuddy企业微信打通"
 type: source
 tags: [来源, WorkBuddy, 企业微信, 办公Agent, 上下文]
-sources: [raw/01-articles/2026-10-16-企业微信的上下文，正在成为WorkBuddy的重要优势.md]
+sources: [raw/09-archive/2026-10-16-企业微信的上下文，正在成为WorkBuddy的重要优势.md]
 last_updated: 2026-10-19
 ---
 

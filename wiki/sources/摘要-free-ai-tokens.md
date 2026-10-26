@@ -2,7 +2,7 @@
 title: "20+ 个 AI 平台免费 Token 全薅了一遍 真香的就这几家"
 type: source
 tags: ["AI-平台", "免费Token", "沉默王二"]
-sources: ["raw/01-articles/我花了两天注册了20+个AI平台，把免费Token全薅了一遍，真香的就这几家.md"]
+sources: ["raw/09-archive/我花了两天注册了20+个AI平台，把免费Token全薅了一遍，真香的就这几家.md"]
 last_updated: 2026-09-01
 ---
 

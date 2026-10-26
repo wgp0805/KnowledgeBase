@@ -2,7 +2,7 @@
 title: "AI产品零度"
 type: entity
 tags: [人物, 产品经理, 管理者, 公众号]
-sources: [raw/01-articles/2026-08-24-我对管理的理解：从自己拿结果，到设计生产力.md]
+sources: [raw/09-archive/2026-08-24-我对管理的理解：从自己拿结果，到设计生产力.md]
 last_updated: 2026-08-25
 ---
 

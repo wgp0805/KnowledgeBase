@@ -2,7 +2,7 @@
 title: "摘要-openai-devday-2026-gpt61sol-dots"
 type: source
 tags: [来源, 原始文件, OpenAI, DevDay, Dots]
-sources: [raw/01-articles/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md]
+sources: [raw/09-archive/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md]
 last_updated: 2026-10-08
 ---
 

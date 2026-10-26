@@ -2,7 +2,7 @@
 title: "摘要-9家ai大厂token福利"
 type: source
 tags: [来源, 原始文件, 福利, Token, AI产品]
-sources: [raw/01-articles/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md]
+sources: [raw/09-archive/2026-10-01-福利贴：WorkBuddy、豆包、智谱…9家AI大厂Token会员免费领.md]
 last_updated: 2026-10-08
 ---
 

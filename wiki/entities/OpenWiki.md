@@ -4,7 +4,7 @@ type: entity
 tags: [实体, 工具, Wiki, Agent, 知识库, 长期记忆, LangChain]
 sources:
   - raw/09-archive/2026-08-02-AI 时代的“HTML 时刻”：一个被严重低估的知识标准 OKF - 贾克斯的平行世界.md
-  - raw/01-articles/为什么越来越多人用OpenWiki？.md
+  - raw/09-archive/为什么越来越多人用OpenWiki？.md
 last_updated: 2026-09-15
 ---
 

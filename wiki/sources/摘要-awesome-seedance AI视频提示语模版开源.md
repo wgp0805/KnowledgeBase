@@ -2,7 +2,7 @@
 title: "摘要-awesome-seedance AI视频提示语模版开源"
 type: source
 tags: [AI视频, 提示语, 开源项目]
-sources: [raw/01-articles/2026-09-22-我把463个AI视频做成了Skill和提示语模版，全都开源！.md]
+sources: [raw/09-archive/2026-09-22-我把463个AI视频做成了Skill和提示语模版，全都开源！.md]
 last_updated: 2026-09-23
 ---
 

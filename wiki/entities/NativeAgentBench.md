@@ -3,7 +3,7 @@ title: "NativeAgentBench"
 type: entity
 tags: [评测, Agent, 自动化测试, Docker, 安全]
 sources:
-  - raw/01-articles/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md
+  - raw/09-archive/xiaom员工：15升16，一般的嫡系要满足在15级停留一年半的时间，嫡中嫡则完全不需要，不是嫡系那就很难升了（附Agent面试题）.md
 last_updated: 2026-10-21
 ---
 

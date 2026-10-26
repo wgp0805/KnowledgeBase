@@ -2,7 +2,7 @@
 title: "摘要-飞书豆包合并后第一个Agent产品豆包工作"
 type: source
 tags: [办公Agent, 飞书, 豆包工作, 字节跳动, 数据资产, 组织上下文, AI额度管理, Agent落地]
-sources: [raw/01-articles/2026-08-25-飞书和豆包合并后的第一个Agent产品，豆包工作，它来了。.md]
+sources: [raw/09-archive/2026-08-25-飞书和豆包合并后的第一个Agent产品，豆包工作，它来了。.md]
 last_updated: 2026-08-25
 ---
 

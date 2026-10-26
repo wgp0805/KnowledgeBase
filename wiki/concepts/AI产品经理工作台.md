@@ -2,7 +2,7 @@
 title: "AI产品经理工作台"
 type: concept
 tags: [产品经理, AI工具, 工作台, 个人效率]
-sources: [raw/01-articles/2026-10-12-项目案例分享：产品经理个人工作台.md]
+sources: [raw/09-archive/2026-10-12-项目案例分享：产品经理个人工作台.md]
 last_updated: 2026-10-13
 ---
 

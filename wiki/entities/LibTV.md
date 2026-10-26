@@ -2,7 +2,7 @@
 title: "LibTV"
 type: entity
 tags: [AI产品, 视频生成, Agent]
-sources: [raw/01-articles/2026-08-25-实测MiniMax Design：视频生成之后，开卷组织生产.md, raw/01-articles/2026-09-27-实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流.md]
+sources: [raw/01-articles/2026-08-25-实测MiniMax Design：视频生成之后，开卷组织生产.md, raw/09-archive/2026-09-27-实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流.md]
 last_updated: 2026-09-28
 ---
 
