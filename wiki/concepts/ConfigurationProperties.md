@@ -4,7 +4,8 @@ type: concept
 tags: [SpringBoot, 配置管理, 注解]
 sources:
   - raw/09-archive/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
-last_updated: 2026-08-17
+  - raw/09-archive/SpringBoot+Minio实现高效文件存储解决方案.md
+last_updated: 2026-10-27
 ---
 
 ## 定义
@@ -16,6 +17,7 @@ last_updated: 2026-08-17
 - **嵌套结构**：通过静态内部类表达层级配置（如 `app.user-type.admin` → `AppConfig.UserType.admin`）
 - **校验支持**：可配合 `spring-boot-starter-validation` + JSR-303 注解（`@NotNull`、`@Min` 等）做配置校验
 - **常见搭配**：`@Data`（Lombok 自动生成 setter）、`@Component`（注册 Bean）
+- **实战案例**：MinioProperties 绑定 MinIO 连接配置（url/username/password/bucketName 四字段），配合 MinioUtil 工具类完成对象存储集成，见 [[摘要-springboot-minio文件存储]]
 
 ## 与 Enum 结合的配置模式
 将 POJO 字段类型声明为枚举类型，yml 中填写枚举常量名，Spring Boot 自动完成字符串→枚举的转换。优势：
@@ -29,3 +31,4 @@ last_updated: 2026-08-17
 - [[Lombok]] — `@Data` 简化 setter
 - [[摘要-优雅使用Enum提升SpringBoot配置管理效率]] — 来源
 - [[摘要-SpringBoot优雅的加载配置文件的几种方式]] — 配置加载方式综述
+- [[摘要-springboot-minio文件存储]] — MinioProperties 实战案例来源

@@ -1972,3 +1972,8 @@
 - **冲突**: 无。Gemini4Argon 的"2026-10-22 上线"表述与既有"09 月底发布时分阶段开放"记录兼容（开放进程推进，非矛盾）；Kafka 顺序消费内容与既有"分区内保证顺序"一条为展开而非冲突，已并入 [[Kafka]] 完整章节
 - **校验**: 新建 31 页的 Frontmatter（title/type/tags/sources/last_updated）与「关联连接」区块逐一核查，4 处疑似死链拟链（[[yxybox]]、[[Benchmark]]、[[HTTP相关概念]]、[[运维监控]]）改为纯文本或删除；实体页 sources 路径统一指向 raw/09-archive/（经 Test-Path 验证）
 - **归档**: 15 个源文件（14 篇摄入 + 1 篇重复文）已全部移动至 raw/09-archive/
+
+## [2026-10-27] ingest | 摄取 1 篇 01-articles 文章（SpringBoot+Minio 高效文件存储方案）
+- **变更**: 新增 Sources (1): [[摘要-springboot-minio文件存储]]; 新增 Entities (1): [[Apifox]]; 新增 Concepts (1): [[预签名URL]]; 增量更新既有页 (3): [[MinIO]]（+Spring Boot 集成章节：配置-工具-业务三层/minio-java 核心 API/工程要点）、[[IT码徒]]（+MinIO 转载来源）、[[ConfigurationProperties]]（+MinioProperties 实战案例）; 更新 [[index.md]]（Sources +1 / Entities +1 / Concepts +1 / 更新 3 页）
+- **冲突**: 无。文章推荐"MinIO 适合中小项目替代云 OSS"与既有"社区版仓库归档、闭源商业化加速"记录为互补视角而非事实矛盾，已在 [[摘要-springboot-minio文件存储]] 标注选型张力并指向 [[RustFS]] 对照
+- **归档**: 1 个源文件已移动至 raw/09-archive/

@@ -18,7 +18,7 @@ tags:
 - Minio 是一个高性能的分布式对象存储系统，专为云原生应用而设计
 - 作为 Amazon S3 的兼容替代品，它提供了简单易用的 API，支持海量非结构化数据存储
 - 在微服务架构中，文件存储是常见需求，而 Minio 以其轻量级、高可用和易部署的特点成为理想选择
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/SpringBoot+Minio%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%95%88%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/cbcaaf22f406380157c49da576b866f9_MD5.webp)
 
 01
 
@@ -407,7 +407,7 @@ publicclassMinioUtil {
 - 响应头编码处理： 解决中文文件名乱码问题
 - 异常统一处理： Minio 异常转换为运行时异常
 - 预签名URL： 生成临时访问链接
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=3)
+![图片](assets/SpringBoot+Minio%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%95%88%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 02
 
@@ -521,7 +521,7 @@ publicclassFileServiceImplimplementsFileService {
 
 删除图片
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=10)
+![图片](assets/SpringBoot+Minio%E5%AE%9E%E7%8E%B0%E9%AB%98%E6%95%88%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A8%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 03
 

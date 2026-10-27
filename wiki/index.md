@@ -3343,3 +3343,15 @@
 
 ## 更新 (2026-10-26)
 - [[meta-skill]]（+场景族生成器）、[[AIAgentsTerminal]]（+Agent YOLO 关系与形态演变）、[[YOLO模式]]（+各 Agent 跳过权限旗标映射）、[[Resume模式]]（+R 开关实例）、[[SpringAI_Alibaba]]（+Starter 生态与多模态接入）、[[DashScope]]（+Java 侧多模态接入范式）、[[Redis]]（+对话记忆持久化与向量检索）、[[ChatMemory]]（+Redis 持久化链路与版本边界冲突标注）、[[向量数据库]]（+Redis Stack 实操）、[[Embeddings]]（+Java 侧用法与维度精度冲突标注）、[[VectorStore]]（+Spring AI 用法）、[[Kimi]]（+K3.1 Pro 发布）、[[K3]]（+后继版本 K3.1 Pro）、[[KimiCode]]（+主力换代与游戏实测）、[[Astra]]（+编程游戏实测对比）、[[程序员小灰]]（+K3.1 Pro 首测来源）、[[FDE]]（+项目执行视角，concepts 与 entities 双页增量）、[[WorkBuddy]]（+性能与成本劣化及瘦身章节）、[[马佳彬]]（+workbuddy-slim 与三篇来源回填）、[[上下文压缩]]（+压缩安全盲区维度）、[[Token压缩]]（+Agent瘦身 关联）、[[小哈]]（+LatchUtils 来源）、[[Tomcat]]（+Tomcat 11 新特性）、[[Servlet]]（+Servlet 6.1 实用 API）、[[JakartaEE]]（+Tomcat 11 子规范清单）、[[servlet-6-1]]（+落地 API 细节）、[[虚拟线程]]（+Tomcat 侧落地）、[[HTTP2]]（+Server Push 淘汰注记）、[[程序汪]]（+Tomcat 11 来源）、[[Python]]（+开发环境与版本）、[[SSE]]（+浏览器 API 与选型）、[[IT码徒]]（+推送选型来源）、[[人人都是产品经理]]（+AI 变现类目）、[[DeepSeekHarness]]（+Todo 模块源码解析）、[[沉默王二]]（+Todo List 文章来源）、[[Anthropic]]（+自动模式全球默认开启）、[[OpenAI]]（+监控审计与多级 AI 监控）、[[Codex]]（+内部监控审计）、[[GPT-6]]（+「耶」事故案例）、[[Claude]]（+自动模式全球默认）、[[auto-mode]]（+全球默认化节点）、[[权限模式]]（+全球默认开启与实测数据）、[[沙箱]]（+边界可靠性实测）、[[安全剧场]]（+剧场范围扩大）、[[HITL]]（+人工把关可靠性实测）、[[AIControlPlane]]（+多级 AI 监控落地形态）
+
+## Sources (2026-10-27 ingest)
+- [[摘要-springboot-minio文件存储]] — IT码徒转载 CSDN 的 Spring Boot + MinIO 集成实战：「配置-工具-业务」三层架构、MinioClient 增删查+预签名直链、唯一文件名/流式传输/中文文件名编码等工程要点
+
+## Entities (2026-10-27 新增)
+- [[Apifox]] — 国产一体化 API 协作与调试平台（文档/调试/Mock/自动化测试），文中用作文件接口验证工具
+
+## Concepts (2026-10-27 新增)
+- [[预签名URL]] — 对象存储限时签名访问链接，客户端免持永久凭证直连下载/上传，过期自动失效
+
+## 更新 (2026-10-27)
+- [[MinIO]]（+Spring Boot 集成章节：MinioProperties 配置绑定、MinioUtil 工具类封装、bucket 自动创建、预签名 URL、唯一文件名/流式传输/中文文件名编码工程要点）、[[IT码徒]]（+SpringBoot+Minio 转载来源）、[[ConfigurationProperties]]（+MinioProperties 实战案例链接）
