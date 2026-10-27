@@ -1,6 +1,9 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-kafka42共享组]] — 锋哥讲透 Kafka 4.2：共享组 KIP-932 转正（按记录协作+30 秒锁+ACCEPT/RELEASE/REJECT/RENEW 四确认）、Streams 服务端再均衡 KIP-1071、Streams 死信 KIP-1034、锚定标点 KIP-1146、4.2.2 修复版
+- [[摘要-jd-hotkey热key探测]] — 苏三拆解京东 JD-hotkey：独立 Worker 集群滑动窗口毫秒级判定热 key，推送到全部 JVM 本地缓存，"核心矛盾是探测不是缓存"，大促实测减轻 Redis 一半以上压力
+- [[摘要-magpie替代cc-switch]] — 程序汪：CC Switch 写回丢配置事故复盘后转向本地 AI 网关 magpie（20K Star）——三 API 格式互转、自动路由组、账号额度五策略、会话保持四档、意图路由、写入可还原
 - [[摘要-kafka消息不丢失]] — 犬小哈面试视角拆解 Kafka 消息防丢失：三端各配一手（生产端 acks=all+回调、Broker 三副本+双同步+禁脏选举、消费端手动提交），AtLeastOnce+消费端幂等是生产可用组合
 - [[摘要-codex-computer-use原理]] — 沉默王二源码拆解 Codex Computer Use：cua_repl 的 js 工具脚本编排桌面动作 + 应用黑白名单 + 四级敏感动作确认 + Guardian 围栏防屏幕内容注入
 - [[摘要-mybatis-plus-3515-springboot4-jackson3]] — MyBatis-Plus 3.5.15 支持 Spring Boot 4.0 和 Jackson 3.0，Starter 替换与 JSON 字段处理详解
@@ -497,6 +500,10 @@
 - [[matt-skills-boundary-judgment]] — Matt Skills 边界判断：TDD 无 seam 场景跳过规则 / implement vs tdd / implement vs 直接让 AI 干活 / 通用速查表
 
 ## Entities
+- [[Magpie]] — 本地运行的开源 AI 网关（20K Star），OpenAI/Anthropic/Gemini 三协议互转+自动路由组+额度调度+意图路由+配置写入可还原
+- [[CCSwitch]] — Claude Code/Codex/Gemini CLI 供应商配置切换器，旧版整份快照写回会静默丢配置，3.16.5 补保护、4.0 改字段级写入
+- [[JD-hotkey]] — 京东开源热 key 探测框架：Worker 集群滑动窗口判定+毫秒级推送全部 JVM 本地缓存，探测与缓存解耦
+- [[Etcd]] — 基于 Raft 的分布式强一致键值存储，K8s 状态底座，JD-hotkey 的规则/地址同步组件
 - [[OxAlpha]] — 免费预览大模型，1M Token 上下文，支持文本/图片/视频输入，为 Coding 和长周期 Agent 任务优化
 - [[OpenRouter]] — 大模型聚合路由平台，统一 API 访问数百个模型，Ox Alpha 接入入口之一
 - [[FastMCP]] — MCP 生态事实标准 Python 框架，占 70% MCP 服务器份额，装饰器封装协议底层
@@ -926,6 +933,9 @@
 - [[iText9]] — PDF SDK 9.x 系列（9.0 大版本，现 9.7.1），社区版 AGPL，产品级排版 + 标准合规
 
 ## Concepts
+- [[共享组]] — Kafka 4.2 Share Group（KIP-932）：按记录协作消费，同一分区消息多消费者并发处理，30 秒获取锁+四确认
+- [[会话保持]] — LLM 网关路由里"一次选择保持多久"：自动/整个会话/一轮之内/关闭，保 prompt 缓存与 reasoning 兼容
+- [[热key探测]] — 突发热 key 的实时探测方法论：先毫秒级判定谁热了再推 JVM 内存，探测与缓存解耦
 - [[AtLeastOnce]] — 至少一次投递语义：保证不丢不保证不重，"At Least Once + 消费端幂等"是生产可用组合
 - [[模型指纹]] — 通过 Tokenizer 词表/logprob 分布/特殊 token/知识截止/格式偏好五个维度识别匿名大模型的真实来源
 - [[冷备暖备热备]] — 高可用容灾三种备份就绪状态，恢复速度 vs 成本的权衡
