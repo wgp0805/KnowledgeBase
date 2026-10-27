@@ -75,7 +75,7 @@ JD-hotkey 的架构非常轻量，它 **完全不依赖 Redis** ，也不改 Red
 
 它就是一个独立的探测集群，配合一个客户端 jar 包。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rfSibbalGicwN59ppbZXOmrglsgAjy2MbfUk4oLw5eJQXqicBuNxVCDCf2Oynprk5XesBC6xWCyibLWXrdqMKKFDppCm4kU3hiaNSxo/640?wx_fmt=webp&from=appmsg#imgIndex=0)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8JD-hotkey%EF%BC%9F/f0744c69c6377f0b4710351dbc72cb51_MD5.jpg)
 
 **整个流程就四步：**
 
@@ -190,17 +190,17 @@ publicclass ProductService {
 
 仅需要很少的机器，即可完成海量key的实时探测计算推送任务。比扩容redis集群规模成本低太多。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rfZmpHRaQ482ETbVgwvD3joyibJyQHmgLvHCZNXuFHvicWoJAZSJowzmE2qZCGvNzOq1QArNToVPdBLOygnVquvZ6cDnXGxwr0gE/640?wx_fmt=webp&from=appmsg#imgIndex=1)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8JD-hotkey%EF%BC%9F/f947498c7282cfd984a0f8e783ebdde9_MD5.jpg)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/HUV4yMdu0rcrvUNjBAEoxOKkAt77ia4asYD4bt9eYQHibvNV7LsScxfxImvoibvUEMh7ib6R9N6iczyBBMPePwrc1U60PP9n3utulI92fxWZKh6E/640?wx_fmt=webp&from=appmsg#imgIndex=2)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8JD-hotkey%EF%BC%9F/9ae2f94432ec3e1b9257365eb6b30ce7_MD5.jpg)
 
 采用protobuf序列化后性能进一步得到提升。在秒级36万以上时，能稳定在CPU 60%，压测持续时长超过5小时，未见任何异常。
 
 30万时，压测时长超过数日，未见任何异常。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0rc5QexKf5IuNJoicUlbnYRMnjhUeEvib16OUico5XMlO8VEsuiaEMeZeGdSVHYJzib6p761X4RsBllQH9kYf5e42sgbRiaibDzpSYnjkQ/640?wx_fmt=webp&from=appmsg#imgIndex=3)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8JD-hotkey%EF%BC%9F/0dcd6fe409e6693425acd8d16fd1500f_MD5.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/HUV4yMdu0rd7MRmCsxaOiax2muo0pmicSoXI7iactPQ4skWZ7VrXQbiaPBVjbX1rKRS8RKIg2oBQlvqiaygYsKzT0j0FQJtZESnrtV2jQW8QCria0/640?wx_fmt=webp&from=appmsg#imgIndex=4)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8JD-hotkey%EF%BC%9F/060fcab7b485365a9498a0a388884b32_MD5.jpg)
 
 ## 五、优缺点
 
