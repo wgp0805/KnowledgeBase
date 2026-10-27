@@ -1,6 +1,8 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-kafka消息不丢失]] — 犬小哈面试视角拆解 Kafka 消息防丢失：三端各配一手（生产端 acks=all+回调、Broker 三副本+双同步+禁脏选举、消费端手动提交），AtLeastOnce+消费端幂等是生产可用组合
+- [[摘要-codex-computer-use原理]] — 沉默王二源码拆解 Codex Computer Use：cua_repl 的 js 工具脚本编排桌面动作 + 应用黑白名单 + 四级敏感动作确认 + Guardian 围栏防屏幕内容注入
 - [[摘要-mybatis-plus-3515-springboot4-jackson3]] — MyBatis-Plus 3.5.15 支持 Spring Boot 4.0 和 Jackson 3.0，Starter 替换与 JSON 字段处理详解
 - [[摘要-ox-alpha模型与agent面试题]] — 沉默王二介绍免费预览模型 Ox Alpha（1M 上下文/多模态），并以模型指纹、Provider 差异、降级策略等 10 道 Agent 面试题展开
 - [[摘要-ruoyi-ai平台]] — 若依扩展的全栈 AI 平台，Spring Boot 3.4 + Spring AI + Langchain4j，本地 RAG/Agent Skills/流程编排
@@ -924,6 +926,7 @@
 - [[iText9]] — PDF SDK 9.x 系列（9.0 大版本，现 9.7.1），社区版 AGPL，产品级排版 + 标准合规
 
 ## Concepts
+- [[AtLeastOnce]] — 至少一次投递语义：保证不丢不保证不重，"At Least Once + 消费端幂等"是生产可用组合
 - [[模型指纹]] — 通过 Tokenizer 词表/logprob 分布/特殊 token/知识截止/格式偏好五个维度识别匿名大模型的真实来源
 - [[冷备暖备热备]] — 高可用容灾三种备份就绪状态，恢复速度 vs 成本的权衡
 - [[RTO]] — 恢复时间目标，"能停多久"

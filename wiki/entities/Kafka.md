@@ -2,8 +2,8 @@
 title: "Kafka"
 type: entity
 tags: [消息队列, 分布式系统, 流处理]
-sources: [raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md, raw/09-archive/4 种消息队列，如何选型？.md, raw/09-archive/2026-10-22 - 面试官：Kafka 如何实现顺序消费？.md]
-last_updated: 2026-10-23
+sources: [raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md, raw/09-archive/4 种消息队列，如何选型？.md, raw/09-archive/2026-10-22 - 面试官：Kafka 如何实现顺序消费？.md, raw/09-archive/面试官：Kafka 如何保证消息不丢失？.md]
+last_updated: 2026-10-27
 ---
 
 ## 定义
@@ -54,6 +54,14 @@ Kafka 只保证**分区内有序**，从不承诺全局有序。要实现业务�
 - **消费端**：分区内有序 ≠ 业务顺序。通用方案是**按 key 路由内存队列**——消费者拿到消息先按 key 哈希放入线程内多个内存队列，同 key 消息单线程串行、不同 key 并行，兼顾吞吐与顺序；配套要求就是幂等消费（[[幂等性]]/唯一键/状态机校验）兜底
 - **架构/运维坑**：①分区扩容会改变 key→分区映射，跨分区查 key 顺序会跳变，扩容要选中低峰并重放兜底；②消费组 **rebalance**（消费者进出组）会导致 offset 未提交被重复消费甚至消费中断——消费逻辑保持幂等 + 用手动 ack 和 rebalance 监听器控制提交时机；③消费失败重试会打乱顺序，需用重试队列+死信队列按序重投
 
+### 消息不丢失（2026-10-26 来源：[[摘要-kafka消息不丢失]]）
+消息丢失只可能发生在三个环节——**生产者发消息、Broker 存消息、消费者消费**，防丢失就是三端各配一手，缺一不可（口诀：发得稳、存得牢、提得晚）：
+- **生产端**：`acks=all`（所有 ISR 副本写入才确认）+ `retries` 调大配合 `delivery.timeout.ms` 控制总重试时长 + **用带回调的 `send()`**（发后即忘连失败都不知道，重试救不回来的要落库/告警人工兜底）+ 开启幂等防重试导致的重复。注意 `acks=all` 单独用不够——ISR 里只剩 Leader 一个副本时 `all` 会退化成 `1`，必须配 Broker 端 `min.insync.replicas` 堵漏洞。Kafka 3.0 起默认 acks 已改为 `all`，但生产环境仍建议显式配置
+- **Broker 端**：`replication.factor>=3`（用多副本代替 RAID）+ `min.insync.replicas>=2`（ISR 缩水到 1 副本时写入直接抛 `NotEnoughReplicasException`——宁可写失败、不可写丢，CAP 取舍）+ `unclean.leader.election.enable=false`（禁止落后的非 ISR 副本当 Leader，0.11 起默认 false，防脏选举永久丢消息）
+- **消费端**：九成九的事故出在 offset 自动提交（默认每 5 秒提交，不管消息处理完没有——提交 offset 和处理消息是两条线）。正确姿势：`enable.auto.commit=false`，**先消费后提交**（处理完 `commitSync()`）；处理失败的消息不提交，下次 poll 还能拉到，最多重复消费不会丢
+
+高频追问：① `acks=all` 不一定不丢（ISR 缩水退化成 acks=1）；② Exactly-Once 需幂等生产者 + 事务 + 消费端 `read_committed`，有性能开销，大部分业务选 [[AtLeastOnce]] + 消费端幂等；③ 顺序保证靠同业务 key 路由同分区，`max.in.flight.requests.per.connection>1` 且未开幂等时重试会乱序，开幂等后 Kafka 保证重试不乱序；④ 消息积压快速扩容消费者（数量不超过分区数）或新建更多分区的主题搬运。
+
 ## 关联连接
 - [[摘要-bytedance-mq-design]] — 来源
 - [[RocketMQ]] — 同类消息中间件对比
@@ -66,3 +74,5 @@ Kafka 只保证**分区内有序**，从不承诺全局有序。要实现业务�
 - [[幂等性]] — 幂等生产者/幂等消费概念
 - [[小哈]] — 来源作者
 - [[死信队列]] — 重试兜底相关概念
+- [[AtLeastOnce]] — 消息不丢的投递语义与消费端幂等组合（2026-10-26 提炼）
+- [[摘要-kafka消息不丢失]] — 来源（2026-10-26 消息不丢失面试题拆解）

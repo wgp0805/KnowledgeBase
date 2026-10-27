@@ -2,8 +2,8 @@
 title: "Codex"
 type: entity
 tags: [AI工具, Agent, OpenAI]
-sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md, raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/09-archive/Codex 和 Claude Code，到底哪个更好？.md, raw/09-archive/Loop Engineering 实战指南.md, raw/09-archive/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/09-archive/Codex 从原理到 Java落地.md, raw/09-archive/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/09-archive/Codex 最新焚决发布，快！.md, raw/09-archive/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/09-archive/2026-10-10 - Agent 出现幻觉怎么治理？.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
-last_updated: 2026-10-26
+sources: [raw/09-archive/用户需求模糊时 Agent 怎么澄清？.md, raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md, raw/09-archive/如何把Codex用到极致.md, raw/01-articles/再见吧 Codex 你到底还是输了！.md, raw/09-archive/Codex 和 Claude Code，到底哪个更好？.md, raw/09-archive/Loop Engineering 实战指南.md, raw/09-archive/3 分钟掌握 Codex 97% 的功能，超实用教程！.md, raw/09-archive/Codex 从原理到 Java落地.md, raw/09-archive/2026-09-14-Codex GPT-6 Astra额度掉得太快？我用一段提示词，把上下文消耗大幅降低了！.md, raw/09-archive/Codex 最新焚决发布，快！.md, raw/09-archive/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/09-archive/2026-10-10 - Agent 出现幻觉怎么治理？.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md", raw/09-archive/说说 Codex 的 Computer Use 原理。.md]
+last_updated: 2026-10-27
 ---
 
 ## 定义
@@ -295,6 +295,9 @@ brew install openai-codex
 - [[多级AI监控]] — OpenAI 的监控参考方案
 - [[METR]] — 外部审计机构
 - [[Redwood]] — 外部审计机构
+- [[摘要-codex-computer-use原理]] — 来源（Computer Use cua_repl 底层实现拆解）
+- [[ComputerUse]] — Computer Use 概念主页面
+- [[BrowserUse]] — 对照物（网页 vs 桌面操作路线）
 
 ### MCP 额度优化工作流（邪修方法）
 来自 [[摘要-codex-mcp额度优化邪修方法]]。将服务器封装为只读 MCP Server 插件，接入飞书 OAuth 认证，让 ChatGPT 网页版 GPT-6 Pro 直接读取真实生产数据进行分析规划，再将分析结果"添加到 Codex"由 GPT-6 Astra High 执行开发。
@@ -311,3 +314,6 @@ brew install openai-codex
 
 ### 开放 Harness（2026-09-10）
 OpenAI 将 Codex 背后的 [[Harness]] 做成托管服务开放公测（一个月前已开源核心代码），把原本只供自家产品使用的系统变成别人开发 Agent 的起点。开放路径是"模型+Harness+托管运行连成一体"（Agent 的 AWS 时刻）。与 [[Anthropic]]（Claude Code SDK 扩展为通用 Agent SDK）、[[腾讯]]（开放 WorkBuddy 基座）方向一致。详见 [[摘要-中美头部agent走向开放]]。
+
+### Computer Use 底层实现（2026-10-26）
+来自 [[摘要-codex-computer-use原理]]，详见 [[ComputerUse]]。Codex 内置 `cua_repl` MCP 插件暴露 `js` 工具，模型直接写 JavaScript 调用全局 `cua` 对象，在持久化 Node.js REPL 里一次调用编排整个桌面动作串（不拆原子工具，避免逐动作推理+重传高清截图的延迟与 Token 消耗，并按需加载 API 文档保护 KV Cache）。安全侧：应用黑白名单按 OS 原生标识硬控制（macOS `bundle_ids` / Windows `aumids`+签名）、四级敏感动作确认策略（脚本中途经 `elicitation/create` 实时挂起高危动作）、Guardian 安全围栏防屏幕内容提示注入（8M 证据缓冲区 + Guardian V2 自适应 + LunaSampler 异步风险打分）。
