@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-为什么不能在System-Prompt里放时间戳]] — 在系统提示词或 AGENTS.md/CLAUDE.md 里放秒级时间戳会让前缀缓存失效、账单翻 10 倍；正确做法是固定内容放开头、日期按天/按月、跨天或改规则追加到对话末尾（Radix Tree 根节点 + in-history 模式）
 - [[摘要-kafka42共享组]] — 锋哥讲透 Kafka 4.2：共享组 KIP-932 转正（按记录协作+30 秒锁+ACCEPT/RELEASE/REJECT/RENEW 四确认）、Streams 服务端再均衡 KIP-1071、Streams 死信 KIP-1034、锚定标点 KIP-1146、4.2.2 修复版
 - [[摘要-jd-hotkey热key探测]] — 苏三拆解京东 JD-hotkey：独立 Worker 集群滑动窗口毫秒级判定热 key，推送到全部 JVM 本地缓存，"核心矛盾是探测不是缓存"，大促实测减轻 Redis 一半以上压力
 - [[摘要-magpie替代cc-switch]] — 程序汪：CC Switch 写回丢配置事故复盘后转向本地 AI 网关 magpie（20K Star）——三 API 格式互转、自动路由组、账号额度五策略、会话保持四档、意图路由、写入可还原

@@ -2,8 +2,8 @@
 title: "KV Cache"
 type: concept
 tags: [概念, 推理优化, 成本, 缓存]
-sources: [raw/09-archive/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
-last_updated: 2026-10-22
+sources: [raw/09-archive/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/01-articles/为什么不能在 System Prompt 里放时间戳？.md]
+last_updated: 2026-10-29
 ---
 
 ## 定义
@@ -25,6 +25,11 @@ KV Cache（Key-Value 缓存）是 LLM 推理时缓存历史 token 的 Key 和 Va
 2. **推理引擎侧**：vLLM 的 PagedAttention 分页管理消除碎片；FP8 量化把单元素字节数减半；NVIDIA Dynamo 的 KV 感知路由把同一会话第 N 轮路由到已缓存前 N-1 轮 KV 块的节点
 3. **Agent 应用侧**：按稳定度排列系统提示词，保障最长公共前缀命中（见 [[前缀缓存稳定布局]]）；NVIDIA 实测多轮编码 Agent 流量下命中率 **85%~97%**、首字延迟降低约 5 倍
 
+### 缓存命中的量化依据（2026-10-29，详见 [[摘要-为什么不能在System-Prompt里放时间戳]]）
+- **输入输出比例**：Manus 团队公开——对话型 Agent 输入输出 Token 比约 `1:1`，长程任务 Agent（多步循环多次调用工具）高达 `100:1`——长任务几乎全是输入 Token，缓存命中与否决定成本量级
+- **缓存价格**：主流模型缓存读取价格只有未命中（缓存 miss）的 **1/10**——系统提示词里混入秒级时间戳导致前缀失效，会让账单贵 **10 倍**
+- **落地原则**：固定的内容放最前（保护根节点）、日期降级到按天/按月、跨天或规则改动就追加到对话末尾（见 [[前缀缓存稳定布局]]）
+
 ### 磁盘级 KV 缓存与 SWA Bounded Replay（2026-10-21，详见 [[摘要-deepinfer-deepseek开源推理框架]]）
 [[DeepInfer]] 把 KV Cache 从"显存里的临时缓存"推到"存储集群里的长期资产"：
 - **100 PiB 独立分布式存储**：基于自研 3FS 分布式文件系统搭建约 100 PiB SSD 存储集群，峰值聚合读取带宽达 **10 TiB/s**，把按 128 个 Token 分页的块缓存全部写入硬盘，**KV Cache 保留时间达到 72 小时**
@@ -44,3 +49,4 @@ KV Cache（Key-Value 缓存）是 LLM 推理时缓存历史 token 的 Key 和 Va
 - [[DeepInfer]] — 磁盘级 KV 缓存的落地载体
 - [[上下文缓存]] — 相关概念
 - [[摘要-deepinfer-deepseek开源推理框架]] — 来源（磁盘级 KV 缓存与 SWA Bounded Replay）
+- [[摘要-为什么不能在System-Prompt里放时间戳]] — 来源（缓存命中量化依据与时间戳降级）
