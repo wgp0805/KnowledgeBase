@@ -312,6 +312,13 @@ brew install openai-codex
 
 **合规性**：遵守 OpenAI 规则的 MCP 插件调用方式，无降智或风控风险。
 
+### GPT-6.1 Terra 源码三招（2026-10-27）
+来自 [[摘要-gpt6.1-terra-codex三招]]，沉默王二翻 Codex 模型配置清单发现的三个源码级机制：
+
+1. **code_mode_only 纯代码执行模式**（Terra 默认开启）——把零散工具全部隐藏，只暴露 V8 沙箱里的 `exec` 工具，文件读写/终端/MCP 挂载到沙箱全局 `tools` 对象；`tool_search` 用 BM25 实时检索工具签名 + `Promise.allSettled` 并发执行多个互不依赖操作，替代"一次调用一个工具"的 JSON 往返模式（详见 [[code_mode_only]]）。Terra 执行任务比 Sol/Astra 快 3 倍以上
+2. **编号寻址跨窗口接力**——Astra/Sol/Luna 的 `context_window` 在 Codex 源码里锁死 27.2 万 Token，Terra 放开到 50 万并开启 `supports_image_detail_original`（高清原图不裁剪）；剩余空间 <6144 Token 时不做摘要压缩，改走 `notes` → `new_context` → `history` 无损接力（详见 [[跨窗口接力]]）
+3. **隐藏 ultra 推理档 + 自动任务委派**——公开 API 只有 none~max 五档，Codex 内部给 Astra/Sol/Terra 加隐藏第六档 `ultra`：主模型推理强度映射 `xhigh`，调 `spawn_agent` 派生并行 Sub-agent，`fork_turns` 控制上下文继承（小函数传 `none` 零负担、复杂改造传 `all` 完整继承）；云端 `memory_consolidation`（会话记忆整理）默认模型从 `gpt-6.1-sol` 换成 `gpt-6.1-terra`（详见 [[思考强度]]、[[子Agent编排]]）
+
 ### 开放 Harness（2026-09-10）
 OpenAI 将 Codex 背后的 [[Harness]] 做成托管服务开放公测（一个月前已开源核心代码），把原本只供自家产品使用的系统变成别人开发 Agent 的起点。开放路径是"模型+Harness+托管运行连成一体"（Agent 的 AWS 时刻）。与 [[Anthropic]]（Claude Code SDK 扩展为通用 Agent SDK）、[[腾讯]]（开放 WorkBuddy 基座）方向一致。详见 [[摘要-中美头部agent走向开放]]。
 

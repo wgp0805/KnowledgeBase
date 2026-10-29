@@ -3,7 +3,7 @@ title: "Token估算"
 type: concept
 tags: [概念, LLM, 上下文, Token]
 sources:
-  - raw/01-articles/marka.md 超轻量 Markdown 编辑器，专为 AI 上下文打包设计.md
+  - raw/09-archive/仅几MB大小！Rust 开源 Markdown 神器，专为 AI 设计.md
 last_updated: 2026-08-03
 ---
 

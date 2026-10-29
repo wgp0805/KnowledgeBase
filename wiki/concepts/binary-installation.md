@@ -3,7 +3,7 @@ title: "binary-installation"
 type: concept
 tags: [概念, 运维, 安装]
 sources:
-  - raw/01-articles/一个运维狗的 Elasticsearch 到 SkyWalking 的部署之路.md
+  - raw/09-archive/2026-07-21-分布式链路追踪系统之二进制安装skywalking - Linux-1874.md
 last_updated: 2026-08-03
 ---
 

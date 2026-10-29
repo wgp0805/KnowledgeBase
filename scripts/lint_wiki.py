@@ -11,13 +11,49 @@ WIKI_DIR = r"D:\java\KnowledgeBase\wiki"
 KB_ROOT = r"D:\java\KnowledgeBase"
 
 # Obsidian 双链正则：[[...]]，支持 [[Name|alias]] [[Name#anchor]] [[Name^block]] [[dir/Name]]
+# 注意：代码块(``` 或 ~~~ 包裹)与行内代码(`...`)内的 [[...]] 是 shell 语法(如 [[ "$tool" == "Bash" ]])，
+# 需先行剔除，避免误报死链。
 LINK_RE = re.compile(r'\[\[([^\[\]]+?)\]\]')
+CODE_BLOCK_RE = re.compile(r'(`{3,}|~{3,}).*?\1', re.S)
+INLINE_CODE_RE = re.compile(r'`[^`\n]*`')
+
+def strip_code(content):
+    """剔除代码块与行内代码，避免其中 [[...]] 被误判为双链"""
+    content = CODE_BLOCK_RE.sub('', content)
+    content = INLINE_CODE_RE.sub('', content)
+    return content
 
 def parse_target(raw):
-    name = raw.split("|")[0]                  # 去别名
-    name = re.split(r'[#\^]', name)[0]        # 去 anchor / block id
-    name = name.split("/")[-1].strip()        # 取 basename
+    """解析双链目标：
+    1) 先按完整文本（含 #/^）尝试匹配实际文件名；
+    2) 匹配不到时再去掉 anchor/block id 部分（#后或^后）。
+    这样 [[Pass^k]] 若存在 Pass^k.md 则整体匹配，不会被误拆成 [[Pass]]。
+    """
+    name = raw.split("|")[0].strip()       # 去别名
     return name
+
+def resolve_target(raw, existing_lower):
+    """返回候选目标列表：优先完整名，其次去 #/^ 锚点后的 basename；
+    支持 [[xxx.md]] 写法（Obsidian 允许带扩展名链接）。
+    纯 [[#heading]] 或 [[^block]] 开头（指向当前文件内部）返回 None。"""
+    name = raw.split("|")[0].strip()
+    if name.startswith("#") or name.startswith("^"):
+        return None  # 当前文件内部锚点/块引用，非页面双链
+    cands = [name]
+    # 去 anchor / block id（仅当完整名不存在时才考虑）
+    if '#' in name or '^' in name:
+        base = re.split(r'[#\^]', name)[0]
+        if base:
+            cands.append(base)
+    # 取 basename（去目录）
+    cands = [c.split("/")[-1] for c in cands]
+    # 支持带 .md 后缀
+    cands = [c[:-3] if c.lower().endswith(".md") else c for c in cands]
+    # 返回第一个存在于 existing_lower 的候选（或最后一个）
+    for c in cands:
+        if c.lower() in existing_lower:
+            return c
+    return cands[-1]
 
 def main():
     # 1. 收集所有存在页面（按 stem，大小写不敏感匹配，贴近 Obsidian 行为）
@@ -46,14 +82,21 @@ def main():
             if not f.endswith(".md"):
                 continue
             stem = f[:-3]
+            # log.md 为 append-only 操作日志，其链接多为历史修复动作的记录（旧名/被改前名），
+            # 不参与统计，避免把历史语义记录误报为死链。
+            # index.md 为正规导航页，参与入链统计（保证"仅在索引注册"的页面不算孤儿），
+            # 但其自身不作为孤儿候选（在孤儿判定中排除）。
+            if stem == "log":
+                continue
             path = os.path.join(root, f)
             try:
                 content = open(path, encoding="utf-8").read()
             except Exception:
                 continue
+            content = strip_code(content)
             targets = set()
             for m in LINK_RE.finditer(content):
-                t = parse_target(m.group(1))
+                t = resolve_target(m.group(1), existing_lower)
                 if t:
                     targets.add(t)
             for t in targets:

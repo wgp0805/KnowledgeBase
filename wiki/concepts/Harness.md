@@ -7,7 +7,7 @@ sources:
   - raw/09-archive/2026-08-15-DeepSeek Harness 教程：一切皆插件的开源 Agent 框架 - 掉落的果实.md
   - raw/09-archive/2026-09-07-对话OpenRouter CEO：Harness 正在取代超级 App，未来所有软件都只是 Agent 的后台工具.md
   - raw/09-archive/2026-10-13-这 6 本 GitHub 上的开源 AI 宝典，那是相当有真东西。.md
-  - raw/09-archive/你的游戏本身就是 Harness ：如何让 AI Agent 读懂游戏并十倍加速迭代？ - leikooo.md
+  - raw/09-archive/2026-10-15-你的游戏本身就是 Harness ：如何让 AI Agent 读懂游戏并十倍加速迭代？ - leikooo.md
 last_updated: 2026-10-15
 ---
 

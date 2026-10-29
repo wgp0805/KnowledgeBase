@@ -45,11 +45,12 @@ last_updated: 2026-10-26
 - **"换心脏"证据**：v1.1.2.2 最大特性是引入 AgentScope Java 集成（`spring-ai-alibaba-starter-agentscope`，用 AgentScopeAgent 封装 ReActAgent 进 Graph 编排）；官方公告称 SAA（Graph 编排）与 AgentScope（Agentic）独立发展不替代，但节奏对比悬殊——AgentScope 四天一版 vs SAA 半年一版
 - **选型结论**：进入"养护模式"，已用者不必恐慌性迁移，新项目需评估"半年一更"是否可接受；分层选型见 [[JavaAI三层台阶]]
 
-## 知识冲突
-- **编排层还是接入层？（2026-10-08 标注）**
-  - 旧说法（[[AgentScope_Java]] 页面，2026-07）：「Spring AI Alibaba 偏重'AI 能力接入'（RAG、聊天机器人），AgentScope 偏重'Agent 工程化'」——即把 SAA 归入接入层
-  - 新说法（[[摘要-spring-ai-alibaba停更分析]]，2026-10-03）：Java AI 分三层，**接入层是 Spring AI 2.0 / LangChain4j，SAA 在编排层**（Graph 工作流、条件路由、状态持久化），运行时层才是 AgentScope
-  - 两种说法并列保留（**状态：⏳ 待查**，待后续来源裁决）；按 SAA 自身 Graph Runtime/工作流编排的核心特性，新说法（编排层）与本页"多智能体系统和工作流编排"的定义更一致
+## 知识冲突（已裁决：采用新说法"编排层"，2026-10-28）
+- **裁决依据**：① SAA 自身核心特性是 Graph Runtime/工作流编排（多智能体协作、条件路由、状态持久化），与"编排层"定义一致；② 页面"定位与 Graph 引擎"章节（本页主体）即按编排层口径撰写。
+- **结论**：**Spring AI Alibaba 属编排层**（Graph 工作流、条件路由、状态持久化），接入层是 Spring AI 2.0 / LangChain4j，运行时层是 AgentScope。
+- **历史记录（旧说法，保留备查）**：
+  - 旧说法（[[AgentScope_Java]] 页面，2026-07）：Spring AI Alibaba 偏重"AI 能力接入"（RAG、聊天机器人），AgentScope 偏重"Agent 工程化"——即把 SAA 归入接入层。
+  - 新说法（[[摘要-spring-ai-alibaba停更分析]]，2026-10-03）：Java AI 分三层，接入层是 Spring AI 2.0 / LangChain4j，SAA 在编排层，运行时层才是 AgentScope。
 
 ## 关联连接
 - [[摘要-spring-ai-alibaba停更分析]] — 来源（停更传闻核查与三层选型）

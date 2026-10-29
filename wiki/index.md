@@ -1756,7 +1756,7 @@
 - [[MoE]] — Mixture of Experts 混合专家架构，路由激活部分专家
 - [[KVCache]] — LLM 推理缓存 Key-Value 对避免重复计算
 - [[灰度曝光]] — MoE 架构逐步激活专家的工程策略
-- [[ResponsesAPI]] — OpenAI 新一代接口，支持内置工具/多轮编排
+- [[ResponsesApi]] — OpenAI 新一代接口，支持内置工具/多轮编排
 - [[ChatCompletionsAPI]] — OpenAI 传统单轮对话接口
 - [[API缓存]] — 大模型 API 缓存定价策略，命中未命中差价巨大
 - [[Embedding]] — 文本转向量技术，RAG 基础
@@ -3355,3 +3355,18 @@
 
 ## 更新 (2026-10-27)
 - [[MinIO]]（+Spring Boot 集成章节：MinioProperties 配置绑定、MinioUtil 工具类封装、bucket 自动创建、预签名 URL、唯一文件名/流式传输/中文文件名编码工程要点）、[[IT码徒]]（+SpringBoot+Minio 转载来源）、[[ConfigurationProperties]]（+MinioProperties 实战案例链接）
+
+## Sources (2026-10-28 ingest)
+- [[摘要-无感刷新token]] — 小哈讲透无感刷新 Token 两条路线：后端自动刷新（快过期重签放请求头）vs 前端续约（双 Token AT/RT，AT 短防劫持 RT 长增便利），及表单页长时间无请求的 401 边界兜底
+- [[摘要-gpt6.1-terra-codex三招]] — 沉默王二扒 Codex 源码挖出 GPT-6.1 Terra 三招：code_mode_only 纯代码执行（V8 沙箱+BM25 工具检索+并发）、50 万窗口+编号寻址跨窗口无损接力、隐藏 ultra 档+spawn_agent 自动委派
+
+## Entities (2026-10-28 新增)
+- [[GPT-6.1-Terra]] — OpenAI GPT-6 四档天体命名第二档（Luna→Terra→Sol→Astra），对标 Sonnet 5.5，Codex 默认 code_mode_only + 50 万窗口 + ultra 档
+
+## Concepts (2026-10-28 新增)
+- [[无感刷新Token]] — 消除"操作中跳登录页"体验断层的 Token 续期机制总称：后端自动刷新（单 token）与前端续约（双 Token AT/RT）两条路线 + 表单无请求边界兜底
+- [[code_mode_only]] — Codex 为 GPT-6.1 Terra 默认开启的纯代码执行模式：V8 沙箱并发脚本编程替代 JSON 往返，tool_search BM25 检索签名 + Promise.allSettled 并发
+- [[跨窗口接力]] — 基于编号寻址的跨窗口无损记忆接力：剩余 <6144 Token 时 notes→new_context→history 原样调取，区别于有损摘要压缩
+
+## 更新 (2026-10-28)
+- [[dual-token-mechanism]]（+实现路线对照章节：后端自动刷新 vs 前端续约，含 AT/RT 分工哲学与表单无请求边界）、[[JWT]]（+无感刷新实现小节与来源）、[[小哈]]（+无感刷新 Token 文章来源）、[[GPT-6]]（+四档天体命名体系章节：Luna/Terra/Sol/Astra 与对标）、[[Codex]]（+GPT-6.1 Terra 源码三招章节：code_mode_only/跨窗口接力/ultra 档+memory_consolidation）、[[沉默王二]]（+GPT-6.1 Terra 文章来源）、[[Astra]]（+Codex 内 context_window 锁 27.2 万窗口说明）、[[ToolSearch]]（+code_mode_only 中落地形态：BM25 检索签名+并发执行）、[[思考强度]]（+隐藏 ultra 第六档章节）、[[子Agent编排]]（+Codex spawn_agent/fork_turns 自动委派）、[[沙箱]]（+V8 沙箱纯代码执行形态）、[[BM25]]（+工具签名检索场景）

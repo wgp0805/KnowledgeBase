@@ -30,9 +30,20 @@ last_updated: 2026-07-22
 - 三个 SubAgent（weather/flight/attraction）可并行启动
 - 通过文件驱动定义，Java 端可补强真实 API 工具
 
+### Codex 的 spawn_agent 自动委派（2026-10-27，详见 [[摘要-gpt6.1-terra-codex三招]]）
+
+Codex 在隐藏的 `ultra` 推理档下实现同类机制（[[思考强度]]）：
+- 主模型推理强度映射 `xhigh`，调 **`spawn_agent`** 派生多个并行 Sub-agent
+- **`fork_turns` 控制上下文继承**：修小函数传 `none` 零负担启动，复杂模块改造传 `all` 继承完整上下文
+- 与 AgentScope 的文件驱动 spawn 相比，Codex 的关键差异是**上下文继承量的显式控制**（fork_turns 按任务复杂度分级）
+
 ## 关联连接
 - [[AgentScope_Java]] — 所属框架
 - [[HarnessAgent]] — 支持子 Agent 的 Agent
 - [[Workspace]] — 子 Agent 声明位置
 - [[摘要-AgentScopeJava2.0发布]] — 来源
 - [[摘要-AgentScope入门指南]] — 来源（苏三入门实战指南）
+- [[摘要-gpt6.1-terra-codex三招]] — 来源（Codex spawn_agent/fork_turns）
+- [[思考强度]] — ultra 隐藏档位触发自动委派
+- [[GPT-6.1-Terra]] — 委派主模型
+- [[Codex]] — 实现 spawn_agent 的客户端

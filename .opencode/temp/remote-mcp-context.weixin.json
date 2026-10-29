@@ -1,0 +1,18 @@
+{
+  "provider": "weixin",
+  "channelId": "o9cq80-mHk0Co7ULGPCamtz20kY0@im.wechat",
+  "conversationType": "c2c",
+  "accountId": "9c6e66d1410f@im.bot",
+  "userId": "o9cq80-mHk0Co7ULGPCamtz20kY0@im.wechat",
+  "fromUserId": "o9cq80-mHk0Co7ULGPCamtz20kY0@im.wechat",
+  "toUserId": "9c6e66d1410f@im.bot",
+  "contextToken": "AARzJWAFAAABAAAAAACXQUXB2sdDA2eBqYHhaiAAAAB+9905Q6UiugPBawU3n3cyzQX+LkN8ofRzsCZYN0mt7v9QJ/cIHaQ03Fu75te7AMwzhzZIFm5keS5WtCdjxMoCUIi4KHiz",
+  "capabilities": {
+    "sendText": true,
+    "sendFile": true,
+    "sendImage": true
+  },
+  "updatedAt": 1793163690007,
+  "targetId": "o9cq80-mHk0Co7ULGPCamtz20kY0@im.wechat",
+  "uniqueKey": "weixin:c2c:o9cq80-mHk0Co7ULGPCamtz20kY0@im.wechat"
+}

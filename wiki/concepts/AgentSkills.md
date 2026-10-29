@@ -7,7 +7,7 @@ sources:
   - raw/09-archive/GitHub狂揽8.6万Star！为什么越来越多人用 Pi ？.md
   - raw/09-archive/2026-08-24-GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗.md
   - raw/09-archive/2026-08-24-Huashu-Excel正式发布！可能、也许、大概是最好用的Excel数据处理和分析skill.md
-  - raw/01-articles/2026-08-24-普通人也能用Agent Skills：龙叔的保姆级教程.md
+  - raw/09-archive/2026-08-24-火爆全网的 Agent Skills，普通人到底该怎么用？-- 详细教程 - 程序员龙叔.md
 last_updated: 2026-08-25
 ---
 

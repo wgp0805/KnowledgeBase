@@ -5,7 +5,7 @@ tags: [Codex, AI编程, 工作流, 操作手册]
 sources:
   - raw/09-archive/Codex 保姆级入门教程（6000字长文）.md
   - raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md
-  - raw/01-articles/再见吧 Codex 你到底还是输了！.md
+  - raw/09-archive/别再把 Codex 当许愿池了！.md
   - raw/09-archive/AI agent工具应该怎么使用.md
   - raw/09-archive/3 分钟掌握 Codex 97% 的功能，超实用教程！.md
   - raw/09-archive/如何把Codex用到极致.md

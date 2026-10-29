@@ -2,8 +2,8 @@
 title: "JWT"
 type: entity
 tags: [认证, 安全, Token]
-sources: [raw/09-archive/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md, raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md]
-last_updated: 2026-05-20
+sources: [raw/09-archive/面试中被嘲笑Token放在Redis里？这把给我干沉默了.md, raw/09-archive/SpringBoot 4 + Spring Security 7 + Vue3 前后端分离项目设计最佳实践.md, raw/09-archive/如何做到无感刷新Token.md]
+last_updated: 2026-10-28
 ---
 
 ## 定义
@@ -38,8 +38,15 @@ JWT 由点号分隔的三部分组成：
 - 无法让特定 Token 立即失效
 - 需要配合 Redis 黑名单才能实现踢人下线等功能
 
+### 无感刷新实现（2026-10-28）
+
+- JJWT 0.9.1 + Hutool 生成/解析 token（HS256 对称加密），`getTokenExpirationDate` 取过期时间
+- 后端自动刷新：校验时判断（过期时间 − 当前时间）< 阈值 → 重新签发放请求头返回
+- 详见 [[无感刷新Token]] 与 [[摘要-无感刷新token]]
+
 ## 关联连接
 - [[摘要-token-redis-interview]] — JWT 与 Redis 的深度分析
+- [[摘要-无感刷新token]] — 无感刷新实现（小哈，"怎么做"视角）
 - [[摘要-springboot4-security7-vue3-best-practice]] — JWT 在前后端分离项目中的实践
 - [[jwt-stateless]] — JWT 无状态认证原理
 - [[token-blacklist]] — Token 黑名单机制

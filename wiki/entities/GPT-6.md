@@ -86,6 +86,19 @@ GPT-6 Astra 是 OpenAI 于 2026-09-03 发布的新一代大模型，被总裁 Br
 - **Luna**：输入 0.2→0.1 美元、输出 1.2→0.5 美元，最高降幅 58%；改进缓存减少重复劳动
 - **分档定位**：Astra 保留最高能力，Sol/Luna 承接数量更多、反复发生、价格敏感的日常调用
 
+### GPT-6 四档天体命名体系（2026-10-27 Terra 加入）
+
+从 GPT-6 起 OpenAI 按天体体积从小到大排四档（详见 [[摘要-gpt6.1-terra-codex三招]]）：
+
+| 档位 | 对标 | 定位 |
+|------|------|------|
+| Luna | Haiku 5.5 | 高并发路由（最小档） |
+| **Terra** | **Sonnet 5.5** | 速度 + 多模态均衡，Codex 默认 code_mode_only |
+| Sol | — | 主力模型，比 Astra 省 Token |
+| Astra | — | 前沿数学推导与漏洞分析（旗舰） |
+
+**GPT-6.1 Terra 专属特性**（详见 [[GPT-6.1-Terra]]）：Codex 中 `context_window` 放开到 50 万 Token（Astra/Sol/Luna 锁 27.2 万）并开启 `supports_image_detail_original`；隐藏 ultra 推理档 + spawn_agent 自动委派；Agents' Last Exam v1 最高档 60 分反超 Sol（58.6 分）。
+
 ### GPT-6.1 Sol（2026-09-29 DevDay 发布）
 详见 [[摘要-openai-devday-2026-gpt61sol-dots]]。在 DevDay 2026 随 [[Dots]] 等 20 多项更新一同发布，主打"性能逼近 Astra、价格砍 80%"：
 - **价格**：标准 API 每百万输入/输出 token 2/10 美元（Astra 标准价的五分之一）；**缓存输入低至 0.10 美元/百万 token**（比标准输入降 95%，比上代 GPT-6 Sol 缓存价再腰斩 50%）——长上下文 Agent 反复复用提示词的综合推理成本被打到地板
