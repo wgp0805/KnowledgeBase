@@ -58,6 +58,9 @@ SETNX agent:session:lock:{sessionId} "locked" EX 30
 ## 关联连接
 - [[摘要-prevent-duplicate-order]] — 来源
 - [[idempotency]] — 幂等性
+- [[幂等性]] — 4 种幂等方案（Token/唯一索引/锁/摘要）
+- [[分布式锁]] — 中文同名页（三大实现路线与工程要点）
+- [[摘要-springboot接口幂等性4种策略]] — 来源（lock + 幂等表双保险）
 - [[Redis]] — Redisson 底层依赖
 - [[Redisson]] — Redis 分布式锁实现
 - [[摘要-ai-agent-day10-tool-pipeline]] — 来源

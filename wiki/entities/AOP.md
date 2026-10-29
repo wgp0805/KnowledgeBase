@@ -2,8 +2,8 @@
 title: "AOP"
 type: entity
 tags: [Spring, 编程范式]
-sources: [raw/09-archive/SpringBoot-Aop的使用.md, raw/09-archive/spring框架中的事务管理.md]
-last_updated: 2026-05-19
+sources: [raw/09-archive/SpringBoot-Aop的使用.md, raw/09-archive/spring框架中的事务管理.md, raw/09-archive/2026-10-28 - SpringBoot接口幂等性方案：4种策略+代码实战，告别重复提交.md]
+last_updated: 2026-10-29
 ---
 
 ## 定义
@@ -13,6 +13,7 @@ AOP（Aspect-Oriented Programming，面向切面编程）通过预编译方式�
 - 通知类型：@Before（前置）、@After（后置）、@Around（环绕）、@AfterReturning（返回后）、@AfterThrowing（异常后）
 - 切入点表达式：execution（方法匹配）、@annotation（注解匹配）、within（类匹配）
 - 自定义注解作为切点：结合 @Around 实现通用日志或权限校验
+- 典型落地：`@Idempotent(expire)` + `@Around` 切面把"请求体摘要 → `setIfAbsent` 抢键 → 异常回删"封装成零侵入能力，老接口加一行注解即有幂等（见 [[幂等性]]）
 - Spring AOP 底层：JDK 动态代理（接口）和 CGLIB（类）
 - AOP 是 Spring @Transactional 事务管理的底层实现基础
 
@@ -21,3 +22,5 @@ AOP（Aspect-Oriented Programming，面向切面编程）通过预编译方式�
 - [[Spring]] — 基础框架
 - [[摘要-spring框架中的事务管理]] — 详解 Spring @Transactional 声明式事务…
 - [[摘要-SpringBoot-Aop的使用]] — 讲解 Spring Boot 中 AOP 面向切面编程的使用…
+- [[幂等性]] — 注解式幂等的典型应用
+- [[摘要-springboot接口幂等性4种策略]] — 来源（@Idempotent 切面实战）

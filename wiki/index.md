@@ -3370,3 +3370,21 @@
 
 ## 更新 (2026-10-28)
 - [[dual-token-mechanism]]（+实现路线对照章节：后端自动刷新 vs 前端续约，含 AT/RT 分工哲学与表单无请求边界）、[[JWT]]（+无感刷新实现小节与来源）、[[小哈]]（+无感刷新 Token 文章来源）、[[GPT-6]]（+四档天体命名体系章节：Luna/Terra/Sol/Astra 与对标）、[[Codex]]（+GPT-6.1 Terra 源码三招章节：code_mode_only/跨窗口接力/ultra 档+memory_consolidation）、[[沉默王二]]（+GPT-6.1 Terra 文章来源）、[[Astra]]（+Codex 内 context_window 锁 27.2 万窗口说明）、[[ToolSearch]]（+code_mode_only 中落地形态：BM25 检索签名+并发执行）、[[思考强度]]（+隐藏 ultra 第六档章节）、[[子Agent编排]]（+Codex spawn_agent/fork_turns 自动委派）、[[沙箱]]（+V8 沙箱纯代码执行形态）、[[BM25]]（+工具签名检索场景）
+
+## Sources (2026-10-29 ingest)
+- [[摘要-cloudflare开源pingora]] — 终码一生报道 Cloudflare 正式开源 Rust 异步多线程代理框架 Pingora（2022 起替代 Nginx，每秒 4000 万请求），含零停机优雅重启/可定制负载均衡/可观测性集成，以及章亦春"搞不定 Nginx 才重造轮子、用 Rust 写解释型网关是退步"的反方观点
+- [[摘要-springboot接口幂等性4种策略]] — SpringBoot 接口防重的四种可复制方案：Token 令牌（预生成+原子删除）、数据库唯一索引（异常即幂等）、分布式锁（tryLock+requestId 幂等表）、请求内容摘要（MD5+setIfAbsent+AOP），核心结论"优先唯一索引，并发高再上锁或 Token，不要过度设计"
+- [[摘要-索引优化10个技巧]] — 苏三把索引优化收敛为建索引/用索引/维护索引三层共 10 条：高选择性、最左前缀、覆盖索引、避免函数与运算、ICP、OR 改 IN/UNION、前缀索引、清理冗余、延迟关联与游标分页、ANALYZE/OPTIMIZE
+
+## Entities (2026-10-29 新增)
+- [[Pingora]] — Cloudflare 用 Rust 写的异步多线程 HTTP 代理框架（pre-1.0，仅支持 Unix），2022 起生产替代 Nginx，2026-10 以 Apache License 开源
+- [[OpenResty]] — 基于 Nginx + LuaJIT 的可编程 Web 平台，代表"在成熟 C 宿主上叠脚本扩展"的路线，与 Pingora"用 Rust 重写本体"形成对照
+- [[章亦春]] — OpenResty 作者、曾参与 Cloudflare 架构工作；批评 Pingora 是"搞不定 Nginx 后的重造轮子"、用 Rust 写解释型网关是退步
+
+## Concepts (2026-10-29 新增)
+- [[覆盖索引]] — 索引包含查询所需全部列从而免回表（消除随机 IO），与 ICP"减少回表"、前缀索引"无法覆盖"构成边界对照
+- [[索引优化]] — 围绕索引建立/使用/维护的工程决策总纲，判据是"回表+扫描代价是否低于全表扫描"，三条硬规则 + 五种自废武功写法 + 四步巡检
+- [[索引下推]] — MySQL 5.6+ 的 ICP：把回表后才做的过滤下推到索引遍历阶段执行，减少回表次数但不等价于免回表（`Using index condition`）
+
+## 更新 (2026-10-29)
+- [[Nginx]]（+被替代叙事：可编程性/内存安全两条边界、反方意见、迁移结论"绝大多数团队 nginx.conf 仍是性价比最高选择"）、[[Cloudflare]]（+Pingora 开源章节与战略含义）、[[Rust]]（+Pingora 基础设施案例与"内存安全=执行边界"的官方定位）、[[反向代理]]（+Pingora/OpenResty 关联）、[[幂等性]]（重写：重复请求三来源、四方案对照、三步选型判据、落地清单）、[[幂等性设计]]（+四策略来源）、[[idempotency]]（+四方案横向对照与两个易踩坑）、[[分布式锁]]（+锁+幂等表双保险章节）、[[Redisson]]（+RLock 做幂等的标准姿势）、[[distributed-lock]]（+同名中文页与幂等来源互链）、[[AOP]]（+@Idempotent 注解式幂等落地）、[[索引失效]]（+正反对照表与 ICP 易混点）、[[最左匹配原则]]（+等值在左范围在右的列序口诀）、[[深度分页]]（+MySQL 深分页对照：延迟关联/游标/限深与根因差异）、[[游标分页]]（+适用前提与延迟关联取舍）、[[聚簇索引]]（+回表小节：二级索引叶子只存主键）、[[BPlusTree]]（+两种"覆盖"语境的区分）、[[query-optimization]]（+索引设计层/SQL 执行层/存储结构层三层分工）、[[MySQL]]（+索引优化相关关联）、[[苏三]]（+索引优化文章来源）

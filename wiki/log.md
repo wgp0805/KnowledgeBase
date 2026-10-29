@@ -1989,3 +1989,10 @@
 - **变更**: 新增 Sources (1): [[摘要-springboot-minio文件存储]]; 新增 Entities (1): [[Apifox]]; 新增 Concepts (1): [[预签名URL]]; 增量更新既有页 (3): [[MinIO]]（+Spring Boot 集成章节：配置-工具-业务三层/minio-java 核心 API/工程要点）、[[IT码徒]]（+MinIO 转载来源）、[[ConfigurationProperties]]（+MinioProperties 实战案例）; 更新 [[index.md]]（Sources +1 / Entities +1 / Concepts +1 / 更新 3 页）
 - **冲突**: 无。文章推荐"MinIO 适合中小项目替代云 OSS"与既有"社区版仓库归档、闭源商业化加速"记录为互补视角而非事实矛盾，已在 [[摘要-springboot-minio文件存储]] 标注选型张力并指向 [[RustFS]] 对照
 - **归档**: 1 个源文件已移动至 raw/09-archive/
+
+## [2026-10-29] ingest | 全量扫描 raw/ 摄入 3 篇 01-articles 文章（Cloudflare Pingora / SpringBoot 接口幂等 4 策略 / 索引优化 10 技巧）
+- **变更**: 新增 Sources (3): [[摘要-cloudflare开源pingora]], [[摘要-springboot接口幂等性4种策略]], [[摘要-索引优化10个技巧]]; 新增 Entities (3): [[Pingora]], [[OpenResty]], [[章亦春]]; 新增 Concepts (3): [[覆盖索引]], [[索引优化]], [[索引下推]]; 增量更新既有页 (20): [[Nginx]]（+被替代叙事：可编程性与内存安全两条边界、反方意见、迁移结论）、[[Cloudflare]]（+Pingora 开源与战略含义）、[[Rust]]（+Pingora 案例与"内存安全=执行边界"）、[[反向代理]]、[[幂等性]]（重写：三来源/四方案/三步判据/落地清单）、[[幂等性设计]]、[[idempotency]]（+四方案横向对照与两个易踩坑）、[[分布式锁]]（+锁+幂等表双保险）、[[Redisson]]（+tryLock 幂等姿势）、[[distributed-lock]]、[[AOP]]（+@Idempotent 注解式幂等）、[[索引失效]]（+正反对照与 ICP 易混点）、[[最左匹配原则]]（+等值在左范围在右）、[[深度分页]]（+MySQL 深分页对照）、[[游标分页]]、[[聚簇索引]]（+回表小节）、[[BPlusTree]]（+两种"覆盖"语境）、[[query-optimization]]（+三层分工）、[[MySQL]]、[[苏三]]; 更新 [[index.md]]（Sources +3 / Entities +3 / Concepts +3 / 更新 20 页）
+- **冲突**: 无。三处看似冲突之处已逐一核对并保留双方口径：① Pingora 与 Nginx 为"能力边界"而非"技术过时"关系，已在 [[Nginx]] 中同时记录官方动机与 [[章亦春]] 的"重造轮子/退步"批评，不裁定对错；② 幂等性已有 [[幂等性]]、[[幂等性设计]]、[[idempotency]]、[[duplicate-submit]] 四个重叠页，本次不新建第五页，选择把 [[幂等性]] 扩为总纲并在其余三页补互链，四方案与既有 Token/唯一标识/AOP 三方案为**展开关系而非矛盾**；③ 覆盖索引在 [[BPlusTree]] 与 [[索引失效]] 中原有"全扫更小的树"语境，与新页"有序定位后免回表"语境不同，已在 [[BPlusTree]] 增加区分说明
+- **去重**: 未发现重复文；两篇「终码一生」文章与既有 [[摘要-王者荣耀-为什么不用微服务]]、[[摘要-支付系统流程拆解与结构设计]] 同源公众号但主题不同，按惯例不建「终码一生」实体页（纯文本记录）
+- **校验**: 新建 9 页的 Frontmatter 与「关联连接」区块逐一核查；修复编辑过程中 [[MySQL]] 第 58 行被误拼接的换行；[[Redisson]] 原有 [[distributed-lock]] 链接在替换时误删，已恢复并在 [[distributed-lock]] 页补反向链接，避免既有图谱断裂
+- **归档**: 3 个源文件已移动至 raw/09-archive/

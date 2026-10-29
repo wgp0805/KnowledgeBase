@@ -2,8 +2,8 @@
 title: "Redisson"
 type: entity
 tags: [Redis, 分布式锁, Java, 限流, 秒杀]
-sources: [raw/09-archive/秒杀系统怎么区分真实用户和黄牛脚本？.md]
-last_updated: 2026-08-20
+sources: [raw/09-archive/秒杀系统怎么区分真实用户和黄牛脚本？.md, raw/09-archive/2026-10-28 - SpringBoot接口幂等性方案：4种策略+代码实战，告别重复提交.md]
+last_updated: 2026-10-29
 ---
 
 ## 定义
@@ -16,6 +16,21 @@ Redisson 是一个高级的 Redis Java 客户端，提供了分布式锁（RLock
 - 与 RedisTemplate 对比：Redisson 封装了分布式数据结构，RedisTemplate 是基础客户端
 - 分布式对象：RBucket、RMap、RList、RSet 等
 
+### RLock 做幂等的标准姿势（2026-10 补充）
+```java
+if (!lock.tryLock(3, 5, TimeUnit.SECONDS)) return fail("处理中，请稍后");
+try {
+    if (repo.existsByRequestId(cmd.getRequestId())) return ok("已扣减");
+    repo.deductStock(cmd);
+} finally {
+    if (lock.isHeldByCurrentThread()) lock.unlock();
+}
+```
+- `tryLock(3, 5, SECONDS)`：最多等 3 秒、持锁 5 秒自动释放——**两个时间都不能省**，否则要么线程堆积、要么死锁
+- **锁不替代幂等**：串行化只把并发变成排队，第二个请求照样会进来，必须靠 `requestId` 幂等表兜底
+- `isHeldByCurrentThread()` 防误删他人锁
+- 详见 [[分布式锁]]、[[幂等性]]、[[摘要-springboot接口幂等性4种策略]]
+
 ### RRateLimiter 与热点 Key 陷阱
 - `RRateLimiter` 是 Redisson 提供的分布式限流器，底层是 Lua 脚本，每次 acquire 走一次 Redis 往返
 - **限流器自己就是一个 Redis Key**：秒杀峰值下全站请求都往同一个限流 Key 上打，该 Key 瞬间变成整个集群最热的 [[热点Key]]，把所在节点单独烤糊
@@ -24,7 +39,9 @@ Redisson 是一个高级的 Redis Java 客户端，提供了分布式锁（RLock
 
 ## 关联连接
 - [[Redis]] — 底层存储
-- [[distributed-lock]] — 分布式锁概念
+- [[分布式锁]] — 分布式锁概念（含幂等双保险用法）
+- [[distributed-lock]] — 分布式锁同名英文页（Redisson 代码示例）
+- [[幂等性]] — tryLock + 幂等表的标准姿势
 - [[RedisTemplate]] — Spring Redis 客户端
 - [[热点Key]] — RRateLimiter 陷阱
 - [[两级限流]] — 正确使用姿势
