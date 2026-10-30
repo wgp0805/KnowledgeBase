@@ -1,0 +1,1 @@
+Couldn't find the requested file /app/src/main/assets/plugin.js in qiusunshine/hikerView.

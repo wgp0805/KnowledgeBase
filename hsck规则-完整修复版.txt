@@ -1,0 +1,138 @@
+var d = [];
+var host = config.host
+MY_URL = host+ MY_URL.replace('hiker://empty##','')
+if(MY_URL.includes('首页')){
+    MY_URL = host
+}
+log(MY_URL)
+var html = fetch(MY_URL)
+//eval(JSON.parse(request('hiker://page/huadong')).rule)
+
+if(MY_PAGE==1){
+    d.push({
+        title: "🔍",
+        url: $.toString((r) => {
+            putMyVar('keyword', input);
+            return 'hiker://search?rule=' + r + '&s=' + input;
+        }, MY_RULE.title),
+        desc: '搜你想要的',//搜索关键词
+        col_type: "input",
+        extra: {
+            defaultValue: getMyVar('keyword', '') || "",
+        }
+    });
+}
+
+if(MY_YEAR_URL === "更换网址"){
+
+    var urls = {
+       urlArr: [
+'http://hsck.cc/',
+'http://hsck.net/',
+//'http://hsck.us/', 
+//'http://hscangku.com/'
+        ]
+      }
+
+    var url = urls.urlArr[Math.floor(Math.random() * urls.urlArr.length)]
+    //log(url)
+    let chong = pdfh(fetch(url),"script&&Html")
+    let strU = chong.split("\"")[1] + url + chong.split("\"")[3]
+    let link = JSON.parse(fetch(strU, {onlyHeaders:true})).url
+    setItem('link', link);
+    //toast('更新域名');
+    log("最新地址:"+link)
+    
+function getBigText(text, count) {
+    if (count > 0) {
+        for (let i = 0; i < count; i++) {
+            text = text.big();
+        }
+    } else {
+        for (let i = 0; i < -count; i++) {
+            text = text.small();
+        }
+    }
+    return text;
+}
+
+d.push({
+    title: "““””"+getBigText("<big><font color='#FEBD6F'>已更新网址</font></big><br><small><font color='#FB6C73'>"+link+"</font></small>", 5),
+    col_type: 'text_center_1',
+    url: $('#noLoading#').lazyRule((link) => {
+return link
+     },link),
+    extra:{lineVisible:false}
+})
+for (var b = 0; b < 3; b++) {
+d.push({
+    img: $.require("img").img1,
+    col_type: "pic_1_full",
+    url: $('#noLoading#').lazyRule(() => "toast://💝💝💝"),
+})
+}
+
+}else if(MY_CLASS_URL === "首页") {
+ if(MY_PAGE == 1){
+    var 分类列表 = 'body&&.stui-warp-content&&h3:has(a)';
+    var 分类标题 = 'h3--a&&Text';
+    var 大类列表 = 'body&&.stui-warp-content&&.stui-pannel:has(li)';
+    var 小类列表 = 'body&&li:not(:has(a[target]))';
+    var 标题 = 'h4&&Text';
+    var 描述1 = 'p--.number--.pull-right&&Text';
+    var 描述2 = '.pic-text&&Text';
+    var 图片 = 'a&&data-original';
+    var 链接 = 'a&&href';
+    var 样式 = 'movie_2'; eval(JSON.parse(fetch('hiker://page/首页标签', {})).rule);
+     }
+}else{
+    var list = parseDomForArray(html, '.stui-vodlist&&li:not(:has(a[target]))');//列表
+    if(list.length !==0 ){
+list.forEach(video => {
+    var p = parseDom(video, 'a&&href');
+    if (p.indexOf('http') !== 0) {
+        p = MY_URL.split('/').slice(0, 3).join('/') + p;
+    }
+    d.push({
+        title: parseDomForHtml(video, 'a&&title'),//标题
+        desc: '📆'+parseDomForHtml(video, '.sub--.pull-right--.pull-right&&Text') + "\t\t\t\t\t\t\t\t\t⏰" + parseDomForHtml(video, '.pic-text&&Text'),//描述
+        pic_url: parseDom(video, 'a&&data-original') + '@Referer=https://666549.xyz/',//图片
+        url: $("#noLoading#").lazyRule(function(u) {
+            var Q = String.fromCharCode(39);
+            var h = fetch(u);
+            var i = h.indexOf("var AID=" + Q);
+            var j = h.indexOf("var AK=" + Q);
+            var as = h.indexOf("var ASID=" + Q);
+            var an = h.indexOf("var ANID=" + Q);
+            if (i < 0) return "";
+            if (j < 0) return "";
+            if (as < 0) return "";
+            if (an < 0) return "";
+            var AID = h.substring(i + 9, h.indexOf(Q, i + 9));
+            var sid = h.substring(as + 10, h.indexOf(Q, as + 10));
+            var nid = h.substring(an + 10, h.indexOf(Q, an + 10));
+            var tk = h.substring(j + 8, h.indexOf(Q, j + 8));
+            var host = u.split("/").slice(0, 3).join("/");
+            var B = String.fromCharCode(38);
+            var d = "id=" + AID + B + "sid=" + sid + B + "nid=" + nid + B + "tk=" + tk + B + "g=1" + B + "x=100" + B + "y=100" + B + "dt=300" + B + "sw=1080" + B + "sh=1920" + B + "tz=-480" + B + "t=" + Date.now();
+            var r = JSON.parse(fetch(host + "/static/count.php", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With": "XMLHttpRequest" }, body: d }));
+            if (!r) return "";
+            if (!r.ok) return "";
+            if (!r.u) return "";
+            return base64Decode(r.u);
+        }, p),
+        col_type: 'movie_2',//组件样式
+    });
+})
+}else{
+    if(MY_PAGE==1){
+    d.push({
+    title: '““””<big><font color=yellow>请更换网址</font></big>',
+    desc: '““””<big><font color=green>分类右下角</font></big>',
+    url: "hiker://empty",
+    col_type: 'text_center_1',extra:{lineVisible: false}
+              });
+     }
+            }
+}
+setResult(d);

@@ -6,13 +6,13 @@
   "userId": "o9cq80-mHk0Co7ULGPCamtz20kY0@im.wechat",
   "fromUserId": "o9cq80-mHk0Co7ULGPCamtz20kY0@im.wechat",
   "toUserId": "9c6e66d1410f@im.bot",
-  "contextToken": "AARzJWAFAAABAAAAAACXQUXB2sdDA2eBqYHhaiAAAAB+9905Q6UiugPBawU3n3cyzQX+LkN8ofRzsCZYN0mt7v9QJ/cIHaQ03Fu75te7AMwzhzZIFm5keS5WtCdjxMoCUIi4KHiz",
+  "contextToken": "AARzJWAFAAABAAAAAACOOQw4fKdl0AHaPjTjaiAAAAB+9905Q6UiugPBawU3n3cyzQX+LkN8ofRzsCZYN0mt7gtQa3KiCM3OgM966nBGGd98tltuuI82jmcaAoP6sC1IpJR2EPP6",
   "capabilities": {
     "sendText": true,
     "sendFile": true,
     "sendImage": true
   },
-  "updatedAt": 1793163690007,
+  "updatedAt": 1793274943361,
   "targetId": "o9cq80-mHk0Co7ULGPCamtz20kY0@im.wechat",
   "uniqueKey": "weixin:c2c:o9cq80-mHk0Co7ULGPCamtz20kY0@im.wechat"
 }

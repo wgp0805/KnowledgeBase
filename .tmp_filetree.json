@@ -1,0 +1,10 @@
+{
+	"type": "gh",
+	"name": "qiusunshine/hikerView",
+	"version": "5de88090",
+	"status": 403,
+	"message": "Package size exceeded the configured limit of 50 MB.",
+	"links": {
+		"stats": "https://data.jsdelivr.com/v1/stats/packages/gh/qiusunshine/hikerView@5de88090"
+	}
+}
