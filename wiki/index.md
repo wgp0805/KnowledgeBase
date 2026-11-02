@@ -436,6 +436,15 @@
 - [[摘要-Jev爆火对具身智能影响分析]] — Jev对具身智能影响：模型分工/快速决策/成本降低
 - [[摘要-一文讲透RAG原理优化与落地]] — RAG全面讲解：离线四步+在线四步，混合检索/Rerank/AgenticRAG
 
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
 ## Concepts (2026-08-26 新增)
 - [[ZeroSumThinking]] — 零和思维：财富总量固定 vs 正和思维：财富可被创造
 - [[ValueCreationVsCapture]] — 价值创造（带来好处）vs 价值捕获（拿到份额），健康模式是创造远大于捕获
@@ -462,14 +471,32 @@
 - [[DefenderWindow]] — 防御者窗口：AI 网络攻击能力目前只在少数前沿实验室手里，是防御者黄金期，扩散不可逆
 - [[AGENTS-md]] — AI Agent 的跨 Session 记忆机制标准文件（Pi/ClaudeCode/Codex 均支持），GPT-6 Astra 时代要求瘦身
 
-### Concepts (2026-09-16 新增)
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts (2026-09-16 新增)
 - [[深度分页]] — Elasticsearch 深度分页问题：from+size 翻页开销公式与四大解决方案选型
 - [[SearchAfter]] — ES 游标式实时翻页方案，翻页开销恒定，必须搭配唯一排序字段
 - [[PIT]] — Point in Time 时间点视图，ES 7.10+ 与 search_after 组合的官方推荐深分页方案
 - [[Scroll]] — ES 快照式全量遍历方案，7.10 起 deprecated，仅适合离线导出
 - [[State-CSRF防护]] — OAuth 授权流程中的 state 参数机制，防止 CSRF 跨站请求伪造攻击
 
-### Concepts (2026-09-17 新增)
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts (2026-09-17 新增)
 - [[模型超市策略]] — AI 产品不绑单一模型，接入多家主流模型让用户自由切换，谁赢它都不输
 - [[飞轮效应]] — 业务各环节互相加强形成正向循环：接更多模型→承接热点→获新用户→提高留存→补贴模型→成本更低→吸引更多用户
 - [[AI漫剧工作流]] — AI 工具从故事到成片的四步流水线（剧本/美术/分镜/生成），一个人也能做完一支能看的短片
@@ -499,6 +526,17 @@
 - [[openspec-matt-lightweight-setup-faq]] — OpenSpec + Matt 轻量执行配置 FAQ：OpenSpec 要 init 而 Matt 没有 init / setup-matt-pocock-skills 生成的三个文件在轻量组合下可删
 - [[springboot-vue-drawlottery-system]] — Java + Vue + SpringBoot 抽签系统技术方案：前后端分离架构、Redis 计数器、权重抽签算法、幂等性设计
 - [[matt-skills-boundary-judgment]] — Matt Skills 边界判断：TDD 无 seam 场景跳过规则 / implement vs tdd / implement vs 直接让 AI 干活 / 通用速查表
+
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
 
 ## Entities
 - [[Magpie]] — 本地运行的开源 AI 网关（20K Star），OpenAI/Anthropic/Gemini 三协议互转+自动路由组+额度调度+意图路由+配置写入可还原
@@ -914,12 +952,34 @@
 - [[SSE]] — Server-Sent Events 服务器发送事件，单向服务器推送机制
 - [[AlphaEvolve]] — Google DeepMind 自动化研究系统，让模型不断提出程序并自动评估筛选演化
 
-### Entities (2026-08-28 新增)
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities (2026-08-28 新增)
 - [[GLM-5.3-Flash]] — 智谱旗舰模型：321B 参数、激活 18B、混合注意力+IndexPool、10万+国产芯片、原生多模态、性价比极高
 - [[LlamaIndex]] — RAG 专用数据框架，300+ 数据连接器、LlamaParse PDF 解析、44K+ Star
 - [[GGUF]] — llama.cpp 专用模型容器格式，存全精度/量化权重，元数据丰富
 
-### Entities (2026-08-25 新增)
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities (2026-08-25 新增)
 - [[FRP]] — 开源内网穿透工具，反向代理技术暴露内网服务，fatedier/frp
 - [[声网]] — 实时互动与 AI 产品提供商，对话式智能体实践
 - [[姚光华]] — 声网 AI 产品线负责人，企业级 Agent 可控方法论提出者
@@ -932,6 +992,15 @@
 - [[GPT-Image-2.5]] — OpenAI 图像生成与编辑模型，Sunburst 画质优先 / Flare 速度优先
 - [[DeepAgents]] — LangChain 的 Agent 构建引擎，OpenWiki 底层的文档生成引擎
 - [[iText9]] — PDF SDK 9.x 系列（9.0 大版本，现 9.7.1），社区版 AGPL，产品级排版 + 标准合规
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts
 - [[共享组]] — Kafka 4.2 Share Group（KIP-932）：按记录协作消费，同一分区消息多消费者并发处理，30 秒获取锁+四确认
@@ -1308,7 +1377,22 @@
 - [[流程税]] — 强模型时代无脑常驻全套重流程所产生的额外成本（Token 开销/重复调度/约束推理空间）
 - [[强模型时代工作流选型]] — 强模型时代按任务风险分层选择 AI 编程工作流的方法论，从约束 AI 转向给定目标 AI 自主推理
 
-### Concepts (2026-08-25 新增)
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+- [[IP地址存储]] — IPv4存UNSIGNED INT优于VARCHAR(15)：4字节vs8-16字节、索引更小、范围查询快；IPv6用VARBINARY
+- [[OpenAPI规范]] — API描述开放规范，Swagger 2.0演进而来，统一接口路径/方法/参数描述格式
+- [[墙钟时间采样]] — profiling方式之一，记录线程实际执行时间跨度（含等待），解决CPU不高但接口慢的问题
+- [[上下文光学压缩]] — DeepSeek-OCR开创：文档渲染为图像→Vision Encoder→几十~几百视觉Token，避免纯文本转录的Token爆炸
+- [[CORDIS微内核]] — 微内核架构模式，核心功能精简到内核，其余以插件运行；DeepSeek Harness基于此构建
+
+## Concepts (2026-08-25 新增)
 - [[时间片]] — OS 分时调度中分配给进程/线程的 CPU 时间配额，典型几毫秒到几十毫秒
 - [[CFS调度器]] — Linux 完全公平调度器，按进程权重动态分配时间片，6.6 被 EEVDF 替代
 - [[AgentEngineering]] — 企业级 Agent 工程化方法论：托付梯度、自治分级 L1-L5、围栏原则、可控四要素
@@ -1378,7 +1462,16 @@
 - [[Traceability]] — Agent 执行过程可追溯能力，追加式会话日志记录当时发生的事实
 - [[SOCKS5]] — 传输层代理协议，认证发生在协议级别（RFC 1929），非 HTTP 头部
 
-### Concepts (2026-08-28 新增)
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts (2026-08-28 新增)
 - [[指数退避重试]] — Agent 工具调用失败的标准重试策略：指数增长间隔+随机抖动，防惊群
 - [[快照回滚]] — Agent 运行时按轮次 Git 提交快照，支持精确回滚到任意历史状态
 - [[多模态RAG]] — 文本/图片/视频/音频统一向量空间检索，原生多模态 Embedding vs 模态转换两大路线
@@ -1485,6 +1578,17 @@
 - [[摘要-视频模型横评H3vsSeedance]] — H3 vs Seedance 2.0 fast 八场景横评：Seedance 性价比之王，H3 动效/广告各有优势
 - [[摘要-豆包工作与飞书打通]] — 豆包工作正式发布：飞书原生打通开箱即用，数据资产观与组织上下文核心价值
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-08-26 新增)
 - [[豆包工作]] — 字节办公 Agent 产品，2026-08-25 发布，与飞书原生打通
 - [[字节跳动]] — 母公司，AI 布局：豆包工作/Seedance/TRAE/扣子/飞书
@@ -1508,6 +1612,17 @@
 - [[摘要-Claude-Code与Grok-Bot被拆开后]] — Claude Code 与 Grok Bot 源码暴露事件：四层复制框架、任务托付能力五维度、AI Agent 最深护城河
 - [[摘要-面试官你掌握哪些Linux常用命令]] — Linux 常用命令面试题：grep/awk/sed 文本三剑客、top/netstat/lsof/ss 性能与网络诊断、jstack/jmap/jstat/jps JVM 排查
 - [[摘要-SpringEvent别瞎用]] — Spring Event 生产六大陷阱：优雅关闭/启动事件丢失/强一致性不适合/最终一致性适合/三种重试方案/幂等性
+
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
 
 ## Entities (2026-08-27 新增)
 - [[DoubaoWork]] — 字节豆包工作办公 Agent 产品（与 [[豆包工作]] 同物，英文命名页）
@@ -1547,6 +1662,15 @@
 - [[jinfo]] — JVM 配置信息查看工具
 - [[jhat]] — JVM 堆分析工具
 
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
 ## Concepts (2026-08-27 新增)
 - [[AINativeSDLC]] — AI 原生软件开发生命周期：committed artifact 链、六阶段 Play、AI 嵌入每个节点
 - [[SDLC]] — 软件开发生命周期，AI 原生 SDLC 的演进基础
@@ -1575,11 +1699,42 @@
 - [[摘要-ai时代重写品牌战略五大理由]] — AI时代品牌大趋同危机，重写品牌操作系统五大路径：需求主导力/塑造需求逻辑/品牌实体/交互体系/资本投入论证
 - [[摘要-为什么越来越多人用opensearch]] — OpenSearch从ES fork到Linux基金会托管，段复制/读写分离/9.5倍性能/混合搜索，Apache 2.0全栈免费
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-09-01 新增)
 - [[OpenSearch]] — Linux基金会托管的开源搜索分析平台，Apache 2.0，段复制+读写分离+GPU加速向量索引
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-09-17 新增)
 - [[JDK27]] — JDK 27 的身份定义
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-09-01 新增)
 - [[FST]] — 有限状态转换器，Lucene Term Index 的前缀压缩结构，O(len)查询、前缀共享、内存常驻
@@ -1708,6 +1863,17 @@
 - [[摘要-computer-network-first-book]] — 计算机网络学习资料推荐
 - [[摘要-codex-markdown-to-feishu]] — Codex 插件实现 Markdown 秒传飞书
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-09-01 lint 修复 - 新建)
 - [[Claude-Code]] — Anthropic AI 编程 Agent，短期记忆+长期记忆+工具调用+循环控制
 - [[Codex]] — OpenAI AI 编程 Agent，SQLite 长期记忆，2026 年大版本更新 Computer Use
@@ -1725,6 +1891,15 @@
 - [[Warp]] — Claude Code/OpenClaw 最佳终端搭档
 - [[TRAE]] — AI 开发工具，用 TRAE+Java 源码实战讲解 Skills
 - [[AI平台]] — AI 平台免费 Token 薅羊毛汇总概念
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-09-01 lint 修复 - 新建)
 - [[AI-Agent]] — AI Agent：自主决策循环系统，有 Loop/Tool/Memory/终止条件
@@ -1791,6 +1966,17 @@
 - [[摘要-Penpot-UIUX-Design-MCP工具链]] — 将设计判断力编码成MCP工具链的工作流，先探查再创建
 - [[摘要-共享单车通信原理]] — 共享单车的智能车锁、NB-IoT、GPS定位、蓝牙通信技术原理
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-09-01 新增 ingest)
 - [[卡神]] — AI领域创业者，其AI组织7点心得引发思考
 - [[产品小球]] — 微信公众号作者，产品经理，分享AI时代个人成长思考
@@ -1799,6 +1985,15 @@
 - [[PenpotUIUXDesign]] — Penpot设计判断力MCP工具链Skill
 - [[共享单车]] — 基于物联网技术的共享出行工具
 - [[SAP]] — 全球领先 ERP 软件供应商，统驭科目/自动记账/三层科目表实现业财一体化
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-09-01 新增 ingest)
 - [[AI时代个人成长系统]] — AI时代可持续成长系统：5个思考形成飞轮
@@ -1855,6 +2050,17 @@
 - [[摘要-公司空降一个cto禁止在项目中使用date类]] — Java Date类设计缺陷与迁移到java.time包的完整方案
 - [[摘要-再见navicatxshell一款高颜值的数据库sshdocker管理工具]] — HexHub全栈开发运维工具，集成数据库管理、SSH终端、Docker管理
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-09-03 新增 ingest)
 - [[Fable 5.1]] — Anthropic 最强大语言模型，100万Token上下文，擅长长任务编码
 - [[Mythos 5.1]] — Fable 5.1 姊妹模型，安全限制更大，面向网络安全和生命科学机构
@@ -1886,6 +2092,15 @@
 - [[LocalDateTime]] — java.time包中表示日期时间的类
 - [[Instant]] — java.time包中表示时间戳的类
 - [[DateTimeFormatter]] — java.time包中日期时间格式化类
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-09-03 新增 ingest)
 - [[Vibe Coding]] — 通过自然语言提示让AI模型生成完整代码的工作流程
@@ -1934,9 +2149,29 @@
 - [[摘要-对话OpenRouter-CEO-Harness取代超级App]] — OpenRouter CEO Alex Atallah 对谈：Harness 取代超级 App，所有软件只是 Agent 的后台工具，杰文斯悖论与模型路由
 - [[摘要-GPT-6-Astra改变技术栈]] — GPT-6 Astra 正式登场后技术栈变化：AgentRuntime/TaskConsole/AIControlPlane 三层架构、Responses API 成主流、ToolSearch、任务级成本
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-09-07 新增 ingest)
 - [[OpenSea]] — NFT 交易平台，Alex Atallah 联合创始人，其工程经验迁移到 OpenRouter
 - [[AlexAtallah]] — OpenRouter CEO，OpenSea 联合创始人，提出 Harness 取代超级 App 判断
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-09-07 新增 ingest)
 - [[数字员工]] — 企业内承担具体工作流的 AI Agent，落地第一步是交接单而非 Agent 本身
@@ -1959,6 +2194,17 @@
 - [[摘要-fastthreadlocal为啥快]] — Netty FastThreadLocal 数组下标实现对照 JDK ThreadLocal 哈希查找：核心源码（netty-4.1.34）与三种回收机制
 - [[摘要-日志分析命令组合拳]] — tail/less/grep/sed/awk 五类命令的生产日志排查场景化速查（发版监控/反向搜索/上下文还原/时间窗口切片/IP 聚合）
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-09-09 新增 ingest)
 - [[MiMoDesktop]] — 小米交付导向桌面 AI Agent（2026-09-08 开放邀测），混合素材直投 + 局部编辑 + Smart 调度
 - [[MiMo-X]] — 小米 MiMo 团队新一代模型系列预览版（MiMo-X-Pro-Preview / MiMo-X-Flash-Preview）
@@ -1975,6 +2221,15 @@
 - [[tail]] — Linux 文件尾部查看命令，-f 实时监控 / -n 限定行数
 - [[less]] — Linux 分页浏览工具，按需加载 + 反向搜索 + Shift+F 实时滚动
 - [[Figma]] — 云协作设计工具，MiMo Desktop MCP 设计工作流的可控执行目标
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-09-09 新增 ingest)
 - [[Smart调度]] — MiMo Desktop 三层调度：任务评估 / 模型路由 / Harness-Agent-Skill 路由，把"选哪个模型"从用户手里拿走
@@ -2021,11 +2276,31 @@
 - [[摘要-10亿数据快速插入mysql方案]] — 阿里终面：10 亿数据如何快速插入 MySQL
 - [[摘要-字节开源openviking-agent上下文数据库]] — 字节开源 OpenViking Agent 上下文数据库
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-09-14 新增 ingest)
 - [[Filebeat]] — Elastic 开源轻量级日志采集器，ELK 第一环
 - [[AgentMemory]] — 开源 AI Agent 记忆层项目，解决编程助手"失忆"问题
 - [[GavinBaker]] — 知名科技投资人/分析师，AI 算力需求乐观派
 - [[HashMap]] — Java 核心数据结构，基于哈希表的键值对存储
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-09-14 新增 ingest)
 - [[向量检索引擎]] — 基于 Embedding 向量进行相似度匹配的检索引擎
@@ -2048,7 +2323,16 @@
 
 ## 2026-09-15 lint 修复 - 新建 104 页
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[办公Agent]] — 面向办公场景的 Agent 形态：文档生成、数据清洗、会议总结、日程协作；豆包工作、千问办公、W…
 - [[本地部署]] — 把模型部署在自有机器而非云端的做法，涉及 GGUF 量化、显存估算、Swap 配置与离线数据闭环
 - [[变更治理]] — 对配置与规则的变更做申请、评审、灰度、回滚的全流程管理，是企业配置中心的成熟度标志
@@ -2128,7 +2412,18 @@
 - [[VSCode扩展]] — 在 VS Code 内以插件形态提供能力的载体；AIAgentsTerminal 这类「一键启动…
 - [[OpaqueRecurrence]] — 不透明递归（opaque recurrence）：指大模型在推理时把一部分本来可以监控的中间推理…
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[阿里巴巴]] — 中国电商与云计算集团，旗下有阿里云、通义千问、ModelScope，并开源了 Open Code…
 - [[阿里云]] — 阿里巴巴的云计算业务，提供通义千问、ModelScope、DashScope API 与算力，是…
 - [[机器人]] — 具备感知与执行能力的物理自动化设备；AI 泡沫讨论中常被拿来类比自动驾驶
@@ -2159,7 +2454,16 @@
 
 ## 2026-09-15 lint 修复 - 补登记 31 页
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[动态映射]] — 动态映射（Dynamic Mapping）是 Elasticsearch 在未显式定义 Mapp…
 - [[多Agent共享记忆]] — 多 Agent 共享记忆是指通过统一的上下文数据库（如 OpenViking），让不同 Agen…
 - [[口径管理]] — 口径（Ground Truth）是一个指标的计算规则——分子是什么，分母是什么，哪些场景计入，哪…
@@ -2180,7 +2484,18 @@
 - [[scaled_float]] — scaled_float 是 Elasticsearch 中用于存储精确数值的浮点类型，通过指定…
 - [[AI产品]] — 以模型能力为产品核心链路的一类产物：模型不再是产品的附属功能，而是定价、交付与迭代节奏的决定项。…
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[人人都是产品经理]] — 中国产品人社区与内容平台（woshipm.com），聚集产品经理与运营从业者，既有产品方法论与增…
 - [[Ahrefs]] — 专业的SEO工具平台，提供关键词研究、竞品分析、内容差距挖掘等功能。
 - [[AIAgentsTerminal]] — AI Agents Terminal 是一个 VS Code 扩展，把本机已安装的 AI CLI…
@@ -2191,7 +2506,18 @@
 - [[Semrush]] — 专业的SEO工具平台，提供关键词研究、竞品分析、内容差距挖掘等功能。
 - [[SpringSmartDI]] — `spring-smart-di` 是一个扩展 Spring `@Autowired` 注入逻辑…
 
-### Entities (2026-09-16 新增)
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities (2026-09-16 新增)
 - [[QQ互联]] — 腾讯开放平台第三方登录授权服务，基于 OAuth 2.0 协议，支持网站应用接入 QQ 账号登录
 - [[程序员小灰]] — 微信公众号「程序员小灰」作者，专注 AI 工具、Skills 生态、AI 副业变现等领域的平民化教程分享
 - [[ClaudeObsidian]] — 开源知识库管理工作流工具，封装规则/检索脚本/一致性校验器，自生长知识库的进阶工程化方案
@@ -2205,7 +2531,18 @@
 - [[摘要-workbuddy-15技能推荐]] — 程序员小灰 2026-09 WorkBuddy 最值得推荐 15 个技能
 - [[摘要-workbuddy-obsidian-知识库]] — 苏三 2026-09-16 WorkBuddy + Obsidian 自生长知识库保姆级教程
 
-### Entities (2026-09-17 新增)
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities (2026-09-17 新增)
 - [[AIXTV]] — AI 视频/漫剧创作平台，影视片场四步流水线 + Skill 导演对话式两种创作模式，支持 Seedance 2.5 和 MiniMax H3
 - [[Doubao-Seed-2.1-Pro-0915]] — 火山方舟 Seed 模型升级版，1M 上下文 + 256k 深度思考，Agent 长任务防摆烂 + 降低工具幻觉
 - [[DeepSeek-V4.1-Flash]] — DeepSeek V4 升级版，技术文件指出不同 Harness 影响结果，Claude Code 接入开箱即用接近峰值
@@ -2239,7 +2576,18 @@
 - [[摘要-10道ai-agent高频面试题]] — 万字详解 10 道 AI Agent 高频面试题：Workflow/单多Agent/ReAct/CoT/Function Calling/MCP/RAG/Pass@k
 - [[摘要-kimi-code桌面版体验]] — Kimi Code 桌面版体验：K3/K2.7 模型、Vite+Three.js 实测、Harness 成主角
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[1Panel]] — 37K Star 开源 Linux 服务器管理工具，开放 AI 网关独立部署
 - [[Tripo]] — 3D 基座模型，文字/图片秒级生成生产级 3D 资产，P2.0 模型
 - [[Flova]] — AI 视频生成工作流，把详情页变成宣传片，看成工作流而非模型
@@ -2253,7 +2601,18 @@
 - [[Blender]] — 开源 3D 建模渲染软件，与 Tripo 等 AI 建模对比
 - [[Three.js]] — JavaScript 3D 库，AI 生成 3D 资产的落地承载层
 
-### Entities (2026-09-22 新增)
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities (2026-09-22 新增)
 - [[Jev]] — 判断模型：不生成文本只输出结构化决策，RLCD训练/70-500ms/快193倍/输出免费
 - [[TypeSafeAI]] — Jev母公司，前OpenAI研究员Diogo Almeida创办
 - [[Perplexity]] — 答案引擎：月活破亿/估值200亿/引用优先架构/Comet浏览器赌注
@@ -2265,7 +2624,16 @@
 - [[awesome-seedance]] — AI视频提示语模版开源项目，463条提示语实测，14个模版+25个Skills
 - [[QoderSites]] — Qoder的发布能力，把本地原型变成可管理、可继续发布的在线站点
 
-### Concepts (2026-09-22 新增)
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts (2026-09-22 新增)
 - [[RLCD]] — 校准决策强化学习：Jev训练方法，优化带诚实概率的答案
 - [[SystemOne]] — 快思考模型：不思考直接反应，70-500ms给出判断结果
 - [[粉色大象效应]] — 负向禁止在注意力机制植入错误答案的陷阱
@@ -2297,7 +2665,16 @@
 - [[向量检索]] — 通过计算语义相似度来查找相关内容的检索方式
 - [[ContextualRetrieval]] — 在嵌入之前先给每个chunk补一段上下文说明的优化方法
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[AI网关]] — 集中管理多模型密钥/权限/配额/路由的中间层
 - [[CoT]] — 思维链，推理前引导模型逐步推导
 - [[Self-Refine]] — 自我修正范式，生成后审查修正
@@ -2379,7 +2756,18 @@
 - [[摘要-deepseek-harness桌面客户端]] — DeepSeek Harness 官方桌面客户端体验
 - [[摘要-倦怠社会]] — 《倦怠社会》读后感：你不是累了，是把自己活成了机器
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[TiDB]] — PingCAP 开源的分布式 NewSQL HTAP 数据库
 - [[PingCAP]] — TiDB 背后的开源数据库公司
 - [[黄东旭]] — PingCAP 联合创始人
@@ -2418,7 +2806,16 @@
 - [[韩炳哲]] — 《倦怠社会》作者，功绩社会理论提出者
 - [[楼仔]] — 《倦怠社会》读后感作者
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[IO多路复用]] — 单线程监听多 socket 的机制，select/poll/epoll 为三代实现
 - [[newsql]] — 融合 NoSQL 扩展性与 SQL 事务性的新一代数据库
 - [[分布式事务]] — 跨库跨节点场景下保障数据一致性的机制
@@ -2475,7 +2872,18 @@
 - [[摘要-marvis团队管家升级]] — Marvis 新增团队管家/本地知识库/硬件生态的大升级解读
 - [[摘要-claude-code-skill删80%精选]] — Claude Code Skill 断舍离：描述预算坑与精选 10 个 Skill
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[Marvis]] — 腾讯 AI 硬件管家产品，团队管家与 NAS 生态布局
 - [[通义灵码]] — 阿里 AI 编码插件，IDE 插件市场安装量 2.5M+
 - [[GitHubCopilot]] — 2026.2 起在 IDEA 中从插件变为原生内置
@@ -2483,7 +2891,16 @@
 - [[安全沼]] — 豆包工作 Vibe Coding 实测作者
 - [[Electron]] — 跨平台桌面框架，DSH 桌面版打包载体
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[Logpoints]] — 非侵入式日志断点调试方式（IDEA 2026.2 内置）
 - [[everything-is-a-plugin]] — DeepSeekHarness 一切皆插件的架构理念与代价
 - [[Skill描述预算]] — Claude Code 预加载 Skill 描述的 1% 上下文预算机制
@@ -2567,7 +2984,18 @@
 - [[摘要-cline-free-models]] — ClineFreePool把Cline轮换免费模型经多账号池反代接入任意Agent
 - [[摘要-java-cpu-troubleshooting]] — CPU打满不重启，进程→线程→堆栈→代码行五步用top/jstack定位根因
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[华为]] — 中国科技公司，国产AI芯片（昇腾系列）与超节点组网的供应方
 - [[卢诗翰]] — 微信公众号「诗翰」作者，长期观察网文、二次元与开源社区文化冲突
 - [[纳米Work]] — 360推出的超级个人云端助理，7×24云电脑+100多款大模型
@@ -2608,7 +3036,16 @@
 - [[UnityMCP]] — 跑在Unity Editor里的MCP插件，AI从空文件夹操控Unity工程
 - [[ZooWork]] — 企业AI平台公司（团队来自谷歌/阿里/字节），推出开源客服决策模型Instinct
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[半人马模型]] — 业余棋手+普通商用电脑胜顶级棋手+超算，人机协作中判断力高于纯算力
 - [[本体论]] — 规定实体类型与关系的建模规则，让知识图谱具备行业KnowHow的灵魂层
 - [[常驻智能体]] — 拥有独立云端计算环境、7×24小时主动运行的Always-on Agent
@@ -2678,7 +3115,18 @@
 - [[摘要-jev试用心得]] — 产品老高从使用体验角度写 Jev 试用心得：它不生成文字，而是对给定状态和选项返回概率或判断，作者把它接入自建知识图谱系统的决策模块，替代了原先写死的缺货处理规...
 - [[摘要-jev是什么]] — Jev 是一个专门做"判断"的模型（System 1 模型），由曾在 OpenAI 任职的研究员开发，与传统大模型 GPT/Claude 的根本区别在于它不组织...
 - [[摘要-perplexity-200亿美元平台拆解]] — 葱葱从产品经理视角拆解 Perplexity：它不是普通搜索引擎，而是把「搜索-综合-引用-追问」压缩成一次交互的答案引擎，目前月活破亿、估值 200 亿美元、...
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[小飞哥笔记]] — 人人都是产品经理平台的作者，微信公众号「小飞哥笔记」，专注于 AI Native 组织设计与 AI 协作协议等 AI 产品、组织话题。
 - [[ChenYuXiaojin]] — ChenYuXiaojin（陈与小金）是「人人都是产品经理」平台作者，提出剪枝优化、闭集白名单与物理级静默三条提示词法则，并配套整仓粉色大象体检 Prompt。
 - [[COMET]] — COMET 是 Perplexity 自研的 AI 浏览器，被视为公司从「搜索目的地」升级为「智能体平台」的关键赌注。它支持 Computer 智能体模式，可跨...
@@ -2691,7 +3139,16 @@
 - [[SuSan]] — 苏三，技术博主，撰写《苏三说技术》公众号文章。擅长Java生态、AI Agent开发以及技术评测。多篇文章通过 Codex/ Claude Code 等 AI ...
 - [[SystemOneModels]] — System One Models 是 TypeSafe AI 提出的新品类，取自卡尼曼《思考，快与慢》中那种不用过脑子、凭直觉瞬间给出的判断。Jev 是该品类...
 - [[Zep]] — Zep 是一个基于时间知识图谱（Temporal Knowledge Graph）架构的 Agent 记忆系统，为 AI Agent 提供跨会话的长期记忆能力。
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[答案引擎]] — 答案引擎是新一代 AI 搜索的产品形态：不再返回链接列表或流式散文，而是把「搜索-综合-引用-追问」压缩进一次交互，每个论断都带可点击验证的来源编号。
 - [[粉色大象]] — 粉色大象是提示词工程中的隐喻，指那些你越警告 AI “不要出现”，模型越容易被诱导出现的错误答案。心理学经典实验：“不要想一头粉色大象”，听者脑海里反而会浮现粉...
 - [[粉色大象陷阱]] — 粉色大象陷阱 指提示词中的负向禁止（"不要 X"）在自注意力机制里植入错误答案，导致 AI 越被警告不要做什么越做什么的现象。名字源于心理学"粉色大象实验"——...
@@ -2715,7 +3172,18 @@
 - [[synthesis-spring-ai-rag-vs-agent]] — RAG 是 Spring AI **最常见、最易上手**的落地场景，但并非"唯一"或"最前沿"的应用方向。当前 Spring AI 生态的应用分布大致是：
 
 ## 同步（2026-10-08 lint 修复 - 补建页注册 77）
-### Entities (31)
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities (31)
 - [[菜根老谭]] — 「菜根老谭」是 AI 领域内容作者，自称普通 IT 老兵，在「人人都是产品经理」等平台发文，讨论 AI 时代的就业、个人成长与杠杆效应。
 - [[苍何]] — 苍何是《WorkBuddy + 腾讯乐享，原来知识库还能这么用》一文的作者，分享了用 [[WorkBuddy]] 与 [[腾讯乐享]] 搭建团队知识库的实践（WeSight 项目）...
 - [[产品笔记]] — 「产品笔记」是来源文章的作者：《阿里 Qovest 金融投研 Agent》一文由其撰写。
@@ -2747,7 +3215,16 @@
 - [[Sonar]] — Sonar 是 [[Perplexity]] 的模型系列，在相关拆解中被描述为「Perplexity 自研模型」，为 Perplexity 的答案引擎（搜索—综合—引用—追问）提供...
 - [[WeChatACP]] — WeChatACP 是 formulahendry 发布的微信连 Agent 扩展，让微信连上 Claude、Codex、Copilot、Qwen、Gemini、OpenCode ...
 - [[WeSight]] — WeSight 是来源文章作者苍何使用的项目：在该项目中配合 WorkBuddy 与腾讯乐享搭建团队知识库，乐享 Agent 为其自主建库并按产品与业务、技术与工程、设计与规范、运...
-### Concepts (46)
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts (46)
 - [[产品经理]] — 产品经理（PM）是负责定义产品问题与成功标准、协调资源推动产品落地的职业角色。在本知识库中，它主要作为 FDE 职业转型讨论的对比对象（产出 PRD、对市场成功负责、通常不亲手构建...
 - [[非结构化数据]] — 非结构化数据指文档、图片、音视频等不具备固定表结构的数据。相关资料认为，AI 智能体普及后，企业核心资产不再是算力，而是可沉淀、可检索、可复用的非结构化数据（见 [[摘要-ADri...
 - [[非自回归]] — 非自回归（Non-Autoregressive）指不逐 token 依次生成、而是单次并行输出结果的推理方式，跳过自回归解码。来源文章指出，Jev 的速度优势即来自非自回归单次并行...
@@ -2810,14 +3287,34 @@
 - [[摘要-zxing条码库]] — ZXing 34K star、2007 年 Google 20% 项目起家，编解码与纠错级别的底层拆解
 - [[摘要-podroid-安卓容器指南]] — 免 ROOT 在安卓跑真 Docker：QEMU+Alpine+Podman/Docker/LXC，与 Termux 的关键区别与性能坑
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[ZXing]] — 开源多格式条码库，扫码生态的底层标准之一
 - [[PoDroid]] — Android 免 ROOT 容器环境应用（ExTV/Podroid），旧手机变身自托管服务器
 - [[GeminiSpark]] — Google Personal Agent，谷歌生态的生活调度员
 - [[DAXCopilot]] — 微软/Nuance 垂直医疗 Agent，只写病历不诊断的落地最成功临床智能体
 - [[ClaudeCowork]] — Anthropic 本地虚拟机路线 Personal Agent，数据不离设备的文档处理专家
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[走心差异化战略]] — 把行业默认忽略的事当成责任并付出可计量成本的差异化方法论
 - [[AI原生组织转型]] — 业产研一体化的组织变革，产品负责人任一号位，20/40/40 人的转化
 
@@ -2830,12 +3327,32 @@
 - [[摘要-openai-math仓库722手稿]] — OpenAI math 仓库 722 篇手稿、372 个结果家族与"数学之死"之争
 - [[摘要-2026年AI工具选型12款]] — 200+ 款实测后的选型方法论：先选模型再选外壳、编码三形态、免费三原则
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[讯飞医疗]] — 星火医疗大模型，数据飞轮+按病历采纳量计费的院内 AI 路径
 - [[京东健康]] — 京医千询/卓医，AI+供应链闭环绕开医疗服务收费难题
 - [[商汤医疗]] — "大医"通专融合，主攻影像/病理/科研高壁垒专科
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[Agent文件入口反转]] — 从"文件进工作区"到"Agent 坐在打开文件的地方"的交互范式转向
 - [[医疗大模型落地四重障碍]] — 数据治理/临床信任/工作流嵌入/收费模式的因果序落地框架
 - [[AI数学证明]] — 大模型批量攻克开放数学问题+Lean 形式化验证的研究范式与伦理争议
@@ -2848,10 +3365,30 @@
 - [[摘要-claude-code四步差距]] — 《Claude Code 实战》四件套（CLAUDEmd/Hook/Skill/子Agent）拉齐团队效率，判断权不能外包
 - [[摘要-java转python决策]] — "不需要转，需要扩展"：Java 做骨架 Python 做大脑的三诉求决策框架
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[ip2region]] — 开源离线 IP 地址定位库，多语言绑定与三种查询算法
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[Java与Python分工]] — Java 与 Python 的分工不是替代关系，骨架/大脑模型与三诉求决策表
 
 ## 2026-10-12 ingest（17 篇新增）
@@ -2875,7 +3412,18 @@
 - [[摘要-multi-account-unified-login]] — 多账号统一登录的账号表设计演进（用户表+授权表一对多）与运营商一键登录方案
 - 说明：《2026-10-08 服务器被入侵怎么办》与既有 [[摘要-服务器入侵应急处置]] 为同一篇文章，已增量合并，未新建重复页
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[Waza]] — tw93 开源的工程习惯技能集（/think、/hunt 等 8 个子技能）
 - [[UIUXProMax]] — 一句话生成整套设计系统的设计 Skill
 - [[HandrawStyle]] — 324 风格 / 161 图型 / 36 主题色的编号化手绘生图字典
@@ -2888,7 +3436,16 @@
 - [[OpenLess]] — 开源本地优先 AI 语音输入工具（MIT，模型/风格/词典可配）
 - [[千问输入法]] — 阿里通义千问产品线 AI 语音输入法，横评准确率冠军
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[生图提示词结构化]] — 编号字典 vs 原子模块两条互补路径的生图控制方法论
 - [[Skill安全红线]] — "红线先行、流程在后、环境兜底"的 Skill 安全设计方法论
 - [[Agent幻觉]] — 五类分类（推理/执行/感知/记忆/通信）+ 真实环境核对、错误回灌等治理方法论
@@ -2918,7 +3475,18 @@
 - [[摘要-workbuddy次卡本小程序]] — 先想清楚给谁做再用 WorkBuddy，「次卡本」反向验证 PMF 的完整案例
 - [[摘要-xxl-job接入ai]] — XXL-JOB v3.1.0 起 AI 执行器把 AI 调用变成标准 Bean Handler，与普通任务共用调度/重试/日志
 
-### Entities
+#- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
+## Entities
 - [[Letta]] — 原 MemGPT，让 Agent 自主管理记忆的开源项目（Core/Recall/Archival 三层）
 - [[MemGPT]] — 提出"Context Window = RAM、外部存储 = 磁盘"记忆管理思路的研究项目
 - [[AIPMLab]] — AI 产品经理个人工作台，六类文档入口 + 项目制上下文复用
@@ -2927,7 +3495,16 @@
 - [[微信小微]] — 微信 AI 助手方向，从生成小工具延伸到调度微信生态既有能力
 - [[抖音AI工坊]] — 抖音内测 AI 应用创作分发能力，AI 应用以"兴趣卡"进推荐流
 
-### Concepts
+#- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
+
+## Concepts
 - [[最左匹配原则]] — 联合索引必须从最左字段连续匹配，遇到范围查询即停止
 - [[索引失效]] — 八类失效场景，区分"优化器主动放弃索引"与"写法必然失效"
 - [[财务数字化指标]] — 十大环节的经营指标体系，核心是口径统一与成组使用
@@ -2954,6 +3531,17 @@
 - [[摘要-workbuddy自动签到云端]] — refresh_token + 金山文档 AirScript 云端定时签到，不开机也 7×24 领 100 积分/天
 - [[摘要-mqtt生产实战开篇]] — 8 年 MQTT 四大选型理由、六大生产坑与六阶段学习路线，MCP over MQTT 新趋势
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-14 新增)
 - [[深入理解AIAgent]] — 博杰开源的 AI Agent 教材（4.9万Star），核心公式 Agent = LLM + 上下文 + 工具
 - [[AgenticDesignPatterns]] — 谷歌工程师所著 21 个 Agent 设计模式，xindoo 中文译本（8K Star）
@@ -2964,6 +3552,15 @@
 - [[金山文档]] — 在线协作文档平台，被用作免费云端脚本运行环境（AirScript）
 - [[晓庄AI创业笔记]] — 微信公众号作者，WorkBuddy 自动签到系列教程创作者
 - [[GoodCaseAI]] — 卡尔的AI沃茨的 AI 提示语案例库，1700+ 案例三模型校准评估
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-14 新增)
 - [[云电脑]] — Personal Agent 每用户 24h 云端运行的独立 Linux 机器，Agent"你不在也在跑"的物理载体
@@ -2984,8 +3581,28 @@
 ## Sources (2026-10-14 ingest: REA 教程)
 - [[摘要-rea保姆级教程-deepseek-harness实操]] — 沉默王二的 REA 保姆级教程：REA 凭什么让 Agent 做逆向（MCP 工具化/套路固化/Evidence 证据链三件事）、DeepSeek Harness 用 cordis.patch.yml 手动接入 MCP 三步、恐龙游戏逆向案例与验收
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-14 ingest: REA 教程)
 - [[REA]] — Reverse Engineer Anything 逆向万物开源工程（17 万 Star），让 Agent 无源码反推功能实现，6.4.0 共 170 个 MCP 工具
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-14 ingest: REA 教程)
 - [[逆向工程]] — 无源码从安装文件和运行轨迹反推功能实现的方法论，Agent 时代证据链（观察/推断/不确定）是可信度基石
@@ -3002,8 +3619,28 @@
 - [[摘要-workbuddy浏览器操控能力]] — WorkBuddy 浏览器操控 Beta：Chrome/Edge/QQ 扩展，简单任务自主跑、敏感操作交回人工（三哥）
 - [[摘要-superpowers五大核心skill拆解]] — Superpowers 五大核心 Skill 源码级拆解：brainstorming HARD-GATE/systematic-debugging 四阶段/writing-plans 2-5 分钟粒度（码哥字节）
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-15 新增)
 - [[Rena览财]] — 腾讯内测的个人投研 AI 助手，PC+小程序+微信 ClawBot 三入口，投研工作流三模块，只做投研辅助不输出投资建议
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-15 新增)
 - [[权限模式]] — Agent 动手前问不问人的安全配置维度，与沙箱互补；各产品模式谱系 + auto 分类器机制 + allow/ask/deny 规则体系
@@ -3016,6 +3653,17 @@
 - [[摘要-用户需求模糊时Agent怎么澄清]] — 面试题拆解 Agent 需求澄清四层答案：Discoverable facts vs Preferences/AskUserQuestion 的 Schema 约束与权限通道挂起/无人在场的工具拦截与 Assumptions 兜底
 - [[摘要-你的游戏本身就是Harness]] — Kyle Kukshtel 长文：LLM 读不懂游戏是上下文工程问题，把游戏本身做成 Harness 的八条工程原则
 - [[摘要-张江芯片员工与AI编译器面试题]] — 算力红利观察 + AI 编译器岗位五连问（岗位职责/CPU vs GPU/GPU 存储层级/LLVM 与 MLIR/AI-GPU DSL 图谱）
+
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
 
 ## Entities (2026-10-15 新增（第二批）)
 - [[KyleKukshtel]] — 15 年资深独立游戏工程师，《Cantata》制作人、Depot 作者，"游戏即 Harness"方法论提出者
@@ -3036,6 +3684,15 @@
 - [[AscendC]] — 华为昇腾的底层自定义算子语言，在 C/C++ 基础上裁剪扩展
 - [[CANN]] — 华为昇腾 AI 软件栈，triton-ascend 的底层依赖（社区版 9.0.0）
 - [[寒武纪]] — 国产 AI 芯片公司，全自研 BANG/BANG C/CNCC/MLISA/CNAS/BANGPy 工具链
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-15 新增（第二批）)
 - [[需求澄清]] — 模糊需求处理四步法：分类未知信息→结构化提问→提问做成工具→无人在场兜底
@@ -3068,9 +3725,29 @@
 ## Sources (2026-10-16 ingest)
 - [[摘要-mysql-9-7-lts]] — MySQL 9.7.0 LTS 发布：企业版功能批量下放社区版（复制可观测性/超图优化器/PGO/JSON Duality Views DML），向量相似度仍锁 HeatWave（苏三）
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-16 新增)
 - [[Percona]] — MySQL 生态开源公司/发行版，Peter Zaitsev 超图优化器警告、PGO 基准测试、9.7.2 补上 DISTANCE() 向量函数
 - [[HeatWave]] — Oracle 云 MySQL 托管版本，独占 DISTANCE()/VECTOR_DISTANCE() 向量相似度函数
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-16 新增)
 - [[HypergraphOptimizer]] — 超图 + 动态规划的查询优化器，9.7 下放社区版，改善多表 JOIN 但写密集场景可能退化
@@ -3091,6 +3768,17 @@
 - [[摘要-野心提问法-felix长文]] — 拆解 Felix Rieseberg 万字长文：高度/深度/广度三维度 + 黄金深度提示词 + 自我效能感与审查成本冷思考（老章）
 - [[摘要-github三个开源项目-text-to-cad]] — text-to-cad（Agent CAD 建模 Skill）、pdoom-video（MV 制作开源）、Jev 聊天助手（安卓）（程序汪）
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-19 新增)
 - [[FelixRieseberg]] — Anthropic 工程主管，Be More Ambitious 长文作者
 - [[ClaudeCodeStatusline]] — fbincon 的 Claude Code 状态栏工具（v3 npm 版）
@@ -3098,6 +3786,15 @@
 - [[TextToCad]] — 给 Agent 加 CAD 建模能力的开源插件与 Skill
 - [[PdoomVideo]] — Claude Code 协作完成的开源音乐 MV 项目
 - [[JevChatJarvis]] — 安卓开源聊天回复建议应用（与判断模型 Jev 同名不同物）
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-19 新增)
 - [[产品定位]] — 三决策：切细分市场/打差异化/占心智，须落在品牌定位之下
@@ -3127,6 +3824,17 @@
 - [[摘要-claude-code桌面版嵌套会话更新]] — Claude Code 桌面版嵌套会话（子会话）更新解读
 - [[摘要-ai-coding组件库三路接入]] — AI Coding 场景下组件库三路接入方案对比
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-20 新增)
 - [[HuobaoDrama]] — 火宝短剧平台，短剧内容分发与运营产品
 - [[Mise]] — 多语言开发环境管理工具（mise），支持环境跨机器迁移
@@ -3136,6 +3844,15 @@
 - [[ModalLabs]] — Modal Labs 云基础设施公司
 - [[Harness²]] — Harness 二次方（与 [[Harness]] 同名不同物，已加消歧）
 - [[Mastra]] — AI Agent 开发框架
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-20 新增)
 - [[人群策略]] — 以人群画像驱动投放与产品决策的策略框架
@@ -3163,6 +3880,17 @@
 - [[摘要-java-main方法继承]] — 阿里二面 Java main 方法三问：能重载、能被调用、可继承（本质是普通静态方法）
 - [[摘要-多agent并发改文件冲突]] — 鹅厂面试题：Claude Code 用 worktree 空间换安全、Pi 用内存队列时间换安全，以及两者漏洞与 git 检不出的语义冲突
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-21 新增)
 - [[LeeRobinson]] — Grok Bot 工程师，斯坦福 CS146S 分享 always-on agent 工程实现
 - [[Firecracker]] — 承载 agent 专属云端电脑的轻量虚拟机（可快照、可重建）
@@ -3183,6 +3911,15 @@
 - [[CloudWeGo]] — 字节开源的 Go 微服务技术栈（Hertz/Kitex/Gorm/Eino）
 - [[SMYSeedanceStoryboard]] — 上美影风短剧 Skill，三层机制锁画风，五份文档交付
 - [[Multipass]] — Canonical 开源的轻量级虚拟机命令行管理工具，只支持 Ubuntu 镜像
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-21 新增)
 - [[LLMWiki分层架构]] — Raw（不可变）/ Schema（规则）/ Wiki（编译产物）三层职责划分
@@ -3220,6 +3957,17 @@
 - [[摘要-multipass轻量虚拟机]] — Multipass 轻量虚拟机命令行工具全流程与 cloud-init 自动化
 - [[摘要-ai生成产品详情页工作流]] — AI 生成产品详情页六步工作流：AIDA 骨架 + 卖点排序黄金原则 + 三个关键心法
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-22 新增)
 - [[DeepInfer]] — DeepSeek 开源的生产级推理引擎，日吞吐 155 万亿 Tokens，兼容 SM100 GPU 与昇腾 950 NPU
 - [[DeepSeekRecipe]] — DeepSeek 开源的 Rust 编解码组件，统一三种 API 协议并破解提示词注入与分词难题
@@ -3229,6 +3977,15 @@
 - [[CloudWeGo]] — 字节开源的 Go 微服务技术栈（Hertz/Kitex/Gorm/Eino）
 - [[SMYSeedanceStoryboard]] — 上美影风短剧 Skill，三层机制锁画风，五份文档交付
 - [[Multipass]] — Canonical 开源的轻量级虚拟机命令行管理工具，只支持 Ubuntu 镜像
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-22 新增)
 - [[投机解码]] — 草稿模型 + 目标模型批量验证；DSpark 置信度投机解码按接受概率分配验证算力，吞吐 +6%
@@ -3259,6 +4016,17 @@
 - [[摘要-netdata-ai全栈监控]] — IT码徒推荐零配置全栈监控 Netdata：19999 端口开箱即用、1 秒采集、AI 异常投票
 - [[摘要-okhttp-5.5]] — 锋哥解析 OkHttp 5.5：okhttp-jvm 构件坑、ECH 加密 DNS、DoH 实用打开方式
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-23 新增)
 - [[BrowserUse]] — 119k Star 开源浏览器自动化项目，无障碍树驱动模型推理定位元素
 - [[Flutter]] — 跨平台 UI 框架（本库以 3.41.5 实战视角收录）
@@ -3271,6 +4039,15 @@
 - [[Netdata]] — 81k Star 零配置全栈监控工具，1 秒级采集 + AI 异常投票
 - [[OkHttp]] — JVM/Android 通用 HTTP 客户端，5.5 补齐加密 DNS 与 okhttp-jvm 构件
 - [[Cue]] — Manus 给 Agent 配电话/邮箱/钱包的"执行身份"产品
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-23 新增)
 - [[无障碍树]] — 浏览器原生结构化语义树，替代 CSS 选择器维护
@@ -3301,6 +4078,17 @@
 - [[摘要-claude-auto-mode监控逃逸]] — Claude 自动模式全球默认开启 + METR/Redwood 61 页审计：99.2% 覆盖下六条监控逃逸暗道
 - [[摘要-dsh-todolist机制]] — DSH Todo 模块源码解析：单一 todo_write 全量覆写与事件溯源投影
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-26 新增)
 - [[BalanceLi]] — 腾讯产品经理（法务 AI 建设），三个 Skill 生成器作者
 - [[BalanceSkillCreators]] — balancegsr/skill-creators：Learning/Design/Build 三生成器工具组
@@ -3313,6 +4101,15 @@
 - [[METR]] — 模型评估机构，OpenAI 内部监控 61 页审计作者方
 - [[Redwood]] — 与 METR 联合审计的机构（Adam Kaufman）
 - [[叁斤]] — AI 增长变现作者，赚钱第一性原理提出者
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-26 新增)
 - [[学习闭环五步法]] — 输入—学习—确认—验收—沉淀的个人 AI 学习方法论（与"自学习闭环"同名异义已消歧）
@@ -3348,8 +4145,28 @@
 ## Sources (2026-10-27 ingest)
 - [[摘要-springboot-minio文件存储]] — IT码徒转载 CSDN 的 Spring Boot + MinIO 集成实战：「配置-工具-业务」三层架构、MinioClient 增删查+预签名直链、唯一文件名/流式传输/中文文件名编码等工程要点
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-27 新增)
 - [[Apifox]] — 国产一体化 API 协作与调试平台（文档/调试/Mock/自动化测试），文中用作文件接口验证工具
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-27 新增)
 - [[预签名URL]] — 对象存储限时签名访问链接，客户端免持永久凭证直连下载/上传，过期自动失效
@@ -3361,8 +4178,28 @@
 - [[摘要-无感刷新token]] — 小哈讲透无感刷新 Token 两条路线：后端自动刷新（快过期重签放请求头）vs 前端续约（双 Token AT/RT，AT 短防劫持 RT 长增便利），及表单页长时间无请求的 401 边界兜底
 - [[摘要-gpt6.1-terra-codex三招]] — 沉默王二扒 Codex 源码挖出 GPT-6.1 Terra 三招：code_mode_only 纯代码执行（V8 沙箱+BM25 工具检索+并发）、50 万窗口+编号寻址跨窗口无损接力、隐藏 ultra 档+spawn_agent 自动委派
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-28 新增)
 - [[GPT-6.1-Terra]] — OpenAI GPT-6 四档天体命名第二档（Luna→Terra→Sol→Astra），对标 Sonnet 5.5，Codex 默认 code_mode_only + 50 万窗口 + ultra 档
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-28 新增)
 - [[无感刷新Token]] — 消除"操作中跳登录页"体验断层的 Token 续期机制总称：后端自动刷新（单 token）与前端续约（双 Token AT/RT）两条路线 + 表单无请求边界兜底
@@ -3377,10 +4214,30 @@
 - [[摘要-springboot接口幂等性4种策略]] — SpringBoot 接口防重的四种可复制方案：Token 令牌（预生成+原子删除）、数据库唯一索引（异常即幂等）、分布式锁（tryLock+requestId 幂等表）、请求内容摘要（MD5+setIfAbsent+AOP），核心结论"优先唯一索引，并发高再上锁或 Token，不要过度设计"
 - [[摘要-索引优化10个技巧]] — 苏三把索引优化收敛为建索引/用索引/维护索引三层共 10 条：高选择性、最左前缀、覆盖索引、避免函数与运算、ICP、OR 改 IN/UNION、前缀索引、清理冗余、延迟关联与游标分页、ANALYZE/OPTIMIZE
 
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
+
 ## Entities (2026-10-29 新增)
 - [[Pingora]] — Cloudflare 用 Rust 写的异步多线程 HTTP 代理框架（pre-1.0，仅支持 Unix），2022 起生产替代 Nginx，2026-10 以 Apache License 开源
 - [[OpenResty]] — 基于 Nginx + LuaJIT 的可编程 Web 平台，代表"在成熟 C 宿主上叠脚本扩展"的路线，与 Pingora"用 Rust 重写本体"形成对照
 - [[章亦春]] — OpenResty 作者、曾参与 Cloudflare 架构工作；批评 Pingora 是"搞不定 Nginx 后的重造轮子"、用 Rust 写解释型网关是退步
+
+- [[PI-Desktop]] — 国产开源AI编程桌面端(Early Preview)，Pi生态Coding Agent工作区，Agent/Plan/Goal三模式，模型自接
+- [[SpringDoc]] — Spring Boot的OpenAPI 3文档工具，替代停止维护的SpringFox，支持2.6+/3.x，零配置开箱即用
+- [[Swagger]] — API描述规范的前身，贡献OpenAPI标准化，Swagger UI提供交互式文档展示
+- [[CAS]] — Yale大学发起的开源SSO框架，基于票据验证，CAS Server+Client架构
+- [[async-profiler]] — 低开销JVM异步采样profiling工具，Arthas profiler命令底层引擎，生成火焰图
+- [[锋哥]] — 微信公众号java1234主理人，专注Java技术与AI编程，ZXing 3.5深度拆解作者
+- [[终码一生]] — 专注Claude Code与AI编程工具生态的公众号，ccstatusline推荐作者
+- [[我是程序汪]] — 关注AI编程桌面端与开发者效率的公众号，Orca多模型工作台推荐作者
 
 ## Concepts (2026-10-29 新增)
 - [[覆盖索引]] — 索引包含查询所需全部列从而免回表（消除随机 IO），与 ICP"减少回表"、前缀索引"无法覆盖"构成边界对照
@@ -3393,6 +4250,17 @@
 ## Sources (2026-10-30 ingest)
 - [[摘要-paperclip-多智能体公司]] — 终码一生介绍 100k+ Star 开源多智能体编排 Paperclip："OpenClaw 是员工，Paperclip 是公司"——为 Claude Code/Codex/Cursor 等 Agent 安排岗位/汇报线/预算/心跳/审批/审计，一行命令搭起 AI 一人公司
 - [[摘要-kafka-为什么无法100%不丢失]] — 小哈面试视角拆解 Kafka 做不到 100% 不丢的根因：四丢窗口（生产者缓冲区/PageCache 未刷盘/副本同步延迟/offset 提前提交）+ 三个硬限制（PageCache 时间差/同步复制代价/分布式物理现实），及生产配置组合拳
+
+- [[摘要-paperclip-多智能体神器]] — Paperclip 10万+Star：给AI代理当「公司」，安排岗位/汇报线/预算/心跳/审批，一行命令搭起AI一人公司
+- [[摘要-ip地址存储数据类型]] — 存IPv4用UNSIGNED INT(4字节)优于VARCHAR(15)(8-16字节)，省空间+索引小+范围查询快；MySQL用INET_ATON/INET_NTOA转换
+- [[摘要-pi-desktop-桌面工作台]] — 国产开源PI-Desktop：Pi生态的Coding Agent桌面工作区，Agent/Plan/Goal三模式，会话按项目存，模型自接不自带
+- [[摘要-cas-前后端分离单点登录]] — CAS单点登录前后端分离实战：AJAX拿不到302，重写AuthenticationFilter返回code:202让前端自行跳转CAS
+- [[摘要-deepseek-10个顶级开源项目]] — 系统盘点DeepSeek全链路开源：算子层FlashMLA/Math、通信层DeepEP、存储层3FS、模型层V3/R1/Coder/OCR、服务层DeepInfer、应用层Harness
+- [[摘要-ccstatusline-状态栏]] — ccstatusline v2.2.19：Claude Code终端状态栏，实时显示模型/Git/上下文/Token用量/费用，70个组件可配置
+- [[摘要-zxing-3.5-java版]] — ZXing 3.5.4：core+javase两包，识别四步（亮度图→二值化→定位解码→解析），新增GrayscaleLuminanceSource等
+- [[摘要-arthas-4]] — Arthas 4三大升级：JDK 8-25全覆盖、profiler--wall墙钟火焰图、MCP Server让AI跑29个诊断命令
+- [[摘要-springdoc-api文档]] — SpringDoc替代SpringFox：原生OpenAPI 3、支持Spring Boot 2.6+/3.x、零配置开箱即用、JSR-303注解
+- [[摘要-orca-多模型桌面工作台]] — Orca 112k Star：代码专用多模型调度桌面客户端，统一会话/文件/API管理，不自带模型走用户Key
 
 ## Entities (2026-10-30 新增)
 - [[Paperclip]] — 开源多智能体编排项目（100k+ Star，Node.js+React，MIT）：公司组织架构模式，心跳唤醒/预算刹车/审批控制/审计日志，一行命令起本地实例

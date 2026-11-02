@@ -2010,3 +2010,7 @@
 
 ## [2026-11-02] query | 解析 Orca 工作空间是否同步内容到项目文件夹
 - **输出**: 引用 [[Orca]], [[Worktree]], [[摘要-orca-ade多agent协作]]。结论：Orca 不做自动同步，而是"挑一份最满意合并"——各 Agent 在独立 worktree 目录+分支改，跑完并排看 diff 人工挑选后 git 合并回项目文件夹，合并仍可能报冲突；知识库未记载"实时增量同步"机制
+## [2026-11-02] ingest | 摄取 10 篇 01-articles 文章（Paperclip多智能体 / IP地址存储 / PI-Desktop / CAS单点登录 / DeepSeek开源版图 / ccstatusline / ZXing 3.5 / Arthas 4 / SpringDoc / Orca多模型桌面端）
+- **变更**: 新增 Sources (10): [[摘要-paperclip-多智能体神器]], [[摘要-ip地址存储数据类型]], [[摘要-pi-desktop-桌面工作台]], [[摘要-cas-前后端分离单点登录]], [[摘要-deepseek-10个顶级开源项目]], [[摘要-ccstatusline-状态栏]], [[摘要-zxing-3.5-java版]], [[摘要-arthas-4]], [[摘要-springdoc-api文档]], [[摘要-orca-多模型桌面工作台]]; 新增 Entities (8): [[PI-Desktop]], [[SpringDoc]], [[Swagger]], [[CAS]], [[async-profiler]], [[锋哥]], [[终码一生]], [[我是程序汪]]; 新增 Concepts (5): [[IP地址存储]], [[OpenAPI规范]], [[墙钟时间采样]], [[上下文光学压缩]], [[CORDIS微内核]]; 增量更新既有页 (10): [[Paperclip]]（+10-30来源）、[[Orca]]（+112k Star版本+多模型调度）、[[ccstatusline]]（+中文安装版+功能细化）、[[Arthas]]（+Arthas 4全量升级）、[[ZXing]]（+3.5.4版本演进+包结构）、[[DeepSeek]]（+开源版图全链路解剖）、[[SSO]]（+方案对照表+CAS前后端分离适配）、[[CAS协议]]（+过滤器链+前后端分离改造）、[[苏三]]（+DeepSeek开源版图+Arthas 4）、[[小哈]]（+IP地址存储+CAS+SpringDoc）、[[程序员追风]]（+Paperclip+PI-Desktop）; 更新 [[index.md]]（Sources +10 / Entities +8 / Concepts +5 / 更新 10 页）
+- **冲突**: 无。Orca 的新文章（112k Star）与旧文章（6.7万 Star）为同一项目不同时间快照，Star 数增长属正常演进非矛盾；DeepSeek 开源版图为新增维度（算子/通信/存储/模型/服务/应用六层）而非与既有记录矛盾
+- **归档**: 10 个源文件已移动到 raw/09-archive/
