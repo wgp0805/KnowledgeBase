@@ -16,7 +16,7 @@ parse_status: "ok"
 
 直到摸到 Orca，这个项目地址放前面：https://github.com/stablyai/orca
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NBT8VqawBPPL3JN5RNUFq2zN6n8jjeZBKYxy8thcxtWbvSLFKQYiag9r9R9xhdMxe61VvY1Jv83w3eW1CuXEhpfpoiahWUzltibg1bsoUU8sOg/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-01%20-%20%E7%BB%88%E4%BA%8E%E6%9C%89%E6%A1%8C%E9%9D%A2%E7%89%88%E4%BA%86%EF%BC%81112k%20Star%EF%BC%8CClaude%20Codex%20Cursor%E4%B8%80%E4%B8%AA%E7%AA%97%E5%8F%A3%E5%85%A8%E6%90%9E%E5%AE%9A/db7de2fa63ca595503bc67ec0c922fa3_MD5.png)
 
 它不是新模型，是一个**本地桌面端的代码Agent工作台**，简单一句话：把Claude、OpenAI Codex、Cursor配套模型、还有一堆代码专用模型塞进同一个客户端里，不用来回切网页和IDE，在同一个窗口里完成代码阅读、重构、调试、写脚本、查架构。
 
@@ -31,7 +31,7 @@ parse_status: "ok"
 - 多Key管理麻烦：不同模型不同服务商，Key分散在各个地方，切换一次就要改一次配置；
 - 缺少面向代码的会话管理：一堆代码问答散在历史对话里，想按项目归类、按文件分组很难。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NBT8VqawBPPtiasPVhlDWjcQLv6XOFRIuINf6Pk9s8Wmibxj7n8OkAkQia1jXXAdqGRqWWic2A7ia9pwksicD3FolMgHQ7qgm4bsS2vfcStCqnwmI/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-01%20-%20%E7%BB%88%E4%BA%8E%E6%9C%89%E6%A1%8C%E9%9D%A2%E7%89%88%E4%BA%86%EF%BC%81112k%20Star%EF%BC%8CClaude%20Codex%20Cursor%E4%B8%80%E4%B8%AA%E7%AA%97%E5%8F%A3%E5%85%A8%E6%90%9E%E5%AE%9A/10f9393162bcab9a445a0fb0357ed54b_MD5.png)
 
 Orca的定位就是**代码专用的多模型调度桌面客户端**。它做的事情很纯粹：统一会话、统一文件上传、统一API管理，模型只是后端可插拔的选项。
 
@@ -41,7 +41,7 @@ Orca的定位就是**代码专用的多模型调度桌面客户端**。它做的
 
 同一个对话窗口，上一句用Claude 3.7 Sonnet读大仓库架构，下一句直接切Codex做函数补全，再切别的模型做review。**对话历史、粘贴的代码、上传的文件全部保留**，不用复制导出再粘贴。 这点和普通多模型聊天工具最大区别：它原生针对代码场景优化，支持一次性批量上传多个源码文件、文件夹，自动识别代码语言，不会把一堆代码当成普通文本乱压缩。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/NBT8VqawBPPI3xhjBpFKz4HmMGQEa0iaTx6j9EYUSlnh8qRU8NnZPWY6YUh8SIwFODpJLGBOmJrM6GlKmiccribABoy0f4gmtibXRiczabc1fIkY/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-01%20-%20%E7%BB%88%E4%BA%8E%E6%9C%89%E6%A1%8C%E9%9D%A2%E7%89%88%E4%BA%86%EF%BC%81112k%20Star%EF%BC%8CClaude%20Codex%20Cursor%E4%B8%80%E4%B8%AA%E7%AA%97%E5%8F%A3%E5%85%A8%E6%90%9E%E5%AE%9A/934417d97c1fa8c57efaa6b0390e7fed_MD5.png)
 
 支持的模型列表里，大家最关心的几个：
 
@@ -70,7 +70,7 @@ Orca的定位就是**代码专用的多模型调度桌面客户端**。它做的
 
 两种方式，优先用release包，不想下exe就源码跑。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/NBT8VqawBPNFUzTWJGBYXN1JnBL3WicSTU31BA8s1FRdJH0lzjJZPIEOicxKnKZB87CHt6PKcJEUucj8EMGOicsuwp3R4oTfCmIWRPaiaSCyibd8/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-01%20-%20%E7%BB%88%E4%BA%8E%E6%9C%89%E6%A1%8C%E9%9D%A2%E7%89%88%E4%BA%86%EF%BC%81112k%20Star%EF%BC%8CClaude%20Codex%20Cursor%E4%B8%80%E4%B8%AA%E7%AA%97%E5%8F%A3%E5%85%A8%E6%90%9E%E5%AE%9A/02cf78306ed07e072d08cc435dcc91a4_MD5.png)
 
 ### 方式1：直接下载桌面安装包（推荐，最简单）
 

@@ -22,13 +22,13 @@ parse_status: "ok"
 
 GitHub上有个开源工具叫ccstatusline，正好完美解决了这个问题。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=0)
+![图片](assets/2026-10-31%20-%20%E7%BB%99ClaudeCode%E8%A3%85%E4%B8%8A%E8%BF%99%E4%B8%AA%E8%B6%85%E9%85%B7%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8F%EF%BC%8C%E9%80%BC%E6%A0%BC%E7%9E%AC%E9%97%B4%E6%8B%89%E6%BB%A1%EF%BC%81/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 01
 
 它是什么？
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg#imgIndex=1)
+![图片](assets/2026-10-31%20-%20%E7%BB%99ClaudeCode%E8%A3%85%E4%B8%8A%E8%BF%99%E4%B8%AA%E8%B6%85%E9%85%B7%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8F%EF%BC%8C%E9%80%BC%E6%A0%BC%E7%9E%AC%E9%97%B4%E6%8B%89%E6%BB%A1%EF%BC%81/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 ccstatusline是给Claude Code CLI做的终端状态栏工具。它把模型名称、Git分支、Token用量、上下文占用、费用估算、实时速度这些数据，全部实时显示在终端底部。
 
@@ -36,15 +36,15 @@ GitHub上已经9k+ Star，版本迭代到了v2.2.19，更新挺勤快的。
 
 它有个交互式的TUI配置界面，70个组件随便挑、随便排位置，还支持Powerline主题，终端颜值直接拉满。仓库README里有一个完整的演示动图，配置的时候不知道怎么弄，可以参考那个动图。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=2)
+![图片](assets/2026-10-31%20-%20%E7%BB%99ClaudeCode%E8%A3%85%E4%B8%8A%E8%BF%99%E4%B8%AA%E8%B6%85%E9%85%B7%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8F%EF%BC%8C%E9%80%BC%E6%A0%BC%E7%9E%AC%E9%97%B4%E6%8B%89%E6%BB%A1%EF%BC%81/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 02
 
 核心功能
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg#imgIndex=3)
+![图片](assets/2026-10-31%20-%20%E7%BB%99ClaudeCode%E8%A3%85%E4%B8%8A%E8%BF%99%E4%B8%AA%E8%B6%85%E9%85%B7%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8F%EF%BC%8C%E9%80%BC%E6%A0%BC%E7%9E%AC%E9%97%B4%E6%8B%89%E6%BB%A1%EF%BC%81/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/wzfB4YnnqWoicC71IgOUHxL9TBW0c6iaQB2cUj8mMwW2KR0tSjREEUVZ8BxkK6mHflWN4OppxV5YiaC2nk4HLGOON1MVDogYEB4Fmq7TkyicFRQ/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![图片](assets/2026-10-31%20-%20%E7%BB%99ClaudeCode%E8%A3%85%E4%B8%8A%E8%BF%99%E4%B8%AA%E8%B6%85%E9%85%B7%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8F%EF%BC%8C%E9%80%BC%E6%A0%BC%E7%9E%AC%E9%97%B4%E6%8B%89%E6%BB%A1%EF%BC%81/2da01b778e932c4a9de831ec6be9758a_MD5.png)
 
 Token和费用监控
 
@@ -70,13 +70,13 @@ Powerline主题
 
 不用手写JSON。跑一条命令就弹出一个终端UI，在里面添加组件、删除组件、排序、设置颜色、切换主题、实时预览，全部可视化操作。还有模糊搜索功能，70个组件也不怕找不到。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=5)
+![图片](assets/2026-10-31%20-%20%E7%BB%99ClaudeCode%E8%A3%85%E4%B8%8A%E8%BF%99%E4%B8%AA%E8%B6%85%E9%85%B7%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8F%EF%BC%8C%E9%80%BC%E6%A0%BC%E7%9E%AC%E9%97%B4%E6%8B%89%E6%BB%A1%EF%BC%81/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 03
 
 安装很简单
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/a5yW0MNUS2B35YuvvOcHKH4Nyc8qkXE92WGR1H2T2y4EV3SSq0OuwIKTOw0akzKow9ibibGyLJmw5fywKWgrwYRg/640?from=appmsg#imgIndex=6)
+![图片](assets/2026-10-31%20-%20%E7%BB%99ClaudeCode%E8%A3%85%E4%B8%8A%E8%BF%99%E4%B8%AA%E8%B6%85%E9%85%B7%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8F%EF%BC%8C%E9%80%BC%E6%A0%BC%E7%9E%AC%E9%97%B4%E6%8B%89%E6%BB%A1%EF%BC%81/ea730ad34a93d53950aeb779339a74ef_MD5.png)
 
 方式一：让Claude Code帮你装
 
@@ -106,7 +106,7 @@ npm install -g ccstatusline-zh
 
 重启Claude Code，底部状态栏就出来了。refreshInterval 设1到60秒都行，Claude Code 2.1.97以下版本不支持的话就先不写这个字段。
 
-![图片](https://mmecoa.qpic.cn/mmecoa_png/NYQt9rr8A02C3T5QEAYDkicr7qUALPHCSStuKSuobXBHeoLkiaRVbicicYUibISUmZrzuuQXwVGBJc3W2zZOOo6iaECg/640?from=appmsg#imgIndex=7)
+![图片](assets/2026-10-31%20-%20%E7%BB%99ClaudeCode%E8%A3%85%E4%B8%8A%E8%BF%99%E4%B8%AA%E8%B6%85%E9%85%B7%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8F%EF%BC%8C%E9%80%BC%E6%A0%BC%E7%9E%AC%E9%97%B4%E6%8B%89%E6%BB%A1%EF%BC%81/e3415148a9018e581714e7cf7e6c0289_MD5.png)
 
 04
 
@@ -116,7 +116,7 @@ npm install -g ccstatusline-zh
 
 运行 ccstatusline-zh setup 打开TUI配置界面，想加什么组件就加什么，想放哪个位置就放哪个位置。支持的配置项比较多，可以根据自己的习惯和关注点来动态调整。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/wzfB4YnnqWpetVUHjsTPA83cZgJucDfibTdlicCdrjksqVa85dREgg8gjdZw1JetwWUh81Nu3zQyiaOoYRSg2Tuj4ASpP3KzOCo2XZprkDtxzM/640?wx_fmt=png&from=appmsg#imgIndex=9)
+![图片](assets/2026-10-31%20-%20%E7%BB%99ClaudeCode%E8%A3%85%E4%B8%8A%E8%BF%99%E4%B8%AA%E8%B6%85%E9%85%B7%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8F%EF%BC%8C%E9%80%BC%E6%A0%BC%E7%9E%AC%E9%97%B4%E6%8B%89%E6%BB%A1%EF%BC%81/cfefd93436a268beacf9358686356e64_MD5.png)
 
 如果你是个Claude Code重度用户，这个既有颜值又有功能的状态栏，非常值得装一个。
 

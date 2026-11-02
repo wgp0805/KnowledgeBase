@@ -14,7 +14,7 @@ parse_status: "ok"
 
 第一时间收到文章更新
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smoRlyrxg1DdclPEQPZW1n73bHbQlk7icq1tAZcJ0icSdUgKrem3w4wU2oNMVObssNueJbkqPpQdOXBl008m6hlhzL9MWHnSVaqEI/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/b1f41f68b702a9bcd9334521c0a3f083_MD5.png)
 
 来源：blog.csdn.net/2503_92695612
 
@@ -122,7 +122,7 @@ public class SpringDocConfig {
 
 到这一步：其实已经可以访问页面，观看效果了（访问链接为： `http://localhost:8080/swagger-ui/index.html` ，注意如果上方配置文件修改了，这里要替换为对应的链接，我这里没有修改所以使用默认链接），只是项目如果没有任何 controller，这里会展示空页面，如下：
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smqTiay0uQHkhFg2uYN2wlS0kQCSZfcyreAaSIXXHoBcaUSDmhA768g4A1Uu9dkK9x9ictv4cV55BOmkBZUpRaWIbzbX6XGW65aXI/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/696b840eb3fe71da861cd6150c5160b7_MD5.png)
 
 空页面效果**第四步：在需要显示的 Controller 方法上加上注解，用于给方法添加备注，如下会展示不加注解与加注解的区别**
 
@@ -139,7 +139,7 @@ public class MainController {
 }
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smqlrl2LGbhQxdT97O0JdicpV2qMvDNbYQXBRI7C1B90QUfuPHOtvEiaG2csH29FI6DwBXf0jWg7iaMxuN3FQIxYISwpEP1BEQRflQ/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/112abff503bd93b5928206ba71636ad2_MD5.png)
 
 不加注解的展示效果添加注解
 
@@ -159,7 +159,7 @@ public class MainController {
 }
 ```
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smo3jrGQfiaicdbE2GbZWcwic4zoUiatpGkLEgTNxlIia6Cpvt1n4NbQzlJN8xhYygibHdnbd6TQ7dfgcDkp4a4ORibEPkKp3g9N0NSOfc/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/44f189e6722aa18a53a82ca5dde817af_MD5.png)
 
 添加注解后的展示效果至此为止，SpringDoc 的最小化使用已经全部完成（请注意，以上所有配置生效的前提是，当前 Spring 项目未添加任何过滤器、拦截器，以及未使用 SpringSecurity 等安全框架，否则，仅仅进行最小化配置是无法运行的，因为一些默认配置可能会被拦截，如果需要更复杂配置，请继续往下看）
 
@@ -167,7 +167,7 @@ public class MainController {
 
 上方仅仅只是展示了 SpringDoc 的最基础用法，接下来，我们展示 SpringDoc 的一种常用用法：分组，先上效果图，让大家了解是个什么功能
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smoyfhEOnEsa9tDl7xMW6MC1eLzMYiaowZCE1bLLW47lf4sYTKcicfS4bfQun9G3W1YSta9LPhWnXUZ7ictjmFnnEA1Ck68x0MHvy0/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/5be855a6ca309a61b24a718f2e049ad1_MD5.png)
 
 分组效果图接下来开始进行详细配置：
 
@@ -224,19 +224,19 @@ public class SpringDocConfig {
 
 以下展示我的代码结构，方便大家理解：
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smrnib44sZnqibGpgSXYXRPofS1T9BTZT4WkSBIqb39y4lTrSeTLzCzKf7Ykly8hvCaJFZODXrC4mREVtfLD8pA84GUTkH8JhsCibA/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/a9efdff1b14a648a78c70e48a0447af3_MD5.png)
 
 代码结构
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smrxcEWLqaricC8IJtcahDsmXplYQ6Uf3XnQxYqw2O51qGLOAQMmhBzyvNwmgaZuib9FBvFelzHgsxuSe5NnqI2MCdMwTBGdxibqh8/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/8ba86b5fbc1ad3813a37b4595a4ae56a_MD5.png)
 
 代码结构
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smpuiaNnojXPOt9O6SBaeAKGsCo8mbmXH7rRxl4bgGkLqdFytBM6yVgYSEZtSnqePSNd10m3MKvmXUTxsMa7lnicJy2LuWyNAJTibw/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/742c933b5937919246e8e1499779b581_MD5.png)
 
 代码结构
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smrAo4YGtIsQ9VKTfhELYbaqfn77BvwyF5fDEricnzatjf2Ushjej6TP41wfK0TGYBA4c8ESrk6oicGYUQzSKMicsiaSXnYXRJkyI3c/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/b839070dee3cd68f0b2127a158dffd01_MD5.png)
 
 代码结构大家会发现，我的目录中有一个 MainController 的内容，在页面中没有展示了，这是为什么呢？原因我上面提过了，因为分组的配置会覆盖默认配置与配置文件配置，而分组配置中由于没有包含  `MainController`  的内容，所以， `MainController`  的内容没有地方展示了
 
@@ -299,7 +299,7 @@ public class SpringDocConfig {
 
 配置后展示的内容
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smqmr0YDck6RN5IA7IaaDUj8uLUCaUcTkdVvKwd2X8qtddv3yaQDoPuZgU08bUvyIRPjJvm0OkghTpfplicrtuS7c6ltyYiaSRZP0/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/f064c88837428fce45d8fca7761a36f3_MD5.png)
 
 配置默认分组后展示的内容看上面的图， `MainController`  的内容展示在这里了，同时  `ProductController`  和  `MemberController`  的内容也展示在这里了，这是为什么呢，原因我上面说过了，如果一个请求被多个分组扫描到，那么他会展示在多个分组中
 
@@ -316,7 +316,7 @@ springdoc:
       packages-to-scan: 'com.ren.main.controller.member'
 ```
 
-![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/pUq1tpL9smrXene5ouQMU7xhaKSfuwbQXibQLebRuFTZD38HjzhXaJcujziaicasuRvzCmjV6eFKLN8r2T6crJkx3gLygMI5UY1GCdSKkwClFY/640?wx_fmt=png&from=appmsg)
+![在这里插入图片描述](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/e7120f0836be562b17c9864d11344613_MD5.png)
 
 声明式配置效果如上：效果与方式一相同
 
@@ -409,9 +409,9 @@ public class SecurityConfig {
 
 截止目前，**累计输出 150w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4900+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&retryload=1&tp=webp#imgIndex=1)
+![图片](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLEdM2gtRgy5eLztKXrUhee76MZ9wAicNPicsnAHPibicaSHUVqFkkibxWlrGO0acUxQmycZpqCNGcibaicxA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&retryload=1&tp=webp#imgIndex=6)
+![图片](assets/2026-11-01%20-%20%E5%91%8A%E5%88%ABSwagger%20UI%EF%BC%81%E4%B8%80%E6%AC%BE%E6%9B%B4%E9%80%82%E5%90%88%20SpringBoot%20%E7%9A%84API%E6%96%87%E6%A1%A3%E6%96%B0%E9%80%89%E6%8B%A9/b01fd91d58faf9455f8fbb5c64bb22f0_MD5.webp)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~
