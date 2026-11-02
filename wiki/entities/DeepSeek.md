@@ -1,19 +1,40 @@
 ---
 title: "DeepSeek"
 type: entity
-tags: [AI模型, 大语言模型, 中国公司]
-sources: [raw/09-archive/2026-09-03-腾讯内测Cheso，一个专做 PPT 的 AI Agent，实测有吓到我.md, raw/09-archive/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/09-archive/2026-10-03-DeepSeek为什么要16000张卡？.md, raw/09-archive/2026-10-06-deepseek拟人形象大战，究竟在吵什么.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md]
-last_updated: 2026-10-22
+tags: [AI模型, 大语言模型, 中国公司, 开源]
+sources: [raw/09-archive/2026-09-03-腾讯内测Cheso，一个专做 PPT 的 AI Agent，实测有吓到我.md, raw/09-archive/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/09-archive/2026-10-03-DeepSeek为什么要16000张卡？.md, raw/09-archive/2026-10-06-deepseek拟人形象大战，究竟在吵什么.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/01-articles/2026-10-31 - 推荐 10 个 DeepSeek 顶级开源项目.md]
+last_updated: 2026-11-02
 ---
 
 ## 定义
-中国AI公司开发的大语言模型，是Cheso集成的多个AI模型之一。
+中国AI公司开发的大语言模型，是 Cheso 集成的多个 AI 模型之一。
 
 ## 关键信息
 - **开发公司**：DeepSeek
 - **产品类型**：大语言模型
-- **集成平台**：Cheso演示文稿生成工具
-- **技术定位**：为Cheso提供AI能力支持
+- **集成平台**：Cheso 演示文稿生成工具
+- **技术定位**：为 Cheso 提供 AI 能力支持
+
+### 开源版图：自上而下的全链路解剖（2026-10-31，详见 [[摘要-deepseek-10个顶级开源项目]]）
+DeepSeek 的开源轨迹与其他 AI 公司本质上不同：多数厂商开源一个精简推理 Demo，而 DeepSeek 是**自上而下的全链路解剖**，覆盖算子层、通信层、存储层、模型层、服务层、应用层：
+
+| 层次 | 项目 | 核心能力 |
+|------|------|----------|
+| **算子层** | FlashMLA | Hopper 架构 MLA 解码算子：直接适配压缩 KV Cache、TMA 与流水线调度、变长序列与分页缓存 |
+| **算子层** | DeepSeek-Math | 7B 数学模型，120B Token 高纯度数学语料；**首次提出 GRPO**，是 R1-Zero/R1 的算法底座 |
+| **通信层** | DeepEP | MoE All-to-All 集合通信库：机内 NVLink + 机间 RDMA、通信计算重叠、FP8 数据分发 |
+| **存储层** | 3FS | AI 工作负载专用存储：存算分离 + CRAQ 强一致复制 + RDMA，解决预训练小文件并发与 Checkpoint 秒级刷盘 |
+| **模型层** | DeepSeek-V3 | 671B/37B，MLA + 无辅助损失 MoE + FP8 混合精度 + MTP 多 Token 预测 |
+| **模型层** | DeepSeek-R1 | 纯 RL 推理：R1-Zero 探索 + GRPO 省价值模型 + 多阶段训练 + 蒸馏小模型 |
+| **模型层** | DeepSeek-Coder | 2023-10 第一代；Coder-V2 全球首个开源 MoE 代码模型（236B/21B 激活，338 语言，128K 上下文） |
+| **模型层** | DeepSeek-OCR | **上下文光学压缩**：文档渲染为图像 → Vision Encoder → 几十~几百视觉 Token |
+| **服务层** | DeepInfer | 线上同款推理引擎，基于 vLLM 演进 |
+| **应用层** | DeepSeek Harness | 基于 CORDIS 微内核的 Agent 运行底座，MIT 协议，Star 破 25 万 |
+
+学习路径建议：「做算子看 FlashMLA，自建集群看 DeepEP 和 3FS，学架构看 V3，搞强化学习看 Math 和 R1，做线上生产看 DeepInfer，搞 Agent 工程化看 Harness。」
+
+### Harness 的工程文化
+崔添翼带领的工程团队在仓库 `.agents/notes/` 目录把系统演进的真实思考全景留痕：每一篇都带真实思考日期、当时面临的方案选型、不同硬件平台下的 Trade-off、被放弃的技术路线。这种将真实系统架构设计过程毫无保留公开的治学态度，比几万行代码本身更稀缺。
 
 ### Anthropic 兼容端点与 Claude Code 分层接入（2026-09）
 来自 [[摘要-claude-code-多agent账单分层路由]]。DeepSeek 提供 Anthropic 兼容 API 端点（`https://api.deepseek.com/anthropic`，**末尾不能加 `/v1`**），Claude Code 改 `ANTHROPIC_BASE_URL` + 模型级别变量即可接入：
@@ -40,11 +61,15 @@ DeepSeek 把"支撑自家线上亿级流量"的推理基础设施首次完整开
 - **引爆点**：男版一方提出"软色情擦边"指责后，经历网文大战、二游大战的男性社区跳过论证流程直接对抗，核心诉求是社区文化主权（"我们创造的世界，凭什么要接受你的擦边审核"），详见 [[AI拟人形象]]
 
 ## 关联连接
+- [[摘要-deepseek-10个顶级开源项目]] — 最新来源（开源版图全貌）
 - [[摘要-deepseek-16000张卡]] — 来源（16000 张卡与开源工具链）
 - [[昇腾]] — 采购的国产芯片
 - [[华为]] — 卡的供应方
 - [[中芯国际]] — 制造产能瓶颈
 - [[TileLang]] — 开源组件的语言层
+- [[DeepInfer]] / [[DeepSeekHarness]] / [[DeepSeek-V3]] / [[DeepSeek-Coder]] / [[DeepSeek-OCR]] / [[DeepSeek-Math]] — 各层开源项目
+- [[FlashMLA]] / [[DeepEP]] / [[3FS]] — 算子/通信/存储层
+- [[GRPO]] / [[MLA]] / [[MoE]] / [[KV Cache]] / [[上下文光学压缩]] / [[CORDIS微内核]] — 相关技术概念
 - [[摘要-腾讯内测cheso一个专做ppt的ai-agent]] — 来源
 - [[Cheso]] — 集成平台
 - [[DeepSeek-V4]] — 分层路由使用的模型系列
@@ -55,6 +80,6 @@ DeepSeek 把"支撑自家线上亿级流量"的推理基础设施首次完整开
 - [[AI拟人形象]] — 拟人形象概念
 - [[卢诗翰]] — 战争复盘的作者
 - [[摘要-deepseek多模态模型上线]] — 来源（V4-Flash-Vision 多模态上线）
-- [[DeepInfer]] — 开源的生产级推理引擎
 - [[DeepSeekRecipe]] — 开源的生产级 Token 编解码组件
 - [[摘要-deepinfer-deepseek开源推理框架]] — 来源（推理基础设施开源）
+- [[苏三]] — 最新来源作者

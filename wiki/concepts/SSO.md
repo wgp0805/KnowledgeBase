@@ -2,12 +2,12 @@
 title: "SSO"
 type: concept
 tags: [认证, 单点登录, 安全]
-sources: [raw/09-archive/公司系统太多，能不能实现账号互通？.md, raw/09-archive/2026-07-29-Docker部署Keycloak：企业级身份认证平台搭建 - 暮色之狐.md]
-last_updated: 2026-07-30
+sources: [raw/09-archive/公司系统太多，能不能实现账号互通？.md, raw/09-archive/2026-07-29-Docker部署Keycloak：企业级身份认证平台搭建 - 暮色之狐.md, raw/01-articles/2026-10-31 - 我司用了 5 年的单点登录方案！从实现到部署实战详解，稳的一批!.md]
+last_updated: 2026-11-02
 ---
 
 ## 定义
-SSO（Single Sign-On）即单点登录，是一种身份认证机制，允许用户只需登录一次，即可进入多个相互信任的系统，而不需要重新登录。
+SSO（Single Sign-On）即单点登录，是一种身份认证机制，允许用户只需登录一次，即可进入多个相互信任的系统，而不需要重新登录。包含单点登录与单点注销两部分。
 
 ## 关键信息
 - **产生背景**：企业系统矩阵丰富时，用户在不同系统间来回切换体验差，增加密码管理成本
@@ -17,13 +17,25 @@ SSO（Single Sign-On）即单点登录，是一种身份认证机制，允许用
 - **CAS 实现**：CAS 是 SSO 的主流实现框架，基于票据验证机制
 - **与 Session 的关系**：SSO 解决的是跨系统的身份认证，Session 是单系统内的会话管理
 
+### 主流实现方案对照
+| 方案 | 核心机制 | 适用场景 |
+|------|---------|---------|
+| **CAS** | 票据验证（ticket → Redis → session） | 统一账号密码身份认证 |
+| **JWT** | 所有服务靠约定生成 token；或集中生成集中判断 | 分布式系统无中心认证 |
+| **OAuth2** | 授权第三方服务使用我方资源 | 第三方授权 |
+| **Keycloak** | 企业级身份认证平台（IdP） | 需要完整 IAM 能力的企业 |
+
+### 前后端分离场景的 CAS 适配要点
+标准 CAS 客户端的重定向机制在前后端分离架构下会失效——AJAX 请求拿不到 302，前端 response 拦截器拦不到。适配方法：重写 `AuthenticationFilter`，AJAX 请求直接返回 JSON `{"code":202}`，由前端拦截器自行跳转 CAS 登录页（详见 [[CAS协议]] 与 [[摘要-cas-前后端分离单点登录]]）。
+
 ## 关联连接
 - [[CAS协议]] — SSO 的主流实现框架
+- [[CAS]] — CAS 实体
 - [[Session]] — 单系统内会话管理
 - [[Cookie]] — 客户端状态存储（受域名限制）
 - [[OAuth2]] — 三方授权协议，与 SSO 互补
 - [[OIDC]] — 基于 OAuth2 的身份认证协议
 - [[SAML]] — 基于 XML 的企业级 SSO 协议
 - [[Keycloak]] — Red Hat 企业身份认证平台（SSO/IdP）
-- [[摘要-sso-single-sign-on]] — 来源
-- [[摘要-Docker部署Keycloak]] — 来源（Keycloak 企业部署）
+- [[摘要-sso-single-sign-on]] — 早期来源
+- [[摘要-cas-前后端分离单点登录]] — 最新来源
