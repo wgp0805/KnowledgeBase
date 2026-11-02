@@ -2,7 +2,7 @@
 title: "KV Cache"
 type: concept
 tags: [概念, 推理优化, 成本, 缓存]
-sources: [raw/09-archive/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/01-articles/为什么不能在 System Prompt 里放时间戳？.md]
+sources: [raw/09-archive/2026-09-20 - 万字详解 10 道 AI Agent 高频面试题.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/09-archive/为什么不能在 System Prompt 里放时间戳？.md]
 last_updated: 2026-10-29
 ---
 

@@ -1,0 +1,152 @@
+---
+source_url: "https://mp.weixin.qq.com/s/bFs7XKjDJzN5ophMdRKmeg"
+title: "终于有桌面版了！112k Star，Claude/Codex/Cursor一个窗口全搞定"
+account: "我是程序汪"
+published_at: "2026-11-01 12:09:24"
+saved_at: "2026-11-02 07:27:34"
+sync_id: "art_8a0d690f478045df8cc5d17d315c7456"
+parse_status: "ok"
+---
+
+# 终于有桌面版了！112k Star，Claude/Codex/Cursor一个窗口全搞定
+
+# 终于有桌面版了！112k Star，Claude/Codex/Cursor一个窗口全搞定
+
+之前一直在找能把多个大模型代码助手收拢在一处的工具。平时写代码，一会儿切Cursor、一会儿开Claude网页、有时候还要调Codex做轻量补全，来回切换标签、复制粘贴代码块，上下文经常断，API Key还要分开管理，体验很碎。
+
+直到摸到 Orca，这个项目地址放前面：https://github.com/stablyai/orca
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/NBT8VqawBPPL3JN5RNUFq2zN6n8jjeZBKYxy8thcxtWbvSLFKQYiag9r9R9xhdMxe61VvY1Jv83w3eW1CuXEhpfpoiahWUzltibg1bsoUU8sOg/640?wx_fmt=png&from=appmsg)
+
+它不是新模型，是一个**本地桌面端的代码Agent工作台**，简单一句话：把Claude、OpenAI Codex、Cursor配套模型、还有一堆代码专用模型塞进同一个客户端里，不用来回切网页和IDE，在同一个窗口里完成代码阅读、重构、调试、写脚本、查架构。
+
+> 先提前说清楚：Orca本身不自带模型权重，它是客户端调度层，所有推理走你自己的API Key，流量不经过第三方中转服务器，这点对在意代码隐私的开发者很关键。
+
+## 一、Orca到底解决了什么痛点
+
+先说说我日常的真实痛点，也是很多独立开发、后端、全栈都会碰到的：
+
+- 每个代码工具独立入口：Cursor绑IDE、Claude要开网页、OpenAI Codex只能在playground或者自己写脚本调用，没法共享同一个代码上下文；
+- 上下文隔离：我在Claude里喂了一份项目架构说明，换到Codex又要重新贴一遍，浪费token；
+- 多Key管理麻烦：不同模型不同服务商，Key分散在各个地方，切换一次就要改一次配置；
+- 缺少面向代码的会话管理：一堆代码问答散在历史对话里，想按项目归类、按文件分组很难。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/NBT8VqawBPPtiasPVhlDWjcQLv6XOFRIuINf6Pk9s8Wmibxj7n8OkAkQia1jXXAdqGRqWWic2A7ia9pwksicD3FolMgHQ7qgm4bsS2vfcStCqnwmI/640?wx_fmt=png&from=appmsg)
+
+Orca的定位就是**代码专用的多模型调度桌面客户端**。它做的事情很纯粹：统一会话、统一文件上传、统一API管理，模型只是后端可插拔的选项。
+
+## 二、核心能力，不是花架子
+
+### 1. 多模型一键切换，同一个会话不丢上下文
+
+同一个对话窗口，上一句用Claude 3.7 Sonnet读大仓库架构，下一句直接切Codex做函数补全，再切别的模型做review。**对话历史、粘贴的代码、上传的文件全部保留**，不用复制导出再粘贴。 这点和普通多模型聊天工具最大区别：它原生针对代码场景优化，支持一次性批量上传多个源码文件、文件夹，自动识别代码语言，不会把一堆代码当成普通文本乱压缩。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NBT8VqawBPPI3xhjBpFKz4HmMGQEa0iaTx6j9EYUSlnh8qRU8NnZPWY6YUh8SIwFODpJLGBOmJrM6GlKmiccribABoy0f4gmtibXRiczabc1fIkY/640?wx_fmt=png&from=appmsg)
+
+支持的模型列表里，大家最关心的几个：
+
+- Claude系列（非常适合读长代码库、梳理模块依赖、重构老代码）
+- OpenAI Codex、GPT系列代码模型
+- Cursor底层所用的模型也可以接入（你自己的key）
+- 同时兼容本地Ollama模型，断网或者不想走公网API的时候可以接本地代码模型
+
+> 注意：它不是Cursor平替。Cursor是深度嵌入IDE、自动读取当前打开文件；Orca是独立桌面工作台，适合批量喂多个文件、做一次性架构分析、大规模代码重构、批量脚本生成。两者互补，不是替代关系。
+
+### 2. 原生代码库导入，文件夹一键加载
+
+实操里最好用的功能：直接选择本地项目文件夹导入。 它会做简单的文件过滤：自动跳过  `.git` 、 `node_modules` 、 `dist` 、编译产物，不会无脑把所有垃圾文件塞进去浪费token。 你可以手动勾选需要参与对话的文件，比如只选controller、service层，跳过配置文件和静态资源，精准控制上下文。
+
+对比网页版Claude：网页端上传文件有数量上限、操作麻烦，大仓库拆起来很折磨；Orca这边是树状文件列表，勾选很直观。
+
+### 3. 代码会话管理，按项目分组
+
+很多人用AI写代码，对话越积越多，最后分不清哪段对话对应哪个项目。 Orca自带workspace工作区概念，你可以新建一个工作区叫「订单微服务重构」，这个工作区下面所有对话、上传的文件、模型配置独立保存。 换项目的时候直接切工作区，不用手动清理历史。
+
+### 4. 输出侧代码块优化
+
+代码回复自动拆分，支持一键复制单块代码、一键复制全部代码；可以单独对某一段代码追问：优化、加注释、找bug、改成异步版本。 它不会像很多通用聊天客户端那样，把大段代码挤成一团，滚动查看很舒服。
+
+## 三、真人实操：本地部署&启动（Mac / Windows / Linux通用）
+
+两种方式，优先用release包，不想下exe就源码跑。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/NBT8VqawBPNFUzTWJGBYXN1JnBL3WicSTU31BA8s1FRdJH0lzjJZPIEOicxKnKZB87CHt6PKcJEUucj8EMGOicsuwp3R4oTfCmIWRPaiaSCyibd8/640?wx_fmt=png&from=appmsg)
+
+### 方式1：直接下载桌面安装包（推荐，最简单）
+
+去项目release页，找对应系统的安装包：
+
+- Mac：dmg
+- Windows：exe
+- Linux：AppImage
+
+安装打开，第一步就是配置API Provider。 你可以同时填Claude的API Key、OpenAI Key，Ollama地址填本地  `[http://localhost:11434](http://localhost:11434)` 。
+
+> 重点提醒：Key保存在本地，存在本机配置文件，不会上传到Orca的服务器，官方文档里明确写了这点。
+
+### 方式2：源码本地跑（适合想改源码、二次开发的人）
+
+```
+git clone [https://github.com/stablyai/orca](https://github.com/stablyai/orca)
+cd orca
+pnpm install
+pnpm dev
+```
+
+它是Tauri + 前端栈写的桌面端，轻量，内存占用比开一堆浏览器标签低很多。 打包命令： `pnpm build` ，可以自己打包成对应系统的客户端。
+
+### 我的实操流程（日常固定流程）
+
+- 新建一个workspace，命名项目名；
+- 导入本地项目文件夹，过滤掉无关目录，勾选核心源码；
+- 默认选Claude，先让它梳理整体架构、模块依赖；
+- 发现某个函数需要快速补全，直接下拉切换Codex；
+- 拿到代码之后，单独选中代码块追问，找潜在bug；
+- 会话保存，下次打开这个工作区，所有文件、对话都在。
+
+## 四、哪些场景适合用 Orca，哪些场景别硬上
+
+✅ 适合：
+
+- 一次性读整个代码仓库、梳理老项目架构
+- 批量重构一批文件、统一规范、迁移版本
+- 对比不同模型对同一代码问题的输出（Claude vs Codex）
+- 不想在IDE里堆太多插件，单独一个工作台做代码评审
+- 接入本地Ollama代码模型，离线跑一些简单代码任务
+
+❌ 不适合：
+
+- 替代IDE内实时补全（这块还是Cursor、Copilot更顺手）
+- 实时联动IDE、自动修改本地文件（Orca目前没有自动写回文件的能力，代码需要你手动复制）
+- 完全免费：它只是客户端，模型调用费用还是各个服务商的API账单，该花钱还是要花钱
+
+## 五、和同类工具简单对比
+
+- Cursor：IDE内嵌，实时感知当前文件，适合边写边补；但模型固定，换模型不方便，不方便批量导入整个仓库做架构分析
+- Claude网页版：读长代码很强，但多文件上传麻烦、会话管理弱、切换模型麻烦
+- Orca：独立桌面工作台，优势是 多模型自由切换 + 项目级文件管理 + 工作区隔离 ，作为辅助工作台，和IDE搭配使用
+
+## 六、目前的短板
+
+- 没有自动写入本地文件的能力，所有代码输出都要手动复制；
+- 没有内置的diff预览，改完代码只能自己对比；
+- 对超大仓库（几十万行）导入后，手动筛选文件依然要花时间，没有智能自动摘要筛选；
+- 社区更新节奏不算爆炸，属于稳扎稳打的项目，新功能迭代偏慢。
+
+这些是我用了几天真实感受到的局限，不是黑，是提前避坑。
+
+## 七、适合谁
+
+- 经常同时用好几个代码大模型，不想来回切网页、切工具的开发者
+- 接手老项目，需要一次性喂大量源码做架构梳理
+- 自己有多个API Key，想统一管理、横向对比不同模型的代码输出质量
+- 喜欢本地客户端、不想浏览器标签堆成山，在意代码内容不上传第三方平台
+
+## 结尾
+
+如果你和我一样，一边用Cursor写业务，一边经常开Claude啃大段老代码，偶尔还要测Codex的效果，Orca这个桌面客户端刚好补上中间这个缺口。 它不是颠覆性的新模型，胜在**把代码场景的文件管理、多模型调度、会话隔离这几件小事做扎实了**。
+
+项目地址：https://github.com/stablyai/orca
+
+---
+原文链接：https://mp.weixin.qq.com/s/bFs7XKjDJzN5ophMdRKmeg

@@ -2,7 +2,7 @@
 title: "摘要-为什么不能在System-Prompt里放时间戳"
 type: source
 tags: [来源, Prefix Caching, 上下文工程, 成本优化, 沉默王二]
-sources: [raw/01-articles/为什么不能在 System Prompt 里放时间戳？.md]
+sources: [raw/09-archive/为什么不能在 System Prompt 里放时间戳？.md]
 last_updated: 2026-10-29
 ---
 
