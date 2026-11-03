@@ -17,13 +17,13 @@ tags:
 
 想让一个 agent 把查到的资料交给另一个继续处理，只能靠手动复制粘贴。OpenBot 想解决的就是这个割裂状态。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/mciaHGibPzCIR9v1B2ZYznSR1ejMDib1wMvyw71cFLla3XiaDGvY88ydaQRItKMdUNJr7RLQGbBHSPAGicI8UL9eGcXIHc3OKIoNkn77xGKQXnLA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
+![图片](assets/%E4%B8%80%E4%B8%AA%E7%AA%97%E5%8F%A3%E5%90%8C%E6%97%B6%E8%B7%91%20Codex%E3%80%81Claude%E3%80%81Cursor%20%EF%BC%8C%E8%BF%98%E8%83%BD%E4%BA%92%E7%9B%B8%E6%B4%BE%E6%B4%BB%EF%BC%8C%E8%BF%99%E4%B8%AA%20GitHub%20%E9%A1%B9%E7%9B%AE%E7%81%AB%E4%BA%86%EF%BC%81%EF%BC%81/26132162c550203b0ad8d4a2eee7baa7_MD5.webp)
 
 ## 它不提供模型，只负责调度本机已有的 CLI
 
 OpenBot 是一个桌面应用，本身不带模型。它调用的是你本地已经登录好的命令行工具，然后把每个 agent 配置成独立角色：名字、头像、指令、工作目录、对话记录都分开保存。应用关掉再打开，这些信息还在。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/mciaHGibPzCIRpYX6X8OUxaH4PXYx7RMtPI0DntBwT7IKNpsUwVTdiaor3NlAqW3BicCpVvvQpPdrN3DiaHniafWrwLUFeXia17X8c35o1UfbebLWY/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+![图片](assets/%E4%B8%80%E4%B8%AA%E7%AA%97%E5%8F%A3%E5%90%8C%E6%97%B6%E8%B7%91%20Codex%E3%80%81Claude%E3%80%81Cursor%20%EF%BC%8C%E8%BF%98%E8%83%BD%E4%BA%92%E7%9B%B8%E6%B4%BE%E6%B4%BB%EF%BC%8C%E8%BF%99%E4%B8%AA%20GitHub%20%E9%A1%B9%E7%9B%AE%E7%81%AB%E4%BA%86%EF%BC%81%EF%BC%81/9505a5c0265297057bc9443e43fd7451_MD5.webp)
 
 原生支持的是 Codex 和 Claude Code；Grok CLI、OpenCode、Gemini、Cursor CLI、Cline CLI 通过 ACP 协议接入。
 
@@ -41,7 +41,7 @@ OpenBot 是一个桌面应用，本身不带模型。它调用的是你本地已
 
 普通终端窗口做不到的一点是：两个 agent 之间能直接发消息，还能回表情、传文件。一个 agent 查完资料，可以直接把结果发给负责写代码的agent，不需要人在中间转手。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/mciaHGibPzCISJsnIM4QeicUL18OHRz17lgYIWdiay6UawD0QIs7xaQXlLkmbHicmPY3AyuBXJNUQebzkHsTjwcOQj8OqXdVKvDvODHyuCoNGT3A/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![图片](assets/%E4%B8%80%E4%B8%AA%E7%AA%97%E5%8F%A3%E5%90%8C%E6%97%B6%E8%B7%91%20Codex%E3%80%81Claude%E3%80%81Cursor%20%EF%BC%8C%E8%BF%98%E8%83%BD%E4%BA%92%E7%9B%B8%E6%B4%BE%E6%B4%BB%EF%BC%8C%E8%BF%99%E4%B8%AA%20GitHub%20%E9%A1%B9%E7%9B%AE%E7%81%AB%E4%BA%86%EF%BC%81%EF%BC%81/cb4ae802c438bc5ede8df752eaa3b8b5_MD5.png)
 
 频道（Channel）相当于多个 agent 的公共聊天区。一个任务同一时间只有一个负责人，可以指定交给谁，界面上有 Stop、Resume、Reassign、Archive 这些操作。查资料、写稿、校对分给不同 agent，放进一个频道里就能跑起来。
 
