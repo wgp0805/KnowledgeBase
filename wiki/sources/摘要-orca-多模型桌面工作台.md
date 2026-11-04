@@ -2,7 +2,7 @@
 title: "摘要-orca-多模型桌面工作台"
 type: source
 tags: [来源, Orca, 多模型, 桌面端, AI编程]
-sources: [raw/01-articles/2026-11-01 - 终于有桌面版了！112k Star，Claude Codex Cursor一个窗口全搞定.md]
+sources: [raw/09-archive/2026-11-01 - 终于有桌面版了！112k Star，Claude Codex Cursor一个窗口全搞定.md]
 last_updated: 2026-11-02
 ---
 

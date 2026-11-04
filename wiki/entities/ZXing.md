@@ -2,7 +2,7 @@
 title: "ZXing"
 type: entity
 tags: [开源库, 二维码, Java, Android, 条形码]
-sources: [raw/09-archive/为什么越来越多人用 ZXing？.md, raw/01-articles/2026-11-01 - ZXing 3.5 （ Java版 ） 到底有多强 ？.md]
+sources: [raw/09-archive/为什么越来越多人用 ZXing？.md, raw/09-archive/2026-11-01 - ZXing 3.5 （ Java版 ） 到底有多强 ？.md]
 last_updated: 2026-11-02
 ---
 

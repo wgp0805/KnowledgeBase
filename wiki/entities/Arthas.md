@@ -2,7 +2,7 @@
 title: "Arthas"
 type: entity
 tags: [Java诊断, 阿里, 开源工具, AI运维]
-sources: [raw/09-archive/面试官：你掌握哪些 Linux 常用命令？.md, raw/01-articles/2026-11-01 - 为什么越来越多人用Arthas 4 ？.md]
+sources: [raw/09-archive/面试官：你掌握哪些 Linux 常用命令？.md, raw/09-archive/2026-11-01 - 为什么越来越多人用Arthas 4 ？.md]
 last_updated: 2026-11-02
 ---
 
@@ -55,7 +55,7 @@ AI 能把「现象」翻译成「命令序列」、把「原始输出」整理�
 - [[摘要-arthas-4]] — 最新来源
 - [[async-profiler]] — 火焰图底层引擎
 - [[MCP]] — AI 接入协议
-- [[JFR]] — JVM 飞行记录
+- JFR — JVM 飞行记录
 - [[墙钟时间采样]] — 火焰图新能力
 - [[Java]] — 诊断对象
 - [[JVM]] — 诊断基础

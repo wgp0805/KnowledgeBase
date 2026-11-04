@@ -2,7 +2,7 @@
 title: "async-profiler"
 type: entity
 tags: [Java诊断, profiling, JVM, 火焰图]
-sources: [raw/01-articles/2026-11-01 - 为什么越来越多人用Arthas 4 ？.md]
+sources: [raw/09-archive/2026-11-01 - 为什么越来越多人用Arthas 4 ？.md]
 last_updated: 2026-11-02
 ---
 
@@ -20,6 +20,6 @@ async-profiler 是一个低开销的动态采样 profiling 工具，专为 HotSp
 
 ## 关联连接
 - [[Arthas]] — 集成该工具的诊断框架
-- [[JFR]] — 另一 JVM 性能采集机制（对比）
-- [[火焰图]] — 输出可视化形式（待建）
+- JFR — 另一 JVM 性能采集机制（对比）
+- 火焰图 — 输出可视化形式（待建）
 - [[苏三]] — 文章作者

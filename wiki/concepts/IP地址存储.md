@@ -2,7 +2,7 @@
 title: "IP地址存储"
 type: concept
 tags: [数据库设计, MySQL, 面试, 性能优化]
-sources: [raw/01-articles/2026-10-30 - 面试官：如果要存ip地址，用什么数据类型比较好.md]
+sources: [raw/09-archive/2026-10-30 - 面试官：如果要存ip地址，用什么数据类型比较好.md]
 last_updated: 2026-11-02
 ---
 
@@ -37,6 +37,6 @@ last_updated: 2026-11-02
 
 ## 关联连接
 - [[MySQL]] — 提供转换函数的数据库
-- [[UNSIGNED]] — 整数类型关键字（待建）
+- UNSIGNED — 整数类型关键字（待建）
 - [[索引优化]] — 索引空间的考虑
 - [[小哈]] — 文章作者

@@ -2,7 +2,7 @@
 title: "OpenAPI规范"
 type: concept
 tags: [API文档, 规范, RESTful]
-sources: [raw/01-articles/2026-11-01 - 告别Swagger UI！一款更适合 SpringBoot 的API文档新选择.md]
+sources: [raw/09-archive/2026-11-01 - 告别Swagger UI！一款更适合 SpringBoot 的API文档新选择.md]
 last_updated: 2026-11-02
 ---
 
@@ -21,4 +21,4 @@ OpenAPI 是 API 描述的开放规范，定义了统一的格式来描述 RESTfu
 ## 关联连接
 - [[Swagger]] — 前身与展示工具
 - [[SpringDoc]] — Spring 生态中的实现
-- [[SpringFox]] — 早期 Spring 生态中的实现
+- SpringFox — 早期 Spring 生态中的实现

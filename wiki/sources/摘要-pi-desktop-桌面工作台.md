@@ -2,7 +2,7 @@
 title: "摘要-pi-desktop-桌面工作台"
 type: source
 tags: [来源, AI编程, 桌面端, Pi生态]
-sources: [raw/01-articles/2026-10-31 - 又一个国产开源神器！社区版 Pi Agent 桌面工作台来了！.md]
+sources: [raw/09-archive/2026-10-31 - 又一个国产开源神器！社区版 Pi Agent 桌面工作台来了！.md]
 last_updated: 2026-11-02
 ---
 

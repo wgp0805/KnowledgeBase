@@ -2,7 +2,7 @@
 title: "摘要-deepseek-10个顶级开源项目"
 type: source
 tags: [来源, DeepSeek, 开源, 大模型, Agent]
-sources: [raw/01-articles/2026-10-31 - 推荐 10 个 DeepSeek 顶级开源项目.md]
+sources: [raw/09-archive/2026-10-31 - 推荐 10 个 DeepSeek 顶级开源项目.md]
 last_updated: 2026-11-02
 ---
 
@@ -37,7 +37,7 @@ last_updated: 2026-11-02
 ## 关联连接
 - [[DeepSeek]] — 主体公司
 - [[DeepSeekHarness]] / [[DeepInfer]] — 应用层与服务层开源项目
-- [[DeepSeek-V3]] / [[DeepSeek-Coder]] / [[DeepSeek-OCR]] / [[DeepSeek-Math]] — 模型层项目
-- [[FlashMLA]] / [[DeepEP]] / [[3FS]] — 算子/通信/存储层项目
+- DeepSeek-V3 / DeepSeek-Coder / DeepSeek-OCR / DeepSeek-Math — 模型层项目
+- FlashMLA / DeepEP / 3FS — 算子/通信/存储层项目
 - [[GRPO]] / [[MLA]] / [[MoE]] / [[KV Cache]] — 相关技术概念
 - [[苏三]] — 文章作者

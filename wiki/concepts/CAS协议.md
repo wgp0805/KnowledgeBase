@@ -2,7 +2,7 @@
 title: "CAS协议"
 type: concept
 tags: [认证, SSO, 单点登录, 协议]
-sources: [raw/09-archive/公司系统太多，能不能实现账号互通？.md, raw/01-articles/2026-10-31 - 我司用了 5 年的单点登录方案！从实现到部署实战详解，稳的一批!.md]
+sources: [raw/09-archive/公司系统太多，能不能实现账号互通？.md, raw/09-archive/2026-10-31 - 我司用了 5 年的单点登录方案！从实现到部署实战详解，稳的一批!.md]
 last_updated: 2026-11-02
 ---
 

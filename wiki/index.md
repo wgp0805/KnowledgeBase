@@ -4267,3 +4267,19 @@
 
 ## 更新 (2026-10-30)
 - [[Kafka]]（+为什么无法 100% 不丢失章节：四丢窗口表格 + 三个硬限制 + 生产配置组合拳 + 高频追问与记忆口诀）、[[AtLeastOnce]]（+为什么做不到 Exactly Once 小节与来源）、[[小哈]]（+Kafka 无法 100% 不丢文章来源）、[[多智能体编排]]（+两种路线对照章节：AgentScope 主控模式 vs Paperclip 公司模式）
+
+## Sources (2026-11-03 ingest)
+- [[摘要-mysql自增id用尽]] — MySQL 五种自增 id 达上限行为：表 id 主键冲突（不丢）、InnoDB row_id 覆盖旧行（丢数据）、Xid 重启清零、trx_id 归 0 必现脏读 bug、thread_id 唯一数组兜底
+- [[摘要-为什么越来越多人用agentic]] — 苏三介绍生产级 Agent 框架 Agentic：极简抽象（Agent/Tool/Run/Thread）+ 事件驱动（类型化事件流）+ 基于 Ray，把 Agent 从"Demo 玩具"变成"生产系统"
+- [[摘要-openbot多agent窗口]] — 冰河介绍 OpenBot 多 CLI 调度桌面应用：一个窗口跑 Codex/Claude/Cursor 并互相派活，ACP 接入多 CLI，agent 间直连对话传文件，SQLite 持久化
+- [[摘要-什么是llm]] — 沉默王二 Vibe 科普：LLM 原理五问——Token 化/自回归生成/Scaling Law/两阶段训练/温度采样与幻觉根源，RAG/Harness 工程补位
+
+## Entities (2026-11-03 新增)
+- [[Agentic]] — supercog-ai 生产级 Python Agent 框架：四概念极简抽象、类型化事件流、Ray Actor 运行时，HITL 与可观测性原生内置
+- [[OpenBot]] — nightly-labs 多 AI CLI 调度桌面应用：原生支持 Codex/Claude Code，ACP 接入 Grok/OpenCode/Gemini/Cursor/Cline，agent 间直连协作
+
+## Concepts (2026-11-03 新增)
+- [[LLM]] — 大语言模型基础概念：Transformer 架构 + 自回归逐 Token 预测 + 两阶段训练（预训练/后训练）+ 温度采样与幻觉根源，RAG/Harness 工程补位
+
+## 更新 (2026-11-03)
+- [[MySQL]]（+自增 id 用尽章节：五种 id 达上限行为与可靠性/可用性权衡）、[[苏三]]（+Agentic 文章来源）、[[冰河]]（+OpenBot 解读来源）、[[ACP]]（+OpenBot 场景章节：统一接入多 CLI）、[[multi-agent-collaboration]]（+工具化调度补充章节：OpenBot 本地工具调度路线 vs Paperclip 公司模式 vs 三角色方法论）、[[沉默王二]]（+LLM 科普来源）

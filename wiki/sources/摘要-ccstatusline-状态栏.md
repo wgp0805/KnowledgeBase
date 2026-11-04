@@ -2,7 +2,7 @@
 title: "摘要-ccstatusline-状态栏"
 type: source
 tags: [来源, Claude Code, 工具, 终端]
-sources: [raw/01-articles/2026-10-31 - 给ClaudeCode装上这个超酷的状态栏，逼格瞬间拉满！.md]
+sources: [raw/09-archive/2026-10-31 - 给ClaudeCode装上这个超酷的状态栏，逼格瞬间拉满！.md]
 last_updated: 2026-11-02
 ---
 

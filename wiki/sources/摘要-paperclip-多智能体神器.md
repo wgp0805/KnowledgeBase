@@ -2,7 +2,7 @@
 title: "摘要-paperclip-多智能体神器"
 type: source
 tags: [来源, 多智能体, Agent编排, AI一人公司]
-sources: [raw/01-articles/2026-10-30 - 10万+Star！GitHub爆火的多智能体神器！.md]
+sources: [raw/09-archive/2026-10-30 - 10万+Star！GitHub爆火的多智能体神器！.md]
 last_updated: 2026-11-02
 ---
 

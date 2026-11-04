@@ -2,7 +2,7 @@
 title: "摘要-springdoc-api文档"
 type: source
 tags: [来源, SpringDoc, OpenAPI, Swagger, SpringBoot]
-sources: [raw/01-articles/2026-11-01 - 告别Swagger UI！一款更适合 SpringBoot 的API文档新选择.md]
+sources: [raw/09-archive/2026-11-01 - 告别Swagger UI！一款更适合 SpringBoot 的API文档新选择.md]
 last_updated: 2026-11-02
 ---
 
@@ -37,7 +37,7 @@ last_updated: 2026-11-02
 
 ## 关联连接
 - [[SpringDoc]] — 被介绍的工具
-- [[OpenAPI]] / [[Swagger]] — 规范与前身
-- [[SpringFox]] — 被替代的前代方案
+- [[OpenAPI规范]] / [[Swagger]] — 规范与前身
+- SpringFox — 被替代的前代方案
 - [[SpringBoot]] — 承载框架
 - [[小哈]] — 文章作者

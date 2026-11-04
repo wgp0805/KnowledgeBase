@@ -131,6 +131,10 @@ Reviewer ──> review.md
 - skill-creator — 技能创建与封装机制（skill 名，非 wiki 页）
 - [[Agent工作流编排]] — 状态图与多 Agent 流程编排方法论
 
+## 工具化调度补充（2026-11-03 来源：[[摘要-openbot多agent窗口]]）
+
+多 Agent 协作除了"文件显式交接"的方法论文档，还有工具化落地形态——[[OpenBot]] 桌面应用用**统一窗口 + 频道**调度本机多个 CLI Agent（Codex/Claude Code 原生，Grok/OpenCode/Gemini/Cursor/Cline 走 [[ACP]]）：每个 agent 独立角色/工作目录/对话记录，agent 间可直接发消息传文件（查完资料直接发给写代码的 agent），频道作为公共聊天区，一个任务同一时间只有一个负责人（可 Stop/Resume/Reassign/Archive），SQLite 持久化保证崩溃重开队列不丢。对比 [[Paperclip]]（公司组织架构模式）与本文档（三角色方法论），OpenBot 属于"本地工具调度"路线——解决多 agent 的窗口管理与协作摩擦，而非任务拆分或组织治理。
+
 ## 关联连接
 - [[摘要-多Agent协作开发框架]] — 三角色框架来源
 - [[摘要-java-stack-skills-guide]] — Skill 分工模式来源
@@ -140,3 +144,6 @@ Reviewer ──> review.md
 - [[Skill]] — Agent 技能定义
 - [[ClaudeCode]] — 多 Agent 调度平台
 - [[LangGraph4j]] — Java 多 Agent 工作流编排框架
+- [[OpenBot]] — 本地多 CLI 调度工具化形态
+- [[Paperclip]] — 公司组织架构模式对照
+- [[摘要-openbot多agent窗口]] — 来源（OpenBot 工具化调度）

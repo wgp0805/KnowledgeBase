@@ -2,7 +2,7 @@
 title: "DeepSeek"
 type: entity
 tags: [AI模型, 大语言模型, 中国公司, 开源]
-sources: [raw/09-archive/2026-09-03-腾讯内测Cheso，一个专做 PPT 的 AI Agent，实测有吓到我.md, raw/09-archive/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/09-archive/2026-10-03-DeepSeek为什么要16000张卡？.md, raw/09-archive/2026-10-06-deepseek拟人形象大战，究竟在吵什么.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/01-articles/2026-10-31 - 推荐 10 个 DeepSeek 顶级开源项目.md]
+sources: [raw/09-archive/2026-09-03-腾讯内测Cheso，一个专做 PPT 的 AI Agent，实测有吓到我.md, raw/09-archive/2026-09-23-开多个 Agent 后 Claude Code 账单翻了 4 倍，一个配置解决了 - 码哥字节.md, raw/09-archive/2026-10-03-DeepSeek为什么要16000张卡？.md, raw/09-archive/2026-10-06-deepseek拟人形象大战，究竟在吵什么.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/09-archive/2026-10-31 - 推荐 10 个 DeepSeek 顶级开源项目.md]
 last_updated: 2026-11-02
 ---
 
@@ -67,8 +67,8 @@ DeepSeek 把"支撑自家线上亿级流量"的推理基础设施首次完整开
 - [[华为]] — 卡的供应方
 - [[中芯国际]] — 制造产能瓶颈
 - [[TileLang]] — 开源组件的语言层
-- [[DeepInfer]] / [[DeepSeekHarness]] / [[DeepSeek-V3]] / [[DeepSeek-Coder]] / [[DeepSeek-OCR]] / [[DeepSeek-Math]] — 各层开源项目
-- [[FlashMLA]] / [[DeepEP]] / [[3FS]] — 算子/通信/存储层
+- [[DeepInfer]] / [[DeepSeekHarness]] / DeepSeek-V3 / DeepSeek-Coder / DeepSeek-OCR / DeepSeek-Math — 各层开源项目
+- FlashMLA / DeepEP / 3FS — 算子/通信/存储层
 - [[GRPO]] / [[MLA]] / [[MoE]] / [[KV Cache]] / [[上下文光学压缩]] / [[CORDIS微内核]] — 相关技术概念
 - [[摘要-腾讯内测cheso一个专做ppt的ai-agent]] — 来源
 - [[Cheso]] — 集成平台

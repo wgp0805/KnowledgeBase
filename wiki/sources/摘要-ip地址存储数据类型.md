@@ -2,7 +2,7 @@
 title: "摘要-ip地址存储数据类型"
 type: source
 tags: [来源, MySQL, 数据库设计, 面试]
-sources: [raw/01-articles/2026-10-30 - 面试官：如果要存ip地址，用什么数据类型比较好.md]
+sources: [raw/09-archive/2026-10-30 - 面试官：如果要存ip地址，用什么数据类型比较好.md]
 last_updated: 2026-11-02
 ---
 
@@ -28,5 +28,5 @@ last_updated: 2026-11-02
 ## 关联连接
 - [[IP地址存储]] — 上位概念
 - [[MySQL]] — 提供转换函数的数据库
-- [[UNSIGNED INT]] — 推荐的存储类型
+- UNSIGNED INT — 推荐的存储类型
 - [[小哈]] — 文章作者

@@ -2,7 +2,7 @@
 title: "SpringDoc"
 type: entity
 tags: [SpringBoot, OpenAPI, API文档, Swagger]
-sources: [raw/01-articles/2026-11-01 - 告别Swagger UI！一款更适合 SpringBoot 的API文档新选择.md]
+sources: [raw/09-archive/2026-11-01 - 告别Swagger UI！一款更适合 SpringBoot 的API文档新选择.md]
 last_updated: 2026-11-02
 ---
 
@@ -46,8 +46,8 @@ Swagger 是 OpenAPI 规范的前身，贡献了 API 设计理念并推动标准�
 
 ## 关联连接
 - [[摘要-springdoc-api文档]] — 来源
-- [[OpenAPI]] — 所实现的规范
+- [[OpenAPI规范]] — 所实现的规范
 - [[Swagger]] — 规范前身与 UI 展示
-- [[SpringFox]] — 被替代的前代方案
+- SpringFox — 被替代的前代方案
 - [[SpringBoot]] — 宿主框架
 - [[小哈]] — 文章作者

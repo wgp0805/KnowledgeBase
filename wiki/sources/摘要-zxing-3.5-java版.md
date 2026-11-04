@@ -2,7 +2,7 @@
 title: "摘要-zxing-3.5-java版"
 type: source
 tags: [来源, ZXing, 二维码, Java, 条形码]
-sources: [raw/01-articles/2026-11-01 - ZXing 3.5 （ Java版 ） 到底有多强 ？.md]
+sources: [raw/09-archive/2026-11-01 - ZXing 3.5 （ Java版 ） 到底有多强 ？.md]
 last_updated: 2026-11-02
 ---
 

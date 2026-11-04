@@ -2,7 +2,7 @@
 title: "摘要-arthas-4"
 type: source
 tags: [来源, Arthas, Java诊断, JVM, AI运维]
-sources: [raw/01-articles/2026-11-01 - 为什么越来越多人用Arthas 4 ？.md]
+sources: [raw/09-archive/2026-11-01 - 为什么越来越多人用Arthas 4 ？.md]
 last_updated: 2026-11-02
 ---
 
@@ -40,5 +40,5 @@ last_updated: 2026-11-02
 - [[Arthas]] — 被介绍的工具
 - [[MCP]] — AI 接入协议
 - [[async-profiler]] — 火焰图底层引擎
-- [[JFR]] — JVM 飞行记录
+- JFR — JVM 飞行记录
 - [[苏三]] — 文章作者

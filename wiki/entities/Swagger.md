@@ -2,7 +2,7 @@
 title: "Swagger"
 type: entity
 tags: [API文档, OpenAPI, 规范]
-sources: [raw/01-articles/2026-11-01 - 告别Swagger UI！一款更适合 SpringBoot 的API文档新选择.md]
+sources: [raw/09-archive/2026-11-01 - 告别Swagger UI！一款更适合 SpringBoot 的API文档新选择.md]
 last_updated: 2026-11-02
 ---
 
@@ -19,7 +19,7 @@ Swagger 是 API 描述规范的前身，为 OpenAPI 规范的标准化奠定了�
 - **工具链**：Swagger Editor（在线编辑验证）、Swagger Codegen（根据规范生成客户端/服务端代码）
 
 ## 关联连接
-- [[OpenAPI]] — 演进后的规范
+- [[OpenAPI规范]] — 演进后的规范
 - [[SpringDoc]] — Spring 生态中生成 OpenAPI 3 文档的实现工具
-- [[SpringFox]] — 早期 Spring 生态中的 Swagger 集成方案
-- [[Swagger UI]] — 交互式文档展示界面（待建）
+- SpringFox — 早期 Spring 生态中的 Swagger 集成方案
+- Swagger UI — 交互式文档展示界面（待建）

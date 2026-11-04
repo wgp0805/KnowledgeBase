@@ -2,7 +2,7 @@
 title: "CORDIS微内核"
 type: concept
 tags: [微内核, Agent, 插件架构, DeepSeek]
-sources: [raw/01-articles/2026-10-31 - 推荐 10 个 DeepSeek 顶级开源项目.md]
+sources: [raw/09-archive/2026-10-31 - 推荐 10 个 DeepSeek 顶级开源项目.md]
 last_updated: 2026-11-02
 ---
 
@@ -20,5 +20,5 @@ CORDIS 是一种微内核（Microkernel）架构模式，将系统的核心功�
 ## 关联连接
 - [[DeepSeekHarness]] — 基于 CORDIS 构建的 Agent 底座
 - [[DeepSeek]] — 主体公司
-- [[插件架构]] — 微内核是插件化的一种实现（待建）
+- [[插件生态]] — 微内核是插件化的一种实现（待建）
 - [[苏三]] — 文章作者

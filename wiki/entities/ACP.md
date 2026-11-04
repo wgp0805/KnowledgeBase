@@ -15,6 +15,9 @@ ACP（Agent Client Protocol）是 JetBrains 官方支持的 Agent 接入层协�
 - **限制**：能力和登录方式受 JetBrains 版本、AI Assistant 与 Provider 支持范围影响
 - **对比路线**：与 [[CCGUI]]（社区开源插件）、纯终端构成三条 Agent 使用路线，无绝对胜负，差别在维护责任和操作习惯
 
+### OpenBot 场景（2026-11-03 来源：[[摘要-openbot多agent窗口]]）
+[[OpenBot]] 桌面应用用它统一接入多个 CLI Agent——原生支持 Codex 与 Claude Code，Grok CLI / OpenCode / Gemini / Cursor CLI / Cline CLI 则通过 ACP 协议接入，配合 agent 间直接对话、频道协作、SQLite 持久化实现"一个窗口管多 agent 并互相派活"。
+
 ## 关联连接
 - [[摘要-cc-gui-jetbrains插件]] — 来源资料
 - [[JetBrains]] — 协议维护方
@@ -24,3 +27,5 @@ ACP（Agent Client Protocol）是 JetBrains 官方支持的 Agent 接入层协�
 - [[CCGUI]] — 社区替代方案
 - [[MCP]] — 相关协议
 - [[Skills]] — 相关能力封装
+- [[OpenBot]] — 用 ACP 统一接入多 CLI 的桌面应用
+- [[摘要-openbot多agent窗口]] — 来源（OpenBot 场景）

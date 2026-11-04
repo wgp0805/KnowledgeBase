@@ -63,6 +63,7 @@ MySQL 是最流行的开源关系型数据库管理系统之一，以高性能�
 - **B+Tree 索引的模糊搜索短板**：`LIKE '%xx%'` 前置通配符导致 B+Tree 有序性失效，优化器放弃索引走全表扫描；`LIKE 'xx%'` 前缀固定可走索引。覆盖索引可扫更小的二级索引树但本质仍全扫，数据量大照样慢。这是引入 ES 倒排索引解决全文检索的根本原因
 - **与 ES 的分工**：MySQL 是"存"的专家（事务、关联、ACID），ES 是"搜"的专家（全文检索、分词、相关度排序）。生产标准架构为 MySQL 主存储 + ES 搜索引擎，通过 Canal 监听 Binlog + MQ 异步同步
 - **MySQL 9.7.0 LTS**（2026-04-21 发布，9.x 首个 LTS，5 年 Premier + 3 年 Extended Support）：企业版功能批量下放社区版——复制可观测性（Replication Applier Metrics 线程级延迟指标，可直连 [[Prometheus]]）、Group Replication 流控统计/主选举/资源管理器、OpenTelemetry 遥测、[[HypergraphOptimizer]]（多表 JOIN 执行计划改善，写密集场景可能退化）、[[ProfileGuidedOptimization]]（32GB Buffer Pool 平均提速 12.2%，零配置升级）、[[JSONDualityViews]] DML（社区版从只读变可增删改）。**仍缺失**：向量相似度函数 `DISTANCE()` 仅在 [[HeatWave]]，本地做 RAG 需 [[Percona]] 补丁版或外接 [[向量数据库]]；`innodb_log_file_size`、`innodb_undo_tablespaces` 等旧变量已移除，升级需调配置
+- **自增 id 用尽**（2026-11-02 来源：[[摘要-mysql自增id用尽]]）：五种自增 id 达上限行为各异——① **表自增 id**（unsigned int 4 字节）：达 2^32-1 后 AUTO_INCREMENT 不再增长，再插入拿相同 id 报主键冲突（影响可用性不丢数据），频繁插入删除的表可能用完，建表前评估应直接上 `bigint unsigned`；② **InnoDB row_id**（6 字节，仅无主键表）：全局 dict_sys->row_id 到 2^48 归 0 循环，同 row_id 新行**覆盖旧行**（数据丢失影响可靠性）→ 应主动建自增主键，宁可冲突不丢数据（可靠性优于可用性）；③ **Xid**（8 字节，server 层）：global_query_id 纯内存变量重启清零，靠"重启生成新 binlog"保证同 binlog 内唯一，理论上 2^64 次后可能重复但概率极小；④ **InnoDB trx_id**（max_trx_id 8 字节持久化）：只读事务不分配（显示值=指针地址+2^48 临时计算），达 2^48-1 归 0 后出现**必现脏读 bug**（新版本 trx_id=0 < 低水位被判定可见），重启不清零，TPS 50w 约 17.8 年触发，目前无实例达到但理论上必现；⑤ **thread_id**（4 字节）：达 2^32-1 归 0，但唯一数组保证 processlist 不出现重复
 
 ## 关联连接
 - [[MyBatisPlus]] — ORM 框架
@@ -95,6 +96,7 @@ MySQL 是最流行的开源关系型数据库管理系统之一，以高性能�
 - [[Canal]] — MySQL → ES 同步工具
 - [[摘要-拼多多二面-es-vs-mysql]] — 来源（面试视角 ES vs MySQL）
 - [[摘要-mysql-9-7-lts]] — 来源（MySQL 9.7 LTS 企业版功能下放社区版）
+- [[摘要-mysql自增id用尽]] — 来源（自增 id 用尽：表 id/row_id/Xid/trx_id/thread_id 五类上限行为）
 - [[HypergraphOptimizer]] — 9.7 超图优化器（本页提炼概念）
 - [[ProfileGuidedOptimization]] — 9.7 PGO 性能优化（本页提炼概念）
 - [[JSONDualityViews]] — 9.7 JSON 对偶视图 DML（本页提炼概念）

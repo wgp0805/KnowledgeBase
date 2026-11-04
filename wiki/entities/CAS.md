@@ -2,7 +2,7 @@
 title: "CAS"
 type: entity
 tags: [SSO, 认证, 开源项目, Yale]
-sources: [raw/01-articles/2026-10-31 - 我司用了 5 年的单点登录方案！从实现到部署实战详解，稳的一批!.md]
+sources: [raw/09-archive/2026-10-31 - 我司用了 5 年的单点登录方案！从实现到部署实战详解，稳的一批!.md]
 last_updated: 2026-11-02
 ---
 

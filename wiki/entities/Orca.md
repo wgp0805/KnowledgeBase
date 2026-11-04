@@ -2,7 +2,7 @@
 title: "Orca"
 type: entity
 tags: [开源项目, ADE, 多Agent, 开发环境, 多模型]
-sources: [raw/09-archive/2026-09-25 - GitHub 6.7万 Star，一个多 Agent 协作、手机远程指挥的开源神器！.md, raw/01-articles/2026-11-01 - 终于有桌面版了！112k Star，Claude Codex Cursor一个窗口全搞定.md]
+sources: [raw/09-archive/2026-09-25 - GitHub 6.7万 Star，一个多 Agent 协作、手机远程指挥的开源神器！.md, raw/09-archive/2026-11-01 - 终于有桌面版了！112k Star，Claude Codex Cursor一个窗口全搞定.md]
 last_updated: 2026-11-02
 ---
 
