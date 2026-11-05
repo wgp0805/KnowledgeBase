@@ -1,3 +1,12 @@
+## [2026-11-04] query | MQ 选型：Kafka vs RocketMQ 何时选谁
+- **输出**: 引用 [[Kafka]], [[RocketMQ]], [[message-queue]], [[摘要-4种消息队列如何选型]]; 即时回答未保存
+
+## [2026-11-04] ingest | 全量扫描 raw/ 摄入 5 篇 01-articles 文章（Java Agent / 注解分布式锁 / try catch 性能 / Graphify 代码知识图谱 / Kafka 只消费一次）
+- **变更**: 新增 Sources (5): [[摘要-手把手实现java-agent]], [[摘要-注解实现分布式锁]], [[摘要-java-try-catch性能]], [[摘要-graphify代码知识图谱]], [[摘要-kafka只消费一次]]; 新增 Entities (1): [[Graphify]]（Graphify Labs 代码知识图谱工具，142K+ Star：tree-sitter 本地解析 40+ 语言零 API 成本、EXTRACTED/INFERRED/AMBIGUOUS 溯源标签、god nodes + Leiden 聚类、增量更新与 MCP/HTTP 共用）; 新增 Concepts (3): [[JavaAgent]]（Instrumentation + premain/agentmain/Attach 类加载时改写字节码）, [[字节码增强]]（ASM/bytekit/Javassist/ByteBuddy 工具链与 AOP 代理对比）, [[异常处理]]（异常表机制 + 未抛异常零开销 + 真正成本在异常对象构造）; 增量合并既有页 (8): [[Arthas]]（+trace 命令 Java Agent 实现原理：EnhancerCommand 模板模式 → Enhancer 注册 transformer → bytekit 拦截器改写）, [[分布式锁]]（+注解式实现：@RedisLock + AOP + ScheduledExecutorService 自研续时 vs Redisson watchdog）, [[AOP]]（+@RedisLock 切面典型落地）, [[JIT编译]]（+try catch 与 JIT 优化实测：编译模式可消除 goto 开销）, [[知识图谱]]（+代码知识图谱 Graphify 场景：与 GraphRAG 的面向差异）, [[冰河]]（+Graphify 解读来源）, [[Kafka]]（+只消费一次章节：手动提交+幂等/offset 同事务/事务 EOS 三方案）, [[AtLeastOnce]]（+升级 Exactly Once 的完整落地路径）, [[小哈]]（+Kafka 只消费一次、try catch 两文来源）; 更新 [[index.md]]（Sources +5 / Entities +1 / Concepts +3 / 更新 8 页）
+- **冲突**: 无硬性知识冲突。两处口径说明：① [[摘要-kafka只消费一次]] 与既有 [[AtLeastOnce]]（"At Least Once + 消费端幂等"基本结论）、[[摘要-kafka消息不丢失]]（不丢视角）、[[摘要-kafka-为什么无法100%不丢失]]（为什么做不到视角）构成完整四部曲，本篇补"不重"视角，互补不矛盾，已互链；② [[摘要-注解实现分布式锁]] 的自研续时与既有 [[分布式锁]]/[[Redisson]] 页的 watchdog 机制思路一致（后台线程续 TTL），但实现成熟度不同，已在分布式锁页分节对照并注明"生产优先 Redisson"，未覆盖旧表述
+- **校验**: 9 个新页面（5 Sources / 1 Entity / 3 Concepts）frontmatter 与「关联连接」区块核查通过；「终码一生」按既有惯例不建实体页（纯文本记录，与王者荣耀/支付系统/Pingora/Paperclip 篇处理一致）；instrumentation/tree-sitter/ExactlyOnce 等无独立页概念按惯例纯文本标注或并入上位页
+- **归档**: 5 个源文件已全部移动至 raw/09-archive/（保留原文件名，raw/01-articles/ 清空）
+
 ## [2026-11-03] lint | 摄入后复跑发现并顺手修复 15 处历史遗留死链（健康度保持 100%）
 - **变更**: ① 本次摄入 4 篇后复跑 lint，发现 10 处本次新引入死链（引用了未建页概念）已就地修正：[[摘要-什么是llm]]/[[LLM]]（自回归/Scaling Law/涌现能力/Temperature 无独立页，改纯文本并指向 LLM 页内说明）、[[摘要-openbot多agent窗口]]（LM Studio 无独立页改纯文本）、[[摘要-为什么越来越多人用agentic]]（Ray 无独立页改纯文本）、[[摘要-mysql自增id用尽]]（主键/脏读无独立页改纯文本，事务→[[transaction-management]]）；② 顺手修复 15 处历史遗留死链（2026-10-31/11-01 摄入遗留）：DeepSeek 开源组件系列（[[3FS]]/[[DeepEP]]/[[DeepSeek-Coder]]/[[DeepSeek-Math]]/[[DeepSeek-OCR]]/[[DeepSeek-V3]]/[[FlashMLA]] 无独立实体页，改纯文本保留在 [[DeepSeek]] 与来源页内）、[[JFR]]/[[FilterRegistrationBean]]/[[Swagger UI]]/[[SpringFox]]/[[UNSIGNED]]/[[火焰图]] 转纯文本、[[OpenAPI]]→[[OpenAPI规范]]（有概念页）、[[插件架构]]→[[插件生态]]（有概念页）
 - **冲突**: 无

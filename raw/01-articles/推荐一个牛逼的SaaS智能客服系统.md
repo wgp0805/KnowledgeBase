@@ -1,0 +1,900 @@
+---
+title: "推荐一个牛逼的SaaS智能客服系统"
+source: "https://mp.weixin.qq.com/s/ocbvew-h-IrNbe6r5Yl5Bw"
+author:
+  - "[[苏三]]"
+published:
+created: 2026-11-05
+description:
+tags:
+  - "clippings"
+---
+苏三 苏三说技术 *2026年11月5日 08:20*
+
+## 大家好，我是苏三，又跟大家见面了。
+
+## 前言
+
+最近我又开发了一个新项目：云梯智能客服系统。
+
+云梯智能客服是一套围绕企业客户服务全生命周期建设的多租户 SaaS 平台。
+
+它把六类客户入口、实时会话、智能路由、AI 客服、企业知识库、工单与 SLA、客户 360、质检、套餐计费、安全审计和平台运营串成了一条完整链路。
+
+项目同时包含 Java 微服务、Python AI 服务、Vue 管理后台、访客端、官网和六套渠道接入示例。
+
+这个项目非常实用，可以直接写到简历中，很加分，里面有很多有意思的功能。
+
+文末有获取源码的方法。
+
+## 一、项目定位
+
+| 维度 | 说明 |
+| --- | --- |
+| 项目类型 | 多租户 SaaS 智能客服平台 |
+| 目标用户 | 企业客服团队、客服主管、质检人员、AI 运营、平台运营 |
+| 系统规模 | 7 个 Java 服务 + 1 个 Python AI 服务 + Vue 管理端 + 访客端 + 官网 |
+| 后端技术 | Java 25、Spring Boot 4.0.3、Spring Cloud 2025.1.2、MyBatis-Plus 3.5.17 |
+| 实时通信 | Spring WebSocket、独立实时网关、心跳、ACK、序号补拉 |
+| 数据层 | PostgreSQL 17、pgvector 1024 维 HNSW、RustFS 对象存储 |
+| AI 技术 | FastAPI、Pydantic v2、LangGraph、LlamaIndex、千问 / DeepSeek、qwen-vl、阿里云 NLS |
+| 前端技术 | Vue 3.5、TypeScript、Vite 5、Element Plus、Pinia、Vue Router、Axios |
+| 渠道能力 | 网站、微信公众号、小程序、原生 App、400 热线、邮件工单 |
+| 经营能力 | 套餐、配额、计量、账单、收款、AI 成本、客户健康度和续费风险 |
+| 工程能力 | 6 个独立数据库、87 张表、迁移脚本、自检脚本、多渠道演示环境 |
+
+一句话概括：
+
+> 一套覆盖“渠道接入、智能接待、人工协同、工单闭环、客户经营、质量治理、计费控本、平台运营”的企业级 SaaS 智能客服系统。
+
+## 二、项目亮点
+
+很多客服项目能展示登录、会话列表和机器人聊天，但真正进入企业使用后，问题会立刻出现：
+
+- 企业 A 的客户资料为什么能被企业 B 查到；
+- 消息重发为什么变成两条；
+- WebSocket 断线后，漏掉的消息能不能补回来；
+- 机器人答错时，企业怎么知道它用了哪条知识；
+- 更换意图语料后，如何验证新版本是否更好；
+- 模型调用成本失控时，怎么降级而不是整站不可用；
+- 自动生成账单时重复跑一次，会不会多收一次钱；
+- 平台人员修改配置后，能不能查到是谁、什么时候、改了什么。
+
+云梯智能客服对这些问题的回答不是“加一个状态字段”，而是通过网关、数据库、事务、消息协议、AI 编排和运营后台共同实现。
+
+### 核心亮点总览
+
+| 亮点 | 技术含量 |
+| --- | --- |
+| 多租户隔离 | 权威租户、请求上下文、SQL 租户条件、PostgreSQL RLS、租户级限流 |
+| 可靠消息 | `clientMsgNo`  幂等、服务端 `seq` 、ACK、发件箱、断线增量补拉 |
+| 受控 AI Agent | LangGraph 状态机、规则/向量/大模型混合决策、业务规则掌握最终动作 |
+| 意图训练中心 | 弱标注语料、1024 维向量、增量训练、留一法评估、版本/灰度/回滚 |
+| Agentic RAG | pgvector 召回、阈值判分、规则改写、二次检索、引用范围校验 |
+| 多模态客服 | 图片 OCR、截图结构化、语音 ASR/TTS 进入客服与质检链路 |
+| AI 成本治理 | 真实模型调用计量、Token 成本、预算告警、跳过模型和转人工 |
+| 智能路由 | 技能组、在线状态、并发上限、最低负载、排队超时溢出 |
+| SLA 闭环 | 建单快照、定时扫描、预警、升级、解决、回访和满意度 |
+| 客户 360 | 规则标签引擎、会话轨迹、工单、订单、满意度、合并与匿名化 |
+| 双速质检 | 实时规则预警 + 会话结束后的 AI 全量质检与人工复核 |
+| 计费体系 | 套餐、配额、五类用量、账期账单、超量费、收款流水 |
+| 安全审计 | 双因素、失败锁定、API Key 哈希、导出审批、追加式审计 |
+| 可观测 | TraceId 全链路、AI 指标、告警事件、成本预算和调用链查询 |
+
+## 三、系统全景
+
+**图 1：系统总体架构**
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rd0Ym1icSQSr4ImeVQ56VQib34I8tcuQZzUv52App8iacciaururODVxPgE3sltCib8ggvFju3oq7SibfhUMsiblI6BSyHNRUw95zB9Zg/640?wx_fmt=png&from=appmsg#imgIndex=0)
+
+## 四、微服务按业务边界拆分
+
+项目包含 8 个 Maven 模块：7 个可启动 Java 服务 + 1 个公共模块，另有独立的 Python AI 服务。
+
+| 模块 | 端口 | 主要职责 | 为什么独立 |
+| --- | --- | --- | --- |
+| `yunti-common` | \- | 响应、异常、登录上下文、租户上下文、TraceId、审计客户端、雪花 ID | 统一基础协议，避免各服务重复造轮子 |
+| `yunti-gateway` | 9090 | 路由、JWT、租户确认、QPS/日额度限流、TraceId | 所有流量第一道门 |
+| `yunti-user-service` | 9091 | 登录注册、用户、角色、权限、成员邀请、双因素 | 身份与权限独立演进 |
+| `yunti-tenant-service` | 9092 | 企业资料、审核、开通、配额、冻结、独立 Schema 升级 | 租户生命周期控制面 |
+| `yunti-customer-service` | 9093 | 渠道、会话、消息、工单、客户、知识库、质检 | 客服业务主域 |
+| `yunti-billing-service` | 9094 | 套餐、订单、用量、账单、收款、支付配置 | 财务口径与业务事实解耦 |
+| `yunti-ops-service` | 9095 | 平台设置、官网配置、安全、审计、客户成功、可观测 | 平台运营与治理平面 |
+| `yunti-realtime-service` | 9096 | WebSocket、在线状态、消息推送、质检预警 | 长连接资源隔离、可单独扩容 |
+| `yunti-ai` | 9100 | 客服大脑、RAG、训练、质检、视觉、语音、AI 计量 | Python AI 生态与 Java 业务解耦 |
+
+服务拆分遵循三个原则：
+
+1. **业务事实归业务服务**
+	：会话、工单、账单分别只有一个主写服务；
+2. **AI 不直接写业务库**
+	：模型输出结果回到 Java 服务，由业务规则和权限决定是否执行；
+3. **平台治理独立**
+	：租户、计费、审计、可观测不混入客服接待主链路。
+
+## 五、技术栈
+
+| 层次 | 技术 |
+| --- | --- |
+| Java | 25、 `ScopedValue` 请求上下文 |
+| 微服务 | Spring Boot 4.0.3、Spring Cloud 2025.1.2、Spring Cloud Gateway WebFlux |
+| 数据访问 | MyBatis-Plus 3.5.17、MyBatis 3.5.19、PostgreSQL JDBC |
+| 数据库 | PostgreSQL 17、pgvector、HNSW、RLS、增量 SQL |
+| 实时通信 | Spring WebSocket、心跳、连接注册表、会话内序号 |
+| AI | Python、FastAPI、Pydantic v2、psycopg 3、LangGraph、LlamaIndex |
+| 模型 | 千问、DeepSeek、qwen-vl、阿里云 NLS ASR/TTS |
+| 存储 | RustFS S3 兼容对象存储 |
+| 前端 | Vue 3.5、TypeScript、Vite 5、Element Plus、Pinia、Vue Router、Axios |
+| 工程 | Maven 多模块、增量迁移、演示数据、Python/Node 自检脚本 |
+
+其中 Java 25 的 `ScopedValue` 不是“跟风使用新版本”，而是直接解决请求上下文串租户问题：
+
+```
+public static <R, X extends Throwable> R bind(
+        AuthState state,
+        CallableOp<? extends R, X> action) throws X {
+    ScopedValue.Carrier carrier = 
+            ScopedValue.where(CURRENT,
+           state);
+    String tenant = 
+            state.user()
+           == null
+            ? null
+            : 
+            state.user().tenantCode();
+          
+    if (tenant != null && !
+            tenant.isBlank())
+           {
+        carrier = 
+            carrier.where(TenantContext.CURRENT,
+           tenant);
+    }
+    return 
+            carrier.call(action);
+          
+}
+```
+
+请求结束后作用域自动失效，不需要依赖 `              ThreadLocal.remove()            ` 。这比“每个地方手写清理”的上下文方案更容易保证线程池复用时不串用户、不串租户。
+
+## 六、业务闭环
+
+**图 2：从客户进线到续费经营的闭环**
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rdTjtu5of34bYtZMsZCCTAExtcHoiaEeBqLOYWlT51oFemRlpXQUWQwgYoDg4RkVVRDzTNmdA9iaXhwYiapFZOm4picJHQD0zCNHbc/640?wx_fmt=png&from=appmsg#imgIndex=1)
+
+### 1\. 全渠道统一接入
+
+六条渠道都通过“认证、幂等、身份绑定、会话复用”接入同一套客服核心：
+
+| 渠道 | 入站 | 出站 |
+| --- | --- | --- |
+| 网站 | Shadow DOM 挂件、渠道密钥、访客令牌 | WebSocket、卡片消息、知识引用 |
+| 微信公众号 | 回调签名、消息解密、网页授权 | 客服消息、模板消息 |
+| 微信小程序 | 客服消息回调 | 客服消息、订阅消息 |
+| 原生 App | REST 开会话 + WebSocket + API Key | 长连接、离线 webhook |
+| 400 热线 | 呼叫中心事件、录音回传 | IVR 播报、通话小结、建单 |
+| 邮件 | IMAP 拉取、Message-ID 去重 | SMTP 回复、结单回访 |
+
+统一入站链路：
+
+```
+验签 / 鉴权
+→ 外部消息 ID 幂等
+→ channel_identity 绑定客户
+→ 创建或复用会话
+→ 消息落库
+→ 触发机器人和实时质检
+→ 必要时进入人工队列
+```
+
+渠道协议差异被收口在渠道适配层，会话、工单、质检和客户数据继续复用客服主域。
+
+### 2\. 在线客服工作台与智能路由
+
+坐席工作台不是简单聊天框，而是接待控制台：
+
+- 会话队列、我的会话、排队与状态过滤；
+- 认领、退回、转接、内部备注、结束会话；
+- 客户 360 侧栏和最近意图 / 情绪；
+- AI 知识助手和图片判读；
+- 快捷话术与 Alt+1~9 快速插入；
+- 实时质检告警；
+- WebSocket 断线恢复；
+- 服务端工作量和并发接待上限。
+
+路由策略：
+
+```
+技能组匹配
+→ 坐席在线
+→ 长连接在线
+→ 当前接待量 < 并发上限
+→ 选择负载最低者
+→ 同负载优先更久没切换状态的坐席
+→ 无人可用则排队
+→ 超过 overflow_after_seconds 后允许跨技能组溢出
+```
+
+这套路由不是前端“挑一个 ID”的假逻辑，而是在客服核心执行并记录来源、事件和会话归属。
+
+### 3\. 实时消息为什么可靠
+
+WebSocket 只能保证“连接在时可能收到”，不能天然保证消息不丢、不重、不乱序。
+
+项目通过五层机制解决：
+
+| 问题 | 处理 |
+| --- | --- |
+| 重复发送 | `clientMsgNo`  \+ 数据库唯一索引 |
+| 消息乱序 | 服务端按会话分配单调 `seq` |
+| 发送丢失 | 客户端持久化发件箱，收到 ACK 才移除 |
+| 断线漏消息 | 重连携带 `lastSeq` ，增量补拉 |
+| 在线状态失真 | WebSocket 心跳 + HTTP 状态对账 |
+
+消息链路：
+
+```
+客户端生成 clientMsgNo
+→ WebSocket 发送
+→ 实时网关调用客服核心落库
+→ 数据库幂等判断
+→ 服务端分配 seq
+→ 广播消息
+→ 返回 ACK
+→ 客户端移除发件箱
+```
+
+核心设计原则是：
+
+> 先落库，再推送；断线后能补，重发不重复。
+
+### 4\. 会话转工单与 SLA
+
+工单可以从会话一键创建，并自动携带来源会话、客户、问题和最近对话上下文。
+
+SLA 不是页面上的倒计时装饰：
+
+- 建单时根据优先级快照首次响应和解决截止时间；
+- 每 30 秒扫描一次；
+- 进入“即将超时”和“已超时”状态时记录事件并提醒；
+- 后续调整优先级不会偷偷重算已经承诺的 SLA；
+- 支持认领、转派、回复、升级、解决、关闭和重开；
+- 已解决后触发回访邮件，客户满意度回写。
+
+### 5\. 客户 360
+
+客户 360 把原本散落在会话、工单、订单、评价中的信息聚合起来：
+
+- 客户等级、类型、风险、联系方式；
+- 最近意图、情绪和满意度；
+- 历史会话、工单和客户动态；
+- 标签与标签规则；
+- 合并重复客户；
+- 手机号字段级权限；
+- 匿名化、删除、导入导出。
+
+标签规则不是固定枚举，而是“指标 + 比较符 + 阈值 + 统计窗口”：
+
+```
+最近 30 天会话数 > 5
+累计消费金额 >= 10000
+负面情绪次数 >= 3
+```
+
+规则可以在会话结束、建单、定时任务和手动重算时触发。
+
+### 6\. 双速质检
+
+| 质检链路 | 时机 | 目标 |
+| --- | --- | --- |
+| 实时质检 | 消息落库后 | 敏感词、绝对化承诺、情绪未安抚、响应超时 |
+| 全量质检 | 会话结束后 | 规则命中 + 模型评分 + 评语 + 风险等级 |
+
+实时质检不调用大模型，保证秒级反馈和模型故障可用性；全量质检使用模型理解整段对话，再进入人工复核。
+
+这种“双速设计”比全量对话逐句调用大模型更便宜、更可靠。
+
+### 7\. 计费与经营
+
+系统区分两类“钱”：
+
+| 口径 | 数据来源 | 用途 |
+| --- | --- | --- |
+| 企业账单 | 会话、消息、席位、存储、业务 AI 配额 | 套餐和超量账单 |
+| AI 真实成本 | 模型、场景、Token、耗时、失败 | 平台毛利、预算和降级 |
+
+业务用量在请求链路中只做 `LongAdder` 自增，每分钟批量上报，避免每个会话或消息都同步写计费库。
+
+AI 成本则在真实模型调用入口记录：
+
+```
+租户 + 场景 + 模型 + 输入 Token + 输出 Token
++ 估算成本 + 延迟 + 成功/失败 + TraceId
+```
+
+预算达到阈值后不只是告警，还可以真正执行：
+
+- 仅告警；
+- 降级，跳过模型；
+- 暂停 AI，会话转人工。
+
+## 七、AI 技术亮点
+
+项目的 AI 不是“在聊天框后面调用一次模型”，而是一套受控的 AI 应用架构。
+
+**图 3：受控 AI 客服架构**
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rfibNjhpMt2v3IHaQpdAR7qwDbtRib8pkpvryb3HICVrT2Mu1df1vjnz6FhwFy3CUpOEN7GjztexbdrrNlay5KvYaIicOpicPqIYPs/640?wx_fmt=png&from=appmsg#imgIndex=2)
+
+### 1\. 两套 LangGraph 编排
+
+项目用 LangGraph 实现两条真正带分支的状态机：
+
+| 状态机 | 节点 |
+| --- | --- |
+| 客服大脑 | 意图 → 情绪 → 转人工判断 → 知识召回 → 回答 → 状态持久化 |
+| Agentic RAG | 检索 → 召回判分 → 需要时改写 → 二次检索 → 生成 → 引用校验 |
+
+如果环境中没有安装 LangGraph，系统会退化成步骤等价的线性实现，业务不中断。
+
+这不是为了“框架数量”，而是因为流程里存在真正的条件分支：
+
+- 客户一句“转人工”，不需要先查知识库；
+- 客户明显愤怒，优先转人工；
+- 知识召回不足，才需要改写后再检索；
+- 模型不可用，回到规则或检索原文。
+
+### 2\. 规则、训练向量和大模型混合识别
+
+意图识别先运行低成本规则和训练版本向量，再决定是否调用大模型：
+
+```
+rule_intent, rule_confidence, matched = 
+            svc.match_intent(
+          
+    state["question"],
+    intents,
+)
+
+trained = 
+            svc.match_intent_by_version(
+          
+    state["tenant_code"],
+    
+            state.get(
+          "session_no") or "",
+    state["question"],
+    intents,
+)
+
+if trained is not None and float(trained["confidence"]) > rule_confidence:
+    rule_intent = trained["intent"]
+    rule_confidence = float(trained["confidence"])
+```
+
+以下条件同时满足时，会跳过额外的模型分析：
+
+```
+已有可靠意图
+置信度 >= 0.6
+情绪强度 < 20
+客户没有命中转人工关键词
+```
+
+这既保留语义理解，又减少一次模型调用和 1~2 秒等待。
+
+模型返回的意图必须落在租户配置的意图清单中；情绪结果取规则与模型更严重的一档。模型建议转人工也只是参考，客户明确要求、可核对的话面信号和业务规则才决定最终动作。
+
+### 3\. 意图训练中心
+
+这是项目中最容易被漏写的 AI 工程能力之一。
+
+这里训练的不是大模型权重，而是每个租户的意图样本向量索引：
+
+```
+人工维护意图语料
++ 历史真实会话中的高置信度问法
+→ 1024 维向量化
+→ 留一法评估
+→ 生成可切换版本
+```
+
+核心能力：
+
+- 全量训练和增量训练；
+- 未变化语料直接复用旧向量；
+- 历史会话只取意图置信度不低于 60 的样本；
+- 训练任务后台执行，进度写入数据库；
+- 页面 2 秒轮询真实任务进度；
+- 版本号区分主版本和小版本；
+- 支持全量上线、20% 灰度、回滚；
+- 灰度按“租户 + 会话”稳定哈希，不会同一会话来回切版本。
+
+训练完成后，线上识别会真正查询当前版本的样本向量，而不是只改一个页面状态。
+
+### 4\. 多轮状态与槽位
+
+`bot_dialogue` 按“租户 + 会话号”保存：
+
+- 已接待轮次；
+- 连续未解决次数；
+- 最近意图和置信度；
+- 最近情绪和强度；
+- 订单号、手机号、邮箱槽位；
+- 是否转人工和转人工原因。
+
+规则抽取优先，大模型只能补空缺槽位，不能覆盖正则从原文中确认的订单号。
+
+这样客户第一轮说“我要退货”，第二轮补订单号时，机器人不会再次从零开始。
+
+### 5\. Agentic RAG
+
+项目不是简单的“向量检索后拼 Prompt”：
+
+```
+问题
+→ 向量 / 关键词召回首轮
+→ 按不同口径判分
+→ 资料不足时规则改写
+→ 最多重检一次
+→ 只把当前租户召回切片交给模型
+→ 回答带 [1][2] 引用
+→ 剔除不存在的越界引用
+```
+
+关键点：
+
+- 向量分和关键词分量纲不同，阈值分别配置；
+- 没有向量密钥时退回关键词检索，不假装语义检索正常；
+- 向量化失败会写入 `local-hash` 兜底向量，并在体检页明确提示；
+- 没有模型密钥时返回检索原文，不编答案；
+- 文档上传、解析、切块、向量化、索引状态和失败原因都可追踪；
+- 知识库启动体检发现兜底向量后，可以在真实向量密钥配好后自动重建相关文档。
+
+### 6\. 图片、截图和语音
+
+多模态能力不是孤立演示：
+
+| 能力 | 进入的业务链路 |
+| --- | --- |
+| 图片 OCR | 客户报错截图、聊天记录截图 |
+| 截图判读 | “这是支付失败还是订单异常” |
+| 订单号 / 金额抽取 | 后续查询和工单上下文 |
+| 建议人工 | 退款失败、支付异常、账号被盗等风险图 |
+| ASR | 400 热线录音转写，供质检和摘要 |
+| TTS | IVR 播报、语音回复 |
+
+图片识别结果既显示在坐席工作台，也会转换成文本上下文进入客服大脑；质检场景则会把图片判读加入完整会话证据。
+
+### 7\. 租户级模型路由
+
+不同企业可以选择不同模型，但模型配置很容易出现“页面选了 DeepSeek，实际却调用千问”的问题。
+
+项目采用：
+
+- 模型名优先判断厂商；
+- 租户配置优先于平台默认；
+- 缺少所选厂商密钥时显式切换另一家可用厂商；
+- 最终生效模型可体检；
+- 配置读取失败可降级到全局默认；
+- 所有真实调用记录租户、模型、场景和成本。
+
+### 8\. AI 成本治理
+
+AI 成本与业务套餐分开计量：
+
+```
+业务 AI 配额：这个租户这个月最多调用多少次
+AI 真实成本：每次模型调用实际消耗多少 Token 和成本
+```
+
+平台可以配置月度预算：
+
+- 达到预警线时仅提醒；
+- 超预算时降级为规则和检索；
+- 或暂停模型调用并转人工；
+- 预算查询结果缓存 60 秒；
+- ops 服务不可用时按正常放行，避免成本系统扩大成 AI 全站故障。
+
+### 9\. AI 可观测和自愈
+
+- 每次真实模型调用记录 Token、延迟、成功率和成本；
+- 可按平台、租户、模型、场景聚合；
+- 告警规则支持失败率、延迟、成本、调用量和 Token；
+- 同一规则、租户、日期只生成一条告警事件；
+- 告警可确认、忽略和写入企业消息中心；
+- TraceId 从网关贯穿 Java 服务与 AI 计量；
+- AI 健康检查可定位模型配置、知识向量和机器人链路问题。
+
+## 八、多租户 SaaS 架构
+
+**图 4：多租户隔离的四层防线**
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rds1ib2q2d2MnCCvAFricbBLQLKAVPZtncUERrwP6iaWzgcqO7rGuult9xWMqRNqYZmHFrVibDMzG3EmkVib0U9KK5H4vjiaguTZU9Uk/640?wx_fmt=png&from=appmsg#imgIndex=3)
+
+### 1\. 网关认租户
+
+网关从已验签 JWT 中取出租户，而不是信任前端传来的请求头：
+
+```
+String tokenTenant = 
+            token.tenantCode();
+          
+
+if (header != null && !
+            header.isBlank()
+          
+        && !
+            header.equals(tokenTenant))
+           {
+    
+            reporter.reportEvent(
+          
+            tokenTenant,
+            1,
+            "请求头租户与令牌不一致",
+            
+            request.getURI().getPath(),
+          
+            
+            request.getMethod().name(),
+          
+            
+            RequestIps.clientIp(exchange),
+          
+            tokenTenant
+    );
+    return reject(
+            exchange,
+            
+            HttpStatus.FORBIDDEN,
+          
+            40303,
+            "请求租户与登录身份不一致，已拒绝并记录"
+    );
+}
+```
+
+同时支持租户冻结和二维限流：
+
+- QPS 令牌桶；
+- 每日请求额度；
+- 配额缓存 30 秒；
+- 超限返回 `429` 、限流响应头和可读提示；
+- 篡改租户头和触发限流都会写安全事件。
+
+### 2\. 应用层强制带租户
+
+会话、消息、工单、客户、知识、质检和计费表都包含 `tenant_code` ，关键唯一索引通常也包含租户：
+
+```
+(tenant_code, session_no)
+(tenant_code, client_msg_no)
+(tenant_code, ticket_no)
+(tenant_code, intent_code)
+(tenant_code, version_no)
+(tenant_code, stat_date)
+```
+
+这样不同租户可以使用相同的业务编号，而不会相互覆盖。
+
+### 3\. customer\_db 的 PostgreSQL RLS
+
+客户库会对所有带 `tenant_code` 的表自动执行：
+
+```
+ALTER TABLE public.<table>
+    ENABLE ROW LEVEL SECURITY;
+
+ALTER TABLE public.<table>
+    FORCE ROW LEVEL SECURITY;
+```
+
+每次 Java 服务借出数据库连接时写入：
+
+```
+select set_config('
+            app.tenant_code'
+          , '<current-tenant>', false);
+```
+
+即使某条 SQL 忘记写租户条件，数据库仍会按 `              app.tenant_code            ` 过滤。
+
+### 4\. 独立 Schema 与租户升级
+
+除共享库模式外，租户还支持独立 Schema：
+
+- 平台登记隔离模式和 schema 名；
+- schema 名通过严格格式校验，不能拼接任意 SQL；
+- 升级由控制面下发、数据面执行；
+- 脚本清单版本化；
+- 每一步写入升级记录；
+- 成功和失败都留痕，可重试；
+- 运行期脚本副本与权威脚本做一致性检查。
+
+### 5\. AI 租户隔离的准确边界
+
+AI 侧同样从租户维度查询意图、训练版本、模型配置和多轮记忆，知识检索也强制过滤 `tenant_code` 。
+
+但需要明确：
+
+- `ai_db`
+	当前没有与 customer\_db 相同的 RLS；
+- Python 直接访问 customer\_db 时没有自动设置 RLS 上下文；
+- AI 接口目前通过请求头、JSON 体和查询参数多种方式接收租户；
+- AI 服务应作为内部服务使用，生产环境需要限制 `/api/ai/**` 的直接访问并增加服务间认证。
+
+因此更准确的表述是：
+
+> AI 数据已经实现应用层租户隔离和显式查询过滤，但还不是与业务库完全同级的数据库强制隔离。
+
+## 九、数据与一致性设计
+
+### 1\. 六个独立数据库
+
+| 数据库 | 所属域 | 主要数据 |
+| --- | --- | --- |
+| `user_db` | 身份权限 | 用户、角色、权限、成员、邀请、登录日志 |
+| `tenant_db` | 租户治理 | 企业、审核、租户、配额、隔离事件、升级记录 |
+| `customer_db` | 客服业务 | 渠道、会话、消息、客户、工单、知识、质检 |
+| `billing_db` | 计费 | 套餐、订单、用量、账单、收款、支付配置 |
+| `ops_db` | 平台运营 | 安全策略、审计、官网、公告、客户成功、可观测 |
+| `ai_db` | AI | 意图、模型、训练、对话状态、AI 用量 |
+
+共 87 张表。系统禁止跨库外键，跨服务关联通过业务键和内部接口完成。
+
+### 2\. 幂等与并发控制
+
+项目大量使用数据库约束解决并发问题：
+
+- 消息： `(tenant_code, session_id, client_msg_no)` 唯一；
+- 邮件 / App / 电话回调：业务消息 ID 去重；
+- 质检任务：一个会话只生成一条任务；
+- 质检告警：同一消息同一规则只告警一次；
+- 导出审批： `export_time IS NULL` 条件更新保证只能消费一次；
+- 收款流水：业务号唯一防重复入账；
+- 标签重算：UPSERT 进入日聚合表；
+- 账单生成：按账期幂等，已结算不可修改。
+
+这比只在 Java 中写“先查再插”更可靠，因为两个请求同时到达时，唯一约束和条件更新仍然有效。
+
+### 3\. 原子序号
+
+会话消息不是使用客户端时间排序，而是由数据库原子递增会话内 `seq` ：
+
+```
+UPDATE session
+   SET last_msg_seq = last_msg_seq + 1
+ WHERE tenant_code = ?
+   AND id = ?
+RETURNING last_msg_seq
+```
+
+即使两个客户端同时发消息，也能得到不同的会话内序号。
+
+### 4\. 金额、时间与 ID
+
+- 金额统一使用 `NUMERIC` ，避免浮点误差；
+- 业务 ID 使用雪花算法，避免数据库自增暴露规模；
+- 审计时间使用服务端时间，避免多机时钟顺序错乱；
+- 状态、类型字段使用 `SMALLINT + CHECK` ，避免任意字符串；
+- 删除统一逻辑删除，需要清理的切片和文件另行处理。
+
+## 十、安全、审计与可观测
+
+### 安全
+
+| 能力 | 实现 |
+| --- | --- |
+| 登录保护 | 图形验证码、失败锁定、IP 白名单 |
+| 双因素 | 邮箱验证码、挑战号、5 分钟有效、角色范围可配 |
+| API Key | `yk_`  前缀、SHA-256 存储、明文只返回一次、可过期和停用 |
+| 导出 | 平台审批、原子消费、实际导出条数回写 |
+| 敏感字段 | 手机号掩码、字段级权限、查看写审计 |
+| 数据治理 | 客户合并、匿名化、删除、数据导出留痕 |
+| 水印与空闲登出 | 前端执行点，管理端策略控制 |
+
+### 审计
+
+- 审计日志只追加，没有 update / delete 业务接口；
+- 姓名快照保留操作发生时的身份；
+- 时间以 ops 服务端为准；
+- 写审计失败不回滚主业务，避免审计旁路拖垮客服；
+- 安全事件记录越权、限流、RLS 和租户头篡改；
+- 安全事件只能确认、忽略和填写处置说明。
+
+### 可观测
+
+- 网关生成或透传 `X-Request-Id` ；
+- Servlet 服务绑定 Trace 上下文并写入日志 MDC；
+- AI 服务用 TraceId 记录模型调用；
+- AI 调用可用调用链号反查模型、Token、成本、耗时和结果；
+- 监控只返回聚合指标，不把企业聊天内容放进平台大盘；
+- 告警评估每 5 分钟运行，使用唯一约束和 `ON CONFLICT DO NOTHING` 防重复；
+- 预算达到阈值后可执行告警、降级、暂停。
+
+## 十一、前端工程亮点
+
+前端覆盖企业管理端、平台运营端和访客端，不是单页聊天 Demo。
+
+### 重点页面
+
+| 场景 | 页面 |
+| --- | --- |
+| 客服接待 | 三栏工作台、实时消息、客户 360、AI 知识助手 |
+| 运营分析 | 数据概览、实时大屏、坐席绩效 |
+| 服务闭环 | 工单看板、SLA、质检任务、实时预警 |
+| AI 运营 | 意图语料、模型训练、知识库、检索测试、AI 监控 |
+| SaaS 经营 | 套餐升级、订单、账单、用量、收款 |
+| 平台治理 | 租户、审核、安全、审计、告警、成本预算、官网配置 |
+| 客户侧 | 访客接待、渠道演示、官网套餐与在线体验 |
+
+### 前端难点
+
+- 三栏工作台同时管理会话、消息、客户、质检和 WebSocket 状态；
+- 乐观消息与 ACK 回执合并，重发沿用同一 `clientMsgNo` ；
+- 断线后按 `lastSeq` 补拉并去重；
+- API 错误显示 TraceId，用户可直接反馈给运维定位；
+- 路由与菜单按平台账号、企业角色和权限码多层控制；
+- 知识助手只把答案填进回复框，坐席确认后才能发给客户；
+- 图片判读在消息内原位更新，不要求用户刷新；
+- 复杂列表统一接口封装、状态管理和空态 / 无权限态。
+
+## 十二、工程质量
+
+项目有大量可执行的离线与在线自检脚本，覆盖：
+
+- 租户隔离与 RLS；
+- 机器人意图、情绪、槽位和转人工；
+- Agentic RAG；
+- 意图训练与版本；
+- 实时消息与断线补拉；
+- 智能路由；
+- 实时质检；
+- 工单 SLA；
+- 客户 360；
+- 计费、支付和收款；
+- 安全中心与审计；
+- AI 监控、可观测和成本预算；
+- 渠道 SDK、公众号、小程序与 400 热线。
+
+数据库采用“基线 + 增量脚本”：
+
+- 新环境可一键初始化；
+- 老环境执行增量迁移；
+- 脚本幂等；
+- 运行期副本与权威脚本有同步检查；
+- AI 数据库缺失表 / 列时会在启动日志中给出明确迁移命令。
+
+## 十三、核心业务流程
+
+### 1\. 访客进线
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rdBJAVef7kLlPeiagpBmaB2T7eXPS1bVxpnnFz5PQOO2sCibRg2xZjDEEOlibYEEKgkHrDxdEzWrEFwKq9mQzEXUwNoicG5J4iaw6EQ/640?wx_fmt=png&from=appmsg#imgIndex=4)
+
+### 2\. RAG 问答
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rfqDMyRiaq8lMCwBEMRhIZcCS2s70Tibj596D6Dh22A346WX1gD0aEo2AGDfcpLnCVl9hQZXqC7sZuictoTsUq9AjLB83yA3w4ibRg/640?wx_fmt=png&from=appmsg#imgIndex=5)
+
+### 3\. 账单生成
+
+```
+选择套餐与周期
+→ 服务端计算订单金额
+→ 支付或对公转账确认
+→ 同步租户套餐、有效期和网关配额
+→ 业务用量持续上报
+→ 每月自动生成上月账单
+→ 套餐费 + 超量费
+→ 确认收款并写唯一流水
+```
+
+## 十四、系统截图
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rch2y7wEB0XKxq1axWAQ7ic2pwibB1PHDbBXgLDP1alpYzjo54biaZPfibDvb3jybFyz64BlK3KicujGfImSKnia1lp2sVAvibG2iabzMY/640?wx_fmt=png&from=appmsg#imgIndex=6)
+
+企业用户登录之后：
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rcTdIicFDniaBXkVHUCLT6cT0ExrubC8ZKVenU3kw2l0a9vFrNtdkGJY3SC985BgsT31IOatUI4GjoVN9InoO1LVib8HvSrricaHhg/640?wx_fmt=png&from=appmsg#imgIndex=7) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rfrUjmRlRQhoYsp20zcYWw6kOBg8F6V0buJ1TxwkdZdL7dNLichicSjSmDlPfORkL66ibjhx3fNqPC2VklXcAZjsWWdQGU8wBRnzw/640?wx_fmt=png&from=appmsg#imgIndex=9) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0re84ibiaQicIIxbRFRrRxmIbibzRUrZlNlTG0Eib8RfwibSias7Bh71ZOicHoeic2keUUDfBcpadzo3Sd4Ilw6xqGmFyTS9eysG20BefNYk/640?wx_fmt=png&from=appmsg#imgIndex=11) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rfiafmRIicTlNCvIuShQoicCgxvDlnAFUiaMUNwZu4ZLMl1VHyibHich8vvXpv4ZicHY4iaaOtGKdSeY1eMTEIxyhhlTKZ8H5DKiaL7k8S8/640?wx_fmt=png&from=appmsg#imgIndex=13) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0reSKc5ufuHiaOKob40QEYarxiccPkqictkDfJ8buEEgDQBNPbMKo4NxXJok1fDygFbPwu6ic86XriaAKAI3sCH9JovtcibRhUxC6ibciao/640?wx_fmt=png&from=appmsg#imgIndex=15) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rdC1Zu6Jabz0vbnicBBvCK3oZsIZ9g7SibaEP34IF6h1OCusBQK9h13J5PLgwoAPqCQiaxxXb9as3iafNIhBGDY9eH4ib6ibI6gnLLyE/640?wx_fmt=png&from=appmsg#imgIndex=17) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rewQBics1oH0h54Xf5hH6upoNoxtG30ibqlPpfYUY4ChCq2kufysPxicT3jLMib4c6Jg2AKta2pMT4MHCQx9o4FPhXzweAcvX1f4KU/640?wx_fmt=png&from=appmsg#imgIndex=19) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rcDuDMJ7lwkuDPaaZJGYLk47kmgSzfotNiaRh9c5l1BhzickBESGNKfgreJDbOtTG4xpcoAhJR26Kk0ryIPfVCXnHBf1OyiaQcsGE/640?wx_fmt=png&from=appmsg#imgIndex=21) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rfEbVNqThXbbqghokb9wj7d4VtJOZ7zjurGYG6XIljkx4fDU2GwOUoLu56VlhaLJUcYklMVXjFrpbesYliaUufe2myGibbgbepQE/640?wx_fmt=png&from=appmsg#imgIndex=23)
+
+平台管理员登录之后：
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rcSfsCEHDu1CJobgHbpZ8ic7k7KTZOdgMU5mxaicx0dYfUzvejib1edmdqVgyMoFTiaCgqRicR1gD08eib1jwpwp8vglGLicrtx2DQlKA/640?wx_fmt=png&from=appmsg#imgIndex=24) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rfrV4v8PZeouVcqP6KJlQe0VQU99tdQicAdeWTjWgREQsMg4CxrKRBFJmhibqXO4iaiblv2zdpnJZyoiaZJibUXHwx2D8rdX9Cn7zPjc/640?wx_fmt=png&from=appmsg#imgIndex=26) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rcwab8emHW34UicQx3wGdLCkXQ8ico970xiaSNRUeZIKPz9OGW0SAY4pWZydViaOyT3APOJd4pAu55L5UIicgtHE9GsibsJKbqAnlfYY/640?wx_fmt=png&from=appmsg#imgIndex=28) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0reMiakhFxW2tec9LRfYwn0xvh18JTmmZ0D4lvE9tqlrEg0IUbUKBJrrCnwTm6sMdv2RPPF8IW8F3Yia52gB4bzkdAczejZpGibWibk/640?wx_fmt=png&from=appmsg#imgIndex=30) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rdjUkTMIvJqW7AAsaUNOMbubUHCnEXpeVTB568KmuK4eVOEfNSRXXMQ4gUgXDHiaxQxmBjXrMS7fozYcNmRS5U4O0cOHwM95w3w/640?wx_fmt=png&from=appmsg#imgIndex=32) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rco4ATY6UCNo68P6T5vv32yEOGwcgSNyCR46ymUX5c0uGWb4GmlG0uXO1kDNVZp0avBQK3KZnc3icOR5OPdo2cZvEibmslBDw2SA/640?wx_fmt=png&from=appmsg#imgIndex=34)
+
+官网：
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rfErrEicH8EAd35iahXNs0zr3uU5TCxgmanJGjClEMukRU2cWSIcQKWEQ8X4iaqYiaKTG9O3XgQX23iatAib7kymA0wicIBMMDoxnmiao8/640?wx_fmt=png&from=appmsg#imgIndex=35)
+
+企业网站接入后的效果：
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rfbC7eLxqMHY7zicgczmicicyspH9e3Rba4uwHEXiaJ7yxxXkjM19Bg4hTpbuE940C4bK8yhHaEd4EhG2nbEdWQVP46R7vficE0e310/640?wx_fmt=png&from=appmsg#imgIndex=37)
+
+## 十五、这套项目适合谁？
+
+### Java 后端工程师
+
+可以学习：
+
+- Java 25 `ScopedValue` 如何替代 `ThreadLocal` 管理登录、租户和 Trace；
+- Spring Cloud Gateway 与 Spring MVC 服务如何协作；
+- 多数据库微服务如何避免跨库外键和分布式事务滥用；
+- 唯一索引、条件更新、UPSERT、原子序号如何解决真实并发；
+- RLS、JWT 权威租户和内部服务调用的完整安全链路；
+- WebSocket 消息可靠性和断线补拉；
+- 定时任务、批量账单、用量聚合和成本熔断。
+
+### 前端工程师
+
+可以学习：
+
+- Vue 3.5 + TypeScript 的大型管理后台组织方式；
+- 三栏坐席工作台、实时消息、客户 360 和 AI 辅助；
+- WebSocket 与 HTTP 混合、乐观 UI、发件箱、ACK 和补拉；
+- 角色菜单、路由守卫和细粒度权限；
+- 复杂表格、可视化大屏、训练中心和知识库交互。
+
+### AI / LLM 工程师
+
+可以学习：
+
+- LangGraph 状态机如何把模型能力接入业务流程；
+- 规则、训练向量和 LLM 如何协同；
+- 意图训练中心如何做语料、评估、版本、灰度和回滚；
+- pgvector RAG 如何做召回判分、重检和引用校验；
+- OCR、截图理解、ASR/TTS 如何进入客服主链路；
+- Token 成本、预算、告警、降级和模型路由；
+- 如何把 AI 输出变成 Java 业务可校验、可执行的结构化结果。
+
+### 架构师 / 技术负责人
+
+可以学习：
+
+- SaaS 产品域如何拆分为用户、租户、客服、计费、运营和实时服务；
+- 租户开通、渠道接入、会话、工单、质检、计费和客户成功的完整边界；
+- 多租户隔离、租户级配额、独立 Schema 和平台运营控制面；
+- AI 服务与业务服务如何解耦，如何控制延迟、成本和故障范围；
+- 如何用自检脚本、增量迁移和演示数据提高交付质量。
+
+## 如何获取源码？
+
+扫描下方👇🏻二维码，加入星球，即可获取： **源码** + **教程** + **技术答疑** ：
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rdC7GBNrxWibzCa8gUNvmKKEAPpZnXdLlCSDrbl5XyZMTMk1TiawqHEDGrRf4ZCkeeTfJxevZIYK6o0BiaxFbMDp5hkDnIS40hzf4/640?wx_fmt=png&from=appmsg#imgIndex=39)
+
+原价159，通过优惠券加入星球，可以立减30，今天只需要129。
+
+只有 **15** 张优惠券，数量有限，先到先到。
+
+其实星球中已经包含了15个实战项目 + 13个技术专栏，SaaS智能客服系统只是其中一个项目。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rclXTwtYrPhRicWEFzSQapApPpwrFmKiacIHdOAZUfqcU3sy5BdLnWCiazQs9icicjw1uYnwhRQGTKbDzeefVQfD6l9hvoOoGjZogHA/640?wx_fmt=png&from=appmsg#imgIndex=40)
+
+其他项目的技术含金量也非常高，这里有详细介绍： [推荐14个牛逼的SpringBoot项目](https://mp.weixin.qq.com/s?__biz=MzkzNzg4MzI2MQ==&mid=2247536010&idx=1&sn=69cbb5fdfc59c9c636559fb556386b24&scene=21#wechat_redirect)
+
+13大优质技术专栏：
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/3SCLUkuu2IFbWmJibiaF170JmpMJLXa7oHnJS80KMX3qm88QDjWCKMkAysCkgDCgxlWJso0bQ9KJ0ibC34tz7PGLgBPxia2drtmU3oQ1YwsDQms/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=26)
+
+此外，还有1V1答疑、修改简历、职业规划、送书活动、技术交流等内容。
+
+星球中你可以开阔一下视野，跟一群优秀的人一起交流和学习，如果工作中有些难题也有人给你出谋划策，这个价格超值！
+
+很多球友拿到了不错的offer：
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/3SCLUkuu2IGfhh8fCOFUW4B9fQKayffjiaiaqwiaibJf8xOicjanFyDaiaibs2Fic6MsJMbAqKY7lwMjeryI0P3XEUibWa2EicYJmuxRZxvjY7icJNezL8/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=27)
+
+说实话129元这个价格已经非常便宜了，可能就是一顿饭钱。
+
+这100多块钱可能是2026年你花的最值的一次钱。
+
+我相信知识星球回馈给你的，将来是十倍或者百倍的价值。
+
+扫描下方👇🏻二维码，加入星球，即可获取： **源码** + **教程** + **技术答疑** ：
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rdC7GBNrxWibzCa8gUNvmKKEAPpZnXdLlCSDrbl5XyZMTMk1TiawqHEDGrRf4ZCkeeTfJxevZIYK6o0BiaxFbMDp5hkDnIS40hzf4/640?wx_fmt=png&from=appmsg#imgIndex=43)
+
+原价159，通过优惠券加入星球，可以立减30，今天只需要129。
+
+只有 **15** 张优惠券，数量有限，先到先到。

@@ -24,8 +24,13 @@ JIT（Just-In-Time，即时编译）是在程序运行过程中，[[JVM]] 监控
 - **适用场景**：长期运行服务端应用（如 [[SpringBoot]] 长驻服务）、高性能计算、低延迟交易
 - **新发展**：蚂蚁集团（[[蚂蚁集团]]）开源了基于 [[LLVM]] 的 JVM JIT 编译器 [[Jeandle]]，将 LLVM 的模块化设计与优化能力引入 HotSpot JVM，目标是实现锁优化、逃逸分析、OSR（On-Stack Replacement）等高级优化
 
+### try catch 与 JIT 的关系（2026-11-03 来源：[[摘要-java-try-catch性能]]）
+实测证明 **try catch 不影响即时编译**：解释模式（`-Xint`）下多个 try catch 带来的多条 goto 有微量开销（千万次差 5~7ms，因 goto 占比过大），但编译模式（`-Xcomp`）下 JIT 会把这些跳转一并优化，亿级计算也难分胜负。真正有成本的是**抛异常本身**（异常对象构造 + 栈轨迹填充），不是 try catch 语法。详见 [[异常处理]]。
+
 ## 关联连接
 - [[摘要-aot-vs-jit编译]] — 来源
+- [[摘要-java-try-catch性能]] — 来源（try catch 与 JIT 优化实测）
+- [[异常处理]] — 异常表机制与性能结论
 - [[AOT编译]] — 对比概念
 - [[HotSpot]] — 代表实现
 - [[GraalVM]] — 对比的 AOT 技术

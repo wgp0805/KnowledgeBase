@@ -4283,3 +4283,21 @@
 
 ## 更新 (2026-11-03)
 - [[MySQL]]（+自增 id 用尽章节：五种 id 达上限行为与可靠性/可用性权衡）、[[苏三]]（+Agentic 文章来源）、[[冰河]]（+OpenBot 解读来源）、[[ACP]]（+OpenBot 场景章节：统一接入多 CLI）、[[multi-agent-collaboration]]（+工具化调度补充章节：OpenBot 本地工具调度路线 vs Paperclip 公司模式 vs 三角色方法论）、[[沉默王二]]（+LLM 科普来源）
+
+## Sources (2026-11-04 ingest)
+- [[摘要-手把手实现java-agent]] — 终码一生：Java Agent 技术全解——Instrumentation/premain/agentmain/Attach + ASM/bytekit 字节码增强，以方法耗时统计为例并拆解 Arthas trace 命令原理
+- [[摘要-注解实现分布式锁]] — 终码一生：@RedisLock 注解 + AOP + RedisTemplate setIfAbsent 实现分布式锁，ScheduledExecutorService 定时续时防锁提前释放
+- [[摘要-java-try-catch性能]] — 小哈：用字节码异常表与实测数据反驳"try catch 影响性能"——未抛异常时几乎零损耗，JIT 可消除 goto 开销，真正有成本的是抛异常本身
+- [[摘要-graphify代码知识图谱]] — 冰河：142K+ Star 的 Graphify——一条命令把项目变成 AI 可查知识图谱，tree-sitter 本地解析零成本、关系带溯源标签、Leiden 聚类、MCP/HTTP 共用
+- [[摘要-kafka只消费一次]] — 小哈：Kafka 默认 At Least Once，"只消费一次"三方案——手动提交+幂等 / offset 与业务同事务 / Kafka 事务 EOS，根因是业务与 offset 提交非原子
+
+## Entities (2026-11-04 新增)
+- [[Graphify]] — Graphify Labs 开源代码知识图谱工具（142K+ Star）：tree-sitter 本地解析 40+ 语言、EXTRACTED/INFERRED/AMBIGUOUS 溯源标签、god nodes 识别 + Leiden 子系统聚类、增量更新与 MCP 服务
+
+## Concepts (2026-11-04 新增)
+- [[JavaAgent]] — 依附 JVM 的插件机制：Instrumentation + premain/agentmain/Attach 在类加载时拦截改写字节码，Arthas/SkyWalking 等诊断工具的底座
+- [[字节码增强]] — 在类加载前或运行期修改 Java 类字节流的技术：ASM/bytekit/Javassist/ByteBuddy 工具链，AOP 代理之外的更底层横切手段
+- [[异常处理]] — Java 异常表（Exception table）机制：catch 不靠跳转指令而靠异常表，未抛异常时几乎零开销；真正成本在异常对象构造与栈回溯
+
+## 更新 (2026-11-04)
+- [[Arthas]]（+trace 命令的 Java Agent 原理：EnhancerCommand 模板模式 → 注册 transformer → bytekit 拦截器改写字节码）、[[分布式锁]]（+注解式实现章节：@RedisLock + AOP + 自研续时 vs Redisson watchdog）、[[AOP]]（+@RedisLock 切面典型落地）、[[JIT编译]]（+try catch 与 JIT 优化实测结论）、[[知识图谱]]（+代码知识图谱 Graphify 场景章节）、[[冰河]]（+Graphify 解读来源）、[[Kafka]]（+只消费一次章节：三方案与幂等设计）、[[AtLeastOnce]]（+升级到 Exactly Once 的完整落地路径）、[[小哈]]（+Kafka 只消费一次与 try catch 两文来源）

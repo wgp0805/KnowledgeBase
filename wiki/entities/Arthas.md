@@ -51,8 +51,18 @@ AI 能把「现象」翻译成「命令序列」、把「原始输出」整理�
 | AI 辅助排障入门 | ✅✅ 推荐 |
 | 生产环境第一次用热更新 | ❌ 不推荐 |
 
+### trace 命令的字节码增强原理（2026-11-03 来源：[[摘要-手把手实现java-agent]]）
+`trace` 的实现链条是 Java Agent 机制的教科书级案例：
+- `TraceCommand extends EnhancerCommand extends AnnotatedCommand`（模板模式，复杂命令各有一个处理类；exit/logout 等简单命令直接执行）
+- `EnhancerCommand#enhance` 走到 `Enhancer#enhance(Instrumentation)`，把 `Enhancer` 自己注册为 `ClassFileTransformer`
+- `transform()` 中：先校验目标 ClassLoader 能否加载 `SpyAPI`（否则放弃增强）→ 过滤 `matchingClasses` → `AsmUtils.toClassNode` 解析 → `DefaultInterceptorClassParser` 解析 `SpyInterceptor1/2/3` 与 `SpyTraceInterceptor1/2/3`（`skipJDKTrace` 时换用排除 JDK 类的变体）生成 InterceptorProcessor 集合 → 遍历 `MethodProcessor` 修改原方法字节码 → `AsmUtils.toBytes` 输出增强字节码 → `AdviceListenerManager` 注册监听器收集 trace 数据
+- 拦截器本身用 bytekit 注解声明（如 `SpyInterceptor1.atEnter` 用 `@AtEnter(inline=true)` + `@Binding.This/Class/MethodInfo/Args`），核心逻辑只有两步：**解析注解生成处理器 → 遍历处理器改字节码**
+
 ## 关联连接
 - [[摘要-arthas-4]] — 最新来源
+- [[摘要-手把手实现java-agent]] — 来源（trace 命令的 Java Agent 原理拆解）
+- [[JavaAgent]] — 底层机制
+- [[字节码增强]] — ASM/bytekit 手段
 - [[async-profiler]] — 火焰图底层引擎
 - [[MCP]] — AI 接入协议
 - JFR — JVM 飞行记录

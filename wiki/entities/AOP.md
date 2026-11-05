@@ -14,6 +14,7 @@ AOP（Aspect-Oriented Programming，面向切面编程）通过预编译方式�
 - 切入点表达式：execution（方法匹配）、@annotation（注解匹配）、within（类匹配）
 - 自定义注解作为切点：结合 @Around 实现通用日志或权限校验
 - 典型落地：`@Idempotent(expire)` + `@Around` 切面把"请求体摘要 → `setIfAbsent` 抢键 → 异常回删"封装成零侵入能力，老接口加一行注解即有幂等（见 [[幂等性]]）
+- 典型落地：`@RedisLockAnnotation` + `@Around` 切面把"Redis setIfAbsent 加锁 → 业务执行 → finally 释放 + 定时续时"封装成一行注解加锁（见 [[分布式锁]]、[[摘要-注解实现分布式锁]]）
 - Spring AOP 底层：JDK 动态代理（接口）和 CGLIB（类）
 - AOP 是 Spring @Transactional 事务管理的底层实现基础
 
@@ -24,3 +25,5 @@ AOP（Aspect-Oriented Programming，面向切面编程）通过预编译方式�
 - [[摘要-SpringBoot-Aop的使用]] — 讲解 Spring Boot 中 AOP 面向切面编程的使用…
 - [[幂等性]] — 注解式幂等的典型应用
 - [[摘要-springboot接口幂等性4种策略]] — 来源（@Idempotent 切面实战）
+- [[分布式锁]] — 注解式加锁的典型应用
+- [[摘要-注解实现分布式锁]] — 来源（@RedisLock 切面实战）

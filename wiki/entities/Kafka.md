@@ -96,6 +96,16 @@ Kafka 只保证**分区内有序**，从不承诺全局有序。要实现业务�
 
 **记忆口诀**：四丢（缓冲区丢、页缓存丢、副本没同步丢、offset 提前提交丢）；配置（acks=all、副本三、最小同步二、禁 unclean、手动提交 offset）。
 
+### 只消费一次（2026-11-03 来源：[[摘要-kafka只消费一次]]）
+**Kafka 默认只保证 At Least Once，"只消费一次"需消费端额外设计**。根因一句话：**业务处理与 offset 提交不是原子操作，中间任何中断都造成回滚重放**（rebalance 是放大器；业务超 `max.poll.interval.ms` 默认 5 分钟也会主动离组触发 rebalance）。
+
+三套方案：
+1. **手动提交 offset + 业务幂等（生产首选）**：关 `enable.auto.commit`，业务全部成功后 `commitSync()`（吞吐敏感用 `commitAsync()` + 退出前 `commitSync()` 兜底）；注册 `ConsumerRebalanceListener`，`onPartitionsRevoked` 里补提交缩小窗口。**幂等才是最终防线**（`processMessage` 成功、`commitSync` 前被 kill -9 仍会重放）——① 数据库唯一索引（最强推荐）② 去重表（消息 ID 主键）③ Redis SETNX ④ 乐观锁/状态机（`update ... where status='UNPAID'`，状态流转天然幂等，作者最偏爱）
+2. **offset 与业务数据同库事务**（下游 MySQL）：事务成功则业务数据 + offset 一起落库、失败一起回滚，不再依赖 Broker 提交位点而查 offset 表。代价：吞吐下降、业务与消费节奏耦合，适合资金/账务等高一致性低吞吐场景
+3. **Kafka 事务 + 幂等生产者（0.11+ EOS）**：幂等生产者靠 `PID + Sequence Number` 在单分区单会话内去重（3.0+ 默认开启，但显式配 `acks=1`/`retries=0` 时需显式设 `enable.idempotence=true`）；事务用 `initTransactions` + `sendOffsetsToTransaction` + `commitTransaction`/`abortTransaction` 把"消费 offset"与"下游写入"绑成原子，`transactional.id` fencing 僵尸实例，下游配 `isolation.level=read_committed`。**边界**：只管 Kafka 内部 consume-transform-produce 链路，写 MySQL/调 RPC 等外部副作用管不着
+
+**选型**：一般业务（下单/通知/日志）方案一；下游是数据库且要求高一致性叠加方案二；纯 Kafka 内部流转（Streams、读 A 写 B）方案三。**口诀：重复的根子在提交，解决的落点在幂等**。
+
 ## 关联连接
 - [[摘要-bytedance-mq-design]] — 来源
 - [[RocketMQ]] — 同类消息中间件对比
@@ -111,6 +121,7 @@ Kafka 只保证**分区内有序**，从不承诺全局有序。要实现业务�
 - [[AtLeastOnce]] — 消息不丢的投递语义与消费端幂等组合（2026-10-26 提炼）
 - [[摘要-kafka消息不丢失]] — 来源（2026-10-26 消息不丢失面试题拆解）
 - [[摘要-kafka-为什么无法100%不丢失]] — 来源（2026-10-29 为什么做不到 100% 拆解，四丢窗口与三个硬限制）
+- [[摘要-kafka只消费一次]] — 来源（2026-11-03 只消费一次：三方案与幂等设计）
 - [[共享组]] — 4.2 新消费组模式（KIP-932，按记录协作）
 - [[摘要-kafka42共享组]] — 来源（2026-10-27 Kafka 4.2 新特性拆解）
 - [[小锋]] — 来源作者
