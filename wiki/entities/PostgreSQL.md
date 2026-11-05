@@ -33,7 +33,18 @@ PostgreSQL 是一个功能强大的开源对象-关系型数据库系统，以�
 - 长期记忆存储在 langgraph_store 表，支持语义检索（依赖 [[pgvector]] 扩展）
 - 在 [[RenoPit]] 项目中作为核心依赖，健康检查执行 `SELECT 1` + 连接池状态
 
+### 云梯 SaaS 的 RLS 与多库实践（2026-11-05，详见 [[摘要-云梯saas智能客服]]）
+[[云梯智能客服系统]]用 PostgreSQL 17 承载 6 个独立数据库（user_db/tenant_db/customer_db/billing_db/ops_db/ai_db）共 87 张表：
+- **RLS 作为多租户第三道防线**：customer_db 对带 `tenant_code` 的表 `ENABLE/FORCE ROW LEVEL SECURITY`，连接借出时 `set_config('app.tenant_code', ...)`，SQL 忘写租户条件也不会越权（详见 [[RLS]]）
+- **禁止跨库外键**，跨服务关联通过业务键与内部接口完成
+- **原子序号**：`UPDATE session SET last_msg_seq = last_msg_seq + 1 ... RETURNING last_msg_seq` 保证并发下会话内消息序号唯一
+- **幂等与并发控制**：大量使用唯一约束、条件更新（`export_time IS NULL`）、UPSERT 解决真实并发
+- **类型选择**：金额用 NUMERIC 避免浮点误差、状态/类型用 SMALLINT + CHECK、业务 ID 用雪花算法、审计时间用服务端时间
+
 ## 关联连接
+- [[摘要-云梯saas智能客服]] — 来源（RLS 与多库实践）
+- [[云梯智能客服系统]] — 实践项目
+- [[RLS]] — 行级安全
 
 - [[摘要-PostgreSQL-vs-MySQL]] — 来源
 - [[摘要-langgraph-postgresql-会话记忆持久化]] — 来源（LangGraph 记忆持久化）

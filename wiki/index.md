@@ -4301,3 +4301,17 @@
 
 ## 更新 (2026-11-04)
 - [[Arthas]]（+trace 命令的 Java Agent 原理：EnhancerCommand 模板模式 → 注册 transformer → bytekit 拦截器改写字节码）、[[分布式锁]]（+注解式实现章节：@RedisLock + AOP + 自研续时 vs Redisson watchdog）、[[AOP]]（+@RedisLock 切面典型落地）、[[JIT编译]]（+try catch 与 JIT 优化实测结论）、[[知识图谱]]（+代码知识图谱 Graphify 场景章节）、[[冰河]]（+Graphify 解读来源）、[[Kafka]]（+只消费一次章节：三方案与幂等设计）、[[AtLeastOnce]]（+升级到 Exactly Once 的完整落地路径）、[[小哈]]（+Kafka 只消费一次与 try catch 两文来源）
+
+## Sources (2026-11-05 ingest)
+- [[摘要-云梯saas智能客服]] — 苏三自研云梯智能客服系统：7 Java 服务 + Python AI + Vue 的多租户 SaaS，多租户四层防线、WebSocket 五层消息可靠、LangGraph 受控 AI、意图训练中心、Agentic RAG、双速质检、计费与 AI 成本治理
+
+## Entities (2026-11-05 新增)
+- [[云梯智能客服系统]] — 多租户 SaaS 智能客服平台（7 Java 服务 + Python AI 服务 + Vue）：6 库 87 表、六渠道接入、多租户四层隔离、受控 AI 架构、双速质检、计费与成本治理
+
+## Concepts (2026-11-05 新增)
+- [[ScopedValue]] — Java 25 作用域值 API：值在明确作用域内可见、结束自动失效，替代 ThreadLocal 避免线程池复用串数据与内存泄漏
+- [[RLS]] — PostgreSQL 行级安全：按会话上下文自动过滤行，SQL 漏写租户条件也不越权，多租户数据库层强制隔离的兜底
+- [[双速质检]] — 实时规则质检（秒级不调模型）+ 会话结束后 AI 全量质检 + 人工复核，快规则 + 慢模型的分层工程模式
+
+## 更新 (2026-11-05)
+- [[多租户隔离]]（+云梯四层防线章节：网关认租户/租户字段/RLS/独立 Schema + AI 侧隔离边界）、[[智能客服Agent设计]]（+云梯受控 AI 架构章节：LangGraph 双状态机/规则+向量+LLM 混合识别/意图训练中心/槽位/Agentic RAG/AI 成本治理）、[[AI客服]]（+企业级 SaaS 落地参考）、[[苏三]]（+云梯项目来源）、[[ThreadLocal]]（+ScopedValue 替代关系）、[[LangGraph]]（+云梯双状态机实践）、[[pgvector]]（+1024 维 HNSW 客服实践）、[[PostgreSQL]]（+RLS 与多库实践：6 库 87 表/原子序号/幂等约束）、[[RustFS]]（+云梯对象存储选型）、[[FastAPI]]（+云梯 Python AI 服务实践）

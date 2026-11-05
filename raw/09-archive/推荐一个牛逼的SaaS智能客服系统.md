@@ -85,7 +85,7 @@ tags:
 
 **图 1：系统总体架构**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rd0Ym1icSQSr4ImeVQ56VQib34I8tcuQZzUv52App8iacciaururODVxPgE3sltCib8ggvFju3oq7SibfhUMsiblI6BSyHNRUw95zB9Zg/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/7ef6908668f5f0b88daa907f88ad5584_MD5.png)
 
 ## 四、微服务按业务边界拆分
 
@@ -162,7 +162,7 @@ public static <R, X extends Throwable> R bind(
 
 **图 2：从客户进线到续费经营的闭环**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rdTjtu5of34bYtZMsZCCTAExtcHoiaEeBqLOYWlT51oFemRlpXQUWQwgYoDg4RkVVRDzTNmdA9iaXhwYiapFZOm4picJHQD0zCNHbc/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/fff8380154e7fcb735a818755d0ab11f_MD5.png)
 
 ### 1\. 全渠道统一接入
 
@@ -326,7 +326,7 @@ AI 成本则在真实模型调用入口记录：
 
 **图 3：受控 AI 客服架构**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rfibNjhpMt2v3IHaQpdAR7qwDbtRib8pkpvryb3HICVrT2Mu1df1vjnz6FhwFy3CUpOEN7GjztexbdrrNlay5KvYaIicOpicPqIYPs/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/3748c86a37e35ceae95a262dcd61f839_MD5.png)
 
 ### 1\. 两套 LangGraph 编排
 
@@ -512,7 +512,7 @@ AI 真实成本：每次模型调用实际消耗多少 Token 和成本
 
 **图 4：多租户隔离的四层防线**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rds1ib2q2d2MnCCvAFricbBLQLKAVPZtncUERrwP6iaWzgcqO7rGuult9xWMqRNqYZmHFrVibDMzG3EmkVib0U9KK5H4vjiaguTZU9Uk/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/69ad642bcea73177e6d8e3a864fe430b_MD5.png)
 
 ### 1\. 网关认租户
 
@@ -772,11 +772,11 @@ RETURNING last_msg_seq
 
 ### 1\. 访客进线
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rdBJAVef7kLlPeiagpBmaB2T7eXPS1bVxpnnFz5PQOO2sCibRg2xZjDEEOlibYEEKgkHrDxdEzWrEFwKq9mQzEXUwNoicG5J4iaw6EQ/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/a25251496c3b19d19e3d5e63ba0d4340_MD5.png)
 
 ### 2\. RAG 问答
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rfqDMyRiaq8lMCwBEMRhIZcCS2s70Tibj596D6Dh22A346WX1gD0aEo2AGDfcpLnCVl9hQZXqC7sZuictoTsUq9AjLB83yA3w4ibRg/640?wx_fmt=png&from=appmsg#imgIndex=5)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/6401ab7af1bd86b9bd73c4961d3a7142_MD5.png)
 
 ### 3\. 账单生成
 
@@ -793,23 +793,23 @@ RETURNING last_msg_seq
 
 ## 十四、系统截图
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rch2y7wEB0XKxq1axWAQ7ic2pwibB1PHDbBXgLDP1alpYzjo54biaZPfibDvb3jybFyz64BlK3KicujGfImSKnia1lp2sVAvibG2iabzMY/640?wx_fmt=png&from=appmsg#imgIndex=6)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/8e85a8e95fe27bff63bc510cd250427b_MD5.png)
 
 企业用户登录之后：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rcTdIicFDniaBXkVHUCLT6cT0ExrubC8ZKVenU3kw2l0a9vFrNtdkGJY3SC985BgsT31IOatUI4GjoVN9InoO1LVib8HvSrricaHhg/640?wx_fmt=png&from=appmsg#imgIndex=7) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rfrUjmRlRQhoYsp20zcYWw6kOBg8F6V0buJ1TxwkdZdL7dNLichicSjSmDlPfORkL66ibjhx3fNqPC2VklXcAZjsWWdQGU8wBRnzw/640?wx_fmt=png&from=appmsg#imgIndex=9) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0re84ibiaQicIIxbRFRrRxmIbibzRUrZlNlTG0Eib8RfwibSias7Bh71ZOicHoeic2keUUDfBcpadzo3Sd4Ilw6xqGmFyTS9eysG20BefNYk/640?wx_fmt=png&from=appmsg#imgIndex=11) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rfiafmRIicTlNCvIuShQoicCgxvDlnAFUiaMUNwZu4ZLMl1VHyibHich8vvXpv4ZicHY4iaaOtGKdSeY1eMTEIxyhhlTKZ8H5DKiaL7k8S8/640?wx_fmt=png&from=appmsg#imgIndex=13) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0reSKc5ufuHiaOKob40QEYarxiccPkqictkDfJ8buEEgDQBNPbMKo4NxXJok1fDygFbPwu6ic86XriaAKAI3sCH9JovtcibRhUxC6ibciao/640?wx_fmt=png&from=appmsg#imgIndex=15) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rdC1Zu6Jabz0vbnicBBvCK3oZsIZ9g7SibaEP34IF6h1OCusBQK9h13J5PLgwoAPqCQiaxxXb9as3iafNIhBGDY9eH4ib6ibI6gnLLyE/640?wx_fmt=png&from=appmsg#imgIndex=17) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rewQBics1oH0h54Xf5hH6upoNoxtG30ibqlPpfYUY4ChCq2kufysPxicT3jLMib4c6Jg2AKta2pMT4MHCQx9o4FPhXzweAcvX1f4KU/640?wx_fmt=png&from=appmsg#imgIndex=19) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rcDuDMJ7lwkuDPaaZJGYLk47kmgSzfotNiaRh9c5l1BhzickBESGNKfgreJDbOtTG4xpcoAhJR26Kk0ryIPfVCXnHBf1OyiaQcsGE/640?wx_fmt=png&from=appmsg#imgIndex=21) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rfEbVNqThXbbqghokb9wj7d4VtJOZ7zjurGYG6XIljkx4fDU2GwOUoLu56VlhaLJUcYklMVXjFrpbesYliaUufe2myGibbgbepQE/640?wx_fmt=png&from=appmsg#imgIndex=23)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/7210a7ac0db7686a69d02c072b2af947_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/181c33ec0a33b4be4b8e452db55bca4c_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/bfceb1e75837d8aa388914d5eac94dcc_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/5924d4eab7864e9125cc2c500e431b68_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/c42a35b86cabee944b97b42e69a73438_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/4bd2138608ed5683a74f87456c0ce67c_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/416ca56a0ccfc852ebb17ba0830c052d_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/0aa739426f4f23e72247f8a25ce1c410_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/bd5dcb4a8f5d0a817ee7ff3800254c35_MD5.png)
 
 平台管理员登录之后：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rcSfsCEHDu1CJobgHbpZ8ic7k7KTZOdgMU5mxaicx0dYfUzvejib1edmdqVgyMoFTiaCgqRicR1gD08eib1jwpwp8vglGLicrtx2DQlKA/640?wx_fmt=png&from=appmsg#imgIndex=24) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rfrV4v8PZeouVcqP6KJlQe0VQU99tdQicAdeWTjWgREQsMg4CxrKRBFJmhibqXO4iaiblv2zdpnJZyoiaZJibUXHwx2D8rdX9Cn7zPjc/640?wx_fmt=png&from=appmsg#imgIndex=26) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rcwab8emHW34UicQx3wGdLCkXQ8ico970xiaSNRUeZIKPz9OGW0SAY4pWZydViaOyT3APOJd4pAu55L5UIicgtHE9GsibsJKbqAnlfYY/640?wx_fmt=png&from=appmsg#imgIndex=28) ![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0reMiakhFxW2tec9LRfYwn0xvh18JTmmZ0D4lvE9tqlrEg0IUbUKBJrrCnwTm6sMdv2RPPF8IW8F3Yia52gB4bzkdAczejZpGibWibk/640?wx_fmt=png&from=appmsg#imgIndex=30) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rdjUkTMIvJqW7AAsaUNOMbubUHCnEXpeVTB568KmuK4eVOEfNSRXXMQ4gUgXDHiaxQxmBjXrMS7fozYcNmRS5U4O0cOHwM95w3w/640?wx_fmt=png&from=appmsg#imgIndex=32) ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rco4ATY6UCNo68P6T5vv32yEOGwcgSNyCR46ymUX5c0uGWb4GmlG0uXO1kDNVZp0avBQK3KZnc3icOR5OPdo2cZvEibmslBDw2SA/640?wx_fmt=png&from=appmsg#imgIndex=34)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/9d94eb43d455df1668bf44d1f19b092b_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/d990916d4363b77c5616da01c9bb2b7e_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/875f144f1e5f4347d3cb0b0887641060_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/f9036a44e2efc9de5af22761da5cd129_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/dea31b8a995c96a4434eae20f098fdbb_MD5.png)![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/1a6c688bfbb8514c892865684a01bd26_MD5.png)
 
 官网：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rfErrEicH8EAd35iahXNs0zr3uU5TCxgmanJGjClEMukRU2cWSIcQKWEQ8X4iaqYiaKTG9O3XgQX23iatAib7kymA0wicIBMMDoxnmiao8/640?wx_fmt=png&from=appmsg#imgIndex=35)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/b33f1b2d524d3c9c19938d96d48efc69_MD5.png)
 
 企业网站接入后的效果：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rfbC7eLxqMHY7zicgczmicicyspH9e3Rba4uwHEXiaJ7yxxXkjM19Bg4hTpbuE940C4bK8yhHaEd4EhG2nbEdWQVP46R7vficE0e310/640?wx_fmt=png&from=appmsg#imgIndex=37)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/141e12883600643a35468630243cd31f_MD5.png)
 
 ## 十五、这套项目适合谁？
 
@@ -861,7 +861,7 @@ RETURNING last_msg_seq
 
 扫描下方👇🏻二维码，加入星球，即可获取： **源码** + **教程** + **技术答疑** ：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rdC7GBNrxWibzCa8gUNvmKKEAPpZnXdLlCSDrbl5XyZMTMk1TiawqHEDGrRf4ZCkeeTfJxevZIYK6o0BiaxFbMDp5hkDnIS40hzf4/640?wx_fmt=png&from=appmsg#imgIndex=39)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/c61a45bb7254b83ce1243ab054d6ba94_MD5.png)
 
 原价159，通过优惠券加入星球，可以立减30，今天只需要129。
 
@@ -869,13 +869,13 @@ RETURNING last_msg_seq
 
 其实星球中已经包含了15个实战项目 + 13个技术专栏，SaaS智能客服系统只是其中一个项目。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rclXTwtYrPhRicWEFzSQapApPpwrFmKiacIHdOAZUfqcU3sy5BdLnWCiazQs9icicjw1uYnwhRQGTKbDzeefVQfD6l9hvoOoGjZogHA/640?wx_fmt=png&from=appmsg#imgIndex=40)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/8a1bed30389156d7c6ad751eea6dbfc2_MD5.png)
 
 其他项目的技术含金量也非常高，这里有详细介绍： [推荐14个牛逼的SpringBoot项目](https://mp.weixin.qq.com/s?__biz=MzkzNzg4MzI2MQ==&mid=2247536010&idx=1&sn=69cbb5fdfc59c9c636559fb556386b24&scene=21#wechat_redirect)
 
 13大优质技术专栏：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/3SCLUkuu2IFbWmJibiaF170JmpMJLXa7oHnJS80KMX3qm88QDjWCKMkAysCkgDCgxlWJso0bQ9KJ0ibC34tz7PGLgBPxia2drtmU3oQ1YwsDQms/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=26)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/0214750c5b98b08952c5e502e46aeab6_MD5.webp)
 
 此外，还有1V1答疑、修改简历、职业规划、送书活动、技术交流等内容。
 
@@ -883,7 +883,7 @@ RETURNING last_msg_seq
 
 很多球友拿到了不错的offer：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/3SCLUkuu2IGfhh8fCOFUW4B9fQKayffjiaiaqwiaibJf8xOicjanFyDaiaibs2Fic6MsJMbAqKY7lwMjeryI0P3XEUibWa2EicYJmuxRZxvjY7icJNezL8/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=27)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/4b91a3b32dfb28ac28744f7166d5b170_MD5.webp)
 
 说实话129元这个价格已经非常便宜了，可能就是一顿饭钱。
 
@@ -893,7 +893,7 @@ RETURNING last_msg_seq
 
 扫描下方👇🏻二维码，加入星球，即可获取： **源码** + **教程** + **技术答疑** ：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rdC7GBNrxWibzCa8gUNvmKKEAPpZnXdLlCSDrbl5XyZMTMk1TiawqHEDGrRf4ZCkeeTfJxevZIYK6o0BiaxFbMDp5hkDnIS40hzf4/640?wx_fmt=png&from=appmsg#imgIndex=43)
+![图片](assets/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AA%E7%89%9B%E9%80%BC%E7%9A%84SaaS%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F/c61a45bb7254b83ce1243ab054d6ba94_MD5.png)
 
 原价159，通过优惠券加入星球，可以立减30，今天只需要129。
 

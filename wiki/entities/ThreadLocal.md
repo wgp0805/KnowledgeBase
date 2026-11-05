@@ -16,8 +16,12 @@ JDK 提供的线程本地变量类。每个使用它的线程持有一个 Thread
 - **典型内存泄漏路径**：ThreadLocalMap 的 key 是对 ThreadLocal 的弱引用，value 是强引用；线程长期存活且不 remove 会导致 value 无法回收——这正是 netty 为 ftl 提供三种回收机制的动因
 - **在 netty 中的退化角色**：UnpaddedInternalThreadLocalMap.slowThreadLocalMap 就是一个 JDK ThreadLocal，普通线程走 slowGet() 时先从它取 InternalThreadLocalMap，再取数组下标
 
+### 与 ScopedValue 的关系（2026-11-05，详见 [[ScopedValue]]）
+Java 25 引入的 `ScopedValue` 是 ThreadLocal 的现代替代：值绑定在明确作用域内、作用域结束自动失效，不需要 `remove()`，从机制上避免"线程池复用 + 忘记清理"导致的串数据/内存泄漏。云梯智能客服系统用 ScopedValue 管理登录态与租户上下文，保证线程池复用时"不串用户、不串租户"（详见 [[云梯智能客服系统]]）。ThreadLocal 并未被废弃，但在虚拟线程 + 多租户场景下，ScopedValue 的"自动失效 + 不可变"模型更安全。
+
 ## 关联连接
 - [[FastThreadLocal]] — netty 的替代实现
+- [[ScopedValue]] — Java 25 的作用域值替代方案
 - [[InternalThreadLocalMap]] — netty 的替代存储
 - [[线性探测]] — 其冲突解决策略
 - [[摘要-fastthreadlocal为啥快]] — 来源

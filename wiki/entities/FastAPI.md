@@ -113,7 +113,13 @@ async def create_user(user: UserCreate):
 - 健康检查：`curl http://127.0.0.1:8000/health` 返回 `{"status":"ok","env":"prod"}`，冷启动慢需等 20 秒或加健康检查重试
 - 与 [[Next.js]] 前端 + [[PostgreSQL]] 数据库 + [[Nginx]] 反向代理组合，Docker Compose 编排
 
+### 云梯智能客服的 Python AI 服务（2026-11-05，详见 [[摘要-云梯saas智能客服]]）
+[[云梯智能客服系统]]用 FastAPI + Pydantic v2 + psycopg 3 构建独立 Python AI 服务（yunti-ai，9100 端口），与 7 个 Java 服务通过内部接口协作：Java 管业务事实与权限，Python 管客服大脑/RAG/训练/质检/视觉/语音/AI 计量——**AI 不直接写业务库**，模型输出回 Java 由业务规则决定是否执行。这是 [[Java与Python分工]]"Java 业务 + Python AI"分工的完整实例。
+
 ## 关联连接
+- [[摘要-云梯saas智能客服]] — 来源（Python AI 服务实践）
+- [[云梯智能客服系统]] — 实践项目
+- [[Java与Python分工]] — 分工方法论
 - [[摘要-fastapi-入门教程]] — 来源
 - [[摘要-ubuntu-docker-全栈部署实录]] — 来源（Docker 部署生产实践）
 - [[Pydantic]] — 数据验证基石
