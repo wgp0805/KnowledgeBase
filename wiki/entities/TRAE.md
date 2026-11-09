@@ -24,3 +24,4 @@ last_updated: 2026-10-22
 - [[trae-vs-claude-code-agent-comparison]] — Trae 智能体与 Claude Code 对比分析
 - [[Skill撰写指令]] — TRAE / Claude Code 上的 Skill 撰写方法
 - [[摘要-如何从0-1写好一个skill]] — 来源（Skill 撰写实践平台）
+- [[AI漫剧创作平台]] — 代码生成工具

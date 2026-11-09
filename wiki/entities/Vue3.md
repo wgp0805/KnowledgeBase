@@ -37,3 +37,5 @@ Vue3 是一个渐进式 JavaScript 框架，用于构建用户界面。相比 Vu
 - [[Axios]] — HTTP 客户端
 - [[ElementPlus]] — UI 组件库
 - [[frontend-backend-separation]] — 前后端分离架构
+- [[摘要-程序汪-ai漫剧平台项目]] — 前端框架
+- [[AI漫剧创作平台]] — 前端框架

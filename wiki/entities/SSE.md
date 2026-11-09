@@ -29,3 +29,5 @@ Server-Sent Events（服务器发送事件），HTTP 协议上的单向服务器
 - [[FastAPI]] — 后端 SSE 生产者
 - [[WebSocket]] — 双向通讯对照方案
 - [[轮询]] — 三方案中的下策
+- [[摘要-spring-异步流式接口]] — SseEmitter
+- [[异步流式接口]] — 流式接口

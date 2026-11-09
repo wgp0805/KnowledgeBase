@@ -56,3 +56,4 @@ PI-Desktop（GitHub `vastsa/PI-Desktop`）是国产开源的 AI 编程桌面工�
 - [[Subagent]] — 后台任务执行概念
 - [[MCP]] — 插件可接入的协议
 - [[程序员追风]] — 文章作者
+- [[摘要-pi-desktop-冰河测评]] — 冰河实测

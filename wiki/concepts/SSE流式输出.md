@@ -22,3 +22,5 @@ SSE（Server-Sent Events）流式输出是 LLM 对话产品的主流传输方式
 - [[短期记忆]] — 会话持久化的记忆属性
 - [[摘要-electron41-vite8-deepseek桌面ai]] — 来源
 - [[摘要-spring-ai-2-对话记忆实战]] — 服务端流式与记忆实现对照
+- [[摘要-spring-异步流式接口]] — Spring SSE 流式接口
+- [[异步流式接口]] — 异步流式接口概念

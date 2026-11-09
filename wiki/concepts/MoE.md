@@ -14,3 +14,5 @@ MoE 是"长在一棵树上，改来改去只能修修边幅"，Next 架构是"�
 
 ## 关联连接
 [[DeepSeek-V4]], [[灰度曝光]], [[沉默王二]], [[Qwen3.8-Flash]], [[Next架构]], [[摘要-qwen38-flash架构深度分析]]
+- [[IQuestRT]] — 专家预取
+- [[IQuestQ1]] — MoE 架构

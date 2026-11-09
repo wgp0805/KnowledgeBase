@@ -22,3 +22,5 @@ Python 分布式异步任务队列框架，基于消息传递（通常配合 Red
 - [[Redis]] — 常用 Broker
 - [[RabbitMQ]] — 常用 Broker
 - [[HealthCheck]] — 健康检查项之一
+- [[摘要-程序汪-ai漫剧平台项目]] — 异步任务队列
+- [[AI漫剧创作平台]] — 异步任务

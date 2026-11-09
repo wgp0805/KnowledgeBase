@@ -111,3 +111,4 @@ HarnessAgent 启动时自动扫描 `workspace/tools.json` 的 `mcpServers` 段�
 - [[ZvecGrep]] — 通过 MCP 接入 Agent 的本地搜索
 - [[UnityMCP]] — MCP 驱动游戏开发的实践案例
 - [[摘要-claude-code-mcp-unity游戏]] — 来源（MCP 与 Skill 上下文开销权衡）
+- [[摘要-pi-desktop-冰河测评]] — 插件可接入协议

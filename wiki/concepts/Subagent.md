@@ -26,3 +26,4 @@ Subagent（子 Agent）是 [[ClaudeCode]] 的并行执行单元。在 [[AINative
 - [[模型路由]] — 子 Agent 独立绑定模型
 - [[agent-view]] — 子 Agent 后台会话的集中管理
 - [[摘要-claude-code-多agent账单分层路由]] — 来源（子 Agent 计费与路由）
+- [[摘要-pi-desktop-冰河测评]] — 并行调查

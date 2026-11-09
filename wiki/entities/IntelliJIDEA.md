@@ -44,3 +44,4 @@ IntelliJ IDEA 是 JetBrains 公司开发的 Java 集成开发环境，被广泛�
 - [[idea-ai-assistant-guide]] — IDEA AI Assistant 能力全貌
 - [[摘要-idea五款代码质量检查插件]] — 五款代码质量检查插件的选型与用法
 - [[静态代码检查]] — 这些插件对应的概念
+- [[摘要-idea-30款插件]] — 30 款 IDEA 插件盘点

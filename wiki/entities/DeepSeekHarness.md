@@ -294,3 +294,6 @@ DSH 无 REA 一键接入命令（官方一键命令支持十几个 Agent 但未�
 - [[摘要-dsh-todolist机制]] — 来源（Todo 模块源码与 todo_write 全量覆写机制）
 - [[AgentTodoList]] — 该篇提炼的概念
 - [[会话投影]] — 该篇提炼的架构模式
+- [[摘要-dsh-创造模式插件教程]] — 创造模式插件教程
+- [[摘要-dsh-go-安卓app]] — DSH Go 安卓 App
+- [[摘要-deepseek-temperature]] — Temperature 采样对照

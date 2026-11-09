@@ -324,3 +324,4 @@ OpenAI 将 Codex 背后的 [[Harness]] 做成托管服务开放公测（一个�
 
 ### Computer Use 底层实现（2026-10-26）
 来自 [[摘要-codex-computer-use原理]]，详见 [[ComputerUse]]。Codex 内置 `cua_repl` MCP 插件暴露 `js` 工具，模型直接写 JavaScript 调用全局 `cua` 对象，在持久化 Node.js REPL 里一次调用编排整个桌面动作串（不拆原子工具，避免逐动作推理+重传高清截图的延迟与 Token 消耗，并按需加载 API 文档保护 KV Cache）。安全侧：应用黑白名单按 OS 原生标识硬控制（macOS `bundle_ids` / Windows `aumids`+签名）、四级敏感动作确认策略（脚本中途经 `elicitation/create` 实时挂起高危动作）、Guardian 安全围栏防屏幕内容提示注入（8M 证据缓冲区 + Guardian V2 自适应 + LunaSampler 异步风险打分）。
+- [[摘要-deepseek-temperature]] — temperature 处理对照

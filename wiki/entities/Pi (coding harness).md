@@ -107,3 +107,4 @@ Pi **没有 worktree 隔离**（命令行参数表里没有 worktree 相关开�
 - [[摘要-pi-agent-study-01-pi-overview]] — 学习笔记 01：定位与核心理念
 - [[摘要-pi-study-02-architecture]] — 学习笔记 02：整体架构
 - [[摘要-多agent并发改文件冲突]] — 来源（文件变更队列与漏洞）
+- [[摘要-pi-desktop-冰河测评]] — Agent Runtime 生态

@@ -27,3 +27,4 @@ AOP（Aspect-Oriented Programming，面向切面编程）通过预编译方式�
 - [[摘要-springboot接口幂等性4种策略]] — 来源（@Idempotent 切面实战）
 - [[分布式锁]] — 注解式加锁的典型应用
 - [[摘要-注解实现分布式锁]] — 来源（@RedisLock 切面实战）
+- [[摘要-手把手实现java-agent-IT码徒]] — 代理 vs 字节码对比

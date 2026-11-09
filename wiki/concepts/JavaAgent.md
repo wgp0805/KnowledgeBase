@@ -56,3 +56,4 @@ JVM 启动 → 执行 premain()
 - [[JVM]] — 宿主虚拟机
 - [[AOP]] — 同为横切关注点分离手段（AOP 走代理、Agent 走字节码）
 - [[JIT编译]] — 运行时编译相关机制
+- [[摘要-手把手实现java-agent-IT码徒]] — 手把手实现 JavaAgent

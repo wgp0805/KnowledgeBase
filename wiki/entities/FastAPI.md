@@ -135,3 +135,5 @@ async def create_user(user: UserCreate):
 - [[Next.js]] — 常搭前端
 - [[PostgreSQL]] — 常搭数据库
 - [[码农刚子]] — 部署实录作者
+- [[摘要-程序汪-ai漫剧平台项目]] — 后端框架
+- [[AI漫剧创作平台]] — 后端框架

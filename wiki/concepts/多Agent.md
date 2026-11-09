@@ -22,3 +22,4 @@ last_updated: 2026-09-20
 - [[Workflow]] — 固定流程模式
 - [[单Agent]] — 不拆分的模式
 - [[多智能体编排]] — 相关概念
+- [[摘要-pi-desktop-冰河测评]] — 多 Agent 编排

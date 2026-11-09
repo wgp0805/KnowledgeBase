@@ -49,3 +49,5 @@ LLM 本质上是一个基于 Transformer 的神经网络：根据前文按概率
 - [[LLM无状态]] — LLM 无状态特性（关联概念）
 - [[LLM网关]] — LLM 接入基础设施
 - [[沉默王二]] — 介绍作者
+- [[摘要-deepseek-temperature]] — Temperature 采样
+- [[Temperature采样]] — 温度采样概念

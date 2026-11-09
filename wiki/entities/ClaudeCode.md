@@ -408,3 +408,5 @@ Anthropic 在 v2.1.287 推出 **Claude Mods**：用 TypeScript/JavaScript 进程
 - [[AskUserQuestion]] — 提问工具实现（Schema 约束 + 权限通道挂起）
 - [[DiscoverableFacts]] — "Never ask what you could find out by reading the code"
 - [[偏好与取舍]] — 唯一应该拿去问用户的信息类型
+- [[摘要-deepseek-temperature]] — temperature 处理对照
+- [[IQuestQ1]] — 可接入编程入口

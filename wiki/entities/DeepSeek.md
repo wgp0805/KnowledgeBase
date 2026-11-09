@@ -83,3 +83,4 @@ DeepSeek 把"支撑自家线上亿级流量"的推理基础设施首次完整开
 - [[DeepSeekRecipe]] — 开源的生产级 Token 编解码组件
 - [[摘要-deepinfer-deepseek开源推理框架]] — 来源（推理基础设施开源）
 - [[苏三]] — 最新来源作者
+- [[摘要-deepseek-temperature]] — API 提供方

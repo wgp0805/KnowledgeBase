@@ -26,3 +26,5 @@ last_updated: 2026-10-08
 - [[Electron]] — 桌面版宿主（插件无沙箱的放大器）
 - [[Harness]] — 上位概念（Model + Harness = Agent）
 - [[MCP]] — 被插件化的协议能力之一
+- [[摘要-dsh-创造模式插件教程]] — 创造模式自举
+- [[DSHGo]] — 移动端插件生态
