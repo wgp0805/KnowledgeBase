@@ -13,6 +13,7 @@ IT码徒是一个微信公众号技术作者，发布过多篇 Java 生态工具
 - 2026-10-22 发布《开源项目｜81kStar！装完不用配的AI全栈监控利器》，介绍零配置的 AI 全栈监控开源项目 Netdata（装完打开浏览器即可用、1 秒级采集、AI 异常检测），并对比 Zabbix 与 Prometheus+Grafana 的配置成本，详见 [[摘要-netdata-ai全栈监控]]
 - 2026-10-25 发布《还用WebSocket？这才是实时消息推送的正确姿势！轻量好用》（原文转自 juejin.cn/post/7325730345840066612），对比轮询 / WebSocket / SSE 三种服务端推送方案，给出"单向推送选 SSE、双向通讯选 WebSocket、轮询是下策"的选型结论，并附 Express + 原生 HTML 的 SSE 全套可运行 Demo，详见 [[摘要-sse-websocket服务端推送选型]]
 - 2026-10-27 转载 CSDN《SpringBoot+Minio实现高效文件存储解决方案》（原作者 y_wu794），讲解「配置-工具-业务」三层架构集成 MinIO，详见 [[摘要-springboot-minio文件存储]]
+- 2026-11-08 发布《手把手教你实现一个JavaAgent》，从 0 到 1 用 Instrumentation + ASM + Attach 实现无侵入耗时统计、运行期改写已加载类，并拆解 Arthas trace 的字节码增强原理，详见 [[摘要-手把手实现java-agent-IT码徒]]
 
 ## 关联连接
 - [[摘要-dataway-dataql]] — IT码徒发布的 Dataway/DataQL 工具介绍
@@ -20,3 +21,5 @@ IT码徒是一个微信公众号技术作者，发布过多篇 Java 生态工具
 - [[Netdata]] — 介绍的监控项目
 - [[摘要-sse-websocket服务端推送选型]] — 推送选型文章来源
 - [[摘要-springboot-minio文件存储]] — MinIO 集成教程转载来源
+- [[摘要-手把手实现java-agent-IT码徒]] — Java Agent 手把手教程来源
+- [[JavaAgent]] — 教程核心概念
