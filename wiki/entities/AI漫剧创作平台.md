@@ -2,7 +2,7 @@
 title: "AI漫剧创作平台"
 type: entity
 tags: [实体, 项目, SaaS, AI漫剧, 程序汪, 九阶段]
-sources: [raw/01-articles/2026-11-05 - 程序汪5万30天接的AI漫剧项目.md]
+sources: [raw/09-archive/2026-11-05 - 程序汪5万30天接的AI漫剧项目.md]
 last_updated: 2026-11-09
 ---
 

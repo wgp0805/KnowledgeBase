@@ -2,7 +2,7 @@
 title: "IQuestRT"
 type: entity
 tags: [实体, 开源项目, 推理引擎, 性能优化, 至知]
-sources: [raw/01-articles/2026-11-07 - 用 AI 写代码总是卡住？开源项目 IQuestRT 了解一下.md]
+sources: [raw/09-archive/2026-11-07 - 用 AI 写代码总是卡住？开源项目 IQuestRT 了解一下.md]
 last_updated: 2026-11-09
 ---
 

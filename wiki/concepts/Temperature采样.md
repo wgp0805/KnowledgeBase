@@ -2,7 +2,7 @@
 title: "Temperature采样"
 type: concept
 tags: [概念, LLM, 采样, 参数, Temperature]
-sources: [raw/01-articles/DeepSeek API 中的 Temperature 有什么用？.md]
+sources: [raw/09-archive/DeepSeek API 中的 Temperature 有什么用？.md]
 last_updated: 2026-11-09
 ---
 

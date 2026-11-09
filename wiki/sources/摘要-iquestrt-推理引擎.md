@@ -2,7 +2,7 @@
 title: "摘要-iquestrt-推理引擎"
 type: source
 tags: [来源, 推理引擎, IQuestRT, 推测解码, 性能]
-sources: [raw/01-articles/2026-11-07 - 用 AI 写代码总是卡住？开源项目 IQuestRT 了解一下.md]
+sources: [raw/09-archive/2026-11-07 - 用 AI 写代码总是卡住？开源项目 IQuestRT 了解一下.md]
 last_updated: 2026-11-09
 ---
 

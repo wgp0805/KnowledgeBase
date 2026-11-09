@@ -4315,3 +4315,30 @@
 
 ## 更新 (2026-11-05)
 - [[多租户隔离]]（+云梯四层防线章节：网关认租户/租户字段/RLS/独立 Schema + AI 侧隔离边界）、[[智能客服Agent设计]]（+云梯受控 AI 架构章节：LangGraph 双状态机/规则+向量+LLM 混合识别/意图训练中心/槽位/Agentic RAG/AI 成本治理）、[[AI客服]]（+企业级 SaaS 落地参考）、[[苏三]]（+云梯项目来源）、[[ThreadLocal]]（+ScopedValue 替代关系）、[[LangGraph]]（+云梯双状态机实践）、[[pgvector]]（+1024 维 HNSW 客服实践）、[[PostgreSQL]]（+RLS 与多库实践：6 库 87 表/原子序号/幂等约束）、[[RustFS]]（+云梯对象存储选型）、[[FastAPI]]（+云梯 Python AI 服务实践）
+
+## Sources (2026-11-09 ingest)
+- [[摘要-程序汪-ai漫剧平台项目]] — 程序汪 5 万/30 天 AI 漫剧创作平台 SaaS 私活：九阶段流水线/多模型统一网关/无限画布/原子扣费/代理分销/JSONB 混合存储，FastAPI+Vite+PostgreSQL+Celery
+- [[摘要-dsh-创造模式插件教程]] — DeepSeek Harness 官方「创造模式」：一句话造插件，7 套示例 Prompt，坐实 Everything is a Plugin
+- [[摘要-dsh-go-安卓app]] — DSH Go 开源安卓 App：本机直接跑 DeepSeek Harness + 遥控电脑，程序员追风出品
+- [[摘要-pi-desktop-冰河测评]] — 冰河实测 PI-Desktop：把多窗口 Agent 工作流收进一个窗口，会话/Diff/多 Agent 统一管
+- [[摘要-iquestrt-推理引擎]] — 至知 IQuestRT 推理引擎优化 IQuest-Q1：推测解码/准备提前开始/NaN 同步/专家预取，8 卡 911 tokens/s（vLLM 2.94 倍）
+- [[摘要-手把手实现java-agent-IT码徒]] — IT码徒从 0 实现 Java Agent：Instrumentation+ASM 计时、Attach 运行期改写、Arthas trace 字节码增强源码拆解
+- [[摘要-idea-30款插件]] — 小哈盘点 30 款 IDEA 插件：强烈推荐/装饰类/较便利三类，含 Codota/Translation/SequenceDiagram 等
+- [[摘要-deepseek-temperature]] — 沉默王二讲透 DeepSeek temperature/top_p 采样，各 Harness 处理对照，官方场景推荐值
+- [[摘要-spring-异步流式接口]] — 苏三 Spring 三种异步流式接口：ResponseBodyEmitter/SseEmitter/StreamingResponseBody，不阻塞 Servlet 线程
+
+## Entities (2026-11-09 新增)
+- [[AI漫剧创作平台]] — 程序汪团队 30 天交付的 AI 漫剧 SaaS：九阶段流水线自动生成漫剧，FastAPI+Vite+PostgreSQL+Celery，原子扣费+代理分销商业闭环
+- [[DSHGo]] — 开源安卓 App（ccch1mneyyy/dsh-go），本机跑 DeepSeek Harness + 遥控电脑，Flutter 编写，程序员追风出品
+- [[IQuestRT]] — 至知开源推理引擎，专门优化 IQuest-Q1：推测解码/准备提前开始/NaN 同步/专家预取，8 卡 911 tokens/s
+- [[IQuestQ1]] — 至知模型（理解/推理/生成），MoE 结构 + 递归多词元预测，由 IQuestRT 专门优化
+
+## Concepts (2026-11-09 新增)
+- [[创造模式]] — DeepSeek Harness 官方玩法：一句自然语言让 Agent 读文档写代码造插件，Everything is a Plugin 端侧自举
+- [[异步流式接口]] — Spring 提供的持续流式响应工具集：ResponseBodyEmitter/SseEmitter/StreamingResponseBody，不阻塞 Servlet 请求线程
+- [[Temperature采样]] — LLM 生成阶段参数体系：temperature 调概率差距、top_p 按累积概率截断长尾，DeepSeek 场景推荐值与各 Harness 处理对照
+- [[代理分销]] — SaaS 自增长闭环：申请代理→审核→专属邀请码→邀请消费分润，AI 漫剧平台商业闭环一环
+- [[NaN同步]] — 多卡并行"数据自验证同步"：缓冲区初始填 NaN，读到无 NaN 即所有卡写完，免标志位与单独同步（依赖 NVLink 组播）
+
+## 更新 (2026-11-09)
+- [[程序汪]]、[[冰河]]、[[苏三]]、[[程序员小灰]]、[[程序员追风]]、[[小哈]]、[[IT码徒]]、[[沉默王二]]（+本轮来源）、[[DeepSeekHarness]]（+创造模式/DSH Go/Temperature 对照）、[[插件生态]]（+创造模式自举/移动端）、[[投机解码]]（+推测解码/IQuestRT/IQuestQ1）、[[MoE]]（+专家预取/IQuestRT/IQuestQ1）、[[JavaAgent]]/[[字节码增强]]/[[Arthas]]（+JavaAgent 实现与 trace 源码）、[[IntelliJIDEA]]（+30 款插件）、[[LLM]]/[[Temperature采样]]（+采样）、[[SSE流式输出]]/[[SSE]]/[[异步流式接口]]（+Spring 流式接口）、[[AI漫剧工作流]]（+九阶段平台化）、[[FastAPI]]/[[Celery]]/[[Vue3]]/[[PostgreSQL]]/[[微短剧]]/[[LLM网关]]（+AI 漫剧平台）、[[ClaudeCode]]/[[Codex]]（+Temperature 对照/IQuestQ1 入口）、[[PI-Desktop]]（+冰河实测）、[[推理系统]]/[[NVIDIA]]/[[GPU架构]]（+IQuestRT/NaN 同步）、[[everything-is-a-plugin]]/[[DSHGo]]（+创造模式/移动端）、[[TRAE]]/[[AOP]]/[[WebSocket]]/[[轮询]]/[[Subagent]]/[[多Agent]]/[[MCP]]/[[Pi (coding harness)]]/[[静态代码检查]]/[[Java]]/[[DeepSeek]]（+本轮来源或概念章节）

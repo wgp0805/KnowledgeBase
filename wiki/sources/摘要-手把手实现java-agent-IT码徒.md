@@ -2,7 +2,7 @@
 title: "摘要-手把手实现java-agent-IT码徒"
 type: source
 tags: [来源, JavaAgent, 字节码增强, IT码徒]
-sources: [raw/01-articles/2026-11-08 - 手把手教你实现一个JavaAgent.md]
+sources: [raw/09-archive/2026-11-08 - 手把手教你实现一个JavaAgent.md]
 last_updated: 2026-11-09
 ---
 

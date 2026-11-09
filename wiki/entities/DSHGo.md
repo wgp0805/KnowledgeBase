@@ -2,7 +2,7 @@
 title: "DSHGo"
 type: entity
 tags: [实体, 开源项目, 安卓, DeepSeekHarness, 移动端]
-sources: [raw/01-articles/2026-11-06 - 把 DeepSeek Harness 做成一个正经的安卓 App，在本机直接跑，练 Root 都不用！.md]
+sources: [raw/09-archive/2026-11-06 - 把 DeepSeek Harness 做成一个正经的安卓 App，在本机直接跑，练 Root 都不用！.md]
 last_updated: 2026-11-09
 ---
 

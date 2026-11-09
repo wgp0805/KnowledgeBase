@@ -2,7 +2,7 @@
 title: "摘要-idea-30款插件"
 type: source
 tags: [来源, IDEA, 插件, 小哈]
-sources: [raw/01-articles/2026-11-08 - 这 30 款 IDEA 宝贝插件 yyds.md]
+sources: [raw/09-archive/2026-11-08 - 这 30 款 IDEA 宝贝插件 yyds.md]
 last_updated: 2026-11-09
 ---
 

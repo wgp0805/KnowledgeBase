@@ -2,7 +2,7 @@
 title: "摘要-pi-desktop-冰河测评"
 type: source
 tags: [来源, PI-Desktop, 桌面端, 冰河, 多Agent]
-sources: [raw/01-articles/2026-11-07 - 国产开源 Pi Agent 桌面端神器来了：项目、会话、Diff、多 Agent，一个窗口全管住！！.md]
+sources: [raw/09-archive/2026-11-07 - 国产开源 Pi Agent 桌面端神器来了：项目、会话、Diff、多 Agent，一个窗口全管住！！.md]
 last_updated: 2026-11-09
 ---
 

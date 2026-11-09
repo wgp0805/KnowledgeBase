@@ -2,7 +2,7 @@
 title: "摘要-程序汪-ai漫剧平台项目"
 type: source
 tags: [来源, 私活项目, AI漫剧, 程序汪, SaaS]
-sources: [raw/01-articles/2026-11-05 - 程序汪5万30天接的AI漫剧项目.md]
+sources: [raw/09-archive/2026-11-05 - 程序汪5万30天接的AI漫剧项目.md]
 last_updated: 2026-11-09
 ---
 

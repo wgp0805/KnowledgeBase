@@ -2,7 +2,7 @@
 title: "摘要-spring-异步流式接口"
 type: source
 tags: [来源, Spring, 异步流式, SSE, 苏三]
-sources: [raw/01-articles/Spring 实现 3 种异步流式接口.md]
+sources: [raw/09-archive/Spring 实现 3 种异步流式接口.md]
 last_updated: 2026-11-09
 ---
 

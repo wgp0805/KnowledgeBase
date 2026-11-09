@@ -2,7 +2,7 @@
 title: "IQuestQ1"
 type: entity
 tags: [实体, 模型, 推理, 至知, MoE]
-sources: [raw/01-articles/2026-11-07 - 用 AI 写代码总是卡住？开源项目 IQuestRT 了解一下.md]
+sources: [raw/09-archive/2026-11-07 - 用 AI 写代码总是卡住？开源项目 IQuestRT 了解一下.md]
 last_updated: 2026-11-09
 ---
 

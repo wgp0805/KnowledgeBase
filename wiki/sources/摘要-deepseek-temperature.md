@@ -2,7 +2,7 @@
 title: "摘要-deepseek-temperature"
 type: source
 tags: [来源, Temperature, 采样参数, DeepSeek, 沉默王二]
-sources: [raw/01-articles/DeepSeek API 中的 Temperature 有什么用？.md]
+sources: [raw/09-archive/DeepSeek API 中的 Temperature 有什么用？.md]
 last_updated: 2026-11-09
 ---
 

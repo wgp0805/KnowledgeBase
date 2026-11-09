@@ -2,7 +2,7 @@
 title: "摘要-dsh-创造模式插件教程"
 type: source
 tags: [来源, DeepSeekHarness, 创造模式, 插件]
-sources: [raw/01-articles/2026-11-05 - DeepSeek官方智能体教程来了：一句话造插件，7套提示词免费公开.md]
+sources: [raw/09-archive/2026-11-05 - DeepSeek官方智能体教程来了：一句话造插件，7套提示词免费公开.md]
 last_updated: 2026-11-09
 ---
 
