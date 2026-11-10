@@ -47,6 +47,12 @@ OpenBot 是 nightly-labs 开源的**多 AI CLI 调度桌面应用**（GitHub `ni
 2. **许可证有边界**：PolyForm Noncommercial 1.0.0——个人/非商用免费，商用需购买授权；0.1.11 之前旧版为 Apache-2.0，公司使用需先确认
 3. **本地优先 ≠ 完全离线**：数据在本地，但用云端模型时对话仍发给 OpenAI/Anthropic/xAI；想彻底不联网须接 Ollama 等本地模型
 
+### 与 OpenMausBot 的对照（2026-11-09，详见 [[摘要-openmausbot开源agent]]）
+[[OpenMausBot]] 与本项目同为"多 CLI 桌面 Agent 应用"，但设计重心不同：
+- **OpenBot**：强调**一个窗口调度多 agent + 频道协作 + agent 间直接对话传文件**（协作调度视角）
+- **OpenMausBot**：强调**通讯录式联系人 + 每 bot 独立电脑 + 执行前审批卡 + 团队 Markdown 打包**（个人工作台视角）
+- 共同点：都不自带模型、复用本机已登录的 CLI（Claude Code/Codex 等）、支持 OpenAI 兼容接口、数据尽量本地化
+
 ## 关联连接
 - [[摘要-openbot多agent窗口]] — 来源
 - [[ACP]] — 接入协议（Grok/OpenCode/Gemini/Cursor/Cline）
@@ -61,3 +67,5 @@ OpenBot 是 nightly-labs 开源的**多 AI CLI 调度桌面应用**（GitHub `ni
 - [[上下文压缩]] — 自动压缩机制
 - [[Skill]] — 本地技能库
 - [[Paperclip]] — 同类多 Agent 编排工具（公司模式对照）
+- [[OpenMausBot]] — 同类多 CLI 桌面应用（通讯录视角对照）
+- [[摘要-openmausbot开源agent]] — 来源（同类对照）

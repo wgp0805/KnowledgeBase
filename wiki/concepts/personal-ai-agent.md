@@ -38,6 +38,8 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - **技术三支柱与医疗试金石（2026-10-08，详见 [[摘要-personal-agent-技术内核与医疗落地]]）**：支撑该品类的三根技术支柱——**分层记忆**（工作/长期/技能记忆，须记忆隔离、删除即清除）、**MCP 协议**（Agent 世界的 USB，按场景动态加载而非堆插件）、**权限分级**（只读默认允许/低风险可自动/高风险必须确认 + Auto-review）；医疗场景加一条"谁签字谁负责"（AI 只写草稿不诊断不开处方）；四款对比：[[Dots]] 云端全能但无 HIPAA、[[GeminiSpark]] 谷歌生态生活调度、[[ClaudeCowork]] 本地虚拟机文档专家、[[DAXCopilot]] 垂直临床（每次接诊省 5 分钟）；演进四阶段：对话式助手→单点执行→后台常驻→多 Agent 数字共生，本质让渡的不是决策权而是注意力
 
 - **开源平替与旅行高频场景（2026-10-09/10，详见 [[摘要-personal-agent-open-source-alternatives]]、[[摘要-doubao-work-travel-ppt]]）**：三款爆火 Personal Agent 出现 GitHub 开源平替——[[Rakazo]]（对 Grok Bot，多 Bot 分工、模型与电脑环境自选、可本地/服务器常驻）、[[OpenMuse]]（对 Muse，CopilotKit 出品，持久浏览器+定期监控页面价格阈值提醒）、[[OpenDots]]（对 Dots，多专业助手+Space/Page 草稿审核工作流），共同点是自托管、后台常驻、执行环境可配置；旅行被实测验证为高频场景——klook 调查超七成规划者规划一次旅行花 10 小时以上，Meta 把预订旅行列为 Muse 代表用途，[[Instinct]] 创始人 [[NoahShinn]] 称旅行约占平台交易额一半，「豆包工作」用 Skill 录制 + 三 Agent 并行把几十小时攻略浓缩成 20 页行程 PPT
+
+- **OpenMausBot 平替的完整功能形态（2026-11-09，详见 [[摘要-openmausbot开源agent]]）**：[[OpenMausBot]] 是 Grok Bot 开源平替中功能最完整的一个——通讯录式联系人（每 bot 独立会话与记忆）、每 bot 独立选模型、每 bot 一台电脑（云端/隔离 VM/本机，本机默认关闭）、执行前审批卡、[[Composio]] 500+ 应用市场、自然语言建定时任务与 webhook（默认仅本机）、语音交互、整套团队打包为 Markdown 导入导出（不含密钥/记录/权限）；关键洞察是"安装后自动并入本机已配置的 AI"——不自带模型、复用本机 CLI 与现有订阅，这是它快速起量的重要原因
 - **蚂蚁灵光新版内测与赛道阶段判断（2026-10-13，详见 [[摘要-蚂蚁灵光内测新版personal-agent]]）**：[[蚂蚁灵光]] 新版从"生成个人应用"升级为带长期记忆、可主动推进长程任务的 Personal Agent——每用户一台 24h 运行的 Linux[[云电脑]]（自带浏览器），可接入 MCP/CLI/Skill/第三方 Harness，实测接管钉钉长任务、一句话调用电脑上 Agent、云电脑里装 ClaudeCode 当子代理。作者给出公式 **Personal Agent = 龙虾（或任意 Agent Harness 框架）+ Agent 基础设施（浏览器/电脑/邮箱/飞书）+ 垂直领域专业工具**，并用 [[Gartner曲线]] 判断：龙虾时代处于萌芽期/期望膨胀期（教育了市场但生态匹配不了野心），随三要素成熟（模型能力溢出、Flash 模型性价比拉满、生态进入物理世界）正迈入稳步爬升期，"Personal Agent 不会像龙虾一样销声匿迹"；配套论断"把自己的一切数据变成 Agent 的上下文，把自己的一切能力变成 Agent 可调用的 Skill"，以及大厂停运龙虾标志旧时代结束、SaaS 厂商不主动适配 Agent 就会被逆向复刻等行业信号
 
 ## 关联连接
@@ -84,6 +86,8 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - [[MCP协议]] — 三支柱之一
 - [[多层记忆]] — 分层记忆支柱
 - [[摘要-personal-agent-open-source-alternatives]] — 来源（Rakazo/OpenMuse/OpenDots 开源平替）
+- [[摘要-openmausbot开源agent]] — 来源（OpenMausBot 完整功能形态）
+- [[OpenMausBot]] — Grok Bot 开源平替的独立详解项目
 - [[摘要-doubao-work-travel-ppt]] — 来源（旅行高频场景与豆包工作实测）
 - [[Rakazo]] — Grok Bot 的开源平替
 - [[OpenDots]] — Dots 的开源平替

@@ -1,16 +1,16 @@
 ---
 title: "如何做到无感刷新Token?"
-source: "https://mp.weixin.qq.com/s/yOMmaWTsYYQIJwBx2AV2gg"
+source: "https://mp.weixin.qq.com/s/cTw_YFZSb7IiSlCaJmk42A"
 author:
 published:
-created: 2026-10-28
+created: 2026-11-10
 description:
 tags:
   - "clippings"
 ---
-小哈学Java *2026年10月28日 11:40*
+Java学习者社区 *2026年11月9日 17:34*
 
-将 小哈学Java设为“ **星标** **⭐** ”
+将 Java学习者社区设为“ **星标** **⭐** ”
 
 第一时间收到文章更新
 
@@ -254,7 +254,7 @@ public static Date getTokenExpirationDate(String token) {
 
 Token 有点长，就不放全部了
 
-![单元测试输出](assets/%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E6%97%A0%E6%84%9F%E5%88%B7%E6%96%B0Token/b7c71f3895fe2d29c8e678b766c7f572_MD5.jpg)
+![图片](assets/%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E6%97%A0%E6%84%9F%E5%88%B7%E6%96%B0Token/b7c71f3895fe2d29c8e678b766c7f572_MD5.jpg)
 
 单元测试输出
 
@@ -321,7 +321,7 @@ token 的续约偏向于前端的解决方案，即由前端来进行 token 的�
 ![图片](assets/%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E6%97%A0%E6%84%9F%E5%88%B7%E6%96%B0Token/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
 ```
-1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. 为什么王者荣耀不使用微服务架构？3. 面试官：Kafka 如何保证消息不丢失？4. LatchUtils：简化 Java 异步任务同步的利器
+1. 我的私密学习小圈子，从0到1手撸企业实战项目~2. 为什么王者荣耀不使用微服务架构？3. LatchUtils：简化 Java 异步任务同步的利器4. 网易二面：CPU狂飙900%，该怎么处理？
 ```
 ```
 最近面试BAT，整理一份面试资料《Java面试BATJ通关手册》，覆盖了Java核心技术、JVM、Java并发、SSM、微服务、数据库、数据结构等等。获取方式：点“在看”，关注公众号并回复 Java 领取，更多内容陆续奉上。PS：因公众号平台更改了推送规则，如果不想错过内容，记得读完点一下“在看”，加个“星标”，这样每次新文章推送才会第一时间出现在你的订阅列表里。点“在看”支持小哈呀，谢谢啦

@@ -69,7 +69,7 @@ OpenAI 用 `tool_calls` 字段，Anthropic 用 `tool_use` content block，Gemini
 
 ## 二、一张图看懂 AI Gateway 的位置
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rdw9fWOXElPh0YqNIq7OVb9Vg0iagNuX6lVy1SUsPhs7aBur8nejvS18ABa50ibEAVf5tIVm45ic1I3FpWmibeonWelGp1WMZRbyK8/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20AI%20Gateway%EF%BC%9F/9d0abc39e46aad6fc1fccc6267849b71_MD5.png)
 
 **业务应用只对着 Gateway 说一种“语言”** （通常是 OpenAI Chat Completions 格式），Gateway 负责把它翻译成各个供应商能听懂的话，然后根据你的策略，决定把请求发给谁。
 
@@ -93,7 +93,7 @@ OpenAI 用 `tool_calls` 字段，Anthropic 用 `tool_use` content block，Gemini
 
 你发一个标准的 OpenAI 格式请求进来，Gateway 根据路由规则，把它翻译成目标供应商的格式，发出去；收到响应后，再翻译回标准格式，返回给你。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rfgDwVEl1svnWxibykomT8ZVMDMVCfLuqNqExGvoUM5hHY2VCNI4Y1hGd8xTGWvymruyKDK82gqjt6A2guoDU7ibDIXSyWQ2NDeA/640?wx_fmt=png&from=appmsg#imgIndex=1)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20AI%20Gateway%EF%BC%9F/e995152d470508dc2cc94b20a391d58b_MD5.png)
 
 **这意味着你的代码只需要认一种协议。**
 
@@ -113,7 +113,7 @@ LiteLLM 的文档把这件事说得很清楚： `              litellm.completio
 
 **Fallback 与熔断** ：不是所有错误都该 Fallback。网络瞬断、5xx 服务端错误适合切换；429 限流要谨慎，需要读 `Retry-After` ；认证错误切了也没用。
 
-![Mermaid 流程图：请求进入 Gateway](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rewvSYdjLPqufjOLPN63dVzrsHod2yn8U2I5chbeYd6qX1SUWWQtts3ddtKjpboIvGiaV4gC8JEic8P16CBznJtI99bmEOLFZp9g/640?wx_fmt=png&from=appmsg#imgIndex=2)
+![Mermaid 流程图：请求进入 Gateway](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20AI%20Gateway%EF%BC%9F/fd532467b1cc04a5eb6f0fc0133ae775_MD5.png)
 
 LiteLLM 的 Router 把 Load balancing、Fallbacks、Retries 都收在这一层处理。
 
@@ -125,7 +125,7 @@ LiteLLM 的 Router 把 Load balancing、Fallbacks、Retries 都收在这一层�
 
 正确的做法是： **Gateway 给每个应用或每个用户发一个“虚拟 Key”** ，应用拿着虚拟 Key 来调 Gateway，Gateway 根据虚拟 Key 找到对应的真实供应商 Key，再转发出去。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rd5NicQv7rfTbQ66ytD3JxBibspBI0My5H43WbibsEWb9VtLV2GxIhyGqeyicfFQ0O92kwLvibE8bQzYwgStzOJOjibbWPoyzAEbPy8k/640?wx_fmt=png&from=appmsg#imgIndex=3)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20AI%20Gateway%EF%BC%9F/5beeadc82a572f8917c60698c5a8ed0f_MD5.png)
 
 LiteLLM 的请求流程里，第一步就是检查 `Bearer` token 对应的 Virtual Key 是否有效、是否在预算内。你可以随时吊销某个虚拟 Key 而不影响其他人；你可以追踪“哪个应用调了多少次、花了多少钱”；你可以给不同部门设置不同的预算上限。
 
@@ -135,7 +135,7 @@ LiteLLM 的请求流程里，第一步就是检查 `Bearer` token 对应的 Virt
 
 **AI Gateway 看的是 Token 消耗、成本归因、首 Token 延迟** 。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/HUV4yMdu0rciaAMoEBSXSY6uMjDZBAicGfbNVuRqiagWHtkLTSKYRghYibrRzahm0EVoF5iajwUtibTG9iaFXicWpC50dVxDoYMeK42wCKRP7XG1dUk/640?wx_fmt=png&from=appmsg#imgIndex=4)
+![图片](assets/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A%E4%BA%BA%E7%94%A8%20AI%20Gateway%EF%BC%9F/f428e6ae173304f09fc6a9dc416c144b_MD5.png)
 
 这些指标的意义完全不同。
 

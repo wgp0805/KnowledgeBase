@@ -1,6 +1,12 @@
 ## [2026-11-04] query | MQ 选型：Kafka vs RocketMQ 何时选谁
 - **输出**: 引用 [[Kafka]], [[RocketMQ]], [[message-queue]], [[摘要-4种消息队列如何选型]]; 即时回答未保存
 
+## [2026-11-10] ingest | 全量扫描 raw/ 处理 3 个文件（OpenMausBot 开源 Agent / AI Gateway / 无感刷新Token 重复剪藏）
+- **变更**: 新增 Sources (2): [[摘要-openmausbot开源agent]], [[摘要-为什么越来越多人用ai-gateway]]; 新增 Entities (2): [[OpenMausBot]]（Grok Bot 开源平替桌面 Agent：本机 CLI 驱动、通讯录式多 bot、每 bot 独立电脑、执行前审批、Composio 500+ 应用、团队 Markdown 打包）, [[LiteLLM]]（最广泛使用的开源 AI Gateway：协议翻译/Router/虚拟 Key/Token 计量）; 增量合并既有页 (8): [[LLM网关]]（+AI Gateway 四大能力全景章节：四大灾难/协议归一化/模型路由/虚拟Key/Token可观测/代价）, [[AI网关]]（+来源与 LiteLLM 关联）, [[模型路由]]（+路由四层次与错误分类：429 需读 Retry-After）, [[苏三]]（+AI Gateway 来源）, [[GrokBot]]（+OpenMausBot 独立详解）, [[Composio]]（+应用市场集成视角 500+ 应用）, [[personal-ai-agent]]（+OpenMausBot 完整功能形态）, [[OpenBot]]（+与 OpenMausBot 对照章节）; 更新 [[index.md]]（Sources +2 / Entities +2 / 更新 8 页）
+- **重复处理**: `raw/01-articles/如何做到无感刷新Token.md` 为 2026-10-28 已摄入文章（掘金 7316797749517631515 同源、目录结构完全一致）的重复剪藏——**跳过编译、不重复建页**（现有 [[摘要-无感刷新token]]、[[无感刷新Token]] 已覆盖），直接归档并在 index 注明，避免制造重复页面与后续矛盾
+- **冲突**: 无硬性知识冲突。两处口径说明：① [[LLM网关]]（企业侧网关，2026-10 起建）与本次 AI Gateway（苏三工程全景）为同一概念的不同视角/深度，已增量合并为"四大能力全景"章节而非新建重复概念页；[[AI网关]]（1Panel 团队实践）同样保留独立页并互链；② [[OpenMausBot]] 与 [[OpenBot]] 同为多 CLI 桌面 Agent，设计重心不同（通讯录个人工作台 vs 频道协作调度），已在 OpenBot 页新增对照章节分述
+- **校验**: 4 个新页面（2 Sources / 2 Entities）frontmatter 与「关联连接」区块核查通过；新增页面双向补链（[[OpenMausBot]] ↔ [[摘要-openmausbot开源agent]] ↔ [[GrokBot]]/[[Composio]]/[[OpenBot]]；[[LiteLLM]] ↔ [[摘要-为什么越来越多人用ai-gateway]] ↔ [[LLM网关]]/[[模型路由]]）；无独立页概念（语义缓存、Boat 云桌面服务、Chatterbox 等）按惯例纯文本标注
+
 ## [2026-11-05] ingest | 全量扫描 raw/ 摄入 1 篇 01-articles 文章（云梯 SaaS 智能客服系统）
 - **变更**: 新增 Sources (1): [[摘要-云梯saas智能客服]]; 新增 Entities (1): [[云梯智能客服系统]]（多租户 SaaS 智能客服平台：7 Java 服务 + Python AI + Vue，6 库 87 表、六渠道接入、多租户四层隔离、受控 AI、双速质检、计费与成本治理）; 新增 Concepts (3): [[ScopedValue]]（Java 25 作用域值，替代 ThreadLocal 防线程池串数据）, [[RLS]]（PostgreSQL 行级安全，多租户数据库层兜底）, [[双速质检]]（实时规则 + 事后 AI 全量）；增量合并既有页 (10): [[多租户隔离]]（+云梯四层防线与 AI 隔离边界）, [[智能客服Agent设计]]（+受控 AI 架构：LangGraph 双状态机/混合识别/意图训练中心/槽位/Agentic RAG/成本治理）, [[AI客服]]（+企业级 SaaS 落地参考）, [[苏三]]（+云梯项目来源）, [[ThreadLocal]]（+ScopedValue 替代关系）, [[LangGraph]]（+云梯双状态机实践）, [[pgvector]]（+1024 维 HNSW 客服实践）, [[PostgreSQL]]（+RLS 与多库实践）, [[RustFS]]（+云梯对象存储）, [[FastAPI]]（+云梯 Python AI 服务）；更新 [[index.md]]（Sources +1 / Entities +1 / Concepts +3 / 更新 10 页）
 - **冲突**: 无硬性知识冲突。两处口径说明：① [[多租户隔离]] 既有内容为 AgentScope 框架层隔离 + PAI 四条纵深（数据/检索/模型/沙箱），本次云梯贡献的是"网关/应用层/RLS/Schema"的 SaaS 四层防线，角度互补（框架 vs 业务系统），已分节对照；② [[AI客服七层能力]]（两年实战方法论）与本次云梯（完整工程项目）分属"方法论"与"落地实现"，内容互补，已互链不覆盖

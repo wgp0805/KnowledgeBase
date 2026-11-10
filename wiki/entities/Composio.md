@@ -16,9 +16,14 @@ Composio 是 AI Agent 工具集成与基准测试平台，提供 Agent 编程任
 - 测试结论：[[Pi]] 比其他 Coding Agent 快 1.5-2 倍
 - 用于评估不同 Agent 框架的编程任务完成效率
 
+### 作为 Agent 应用集成市场（2026-11-09，详见 [[摘要-openmausbot开源agent]]）
+[[OpenMausBot]] 内置的应用市场走 Composio，覆盖 Gmail、Slack、GitHub、Notion、Linear 等 **500+ 应用**，授权一次即可供所有 agent 复用；其中 Gmail 每 15 分钟轮询、Slack/GitHub 实时推送。这说明 Composio 除基准测试外，还承担"Agent 与外部 SaaS 工具连接的授权与集成底座"角色。
+
 ## 关联连接
 - [[Pi]] — 被测对象
 - [[ClaudeCode]] — 被测对象
 - [[Codex]] — 被测对象
+- [[OpenMausBot]] — 应用市场集成方
+- [[摘要-openmausbot开源agent]] — 来源（500+ 应用市场）
 - [[摘要-pi-agent-保姆级全攻略]] — 引用来源
 - [[摘要-GitHub狂揽8.6万Star-Pi]] — 引用来源

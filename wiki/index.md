@@ -4342,3 +4342,15 @@
 
 ## 更新 (2026-11-09)
 - [[程序汪]]、[[冰河]]、[[苏三]]、[[程序员小灰]]、[[程序员追风]]、[[小哈]]、[[IT码徒]]、[[沉默王二]]（+本轮来源）、[[DeepSeekHarness]]（+创造模式/DSH Go/Temperature 对照）、[[插件生态]]（+创造模式自举/移动端）、[[投机解码]]（+推测解码/IQuestRT/IQuestQ1）、[[MoE]]（+专家预取/IQuestRT/IQuestQ1）、[[JavaAgent]]/[[字节码增强]]/[[Arthas]]（+JavaAgent 实现与 trace 源码）、[[IntelliJIDEA]]（+30 款插件）、[[LLM]]/[[Temperature采样]]（+采样）、[[SSE流式输出]]/[[SSE]]/[[异步流式接口]]（+Spring 流式接口）、[[AI漫剧工作流]]（+九阶段平台化）、[[FastAPI]]/[[Celery]]/[[Vue3]]/[[PostgreSQL]]/[[微短剧]]/[[LLM网关]]（+AI 漫剧平台）、[[ClaudeCode]]/[[Codex]]（+Temperature 对照/IQuestQ1 入口）、[[PI-Desktop]]（+冰河实测）、[[推理系统]]/[[NVIDIA]]/[[GPU架构]]（+IQuestRT/NaN 同步）、[[everything-is-a-plugin]]/[[DSHGo]]（+创造模式/移动端）、[[TRAE]]/[[AOP]]/[[WebSocket]]/[[轮询]]/[[Subagent]]/[[多Agent]]/[[MCP]]/[[Pi (coding harness)]]/[[静态代码检查]]/[[Java]]/[[DeepSeek]]（+本轮来源或概念章节）
+
+## Sources (2026-11-10 ingest)
+- [[摘要-openmausbot开源agent]] — 程序员追风：单日暴涨 1500 Star 的开源桌面 Agent OpenMausBot（Grok Bot 开源替代）——通讯录式多 bot、每 bot 独立电脑、执行前审批、Composio 500+ 应用、自然语言定时任务、团队 Markdown 打包
+- [[摘要-为什么越来越多人用ai-gateway]] — 苏三：AI Gateway 全景拆解——直接调模型的四大灾难、网关四能力（协议归一化/模型路由/虚拟 Key/Token 成本可观测）、LiteLLM 落地与优缺点
+
+## Entities (2026-11-10 新增)
+- [[OpenMausBot]] — 开源桌面 Agent 客户端（milind-soni/OpenMausBot，Grok Bot 开源平替）：不自带模型调本机 CLI、通讯录式多 bot、每 bot 独立电脑、执行前审批、Composio 应用市场、团队 Markdown 打包
+- [[LiteLLM]] — 最广泛使用的开源 AI Gateway：协议翻译与参数映射、Router 路由回退重试、虚拟 Key、Token 成本计量；Thoughtworks 归入"平台"类别
+
+## 更新 (2026-11-10)
+- [[LLM网关]]（+AI Gateway 四大能力全景：四大灾难/四能力/代价）、[[AI网关]]（+来源与 LiteLLM 关联）、[[模型路由]]（+路由四层次与错误分类：429 需读 Retry-After）、[[苏三]]（+AI Gateway 来源）、[[GrokBot]]（+OpenMausBot 独立详解）、[[Composio]]（+应用市场集成视角：500+ 应用授权）、[[personal-ai-agent]]（+OpenMausBot 完整功能形态）、[[OpenBot]]（+与 OpenMausBot 的对照章节）
+- 注：`raw/01-articles/如何做到无感刷新Token.md` 为 2026-10-28 已摄入文章（掘金同一原文）的重复剪藏，本次跳过编译直接归档，未重复建页
