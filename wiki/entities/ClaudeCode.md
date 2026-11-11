@@ -319,7 +319,31 @@ Anthropic 在 v2.1.287 推出 **Claude Mods**：用 TypeScript/JavaScript 进程
 - **争议**：父子嵌套归档后层级混乱、旧 Group by 移除、上下文用量入口变深（多会话并行恰恰最该一眼看到余量）
 - **定位**：从"带图形界面的编程会话"转向"多 Agent 会话调度台"，稀缺资源从推理速度转向开发者注意力；CLI 与桌面版不是替代关系——取决于你在"操作一个 Agent"还是"管理一组并行 Agent"
 
+### 桌面端完全体全攻略（2026-11-10，详见 [[摘要-claude桌面app全攻略]]）
+技术爬爬虾 11 章视频完整拆解：桌面端已把 Claude Code / Claude Design / Claude Cowork 收入同一客户端，核心要点——
+- **三模式**：Chat（对话，不操作本地电脑）/ Cowork（办公）/ Code（编程）；新 UI 灰度合并 Chat+Cowork 为"Claude + Code"两按钮，自动判断；Code 比 Cowork 更强更主动，多数场景直接用 Code
+- **接入国产模型**：开发者模式 → 第三方推理（DeepSeek：填 API key + Anthropic 兼容 Base URL + 百万上下文开关），模型映射（Claude Opus→DeepSeek V4 Pro、Claude Sonnet→DeepSeek Flash）
+- **工作区双名**：Code=Environment（可设环境变量、多文件夹）、Cowork=Project；**云端环境**（GitHub 连接器 + 网络白名单 + 密钥/环境变量 + setup script），本地关了也在跑、网页端可指挥
+- **权限**：Auto（模型自动审查放行/拦截高危，不启用沙箱）+ Plan（先出计划再动手）
+- **用量限额**：5 小时 + 周限额，See all 看各模式消耗
+- **指令追加**：Steering（默认，工具调用后读取）/ Queue（Ctrl+Enter 排队）/ Send Now（打断当前工具调用）
+- **后台任务**：耗时任务停下启动后台执行，完成发通知——**等待零 Token**
+- **Session Rail**：环境 + Context（上下文占用明细，建议 ≤50%）+ Outputs；`/compact` 手动压缩（39%→8%）；Remote Control 手机端接管
+- **侧边栏工具**：Terminal / Changes / 内置浏览器（元素选择器）/ 文件列表
+- **Rewind 回滚**：文件快照实现（不依赖 Git，仅回退 Claude 直接改的文件；连按两次 Esc）；Fork 分叉对话历史 + Git Worktree 代码隔离并行；`/btw` Side Chat 侧边对话不污染主线；Split View 分屏；**Nested Session 嵌套会话**（详见 [[NestedSession]]，趋势取代 Sub Agent）
+- **记忆系统（两套独立）**：Code 模式项目级 `CLAUDE.md`（`/init` 生成，≤200 行，可按前后端拆分+主文件留指针；**更推荐 AGENTS.md**，其他 Agent 通用）+ 全局 `~/.claude/CLAUDE.md`；Chat/Cowork 用 Your Claude 记忆 + Memory 开关（搜索历史/总结记忆），对 Code 不生效
+- **自动化能力**：Chrome 扩展（自带登录态、黑白名单）、内置浏览器（Cookie 三档 Until quit/Shared/Per session）、Computer Use（连接器>Bash>Chrome>Computer Use 优先级，慢且费 Token）
+- **Claude Design + Design System**：DESIGN.md 文字规则 → 转 Design System → 拼装成品；Artifacts：Docs（云文档）/ Slides（可导出 PPTX）/ Dashboard（活数据看板 + 定时刷新）
+- **Skills**：项目 `.claude/skills/`（注意只认 `.claude`）/ 全局 `~/.claude/skills/`，`/reload-skills` + `/` 调用；skill-creator 元技能自写
+- **连接器**：Supabase（云端 Postgres）、Vercel（零成本部署）等
+- **Claude Code Project（新）**：AI 主导并行工作流——给目标 + GitHub 仓库 → 协调员拆多个 Thread 并行 → 完成开 PR → 界面审代码合并，冲突交给熟悉线程；**不用手动管理 Session**
+
 ## 关联连接
+- [[摘要-claude桌面app全攻略]] — 来源（桌面端完全体 11 章全攻略）
+- [[摘要-claude-code桌面版嵌套会话更新]] — 来源（桌面版 v2 嵌套会话更新）
+- [[NestedSession]] — 嵌套会话机制
+- [[CLAUDE-md]] — 项目记忆文件
+- [[Worktree]] — 并行开发代码隔离
 - [[摘要-60分钟全面掌握Claude-Code]] — 来源
 - [[摘要-6条Claude-Code实践经验与思考]] — 来源
 - [[摘要-中美头部agent走向开放]] — 来源（开放 Agent SDK）

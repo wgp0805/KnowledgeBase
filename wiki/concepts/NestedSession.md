@@ -2,7 +2,7 @@
 title: "NestedSession"
 type: concept
 tags: [概念, ClaudeCode, 多Agent, 会话管理, 并行]
-sources: [raw/01-articles/Claude(Code)桌面APP，保姆级全攻略，一期视频精通.md]
+sources: [raw/09-archive/Claude(Code)桌面APP，保姆级全攻略，一期视频精通.md]
 last_updated: 2026-11-11
 ---
 
@@ -51,7 +51,7 @@ Nested Session（嵌套会话）是 Claude 桌面端的多会话管理机制：�
 - [[摘要-claude桌面app全攻略]] — 来源
 - [[ClaudeCode]] — 所属产品
 - [[Subagent]] — 被逐步取代的旧机制
-- [[Subagent驱动开发]] — 子代理编排方法论（无独立页则见 [[multi-agent-collaboration]]）
+- [[subagent-driven-development]] — 子代理编排方法论（无独立页则见 [[multi-agent-collaboration]]）
 - [[multi-agent-collaboration]] — 多 Agent 协作上位概念
 - [[Worktree]] — 并行代码隔离
 - [[子Agent编排]] — 编排能力对照

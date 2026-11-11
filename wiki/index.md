@@ -4354,3 +4354,15 @@
 ## 更新 (2026-11-10)
 - [[LLM网关]]（+AI Gateway 四大能力全景：四大灾难/四能力/代价）、[[AI网关]]（+来源与 LiteLLM 关联）、[[模型路由]]（+路由四层次与错误分类：429 需读 Retry-After）、[[苏三]]（+AI Gateway 来源）、[[GrokBot]]（+OpenMausBot 独立详解）、[[Composio]]（+应用市场集成视角：500+ 应用授权）、[[personal-ai-agent]]（+OpenMausBot 完整功能形态）、[[OpenBot]]（+与 OpenMausBot 的对照章节）
 - 注：`raw/01-articles/如何做到无感刷新Token.md` 为 2026-10-28 已摄入文章（掘金同一原文）的重复剪藏，本次跳过编译直接归档，未重复建页
+
+## Sources (2026-11-11 ingest)
+- [[摘要-rbac权限系统设计]] — 小哈：权限系统设计全链路——RBAC0/1/2/3 四模型 + Spring Security 基础/内存认证 + JWT 集成前后端分离 + JSON 登录 + BCrypt + 数据库认证
+- [[摘要-ai时代从业者职业发展调研]] — 基于 26 份行业材料：AI 重构研发效率与招聘结构（初级岗收缩、FDE 爆发）、中美 3-6 个月差距、1 负责人 + 数十 Agent 的未来配比、定义问题/验证结果/承担责任、各人群半年行动指南与 Echo/Delta 分类
+- [[摘要-claude桌面app全攻略]] — 技术爬爬虾 11 章：Claude 桌面端完全体——三模式/工作区/云端环境、模型与权限、三种追加指令、后台任务零 Token、Rewind/Fork/Worktree/Nested Session、两套记忆、浏览器与 Computer Use、Claude Design/Artifacts/Skills/连接器、Project 并行工作流
+
+## Concepts (2026-11-11 新增)
+- [[NestedSession]] — 嵌套会话：主会话拆多个可见子会话并行执行再汇总，形态类似 Sub Agent 但过程透明可干预，官方趋势逐步取代 Sub Agent
+
+## 更新 (2026-11-11)
+- [[rbac]]（+RBAC0/1/2/3 四模型与用户组章节）、[[SpringSecurity]]（+RBAC→JWT 全链路落地章节：JwtUser/JwtTokenUtil/Filter/JSON 登录/BCrypt/数据库认证）、[[JWT]]（+Spring Security 集成要点）、[[小哈]]（+权限系统文章来源）、[[FDE]]（+中美量化对比与 Echo/Delta 分类、结果负责制、人的核心价值上移）、[[personal-ai-agent]]（+未来产研协作架构：1 负责人 + 数十 Agent）、[[ClaudeCode]]（+桌面端完全体全攻略章节：三模式/云端环境/Auto+Plan/三种指令/后台任务/回滚并行/两套记忆/Design/Artifacts/Skills/Project）、[[CLAUDE-md]]（+AGENTS.md 推荐/200 行限制/全局与隐藏记忆/与 Chat-Cowork 隔离）、[[技术爬爬虾]]（+Claude 桌面攻略来源）、[[Paperclip]]（+IT码徒 2026-11-10 转载来源路径）
+- 注：`raw/01-articles/开源项目｜100k+Star！GitHub爆火的多智能体神器，一条命令搭起AI一人公司.md` 为 2026-10-30 已摄入 Paperclip 文章的同内容转载（IT码徒版），未重复建页，仅补来源路径并归档

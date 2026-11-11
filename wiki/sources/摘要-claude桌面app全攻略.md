@@ -2,7 +2,7 @@
 title: "摘要-claude桌面app全攻略"
 type: source
 tags: [来源, 原始文件, ClaudeCode, 桌面端, Agent工具, 教程]
-sources: [raw/01-articles/Claude(Code)桌面APP，保姆级全攻略，一期视频精通.md]
+sources: [raw/09-archive/Claude(Code)桌面APP，保姆级全攻略，一期视频精通.md]
 last_updated: 2026-11-11
 ---
 
@@ -59,7 +59,7 @@ last_updated: 2026-11-11
 - [[技术爬爬虾]] — 作者
 - [[NestedSession]] — 嵌套会话机制（本文详解）
 - [[CLAUDE-md]] — 项目记忆文件（本文补 AGENTS.md 推荐与全局/隐藏记忆）
-- [[ClaudeDesign]] — 设计能力（无独立页，见本页与 ClaudeCode 页）
+- Claude Design — 设计能力（无独立页，见本页与 ClaudeCode 页）
 - [[Skill]] — 能力扩展机制
 - [[MCP]] — 连接器相关生态
 - [[ComputerUse]] — 电脑自动化

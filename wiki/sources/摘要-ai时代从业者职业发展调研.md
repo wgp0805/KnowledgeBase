@@ -2,7 +2,7 @@
 title: "摘要-ai时代从业者职业发展调研"
 type: source
 tags: [来源, 原始文件, 职业发展, FDE, AI转型, 调研]
-sources: [raw/01-articles/AI 时代软件从业者职业发展调研报告.md]
+sources: [raw/09-archive/AI 时代软件从业者职业发展调研报告.md]
 last_updated: 2026-11-11
 ---
 
@@ -38,8 +38,8 @@ last_updated: 2026-11-11
 - [[personal-ai-agent]] — 每人配 Personal Agent 的协作架构
 - [[WorkBuddy]] — 已落地验证的产品之一
 - [[AI原生组织转型]] — FDE 涌现的组织背景
-- [[Agent管理者]] — "人从执行者变管理者"（概念并入 [[FDE]] 相关章节）
+- Agent 管理者 — "人从执行者变管理者"（概念并入 [[FDE]] 相关章节）
 - [[HI-IC]] — "一个人对结果负责"的相邻形态
 - [[OpenAI]] / [[Anthropic]] — 效率数据来源公司
 - [[Databricks]] — FDE 组织案例（无独立页）
-- [[AWS]] — FDE 派驻案例
+- AWS — FDE 派驻案例

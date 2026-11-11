@@ -2,7 +2,7 @@
 title: "摘要-rbac权限系统设计"
 type: source
 tags: [来源, 原始文件, RBAC, SpringSecurity, JWT, 权限]
-sources: [raw/01-articles/万能通用！权限系统就该这么设计.md]
+sources: [raw/09-archive/万能通用！权限系统就该这么设计.md]
 last_updated: 2026-11-11
 ---
 

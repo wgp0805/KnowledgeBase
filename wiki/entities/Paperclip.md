@@ -2,8 +2,8 @@
 title: "Paperclip"
 type: entity
 tags: [开源项目, 多智能体, Agent编排, AI一人公司]
-sources: [raw/09-archive/2026-10-29 - 开源项目｜100k+ Star！GitHub爆火的多智能体神器，一条命令搭起AI一人公司.md, raw/09-archive/2026-10-30 - 10万+Star！GitHub爆火的多智能体神器！.md]
-last_updated: 2026-11-02
+sources: [raw/09-archive/2026-10-29 - 开源项目｜100k+ Star！GitHub爆火的多智能体神器，一条命令搭起AI一人公司.md, raw/09-archive/2026-10-30 - 10万+Star！GitHub爆火的多智能体神器！.md, raw/09-archive/开源项目｜100k+Star！GitHub爆火的多智能体神器，一条命令搭起AI一人公司.md]
+last_updated: 2026-11-11
 ---
 
 ## 定义
