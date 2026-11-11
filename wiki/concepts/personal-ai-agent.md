@@ -42,6 +42,8 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - **OpenMausBot 平替的完整功能形态（2026-11-09，详见 [[摘要-openmausbot开源agent]]）**：[[OpenMausBot]] 是 Grok Bot 开源平替中功能最完整的一个——通讯录式联系人（每 bot 独立会话与记忆）、每 bot 独立选模型、每 bot 一台电脑（云端/隔离 VM/本机，本机默认关闭）、执行前审批卡、[[Composio]] 500+ 应用市场、自然语言建定时任务与 webhook（默认仅本机）、语音交互、整套团队打包为 Markdown 导入导出（不含密钥/记录/权限）；关键洞察是"安装后自动并入本机已配置的 AI"——不自带模型、复用本机 CLI 与现有订阅，这是它快速起量的重要原因
 - **蚂蚁灵光新版内测与赛道阶段判断（2026-10-13，详见 [[摘要-蚂蚁灵光内测新版personal-agent]]）**：[[蚂蚁灵光]] 新版从"生成个人应用"升级为带长期记忆、可主动推进长程任务的 Personal Agent——每用户一台 24h 运行的 Linux[[云电脑]]（自带浏览器），可接入 MCP/CLI/Skill/第三方 Harness，实测接管钉钉长任务、一句话调用电脑上 Agent、云电脑里装 ClaudeCode 当子代理。作者给出公式 **Personal Agent = 龙虾（或任意 Agent Harness 框架）+ Agent 基础设施（浏览器/电脑/邮箱/飞书）+ 垂直领域专业工具**，并用 [[Gartner曲线]] 判断：龙虾时代处于萌芽期/期望膨胀期（教育了市场但生态匹配不了野心），随三要素成熟（模型能力溢出、Flash 模型性价比拉满、生态进入物理世界）正迈入稳步爬升期，"Personal Agent 不会像龙虾一样销声匿迹"；配套论断"把自己的一切数据变成 Agent 的上下文，把自己的一切能力变成 Agent 可调用的 Skill"，以及大厂停运龙虾标志旧时代结束、SaaS 厂商不主动适配 Agent 就会被逆向复刻等行业信号
 
+- **未来产研协作架构（2026-11，详见 [[摘要-ai时代从业者职业发展调研]]）**：调研报告给出"**1 名负责人 + 少量工程师 + 业务专家 + 数十个 Agent**"的配比——个人层每人配 Personal Agent，后端通过 Router 分发任务给多个代码 Agent 工作台并行；系统层搭建事件驱动 Agent 自动化系统，人从执行者变"管理者"；已在腾讯 [[WorkBuddy]]、字节 ArkClaw、DeepSeek Super-agent 落地验证。这与"个人层 Personal Agent + 企业层 Agent 编排"的双层结构一致
+
 ## 关联连接
 - [[摘要-meta-muse-个人ai助理体验]] — 来源（Muse 评测）
 - [[摘要-扎克伯格谈muse-全栈护城河]] — 来源（设计哲学）
@@ -87,6 +89,7 @@ Personal AI Agent（个人 AI Agent）：长期围绕单个用户工作的 AI �
 - [[多层记忆]] — 分层记忆支柱
 - [[摘要-personal-agent-open-source-alternatives]] — 来源（Rakazo/OpenMuse/OpenDots 开源平替）
 - [[摘要-openmausbot开源agent]] — 来源（OpenMausBot 完整功能形态）
+- [[摘要-ai时代从业者职业发展调研]] — 来源（未来产研协作架构）
 - [[OpenMausBot]] — Grok Bot 开源平替的独立详解项目
 - [[摘要-doubao-work-travel-ppt]] — 来源（旅行高频场景与豆包工作实测）
 - [[Rakazo]] — Grok Bot 的开源平替

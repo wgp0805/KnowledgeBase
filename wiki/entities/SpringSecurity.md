@@ -44,6 +44,22 @@ Spring Security 是一个功能强大的 Java 认证和授权框架，提供全�
 
 **一句话总结**：Spring Security 是"安全领域的瑞士军刀"，功能全面但复杂；Sa-Token 是"安全领域的美工刀"，简单实用且灵活。
 
+### 完整权限系统落地链路（2026-11-10，详见 [[摘要-rbac权限系统设计]]）
+
+一篇从 RBAC 到可运行代码的完整教程，串联六步：
+1. **身份模型**：`JwtUser implements UserDetails`（username/password/state/authorities）
+2. **令牌工具**：`JwtTokenUtil` —— `generateToken`（HS512 + 过期时间）、`getClaimsFromToken`、`isTokenExpired`、`refreshToken`、`validateToken`
+3. **认证过滤器**：`JwtAuthenticationTokenFilter extends OncePerRequestFilter` —— 从 header 取 token → 解析用户名 → 校验 → 写入 `SecurityContextHolder`
+4. **用户加载**：`UserDetailsService` 实现类查库，`user.getRoles().stream().map(Role::getRolename).map(SimpleGrantedAuthority::new)` 转权限
+5. **登录签发**：`AuthenticationManager.authenticate()` 认证成功后签发 token
+6. **安全配置**：`csrf().disable()` + `SessionCreationPolicy.STATELESS` + `addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class)` + CORS（`CorsUtils::isPreFlightRequest` 放行预检）
+
+**JSON 登录**：重写 `UsernamePasswordAuthenticationFilter#attemptAuthentication`，JSON Content-Type 时用 Jackson 反序列化；`addFilterAt(customFilter, UsernamePasswordAuthenticationFilter.class)` 替换原 filter（**必须保留 `formLogin()`**，否则原 filter 不出现）。
+
+**密码存储**：`BCryptPasswordEncoder`（自带盐、非对称哈希），注册 `encode()`、登录 `matches()`。
+
+**数据库认证**：`configure(AuthenticationManagerBuilder auth)` 直接传入 `userDetailsService` 实现类；`antMatchers("/admin/**").hasRole("admin")` 按角色拦截。
+
 ## 关联连接
 - [[SpringBoot]] — 整合框架
 - [[Spring]] — 基础框架
@@ -54,4 +70,5 @@ Spring Security 是一个功能强大的 Java 认证和授权框架，提供全�
 - [[权限认证框架]] — 核心概念
 - [[摘要-springboot4-security7-vue3-best-practice]] — Security 7 最佳实践
 - [[摘要-spring-security]] — 完整教程
+- [[摘要-rbac权限系统设计]] — 来源（RBAC + Spring Security + JWT 全链路教程）
 - [[摘要-为什么越来越多人用Sa-Token]] — Sa-Token 对比来源

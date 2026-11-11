@@ -44,6 +44,9 @@ JWT 由点号分隔的三部分组成：
 - 后端自动刷新：校验时判断（过期时间 − 当前时间）< 阈值 → 重新签发放请求头返回
 - 详见 [[无感刷新Token]] 与 [[摘要-无感刷新token]]
 
+### Spring Security 集成 JWT（2026-11-10，详见 [[摘要-rbac权限系统设计]]）
+前后端分离场景的标准做法：jjwt 0.9.1 + `JwtUser implements UserDetails` + `JwtTokenUtil`（HS512 签名/过期/刷新/校验）+ `JwtAuthenticationTokenFilter extends OncePerRequestFilter`（解析 token 写入 `SecurityContextHolder`）+ 安全配置 `csrf().disable()`、`STATELESS`、`addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class)`。
+
 ## 关联连接
 - [[摘要-token-redis-interview]] — JWT 与 Redis 的深度分析
 - [[摘要-无感刷新token]] — 无感刷新实现（小哈，"怎么做"视角）
