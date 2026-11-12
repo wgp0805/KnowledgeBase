@@ -1,3 +1,19 @@
+## [2026-11-11] synthesis | 固化：OpenSpec apply 后上下文耗尽的交接与新窗口重建流程
+- **变更**: 新增 [[openspec-context-handoff-after-apply]]（Syntheses）；更新 [[index.md]]（Syntheses 注册）
+- **内容**: 针对"200k 窗口跑完 /opsx:apply 后还要改业务、只能靠压缩且易跑偏"的场景，归纳为：①压缩跑偏的三条机制（自主摘要/摘要的摘要累积失真/不可审计）与 40% 利用率口径；②底层模型对接 [[checkpoint-rebuild]]（checkpoint 写盘 + rebuild 新窗口）；③三会话切分（规划 / 实现即弃 / 业务变更）；④apply 前约定逐项叫停 + 每 3 项写 handoff；⑤handoff.md 五要素模板（职责地图/决策理由/未完成/切入点/行为映射）；⑥新窗口"只读复述校验"闸门；⑦token 战术清单（禁回显代码/结构地图/子代理探索/改动超 4 文件即拆 change）；⑧压缩的合理边界与 [[SessionStart]]/[[PreCompact]] hook 机制化
+- **关联**: 复用并交叉引用 [[openspec-matt-skills-execution-workflow]]（叫停机制）、[[openspec-archive-modify-and-token-tradeoff]]（delta 变更与 spec rot）、[[openspec-brownfield-usage-guide]]、[[delta-spec]]、[[ContextRot]]、[[长上下文陷阱]]、[[交接单]]
+- **冲突**: 无。与 [[openspec-archive-modify-and-token-tradeoff]] 中"Plan 与 Execute 分 Session"结论一致，本文将其细化到 apply 后交接的具体操作层，属补充而非修正
+- **校验**: lint 复跑 —— 总页面 3056，孤岛 0 / 死链 0 / frontmatter sources 缺失 0，健康度 100.0%（7 组同名 stem 为已知待人工消歧项）
+
+## [2026-11-11] query | 固化：全 AI 开发前后端分离项目指南（用户确认保存）
+- **输出**: 新增 [[全ai开发前后端分离项目指南]]（Syntheses）；更新 [[index.md]]（Syntheses 注册）；内容覆盖 Harness 选型/AGENTS.md 地基/规范驱动三工具/六阶段 Skill 清单/7 步工作流/三条终审边界/最小起步 6 件套；lint 复跑 0 死链 0 孤岛
+
+## [2026-11-11] query | 前后端分离项目 0→1 全 AI 开发：工具、规范层与分阶段技能清单
+- **输出**: 引用 [[摘要-springboot4-security7-vue3-best-practice]], [[摘要-superpowers-openspec-speckit对比]], [[摘要-OpenSpec规范驱动AI编程框架]], [[摘要-spec-superflow-融合工作流]], [[摘要-再见吧-codex]], [[摘要-claude-code-实战防搞炸]], [[摘要-codex-从原理到-java落地]], [[摘要-codex必装skill推荐]], [[harness-architecture-comparison]], [[Skill]], [[CLAUDE-md]], [[无感刷新Token]]; 即时回答未保存
+
+## [2026-11-11] query | 程序汪 AI 漫剧项目：方法（九阶段/四步流水线）与 7 个开发 Skill 梳理
+- **输出**: 引用 [[摘要-程序汪-ai漫剧平台项目]], [[AI漫剧创作平台]], [[AI漫剧工作流]], [[AIXTV]], [[程序汪]]; 即时回答未保存
+
 ## [2026-11-04] query | MQ 选型：Kafka vs RocketMQ 何时选谁
 - **输出**: 引用 [[Kafka]], [[RocketMQ]], [[message-queue]], [[摘要-4种消息队列如何选型]]; 即时回答未保存
 

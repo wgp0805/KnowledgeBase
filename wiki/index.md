@@ -1556,6 +1556,7 @@
 - [[project-analysis-planning-tool-selection]] — 结合项目分析的需求规划工具选型：GSD Core（map-codebase）/SpecSuperflow/OpenSpec/SpecKit/Trellis 横向对比
 - [[java-mail-read-implementation]] — Java 项目实现读取邮件功能：IMAP 协议选型、Spring Boot 配置、Jakarta Mail 代码示例、生产环境注意事项
 - [[speckit-usage-guide-with-openspec-comparison]] — SpecKit 使用教程（OpenSpec 命令对照版）：七阶段流水线、安装、订单导出实战示例与选型组合建议
+- [[全ai开发前后端分离项目指南]] — 全 AI 开发前后端分离项目完整指南：Harness 选型、AGENTS.md 地基、Spec-Kit/OpenSpec/Superpowers 规划层、六阶段 Skill 清单（含 Spring/MyBatis-Plus/TDD/frontend-design）、7 步工作流与三条终审边界、最小起步 6 件套
 
 ## Sources (2026-08-25 新增)
 - [[摘要-docker-frp-内网穿透]] — Docker + FRP 内网穿透实操：frps/frpc 架构、token 认证、--network host、五大优势与工具对比
@@ -4366,3 +4367,6 @@
 ## 更新 (2026-11-11)
 - [[rbac]]（+RBAC0/1/2/3 四模型与用户组章节）、[[SpringSecurity]]（+RBAC→JWT 全链路落地章节：JwtUser/JwtTokenUtil/Filter/JSON 登录/BCrypt/数据库认证）、[[JWT]]（+Spring Security 集成要点）、[[小哈]]（+权限系统文章来源）、[[FDE]]（+中美量化对比与 Echo/Delta 分类、结果负责制、人的核心价值上移）、[[personal-ai-agent]]（+未来产研协作架构：1 负责人 + 数十 Agent）、[[ClaudeCode]]（+桌面端完全体全攻略章节：三模式/云端环境/Auto+Plan/三种指令/后台任务/回滚并行/两套记忆/Design/Artifacts/Skills/Project）、[[CLAUDE-md]]（+AGENTS.md 推荐/200 行限制/全局与隐藏记忆/与 Chat-Cowork 隔离）、[[技术爬爬虾]]（+Claude 桌面攻略来源）、[[Paperclip]]（+IT码徒 2026-11-10 转载来源路径）
 - 注：`raw/01-articles/开源项目｜100k+Star！GitHub爆火的多智能体神器，一条命令搭起AI一人公司.md` 为 2026-10-30 已摄入 Paperclip 文章的同内容转载（IT码徒版），未重复建页，仅补来源路径并归档
+
+## Syntheses (2026-11-11 新增)
+- [[openspec-context-handoff-after-apply]] — OpenSpec apply 耗尽 200k 窗口后如何继续改业务：拒绝靠压缩硬撑，改用三会话切分 + handoff.md 五要素交接包 + 新窗口只读复述校验
