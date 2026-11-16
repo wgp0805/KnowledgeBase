@@ -10,7 +10,7 @@ parse_status: "ok"
 
 # FlowMQ Kafka：低成本存储与无感扩容解决方案
 
-![](https://mmbiz.qpic.cn/mmbiz_png/rpKrB1EavLCnWMCvxVbUdEgsA4TSIicQGzVW7lXF1kWBGGN3NrDvv5xkqSH5l13WxJfUAuAznx1uk6057szpcI2Y2Zxicriam9dFA45PM0z6xY/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-13%20-%20FlowMQ%20Kafka%EF%BC%9A%E4%BD%8E%E6%88%90%E6%9C%AC%E5%AD%98%E5%82%A8%E4%B8%8E%E6%97%A0%E6%84%9F%E6%89%A9%E5%AE%B9%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/7f1c223fc65770d5377d86639f260e75_MD5.png)
 
 引言
 
@@ -35,7 +35,7 @@ FlowMQ Kafka 解决方案
 
 ## FlowMQ Kafka 采用计算存储分离的架构。Kafka 协议层支持标准 Kafka 协议，兼容各种 Kafka 客户端与 Topic、Partition、Consumer Group、认证、保留策略等标准功能，现有业务无障碍迁移。存储层由 S3 或 RLog 承载数据。计算和存储层可按需各自扩容。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rpKrB1EavLBibLY9LH1WJTIlFzdpE9MZwqweFA5zGibDLloHylEuRRA44crpIx8JiakPlYvRZf3B9D3ibhQVJQosHLaHhIRSF0Ub22h0e60hYaY/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-13%20-%20FlowMQ%20Kafka%EF%BC%9A%E4%BD%8E%E6%88%90%E6%9C%AC%E5%AD%98%E5%82%A8%E4%B8%8E%E6%97%A0%E6%84%9F%E6%89%A9%E5%AE%B9%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/0cbf905019cfc26f4429fcfdae9732cb_MD5.png)
 
 统一 Kafka 协议层与 S3、RLog 双存储后端
 
@@ -49,7 +49,7 @@ FlowMQ Kafka 解决方案
 
 以 AWS、1 GB/s 吞吐、多 AZ 部署的月度基础设施成本为例，Apache Kafka 为 286,636 美元／月，FlowMQ S3 为 18,138 美元／月。读者可自行比较按目标存储和吞吐在不同的云提供商上计算部署成本。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/rpKrB1EavLBsvZTNR4ca6me2ms1EzKuuwGgHV7zA2hSgaLnZgfgF0XeutsR7ribDoVn2bx4JKQo9raibdYuhfpIibWLbmPhxeECrfX2agibia2Ns/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-13%20-%20FlowMQ%20Kafka%EF%BC%9A%E4%BD%8E%E6%88%90%E6%9C%AC%E5%AD%98%E5%82%A8%E4%B8%8E%E6%97%A0%E6%84%9F%E6%89%A9%E5%AE%B9%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ee3df90377adf25a1429e9f467bb5677_MD5.png)
 
 AWS、1 GB/s、多 AZ 场景的月度基础设施成本示例
 
@@ -66,7 +66,7 @@ RLog 是 FlowMQ 自主研发的分布式 Log 存储引擎，其设计基于流�
 
 因此，RLog 将一个 Partition 的日志按序划分为多个 Segments，包含 0 个或者多个已封存的只读 Segments 和一个活跃 Segment，以每个 Segment 为粒度配置复制组。这样，历史数据副本可以更细粒度地分散到不同节点，容量均衡不必始终围绕整个 Partition 副本进行。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/rpKrB1EavLD2ryLahz5YNLWE05DoGkNUEIa89GuEWHocClterCBC57osHz1JQ16Ie8n5dCnPVWticeeicv6zAcFcaoPics3ApUYFx1ClTddQIk/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-13%20-%20FlowMQ%20Kafka%EF%BC%9A%E4%BD%8E%E6%88%90%E6%9C%AC%E5%AD%98%E5%82%A8%E4%B8%8E%E6%97%A0%E6%84%9F%E6%89%A9%E5%AE%B9%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/8b136d9070e51ba92ee73cffa732a12a_MD5.png)
 
 一个 Partition 的 Segment 副本分布示例
 
@@ -115,9 +115,9 @@ RLog 是 FlowMQ 自主研发的分布式 Log 存储引擎，其设计基于流�
 
 [3] Redpanda: How Redpanda Works — Raft consensus algorithm ( https://docs.redpanda.com/streaming/current/get-started/architecture/ )
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/u21HUF7OcgAQANRB3pwW7PARH0smibw0zLvK5icOxuLHYKsMcW64H28gcI0Qz2mv8jfXibyfBSukLJoVwgtHh6elg/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](assets/2026-11-13%20-%20FlowMQ%20Kafka%EF%BC%9A%E4%BD%8E%E6%88%90%E6%9C%AC%E5%AD%98%E5%82%A8%E4%B8%8E%E6%97%A0%E6%84%9F%E6%89%A9%E5%AE%B9%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/16cfb09ee8d47045f6d90a5f00e1ef93_MD5.gif)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/u21HUF7OcgBQrYZdxAb0FPCc1udACgmakzWELCkQIhWKRsq0WJlaiaeeQxJ77t9Z4qugt3kicY4ZJldGL7vqmAGQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](assets/2026-11-13%20-%20FlowMQ%20Kafka%EF%BC%9A%E4%BD%8E%E6%88%90%E6%9C%AC%E5%AD%98%E5%82%A8%E4%B8%8E%E6%97%A0%E6%84%9F%E6%89%A9%E5%AE%B9%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/97769e73eea464ad051a2ac1e6912017_MD5.webp)
 
 点击「阅读原文」了解更多
 

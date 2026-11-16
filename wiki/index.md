@@ -4371,6 +4371,27 @@
 ## Syntheses (2026-11-11 新增)
 - [[openspec-context-handoff-after-apply]] — OpenSpec apply 耗尽 200k 窗口后如何继续改业务：拒绝靠压缩硬撑，改用三会话切分 + handoff.md 五要素交接包 + 新窗口只读复述校验
 
+## Sources (2026-11-16 ingest)
+- [[摘要-springbatch-quartz定时批量任务]] — 小哈学Java：SpringBatch+Quartz 整合定时批量任务——JobLauncher 触发/JdbcCursorItemReader 自定义SQL/ItemWriter 批量回写/afterJob 失败数统计 + QuartzManager 延时单次 Job 重试闭环，chunk 模式"读5000条→逐条processor→一次性writer"的坑
+- [[摘要-doris-streamload海量数据实时更新]] — 小哈学Java：SpringBoot+Doris Stream Load 海量数据实时更新——@DorisField 注解自动映射（重命名/排序/忽略）、10万条批次+8线程并行+GZIP+指数退避重试、LoadResponse 结果监控，相比 JDBC 批量更新性能提升 20-50 倍
+- [[摘要-为什么越来越多人用magpie-苏三]] — 苏三：Magpie 深评——"CC Switch 切配置（改路标）vs Magpie 切请求路径（修路口）"、订阅发现变 Provider/原子改写/四协议翻译、路由分组五策略+配额无感切换、端上密文脱敏、Routing 日志喂 AI、安装实战
+- [[摘要-deepseek全家桶api开放]] — 程序员追风（转新智元）：DeepSeek 开放全家桶应用 API——V4.1-Flash 三协议支持联网搜索/深度思考搜索/文件输入/读链接/内置安全，底层拆独立接口 Search/Fetch/OCR/ASR/TTS，开源 chat-demo
+- [[摘要-flowmq-kafka低成本存储无感扩容]] — 程序汪：FlowMQ Kafka 方案——C++ 统一消息系统兼容 MQTT/Kafka/AMQP/NATS，计算存储分离+S3/RLog 双后端、Segment 粒度副本组、Flexible Quorum 4-3-2（W+R>N 强一致），AWS 场景月成本 286,636→18,138 美元
+- [[摘要-ruoyi-office一体化办公平台]] — 程序汪：RuoYi Office 中小企业办公一体化平台——Spring Cloud Alibaba 微服务+Vue 3、16 子系统（OA/HRM/CRM/ERP/EAM/WMS/MALL/AI/BPM 等）、仿钉钉/飞书+BPMN 双设计器、多租户 SaaS、信创适配、MIT 免费商用
+- [[摘要-cot思维链与deepseek-harness]] — 二哥狗腿子：CoT 思维链原理与工程实现——上下文当草稿纸（输出 Token 换推理计算量、中间结论存 KV Cache）、text/reasoning 块协议拆分、三层折叠 UI、推理等级 Off/Low/High/Max、签名回传/跨模型丢弃/压缩摘要丢弃三种思考块处理
+- [[摘要-octop开源版workbuddy]] — 锋哥：腾讯开源 AI 助手 Octop（11.9K Star，"开源版 WorkBuddy"）——自部署多端对话、多账号+专家隔离、连接器/知识库/定时任务、ACP 双向接入、数据本机化
+- [[摘要-dsh官方点名4个神级插件]] — 沉默王二：DSH 官方点名 4 插件（日活 154 万/插件 3.5 万）——dsh-media-desk 自媒体工作台、dsh-guizang-design 归藏设计、dsh-context 上下文洞察、agentero-dsh 论文阅读 + 作者自研 paiwarp-dsh 终端自动化
+
+## Entities (2026-11-16 新增)
+- [[SpringBatch]] — Spring 生态批处理框架：Job/Step/Chunk 模型、ItemReader/Processor/Writer、与 Quartz 组成"定时触发+失败重试闭环"
+- [[Doris]] — Apache Doris 实时分析型数据库（OLAP）：FE/BE 架构、Stream Load HTTP 导入（JSON/CSV/GZIP/并行/重试）、注解式字段映射
+- [[FlowMQ]] — C++ 统一消息系统（兼容 MQTT/Kafka/AMQP/NATS）：计算存储分离、S3/RLog 双后端、Segment 粒度副本组、Flexible Quorum 4-3-2 强一致
+- [[RuoYiOffice]] — 若依生态衍生的中小企业办公一体化平台：Spring Cloud Alibaba 微服务+Vue 3、16 子系统、BPM 双设计器、多租户 SaaS、信创适配
+- [[Octop]] — 腾讯云开源自部署 AI 助手（11.9K Star）：多端对话、多账号+专家隔离、ACP 双向接入、数据本机化，"开源版 WorkBuddy"
+
+## 更新 (2026-11-16)
+- [[Magpie]]（+苏三 11-15 章节：与 CC Switch 结构差异/订阅池化/原子改写/路由分组五策略/密文脱敏/Profile/Routing 日志喂 AI/优缺点）、[[CCSwitch]]（+定位差异补充："改路标 vs 修路口"）、[[DeepSeek]]（+全家桶 API 开放章节）、[[DeepSeek-V4.1-Flash]]（+全家桶 API 能力章节：三协议/web_search/read_url/文件输入/独立五接口/chat-demo）、[[DeepSeekHarness]]（+官方点名插件与生态规模章节：日活 154 万/3.5 万插件/4 官方点名/paiwarp-dsh）、[[Quartz]]（+SpringBatch 整合模式：定时触发+失败重试闭环）、[[Kafka]]（+传统架构局限与 FlowMQ 对照章节）、[[CoT]]（+底层原理与 DSH 工程实现章节：草稿纸原理/reasoning 块/推理等级/签名回传三种处理）、[[插件生态]]（+官方点名机制与规模更新：3.5 万插件/垂直工作台趋势）、[[RuoYi]]（+RuoYiOffice 衍生关联）、[[WorkBuddy]]（+开源 Octop 产品线对照）、[[锋哥]]（+Octop 文章）、[[沉默王二]]（+DSH 4 插件文章与 paiwarp-dsh）、[[程序员追风]]（+DeepSeek 全家桶文章）、[[小哈]]（+Doris Stream Load/SpringBatch+Quartz 两文）、[[程序汪]]（+FlowMQ/RuoYi Office 两文）、[[苏三]]（+Magpie 深评文章）
+
 
 ## Sources (2026-11-12 新增)
 - [[摘要-coze下线开源workbuddy]] — Coze（扣子）企业版 2026-10-29 宣布下线，苏三详解 BISHENG 团队开源企业级 Agent 平台 BISHENG 与桌面端 DSH Desktop 的安装部署、Chat/Work 双模式、workflow 构建与 Vibe 应用托管

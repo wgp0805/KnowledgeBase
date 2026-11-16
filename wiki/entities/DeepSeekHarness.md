@@ -243,6 +243,16 @@ DSH 无 REA 一键接入命令（官方一键命令支持十几个 Agent 但未�
 - **压缩保护**：上下文压缩模块内置固定 Checkpoint 摘要模板，强制把未完成任务写入 `Pending Jobs` 和 `Current Work` 章节，压缩后任务不丢
 - **Plan 模式禁用**：系统提示词明令禁止 Plan 模式调用 `todo_write`（Plan 敲定方案，Todo 跟踪方案获批后的执行进度）；多 Agent 分工场景需演进为按编号更新的任务工具
 
+## 官方点名插件与生态规模（2026-11-12，[[沉默王二]]，详见 [[摘要-dsh官方点名4个神级插件]]）
+- **生态规模**：调用官方 API 的日活用户达 **154 万**，第三方插件 **3.5 万个**（上线仅数月）
+- **官方点名 4 个插件**：
+  - **dsh-media-desk 自媒体工作台**（作者"蜗牛的科技笔记"）：侧边栏独立工作台，灵感墙（一句话/链接/图片存选题卡）→ 一键成稿（候选标题+口播正文+分镜脚本）→ 内容四态管理（灵感/成稿/待发布/已发布）→ 发布排期日历 → 数据复盘可导出为 Skill → 15 种预设风格卡；生图需自配 OpenAI 兼容 API Key
+  - **dsh-guizang-design 归藏设计**：五个内容生成 Skill 打包（`/guizang-ppt-skill` 单 HTML 网页 PPT 支持演讲者视图、`/guizang-page-skill` 杂志风/瑞士风单页网页可导出 PDF 长图、`/humanizer-zh` 删空话套话保留事实与语气、`/guizang-voice` 从历史会话总结用词习惯）+ 统一配色排版规范（6 套杂志风 + 4 套瑞士风主题）
+  - **dsh-context 上下文洞察**（Bowen）：把 Token 花在哪逐项列出——全局洞察页（最近 7 天计费 Token 与预估费用、8 周使用热力图）、单会话 Context 标签页（Token 构成/每请求变化/读写文件与执行命令）、Fleet 标签页（主/子 Agent 分工与各自消耗实时卡片）、`/context` 命令弹窗速查
+  - **agentero-dsh 论文阅读**（Phil-Fan 团队）：把数据全存本地的科研工具 Agentero 接进客户端，四模块（客户端通信/文献库/笔记/PDF 阅读器）；环境要求 Node ≥ 24.9.0 + Agentero CLI + 绑定本地知识库目录
+- **作者自研 paiwarp-dsh 自动化终端插件**：Codex、Claude Code、DSH 原生都没有 terminal use，该插件让 DSH 打开本机真实终端逐步输入命令/按键、读取屏幕输出、检查退出码与生成文件，自动存高清 PNG 截图与 MP4 录屏到 `.paiwarp/runs/<运行编号>/`；支持"接管键盘"人机切换（暂停 Agent 由人操作，敲完交回从当前状态续测）；依赖 Playwright + Chromium（录屏需 FFmpeg），不限定项目可测任意 CLI
+- **总结判断**：DeepSeek Harness 可被定制成任何想要的样子——"Agent 时代的操作系统"
+
 ## 关联连接
 - [[DeepSeek]] — 所属公司
 - [[崔添翼]] — 团队负责人
@@ -297,3 +307,5 @@ DSH 无 REA 一键接入命令（官方一键命令支持十几个 Agent 但未�
 - [[摘要-dsh-创造模式插件教程]] — 创造模式插件教程
 - [[摘要-dsh-go-安卓app]] — DSH Go 安卓 App
 - [[摘要-deepseek-temperature]] — Temperature 采样对照
+- [[摘要-dsh官方点名4个神级插件]] — 来源（2026-11-12 官方点名 4 插件 + paiwarp-dsh 自研实战）
+- [[CoT]] — 思考块协议层呈现与推理等级（Off/Low/High/Max）的实现载体

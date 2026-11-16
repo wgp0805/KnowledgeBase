@@ -33,7 +33,7 @@ DeepSeek正式开放全家桶应用 API！～
 
 你就看看下面这个API定价，那叫一个惊喜——
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/Rvq8Ow69CYWAFUphQLXooN6RI4sqK68bGiaJFzbA4YnSkVXOlWsibRmeM7UshWw9vAXTiazOibWm1R5A8dvHUZEFaFLlNbs34rDiaS62vQxxicN7A/640?from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=4)
+![图片](assets/2026-11-14%20-%20%E9%87%8D%E7%A3%85%EF%BC%81DeepSeek%E6%94%BE%E5%BC%80%E5%85%A8%E5%AE%B6%E6%A1%B6API%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%B8%AE%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%EF%BC%81/5b1310d12ff6d8c7d5b305d95af1b5f3_MD5.webp)
 
 评论区也瞬间炸锅了。
 
@@ -43,7 +43,7 @@ DeepSeek正式开放全家桶应用 API！～
 
 「格局太大了！」
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/UicQ7HgWiaUb3uEdSPKrwGNmZEOaaGyzVvZ8dTtE9jU1rFsda3llYbCZpmWfiazUYjWBLTGvlPpXucH8Q0lEUJN3Q/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=6)
+![图片](assets/2026-11-14%20-%20%E9%87%8D%E7%A3%85%EF%BC%81DeepSeek%E6%94%BE%E5%BC%80%E5%85%A8%E5%AE%B6%E6%A1%B6API%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%B8%AE%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%EF%BC%81/f23d7dde5ebb2a3e9dfd3166444397ac_MD5.webp)
 
 **再也不用当缝合怪了！**
 
@@ -57,7 +57,7 @@ DeepSeek正式开放全家桶应用 API！～
 
 简直像个缝合怪一样。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Rvq8Ow69CYWIZR69SBl59t59ks5fWVjiaoVYW0OTFGp2UGiaZfibiauNHTK86fkjZTJMUD7AKOibjmB9iajCwbEjA1dFCSFt2M3jdtIGuVFGhEt78/640?from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=8)
+![图片](assets/2026-11-14%20-%20%E9%87%8D%E7%A3%85%EF%BC%81DeepSeek%E6%94%BE%E5%BC%80%E5%85%A8%E5%AE%B6%E6%A1%B6API%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%B8%AE%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%EF%BC%81/2c6f71f498c5f93e80fe247973ac3da8_MD5.webp)
 
 但今天，DeepSeek开放的全家桶API，直接帮开发者把桌子掀了！
 
@@ -65,7 +65,7 @@ DeepSeek App 的各项交互功能，直接整合进原有 API。所有繁琐的
 
 只要开启对应参数，就能召唤出DeepSeek完全体！
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Rvq8Ow69CYUN4icpyEFiaicthEBobOyPdNuVdXrskibbRWGm7x5d5ENAI0NfNupzSb4LYKCzqiayXBePmp0bN9v0ZHJicv9Q0kQBibCZqFYsdsWr3Y/640?from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=10)
+![图片](assets/2026-11-14%20-%20%E9%87%8D%E7%A3%85%EF%BC%81DeepSeek%E6%94%BE%E5%BC%80%E5%85%A8%E5%AE%B6%E6%A1%B6API%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%B8%AE%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%EF%BC%81/52015605af805c823535e6ec7a2ebb1d_MD5.webp)
 
 在原有 API 中开启对应的参数，DeepSeek服务端自动完成相关的工具调用、上下文拼接
 
@@ -91,7 +91,7 @@ DeepSeek App 的各项交互功能，直接整合进原有 API。所有繁琐的
 
 别人卖 API 好比卖水和电，DeepSeek 这是直接卖饮水厂和发电站啊！
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/UicQ7HgWiaUb3uEdSPKrwGNmZEOaaGyzVvZ8dTtE9jU1rFsda3llYbCZpmWfiazUYjWBLTGvlPpXucH8Q0lEUJN3Q/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=12)
+![图片](assets/2026-11-14%20-%20%E9%87%8D%E7%A3%85%EF%BC%81DeepSeek%E6%94%BE%E5%BC%80%E5%85%A8%E5%AE%B6%E6%A1%B6API%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%B8%AE%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%EF%BC%81/f23d7dde5ebb2a3e9dfd3166444397ac_MD5.webp)
 
 **DeepSeek 的格局远不止于此**
 
@@ -115,7 +115,7 @@ DeepSeek App 的各项交互功能，直接整合进原有 API。所有繁琐的
 
 它完整演示了联网搜索、深度思考、文件图片上传、朗读回答、语音输入、Markdown 与 Mermaid 图表渲染等功能……
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Rvq8Ow69CYW5KGQSkfETn8w13Vw2qcMAWVGWXKo2ApKP0qUmNKvoksfMicMYR8xyNqWHXiaC8aSEZPmtcEd37YEt3JVbq1n6XGcpOR6kCs6Lg/640?from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=14)
+![图片](assets/2026-11-14%20-%20%E9%87%8D%E7%A3%85%EF%BC%81DeepSeek%E6%94%BE%E5%BC%80%E5%85%A8%E5%AE%B6%E6%A1%B6API%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%B8%AE%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%EF%BC%81/5faef521e4307f0852c4371e9facc4f4_MD5.webp)
 
 渲染响应：Chatbot 的一次响应包含多种内容块，以上是各类块在 DeepSeek 网页端中对应的位置
 
@@ -125,7 +125,7 @@ DeepSeek App 的各项交互功能，直接整合进原有 API。所有繁琐的
 
 想抄作业的开发者，可以直接冲了。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Rvq8Ow69CYXoISTJN9kJNFTQUBExcgFtlaecG9OicKyxWYyGoTNlYXuUaZDHaoNjMNQjHuO8fMrsLeLGeqHKWuGn1gfXBpia6e0weGZQ9KzMY/640?from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=16)
+![图片](assets/2026-11-14%20-%20%E9%87%8D%E7%A3%85%EF%BC%81DeepSeek%E6%94%BE%E5%BC%80%E5%85%A8%E5%AE%B6%E6%A1%B6API%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%B8%AE%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%EF%BC%81/0f9b9b533d0a1dcdfd3565bbe5980428_MD5.webp)
 
 **在线体验入口：** https://cdn.deepseek.com/chat-demo
 
@@ -133,7 +133,7 @@ DeepSeek App 的各项交互功能，直接整合进原有 API。所有繁琐的
 
 **
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/UicQ7HgWiaUb351381bTy5MO2IN89mV41M88GEiaCCibDxJoaQjYV6HfRtafnmEmfM3R1p0tmkHgBOVuXBD6UJKpsQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=18)
+![图片](assets/2026-11-14%20-%20%E9%87%8D%E7%A3%85%EF%BC%81DeepSeek%E6%94%BE%E5%BC%80%E5%85%A8%E5%AE%B6%E6%A1%B6API%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%B8%AE%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%EF%BC%81/eff4ea64ff33b56eaa89c0e03bd7e98f_MD5.webp)
 
 **
 
@@ -143,7 +143,7 @@ DeepSeek App 的各项交互功能，直接整合进原有 API。所有繁琐的
 
 但ds直接掏出压箱底的技术，不仅给工具，开源demo都直接喂到嘴边。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Rvq8Ow69CYUJAENicThvBrZvKORNxIehK4eGtmLpkMjCooW9DVQkE3bmibFdQvLib6TcIh8pPkVeds0qbP7wmkB9ibibKsfIeYPrkOKRiaX8R1OJ8/640?from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=19)
+![图片](assets/2026-11-14%20-%20%E9%87%8D%E7%A3%85%EF%BC%81DeepSeek%E6%94%BE%E5%BC%80%E5%85%A8%E5%AE%B6%E6%A1%B6API%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%B8%AE%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%EF%BC%81/9f45dd996185d41aaf44e99d897f5bf2_MD5.webp)
 
 官方公告最后这样写：其实，我们的DeepSeek App只是个基础款。现在脏活累活交给我们，别再重复造轮子了，赶紧去整个大活吧！
 
@@ -155,7 +155,7 @@ DeepSeek，不愧是人类之光啊。
 
 **
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/xe4FY1hGDmq17JSGmvlibgJjT73DIFV5hkricMTLpuRLmhy0OV8C9hGF9CkdmvficOyYXtfZcNTbYGgibtSSGd3zmw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&randomid=5mnonial&tp=webp#imgIndex=0)
+![图片](assets/2026-11-14%20-%20%E9%87%8D%E7%A3%85%EF%BC%81DeepSeek%E6%94%BE%E5%BC%80%E5%85%A8%E5%AE%B6%E6%A1%B6API%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%B8%AE%E5%BC%80%E5%8F%91%E8%80%85%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%EF%BC%81/000659fdef65615a176821139f9416c4_MD5.webp)
 
 你在看吗**
 

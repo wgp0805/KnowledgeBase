@@ -2,8 +2,8 @@
 title: "CC Switch"
 type: entity
 tags: [AI编程工具, 供应商切换, 配置管理, 开源工具]
-sources: [raw/09-archive/替代 CC Switch，这个项目已经斩获 20K Star！.md]
-last_updated: 2026-10-27
+sources: [raw/09-archive/替代 CC Switch，这个项目已经斩获 20K Star！.md, raw/09-archive/2026-11-15 - 为什么越来越多人用 Magpie？.md]
+last_updated: 2026-11-16
 ---
 
 ## 定义
@@ -17,6 +17,7 @@ CC Switch（GitHub: farion1231/cc-switch）是管理 Claude Code、Codex、Gemin
 - **4.0 修复**：写回改为**只替换少数几个字段**，写入前还会检查文件是否被别处修改过；同时新增类似 magpie 的模型聚合模式
 - **对 Codex 桌面版**：模型列表面板显示链路先天不顺，桌面 model picker 问题多（v3.16.5 起用 `cc-switch-model-catalog.json` 缓解），详记于 [[codex-desktop-多模型与插件支持现状]]；对 Codex CLI 支持是稳定的
 - **定位对比**：多工具、多密钥、需用量管控+CLI 场景优先 CC Switch；多供应商多账号重额度调度选 [[Magpie]]。本知识库相关检索见 [[codex-desktop-多模型与插件支持现状]] 与 [[CCGUI]]（后者支持 cc-switch 凭证兼容）
+- **与 Magpie 的本质差异（2026-11-15 苏三补充，详见 [[摘要-为什么越来越多人用magpie-苏三]]）**："CC Switch 切的是配置，Magpie 切的是请求的路径"——改路标 vs 修路口。CC Switch 帮各 Agent 把 Key 和 Endpoint 写进各自配置文件，Agent 仍直连供应商、各花各的额度，资源是孤岛；后来补的本地路由与聚合模式，核心仍是"帮客户端找到正确的上游"而非"把上游池化"。适合只用一个 Agent、只在一个供应商间切换的用户
 
 ## 关联连接
 

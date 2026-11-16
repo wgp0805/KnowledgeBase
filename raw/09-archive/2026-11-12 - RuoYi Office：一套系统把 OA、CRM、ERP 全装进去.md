@@ -14,13 +14,13 @@ parse_status: "ok"
 
 中小企业上数字化系统，最烦的不是没钱，是**系统太多**。 考勤一套、客户一套、进销存又一套，每个系统单独付费，数据还互不相通，月底对账全靠表格搬运。 RuoYi Office 想干的事很简单：**一个平台，管好整个企业**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bGDC0xibZTw2g5o7p3oibkAU2Hl9gMM2qYQBX1hDJVc1bXFyj9mzd5LwUdIbxFyjPdu7ah9Dq4KHW0CI7viaes1yUG1vWRE9psfGDvHiao32Vrw/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-12%20-%20RuoYi%20Office%EF%BC%9A%E4%B8%80%E5%A5%97%E7%B3%BB%E7%BB%9F%E6%8A%8A%20OA%E3%80%81CRM%E3%80%81ERP%20%E5%85%A8%E8%A3%85%E8%BF%9B%E5%8E%BB/3ec54a0900229a01b856f2c61603e1c9_MD5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bGDC0xibZTw1nhvZ9CYCWe7kG2yQgsLsibgRS2ibvC2rBXcPasp5ibSQre87BwM2nhXGHzxqxkj1y0tAxaLyrA6ZOd2baUWPCDiawBzd49HlcmCs/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-12%20-%20RuoYi%20Office%EF%BC%9A%E4%B8%80%E5%A5%97%E7%B3%BB%E7%BB%9F%E6%8A%8A%20OA%E3%80%81CRM%E3%80%81ERP%20%E5%85%A8%E8%A3%85%E8%BF%9B%E5%8E%BB/17b126d2c1bc386563e07735078b42f9_MD5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/bGDC0xibZTw0oibX9OSsNhgYIS8r73YAMD4LVoRuGibwNBKfDaOCG3rYpZGpTYu1Tg85RRiav6CKnG2tibsviaUnmgfG2oYrha4dgllibdat1DnS3w/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-12%20-%20RuoYi%20Office%EF%BC%9A%E4%B8%80%E5%A5%97%E7%B3%BB%E7%BB%9F%E6%8A%8A%20OA%E3%80%81CRM%E3%80%81ERP%20%E5%85%A8%E8%A3%85%E8%BF%9B%E5%8E%BB/f2d0492735d388f045a1be8f982ea2c6_MD5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/bGDC0xibZTw2fewrGkkesHtM5RV0MDjsU51m0bkgRkS7DmQXUNCKIpibwWia47U6A8HWz8ALDBrvtSYUsxaVQLgCm6t7djc92WLm6kF6tOZ8t0/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-12%20-%20RuoYi%20Office%EF%BC%9A%E4%B8%80%E5%A5%97%E7%B3%BB%E7%BB%9F%E6%8A%8A%20OA%E3%80%81CRM%E3%80%81ERP%20%E5%85%A8%E8%A3%85%E8%BF%9B%E5%8E%BB/7954ed687319908f9fd249e42aa63fab_MD5.png)
 
 **01 它是什么**
 

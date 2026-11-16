@@ -14,7 +14,7 @@ parse_status: "ok"
 
 第一时间收到文章更新
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/pUq1tpL9smoGRBrGxVIe44HRyniahtntKiapbod5x0CClVodTkJgxDFnEw1PNmj2WoQN21icDhr8XBZCTiaxWUVfI03aQea9VQaDUyrQNCBic4k0/640?wx_fmt=png&from=appmsg)
+![](assets/2026-11-14%20-%20SpringBoot+Doris%20Stream%20Load%20%E6%B5%B7%E9%87%8F%E6%95%B0%E6%8D%AE%E5%AE%9E%E6%97%B6%E6%9B%B4%E6%96%B0%E6%96%B9%E6%A1%88%EF%BC%81/241817b0fd67cd684c1f5afda11a0134_MD5.png)
 
 来源：https://blog.csdn.net/mouzeping123/article/details/149420654
 
@@ -791,7 +791,7 @@ try (CloseableHttpResponse response = httpClient.execute(httpPut)) {
 
 #### 5. 运行效果
 
-![运行效果](https://mmbiz.qpic.cn/mmbiz_png/JdLkEI9sZfc2n4bepmbGRXIl9oxxw5G198iazQTa2D3GmmxyexPvwVvCImSZ3NgXHI1dicfBZWkiaocUrTP9Gw53A/640?wx_fmt=png&from=appmsg)
+![运行效果](assets/2026-11-14%20-%20SpringBoot+Doris%20Stream%20Load%20%E6%B5%B7%E9%87%8F%E6%95%B0%E6%8D%AE%E5%AE%9E%E6%97%B6%E6%9B%B4%E6%96%B0%E6%96%B9%E6%A1%88%EF%BC%81/c1544f44ec04fa4a8b63e8fcbfb4a1c8_MD5.png)
 
 运行效果
 
@@ -847,9 +847,9 @@ SET GLOBAL max_running_txn_num_per_db = 1024;
 
 截止目前，**累计输出 150w+ 字，讲解图 4013+ 张，还在持续爆肝中..** [戳我加入学习，解锁全部项目，已有4900+小伙伴加入](https://mp.weixin.qq.com/s?__biz=MzU4MDUyMDQyNQ==&mid=2247566317&idx=1&sn=ede64496766addace122dd32f6cfbdcf&scene=21#wechat_redirect)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/sTnayibHfVq6k58yrsWFU0zS4MhOFVPH9ib8lFF40iahdfmiaz8IicbvIfia8icp3F3Y5OG1BJAKthCic72w2IiboDVBicYA/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&randomid=65h7dnft&retryload=1&tp=webp#imgIndex=1)
+![图片](assets/2026-11-14%20-%20SpringBoot+Doris%20Stream%20Load%20%E6%B5%B7%E9%87%8F%E6%95%B0%E6%8D%AE%E5%AE%9E%E6%97%B6%E6%9B%B4%E6%96%B0%E6%96%B9%E6%A1%88%EF%BC%81/df95f03fcf108bf41e98f713f22df8c0_MD5.gif)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/knmrNHnmCLEdM2gtRgy5eLztKXrUhee76MZ9wAicNPicsnAHPibicaSHUVqFkkibxWlrGO0acUxQmycZpqCNGcibaicxA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&retryload=1&tp=webp#imgIndex=6)
+![图片](assets/2026-11-14%20-%20SpringBoot+Doris%20Stream%20Load%20%E6%B5%B7%E9%87%8F%E6%95%B0%E6%8D%AE%E5%AE%9E%E6%97%B6%E6%9B%B4%E6%96%B0%E6%96%B9%E6%A1%88%EF%BC%81/b01fd91d58faf9455f8fbb5c64bb22f0_MD5.webp)
 
 ```
 1. 我的私密学习小圈子，从0到1手撸企业实战项目~

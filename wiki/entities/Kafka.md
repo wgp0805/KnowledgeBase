@@ -2,8 +2,8 @@
 title: "Kafka"
 type: entity
 tags: [消息队列, 分布式系统, 流处理]
-sources: [raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md, raw/09-archive/4 种消息队列，如何选型？.md, raw/09-archive/2026-10-22 - 面试官：Kafka 如何实现顺序消费？.md, raw/09-archive/面试官：Kafka 如何保证消息不丢失？.md, "raw/09-archive/为什么越来越多人使用 Kafka 4.2 ？.md"]
-last_updated: 2026-10-27
+sources: [raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md, raw/09-archive/4 种消息队列，如何选型？.md, raw/09-archive/2026-10-22 - 面试官：Kafka 如何实现顺序消费？.md, raw/09-archive/面试官：Kafka 如何保证消息不丢失？.md, "raw/09-archive/为什么越来越多人使用 Kafka 4.2 ？.md", raw/09-archive/2026-11-13 - FlowMQ Kafka：低成本存储与无感扩容解决方案.md]
+last_updated: 2026-11-16
 ---
 
 ## 定义
@@ -106,6 +106,9 @@ Kafka 只保证**分区内有序**，从不承诺全局有序。要实现业务�
 
 **选型**：一般业务（下单/通知/日志）方案一；下游是数据库且要求高一致性叠加方案二；纯 Kafka 内部流转（Streams、读 A 写 B）方案三。**口诀：重复的根子在提交，解决的落点在幂等**。
 
+### 传统架构的成本与扩展局限及 FlowMQ 对照（2026-11-13 来源：[[摘要-flowmq-kafka低成本存储无感扩容]]）
+本页上述 ISR 多副本 + Partition 分散 Broker 的经典架构，在大规模场景暴露四个结构性局限：①计算与存储紧耦合（副本绑定 Broker，算力/磁盘/副本位置锁死）；②多副本独立块存储 + 跨 AZ 日志复制使存储与网络成本随吞吐持续攀升；③扩容需 Partition Reassignment 数据迁移，与在线读写争用资源；④副本受单 Broker 磁盘约束，大 Partition 致节点资源不均。[[FlowMQ]] 用计算存储分离 + S3/RLog 双后端 + Flexible Quorum（4-3-2 配置，W+R>N 即强一致不要求多数派）针对性解决——同一 AWS 1GB/s 多 AZ 场景月成本 286,636 → 18,138 美元，两 AZ 单侧故障可读、启用备用节点即恢复写入。详细架构见 [[FlowMQ]]。
+
 ## 关联连接
 - [[摘要-bytedance-mq-design]] — 来源
 - [[RocketMQ]] — 同类消息中间件对比
@@ -125,3 +128,5 @@ Kafka 只保证**分区内有序**，从不承诺全局有序。要实现业务�
 - [[共享组]] — 4.2 新消费组模式（KIP-932，按记录协作）
 - [[摘要-kafka42共享组]] — 来源（2026-10-27 Kafka 4.2 新特性拆解）
 - [[小锋]] — 来源作者
+- [[FlowMQ]] — 兼容 Kafka 协议的存算分离替代方案（2026-11-13 对照）
+- [[摘要-flowmq-kafka低成本存储无感扩容]] — 来源（传统架构四痛点与 FlowMQ 对照）

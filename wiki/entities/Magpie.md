@@ -2,8 +2,8 @@
 title: "Magpie"
 type: entity
 tags: [AI网关, 模型路由, 供应商管理, 开源工具]
-sources: [raw/09-archive/替代 CC Switch，这个项目已经斩获 20K Star！.md]
-last_updated: 2026-10-27
+sources: [raw/09-archive/替代 CC Switch，这个项目已经斩获 20K Star！.md, raw/09-archive/2026-11-15 - 为什么越来越多人用 Magpie？.md]
+last_updated: 2026-11-16
 ---
 
 ## 定义
@@ -24,9 +24,27 @@ magpie 是一个本地运行的开源 AI 网关工具（GitHub 20K Star），把
 - **写入安全与可还原**：写 Agent 配置前先读原文件，只更新接入所需字段，注释/键序/缩进保留，原子落盘；Claude Code 只改 `~/.claude/settings.json` 的 env 段（`ANTHROPIC_BASE_URL` 指向 `127.0.0.1:3425`、`ANTHROPIC_AUTH_TOKEN=magpie`+四档模型变量），Codex 在 `~/.codex/config.toml` 加 `[model_providers.magpie]` 表（不碰 ChatGPT 登录状态）；`applied.json` 记录最近应用了哪些字段，`stash.json` 保留接入前原值，界面"断开并还原"或 `magpie <agent> default` 撤销。例外：为 Claude Desktop 接第三方供应商会新建 `Claude-3p` 配置目录
 - **细节**：托盘单图标订阅剩余额度悬停可看；支持重置卡的订阅可开自动使用重置卡；按首次请求启动 5 小时窗的订阅有"窗口重置时预热"与"每日定时预热"两项提前计时；隐私页有脱敏掩码设置；CLI 版 `magpie tui` 给不开桌面窗口的人
 
+## 与 CC Switch 的结构差异（2026-11-15，苏三，详见 [[摘要-为什么越来越多人用magpie-苏三]]）
+一句话定位：**CC Switch 切的是"配置"（改路标），Magpie 切的是"请求的路径"（修路口）**。CC Switch 管配置文件——每个 Agent 仍直连供应商、各用各的 Key 各花各的额度，资源是孤岛（后来加了本地路由和聚合模式，但核心仍是"帮客户端找到正确的上游"，不是"把上游池化"）；Magpie 在本机跑网关，所有 Agent 连它统一对外。
+
+底层原理三件事：
+- **订阅变成 Provider**：读取各 Agent 登录文件（Claude Code 配置、Codex auth.json）与 macOS Keychain，发现已登录订阅并变成 Provider（claude/codex/copilot），出现在每个 Agent 的模型选择器里——一个 Claude Pro 所有 Agent 可用，一个 ChatGPT Plus 全员共享；**不复制不粘贴任何 Key**，直接复用 Agent 自己的登录流程，token 刷新按原方式做
+- **协议翻译**：同时说 OpenAI Chat Completions / OpenAI Responses / Anthropic Messages / Google Gemini 四种协议并互译（含流式输出、工具调用、推理内容）
+- **原子改写配置**：菜单栏给某 Agent 选模型时原子改写其配置文件，保留注释、顺序、格式；Agent 以为自己在用正常模型
+
+路由分组五策略与无感切换：`smart`（有额度订阅里选最快重置的，减少浪费）/`order`（按顺序，不能答换下一个）/`rotate`（每轮换）/`usage`（用得最少的）/`pace`（本周剩余额度最充裕的）；**配额耗尽自动切到下一个账号或服务商，Agent 侧无感知，不见 429 不中断**；同一服务商多账号自动轮换。
+
+- **端上密文脱敏**（默认关闭）：请求离开本机前把 `.env`/配置/日志里的 API Key、密码、邮箱替换成占位符（如 `{{API_KEY_k3v9x2mq}}`），收到回复再替换回真实值——供应商永远看不到真实密钥，Agent 拿到的仍是真值；这是网关层额外做的处理，不是自托管就自带
+- **接入方式**：安装 `curl -fsSL https://usemagpie.ai/install.sh | sh`（macOS/Windows/Linux/Docker/CLI，2026-09 开源，v0.1.3353）；网关默认 `127.0.0.1:3425`；不在支持列表的工具用环境变量接入（`OPENAI_BASE_URL` / `ANTHROPIC_BASE_URL` / `GOOGLE_GEMINI_BASE_URL` 指向网关，API Key 填 `magpie`）
+- **Profile 一键切换**：把所有 Agent 的模型设置存成快照（如"专注模式"全强模型/"预算模式"全便宜模型）一键切换
+- **路由日志喂 AI**：Routing 视图可见每次请求发往哪个 Provider、用了哪个策略；把日志贴给 AI 可诊断"为什么某模型额度没被用"（例：smart 策略按重置时间优先，Kimi 重置晚就一直轮不到）——**AI 帮你理解策略行为，取舍（省额度还是均衡使用）由你做**
+- **优缺点**：优点——订阅池化利用率拉满/原子改写不冲掉 MCP 插件 hooks/配额耗尽不中断/跨协议共享/端上脱敏；缺点——多一个常驻网关组件/订阅发现需读登录文件（隐私敏感者可关）/生态尚在成长（2026-09 开源）/非零配置（要理解 Provider、路由分组、Profile）；单 Agent 单供应商场景收益有限
+
 ## 关联连接
 
-- [[摘要-magpie替代cc-switch]] — 来源
+- [[摘要-magpie替代cc-switch]] — 来源（2026-10 写回事故与调度对比）
+- [[摘要-为什么越来越多人用magpie-苏三]] — 来源（2026-11-15 与 CC Switch 结构差异、订阅池化与脱敏）
+- [[苏三]] — 最新来源作者
 - [[CCSwitch]] — 对比/被替代对象
 - [[LLM网关]] — 概念归属（统一模型调用中间层）
 - [[AI网关]] — 团队侧同类基建

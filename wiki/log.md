@@ -11,6 +11,14 @@
 - **校验**: 3 个新页面（1 Source / 2 Entity）frontmatter（title/type/tags/sources/last_updated）与「关联连接」区块核查通过；双向补链（[[摘要-coze下线开源workbuddy]] ↔ [[BISHENG]]/[[DSHDesktop]]/[[Coze]]/[[WorkBuddy]]/[[苏三]]）；OrbStack 无独立实体页按惯例纯文本标注
 - **归档**: 源文件已移动至 raw/09-archive/（保留原文件名，raw/01-articles/ 清空）
 
+## [2026-11-16] ingest | 全量扫描 raw/ 摄入 9 篇 01-articles 文章（SpringBatch+Quartz / Doris StreamLoad / Magpie 深评 / DeepSeek 全家桶 API / FlowMQ / RuoYi Office / CoT 思维链 / Octop / DSH 官方点名插件）
+- **变更**: 新增 Sources (9): [[摘要-springbatch-quartz定时批量任务]], [[摘要-doris-streamload海量数据实时更新]], [[摘要-为什么越来越多人用magpie-苏三]], [[摘要-deepseek全家桶api开放]], [[摘要-flowmq-kafka低成本存储无感扩容]], [[摘要-ruoyi-office一体化办公平台]], [[摘要-cot思维链与deepseek-harness]], [[摘要-octop开源版workbuddy]], [[摘要-dsh官方点名4个神级插件]]; 新增 Entities (5): [[SpringBatch]]（Spring 批处理框架 Job/Step/Chunk + 与 Quartz 重试闭环）, [[Doris]]（Apache Doris OLAP + Stream Load HTTP 导入）, [[FlowMQ]]（C++ 统一消息系统、存算分离 S3/RLog 双后端、Flexible Quorum 4-3-2）, [[RuoYiOffice]]（若依生态办公一体化平台、16 子系统、BPM 双设计器）, [[Octop]]（腾讯云开源自部署 AI 助手"开源版 WorkBuddy"）; 增量合并既有页 (17): [[Magpie]]（+苏三结构差异/订阅池化/脱敏/实战章节）, [[CCSwitch]]（+定位差异"改路标 vs 修路口"）, [[DeepSeek]]（+全家桶 API 开放）, [[DeepSeek-V4.1-Flash]]（+全家桶 API 能力）, [[DeepSeekHarness]]（+官方点名插件与生态规模）, [[Quartz]]（+SpringBatch 整合模式）, [[Kafka]]（+架构局限与 FlowMQ 对照）, [[CoT]]（+底层原理与 DSH 工程实现）, [[插件生态]]（+官方点名机制与规模）, [[RuoYi]]（+RuoYiOffice 关联）, [[WorkBuddy]]（+Octop 对照）, [[锋哥]]/[[沉默王二]]/[[程序员追风]]/[[小哈]]/[[程序汪]]/[[苏三]]（+来源）; 更新 [[index.md]]（Sources +9 / Entities +5 / 更新 17 页）
+- **重复处理**: 无重复剪藏——Magpie 篇（苏三 11-15）与已摄入的程序汪篇（11-03）为不同作者不同文章（视角互补：程序汪写"写回事故→转向"，苏三写"结构差异+原理+实战"），增量合并而非跳过
+- **冲突**: 无硬性知识冲突。三处口径说明：① [[Kafka]] 既有内容聚焦 ISR/KRaft 经典架构与可靠性三板斧，FlowMQ 篇贡献的是"该架构在大规模场景的结构性成本/扩展局限"视角与第三方对照，已分节并存并在 Kafka 页注明旧条目为通用描述；② [[Magpie]] 既有内容来自程序汪篇（调度细节+写回安全），苏三篇补充结构差异/订阅发现/脱敏/Profile，同一工具不同侧面，增量合并无矛盾；③ [[CoT]] 既有定义偏提示工程选型（与 ReAct/Plan/Refine 对比），新篇贡献"草稿纸原理 + Harness 工程实现（reasoning 块/签名/推理等级）"，由提示技巧扩展到运行时机制，属同一概念的两个层次
+- **死链预防**: Playwright/FFmpeg/paiwarp-dsh/Redpanda/AMQP/SQLite/Spring Cloud Alibaba 等无独立页概念全部纯文本标注；首次写入时误将 Magpie 页"关联连接"标题吞掉已即时修复
+- **校验**: lint 复跑 —— 总页面 3073（较上轮 +17），孤岛 0 / 死链 0 / frontmatter sources 缺失 0，健康度 100.0%（7 组同名 stem 为已知待人工消歧项，本轮未新增）
+- **归档**: 9 个源文件移动至 raw/09-archive/（保留原文件名，raw/01-articles/ 清空）
+
 ## [2026-11-11] query | 固化：全 AI 开发前后端分离项目指南（用户确认保存）
 - **输出**: 新增 [[全ai开发前后端分离项目指南]]（Syntheses）；更新 [[index.md]]（Syntheses 注册）；内容覆盖 Harness 选型/AGENTS.md 地基/规范驱动三工具/六阶段 Skill 清单/7 步工作流/三条终审边界/最小起步 6 件套；lint 复跑 0 死链 0 孤岛
 
