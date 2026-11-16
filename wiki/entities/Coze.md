@@ -1,9 +1,9 @@
----
+﻿---
 title: "Coze"
 type: entity
 tags: [AI平台, Agent, 字节跳动, 低代码]
-sources: [raw/09-archive/竟然还有小伙伴不知道这个AI学习路线！！.md, raw/09-archive/coze-workflow-learning-notes.md, raw/01-articles/coze工作流学习-Day1笔记.md.md]
-last_updated: 2026-08-11
+sources: [raw/09-archive/竟然还有小伙伴不知道这个AI学习路线！！.md, raw/09-archive/coze-workflow-learning-notes.md, raw/01-articles/coze工作流学习-Day1笔记.md.md, raw/09-archive/Coze 下线了，开源版 WorkBuddy 来了.md]
+last_updated: 2026-11-12
 ---
 
 ## 定义
@@ -22,6 +22,9 @@ Coze（扣子）是字节跳动推出的零代码 AI Agent 搭建平台，支持
 - **设计哲学洞察**：人倾向合并步骤以简化，AI 倾向拆分步骤以提升精度——拆分让每个节点专注单一任务，在注意力分配/Prompt 难度/可调试性/可复用性/Token 效率五维更优
 - **学习路线**：Coze → [[Dify]]（RAG 知识库）→ n8n（系统集成）→ 综合实战
 
+### 企业版下线公告（2026-10-29）
+Coze 于 2026-10-29 发布产品整合升级公告，为现有企业套餐列出了下线时间表。背景：Coze 曾在国内企业级部署中很火（如 [[WorkBuddy]] 所在公司隔壁的企业级部署也使用过 Coze），把知识库、插件、工作流放在同一界面，是很多人第一次接触 Agent、跑通工作流的选择。这次官方声明意味着已把业务放上去的企业需要重新考虑平台选择，作者（[[苏三]]）据此推荐了可私有化部署的开源替代 [[BISHENG]]。
+
 ## 关联连接
 - [[摘要-ai大模型学习路线]] — 来源
 - [[Dify]] — 同类竞品
@@ -30,3 +33,4 @@ Coze（扣子）是字节跳动推出的零代码 AI Agent 搭建平台，支持
 - [[摘要-coze-workflow-learning]] — 手动搭建工作流学习笔记
 - [[摘要-coze-workflow-day1]] — AI 生成 vs 手动搭建对比
 - [[AI工作流]] — 工作流概念（Anthropic 定义）
+- [[摘要-coze下线开源workbuddy]] — 企业版下线与开源替代 BISHENG 的来源

@@ -5,6 +5,12 @@
 - **冲突**: 无。与 [[openspec-archive-modify-and-token-tradeoff]] 中"Plan 与 Execute 分 Session"结论一致，本文将其细化到 apply 后交接的具体操作层，属补充而非修正
 - **校验**: lint 复跑 —— 总页面 3056，孤岛 0 / 死链 0 / frontmatter sources 缺失 0，健康度 100.0%（7 组同名 stem 为已知待人工消歧项）
 
+## [2026-11-12] ingest | 全量扫描 raw/ 处理 1 篇 01-articles 文章（Coze 企业版下线与 BISHENG 开源企业级 Agent 平台）
+- **变更**: 新增 Sources (1): [[摘要-coze下线开源workbuddy]]; 新增 Entities (2): [[BISHENG]]（BISHENG 团队维护的开源企业级 Agent 平台，支持私有化部署，企业可把模型/知识库/工作流放到自己管理的环境；Docker Compose v3.0.0 部署、build 应用、桌面端 Chat/Work 双模式、Vibe 应用托管、模型/用量/积分/审计统一管理）, [[DSHDesktop]]（BISHENG 团队开源桌面 Agent 基础产品，93 万+ 下载量，BISHENG 桌面端的改造基础，可自配 DeepSeek 等模型 API Key 独立使用）; 增量合并既有页 (3): [[Coze]]（+2026-10-29 企业版下线公告与时间表、对已把业务放上去的企业影响）, [[WorkBuddy]]（+被类比为 BISHENG 桌面端对标物的背景注记）, [[苏三]]（+《Coze 下线了，开源版 WorkBuddy 来了》来源）; 更新 [[index.md]]（Sources +1 / Entities +2 / 更新 3 页）
+- **冲突**: 无
+- **校验**: 3 个新页面（1 Source / 2 Entity）frontmatter（title/type/tags/sources/last_updated）与「关联连接」区块核查通过；双向补链（[[摘要-coze下线开源workbuddy]] ↔ [[BISHENG]]/[[DSHDesktop]]/[[Coze]]/[[WorkBuddy]]/[[苏三]]）；OrbStack 无独立实体页按惯例纯文本标注
+- **归档**: 源文件已移动至 raw/09-archive/（保留原文件名，raw/01-articles/ 清空）
+
 ## [2026-11-11] query | 固化：全 AI 开发前后端分离项目指南（用户确认保存）
 - **输出**: 新增 [[全ai开发前后端分离项目指南]]（Syntheses）；更新 [[index.md]]（Syntheses 注册）；内容覆盖 Harness 选型/AGENTS.md 地基/规范驱动三工具/六阶段 Skill 清单/7 步工作流/三条终审边界/最小起步 6 件套；lint 复跑 0 死链 0 孤岛
 

@@ -37,7 +37,7 @@ sources:
   - raw/09-archive/2026-10-22-从找场景到做 Skill：AI 赋能落地的一套拆解方法.md
   - raw/09-archive/2026-10-22-实测Nano Banana 2.1：拿10个电商场景正面PK，能把GPT拉下神坛吗？.md
   - "raw/09-archive/2026-10-24-WorkBuddy干活变慢还费token，一招教你瘦身加速.md"
-last_updated: 2026-10-26
+last_updated: 2026-11-12
 ---
 
 ## 定义
@@ -308,6 +308,9 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - **管理路径**：专家技能连接器顶部菜单切换"技能"→右上角"已安装的技能"关闭不常用技能开关；切换"连接器"页→右上角"自定义连接器"管理不常用连接器
 - **记忆治理**：工作区 MEMORY.md 记忆文件内容过多时做一轮蒸馏压缩（[[记忆蒸馏]]）；看不懂报告可让 WorkBuddy 用大白话解释并给优化建议
 
+### 与开源 BISHENG 的对标（2026-11-12，详见 [[摘要-coze下线开源workbuddy]]）
+[[苏三]] 在 Coze（扣子）企业版 2026-10-29 宣布下线后，推荐了 BISHENG 团队维护的开源企业级 Agent 平台 [[BISHENG]]，并明确将 BISHENG 桌面端"理解为一个开源的 WorkBuddy 或豆包工作，让企业把 AI 能力掌握在自己手中"。区别：WorkBuddy 是闭源商业产品，BISHENG 可私有化部署，模型/知识/工具与使用权限全部由企业自己管理。
+
 ## 知识冲突（已解决，2026-08-21）
 - 旧定义（2026-06-23，[[摘要-OpenClaw小龙虾教程汇总]]）：WorkBuddy 是 [[OpenClaw]]（小龙虾）的一站式部署平台
 - 新定义（2026-08-21，[[摘要-workbuddy保姆级入门教程-苏三]]）：WorkBuddy 是国产桌面 AI 应用
@@ -409,3 +412,4 @@ GitHub 组织 `pmlaowangba-lab`，统一安装："帮我把 GitHub 仓库 pmlaow
 - [[NanoBanana]] — 专家 Skill 串接的生图模型
 - [[动态工具发现]] — router 按需拉取 schema 的同类概念
 - [[摘要-workbuddy-slim加速瘦身]] — 2026-10-24 性能劣化诊断与加速瘦身（马佳彬）
+- [[摘要-coze下线开源workbuddy]] — 与开源 BISHENG 对标（苏三，2026-11-12）

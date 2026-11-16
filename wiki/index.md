@@ -4370,3 +4370,14 @@
 
 ## Syntheses (2026-11-11 新增)
 - [[openspec-context-handoff-after-apply]] — OpenSpec apply 耗尽 200k 窗口后如何继续改业务：拒绝靠压缩硬撑，改用三会话切分 + handoff.md 五要素交接包 + 新窗口只读复述校验
+
+
+## Sources (2026-11-12 新增)
+- [[摘要-coze下线开源workbuddy]] — Coze（扣子）企业版 2026-10-29 宣布下线，苏三详解 BISHENG 团队开源企业级 Agent 平台 BISHENG 与桌面端 DSH Desktop 的安装部署、Chat/Work 双模式、workflow 构建与 Vibe 应用托管
+
+## Entities (2026-11-12 新增)
+- [[BISHENG]] — BISHENG 团队维护的开源企业级 Agent 平台，可私有化部署，模型/知识/工作流/权限全部企业自管，Docker Compose 一键安装，桌面端 Chat/Work 双模式 + Vibe 应用托管 + 模型用量审计
+- [[DSHDesktop]] — BISHENG 团队开源桌面 Agent 基础产品（93 万+ 下载量），BISHENG 桌面端改造基础，可自配 DeepSeek 等模型 API Key 独立使用
+
+## 更新 (2026-11-12)
+- [[Coze]]（+2026-10-29 企业版下线公告章节）、[[WorkBuddy]]（+与 BISHENG 对标注记）、[[苏三]]（+《Coze 下线了，开源版 WorkBuddy 来了》来源）
