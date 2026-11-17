@@ -2,8 +2,8 @@
 title: "PostgreSQL"
 type: entity
 tags: [数据库, 开源, 关系型数据库]
-sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md, raw/09-archive/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/09-archive/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md]
-last_updated: 2026-08-21
+sources: [raw/09-archive/PostgreSQL这么多优势，为什么还要使用MySQL？？.md, raw/09-archive/2026-08-20-LangGraph+PostgreSQL 会话记忆持久化存储 - lyshark.md, raw/09-archive/2026-08-20-装闭 RenoPit 源码解析（14）：Demo模式、健康检查与Docker部署 - fthux.md, raw/09-archive/为什么越来越多人放弃 MySQL 转而用 PostgreSQL？.md]
+last_updated: 2026-11-17
 ---
 
 ## 定义
@@ -41,12 +41,21 @@ PostgreSQL 是一个功能强大的开源对象-关系型数据库系统，以�
 - **幂等与并发控制**：大量使用唯一约束、条件更新（`export_time IS NULL`）、UPSERT 解决真实并发
 - **类型选择**：金额用 NUMERIC 避免浮点误差、状态/类型用 SMALLINT + CHECK、业务 ID 用雪花算法、审计时间用服务端时间
 
+### AI 时代的选型论点：少维护一套系统（2026-11-17，详见 [[摘要-放弃mysql转用postgresql]]）
+- **排名数据**：Stack Overflow 2026 开发者调查（12,061 人）PostgreSQL 使用率 57.9% vs MySQL 35.1%，且 2023 年调查就已反超
+- **核心论点**：做 AI 应用除业务数据外还要存文档、做搜索、做向量检索——PostgreSQL 加扩展即可满足，**少部署一套搜索/向量数据库、少做一份数据同步**
+- **扩展盘点**：[[pgvector]] 向量检索、PostGIS 地理信息、内置全文检索（中文分词方案要按实际试，词项拆解影响召回）、pg_search（ParadeDB）BM25 扩展、混合检索（见 [[混合检索]]）
+- **与业务数据同库的实务要点**：检索 SQL 直接带租户/状态条件（团队编号必须后端从登录态取，不能信任客户端传参）；原文与向量同库用**数据库事务**避免"原文已更新向量只更新一半"；多版本并发用带版本条件更新/行锁或先存待处理版本事务切换；JSONB 放结构不固定字段、常查字段单独建列
+- **平台辅助**：Supabase（认证/对象存储/实时订阅组合，元数据入库）、Neon 数据库分支（改表结构先在分支试迁移，但分支数据不自动脱敏）
+- **结论口径**：从零做需要检索的 AI 应用可先考虑 PostgreSQL；已跑得好好的 MySQL 项目按需求来
+
 ## 关联连接
 - [[摘要-云梯saas智能客服]] — 来源（RLS 与多库实践）
 - [[云梯智能客服系统]] — 实践项目
 - [[RLS]] — 行级安全
 
 - [[摘要-PostgreSQL-vs-MySQL]] — 来源
+- [[摘要-放弃mysql转用postgresql]] — 来源（AI 时代选型论点与同库实务）
 - [[摘要-langgraph-postgresql-会话记忆持久化]] — 来源（LangGraph 记忆持久化）
 - [[摘要-renopit-demo-healthcheck-docker]] — 来源（RenoPit 核心依赖）
 - [[PostgresSaver]] — LangGraph Checkpointer 实现
