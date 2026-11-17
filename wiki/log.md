@@ -1,3 +1,11 @@
+## [2026-11-17] ingest | 全量扫描 raw/ 处理 3 个文件（Hera 日志平台 + 两笔摄入中断残留收尾：OnlyOffice 同名异文 / PostgreSQL 选型文）
+- **变更**: 新增 Sources (1): [[摘要-springboot集成hera日志平台]]; 新增 Entities (1): [[Hera]]（面向分布式系统的日志平台：Agent 无侵入采集 + 业务标签聚合、X-Hera-Trace-Id 全链路串联、ES/HDFS 分级存储省 60%、排障 2 小时→15 分钟）; 增量合并既有页 (11): [[SpringBoot]]（+Hera 日志平台集成章节）, [[ELK日志系统]]（+与 Hera 对照章节）, [[可观测性]]（+日志支柱工程化落地案例）, [[distributed-tracing]]（+请求头透传式日志串联实践）, [[ThreadLocal]]（+日志字段注入场景）, [[OnlyOffice]]（+2026-11-17 同名异文章节：选型/版本三条线/开发者四能力/SpringBoot 私有化实战）, [[document-key机制]]（+"文件 ID+版本号"key 策略与原子落盘）, [[PostgreSQL]]（+AI 时代选型论点章节：排名数据/扩展盘点/同库实务）, [[pgvector]]（+使用姿势与验证方法论）, [[混合检索]]（+PostgreSQL 同库混合检索三件套）, [[苏三]]（+OnlyOffice 同名异文来源与时间线）; 更新 [[index.md]]（Sources +3 / Entities +1 / 更新 11 页）
+- **残留收尾**: 发现两笔"来源页已建但收尾中断"的半途摄入——① [[摘要-onlyoffice私有化与springboot接入实战]]（页面完好，但宣称"已并入"的 [[OnlyOffice]]/[[document-key机制]] 实际无新内容，index/log/归档全缺）；② [[摘要-放弃mysql转用postgresql]]（同样宣称已并入 [[PostgreSQL]]/[[pgvector]]/[[混合检索]] 实际未落地，index/log/归档全缺）。本次逐一补全合并、注册与归档；初判"PostgreSQL 篇为重复剪藏"经归档核对纠正为残留收尾（归档中无同名文件，SHA256 比对目标不存在），误加的重复剪藏记录已即时撤回
+- **冲突**: 无硬性知识冲突。三处口径说明：① [[ELK日志系统]] 通用采集检索链路与 Hera 业务标签聚合为互补定位（通用底座 vs 业务视角），已分节对照；② [[pgvector]] 既有 HNSW 实践与新增"近似索引过滤后可能不足 LIMIT 条数 + 0.8.0 迭代索引扫描默认关闭"为同主题工程细节补充；③ [[混合检索]] 既有 ES 双路 KNN/BM25 权重加权与新增 RRF 名次融合为两种并存融合姿势，已分节注明量纲敏感性差异
+- **死链预防**: HDFS/SLF4J/Logback/UserContext/HeraCustomFieldProvider/pg_search/PostGIS/Supabase/Neon 等无独立页概念全部纯文本标注；「终码一生」按既有惯例不建实体页
+- **顺手修复**: [[苏三]] sources 中一条历史遗留路径（"raw/01-articles/Coze 下线了，开源版 WorkBuddy 来了.md"）修正为 raw/09-archive/ 实际归档路径
+- **归档**: 3 个源文件已移动至 raw/09-archive/（保留原文件名与 assets 目录惯例——图片留在根 assets/），raw/01-articles/ 清空
+
 ## [2026-11-11] synthesis | 固化：OpenSpec apply 后上下文耗尽的交接与新窗口重建流程
 - **变更**: 新增 [[openspec-context-handoff-after-apply]]（Syntheses）；更新 [[index.md]]（Syntheses 注册）
 - **内容**: 针对"200k 窗口跑完 /opsx:apply 后还要改业务、只能靠压缩且易跑偏"的场景，归纳为：①压缩跑偏的三条机制（自主摘要/摘要的摘要累积失真/不可审计）与 40% 利用率口径；②底层模型对接 [[checkpoint-rebuild]]（checkpoint 写盘 + rebuild 新窗口）；③三会话切分（规划 / 实现即弃 / 业务变更）；④apply 前约定逐项叫停 + 每 3 项写 handoff；⑤handoff.md 五要素模板（职责地图/决策理由/未完成/切入点/行为映射）；⑥新窗口"只读复述校验"闸门；⑦token 战术清单（禁回显代码/结构地图/子代理探索/改动超 4 文件即拆 change）；⑧压缩的合理边界与 [[SessionStart]]/[[PreCompact]] hook 机制化
