@@ -2,8 +2,8 @@
 title: "OnlyOffice"
 type: entity
 tags: [在线文档, Office, 开源, 文档编辑]
-sources: [raw/09-archive/SpringBoot+OnlyOffice：优雅实现在线 Word 编辑、转化、保存等功能.md, raw/09-archive/为什么越来越多人用 OnlyOffice？.md]
-last_updated: 2026-09-28
+sources: [raw/09-archive/SpringBoot+OnlyOffice：优雅实现在线 Word 编辑、转化、保存等功能.md, raw/09-archive/为什么越来越多人用 OnlyOffice？.md, raw/09-archive/为什么越来越多人用 OnlyOffice ？.md]
+last_updated: 2026-11-17
 ---
 
 ## 定义
@@ -31,6 +31,12 @@ OnlyOffice 是一款开源免费的在线 Office 文档编辑套件，支持 Wor
 - **对比定位（vs Collabora Online / Microsoft 365）**：自研 OOXML 引擎带来开源方案中最强的 Microsoft 格式 round-trip fidelity；空闲内存约 2GB（Collabora 约 1GB）；9.4 起取消社区版 20 并发限制，AGPL v3 协议；内置 JWT 双重校验、回调防伪造等安全能力与 AI 助手
 - **主要短板**：资源占用高于 Collabora、非 OOXML 格式兼容一般、document.key 机制易踩坑、社区版不支持集群
 
+### 2026-11-17《为什么越来越多人用 OnlyOffice？》同名异文：选型与私有化接入实战（详见 [[摘要-onlyoffice私有化与springboot接入实战]]）
+- **选型背景**：三条路走不通时 OnlyOffice 是"第三选择"——SaaS 数据出不了内网、商业 SDK 按人头收费、自研渲染成本高；OnlyOffice 以**私有化部署 + API 嵌入**补位，作为"文档编辑能力积木"
+- **版本三条线**：社区版（AGPL v3 免费，适合小团队/测试）、企业版（商业授权 + 管理面板）、开发者版（商业授权 + 白标：editorConfig.customization 换 Logo/主题/关于页）；版本间功能差异小，**差的是授权/并发/品牌控制权**
+- **开发者四能力**：①API 集成——后端生成 config JSON（文件类型/地址/权限/用户/回调）→ 前端加载 api.js → 保存回调三件事闭环，附 50+ 现成连接器（本质是 API 现成用法示例）；②私有化部署——本地/私有云/离线内网，Docker 一行跑起，**JWT 必配**（不设或弱密钥等于文档服务裸奔公网）；③协作内置——实时编辑（快速/严格双模式）、评论 @、版本历史对比回滚；④白标（开发者版核心差异）
+- **SpringBoot 3.4.5 + Java 17 实战要点**：JWT 用 JDK HmacSHA256 手写，config 令牌与下载令牌**权限分离**（下载令牌带 fileId+purpose、15 分钟有效）；document.key 用"文件 ID+版本号"策略（详见 [[document-key机制]]）；回调 status 处理表——2/6 下载保存、4 无修改返回成功、7 强保失败不覆盖；落盘先写临时文件再原子替换（ATOMIC_MOVE）；离线 AI 需额外部署本地模型、非开箱即用
+
 ## 关联连接
 - [[在线文档处理]] — 浏览器中处理 Office 文档的技术方案总览
 - [[SpringBoot]] — 后端集成框架
@@ -40,3 +46,4 @@ OnlyOffice 是一款开源免费的在线 Office 文档编辑套件，支持 Wor
 - [[摘要-springboot-onlyoffice-在线编辑]] — 来源
 - [[document-key机制]] — 协同编辑版本标识机制
 - [[摘要-为什么越来越多人用onlyoffice]] — 来源（9.4 轻量模式与走红原因）
+- [[摘要-onlyoffice私有化与springboot接入实战]] — 来源（2026-11-17 同名异文：选型 + 私有化接入实战）

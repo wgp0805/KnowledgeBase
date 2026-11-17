@@ -20,7 +20,8 @@ sources:
   - raw/09-archive/SpringBoot 中获取真实客户端 IP 的终极方案，99% 的人都没做对！.md
   - raw/09-archive/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
   - raw/09-archive/2026-08-25 - 为什么越来越多人用gRPC？.md
-last_updated: 2026-08-25
+  - raw/09-archive/2026-11-16 - SpringBoot集成Hera，让日志查看从“找罪证”变“查答案”！.md
+last_updated: 2026-11-17
 ---
 
 ## 定义
@@ -91,6 +92,12 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 - 配合 [[Protobuf]] 强类型契约和 [[HTTP2]] 多路复用，适合微服务间高频通信
 - 详见 [[gRPC]] 性能基准与选型
 
+### Hera 日志平台集成（2026-11-16，详见 [[Hera]]）
+- 引入 `hera-log-spring-boot-starter` + `hera-trace-spring-boot-starter`（2.5.3）即完成接入，**原有 SLF4J/Logback 日志代码零改造**，输出自动携带自定义字段（businessType/env/userId）与 traceId
+- application.yml 三段核心配置：`agent-address`（多 Agent 逗号分隔防单点）、`custom-fields`（userId 经 HeraCustomFieldProvider 从 ThreadLocal 登录态取值，实现类须 @Component 注册）、`trace`（采样率 + `X-Hera-Trace-Id` 请求头跨服务串联）
+- 生产要点：异步队列/批量传输防阻塞、Agent 多节点 + 本地缓存断线补发防丢、mask-fields 脱敏 + 按"服务+环境"控权
+- 详见 [[摘要-springboot集成hera日志平台]]
+
 ## 关联连接
 - [[Spring]] — 基础框架
 - [[SpringMVC]] — Web MVC 框架
@@ -115,3 +122,5 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 - [[摘要-优雅使用Enum提升SpringBoot配置管理效率]] — Enum + @ConfigurationProperties 配置管理实战
 - [[摘要-为什么越来越多人用gRPC]] — 来源（gRPC 官方支持）
 - [[摘要-springboot4-模块化架构]] — Spring Boot 4 自动配置模块化重构来源
+- [[Hera]] — 日志平台集成（starter 无侵入采集，2026-11-16）
+- [[摘要-springboot集成hera日志平台]] — SpringBoot 集成 Hera 完整落地来源

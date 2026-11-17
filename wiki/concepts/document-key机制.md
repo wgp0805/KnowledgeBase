@@ -2,8 +2,8 @@
 title: "document-key机制"
 type: concept
 tags: [OnlyOffice, 协同编辑, 在线文档, 版本管理]
-sources: [raw/09-archive/为什么越来越多人用 OnlyOffice？.md]
-last_updated: 2026-09-28
+sources: [raw/09-archive/为什么越来越多人用 OnlyOffice？.md, raw/09-archive/为什么越来越多人用 OnlyOffice ？.md]
+last_updated: 2026-11-17
 ---
 
 ## 定义
@@ -27,8 +27,14 @@ document.key 是 [[OnlyOffice]] 协同编辑中**当前文档内容版本的唯�
 - 编辑器配置中 `key` 取 `doc.getVersionKey()`，内容每次变化必须换 key
 - `/callback` 中 status 为 "2" 或 "6" 时下载保存文档，并调用 `updateVersionKey` 更新版本 key
 
+### key 生成策略："文件 ID + 版本号"（2026-11-17 实战篇，详见 [[摘要-onlyoffice私有化与springboot接入实战]]）
+- 推荐用**"文件 ID + 版本号"**拼 key：保存成功后版本号 +1，自然产生新 key，无需额外维护 key 映射表
+- **复用旧 key 的后果**：协同会话错乱、OnlyOffice 继续用缓存的旧 Editor.bin，用户看到旧版本内容——与"把 key 当文件 ID"是同一类事故的另一种触发方式
+- 配套落盘姿势：回调下载 output.docx 后**先写临时文件再原子替换（ATOMIC_MOVE）**，避免写入过程中被读到半截文件
+
 ## 关联连接
 - [[OnlyOffice]] — 所属系统（增量更新）
 - [[摘要-为什么越来越多人用onlyoffice]] — 来源
+- [[摘要-onlyoffice私有化与springboot接入实战]] — 来源（key 版本号策略与原子落盘）
 - [[摘要-springboot-onlyoffice-在线编辑]] — 集成实现摘要
 - [[在线文档处理]] — 上位概念

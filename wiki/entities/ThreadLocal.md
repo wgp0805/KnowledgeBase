@@ -2,8 +2,8 @@
 title: "ThreadLocal"
 type: entity
 tags: [Java, 并发, JDK, 类]
-sources: [raw/09-archive/吊打 ThreadLocal，谈谈FastThreadLocal为啥能这么快？.md]
-last_updated: 2026-09-09
+sources: [raw/09-archive/吊打 ThreadLocal，谈谈FastThreadLocal为啥能这么快？.md, raw/09-archive/2026-11-16 - SpringBoot集成Hera，让日志查看从“找罪证”变“查答案”！.md]
+last_updated: 2026-11-17
 ---
 
 ## 定义
@@ -19,10 +19,15 @@ JDK 提供的线程本地变量类。每个使用它的线程持有一个 Thread
 ### 与 ScopedValue 的关系（2026-11-05，详见 [[ScopedValue]]）
 Java 25 引入的 `ScopedValue` 是 ThreadLocal 的现代替代：值绑定在明确作用域内、作用域结束自动失效，不需要 `remove()`，从机制上避免"线程池复用 + 忘记清理"导致的串数据/内存泄漏。云梯智能客服系统用 ScopedValue 管理登录态与租户上下文，保证线程池复用时"不串用户、不串租户"（详见 [[云梯智能客服系统]]）。ThreadLocal 并未被废弃，但在虚拟线程 + 多租户场景下，ScopedValue 的"自动失效 + 不可变"模型更安全。
 
+### 日志字段注入场景（2026-11-16，详见 [[Hera]]）
+[[Hera]] 日志平台的自定义字段 provider（HeraCustomFieldProvider）从 ThreadLocal 的登录态上下文（UserContext）取 userId 注入每条日志，配合 traceId 实现按用户维度检索日志——ThreadLocal 携带请求上下文的经典用法延伸到可观测性场景。
+
 ## 关联连接
 - [[FastThreadLocal]] — netty 的替代实现
 - [[ScopedValue]] — Java 25 的作用域值替代方案
 - [[InternalThreadLocalMap]] — netty 的替代存储
 - [[线性探测]] — 其冲突解决策略
+- [[Hera]] — 从 ThreadLocal 取 userId 注入日志字段
 - [[摘要-fastthreadlocal为啥快]] — 来源
 - [[摘要-java-concurrency]] — Java 并发编程手册
+- [[摘要-springboot集成hera日志平台]] — 来源（日志字段注入场景）
