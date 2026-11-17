@@ -2,7 +2,7 @@
 title: "DeepSeek V4.1-Flash"
 type: entity
 tags: [DeepSeek, V4.1-Flash, 国产模型, Harness, 模型更新, 搜索API]
-sources: [raw/09-archive/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/09-archive/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, raw/09-archive/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/09-archive/2026-10-22-纯原生Flutter3 + Dio 实战 DeepSeek V4.1 SSE流式对话 - yxybox.md, raw/09-archive/2026-11-14 - 重磅！DeepSeek放开全家桶API，直接帮开发者把桌子掀了！.md]
+sources: [raw/09-archive/2026-09-16-DeepSeek-V4.1-Flash 的最佳 Harness 搭档，我觉得可能是 Claude Code.md, raw/09-archive/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, raw/09-archive/2026-10-17-DeepSeek V4.1 Flash 新版本：许愿式编程一键成真.md, raw/09-archive/2026-10-21 - 真正的 OpenAI！DeepSeek 开源内部推理框架 DeepInfer。.md, raw/09-archive/2026-10-22-纯原生Flutter3 + Dio 实战 DeepSeek V4.1 SSE流式对话 - yxybox.md, raw/09-archive/2026-11-14 - 重磅！DeepSeek放开全家桶API，直接帮开发者把桌子掀了！.md, raw/09-archive/突发！DeepSeek开放全家桶API：官方App功能均可自由组合调用.md]
 last_updated: 2026-11-16
 ---
 
@@ -75,6 +75,7 @@ DeepSeek 技术文件核心观点：
 - **内置模型安全**：开启安全校验参数即得基础风控（输入输出审核 + 图片审核）
 - **底层能力独立接口**：Search（联网搜索）、Fetch（网页抓取）、OCR（文字识别）、ASR（语音识别）、TTS（语音合成）拆成独立接口，可单独或组合调用
 - **官方开源 Demo**：github.com/deepseek-ai/chat-demo 轻量前端演示（联网搜索/深度思考/文件上传/朗读/语音输入/Markdown 与 Mermaid 渲染/历史对话导入），API Key 与对话存浏览器本地；在线体验 cdn.deepseek.com/chat-demo
+- **工具 API 定价（2026-11-16 量子位版补充）**：ASR 0.39 元/小时（原价 0.78 五折，约 0.0065 元/分钟，为 OpenAI GPT-Transcribe 的 1/4.6、GPT-4o mini Transcribe 的 1/3.1、Google Cloud 语音的 1/16.5）；TTS 1.5 元/万字符（原价 3 元五折）；OCR 1.5 元/千页；Search/Fetch 维持 5 元/千次成功调用。演进说明：Search/Fetch 接口 10-17 已开放，当时工具调用衔接需开发者自行串联，本次升级后由服务端自动完成；ASR/TTS 为首次开放官方独立接口（此前公开 API 无完整语音能力）
 
 ## 关联连接
 - [[摘要-deepseek-v41-flash-1017]] — 2026-10-17 来源（1017 版本：帕累托改进、许愿式编程、搜索 API 开放）
@@ -101,5 +102,5 @@ DeepSeek 技术文件核心观点：
 - [[摘要-flutter-dio-deepseek-sse]] — 来源（Flutter + Dio 移动端 SSE 接入）
 - [[Flutter]] — 移动端接入载体
 - [[Dio]] — Flutter 流式请求库
-- [[摘要-deepseek全家桶api开放]] — 来源（2026-11-14 全家桶 API 能力）
+- [[摘要-deepseek全家桶api开放]] — 来源（2026-11-14 全家桶 API 能力 + 2026-11-16 量子位版定价明细）
 - [[程序员追风]] — 全家桶 API 报道作者

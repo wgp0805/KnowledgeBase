@@ -2,7 +2,7 @@
 title: "Kafka"
 type: entity
 tags: [消息队列, 分布式系统, 流处理]
-sources: [raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md, raw/09-archive/4 种消息队列，如何选型？.md, raw/09-archive/2026-10-22 - 面试官：Kafka 如何实现顺序消费？.md, raw/09-archive/面试官：Kafka 如何保证消息不丢失？.md, "raw/09-archive/为什么越来越多人使用 Kafka 4.2 ？.md", raw/09-archive/2026-11-13 - FlowMQ Kafka：低成本存储与无感扩容解决方案.md]
+sources: [raw/09-archive/字节二面：如何设计一个百亿级消息队列？.md, raw/09-archive/4 种消息队列，如何选型？.md, raw/09-archive/2026-10-22 - 面试官：Kafka 如何实现顺序消费？.md, raw/09-archive/面试官：Kafka 如何保证消息不丢失？.md, "raw/09-archive/为什么越来越多人使用 Kafka 4.2 ？.md", raw/09-archive/2026-11-13 - FlowMQ Kafka：低成本存储与无感扩容解决方案.md, raw/09-archive/面试题：Kafka 高水位了解过吗？为什么 Kafka 需要 LeaderEpoch？.md]
 last_updated: 2026-11-16
 ---
 
@@ -109,6 +109,9 @@ Kafka 只保证**分区内有序**，从不承诺全局有序。要实现业务�
 ### 传统架构的成本与扩展局限及 FlowMQ 对照（2026-11-13 来源：[[摘要-flowmq-kafka低成本存储无感扩容]]）
 本页上述 ISR 多副本 + Partition 分散 Broker 的经典架构，在大规模场景暴露四个结构性局限：①计算与存储紧耦合（副本绑定 Broker，算力/磁盘/副本位置锁死）；②多副本独立块存储 + 跨 AZ 日志复制使存储与网络成本随吞吐持续攀升；③扩容需 Partition Reassignment 数据迁移，与在线读写争用资源；④副本受单 Broker 磁盘约束，大 Partition 致节点资源不均。[[FlowMQ]] 用计算存储分离 + S3/RLog 双后端 + Flexible Quorum（4-3-2 配置，W+R>N 即强一致不要求多数派）针对性解决——同一 AWS 1GB/s 多 AZ 场景月成本 286,636 → 18,138 美元，两 AZ 单侧故障可读、启用备用节点即恢复写入。详细架构见 [[FlowMQ]]。
 
+### 副本一致性：HW/LEO 与 LeaderEpoch 截断（2026-11-16 来源：[[摘要-kafka高水位与leaderepoch]]）
+副本同步的三件套：**LEO**（日志末端位移，下一条待写消息 offset）≤ **HW**（高水位，消费者可见边界 = ISR 所有副本 LEO 最小值）——这就是"ISR 全部副本收到才可见"的由来，也是 acks=all 语义的底层支撑。旧版（0.11 前）拿 HW 当副本截断依据，因 HW 依赖下一轮 Fetch 才更新（滞后值），有两个经典事故：①恢复副本发现 LEO > HW 就截断"未提交"消息 → 删掉生产者已收到 ack 的消息（数据丢失）；②两次故障切换后不同副本同一 offset 落着不同消息且 HW 相同（日志分叉，无法察觉）。Kafka 0.11（KIP-101）引入 [[LeaderEpoch]]：截断前先发 OffsetsForLeaderEpoch 问现任 Leader 拿权威日志位置（epoch 单调递增、每次换届 +1、leader-epoch-checkpoint 持久化），不丢不分叉。职责边界：LeaderEpoch 只接管 HW 的"截断职责"，HW 的消费者可见性语义不变。完整机制、两场景推演与新旧对比表见 [[LeaderEpoch]]。
+
 ## 关联连接
 - [[摘要-bytedance-mq-design]] — 来源
 - [[RocketMQ]] — 同类消息中间件对比
@@ -130,3 +133,5 @@ Kafka 只保证**分区内有序**，从不承诺全局有序。要实现业务�
 - [[小锋]] — 来源作者
 - [[FlowMQ]] — 兼容 Kafka 协议的存算分离替代方案（2026-11-13 对照）
 - [[摘要-flowmq-kafka低成本存储无感扩容]] — 来源（传统架构四痛点与 FlowMQ 对照）
+- [[LeaderEpoch]] — 副本截断机制概念页（2026-11-16 HW 截断问题与 KIP-101 解法）
+- [[摘要-kafka高水位与leaderepoch]] — 来源（HW/LEO/LeaderEpoch 面试题拆解）

@@ -33,7 +33,9 @@ Mem0 是三条记忆工程路线中的"自动化记忆服务"一派：1) 从用�
 - 记忆冲突处理 — Mem0 引发的记忆冲突方法论
 - [[Zep]] / [[LangMem]] — 同类记忆框架
 - [[Letta]] — Agent 自主管理记忆的另一条路线
+- [[MemoraXCode]] — Coding Agent 场景的对照路线（可学习记忆框架 + Procedure Memory，2026-11-16）
 - [[ClaudeCode]] — 文件系统记忆路线
 - [[长期记忆]] — 所服务的能力
 - [[摘要-长对话先收口-工作记忆vs长期记忆]] — 来源
 - [[摘要-10道ai-agent高频面试题]] — 来源（v2/v3 冲突处理）
+- [[摘要-memoraxcode-agent记忆系统]] — 同域对照来源（MemoraX Code）

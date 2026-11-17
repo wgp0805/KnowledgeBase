@@ -11,6 +11,20 @@
 - **校验**: 3 个新页面（1 Source / 2 Entity）frontmatter（title/type/tags/sources/last_updated）与「关联连接」区块核查通过；双向补链（[[摘要-coze下线开源workbuddy]] ↔ [[BISHENG]]/[[DSHDesktop]]/[[Coze]]/[[WorkBuddy]]/[[苏三]]）；OrbStack 无独立实体页按惯例纯文本标注
 - **归档**: 源文件已移动至 raw/09-archive/（保留原文件名，raw/01-articles/ 清空）
 
+## [2026-11-16] lint | 全库健康巡检（只读）
+- **机械检查**: lint_wiki.py —— 总页面 3078，孤岛 0 / 死链 0 / frontmatter sources 缺失 0，健康度 100.0%；同名 stem 歧义 7 组（AgentMemory/FDE/FRP/HarnessEngineering/LoRA/React/SpringEvent，concepts 与 entities 两层同名，历史遗留待人工消歧）
+- **索引一致性**: 临时脚本比对初报 10 页未注册，经 grep 人工核验全部已在 index.md 注册（脚本贪婪正则被嵌套双链干扰，假阳性排除）——实际 0 未注册 0 缺失，索引全同步
+- **认知冲突审查**: 19 个页面含 `## 知识冲突` 区块——11 处已解决/已裁决/历史记录；8 处未解决待决策：[[Manus]]、[[小豆]]、[[Seedance]]、[[LightVela]]、[[HandyBot]]、[[GrillMe]]（已记录-待决策）、[[Embeddings]]、[[AI数学证明]]
+- **行动**: 待用户确认是否消歧 stem / 推演 8 处未解决冲突
+
+## [2026-11-16] ingest | 二批摄入 3 个文件（Kafka 高水位/LeaderEpoch + MemoraX Code 记忆系统 + DeepSeek 全家桶量子位版）
+- **变更**: 新增 Sources (2): [[摘要-kafka高水位与leaderepoch]], [[摘要-memoraxcode-agent记忆系统]]; 新增 Concepts (2): [[LeaderEpoch]]（KIP-101 副本截断机制：epoch+startOffset 权威位置取代滞后 HW，不丢不分叉）, [[ProcedureMemory]]（过程记忆：历史轨迹提取可复用分析/执行/验证步骤）; 新增 Entities (1): [[MemoraXCode]]（Coding Agent 长期记忆系统：本地+云端双层/按意图检索/可学习框架，AML Coding Track 62 分第一）; 增量合并既有页 (7): [[Kafka]]（+HW/LEO/LeaderEpoch 副本一致性章节）, [[小哈]]（+高水位一文）, [[冰河]]（+MemoraX 解读）, [[AgentMemory]]（+Coding Agent 记忆路线：双层/可学习框架/按意图召回）, [[Mem0]]（+MemoraXCode 同域对照）, [[DeepSeek-V4.1-Flash]]（+量子位版工具 API 定价：ASR 0.39 元/小时五折/TTS 1.5 元/万字符/OCR 1.5 元/千页）, [[DeepSeek]]（经 [[摘要-deepseek全家桶api开放]] 第二来源间接增补）; 更新 [[index.md]]（Sources +2 / Concepts +2 / Entities +1 / 更新 7 页）
+- **重复处理**: `突发！DeepSeek开放全家桶API：官方App功能均可自由组合调用.md`（量子位，码农学习联盟转载 2026-11-16）与 2026-11-16 已摄入的程序员追风版（转新智元 11-14）为**同一事件的第二篇报道**（核心事实约七成重叠：1:1 复刻 App/独立五接口/chat-demo）——**不重复建页**，增量信息（工具 API 定价明细、Search/Fetch 10-17→本次的演进视角、ASR/TTS 首次开放背景）合并进 [[摘要-deepseek全家桶api开放]] 与 [[DeepSeek-V4.1-Flash]]，raw 路径补入两页 sources 后归档
+- **冲突**: 无硬性知识冲突。三处口径说明：① [[Kafka]] 既有副本内容讲 ISR 可靠性配置（怎么做），本次高水位篇贡献"为什么旧截断机制会丢数据/分叉 + LeaderEpoch 如何救"的机制演进视角（为什么），互为补充已分节并互链；② [[AgentMemory]] 既有分类（三型/存储形态/生命周期）为通用框架，MemoraX 贡献 Coding Agent 场景的具体路线实现，增量无矛盾；③ MemoraX 的"5 元/千次"Search/Fetch 计费与 [[DeepSeek-V4.1-Flash]] 页既有"2026-11-01 起按次收费"记录完全一致，无冲突
+- **死链预防**: AML（Agent Memory Leaderboard）、Claude Mem、GPT-Transcribe、Google Cloud 语音等无独立页概念全部纯文本标注
+- **校验**: lint 复跑 —— 孤岛 0 / 死链 0 / frontmatter sources 缺失 0，健康度 100.0%（7 组同名 stem 为已知待人工消歧项，本轮未新增）
+- **归档**: 3 个源文件已移动至 raw/09-archive/（保留原文件名与 assets 目录，raw/01-articles/ 清空）
+
 ## [2026-11-16] ingest | 全量扫描 raw/ 摄入 9 篇 01-articles 文章（SpringBatch+Quartz / Doris StreamLoad / Magpie 深评 / DeepSeek 全家桶 API / FlowMQ / RuoYi Office / CoT 思维链 / Octop / DSH 官方点名插件）
 - **变更**: 新增 Sources (9): [[摘要-springbatch-quartz定时批量任务]], [[摘要-doris-streamload海量数据实时更新]], [[摘要-为什么越来越多人用magpie-苏三]], [[摘要-deepseek全家桶api开放]], [[摘要-flowmq-kafka低成本存储无感扩容]], [[摘要-ruoyi-office一体化办公平台]], [[摘要-cot思维链与deepseek-harness]], [[摘要-octop开源版workbuddy]], [[摘要-dsh官方点名4个神级插件]]; 新增 Entities (5): [[SpringBatch]]（Spring 批处理框架 Job/Step/Chunk + 与 Quartz 重试闭环）, [[Doris]]（Apache Doris OLAP + Stream Load HTTP 导入）, [[FlowMQ]]（C++ 统一消息系统、存算分离 S3/RLog 双后端、Flexible Quorum 4-3-2）, [[RuoYiOffice]]（若依生态办公一体化平台、16 子系统、BPM 双设计器）, [[Octop]]（腾讯云开源自部署 AI 助手"开源版 WorkBuddy"）; 增量合并既有页 (17): [[Magpie]]（+苏三结构差异/订阅池化/脱敏/实战章节）, [[CCSwitch]]（+定位差异"改路标 vs 修路口"）, [[DeepSeek]]（+全家桶 API 开放）, [[DeepSeek-V4.1-Flash]]（+全家桶 API 能力）, [[DeepSeekHarness]]（+官方点名插件与生态规模）, [[Quartz]]（+SpringBatch 整合模式）, [[Kafka]]（+架构局限与 FlowMQ 对照）, [[CoT]]（+底层原理与 DSH 工程实现）, [[插件生态]]（+官方点名机制与规模）, [[RuoYi]]（+RuoYiOffice 关联）, [[WorkBuddy]]（+Octop 对照）, [[锋哥]]/[[沉默王二]]/[[程序员追风]]/[[小哈]]/[[程序汪]]/[[苏三]]（+来源）; 更新 [[index.md]]（Sources +9 / Entities +5 / 更新 17 页）
 - **重复处理**: 无重复剪藏——Magpie 篇（苏三 11-15）与已摄入的程序汪篇（11-03）为不同作者不同文章（视角互补：程序汪写"写回事故→转向"，苏三写"结构差异+原理+实战"），增量合并而非跳过

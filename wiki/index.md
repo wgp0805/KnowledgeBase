@@ -4390,7 +4390,18 @@
 - [[Octop]] — 腾讯云开源自部署 AI 助手（11.9K Star）：多端对话、多账号+专家隔离、ACP 双向接入、数据本机化，"开源版 WorkBuddy"
 
 ## 更新 (2026-11-16)
-- [[Magpie]]（+苏三 11-15 章节：与 CC Switch 结构差异/订阅池化/原子改写/路由分组五策略/密文脱敏/Profile/Routing 日志喂 AI/优缺点）、[[CCSwitch]]（+定位差异补充："改路标 vs 修路口"）、[[DeepSeek]]（+全家桶 API 开放章节）、[[DeepSeek-V4.1-Flash]]（+全家桶 API 能力章节：三协议/web_search/read_url/文件输入/独立五接口/chat-demo）、[[DeepSeekHarness]]（+官方点名插件与生态规模章节：日活 154 万/3.5 万插件/4 官方点名/paiwarp-dsh）、[[Quartz]]（+SpringBatch 整合模式：定时触发+失败重试闭环）、[[Kafka]]（+传统架构局限与 FlowMQ 对照章节）、[[CoT]]（+底层原理与 DSH 工程实现章节：草稿纸原理/reasoning 块/推理等级/签名回传三种处理）、[[插件生态]]（+官方点名机制与规模更新：3.5 万插件/垂直工作台趋势）、[[RuoYi]]（+RuoYiOffice 衍生关联）、[[WorkBuddy]]（+开源 Octop 产品线对照）、[[锋哥]]（+Octop 文章）、[[沉默王二]]（+DSH 4 插件文章与 paiwarp-dsh）、[[程序员追风]]（+DeepSeek 全家桶文章）、[[小哈]]（+Doris Stream Load/SpringBatch+Quartz 两文）、[[程序汪]]（+FlowMQ/RuoYi Office 两文）、[[苏三]]（+Magpie 深评文章）
+- [[Magpie]]（+苏三 11-15 章节：与 CC Switch 结构差异/订阅池化/原子改写/路由分组五策略/密文脱敏/Profile/Routing 日志喂 AI/优缺点）、[[CCSwitch]]（+定位差异补充："改路标 vs 修路口"）、[[DeepSeek]]（+全家桶 API 开放章节）、[[DeepSeek-V4.1-Flash]]（+全家桶 API 能力章节：三协议/web_search/read_url/文件输入/独立五接口/chat-demo；+量子位版定价补充：ASR 0.39 元/小时五折/TTS 1.5 元/万字符/OCR 1.5 元/千页/Search-Fetch 5 元千次）、[[DeepSeekHarness]]（+官方点名插件与生态规模章节：日活 154 万/3.5 万插件/4 官方点名/paiwarp-dsh）、[[Quartz]]（+SpringBatch 整合模式：定时触发+失败重试闭环）、[[Kafka]]（+传统架构局限与 FlowMQ 对照章节；+HW/LEO/LeaderEpoch 副本一致性章节）、[[CoT]]（+底层原理与 DSH 工程实现章节：草稿纸原理/reasoning 块/推理等级/签名回传三种处理）、[[插件生态]]（+官方点名机制与规模更新：3.5 万插件/垂直工作台趋势）、[[RuoYi]]（+RuoYiOffice 衍生关联）、[[WorkBuddy]]（+开源 Octop 产品线对照）、[[锋哥]]（+Octop 文章）、[[沉默王二]]（+DSH 4 插件文章与 paiwarp-dsh）、[[程序员追风]]（+DeepSeek 全家桶文章）、[[小哈]]（+Doris Stream Load/SpringBatch+Quartz/Kafka 高水位三文）、[[程序汪]]（+FlowMQ/RuoYi Office 两文）、[[苏三]]（+Magpie 深评文章）、[[冰河]]（+MemoraX Code 解读）、[[AgentMemory]]（+Coding Agent 记忆路线：MemoraX 双层记忆/可学习框架/按意图召回）、[[Mem0]]（+MemoraXCode 同域对照）
+
+## Sources (2026-11-16 ingest 二)
+- [[摘要-kafka高水位与leaderepoch]] — 小哈学Java：Kafka 副本一致性面试题拆解——HW/LEO 概念对、旧版 HW 截断的数据丢失与日志分叉两大事故推演、KIP-101 LeaderEpoch 询问式截断（先问 Leader 拿权威位置），记忆口诀"HW 管可见，LEO 管写入；截断问 Leader，epoch 说了算"
+- [[摘要-memoraxcode-agent记忆系统]] — 冰河：MemoraX Code Agent 长期记忆系统——本地+云端双层记忆/按任务意图检索/可学习记忆框架（模型自己学"该不该此时想起"）/Procedure Memory 过程记忆（长程任务 11.71→70.30 分、成本降 22.6%）、AML Coding Track 62 分第一
+
+## Concepts (2026-11-16 新增二)
+- [[LeaderEpoch]] — Kafka 0.11（KIP-101）副本截断机制：epoch+startOffset 单调映射，截断前问 Leader 拿权威位置，替代滞后 HW，不丢不分叉；只接管 HW 的截断职责，可见性语义不变
+- [[ProcedureMemory]] — 过程记忆：从历史开发轨迹自动提取可复用的分析/执行/验证步骤成结构化工程经验，对应认知科学"程序记忆"，配克制性触发判断
+
+## Entities (2026-11-16 新增二)
+- [[MemoraXCode]] — 开源 Coding Agent 长期记忆系统：本地（代码仓库）+云端（跨 Agent 经验）双层记忆、按任务意图检索召回、可学习记忆框架，AML Coding Track 62 分第一，原生适配 Codex/Claude Code/DSH/OpenCode
 
 
 ## Sources (2026-11-12 新增)
