@@ -4417,11 +4417,12 @@
 ## Sources (2026-11-17 ingest)
 - [[摘要-springboot集成hera日志平台]] — 终码一生：SpringBoot 集成 Hera 日志平台——三大死穴（缺业务维度聚合/链路断裂/存储成本）、五层架构、starter 无侵入接入、custom-fields 业务标签、X-Hera-Trace-Id 跨服务串联、ES+HDFS 分级存储省 60%
 - [[摘要-onlyoffice私有化与springboot接入实战]] — 苏三 2026-11-17《为什么越来越多人用 OnlyOffice？》同名异文（区别于 9.4.0 轻量模式篇）：三条路走不通时的"第三选择"、版本三条线、开发者四能力、SpringBoot 3.4.5 + Java 17 私有化接入实战（JWT HmacSHA256 双令牌/文件 ID+版本号 key/回调 status 表/原子落盘）——注：该页为此前摄入中断的残留，本次补注册并归档
+- [[摘要-放弃mysql转用postgresql]] — 程序汪 2026-11-14 转载：AI 时代 PostgreSQL 取代 MySQL 的选型分析——Stack Overflow 2026 排名反超、"少维护一套系统"论点、pgvector/PostGIS/全文检索/pg_search 能力盘点、同库实务与验证方法论——注：该页亦为此前摄入中断的残留，本次补合并、注册并归档
 
 ## Entities (2026-11-17 新增)
 - [[Hera]] — 面向分布式系统的日志平台（2.5+，支持 SpringBoot 2.x/3.x）：Agent 无侵入采集 + 业务标签聚合、X-Hera-Trace-Id 全链路串联、ES/HDFS 分级存储、控制台三步定位，排障 2 小时→15 分钟、存储省 60%
 
 ## 更新 (2026-11-17)
-- [[SpringBoot]]（+Hera 日志平台集成章节）、[[ELK日志系统]]（+与 Hera 对照章节：业务维度聚合差异）、[[可观测性]]（+日志支柱工程化落地案例）、[[distributed-tracing]]（+请求头透传式日志串联实践）、[[ThreadLocal]]（+日志字段注入场景）、[[OnlyOffice]]（+2026-11-17 同名异文章节：选型/版本三条线/开发者四能力/SpringBoot 私有化实战）、[[document-key机制]]（+"文件 ID+版本号"key 策略与原子落盘）、[[苏三]]（+OnlyOffice 同名异文来源与时间线）
-- 注1：OnlyOffice 同名异文来源页此前摄入时已创建但收尾中断（未注册 index、未记 log、未归档），本次补全注册、合并与归档
-- 注2：`raw/01-articles/为什么越来越多人放弃 MySQL 转而用 PostgreSQL？.md` 为同日早前已摄入同文（程序汪 2026-11-14）的重复剪藏，跳过编译，仅在 [[摘要-放弃mysql转用postgresql]] 加重复剪藏记录后改名归档
+- [[SpringBoot]]（+Hera 日志平台集成章节）、[[ELK日志系统]]（+与 Hera 对照章节：业务维度聚合差异）、[[可观测性]]（+日志支柱工程化落地案例）、[[distributed-tracing]]（+请求头透传式日志串联实践）、[[ThreadLocal]]（+日志字段注入场景）、[[OnlyOffice]]（+2026-11-17 同名异文章节：选型/版本三条线/开发者四能力/SpringBoot 私有化实战）、[[document-key机制]]（+"文件 ID+版本号"key 策略与原子落盘）、[[苏三]]（+OnlyOffice 同名异文来源与时间线）、[[PostgreSQL]]（+AI 时代选型论点章节：排名数据/扩展盘点/同库实务）、[[pgvector]]（+使用姿势与验证方法论章节）、[[混合检索]]（+PostgreSQL 同库混合检索三件套章节）
+- 注1：OnlyOffice 同名异文与 PostgreSQL 选型文两个来源页均为此前摄入时已创建但收尾中断的残留（未注册 index、未记 log、未归档、宣称的合并未落地），本次逐一补全
+- 注2：顺手修正 [[苏三]] sources 中一条指向 raw/01-articles/ 的历史遗留路径（Coze 文实际已归档至 raw/09-archive/）
