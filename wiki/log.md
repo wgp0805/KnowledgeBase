@@ -4,6 +4,7 @@
 - **冲突**: 无硬性知识冲突。三处口径说明：① [[ELK日志系统]] 通用采集检索链路与 Hera 业务标签聚合为互补定位（通用底座 vs 业务视角），已分节对照；② [[pgvector]] 既有 HNSW 实践与新增"近似索引过滤后可能不足 LIMIT 条数 + 0.8.0 迭代索引扫描默认关闭"为同主题工程细节补充；③ [[混合检索]] 既有 ES 双路 KNN/BM25 权重加权与新增 RRF 名次融合为两种并存融合姿势，已分节注明量纲敏感性差异
 - **死链预防**: HDFS/SLF4J/Logback/UserContext/HeraCustomFieldProvider/pg_search/PostGIS/Supabase/Neon 等无独立页概念全部纯文本标注；「终码一生」按既有惯例不建实体页
 - **顺手修复**: [[苏三]] sources 中一条历史遗留路径（"raw/01-articles/Coze 下线了，开源版 WorkBuddy 来了.md"）修正为 raw/09-archive/ 实际归档路径
+- **校验**: lint 复跑 —— 总页面 3082（较上轮 +4：Hera 来源页/实体页 + 两笔残留来源页补注册），孤岛 0 / 死链 0 / frontmatter sources 指向 raw 缺失 0，健康度 100.0%（7 组同名 stem 为已知待人工消歧项，本轮未新增）
 - **归档**: 3 个源文件已移动至 raw/09-archive/（保留原文件名与 assets 目录惯例——图片留在根 assets/），raw/01-articles/ 清空
 
 ## [2026-11-11] synthesis | 固化：OpenSpec apply 后上下文耗尽的交接与新窗口重建流程
