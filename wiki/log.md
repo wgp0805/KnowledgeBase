@@ -2111,3 +2111,9 @@
 - **冲突**: 无硬性知识冲突。三处口径说明：① [[投机解码]] 与本文"推测解码"为同一概念（Speculative Decoding）的命名差异——已在 [[投机解码]] 与 IQuestRT/IQuestQ1 页互链并标注"推测解码=推测解码（同名异义）"；② IQuestRT 性能"911 tokens/s vs vLLM 2.94 倍"为官方自测口径，已在页内注明"仅自测、单请求解码阶段、不含输入处理与模型加载"，非用户拿成果全耗时，避免与通用推理基准误比；③ [[Temperature采样]] 的 DeepSeek 场景推荐值与各 Harness 实际处理（如 Codex 主对话无 temperature 字段、DeepSeek Harness 自动审批写死 0）为"理论值 vs 实现差异"，已并存不覆盖
 - **校验**: 18 个新页面（9 Sources / 4 Entities / 5 Concepts）frontmatter（title/type/tags/sources/last_updated）与「关联连接」区块全部校验通过；运行 scripts/_backlink_ingest.py 幂等回填 41 个既有页反向链接，复跑 scripts/lint_wiki.py：**孤岛 0 / 死链 0 / frontmatter sources 缺失 0 / 健康度 100.0%**；[[IQuestRT]] 误引 [[NVLink]] 已修正为 [[NVIDIA]]，[[摘要-dsh-go-安卓app]] 误引 [[远程审批]] 已修正为纯文本
 - **归档**: 9 个源文件已移动至 raw/09-archive/（保留原文件名，raw/01-articles/ 清空）；随后运行 scripts/fix_sources.py --apply 将新页 frontmatter 的 sources 由 raw/01-articles/ 校正为 raw/09-archive/
+
+## [2026-11-17] query | 程序汪 AI 漫剧项目的 7 个开发 Skill
+- **输出**: 引用 [[摘要-程序汪-ai漫剧平台项目]], [[AI漫剧创作平台]], [[AI漫剧工作流]]; 即时回答未保存
+
+## [2026-11-17] query | 追问：7 个开发 Skill 是否都针对 Python
+- **输出**: 引用 [[摘要-程序汪-ai漫剧平台项目]], [[AI漫剧创作平台]]（并核对归档原文 raw/09-archive/2026-11-05 - 程序汪5万30天接的AI漫剧项目.md 的 Skill 章节）；结论：6 后端 Skill 绑定 Python FastAPI+Celery+PostgreSQL 栈，frontend-design 为 Vue 3/TS 前端 Skill；即时回答未保存
