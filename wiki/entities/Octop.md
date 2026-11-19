@@ -2,7 +2,7 @@
 title: "Octop"
 type: entity
 tags: [开源项目, 腾讯, AI助手, 自部署, WorkBuddy]
-sources: [raw/09-archive/2026-11-12 - 夯爆了！腾讯甩出 "开源版 WorkBuddy".md]
+sources: [raw/09-archive/2026-11-12 - 夯爆了！腾讯甩出 “开源版 WorkBuddy”.md]
 last_updated: 2026-11-16
 ---
 

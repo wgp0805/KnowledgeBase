@@ -1,6 +1,12 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-datax数据同步工具]] — 小哈学Java：阿里云 DataWorks 开源版 DataX——Framework+Plugin 架构、星型数据链路、Job/Task/TaskGroup 调度，MySQL→MySQL 300 万行 42 秒同步实战与 where 增量同步
+- [[摘要-sa-token-gateway-nacos鉴权实战]] — IT码徒：Sa-Token 替代 Spring Security 在 Gateway+Nacos 微服务下的极简鉴权——StpUtil.login 一行登录、SaReactorFilter 全局拦截、StpInterface+RBAC 五表精确到 path、WebFlux 三坑
+- [[摘要-jd-driptable动态列表]] — 小哈学Java：京东零售 DripTable——React+JSON Schema 企业级中后台动态列表，drip-table 核心库 + generator 可视化配置，Lowcode 搭建 CMS 列表页
+- [[摘要-oh-story-dsh创作插件]] — 程序员追风：DSH 社区创作插件 oh-story-dsh——小说/短剧/互动游戏/视频解说四个工作台，追踪文件管伏笔、连戏锁钉造型、沙箱试玩，产物全本地文件
+- [[摘要-gpt-6-2-astra-sol发布]] — 沉默王二：GPT-6.2 Astra/Sol 发布——1.05M 上下文、AA-3D 1318 分第一、改历史丢思考块的缓存失效机制、自我改进高风险阈值与 Control Room、定价与 272K 加价线
+- [[摘要-orca多agent编排桌面应用]] — 冰河：Orca 120K+ Star"Agent 会话编排层"——自动 git worktree 让并行成为默认、diff 旁批注反馈、会话存档搜索、移动端协作，4.6K 开放 issue 的风险提示
 - [[摘要-为什么不能在System-Prompt里放时间戳]] — 在系统提示词或 AGENTS.md/CLAUDE.md 里放秒级时间戳会让前缀缓存失效、账单翻 10 倍；正确做法是固定内容放开头、日期按天/按月、跨天或改规则追加到对话末尾（Radix Tree 根节点 + in-history 模式）
 - [[摘要-kafka42共享组]] — 锋哥讲透 Kafka 4.2：共享组 KIP-932 转正（按记录协作+30 秒锁+ACCEPT/RELEASE/REJECT/RENEW 四确认）、Streams 服务端再均衡 KIP-1071、Streams 死信 KIP-1034、锚定标点 KIP-1146、4.2.2 修复版
 - [[摘要-jd-hotkey热key探测]] — 苏三拆解京东 JD-hotkey：独立 Worker 集群滑动窗口毫秒级判定热 key，推送到全部 JVM 本地缓存，"核心矛盾是探测不是缓存"，大促实测减轻 Redis 一半以上压力
@@ -4426,3 +4432,22 @@
 - [[SpringBoot]]（+Hera 日志平台集成章节）、[[ELK日志系统]]（+与 Hera 对照章节：业务维度聚合差异）、[[可观测性]]（+日志支柱工程化落地案例）、[[distributed-tracing]]（+请求头透传式日志串联实践）、[[ThreadLocal]]（+日志字段注入场景）、[[OnlyOffice]]（+2026-11-17 同名异文章节：选型/版本三条线/开发者四能力/SpringBoot 私有化实战）、[[document-key机制]]（+"文件 ID+版本号"key 策略与原子落盘）、[[苏三]]（+OnlyOffice 同名异文来源与时间线）、[[PostgreSQL]]（+AI 时代选型论点章节：排名数据/扩展盘点/同库实务）、[[pgvector]]（+使用姿势与验证方法论章节）、[[混合检索]]（+PostgreSQL 同库混合检索三件套章节）
 - 注1：OnlyOffice 同名异文与 PostgreSQL 选型文两个来源页均为此前摄入时已创建但收尾中断的残留（未注册 index、未记 log、未归档、宣称的合并未落地），本次逐一补全
 - 注2：顺手修正 [[苏三]] sources 中一条指向 raw/01-articles/ 的历史遗留路径（Coze 文实际已归档至 raw/09-archive/）
+
+## Sources (2026-11-19 ingest)
+- [[摘要-datax数据同步工具]] — 小哈学Java：阿里开源 DataX 数据同步工具——星型数据链路、Framework+Plugin 架构、Job/Task/TaskGroup 并发调度，MySQL→MySQL 300 万行 42 秒（7.5 万条/秒）实战，全量与 where 增量同步唯一区别在 reader 条件筛选
+- [[摘要-sa-token-gateway-nacos鉴权实战]] — IT码徒：Sa-Token+Gateway+Nacos 极简鉴权——StpUtil.login 一行登录、session 模式选 Redis 而非 JWT 的理由、SaReactorFilter 全局过滤器、StpInterface+RBAC 五表精确到 path 鉴权、WebFlux 禁阻塞的三个坑
+- [[摘要-jd-driptable动态列表]] — 小哈学Java：京东零售 DripTable——React+JSON Schema 中后台动态列表，配置端（generator 可视化生成 Schema）与应用端（渲染动态列表）分离，Lowcode 快速搭建 CMS 列表页
+- [[摘要-oh-story-dsh创作插件]] — 程序员追风：oh-story-dsh 社区创作插件——小说（追踪/上下文.md 管伏笔）、短剧（五文档+连戏锁）、互动游戏（沙箱试玩）、视频解说（分段解说配音烧字幕）四个工作台，产物全本地文件；媒体流水线依赖按需配置
+- [[摘要-gpt-6-2-astra-sol发布]] — 沉默王二：GPT-6.2 Astra/Sol 发布——AA-3D 1318 分第一、Agents' Last Exam 最高分（花费仅 Fable 5.2 的 5%）、改历史丢思考块的 Prefix Caching 服务端失效机制、OpenAI 首个达自我改进高风险阈值的发布模型（Control Room 监控）、Astra 8/40 美元定价与 272K 加价分界
+- [[摘要-orca多agent编排桌面应用]] — 冰河：Orca 120K+ Star——"Agent 会话编排层"定位，自动 git worktree 让多 Agent 并行成为默认行为、diff 旁批注直接反馈、会话存档关键词搜索、移动端通勤 review 闭环、4.6K 开放 issue 风险提示
+
+## Entities (2026-11-19 新增)
+- [[DataX]] — 阿里云 DataWorks 数据集成的开源版本，异构数据源离线同步工具：星型数据链路 + Framework/Reader/Writer 三角色 + Job→Task→TaskGroup 调度（Task/Channel=TaskGroup），300 万行 42 秒实测，where 条件即增量同步
+- [[DripTable]] — 京东零售开源的 React+JSON Schema 动态列表解决方案：drip-table 核心库（Schema 渲染列表）+ drip-table-generator（可视化配置生成），自定义组件与主题包，Lowcode 搭建中后台 CMS 列表页
+- [[oh-story-dsh]] — DeepSeek Harness 社区创作插件：小说/短剧/互动游戏/视频解说四个创作工作台与固定版本技能包，产物全本地 Markdown/JSON，AI 维护追踪文件与连戏锁，Claude Code/Codex 可装同源独立技能包
+
+## Concepts (2026-11-19 新增)
+- [[Lowcode]] — 低代码开发范式：以声明式配置（JSON Schema）与可视化代替硬编码，配置端/应用端经 Schema 标准解耦，保留自定义代码扩展能力；适合中后台 CMS 等重复模式页面
+
+## 更新 (2026-11-19)
+- [[Orca]]（+编排层定位与风险章节：自动 worktree 是并行前提、diff 批注、会话存档、移动端闭环、4.6K issue）、[[Sa-Token]]（+Gateway+Nacos 网关鉴权实战章节：StpInterface+RBAC 五表、WebFlux 三坑）、[[OpenAI]]（+GPT-6.2 Astra/Sol 发布章节）、[[GPT-6]]（+GPT-6.2 Astra/Sol 小节：跑分/缓存失效/安全评估/定价）、[[京东]]（+DripTable 前端基建开源）、[[阿里云]]（+DataX 开源）、[[DeepSeekHarness]]（+oh-story-dsh 创作插件章节）、[[前缀缓存稳定布局]]（+GPT-6.2 服务端缓存失效与思考块回收机制小节）、[[小哈]]（+DataX/DripTable 两篇）、[[沉默王二]]（+GPT-6.2 发布报道）、[[程序员追风]]（+oh-story-dsh 解析）、[[冰河]]（+Orca 编排层测评）

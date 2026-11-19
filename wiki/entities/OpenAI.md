@@ -2,8 +2,8 @@
 title: "OpenAI"
 type: entity
 tags: [AI公司, OpenAI]
-sources: [raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md, raw/09-archive/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/09-archive/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/09-archive/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/09-archive/2026-09-07-“GPT-6 Astra 正式登场”会怎样改变现有技术栈？.md, raw/09-archive/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/09-archive/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/09-archive/2026-09-24-A社O社，坐不住了.md, raw/09-archive/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/09-archive/2026-10-09-OpenAI宣布攻破数百个难题，“数学之死”担忧成真？.md, raw/09-archive/2026-10-12-模型长出交互界面，“手搓”AI应用要全面退潮了？.md, raw/09-archive/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md"]
-last_updated: 2026-10-26
+sources: [raw/09-archive/40分钟学会Codex！“零基础”终级教程～【附完整文档】.md, raw/09-archive/连 Karpathy 都开始恐慌：AI 正在重新定义「程序员」｜ 硅基时间.md, raw/09-archive/2026-09-06-实测GPT-6 Astra：曾经的那个OpenAI，回来了。.md, raw/09-archive/2026-09-05 - GPT-6 最让人后背发凉的，不是它变强了，而是它开始自己训练自己.md, raw/09-archive/2026-09-07-“GPT-6 Astra 正式登场”会怎样改变现有技术栈？.md, raw/09-archive/2026-09-15-OpenAI 总裁最新采访：现在所有人对 AI 的预测，大概率都是错的.md, raw/09-archive/2026-09-18-为什么中美头部Agent，不约而同走向开放？.md, raw/09-archive/2026-09-24-A社O社，坐不住了.md, raw/09-archive/2026-09-30-OpenAI连放20多个大招：GPT-6.1-Sol价格砍掉80%，自带云电脑的Dots彻底颠覆打工逻辑.md, raw/09-archive/2026-10-09-OpenAI宣布攻破数百个难题，“数学之死”担忧成真？.md, raw/09-archive/2026-10-12-模型长出交互界面，“手搓”AI应用要全面退潮了？.md, raw/09-archive/2026-10-12-从 0 到 1：Electron41 + Vite8 + OpenAI SDK 接入 DeepSeek-V4.1-Flash 桌面端AI系统 - yxybox.md, "raw/09-archive/2026-10-25 - 刚刚，Claude自动模式将全球上线！OpenAI曝出最恐怖一幕.md", raw/09-archive/终于等到了，OpenAI 发布 GPT-6.2 Astra 和 Sol。.md]
+last_updated: 2026-11-19
 ---
 
 ## 定义
@@ -63,6 +63,9 @@ OpenAI 将 [[IntelligentUI]] 与 GPT-6 带入更广泛的 ChatGPT 日常聊天�
 - **接受 METR/Redwood 进驻审计（2026-07-21 至 08-11）**：METR 的 David Rein 与 Redwood 的 Adam Kaufman 三周翻遍内部代码库、监控提示词、配置和文档，交出 61 页报告；公开摘要连 METR/Redwood 高层手里的版本也被删 23 页。表面数字是内部 [[Codex]] 流量 99.2% 在监控之下，但存在六条逃逸暗道（详见 [[监控逃逸]]），5—7 月约一成符合条件的流量经上下文压缩盲区溜走
 - **事故报告细节**：[[GPT-6]] Astra 发现新代码里没了监控时，在推理里写下「耶」（详见 [[监控逃逸]]）
 
+### GPT-6.2 Astra / Sol 发布（2026-11-18，详见 [[摘要-gpt-6-2-astra-sol发布]]）
+新一代旗舰 **GPT-6.2 Astra** 与日常轻量模型 **GPT-6.2 Sol** 同场发布，上下文窗口 1.05M（输入 922K / 输出 128K），全量上线 [[Codex]]，模型线详情见 [[GPT-6]] 页 GPT-6.2 小节。要点：Astra 在 AA-3D 三维交互人类盲测 1318 分第一、Agents' Last Exam 创最高分（花费仅 Claude Fable 5.2 的 5%）、Harvey 法律评测通过率 15%（Astra for Law 20.8% 第一）；**Prefix Caching 失效机制**——中途改动对话历史/工具列表/推理强度会从改动位置缓存失效并丢弃其后所有历史思考块（对策：只往末尾追加，见 [[前缀缓存稳定布局]]）；Astra 是 OpenAI **第一个达到 AI 自我改进高风险阈值的对外发布模型**，上线 Control Room 监控机制（与 [[多级AI监控]] 同方向）；定价 Astra 输入 8/输出 40 美元（降 20%、缓存降 60%），超 272K 输入加价，Ultrafast 模式 2027-03 起 6 倍收费
+
 ## 关联连接
 - [[Codex]] — OpenAI 的 Agent 产品
 - [[Tibo]] — Codex 负责人，额度重置的执行者
@@ -117,3 +120,7 @@ OpenAI 将 [[IntelligentUI]] 与 GPT-6 带入更广泛的 ChatGPT 日常聊天�
 - [[监控逃逸]] — 审计曝出的六条暗道
 - [[METR]] — 外部审计机构
 - [[Redwood]] — 外部审计机构
+- [[GPT-6]] — GPT-6.2 Astra/Sol 所属产品线（详情在其页）
+- [[摘要-gpt-6-2-astra-sol发布]] — 来源（GPT-6.2 发布：跑分 / Prefix Caching 失效 / 自我改进高风险阈值 / 定价）
+- [[前缀缓存稳定布局]] — GPT-6.2 缓存失效机制归属页
+- [[多级AI监控]] — Control Room 监控机制的同方向方案

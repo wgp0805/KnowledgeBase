@@ -2,8 +2,8 @@
 title: "Sa-Token"
 type: entity
 tags: [权限认证, Java框架, 开源]
-sources: [raw/09-archive/为什么越来越多人用Sa-Token？.md]
-last_updated: 2026-08-04
+sources: [raw/09-archive/为什么越来越多人用Sa-Token？.md, raw/09-archive/告别SpringSecurity！Sa-Token+Gateway+Nacos极简鉴权实战.md]
+last_updated: 2026-11-19
 ---
 
 ## 定义
@@ -48,6 +48,14 @@ Sa-Token 是一个轻量级 Java 权限认证框架，专注于简化登录认�
 - 功能边界相对聚焦（无 CSRF 保护等复杂安全防护）
 - 部分高级功能需要额外配置（JWT、SSO、OAuth2 等）
 
+### Gateway+Nacos 微服务网关鉴权实战（2026-11-16，详见 [[摘要-sa-token-gateway-nacos鉴权实战]]）
+- **一行登录**：account 服务 `StpUtil.login(user.getId())` 生成 Token 凭证与 Session 会话；`StpUtil.getSession().set("USER_DATA", user)` 附加会话数据
+- **Session 模式选型**：session 模式需 [[Redis]] 存储会话（`sa-token-dao-redis-jackson`）并在微服务间同步，但 token 刷新开箱即用；JWT 无状态无需 Redis 但刷新机制要自己实现——作者选 session 模式
+- **网关全局过滤器**：`SaReactorFilter`（`sa-token-reactor-spring-boot-starter`）`addInclude("/**")` 拦截全部路径，`SaRouter.match("/**", "/account/user/doLogin", r -> StpUtil.checkLogin())` 放行登录白名单；`setError` 统一异常返回
+- **配置细节**：`token-name` 自定义 token 名（默认 satoken）；`token-prefix: Bearer` 后前端 header 须传 "Bearer <token>"（注意空格，需与前端约定）；`is-concurrent`/`is-share` 控制多端登录与 token 共享
+- **RBAC 细粒度鉴权（精确到 path）**：用户-角色-权限五表模型，网关实现 `StpInterface.getPermissionList()/getRoleList()`；数据流：优先读 TokenSession 缓存（account 服务查完角色/权限后通过 `StpUtil.getTokenValueByLoginId(userId)` 反查 token 写回 Redis），未命中走 Feign 调 account 服务回源；无权限用户写空串防穿透
+- **WebFlux 三个坑**：① gateway 基于 WebFlux 禁止阻塞调用——Feign 同步调用需 `CompletableFuture.supplyAsync` + 自定义线程池包装（勿用默认 ForkJoinPool）；② `HttpMessageConverters` 不自动注入，需手动 `@Bean` 配置；③ 更彻底的方案是响应式 `WebClient` + `@LoadBalanced` 走 Nacos 服务发现
+
 ## 关联连接
 - [[SpringSecurity]] — 对比框架
 - [[Shiro]] — 另一个对比框架
@@ -57,3 +65,7 @@ Sa-Token 是一个轻量级 Java 权限认证框架，专注于简化登录认�
 - [[摘要-为什么越来越多人用Sa-Token]] — 来源
 - [[sa-token-vs-jwt-spring-security]] — 选型对比
 - [[RuoYi]] — 使用 Sa-Token 的典型项目
+- [[摘要-sa-token-gateway-nacos鉴权实战]] — 来源（Gateway+Nacos 网关鉴权实战）
+- [[SpringCloudGateway]] — 实战的网关层（WebFlux）
+- [[Nacos]] — 实战的服务发现
+- [[rbac]] — 网关鉴权用的权限模型（五表设计）

@@ -2,8 +2,8 @@
 title: "Orca"
 type: entity
 tags: [开源项目, ADE, 多Agent, 开发环境, 多模型]
-sources: [raw/09-archive/2026-09-25 - GitHub 6.7万 Star，一个多 Agent 协作、手机远程指挥的开源神器！.md, raw/09-archive/2026-11-01 - 终于有桌面版了！112k Star，Claude Codex Cursor一个窗口全搞定.md]
-last_updated: 2026-11-02
+sources: [raw/09-archive/2026-09-25 - GitHub 6.7万 Star，一个多 Agent 协作、手机远程指挥的开源神器！.md, raw/09-archive/2026-11-01 - 终于有桌面版了！112k Star，Claude Codex Cursor一个窗口全搞定.md, raw/09-archive/GitHub标星120K+的开源多Agent编排处理神器，就用它了，嘎嘎强！！.md]
+last_updated: 2026-11-19
 ---
 
 ## 定义
@@ -81,6 +81,15 @@ brew install --cask stablyai/orca/orca   # Mac
 
 ❌ 替代 IDE 内实时补全 / 实时联动 IDE 自动改文件 / 追求完全免费
 
+### 编排层定位与风险（2026-11-19 冰河测评，详见 [[摘要-orca多agent编排桌面应用]]）
+- **定位再确认**：不是 IDE 也不是项目管理工具，而是"**Agent 会话编排层**"——不生产模型、不替代惯用 Agent，把多个编码 Agent（Claude Code、Codex CLI、OpenCode、Cursor CLI 等）的会话、工作目录和审查动作收进一个桌面应用；GitHub 标星 120K+，创始团队有 Chrome 和 Uber 背景
+- **自动 worktree 是多 Agent 并行的前提**：新建 Agent 自动创建独立 git worktree、删除 Agent 自动清理，把"并行"从手工维护操作变成新建会话的默认行为；激进用法——同一提示交给 5 个 Agent 各自在独立 worktree 跑，结果并排比较选最优合并；worktree 共享 git 对象库，磁盘不会因多开迅速膨胀
+- **review 揉进同一界面**：diff 旁直接高亮、写意见、发送给 Agent（减少"看 diff→切聊天窗→等改完→再看 diff"的切换）；Markdown 编辑器实时预览 + 文档批注，多处修改意见打包发 Agent 统一处理
+- **会话可找回**：所有 Agent 会话存档（对话/diff/改过的文件）支持关键词搜索，旧会话拖回终端继续聊；终端重启后滚动缓冲保留（翻过的报错不用重跑命令复现）
+- **移动端协作闭环**：iOS "Orca IDE" / Android APK 连本机 Agent，通勤路上 review diff、标两处要改的发回去、approve、给下一步指令——到家第二轮可能已完成
+- **零碎但实用**：内嵌 Chromium（Agent 跑交互测试/抓 DOM/端到端）；每个 worktree 可挂 iOS/Android 模拟器；Claude Code 限流一键切账号不断上下文（需自备多账号）；SSH 远程跑 Agent（自动重连 + 端口转发）；应用内开 GitHub/Linear 的 PR/Issue；Orca CLI 命令（`orca worktree create`/`snapshot`/`click`/`fill`）可写进脚本
+- **诚实的风险提示**：仓库开放 issue 达 **4.6K 条**——功能迭代快但坑不少，应视为快速演进中的工具而非稳定基础设施；只偶发用 Agent 的人没必要装
+
 ## 关联连接
 - [[agent-development-environment]] — 所属品类概念
 - [[Worktree]] — 并行协作的隔离机制
@@ -92,5 +101,7 @@ brew install --cask stablyai/orca/orca   # Mac
 - [[Tauri]] — 桌面端技术栈（待建）
 - [[摘要-orca-ade多agent协作]] — 早期来源
 - [[摘要-orca-多模型桌面工作台]] — 最新来源
+- [[摘要-orca多agent编排桌面应用]] — 2026-11-19 来源（编排层定位 / 自动 worktree / diff 批注 / 会话存档 / 4.6K issue 风险提示）
 - [[程序员追风]] — 早期来源作者
 - [[我是程序汪]] — 最新来源作者
+- [[冰河]] — 2026-11-19 来源作者

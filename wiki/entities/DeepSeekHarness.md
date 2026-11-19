@@ -20,7 +20,8 @@ sources:
   - raw/09-archive/2026-10-12-DeepSeek Harness 插件生态解析 - 我才是银古.md
   - raw/09-archive/REA 保姆级教程：DeepSeek Harness 实操.md
   - "raw/09-archive/阿里面试官：“Agent 的 Todo List 有什么用？”.md"
-last_updated: 2026-10-26
+  - raw/09-archive/一个神级DeepSeek插件，写小说做短剧改游戏，一个插件全包！.md
+last_updated: 2026-11-19
 ---
 
 ## 定义
@@ -253,6 +254,13 @@ DSH 无 REA 一键接入命令（官方一键命令支持十几个 Agent 但未�
 - **作者自研 paiwarp-dsh 自动化终端插件**：Codex、Claude Code、DSH 原生都没有 terminal use，该插件让 DSH 打开本机真实终端逐步输入命令/按键、读取屏幕输出、检查退出码与生成文件，自动存高清 PNG 截图与 MP4 录屏到 `.paiwarp/runs/<运行编号>/`；支持"接管键盘"人机切换（暂停 Agent 由人操作，敲完交回从当前状态续测）；依赖 Playwright + Chromium（录屏需 FFmpeg），不限定项目可测任意 CLI
 - **总结判断**：DeepSeek Harness 可被定制成任何想要的样子——"Agent 时代的操作系统"
 
+## oh-story-dsh 创作插件：四个创作工作台（2026-11-18，详见 [[摘要-oh-story-dsh创作插件]]）
+社区插件 [[oh-story-dsh]]（zenstory-ai/oh-story-dsh）在 DSH 里新增小说/短剧/互动游戏/视频解说四个创作工作台，各配固定版本技能包（小说 14 Skills + 7 角色、短剧 12、游戏 5、解说 2），Agent/会话/权限全部沿用 DSH 原生机制：
+- **工程化设计**：产物全是本地 Markdown/JSON/媒体文件；平时不露面于代码仓库，目录存在创作工程才展开工作台；小说工作台靠 AI 持续维护的「追踪/上下文.md」记录章节进度与未回收伏笔，破解长篇连载失忆
+- **短剧五文档**：剧本/视觉设定/分镜/图片提示词/视频提示词每集五份；「连戏锁」把跨镜头不变造型钉成锁定词贴进每个镜头提示词；「制作详情」自动查断链报文件名行号
+- **依赖分层**：纯文字任务只要模型 Key；媒体流水线按需配 GPT Image 2 / Seedance / MiniMax / MIMO / FISH 各家 Key + Python/ffmpeg，缺什么「制作详情」提示对应环境变量
+- **生态对照**：与官方点名的 dsh-media-desk 自媒体工作台（灵感墙→成稿→排期）同属"DSH 创作工作台"产品形态，但 oh-story-dsh 覆盖面更广（小说长篇连载 + 互动游戏 + 视频解说成片）
+
 ## 关联连接
 - [[DeepSeek]] — 所属公司
 - [[崔添翼]] — 团队负责人
@@ -309,3 +317,6 @@ DSH 无 REA 一键接入命令（官方一键命令支持十几个 Agent 但未�
 - [[摘要-deepseek-temperature]] — Temperature 采样对照
 - [[摘要-dsh官方点名4个神级插件]] — 来源（2026-11-12 官方点名 4 插件 + paiwarp-dsh 自研实战）
 - [[CoT]] — 思考块协议层呈现与推理等级（Off/Low/High/Max）的实现载体
+- [[摘要-oh-story-dsh创作插件]] — 来源（oh-story-dsh 四个创作工作台）
+- [[oh-story-dsh]] — 社区创作插件本体
+- [[插件生态]] — oh-story-dsh 所属生态分析页

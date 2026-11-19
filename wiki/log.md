@@ -2117,3 +2117,10 @@
 
 ## [2026-11-17] query | 追问：7 个开发 Skill 是否都针对 Python
 - **输出**: 引用 [[摘要-程序汪-ai漫剧平台项目]], [[AI漫剧创作平台]]（并核对归档原文 raw/09-archive/2026-11-05 - 程序汪5万30天接的AI漫剧项目.md 的 Skill 章节）；结论：6 后端 Skill 绑定 Python FastAPI+Celery+PostgreSQL 栈，frontend-design 为 Vue 3/TS 前端 Skill；即时回答未保存
+
+## [2026-11-19] ingest | 全量扫描 raw/ 摄入 6 篇 01-articles 文章（DataX数据同步 / Sa-Token网关鉴权 / DripTable动态列表 / oh-story-dsh创作插件 / GPT-6.2发布 / Orca编排层）
+- **变更**: 新增 Sources (6): [[摘要-datax数据同步工具]], [[摘要-sa-token-gateway-nacos鉴权实战]], [[摘要-jd-driptable动态列表]], [[摘要-oh-story-dsh创作插件]], [[摘要-gpt-6-2-astra-sol发布]], [[摘要-orca多agent编排桌面应用]]; 新增 Entities (3): [[DataX]], [[DripTable]], [[oh-story-dsh]]; 新增 Concepts (1): [[Lowcode]]; 增量更新既有页 (12): [[Orca]]（+编排层定位与风险章节）、[[Sa-Token]]（+Gateway+Nacos 网关鉴权实战章节）、[[OpenAI]]（+GPT-6.2 发布章节）、[[GPT-6]]（+GPT-6.2 Astra/Sol 小节）、[[京东]]（+DripTable）、[[阿里云]]（+DataX）、[[DeepSeekHarness]]（+oh-story-dsh 插件章节）、[[前缀缓存稳定布局]]（+GPT-6.2 服务端缓存失效与思考块回收机制）、[[小哈]]（+DataX/DripTable 两篇）、[[沉默王二]]（+GPT-6.2 报道）、[[程序员追风]]（+oh-story-dsh 解析）、[[冰河]]（+Orca 测评）; 更新 [[index.md]]（Sources +6 / Entities +3 / Concepts +1 / 更新 12 页）
+- **冲突**: 无硬性冲突。两处口径说明：① GPT-6.2 的 272K 加价规则与 [[GPT-6]] 页既有 GPT-6 Astra 时代"超 272K 输入 2 倍/输出 1.5 倍计费"记录为**同一计费政策的延续**，已在 6.2 小节注明"一脉相承"而非矛盾；② Orca 第三篇文章（120K Star、issue 4.6K）与前两篇（6.7 万/112K Star）为同一项目不同时间快照，Star 增长与 issue 数属正常演进非矛盾，已在 [[Orca]] 保留三来源
+- **去重**: 「阿里又开源一款数据同步工具」作者为小哈学Java，已合并进既有 [[小哈]] 实体页（不重复建"小哈学Java"页）；GPT-6.2 的 Prefix Caching 失效机制未新建重叠概念页，按 2026-10-29 惯例并入 [[前缀缓存稳定布局]]（服务端强制失效小节）；RBAC 未新建大写别名页，Sa-Token 实战引用既有 [[rbac]]
+- **校验**: 新建 10 页（6 Sources / 3 Entities / 1 Concept）frontmatter 与「关联连接」区块逐一核查；主动修正 3 处死链（[[JSONSchema]]、[[离线数据同步]]、[[dsh-media-desk]] 改纯文本，均无对应页面）；来源摘要页引用 raw/01-articles/ 路径（归档后经 fix_sources.py 校正）
+- **归档**: 6 个源文件已移动至 raw/09-archive/（保留原文件名）
