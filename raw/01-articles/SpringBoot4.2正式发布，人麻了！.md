@@ -20,7 +20,7 @@ tags:
 ## 前言
 
 2026年11月19日，Spring Boot 4.2.0 正式发布了。  
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/HUV4yMdu0rdaALF8IDG6QOovC6u0bWee1sgnYqEDxLVakySPwp46kjs5Q9nS07d3J6RhTA5yJ88YG21x78nqk3lL1qtJgJicml0qHHiav82NE/640?wx_fmt=png&from=appmsg#imgIndex=0)
+![图片](assets/SpringBoot4.2%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%8C%E4%BA%BA%E9%BA%BB%E4%BA%86%EF%BC%81/6366f9b47d7e7e333dc9450414e0a754_MD5.png)
 
 说实话，看到 Release 的第一眼，我脑子里就一个念头：该来的还是来了。
 
