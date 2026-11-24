@@ -1,6 +1,7 @@
 # Wiki Index
 
 ## Sources
+- [[摘要-为什么越来越多人用tidb]] — 苏三：TiDB 把"分布式"从应用层收回数据库层——Region 自动分片、Raft 强一致、HTAP 双引擎，MySQL 迁移三步（3306→4000 / AUTO_RANDOM / 跨库 JOIN 直写）与 AI 慢查询分析，Kimi.ai 与 Flipkart 大规模验证
 - [[摘要-datax数据同步工具]] — 小哈学Java：阿里云 DataWorks 开源版 DataX——Framework+Plugin 架构、星型数据链路、Job/Task/TaskGroup 调度，MySQL→MySQL 300 万行 42 秒同步实战与 where 增量同步
 - [[摘要-sa-token-gateway-nacos鉴权实战]] — IT码徒：Sa-Token 替代 Spring Security 在 Gateway+Nacos 微服务下的极简鉴权——StpUtil.login 一行登录、SaReactorFilter 全局拦截、StpInterface+RBAC 五表精确到 path、WebFlux 三坑
 - [[摘要-jd-driptable动态列表]] — 小哈学Java：京东零售 DripTable——React+JSON Schema 企业级中后台动态列表，drip-table 核心库 + generator 可视化配置，Lowcode 搭建 CMS 列表页
@@ -4451,3 +4452,9 @@
 
 ## 更新 (2026-11-19)
 - [[Orca]]（+编排层定位与风险章节：自动 worktree 是并行前提、diff 批注、会话存档、移动端闭环、4.6K issue）、[[Sa-Token]]（+Gateway+Nacos 网关鉴权实战章节：StpInterface+RBAC 五表、WebFlux 三坑）、[[OpenAI]]（+GPT-6.2 Astra/Sol 发布章节）、[[GPT-6]]（+GPT-6.2 Astra/Sol 小节：跑分/缓存失效/安全评估/定价）、[[京东]]（+DripTable 前端基建开源）、[[阿里云]]（+DataX 开源）、[[DeepSeekHarness]]（+oh-story-dsh 创作插件章节）、[[前缀缓存稳定布局]]（+GPT-6.2 服务端缓存失效与思考块回收机制小节）、[[小哈]]（+DataX/DripTable 两篇）、[[沉默王二]]（+GPT-6.2 发布报道）、[[程序员追风]]（+oh-story-dsh 解析）、[[冰河]]（+Orca 编排层测评）
+
+## Sources (2026-11-19 ingest 二)
+- [[摘要-为什么越来越多人用tidb]] — 苏三：TiDB 把"分布式"从应用层收回数据库层——三层架构（TiDB Server/TiKV+TiFlash/PD）、Region 自动分片（约 96MB，PD 自动分裂调度）、Raft 3 副本多数派 RTO 秒级、HTAP 优化器自动路由 OLTP→TiKV / OLAP→TiFlash；迁移三步、AUTO_RANDOM 防写入热点、AI 辅助慢查询分析与部分索引；Kimi.ai/Flipkart/擎文集团案例
+
+## 更新 (2026-11-19 二)
+- [[TiDB]]（+苏三实操补充章节：一句话定位 / AUTO_RANDOM 与 _tidb_rowid 跳号坑 / 迁移三步 / AI 慢查询分析与部分索引 / Kimi.ai-Flipkart-擎文案例 / 适用场景速查；Region 96MB vs 144MB 口径说明）、[[PingCAP]]（+TiDB Cloud AI Agent 基础设施与规模化验证）、[[苏三]]（+2026-11-19 TiDB 文章条目）

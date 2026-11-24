@@ -2124,3 +2124,10 @@
 - **去重**: 「阿里又开源一款数据同步工具」作者为小哈学Java，已合并进既有 [[小哈]] 实体页（不重复建"小哈学Java"页）；GPT-6.2 的 Prefix Caching 失效机制未新建重叠概念页，按 2026-10-29 惯例并入 [[前缀缓存稳定布局]]（服务端强制失效小节）；RBAC 未新建大写别名页，Sa-Token 实战引用既有 [[rbac]]
 - **校验**: 新建 10 页（6 Sources / 3 Entities / 1 Concept）frontmatter 与「关联连接」区块逐一核查；主动修正 3 处死链（[[JSONSchema]]、[[离线数据同步]]、[[dsh-media-desk]] 改纯文本，均无对应页面）；来源摘要页引用 raw/01-articles/ 路径（归档后经 fix_sources.py 校正）
 - **归档**: 6 个源文件已移动至 raw/09-archive/（保留原文件名）
+
+## [2026-11-19] ingest 二 | 全量扫描 raw/ 摄入 1 篇 01-articles 文章（为什么越来越多人用 TiDB？）
+- **变更**: 新增 Sources (1): [[摘要-为什么越来越多人用tidb]]; 增量更新既有页 (3): [[TiDB]]（+苏三实操补充章节：一句话定位/AUTO_RANDOM 与 _tidb_rowid 跳号坑/迁移三步/AI 慢查询分析与部分索引/Kimi.ai-Flipkart-擎文案例/适用场景速查；Region"96MB vs 144MB"口径并存说明）、[[PingCAP]]（+TiDB Cloud AI Agent 基础设施与规模化验证：Kimi.ai 1 秒隔离库、Flipkart 100 万 QPS）、[[苏三]]（+2026-11-19 TiDB 文章条目）; 更新 [[index.md]]（Sources +1 / 更新 3 页）
+- **冲突**: 无硬性冲突。Region 默认大小口径：本文"默认约 96MB"与既有页面"超过 144MB 自动分裂"为**同一机制的两个参数**（96MB=Region 默认目标大小，144MB=自动分裂触发阈值），已在 [[TiDB]] Region 机制处并存注明非矛盾
+- **去重**: 本文为 [[TiDB]] 第二篇来源（首篇 2026-09-25 分库分表文），本次为纯增量补充（定位论断/迁移实操/新案例），不新建重复页；htap/newsql/Raft 等概念页均已存在，直接互链
+- **校验**: 新建 1 页 frontmatter 与「关联连接」区块核查；[[Kimi]] 链接目标经 glob 验证存在；来源摘要页引用 raw/01-articles/ 路径（归档后经 fix_sources.py 校正）
+- **归档**: 1 个源文件已移动至 raw/09-archive/
