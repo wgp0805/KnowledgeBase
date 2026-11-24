@@ -87,3 +87,8 @@ Dockerfile (配方) ──docker build──→ Image (镜像/静态快照) ─�
 - [[国内源三件套]] — 概念页
 - [[DaoCloud加速器]] — 镜像加速器
 - [[kafka-complete-tutorial]] — Apache Kafka 完整教程
+- [[自托管]] — 用 Docker 自建服务的整体模式
+- [[Dockge]] — compose.yaml 可视化管理
+- [[UptimeKuma]] / [[Filebrowser]] / [[Memos]] / [[Umami]] — 常见自托管单容器服务
+- [[CodeServer]] / [[CloudBeaver]] / [[PocketBase]] — 开发与后端类自托管工具
+- [[摘要-8个docker神器]] — 来源（11 个自托管镜像与 compose 配置）

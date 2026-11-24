@@ -2,8 +2,8 @@
 title: "ChatMemory"
 type: concept
 tags: [AI, 对话记忆, 上下文]
-sources: [raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/09-archive/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/09-archive/Spring AI 2.0真香！.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md"]
-last_updated: 2026-10-26
+sources: [raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/09-archive/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/09-archive/Spring AI 2.0真香！.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md", "raw/09-archive/2026-11-22 - 夯爆了，Spring AI 2.1 正式发布 ！.md"]
+last_updated: 2026-11-24
 ---
 
 ## 定义
@@ -36,6 +36,15 @@ ChatMemory 是对话级短期记忆（一次会话内），CLAUDE.md/Auto Memory
 - 会话隔离：调用时 `advisors(advisorSpec -> advisorSpec.param("conversationId", userId))` 以 userId 作会话 ID；deepseek-v3 与 qwen-max 两个 ChatClient（DashScopeChatModel 构建）可共用同一 Repository
 - **版本边界（对本页上文"需 redis-stack"说法的更新）**：Redis Stack 只是官方扩展模块打包发行版；Redis 8.0 起模块已内置进原版 Redis、Redis Stack 独立包标记弃用，新项目直接用 Redis 8+（需 RediSearch 能力的对话记忆/向量场景同理）
 
+### Spring AI 2.1 的替代：Session API（版本边界，来源：[[摘要-spring-ai-2-1发布]]）
+[[SpringAI]] 2.1 起，`ChatMemory` 相关类**已标记废弃、计划 3.0.0 移除**，新项目应直接用 Session API。两者差别不只是改个名字：
+
+- **存储模型**：ChatMemory 是"按会话 ID 存一串消息"；Session 是**只追加的事件日志**，可持久化（`JdbcSessionRepository` 支持 PG/MySQL/MariaDB/SQL Server/H2）
+- **压缩方式**：Session 的历史压缩一定在**轮次边界**切，不会出现"有工具调用、没工具结果"的残缺状态；压缩不改原始日志，只追加边界标记
+- **可回溯**：被压缩掉的内容仍在日志里，模型可通过内置 `conversation_search` 工具自己翻旧账（ChatMemory 截断即丢失）
+- **无默认会话**：框架故意不提供默认会话（避免不同用户记录混在一起）；Advisor 本身不保存状态，因此多实例部署时任意实例都能接着处理同一会话
+- 本页上文的 `MessageChatMemoryAdvisor` 等基于 ChatMemory 的用法，在 2.1 新项目中应迁移为 Session Advisor
+
 ## 关联连接
 - [[LangChain4j]] — ChatMemory 框架
 - [[RAG]] — 检索增强（长期知识）
@@ -45,3 +54,5 @@ ChatMemory 是对话级短期记忆（一次会话内），CLAUDE.md/Auto Memory
 - [[摘要-spring-ai-2-agent-tips]] — 来源
 - [[摘要-spring-ai-2-对话记忆实战]] — Spring AI 2.0 对话记忆实战
 - [[摘要-spring-ai-alibaba-文生图文生音向量化]] — 来源（SAA starter-memory-redis 侧实践）
+- [[SpringAI]] — 所属框架（2.1 起用 Session API 取代本机制）
+- [[摘要-spring-ai-2-1发布]] — 来源（Session API 取代 ChatMemory 的版本依据）

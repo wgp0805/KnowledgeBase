@@ -2,8 +2,8 @@
 title: "Nginx"
 type: entity
 tags: [Web服务器, 反向代理]
-sources: [raw/09-archive/nginx配置.md, raw/09-archive/服务器部署纯静态网站.md, raw/09-archive/hexo博客部署到自己的服务器.md, raw/09-archive/2026-08-24 - 拒绝再买服务器！我用 Docker + FRP 实现内网穿透，舒服~.md, raw/09-archive/2026-10-28 - Cloudflare正式开源Nginx替代品：Pingora.md]
-last_updated: 2026-10-29
+sources: [raw/09-archive/nginx配置.md, raw/09-archive/服务器部署纯静态网站.md, raw/09-archive/hexo博客部署到自己的服务器.md, raw/09-archive/2026-08-24 - 拒绝再买服务器！我用 Docker + FRP 实现内网穿透，舒服~.md, raw/09-archive/2026-10-28 - Cloudflare正式开源Nginx替代品：Pingora.md, "raw/09-archive/2026-11-23 - Nginx 配置实战：从摸鱼到部署，手把手教你搞定生产级配置.md"]
+last_updated: 2026-11-24
 ---
 
 ## 定义
@@ -31,6 +31,17 @@ Nginx 访问日志是格式规范的列式数据，最适合用 [[awk]] 直接�
 - **反方意见**：[[OpenResty]] 作者 [[章亦春]] 认为这是新工程师"搞不定" Nginx 的重造轮子，用 Rust 写解释型网关是退步
 - **现实结论**：Pingora 处于 pre-1.0、API 不稳定、仅支持 Unix，且只有 Cloudflare 一家超大规模验证。**绝大多数团队的 nginx.conf 仍然是性价比最高的选择**，不必因此迁移
 
+### 生产四场景配置速查（来源：[[摘要-nginx生产级配置实战]]）
+**① 反向代理 + 负载均衡**：`upstream` 列 3 台后端，`least_conn` 按最小连接数分发、`keepalive 32` 复用上游长连接、`proxy_next_upstream error timeout http_500` 失败自动换机；`location /api/` 转发并透传 `Host`/`X-Real-IP`/`X-Forwarded-For`，connect/read/send 超时分层设置。
+
+**② 静态资源 + 动静分离**：`root /data/` + `autoindex off` + `expires 30d` + `gzip on`/`gzip_types`，并用 `valid_referers` 做图片防盗链（`$invalid_referer` → 403）。
+
+**③ 限流防刷 + IP 黑白名单**：`limit_conn_zone $binary_remote_addr zone=ip_conn:10m`（单 IP 并发连接）+ `limit_req_zone ... rate=5r/s`（令牌桶）；登录接口 `limit_conn 10` + `limit_req burst=10 nodelay`，配合 `deny` 与白名单判断返回 403。
+
+**④ HTTPS**：`listen 443 ssl`、`ssl_protocols TLSv1.2 TLSv1.3`、`ssl_ciphers ECDHE-...`、`ssl_prefer_server_ciphers on`，`rewrite ^(.*)$ https://$host$1 permanent` 强制跳转。
+
+**运维底线**：`systemctl start/restart nginx` 前必须 `nginx -t` 校验；限流阈值要随压力与反馈动态调整，恶意 IP 及时拉黑。配置不是一次性的。
+
 ## 关联连接
 - [[Pingora]] — Cloudflare 的 Rust 替代品（2022 起生产使用，2026-10 开源）
 - [[OpenResty]] — Nginx + Lua 的可编程扩展路线
@@ -44,3 +55,8 @@ Nginx 访问日志是格式规范的列式数据，最适合用 [[awk]] 直接�
 - [[摘要-cloudflare开源pingora]] — 来源（被替代叙事）
 - [[日志分析]] — 场景化排查方法论
 - [[awk]] — access.log 列处理工具
+- [[反向代理]] — 生产配置场景一
+- [[负载均衡]] — upstream 分发策略
+- [[限流]] — limit_req/limit_conn
+- [[动静分离]] — 静态资源与接口分流
+- [[摘要-nginx生产级配置实战]] — 来源（四场景配置速查）

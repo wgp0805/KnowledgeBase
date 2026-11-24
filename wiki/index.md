@@ -4458,3 +4458,48 @@
 
 ## 更新 (2026-11-19 二)
 - [[TiDB]]（+苏三实操补充章节：一句话定位 / AUTO_RANDOM 与 _tidb_rowid 跳号坑 / 迁移三步 / AI 慢查询分析与部分索引 / Kimi.ai-Flipkart-擎文案例 / 适用场景速查；Region 96MB vs 144MB 口径说明）、[[PingCAP]]（+TiDB Cloud AI Agent 基础设施与规模化验证）、[[苏三]]（+2026-11-19 TiDB 文章条目）
+
+## Sources (2026-11-24 ingest)
+- [[摘要-8个docker神器]] — 11 个可自托管的 Docker 镜像清单（code-server/CloudBeaver/青龙/PocketBase/Homer/Uptime-Kuma/Memos/Umami/Flame/Filebrowser/Dockge）及最简 run/compose 配置
+- [[摘要-spring-ai-2-1发布]] — Spring AI 2.1.0 GA 解读：Decision Models、Message Parts、Session API、工具确认与上限、MCP 无状态协议、自带向量
+- [[摘要-黑苹果续作-stela运行macos27]] — Stela 让 x86 PC 模拟 M2 Mac mini 运行 Apple Silicon 版 macOS 27，靠 AArch64→x86 指令翻译
+- [[摘要-为什么越来越多人用docling]] — Docling 把 PDF 解析从"抠字"升级为"还原结构"：DocLayNet 版面、TableFormer 表格、HybridChunker 切片
+- [[摘要-nginx生产级配置实战]] — Nginx 四场景配置速查：反代负载均衡、动静分离、限流防刷与 IP 黑白名单、HTTPS
+- [[摘要-harness2自进化框架]] — Google Research Harness2：把 harness 拆成 8 组件、两层递归自动改进，无需 ground truth
+- [[摘要-ruoyi-office-agentos实测]] — RuoYi Office 二测：单体/微服务双模式、Flowable 审批、AgentOS 会议预约实测（写操作必须本人确认）
+- [[摘要-springboot4-2发布]] — Spring Boot 4.2 变更清单：RestTemplate/Pulsar/Janino 弃用移除、四个静默默认值变更、AMQP 1.0 与新启动优化
+
+## Entities (2026-11-24 ingest)
+- [[CodeServer]] — 浏览器里的完整 VS Code，可挂宿主机目录当文件管理器
+- [[CloudBeaver]] — DBeaver 团队的 Web 版多数据库管理工具
+- [[Dockge]] — 以 compose.yaml 为中心、支持多服务器的 Docker 管理面板
+- [[UptimeKuma]] — 自托管服务可用性监控与多渠道告警
+- [[Memos]] — 轻量自托管笔记/灵感流
+- [[Umami]] — 开源、隐私友好的网站访问统计（需 PostgreSQL）
+- [[Filebrowser]] — 带用户与权限管理的 Web 文件管理器
+- [[QingLong]] — 青龙面板：带 Web 界面的定时脚本任务管理器
+- [[PocketBase]] — 单文件 Serverless 后端（SQLite + 授权 + API + 实时订阅）
+- [[Homer]] — YAML 驱动的个人导航主页
+- [[Flame]] — 极简风自托管导航页/应用仪表盘
+- [[Stela]] — 在 x86 PC 上跑 Apple Silicon 版 macOS 的实验项目（源自黑苹果路线）
+- [[Docling]] — IBM 出品的结构化文档解析工具（DocLayNet + TableFormer + DoclingDocument）
+- [[Harness2]] — Google Research 的 harness 自动进化框架（8 组件 + 两层递归）
+- [[AgentOS]] — RuoYi Office 可独立部署的智能体层（OAuth2 身份 + 业务接口 + 写操作确认）
+- [[RestTemplate]] — Spring 老牌同步 HTTP 客户端，4.2 起整套基础设施被弃用
+- [[Apple]] — M 系列芯片与 macOS 生态的所有方，macOS 27 仅支持 Apple Silicon
+- [[IBM]] — 老牌企业 IT 与研究机构，Docling 的出品并捐给 Linux 基金会
+- [[Mesa]] — Linux 开源图形库实现，NIR 是 Stela 图形翻译的落地目标
+- [[AgentScope]] — 阿里系多智能体编排框架，可与 Spring AI 在 AgentOS 中切换
+- [[LlamaParse]] — LlamaIndex 团队的商业文档解析服务（与 Docling 本地方案对照）
+
+## Concepts (2026-11-24 ingest)
+- [[DecisionModel]] — Spring AI 2.1 的决策模型抽象：是非/单选/打分题 + 概率门控
+- [[指令集翻译]] — 让一种 CPU 架构执行另一种架构机器码的技术（AOT+JIT、寄存器映射、翻译缓存）
+- [[负载均衡]] — 按策略分发请求到多实例，含健康剔除与长连接复用
+- [[动静分离]] — 静态资源交给 Nginx/CDN、动态请求交给应用服务器的架构切分
+- [[AMQP]] — 消息队列协议标准：0-9-1（RabbitMQ 原生）与 1.0（OASIS 标准化）的区别
+- [[自托管]] — 把 SaaS 能力部署在自己服务器上的模式与常见风险
+- [[黑苹果]] — 非苹果硬件运行 macOS 的旧路线及其向指令翻译的转向
+
+## 更新 (2026-11-24)
+- [[SpringAI]]（+2.1 章节：Decision Models/Message Parts/Session API/工具确认与上限/MCP MODERN/自带向量；基于 Spring Boot 4.2）、[[SpringBoot]]（+4.2 变更表：弃用/静默变更/移除/AMQP 1.0/启动优化与迁移建议）、[[Nginx]]（+生产四场景配置速查）、[[RuoYiOffice]]（+技术底子与双模式、AgentOS、版本口径差异表）、[[ChatMemory]]（+Spring AI 2.1 Session API 取代说明与差异）、[[MCP协议]]（+2026-07-28 无状态版本）、[[RestClient]]（+4.2 正式替代 RestTemplate）、[[Docker]]（+自托管工具链）、[[Harness]]（+Harness2 自动进化视角）

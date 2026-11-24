@@ -21,7 +21,8 @@ sources:
   - raw/09-archive/优雅使用 Enum 提升 SpringBoot 配置管理效率！.md
   - raw/09-archive/2026-08-25 - 为什么越来越多人用gRPC？.md
   - raw/09-archive/2026-11-16 - SpringBoot集成Hera，让日志查看从“找罪证”变“查答案”！.md
-last_updated: 2026-11-17
+  - "raw/09-archive/SpringBoot4.2正式发布，人麻了！.md"
+last_updated: 2026-11-24
 ---
 
 ## 定义
@@ -98,6 +99,28 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 - 生产要点：异步队列/批量传输防阻塞、Agent 多节点 + 本地缓存断线补发防丢、mask-fields 脱敏 + 按"服务+环境"控权
 - 详见 [[摘要-springboot集成hera日志平台]]
 
+### SpringBoot 4.2.0（2026-11-19 发布，来源：[[摘要-springboot4-2发布]]）
+核心变化不是"新功能多"，而是**老东西被弃用、老配置的默认值被静默改动**。
+
+**弃用（有 warning，不是移除）**：
+- [[RestTemplate]] 全家桶：`RestTemplateAutoConfiguration`、`RestTemplateObservationAutoConfiguration`、`RestTemplateBuilder`、`RestTemplateBuilderConfigurer`、`RestTemplateCustomizer` 与测试用 `TestRestTemplate` 全部弃用，替代方案 [[RestClient]] / `RestTestClient`
+- Apache [[Pulsar]] 支持：Spring for Apache Pulsar 最终版 **2.0.8**，后续维护移交 Apache 的 "Apache Pulsar support for Spring"
+- `KafkaProperties.buildConsumerProperties()/buildProducerProperties()/buildAdminProperties()` → `KafkaConfigBuilder`（只影响手动调用者）
+
+**静默变更（无 warning，最危险）**：
+| 配置 | 变化 | 影响 | 恢复 |
+| --- | --- | --- | --- |
+| `server.tomcat.servlet.use-relative-redirects` | 默认 false → true | 重定向 Location 从绝对 URL 变相对路径 | 显式设 false |
+| `X-Forwarded-Prefix` | 4.2 默认忽略 | `native` 策略下 `contextPath` 由 `/api` 变空，生成链接丢前缀 | framework 策略设 `spring.webflux.forwarded-headers.use-forwarded-prefix=true`；通用开关 `server.request.header.forwarded.use-prefix=true`；native 只能换策略或写 `NettyServerCustomizer` |
+| WebFlux multipart | 大小/数量限制更明确 | 接近阈值的上传运行时被拒，编译期无感 | 检查 `spring.webflux.multipart.*` |
+| `server.tomcat.use-relative-redirects` | 挪到 `server.tomcat.servlet.*` | 旧配置可用但有弃用警告 | 改到新位置 |
+
+**移除**：Janino 依赖管理（Logback 移除 Janino 支持、项目已归档），`pom.xml` 不写版本号会编译失败。
+
+**两个新能力**：①[[AMQP]] 1.0 官方 starter 支持——OASIS 标准化协议，与 RabbitMQ 的 0-9-1 共存，多语言架构可用同一协议通信；②**可执行 jar 启动更快**（优化类加载与资源定位，对 Serverless/FaaS/K8s 频繁扩缩容有意义；war 与 Native Image 不受影响）。
+
+**时间压力**：4.1.x 开源支持到 **2027-07-31**，"先不升"有保质期。迁移建议：新代码直接用 RestClient、老代码分批迁；查 `application.yml` 是否依赖上述默认值；Janino 补版本号；升级后重点回归重定向与转发头用例。
+
 ## 关联连接
 - [[Spring]] — 基础框架
 - [[SpringMVC]] — Web MVC 框架
@@ -124,3 +147,8 @@ Spring Boot 4 将原先单体式的 `spring-boot-autoconfigure` 拆分为多个�
 - [[摘要-springboot4-模块化架构]] — Spring Boot 4 自动配置模块化重构来源
 - [[Hera]] — 日志平台集成（starter 无侵入采集，2026-11-16）
 - [[摘要-springboot集成hera日志平台]] — SpringBoot 集成 Hera 完整落地来源
+- [[RestTemplate]] — 4.2 起被弃用的 HTTP 客户端
+- [[RestClient]] — 官方替代方案
+- [[AMQP]] — 4.2 新增 1.0 协议支持
+- [[Pulsar]] — 支持被移交 Apache
+- [[摘要-springboot4-2发布]] — 来源（Spring Boot 4.2 变更清单与迁移）
