@@ -2,8 +2,8 @@
 title: "摘要-rbac权限系统设计"
 type: source
 tags: [来源, 原始文件, RBAC, SpringSecurity, JWT, 权限]
-sources: [raw/09-archive/万能通用！权限系统就该这么设计.md]
-last_updated: 2026-11-11
+sources: [raw/09-archive/万能通用！权限系统就该这么设计.md, raw/09-archive/2026-11-24 - 万能通用！权限系统就该这么设计.md]
+last_updated: 2026-11-25
 ---
 
 ## 核心摘要
@@ -27,6 +27,8 @@ last_updated: 2026-11-11
 **六、数据库认证**：`configure(AuthenticationManagerBuilder auth)` 传入 `userDetailsService` 实现类查库验证；`antMatchers("/admin/**").hasRole("admin")` 按角色拦截
 
 **小结**：RBAC（模型与粒度）+ Spring Security（框架能力：内存/数据库认证、请求拦截）+ JWT（无状态令牌）+ JSON 登录（前后端分离）+ BCrypt（密码存储）构成一套完整的传统权限系统方案。
+
+> **重复剪藏（2026-11-25）**：`2026-11-24 - 万能通用！权限系统就该这么设计.md`（公众号「Java学习者社区」转载，同源自 segmentfault）与本文为同一篇文章的重复剪藏——章节结构（RBAC 权限分析 → SpringSecurity 简单使用 → 集成 JWT → JSON 登录 → 密码加密 → 数据库认证 → 小结）与正文逐节一致，仅转载账号与发布时间不同。**不重复建页**，仅将路径补入 sources 作第二来源，源文件重命名后归档。
 
 ## 关联连接
 - [[rbac]] — 核心权限模型（本文补全 RBAC0/1/2/3 四模型）

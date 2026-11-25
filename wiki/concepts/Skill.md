@@ -168,3 +168,6 @@ Tool 与 Skill 的区别：Tool 是功能型（执行原子操作），Skill 是
 - [[摘要-skills-vs-prompt-辨析]] — Skills 与 Prompt 本质差异辨析来源
 - [[Skill撰写指令]] — 五段式撰写指令结构
 - [[摘要-如何从0-1写好一个skill]] — 来源（0-1 撰写 Skill 的完整流程与调优三维度）
+- [[个人Skill定制七步法]] — 个人专属 Skill 的定制流程（去 AI 味练手案例，SkillsBench 实证）
+- [[摘要-做自己的skill小白教程]] — 来源（2026-11 定制教程）
+- [[Humanizer]] / [[HumanizerZh]] — 去 AI 味 Skill 实例（英文原版/中文版）

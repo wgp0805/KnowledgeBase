@@ -4503,3 +4503,19 @@
 
 ## 更新 (2026-11-24)
 - [[SpringAI]]（+2.1 章节：Decision Models/Message Parts/Session API/工具确认与上限/MCP MODERN/自带向量；基于 Spring Boot 4.2）、[[SpringBoot]]（+4.2 变更表：弃用/静默变更/移除/AMQP 1.0/启动优化与迁移建议）、[[Nginx]]（+生产四场景配置速查）、[[RuoYiOffice]]（+技术底子与双模式、AgentOS、版本口径差异表）、[[ChatMemory]]（+Spring AI 2.1 Session API 取代说明与差异）、[[MCP协议]]（+2026-07-28 无状态版本）、[[RestClient]]（+4.2 正式替代 RestTemplate）、[[Docker]]（+自托管工具链）、[[Harness]]（+Harness2 自动进化视角）
+
+## Sources (2026-11-25 ingest)
+- [[摘要-做自己的skill小白教程]] — 秋芝2046：以"去 AI 味"练手七步做自己的 Skill——选高频任务/找底子（Humanizer）/从 10 篇语料提炼个人风格清单/边改边教/整理并拆分文件/三子 Agent 盲评/用规律替代禁令，SkillsBench 实证人磨出的 Skill 平均涨 16.6 点
+- [[摘要-为什么越来越多人用playwright]] — 苏三：Playwright 不是 Selenium 替代品而是为现代 Web 重新设计——自动等待（可操作性检查+Web-first 断言，不稳定率 12%→2%）/WebSocket+CDP 架构代差/BrowserContext 并行隔离/网络拦截/Trace Viewer，附选型边界与 Java 入门
+
+## Entities (2026-11-25 ingest)
+- [[Humanizer]] — blader 的英文原版"去 AI 味" Skill（约 7 万 Star、6 种 AI 腔），个人文风 Skill 的成熟底子，与中文版 [[HumanizerZh]] 为原版/移植版关系
+- [[Playwright]] — 微软 2020 发布的 Web UI 自动化工具，WebSocket+CDP 直连内核，以自动等待/BrowserContext 隔离/Trace Viewer 为核心，为现代 Web 重新设计而非 Selenium 替代品
+
+## Concepts (2026-11-25 ingest)
+- [[个人Skill定制七步法]] — 秋芝2046 的个人专属 Skill 定制流程：选高频任务→找底子→从个人样本提炼标准→边改边教→整理成 Skill→盲评→迭代；核心是"你独有的标准"而非规则堆叠
+- [[自动等待]] — Playwright 核心机制：操作前可操作性检查（稳定/不被遮挡）+ Web-first 断言自动重试，让"等多久"从测试代码消失，flaky test 根治方案
+
+## 更新 (2026-11-25)
+- [[Kiro]]（+Kiro Crew 开源 Agent 工作台形态章节）、[[SkillCreator]]（+定制个人 Skill 与保留署名/协议）、[[秋芝2046]]（+Skill 定制教程来源）、[[苏三]]（+Playwright 来源与章节）、[[HumanizerZh]]（+英文原版互链）、[[去AI味]]（+个人风格清单路径与"用规律替代禁令"）、[[Skill]]（+个人定制方法论关联）、[[摘要-rbac权限系统设计]]（+重复剪藏第二来源与注记）
+- 注：权限系统篇为同一篇文章的重复剪藏（转载账号/发布时间不同），不新建页面，仅补来源并重命名归档

@@ -2,8 +2,8 @@
 title: "SkillCreator"
 type: entity
 tags: [Claude Code, Anthropic, 元技能, 工具]
-sources: [raw/09-archive/skill-creator使用与优化指南.pdf, raw/09-archive/2026-08-24-GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗.md]
-last_updated: 2026-08-25
+sources: [raw/09-archive/skill-creator使用与优化指南.pdf, raw/09-archive/2026-08-24-GitHub上一个”技能包”月增5万星：Agent Skills正在抢走程序员的饭碗.md, raw/09-archive/2026-11-24 - 像高手一样做自己的 Skill！【小白教程】.md]
+last_updated: 2026-11-25
 ---
 
 ## 定义
@@ -50,6 +50,9 @@ skill-creator 是 Anthropic 为 Claude Code 官方提供的 Meta-Skill（元技�
 - PDF/Word 结构化信息提取
 - 公司 SOP 生成和员工入职文档
 
+### 定制个人专属 Skill（2026-11 补充）
+来自 [[摘要-做自己的skill小白教程]]：把"在底子上叠加个人标准"的做法用 skill-creator 固化成自己的 Skill——提示词为"在 [[Humanizer]] 基础上，把我们的风格清单和刚才这套做法改进去，存成一个新的 Skill，并且起一个自己的名字，把原作者署名和 MIT 协议留在文件里"。生成后还需两步人工收敛：**砍掉多余内容**（AI 只增不删，但 Skill 越短越有效——删掉 AI 本来就会的、与自己目标无关的英文习惯）与**拆分文件**（SKILL.md 只留主流程和目录，习惯清单/样文/统计进 reference/，脚本进 scripts/）。完整流程见 [[个人Skill定制七步法]]。
+
 ## 关联连接
 - [[ClaudeCode]] — 所属平台
 - [[meta-skill]] — 元技能概念
@@ -58,3 +61,6 @@ skill-creator 是 Anthropic 为 Claude Code 官方提供的 Meta-Skill（元技�
 - [[AgentSkills]] — 技能生态
 - [[mattpocock-skills]] — 通用代码自检技能包
 - [[摘要-agent-skills-经济学-月增5万星]] — 来源（Skills 经济学）
+- [[个人Skill定制七步法]] — 用 skill-creator 固化个人 Skill 的完整流程
+- [[摘要-做自己的skill小白教程]] — 来源
+- [[Humanizer]] — 被改造的底子
