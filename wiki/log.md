@@ -1,10 +1,10 @@
 ## [2026-11-25] ingest | 全量扫描 raw/ 处理 3 个文件（Skill 定制教程 / Playwright / 权限系统重复剪藏）
 - **变更**: 新增 Sources (2): [[摘要-做自己的skill小白教程]], [[摘要-为什么越来越多人用playwright]]; 新增 Entities (2): [[Humanizer]]（blader 的英文原版去 AI 味 Skill，约 7 万 Star/6 种 AI 腔，作为个人 Skill 定制底子）, [[Playwright]]（微软 2020 现代 Web 自动化工具：WebSocket+CDP 架构代差/自动等待/BrowserContext 隔离/Trace Viewer）; 新增 Concepts (2): [[个人Skill定制七步法]]（选高频→找底子→提炼个人标准→边改边教→整理成 Skill→盲评→迭代，含 SkillsBench 实证）, [[自动等待]]（可操作性检查 + Web-first 断言，flaky test 根治方案）; 增量合并既有页 (8): [[Kiro]]（+Kiro Crew 开源 Agent 工作台形态章节）, [[SkillCreator]]（+定制个人 Skill 用法与保留署名/协议）, [[秋芝2046]]（+Skill 定制教程来源）, [[苏三]]（+Playwright 来源与章节）, [[HumanizerZh]]（+英文原版互链）, [[去AI味]]（+个人风格清单路径与"用规律替代禁令"）, [[Skill]]（+个人定制方法论关联）, [[摘要-rbac权限系统设计]]（+重复剪藏第二来源与注记）; 更新 [[index.md]]（Sources +2 / Entities +2 / Concepts +2 / 更新 8 页）
-- **重复处理**: `2026-11-24 - 万能通用！权限系统就该这么设计.md`（公众号「Java学习者社区」转载，同源自 segmentfault）与 2026-11-11 已摄入的 [[摘要-rbac权限系统设计]]（sources 指向 `raw/09-archive/万能通用！权限系统就该这么设计.md`）为同一篇文章的重复剪藏——章节结构与正文逐节一致，仅转载账号与发布时间不同。**不重复建页**，仅在既有来源页 sources 补入第二路径并加注记；归档时重命名加日期前缀避免与既有归档同名冲突
+- **重复处理**: `2026-11-24 - 万能通用！权限系统就该这么设计.md`（公众号「Java学习者社区」转载，同源自 segmentfault）与 2026-11-11 已摄入的 [[摘要-rbac权限系统设计]]（sources 指向 `raw/09-archive/万能通用！权限系统就该这么设计.md`）为同一篇文章的重复剪藏——章节结构与正文逐节一致，仅转载账号与发布时间不同。**不重复建页**，仅在既有来源页 sources 补入第二路径并加注记；源文件已带日期前缀，与归档中无前缀原稿不冲突，直接归档
 - **冲突**: 无硬性知识冲突。两处口径说明：① [[Kiro]] 既有页讲"Spec 驱动 AI 编程工具"（2026-10-21），本次 Kiro Crew 为"开源 Agent 工作台"形态，同品牌不同定位，分节并存未覆盖；② [[Humanizer]]（blader 英文原版）与 [[HumanizerZh]]（op7418 中文版）为原版/移植版关系，非竞争替代，已互链
 - **死链预防**: Selenium / CDP / Appium / SkillsBench / GLM-5 / 亚马逊云科技 Agent 云服务工具包等无独立页概念全部纯文本标注；新页全部指向已存在页面或本批新建页面
-- **校验**: 待 lint 复跑（目标 0 死链 / 0 孤岛 / sources 缺失 0）
-- **归档**: 3 个源文件移动至 raw/09-archive/（权限篇加日期前缀重命名避冲突），raw/01-articles/ 清空
+- **校验**: lint 复跑 —— 总页面 3134，孤岛 0 / 死链 0 / frontmatter sources 指向 raw 缺失 0，健康度 100.0%；同名 stem 歧义 8 组（较上轮 +1：LlamaParse，历史遗留 concepts/entities 双页，非本批引入）
+- **归档**: 3 个源文件移动至 raw/09-archive/（权限篇源文件本就带日期前缀，与归档中无前缀原稿不冲突，直接移动），raw/01-articles/ 清空
 
 ## [2026-11-17] ingest | 全量扫描 raw/ 处理 3 个文件（Hera 日志平台 + 两笔摄入中断残留收尾：OnlyOffice 同名异文 / PostgreSQL 选型文）
 - **变更**: 新增 Sources (1): [[摘要-springboot集成hera日志平台]]; 新增 Entities (1): [[Hera]]（面向分布式系统的日志平台：Agent 无侵入采集 + 业务标签聚合、X-Hera-Trace-Id 全链路串联、ES/HDFS 分级存储省 60%、排障 2 小时→15 分钟）; 增量合并既有页 (11): [[SpringBoot]]（+Hera 日志平台集成章节）, [[ELK日志系统]]（+与 Hera 对照章节）, [[可观测性]]（+日志支柱工程化落地案例）, [[distributed-tracing]]（+请求头透传式日志串联实践）, [[ThreadLocal]]（+日志字段注入场景）, [[OnlyOffice]]（+2026-11-17 同名异文章节：选型/版本三条线/开发者四能力/SpringBoot 私有化实战）, [[document-key机制]]（+"文件 ID+版本号"key 策略与原子落盘）, [[PostgreSQL]]（+AI 时代选型论点章节：排名数据/扩展盘点/同库实务）, [[pgvector]]（+使用姿势与验证方法论）, [[混合检索]]（+PostgreSQL 同库混合检索三件套）, [[苏三]]（+OnlyOffice 同名异文来源与时间线）; 更新 [[index.md]]（Sources +3 / Entities +1 / 更新 11 页）
