@@ -2,8 +2,8 @@
 title: "JD-hotkey"
 type: entity
 tags: [开源框架, 高并发, 热key, 本地缓存, 京东, 稳定性]
-sources: [raw/09-archive/为什么越来越多人用JD-hotkey？.md]
-last_updated: 2026-10-27
+sources: [raw/09-archive/为什么越来越多人用JD-hotkey？.md, raw/01-articles/2026-11-25 - 为什么越来越多人用 JD-hotkey？.md]
+last_updated: 2026-11-26
 ---
 
 ## 定义
@@ -22,9 +22,15 @@ JD-hotkey（hotkey-client）是京东开源的热 key 探测与高并发缓存�
 - **适用场景**：秒杀/大促商品详情、爬虫/刷子用户识别（isHotKey 判用户 ID 高频访问直接限流）、热接口熔断、Redis 热 key 本地缓存、黑名单用户本地缓存；小流量内部系统与无突发流量业务不推荐
 - **效果**：大促期间经 hotkey 探测出的热 key 本地缓存占应用总访问量 50%+，多数请求走本地查询，减轻 Redis 层一半以上负担
 
+### 客户端接入实操与注意点（2026-11-25，程序汪视角，详见 [[摘要-jd-hotkey接入实操-程序汪]]）
+与苏三"探测不是缓存"的原理视角互补，本篇偏接入落地：四组件（etcd 配置中心 / client jar / worker 集群 / dashboard）不依赖 Redis，client 与 worker 走 [[Netty]] 长连接、worker 无状态扩容注册到 [[Etcd]] 后 client 自动感知。`ClientStarter.Builder()` 设 appName（须与控制台一致）/etcdServer/caffeineSize（默认 5 万）/pushPeriod（默认 500ms）后 `startPipeline()`；规则 JSON 如 `{"key":"product_","prefix":true,"interval":2,"threshold":20,"duration":600}`。`JdHotKeyStore` 四方法：`isHotKey`（判断并上报）/`get`（只读本地）/`smartSet`（仅热 key 才写）/`getValue`（读不到自动上报）。六条注意点：isHotKey 每调一次上报一次别重复调；pushPeriod 非越小越好（QPS 不高保持 500ms 免空上报）；依赖较新 Guava 否则启动 NoSuchMethodError；duration 结合业务更新频率免存旧数据；worker 至少两台；大促前可在控制台手工录入已知活动商品。
+
 ## 关联连接
 
-- [[摘要-jd-hotkey热key探测]] — 来源
+- [[摘要-jd-hotkey热key探测]] — 来源（苏三原理视角）
+- [[摘要-jd-hotkey接入实操-程序汪]] — 来源（程序汪接入实操视角）
+- [[缓存击穿]] — 热 key 失效瞬间集体回源的问题
+- [[程序汪]] — 接入实操来源作者
 - [[热key探测]] — 核心方法论概念
 - [[热点Key]] — 问题本体
 - [[京东]] — 出品方与验证方

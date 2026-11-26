@@ -1,4 +1,11 @@
-## [2026-11-25] ingest | 全量扫描 raw/ 处理 3 个文件（Skill 定制教程 / Playwright / 权限系统重复剪藏）
+## [2026-11-26] ingest | 全量扫描 raw/ 处理 3 个文件（JD-hotkey 接入实操 / 分布式定时任务选型 / oh-my-pi）
+- **变更**: 新增 Sources (3): [[摘要-jd-hotkey接入实操-程序汪]]、[[摘要-分布式定时任务框架选型]]、[[摘要-oh-my-pi-ide级终端agent]]; 新增 Entities (4): [[ElasticJob]]（当当 E-Job，Zookeeper+Curator 协调/数据分片/失效转移）、[[TBSchedule]]（阿里早期，Timer 非线程池/作业单一/文档缺失）、[[Saturn]]（唯品会基于 elastic-job v1，可部署 Docker）、[[OhMyPi]]（Stencil Labs 基于 Pi fork 的 IDE 级终端代理，31 工具/14 LSP/28 DAP）；新增 Concepts (5): [[分布式任务调度框架]]（DB 派 vs Zookeeper 派）、[[缓存击穿]]、[[LSP]]、[[DAP]]、[[AI编程]]; 增量合并既有页 (5): [[JD-hotkey]]（+程序汪接入实操章节）、[[Pi]]（+OhMyPi fork 章节）、[[MarioZechner]]（+OhMyPi fork）、[[XXL-JOB]]（+ElasticJob 对照）、[[Quartz]]（+ElasticJob 对照）; 更新 [[index.md]]（Sources +3 / Entities +4 / Concepts +5 / 更新 5 页）
+- **重复处理**: `2026-11-25 - 为什么越来越多人用 JD-hotkey？.md`（程序汪）与已摄入的 [[摘要-jd-hotkey热key探测]]（苏三）为同主题不同作者/不同视角的两篇——非重复剪藏，原理视角（"探测不是缓存"）已由苏三篇覆盖，本次程序汪篇贡献接入实操（四组件/初始化代码/规则 JSON/JdHotKeyStore 四方法/六条注意点），新建独立来源页并双向互链，[[JD-hotkey]] 追加实操章节
+- **冲突**: 无硬性知识冲突。[[Pi]]（极简 4 原语）与 [[OhMyPi]]（重装 31 工具 + LSP/DAP 的 IDE 路线）为上游/fork 的哲学对照，已分节注明非竞争替代
+- **死链预防**: X-Job/expectfly/Stencil Labs/can1357/Grok/Anthropic/OpenAI/VS Code/bun 安装脚本等无独立页概念全部纯文本标注；新建页全部指向已存在页面或本批新建页面（LSP 页原引用 [[VSCode]] 已确认无该页，改为纯文本 VS Code）
+- **归档**: 3 个源文件移动至 raw/09-archive/，raw/01-articles/ 清空
+
+
 - **变更**: 新增 Sources (2): [[摘要-做自己的skill小白教程]], [[摘要-为什么越来越多人用playwright]]; 新增 Entities (2): [[Humanizer]]（blader 的英文原版去 AI 味 Skill，约 7 万 Star/6 种 AI 腔，作为个人 Skill 定制底子）, [[Playwright]]（微软 2020 现代 Web 自动化工具：WebSocket+CDP 架构代差/自动等待/BrowserContext 隔离/Trace Viewer）; 新增 Concepts (2): [[个人Skill定制七步法]]（选高频→找底子→提炼个人标准→边改边教→整理成 Skill→盲评→迭代，含 SkillsBench 实证）, [[自动等待]]（可操作性检查 + Web-first 断言，flaky test 根治方案）; 增量合并既有页 (8): [[Kiro]]（+Kiro Crew 开源 Agent 工作台形态章节）, [[SkillCreator]]（+定制个人 Skill 用法与保留署名/协议）, [[秋芝2046]]（+Skill 定制教程来源）, [[苏三]]（+Playwright 来源与章节）, [[HumanizerZh]]（+英文原版互链）, [[去AI味]]（+个人风格清单路径与"用规律替代禁令"）, [[Skill]]（+个人定制方法论关联）, [[摘要-rbac权限系统设计]]（+重复剪藏第二来源与注记）; 更新 [[index.md]]（Sources +2 / Entities +2 / Concepts +2 / 更新 8 页）
 - **重复处理**: `2026-11-24 - 万能通用！权限系统就该这么设计.md`（公众号「Java学习者社区」转载，同源自 segmentfault）与 2026-11-11 已摄入的 [[摘要-rbac权限系统设计]]（sources 指向 `raw/09-archive/万能通用！权限系统就该这么设计.md`）为同一篇文章的重复剪藏——章节结构与正文逐节一致，仅转载账号与发布时间不同。**不重复建页**，仅在既有来源页 sources 补入第二路径并加注记；源文件已带日期前缀，与归档中无前缀原稿不冲突，直接归档
 - **冲突**: 无硬性知识冲突。两处口径说明：① [[Kiro]] 既有页讲"Spec 驱动 AI 编程工具"（2026-10-21），本次 Kiro Crew 为"开源 Agent 工作台"形态，同品牌不同定位，分节并存未覆盖；② [[Humanizer]]（blader 英文原版）与 [[HumanizerZh]]（op7418 中文版）为原版/移植版关系，非竞争替代，已互链

@@ -17,9 +17,11 @@ Mario Zechner，奥地利游戏开发者，libGDX 游戏引擎作者，Pi（极�
 - **libGDX**：Java 跨平台游戏开发框架，广泛用于 2D/3D 游戏开发
 - **Pi**：极简终端编码代理，系统提示词仅 200 Token，核心工具仅 4 个（read/write/edit/bash），支持 15+ Provider，GitHub 8.6 万 Star
 - **设计哲学**：极简主义，"给你原语而不是预烹饪好的功能"；"对 Agent 来说，你刻意不做什么，比你做什么更重要"
+- **OhMyPi fork**：其 Pi 被 Stencil Labs fork 扩展为 [[OhMyPi]]（内置 31 工具、LSP/DAP 的 IDE 级路线），与 Pi 本人的极简原语路线形成对照，详见 [[摘要-oh-my-pi-ide级终端agent]]
 
 ## 关联连接
 - [[Pi]] — Pi Agent 实体页面
+- [[OhMyPi]] — 基于 Pi fork 扩展的 IDE 级终端代理
 - [[libGDX]] — 创建的游戏引擎
 - [[摘要-推荐一个节省token的AI编程神器]] — 来源文章
 - [[摘要-pi-agent-保姆级全攻略]] — 来源（Pi 完整教程）

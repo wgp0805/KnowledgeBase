@@ -4519,3 +4519,24 @@
 ## 更新 (2026-11-25)
 - [[Kiro]]（+Kiro Crew 开源 Agent 工作台形态章节）、[[SkillCreator]]（+定制个人 Skill 与保留署名/协议）、[[秋芝2046]]（+Skill 定制教程来源）、[[苏三]]（+Playwright 来源与章节）、[[HumanizerZh]]（+英文原版互链）、[[去AI味]]（+个人风格清单路径与"用规律替代禁令"）、[[Skill]]（+个人定制方法论关联）、[[摘要-rbac权限系统设计]]（+重复剪藏第二来源与注记）
 - 注：权限系统篇为同一篇文章的重复剪藏（转载账号/发布时间不同），不新建页面，仅补来源并重命名归档
+
+## Sources (2026-11-26 ingest)
+- [[摘要-分布式定时任务框架选型]] — 小哈学Java 转载：分布式定时任务方案选型——定时任务与 MQ 边界四条、单机/分布式框架盘点，E-Job（elastic-job，Zookeeper）与 X-Job（xxl-job，数据库）九维度逐项对照，结论"数据量大服务器多用 E-Job、用户少管理简单用 X-Job"
+- [[摘要-oh-my-pi-ide级终端agent]] — 程序汪：oh-my-pi（omp，GitHub 38.1k Star）把 LSP/DAP 等 IDE 能力接进终端的编码代理——基于 Pi fork、TypeScript+Rust、60+ provider、31 工具/14 LSP/28 DAP，hashline 编辑与流式规则，短板是新、issues 多、上手成本高
+- [[摘要-jd-hotkey接入实操-程序汪]] — 程序汪拆解 JD-hotkey 接入实操：四组件架构、ClientStarter 初始化代码、规则配置 JSON、JdHotKeyStore 四方法、六条使用注意点，与苏三原理视角互补
+
+## Entities (2026-11-26 ingest)
+- [[ElasticJob]] — 当当开源的弹性分布式任务调度系统（E-Job），Zookeeper+Curator 协调、数据分片与失效转移，适合数据量大服务器多的场景
+- [[TBSchedule]] — 阿里早期开源分布式调度，代码陈旧用 Timer 非线程池、作业类型单一、文档缺失，已被现代框架超越
+- [[Saturn]] — 唯品会基于 elastic-job v1 自研的分布式调度平台，可部署到 Docker 容器
+- [[OhMyPi]] — Stencil Labs 基于 Pi fork 的 IDE 级终端编码代理（omp），内置 LSP/DAP 把语言服务器与真实调试器接进终端，与 Pi 极简哲学形成对照
+
+## Concepts (2026-11-26 ingest)
+- [[分布式任务调度框架]] — 多节点集群下可靠定时调度、防重复执行、弹性扩缩容的框架类别，DB 派（xxl-job/Quartz）与 Zookeeper 派（elastic-job）两大流派
+- [[缓存击穿]] — 单个热点 key 缓存失效瞬间大量并发穿透到数据库的现象，与穿透/雪崩的区别及缓解手段
+- [[LSP]] — 语言服务器协议，让工具懂类型/引用/符号的 IDE 标准通信协议
+- [[DAP]] — 调试适配器协议，让工具驱动真实调试器做运行时诊断的标准协议
+- [[AI编程]] — AI 辅助/代理编程的产品与技术类别，能力分层（文本字符串匹配 vs LSP/DAP 语义级操作）与产品形态
+
+## 更新 (2026-11-26)
+- [[JD-hotkey]]（+程序汪接入实操章节与来源：四组件/ClientStarter/规则 JSON/JdHotKeyStore 四方法/六条注意点）、[[Pi]]（+OhMyPi fork 章节）、[[MarioZechner]]（+OhMyPi fork 与互链）、[[XXL-JOB]]（+ElasticJob 对照与调度框架概念链接）、[[Quartz]]（+ElasticJob 与调度框架概念链接）

@@ -73,6 +73,9 @@ Pi 是由 [[MarioZechner]]（[[libGDX]] 创始人）创建的开源终端 AI 编
 - 真想要审批就自己写扩展：仓库提供 `permission-gate.ts` 示例，遇到 rm -rf、sudo、chmod 777 会弹窗确认
 - 与 Claude Code 的 deny 规则+分类器路线形成对照，两种哲学的共通点是"权限弹窗不等于安全"，详见 [[权限模式]] 与 [[沙箱]]
 
+### OhMyPi fork（2026-11-26，详见 [[摘要-oh-my-pi-ide级终端agent]]）
+Stencil Labs 基于 Pi fork 扩展出 [[OhMyPi]]（命令 omp），与 Pi 的极简哲学形成对照：Pi 只给 4 个原语工具，OhMyPi 则内置 31 个工具、14 个 LSP 操作、28 个 DAP 调试操作，把 IDE 的语言服务器与真实调试器能力接进终端，Rust 核心约 8 万行、GitHub 38.1k Star。可视为 Pi 生态里"重装 IDE 路线"的代表分支。
+
 ### questionnaire 问卷扩展工具（2026-10-15，详见 [[摘要-用户需求模糊时Agent怎么澄清]]）
 - Pi 的 `questionnaire` 是向用户提问的问卷扩展工具，设计上与 Claude Code 的 [[AskUserQuestion]] 同源：**默认开启 `allowOther`**，自动在选项列表最后追加一项 "Type something"，用户既能选推荐项也能输入自己的想法
 - **执行前先检查当前模式是不是 TUI**，不是就直接报错返回——从工具层堵住"后台/无头场景没人能回答却还在提问"的僵局
