@@ -2153,3 +2153,8 @@
 - **去重**: 「8 个 Docker 神器」标题与实际 11 个工具不符，按实际工具逐一建实体页（均为首次出现，无重叠页）；「为什么越来越多人用 Docling」为 Docling 首次建页（此前仅 [[BookToSkill]]/[[PoDroid]] 提及）；Harness2 与既有 [[Harness]]、[[HarnessEngineering]]、[[递归式自我改进]] 分工明确（研究框架 vs 概念/方法论），未新建重叠概念页；RuoYi Office 二测新建独立 Source 页而非覆盖首篇摘要，两篇互链；Spring AI 2.1 未新建 ChatMemory 别名页，改为在既有 [[ChatMemory]] 页内标注版本边界
 - **校验**: 新建 36 页 frontmatter（title/type/tags/sources/last_updated）与「关联连接」区块逐一核查；脚本扫描本次涉及 44 页的双链，主动修正 4 处死链（消息队列→[[MQ]]/[[message-queue]] 改写、虚拟机与 OpenGL 改为纯文本、粘性会话→[[会话保持]]）；来源摘要页 sources 字段统一写归档后路径 raw/09-archive/
 - **归档**: 8 个源文件已移动至 raw/09-archive/（保留原文件名）
+
+## [2026-11-27] query | 调研 PandaWiki 能否替代当前知识库及使用习惯适配
+- **输出**: 即时回答，未保存 synthesis。结论：PandaWiki 与本知识库不是同一类产物——前者是「对外发布的 AI 文档/问答站点」，后者是「供 Agent 读取的自生长编译层」，定位互补而非替代；按当前使用习惯（raw 只读 + wiki 双链 + AGENTS.md 规则）本知识库更适合，PandaWiki 适合承接"对外发布/对外答疑"这一增量场景
+- **依据**: PandaWiki 侧取一手来源 GitHub README（经 ghfast.top 镜像抓取，本地与 raw.githubusercontent 直连均失败）与 GitHub API 仓库元数据（TypeScript / AGPL-3.0 / 10579 Star / 2025-05-15 建仓）；知识库侧依据 [[LLMWiki]]、[[LLMWiki分层架构]]、[[自生长知识库]]、[[Obsidian]]、[[知识库]]
+- **注**: 本地知识库此前无 PandaWiki 记录（grep 无匹配），未新建 wiki 页面，待用户确认后再决定是否固化为 [[PandaWiki]] 实体页
