@@ -2,7 +2,7 @@
 title: "OhMyPi"
 type: entity
 tags: [AI编程, Agent, 终端, IDE, LSP, DAP, 开源工具]
-sources: [raw/01-articles/GitHub 38.1k Star 杀疯了！这个能联动 IDE 的终端 AI 编程神器你用了吗？.md]
+sources: [raw/09-archive/GitHub 38.1k Star 杀疯了！这个能联动 IDE 的终端 AI 编程神器你用了吗？.md]
 last_updated: 2026-11-26
 ---
 

@@ -4549,3 +4549,17 @@
 
 ## 更新 (2026-11-27)
 - [[LLMWiki]]（+与 PandaWiki 的边界互链）、[[自生长知识库]]（+选型对比互链）、[[编译器模式vs解释器模式]]（+PandaWiki 属解释器模式的判定）、[[OpenWiki]]（+PandaWiki 方向相反对照）、[[知识库]]（+PandaWiki 实体链接）、[[KnowledgeBase]]（+PandaWiki 对照链接）
+
+## Sources (2026-11-27 ingest)
+- [[摘要-spring-ai-2-1-苏三解读]] — 苏三视角的 Spring AI 2.1 GA 解读：工具调用确认（无状态暂停/恢复）、Message Parts（有序片段保真回放）、OpenAI Responses API（GPT-5.4 起工具+推理的必经端点）、DecisionModel（Choice/Noul/Score），论断为"从 AI 接入层变成 Agent 运行时"
+- [[摘要-deepseek防提示词注入]] — 沉默王二拆解 DSH 防提示词注入四层：入口过滤（不带凭据/禁跨源重定向/清隐藏内容/加不可信声明）、自动审查模式（剔除系统提示词与工具结果的独立审查员 + low/medium/high 三级）、三道兜底（凭据隔离、OS 沙箱、失败即拒绝审批）
+
+## Concepts (2026-11-27 ingest)
+- [[ToolCallConfirmation]] — Spring AI 2.1 的框架级工具调用确认：`@Tool(requiresConfirmation=true)` 让整个工具循环执行前暂停，应用给 allow/deny 决策后恢复；关键是暂停不保留状态，重启可恢复、多实例可接力
+- [[MessageParts]] — Spring AI 2.1 的消息片段模型：消息变为有序 MessagePart 列表（Text/Reasoning/ToolCall/ToolResult/Media/Unknown），UnknownPart 不静默丢数据，解决 Anthropic thinking 签名、Gemini thought signature、Responses encrypted_content 的保真回放
+- [[自动审查模式]] — DSH 在工具调用前插入的独立审查模型闸门：构造审查上下文时剔除主 Agent 系统提示词、模型自身输出与所有工具结果，按来源判权威性并分 low/medium/high 三级处置
+- [[指令层级]] — 模型层的注入防御：训练模型按来源排优先级（系统提示词 > 用户提示词 > 工具返回数据），低优先级内容不得冒充指令；Anthropic 用对抗强化学习在模拟网页里放隐藏注入样本
+- [[凭据隔离]] — Agent 安全的确定性兜底：配置文件只存环境变量引用名，子进程启动时默认擦除变量名含 KEY/PASSWORD/SECRET/TOKEN 及 DSH_ 前缀的变量，让注入即使骗过审查也拿不到密钥
+
+## 更新 (2026-11-27 ingest)
+- [[SpringAI]]（+苏三视角与"Agent 运行时"定位判断、修正 GA 日期为 2026-11-19、补迁移成本）、[[DecisionModel]]（+Choice/Noul/Score 与 YesNoQuestion/ChoiceQuestion 的「口径差异」对照表）、[[ChatMemory]]（+Session API 的 Turn 概念与可组合 compaction 策略：滑动窗口/按 Turn 窗口/Token 计数/递归摘要）、[[ResponsesApi]]（+Spring AI 侧 `spring.ai.openai.chat.api=responses` 切换、无状态设计、两端点互斥、encrypted_content 要求）、[[ToolCalling]]（+框架级确认机制、流式参数增量、调用上限）、[[HITL]]（+无状态暂停的工程形态演进）、[[沙箱]]（+DSH 三平台实现 Bubblewrap/Landlock/Seatbelt/受限令牌与策略绑定会话工作目录）、[[审批设计]]（+四状态审批与失败即拒绝、先读后改）、[[auto-mode]]（+与 DSH 自动审查模式的隔离范围对照表）、[[提示词注入防御]]（+DSH 四层落地实现对照表与压缩摘要检查点这一攻击面）、[[PromptInjection]]（+显式/间接注入两种入口形态）、[[DeepSeekHarness]]（+防提示词注入四层设计章节）、[[DeepSeekRecipe]]（+在 DSH 防注入体系中的分词层定位）、[[苏三]]、[[沉默王二]]、[[锋哥]]（+本次来源与关联）

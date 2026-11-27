@@ -2,8 +2,8 @@
 title: "SpringAI"
 type: entity
 tags: [AI框架, Spring, Java, LLM]
-sources: [raw/09-archive/SpringAI.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/09-archive/Spring AI 2.0真香！.md, raw/09-archive/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md, raw/09-archive/2026-08-01-Spring之父再次出山，开发了新的AI框架！ - 苏三说技术.md, "raw/09-archive/2026-11-22 - 夯爆了，Spring AI 2.1 正式发布 ！.md"]
-last_updated: 2026-11-24
+sources: [raw/09-archive/SpringAI.md, raw/09-archive/JAVA中AI框架选型指南（2026）.md, raw/09-archive/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/09-archive/Spring AI 2.0真香！.md, raw/09-archive/Spring AI 2.0 和 Spring AI Alibaba，哪个更好？.md, raw/09-archive/2026-08-01-Spring之父再次出山，开发了新的AI框架！ - 苏三说技术.md, "raw/09-archive/2026-11-22 - 夯爆了，Spring AI 2.1 正式发布 ！.md", "raw/09-archive/夯爆了，Spring AI 2.1 正式发布！.md"]
+last_updated: 2026-11-27
 ---
 
 ## 定义
@@ -57,20 +57,28 @@ Spring AI 2.0 将"工具调用循环"从各个 ChatModel 内部抽出来，统�
 - Embabel 解决「怎么让 AI Agent 在企业系统里稳定工作」，提供 Action/Goal/Condition 等完整 Agent 编程模型
 - 决策方式差异：Spring AI 命令式（开发者手动编排 ReAct 循环，每次决策都调 LLM）；Embabel 声明式（GOAP 引擎运行时动态计算最优路径，规划 0 Token，省 40-60% LLM 调用）
 
-### Spring AI 2.1（2026-11-22 GA，基于 Spring Boot 4.2，来源：[[摘要-spring-ai-2-1发布]]）
-距 2.0 GA 仅五个月，430+ 次提交，定位从"好用"转向"能撑起生产级 Agent"。**构建基线是 Spring Boot 4.2**，必须一起升级；依赖用 `spring-ai-bom:2.1.0`。
+### Spring AI 2.1（2026-11-19 GA，基于 Spring Boot 4.2，来源：[[摘要-spring-ai-2-1发布]]、[[摘要-spring-ai-2-1-苏三解读]]）
+距 2.0 GA 约五到六个月（[[苏三]] 记为 2026-11-19 发布，距 2.0 GA 半年；[[锋哥]] 记为 430+ 次提交），定位从"好用"转向"能撑起生产级 Agent"。**构建基线是 Spring Boot 4.2**，必须一起升级；依赖用 `spring-ai-bom:2.1.0`。
 
 | 特性 | 一句话说明 |
 | --- | --- |
 | [[MCP协议]] 2026-07-28 | 无状态新协议（无握手无会话，每请求自带协议版本与能力），服务端 `spring.ai.mcp.server.protocol=MODERN` 一行切换，`@McpTool` 注解不用改；客户端可新老混用，新协议默认 `PER_REQUEST` |
 | [[DecisionModel]] | 专做是非题/单选题/打分题，并给出概率；`isYes(0.9)` 把"模型判断"与"业务动作"用阈值隔开；已被 `DecisionDocumentReranker`、`DecisionToolIndex` 采用 |
-| Message Parts | 消息改为有序片段列表（Text/Reasoning/ToolCall/ToolResult/Media/Unknown），保住推理过程与工具调用顺序，Anthropic thinking 签名可原样回传；`getText()`/`getToolCalls()` 降级为视图，老代码不改 |
+| Message Parts | 消息改为有序片段列表（Text/Reasoning/ToolCall/ToolResult/Media/Unknown），保住推理过程与工具调用顺序，Anthropic thinking 签名可原样回传；`getText()`/`getToolCalls()` 降级为视图，老代码不改，详见 [[MessageParts]] |
 | Session API | 取代 [[ChatMemory]]：只追加事件日志、按轮次边界压缩、`conversation_search` 回溯被压缩内容、`JdbcSessionRepository` 支持 PG/MySQL/MariaDB/SQL Server/H2；故意不提供默认会话，Advisor 无状态所以多实例可接力 |
-| 工具调用确认 & 上限 | `@Tool(requiresConfirmation=true)` + `ToolCallDecisions` allow/deny，暂停与恢复都是普通请求因而无状态；默认单工具每轮 40 次、总共 150 次（`spring.ai.tools.limits.*`） |
+| 工具调用确认 & 上限 | `@Tool(requiresConfirmation=true)` + `ToolCallDecisions` allow/deny，暂停与恢复都是普通请求因而无状态；默认单工具每轮 40 次、总共 150 次（`spring.ai.tools.limits.*`），详见 [[ToolCallConfirmation]] |
 | 自带向量 | `vectorStore.upsert()` 写入已算好的向量、直接用查询向量做相似度检索，覆盖 11 种向量库；`TokenTextSplitter` 支持分块重叠 |
 | 安全 | 修复 13 个 CVE；护栏拒绝统一为 `GuardrailRefusal` / `ContentFilteredException` |
 
 其他：新增 `OpenAiResponsesChatModel` 对接 `/v1/responses`（GPT-5.4 起"工具调用 + 推理强度"必须走 Responses API，切一行 `spring.ai.openai.chat.api=responses`）；`Generation` 统一带 `FinishReasonCategory`（COMPLETED/TRUNCATED/TOOL_CALL/FILTERED），不必为各家 stop 原因写 if-else。`ChatMemory` 相关类已废弃、计划 3.0.0 移除，新项目直接上 Session。
+
+### 2.1 的定位判断：从「AI 接入层」变成「Agent 运行时」
+
+[[苏三]] 的解读（[[摘要-spring-ai-2-1-苏三解读]]）给出与官方清单不同的观察角度：2.0 的定位还是「connecting enterprise Data and APIs with the AI Models」，**刻意不做 Agent Framework**；2.1 的四大特性（[[ToolCallConfirmation|工具调用确认]]、[[MessageParts]]、Responses API、[[DecisionModel]]）合起来看，实际把框架推向了「**Agent 运行时**」——它开始管住工具执行时机、消息保真回放、推理端点选择、概率化决策这四件「跑起来才需要」的事。
+
+**迁移成本要正视**：构建基线必须升到 Spring Boot 4.2；Message Parts 在 M1 阶段只有 `OpenAiResponsesChatModel` 原生产出/消费，Ollama/Anthropic/Chat Completions 等要到 RC1 才重构完，跨 provider 项目按具体实现核对；DecisionModel 需要额外配置（OpenAI 要 Key、Ollama 需拉本地模型）；**跨多 Agent 等待人工确认的流转仍属 Spring AI Agent 规划范围，不在 2.1 核心能力内**。
+
+两篇来源对 DecisionModel 的 API 命名口径不同（`ChoiceQuestion`/`YesNoQuestion` vs `Choice`/`Noul`），详见 [[DecisionModel]] 的「口径差异」区块。
 
 ## 关联连接
 - [[SpringBoot]] — 基础框架（2.1 基于 Spring Boot 4.2）
@@ -91,4 +99,9 @@ Spring AI 2.0 将"工具调用循环"从各个 ChatModel 内部抽出来，统�
 - [[synthesis-spring-ai-rag-vs-agent]] — Spring AI 生态 RAG 与 Agent 应用分布分析
 - [[DecisionModel]] — 2.1 新增的决策模型 API
 - [[摘要-spring-ai-2-1发布]] — 来源（Spring AI 2.1 发布解读）
+- [[摘要-spring-ai-2-1-苏三解读]] — 来源（苏三视角：Agent 运行时定位）
+- [[ToolCallConfirmation]] — 2.1 引入的工具调用确认机制
+- [[MessageParts]] — 2.1 的消息片段模型
+- [[ResponsesApi]] — `OpenAiResponsesChatModel` 对接的端点
+- [[苏三]] — 2.1 解读作者
 - [[AgentScope]] — 可与 Spring AI 切换的多 Agent 编排框架（RuoYi Office AgentOS 实践）

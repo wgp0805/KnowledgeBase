@@ -2,7 +2,7 @@
 title: "JD-hotkey"
 type: entity
 tags: [开源框架, 高并发, 热key, 本地缓存, 京东, 稳定性]
-sources: [raw/09-archive/为什么越来越多人用JD-hotkey？.md, raw/01-articles/2026-11-25 - 为什么越来越多人用 JD-hotkey？.md]
+sources: [raw/09-archive/为什么越来越多人用JD-hotkey？.md, raw/09-archive/2026-11-25 - 为什么越来越多人用 JD-hotkey？.md]
 last_updated: 2026-11-26
 ---
 

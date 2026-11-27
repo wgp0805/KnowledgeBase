@@ -2,7 +2,7 @@
 title: "摘要-jd-hotkey接入实操-程序汪"
 type: source
 tags: [来源, 原始文件, 热key, 高并发, 本地缓存]
-sources: [raw/01-articles/2026-11-25 - 为什么越来越多人用 JD-hotkey？.md]
+sources: [raw/09-archive/2026-11-25 - 为什么越来越多人用 JD-hotkey？.md]
 last_updated: 2026-11-26
 ---
 

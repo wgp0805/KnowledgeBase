@@ -2,7 +2,7 @@
 title: "AI编程"
 type: concept
 tags: [AI, 编程, Agent, 代码生成, IDE]
-sources: [raw/01-articles/GitHub 38.1k Star 杀疯了！这个能联动 IDE 的终端 AI 编程神器你用了吗？.md]
+sources: [raw/09-archive/GitHub 38.1k Star 杀疯了！这个能联动 IDE 的终端 AI 编程神器你用了吗？.md]
 last_updated: 2026-11-26
 ---
 

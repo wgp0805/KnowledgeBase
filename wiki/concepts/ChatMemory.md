@@ -2,8 +2,8 @@
 title: "ChatMemory"
 type: concept
 tags: [AI, 对话记忆, 上下文]
-sources: [raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/09-archive/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/09-archive/Spring AI 2.0真香！.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md", "raw/09-archive/2026-11-22 - 夯爆了，Spring AI 2.1 正式发布 ！.md"]
-last_updated: 2026-11-24
+sources: [raw/09-archive/LangChain4j 来了，Java AI智能体开发再次起飞。。。.md, raw/09-archive/Spring AI 2.0 高效开发 Agent， 我总结了九条经验。。。.md, raw/09-archive/Spring AI 2.0真香！.md, "raw/09-archive/2026-10-23-Spring AI Alibaba -- 文生图、文生音及向量化 - NE_STOP.md", "raw/09-archive/2026-11-22 - 夯爆了，Spring AI 2.1 正式发布 ！.md", "raw/09-archive/夯爆了，Spring AI 2.1 正式发布！.md"]
+last_updated: 2026-11-27
 ---
 
 ## 定义
@@ -45,6 +45,18 @@ ChatMemory 是对话级短期记忆（一次会话内），CLAUDE.md/Auto Memory
 - **无默认会话**：框架故意不提供默认会话（避免不同用户记录混在一起）；Advisor 本身不保存状态，因此多实例部署时任意实例都能接着处理同一会话
 - 本页上文的 `MessageChatMemoryAdvisor` 等基于 ChatMemory 的用法，在 2.1 新项目中应迁移为 Session Advisor
 
+### Session API 的 Turn 与 compaction 策略（来源：[[摘要-spring-ai-2-1-苏三解读]]）
+[[苏三]] 的解读把 Session API 的压缩机制讲得更细，可作为上一节的补充：
+
+- **Turn（轮次）是一等概念**：会话由 Turn 组成，每个 Turn 对应「用户发一条 → 模型（可能带工具调用）答完」的完整闭环。压缩的最小单位是 Turn，不是单条消息——这是它能避免「有工具调用、没工具结果」残缺状态的根因
+- **可组合的 compaction 触发器 + 策略**：压缩不是一种固定算法，而是「**什么时候压**（触发器）」与「**怎么压**（策略）」两个可插拔维度组合。文中给出的策略包括：
+  - **滑动窗口**（保留最近 N 个 Turn）
+  - **按 Turn 窗口**（按轮数而非消息数计）
+  - **Token 计数**（按预算裁剪）
+  - **递归摘要**（把旧 Turn 摘要成一条，可多级递归）
+- **配套组件**：`SessionMemoryAdvisor`（把 Session 挂到 ChatClient 的 Advisor）、内置 `conversation_search` 工具（让模型自己回查被压缩内容）
+- 注意：`SessionMemoryAdvisor`、compaction 策略类名在不同 2.1 快照中可能调整，落地前以实际版本核对
+
 ## 关联连接
 - [[LangChain4j]] — ChatMemory 框架
 - [[RAG]] — 检索增强（长期知识）
@@ -56,3 +68,5 @@ ChatMemory 是对话级短期记忆（一次会话内），CLAUDE.md/Auto Memory
 - [[摘要-spring-ai-alibaba-文生图文生音向量化]] — 来源（SAA starter-memory-redis 侧实践）
 - [[SpringAI]] — 所属框架（2.1 起用 Session API 取代本机制）
 - [[摘要-spring-ai-2-1发布]] — 来源（Session API 取代 ChatMemory 的版本依据）
+- [[摘要-spring-ai-2-1-苏三解读]] — 来源（Turn 概念与 compaction 策略细节）
+- [[上下文压缩]] — 压缩策略的通用概念

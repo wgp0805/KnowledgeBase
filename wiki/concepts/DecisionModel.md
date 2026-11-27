@@ -2,8 +2,8 @@
 title: "DecisionModel"
 type: concept
 tags: [概念, SpringAI, 决策, 概率]
-sources: ["raw/09-archive/2026-11-22 - 夯爆了，Spring AI 2.1 正式发布 ！.md"]
-last_updated: 2026-11-24
+sources: ["raw/09-archive/2026-11-22 - 夯爆了，Spring AI 2.1 正式发布 ！.md", "raw/09-archive/夯爆了，Spring AI 2.1 正式发布！.md"]
+last_updated: 2026-11-27
 ---
 
 ## 定义
@@ -21,6 +21,21 @@ DecisionModel 是 [[SpringAI]] 2.1 引入的模型抽象，专做"是/否、单�
 - **已被框架自身采用**：RAG 的 `DecisionDocumentReranker`（文档重排序）、`DecisionDocumentFilter`（过滤提示词注入）、工具检索的 `DecisionToolIndex`
 - **边界**：它是机器学习模型不是规则引擎，判错代价高的场景必须保留人工确认环节
 
+## 口径差异（两篇来源的 API 命名不同）
+
+2.1 的两篇中文解读对 DecisionModel 的 API 用了**不同命名**，属同一能力的表述差异，不是版本冲突，按实际版本核对：
+
+| | [[摘要-spring-ai-2-1发布]]（[[锋哥]]） | [[摘要-spring-ai-2-1-苏三解读]]（[[苏三]]） |
+| --- | --- | --- |
+| 答案类型 | `YesNoQuestion` / `ChoiceQuestion` / `ScoreQuestion` | `Choice` / `Noul`（是/否概率）/ `Score` |
+| 组装方式 | `DecisionPrompt` 内并列多题 | `DecisionRequest.builder().choice("category","工单分类","billing","technical","other").noul("is_urgent","是否紧急")` |
+| 取值方式 | `response.getYesNo("defect").isYes(0.9)` | `response.getNoul("is_urgent").isYes(0.9)` |
+| 触发方式 | 未展开 | `decisionModel.evaluate(...)` |
+
+两者共同点（这部分可放心依赖）：**三种题型（是非 / 单选 / 打分）、每题返回概率、用 `isYes(阈值)` 做业务门控、支持一次调用并列多题**。差异集中在 builder/response 的方法名上——`getYesNo` 与 `getNoul` 指向同一个「是非题概率」语义。落地时以项目实际引入的 2.1.0 版本 API 为准，不要照抄任一篇文章的方法名。
+
+关于实现，两篇口径一致：`OpenAiDecisionModel`（配 `spring.ai.openai.decision`）、`OllamaDecisionModel`（默认 `d1-omni:600m`，本地跑无需 Key）、`SystemOneDecisionModel`（TypeSafe Java SDK，兼容 Jev/Laya 的 System One 协议，**不自动配置**，需手建 `TypeSafeClient`）。
+
 ## 关联连接
 - [[SpringAI]] — 所属框架
 - [[SystemOneModels]] — 打分型模型族
@@ -29,3 +44,5 @@ DecisionModel 是 [[SpringAI]] 2.1 引入的模型抽象，专做"是/否、单�
 - [[RAG]] — Reranker/Filter 的落地点
 - [[工具路由]] — DecisionToolIndex 的分工
 - [[摘要-spring-ai-2-1发布]] — 来源
+- [[摘要-spring-ai-2-1-苏三解读]] — 来源（另一套 API 命名口径）
+- [[SystemOne]] — System One 决策模型的理论出处
