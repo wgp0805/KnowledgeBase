@@ -3,7 +3,7 @@ title: "KnowledgeBase"
 type: concept
 tags: [知识管理, RAG, AI产品]
 sources: [raw/09-archive/2026-08-31-5步，用AI把客户常见问题变成自动回复系统.md]
-last_updated: 2026-09-15
+last_updated: 2026-11-27
 ---
 
 ## 定义
@@ -38,3 +38,5 @@ last_updated: 2026-09-15
 - [[Feishu]] — 飞书知识库工具
 - [[摘要-5步用ai把客户常见问题变成自动回复系统]] — 来源
 - [[摘要-cherry-studio-knowledge-base]] — Cherry Studio 知识库搭建
+- [[PandaWiki]] — 同类工具：对外文档站 + AI 问答
+- [[pandawiki-vs-llmwiki-选型对比]] — 知识库工具选型判断

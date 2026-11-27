@@ -4540,3 +4540,12 @@
 
 ## 更新 (2026-11-26)
 - [[JD-hotkey]]（+程序汪接入实操章节与来源：四组件/ClientStarter/规则 JSON/JdHotKeyStore 四方法/六条注意点）、[[Pi]]（+OhMyPi fork 章节）、[[MarioZechner]]（+OhMyPi fork 与互链）、[[XXL-JOB]]（+ElasticJob 对照与调度框架概念链接）、[[Quartz]]（+ElasticJob 与调度框架概念链接）
+
+## Entities (2026-11-27 query 新增)
+- [[PandaWiki]] — 长亭科技开源的 AI 驱动知识库搭建系统（TypeScript / AGPL-3.0 / 约 1.05 万 Star），面向产品文档、技术文档、FAQ、博客站，提供 AI 创作/问答/搜索，需 Linux+Docker 部署且必须先配 AI 模型
+
+## Syntheses (2026-11-27 query 新增)
+- [[pandawiki-vs-llmwiki-选型对比]] — PandaWiki 能否替代本地 LLM Wiki 的完整判断：两者非同类产物（对外文档站 vs 供 Agent 读的编译层），按现有使用习惯本知识库更适合，PandaWiki 应作发布与交互层并存
+
+## 更新 (2026-11-27)
+- [[LLMWiki]]（+与 PandaWiki 的边界互链）、[[自生长知识库]]（+选型对比互链）、[[编译器模式vs解释器模式]]（+PandaWiki 属解释器模式的判定）、[[OpenWiki]]（+PandaWiki 方向相反对照）、[[知识库]]（+PandaWiki 实体链接）、[[KnowledgeBase]]（+PandaWiki 对照链接）

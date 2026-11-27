@@ -3,7 +3,7 @@ title: "编译器模式vs解释器模式"
 type: concept
 tags: [概念, 知识库, RAG, LLM Wiki, 架构范式]
 sources: [raw/09-archive/为什么越来越多人用OpenWiki？.md]
-last_updated: 2026-09-15
+last_updated: 2026-11-27
 ---
 
 ## 定义
@@ -42,3 +42,5 @@ last_updated: 2026-09-15
 - [[确定性下沉]] — 把判断前置到编译阶段
 - [[自生长知识库]] — 持续增量编译的形态
 - [[WeKnora]] — Wiki Mode 类似的自动编译
+- [[PandaWiki]] — 典型解释器模式：站点内检索 + 生成，不沉淀为可复用知识层
+- [[pandawiki-vs-llmwiki-选型对比]] — 该分野在具体选型上的应用

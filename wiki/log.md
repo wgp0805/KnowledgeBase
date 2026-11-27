@@ -2155,6 +2155,10 @@
 - **归档**: 8 个源文件已移动至 raw/09-archive/（保留原文件名）
 
 ## [2026-11-27] query | 调研 PandaWiki 能否替代当前知识库及使用习惯适配
-- **输出**: 即时回答，未保存 synthesis。结论：PandaWiki 与本知识库不是同一类产物——前者是「对外发布的 AI 文档/问答站点」，后者是「供 Agent 读取的自生长编译层」，定位互补而非替代；按当前使用习惯（raw 只读 + wiki 双链 + AGENTS.md 规则）本知识库更适合，PandaWiki 适合承接"对外发布/对外答疑"这一增量场景
-- **依据**: PandaWiki 侧取一手来源 GitHub README（经 ghfast.top 镜像抓取，本地与 raw.githubusercontent 直连均失败）与 GitHub API 仓库元数据（TypeScript / AGPL-3.0 / 10579 Star / 2025-05-15 建仓）；知识库侧依据 [[LLMWiki]]、[[LLMWiki分层架构]]、[[自生长知识库]]、[[Obsidian]]、[[知识库]]
-- **注**: 本地知识库此前无 PandaWiki 记录（grep 无匹配），未新建 wiki 页面，待用户确认后再决定是否固化为 [[PandaWiki]] 实体页
+- **变更**: 新增 Entities (1): [[PandaWiki]]; 新增 Syntheses (1): [[pandawiki-vs-llmwiki-选型对比]]; 增量更新既有页 (6): [[LLMWiki]]（+与 PandaWiki 的边界互链）、[[自生长知识库]]（+选型对比互链）、[[编译器模式vs解释器模式]]（+PandaWiki 属解释器模式的判定）、[[OpenWiki]]（+方向相反对照）、[[知识库]]（+PandaWiki 链接）、[[KnowledgeBase]]（+PandaWiki 对照链接）; 更新 [[index.md]]（Entities +1 / Syntheses +1 / 更新 6 页）
+- **输出**: 结论——PandaWiki 与本知识库不是同一类产物：前者是「对外发布的 AI 文档/问答站点」，后者是「供 Agent 读取的自生长编译层」，定位互补而非替代；按当前使用习惯（raw 只读 + wiki 双链 + AGENTS.md 规则 + ingest/query/lint 工作流）本知识库更适合，PandaWiki 适合承接"对外发布/对外答疑"这一增量场景
+- **依据**: PandaWiki 侧取一手来源 GitHub README（经 ghfast.top 镜像抓取，本地直连与 raw.githubusercontent 均失败）与 GitHub API 仓库元数据（TypeScript / AGPL-3.0 / 10579 Star / 1048 Fork / 2025-05-15 建仓 / pushed 2026-11-23）；知识库侧依据 [[LLMWiki]]、[[LLMWiki分层架构]]、[[自生长知识库]]、[[Obsidian]]、[[知识库]]
+- **冲突**: 无。PandaWiki 与 [[OpenWiki]]、[[WeKnora]]、[[腾讯乐享]]、[[Dify]]、[[CherryStudio]] 为**不同形态的知识库工具**（对外文档站 vs 供 Agent 编译层 vs 企业知识底座），已在各页以"坐标/对照"方式并存而非互相覆盖
+- **去重**: 本地知识库此前无 PandaWiki 记录（全库 grep 无匹配），本次为首次建页；未新建"AI 文档站""文档站生成器"等重叠概念页，判定口径并入 [[pandawiki-vs-llmwiki-选型对比]] 与 [[编译器模式vs解释器模式]]
+- **校验**: 2 个新页 frontmatter（title/type/tags/sources/last_updated）与「关联连接」区块核查；6 个既有页补双向链接并更新 last_updated；运行 scripts/lint_wiki.py：**总页面 3148 / 死链 0 / 孤岛 0 / frontmatter sources 缺失 0 / 健康度 100.0%**（8 处同名 stem 跨目录冲突为历史遗留，非本次引入）
+- **局限**: PandaWiki 官方文档站为 Next.js 单页应用、正文客户端渲染，仅取到导航外壳；权限模型、版本历史、检索实现细节未实测验证，已在 [[PandaWiki]] 页内标注

@@ -5,7 +5,7 @@ tags: [实体, 工具, Wiki, Agent, 知识库, 长期记忆, LangChain]
 sources:
   - raw/09-archive/2026-08-02-AI 时代的“HTML 时刻”：一个被严重低估的知识标准 OKF - 贾克斯的平行世界.md
   - raw/09-archive/为什么越来越多人用OpenWiki？.md
-last_updated: 2026-09-15
+last_updated: 2026-11-27
 ---
 
 ## 定义
@@ -121,3 +121,5 @@ OpenWiki 是快速采用 [[OKF]] 的上层应用：这些知识不必永远留�
 - [[WeKnora]] — 类似的 Wiki Mode 自动编译
 - [[AGENTS-md]] — 自动插入指针的机制
 - [[ClaudeCode]] / [[Codex]] / [[Cursor]] / [[OpenCode]] — 可发现并查阅 Wiki 的编程工具
+- [[PandaWiki]] — 方向相反的对照：为人做的对外文档站，而非为 Agent 做的编译层
+- [[pandawiki-vs-llmwiki-选型对比]] — 文档站类工具 vs LLM Wiki 编译层的选型判断

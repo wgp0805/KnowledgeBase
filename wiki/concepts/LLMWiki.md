@@ -6,7 +6,7 @@ sources:
   - raw/09-archive/2026-08-02-AI 时代的“HTML 时刻”：一个被严重低估的知识标准 OKF - 贾克斯的平行世界.md
   - raw/09-archive/为什么越来越多人用OpenWiki？.md
   - raw/09-archive/WorkBuddy搭建个人知识库保姆级教程.md
-last_updated: 2026-10-21
+last_updated: 2026-11-27
 ---
 
 ## 定义
@@ -47,3 +47,5 @@ LLM Wiki 是 Andrej Karpathy 于 2026 年初提出的一种知识库组织模式
 - [[LLMWiki分层架构]] — 三层架构（Raw / Schema / Wiki）
 - [[知识编译]] — 编译时产物与渐进式下钻检索
 - [[摘要-llm-wiki-实战管理数字分身]] — 来源（20 篇文章做管理数字分身的实战）
+- [[PandaWiki]] — 方向相反的对照：为**人**做的对外文档站，而非为 Agent 做的编译层
+- [[pandawiki-vs-llmwiki-选型对比]] — LLM Wiki 与文档站类工具的分野与选型判断
